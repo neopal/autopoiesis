@@ -6,8 +6,9 @@
 - [x] Recherche fondatrice et carte des tensions.
 - [x] Galerie exécutable + index d’évolution.
 - [x] **Typographie manuscrite v001** : passages, boucles exigées, pression/surprise/fatigue.
+- [x] Créer et lier le projet Vercel `autopoiesis` dans l’équipe `lairpa-hotmailfrs-projects` ; production : `https://autopoiesis-nine.vercel.app`.
+- [ ] Ajouter une Login Connection GitHub à Vercel puis connecter le repo pour que chaque push déploie automatiquement.
 - [ ] Lier un Vercel KV afin d’activer les votes côté serveur.
-- [ ] Créer et lier le projet Vercel `autopoiesis` dans l’équipe `lairpa-hotmailfrs-projects`.
 
 ## File de chantiers
 
