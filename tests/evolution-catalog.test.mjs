@@ -56,3 +56,13 @@ test('exhibition surfaces declare narrow-screen recomposition instead of clippin
   const fieldCss = await readFile(new URL('../galerie/field.css', import.meta.url), 'utf8');
   assert.match(fieldCss, /#rooms\s*\{[^}]*grid-template-columns:/s, 'room navigation must be a responsive grid, not fixed-width wrapped tiles');
 });
+
+test('the public field exposes auditable studies without mislabeling them as works', async () => {
+  const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
+  assert.match(gallery, /2 works\s*\/\s*4 questions\s*\/\s*2 field tests\s*\/\s*0 periods/);
+  assert.match(gallery, /\/spikes\/001-subtractive-ecology\//);
+  assert.match(gallery, /\/spikes\/002-disobedient-writing\//);
+  assert.match(gallery, /field tests are not works/i);
+  const fieldCode = await readFile(new URL('../galerie/field.js', import.meta.url), 'utf8');
+  assert.match(fieldCode, /2 field tests/, 'runtime count must preserve the study count');
+});

@@ -77,6 +77,15 @@ Display type is editorial and physical. Mono is for evidence, controls, dates, a
 
 Desktop and mobile are separate compositions. No layout may depend on clipped overflow. Mobile minimum action target: 44px. Work canvas has precedence over title block; pages reflow rather than shrinking a desktop poster.
 
+### Compatibility contract
+
+- Build for **320px first**, then deliberately compose at 390px, 768px, 1280px and 1920px. Do not use one layout with cosmetic scaling.
+- The artwork has a mobile-safe region distinct from title, metadata and controls. Canvas nodes and generated marks must reserve these regions or move when they conflict.
+- Touch, pointer and keyboard interactions must produce equivalent meaningful outcomes. Never require hover alone.
+- Essential text/control contrast must pass WCAG AA; decorative marks never compromise functional contrast.
+- `prefers-reduced-motion` is a content rule: a still/reduced state must retain the work’s causal structure, not merely stop an animation.
+- The first viewport is tested at every contract width before a release claim. A route with overflow, hidden controls, collisions, 404 first-party links, or console errors is rejected.
+
 ## Elevation & Depth
 
 No shadows, blur, glass, gradients, rounded cards, icon tiles, or ornamental borders. Depth can occur only through canvas layers, time, occlusion, or a true black/ink overlay.

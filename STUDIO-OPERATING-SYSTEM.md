@@ -42,6 +42,23 @@ Before code: state the changed rule, deterministic seed, expected visible conseq
 
 A trial needs a real local browser run, deterministic initial state, working documented controls, no imported assets, evidence dossier, passing tests and clean diff.
 
+### D1. Non-negotiable exhibition compatibility
+
+**Every public route is a real mobile and desktop composition.** Responsive does not mean a desktop canvas scaled down, a clipped poster, hidden labels, or inaccessible gestures.
+
+The release defender must test the exact public deployment at **320×568, 390×844, 768×1024, 1280×800 and 1920×1080**. At each viewport it must record:
+
+- no horizontal overflow (`scrollWidth ≤ viewport width`);
+- no collision between interactive / textual regions and the artwork;
+- every named control, link, exit and reset path remains present, legible and reachable;
+- pointer and touch have an equivalent path; keyboard has an equivalent path where the interaction needs it;
+- controls have a 44px touch target on narrow viewports;
+- artwork is not obscured by explanatory chrome and can be encountered before prose;
+- no browser console errors, failed first-party asset requests, or 404 routes;
+- `prefers-reduced-motion` removes non-essential motion without removing meaning.
+
+A screenshot alone is insufficient. Browser DOM evidence plus a real gesture/keyboard run are required. A public URL that has not passed this matrix is **not shippable**.
+
 ### E. Critique
 
 Formalist, Historian and Cynic ground claims in an observed run, source or code. The artist accepts one criticism and resists/defer one with a concrete consequence for the next version. Scores never aggregate into taste.
