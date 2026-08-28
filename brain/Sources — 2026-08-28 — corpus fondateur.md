@@ -106,23 +106,21 @@ concepts:
 
 ### Atsvshi — typographie
 - URL : https://x.com/atsvshi/status/2092527237560148386
-- statut : **blocked**
-- motif : aucun contenu extrait.
+- statut : **read** (capture X authentifiée)
+- texte observé : archive Chiho recommandée par un maître en typographie.
 - concepts : [[Contrainte plutôt que glyphe]]
 
 ### Skirook — ASCII lumineux
 - URL : https://x.com/Skirook/status/2092866327828627927
-- statut : **partial**
-- texte observé : expérimentation avec un langage visuel ASCII glowing ; réponse liée vers patterns Figma.
+- statut : **read** (capture X authentifiée)
+- texte observé : expérimentation avec un langage visuel ASCII glowing.
 - concepts : [[ASCII comme contrainte de densité]]
 - essai : séparer contrainte ASCII et esthétique néon ; d’abord mesure de densité/rythme.
 
-## Sources encore fermées
+## Capture authentifiée : blocage levé
 
-- https://x.com/msurguy/status/2092709705487683889 — `blocked`, aucun contenu.
-- https://x.com/acamposuribe/status/2092906714014093351 — `blocked`, mur de connexion.
-- https://x.com/estebanpm__/status/2092688339883208929 — `blocked`, mur de connexion.
-- https://x.com/ann_nnng/status/2093217880896852284 — `blocked`, aucun contenu.
-- https://x.com/Merzmensch/status/2092913264606728684 — `partial`, retour assumé vers l’esthétique symbolique/non-photoréaliste de Disco Diffusion ; aucune image reprise.
+La session X via Chrome a été rendue accessible le 2026-08-28. Les 17 URLs ont été relues dans le navigateur authentifié ; les textes visibles, blocs de conversation et éléments de média accessibles ont été conservés comme preuve brute.
 
-Relire [[Sources — protocole d’ingestion]] lors de l’ouverture d’une session X accessible.
+→ [[Sources — 2026-08-28 — X authenticated capture]]
+
+Seule la seconde publication Kevin Ngo est désormais `partial` : elle expose quatre routes photo mais aucun texte extractible/alt dans le DOM rendu. Aucun contenu n’est inféré.
