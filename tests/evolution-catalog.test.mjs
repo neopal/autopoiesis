@@ -41,3 +41,18 @@ test('an active Brush room has a runnable v001, evidence, and a deletion-aware m
     await readFile(new URL(`../chantiers/p5-brush/v001/${file}`, import.meta.url));
   }
 });
+
+test('exhibition surfaces declare narrow-screen recomposition instead of clipping', async () => {
+  const files = [
+    '../galerie/field.css',
+    '../chantiers/p5-brush/v001/style.css',
+    '../chantiers/typographie-manuscrite/v001/style.css'
+  ];
+  for (const path of files) {
+    const css = await readFile(new URL(path, import.meta.url), 'utf8');
+    assert.match(css, /@media\s*\(max-width:\s*650px\)/, `${path} needs a small-screen composition`);
+    assert.match(css, /overflow-y:\s*auto/, `${path} must permit vertical recovery instead of globally clipping interactive content`);
+  }
+  const fieldCss = await readFile(new URL('../galerie/field.css', import.meta.url), 'utf8');
+  assert.match(fieldCss, /#rooms\s*\{[^}]*grid-template-columns:/s, 'room navigation must be a responsive grid, not fixed-width wrapped tiles');
+});
