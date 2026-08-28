@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Subtractive Ecology</title>
+<style>
+  :root { background:#111512; color:#d9dfcb; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; min-height:100%; overflow:hidden; background:#111512; }
+  body { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; touch-action:none; }
+  canvas { display:block; width:100vw; height:100vh; cursor:crosshair; }
+  .caption { position:fixed; z-index:2; left:clamp(18px,4vw,52px); bottom:clamp(17px,4vw,42px); color:#c6ceba; font-size:10px; letter-spacing:.22em; text-transform:uppercase; opacity:.7; pointer-events:none; }
+  .caption i { color:#b8d559; font-style:normal; }
+  @media (max-width:600px) { .caption { font-size:8px; letter-spacing:.16em; } }
+</style>
+</head>
+<body>
+<canvas id="field"></canvas>
+<div class="caption">remove / <i>redirect</i></div>
+<script>
+(() => {
+  const canvas = document.querySelector('#field');
+  const ctx = canvas.getContext('2d');
+  let W=0,H=0,DPR=1, last=0, down=false, pointer={x:-999,y:-999};
+  const palette={bg:'#111512', grain:'#1c211c', body:'#d1d5c0', edge:'#edf0d9', scar:'#4c5648', moss:'#b8d559', glow:'#e3f19d', dust:'#87917b'};
+  let marks=[], scars=[], motes=[], pulses=[], bank=0, serial=0;
+  const rnd = (a,b)=>a+Math.random()*(b-a);
+  const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+  function resize(){ DPR=Math.min(devicePixelRatio||1,2); W=innerWidth; H=innerHeight; canvas.width=W*DPR; canvas.height=H*DPR; ctx.setTransform(DPR,0,0,DPR,0,0); if(!marks.length) seed(); }
+  function seed(){
+    marks=[]; scars=[]; motes=[]; pulses=[]; bank=0;
+    const n=W<600?15:25;
+    for(let i=0;i<n;i++){ const m=makeMark(rnd(W*.1,W*.9),rnd(H*.16,H*.83),rnd(-Math.PI,Math.PI),rnd(48,135),rnd(4,11),false); m.born=performance.now()-900; marks.push(m); }
+  }
+  function makeMark(x,y,a,len,w,fromScar){
+    return {id:serial++,x,y,a,len,w,life:1,fromScar, phase:rnd(0,Math.PI*2), born:performance.now(), spent:false};
+  }
+  function markPath(m){
+    const pts=[]; const N=13;
+    for(let i=0;i<N;i++){
+      const t=i/(N-1), bend=Math.sin(t*Math.PI)*Math.sin(m.phase)*.38;
+      const px=m.x+Math.cos(m.a+bend)*m.len*t + Math.sin(m.a)*Math.sin(t*Math.PI)*m.len*.07;
+      const py=m.y+Math.sin(m.a+bend)*m.len*t - Math.cos(m.a)*Math.sin(t*Math.PI)*m.len*.07;
+      pts.push([px,py]);
+    } return pts;
+  }
+  function distSeg(px,py,x1,y1,x2,y2){ const dx=x2-x1,dy=y2-y1,l=dx*dx+dy*dy||1; const t=clamp(((px-x1)*dx+(py-y1)*dy)/l,0,1); return Math.hypot(px-(x1+t*dx),py-(y1+t*dy)); }
+  function cut(x,y,r=26){
+    let harvested=0, nearest=null, best=Infinity;
+    for(const m of marks){
+      if(m.life<=0) continue;
+      const p=markPath(m); let d=Infinity;
+      for(let i=0;i<p.length-1;i++) d=Math.min(d,distSeg(x,y,p[i][0],p[i][1],p[i+1][0],p[i+1][1]));
+      if(d<r+m.w*.8 && d<best){nearest=m;best=d;}
+    }
+    if(nearest){
+      const yieldMass=Math.max(1,Math.round(nearest.len*nearest.w/145));
+      nearest.life=0; harvested=yieldMass;
+      const path=markPath(nearest); let anchor=path[0]; let ad=Infinity;
+      for(const q of path){const d=Math.hypot(q[0]-x,q[1]-y);if(d<ad){ad=d;anchor=q;}}
+      const scar={x:anchor[0],y:anchor[1],r:clamp(nearest.w*2.3+9,13,34), born:performance.now(),mass:yieldMass,spent:false, angle:nearest.a};
+      scars.push(scar); bank+=yieldMass;
+      for(let i=0;i<yieldMass;i++) motes.push({x:anchor[0],y:anchor[1],tx:W*.5+(i-yieldMass/2)*3,ty:40,vx:rnd(-1.6,1.6),vy:rnd(-2.4,-.3),age:0});
+      pulses.push({x:anchor[0],y:anchor[1],r:scar.r,age:0});
+    } else {
+      pulses.push({x,y,r:10,age:0,empty:true});
+    }
+  }
+  function spawnFromScars(now){
+    for(const s of scars){
+      if(s.spent || now-s.born<410 || bank<1) continue;
+      s.spent=true;
+      const count=Math.min(3, Math.max(1,Math.floor(s.mass/3)));
+      for(let i=0;i<count && bank>0;i++){
+        const theta=s.angle + Math.PI + (i-(count-1)/2)*.78;
+        const x=s.x+Math.cos(theta)*s.r*.82, y=s.y+Math.sin(theta)*s.r*.82;
+        const len=clamp(28+s.mass*3.6-i*5,30,88), width=clamp(2.1+s.mass*.12,2.3,6.2);
+        marks.push(makeMark(x,y,theta,len,width,true)); bank-=1;
+        pulses.push({x,y,r:4,age:0,seed:true,angle:theta});
+      }
+    }
+  }
+  function background(){
+    ctx.fillStyle=palette.bg; ctx.fillRect(0,0,W,H);
+    ctx.strokeStyle=palette.grain; ctx.lineWidth=1;
+    for(let y=16;y<H;y+=12){ ctx.globalAlpha=.32; ctx.beginPath(); ctx.moveTo(0,y+Math.sin(y)*2); ctx.lineTo(W,y+Math.cos(y*.1)*2); ctx.stroke(); }
+    ctx.globalAlpha=1;
+  }
+  function drawMark(m,now){
+    if(m.life<=0)return;
+    const grow=clamp((now-m.born)/560,0,1), pts=markPath(m), visible=Math.max(2,Math.floor(pts.length*grow));
+    ctx.save(); ctx.lineCap='round'; ctx.lineJoin='round';
+    // recessed shadow / material edge
+    ctx.beginPath(); ctx.moveTo(pts[0][0]+1.4,pts[0][1]+1.8); for(let i=1;i<visible;i++)ctx.lineTo(pts[i][0]+1.4,pts[i][1]+1.8);
+    ctx.strokeStyle='#6e7667';ctx.lineWidth=m.w+2;ctx.globalAlpha=.38;ctx.stroke();
+    ctx.beginPath();ctx.moveTo(...pts[0]);for(let i=1;i<visible;i++)ctx.lineTo(...pts[i]);
+    ctx.strokeStyle=m.fromScar?palette.moss:palette.body; ctx.lineWidth=m.w;ctx.globalAlpha=.92;ctx.stroke();
+    ctx.beginPath();ctx.moveTo(...pts[0]);for(let i=1;i<visible;i++)ctx.lineTo(...pts[i]);
+    ctx.strokeStyle=m.fromScar?palette.glow:palette.edge;ctx.lineWidth=Math.max(.55,m.w*.15);ctx.globalAlpha=.72;ctx.stroke();
+    // segment notches assert that material is finite, not mist
+    ctx.globalAlpha=.28;ctx.strokeStyle='#65705f';ctx.lineWidth=1;
+    for(let i=2;i<visible;i+=3){ const p=pts[i];ctx.beginPath();ctx.arc(p[0],p[1],m.w*.56,0,Math.PI*2);ctx.stroke(); }
+    ctx.restore();
+  }
+  function drawScar(s,now){
+    const age=now-s.born, b=1-clamp(age/1100,0,1);
+    ctx.save();ctx.translate(s.x,s.y);ctx.rotate(s.angle);
+    ctx.fillStyle='#0b0e0c';ctx.globalAlpha=.92;ctx.beginPath();ctx.ellipse(0,0,s.r*1.35,s.r*.74,0,0,Math.PI*2);ctx.fill();
+    ctx.strokeStyle=palette.scar;ctx.lineWidth=1.2;ctx.globalAlpha=.95;ctx.beginPath();ctx.ellipse(0,0,s.r*1.35,s.r*.74,0,0,Math.PI*2);ctx.stroke();
+    // three low-key exit gates on actual rim = compact causal indicator
+    ctx.globalAlpha=s.spent?.85:.35;ctx.fillStyle=palette.moss;
+    for(let i=-1;i<=1;i++){ const a=Math.PI+i*.32; const x=Math.cos(a)*s.r*1.35,y=Math.sin(a)*s.r*.74;ctx.beginPath();ctx.arc(x,y,s.spent?2.4:1.2,0,Math.PI*2);ctx.fill(); }
+    if(age<700){ctx.globalAlpha=b*.55;ctx.strokeStyle=palette.moss;ctx.lineWidth=1;ctx.beginPath();ctx.ellipse(0,0,s.r*1.35+age/24,s.r*.74+age/45,0,0,Math.PI*2);ctx.stroke();}
+    ctx.restore();
+  }
+  function drawBank(){
+    const slots=9, x=W/2-(slots*12)/2, y=28;
+    ctx.save();ctx.globalAlpha=.75;
+    for(let i=0;i<slots;i++){
+      const full=i<Math.min(bank,slots);ctx.fillStyle=full?palette.moss:'#30382f';ctx.fillRect(x+i*12,y,7,7);
+      if(full){ctx.fillStyle=palette.glow;ctx.fillRect(x+i*12,y,7,1);}
+    }
+    ctx.restore();
+  }
+  function frame(now){
+    background(); spawnFromScars(now);
+    for(const m of marks)drawMark(m,now);
+    for(const s of scars)drawScar(s,now);
+    for(const q of motes){ q.age+=.026;q.x+=(q.tx-q.x)*.035+q.vx;q.y+=(q.ty-q.y)*.035+q.vy;ctx.globalAlpha=Math.max(0,1-q.age);ctx.fillStyle=palette.moss;ctx.fillRect(q.x,q.y,2,2);}
+    motes=motes.filter(q=>q.age<1);
+    for(const p of pulses){p.age+=.025;ctx.globalAlpha=Math.max(0,1-p.age)*.48;ctx.strokeStyle=p.empty?palette.dust:palette.moss;ctx.lineWidth=1;ctx.beginPath();ctx.arc(p.x,p.y,p.r+p.age*46,0,Math.PI*2);ctx.stroke();}
+    pulses=pulses.filter(p=>p.age<1);
+    if(down){ctx.globalAlpha=.8;ctx.strokeStyle=palette.moss;ctx.lineWidth=1;ctx.beginPath();ctx.arc(pointer.x,pointer.y,23,0,Math.PI*2);ctx.stroke();}
+    drawBank();ctx.globalAlpha=1;requestAnimationFrame(frame);
+  }
+  function pos(e){const r=canvas.getBoundingClientRect();return{x:e.clientX-r.left,y:e.clientY-r.top};}
+  canvas.addEventListener('pointerdown',e=>{down=true;canvas.setPointerCapture(e.pointerId);pointer=pos(e);cut(pointer.x,pointer.y);});
+  canvas.addEventListener('pointermove',e=>{pointer=pos(e);if(down)cut(pointer.x,pointer.y,22);});
+  canvas.addEventListener('pointerup',()=>down=false);canvas.addEventListener('pointercancel',()=>down=false);
+  window.__ecology={getState:()=>({marks:marks.filter(m=>m.life>0).length,scars:scars.length,bank,scarBornMarks:marks.filter(m=>m.fromScar&&m.life>0).length}),reset:seed};
+  addEventListener('resize',resize);resize();requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

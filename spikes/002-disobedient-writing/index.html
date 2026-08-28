@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mutine / writing learns to disobey</title>
+  <style>
+    :root { --paper:#eee9df; --ink:#181714; --oxide:#a54d32; --ghost:#706a60; --rule:#bdb5a8; }
+    * { box-sizing:border-box; }
+    html, body { min-height:100%; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    main { width:min(1120px, 100%); min-height:100vh; margin:0 auto; padding:clamp(22px,5vw,64px) clamp(16px,4vw,48px) 34px; display:flex; flex-direction:column; }
+    header { display:flex; align-items:baseline; justify-content:space-between; gap:16px; border-bottom:1px solid var(--ink); padding-bottom:13px; }
+    .eyebrow, .state { margin:0; font-size:10px; letter-spacing:.115em; text-transform:uppercase; }
+    .state { color:var(--oxide); text-align:right; }
+    .statement { margin:clamp(45px,9vw,105px) 0 clamp(18px,3vw,34px); max-width:700px; font-family:Georgia, 'Times New Roman', serif; font-size:clamp(30px,5vw,62px); font-weight:400; line-height:.98; letter-spacing:-.055em; }
+    .statement em { color:var(--oxide); font-style:normal; }
+    .writing-wrap { border-top:1px solid var(--ink); border-bottom:1px solid var(--ink); overflow-x:auto; overflow-y:hidden; scrollbar-color:var(--oxide) transparent; }
+    #field { display:block; width:100%; min-width:830px; height:auto; padding:20px 0 14px; }
+    .legend { display:flex; justify-content:space-between; gap:18px; margin-top:10px; font-size:10px; letter-spacing:.05em; color:#676159; }
+    .legend span:last-child { color:var(--oxide); text-align:right; }
+    .controls { margin-top:auto; padding-top:clamp(45px,8vw,94px); display:grid; grid-template-columns:120px 1fr auto; gap:18px; align-items:center; }
+    .clock { font-size:11px; letter-spacing:.1em; color:var(--oxide); }
+    input[type="range"] { width:100%; min-width:0; appearance:none; height:1px; background:var(--ink); cursor:ew-resize; }
+    input[type="range"]::-webkit-slider-thumb { appearance:none; width:11px; height:11px; border-radius:0; border:1px solid var(--ink); background:var(--paper); }
+    input[type="range"]::-moz-range-thumb { width:10px; height:10px; border-radius:0; border:1px solid var(--ink); background:var(--paper); }
+    button { appearance:none; border:1px solid var(--ink); border-radius:0; background:transparent; color:var(--ink); padding:8px 10px; font:inherit; font-size:10px; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; white-space:nowrap; }
+    button:hover, button:focus-visible { background:var(--ink); color:var(--paper); outline:none; }
+    .notes { display:flex; justify-content:space-between; gap:22px; padding-top:15px; font-size:10px; line-height:1.45; color:#676159; }
+    .notes p { margin:0; max-width:410px; }
+    .notes strong { color:var(--ink); font-weight:400; }
+    @media (max-width:600px) {
+      header { display:block; }
+      .state { max-width:none; margin-top:7px; line-height:1.35; text-align:left; }
+      .legend { flex-direction:column; gap:6px; }
+      .legend span:last-child { text-align:left; }
+      .controls { grid-template-columns:1fr; gap:18px; }
+      .clock { grid-column:auto; }
+      .controls button { justify-self:start; }
+      .notes { flex-direction:column; gap:7px; }
+    }
+    @media (prefers-reduced-motion:reduce) { * { scroll-behavior:auto !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header><p class="eyebrow">Mutine / 002 / field test</p><p class="state" id="stateText">state 00 — consent</p></header>
+    <h1 class="statement">A writing system that<br>learns to <em>disobey.</em></h1>
+    <section class="writing-wrap" aria-label="A sentence changing over ten deterministic minutes">
+      <svg id="field" viewBox="0 0 900 300" role="img" aria-labelledby="drawingTitle drawingDescription">
+        <title id="drawingTitle">The phrase stay legible accumulating divergent handwritten attempts</title>
+        <desc id="drawingDescription">At first the phrase is readable. Over time pale prior attempts remain while new ink opens joins and bridges the word boundary.</desc>
+      </svg>
+    </section>
+    <div class="legend"><span>each pale path is an attempt still remembered</span><span id="boundaryText">boundary: intact</span></div>
+    <section class="controls" aria-label="Time controls">
+      <div class="clock" id="clock">00:00 / 10:00</div>
+      <input id="time" type="range" min="0" max="600" value="0" step="1" aria-label="Minutes of disobedience">
+      <button id="run" type="button">accelerate → 30 s</button>
+    </section>
+    <footer class="notes"><p><strong>Drag time.</strong> The same minute always makes the same mark. Space pauses; r returns to the first agreement.</p><p>Not a damaged font: an accumulating route that abandons one reading guarantee at a time.</p></footer>
+  </main>
+<script>
+(() => {
+  const svg = document.getElementById('field');
+  const slider = document.getElementById('time');
+  const clock = document.getElementById('clock');
+  const run = document.getElementById('run');
+  const stateText = document.getElementById('stateText');
+  const boundaryText = document.getElementById('boundaryText');
+  const NS = 'http://www.w3.org/2000/svg';
+  const phrase = 'stay legible';
+  const attempts = [0, .20, .42, .63, .82, 1];
+  const requestedMinute = Number(new URLSearchParams(location.search).get('minute'));
+  let playing = false, startedAt = 0, carried = Number.isFinite(requestedMinute) ? Math.max(0, Math.min(10, requestedMinute)) * 60 : 0, raf = 0;
+
+  // Hand-authored point paths: these are pen routes, not a font file.
+  const glyphs = {
+    s:[[[.84,.13],[.62,.05],[.29,.08],[.16,.26],[.27,.43],[.67,.48],[.84,.65],[.70,.87],[.35,.92],[.12,.82]]],
+    t:[[[.15,.18],[.86,.18]],[[.52,.06],[.49,.94]]],
+    a:[[[.17,.61],[.30,.31],[.61,.25],[.80,.46],[.70,.80],[.42,.90],[.19,.72],[.17,.61]],[[.77,.47],[.79,.94]]],
+    y:[[[.14,.19],[.44,.59],[.72,.18]],[[.44,.59],[.45,.93],[.25,1.12]]],
+    l:[[[.45,.07],[.43,.84],[.64,.94]]],
+    e:[[[.81,.46],[.62,.29],[.34,.33],[.16,.55],[.29,.82],[.65,.86],[.84,.70]]],
+    g:[[[.80,.41],[.61,.25],[.30,.31],[.15,.59],[.31,.84],[.62,.87],[.80,.66],[.80,.41]],[[.78,.71],[.73,1.10],[.46,1.18],[.22,1.04]]],
+    i:[[[.49,.35],[.48,.91]],[[.49,.12],[.50,.15]]],
+    b:[[[.32,.07],[.31,.93]],[[.33,.49],[.55,.29],[.78,.42],[.80,.71],[.62,.91],[.33,.77]]]
+  };
+  const positions = [];
+  let x = 78;
+  [...phrase].forEach((char, index) => {
+    if (char === ' ') { positions.push({char, x, index}); x += 68; return; }
+    positions.push({char, x, index});
+    x += char === 'i' ? 42 : char === 'y' ? 66 : 70;
+  });
+  const boundaryX = positions.find(p => p.char === ' ').x - 32;
+
+  const node = (tag, attrs = {}) => { const el = document.createElementNS(NS, tag); Object.entries(attrs).forEach(([k,v]) => el.setAttribute(k,v)); return el; };
+  const clamp = (v,a,b) => Math.max(a,Math.min(b,v));
+  const smooth = t => t*t*(3-2*t);
+  const frac = n => n - Math.floor(n);
+  const wiggle = (n) => frac(Math.sin(n * 91.713) * 43758.5453) * 2 - 1;
+  const dPath = pts => pts.map((p,i) => `${i ? 'L' : 'M'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+
+  function displacedPoint(pt, letterIndex, pointIndex, stage, actual) {
+    const p = smooth(stage);
+    const baseX = 0, baseY = 0;
+    const seed = (letterIndex + 1) * 19 + (pointIndex + 1) * 7 + actual * 23;
+    // The writing first gives up reliable continuity, then geometric territory.
+    const drift = p * p * 17;
+    const route = p > .43 ? smooth((p - .43) / .57) : 0;
+    const pull = p > .68 ? smooth((p - .68) / .32) : 0;
+    const side = letterIndex < 5 ? 1 : -1;
+    return [
+      baseX + pt[0] * 54 + wiggle(seed) * drift + side * route * (pointIndex % 2 ? 6 : -3) + pull * Math.sin(pointIndex * 2.4 + letterIndex) * 9,
+      93 + pt[1] * 99 + wiggle(seed + 3) * drift * .66 + route * (pt[0] - .5) * 17 + pull * (letterIndex % 2 ? -8 : 7)
+    ];
+  }
+
+  function routeFor(stroke, item, stage, actual) {
+    let pts = stroke.map((pt, pi) => displacedPoint(pt, item.index, pi, stage, actual).map((v, axis) => v + (axis === 0 ? item.x : 0)));
+    // Sacrifice a dependable connection by inserting an uninked gap in a route.
+    const fracture = stage > .18 && stroke.length > 3;
+    const splitAt = 1 + ((item.index + Math.round(actual * 10)) % (stroke.length - 2));
+    if (!fracture) return [pts];
+    const cut = clamp(smooth((stage - .18) / .82) * 7, 1.7, 7);
+    const a = pts[splitAt - 1], b = pts[splitAt];
+    const dx = b[0]-a[0], dy = b[1]-a[1], len = Math.hypot(dx,dy)||1;
+    const u = [dx/len,dy/len];
+    const left = pts.slice(0,splitAt).concat([[a[0]-u[0]*cut,a[1]-u[1]*cut]]);
+    const right = [[b[0]+u[0]*cut,b[1]+u[1]*cut]].concat(pts.slice(splitAt));
+    return [left,right];
+  }
+
+  function addPaper() {
+    const g = node('g', {opacity:'.34'});
+    [78, 192, 300].forEach(y => g.append(node('path',{d:`M 25 ${y} H 875`,stroke:'#bdb5a8','stroke-width':'.65','stroke-dasharray':'2 8'})));
+    svg.append(g);
+  }
+  function addAttempt(stage, actual, isCurrent) {
+    const opacity = isCurrent ? 1 : (.12 + actual * .14);
+    const g = node('g', {fill:'none', stroke:isCurrent ? '#181714' : '#706a60', 'stroke-width':isCurrent ? '4.2' : '2.15', 'stroke-linecap':'round', 'stroke-linejoin':'round', opacity});
+    positions.filter(item => item.char !== ' ').forEach(item => {
+      glyphs[item.char].forEach(stroke => routeFor(stroke,item,stage,actual).forEach(part => g.append(node('path',{d:dPath(part)}))));
+    });
+    svg.append(g);
+  }
+  function addBoundary(s) {
+    const migrate = s > .20 ? smooth((s-.20)/.52) : 0;
+    const seamX = boundaryX - migrate * 52;
+    const seam = node('g',{fill:'none',stroke:'#a54d32','stroke-width':'1.35','stroke-linecap':'round'});
+    if (s < .75) {
+      seam.append(node('path',{d:`M ${seamX.toFixed(1)} 56 C ${(seamX+8).toFixed(1)} 118 ${(seamX-12).toFixed(1)} 173 ${(seamX+3).toFixed(1)} 236`,'stroke-dasharray': s < .2 ? '1 9' : '1 5',opacity:(1-s*.58).toFixed(2)}));
+    } else {
+      const merge = smooth((s-.75)/.25);
+      seam.append(node('path',{d:`M ${(seamX-4).toFixed(1)} 142 C ${(seamX-31).toFixed(1)} ${(146+merge*18).toFixed(1)} ${(seamX+35).toFixed(1)} ${(149-merge*16).toFixed(1)} ${(seamX+66).toFixed(1)} 167`,opacity:'.92'}));
+      seam.append(node('path',{d:`M ${(seamX-32).toFixed(1)} 189 C ${(seamX-4).toFixed(1)} ${(174-merge*18).toFixed(1)} ${(seamX+25).toFixed(1)} ${(195+merge*11).toFixed(1)} ${(seamX+55).toFixed(1)} 185`,opacity:'.68'}));
+    }
+    svg.append(seam);
+  }
+  function labelFor(s) { return s < .2 ? 'consent' : s < .42 ? 'fracture' : s < .63 ? 'migration' : s < .82 ? 'rerouting' : 'merger'; }
+  function render(seconds) {
+    const s = seconds / 600;
+    svg.replaceChildren(); addPaper();
+    const prior = attempts.filter(a => a < s - .015);
+    prior.forEach(a => addAttempt(a,a,false));
+    addBoundary(s); addAttempt(s,s,true);
+    const mins = String(Math.floor(seconds/60)).padStart(2,'0'); const secs = String(Math.floor(seconds%60)).padStart(2,'0');
+    clock.textContent = `${mins}:${secs} / 10:00`;
+    const phase = labelFor(s); stateText.textContent = `state ${String(Math.floor(s*10)).padStart(2,'0')} — ${phase}`;
+    boundaryText.textContent = s < .2 ? 'boundary: intact' : s < .75 ? 'boundary: migrating' : 'boundary: merged into route';
+    slider.value = Math.round(seconds);
+  }
+  function setPlaying(next) {
+    playing = next; run.textContent = playing ? 'pause acceleration' : 'accelerate → 30 s';
+    if (playing) { startedAt = performance.now(); tick(); } else { cancelAnimationFrame(raf); }
+  }
+  function tick(now = performance.now()) {
+    if (!playing) return;
+    const elapsed = (now - startedAt) / 1000;
+    carried = Math.min(600, carried + elapsed * 20); // 10 min written in 30 real seconds.
+    startedAt = now; render(carried);
+    if (carried >= 600) { setPlaying(false); return; }
+    raf = requestAnimationFrame(tick);
+  }
+  slider.addEventListener('input', () => { carried = Number(slider.value); if (playing) setPlaying(false); render(carried); });
+  run.addEventListener('click', () => { if (carried >= 600) { carried = 0; render(0); } setPlaying(!playing); });
+  document.addEventListener('keydown', e => { if (e.key === ' ' && e.target.tagName !== 'INPUT') { e.preventDefault(); run.click(); } if (e.key.toLowerCase() === 'r') { setPlaying(false); carried = 0; render(0); } });
+  render(carried);
+})();
+</script>
+</body>
+</html>
