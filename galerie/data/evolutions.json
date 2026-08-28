@@ -1,0 +1,20 @@
+{
+  "evolutions": [
+    {
+      "id": "typographie-manuscrite-v001",
+      "chantier": "typographie-manuscrite",
+      "version": "v001",
+      "date": "2026-08-28",
+      "title": "La lettre ne sait pas encore son nom",
+      "seed": "mutine-v001-autopoiese",
+      "path": "/chantiers/typographie-manuscrite/v001/",
+      "note": "Première main : les lettres sont des passages sous contraintes, non des glyphes. Les boucles ne sont pas dessinées ; elles sont exigées au trajet.",
+      "metrics": { "entropy": 0.63, "density": 0.41, "symmetry": 0.18 },
+      "critiques": [
+        { "persona": "Formaliste", "scores": { "composition": 6, "rythme": 7, "economie": 8 }, "argument": "La ligne tient par respirations, mais le dernier mot se disperse trop vite." },
+        { "persona": "Historienne", "scores": { "originalite": 7, "filiation": 6 }, "argument": "La dette à l'écriture automatique est visible ; le refus du glyphe canonique ouvre une divergence nette." },
+        { "persona": "Cynique", "scores": { "complaisance": 3, "decorativite": 2 }, "argument": "Pas encore joli : c'est sa qualité. Il reste à prouver que la contrainte produit une nécessité plutôt qu'un tremblement élégant." }
+      ]
+    }
+  ]
+}
