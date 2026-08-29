@@ -54,20 +54,30 @@ test('exhibition surfaces declare narrow-screen recomposition instead of clippin
     assert.match(css, /overflow-y:\s*auto/, `${path} must permit vertical recovery instead of globally clipping interactive content`);
   }
   const fieldCss = await readFile(new URL('../galerie/field.css', import.meta.url), 'utf8');
-  assert.match(fieldCss, /#rooms\s*\{[^}]*grid-template-columns:/s, 'room navigation must be a responsive grid, not fixed-width wrapped tiles');
-  assert.match(fieldCss, /#inspect\s*\{[^}]*visibility:\s*hidden/s, 'closed inspector must not be focusable or visible');
-  assert.match(fieldCss, /#inspect\s*\{[^}]*opacity:\s*0/s, 'closed inspector must be visually hidden without moving off-canvas');
-  assert.match(fieldCss, /#inspect\s*\{[^}]*transition:\s*opacity/s, 'inspector state change must retain deliberate motion');
-  assert.match(fieldCss, /#inspect\.open\s*\{[^}]*visibility:\s*visible/s, 'opened inspector must be explicitly restored within the viewport');
-  assert.match(fieldCss, /#inspect\.open\s*\{[^}]*opacity:\s*1/s, 'opened inspector must be visibly restored');
+  assert.match(fieldCss, /main\s*\{[^}]*overflow:\s*hidden/s, 'the autonomous artwork must keep its own composition bounded');
+  assert.match(fieldCss, /@media\s*\(max-width:\s*650px\)/, 'the autonomous artwork needs a narrow-screen composition');
+  assert.match(fieldCss, /\.title\s*\{[^}]*max-width:\s*calc\(100vw\s*-\s*36px\)/s, 'the mobile title must reserve a viewport-bounded column');
+  assert.match(fieldCss, /\.title h1\s*\{[^}]*font-size:\s*clamp\(52px,14vw,78px\)/s, 'the mobile title must not grow beyond its narrow-screen composition');
 });
 
-test('the public field exposes auditable studies without mislabeling them as works', async () => {
+test('the opening keeps field tests available without calling them works', async () => {
   const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
-  assert.match(gallery, /2 works\s*\/\s*4 questions\s*\/\s*2 field tests\s*\/\s*0 periods/);
+  assert.match(gallery, /public study/i);
   assert.match(gallery, /\/spikes\/001-subtractive-ecology\//);
   assert.match(gallery, /\/spikes\/002-disobedient-writing\//);
-  assert.match(gallery, /field tests are not works/i);
+  assert.doesNotMatch(gallery, /field tests are works/i);
+});
+
+test('the opening encounter is an autonomous artwork, not a visitor control panel', async () => {
+  const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
   const fieldCode = await readFile(new URL('../galerie/field.js', import.meta.url), 'utf8');
-  assert.match(fieldCode, /2 field tests/, 'runtime count must preserve the study count');
+  const fieldCss = await readFile(new URL('../galerie/field.css', import.meta.url), 'utf8');
+  assert.doesNotMatch(gallery, /<button\b/i, 'the opening encounter must not ask visitors to operate a UI');
+  assert.match(gallery, /<canvas id="field"[^>]*aria-label="Evidence under tolerance"/);
+  assert.match(gallery, /creation\s*→\s*critique\s*→\s*progression/i);
+  assert.match(fieldCode, /requestAnimationFrame\(frame\)/, 'the opening artwork must advance without visitor input');
+  assert.doesNotMatch(fieldCode, /addEventListener\(['"](?:click|pointer|key)/, 'the opening artwork must not rely on pointer or keyboard controls');
+  assert.match(fieldCode, /function resize\(\)[\s\S]*?render\(performance\.now\(\)\)/, 'reduced-motion artwork must re-render after a resize');
+  assert.match(fieldCode, /if\s*\(width\s*>=\s*650\)/, 'the moving tolerance caption must withdraw rather than clip on narrow canvases');
+  assert.match(fieldCss, /canvas\s*\{[^}]*touch-action:\s*(?:auto|pan-y)/s, 'a non-interactive canvas must preserve browser touch navigation');
 });

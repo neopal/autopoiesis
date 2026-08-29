@@ -1,10 +1,88 @@
-const canvas=document.querySelector('#field'),ctx=canvas.getContext('2d'),inspect=document.querySelector('#inspect');
-let studio=[],evolutions=[],selected=0,pointer=null,points=[];
-const hash=(s)=>[...s].reduce((n,c)=>((n<<5)-n+c.charCodeAt(0))|0,0)>>>0;
-function resize(){const d=Math.min(devicePixelRatio||1,2),r=canvas.getBoundingClientRect();canvas.width=r.width*d;canvas.height=r.height*d;ctx.setTransform(d,0,0,d,0,0);layout();draw()}
-function layout(){const w=canvas.clientWidth,h=canvas.clientHeight,mobile=w<=650;points=evolutions.map((x,i)=>{const n=hash(x.id);return{x,...x,xp:mobile?w*(.32+i*.28):w*(.25+((n%1000)/1000)*.55),yp:mobile?h*(.48+i*.28):h*(.20+(((n>>>10)%1000)/1000)*.60),r:14+i*4}});}
-function draw(){const w=canvas.clientWidth,h=canvas.clientHeight;ctx.clearRect(0,0,w,h);ctx.fillStyle='#d8d0be';ctx.fillRect(0,0,w,h);ctx.strokeStyle='rgba(18,18,15,.19)';ctx.lineWidth=1;for(let i=0;i<points.length;i++){for(let j=i+1;j<points.length;j++){ctx.beginPath();ctx.moveTo(points[i].xp,points[i].yp);ctx.lineTo(points[j].xp,points[j].yp);ctx.stroke();}}if(pointer){ctx.strokeStyle='rgba(180,65,45,.34)';ctx.beginPath();ctx.arc(pointer.x,pointer.y,38,0,Math.PI*2);ctx.stroke()}points.forEach((p,i)=>{const active=i===selected;ctx.fillStyle=active?'#b4412d':'#12120f';ctx.beginPath();ctx.arc(p.xp,p.yp,active?p.r+5:p.r,0,Math.PI*2);ctx.fill();ctx.fillStyle='#d8d0be';ctx.font='10px DM Mono';ctx.textAlign='center';ctx.fillText(p.version,p.xp,p.yp+3);ctx.fillStyle='#12120f';ctx.textAlign='left';ctx.fillText(p.chantier.replace('typographie-manuscrite','handwriting'),p.xp+p.r+9,p.yp+4);});}
-function select(index,open=true){if(!points.length)return;selected=(index+points.length)%points.length;const p=points[selected];document.querySelector('#kind').textContent=`${p.chantier.toUpperCase()} / ${p.version}`;document.querySelector('#title').textContent=p.title;document.querySelector('#note').textContent=p.note;document.querySelector('#changed').textContent=p.note;document.querySelector('#doubt').textContent=p.id==='p5-brush-v001'?'Does removal alter the next mark, or decorate the last?':'Can route-cost become legible rather than ornamental?';document.querySelector('#source').innerHTML=p.source?`<a href="${p.source}" target="_blank" rel="noreferrer">source trace ↗</a>`:'founding constraint';document.querySelector('#links').innerHTML=`<a href="..${p.path}">enter work ↗</a><a href="../brain/README.md">brain ↗</a>`;if(open)inspect.classList.add('open');draw();document.querySelectorAll('#rooms button').forEach(b=>b.dataset.active=String(b.dataset.id===p.chantier));}
-function rooms(){document.querySelector('#rooms').innerHTML=studio.map((x,i)=>`<button data-id="${x.id}" ${x.state==='dormant'?'aria-label="'+x.title+' — question only"':''}>${String(i+1).padStart(2,'0')} / ${x.title}<small>${x.state==='active'?x.evolution:'forming'}</small></button>`).join('');document.querySelectorAll('#rooms button').forEach((b,i)=>b.onclick=()=>{const room=studio[i],found=points.findIndex(p=>p.chantier===room.id||p.chantier==='typographie-manuscrite'&&room.id==='typography'||p.chantier==='p5-brush'&&room.id==='brush');if(found>=0)select(found);else{document.querySelector('#kind').textContent='FORMING';document.querySelector('#title').textContent=room.title;document.querySelector('#note').textContent=room.question;document.querySelector('#changed').textContent='no work yet';document.querySelector('#doubt').textContent=room.question;document.querySelector('#source').textContent='open problem';document.querySelector('#links').innerHTML='<a href="../brain/04%20%E2%80%94%20Chantiers.md">studio register ↗</a>';inspect.classList.add('open')}})}
-canvas.addEventListener('pointermove',e=>{const r=canvas.getBoundingClientRect();pointer={x:e.clientX-r.left,y:e.clientY-r.top};draw()});canvas.addEventListener('pointerleave',()=>{pointer=null;draw()});canvas.addEventListener('click',e=>{const r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;let hit=points.findIndex(p=>Math.hypot(p.xp-x,p.yp-y)<p.r+16);if(hit>=0)select(hit)});document.querySelector('#close').onclick=()=>inspect.classList.remove('open');document.querySelector('#help').onclick=()=>{const h=document.querySelector('#help-sheet');h.hidden=!h.hidden;document.querySelector('#help').setAttribute('aria-expanded',String(!h.hidden))};addEventListener('keydown',e=>{if(e.key==='Escape'){inspect.classList.remove('open');document.querySelector('#help-sheet').hidden=true}if(e.key==='?')document.querySelector('#help').click();if(e.key==='j')select(selected+1);if(e.key==='k')select(selected-1);if(/^[1-6]$/.test(e.key))document.querySelectorAll('#rooms button')[Number(e.key)-1]?.click()});
-Promise.all([fetch('/galerie/data/studio.json').then(r=>r.json()),fetch('/galerie/data/evolutions.json').then(r=>r.json())]).then(([s,e])=>{studio=s.chantiers;evolutions=e.evolutions;document.querySelector('#count').textContent=`${evolutions.length} works / ${studio.filter(x=>x.state==='dormant').length} questions / 2 field tests / 0 periods`;rooms();resize();select(0,false)}).catch(()=>document.querySelector('#count').textContent='archive unavailable');addEventListener('resize',resize);
+const canvas = document.querySelector('#field');
+const ctx = canvas.getContext('2d', { alpha: false });
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let width = 0, height = 0, ratio = 1, colonies = [];
+
+const hash = (n) => {
+  const x = Math.sin(n * 78.233) * 43758.5453;
+  return x - Math.floor(x);
+};
+
+function resize() {
+  const rect = canvas.getBoundingClientRect();
+  ratio = Math.min(devicePixelRatio || 1, 2);
+  width = rect.width;
+  height = rect.height;
+  canvas.width = Math.round(width * ratio);
+  canvas.height = Math.round(height * ratio);
+  ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+  colonies = Array.from({ length: Math.max(42, Math.floor(width / 22)) }, (_, i) => ({
+    x: width * (.05 + .9 * hash(i + 2)),
+    y: height * (.10 + .78 * hash(i + 27)),
+    seed: i + 1,
+    span: 10 + hash(i + 61) * Math.min(52, width * .08),
+    tilt: (hash(i + 91) - .5) * .7
+  }));
+  render(performance.now());
+}
+
+function line(x1, y1, x2, y2, alpha, weight = 1) {
+  ctx.strokeStyle = `rgba(220, 214, 193, ${alpha})`;
+  ctx.lineWidth = weight;
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+}
+
+function colony(c, phase) {
+  const pulse = (Math.sin(phase * Math.PI * 2 + c.seed) + 1) / 2;
+  const witness = Math.max(0, 1 - Math.abs(phase - hash(c.seed + 108)) * 3.6);
+  const strands = 3 + Math.floor(hash(c.seed + 140) * 6);
+  for (let strand = 0; strand < strands; strand += 1) {
+    const startX = c.x + (strand - strands / 2) * 2;
+    const startY = c.y + (hash(c.seed * 7 + strand) - .5) * c.span * .3;
+    let x = startX, y = startY;
+    ctx.beginPath(); ctx.moveTo(x, y);
+    for (let step = 1; step < 22; step += 1) {
+      const bend = Math.sin(step * .66 + c.seed * .4 + phase * 8) * (1.5 + pulse * 2.4);
+      x += Math.cos(c.tilt + bend * .16) * (c.span / 16);
+      y += Math.sin(c.tilt + bend * .22) * (c.span / 18) + (strand - strands / 2) * .08;
+      ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = `rgba(220, 214, 193, ${.04 + witness * .45})`;
+    ctx.lineWidth = strand === 0 ? 1.35 : .55;
+    ctx.stroke();
+  }
+  if (witness > .06) {
+    ctx.fillStyle = `rgba(188, 68, 43, ${witness * .9})`;
+    ctx.beginPath(); ctx.arc(c.x, c.y, 1.5 + witness * 3.4, 0, Math.PI * 2); ctx.fill();
+  }
+}
+
+function render(now) {
+  const phase = reduce ? .62 : (now % 28000) / 28000;
+  ctx.fillStyle = '#171714'; ctx.fillRect(0, 0, width, height);
+  const grain = Math.max(18, Math.floor(width / 31));
+  for (let i = 0; i < grain; i += 1) {
+    const x = (i / grain) * width;
+    line(x, height * .08, x + Math.sin(i * 11) * 9, height * .9, .035, .5);
+  }
+  colonies.forEach((c) => colony(c, phase));
+  const tolerance = width * (.12 + phase * .76);
+  ctx.fillStyle = 'rgba(188, 68, 43, .11)'; ctx.fillRect(tolerance - 1, height * .08, 2, height * .82);
+  line(tolerance, height * .08, tolerance, height * .90, .95, 1.2);
+  if (width >= 650) {
+    const score = Math.floor(12 + phase * 74);
+    ctx.fillStyle = 'rgba(220, 214, 193, .5)'; ctx.font = '10px ui-monospace, monospace';
+    ctx.textAlign = tolerance > width - 170 ? 'right' : 'left';
+    ctx.fillText(`RETAINED CONTOUR / ${String(score).padStart(2, '0')}%`, tolerance + (tolerance > width - 170 ? -10 : 10), height * .90);
+    ctx.textAlign = 'left';
+  }
+}
+
+function frame(now) {
+  render(now);
+  if (!reduce) requestAnimationFrame(frame);
+}
+
+new ResizeObserver(resize).observe(canvas);
+resize();
+requestAnimationFrame(frame);
