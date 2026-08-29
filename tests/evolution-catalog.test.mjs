@@ -55,6 +55,11 @@ test('exhibition surfaces declare narrow-screen recomposition instead of clippin
   }
   const fieldCss = await readFile(new URL('../galerie/field.css', import.meta.url), 'utf8');
   assert.match(fieldCss, /#rooms\s*\{[^}]*grid-template-columns:/s, 'room navigation must be a responsive grid, not fixed-width wrapped tiles');
+  assert.match(fieldCss, /#inspect\s*\{[^}]*visibility:\s*hidden/s, 'closed inspector must not be focusable or visible');
+  assert.match(fieldCss, /#inspect\s*\{[^}]*opacity:\s*0/s, 'closed inspector must be visually hidden without moving off-canvas');
+  assert.match(fieldCss, /#inspect\s*\{[^}]*transition:\s*opacity/s, 'inspector state change must retain deliberate motion');
+  assert.match(fieldCss, /#inspect\.open\s*\{[^}]*visibility:\s*visible/s, 'opened inspector must be explicitly restored within the viewport');
+  assert.match(fieldCss, /#inspect\.open\s*\{[^}]*opacity:\s*1/s, 'opened inspector must be visibly restored');
 });
 
 test('the public field exposes auditable studies without mislabeling them as works', async () => {
