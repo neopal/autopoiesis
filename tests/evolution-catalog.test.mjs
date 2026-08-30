@@ -68,6 +68,33 @@ test('the opening keeps field tests available without calling them works', async
   assert.doesNotMatch(gallery, /field tests are works/i);
 });
 
+test('the opening links every runnable study once and does not elevate a held record', async () => {
+  const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
+  const currentStudies = gallery.match(/<nav aria-label="Current studies">([\s\S]*?)<\/nav>/)?.[1];
+  assert.ok(currentStudies, 'the opening must contain its explicit Current studies navigation');
+  const hrefs = [...currentStudies.matchAll(/<a\s+href="([^"]+)"[^>]*>/g)].map((match) => match[1]);
+  assert.deepEqual(hrefs, [
+    '/chantiers/typographie-manuscrite/v001/',
+    '/chantiers/p5-brush/v001/',
+    '/spikes/001-subtractive-ecology/',
+    '/spikes/002-disobedient-writing/'
+  ], 'the explicit opening navigation must expose each runnable item once, in authored order');
+  assert.doesNotMatch(gallery, /href="\/atelier\//, 'the held accountability record must not compete with works in opening navigation');
+});
+
+test('the opening masthead remains a genuine touch-sized exit', async () => {
+  const fieldCss = await readFile(new URL('../galerie/field.css', import.meta.url), 'utf8');
+  assert.match(fieldCss, /header a\s*\{[^}]*min-height:\s*44px/s, 'the MUTINE return link needs a 44px touch target');
+  assert.match(fieldCss, /header a\s*\{[^}]*display:\s*inline-flex/s, 'the touch target must be an actual layout box');
+  assert.match(fieldCss, /header a\s*\{[^}]*align-items:\s*center/s, 'the masthead wordmark must remain centered in its touch target');
+});
+
+test('the opening declares its own favicon instead of emitting a first-party 404', async () => {
+  const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
+  assert.match(gallery, /<link rel="icon" href="\/galerie\/favicon\.svg" type="image\/svg\+xml">/);
+  await readFile(new URL('../galerie/favicon.svg', import.meta.url));
+});
+
 test('the opening encounter is an autonomous artwork, not a visitor control panel', async () => {
   const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
   const fieldCode = await readFile(new URL('../galerie/field.js', import.meta.url), 'utf8');
