@@ -27,4 +27,5 @@ The deletion test is now repeatable in the repository's normal Node test suite i
 
 ## Open
 
-The production route must be rechecked after this extraction. Responsive and reduced-motion evidence remain open at the five contract viewports.
+- Production follow-up: `https://autopoiesis-nine.vercel.app/chantiers/typographie-manuscrite/v002/?rev=1db42c3` returned HTTP `200`; the preview pane read the module-backed title, seed, annotations, and `CREATION → CRITIQUE → PROGRESSION`. Direct probes returned HTTP `200` for `engine.mjs` and `sketch.js`.
+- Responsive and reduced-motion evidence remain open at the five contract viewports.
