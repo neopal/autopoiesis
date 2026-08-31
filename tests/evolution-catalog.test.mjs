@@ -145,13 +145,28 @@ test('Handwriting v002 is an autonomous progressive work, not a visitor-operated
   assert.equal(work.critiques.length, 3);
   const html = await readFile(new URL('../chantiers/typographie-manuscrite/v002/index.html', import.meta.url), 'utf8');
   const sketch = await readFile(new URL('../chantiers/typographie-manuscrite/v002/sketch.js', import.meta.url), 'utf8');
+  const engine = await readFile(new URL('../chantiers/typographie-manuscrite/v002/engine.mjs', import.meta.url), 'utf8');
   for (const file of ['style.css', 'README.md', 'metrics.json', 'critiques.json', 'reponse.md']) {
     await readFile(new URL(`../chantiers/typographie-manuscrite/v002/${file}`, import.meta.url));
   }
   assert.doesNotMatch(html, /<(?:button|input|select|textarea)\b/i, 'v002 must not ask the visitor to operate the work');
   assert.doesNotMatch(sketch, /addEventListener\s*\(/, 'v002 must not depend on visitor events');
   assert.match(sketch, /requestAnimationFrame\(frame\)/, 'v002 must progress through an authored timeline');
-  assert.match(sketch, /stage\s*===\s*0/, 'v002 must seed its first refusal or later stages cannot inherit memory');
+  assert.match(engine, /stage\s*===\s*0/, 'v002 must seed its first refusal or later stages cannot inherit memory');
   assert.match(sketch, /(?:memory|scar|revision|failure)/i, 'v002 must carry failure into a later formal decision');
   assert.match(html, /creation\s*→\s*critique\s*→\s*progression/i);
+});
+
+test('Handwriting v002 engine makes scar deletion testable outside the canvas', async () => {
+  const engine = await import(new URL('../chantiers/typographie-manuscrite/v002/engine.mjs', import.meta.url));
+  const baseline = engine.buildStage(3);
+  const intact = engine.makeRoutes(3, baseline.memory);
+  const removed = engine.makeRoutes(3, baseline.memory.slice(0, -1));
+  const changedPoints = intact.reduce((total, route, routeIndex) => total + route.points.reduce((count, point, pointIndex) => {
+    const comparison = removed[routeIndex].points[pointIndex];
+    return count + (point.x !== comparison.x || point.y !== comparison.y ? 1 : 0);
+  }, 0), 0);
+  assert.equal(JSON.stringify(baseline), JSON.stringify(engine.buildStage(3)), 'the same stage must be repeatable');
+  assert.equal(baseline.memory.length, 9);
+  assert.ok(changedPoints > 0, 'removing one inherited scar must alter later geometry');
 });
