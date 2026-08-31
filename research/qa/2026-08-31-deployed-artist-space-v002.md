@@ -33,7 +33,7 @@ The automated browser snapshot/console harness failed on the production HTML wit
 
 - five-width responsive matrix: not yet observed;
 - reduced-motion runtime on production: not yet observed;
-- adversarial deletion test removing one inherited scar and comparing the later route: not yet observed;
+- adversarial deletion test: local pass; removing one inherited scar changed 5 later route points, but the deployed perceptual reading is not yet observed;
 - independent art critique of the deployed canvas: still required before calling v002 a work;
 - Brush v001 remains a held visitor-operated interaction;
 - no period is declared.
