@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mutine / writing learns to disobey</title>
+  <link rel="stylesheet" href="/galerie/wayfinding.css">
   <style>
     :root { --paper:#eee9df; --ink:#181714; --oxide:#a54d32; --ghost:#706a60; --rule:#bdb5a8; }
     * { box-sizing:border-box; }
@@ -44,7 +45,8 @@
 </head>
 <body>
   <main>
-    <header><p class="eyebrow">Mutine / 002 / field test</p><p class="state" id="stateText">state 00 — consent</p></header>
+    <nav class="studio-path" aria-label="Studio path"><a href="/galerie/">gallery</a><span aria-hidden="true">→</span><a href="/oeuvres/#field-tests">field tests</a><span aria-hidden="true">→</span><span aria-current="page">disobedient writing</span></nav>
+    <header><p class="eyebrow">Mutine / 002 / field test</p><p class="state" id="stateText">state 00 — consent</p><nav class="studio-nav" aria-label="Studio navigation"><a href="/galerie/">gallery</a><a href="/courants/">currents</a><a href="/oeuvres/">works</a><a href="/journal/">journal</a></nav></header>
     <h1 class="statement">A writing system that<br>learns to <em>disobey.</em></h1>
     <section class="writing-wrap" aria-label="A sentence changing over ten deterministic minutes">
       <svg id="field" viewBox="0 0 900 300" role="img" aria-labelledby="drawingTitle drawingDescription">
@@ -53,6 +55,7 @@
       </svg>
     </section>
     <div class="legend"><span>each pale path is an attempt still remembered</span><span id="boundaryText">boundary: intact</span></div>
+    <section class="studio-context" aria-label="Field test context"><p><strong>classification</strong> / field test · not an autonomous work · creation → critique → progression</p><span><a href="/oeuvres/#field-tests">all field tests ↗</a> <a href="/journal/#writing-hold">history ↗</a></span></section>
     <section class="controls" aria-label="Time controls">
       <div class="clock" id="clock">00:00 / 10:00</div>
       <input id="time" type="range" min="0" max="600" value="0" step="1" aria-label="Minutes of disobedience">

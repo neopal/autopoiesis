@@ -60,6 +60,21 @@ function colony(c, phase) {
 function render(now) {
   const phase = reduce ? .62 : (now % 28000) / 28000;
   ctx.fillStyle = '#171714'; ctx.fillRect(0, 0, width, height);
+
+  const canvasBox = canvas.getBoundingClientRect();
+  const titleZone = document.querySelector('.title').getBoundingClientRect();
+  const margin = 12;
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(0, 0, width, height);
+  ctx.rect(
+    titleZone.left - canvasBox.left - margin,
+    titleZone.top - canvasBox.top - margin,
+    titleZone.width + margin * 2,
+    titleZone.height + margin * 2
+  );
+  ctx.clip('evenodd');
+
   const grain = Math.max(18, Math.floor(width / 31));
   for (let i = 0; i < grain; i += 1) {
     const x = (i / grain) * width;
@@ -76,6 +91,7 @@ function render(now) {
     ctx.fillText(`RETAINED CONTOUR / ${String(score).padStart(2, '0')}%`, tolerance + (tolerance > width - 170 ? -10 : 10), height * .90);
     ctx.textAlign = 'left';
   }
+  ctx.restore();
 }
 
 function frame(now) {

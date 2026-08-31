@@ -24,11 +24,13 @@ export function makeRoutes(stage, memory) {
       y += Math.sin((step + stage * .7 + index) * .72) * .055;
       points.push({ x, y });
     }
+    const draftPoints = points.map((point) => ({ ...point }));
     const pressurePoint = memory.reduce((nearest, scar) => {
       const candidate = points[3];
       return !nearest || distance(candidate, scar) < distance(candidate, nearest) ? scar : nearest;
     }, null);
     const hit = pressurePoint && distance(points[3], pressurePoint) < .22;
+    const memoryInfluence = hit ? Math.max(0, 1 - distance(points[3], pressurePoint) / .22) : 0;
     if (hit) {
       const direction = points[3].y >= pressurePoint.y ? .10 : -.10;
       points.forEach((point, step) => {
@@ -42,6 +44,8 @@ export function makeRoutes(stage, memory) {
     const failureSegment = failed ? 2 + ((index + stage) % 3) : -1;
     return {
       points,
+      draftPoints,
+      memoryInfluence,
       failed,
       failureSegment,
       scar: failed ? points[failureSegment] : null,

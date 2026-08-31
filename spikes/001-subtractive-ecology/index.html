@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Subtractive Ecology</title>
+<link rel="stylesheet" href="/galerie/wayfinding.css">
 <style>
   :root { background:#111512; color:#d9dfcb; }
   * { box-sizing:border-box; }
@@ -16,8 +17,12 @@
 </style>
 </head>
 <body>
+<div class="studio-wayfinding fullfield-wayfinding">
+  <nav class="studio-nav" aria-label="Studio navigation"><a href="/galerie/">gallery</a><a href="/courants/">currents</a><a href="/oeuvres/">works</a><a href="/journal/">journal</a></nav>
+  <nav class="studio-path" aria-label="Studio path"><a href="/galerie/">gallery</a><span aria-hidden="true">→</span><a href="/oeuvres/#field-tests">field tests</a><span aria-hidden="true">→</span><span aria-current="page">subtractive ecology</span></nav>
+</div>
 <canvas id="field"></canvas>
-<div class="caption">remove / <i>redirect</i></div>
+<div class="caption">remove / <i>redirect</i> · creation → critique → progression</div>
 <script>
 (() => {
   const canvas = document.querySelector('#field');

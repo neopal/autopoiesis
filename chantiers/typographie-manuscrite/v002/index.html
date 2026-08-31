@@ -7,15 +7,17 @@
   <title>MUTINE — the route remembers</title>
   <link rel="icon" href="/galerie/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/galerie/wayfinding.css">
 </head>
 <body>
   <header class="masthead">
     <a class="mark" href="/galerie/" aria-label="Return to Mutine field">MUTINE</a>
     <p>HANDWRITING / v002</p>
-    <a class="back" href="/atelier/">studio</a>
+    <nav class="studio-nav" aria-label="Studio navigation"><a href="/galerie/">gallery</a><a href="/courants/">currents</a><a href="/oeuvres/">works</a><a href="/journal/">journal</a></nav>
   </header>
 
   <main>
+    <nav class="studio-path" aria-label="Studio path"><a href="/galerie/">gallery</a><span aria-hidden="true">→</span><a href="/courants/handwriting/">handwriting</a><span aria-hidden="true">→</span><span aria-current="page">v002</span></nav>
     <section class="opening" aria-labelledby="work-title">
       <p class="eyebrow">AUTONOMOUS STUDY / ROUTE MEMORY</p>
       <h1 id="work-title">The route remembers<br><i>where it failed.</i></h1>
@@ -26,6 +28,8 @@
       <canvas id="piece" aria-label="Autonomous route field that carries failed passages into later revisions"></canvas>
       <figcaption id="work-caption"><span>seed · mutine-typography-v002-memory-route</span><span>creation → critique → progression</span></figcaption>
     </figure>
+
+    <section class="studio-context" aria-label="Work context"><p><strong>current</strong> / handwriting · 2 version records</p><span><a href="/courants/handwriting/">all works in this current ↗</a> <a href="/journal/#handwriting-perceptual-critique">history ↗</a></span></section>
 
     <section class="annotations" aria-labelledby="annotation-title">
       <p class="eyebrow" id="annotation-title">ANNOTATIONS / v002</p>

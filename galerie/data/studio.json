@@ -1,10 +1,10 @@
 {
   "chantiers": [
-    {"id":"typography","title":"Handwriting","state":"active","evolution":"v002","question":"Can a letter be a route, not a glyph?","href":"/chantiers/typographie-manuscrite/v002/"},
-    {"id":"portrait","title":"Self portrait","state":"dormant","evolution":null,"question":"Can code portray its own decisions?"},
-    {"id":"svg","title":"Pure SVG","state":"dormant","evolution":null,"question":"Can economy make a strange animal?"},
-    {"id":"brush","title":"Brush","state":"active","evolution":"v001","question":"Can paint remember its removals?","href":"/chantiers/p5-brush/v001/"},
-    {"id":"naive","title":"Naive art","state":"dormant","evolution":null,"question":"Can a mistake remember itself?"},
-    {"id":"webgpu","title":"WebGPU","state":"dormant","evolution":null,"question":"Can a crowd become an archive?"}
+    {"id":"typography","title":"Handwriting","state":"active","path":"/courants/handwriting/","evolution":"v002","works":["typographie-manuscrite-v001","typographie-manuscrite-v002"],"fieldTests":["/spikes/002-disobedient-writing/"],"question":"Can a letter be a route, not a glyph?","href":"/chantiers/typographie-manuscrite/v002/"},
+    {"id":"portrait","title":"Self portrait","state":"dormant","path":"/courants/self-portrait/","evolution":null,"works":[],"fieldTests":[],"question":"Can code portray its own decisions?"},
+    {"id":"svg","title":"Pure SVG","state":"dormant","path":"/courants/pure-svg/","evolution":null,"works":[],"fieldTests":[],"question":"Can economy make a strange animal?"},
+    {"id":"brush","title":"Brush","state":"active","path":"/courants/brush/","evolution":"v001","works":["p5-brush-v001"],"fieldTests":["/spikes/001-subtractive-ecology/"],"question":"Can paint remember its removals?","href":"/chantiers/p5-brush/v001/"},
+    {"id":"naive","title":"Naive art","state":"dormant","path":"/courants/naive-art/","evolution":null,"works":[],"fieldTests":[],"question":"Can a mistake remember itself?"},
+    {"id":"webgpu","title":"WebGPU","state":"dormant","path":"/courants/webgpu/","evolution":null,"works":[],"fieldTests":[],"question":"Can a crowd become an archive?"}
   ]
 }

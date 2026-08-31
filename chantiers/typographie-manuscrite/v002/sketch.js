@@ -9,26 +9,32 @@ let height = 0;
 let ratio = 1;
 let startedAt = performance.now();
 
-function pointAt(route, index, progress) {
-  const from = route.points[index];
-  const to = route.points[index + 1];
-  const amount = Math.max(0, Math.min(1, progress * route.points.length - index));
+function pointAt(points, index, progress) {
+  const from = points[index];
+  const to = points[index + 1];
+  const amount = Math.max(0, Math.min(1, progress * points.length - index));
   return { x: from.x + (to.x - from.x) * amount, y: from.y + (to.y - from.y) * amount };
+}
+
+function drawPath(points, progress, firstSegment = 0) {
+  const maxSegment = Math.min(points.length - 2, Math.floor(progress * points.length));
+  if (maxSegment < firstSegment) return;
+  ctx.beginPath();
+  ctx.moveTo(points[firstSegment].x * width, points[firstSegment].y * height);
+  for (let segment = firstSegment; segment <= maxSegment; segment += 1) {
+    const point = segment === maxSegment && progress < 1
+      ? pointAt(points, segment, progress)
+      : points[segment + 1];
+    ctx.lineTo(point.x * width, point.y * height);
+  }
+  ctx.stroke();
 }
 
 function drawRoute(route, progress, alpha, stage) {
   const maxSegment = Math.min(route.points.length - 2, Math.floor(progress * route.points.length));
-  ctx.beginPath();
-  ctx.moveTo(route.points[0].x * width, route.points[0].y * height);
-  for (let segment = 0; segment <= maxSegment; segment += 1) {
-    const point = segment === maxSegment && progress < 1
-      ? pointAt(route, segment, progress)
-      : route.points[segment + 1];
-    ctx.lineTo(point.x * width, point.y * height);
-  }
   ctx.strokeStyle = `rgba(21, 21, 20, ${alpha})`;
   ctx.lineWidth = route.weight + (stage % 3 === 0 ? .25 : 0);
-  ctx.stroke();
+  drawPath(route.points, progress);
   if (route.failed && route.failureSegment <= maxSegment + 1) {
     const start = route.points[route.failureSegment];
     const end = route.points[Math.min(route.failureSegment + 1, route.points.length - 1)];
@@ -42,6 +48,16 @@ function drawRoute(route, progress, alpha, stage) {
     ctx.stroke();
     ctx.restore();
   }
+}
+
+function drawRefusedDraft(route, progress) {
+  if (!route.memoryInfluence || !route.draftPoints) return;
+  ctx.save();
+  ctx.setLineDash([1, 7]);
+  ctx.strokeStyle = `rgba(185, 60, 46, ${.2 + route.memoryInfluence * .3})`;
+  ctx.lineWidth = 1.1 + route.memoryInfluence;
+  drawPath(route.draftPoints, progress, 2);
+  ctx.restore();
 }
 
 function render(now) {
@@ -77,6 +93,7 @@ function render(now) {
   previous.routes.forEach((route) => drawRoute(route, 1, .12, Math.max(0, stage - 1)));
   current.routes.forEach((route, index) => {
     const progress = Math.min(1, local * 1.7 + (index % 5) * .035);
+    drawRefusedDraft(route, progress);
     drawRoute(route, progress, route.failed ? .48 : .28, stage);
   });
 

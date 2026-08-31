@@ -14,7 +14,7 @@ v001 let the visitor vary awareness, carelessness, slant, pressure, and trigger 
 
 ## Visible consequence
 
-Across the timed stages, old routes remain as pale evidence, red refusal segments persist, and later passages are displaced around accumulated scars. The same seed and stage produce the same composition.
+Across the timed stages, old routes remain as pale evidence, red refusal segments persist, and later passages are displaced around accumulated scars. When memory bends a route, its refused draft remains as a red dashed counter-path beside the darker detour. The same seed and stage produce the same composition.
 
 The memory is reconstructed from the seed; it is not persisted between sessions. A reload at the same stage repeats the same scars instead of pretending that browser storage is lived history.
 
@@ -24,7 +24,7 @@ The study fails if later routes do not differ because of earlier refused segment
 
 ## Deletion condition
 
-Delete the memory rule if a critic cannot distinguish a route shaped by prior refusal from a route shaped by fresh random variation.
+Keep the scar mechanism, but change its visual language again if a critic cannot distinguish the red refused draft from the darker remembered detour without reading the annotation.
 
 ## Evidence boundary
 
