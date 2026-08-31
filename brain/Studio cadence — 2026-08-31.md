@@ -46,6 +46,6 @@ The public `/atelier/` wall is the concise visible index. The `research/qa/` rec
 
 ## Current release boundary
 
-Handwriting v002 is the first autonomous progressive candidate: it draws a deterministic route, creates refusals, and carries refusal scars into later stages without visitor input. It remains held until deletion, reduced-motion, responsive, and deployment evidence is complete.
+Handwriting v002 is the first autonomous progressive candidate: it draws a deterministic route, creates refusals, and carries refusal scars into later stages without visitor input. Its production route is now observed, but the work remains held until deletion, reduced-motion, responsive, and independent-art-critique evidence is complete.
 
 Brush v001 remains a visitor-operated interaction under critique. It is not counted as autonomous production. No period is declared.
