@@ -1,0 +1,37 @@
+{
+  "route": "http://127.0.0.1:4179/chantiers/self-portrait/v001/",
+  "date": "2026-09-01",
+  "probe": "cache-isolated Chrome 151 CDP; Emulation.setDeviceMetricsOverride; Emulation.setEmulatedMedia",
+  "matrix": [
+    {"viewport":"320x568","mode":"normal","innerWidth":320,"innerHeight":568,"clientWidth":305,"scrollWidth":305,"canvas":{"x":19,"y":564.21875,"width":267,"height":418},"visibleCanvasPxInFirstViewport":3.78125,"stage":"01","memory":"00","reduced":false,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"320x568","mode":"reduced","innerWidth":320,"innerHeight":568,"clientWidth":305,"scrollWidth":305,"canvas":{"x":19,"y":564.21875,"width":267,"height":418},"visibleCanvasPxInFirstViewport":3.78125,"stage":"07","memory":"03","reduced":true,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"390x844","mode":"normal","innerWidth":390,"innerHeight":844,"clientWidth":375,"scrollWidth":375,"canvas":{"x":19,"y":510.15625,"width":337,"height":662},"visibleCanvasPxInFirstViewport":333.84375,"stage":"01","memory":"00","reduced":false,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"390x844","mode":"reduced","innerWidth":390,"innerHeight":844,"clientWidth":375,"scrollWidth":375,"canvas":{"x":19,"y":510.15625,"width":337,"height":662},"visibleCanvasPxInFirstViewport":333.84375,"stage":"07","memory":"03","reduced":true,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"768x1024","mode":"normal","innerWidth":768,"innerHeight":1024,"clientWidth":753,"scrollWidth":753,"canvas":{"x":19,"y":500.671875,"width":715,"height":535.59375},"visibleCanvasPxInFirstViewport":523.328125,"stage":"01","memory":"00","reduced":false,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"768x1024","mode":"reduced","innerWidth":768,"innerHeight":1024,"clientWidth":753,"scrollWidth":753,"canvas":{"x":19,"y":500.671875,"width":715,"height":535.59375},"visibleCanvasPxInFirstViewport":523.328125,"stage":"07","memory":"03","reduced":true,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"1280x800","mode":"normal","innerWidth":1280,"innerHeight":800,"clientWidth":1265,"scrollWidth":1265,"canvas":{"x":57,"y":639.5,"width":1151,"height":758},"visibleCanvasPxInFirstViewport":160.5,"stage":"01","memory":"00","reduced":false,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"1280x800","mode":"reduced","innerWidth":1280,"innerHeight":800,"clientWidth":1265,"scrollWidth":1265,"canvas":{"x":57,"y":639.5,"width":1151,"height":758},"visibleCanvasPxInFirstViewport":160.5,"stage":"07","memory":"03","reduced":true,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0},
+    {"viewport":"1920x1080","mode":"normal","innerWidth":1920,"innerHeight":1080,"clientWidth":1905,"scrollWidth":1905,"canvas":{"x":369.5,"y":659.5625,"width":1166,"height":758},"visibleCanvasPxInFirstViewport":420.4375,"stage":"01","memory":"00","reduced":false,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"badFirstPartyResponses":0},
+    {"viewport":"1920x1080","mode":"reduced","innerWidth":1920,"innerHeight":1080,"clientWidth":1905,"scrollWidth":1905,"canvas":{"x":369.5,"y":659.5625,"width":1166,"height":758},"visibleCanvasPxInFirstViewport":420.4375,"stage":"07","memory":"03","reduced":true,"minLinkWidth":44,"minLinkHeight":44,"controls":0,"errors":0,"consoleEvents":0,"badFirstPartyResponses":0}
+  ],
+  "engineProbe": {
+    "seed":"0x53454c46",
+    "stages":7,
+    "displayStage":5,
+    "memory":2,
+    "replay":true,
+    "memoryEffectMaxNormalized":0.006007471483458757,
+    "memoryEffectMeanNormalized":0.0034662928665549044,
+    "deletionEffectMaxNormalized":0.0031224608560414084,
+    "deletionEffectMeanNormalized":0.0018376566838638534,
+    "memoryEffectMaxPxAt1135":6.818480133725689,
+    "deletionEffectMaxPxAt1135":3.5439930716069985
+  },
+  "interpretation": {
+    "geometry":"scrollWidth equals clientWidth in all 10 runs; no element box exceeded the emulated viewport; narrow body computes overflow-x hidden because the existing mobile rule sets overflow-y:auto",
+    "accessibility":"zero form controls; minimum sampled link box 44x44 in all 10 runs",
+    "motion":"normal starts at stage 01/07 with 00 blind spots; reduced motion settles at stage 07/07 with 03 blind spots",
+    "encounter":"the direct route exposes only 3.781px of the canvas at 320x568 and only 333.844px at 390x844; the full canvas remains below the first viewport at every contract width",
+    "art":"the contour stays abstract and does not read as eyes, mouth, facial symmetry, or a human avatar; the measured memory displacement is structural but the isolated frames do not make its scar-to-contour correspondence self-evident"
+  }
+}
