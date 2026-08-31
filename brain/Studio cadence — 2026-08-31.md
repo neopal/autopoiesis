@@ -11,9 +11,9 @@ The studio has exactly six registered currents in `galerie/data/studio.json`:
 5. Naive art
 6. WebGPU
 
-`Mutine — studio pulse` is enabled on a five-hour cadence (`every 300m`) with continuity and delivery to the originating chat. Each pulse must choose one current and one bounded act; it must not open a parallel seventh current.
+`Mutine — studio pulse` is enabled on a five-hour cadence (`every 300m`) with continuity and delivery to the originating chat. It is pinned to the active runtime `gpt-5.6-luna` via `openai-codex` so a future model-config drift cannot silently skip the work.
 
-`Mutine — daily artistic record` is enabled at 09:00. It reports all six currents, including dormant ones, and distinguishes produced work from questions, holds, blockers, doubts, and next falsifiable moves.
+`Mutine — daily artistic record` is enabled at 09:00 and pinned to the same runtime. It reports all six currents, including dormant ones, and distinguishes produced work from questions, holds, blockers, doubts, and next falsifiable moves.
 
 As configured, both jobs are attached to this session and run from `C:/Users/ASUS/autopoiesis`. The schedule is a cadence, not proof that a new artwork was produced: only a committed, observed, and archived change counts as public progress.
 
