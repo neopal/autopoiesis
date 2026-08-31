@@ -74,12 +74,12 @@ test('the opening links every runnable study once and does not elevate a held re
   assert.ok(currentStudies, 'the opening must contain its explicit Current studies navigation');
   const hrefs = [...currentStudies.matchAll(/<a\s+href="([^"]+)"[^>]*>/g)].map((match) => match[1]);
   assert.deepEqual(hrefs, [
-    '/chantiers/typographie-manuscrite/v001/',
+    '/chantiers/typographie-manuscrite/v002/',
     '/chantiers/p5-brush/v001/',
     '/spikes/001-subtractive-ecology/',
     '/spikes/002-disobedient-writing/'
   ], 'the explicit opening navigation must expose each runnable item once, in authored order');
-  assert.doesNotMatch(gallery, /href="\/atelier\//, 'the held accountability record must not compete with works in opening navigation');
+  assert.doesNotMatch(currentStudies, /href="\/atelier\//, 'the held accountability record must not compete with works in opening navigation');
 });
 
 test('the opening masthead remains a genuine touch-sized exit', async () => {
@@ -95,6 +95,12 @@ test('the opening declares its own favicon instead of emitting a first-party 404
   await readFile(new URL('../galerie/favicon.svg', import.meta.url));
 });
 
+test('the opening field reserves the title label zone rather than letting generated marks cross it', async () => {
+  const fieldCode = await readFile(new URL('../galerie/field.js', import.meta.url), 'utf8');
+  assert.match(fieldCode, /document\.querySelector\(['"]\.title['"]\)\.getBoundingClientRect\(\)/, 'the renderer must read the actual title geometry rather than guess a mobile exclusion zone');
+  assert.match(fieldCode, /ctx\.clip\(['"]evenodd['"]\)/, 'the renderer must exclude the reading zone from generated marks');
+});
+
 test('the opening encounter is an autonomous artwork, not a visitor control panel', async () => {
   const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
   const fieldCode = await readFile(new URL('../galerie/field.js', import.meta.url), 'utf8');
@@ -107,4 +113,45 @@ test('the opening encounter is an autonomous artwork, not a visitor control pane
   assert.match(fieldCode, /function resize\(\)[\s\S]*?render\(performance\.now\(\)\)/, 'reduced-motion artwork must re-render after a resize');
   assert.match(fieldCode, /if\s*\(width\s*>=\s*650\)/, 'the moving tolerance caption must withdraw rather than clip on narrow canvases');
   assert.match(fieldCss, /canvas\s*\{[^}]*touch-action:\s*(?:auto|pan-y)/s, 'a non-interactive canvas must preserve browser touch navigation');
+});
+
+test('the public studio wall annotates every current without making the visitor operate it', async () => {
+  const gallery = await readFile(new URL('../galerie/index.html', import.meta.url), 'utf8');
+  const atelier = await readFile(new URL('../atelier/index.html', import.meta.url), 'utf8');
+  const studio = JSON.parse(await readFile(new URL('../galerie/data/studio.json', import.meta.url)));
+  const currentIds = studio.chantiers.map((current) => current.id);
+  const handwriting = studio.chantiers.find((current) => current.id === 'typography');
+  assert.equal(handwriting.evolution, 'v002', 'the active handwriting current must point at its progressive version');
+  assert.equal(handwriting.href, '/chantiers/typographie-manuscrite/v002/');
+  assert.match(gallery, /href="\/atelier\/"/, 'the artist studio must be reachable from the opening');
+  assert.doesNotMatch(gallery.match(/<nav aria-label="Current studies">([\s\S]*?)<\/nav>/)?.[1] ?? '', /atelier/, 'the studio record must remain secondary to works');
+  for (const id of currentIds) {
+    assert.match(atelier, new RegExp(`data-current="${id}"`), `${id} needs an honest wall plate`);
+  }
+  assert.equal((atelier.match(/class="plate(?:\s|\")/g) ?? []).length, currentIds.length, 'the wall must have one annotated plate per current');
+  assert.equal((atelier.match(/data-annotation="creation"/g) ?? []).length, currentIds.length, 'each plate needs a creation annotation');
+  assert.equal((atelier.match(/data-annotation="critique"/g) ?? []).length, currentIds.length, 'each plate needs a critique annotation');
+  assert.equal((atelier.match(/data-annotation="progression"/g) ?? []).length, currentIds.length, 'each plate needs a progression annotation');
+  assert.doesNotMatch(atelier, /<(?:button|input|select|textarea)\b/i, 'the studio wall must not turn the visitor into an operator');
+  assert.doesNotMatch(atelier, /source-gravity map|PUBLIC ACCOUNTABILITY \/ DAY 001/i, 'the public record must not repeat unsupported process claims');
+});
+
+test('Handwriting v002 is an autonomous progressive work, not a visitor-operated rewrite toy', async () => {
+  const evolutions = JSON.parse(await readFile(new URL('../galerie/data/evolutions.json', import.meta.url)));
+  const work = evolutions.evolutions.find((entry) => entry.id === 'typographie-manuscrite-v002');
+  assert.ok(work, 'Handwriting v002 must be indexed before it can enter critique');
+  assert.match(work.path, /^\/chantiers\/typographie-manuscrite\/v002\//);
+  assert.equal(work.seed, 'mutine-typography-v002-memory-route');
+  assert.equal(work.critiques.length, 3);
+  const html = await readFile(new URL('../chantiers/typographie-manuscrite/v002/index.html', import.meta.url), 'utf8');
+  const sketch = await readFile(new URL('../chantiers/typographie-manuscrite/v002/sketch.js', import.meta.url), 'utf8');
+  for (const file of ['style.css', 'README.md', 'metrics.json', 'critiques.json', 'reponse.md']) {
+    await readFile(new URL(`../chantiers/typographie-manuscrite/v002/${file}`, import.meta.url));
+  }
+  assert.doesNotMatch(html, /<(?:button|input|select|textarea)\b/i, 'v002 must not ask the visitor to operate the work');
+  assert.doesNotMatch(sketch, /addEventListener\s*\(/, 'v002 must not depend on visitor events');
+  assert.match(sketch, /requestAnimationFrame\(frame\)/, 'v002 must progress through an authored timeline');
+  assert.match(sketch, /stage\s*===\s*0/, 'v002 must seed its first refusal or later stages cannot inherit memory');
+  assert.match(sketch, /(?:memory|scar|revision|failure)/i, 'v002 must carry failure into a later formal decision');
+  assert.match(html, /creation\s*→\s*critique\s*→\s*progression/i);
 });

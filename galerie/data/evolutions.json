@@ -32,6 +32,22 @@
         { "persona": "Historian", "scores": { "originality": 6, "lineage": 7 }, "argument": "The p5.brush lineage is named but its material signature is not copied; removal needs to become more structural." },
         { "persona": "Cynic", "scores": { "complacency": 4, "decorativeness": 4 }, "argument": "Tasteful damage is still damage. Scars must affect later decisions to earn their presence." }
       ]
+    },
+    {
+      "id": "typographie-manuscrite-v002",
+      "chantier": "typographie-manuscrite",
+      "version": "v002",
+      "date": "2026-08-31",
+      "title": "The route remembers where it failed",
+      "seed": "mutine-typography-v002-memory-route",
+      "path": "/chantiers/typographie-manuscrite/v002/",
+      "note": "A route is drawn, refused, and redrawn around its own scars. The visitor does not operate the timeline.",
+      "metrics": { "visitorInput": false, "stages": "unbounded deterministic timeline", "memoryRule": "failed route segments become scars that displace later routes" },
+      "critiques": [
+        { "persona": "Formalist", "argument": "The stage structure gives the route a temporal spine; memory must be visible as a later bend, not as noise." },
+        { "persona": "Historian", "argument": "Removing the v001 controls is a break in authorship: the timeline now carries responsibility." },
+        { "persona": "Cynic", "argument": "Red rings are cheap evidence. Reject v002 if deleting a scar does not change a later route." }
+      ]
     }
   ]
 }
