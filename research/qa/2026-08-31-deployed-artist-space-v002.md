@@ -23,6 +23,7 @@ The repository commit and the visited URLs are recorded separately. This record 
 - The production v002 text was read in the preview pane. It contained the title, no-controls statement, seed, three annotations, and links to the studio wall, v001, and field.
 - The production opening text contained `HAND`, `BRUSH`, `LOSS`, and `WRITING`. A direct HTML probe counted each of the four route hrefs exactly once, counted no atelier href inside `Current studies`, and counted one secondary atelier link.
 - Local runtime evidence remains: the v002 canvas advanced from stage 01 / 10 refusals to stage 05 / 11 refusals after ten seconds without visitor input; local console and JavaScript error collectors were empty.
+- A later independent studio pulse compared the loaded runtime: `buildStage(3)` contained `9` memory scars; all `11` later routes changed against `makeRoutes(3, [])`, with maximum measured displacement `0.04000000000000003`; repeated evaluation was deterministic. This is causal local evidence, not a finished-art claim.
 
 ## Tool limitation
 
@@ -32,7 +33,7 @@ The automated browser snapshot/console harness failed on the production HTML wit
 
 - five-width responsive matrix: not yet observed;
 - reduced-motion runtime on production: not yet observed;
-- deletion test proving an inherited scar changes a later route: not yet observed in browser;
+- adversarial deletion test removing one inherited scar and comparing the later route: not yet observed;
 - independent art critique of the deployed canvas: still required before calling v002 a work;
 - Brush v001 remains a held visitor-operated interaction;
 - no period is declared.
