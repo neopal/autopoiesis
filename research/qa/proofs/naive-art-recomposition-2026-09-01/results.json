@@ -1,0 +1,145 @@
+{
+  "route": "http://127.0.0.1:4179/research/qa/proofs/naive-art-recomposition-2026-09-01/",
+  "browser": "Chrome/151.0.7922.174",
+  "probe": "cache-isolated Chrome 151 CDP; real device metrics; disposable downstream consequence re-composition",
+  "matrix": [
+    {
+      "requested": [
+        320,
+        568
+      ],
+      "validViewport": true,
+      "state": {
+        "url": "http://127.0.0.1:4179/research/qa/proofs/naive-art-recomposition-2026-09-01/?study=320x568",
+        "readyState": "complete",
+        "viewport": {
+          "innerWidth": 320,
+          "innerHeight": 568,
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "clientHeight": 568,
+          "scrollHeight": 568
+        },
+        "canvas": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568,
+          "pixels": 181760
+        },
+        "artworkPixels": 24102,
+        "textNodes": [],
+        "controls": 0,
+        "probe": {
+          "stage": 5,
+          "fullMemory": 5,
+          "deletedMemory": 4,
+          "doorDelta": -0.01135429450403913,
+          "pathDelta": -0.07354944689058701,
+          "canvasOnly": true
+        },
+        "title": "Naive art v001 \u2014 downstream consequence study"
+      },
+      "exceptions": [],
+      "consoleEvents": [],
+      "badFirstPartyResponses": [],
+      "networkLoadingFailures": [],
+      "capture": "naive-recomposition-320x568.png",
+      "bytes": 17305
+    },
+    {
+      "requested": [
+        390,
+        844
+      ],
+      "validViewport": true,
+      "state": {
+        "url": "http://127.0.0.1:4179/research/qa/proofs/naive-art-recomposition-2026-09-01/?study=390x844",
+        "readyState": "complete",
+        "viewport": {
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "clientHeight": 844,
+          "scrollHeight": 844
+        },
+        "canvas": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844,
+          "pixels": 329160
+        },
+        "artworkPixels": 42400,
+        "textNodes": [],
+        "controls": 0,
+        "probe": {
+          "stage": 5,
+          "fullMemory": 5,
+          "deletedMemory": 4,
+          "doorDelta": -0.01135429450403913,
+          "pathDelta": -0.07354944689058701,
+          "canvasOnly": true
+        },
+        "title": "Naive art v001 \u2014 downstream consequence study"
+      },
+      "exceptions": [],
+      "consoleEvents": [],
+      "badFirstPartyResponses": [],
+      "networkLoadingFailures": [],
+      "capture": "naive-recomposition-390x844.png",
+      "bytes": 24686
+    },
+    {
+      "requested": [
+        1280,
+        800
+      ],
+      "validViewport": true,
+      "state": {
+        "url": "http://127.0.0.1:4179/research/qa/proofs/naive-art-recomposition-2026-09-01/?study=1280x800",
+        "readyState": "complete",
+        "viewport": {
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "clientWidth": 1280,
+          "scrollWidth": 1280,
+          "clientHeight": 800,
+          "scrollHeight": 800
+        },
+        "canvas": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800,
+          "pixels": 1024000
+        },
+        "artworkPixels": 119383,
+        "textNodes": [],
+        "controls": 0,
+        "probe": {
+          "stage": 5,
+          "fullMemory": 5,
+          "deletedMemory": 4,
+          "doorDelta": -0.01135429450403913,
+          "pathDelta": -0.07354944689058701,
+          "canvasOnly": true
+        },
+        "title": "Naive art v001 \u2014 downstream consequence study"
+      },
+      "exceptions": [],
+      "consoleEvents": [],
+      "badFirstPartyResponses": [],
+      "networkLoadingFailures": [],
+      "capture": "naive-recomposition-1280x800.png",
+      "bytes": 44761
+    }
+  ]
+}
