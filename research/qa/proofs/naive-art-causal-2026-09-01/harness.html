@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Naive art v001 — caption-free causal pair</title>
+  <link rel="icon" href="/galerie/favicon.svg" type="image/svg+xml">
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: #f2e7d1; }
+    body { display: grid; place-items: center; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <canvas id="pair" aria-label="Caption-free comparison of refused, intact, and latest-deleted stage six geometry"></canvas>
+  <script type="module">
+    import { buildFrame, buildTimeline } from '../../../../chantiers/naive-art/v001/engine.mjs';
+
+    const canvas = document.querySelector('#pair');
+    const context = canvas.getContext('2d');
+    const palette = {
+      paper: '#f2e7d1',
+      panel: '#f5ecd9',
+      refused: '#c9583d',
+      ink: '#1d3340',
+      muted: '#a9997d',
+      door: '#447b89',
+      roof: '#c9583d'
+    };
+    const timeline = buildTimeline(9);
+    const stage6 = timeline[5];
+    const empty = buildFrame(5, []);
+
+    function freezeNonMemory(frame, anchor) {
+      const structure = {
+        houseX: anchor.scene.houseX,
+        houseY: anchor.scene.houseY,
+        houseWidth: anchor.scene.houseWidth,
+        houseHeight: anchor.scene.houseHeight,
+        sun: { ...anchor.scene.sun },
+        tree: { ...anchor.scene.tree }
+      };
+      return {
+        ...frame,
+        draft: { ...frame.draft, ...structure },
+        scene: { ...frame.scene, ...structure }
+      };
+    }
+
+    const intact = freezeNonMemory(stage6, empty);
+    const deleted = freezeNonMemory(buildFrame(5, stage6.memory.slice(0, -1)), empty);
+
+    function line(points, color, width, dashed = false) {
+      context.save();
+      context.strokeStyle = color;
+      context.lineWidth = width;
+      context.lineCap = 'round';
+      context.lineJoin = 'round';
+      if (dashed) context.setLineDash([8, 10]);
+      context.beginPath();
+      points.forEach(([x, y], index) => index ? context.lineTo(x, y) : context.moveTo(x, y));
+      context.stroke();
+      context.restore();
+    }
+
+    function point(panel, x, y, width, height) {
+      return [panel.x + x * panel.w, panel.y + y * panel.h];
+    }
+
+    function renderScene(frame, panel, width, height, refused = false) {
+      const x = panel.x;
+      const y = panel.y;
+      const w = panel.w;
+      const h = panel.h;
+      const scale = Math.min(w, h);
+      const houseLeft = frame.scene.houseX - frame.scene.houseWidth / 2;
+      const houseRight = frame.scene.houseX + frame.scene.houseWidth / 2;
+      const houseTop = frame.scene.houseY;
+      const houseBottom = frame.scene.houseY + frame.scene.houseHeight;
+      const world = refused ? frame.draft : frame.scene;
+      const left = point(panel, houseLeft, houseTop, width, height);
+      const right = point(panel, houseRight, houseBottom, width, height);
+      const roofPeak = point(panel, frame.scene.houseX - 0.015, frame.scene.houseY - 0.13, width, height);
+      const roofLeft = point(panel, houseLeft - 0.025, houseTop + 0.005, width, height);
+      const roofRight = point(panel, houseRight + 0.022, houseTop + 0.012, width, height);
+      const door = point(panel, world.door.x, world.door.y, width, height);
+      const stroke = Math.max(1.5, scale * 0.018);
+
+      context.save();
+      context.fillStyle = palette.panel;
+      context.fillRect(x, y, w, h);
+      context.strokeStyle = refused ? palette.refused : palette.muted;
+      context.lineWidth = Math.max(1, scale * 0.009);
+      if (refused) context.setLineDash([8, 10]);
+      context.strokeRect(x, y, w, h);
+      context.setLineDash([]);
+      context.restore();
+
+      const sun = point(panel, frame.scene.sun.x, frame.scene.sun.y, width, height);
+      context.save();
+      context.fillStyle = '#e8ae45';
+      context.strokeStyle = palette.refused;
+      context.lineWidth = stroke;
+      context.beginPath();
+      context.arc(sun[0], sun[1], frame.scene.sun.radius * scale, 0, Math.PI * 2);
+      context.fill();
+      context.stroke();
+      context.restore();
+
+      const treeX = point(panel, frame.scene.tree.x, 0, width, height)[0];
+      const trunkTop = point(panel, 0, frame.scene.tree.y + 0.06, width, height)[1];
+      const treeBase = point(panel, 0, 0.77, width, height)[1];
+      context.save();
+      context.fillStyle = palette.refused;
+      context.strokeStyle = palette.ink;
+      context.lineWidth = stroke;
+      context.fillRect(treeX - w * 0.014, trunkTop, w * 0.028, treeBase - trunkTop);
+      context.strokeRect(treeX - w * 0.014, trunkTop, w * 0.028, treeBase - trunkTop);
+      context.fillStyle = '#758b61';
+      context.beginPath();
+      context.moveTo(point(panel, frame.scene.tree.x, frame.scene.tree.y - 0.10, width, height)[0], point(panel, 0, frame.scene.tree.y - 0.10, width, height)[1]);
+      context.lineTo(point(panel, frame.scene.tree.x - 0.095, frame.scene.tree.y + 0.09, width, height)[0], point(panel, 0, frame.scene.tree.y + 0.09, width, height)[1]);
+      context.lineTo(point(panel, frame.scene.tree.x + 0.065, frame.scene.tree.y + 0.06, width, height)[0], point(panel, 0, frame.scene.tree.y + 0.06, width, height)[1]);
+      context.closePath();
+      context.fill();
+      context.stroke();
+      context.restore();
+
+      line([point(panel, 0, 0.78, width, height), point(panel, 1, 0.78, width, height)], palette.ink, Math.max(1, scale * 0.009));
+      line([point(panel, world.door.x, world.door.y + 0.105, width, height), point(panel, world.pathBend, 0.85, width, height), point(panel, 0.54, 1, width, height)], refused ? palette.refused : palette.ink, stroke, refused);
+
+      context.save();
+      context.fillStyle = '#e5d5b9';
+      context.strokeStyle = refused ? palette.refused : palette.ink;
+      context.lineWidth = stroke;
+      if (refused) context.setLineDash([8, 10]);
+      context.beginPath();
+      context.rect(left[0], left[1], right[0] - left[0], right[1] - left[1]);
+      context.fill();
+      context.stroke();
+      context.setLineDash([]);
+      context.fillStyle = palette.roof;
+      context.beginPath();
+      context.moveTo(roofLeft[0], roofLeft[1]);
+      context.lineTo(roofPeak[0], roofPeak[1]);
+      context.lineTo(roofRight[0], roofRight[1]);
+      context.closePath();
+      context.fill();
+      context.stroke();
+      context.fillStyle = palette.door;
+      const doorWidth = w * 0.052;
+      const doorHeight = h * 0.105;
+      context.beginPath();
+      context.rect(door[0] - doorWidth / 2, door[1], doorWidth, doorHeight);
+      context.fill();
+      context.stroke();
+      context.restore();
+    }
+
+    function resize() {
+      const ratio = Math.min(window.devicePixelRatio || 1, 2);
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      canvas.width = Math.max(1, Math.floor(width * ratio));
+      canvas.height = Math.max(1, Math.floor(height * ratio));
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      context.fillStyle = palette.paper;
+      context.fillRect(0, 0, width, height);
+      const stacked = width < 560;
+      const panels = stacked
+        ? [
+          { x: width * 0.08, y: height * 0.04, w: width * 0.84, h: height * 0.27 },
+          { x: width * 0.08, y: height * 0.365, w: width * 0.84, h: height * 0.27 },
+          { x: width * 0.08, y: height * 0.69, w: width * 0.84, h: height * 0.27 }
+        ]
+        : [
+          { x: width * 0.035, y: height * 0.12, w: width * 0.29, h: height * 0.76 },
+          { x: width * 0.355, y: height * 0.12, w: width * 0.29, h: height * 0.76 },
+          { x: width * 0.675, y: height * 0.12, w: width * 0.29, h: height * 0.76 }
+        ];
+      renderScene(intact, panels[0], width, height, true);
+      renderScene(intact, panels[1], width, height, false);
+      renderScene(deleted, panels[2], width, height, false);
+    }
+
+    window.addEventListener('resize', resize);
+    resize();
+    window.__naiveCausalProbe = {
+      stage: intact.stage,
+      fullMemory: intact.memory.length,
+      deletedMemory: deleted.memory.length,
+      emptyMemory: empty.memory.length,
+      memoryVsEmpty: {
+        doorX: intact.scene.door.x - empty.scene.door.x,
+        pathBend: intact.scene.pathBend - empty.scene.pathBend
+      },
+      deleteLatestVsIntact: {
+        doorX: deleted.scene.door.x - intact.scene.door.x,
+        pathBend: deleted.scene.pathBend - intact.scene.pathBend
+      }
+    };
+  </script>
+</body>
+</html>
