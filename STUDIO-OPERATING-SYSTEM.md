@@ -69,15 +69,15 @@ The quality defender and adversary confirm regression tests, responsive browser 
 
 ## Current orders
 
-1. No third active chantier.
-2. Resolve P0 responsive defects from `research/qa/2026-08-28-live-exhibition-audit.md`.
-3. Build and discard spikes before rewriting Handwriting or Brush.
-4. The gallery must encounter a work before it explains the studio.
-5. Dormant work is either a composed threshold or absent from primary navigation.
+1. The root `/` is the only primary Gallery entry; `/journal/` is the only primary archive entry.
+2. Work on one recorded slot per day for each of the six currents; never fill a missing slot with a placeholder.
+3. A current page lists every recorded daily work newest first; a work page owns its tableau, timeline, Journal, critique and next decision.
+4. The Gallery must encounter each latest tableau before explaining the studio.
+5. Dormant work remains an explicit held question until a real validated tableau exists.
 
 ## Pulse cadence
 
-The existing five-hour cron keeps one role packet only. Every third pulse is critique/revision. Every fifth pulse is delete/simplify/criticise, never a new chantier. Weekly, the studio council decides advance, hold, simplify, archive or replace-hypothesis.
+The durable rotation runs every four hours and targets exactly one current per slot, covering all six currents in one day. The slot helper is read-only and idempotent: it identifies the local date/current and refuses duplicate `current/date` records. The agent may create a daily work only after a real tableau, Journal note, critique/hold and validation exist; stimuli never create work automatically. A separate 09:00 archivist audits coverage, route existence, lifecycle, duplicate slots, tests and the evidence record.
 
 ## Skill policy
 

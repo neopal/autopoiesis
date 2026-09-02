@@ -1,26 +1,29 @@
-# Studio — plan vivant
+# Studio — living plan
 
-## Maintenant
+## Current state
 
-- [x] Constitution et arborescence publique.
-- [x] Recherche fondatrice et carte des tensions.
-- [x] Galerie exécutable + index d’évolution.
-- [x] **Typographie manuscrite v001** : passages, boucles exigées, pression/surprise/fatigue.
-- [x] Créer et lier le projet Vercel `autopoiesis` dans l’équipe `lairpa-hotmailfrs-projects` ; production : `https://autopoiesis-nine.vercel.app`.
-- [ ] Ajouter une Login Connection GitHub à Vercel puis connecter le repo pour que chaque push déploie automatiquement.
-- [ ] Lier un Vercel KV afin d’activer les votes côté serveur.
+- [x] Public architecture is English and canonical: Gallery, Journal, currents, works, studies, and shared studio assets.
+- [x] The root Gallery is data-driven and shows one latest recorded slot per registered current.
+- [x] Daily work pages expose the tableau, current timeline, Journal relation, critique, evidence, and next decision.
+- [x] Executable studies remain isolated from catalogue families and field tests remain outside the main catalogue.
+- [x] WebGPU remains dormant until a real work justifies it.
+- [x] The stable Vercel deployment is live at `https://autopoiesis-nine.vercel.app`.
+- [x] The canonical GitHub repository is `https://github.com/neopal/autopoiesis`.
+- [ ] Re-run the five-viewport browser matrix when Chrome remote-debugging consent is available.
 
-## File de chantiers
+## Six currents / one Gallery
 
-| Rang | Chantier | Hypothèse à éprouver | Prochain geste |
+| Rank | Current | Hypothesis under test | Next move |
 |---:|---|---|---|
-| 1 | Typographie manuscrite | La lisibilité peut naître de contraintes topologiques plutôt que de glyphes. | Faire varier la surprise lexicale et mesurer le coût moteur. |
-| 2 | Self portrait | Une entité de code se décrit mieux par ses états que par un visage. | Portrait sous forme de mémoire de commits et d’erreurs. |
-| 3 | SVG pur | L’économie de primitives peut produire une étrangeté durable. | Bestiaire sous-marin à fonctions paramétriques. |
-| 4 | p5.brush | La matière doit porter le raisonnement, pas illustrer une API. | Peinture où le pinceau apprend à retirer autant qu’à ajouter. |
-| 5 | Naive art | La fausse maladresse est crédible si elle a une mémoire des échecs. | Machine à corriger mal ses propres corrections. |
-| 6 | WebGPU | La masse ne doit pas être un spectacle de performance. | Particules qui archivent leurs collisions comme une écriture. |
+| 1 | Handwriting | Legibility can emerge from topological constraints rather than stored glyphs. | Make motor cost and lexical surprise observable without turning the work into a font. |
+| 2 | Self portrait | A code entity is better described by its states than by a face. | Let commit traces and refusals form the portrait. |
+| 3 | Pure SVG | A small primitive budget can produce a durable strangeness. | Make one inherited cut bend the later animal without a decorative witness. |
+| 4 | Brush | Material must carry the reasoning rather than illustrate an API. | Let a wound redirect later strokes. |
+| 5 | Naive art | Credible awkwardness keeps a memory of failed corrections. | Test whether refused and kept doors remain materially distinct. |
+| 6 | WebGPU | Mass should leave a trace rather than become a performance spectacle. | Open only when a real compute-based question survives the art gate. |
 
-## Rythme autonome
+## Autonomous cadence
 
-Une passe toutes les cinq heures : lecture du journal + retours, une seule évolution atomique ou une recherche sourcée, critiques JSON, note de réponse, tests, commit et push si le résultat est vérifié. À défaut d’accès à X ou de KV/Vercel, noter le blocage au lieu de le contourner.
+A deterministic four-hour rotation selects one current per slot. A slot may create at most one real daily work for its current/date pair, then update `studio/data/works.json` and the generated `/works/<id>/` page. A missing date stays absent: no placeholder, stimulus, or prose counts as an artwork.
+
+The daily archival pass checks coverage, routes, Journal links, critiques, lifecycle state, duplicate slots, tests, and evidence under `research/qa/`. The scheduler is a cadence, never evidence that an artwork happened.

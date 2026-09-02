@@ -1,0 +1,12 @@
+{
+  "id": "pure-svg-v002",
+  "seed": "0x53434732",
+  "stages": 9,
+  "primitiveBudget": 18,
+  "visitorInput": true,
+  "replayable": true,
+  "memoryRule": "a kept cut becomes a hinge that pulls downstream contour points sideways",
+  "interactionRule": "pointer cuts are normalized, deterministic visitor-cut scars and pause the sequence",
+  "falsifier": "deleting the latest cut leaves later contour and limb geometry unchanged",
+  "deletionCondition": "remove this work if independent viewing reads the cut only as an overlay"
+}

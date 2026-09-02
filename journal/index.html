@@ -5,25 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#e9e4d6">
   <title>MUTINE — journal</title>
-  <link rel="icon" href="/galerie/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/galerie/studio.css">
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css">
 </head>
-<body>
+<body class="journal-page">
   <div class="studio-shell">
     <header class="studio-header">
-      <a class="studio-mark" href="/galerie/">MUTINE</a>
+      <a class="studio-mark" href="/">MUTINE</a>
       <p>artist index / journal</p>
       <nav class="studio-nav" aria-label="Studio navigation">
-        <a href="/galerie/">gallery</a>
-        <a href="/courants/">currents</a>
-        <a href="/oeuvres/">works</a>
+        <a href="/">gallery</a>
         <a href="/journal/" aria-current="page">journal</a>
       </nav>
     </header>
 
     <main class="studio-main">
       <nav class="studio-path" aria-label="Studio path">
-        <a href="/galerie/">gallery</a><span aria-hidden="true">→</span><span aria-current="page">journal</span>
+        <a href="/">gallery</a><span aria-hidden="true">→</span><span aria-current="page">journal</span>
       </nav>
 
       <section class="studio-hero" aria-labelledby="journal-title">
@@ -32,51 +31,17 @@
           <h1 id="journal-title">What changed.<br><i>What did not.</i></h1>
         </div>
         <div class="studio-hero-note">
-          <p>This is the public ledger of moves, evidence, criticism, holds, doubts, and next tests. It records the studio without pretending that every pulse made an artwork.</p>
-          <p class="loop">creation → critique → progression</p>
+          <p>Recorded moves, by date. Doubt stays visible.</p>
         </div>
       </section>
 
-      <section class="index-section" aria-labelledby="entries-title">
-        <header><h2 id="entries-title">Recent entries</h2><p>dated records / source files linked</p></header>
-        <ol class="journal-list">
-          <li class="journal-entry" id="handwriting-perceptual-critique">
-            <time datetime="2026-08-31">2026-08-31</time>
-            <div><h3>Handwriting v002 / perceptual critique</h3><p>The first view was too explanatory and the route field read as a generic line diagram. The studio kept the scar rule, changed its visual language, and placed the refused draft beside the darker remembered detour.</p><a class="text-link" href="/research/qa/2026-08-31-v002-perceptual-critique.md">read the full critique ↗</a></div>
-            <p class="entry-result"><strong>decision</strong>change, keep scars<br>candidate remains held</p>
-          </li>
-          <li class="journal-entry" id="handwriting-scar-deletion">
-            <time datetime="2026-08-31">2026-08-31</time>
-            <div><h3>Handwriting v002 / scar deletion</h3><p>Removing one inherited scar changed five later route points in the local engine. The same stage remained repeatable. This is causal evidence, not proof of artistic success.</p><a class="text-link" href="/research/qa/2026-08-31-typography-v002-scar-deletion-test.md">read the test record ↗</a></div>
-            <p class="entry-result"><strong>evidence</strong>local pass<br>perceptual gate open</p>
-          </li>
-          <li class="journal-entry" id="handwriting-responsive">
-            <time datetime="2026-08-31">2026-08-31</time>
-            <div><h3>Handwriting v002 / first viewport</h3><p>The title and preface were reduced so the autonomous canvas enters the first encounter. The local five-size matrix returned no horizontal overflow, no controls, and a reduced-motion run without overflow.</p><a class="text-link" href="/research/qa/2026-08-31-first-viewport-recomposition.md">read the matrix record ↗</a></div>
-            <p class="entry-result"><strong>status</strong>local pass<br>deployment follow-up</p>
-          </li>
-          <li class="journal-entry" id="artist-wall-release">
-            <time datetime="2026-08-31">2026-08-31</time>
-            <div><h3>Artist wall / six currents</h3><p>The wall records six currents with creation, critique, and progression annotations. Dormant currents remain questions. Handwriting v002 is the only candidate autonomous progressive work; Brush remains a held interaction.</p><a class="text-link" href="/research/qa/2026-08-31-artist-space-wall.md">read the wall QA ↗</a></div>
-            <p class="entry-result"><strong>classification</strong>six currents<br>no fabricated tableau</p>
-          </li>
-          <li class="journal-entry" id="brush-hold">
-            <time datetime="2026-08-30">2026-08-30</time>
-            <div><h3>Brush v001 / hold</h3><p>Brush has a real pointer interaction and a causal removal hypothesis, but it lacks an equivalent keyboard path, a credible reduced-motion state, and a reason for the visitor gesture to remain central.</p><a class="text-link" href="/research/qa/2026-08-30-brush-spike-readiness-test.md">read the readiness record ↗</a></div>
-            <p class="entry-result"><strong>decision</strong>hold as interaction<br>not autonomous art</p>
-          </li>
-          <li class="journal-entry" id="writing-hold">
-            <time datetime="2026-08-29">2026-08-29</time>
-            <div><h3>Disobedient Writing / held field test</h3><p>The spike preserves traces and tests whether order, baseline, closure, and character boundaries can migrate. The independent readiness critique kept the causal question, but rejected promotion: its fixed desktop field and interaction-led behavior are not yet a public autonomous work.</p><a class="text-link" href="/research/qa/2026-08-29-spike-readiness-critique.md">read the shared spike critique ↗</a></div>
-            <p class="entry-result"><strong>decision</strong>hold as field test<br>not a work</p>
-          </li>
-        </ol>
-      </section>
+      <section class="current-work-ledger journal-catalog" aria-label="Recorded studio work by day"><div class="catalog-mount" data-catalog="journal" aria-live="polite"><p class="catalog-state">Loading journal traces…</p></div></section>
 
-      <p class="archive-note"><strong>Journal rule.</strong> A record links to the evidence that supports it. Missing evidence stays a hold. The journal may say that a current is dormant; it may not fill the gap with a daily image.</p>
+      <p class="archive-note"><strong>Record.</strong> Missing evidence stays a hold.</p>
     </main>
 
-    <footer class="studio-footer"><a href="/courants/">currents / context</a><span>journal / progress / doubt / critique</span><a href="/oeuvres/">works / versions ↗</a></footer>
+    <footer class="studio-footer"><a href="/">gallery</a><span>journal / progress / doubt / critique</span><a href="/">gallery ↗</a></footer>
   </div>
+  <script type="module" src="/studio/catalog.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Subtractive Ecology</title>
-<link rel="stylesheet" href="/galerie/wayfinding.css">
+<link rel="stylesheet" href="/studio/wayfinding.css">
 <style>
   :root { background:#111512; color:#d9dfcb; }
   * { box-sizing:border-box; }
@@ -14,14 +14,19 @@
   .caption { position:fixed; z-index:2; left:clamp(18px,4vw,52px); bottom:clamp(17px,4vw,42px); color:#c6ceba; font-size:10px; letter-spacing:.22em; text-transform:uppercase; opacity:.7; pointer-events:none; }
   .caption i { color:#b8d559; font-style:normal; }
   @media (max-width:600px) { .caption { font-size:8px; letter-spacing:.16em; } }
+  html.preview-mode, html.preview-mode body { min-height:100%; overflow:hidden; }
+  html.preview-mode .fullfield-wayfinding, html.preview-mode .caption { display:none; }
+  html.preview-mode canvas { cursor:default; }
 </style>
+<link rel="stylesheet" href="/studio/work.css">
+<script>if (new URLSearchParams(location.search).has('preview')) document.documentElement.classList.add('preview-mode');</script>
 </head>
-<body>
+<body class="field-test-page" data-current="ecology">
 <div class="studio-wayfinding fullfield-wayfinding">
-  <nav class="studio-nav" aria-label="Studio navigation"><a href="/galerie/">gallery</a><a href="/courants/">currents</a><a href="/oeuvres/">works</a><a href="/journal/">journal</a></nav>
-  <nav class="studio-path" aria-label="Studio path"><a href="/galerie/">gallery</a><span aria-hidden="true">→</span><a href="/oeuvres/#field-tests">field tests</a><span aria-hidden="true">→</span><span aria-current="page">subtractive ecology</span></nav>
+  <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/">currents</a><a href="/">works</a><a href="/journal/">journal</a></nav>
+  <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/">field tests</a><span aria-hidden="true">→</span><span aria-current="page">subtractive ecology</span></nav>
 </div>
-<canvas id="field"></canvas>
+<canvas id="field" role="img" aria-label="Subtractive Ecology: an autonomous field test where removing marks redirects future growth">Subtractive Ecology field test canvas.</canvas>
 <div class="caption">remove / <i>redirect</i> · creation → critique → progression</div>
 <script>
 (() => {

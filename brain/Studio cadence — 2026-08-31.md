@@ -1,8 +1,8 @@
-# Mutine studio cadence — 2026-08-31
+# Mutine studio cadence — 2026-09-02
 
 ## Configured rhythm
 
-The studio has exactly six registered currents in `galerie/data/studio.json`:
+The studio has exactly six registered currents in `studio/data/studio.json`:
 
 1. Handwriting
 2. Self portrait
@@ -11,11 +11,9 @@ The studio has exactly six registered currents in `galerie/data/studio.json`:
 5. Naive art
 6. WebGPU
 
-`Mutine — studio pulse` is enabled on a five-hour cadence (`every 300m`) with continuity and delivery to the originating chat. It is pinned to the active runtime `gpt-5.6-luna` via `openai-codex` so a future model-config drift cannot silently skip the work.
+`Mutine — studio pulse` runs every four hours with continuity and delivery to the originating chat. `Mutine — daily artistic record` runs at 09:00 and reports all six currents, including dormant ones. Both jobs use `C:/Users/ASUS/autopoiesis` as their worktree.
 
-`Mutine — daily artistic record` is enabled at 09:00 and pinned to the same runtime. It reports all six currents, including dormant ones, and distinguishes produced work from questions, holds, blockers, doubts, and next falsifiable moves.
-
-As configured, both jobs are attached to this session and run from `C:/Users/ASUS/autopoiesis`. The schedule is a cadence, not proof that a new artwork was produced: only a committed, observed, and archived change counts as public progress.
+A schedule is a cadence, not evidence that an artwork was produced. Only a real tableau, recorded decision, validation, and committed archive entry count as public progress.
 
 ## Pulse protocol
 
@@ -30,10 +28,10 @@ A pulse may:
 
 A pulse may not:
 
-- claim a generated image, source, tweet, deployment, or autonomous activity it did not observe;
+- claim an image, source, post, deployment, or autonomous activity it did not observe;
 - promote a spike to a work without the exhibition gates;
 - add visitor controls merely to make an autonomous work easier to demonstrate;
-- expose any private access value or archive it;
+- expose or archive private access values;
 - commit unrelated worktree changes.
 
 ## Public reporting contract
@@ -42,10 +40,10 @@ Every pulse and daily record must state:
 
 `current → act → evidence → critique → decision → doubt → next test`
 
-The public `/atelier/` wall is the concise visible index. The `research/qa/` record is the detailed audit trail. Four dormant currents are displayed as held questions, not as missing or completed artworks.
+The root Gallery is the concise public index. `research/qa/` is the detailed audit trail. A dormant current appears as a held question, never as a missing or completed artwork.
 
 ## Current release boundary
 
-Handwriting v002 is the first autonomous progressive candidate: it draws a deterministic route, creates refusals, and carries refusal scars into later stages without visitor input. Its production route is now observed, but the work remains held until deletion, reduced-motion, responsive, and independent-art-critique evidence is complete.
+Handwriting v002, Pure SVG v002, Self portrait v001, Naive art v001, and Brush v002 remain candidates under critique. Their tableaus are deterministic and their routes are isolated, but a candidate is not promoted until perceptual, deletion, reduced-motion, responsive, and independent-art-critique evidence is complete. Brush v001 remains an archived visitor interaction; WebGPU remains dormant.
 
-Brush v001 remains a visitor-operated interaction under critique. It is not counted as autonomous production. No period is declared.
+No period is declared.

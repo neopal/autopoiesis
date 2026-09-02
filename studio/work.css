@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap');
+
+/*
+ * MUTINE / exhibition contract
+ *
+ * The rail is shared: type scale, exits, breathing room, evidence order, and
+ * the artwork frame. The current owns the atmosphere: paper, ink, accent,
+ * surface, edge, and frame gesture. No rule here changes an artwork engine.
+ */
+:root {
+  --exh-ui: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --exh-display: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --exh-gutter: clamp(18px, 4.5vw, 56px);
+  --exh-width: 1280px;
+  --exh-frame-gap: 8px;
+  --exh-frame-inset: 9px;
+}
+
+body.work-page {
+  --exh-page-bg: #e9e4d6;
+  --exh-page-color: #151514;
+  --exh-muted: #625d54;
+  --exh-accent: #b93c2e;
+  --exh-line: #b9b0a1;
+  --exh-surface-bg: #d9d0bd;
+  --exh-frame-gap-color: #e9e4d6;
+  --exh-frame-line: #b93c2e;
+  --exh-frame-inner: rgba(185, 60, 46, .34);
+  --exh-frame-style: solid;
+  --exh-frame-radius: 0;
+}
+
+body.work-page[data-current='handwriting'] {
+  --exh-page-bg: #e9e4d6;
+  --exh-page-color: #151514;
+  --exh-muted: #625d54;
+  --exh-accent: #b93c2e;
+  --exh-line: #b9b0a1;
+  --exh-surface-bg: #d9d0bd;
+  --exh-frame-gap-color: #e9e4d6;
+  --exh-frame-line: #b93c2e;
+  --exh-frame-inner: rgba(185, 60, 46, .28);
+  --exh-frame-style: solid;
+  --exh-frame-radius: 0;
+}
+
+body.work-page[data-current='brush'] {
+  --exh-page-bg: #ded8c8;
+  --exh-page-color: #172322;
+  --exh-muted: #41645d;
+  --exh-accent: #b84c36;
+  --exh-line: #aaa18f;
+  --exh-surface-bg: #ded8c8;
+  --exh-frame-gap-color: #ded8c8;
+  --exh-frame-line: #a49b88;
+  --exh-frame-inner: rgba(184, 76, 54, .3);
+  --exh-frame-style: solid;
+  --exh-frame-radius: 2px;
+}
+
+body.work-page[data-current='svg'] {
+  --exh-page-bg: radial-gradient(circle at 50% 44%, #28221a 0, #11100e 62%);
+  --exh-page-color: #e8e0d1;
+  --exh-muted: #b7ab98;
+  --exh-accent: #f0b36f;
+  --exh-line: #494238;
+  --exh-surface-bg: #181612;
+  --exh-frame-gap-color: #11100e;
+  --exh-frame-line: #615548;
+  --exh-frame-inner: rgba(240, 179, 111, .42);
+  --exh-frame-style: solid;
+  --exh-frame-radius: 0;
+}
+
+body.work-page[data-current='portrait'] {
+  --exh-page-bg: radial-gradient(circle at 52% 18%, #2a211d 0, #11100f 48%, #0c0c0b 100%);
+  --exh-page-color: #ebe0cf;
+  --exh-muted: #b0a69b;
+  --exh-accent: #d68a55;
+  --exh-line: rgba(235, 224, 207, .16);
+  --exh-surface-bg: #0d0c0b;
+  --exh-frame-gap-color: #11100f;
+  --exh-frame-line: rgba(214, 138, 85, .62);
+  --exh-frame-inner: rgba(235, 224, 207, .18);
+  --exh-frame-style: solid;
+  --exh-frame-radius: 1px;
+}
+
+body.work-page[data-current='naive'] {
+  --exh-page-bg: #f2e7d1;
+  --exh-page-color: #1d3340;
+  --exh-muted: #536f76;
+  --exh-accent: #c9583d;
+  --exh-line: #b9a98f;
+  --exh-surface-bg: #f2e7d1;
+  --exh-frame-gap-color: #f2e7d1;
+  --exh-frame-line: #a9997d;
+  --exh-frame-inner: rgba(201, 88, 61, .3);
+  --exh-frame-style: solid;
+  --exh-frame-radius: 0;
+}
+
+/* A common exhibition rail for the five autonomous work pages. */
+html:not(.preview-mode) body.work-page {
+  min-height: 100%;
+  overflow-x: hidden;
+  background: var(--exh-page-bg);
+  color: var(--exh-page-color);
+  font-family: var(--exh-ui);
+}
+
+html:not(.preview-mode) body.work-page .studio-shell,
+html:not(.preview-mode) body.work-page .portrait-shell {
+  width: min(var(--exh-width), 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-inline: var(--exh-gutter);
+  background: var(--exh-page-bg);
+}
+
+html:not(.preview-mode) body.work-page .studio-header,
+html:not(.preview-mode) body.work-page .studio-main,
+html:not(.preview-mode) body.work-page .studio-footer,
+html:not(.preview-mode) body.work-page .portrait-main {
+  width: auto;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+html:not(.preview-mode) body.work-page .studio-header,
+html:not(.preview-mode) body.work-page .masthead {
+  min-height: 72px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: var(--exh-line);
+  color: var(--exh-muted);
+}
+
+html:not(.preview-mode) body.work-page .studio-mark,
+html:not(.preview-mode) body.work-page .mark {
+  color: var(--exh-accent);
+  font-family: var(--exh-ui);
+}
+
+html:not(.preview-mode) body.work-page .studio-header p,
+html:not(.preview-mode) body.work-page .masthead p {
+  color: var(--exh-muted);
+}
+
+html:not(.preview-mode) body.work-page .studio-nav a,
+html:not(.preview-mode) body.work-page .studio-path a,
+html:not(.preview-mode) body.work-page footer a {
+  color: var(--exh-muted);
+}
+
+html:not(.preview-mode) body.work-page .studio-nav a:hover,
+html:not(.preview-mode) body.work-page .studio-nav a:focus-visible,
+html:not(.preview-mode) body.work-page .studio-path a:hover,
+html:not(.preview-mode) body.work-page .studio-path a:focus-visible,
+html:not(.preview-mode) body.work-page footer a:hover,
+html:not(.preview-mode) body.work-page footer a:focus-visible {
+  color: var(--exh-accent);
+}
+
+html:not(.preview-mode) body.work-page .studio-path {
+  max-width: none;
+  margin: 0 0 22px;
+  padding-inline: 0;
+  color: var(--exh-muted);
+}
+
+html:not(.preview-mode) body.work-page .studio-path span,
+html:not(.preview-mode) body.work-page .studio-path a:last-of-type,
+html:not(.preview-mode) body.work-page .studio-path [aria-current='page'] {
+  color: var(--exh-accent);
+}
+
+html:not(.preview-mode) body.work-page .studio-main,
+html:not(.preview-mode) body.work-page .portrait-main,
+html:not(.preview-mode) body.work-page > main {
+  padding-top: 22px;
+  padding-bottom: 66px;
+}
+
+html:not(.preview-mode) body.work-page .work-opening,
+html:not(.preview-mode) body.work-page .work-title,
+html:not(.preview-mode) body.work-page > main > .opening,
+html:not(.preview-mode) body.work-page > main > .work,
+html:not(.preview-mode) body.work-page > main > .annotations {
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+html:not(.preview-mode) body.work-page .work-opening,
+html:not(.preview-mode) body.work-page .work-title,
+html:not(.preview-mode) body.work-page > main > .opening {
+  padding-top: clamp(42px, 7vw, 92px);
+  padding-bottom: clamp(28px, 5vw, 62px);
+}
+
+html:not(.preview-mode) body.work-page .studio-kicker,
+html:not(.preview-mode) body.work-page .eyebrow,
+html:not(.preview-mode) body.work-page .annotation-label,
+html:not(.preview-mode) body.work-page .work-loop {
+  color: var(--exh-accent);
+}
+
+html:not(.preview-mode) body.work-page .work-opening h1,
+html:not(.preview-mode) body.work-page .work-title h1,
+html:not(.preview-mode) body.work-page > main > .opening h1 {
+  color: var(--exh-page-color);
+  font-family: var(--exh-display);
+}
+
+html:not(.preview-mode) body.work-page .work-opening h1 i,
+html:not(.preview-mode) body.work-page .work-title h1 i,
+html:not(.preview-mode) body.work-page > main > .opening h1 i {
+  color: var(--exh-accent);
+}
+
+html:not(.preview-mode) body.work-page .work-premise,
+html:not(.preview-mode) body.work-page .work-question,
+html:not(.preview-mode) body.work-page .lede,
+html:not(.preview-mode) body.work-page .annotations dd,
+html:not(.preview-mode) body.work-page .work-annotations p,
+html:not(.preview-mode) body.work-page .work-note,
+html:not(.preview-mode) body.work-page .note-copy {
+  color: var(--exh-muted);
+}
+
+html:not(.preview-mode) body.work-page .work-annotations div,
+html:not(.preview-mode) body.work-page .annotation-grid,
+html:not(.preview-mode) body.work-page .annotations dl,
+html:not(.preview-mode) body.work-page .work-note,
+html:not(.preview-mode) body.work-page .note-copy dl,
+html:not(.preview-mode) body.work-page .studio-footer,
+html:not(.preview-mode) body.work-page > main > .work figcaption {
+  border-color: var(--exh-line);
+}
+
+/* The frame is shared geometry, not a shared composition. */
+html:not(.preview-mode) body.work-page .artwork-frame,
+html:not(.preview-mode) body.work-page [data-frame='artwork-frame'] {
+  position: relative;
+  border: 1px var(--exh-frame-style) var(--exh-frame-line);
+  border-radius: var(--exh-frame-radius);
+  background: var(--exh-surface-bg);
+  box-shadow:
+    0 0 0 var(--exh-frame-gap) var(--exh-frame-gap-color),
+    0 0 0 calc(var(--exh-frame-gap) + 1px) var(--exh-frame-line);
+}
+
+html:not(.preview-mode) body.work-page .artwork-frame::after,
+html:not(.preview-mode) body.work-page [data-frame='artwork-frame']::after {
+  position: absolute;
+  z-index: 2;
+  inset: var(--exh-frame-inset);
+  border: 1px solid var(--exh-frame-inner);
+  border-radius: max(0px, calc(var(--exh-frame-radius) / 2));
+  content: '';
+  pointer-events: none;
+}
+
+html:not(.preview-mode) body.work-page[data-current='handwriting'] .artwork-frame {
+  box-shadow:
+    0 0 0 var(--exh-frame-gap) var(--exh-frame-gap-color),
+    0 0 0 calc(var(--exh-frame-gap) + 1px) var(--exh-frame-line);
+}
+
+html:not(.preview-mode) body.work-page[data-current='brush'] .artwork-frame {
+  box-shadow:
+    2px 3px 0 var(--exh-frame-gap) var(--exh-frame-gap-color),
+    2px 3px 0 calc(var(--exh-frame-gap) + 1px) var(--exh-frame-line);
+}
+
+html:not(.preview-mode) body.work-page[data-current='svg'] .artwork-frame::after {
+  inset: 10px;
+  border-style: dashed;
+  opacity: .72;
+}
+
+html:not(.preview-mode) body.work-page[data-current='portrait'] .artwork-frame::after {
+  inset: 13px;
+  border-color: var(--exh-frame-inner);
+  opacity: .8;
+}
+
+html:not(.preview-mode) body.work-page[data-current='naive'] .artwork-frame::after,
+html:not(.preview-mode) body.work-page[data-current='naive'] [data-frame='artwork-frame']::after {
+  inset: 7px;
+  border-style: dashed;
+  opacity: .68;
+}
+
+/* field-column owns the container query; the Naive frame must not alter it. */
+html:not(.preview-mode) body.work-page[data-current='naive'] [data-frame='artwork-frame'] {
+  border: 0;
+}
+
+html:not(.preview-mode) body.work-page .field-readout,
+html:not(.preview-mode) body.work-page .surface-readout,
+html:not(.preview-mode) body.work-page figcaption {
+  color: var(--exh-muted);
+}
+
+html:not(.preview-mode) body.work-page .field-readout span + span,
+html:not(.preview-mode) body.work-page .surface-readout b,
+html:not(.preview-mode) body.work-page figcaption span:last-child {
+  color: var(--exh-accent);
+}
+
+html:not(.preview-mode) body.work-page .studio-footer {
+  color: var(--exh-muted);
+}
+
+/* Handwriting has a full-width score; the other works keep their own grids. */
+html:not(.preview-mode) body.work-page[data-current='handwriting'] > main > .work {
+  margin: 0;
+}
+
+html:not(.preview-mode) body.work-page[data-current='handwriting'] > main > .work canvas {
+  background: var(--exh-surface-bg);
+}
+
+/* Field tests share the rail and the edge vocabulary, but remain field tests. */
+body.field-test-page {
+  --exh-page-bg: #eee9df;
+  --exh-page-color: #181714;
+  --exh-muted: #706a60;
+  --exh-accent: #a54d32;
+  --exh-line: #bdb5a8;
+  --exh-frame-line: #a54d32;
+}
+
+body.field-test-page[data-current='handwriting'] {
+  --exh-page-bg: #eee9df;
+  --exh-page-color: #181714;
+  --exh-muted: #706a60;
+  --exh-accent: #a54d32;
+  --exh-line: #bdb5a8;
+  --exh-frame-line: #a54d32;
+}
+
+body.field-test-page[data-current='ecology'] {
+  --exh-page-bg: #111512;
+  --exh-page-color: #d9dfcb;
+  --exh-muted: #c6ceba;
+  --exh-accent: #b8d559;
+  --exh-line: rgba(198, 206, 186, .35);
+  --exh-frame-line: rgba(184, 213, 89, .72);
+}
+
+html:not(.preview-mode) body.field-test-page {
+  background: var(--exh-page-bg, #181714);
+  color: var(--exh-page-color);
+}
+
+html:not(.preview-mode) body.field-test-page::before {
+  position: fixed;
+  z-index: 5;
+  inset: 11px;
+  border: 1px solid var(--exh-frame-line);
+  content: '';
+  pointer-events: none;
+}
+
+html:not(.preview-mode) body.field-test-page .studio-wayfinding {
+  border-color: var(--exh-line);
+  color: var(--exh-muted);
+}
+
+html:not(.preview-mode) body.field-test-page .studio-wayfinding a:hover,
+html:not(.preview-mode) body.field-test-page .studio-wayfinding a:focus-visible,
+html:not(.preview-mode) body.field-test-page .studio-wayfinding .studio-path span {
+  color: var(--exh-accent);
+}
+
+html:not(.preview-mode) body.field-test-page .caption,
+html:not(.preview-mode) body.field-test-page .legend span:last-child,
+html:not(.preview-mode) body.field-test-page .clock {
+  color: var(--exh-accent);
+}
+
+@media (max-width: 800px) {
+  html:not(.preview-mode) body.work-page .studio-shell,
+  html:not(.preview-mode) body.work-page .portrait-shell {
+    padding-inline: 18px;
+  }
+
+  html:not(.preview-mode) body.work-page .studio-main,
+  html:not(.preview-mode) body.work-page .portrait-main,
+  html:not(.preview-mode) body.work-page > main {
+    padding-top: 18px;
+  }
+
+  html:not(.preview-mode) body.work-page .artwork-frame::after,
+  html:not(.preview-mode) body.work-page [data-frame='artwork-frame']::after {
+    inset: 7px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.work-page .artwork-frame,
+  body.field-test-page::before { transition: none !important; }
+}

@@ -1,10 +1,10 @@
 # 02 — Concepts
 
-- [[Contrainte plutôt que glyphe]]
-- [[Code comme artefact éditable]]
-- [[Évaluation sans convergence]]
-- [[Portrait procédural]]
-- [[Archive traduite, jamais importée]]
-- [[Matière et geste]]
-- [[Compute qui signifie quelque chose]]
-- [[ASCII comme contrainte de densité]]
+- [[Constraint before glyph]]
+- [[Code as an editable artifact]]
+- [[Evaluation without convergence]]
+- [[Procedural portrait]]
+- [[Translated archive, never imported]]
+- [[Matter and gesture]]
+- [[Compute that means something]]
+- [[ASCII as a density constraint]]

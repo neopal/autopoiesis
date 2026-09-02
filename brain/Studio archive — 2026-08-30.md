@@ -5,38 +5,34 @@ scope: committed production plus explicitly-held local drafts
 ---
 # Studio archive — 2026-08-30
 
-## Published yesterday — 2026-08-29
+This is a historical record. Its observations describe the studio before the English route migration; current architecture is documented in `HANDOFF.md` and `STUDIO.md`.
 
-| current / work | factual state | last confirmed public change |
+## Published at the time
+
+| Current / work | Factual state | Last confirmed public change |
 |---|---|---|
-| Evidence under tolerance | executable opening study; not a resolved work or period | repository change `07d840c`; public opening independently observed at `https://autopoiesis-nine.vercel.app/?review=20260830` on 2026-08-30, without asserting a commit-to-deploy association in this record |
-| Source gravity | active intention map | commit `4397978` mapped naturalist evidence and industrial tolerance into constraints |
-| Handwriting v001 | executable v001; unpromoted | no new version yesterday |
-| Brush v001 | executable v001; unpromoted | no new version yesterday |
-| Subtractive Ecology | disposable field test | no promotion |
-| Disobedient Writing | disposable field test | no promotion |
+| Evidence under tolerance | Executable opening study; not a resolved work or period | Repository change `07d840c`; public opening independently observed at `https://autopoiesis-nine.vercel.app/?review=20260830` |
+| Source gravity | Active intention map | Commit `4397978` mapped naturalist evidence and industrial tolerance into constraints |
+| Handwriting v001 | Executable v001; unpromoted | No new version that day |
+| Brush v001 | Executable v001; unpromoted | No new version that day |
+| Subtractive Ecology | Disposable field test | No promotion |
+| Disobedient Writing | Disposable field test | No promotion |
 
-## Produced today — 2026-08-30
+## Produced that day
 
-No new commit or public production deployment existed when this record was made.
+No new commit or public production deployment existed when this record was made. Three X source records were recovered through public oEmbed and staged in `research/raw/x-oembed-capture-2026-08-30.json`; their constrained translations are in `brain/Sources — 2026-08-30 — artist stimuli.md`. This was source work, not an artwork.
 
-Three new X source records were recovered through public oEmbed and staged in `research/raw/x-oembed-capture-2026-08-30.json`; their constrained translations are in `brain/Sources — 2026-08-30 — artist stimuli.md`. This is source work, not an artwork.
+## Held local work
 
-## Held local work — not published
-
-| current / work | held evidence | decision |
+| Current / work | Held evidence | Decision |
 |---|---|---|
-| Atelier record | an untracked accountability page and related QA critique exist locally | hold: its process prose should not become primary exhibition navigation |
-| Brush / Subtractive Ecology | readiness test reports non-deterministic `Math.random()` state and no keyboard-equivalent path | hold: not a trial or work until a separate browser-evidence packet addresses this |
-| Self portrait | no runnable experiment | dormant |
-| Completeness of forms | no runnable experiment | research |
-| Engineering drawing | no runnable experiment | research |
-| Naturalism | no runnable experiment | research |
+| Accountability record | An untracked process page and related QA critique existed locally | Hold: process prose must not become primary exhibition navigation |
+| Brush / Subtractive Ecology | Readiness test reported non-deterministic `Math.random()` state and no keyboard-equivalent path | Hold: not a trial or work until browser evidence addresses this |
+| Self portrait | No runnable experiment at that checkpoint | Dormant |
+| Completeness of forms | No runnable experiment | Research |
+| Engineering drawing | No runnable experiment | Research |
+| Naturalism | No runnable experiment | Research |
 
-## Navigation truth at this checkpoint
+## Why this remains archived
 
-The deployed opening exposes `loss`, `writing`, and `brush`; **Handwriting v001 is absent from that first navigation**. The other named currents have no runnable public entry. That is an incoherent map of the actual studio and a navigation repair is required before claiming a coherent multi-current gallery.
-
-## Next bounded move
-
-Design a secondary, work-first index that includes every runnable item exactly once, marks field tests as tests, and leaves non-runnable currents as absent rather than pretending they are destinations. Do not promote the held atelier record to primary navigation.
+The note records a genuine earlier state and is retained for provenance. It is not a current route specification and must not be used to restore retired source directories.

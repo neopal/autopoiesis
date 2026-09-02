@@ -1,5 +1,199 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/galerie/" }
+  "redirects": [
+    {
+      "source": "/galerie/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/atelier/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/courants/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/typography-route/",
+      "destination": "/works/typography-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/brush-wound/",
+      "destination": "/works/brush-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/pure-svg-animal/",
+      "destination": "/works/svg-2026-09-02/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/self-portrait-trace/",
+      "destination": "/works/portrait-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/naive-house/",
+      "destination": "/works/naive-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/courants/handwriting/",
+      "destination": "/currents/handwriting/",
+      "permanent": true
+    },
+    {
+      "source": "/courants/self-portrait/",
+      "destination": "/currents/self-portrait/",
+      "permanent": true
+    },
+    {
+      "source": "/courants/pure-svg/",
+      "destination": "/currents/pure-svg/",
+      "permanent": true
+    },
+    {
+      "source": "/courants/brush/",
+      "destination": "/currents/brush/",
+      "permanent": true
+    },
+    {
+      "source": "/courants/naive-art/",
+      "destination": "/currents/naive-art/",
+      "permanent": true
+    },
+    {
+      "source": "/courants/webgpu/",
+      "destination": "/currents/webgpu/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/svg-2026-09-02/",
+      "destination": "/works/svg-2026-09-02/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/typography-2026-08-28/",
+      "destination": "/works/typography-2026-08-28/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/brush-2026-08-31/",
+      "destination": "/works/brush-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/typography-2026-08-31/",
+      "destination": "/works/typography-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/svg-2026-08-31/",
+      "destination": "/works/svg-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/portrait-2026-08-31/",
+      "destination": "/works/portrait-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/naive-2026-08-31/",
+      "destination": "/works/naive-2026-08-31/",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/brush-2026-08-28/",
+      "destination": "/works/brush-2026-08-28/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/typographie-manuscrite/v001/",
+      "destination": "/studies/handwriting/v001/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/typographie-manuscrite/v002/",
+      "destination": "/studies/handwriting/v002/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/p5-brush/v001/",
+      "destination": "/studies/p5-brush/v001/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/p5-brush/v002/",
+      "destination": "/studies/p5-brush/v002/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/pure-svg/v001/",
+      "destination": "/studies/pure-svg/v001/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/pure-svg/v002/",
+      "destination": "/studies/pure-svg/v002/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/self-portrait/v001/",
+      "destination": "/studies/self-portrait/v001/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/naive-art/v001/",
+      "destination": "/studies/naive-art/v001/",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/typographie-manuscrite/:path*",
+      "destination": "/studies/handwriting/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/studies/typographie-manuscrite/:path*",
+      "destination": "/studies/handwriting/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/galerie/:path*",
+      "destination": "/studio/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/courants/:path*",
+      "destination": "/currents/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/oeuvres/:path*",
+      "destination": "/works/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/chantiers/:path*",
+      "destination": "/studies/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/atelier/:path*",
+      "destination": "/",
+      "permanent": true
+    }
   ]
 }

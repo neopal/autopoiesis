@@ -5,12 +5,12 @@ captured: 2026-08-28
 access: authenticated X session via user-approved Chrome remote debugging
 raw_evidence: "[[../research/raw/x-authenticated-capture-2026-08-28.json]]"
 concepts:
-  - "[[Contrainte plutôt que glyphe]]"
-  - "[[Matière et geste]]"
-  - "[[Portrait procédural]]"
-  - "[[Archive traduite, jamais importée]]"
-  - "[[Compute qui signifie quelque chose]]"
-  - "[[ASCII comme contrainte de densité]]"
+  - "[[Constraint before glyph]]"
+  - "[[Matter and gesture]]"
+  - "[[Procedural portrait]]"
+  - "[[Translated archive, never imported]]"
+  - "[[Compute that means something]]"
+  - "[[ASCII as a density constraint]]"
 ---
 # Sources — 2026-08-28 — authenticated X capture
 

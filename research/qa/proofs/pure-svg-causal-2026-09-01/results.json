@@ -1,0 +1,1454 @@
+{
+  "route": "http://127.0.0.1:4179/chantiers/pure-svg/v001/",
+  "probe": "cache-isolated Chrome 151 CDP; real device metrics and emulated media",
+  "matrix": [
+    {
+      "requested": [
+        320,
+        568
+      ],
+      "variant": "normal",
+      "state": {
+        "viewport": {
+          "innerWidth": 320,
+          "innerHeight": 568,
+          "clientWidth": 305,
+          "scrollWidth": 305,
+          "clientHeight": 568,
+          "scrollHeight": 1479
+        },
+        "field": {
+          "left": 18,
+          "top": 587.5,
+          "right": 287,
+          "bottom": 775.796875,
+          "width": 269,
+          "height": 188.296875
+        },
+        "svg": {
+          "left": 19,
+          "top": 588.5,
+          "right": 286,
+          "bottom": 774.796875,
+          "width": 267,
+          "height": 186.296875
+        },
+        "firstViewportVisibleSvgPx": 0,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 18,
+            "right": 77.28125,
+            "top": 10,
+            "bottom": 54
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 18,
+            "right": 67,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 80,
+            "right": 136,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 149,
+            "right": 193,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 206,
+            "right": 255,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 18,
+            "right": 65.609375,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 89.921875,
+            "right": 144.328125,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 168.640625,
+            "right": 223.046875,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG current",
+            "width": 100.8125,
+            "height": 44,
+            "left": 18,
+            "right": 118.8125,
+            "top": 1408.796875,
+            "bottom": 1452.796875
+          },
+          {
+            "text": "journal \u2197",
+            "width": 57.890625,
+            "height": 44,
+            "left": 229.109375,
+            "right": 287,
+            "top": 1408.796875,
+            "bottom": 1452.796875
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1064,
+        "bodyOverflowX": "hidden",
+        "reduced": false,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-320x568-normal.png",
+      "bytes": 76996
+    },
+    {
+      "requested": [
+        320,
+        568
+      ],
+      "variant": "reduced",
+      "state": {
+        "viewport": {
+          "innerWidth": 320,
+          "innerHeight": 568,
+          "clientWidth": 305,
+          "scrollWidth": 305,
+          "clientHeight": 568,
+          "scrollHeight": 1479
+        },
+        "field": {
+          "left": 18,
+          "top": 587.5,
+          "right": 287,
+          "bottom": 775.796875,
+          "width": 269,
+          "height": 188.296875
+        },
+        "svg": {
+          "left": 19,
+          "top": 588.5,
+          "right": 286,
+          "bottom": 774.796875,
+          "width": 267,
+          "height": 186.296875
+        },
+        "firstViewportVisibleSvgPx": 0,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 18,
+            "right": 77.28125,
+            "top": 10,
+            "bottom": 54
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 18,
+            "right": 67,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 80,
+            "right": 136,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 149,
+            "right": 193,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 206,
+            "right": 255,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 18,
+            "right": 65.609375,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 89.921875,
+            "right": 144.328125,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 168.640625,
+            "right": 223.046875,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG current",
+            "width": 100.8125,
+            "height": 44,
+            "left": 18,
+            "right": 118.8125,
+            "top": 1408.796875,
+            "bottom": 1452.796875
+          },
+          {
+            "text": "journal \u2197",
+            "width": 57.890625,
+            "height": 44,
+            "left": 229.109375,
+            "right": 287,
+            "top": 1408.796875,
+            "bottom": 1452.796875
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1065,
+        "bodyOverflowX": "hidden",
+        "reduced": true,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-320x568-reduced.png",
+      "bytes": 76996
+    },
+    {
+      "requested": [
+        390,
+        844
+      ],
+      "variant": "normal",
+      "state": {
+        "viewport": {
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "clientHeight": 844,
+          "scrollHeight": 1443
+        },
+        "field": {
+          "left": 18,
+          "top": 574.640625,
+          "right": 357,
+          "bottom": 811.9375,
+          "width": 339,
+          "height": 237.296875
+        },
+        "svg": {
+          "left": 19,
+          "top": 575.640625,
+          "right": 356,
+          "bottom": 810.9375,
+          "width": 337,
+          "height": 235.296875
+        },
+        "firstViewportVisibleSvgPx": 235.296875,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 18,
+            "right": 77.28125,
+            "top": 10,
+            "bottom": 54
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 18,
+            "right": 67,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 80,
+            "right": 136,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 149,
+            "right": 193,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 206,
+            "right": 255,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 18,
+            "right": 65.609375,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 89.921875,
+            "right": 144.328125,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 168.640625,
+            "right": 223.046875,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG current",
+            "width": 100.8125,
+            "height": 44,
+            "left": 18,
+            "right": 118.8125,
+            "top": 1372.9375,
+            "bottom": 1416.9375
+          },
+          {
+            "text": "journal \u2197",
+            "width": 57.890625,
+            "height": 44,
+            "left": 299.109375,
+            "right": 357,
+            "top": 1372.9375,
+            "bottom": 1416.9375
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1064,
+        "bodyOverflowX": "hidden",
+        "reduced": false,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-390x844-normal.png",
+      "bytes": 110419
+    },
+    {
+      "requested": [
+        390,
+        844
+      ],
+      "variant": "reduced",
+      "state": {
+        "viewport": {
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "clientHeight": 844,
+          "scrollHeight": 1443
+        },
+        "field": {
+          "left": 18,
+          "top": 574.640625,
+          "right": 357,
+          "bottom": 811.9375,
+          "width": 339,
+          "height": 237.296875
+        },
+        "svg": {
+          "left": 19,
+          "top": 575.640625,
+          "right": 356,
+          "bottom": 810.9375,
+          "width": 337,
+          "height": 235.296875
+        },
+        "firstViewportVisibleSvgPx": 235.296875,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 18,
+            "right": 77.28125,
+            "top": 10,
+            "bottom": 54
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 18,
+            "right": 67,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 80,
+            "right": 136,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 149,
+            "right": 193,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 206,
+            "right": 255,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 18,
+            "right": 65.609375,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 89.921875,
+            "right": 144.328125,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 168.640625,
+            "right": 223.046875,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG current",
+            "width": 100.8125,
+            "height": 44,
+            "left": 18,
+            "right": 118.8125,
+            "top": 1372.9375,
+            "bottom": 1416.9375
+          },
+          {
+            "text": "journal \u2197",
+            "width": 57.890625,
+            "height": 44,
+            "left": 299.109375,
+            "right": 357,
+            "top": 1372.9375,
+            "bottom": 1416.9375
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1064,
+        "bodyOverflowX": "hidden",
+        "reduced": true,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-390x844-reduced.png",
+      "bytes": 110422
+    },
+    {
+      "requested": [
+        768,
+        1024
+      ],
+      "variant": "normal",
+      "state": {
+        "viewport": {
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "clientWidth": 753,
+          "scrollWidth": 753,
+          "clientHeight": 1024,
+          "scrollHeight": 1468
+        },
+        "field": {
+          "left": 18,
+          "top": 532.109375,
+          "right": 735,
+          "bottom": 1034,
+          "width": 717,
+          "height": 501.890625
+        },
+        "svg": {
+          "left": 19,
+          "top": 533.109375,
+          "right": 734,
+          "bottom": 1033,
+          "width": 715,
+          "height": 499.890625
+        },
+        "firstViewportVisibleSvgPx": 490.890625,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 18,
+            "right": 77.28125,
+            "top": 10,
+            "bottom": 54
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 18,
+            "right": 67,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 85,
+            "right": 141,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 159,
+            "right": 203,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 221,
+            "right": 270,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 18,
+            "right": 65.609375,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 89.921875,
+            "right": 144.328125,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 168.640625,
+            "right": 223.046875,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG current",
+            "width": 112,
+            "height": 44,
+            "left": 18,
+            "right": 130,
+            "top": 1398,
+            "bottom": 1442
+          },
+          {
+            "text": "journal \u2197",
+            "width": 64.328125,
+            "height": 44,
+            "left": 670.671875,
+            "right": 735,
+            "top": 1398,
+            "bottom": 1442
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1064,
+        "bodyOverflowX": "hidden",
+        "reduced": false,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-768x1024-normal.png",
+      "bytes": 181261
+    },
+    {
+      "requested": [
+        768,
+        1024
+      ],
+      "variant": "reduced",
+      "state": {
+        "viewport": {
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "clientWidth": 753,
+          "scrollWidth": 753,
+          "clientHeight": 1024,
+          "scrollHeight": 1468
+        },
+        "field": {
+          "left": 18,
+          "top": 532.109375,
+          "right": 735,
+          "bottom": 1034,
+          "width": 717,
+          "height": 501.890625
+        },
+        "svg": {
+          "left": 19,
+          "top": 533.109375,
+          "right": 734,
+          "bottom": 1033,
+          "width": 715,
+          "height": 499.890625
+        },
+        "firstViewportVisibleSvgPx": 490.890625,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 18,
+            "right": 77.28125,
+            "top": 10,
+            "bottom": 54
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 18,
+            "right": 67,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 85,
+            "right": 141,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 159,
+            "right": 203,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 221,
+            "right": 270,
+            "top": 66,
+            "bottom": 110
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 18,
+            "right": 65.609375,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 89.921875,
+            "right": 144.328125,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 168.640625,
+            "right": 223.046875,
+            "top": 152,
+            "bottom": 196
+          },
+          {
+            "text": "pure SVG current",
+            "width": 112,
+            "height": 44,
+            "left": 18,
+            "right": 130,
+            "top": 1398,
+            "bottom": 1442
+          },
+          {
+            "text": "journal \u2197",
+            "width": 64.328125,
+            "height": 44,
+            "left": 670.671875,
+            "right": 735,
+            "top": 1398,
+            "bottom": 1442
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1064,
+        "bodyOverflowX": "hidden",
+        "reduced": true,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-768x1024-reduced.png",
+      "bytes": 181274
+    },
+    {
+      "requested": [
+        1280,
+        800
+      ],
+      "variant": "normal",
+      "state": {
+        "viewport": {
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "clientWidth": 1265,
+          "scrollWidth": 1265,
+          "clientHeight": 800,
+          "scrollHeight": 1398
+        },
+        "field": {
+          "left": 56,
+          "top": 508.5625,
+          "right": 927.875,
+          "bottom": 1118.875,
+          "width": 871.875,
+          "height": 610.3125
+        },
+        "svg": {
+          "left": 57,
+          "top": 509.5625,
+          "right": 926.875,
+          "bottom": 1117.875,
+          "width": 869.875,
+          "height": 608.3125
+        },
+        "firstViewportVisibleSvgPx": 290.4375,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 56,
+            "right": 115.28125,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 957,
+            "right": 1006,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 1024,
+            "right": 1080,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 1098,
+            "right": 1142,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 1160,
+            "right": 1209,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 56,
+            "right": 103.609375,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 127.921875,
+            "right": 182.328125,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 206.640625,
+            "right": 261.046875,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG current",
+            "width": 112,
+            "height": 44,
+            "left": 56,
+            "right": 168,
+            "top": 1327.875,
+            "bottom": 1371.875
+          },
+          {
+            "text": "journal \u2197",
+            "width": 64.328125,
+            "height": 44,
+            "left": 1144.671875,
+            "right": 1209,
+            "top": 1327.875,
+            "bottom": 1371.875
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1064,
+        "bodyOverflowX": "hidden",
+        "reduced": false,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-1280x800-normal.png",
+      "bytes": 319839
+    },
+    {
+      "requested": [
+        1280,
+        800
+      ],
+      "variant": "reduced",
+      "state": {
+        "viewport": {
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "clientWidth": 1265,
+          "scrollWidth": 1265,
+          "clientHeight": 800,
+          "scrollHeight": 1398
+        },
+        "field": {
+          "left": 56,
+          "top": 508.5625,
+          "right": 927.875,
+          "bottom": 1118.875,
+          "width": 871.875,
+          "height": 610.3125
+        },
+        "svg": {
+          "left": 57,
+          "top": 509.5625,
+          "right": 926.875,
+          "bottom": 1117.875,
+          "width": 869.875,
+          "height": 608.3125
+        },
+        "firstViewportVisibleSvgPx": 290.4375,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 56,
+            "right": 115.28125,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 957,
+            "right": 1006,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 1024,
+            "right": 1080,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 1098,
+            "right": 1142,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 1160,
+            "right": 1209,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 56,
+            "right": 103.609375,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 127.921875,
+            "right": 182.328125,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 206.640625,
+            "right": 261.046875,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG current",
+            "width": 112,
+            "height": 44,
+            "left": 56,
+            "right": 168,
+            "top": 1327.875,
+            "bottom": 1371.875
+          },
+          {
+            "text": "journal \u2197",
+            "width": 64.328125,
+            "height": 44,
+            "left": 1144.671875,
+            "right": 1209,
+            "top": 1327.875,
+            "bottom": 1371.875
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1065,
+        "bodyOverflowX": "hidden",
+        "reduced": true,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-1280x800-reduced.png",
+      "bytes": 319863
+    },
+    {
+      "requested": [
+        1920,
+        1080
+      ],
+      "variant": "normal",
+      "state": {
+        "viewport": {
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "clientHeight": 1080,
+          "scrollHeight": 1424
+        },
+        "field": {
+          "left": 368.5,
+          "top": 526.90625,
+          "right": 1252,
+          "bottom": 1145.34375,
+          "width": 883.5,
+          "height": 618.4375
+        },
+        "svg": {
+          "left": 369.5,
+          "top": 527.90625,
+          "right": 1251,
+          "bottom": 1144.34375,
+          "width": 881.5,
+          "height": 616.4375
+        },
+        "firstViewportVisibleSvgPx": 552.09375,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 368.5,
+            "right": 427.78125,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 1284.5,
+            "right": 1333.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 1351.5,
+            "right": 1407.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 1425.5,
+            "right": 1469.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 1487.5,
+            "right": 1536.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 368.5,
+            "right": 416.109375,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 440.421875,
+            "right": 494.828125,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 519.140625,
+            "right": 573.546875,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG current",
+            "width": 112,
+            "height": 44,
+            "left": 368.5,
+            "right": 480.5,
+            "top": 1354.34375,
+            "bottom": 1398.34375
+          },
+          {
+            "text": "journal \u2197",
+            "width": 64.328125,
+            "height": 44,
+            "left": 1472.171875,
+            "right": 1536.5,
+            "top": 1354.34375,
+            "bottom": 1398.34375
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1064,
+        "bodyOverflowX": "hidden",
+        "reduced": false,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-1920x1080-normal.png",
+      "bytes": 454871
+    },
+    {
+      "requested": [
+        1920,
+        1080
+      ],
+      "variant": "reduced",
+      "state": {
+        "viewport": {
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "clientHeight": 1080,
+          "scrollHeight": 1424
+        },
+        "field": {
+          "left": 368.5,
+          "top": 526.90625,
+          "right": 1252,
+          "bottom": 1145.34375,
+          "width": 883.5,
+          "height": 618.4375
+        },
+        "svg": {
+          "left": 369.5,
+          "top": 527.90625,
+          "right": 1251,
+          "bottom": 1144.34375,
+          "width": 881.5,
+          "height": 616.4375
+        },
+        "firstViewportVisibleSvgPx": 552.09375,
+        "links": [
+          {
+            "text": "MUTINE",
+            "width": 59.28125,
+            "height": 44,
+            "left": 368.5,
+            "right": 427.78125,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 49,
+            "height": 44,
+            "left": 1284.5,
+            "right": 1333.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "currents",
+            "width": 56,
+            "height": 44,
+            "left": 1351.5,
+            "right": 1407.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "works",
+            "width": 44,
+            "height": 44,
+            "left": 1425.5,
+            "right": 1469.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "journal",
+            "width": 49,
+            "height": 44,
+            "left": 1487.5,
+            "right": 1536.5,
+            "top": 13.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "gallery",
+            "width": 47.609375,
+            "height": 44,
+            "left": 368.5,
+            "right": 416.109375,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "currents",
+            "width": 54.40625,
+            "height": 44,
+            "left": 440.421875,
+            "right": 494.828125,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG",
+            "width": 54.40625,
+            "height": 44,
+            "left": 519.140625,
+            "right": 573.546875,
+            "top": 94,
+            "bottom": 138
+          },
+          {
+            "text": "pure SVG current",
+            "width": 112,
+            "height": 44,
+            "left": 368.5,
+            "right": 480.5,
+            "top": 1354.34375,
+            "bottom": 1398.34375
+          },
+          {
+            "text": "journal \u2197",
+            "width": 64.328125,
+            "height": 44,
+            "left": 1472.171875,
+            "right": 1536.5,
+            "top": 1354.34375,
+            "bottom": 1398.34375
+          }
+        ],
+        "minLinkWidth": 44,
+        "minLinkHeight": 44,
+        "controls": 0,
+        "stage": "stage 01 / 8",
+        "memory": "0 inherited cuts",
+        "svgMarkupLength": 1065,
+        "bodyOverflowX": "hidden",
+        "reduced": true,
+        "title": "MUTINE \u2014 pure SVG v001"
+      },
+      "errors": 0,
+      "consoleEvents": 0,
+      "badFirstPartyResponses": 0,
+      "badResponses": [],
+      "exceptions": [],
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-1920x1080-reduced.png",
+      "bytes": 454856
+    },
+    {
+      "requested": [
+        1280,
+        800
+      ],
+      "variant": "late-normal",
+      "state": {
+        "stage": "stage 03 / 8",
+        "memory": "2 inherited cuts",
+        "svgMarkupLength": 1196
+      },
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-late-normal-1280x800.png",
+      "bytes": 321922
+    },
+    {
+      "requested": [
+        1280,
+        800
+      ],
+      "variant": "late-reduced",
+      "state": {
+        "stage": "stage 03 / 8",
+        "memory": "2 inherited cuts",
+        "svgMarkupLength": 1195
+      },
+      "capture": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-causal-2026-09-01\\pure-svg-late-reduced-1280x800.png",
+      "bytes": 321912
+    }
+  ]
+}

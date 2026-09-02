@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-31",
+  "work": "naive-art-v001",
+  "route": "http://127.0.0.1:4174/chantiers/naive-art/v001/",
+  "probe": {
+    "transport": "Chrome CDP",
+    "cacheDisabled": true,
+    "profileIsolated": true,
+    "injectedStyles": false,
+    "height": 844
+  },
+  "results": [
+    {
+      "viewport": 879,
+      "innerWidth": 879,
+      "documentClientWidth": 864,
+      "documentScrollWidth": 864,
+      "surfaceWidth": 808,
+      "fieldBorderBoxWidth": 560,
+      "fieldContentWidth": 558,
+      "canvasClientWidth": 558,
+      "containerWidth": 560,
+      "fieldHeight": 700,
+      "ratio": 0.8,
+      "aspectRatio": "4 / 5",
+      "mode": "stacked",
+      "painted": true
+    },
+    {
+      "viewport": 880,
+      "innerWidth": 880,
+      "documentClientWidth": 865,
+      "documentScrollWidth": 865,
+      "surfaceWidth": 809,
+      "fieldBorderBoxWidth": 561,
+      "fieldContentWidth": 559,
+      "canvasClientWidth": 559,
+      "containerWidth": 561,
+      "fieldHeight": 701.25,
+      "ratio": 0.8,
+      "aspectRatio": "4 / 5",
+      "mode": "stacked",
+      "painted": true
+    },
+    {
+      "viewport": 881,
+      "innerWidth": 881,
+      "documentClientWidth": 866,
+      "documentScrollWidth": 866,
+      "surfaceWidth": 810,
+      "fieldBorderBoxWidth": 562,
+      "fieldContentWidth": 560,
+      "canvasClientWidth": 560,
+      "containerWidth": 562,
+      "fieldHeight": 393.390625,
+      "ratio": 1.4286,
+      "aspectRatio": "10 / 7",
+      "mode": "diptych",
+      "painted": true
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "work": "naive-art-v001",
+  "status": "hold",
+  "critiques": [
+    {
+      "role": "material critic",
+      "question": "Does the retained error alter spatial decisions rather than merely add orange marks?",
+      "status": "pending"
+    },
+    {
+      "role": "naivety critic",
+      "question": "Does the reduced vocabulary avoid becoming a decorative imitation of childlike painting?",
+      "status": "pending"
+    },
+    {
+      "role": "experience critic",
+      "question": "Does the first frame read as a tableau before the explanation, and does reduced motion preserve the final consequence?",
+      "status": "pending"
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "The first frame reads as a scene, but the blue door reads as detached from the house and the later spatial consequence of the retained mistake is not unambiguous without explanation.",
+      "next_test": "Re-compose the door so its wrong placement is visibly part of the house, then make the later path/door drift perceptually legible before requesting a fresh critique."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "Across all five viewport columns, the accepted blue door is inside the house wall and the reduced desktop panels show a second dashed door with divergent paths. At 320x568 and 390x844, however, the door/path difference collapses into a tiny overlay and the causal relation remains ambiguous without the caption.",
+      "next_test": "Make the retained-error relation legible at the two narrow viewports without relying on the caption, then request another perceptual review."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "The orange decision trace adds a visible connector, but at 320x568 and 390x844 the accepted door, refused mark, and path relation still merge into adjacent small marks; the causal reading remains caption-dependent.",
+      "next_test": "Try one deliberately separated accepted/refused composition at narrow viewports; if the rule still needs caption support, hold or delete this direction rather than adding more ornament."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "CHANGE",
+      "observed": "The separated panels read clearly in the inspected narrow captures, but the direct route still rendered the field at the desktop 10/7 ratio because the container query targeted its own container; the stacked composition was therefore compressed on narrow direct routes.",
+      "next_test": "Move container-type:inline-size to a parent work surface, target the field wrapper from the container query, regenerate direct narrow captures, then request a fresh perceptual review."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "The independent review returned HOLD after the work-surface container correction; its returned summary was truncated before a concrete perceptual reason was available.",
+      "next_test": "Do not promote or invent a new art change from an incomplete rationale; obtain a fresh review after the field-column breakpoint correction."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "The late-stage door shift reads more clearly than the path shift. The solid and dashed paths remain close while orange memory loops become visually prominent and can read as annotation or decoration; the reduced vocabulary also strongly invokes familiar childlike iconography. Preview is technically valid and image-first, but context-light.",
+      "next_test": "Capture paired late-stage renders with the orange memory loops and dashed proposal hidden, comparing inherited memory against an empty-memory replay; keep the candidate held unless the solid geometry alone makes both the changed door placement and changed path route unmistakable."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "The post-field-column review found the refused and kept scenes materially distinct without surrounding captions across narrow and direct 801/860 captures, and judged the 801/860 stacked compositions readable rather than merely contained. It nevertheless kept the candidate on HOLD over the retained-error causal relation; the returned transcript was truncated before the full detailed rationale was available.",
+      "next_test": "Keep the candidate held until a concrete causal re-composition or an explicit perceptual KEEP closes the door/path question."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "Across the narrow 320/390 captures and direct 801/860 captures, the refused and kept scenes remain materially distinct without surrounding captions: the refused scene uses vermilion dashed house/path geometry and a faded field, while the kept scene uses solid dark geometry and a resolved filled roof. The direct 801/860 compositions are readable rather than merely contained, and the 880/900 side-by-side panels remain legible. Desktop captures have clear diptych hierarchy; the kept door is visibly inside the house and its solid path differs from the refused dashed path. Reduced motion holds the final remembered state with eight retained mistakes. The orange memory marks remain visible as repeated C-shaped traces inside the kept house and around the door, but they read equally as decorative interior glyphs; no mark visibly travels from the refused door/path into the altered kept door/path. The orange bridge is static and non-interactive, but in the stacked 801/860 composition it sits centrally between panel edges instead of attaching to the door/path junction, so it reads more like a diagrammatic connector than a compositional scar.",
+      "blocking_concerns": [
+        "The causal chain from retained orange memory to the kept house's changed door and path remains caption-dependent.",
+        "The orange marks overlap the kept doorway and can be mistaken for decoration; the bridge does not clarify which spatial decision the marks caused.",
+        "The responsive fix resolves the layout failure, but it does not yet resolve the perceptual ambiguity that motivated the prior HOLD."
+      ],
+      "next_test": "Run a no-caption final-state A/B at 320, 390, 801, 860, 880, 900, and desktop: compare the intact timeline against a replay with one retained mistake deleted, while visually anchoring one continuous memory trace to the refused door/path and the changed kept door/path. Require an observer to identify the changed spatial decision and its cause without prose before KEEP."
+    },
+    {
+      "role": "independent perceptual critic",
+      "source": "deleg_d169f797",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "Across all five viewport columns, the solid blue door is drawn inside the house's right wall with its lower edge meeting the house base, so the accepted door reads as physically attached. The reduced desktop panels show a second coral-dashed blue door outside the wall and divergent solid/dashed paths, making a spatial difference apparent. At 320x568 and 390x844, however, the door and path differences collapse into tiny overlaps and near-vertical traces, so the retained mistake's later consequence is not reliably legible without captions.",
+      "next_test": "Replay stages 1 through 6 with captions hidden and capture separate before/after frames at 320x568, 390x844, and 1280x800; require the door to remain visibly attached and the stage-6 alternate door/path bend to stay distinguishable on mobile."
+    },
+    {
+      "role": "independent perceptual critic",
+      "source": "deleg_fa4d6c6a/task-1",
+      "date": "2026-08-31",
+      "verdict": "CHANGE",
+      "observed": "At exact 320x568 and 390x844, the refused draft and kept decision are clearly separated and stacked. The refused/kept relation reads without labels, and reduced captures visibly show orange retained marks inside the kept house only. The review reported that normal captures showed no retained orange marks and therefore judged the consequence inconsistent across capture modes.",
+      "next_test": "Recapture normal mode at exact 320x568 and 390x844 after animations fully settle, plus one desktop viewport; pass only if orange retained marks appear in the kept panel and remain absent from the refused panel.",
+      "adjudication": "The missing-normal-marks condition was not reproduced as a final-state defect. The existing matrix intentionally captures the first normal frame (stage 01, no retained memory) and the reduced final frame; the settled normal canvas probe reached stage 09 / 9 with 8 retained mistakes and visibly contained orange marks at 320x568, 390x844, and 1280x800. The review's real remaining signal is first-viewport priority: the normal route is text-led at 320x568 and only partially exposes the canvas at 390x844."
+    },
+    {
+      "role": "independent perceptual critic",
+      "source": "deleg_59a00746",
+      "date": "2026-08-31",
+      "verdict": "KEEP",
+      "observed": "In the normal 320x568 and 390x844 matrix captures, the refused and kept panels are clearly separated vertically and differ perceptually: dashed/red refused artwork versus solid/dark kept artwork. In the reduced captures, the lower kept panels visibly contain the retained orange mistake marks inside the house without needing the footer or page caption. The centered orange dotted bridge has no control affordance or arrowhead and reads as an intentional compositional mark. No visible artwork clipping or panel overlap was found in the inspected matrix.",
+      "next_test": "Repeat direct 320x568 and 390x844 visual checks only if the composition changes; before promotion, verify the current work on the deployed public URL and retain the direct-route canvas-first follow-up."
+    }
+  ]
+}

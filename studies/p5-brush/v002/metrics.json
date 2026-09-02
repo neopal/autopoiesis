@@ -1,0 +1,15 @@
+{
+  "id": "p5-brush-v002",
+  "seed": "0x42525532",
+  "stages": 8,
+  "strokesPerStage": 4,
+  "primitiveBudget": 24,
+  "visitorInput": false,
+  "erasureRatio": 0.28,
+  "rule": "autonomous wounds bend later brush strokes",
+  "falsifier": "empty-memory or deletion replay leaves later stroke geometry unchanged",
+  "probe": { "stage": 5, "changedAgainstEmpty": 21, "changedAfterDeletion": 19,
+ "maxLocalDetour": 0.080828, "replay": true },
+  "status": "candidate / held after latest independent perceptual critique",
+  "lineage": "p5-brush-v001"
+}

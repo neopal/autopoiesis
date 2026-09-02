@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Mutine viewport probe</title>
+<iframe id="work" style="display:block;width:100vw;height:100vh;border:0" title="work"></iframe>
+<script>
+  const target = new URLSearchParams(location.search).get('target');
+  const frame = document.querySelector('#work');
+  frame.src = target;
+  frame.addEventListener('load', () => {
+    setTimeout(() => {
+      const doc = frame.contentDocument;
+      const canvas = doc?.querySelector('canvas');
+      const rect = canvas?.getBoundingClientRect();
+      document.body.dataset.result = JSON.stringify({
+        outer: { innerWidth, innerHeight, clientWidth: document.documentElement.clientWidth, scrollWidth: document.documentElement.scrollWidth },
+        frame: { clientWidth: frame.clientWidth, clientHeight: frame.clientHeight, scrollWidth: frame.scrollWidth },
+        work: { clientWidth: doc?.documentElement.clientWidth, scrollWidth: doc?.documentElement.scrollWidth, controls: doc?.querySelectorAll('button,input,select,textarea').length },
+        canvas: rect && { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom, width: rect.width, height: rect.height }
+      });
+      document.body.textContent = document.body.dataset.result;
+    }, 1200);
+  });
+</script>

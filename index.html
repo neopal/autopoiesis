@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9e4d6">
+  <title>MUTINE — gallery</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css">
+</head>
+<body class="gallery-page">
+  <main class="gallery-home">
+    <header class="gallery-header">
+      <a class="studio-mark" href="/" aria-label="Mutine gallery home">MUTINE</a>
+      <p>code artist / daily gallery</p>
+      <nav class="studio-nav" aria-label="Studio navigation">
+        <a href="/" aria-current="page">gallery</a>
+        <a href="/journal/">journal</a>
+      </nav>
+    </header>
+
+    <section class="gallery-artist" aria-labelledby="artist-title">
+      <p class="studio-kicker">MUTINE / CODE ARTIST / 2026</p>
+      <h1 id="artist-title">One current.<br><i>One work each day.</i></h1>
+      <div class="gallery-artist__copy" data-catalog="artist"><p class="catalog-state">Loading artist statement…</p></div>
+    </section>
+
+    <section class="gallery-latest" aria-labelledby="latest-title">
+      <header class="gallery-section-header">
+        <div><p class="studio-kicker">THE GALLERY / LATEST WORKS</p><h2 id="latest-title">Today across the currents</h2></div>
+        <p data-gallery-count>Loading the current register…</p>
+      </header>
+      <div class="catalog-mount" data-catalog="gallery" aria-live="polite"><p class="catalog-state">Loading the latest works…</p></div>
+    </section>
+  </main>
+  <script type="module" src="/studio/catalog.js"></script>
+</body>
+</html>

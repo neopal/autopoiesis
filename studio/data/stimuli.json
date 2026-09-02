@@ -1,0 +1,107 @@
+{
+  "schema": "mutine-stimuli/v1",
+  "stimuli": [
+    {
+      "id": "x-camillerouxart-2094073992923521202",
+      "kind": "idea",
+      "status": "pending",
+      "source": {
+        "platform": "x",
+        "author": "@camillerouxart",
+        "url": "https://x.com/camillerouxart/status/2094073992923521202"
+      },
+      "title": "Into the system, aesthetics, and intention",
+      "observed": "The thread argues that generative art changes because AI writes code, moving the artist toward system design, aesthetics, intention, and the ability to make an entire collection stay interesting.",
+      "insight": "Treat system coherence, aesthetic judgment, and intention as separate authored constraints. A single beautiful output is not evidence that the work holds.",
+      "routing": {
+        "target": "studio-wide",
+        "newCurrentCandidate": false,
+        "proposedWorkFamily": null
+      },
+      "decision": "Hold as a cross-current operating constraint; do not create a seventh current from this thread alone.",
+      "linkedWorkId": null
+    },
+    {
+      "id": "x-sergiopaniego-2094144554630894045",
+      "kind": "idea",
+      "status": "pending",
+      "source": {
+        "platform": "x",
+        "author": "@SergioPaniego",
+        "url": "https://x.com/SergioPaniego/status/2094144554630894045"
+      },
+      "title": "Training an agent with TRL and OpenEnv",
+      "observed": "The post says the author trained a model with TRL and OpenEnv and plans to publish open artifacts: code, models, dataset, and RL environment. A reply asks about controlling a watercolor app to paint.",
+      "insight": "For Brush, make the canvas an environment of constrained actions: a stroke can be proposed, observed, kept or refused, and documented with the feedback that caused the decision.",
+      "routing": {
+        "targetCurrent": "brush",
+        "newCurrentCandidate": false,
+        "proposedWorkFamily": "future brush work family"
+      },
+      "decision": "Hold for a future Brush family; do not retrofit an RL claim or overwrite brush-wound without a real experiment and open evidence.",
+      "linkedWorkId": null
+    },
+    {
+      "id": "x-yuruyurau-2093711731084415124",
+      "kind": "idea",
+      "status": "pending",
+      "source": {
+        "platform": "x",
+        "author": "@yuruyurau",
+        "url": "https://x.com/yuruyurau/status/2093711731084415124"
+      },
+      "title": "A compact formula as a drawing rule",
+      "observed": "The post is a compact p5.js formula using trigonometric functions, repeated points, and a seeded-looking iterative drawing loop under #つぶやきProcessing.",
+      "insight": "For SVG, compress the work into a small explicit rule that can be replayed at any size and inspected as geometry. The artwork is the relation between formula, path structure, and visible consequence, not a looping GIF.",
+      "routing": {
+        "targetCurrent": "svg",
+        "newCurrentCandidate": false,
+        "proposedWorkFamily": "future formula-to-path work family"
+      },
+      "decision": "Hold as a future SVG family; require a deterministic formula, a readable SVG path result, and a falsifiable visual consequence before promotion.",
+      "linkedWorkId": null
+    },
+    {
+      "id": "x-repligate-2093834286302687289",
+      "kind": "idea",
+      "status": "pending",
+      "source": {
+        "platform": "x",
+        "author": "@repligate",
+        "url": "https://x.com/repligate/status/2093834286302687289"
+      },
+      "title": "A self-portrait defined in relation",
+      "observed": "The post presents a personal website made after asking Claude Fable 5 to make its own personal website, framed by the words “what i am for” and “you, maybe”.",
+      "insight": "For Self-portrait, treat identity as a situated relation and function: the portrait should show what it is for someone, while keeping the choices and traces that construct that relation visible.",
+      "routing": {
+        "targetCurrent": "portrait",
+        "newCurrentCandidate": false,
+        "proposedWorkFamily": "future relational self-portrait work family"
+      },
+      "decision": "Hold for a future portrait family; do not turn it into an avatar or synthetic persona without a specific relation and an observable decision trace.",
+      "linkedWorkId": null
+    },
+    {
+      "id": "x-camillerouxart-2094708148288250101",
+      "kind": "idea",
+      "status": "pending",
+      "source": {
+        "platform": "x",
+        "author": "@camillerouxart",
+        "url": "https://x.com/camillerouxart/status/2094708148288250101?s=20"
+      },
+      "title": "Industrial design as a code-authored constraint system",
+      "observed": "The source post says “What an incredible time to be a creative coder” and “100% made in JavaScript”, accompanied by a video. The industrial-design direction is the user's explicit brief; the source text does not name that field.",
+      "insight": "Treat industrial design as a new-current candidate where joints, clearances, assembly, maintenance, and failure become visible code constraints rather than a decorative product skin.",
+      "routing": {
+        "target": "new-current-candidate",
+        "proposedCurrent": "industrial-design",
+        "newCurrentCandidate": true,
+        "proposedWorkFamily": "future constraint-object work family"
+      },
+      "decision": "Document an artist spike first. Promote only after two deterministic states show an inherited structural consequence and survive critique.",
+      "linkedWorkId": null,
+      "todo": "/research/qa/2026-09-01-industrial-design-stimulus.md"
+    }
+  ]
+}

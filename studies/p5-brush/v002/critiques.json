@@ -1,0 +1,47 @@
+{
+  "work": "p5-brush-v002",
+  "status": "hold",
+  "critiques": [
+    {
+      "role": "material critic",
+      "question": "Does the autonomous wound change the later stroke geometry, or only place a pale scar on top?",
+      "status": "pending"
+    },
+    {
+      "role": "authorship critic",
+      "question": "Does the timed return make the brush autonomous without disguising v001's visitor-driven history?",
+      "status": "pending"
+    },
+    {
+      "role": "experience critic",
+      "question": "Does the first frame read as a tableau before the explanation, and does reduced motion preserve the material consequence?",
+      "status": "pending"
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "The field reads as a restrained autonomous tableau and the wound is visible, but the relationship between wound and later stroke detour is not perceptually singular enough to carry the work without the explanatory copy.",
+      "next_test": "Re-compose the wound and the first affected later stroke so the material consequence is visible on the canvas before requesting a fresh critique."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "KEEP",
+      "observed": "In the reduced compositions, dark contour strokes visibly kink into localized V- and S-shaped detours adjacent to the pale/orange wound marks; the normal row stays comparatively smooth. The sparse layered field reads as an autonomous tableau without relying on labels.",
+      "next_test": "Run the release defender against the deployed public URL before promoting the candidate to a work."
+    },
+    {
+      "role": "independent perceptual critic",
+      "date": "2026-08-31",
+      "verdict": "HOLD",
+      "observed": "The work is visually coherent and the isolated preview is convincing, but the causal wound-to-stroke change is not perceptually unambiguous enough to promote. On the normal route, a later stage showed altered overall curvature without an unmistakable local detour around an inherited wound; the pale marks can still read as overlays. The normal first viewport is text-led, while the isolated preview puts the artwork first. Brush v001 remains honestly differentiated as a held visitor interaction. The v002 canvas has an accessible image role and no visible responsive defect at the inspected size, although console inspection returned blank exception entries after navigation.",
+      "blocking_concerns": [
+        "The inherited wound does not yet read as the unmistakable local cause of a later stroke detour.",
+        "The normal route presents title and premise before and beside the tableau, weakening first-encounter priority.",
+        "Blank console exception entries remain an unresolved technical warning despite the absence of a readable message."
+      ],
+      "next_test": "Keep promotion held and revise the normal composition so the canvas leads, while making one or two later strokes visibly take unmistakable local detours around retained wounds; then repeat the visual review on both exact routes and recheck the console."
+    }
+  ]
+}

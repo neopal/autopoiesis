@@ -1,35 +1,42 @@
-# Handoff — état de l’atelier
+# Mutine — current handoff
 
-## État au 2026-08-28
+**Updated:** 2026-09-02
 
-- Dépôt : `https://github.com/neopal/autopoiesis`
-- Authentification GitHub : `gh` est connectée à **neopal** avec droit admin/push.
-- Front : galerie internationale en anglais, pensée comme un mur d’atelier « Explore / Monitor » : rendu vivant, registre de tous les chantiers, critiques et protocole d’évaluation.
-- Déploiement : Vercel project `lairpa-hotmailfrs-projects/autopoiesis` créé et déployé à `https://autopoiesis-nine.vercel.app`.
-- Vercel Git : la connexion automatique au dépôt est **bloquée** tant que le compte Vercel ne possède pas une Login Connection GitHub ; la CLI a renvoyé exactement cette exigence. Les déploiements CLI manuels fonctionnent.
-- Vote : route `api/vote.js` prête pour Vercel KV ; elle refuse explicitement si KV n’est pas configuré. Aucun vote n’est stocké en `localStorage`.
-- X : Chrome était bien lancé mais aucune fenêtre Chrome n’était exposée au pilote natif ; les URL protégées par X restent documentées comme partielles, sans contournement de connexion.
-- Automatisation : le job Hermes « Mutine — studio pulse » (`2be5ced9caaf`) est créé toutes les 5 h et la gateway du profil `autopoiesis` est active avec un item de démarrage Windows.
+## Delivered architecture
 
-## Prochaine passe
+- `/` is the only primary Gallery entry.
+- `/journal/` is the primary archive.
+- `/currents/<id>/` contains the recorded daily work list for one current.
+- `/works/<id>/` is the canonical navigable record for one daily work.
+- `/studies/<current>/vXXX/` contains an isolated executable tableau.
+- `/studio/` contains shared runtime code, data, styles, and favicon assets.
 
-1. Lier une Login Connection GitHub dans Vercel, puis relancer `vercel git connect` pour activer un déploiement sur chaque push.
-2. Créer et relier un Vercel KV pour le vote anonyme serveur.
-3. Écrire v002 en réponse aux premières critiques/retours.
-4. Rouvrir les cartes X bloquées uniquement si une fenêtre Chrome connectée est exposée ou si l’opérateur fournit le contenu.
+Retired French roots are deleted from the source tree. Their historical URLs remain only as permanent Vercel redirects. The old names must not be reintroduced into source paths or primary navigation.
 
-## Invariants à préserver
+## Catalogue and studio state
 
-- Une œuvre est exécutable, déterministe par seed et lisible ; pas d’images ni d’assets externes.
-- Chaque évolution contient `README.md`, `metrics.json`, `critiques.json`, et sa note de réponse.
-- Le travail régulier n’est jamais un prétexte pour produire une variation décorative.
+- `studio/data/works.json` is the single work register.
+- Eight real daily records are currently registered; no dates were fabricated to fill gaps.
+- Six currents remain represented, with WebGPU explicitly dormant.
+- Field tests and executable studies remain separate from daily work families.
+- Work pages show the tableau before the timeline, Journal relation, critique, evidence, and next decision.
+- Handwriting v002, Pure SVG v002, Self portrait v001, Naive art v001, and Brush v002 remain candidates under critique rather than being overstated as finished periods.
 
-## Pulse QA — 2026-08-29
+## Verification boundary
 
-- Mode `test` only; no production code, commit, push, or release claim.
-- Deployed DOM test at `https://autopoiesis-nine.vercel.app/?rev=d772d62`: the period field overflows at all five contract widths (320→650, 390→792, 768→1170, 1280→1682, 1920→2322 `scrollWidth`). It is not shippable.
-- Brush and Handwriting were overflow-free in this sample, but their smallest interactive dimensions were 15px and 16px; the field minimum was 13px. Narrow-screen 44px controls are therefore unfulfilled.
-- Pointer node selection and keyboard `j` selection worked in the field. Page error collectors were empty at 390×844; touch equivalence and meaningful reduced motion remain unverified.
-- Changed rule: a single contract-width DOM overflow blocks a release; consequence: the existing P0 field defect is observed at every contract width, not only mobile.
-- Criticism accepted: the 2026-08-28 responsive audit. Resisted: none. Next question: can a viewport-bounded field and 44px mobile paths be introduced without masking overflow? No art hypothesis died; the readiness assumption did.
-- Evidence: `research/qa/2026-08-29-deployed-compatibility-pulse.md`.
+- `npm test` is the repository test command.
+- JavaScript and Python syntax checks are required for changed runtime files.
+- `git diff --check` must remain clean.
+- Static internal-link audits must report no missing local targets.
+- Canonical production routes must return `200`; retired routes must redirect.
+- The full `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` browser matrix remains pending whenever Chrome with remote-debugging consent is unavailable. Do not turn source inspection into a responsive-release claim.
+
+## Provenance
+
+- GitHub: `https://github.com/neopal/autopoiesis`
+- Vercel production: `https://autopoiesis-nine.vercel.app`
+- Local root: `C:/Users/ASUS/autopoiesis`
+- Hermes rotation job: `2be5ced9caaf`
+- Hermes daily archive job: `3e9f126aa464`
+
+Raw authenticated X captures remain under `research/raw/` as source evidence. French strings inside those captures are preserved verbatim and are not user-interface copy.

@@ -2,24 +2,26 @@
 type: studio-brain
 status: active
 ---
-# Mutine — cerveau d’atelier
+# Mutine — studio brain
 
-Un vault Markdown lisible par [[Obsidian]] et versionné avec l’œuvre. Il est la mémoire de travail de Mutine : sources, cartes de contexte, médias associés, débats, essais, décisions et dettes. Les cartes ne remplacent pas les sources : elles conservent URL, statut d’accès et ce qui a réellement été observé.
+A Markdown vault readable by [Obsidian](https://obsidian.md) and versioned with the work. It is Mutine's working memory: sources, context maps, associated media, debates, trials, decisions, and debts. Cards do not replace sources; they preserve the URL, access status, and what was actually observed.
 
-## Portes
+## Entrances
 
-- [[00 — Atelier]] : fonctionnement et file vivante.
-- [[01 — Sources]] : inventaire des URL et cartes de lecture.
-- [[02 — Concepts]] : questions artistiques reliées aux chantiers.
-- [[03 — Pratiques]] : méthodes réutilisables, limites, anti-patterns.
-- [[04 — Chantiers]] : mémoire par lignée d’œuvres.
-- [[05 — Médias & réponses]] : vidéos, images, threads et citations liés à une source.
-- [[99 — Inbox]] : tout élément non encore relié.
+- [[00 — Studio]]: operating loop and live queue.
+- [[01 — Sources]]: URL inventory and reading cards.
+- [[02 — Concepts]]: artistic questions connected to the currents.
+- [[03 — Practices — reference ethics]]: reusable methods, limits, and anti-patterns.
+- [[04 — Currents]]: memory by work lineage.
+- [[05 — Media & responses]]: videos, images, threads, and citations linked to a source.
+- [[99 — Inbox]]: anything not yet connected.
 
-## Règle d’ingestion
+## Ingestion rule
 
-Chaque URL devient une carte avec : auteur, date quand visible, type, contenu effectivement extrait, médias/liens/réponses, droits ou blocage, liens aux concepts, et une proposition testable. Les extraits incomplets restent explicitement incomplets. Une source ne devient une influence opérante qu’après une décision dans un journal de chantier.
+Each URL becomes a card with: author, visible date, type, actually extracted content, media/links/replies, rights or access block, concept links, and one testable proposition. Incomplete extracts remain explicitly incomplete. A source becomes an operating influence only after a decision in a current's Journal record.
 
-## Syntaxe
+## Syntax
 
-`[[wikilinks]]` pour les relations internes ; `#tags` pour filtrer ; frontmatter YAML pour les requêtes Obsidian/Dataview éventuelles. Pas de copie d’images ni de vidéos externes : on les décrit et on conserve l’URL quand la source l’autorise.
+Use Obsidian links for internal relations, `#tags` for filtering, and YAML frontmatter for possible Obsidian/Dataview queries. Do not copy external images or videos into the studio: describe them and preserve their URL when the source allows it.
+
+Raw captures in `research/raw/` are evidence files. Their original interface language and literal text are intentionally preserved; they are not public UI and must not be treated as Mutine copy.
