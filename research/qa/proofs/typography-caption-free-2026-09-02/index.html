@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Caption-free route comparison</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: #e9e4d6; }
+    body { min-height: 100vh; overflow: hidden; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <canvas id="comparison" aria-label="Caption-free comparison of two autonomous route states"></canvas>
+  <script type="module">
+    import { buildCaptionFreeComparison } from '/research/qa/proofs/typography-caption-free-2026-09-02/comparison.mjs';
+
+    const canvas = document.querySelector('#comparison');
+    const context = canvas.getContext('2d', { alpha: false });
+    const comparison = buildCaptionFreeComparison();
+    let width = 0;
+    let height = 0;
+    let ratio = 1;
+
+    const drawRoute = (route, x, y, panelWidth, panelHeight, index) => {
+      context.beginPath();
+      route.points.forEach((point, pointIndex) => {
+        const px = x + point.x * panelWidth;
+        const py = y + point.y * panelHeight;
+        if (pointIndex === 0) context.moveTo(px, py);
+        else context.lineTo(px, py);
+      });
+      context.strokeStyle = `rgba(21, 21, 20, ${0.21 + (index % 4) * 0.055})`;
+      context.lineWidth = 0.75 + (index % 3) * 0.2;
+      context.stroke();
+    };
+
+    const drawPanel = (panel, x, y, panelWidth, panelHeight) => {
+      context.save();
+      context.beginPath();
+      context.rect(x, y, panelWidth, panelHeight);
+      context.clip();
+      context.fillStyle = '#e9e4d6';
+      context.fillRect(x, y, panelWidth, panelHeight);
+      panel.routes.forEach((route, index) => drawRoute(route, x, y, panelWidth, panelHeight, index));
+      context.restore();
+    };
+
+    const render = () => {
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      context.fillStyle = '#e9e4d6';
+      context.fillRect(0, 0, width, height);
+      const stacked = width < 720;
+      const gap = Math.max(1, Math.round(Math.min(width, height) * 0.012));
+      const panelWidth = stacked ? width : (width - gap) / 2;
+      const panelHeight = stacked ? (height - gap) / 2 : height;
+      drawPanel(comparison.panels[0], 0, 0, panelWidth, panelHeight);
+      drawPanel(comparison.panels[1], stacked ? 0 : panelWidth + gap, stacked ? panelHeight + gap : 0, panelWidth, panelHeight);
+      context.fillStyle = 'rgba(21, 21, 20, .18)';
+      context.fillRect(stacked ? 0 : panelWidth, stacked ? panelHeight : 0, stacked ? width : gap, stacked ? gap : height);
+    };
+
+    const resize = () => {
+      const rect = canvas.getBoundingClientRect();
+      width = rect.width;
+      height = rect.height;
+      ratio = Math.min(window.devicePixelRatio || 1, 2);
+      canvas.width = Math.max(1, Math.round(width * ratio));
+      canvas.height = Math.max(1, Math.round(height * ratio));
+      render();
+    };
+
+    window.__typographyComparison = {
+      stage: comparison.stage,
+      intactMemoryCount: comparison.intactMemoryCount,
+      deletedMemoryCount: comparison.deletedMemoryCount,
+      changedPointCount: comparison.changedPointCount,
+      maxDisplacement: comparison.maxDisplacement,
+      panelCount: comparison.panels.length
+    };
+
+    new ResizeObserver(resize).observe(canvas);
+    resize();
+  </script>
+</body>
+</html>
