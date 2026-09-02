@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap');
 
 :root {
   --paper: #e9e4d6;
@@ -11,7 +10,7 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; min-height: 100%; background: var(--paper); }
-body { color: var(--ink); font: 12px/1.5 'DM Mono', ui-monospace, monospace; }
+body { color: var(--ink); font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace, ui-monospace, monospace; }
 a { color: inherit; text-underline-offset: 4px; }
 
 .studio-shell { width: min(1440px, 100%); margin: 0 auto; padding: 0 clamp(18px, 5vw, 76px); }
@@ -36,7 +35,7 @@ a { color: inherit; text-underline-offset: 4px; }
 .studio-main { padding: clamp(46px, 9vw, 118px) 0 100px; }
 .studio-kicker, .studio-label, .record-meta, .status { margin: 0; color: var(--red); font-size: 10px; letter-spacing: .13em; text-transform: uppercase; }
 .studio-hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(240px, .9fr); gap: clamp(32px, 8vw, 130px); align-items: end; padding-bottom: clamp(44px, 8vw, 92px); border-bottom: 1px solid var(--ink); }
-.studio-hero h1 { max-width: 900px; margin: 22px 0 0; font: 400 clamp(62px, 10vw, 152px)/.78 'Instrument Serif', Georgia, serif; letter-spacing: -.065em; }
+.studio-hero h1 { max-width: 900px; margin: 22px 0 0; font: 400 clamp(62px, 10vw, 152px)/.78 Iowan Old Style, Baskerville, Georgia, Georgia, serif; letter-spacing: -.065em; }
 .studio-hero h1 i { font-weight: 400; }
 .studio-hero-note { max-width: 430px; color: var(--ash); }
 .studio-hero-note p { margin: 0 0 20px; }
@@ -49,13 +48,13 @@ a { color: inherit; text-underline-offset: 4px; }
 
 .index-section { padding-top: clamp(42px, 7vw, 82px); }
 .index-section > header { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
-.index-section h2 { margin: 0; font: 400 clamp(34px, 5vw, 68px)/.9 'Instrument Serif', Georgia, serif; letter-spacing: -.045em; }
+.index-section h2 { margin: 0; font: 400 clamp(34px, 5vw, 68px)/.9 Iowan Old Style, Baskerville, Georgia, Georgia, serif; letter-spacing: -.045em; }
 .index-section > header p { margin: 0; color: var(--ash); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
 .index-list { margin: 0; padding: 0; list-style: none; }
 .index-row { display: grid; grid-template-columns: 58px minmax(0, 1fr) minmax(160px, .7fr) auto; gap: 20px; align-items: center; padding: 22px 0; border-bottom: 1px solid var(--line); }
 .index-row:hover { background: color-mix(in srgb, var(--quiet) 42%, transparent); }
 .index-number { color: var(--red); }
-.index-row h3 { margin: 0 0 4px; font: 400 clamp(28px, 3.7vw, 48px)/.9 'Instrument Serif', Georgia, serif; }
+.index-row h3 { margin: 0 0 4px; font: 400 clamp(28px, 3.7vw, 48px)/.9 Iowan Old Style, Baskerville, Georgia, Georgia, serif; }
 .index-row h3 a { text-decoration: none; }
 .index-row .question { margin: 0; color: var(--ash); }
 .index-row .state-copy { margin: 0; color: var(--ash); font-size: 11px; }
@@ -64,7 +63,7 @@ a { color: inherit; text-underline-offset: 4px; }
 .state-dormant { color: var(--ash); }
 
 .detail-grid { display: grid; grid-template-columns: minmax(150px, .7fr) minmax(0, 2.3fr); gap: clamp(28px, 7vw, 110px); padding: clamp(42px, 7vw, 82px) 0; border-bottom: 1px solid var(--line); }
-.detail-grid h2 { margin: 0; font: 400 clamp(34px, 5vw, 64px)/.9 'Instrument Serif', Georgia, serif; }
+.detail-grid h2 { margin: 0; font: 400 clamp(34px, 5vw, 64px)/.9 Iowan Old Style, Baskerville, Georgia, Georgia, serif; }
 .detail-copy { max-width: 860px; }
 .detail-copy > p { max-width: 680px; margin: 0 0 22px; color: var(--ash); font-size: 14px; }
 .annotation-list { margin: 30px 0 0; border-top: 1px solid var(--line); }
@@ -73,7 +72,7 @@ a { color: inherit; text-underline-offset: 4px; }
 .annotation-list dd { margin: 0; color: var(--ash); }
 
 .work-record { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .8fr); gap: clamp(28px, 6vw, 96px); padding: 24px 0 32px; border-bottom: 1px solid var(--line); }
-.work-record h3 { margin: 0 0 8px; font: 400 clamp(32px, 4vw, 58px)/.9 'Instrument Serif', Georgia, serif; }
+.work-record h3 { margin: 0 0 8px; font: 400 clamp(32px, 4vw, 58px)/.9 Iowan Old Style, Baskerville, Georgia, Georgia, serif; }
 .work-record h3 a { text-decoration: none; }
 .work-record p { margin: 0 0 14px; color: var(--ash); }
 .work-record .status { margin-bottom: 12px; }
@@ -91,7 +90,7 @@ a { color: inherit; text-underline-offset: 4px; }
 .journal-list { margin: 0; padding: 0; list-style: none; }
 .journal-entry { display: grid; grid-template-columns: 150px minmax(0, 1fr) 190px; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--line); }
 .journal-entry time { color: var(--red); font-size: 10px; letter-spacing: .09em; }
-.journal-entry h3 { margin: 0 0 8px; font: 400 clamp(28px, 3.7vw, 48px)/.9 'Instrument Serif', Georgia, serif; }
+.journal-entry h3 { margin: 0 0 8px; font: 400 clamp(28px, 3.7vw, 48px)/.9 Iowan Old Style, Baskerville, Georgia, Georgia, serif; }
 .journal-entry p { max-width: 720px; margin: 0; color: var(--ash); }
 .journal-entry .entry-result { color: var(--ink); font-size: 11px; }
 .journal-entry .entry-result strong { display: block; margin-bottom: 5px; color: var(--red); font-weight: 400; letter-spacing: .1em; text-transform: uppercase; }
@@ -230,7 +229,7 @@ a { color: inherit; text-underline-offset: 4px; }
 
 .current-card .index-number { padding-top: 5px; }
 .current-card h3,
-.catalog-card h3 { margin: 0; font: 400 clamp(28px, 3.2vw, 47px)/.9 'Instrument Serif', Georgia, serif; letter-spacing: -.045em; }
+.catalog-card h3 { margin: 0; font: 400 clamp(28px, 3.2vw, 47px)/.9 Iowan Old Style, Baskerville, Georgia, Georgia, serif; letter-spacing: -.045em; }
 .current-card h3 a,
 .catalog-card h3 a { text-decoration: none; }
 .current-card .question { grid-column: 2; margin: 7px 0 0; color: var(--ash); }

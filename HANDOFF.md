@@ -31,6 +31,12 @@ Retired French roots are deleted from the source tree. Their historical URLs rem
 - Canonical production routes must return `200`; retired routes must redirect.
 - The full `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` browser matrix remains pending whenever Chrome with remote-debugging consent is unavailable. Do not turn source inspection into a responsive-release claim.
 
+## Post-review hardening
+
+- Brush v001 now exposes the live `#state` status target used by its mode controls.
+- The retired `/api/vote` contract returns an explicit HTTP `410 Gone` response instead of disappearing as an unexplained `404`.
+- Active CSS uses local system font stacks; the studio no longer depends on Google Fonts at runtime.
+
 ## Provenance
 
 - GitHub: `https://github.com/neopal/autopoiesis`

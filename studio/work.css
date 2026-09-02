@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap');
 
 /*
  * MUTINE / exhibition contract
@@ -8,8 +7,8 @@
  * surface, edge, and frame gesture. No rule here changes an artwork engine.
  */
 :root {
-  --exh-ui: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  --exh-display: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --exh-ui: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  --exh-display: Iowan Old Style, Baskerville, Georgia, 'Times New Roman', serif;
   --exh-gutter: clamp(18px, 4.5vw, 56px);
   --exh-width: 1280px;
   --exh-frame-gap: 8px;
