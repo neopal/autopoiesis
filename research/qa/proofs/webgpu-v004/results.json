@@ -1,0 +1,78 @@
+{
+  "workId": "webgpu-2026-09-08",
+  "study": "/studies/webgpu/v004/",
+  "canonicalRoute": "/works/webgpu-2026-09-08/",
+  "status": "candidate / held",
+  "observedWith": {
+    "server": "python http.server 4173",
+    "browser": "Google Chrome headless CLI",
+    "note": "Hermes browser_* tools were unavailable in this run; no CDP or remote debugging was used."
+  },
+  "initialRoute": {
+    "url": "http://127.0.0.1:4173/works/webgpu-2026-09-08/",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": true,
+    "catalogMountReady": true,
+    "journalAnchor": "journal-webgpu-2026-09-08",
+    "timelineDays": 4,
+    "previousDailyLink": "/works/webgpu-2026-09-07/"
+  },
+  "rawBridge": {
+    "directRawRedirectedToCanonical": true,
+    "directRawUrl": "http://127.0.0.1:4173/studies/webgpu/v004/",
+    "canonicalIdObserved": "webgpu-2026-09-08",
+    "explicitPreviewStayedRaw": true,
+    "previewUrl": "http://127.0.0.1:4173/studies/webgpu/v004/?preview=1&interaction=1&static=1",
+    "previewCanvasObserved": true,
+    "previewControlsObserved": true,
+    "previewCatalogueMountObserved": false
+  },
+  "interaction": {
+    "probeUrl": "http://127.0.0.1:4173/qa-v004-harness.html",
+    "initial": {"stage": "stage 01 / 12", "memory": "0 rehearsals"},
+    "afterPointerRehearsal": {"stage": "visitor rehearsal / paused", "memory": "1 rehearsal"},
+    "afterEnterRehearsal": {"stage": "visitor rehearsal / paused", "memory": "2 rehearsals"},
+    "afterLiftLatest": {"stage": "latest lifted / paused", "memory": "1 rehearsal"},
+    "afterReleaseCrowd": {"stage": "stage 01 / 12", "memory": "0 rehearsals"},
+    "controls": ["rehearse this place", "lift latest", "release crowd"],
+    "controlHeightCssPx": 44
+  },
+  "viewportMatrix": {
+    "normalMotion": [
+      {"target": "320x568", "status": "held", "reason": "Chrome headless reported innerWidth 500; target emulation invalid", "screenshot": "proofs/webgpu-v004/mutine-v004-target-normal-320x568.png"},
+      {"target": "390x844", "status": "held", "reason": "Chrome headless reported innerWidth 500; target emulation invalid", "screenshot": "proofs/webgpu-v004/mutine-v004-target-normal-390x844.png"},
+      {"target": "768x1024", "status": "pass", "innerWidth": 768, "clientWidth": 768, "scrollWidth": 768, "canvasCss": "768x1024", "controlsMinHeight": 44, "screenshot": "proofs/webgpu-v004/mutine-v004-target-normal-768x1024.png"},
+      {"target": "1280x800", "status": "pass", "innerWidth": 1280, "clientWidth": 1280, "scrollWidth": 1280, "canvasCss": "1280x800", "controlsMinHeight": 44, "screenshot": "proofs/webgpu-v004/mutine-v004-target-normal-1280x800.png"},
+      {"target": "1920x1080", "status": "pass", "innerWidth": 1920, "clientWidth": 1920, "scrollWidth": 1920, "canvasCss": "1920x1080", "controlsMinHeight": 44, "screenshot": "proofs/webgpu-v004/mutine-v004-target-normal-1920x1080.png"}
+    ],
+    "reducedMotion": [
+      {"target": "320x568", "status": "held", "reason": "Chrome headless reported innerWidth 500; target emulation invalid", "screenshot": "proofs/webgpu-v004/mutine-v004-target-reduced-320x568.png"},
+      {"target": "390x844", "status": "held", "reason": "Chrome headless reported innerWidth 500; target emulation invalid", "screenshot": "proofs/webgpu-v004/mutine-v004-target-reduced-390x844.png"},
+      {"target": "768x1024", "status": "pass", "innerWidth": 768, "clientWidth": 768, "scrollWidth": 768, "canvasCss": "768x1024", "controlsMinHeight": 44, "screenshot": "proofs/webgpu-v004/mutine-v004-target-reduced-768x1024.png"},
+      {"target": "1280x800", "status": "pass", "innerWidth": 1280, "clientWidth": 1280, "scrollWidth": 1280, "canvasCss": "1280x800", "controlsMinHeight": 44, "screenshot": "proofs/webgpu-v004/mutine-v004-target-reduced-1280x800.png"},
+      {"target": "1920x1080", "status": "pass", "innerWidth": 1920, "clientWidth": 1920, "scrollWidth": 1920, "canvasCss": "1920x1080", "controlsMinHeight": 44, "screenshot": "proofs/webgpu-v004/mutine-v004-target-reduced-1920x1080.png"}
+    ]
+  },
+  "network": {
+    "localFirstPartyRoutesChecked": 18,
+    "httpFailures": 0,
+    "checkedPaths": ["/", "/journal/", "/currents/webgpu/", "/works/webgpu-2026-09-08/", "/studies/webgpu/v004/", "/studio/catalog.js", "/studio/raw-bridge.js", "/studio/studio.css", "/studio/catalog.css", "/studio/work.css", "/studio/data/studio.json", "/studio/data/works.json", "/studio/data/stimuli.json", "/studio/data/artist.json", "/studies/webgpu/v004/index.html", "/studies/webgpu/v004/sketch.js", "/studies/webgpu/v004/engine.mjs", "/studies/webgpu/v004/style.css"],
+    "browserConsole": "not captured: browser_console tool unavailable",
+    "browserStderr": "Chrome emitted external GCM registration/authentication noise; no page error was observed in the dump-dom route checks"
+  },
+  "structural": {
+    "seed": "0x57475034",
+    "finalMemory": 4,
+    "finalEchoAgents": 145,
+    "finalRehearsalCohesion": 0.40053615502651946,
+    "fieldDeltaAfterLatestLift": 3.2878761593350068,
+    "exactReplay": true
+  },
+  "unresolved": [
+    "valid 320x568 DOM run",
+    "valid 390x844 DOM run",
+    "browser_console probe and browser-level network log",
+    "independent caption-free perceptual comparison with echo witnesses and readouts hidden",
+    "production URL, GitHub SHA, and deployed Journal verification"
+  ]
+}
