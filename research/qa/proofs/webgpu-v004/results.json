@@ -68,11 +68,18 @@
     "fieldDeltaAfterLatestLift": 3.2878761593350068,
     "exactReplay": true
   },
+  "production": {
+    "stableAlias": "https://autopoiesis-nine.vercel.app",
+    "register": {"status": 200, "recordPresent": true},
+    "journal": {"status": 200, "rendered": true, "anchorPresent": true, "titlePresent": true},
+    "canonicalWork": {"status": 200, "rendered": true, "mountReady": true, "tableauIframePresent": true, "journalLinkPresent": true},
+    "deployment": "https://autopoiesis-ow9k6bf71-lairpa-hotmailfrs-projects.vercel.app",
+    "deploymentId": "dpl_C89Fz1avoxPYuhmkxnVZTtzn4EUo"
+  },
   "unresolved": [
     "valid 320x568 DOM run",
     "valid 390x844 DOM run",
     "browser_console probe and browser-level network log",
-    "independent caption-free perceptual comparison with echo witnesses and readouts hidden",
-    "production URL, GitHub SHA, and deployed Journal verification"
+    "independent caption-free perceptual comparison with echo witnesses and readouts hidden"
   ]
 }
