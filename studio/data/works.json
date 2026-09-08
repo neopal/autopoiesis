@@ -2,6 +2,75 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-08",
+      "currentId": "naive",
+      "date": "2026-09-08",
+      "title": "The path keeps the wrong turn.",
+      "rawPath": "/studies/naive-art/v005/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-08",
+        "note": "v005 changes the naive art rule: a retained correction becomes a signed hinge vector replayed from three origins. The kept house edge, ground, and path repeat the same wrong turn instead of merely displaying a memory witness; a visitor turn can be undone to reconstruct the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The retained mistake must be a repeated hand movement, not a decorative zigzag. House edge, ground, and route need to share the same turn order from different origins."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "Hide labels and witness dots. A caption-free viewer should find one family of left/right elbows linking the kept house to its path before reading the explanation."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create a real hinge change; undo must restore the exact earlier turns, not merely reset the counter."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A wrong turn is an easy metaphor. Delete v005 if the image reads as a generic playful zigzag or if the copy explains a memory that the marks do not carry."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "primitiveBudget": 32,
+        "memoryWindow": 9,
+        "turnsPerCorrection": 2,
+        "memoryRule": "a retained correction becomes a signed wrong turn replayed by house, ground, and route",
+        "interactionRule": "visitor placement changes hinge geometry; undo restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "status": "local browser pass / held for independent perceptual review and deployment",
+          "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-08/",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": true,
+          "initialState": "normal-motion opens at stage 04 / 10 with 3 turns retained; reduced-motion settles at stage 10 / 10 with 9 turns retained",
+          "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten viewport runs",
+          "touchTargets": "all three interaction buttons measured at least 44 CSS px high; 320x568 measured 50 CSS px",
+          "initialConsoleProbe": "empty console message buffer; zero page errors",
+          "networkProbe": "zero failed requests and zero first-party responses at HTTP 400+",
+          "pointerInteraction": "KEEP A WRONG TURN changed the tableau from stage 04 / 10, 3 turns retained to visitor turn / paused, 4 turns retained, with a changed route",
+          "keyboardInteraction": "Enter changed the paused tableau to 5 turns retained with a further route change",
+          "undoInteraction": "UNDO LAST returned to 4 turns retained and exactly restored the post-button route signature",
+          "releaseInteraction": "RELEASE SEQUENCE returned to stage 01 / 10, 0 turns retained and exactly restored the initial route signature",
+          "rawBridge": "direct /studies/naive-art/v005/ redirected to /works/naive-2026-09-08/; direct ?preview=1&interaction=1 stayed raw, loaded the field, reported both preview classes, and exposed controls",
+          "evidenceFiles": "research/qa/proofs/naive-art-v005/results.json plus ten viewport PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with labels and witness dots hidden",
+            "public production URL, GitHub SHA, and deployed Journal verification"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with labels and witness dots hidden; delete v005 if the kept house and path do not visibly repeat one turn sequence.",
+        "lineage": "naive-2026-09-07"
+      }
+    },
+    {
       "id": "brush-2026-09-08",
       "currentId": "brush",
       "date": "2026-09-08",
