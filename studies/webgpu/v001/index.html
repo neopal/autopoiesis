@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071014">
+  <meta name="description" content="WebGPU-ready crowd field: memory is rendered as a changed route, not a caption.">
+  <title>MUTINE — WebGPU v001</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-03"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="webgpu-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / webgpu / v001</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="webgpu-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v001</span></nav>
+      <section class="webgpu-work" aria-label="WebGPU daily work">
+        <figure class="field-wrap artwork-frame">
+          <canvas id="field" role="img" aria-label="A crowd of points bends around four archived captures, leaving a changed route behind" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 09</span><span data-memory>0 archived captures</span><span data-renderer>canvas archive</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="capture">archive this point</button>
+            <button type="button" data-gesture="delete">lift latest</button>
+            <button type="button" data-gesture="release">release crowd</button>
+          </div>
+          <figcaption><span>WEBGPU / V001 / DAILY WORK</span><span>mass leaves a trace</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Nine deterministic states let a 384-agent crowd cross a field without becoming a uniform cloud.</p></div>
+          <div><span>changed rule</span><p>An archived capture bends the agents downstream. The trace is not drawn afterward; it is the route they now inhabit.</p></div>
+          <div><span>progression</span><p>Click the field or press Enter to archive a point. Lift the latest capture and the exact prior crowd returns.</p></div>
+        </aside>
+      </section>
+      <section class="webgpu-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V001 / DAILY WORK</p><h1 id="work-title">The crowd<br><i>keeps the gap.</i></h1></div>
+        <p class="work-premise">A mass becomes an archive when its omissions are carried by the bodies that come later. Each capture opens a gap in the flow; the next crowd curves around the absence and makes it legible by moving.</p>
+      </section>
+      <section class="webgpu-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: removing the latest capture restores the exact prior agent field. Promotion still depends on whether the downstream bend survives when archive witnesses are hidden.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=001d"></script>
+</body>
+</html>

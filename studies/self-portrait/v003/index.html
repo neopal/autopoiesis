@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121113">
+  <title>MUTINE — the portrait carries its negative</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-04"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="portrait-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v003</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="portrait-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v003</span></nav>
+      <section class="work-surface artwork-frame" aria-label="Self portrait negative field">
+        <div class="field-wrap">
+          <canvas id="field" role="img" aria-label="An abstract self portrait with an off-axis interior aperture that moves when a remembered absence is added" tabindex="0" aria-keyshortcuts="Enter Space"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 09</span><span data-memory>0 absences carried</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="absence-control" data-gesture="absence">withhold a place</button>
+            <button type="button" id="undo-control" data-gesture="undo">lift latest absence</button>
+            <button type="button" id="release-control" data-gesture="release">release sequence</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Nine seeded states fold a contour around one interior opening. No facial features are supplied.</p></div>
+          <div><span>changed rule</span><p>A refusal becomes negative space: the later body leans around what it would not contain.</p></div>
+          <div><span>progression</span><p>Touch the field or press Enter. Lift the latest absence and compare the exact field before it.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V003 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>carries its negative.</i></h1></div>
+        <p class="work-premise">A self-image without a face: the outline is the record of what the renderer chose not to keep, and the empty center is where that decision continues.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: lifting the latest absence restores the prior contour, axis, and aperture. Promotion still depends on whether the negative space carries the decision without its readout.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>What remains<br><i>unshown?</i></h2>
+        <div class="note-copy"><p>The field stores no browser history. Its memory is rebuilt from the seed and bounded to three absences. A visitor gesture changes geometry, not just color, and can be reversed for comparison.</p><dl><div><dt>seed</dt><dd>0x53505633 / replayable</dd></div><div><dt>input</dt><dd>pointer, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>latest absence leaves contour and aperture unchanged</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "id": "webgpu-v003",
+  "seed": "0x57475033",
+  "visitorInput": true,
+  "stages": 11,
+  "agentCount": 432,
+  "memoryLimit": 4,
+  "finalMemory": 4,
+  "finalQueuedAgents": 209,
+  "finalOrderShear": 59.94210420500629,
+  "finalVacancyLoad": 39.09180168613418,
+  "finalAffectedAgents": [191, 142, 23, 41],
+  "memoryRule": "an archived point becomes a vacancy in local order; later bodies queue in two lanes and rejoin with an order offset",
+  "interactionRule": "a visitor vacancy changes downstream queue geometry and order coordinates; lifting it restores the exact prior field",
+  "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+  "replay": true,
+  "promotion": "candidate / held pending responsive matrix, network evidence, and caption-free perceptual critique"
+}

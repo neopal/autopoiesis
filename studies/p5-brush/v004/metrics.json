@@ -1,0 +1,24 @@
+{
+  "id": "p5-brush-v004",
+  "seed": "0x42525534",
+  "stages": 9,
+  "strokesPerStage": 6,
+  "pointCount": 42,
+  "primitiveBudget": 32,
+  "visitorInput": true,
+  "memoryWindow": 5,
+  "rule": "remembered removals become dry basins that drain later wet strokes before a thinner displaced return",
+  "falsifier": "empty-memory or latest-removal replay leaves route, pigment, and return width unchanged",
+  "probe": {
+    "settledFrame": 8,
+    "settledMemory": 5,
+    "settledBasins": 5,
+    "absorbedStrokeCount": 6,
+    "returnShiftStrokeCount": 6,
+    "routeDeltaAgainstEmptyMemory": 2.3384749408521346,
+    "visitorRemovalBounds": "x 0.07–0.93; y 0.11–0.89",
+    "visitorReplayRestoresExactState": true
+  },
+  "status": "candidate / held pending independent caption-free perceptual review",
+  "lineage": "brush-2026-09-03"
+}

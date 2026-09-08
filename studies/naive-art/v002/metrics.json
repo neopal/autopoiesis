@@ -1,0 +1,18 @@
+{
+  "id": "naive-art-v002",
+  "seed": "0x4e413032",
+  "stages": 9,
+  "primitiveBudget": 28,
+  "visitorInput": true,
+  "rule": "retained corrections displace the kept house, doorway, and route",
+  "falsifier": "deleting a retained correction leaves later house geometry unchanged",
+  "status": "candidate / held for independent perceptual critique",
+  "revision": {
+    "mobileBreakpoint": 640,
+    "stackedPanelGap": 0.12,
+    "desktopPanelGap": 0.10,
+    "staticStage": 9,
+    "memoryTrace": "single threshold trace connects refused and kept doorways"
+  },
+  "memory": "corrections accumulate as spatial displacement vectors"
+}

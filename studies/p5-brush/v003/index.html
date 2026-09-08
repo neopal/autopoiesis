@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171513">
+  <title>MUTINE — a brush opens a channel</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>const previewParams = new URLSearchParams(location.search); if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode'); if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');</script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=004">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-03"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="brush-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v003</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="brush-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/brush/">brush</a><span aria-hidden="true">→</span><span aria-current="page">v003</span></nav>
+
+      <figure class="brush-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" style="background: #0c0c0b" tabindex="0" role="img" aria-label="A wet brush field whose remembered dry channels bend later strokes"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 08 / 08</span><span data-memory>7 channels remembered</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="open-cut" type="button">open a cut</button>
+            <button id="lift-cut" type="button">lift latest</button>
+            <button id="release-sequence" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed · mutine-brush-v003-channel</span><span>wet mark → dry channel → re-entry</span></figcaption>
+      </figure>
+
+      <section class="brush-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / AUTONOMOUS MATERIAL STUDY / v003</p>
+        <h1 id="work-title">A brush opens<br><i>a channel.</i></h1>
+        <p class="brush-lede">A cut is not a scar on the field. It is a dry passage the next wet mark must cross.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to open a cut. The brush must reroute around it. Lift the latest cut to compare the rebuilt stroke.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The wet marks are carrying their channels.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v003</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Each retained cut becomes a dry channel with an exit and re-entry. Later strokes bend around its opening before returning displaced.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or the action rail adds one bounded channel to the active stage. Lifting it recomputes the strokes from the preceding memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If removing a channel leaves the later route unchanged, or if the dry trace is more legible than the rerouted stroke, this direction is deleted.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-08-31/">previous daily work</a><a href="/journal/#journal-brush-2026-09-03">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=006"></script>
+</body>
+</html>

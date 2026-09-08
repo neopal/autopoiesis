@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a10">
+  <title>MUTINE — the portrait splits where it refuses</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-08"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="portrait-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v004</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="portrait-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v004</span></nav>
+      <section class="work-surface artwork-frame" aria-label="Self portrait fork field">
+        <div class="field-wrap">
+          <canvas id="field" role="img" aria-label="An abstract self portrait whose remembered refusals split a route around an interior aperture before rejoining" tabindex="0" aria-keyshortcuts="Enter Space"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 10</span><span data-memory>0 refusals carried</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="refusal-control" data-gesture="refusal">withhold a place</button>
+            <button type="button" id="undo-control" data-gesture="undo">lift latest refusal</button>
+            <button type="button" id="release-control" data-gesture="release">release sequence</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Ten seeded states draw a contour that can divide, travel beside itself, and recombine around one aperture.</p></div>
+          <div><span>changed rule</span><p>A refusal becomes a fork: later body routes split into two near-contours and return at a displaced shoulder.</p></div>
+          <div><span>progression</span><p>Touch the field or press Enter. Lift the latest refusal and compare the exact field before the split.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V004 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>splits where it refuses.</i></h1></div>
+        <p class="work-premise">A self-image without a face: its decisions appear as a route that cannot stay singular, then has to invent a new way back into one body.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a refusal changes contour, aperture, axis, and fork routes; lifting it restores the exact prior field. Promotion still depends on whether the fork remains legible without its readout or witnesses.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can one body<br><i>return divided?</i></h2>
+        <div class="note-copy"><p>The field stores no browser history. Its memory is rebuilt from the seed and bounded to four refusals. A visitor gesture changes route geometry, not just color, and can be reversed for comparison.</p><dl><div><dt>seed</dt><dd>0x53505634 / replayable</dd></div><div><dt>input</dt><dd>pointer, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>latest refusal leaves the fork and rejoin unchanged</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

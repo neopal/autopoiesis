@@ -174,9 +174,9 @@ function renderWorkDetail(root, catalog, workId) {
   const journal = journalHref(work);
 
   root.dataset.ready = 'true';
-  root.innerHTML = `<nav class="work-timeline-bar" data-work-region="timeline" aria-label="Navigate the ${escapeHtml(work.currentTitle ?? work.currentId)} daily timeline"><div class="work-timeline-bar__heading"><p class="studio-label">01 / timeline</p><strong>${escapeHtml(work.currentTitle ?? work.currentId)}</strong><span>${escapeHtml(pluralize(timeline.length, 'recorded day'))}</span></div>${renderWorkTimeline(work, catalog)}</nav><div class="work-inspect">
+  root.innerHTML = `<div class="work-inspect">
     <article class="work-inspect__stage">
-      <figure class="artwork-frame artwork-frame--inspect"><iframe src="${escapeHtml(withPreview(work.rawPath, { interaction: '1' }))}" title="${escapeHtml(work.title)} — full artwork" loading="eager"></iframe><figcaption><span>${escapeHtml(work.currentTitle ?? work.currentId)} / ${escapeHtml(work.status)}</span><time datetime="${escapeHtml(work.date)}">${escapeHtml(work.date)}</time></figcaption></figure>
+      <figure class="artwork-frame artwork-frame--inspect"><iframe src="${escapeHtml(withPreview(work.rawPath, { interaction: '1', cache: work.id }))}" title="${escapeHtml(work.title)} — full artwork" loading="eager"></iframe><figcaption><span>${escapeHtml(work.currentTitle ?? work.currentId)} / ${escapeHtml(work.status)}</span><time datetime="${escapeHtml(work.date)}">${escapeHtml(work.date)}</time></figcaption></figure>
       <header class="work-inspect__heading"><p class="studio-kicker">${escapeHtml(work.currentTitle ?? work.currentId)} / DAILY WORK</p><h1>${escapeHtml(work.title)}</h1><p class="work-inspect__date"><span>recorded</span> <time datetime="${escapeHtml(work.date)}">${escapeHtml(work.date)}</time></p><p>${escapeHtml(work.journal?.note ?? 'No note recorded for this daily work.')}</p></header>
       ${work.decision?.nextMutation ? `<section class="work-next-mutation" data-work-region="decision"><p class="studio-label">next decision</p><p>${escapeHtml(work.decision.nextMutation)}</p></section>` : ''}
     </article>
@@ -185,7 +185,7 @@ function renderWorkDetail(root, catalog, workId) {
       <section id="critiques" class="work-ledger-section" data-work-region="critiques"><p class="studio-label">03 / critique</p><h2>Returns</h2><div class="work-critique-list">${critique.length ? critique.map((entry) => `<blockquote><p>${escapeHtml(entry.argument)}</p><cite>${escapeHtml(entry.persona)}</cite></blockquote>`).join('') : '<p class="work-empty">No critique recorded yet.</p>'}</div></section>
       <section id="evidence" class="work-ledger-section" data-work-region="evidence"><p class="studio-label">04 / evidence</p><h2>Working conditions</h2>${renderMetrics(work.metrics)}</section>
     </aside>
-  </div><nav class="work-neighbor-nav" data-work-region="navigation" aria-label="Navigate between daily works">${renderWorkNeighbor(previous, 'previous')}${renderWorkNeighbor(next, 'next')}</nav>`;
+  </div><nav class="work-timeline-bar" data-work-region="timeline" aria-label="Navigate the ${escapeHtml(work.currentTitle ?? work.currentId)} daily timeline"><div class="work-timeline-bar__heading"><p class="studio-label">01 / timeline</p><strong>${escapeHtml(work.currentTitle ?? work.currentId)}</strong><span>${escapeHtml(pluralize(timeline.length, 'recorded day'))}</span></div>${renderWorkTimeline(work, catalog)}</nav><nav class="work-neighbor-nav" data-work-region="navigation" aria-label="Navigate between daily works">${renderWorkNeighbor(previous, 'previous')}${renderWorkNeighbor(next, 'next')}</nav>`;
 }
 
 function showCatalogError(error) {

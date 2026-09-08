@@ -1,0 +1,28 @@
+{
+  "visitorInput": true,
+  "stages": 10,
+  "primitiveBudget": 16,
+  "memoryWindow": 5,
+  "routeCount": 3,
+  "memoryRule": "a refused joint changes the attachment route of every later limb",
+  "interactionRule": "a visitor refusal recomputes joint, knee, and foot; removing it restores the prior route",
+  "replay": true,
+  "stage6Probe": {
+    "inheritedRefusals": 4,
+    "detours": 3,
+    "routeDeltaAfterLatestDeletion": 0.855034733951082
+  },
+  "browserEvidence": {
+    "observedViewports": ["1264x625"],
+    "overflow": false,
+    "staticPreviewFurnitureHidden": true,
+    "controlsMinimumHeight": 44,
+    "buttonRefusalChangedState": true,
+    "buttonDeletionChangedState": true,
+    "keyboardEnterChangedState": true,
+    "consoleErrors": 0,
+    "networkFailures": 0,
+    "rawBridgeTarget": "/works/svg-2026-09-03/",
+    "unresolved": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080", "independent caption-free perceptual review"]
+  }
+}

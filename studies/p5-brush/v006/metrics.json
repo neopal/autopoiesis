@@ -1,0 +1,39 @@
+{
+  "visitorInput": true,
+  "stages": 10,
+  "strokesPerStage": 7,
+  "pointsPerStroke": 54,
+  "primitiveBudget": 29,
+  "memoryWindow": 6,
+  "memoryRule": "a remembered removal becomes a delayed return seam shared by later wet strokes",
+  "interactionRule": "a visitor seam changes downstream route geometry; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "browserEvidence": {
+    "status": "partial / held",
+    "observedViewport": "1264px browser width",
+    "parentClientWidth": 1264,
+    "parentScrollWidth": 1264,
+    "iframeCanvasRect": "724x720 CSS pixels",
+    "canonicalRoute": "http://127.0.0.1:4173/works/brush-2026-09-08/",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "initialVision": "canonical page rendered the dark textured tableau before title and explanation: seven wet routes, shared bends, pressure highlights, dark seam mouths, and a restrained editorial frame; no apparent clipping at the default headless viewport",
+    "initialConsoleProbe": "empty console buffer; DOM probe reported innerWidth 1264, clientWidth 1264, scrollWidth 1264",
+    "controlAttempt": "MAKE A SEAM click returned success from the browser tool, but the permitted post-interaction DOM probe remained at stage 03 / 10 with 2 return seams and the initial state text; no state change claimed",
+    "rawPreview": "direct /studies/p5-brush/v006/?preview=1&interaction=1 navigation returned a UTF-8 decode error from the browser adapter",
+    "guardrail": "idempotent/no-progress guardrail after repeated iframe snapshot; browser probing stopped as required",
+    "unresolved": [
+      "verified pointer state change",
+      "keyboard path",
+      "latest-seam lift state",
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080",
+      "reduced-motion run",
+      "independent network-failure log",
+      "independent caption-free perceptual comparison"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "visitorInput": true,
+  "stages": 9,
+  "primitiveBudget": 14,
+  "memoryWindow": 5,
+  "routeCount": 3,
+  "memoryRule": "a remembered refusal rotates the downstream contour around a hinge and gives later legs the same axis",
+  "interactionRule": "a visitor hinge changes downstream contour and leg routes; unhinging restores the exact prior body",
+  "replay": true,
+  "renderer": "deterministic SVG path geometry",
+  "stage7Probe": {
+    "inheritedHinges": 4,
+    "foldedRoutes": 3
+  },
+  "browserEvidence": {
+    "localCanonicalRouteLoaded": "http://127.0.0.1:4173/works/svg-2026-09-07/",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "initialVision": "visible animal tableau, shared frame, rail, timeline, and no apparent clipping at the default headless viewport",
+    "initialConsoleProbe": "empty buffer; zero JavaScript errors",
+    "postInteractionProbe": "bounded probe observed stage 04 / 9, 2 remembered hinges, and 3 folded routes; visitor-paused state was not confirmed",
+    "interactionEvidence": "held: browser click did not yield a trustworthy visitor-hinge readout before the browser idempotent/no-progress guardrail",
+    "unresolved": [
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080",
+      "confirmed browser visitor interaction and exact visible undo",
+      "independent network-failure log",
+      "independent caption-free perceptual critique"
+    ]
+  }
+}

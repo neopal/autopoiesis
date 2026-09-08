@@ -1,0 +1,19 @@
+{
+  "id": "p5-brush-v003",
+  "seed": "0x42525533",
+  "stages": 8,
+  "strokesPerStage": 5,
+  "pointCount": 36,
+  "primitiveBudget": 30,
+  "visitorInput": true,
+  "memoryWindow": 6,
+  "rule": "retained cuts become dry channels that bend later wet strokes before displaced re-entry",
+  "falsifier": "empty-memory or latest-cut-deletion replay leaves later stroke geometry unchanged",
+  "probe": {
+    "settledFrame": 7,
+    "replay": true,
+    "routeDeltaRequired": "> 0.18"
+  },
+  "status": "candidate / held pending independent caption-free perceptual review",
+  "lineage": "brush-2026-08-31"
+}

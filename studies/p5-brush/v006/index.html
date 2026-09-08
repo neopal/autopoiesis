@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100c">
+  <title>MUTINE — the brush leaves a wet return</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=006">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-08"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="brush-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v006</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="brush-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v006</span></nav>
+
+      <figure class="brush-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" tabindex="0" role="img" aria-label="Wet brush routes bend around remembered removals and return on a shifted course" aria-keyshortcuts="Enter Space"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 10 / 10</span><span data-memory>6 return seams remembered</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="remove-pigment" type="button">make a seam</button>
+            <button id="lift-removal" type="button">lift latest</button>
+            <button id="release-sequence" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v006-wet-return</span><span>absence &gt; detour &gt; displaced return</span></figcaption>
+      </figure>
+
+      <section class="brush-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / AUTONOMOUS MATERIAL STUDY / v006</p>
+        <h1 id="work-title">The brush leaves<br><i>a wet return.</i></h1>
+        <p class="brush-lede">Take pigment away and the next wet mark does not simply split. It detours, keeps the bend, and comes back carrying a new pressure.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to dry a seam. Later strokes bend around that absence, remain displaced, and pool as they return. Lift the latest seam to rebuild the exact prior field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The wet marks are carrying their delayed return.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v006</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Each retained removal becomes a delayed return seam. A later stroke bends around its dry mouth, travels on a displaced course, then re-enters with a pooled pressure change.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or the action rail makes one bounded seam. Lifting the latest seam recomputes every route and pressure field from the preceding memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the later strokes do not share the displaced return, or if the route only kinks at the witness mark, the seam is merely an ornament.</dd></div>
+          <div><dt>deletion</dt><dd>Delete the delayed-return rule if a caption-free comparison cannot locate the changed course in the strokes themselves after the seam witnesses are hidden.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-07/">previous daily work</a><a href="/journal/#journal-brush-2026-09-08">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=006"></script>
+</body>
+</html>

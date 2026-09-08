@@ -1,0 +1,42 @@
+{
+  "id": "webgpu-v001",
+  "seed": "0x57475031",
+  "visitorInput": true,
+  "stages": 9,
+  "agentCount": 384,
+  "memoryLimit": 4,
+  "finalMemory": 4,
+  "finalArchivedAgents": 233,
+  "memoryRule": "an archived capture bends downstream agents around a carried absence",
+  "interactionRule": "a visitor capture changes later agent coordinates; lifting it restores the exact prior field",
+  "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+  "replay": true,
+  "browserEvidence": {
+    "observedViewport": "1264x625",
+    "overflow": false,
+    "staticPreviewCanvasFillsViewport": true,
+    "staticControlsHidden": true,
+    "interactiveControlsMinimumHeight": 44,
+    "pointerCaptureChangedState": true,
+    "keyboardCaptureChangedState": true,
+    "keyboardCanvasFocusObserved": true,
+    "latestCaptureLiftedStateObserved": true,
+    "adapterLabelObserved": "WEBGPU READY / ARCHIVE",
+    "consoleErrors": 0,
+    "rawBridgePathObserved": "/works/webgpu-2026-09-03/",
+    "publicCanonicalUrl": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-09-03/",
+    "publicCanonicalStatus": "404: NOT_FOUND",
+    "publicDeploymentObserved": false,
+    "unresolved": [
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080",
+      "independent network-failure log",
+      "caption-free perceptual critique",
+      "public deployment route (current work returns 404)"
+    ]
+  },
+  "promotion": "candidate / held pending responsive matrix, network evidence, caption-free perceptual critique, and an authorized deployment"
+}

@@ -2,6 +2,1068 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-08",
+      "currentId": "brush",
+      "date": "2026-09-08",
+      "title": "The brush leaves a wet return.",
+      "rawPath": "/studies/p5-brush/v006/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-08",
+        "note": "v006 changes the material rule: a remembered removal becomes a delayed return seam. Later wet strokes bend around its dry mouth, travel on a displaced course, and re-enter with a pooled pressure change; lifting the latest seam rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The delayed return must be carried by downstream route displacement and pressure-sensitive width; a seam mark or bright pool cannot do the explanatory work alone."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With notation and seam witnesses hidden, a caption-free viewer should find one family of strokes that bends and comes back on a shared shifted course. If only a local kink remains, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must create the same bounded seam, while lifting the latest seam must restore the exact prior routes and pressure values."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A delayed return is an easy metaphor. Delete v006 if the route geometry cannot be distinguished from a generic wobbly brush, or if the prose explains more memory than the marks visibly carry."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "primitiveBudget": 29,
+        "memoryWindow": 6,
+        "pointsPerStroke": 54,
+        "strokesPerStage": 7,
+        "memoryRule": "a remembered removal becomes a delayed return seam shared by later wet strokes",
+        "interactionRule": "a visitor seam changes downstream route geometry; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "partial / held",
+          "observedViewport": "1264px browser width",
+          "parentClientWidth": 1264,
+          "parentScrollWidth": 1264,
+          "iframeCanvasRect": "724x720 CSS pixels",
+          "canonicalRoute": "http://127.0.0.1:4173/works/brush-2026-09-08/",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "initialVision": "canonical page rendered the dark textured tableau before title and explanation: seven wet routes, shared bends, pressure highlights, dark seam mouths, and a restrained editorial frame; no apparent clipping at the default headless viewport",
+          "initialConsoleProbe": "empty console buffer; DOM probe reported innerWidth 1264, clientWidth 1264, scrollWidth 1264",
+          "controlAttempt": "MAKE A SEAM click returned success from the browser tool, but the permitted post-interaction DOM probe remained at stage 03 / 10 with 2 return seams and the initial state text; no state change claimed",
+          "rawPreview": "direct /studies/p5-brush/v006/?preview=1&interaction=1 navigation returned a UTF-8 decode error from the browser adapter",
+          "guardrail": "idempotent/no-progress guardrail after repeated iframe snapshot; browser probing stopped as required",
+          "unresolved": [
+            "verified pointer state change",
+            "keyboard path",
+            "latest-seam lift state",
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080",
+            "reduced-motion run",
+            "independent network-failure log",
+            "independent caption-free perceptual comparison"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with seam witnesses, notation, and readout hidden; delete v006 if the shared downstream return cannot be identified, or if the pressure pool carries the meaning alone.",
+        "lineage": "brush-2026-09-07"
+      }
+    },
+    {
+      "id": "svg-2026-09-08",
+      "currentId": "svg",
+      "date": "2026-09-08",
+      "title": "The animal finds a counterweight.",
+      "rawPath": "/studies/pure-svg/v006/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-08",
+        "note": "v006 changes the structural rule: a remembered refusal becomes a counterweight. Downstream contour mass makes a delayed outward bow and later legs migrate around the same displaced balance point; unweighting the latest load rebuilds the preceding body and routes exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The remembered load must be carried by the downstream silhouette and shifted feet, not by the lime balance point or dotted thread drawn over a stable body."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should identify one animal whose later mass bows and whose feet gather around the same displaced balance; if the counterweight reads as a decorative target, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A visitor load must change later contour and route coordinates, while unweighting it must restore the exact prior state from both pointer and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Balance is an easy metaphor. Delete v006 if hiding the witnesses leaves only a generic bulge, if the feet do not share the load, or if the prose explains more redistribution than the SVG body can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "primitiveBudget": 16,
+        "memoryWindow": 5,
+        "routeCount": 3,
+        "memoryRule": "a remembered refusal becomes a counterweight; downstream mass bows and later feet migrate around its balance point",
+        "interactionRule": "a visitor counterweight changes downstream contour and route coordinates; unweighting restores the exact prior body",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "observedViewport": "1264px browser width",
+          "parentClientWidth": 1264,
+          "parentScrollWidth": 1264,
+          "canonicalRoute": "http://127.0.0.1:49789/works/svg-2026-09-08/",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "initialVision": "canonical page rendered the tableau before prose: a deliberate animal field with dark umber ground, pale body, three routes, load traces, frame, annotations, timeline, and no apparent clipping at the default headless viewport",
+          "initialConsoleProbe": "empty buffer; zero JavaScript errors",
+          "pointerInteraction": "PLACE A WEIGHT click produced stage 06 / 10, 3 remembered counterweights, 3 weighted routes, and 1 active witness in the embedded tableau",
+          "keyboardInteraction": "Enter was dispatched to the current browser focus after the pointer path; no separate state readout was claimed",
+          "rawBridge": "direct /studies/pure-svg/v006/ navigation resolved to /works/svg-2026-09-08/",
+          "previewProbe": "raw preview query returned a UTF-8 decode error from the browser adapter",
+          "guardrail": "idempotent/no-progress guardrail after repeated iframe snapshot; browser probing stopped as required",
+          "unresolved": [
+            "confirmed browser-visible unweight-latest state",
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080",
+            "independent network-failure log",
+            "independent caption-free perceptual critique"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with balance points, load threads, labels, and readout hidden; delete v006 if the bowed mass and shared foot migration cannot be identified, or if the counterweight witness carries the meaning alone.",
+        "lineage": "svg-2026-09-07"
+      }
+    },
+    {
+      "id": "portrait-2026-09-08",
+      "currentId": "portrait",
+      "date": "2026-09-08",
+      "title": "The portrait splits where it refuses.",
+      "rawPath": "/studies/self-portrait/v004/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-08",
+        "note": "v004 changes the negative-space rule: a remembered refusal becomes a fork. Later body routes separate into two near-contours around one aperture and recombine at a displaced shoulder; lifting the latest refusal rebuilds the preceding contour, axis, aperture, and fork routes exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by the changed downstream routes and their recombination, not by a colored witness line or a caption calling two strokes a split."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find one body that visibly divides around its interior aperture and returns at a new shoulder; if the fork reads as a decorative echo, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded refusal, while lifting it must restore the exact prior contour, axis, aperture, and route signature."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A split is an easy metaphor. Delete v004 if hiding the readout and route guides leaves only an eye-shaped void, or if the branches do not materially alter the body."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "primitiveBudget": 44,
+        "memoryLimit": 4,
+        "contourPoints": 36,
+        "forkRoutePoints": 11,
+        "memoryRule": "a remembered refusal splits later body routes into two near-contours that recombine at a displaced shoulder",
+        "interactionRule": "a visitor refusal changes contour, aperture, axis, and fork routes; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with the readout and route guides hidden; delete v004 if the split and displaced rejoin cannot be identified in the body, or if the aperture alone carries the meaning.",
+        "lineage": "portrait-2026-09-04"
+      }
+    },
+    {
+      "id": "brush-2026-09-07",
+      "currentId": "brush",
+      "date": "2026-09-07",
+      "title": "The brush remembers its missing half.",
+      "rawPath": "/studies/p5-brush/v005/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-07",
+        "note": "v005 changes the material rule: a remembered removal becomes a split delta. Later wet strokes fork around its dry mouth and recombine with pigment and width exchanged between their two banks; lifting the latest removal rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The missing pigment must be carried by unequal bank density and a changed return, not by the small dry mouth or the transfer fibers drawn over a stable route."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find one wet stroke dividing and rejoining around the same absence, with the heavier bank visible before reading any explanation."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A pointer or keyboard removal must add a new fork at its bounded position, while lifting it must restore the exact prior route and bank state."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A fork is an easy metaphor. Delete v005 if hiding the dry mouths leaves only decorative branching, or if the words explain more exchange than the strokes can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "strokesPerStage": 7,
+        "pointsPerStroke": 48,
+        "primitiveBudget": 34,
+        "memoryWindow": 5,
+        "memoryRule": "a remembered removal splits later wet strokes into banks that recombine with exchanged pigment and width",
+        "interactionRule": "a visitor removal adds a bounded split delta; lifting it restores the exact preceding field",
+        "replay": true,
+        "settledMemory": 5,
+        "settledDeltas": 5,
+        "splitStrokeCount": 7,
+        "exchangeStrokeCount": 3,
+        "routeDeltaAgainstEmptyMemory": 9.463735881439533,
+        "renderer": "deterministic Canvas 2D"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with dry-mouth witnesses, readout, and labels hidden; delete v005 if the fork, unequal return, and changed route cannot be identified, or if branching reads as decoration.",
+        "lineage": "brush-2026-09-04"
+      }
+    },
+    {
+      "id": "svg-2026-09-07",
+      "currentId": "svg",
+      "date": "2026-09-07",
+      "title": "The animal learns a hinge.",
+      "rawPath": "/studies/pure-svg/v005/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-07",
+        "note": "v005 changes the structural rule: a remembered refusal becomes a hinge in the animal's coordinate system. The downstream contour rotates around that joint and later legs inherit the new axis; unhinging the latest turn rebuilds the preceding body exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The remembered turn must be carried by the downstream silhouette and leg axis, not by the lime hinge pin or the fold line drawn over a stable body."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should identify one animal whose rear contour and feet share a changed axis; if the hinge reads as a decorative joint, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A visitor hinge must change later contour points and route coordinates, while unhinging it must restore the exact prior state from both pointer and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A bend is an easy metaphor. Delete v005 if hiding the pins leaves only a pretty kink, or if the prose explains more consequence than the SVG body can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "primitiveBudget": 14,
+        "memoryWindow": 5,
+        "routeCount": 3,
+        "memoryRule": "a remembered refusal rotates the downstream contour around a hinge and gives later legs the same axis",
+        "interactionRule": "a visitor hinge changes downstream contour and leg routes; unhinging restores the exact prior body",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with hinge witnesses, labels, and readout hidden; delete v005 if the changed rear axis and shared leg fold cannot be identified, or if the hinge reads as a decorative joint.",
+        "lineage": "svg-2026-09-04"
+      }
+    },
+    {
+      "id": "naive-2026-09-07",
+      "currentId": "naive",
+      "date": "2026-09-07",
+      "title": "The house forgets where away is.",
+      "rawPath": "/studies/naive-art/v004/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-07",
+        "note": "v004 changes the structural rule: each retained correction moves a shared vanishing point. The kept roof edge, side plane, ground rays, and route all inherit that wrong destination; the house and its door do not translate."
+      },
+      "critiques": [
+        {
+          "persona": "Perspective critic",
+          "argument": "The remembered error must be carried by one shared destination for roof, ground, and route, not by a separate witness dot or a coloured skew applied to the house."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find the same wrong direction in the kept house's roof edge, side plane, and path before reading any explanation."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must create a real vanishing-point change, while undo must restore the exact previous perspective and route for comparison."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Perspective is an easy metaphor. Delete v004 if hiding the guide lines leaves only a pretty skew, or if the prose explains more shared direction than the image can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "primitiveBudget": 30,
+        "memoryWindow": 9,
+        "memoryRule": "retained points bend the roof, ground, and route toward one false vanishing point",
+        "interactionRule": "visitor placement changes the actual perspective geometry; undo restores the exact prior field",
+        "replay": true,
+        "settledMemory": 9,
+        "settledPerspective": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "canonicalPath": "/works/naive-2026-09-07/",
+          "canonicalRouteRendered": true,
+          "initialVisual": "default headless browser rendered the tableau-first page with a distinct proposal/consequence diptych, visible shared receding direction, controls, timeline, critique, and evidence (captured before the minimal guide-point property fix)",
+          "finalVisualReprobe": "not completed: the browser no-progress guardrail occurred before the fix and browser probing then stopped",
+          "interactionAttempt": "MISPLACE AWAY button click was accepted; the following iframe accessibility snapshot made no progress and did not expose the changed inner state",
+          "rawPreview": "browser adapter returned a UTF-8 decode error for the raw preview route",
+          "consoleProbe": "not run after the no-progress guardrail",
+          "unresolved": ["post-click state change", "raw preview route decoding", "five-viewport browser matrix", "reduced-motion browser matrix", "independent caption-free perceptual comparison"]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with the vanishing-point witness, guide lines, labels, and readout hidden; delete v004 if the roof, ground, and route do not still share a changed destination, or if the perspective reads as a decorative skew.",
+        "lineage": "naive-2026-09-04"
+      }
+    },
+    {
+      "id": "naive-2026-09-04",
+      "currentId": "naive",
+      "date": "2026-09-04",
+      "title": "The house keeps its outside inside.",
+      "rawPath": "/studies/naive-art/v003/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-04",
+        "note": "v003 changes the rule from spatial displacement to threshold migration: each retained correction advances the opening around the house, making the route enter the body and return outside through another wall. A visitor correction chooses one or two wall steps; undo restores the earlier topology exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Architectural critic",
+          "argument": "The remembered mistake must be carried by the opening and the route crossing the body, not by the small transfer trace or the wall label."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free comparison should identify the same migrated side or roof opening and the route's return outside; if it reads as a decorative window, the threshold rule has failed."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Left and right visitor corrections must choose different wall steps, while undo must restore the previous opening wall and route signature exactly."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "An opening that travels is an easy metaphor. Delete v003 if the route does not visibly cross the house or if the prose explains more consequence than the tableau."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "primitiveBudget": 31,
+        "openingStates": 4,
+        "memoryWindow": 8,
+        "memoryRule": "a remembered correction migrates the threshold around the house and carries the route through its body",
+        "interactionRule": "a visitor correction selects one or two wall steps; undo restores the prior opening and route",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with labels, transfer trace, and readout hidden; delete v003 if the migrated opening and route return cannot be identified, or if the opening reads as a decorative window.",
+        "lineage": "naive-2026-09-02"
+      }
+    },
+    {
+      "id": "typography-2026-09-04",
+      "currentId": "typography",
+      "date": "2026-09-04",
+      "title": "The sentence loses its place.",
+      "rawPath": "/studies/handwriting/v004/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-04",
+        "note": "v004 deletes the decorative second hand and changes the rule: a remembered refusal becomes a lost beat. Later routes open a real gap, then re-enter displaced; lifting one refusal recomputes those pauses instead of hiding a witness."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The lost beat must be a break in cadence and a changed re-entry, not a missing segment painted over a stable route."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find the same downstream displacement with the small refusal witnesses ignored; if only the coral notches speak, the rule has failed."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Lifting one refusal must remove later pauses and change route coordinates, while restore must reproduce the remembered field exactly."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "An elegant gap is still an effect. Delete v004 if the sentence does not feel like one hand that lost its place and returned elsewhere."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "routeCount": 13,
+        "passagePoints": 15,
+        "memoryWindow": 72,
+        "lostBeatCount": 13,
+        "memoryRule": "a remembered refusal opens a gap in later routes and displaces their re-entry",
+        "interactionRule": "lifting one prior refusal recomputes later pauses and route coordinates",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with the refusal witnesses hidden; delete v004 if the downstream lost place cannot be identified or if the gap alone carries the meaning.",
+        "lineage": "typography-2026-09-03"
+      }
+    },
+    {
+      "id": "portrait-2026-09-04",
+      "currentId": "portrait",
+      "date": "2026-09-04",
+      "title": "The portrait carries its negative.",
+      "rawPath": "/studies/self-portrait/v003/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-04",
+        "note": "v003 removes the explanatory hinge and changes the rule: a remembered refusal becomes a negative aperture. Later contour mass and the internal axis lean around what the renderer would not contain; lifting one absence rebuilds the prior field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The absence must be carried by the contour and the displaced inner opening, not by a colored scar or a label explaining the field."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free pair should identify the same off-axis aperture and downstream mass shift before and after lifting the latest absence; if the void reads as a generic decorative eye, the portrait has failed."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded absence, while lifting it must restore the exact prior contour, axis, and aperture for comparison."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Negative space can become a fashionable metaphor. Delete v003 if the shape starts reading as a face, or if the readout carries more consequence than the changed silhouette."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "primitiveBudget": 40,
+        "memoryLimit": 3,
+        "memoryRule": "a remembered refusal becomes a negative aperture that displaces later contour mass and axis",
+        "interactionRule": "a visitor absence changes contour and aperture geometry; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with the readout and absence witness hidden; delete v003 if the same off-axis aperture and contour shift cannot be identified, or if the form reads as a face.",
+        "lineage": "portrait-2026-09-03"
+      }
+    },
+    {
+      "id": "svg-2026-09-04",
+      "currentId": "svg",
+      "date": "2026-09-04",
+      "title": "The animal keeps a room missing.",
+      "rawPath": "/studies/pure-svg/v004/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-04",
+        "note": "v004 changes the topology rule into negative anatomy: a refused joint hollows a chamber inside the body, and later limbs route around that missing interior. Removing the latest refusal rebuilds the prior chamber and attachment routes exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The refusal must be carried by the compound silhouette and the route's changed approach, not by an orange mark laid on top of an unchanged animal."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find the same negative chamber and downstream weight shift with the refusal witnesses hidden; if the hole reads as a decorative eye, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must open the same bounded chamber, while closing the latest chamber must restore the exact prior body and route for comparison."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Negative space is an easy metaphor. Delete v004 if the animal does not feel structurally hollow when the readout, witnesses, and prose are removed."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "primitiveBudget": 18,
+        "memoryWindow": 5,
+        "routeCount": 3,
+        "memoryRule": "a refused joint becomes a negative chamber that later limbs route around",
+        "interactionRule": "opening a chamber changes aperture and attachment geometry; closing the latest restores the prior route",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "observedViewport": "1264px browser width",
+          "parentClientWidth": 1249,
+          "parentScrollWidth": 1249,
+          "iframeSize": "714.28125x720",
+          "frameClientWidth": 714,
+          "frameScrollWidth": 714,
+          "initialState": "stage 06 / 10",
+          "initialMemory": "3 remembered refusals",
+          "apertureRendered": true,
+          "detoursRendered": 3,
+          "buttonRefusalChangedState": true,
+          "buttonDeletionRestoredVisibleState": true,
+          "keyboardEnterChangedState": true,
+          "previewFurnitureHidden": true,
+          "rawBridgeObservedCanonicalPath": "/works/svg-2026-09-04/",
+          "consoleProbe": "empty buffer on corrected fresh-load probe",
+          "unresolved": [
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080",
+            "independent network-failure log",
+            "independent caption-free perceptual critique"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with the chamber rim, readout, and refusal witnesses hidden; delete v004 if the negative anatomy cannot be identified or the detour reads as an overlay.",
+        "lineage": "svg-2026-09-03"
+      }
+    },
+    {
+      "id": "brush-2026-09-04",
+      "currentId": "brush",
+      "date": "2026-09-04",
+      "title": "The brush remembers what was taken.",
+      "rawPath": "/studies/p5-brush/v004/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-04",
+        "note": "v004 changes the channel rule into material accounting: a remembered removal becomes a dry basin that later wet strokes gather toward, drain through, and leave as a thinner displaced return. Lifting the latest basin rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The removal must be carried by the wet stroke's thinning and return, not by a clay-coloured ring laid over an unchanged path."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free comparison should find the same gathering, pale mouth, and thinner return with the basin witnesses hidden; if only the dark wells speak, the rule has failed."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must create the same bounded removal, while lifting the latest basin must restore the exact prior route and pigment state."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A drain is an attractive metaphor. Delete v004 if the rings explain more than the changed body of the wet marks, or if the field reads as a diagram of sinks."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "strokesPerStage": 6,
+        "pointCount": 42,
+        "primitiveBudget": 32,
+        "memoryWindow": 5,
+        "memoryRule": "a remembered removal becomes a dry basin that drains later wet strokes before a thinner displaced return",
+        "interactionRule": "a visitor removal changes later route, pigment, and width; lifting it rebuilds the preceding field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with basin witnesses, readout, and prose hidden; delete v004 if the same gathering/thinning/return cannot be identified or if the basin outline carries the meaning alone.",
+        "lineage": "brush-2026-09-03"
+      }
+    },
+    {
+      "id": "webgpu-2026-09-07",
+      "currentId": "webgpu",
+      "date": "2026-09-07",
+      "title": "The crowd keeps a place open.",
+      "rawPath": "/studies/webgpu/v003/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-07",
+        "note": "v003 changes the archive rule from temporal debt to changed order: an archived point becomes a vacancy in the crowd's local sequence, so later bodies queue in two lanes and rejoin carrying the missing place. A visitor can reserve one bounded vacancy, lift it, and compare the exact prior field without browser history."
+      },
+      "critiques": [
+        {
+          "persona": "Systems critic",
+          "argument": "The archive must be carried by a changed local order in the agents, not by the coral vacancy rings, order threads, or GPU label. Hide all three witnesses and ask whether the rows still braid."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find one unmistakable pocket where two lanes pass around an open place and rejoin with a changed order; if the field only reads as a glowing mesh, the rule is not visible."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Reserving at two different points should create different downstream braid signatures, while lifting the latest vacancy must return the exact prior agent field from both pointer and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Queueing is an attractive metaphor. Delete v003 if the split lanes read as decorative rays, if a vacancy only changes colour, or if the prose explains more missing order than the mass can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 11,
+        "agentCount": 432,
+        "memoryLimit": 4,
+        "finalMemory": 4,
+        "finalQueuedAgents": 209,
+        "finalOrderShear": 59.94210420500629,
+        "finalVacancyLoad": 39.09180168613418,
+        "finalAffectedAgents": [191, 142, 23, 41],
+        "memoryRule": "an archived point becomes a vacancy in local order; later bodies queue in two lanes and rejoin with an order offset",
+        "interactionRule": "a visitor vacancy changes downstream queue geometry and order coordinates; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with vacancy witnesses, order threads, labels, and readout hidden; delete v003 if the braid and changed order cannot be identified, or if the two lanes read as decoration.",
+        "lineage": "webgpu-2026-09-04"
+      }
+    },
+    {
+      "id": "webgpu-2026-09-04",
+      "currentId": "webgpu",
+      "date": "2026-09-04",
+      "title": "The crowd arrives out of order.",
+      "rawPath": "/studies/webgpu/v002/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-04",
+        "note": "v002 changes the archive rule from spatial bending to temporal debt: an archived point makes later bodies cross in a changed phase, so the crowd arrives in staggered bands instead of one shared cadence. A visitor can commit one bounded delay, lift it, and compare the exact prior field without browser history."
+      },
+      "critiques": [
+        {
+          "persona": "Systems critic",
+          "argument": "The archive must be carried by a changed arrival cadence in the agents, not by the coral debt rings or the GPU label. Hide both witnesses and ask whether the bands still shear."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find one unmistakable staggered arrival band after the first debt; if the field only reads as a glowing mesh, the timing rule is not visible."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Capturing at two different points should create different downstream arrival signatures, while lifting the latest debt must return the exact prior agent field."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Latency is an attractive metaphor. Delete v002 if the short timing threads read as decorative rays, if a debt only changes colour, or if the crowd still arrives as one body without the counters."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "agentCount": 432,
+        "memoryLimit": 4,
+        "memoryRule": "an archived point becomes latency debt that shears the later arrival bands",
+        "interactionRule": "a visitor delay changes downstream phase and arrival coordinates; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with debt witnesses and readout hidden; delete v002 if the staggered arrival band cannot be identified or if timing threads carry the meaning alone.",
+        "lineage": "webgpu-2026-09-03"
+      }
+    },
+    {
+      "id": "webgpu-2026-09-03",
+      "currentId": "webgpu",
+      "date": "2026-09-03",
+      "title": "The crowd keeps the gap.",
+      "rawPath": "/studies/webgpu/v001/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-03",
+        "note": "v001 changes a deterministic braided crowd into a memory field: an archived capture bends downstream agents around a carried absence. A visitor can commit one bounded capture, lift the latest, and compare the exact prior field without browser history."
+      },
+      "critiques": [
+        {
+          "persona": "Systems critic",
+          "argument": "The archive must be carried by downstream agent geometry, not by the coral rings. Hide the witnesses and ask whether the crowd still bends."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "The field needs one unmistakable kink at the first capture before four channels accumulate; density must not dissolve causality into an attractive mesh."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Capturing at two different points should produce two different downstream routes, while lifting the latest capture must return the exact prior agent field."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "WebGPU readiness is not an artwork. Delete v001 if the adapter label or archive counters carry more meaning than the mass itself."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "agentCount": 384,
+        "memoryLimit": 4,
+        "finalArchivedAgents": 233,
+        "memoryRule": "an archived capture bends downstream agents around a carried absence",
+        "interactionRule": "a visitor capture changes later agent coordinates; lifting it restores the exact prior field",
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+        "replay": true,
+        "browserEvidence": {
+          "observedViewport": "1264x625",
+          "overflow": false,
+          "staticPreviewCanvasFillsViewport": true,
+          "staticControlsHidden": true,
+          "interactiveControlsMinimumHeight": 44,
+          "pointerCaptureChangedState": true,
+          "keyboardCaptureChangedState": true,
+          "keyboardCanvasFocusObserved": true,
+          "latestCaptureLiftedStateObserved": true,
+          "adapterLabelObserved": "WEBGPU READY / ARCHIVE",
+          "consoleErrors": 0,
+          "rawBridgePathObserved": "/works/webgpu-2026-09-03/",
+          "publicCanonicalUrl": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-09-03/",
+          "publicCanonicalStatus": "404: NOT_FOUND",
+          "publicDeploymentObserved": false,
+          "unresolved": [
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080",
+            "independent network-failure log",
+            "caption-free perceptual critique",
+            "public deployment route (current work returns 404)"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain a caption-free comparison with coral archive witnesses hidden; delete v001 if the downstream bend cannot be identified or if the witness/counters carry the meaning alone.",
+        "lineage": null
+      }
+    },
+    {
+      "id": "brush-2026-09-03",
+      "currentId": "brush",
+      "date": "2026-09-03",
+      "title": "A brush opens a channel.",
+      "rawPath": "/studies/p5-brush/v003/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-03",
+        "note": "v003 changes the wound into a dry channel: a later wet stroke bends around its opening and re-enters displaced. A visitor can open one bounded cut, lift it, and compare the rebuilt route without browser history."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The cut must be felt as a dry passage in the stroke's rerouting, not merely seen as a rust-coloured scar laid over a stable field."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "The dark channel should make the wet mark visibly leave and re-enter its lane; a caption-free comparison must identify the same bend before and after lifting."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Opening a cut by pointer or keyboard must rebuild later stroke geometry, and lifting the latest cut must restore the exact preceding memory state."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Dry traces are an easy signal. Hold the candidate unless the rerouted mark carries the consequence when channel witnesses are ignored."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 8,
+        "strokesPerStage": 5,
+        "primitiveBudget": 30,
+        "memoryWindow": 6,
+        "memoryRule": "a retained cut becomes a dry channel that bends later wet strokes before displaced re-entry",
+        "interactionRule": "a visitor cut changes later stroke points; lifting it rebuilds the preceding route",
+        "replay": true
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with the dry channel marks hidden; delete v003 if the same downstream bend cannot be identified or if the witness carries the meaning alone.",
+        "lineage": "brush-2026-08-31"
+      }
+    },
+    {
+      "id": "typography-2026-09-03",
+      "currentId": "typography",
+      "date": "2026-09-03",
+      "title": "A sentence splits where it remembers.",
+      "rawPath": "/studies/handwriting/v003/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-03",
+        "note": "v003 keeps v002's detour but changes the rule: a remembered refusal fractures the later cadence into a second asynchronous hand. Lifting one scar recomputes the downstream sentence instead of hiding an annotation."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The fracture must read as a changed cadence in the downstream route, not as a second line applied afterward."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "The coral counterfactual and green second hand should name the same spatial split without requiring the annotations."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Lifting one refusal must recompute later route points and leave a visible difference that survives a restore action and a reload."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A beautiful double stroke is an easy effect. Delete the work if the remembered refusal does not make the sentence move differently."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 8,
+        "routeCount": 12,
+        "passagePoints": 11,
+        "memoryWindow": 64,
+        "memoryRule": "a remembered refusal fractures later cadence into an asynchronous second hand",
+        "interactionRule": "lifting one prior scar recomputes downstream route points",
+        "replay": true,
+        "mobileComposition": "4:5 artwork field; controls move to a bottom action rail",
+        "browserEvidence": {
+          "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+          "overflow": false,
+          "canvasFillsViewport": true,
+          "controlsMinimumHeight": 44,
+          "pointerPixelsChanged": true,
+          "keyboardRestore": true,
+          "reducedMotionSettlesAtStage": 7,
+          "consoleErrors": 0,
+          "networkFailures": 0,
+          "rawBridgePathname": "/works/typography-2026-09-03/"
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free perceptual review; delete this direction if the green branch reads as a decorative echo or lifting a scar leaves later points unchanged.",
+        "lineage": "typography-2026-08-31"
+      }
+    },
+    {
+      "id": "portrait-2026-09-03",
+      "currentId": "portrait",
+      "date": "2026-09-03",
+      "title": "The axis keeps its hesitation.",
+      "rawPath": "/studies/self-portrait/v002/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-03",
+        "note": "v002 changes the blind-spot rule: every refusal becomes a signed hinge, and later contour mass plus the internal axis inherit its lean. The visitor can add one hinge, lift it, and compare the rebuilt geometry without browser history."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The hinge must read in the kept silhouette and axis, not only in the rust-colored witness lines."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "The isolated field is layered and abstract rather than avatar-like, but a caption-free hinge-to-bend correspondence still needs an independent blinded observer."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer input and Enter/Space both add a hinge; lifting the latest hinge restores the prior geometry for comparison, and the three interactive controls remain reachable."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "The orange seams could become an explanatory diagram. Hold the direction unless the contour still looks consequential with the witnesses hidden."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 8,
+        "primitiveBudget": 36,
+        "memoryLimit": 4,
+        "memoryRule": "each renderer refusal becomes a signed hinge that displaces later contour mass",
+        "interactionRule": "a visitor hinge changes contour geometry and axis tilt; lifting it restores the prior memory",
+        "replay": true,
+        "browserEvidence": {
+          "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+          "overflow": false,
+          "canvasFillsViewportInPreview": true,
+          "staticControlsHidden": true,
+          "interactiveControlsMinimumHeight": 44,
+          "pointerPixelsChanged": true,
+          "keyboardPixelsChanged": true,
+          "keyboardUndoPixelsChanged": true,
+          "reducedMotionSettles": true,
+          "consoleErrors": 0,
+          "networkFailures": 0,
+          "rawBridgeObservedCanonicalPath": "/works/portrait-2026-09-03/",
+          "canonicalIframeLoaded": true,
+          "canonicalTableauBeforeTimeline": true,
+          "canonicalMobileIframeTopPx": 196.5
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free pair at stage 08: intact memory versus deletion of the latest hinge. Delete this direction if the same local contour bend cannot be identified twice without witnesses or prose.",
+        "lineage": "portrait-2026-08-31"
+      }
+    },
+    {
+      "id": "svg-2026-09-03",
+      "currentId": "svg",
+      "date": "2026-09-03",
+      "title": "The animal leaves the joint open.",
+      "rawPath": "/studies/pure-svg/v003/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-03",
+        "note": "v003 changes the cut rule into topology: a refused joint is not retained as a wound, but changes the attachment route of every later limb. The visitor can refuse a joint, remove it, and compare the rebuilt route without browser history."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The refusal has to be legible in the attachment route and the body's weight, not only in the copper witness at its origin."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "The settled silhouette is compelling and the three copper limbs read as a material counter-rhythm, but a caption-free comparison still has to name the same detour before and after deletion."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "The field, Enter/Space, and named buttons all reach the same refusal rule; removing the latest refusal must continue to expose a changed state without browser history."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "The orange route is an easy signal. Keep v003 held unless the pale body still feels displaced when the witness marks are hidden, and delete it if the detour is only a decorative overlay."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 10,
+        "primitiveBudget": 16,
+        "memoryWindow": 5,
+        "routeCount": 3,
+        "memoryRule": "a refused joint changes the attachment route of every later limb",
+        "interactionRule": "a visitor refusal recomputes joint, knee, and foot; removing it restores the prior route",
+        "replay": true,
+        "stage6Probe": {
+          "inheritedRefusals": 4,
+          "detours": 3,
+          "routeDeltaAfterLatestDeletion": 0.855034733951082
+        },
+        "browserEvidence": {
+          "observedViewports": ["1264x625"],
+          "overflow": false,
+          "staticPreviewFurnitureHidden": true,
+          "controlsMinimumHeight": 44,
+          "buttonRefusalChangedState": true,
+          "buttonDeletionChangedState": true,
+          "keyboardEnterChangedState": true,
+          "consoleErrors": 0,
+          "networkFailures": 0,
+          "rawBridgeTarget": "/works/svg-2026-09-03/",
+          "unresolved": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080", "independent caption-free perceptual review"]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison of settled body routes with and without the latest refusal; delete v003 if the witness carries the meaning and the body does not.",
+        "lineage": "pure-svg-v002"
+      }
+    },
+    {
+      "id": "naive-2026-09-02",
+      "currentId": "naive",
+      "date": "2026-09-02",
+      "title": "The correction walks outside.",
+      "rawPath": "/studies/naive-art/v002/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-02",
+        "note": "The v001 house keeps its mistake; v002 changes the rule so retained corrections displace the kept house, doorway, and route. The refused proposal and kept consequence are separated into a portrait composition at narrow sizes."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The correction must remain attached to the changed doorway and route as spatial cause, not settle into a red explanatory line."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "In the static final-state preview, the refused doorway sits inside the dashed house while the kept doorway is carried to the far wall and its dark route bends away. Keep only if that same difference survives without the panel labels."
+        },
+        {
+          "persona": "Experience critic",
+          "argument": "The narrow 320×568 and 390×844 previews need a full portrait field so the proposal, trace, and consequence are encountered as one composition rather than a letterboxed strip."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "The single red threshold trace is useful evidence but risks becoming a diagrammatic connector; the kept house must continue to carry the consequence through its own wall and path."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "primitiveBudget": 28,
+        "memoryRule": "retained corrections become spatial displacement vectors for the kept house, doorway, and route",
+        "mobileBreakpoint": 640,
+        "portraitViewBox": "1000×1500",
+        "replay": true
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free perceptual review; delete this direction if the red trace reads as explanation while the changed door and route do not read as consequence.",
+        "lineage": "naive-art-v001"
+      }
+    },
+    {
       "id": "svg-2026-09-02",
       "currentId": "svg",
       "date": "2026-09-02",

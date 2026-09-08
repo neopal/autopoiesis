@@ -1,0 +1,15 @@
+{
+  "renderer": "deterministic SVG path geometry",
+  "seed": "0x4e413034",
+  "stages": 10,
+  "primitiveBudget": 30,
+  "memoryWindow": 9,
+  "visitorInput": true,
+  "replay": true,
+  "perspectiveRule": "a remembered correction moves one shared vanishing point",
+  "memoryRule": "retained points bend the roof, ground, and route toward one false vanishing point",
+  "interactionRule": "visitor placement changes the actual perspective geometry; undo restores the exact prior field",
+  "structuralWitnesses": ["recedingEdge", "floorEdge", "groundRays", "route-receding"],
+  "settledMemory": 9,
+  "settledPerspective": true
+}

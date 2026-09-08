@@ -1,0 +1,25 @@
+{
+  "id": "p5-brush-v005",
+  "seed": "0x42525535",
+  "stages": 10,
+  "strokesPerStage": 7,
+  "pointCount": 48,
+  "primitiveBudget": 34,
+  "visitorInput": true,
+  "memoryWindow": 5,
+  "rule": "remembered removals split later wet strokes into banks that recombine with exchanged pigment and width",
+  "falsifier": "empty-memory or latest-removal replay leaves the fork, route shift, and bank density unchanged",
+  "probe": {
+    "settledFrame": 9,
+    "settledMemory": 5,
+    "settledDeltas": 5,
+    "splitStrokeCount": 7,
+    "exchangeStrokeCount": 3,
+    "maxSplit": 0.07654793330580774,
+    "routeDeltaAgainstEmptyMemory": 9.463735881439533,
+    "visitorRemovalBounds": "x 0.07-0.93; y 0.10-0.90",
+    "visitorReplayRestoresExactState": true
+  },
+  "status": "candidate / held pending independent caption-free perceptual review",
+  "lineage": "brush-2026-09-04"
+}

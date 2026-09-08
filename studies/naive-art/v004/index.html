@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dfc895">
+  <title>MUTINE - naive art v004</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-07"></script>
+</head>
+<body class="work-page interactive-preview" data-current="naive">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / naive art / v004</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">-></span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">-></span><span aria-current="page">v004</span></nav>
+      <section class="work-surface" aria-label="Naive art daily work">
+        <div class="field-column">
+          <div class="field-wrap artwork-frame">
+            <svg id="field" viewBox="0 0 1000 700" role="img" aria-label="A refused flat house faces a kept house whose roof, ground, and route all point toward a remembered wrong vanishing point" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space"></svg>
+            <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 10</span><span data-memory>0 remembered points</span></div>
+            <div class="field-controls" aria-label="Work gestures">
+              <button type="button" id="vanishing-control" data-gesture="vanishing-point">misplace away</button>
+              <button type="button" id="undo-control" data-gesture="undo">undo last</button>
+              <button type="button" id="release-control" data-gesture="release">release sequence</button>
+            </div>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Ten seeded stages draw the same blunt house twice: first facing the viewer, then facing a direction that was never agreed upon.</p></div>
+          <div><span>critique</span><p>Keep the direction only if the roof, ground, and route still share the wrong vanishing point when the words are ignored.</p></div>
+          <div><span>progression</span><p>Misplace away with the field or keyboard, undo it, then release the route and watch the house relearn its false perspective.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V004 / DAILY WORK</p><h1 id="work-title">The house forgets<br><i>where away is.</i></h1></div>
+        <p class="work-premise">A correction does not move the house or its door this time. It moves the point that tells every receding line where to go. The wrongness becomes a shared direction.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> This v004 changes the rule rather than adding a mark: retained points bend the house's receding edge, ground, and route toward one false vanishing point. Promotion requires a caption-free observer to name the shared direction twice.</p></section>
+      <p class="work-loop">creation -> critique -> progression</p>
+    </main>
+    <footer class="studio-footer"><a href="/currents/naive-art/">naive art current</a><span>creation -> critique -> progression</span><a href="/journal/">journal -</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

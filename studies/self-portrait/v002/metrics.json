@@ -1,0 +1,42 @@
+{
+  "seed": "0x53505632",
+  "stages": 8,
+  "primitiveBudget": 36,
+  "memoryLimit": 4,
+  "visitorInput": true,
+  "interactionRule": "a visitor hinge changes contour geometry and axis tilt; lifting it restores the prior memory",
+  "memoryRule": "each renderer refusal becomes a signed hinge that displaces later contour mass",
+  "replay": true,
+  "engineProbe": {
+    "finalMemory": 4,
+    "latestHingeDeletionMaxNormalized": 0.04770150801286075,
+    "latestHingeDeletionMeanNormalized": 0.011693512849979772,
+    "latestHingeDeletionMaxPxAt1135": 54.14121159459695,
+    "axisWobbleWithMemory": 0.10080000000000001,
+    "geometrySignatureChanges": true
+  },
+  "responsiveComposition": {
+    "mobile": "full-viewport portrait tableau at narrow widths",
+    "desktop": "full-viewport landscape tableau in isolated preview",
+    "direct": "artwork surface precedes title and annotations"
+  },
+  "browserEvidence": {
+    "route": "http://127.0.0.1:4179/studies/self-portrait/v002/?preview=1&static=1",
+    "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+    "matrixRuns": 10,
+    "overflow": false,
+    "canvasFillsViewportInPreview": true,
+    "staticControlsHidden": true,
+    "interactiveControlsMinimumHeight": 44,
+    "pointerPixelsChanged": true,
+    "keyboardPixelsChanged": true,
+    "keyboardUndoPixelsChanged": true,
+    "reducedMotionSettles": true,
+    "consoleErrors": 0,
+    "networkFailures": 0,
+    "rawBridgeObservedCanonicalPath": "/works/portrait-2026-09-03/",
+    "canonicalIframeLoaded": true,
+    "canonicalTableauBeforeTimeline": true,
+    "canonicalMobileIframeTopPx": 196.5
+  }
+}

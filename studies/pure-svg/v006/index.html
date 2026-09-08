@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17130f">
+  <title>MUTINE — pure SVG v006</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || document.documentElement.classList.contains('interactive-preview');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-09-08"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / pure SVG / v006</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v006</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="A strange animal whose downstream body and feet redistribute around remembered counterweights" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 10</span><span data-memory>0 remembered counterweights</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="counterweight-control" data-gesture="counterweight">place a weight</button>
+            <button type="button" id="unweight-control" data-gesture="unweight">unweight latest</button>
+            <button type="button" id="release-control" data-gesture="release">release the body</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Ten stages spend sixteen marks on one folded animal and three routes that keep finding their load.</p></div>
+          <div><span>changed rule</span><p>A remembered refusal becomes a counterweight. Downstream mass bows outward, then feet migrate around one balance point.</p></div>
+          <div><span>progression</span><p>Click the field or press Enter. Unweight the latest load and the preceding body returns exactly.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V006 / DAILY WORK</p><h1 id="work-title">The animal<br><i>finds a counterweight.</i></h1></div>
+        <p class="work-premise">A refusal no longer turns the body. It moves the load: the silhouette makes room for a delayed bow, then its feet search for the same displaced balance point.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: deleting the latest counterweight restores the prior contour and routes. Promotion still depends on whether the bow and shared foot migration read after its witness trace is hidden.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=006a"></script>
+</body>
+</html>

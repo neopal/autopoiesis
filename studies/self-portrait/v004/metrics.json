@@ -1,0 +1,33 @@
+{
+  "visitorInput": true,
+  "stages": 10,
+  "primitiveBudget": 44,
+  "memoryLimit": 4,
+  "contourPoints": 36,
+  "forkRoutePoints": 11,
+  "memoryRule": "a remembered refusal splits later body routes into two near-contours that recombine at a displaced shoulder",
+  "interactionRule": "a visitor refusal changes contour, aperture, axis, and fork routes; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "browserEvidence": {
+    "status": "partial / held",
+    "observedViewport": "innerWidth 1264px / clientWidth 1264px / scrollWidth 1264px",
+    "canonicalRouteRendered": true,
+    "canonicalIframeSize": "724.40625x720",
+    "pointerStateObserved": "forks: 4 / memory: 4 / interaction: visitor-refusal / paused: true",
+    "consoleProbe": "no console output or errors observed in the bounded probes",
+    "rawBridgeObservedCanonicalPath": "/works/portrait-2026-09-08/",
+    "rawPreviewProbe": "explicit preview route returned a browser-adapter UTF-8 decode error",
+    "unresolved": [
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080",
+      "named button activation",
+      "keyboard Enter/Space path",
+      "independent network-failure log",
+      "independent caption-free perceptual comparison"
+    ]
+  }
+}

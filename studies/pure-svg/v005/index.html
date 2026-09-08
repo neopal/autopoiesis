@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101728">
+  <title>MUTINE — pure SVG v005</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || document.documentElement.classList.contains('interactive-preview');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-09-07"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / pure SVG / v005</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v005</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="A strange animal whose rear contour and legs fold around remembered hinges" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 09</span><span data-memory>0 remembered hinges</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="hinge-control" data-gesture="hinge">make a hinge</button>
+            <button type="button" id="unhinge-control" data-gesture="unhinge">unhinge latest</button>
+            <button type="button" id="release-control" data-gesture="release">release the body</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Nine stages spend fourteen marks on one folded animal and three shared leg routes.</p></div>
+          <div><span>changed rule</span><p>A remembered turn rotates the downstream contour around its joint. Later legs inherit the same axis.</p></div>
+          <div><span>progression</span><p>Click the field or press Enter. Unhinge the latest turn and the earlier body returns exactly.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V005 / DAILY WORK</p><h1 id="work-title">The animal<br><i>learns a hinge.</i></h1></div>
+        <p class="work-premise">A refusal need not scar or hollow the body. Here, memory changes the animal’s coordinate system: the rear half swings from a remembered joint, and its feet arrive under the new axis.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: deleting the latest hinge restores the prior contour and routes. Promotion still depends on whether the changed axis reads after its witness pins are hidden.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=005a"></script>
+</body>
+</html>

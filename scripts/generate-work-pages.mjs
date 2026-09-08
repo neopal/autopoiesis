@@ -14,10 +14,10 @@ const shell = (work) => `<!doctype html>
   <title>MUTINE — ${work.title}</title>
   <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/studio/studio.css">
-  <link rel="stylesheet" href="/studio/catalog.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
   <link rel="stylesheet" href="/studio/work.css">
 </head>
-<body class="work-page" data-work-id="${work.id}">
+<body class="work-page" data-current="${work.currentId}" data-work-id="${work.id}">
   <div class="studio-shell">
     <header class="studio-header">
       <a class="studio-mark" href="/">MUTINE</a>

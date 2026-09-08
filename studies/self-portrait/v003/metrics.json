@@ -1,0 +1,31 @@
+{
+  "visitorInput": true,
+  "stages": 9,
+  "primitiveBudget": 40,
+  "memoryLimit": 3,
+  "contourPoints": 32,
+  "memoryRule": "a remembered refusal becomes a negative aperture that displaces later contour mass and axis",
+  "interactionRule": "a visitor absence changes contour and aperture geometry; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "browserEvidence": {
+    "observedViewport": "innerWidth 1264px",
+    "canonicalIframeLoaded": true,
+    "staticPreviewLoaded": true,
+    "scrollWidth": 1249,
+    "overflow": false,
+    "interactiveControlsMinimumHeight": 44,
+    "canvasPointerStateObserved": "VISITOR ABSENCE / PAUSED",
+    "consoleErrors": 0,
+    "probeStatus": "held after idempotent/no-progress guardrail",
+    "unresolved": [
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080",
+      "named button activation",
+      "independent caption-free perceptual review"
+    ]
+  }
+}

@@ -687,6 +687,10 @@ body.work-page.current-page[data-current='webgpu'] {
   background: var(--quiet);
 }
 
+body.work-page[data-current='brush'] .artwork-frame iframe {
+  background: #0d0d0c;
+}
+
 .artwork-frame figcaption {
   display: flex;
   justify-content: space-between;
@@ -1293,9 +1297,9 @@ body.gallery-page {
 
 /* The daily timeline is a visible navigation rail, not a buried ledger section. */
 .work-timeline-bar { display: flex; min-width: 0; align-items: end; gap: clamp(18px, 4vw, 54px); margin: 0 0 clamp(30px, 5vw, 64px); padding: 14px 0 16px; overflow-x: auto; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
-.work-timeline-bar__heading { display: grid; min-width: 132px; flex: 0 0 132px; gap: 5px; }
+.work-timeline-bar__heading { display: grid; min-width: clamp(132px, 16vw, 220px); flex: 0 0 clamp(132px, 16vw, 220px); gap: 5px; }
 .work-timeline-bar__heading .studio-label { margin: 0; color: var(--red); }
-.work-timeline-bar__heading strong { font: 400 clamp(24px, 3vw, 42px)/.9 'Instrument Serif', Georgia, serif; letter-spacing: -.045em; }
+.work-timeline-bar__heading strong { min-width: 0; overflow-wrap: anywhere; font: 400 clamp(24px, 3vw, 42px)/.9 'Instrument Serif', Georgia, serif; letter-spacing: -.045em; }
 .work-timeline-bar__heading span { color: var(--ash); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
 .work-timeline-bar .work-timeline { display: flex; min-width: max-content; flex: 1 1 auto; gap: 7px; margin: 0; padding: 0 0 2px; list-style: none; }
 .work-timeline__item { min-width: 128px; border: 1px solid var(--line); background: color-mix(in srgb, var(--quiet) 58%, transparent); }

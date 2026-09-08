@@ -56,7 +56,7 @@ test('SVG v002 keeps preview interaction and reduced-motion affordances coherent
   assert.match(style, /prefers-reduced-motion:reduce/);
   assert.match(style, /\.active-scar\{animation:none!important\}/);
   assert.match(style, /html\.preview-mode\.interactive-preview:not\(\.static-mode\) \.field-controls\{display:flex\}/);
-  assert.match(catalog, /withPreview\(work\.rawPath, \{ interaction: '1' \}\)/);
+  assert.match(catalog, /withPreview\(work\.rawPath, \{ interaction: '1', cache: work\.id \}\)/);
 });
 
 test('SVG v002 preserves exact pointer edges and deletes the visible latest scar', async () => {

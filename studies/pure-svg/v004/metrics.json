@@ -1,0 +1,44 @@
+{
+  "visitorInput": true,
+  "stages": 10,
+  "primitiveBudget": 18,
+  "memoryWindow": 5,
+  "routeCount": 3,
+  "memoryRule": "a refused joint becomes a negative chamber that later limbs route around",
+  "interactionRule": "opening a chamber changes aperture and attachment geometry; closing the latest restores the prior route",
+  "replay": true,
+  "renderer": "deterministic SVG path geometry",
+  "stage7Probe": {
+    "inheritedRefusals": 4,
+    "detours": 3,
+    "apertureDeltaAfterLatestDeletion": 0.07808837438553702,
+    "routeDeltaAfterLatestDeletion": 0.8903916725411986
+  },
+  "browserEvidence": {
+    "observedViewport": "1264px browser width",
+    "parentClientWidth": 1249,
+    "parentScrollWidth": 1249,
+    "iframeSize": "714.28125x720",
+    "frameClientWidth": 714,
+    "frameScrollWidth": 714,
+    "initialState": "stage 06 / 10",
+    "initialMemory": "3 remembered refusals",
+    "apertureRendered": true,
+    "detoursRendered": 3,
+    "buttonRefusalChangedState": true,
+    "buttonDeletionRestoredVisibleState": true,
+    "keyboardEnterChangedState": true,
+    "previewFurnitureHidden": true,
+    "rawBridgeObservedCanonicalPath": "/works/svg-2026-09-04/",
+    "consoleProbe": "empty buffer on corrected fresh-load probe",
+    "unresolved": [
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080",
+      "independent network-failure log",
+      "independent caption-free perceptual critique"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "handwriting-v004",
+  "seed": "mutine-handwriting-v004-lost-beat / 0x6d757469",
+  "visitorInput": true,
+  "stages": 9,
+  "routeCount": 13,
+  "passagePoints": 15,
+  "memoryWindow": 72,
+  "lostBeatCount": 13,
+  "memoryRule": "a remembered refusal opens a gap in later routes and displaces their re-entry",
+  "interactionRule": "lifting one prior refusal recomputes later pauses and route coordinates",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "measured": false,
+  "browserEvidence": {
+    "observedViewport": "1264x625",
+    "overflow": false,
+    "rawPreviewCanvasFillsViewport": true,
+    "canonicalIframeLoaded": true,
+    "canonicalTableauBeforeTimeline": true,
+    "interactiveControlsMinimumHeight": 44,
+    "interactionStateDeltaObserved": false,
+    "directInteractiveRawNavigation": "browser UTF-8 decoding failure",
+    "browserToolGuardrail": "idempotent/no-progress after bounded probe",
+    "unresolved": [
+      "interaction state change through browser probe",
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080",
+      "reduced-motion settling",
+      "independent network-failure log",
+      "caption-free perceptual comparison"
+    ]
+  },
+  "promotion": "candidate / held pending browser interaction, responsive matrix, and adversarial caption-free critique"
+}

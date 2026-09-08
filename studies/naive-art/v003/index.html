@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ead7a8">
+  <title>MUTINE — naive art v003</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-04"></script>
+</head>
+<body class="work-page interactive-preview" data-current="naive">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / naive art / v003</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">→</span><span aria-current="page">v003</span></nav>
+      <section class="work-surface" aria-label="Naive art daily work">
+        <div class="field-column">
+          <div class="field-wrap artwork-frame">
+            <svg id="field" viewBox="0 0 1000 700" role="img" aria-label="A refused front doorway faces a kept house whose remembered threshold moves to another wall and sends the route through its body" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space"></svg>
+            <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 09</span><span data-memory>0 retained thresholds</span></div>
+            <div class="field-controls" aria-label="Work gestures">
+              <button type="button" id="threshold-control" data-gesture="threshold">move the threshold</button>
+              <button type="button" id="undo-control" data-gesture="undo">undo last</button>
+              <button type="button" id="release-control" data-gesture="release">release sequence</button>
+            </div>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Nine seeded stages draw a blunt house twice: first with a front door, then with the remembered threshold carried around its walls.</p></div>
+          <div><span>critique</span><p>Keep the direction only if the route's entry, crossing, and return remain legible when the words are ignored.</p></div>
+          <div><span>progression</span><p>Move the threshold with the field or keyboard, undo it, then release the route and watch the opening travel again.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V003 / DAILY WORK</p><h1 id="work-title">The house keeps<br><i>its outside inside.</i></h1></div>
+        <p class="work-premise">A correction does not move the house this time. It moves the opening. The route crosses the wall, borrows the inside, and comes back out somewhere the house did not plan.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> This v003 changes the rule rather than adding a mark: retained thresholds migrate around the house and carry the route through its body. Promotion requires a caption-free observer to name the opening and return twice.</p></section>
+      <p class="work-loop">creation → critique → progression</p>
+    </main>
+    <footer class="studio-footer"><a href="/currents/naive-art/">naive art current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>
