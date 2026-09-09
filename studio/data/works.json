@@ -116,7 +116,7 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "browserEvidence": {
-          "status": "local headless browser matrix passed / held for independent perceptual review and deployment",
+          "status": "deployed browser matrix passed / held for independent perceptual review",
           "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-09/",
           "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v005/?preview=1&interaction=1 stayed raw, retained both preview classes, loaded the canvas, and remained overflow-free at 390px",
           "canonicalShellAndEmbeddedTableauRendered": true,
@@ -131,10 +131,18 @@
           "undoInteraction": "lift latest mark reduced memory 2 to 1 and restored registration angle 0.04681986048",
           "releaseInteraction": "release sequence returned to memory 0, registration angle 0, and unpaused stage 00",
           "canvasCaptures": "11 PNG captures written; every capture has non-uniform non-empty RGB pixels",
-          "evidenceFiles": "research/qa/proofs/portrait-v005-2026-09-09/results.json plus eleven PNG captures",
+          "evidenceFiles": "research/qa/proofs/portrait-v005-2026-09-09/results.json plus production-results.json and eleven PNG captures",
+          "production": {
+            "deploymentUrl": "https://autopoiesis-336qkjlzn-lairpa-hotmailfrs-projects.vercel.app",
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "commitSha": "be1896318d94449aad316884e3bc398e6250c0ef",
+            "worksJsonRecord": "stable alias /studio/data/works.json contained portrait-2026-09-09 with rawPath /studies/self-portrait/v005/",
+            "canonicalWork": "stable alias canonical page rendered the recorded title, one v005 iframe, and one canvas",
+            "journal": "stable alias rendered exactly one #journal-portrait-2026-09-09 node containing the recorded title",
+            "browserIssues": "empty console and issue arrays"
+          },
           "unresolved": [
-            "independent caption-free perceptual comparison with labels, readout, pivot guide, and contact guides hidden",
-            "public production URL, GitHub SHA, and deployed Journal verification"
+            "independent caption-free perceptual comparison with labels, readout, pivot guide, and contact guides hidden"
           ]
         }
       },
