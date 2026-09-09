@@ -12,23 +12,27 @@
   "reversibility": "lifting the latest refusal reconstructs the exact preceding frame",
   "replay": true,
   "renderer": "deterministic Canvas 2D",
-  "measured": false,
+  "measured": true,
   "browserEvidence": {
-    "status": "structural evidence only / held for browser and independent perceptual review",
+    "status": "deployed browser matrix passed / held for independent perceptual review",
+    "observedRoute": "https://autopoiesis-nine.vercel.app/works/typography-2026-09-09/",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": true,
+    "initialState": "stage 0 / 9, memory 0, borrowed routes 0",
+    "viewportMatrix": "10/10 deployed runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten top-level and embedded-frame runs",
+    "touchTargets": "all three interaction buttons measured 44 CSS px high at every embedded-frame run",
+    "initialConsoleProbe": "empty console message buffer; zero page errors",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses",
+    "pointerInteraction": "Place refusal changed memory 0 to 1, paused the frame, and produced 10 borrowed routes",
+    "keyboardInteraction": "Space on the focused canvas changed memory 1 to 2 and retained the changed route field",
+    "undoInteraction": "Lift latest reduced memory 2 to 1 and restored the exact post-button route signature",
+    "restoreInteraction": "Restore baseline after a second refusal cleared the visitor marker and returned the deterministic settled frame",
+    "rawPreview": "direct /studies/handwriting/v005/?preview=1&interaction=1 stayed raw, retained preview mode, canvas, and 390px overflow-free geometry",
+    "evidenceFiles": "research/qa/proofs/typography-v005/results.json plus twelve PNG captures",
     "unresolved": [
-      "headless rendered screenshot",
-      "320x568",
-      "390x844",
-      "768x1024",
-      "1280x800",
-      "1920x1080",
-      "reduced-motion settling",
-      "pointer state change in a browser",
-      "keyboard state change in a browser",
-      "console and first-party network log",
-      "caption-free perceptual comparison",
-      "public production URL, GitHub SHA, and deployed Journal verification"
+      "independent caption-free perceptual comparison with witnesses, dashed baseline, labels, and readout hidden"
     ]
   },
-  "promotion": "candidate / held pending browser interaction, responsive matrix, deployment, and adversarial caption-free critique"
+  "promotion": "candidate / held pending independent perceptual review"
 }

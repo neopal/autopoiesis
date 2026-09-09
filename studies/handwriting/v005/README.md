@@ -32,4 +32,6 @@ Hide the refusal witnesses and compare the settled field with and without one re
 
 The engine contract is covered by deterministic tests: multiple routes change, visitor coordinates are bounded, and lifting the latest refusal deep-equals the preceding frame. Structural checks cover tableau-first markup, keyboard/pointer bindings, reduced-motion handling, art-gate fields, the daily register, and the canonical work page.
 
-A browser viewport matrix, console/network probe, rendered local screenshot, independent caption-free comparison, GitHub synchronization, and production URL verification are release evidence still required by the studio gate. Until those are observed, this packet remains **candidate / held** and does not claim exhibition readiness.
+A deployed headless Chrome run now covers the canonical work route at 320×568, 390×844, 768×1024, 1280×800, and 1920×1080 in normal and reduced-motion modes. All ten top-level and embedded-frame runs are overflow-free; the interaction probe observed pointer placement, focused-canvas Space, lift reversibility, restore-baseline behavior, empty console/page-error buffers, and zero failed or bad network responses. Twelve captures and the machine-readable report are archived under `research/qa/proofs/typography-v005/`.
+
+The candidate remains **candidate / held** because the independent caption-free perceptual comparison is still unresolved: witnesses, dashed baseline, labels, and readout must be hidden to confirm that the borrowed downstream route family carries the rule on its own.
