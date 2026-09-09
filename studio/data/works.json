@@ -1832,6 +1832,85 @@
         "nextMutation": "Re-compose the wound until later strokes visibly detour without relying on the caption.",
         "lineage": "p5-brush-v001"
       }
+    },
+    {
+      "id": "webgpu-2026-09-09",
+      "currentId": "webgpu",
+      "date": "2026-09-09",
+      "title": "The crowd miscounts itself.",
+      "rawPath": "/studies/webgpu/v005/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-09",
+        "note": "v005 changes the WebGPU rule: an archived encounter inserts a rank slip into the crowd. Later bodies inherit row-specific phase error across the seam, so the wrong number keeps travelling; lifting the latest index restores the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Systems critic",
+          "argument": "The archive must be carried by the re-indexed routes and phase slip of later bodies, not by the index cross, counters, or GPU label. Hide all witnesses and ask whether a seam changes the order of the crowd."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find a crowd whose horizontal strata briefly lose their shared count at an encounter and keep the offset downstream. If it reads as luminous waves, the changed rule is not visible."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Indexing two places should create different downstream rank signatures, while lifting the latest index must return the exact prior agent field from both pointer and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Miscount is an attractive metaphor. Delete v005 if the seam only changes colour, if the routes remain interchangeable, or if the prose explains more order than the mass can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 13,
+        "agentCount": 480,
+        "memoryLimit": 5,
+        "finalMemory": 5,
+        "finalReindexedAgents": 309,
+        "finalIndexShear": 226.05846153140482,
+        "finalPhaseSlip": 294.07620742581696,
+        "finalAffectedAgents": [218, 174, 171, 105, 42],
+        "visitorMemoryAtStage4": 3,
+        "visitorAffectedAgents": 10,
+        "visitorReindexedAgents": 315,
+        "visitorIndexShear": 142.2263619814247,
+        "latestDeletionFieldDelta": 1.5959626167100431,
+        "visitorBoundedPoint": {"x": 0.92, "y": 0.08},
+        "memoryRule": "an archived encounter inserts a rank slip; later bodies carry a row-specific phase error across the seam",
+        "interactionRule": "a visitor index changes downstream rank coordinates and phase; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held for independent perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-09/",
+        "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v005/?preview=1&interaction=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": true,
+        "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "top-level innerWidth equaled clientWidth and scrollWidth at all ten runs; embedded study frames had no horizontal overflow; raw interactive and static previews both matched 390px",
+        "touchTargets": "all three raw preview buttons measured 44 CSS px high",
+        "initialConsoleProbe": "zero page console messages and zero page errors across all ten canonical runs; raw interactive and static probes also empty",
+        "networkProbe": "zero request failures and zero HTTP 400+ responses across all ten canonical runs; raw interactive and static probes also empty",
+        "pointerInteraction": "field click changed memory from 0 to 1 index and paused the tableau",
+        "keyboardInteraction": "Enter on the focused field changed memory from 0 to 1 index and paused the tableau",
+        "eraseInteraction": "Delete changed memory from 1 to 0 indexes and restored the exact prior blind canvas signature",
+        "releaseInteraction": "release census returned the readout to stage 01 / 13 and 0 indexes",
+        "rawBridge": "direct /studies/webgpu/v005/ redirected to /works/webgpu-2026-09-09/",
+        "staticPreview": "390x844 preview=1&static=1&blind=1 rendered a canvas, hid controls, and had no horizontal overflow",
+        "evidenceFiles": "research/qa/proofs/webgpu-v005/results.json plus twelve PNG captures",
+        "unresolved": [
+          "independent caption-free perceptual comparison with archive cuts, route threads, labels, and readout hidden"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with archive cuts, route threads, labels, and readout hidden; delete v005 if the rank seam cannot be identified in the crowd or if the witnesses carry the meaning alone.",
+        "lineage": "webgpu-2026-09-08"
+      }
     }
   ]
 }

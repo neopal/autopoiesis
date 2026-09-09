@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e1517">
+  <meta name="description" content="A WebGPU-ready crowd field where an archived encounter re-indexes the bodies that follow it.">
+  <title>MUTINE — The crowd miscounts itself.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-09"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="webgpu-v005-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v005 / index field</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="webgpu-v005-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v005</span></nav>
+      <section class="webgpu-v005-work" aria-label="WebGPU daily work">
+        <figure class="field-wrap artwork-frame">
+          <canvas id="field" role="img" aria-label="A luminous crowd crosses a dark field and changes rank after archived encounters" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace"></canvas>
+          <div class="field-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 indexed encounters</span><span data-renderer>CANVAS / GPU CHECKING</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="index">index this place</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release census</button>
+          </div>
+          <figcaption><span>WEBGPU / V005 / DAILY WORK</span><span>the crowd miscounts itself</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Thirteen deterministic states let 480 agents cross a mineral-dark register as signal, body, and dust strata.</p></div>
+          <div><span>changed rule</span><p>An archived encounter inserts a rank slip. Later bodies carry a row-specific phase error through the field instead of returning to the same count.</p></div>
+          <div><span>progression</span><p>Click the field or press Enter to index a place. Lift the latest index and the exact prior crowd returns.</p></div>
+        </aside>
+      </section>
+      <section class="webgpu-v005-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V005 / DAILY WORK</p><h1 id="work-title">The crowd<br><i>miscounts itself.</i></h1></div>
+        <p class="work-premise">A mass becomes an archive when a later body inherits the wrong number. The encounter is not a pin beside the crowd: it is the seam where a whole order slips and keeps travelling.</p>
+      </section>
+      <section class="webgpu-v005-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: lifting the latest index restores the exact prior agent field. Promotion still depends on whether the rank seam survives when archive witnesses and readouts are hidden.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=005a"></script>
+</body>
+</html>

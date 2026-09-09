@@ -1,0 +1,23 @@
+{
+  "id": "webgpu-v005",
+  "seed": "0x57475035",
+  "visitorInput": true,
+  "stages": 13,
+  "agentCount": 480,
+  "memoryLimit": 5,
+  "finalMemory": 5,
+  "finalReindexedAgents": 309,
+  "finalIndexShear": 226.05846153140482,
+  "finalPhaseSlip": 294.07620742581696,
+  "finalAffectedAgents": [218, 174, 171, 105, 42],
+  "visitorMemoryAtStage4": 3,
+  "visitorAffectedAgents": 10,
+  "visitorReindexedAgents": 315,
+  "visitorIndexShear": 142.2263619814247,
+  "latestDeletionFieldDelta": 1.5959626167100431,
+  "memoryRule": "an archived encounter inserts a rank slip; later bodies carry a row-specific phase error across the seam",
+  "interactionRule": "a visitor index changes downstream rank coordinates and phase; lifting it restores the exact prior field",
+  "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+  "replay": true,
+  "promotion": "candidate / held pending responsive matrix, network evidence, and caption-free perceptual critique"
+}
