@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0c16">
+  <title>MUTINE — The gap writes through its neighbours.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=006">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-10"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v006</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v006</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes that disappear through shared remembered gaps and re-emerge out of phase" aria-keyshortcuts="Enter Space R"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 006</span><span>CONTAGIOUS COUNTERFORM</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v006-counterform</span><span>refusal &gt; aperture &gt; after-route</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to open a gap. Nearby routes must share its mouth, pass through the same absence, and leave with a changed rhythm. Lift the latest gap to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-gap" type="button">place gap</button>
+          <button id="lift-gap" type="button">lift latest</button>
+          <button id="release-sequence" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The sentence is passing through its remembered openings.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v006</p>
+        <h1 id="work-title">The gap writes through<br><i>its neighbours.</i></h1>
+        <p class="lede">A refusal no longer stays inside one line. It opens a counterform that nearby routes approach together, vanish through together, and carry forward in their rhythm.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v006</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered refusal becomes a counterform aperture. Nearby later routes converge on the same mouth, disappear across one shared interval, and re-emerge with a phase and exit shift before returning to their lanes.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space places one bounded gap. The route points and missing spans are recomputed from memory; lifting the latest gap rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the gap witnesses, labels, and readout. If the routes do not still make one contagious opening with a shared exit rhythm, the counterform is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v006 if a caption-free comparison cannot locate the common disappearance and changed after-route in the handwriting itself, or if only the accent witness carries the meaning.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/typography-2026-09-09/">previous daily work</a><a href="/journal/#journal-typography-2026-09-10">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=006"></script>
+</body>
+</html>

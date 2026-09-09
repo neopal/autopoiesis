@@ -18,7 +18,7 @@ const catalog = buildCatalog(
 
 test('works are explicit daily records with canonical routes', () => {
   assert.equal(worksData.schema, 'mutine-works/v1');
-  assert.equal(catalog.works.length, 34);
+  assert.equal(catalog.works.length, 35);
   assert.ok(catalog.works.every((work) => /^\d{4}-\d{2}-\d{2}$/.test(work.date)));
   assert.ok(catalog.works.every((work) => work.id === `${work.currentId}-${work.date}`));
   assert.ok(catalog.works.every((work) => work.route === `/works/${work.id}/`));

@@ -2,6 +2,78 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-09-10",
+      "currentId": "typography",
+      "date": "2026-09-10",
+      "title": "The gap writes through its neighbours.",
+      "rawPath": "/studies/handwriting/v006/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-10",
+        "note": "v006 changes the handwriting rule: a remembered refusal becomes a contagious counterform aperture. Nearby later routes converge on one mouth, disappear through the same interval, and re-emerge with a shared phase and exit shift before returning to their lanes; lifting the latest gap reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by several routes sharing one disappearance and one exit rhythm; the gap ring or coral witness cannot do the explanatory work."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses and labels hidden, a viewer should see a family of handwriting routes narrow, vanish, and re-emerge together. If it reads as a decorative missing patch, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Placing a gap must alter route points and missing spans, not only a counter. Lifting the latest gap must reproduce the exact preceding field from pointer, button, and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "The contagious gap is an easy metaphor. Delete v006 if the after-route is indistinguishable from a generic wave field, if only one route bends, or if the copy explains more absence than the marks can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x6d757469",
+        "stages": 11,
+        "routeCount": 15,
+        "pointsPerRoute": 28,
+        "primitiveBudget": 31,
+        "memoryWindow": 6,
+        "memoryRule": "a remembered refusal becomes a contagious counterform aperture shared by nearby later routes",
+        "interactionRule": "a visitor gap changes later route points and missing spans; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local browser matrix passed / held for production readback and independent perceptual review",
+          "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-10/",
+          "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v006/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": true,
+          "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer innerWidth equaled clientWidth and scrollWidth on all ten canonical runs; embedded study frames also had clientWidth equal to scrollWidth; raw 390px preview matched",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px",
+          "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical runs and raw/blind probes",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical runs and raw/blind probes",
+          "pointerInteraction": "raw click changed memory from 0 to 1, paused the frame, and produced 12 shared structural routes",
+          "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and retained the changed route field",
+          "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact post-pointer route signature",
+          "releaseInteraction": "release sequence returned to stage 0, memory 0, and unpaused the sequence",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture hidden and no overflow",
+          "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and blind 390x844 captures",
+          "evidenceFiles": "research/qa/proofs/typography-v006-2026-09-10/results.json plus twelve PNG captures",
+          "unresolved": [
+            "production deployment readback",
+            "independent caption-free perceptual comparison with gap witnesses, labels, and readout hidden"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with gap witnesses, labels, and readout hidden; delete v006 if the common disappearance and changed after-route cannot be identified in the handwriting itself.",
+        "lineage": "typography-2026-09-09"
+      }
+    },
+    {
       "id": "svg-2026-09-09",
       "currentId": "svg",
       "date": "2026-09-09",

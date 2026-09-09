@@ -1,0 +1,40 @@
+{
+  "id": "handwriting-v006",
+  "seed": "mutine-handwriting-v006-counterform / 0x6d757469",
+  "visitorInput": true,
+  "stages": 11,
+  "routeCount": 15,
+  "pointsPerRoute": 28,
+  "primitiveBudget": 31,
+  "memoryWindow": 6,
+  "counterformRule": true,
+  "memoryRule": "a remembered refusal becomes a contagious counterform aperture shared by nearby later routes",
+  "interactionRule": "a visitor gap changes later route points and missing spans; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "measured": true,
+  "browserEvidence": {
+    "status": "local browser matrix passed / held for production readback and independent perceptual review",
+    "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-10/",
+    "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v006/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": true,
+    "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer innerWidth equaled clientWidth and scrollWidth on all ten canonical runs; embedded study frames also had clientWidth equal to scrollWidth; raw 390px preview matched",
+    "touchTargets": "all three raw interaction buttons measured 44 CSS px",
+    "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical runs and raw/blind probes",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical runs and raw/blind probes",
+    "pointerInteraction": "raw click changed memory from 0 to 1, paused the frame, and produced 12 shared structural routes",
+    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and retained the changed route field",
+    "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact post-pointer route signature",
+    "releaseInteraction": "release sequence returned to stage 0, memory 0, and unpaused the sequence",
+    "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture hidden and no overflow",
+    "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and blind 390x844 captures",
+    "evidenceFiles": "research/qa/proofs/typography-v006-2026-09-10/results.json plus twelve PNG captures",
+    "unresolved": [
+      "production deployment readback",
+      "independent caption-free perceptual comparison with gap witnesses, labels, and readout hidden"
+    ]
+  },
+  "promotion": "candidate / held pending production and independent perceptual review"
+}
