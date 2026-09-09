@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
@@ -55,4 +55,8 @@ test('active surfaces do not depend on remote font imports', async () => {
   for (const path of paths) {
     assert.doesNotMatch(await read(path), /fonts\.(?:googleapis|gstatic)\.com/);
   }
+});
+
+test('the root route has a favicon for direct data and document probes', async () => {
+  await access(new URL('../favicon.ico', import.meta.url));
 });
