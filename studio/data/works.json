@@ -2,6 +2,82 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-09",
+      "currentId": "svg",
+      "date": "2026-09-09",
+      "title": "The animal repeats a step late.",
+      "rawPath": "/studies/pure-svg/v007/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-09",
+        "note": "v007 changes the SVG rule: a remembered refusal becomes a delayed afterimage. Later contour points borrow an earlier rhythm one step late, and the feet inherit the same delayed landing; erasing the latest afterimage reconstructs the preceding body and routes exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The refusal must be carried by the downstream contour and shifted feet borrowing an earlier rhythm, not by the cyan echo point or thread drawn over a stable body."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should identify one animal whose later back and gait repeat an earlier cadence one step late; if the afterimage reads as a decorative target, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A visitor afterimage must change later contour and route coordinates, while erasing it must restore the exact prior state from both pointer and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delay is an easy metaphor. Delete v007 if hiding the witnesses leaves only a generic bulge, if the feet do not inherit the same lag, or if the prose explains more recurrence than the SVG body can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 11,
+        "primitiveBudget": 17,
+        "memoryWindow": 4,
+        "routeCount": 3,
+        "latestAnchorAtStage9": 10,
+        "latestLagAtStage9": 3,
+        "contourDeltaAfterLatestLift": 0.7012833048821006,
+        "routeDeltaAfterLatestLift": 2.064712768604503,
+        "echoedRoutesAtStage9": 3,
+        "visitorBoundedPoint": {"x": 0.96, "y": 0.12},
+        "visitorMemoryAtStage5": 4,
+        "memoryRule": "a remembered refusal becomes a delayed afterimage; downstream contour and later feet repeat an earlier rhythm one step late",
+        "interactionRule": "a visitor afterimage changes downstream contour and route coordinates; erasing it restores the exact prior body",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "status": "local browser matrix passed / held for production and independent perceptual review",
+          "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-09/",
+          "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v007/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": true,
+          "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "innerWidth equaled clientWidth and scrollWidth on all ten top-level runs; each embedded study frame had clientWidth equal to scrollWidth",
+          "touchTargets": "all three interaction buttons measured 44 CSS px high at every embedded-frame run",
+          "initialConsoleProbe": "empty console message buffer and zero page errors across all ten matrix runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten matrix runs",
+          "pointerInteraction": "a field click changed memory from 0 to 1 and produced 3 echoed routes",
+          "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 and retained 3 echoed routes",
+          "eraseInteraction": "erase latest changed memory from 2 to 1 and restored the exact prior structural SVG signature",
+          "releaseInteraction": "release the body returned the readout to 0 remembered afterimages",
+          "staticPreview": "reduced-motion static preview at 390x844 rendered an SVG with no controls and no overflow",
+          "evidenceFiles": "research/qa/proofs/svg-v007-2026-09-09/results.json plus twelve PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with afterimage witnesses, echo threads, labels, and readout hidden",
+            "production deployment and deployed Journal verification"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with afterimage witnesses, echo threads, labels, and readout hidden; delete v007 if the delayed contour and shared foot cadence cannot be identified or if the witness carries the meaning alone.",
+        "lineage": "svg-2026-09-08"
+      }
+    },
+    {
       "id": "typography-2026-09-09",
       "currentId": "typography",
       "date": "2026-09-09",

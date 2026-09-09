@@ -1,0 +1,33 @@
+{
+  "visitorInput": true,
+  "stages": 11,
+  "primitiveBudget": 17,
+  "memoryWindow": 4,
+  "routeCount": 3,
+  "memoryRule": "a remembered refusal becomes a delayed afterimage; downstream contour and later feet repeat an earlier rhythm one step late",
+  "interactionRule": "a visitor afterimage changes downstream contour and route coordinates; erasing it restores the exact prior body",
+  "replay": true,
+  "renderer": "deterministic SVG path geometry",
+  "browserEvidence": {
+    "status": "local browser matrix passed / held for production and independent perceptual review",
+    "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-09/",
+    "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v007/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": true,
+    "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "innerWidth equaled clientWidth and scrollWidth on all ten top-level runs; each embedded study frame had clientWidth equal to scrollWidth",
+    "touchTargets": "all three interaction buttons measured 44 CSS px high at every embedded-frame run",
+    "initialConsoleProbe": "empty console message buffer and zero page errors across all ten matrix runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten matrix runs",
+    "pointerInteraction": "a field click changed memory from 0 to 1 and produced 3 echoed routes",
+    "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 and retained 3 echoed routes",
+    "eraseInteraction": "erase latest changed memory from 2 to 1 and restored the exact prior structural SVG signature",
+    "releaseInteraction": "release the body returned the readout to 0 remembered afterimages",
+    "staticPreview": "reduced-motion static preview at 390x844 rendered an SVG with no controls and no overflow",
+    "evidenceFiles": "research/qa/proofs/svg-v007-2026-09-09/results.json plus twelve PNG captures",
+    "unresolved": [
+      "independent caption-free perceptual comparison with afterimage witnesses, echo threads, labels, and readout hidden",
+      "production deployment and deployed Journal verification"
+    ]
+  }
+}
