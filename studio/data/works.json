@@ -2,6 +2,70 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-09-09",
+      "currentId": "typography",
+      "date": "2026-09-09",
+      "title": "The sentence borrows its neighbour.",
+      "rawPath": "/studies/handwriting/v005/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-09",
+        "note": "v005 changes the handwriting rule: a remembered refusal becomes a borrowed baseline. Nearby later routes converge toward its local height, share a phase handoff, and peel away together; lifting the latest refusal reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by later routes converging and sharing phase, not by the coral witness or the dashed baseline drawn over stable lines."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses and labels hidden, a viewer should still see a family of lines briefly writing from one wrong height before they peel away. If it reads as parallel decoration, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Placing a refusal must alter several later route coordinates; lifting that latest refusal must reproduce the exact previous field from pointer, button, and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Borrowed baseline is an easy social metaphor. Delete v005 if the action only changes a marker, if colour carries the meaning, or if the route cluster cannot be distinguished from a generic wave field."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 9,
+        "routeCount": 12,
+        "passagePoints": 18,
+        "memoryWindow": 48,
+        "finalMemory": 11,
+        "finalBorrowedRoutes": 12,
+        "visitorBorrowedRoutes": 11,
+        "visitorRouteDelta": 4.577381,
+        "memoryRule": "a remembered refusal becomes a borrowed baseline shared by nearby later routes",
+        "interactionRule": "a visitor refusal recomputes later route coordinates and phase before rejoining",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "structural evidence only / held for browser and independent perceptual review",
+          "engineRestoreExact": true,
+          "unresolved": [
+            "headless rendered screenshot",
+            "responsive five-viewport matrix",
+            "reduced-motion browser run",
+            "browser pointer and keyboard state change",
+            "console and first-party network log",
+            "caption-free perceptual comparison",
+            "public production URL, GitHub SHA, and deployed Journal verification"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with refusal witnesses, dashed baseline, labels, and readout hidden; delete v005 if several later routes do not visibly share the borrowed line or if the witness carries the meaning alone.",
+        "lineage": "typography-2026-09-04"
+      }
+    },
+    {
       "id": "webgpu-2026-09-08",
       "currentId": "webgpu",
       "date": "2026-09-08",
