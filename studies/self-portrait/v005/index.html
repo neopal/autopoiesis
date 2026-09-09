@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1014">
+  <title>MUTINE — the face misregisters its decision</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-09"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v005-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v005</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v005-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v005</span></nav>
+      <section class="v005-surface artwork-frame" aria-label="Self portrait registration field">
+        <div class="v005-field-wrap">
+          <canvas id="field" role="img" aria-label="An abstract self portrait printed in two slightly misregistered plates, with contact bridges showing where a decision moved the outline" tabindex="0" aria-keyshortcuts="Enter Space R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 11</span><span data-memory>0 decisions carried</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="decision-control" data-gesture="decision">mark a decision</button>
+            <button type="button" id="undo-control" data-gesture="undo">lift latest mark</button>
+            <button type="button" id="release-control" data-gesture="release">release sequence</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Eleven seeded states print one body twice. The second plate drifts only where remembered decisions have accumulated.</p></div>
+          <div><span>changed rule</span><p>A decision becomes registration error: a rotated, offset plate keeps the first contour and changes the later one.</p></div>
+          <div><span>progression</span><p>Touch the field or press Enter. Lift the latest mark to compare the exact field before the misregistration.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V005 / DAILY WORK</p><h1 id="work-title">The face<br><i>misregisters its decision.</i></h1></div>
+        <p class="work-premise">A self-image made like a two-plate print: the first outline stays put while each decision turns the later impression around a place it can no longer align.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a decision changes the registration plate, aperture, and contact bridges; lifting it restores the exact prior field. Promotion still depends on whether the doubled contour reads without its labels or readout.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>stay out of register?</i></h2>
+        <div class="note-copy"><p>The field stores no browser history. Its memory is rebuilt from a fixed seed and bounded to four decisions. A visitor gesture changes geometry in the second plate, not just its colour, and can be reversed for comparison.</p><dl><div><dt>seed</dt><dd>0x53505635 / replayable</dd></div><div><dt>input</dt><dd>pointer, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>latest decision leaves the registered plate or contacts unchanged</dd></div><div><dt>deletion</dt><dd>delete v005 if the doubled contour is only a chromatic effect</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

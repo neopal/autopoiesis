@@ -74,6 +74,77 @@
       }
     },
     {
+      "id": "portrait-2026-09-09",
+      "currentId": "portrait",
+      "date": "2026-09-09",
+      "title": "The face misregisters its decision.",
+      "rawPath": "/studies/self-portrait/v005/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-09",
+        "note": "v005 changes the portrait rule: a remembered decision becomes a second registration plate. The original contour stays in place while a later plate rotates and offsets around the decision point; contact bridges expose the loss of alignment, and lifting the latest decision rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The decision must be carried by the registered contour, displaced aperture, and contact bridges, not by a coral marker or a caption calling two strokes a memory."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels and readout hidden, a viewer should find one body printed twice: a stable first outline and a later plate that loses alignment around a shared pivot. If it reads as a colour effect, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded decision, while lifting it must restore the exact prior plate, aperture, bridges, and pivot from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Misregistration is an easy print metaphor. Delete v005 if the doubled edge cannot be identified without colour, if the bridges are decorative, or if the prose explains more displacement than the field can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "stages": 11,
+        "primitiveBudget": 38,
+        "memoryLimit": 4,
+        "contourPoints": 42,
+        "contactRouteCount": 6,
+        "contactRoutePoints": 6,
+        "memoryRule": "a remembered decision rotates and offsets a later registration plate around its pivot",
+        "interactionRule": "visitor placement changes the registered contour, aperture, and contact bridges; lifting restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local headless browser matrix passed / held for independent perceptual review and deployment",
+          "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-09/",
+          "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v005/?preview=1&interaction=1 stayed raw, retained both preview classes, loaded the canvas, and remained overflow-free at 390px",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": true,
+          "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten top-level and embedded-frame runs",
+          "touchTargets": "all three raw-preview interaction buttons measured 44 CSS px high at 390x844",
+          "initialConsoleProbe": "empty Playwright console-event buffer across ten matrix runs; zero page errors",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across the ten matrix runs",
+          "pointerInteraction": "mark a decision changed memory 0 to 1, changed registration angle 0 to 0.04681986048, and paused the frame",
+          "keyboardInteraction": "Enter changed memory 1 to 2 and registration angle to 0.10404413440000002",
+          "undoInteraction": "lift latest mark reduced memory 2 to 1 and restored registration angle 0.04681986048",
+          "releaseInteraction": "release sequence returned to memory 0, registration angle 0, and unpaused stage 00",
+          "canvasCaptures": "11 PNG captures written; every capture has non-uniform non-empty RGB pixels",
+          "evidenceFiles": "research/qa/proofs/portrait-v005-2026-09-09/results.json plus eleven PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with labels, readout, pivot guide, and contact guides hidden",
+            "public production URL, GitHub SHA, and deployed Journal verification"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with the labels, readout, pivot guide, and contact guides hidden; delete v005 if the doubled contour and displaced aperture do not remain legible, or if the effect is only chromatic.",
+        "lineage": "portrait-2026-09-08"
+      }
+    },
+    {
       "id": "webgpu-2026-09-08",
       "currentId": "webgpu",
       "date": "2026-09-08",

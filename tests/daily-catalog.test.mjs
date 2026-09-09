@@ -6,6 +6,7 @@ const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 const expectedDailyIds = [
   'typography-2026-09-09',
+  'portrait-2026-09-09',
   'webgpu-2026-09-08',
   'naive-2026-09-08',
   'brush-2026-09-08',
@@ -37,13 +38,13 @@ const expectedDailyIds = [
   'brush-2026-08-31'
 ];
 
-test('daily work register preserves the thirty recorded dates without inventing history', async () => {
+test('daily work register preserves the recorded dates without inventing history', async () => {
   const data = JSON.parse(await read('studio/data/works.json'));
 
   assert.equal(data.schema, 'mutine-works/v1');
   assert.deepEqual(data.works.map((work) => work.id), expectedDailyIds);
   assert.deepEqual(data.works.map((work) => work.date), [
-    '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
+    '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
     '2026-08-28', '2026-08-28', '2026-08-31', '2026-08-31',
     '2026-08-31', '2026-08-31', '2026-08-31'
   ]);
@@ -124,7 +125,7 @@ test('the catalogue groups daily works by current in reverse chronological order
   const catalog = buildCatalog(studio, works);
 
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 30);
+  assert.equal(catalog.works.length, 31);
   for (const current of catalog.currents) {
     const dates = current.works.map((work) => work.date);
     assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
@@ -146,6 +147,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'brush-2026-08-28'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'portrait').works.map((work) => work.id), [
+    'portrait-2026-09-09',
     'portrait-2026-09-08',
     'portrait-2026-09-04',
     'portrait-2026-09-03',
