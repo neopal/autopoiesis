@@ -236,6 +236,83 @@
         "lineage": "portrait-2026-09-08"
       }
     },
+{
+      "id": "brush-2026-09-09",
+      "currentId": "brush",
+      "date": "2026-09-09",
+      "title": "The brush drinks the wound.",
+      "rawPath": "/studies/p5-brush/v007/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-09",
+        "note": "v007 changes the material rule: a remembered removal becomes capillary draw. Later wet strokes gather toward the dry point, then release a shared wake downstream with changed wetting density and width; lifting the latest seam rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The capillary must be carried by a shared inward gather, a changed downstream wake, and pressure-sensitive wetting; the dry seam witness cannot do the explanatory work alone."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With notation and seam witnesses hidden, a caption-free viewer should find several wet strokes drawn toward one point and then leaving together on a shifted course. If only a local kink remains, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must create the same bounded seam, while lifting the latest seam must restore the exact prior routes, wake values, and wetting values."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Capillary is an easy metaphor. Delete v007 if the shared release is indistinguishable from a generic wobbly brush, if each route wakes independently, or if the prose explains more memory than the marks visibly carry."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x42525537",
+        "stages": 11,
+        "strokesPerStage": 8,
+        "pointsPerStroke": 56,
+        "primitiveBudget": 31,
+        "memoryWindow": 6,
+        "settledMemory": 6,
+        "settledDeltas": 6,
+        "absorptionStrokes": 8,
+        "releaseStrokes": 8,
+        "maxAbsorptionDelta": 0.08985975739539008,
+        "maxWakeShift": 0.06960983859631205,
+        "routeDifferenceAgainstEmptyMemory": 32.99855516466877,
+        "memoryRule": "a remembered removal becomes capillary draw and a shared released wake",
+        "interactionRule": "a visitor seam changes downstream route and pigment geometry; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local browser matrix passed / held for independent perceptual review",
+          "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-09/",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": true,
+          "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "innerWidth equaled clientWidth and document scrollWidth on all ten top-level runs; embedded study clientWidth equaled scrollWidth; the mobile timeline is a bounded scrollable navigation rail with no page overflow",
+          "touchTargets": "all three embedded interaction buttons measured 44 CSS px high at every matrix run",
+          "initialConsoleProbe": "empty console message buffer and zero page errors across all ten local canonical runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical runs",
+          "pointerInteraction": "MAKE A SEAM changed memory from 0 to 1 and paused the tableau",
+          "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2",
+          "liftInteraction": "LIFT LATEST changed memory from 2 to 1, reported latest seam lifted, and restored the exact prior artwork-region pixel signature",
+          "releaseInteraction": "RELEASE SEQUENCE returned memory to 0",
+          "rawPreview": "direct /studies/p5-brush/v007/?preview=1&interaction=1 at 390x844 retained preview and interactive classes, hid editorial furniture, rendered the canvas and 3 controls, and had no overflow",
+          "evidenceFiles": "research/qa/proofs/brush-v007-2026-09-09/results.json plus ten canonical and one raw-preview PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with seam witnesses, notation, labels, and readout hidden",
+            "production deployment readback"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with seam witnesses, notation, and readout hidden; delete v007 if a shared gather followed by a downstream wake cannot be identified in the routes, or if the seam witness carries the meaning alone.",
+        "lineage": "brush-2026-09-08"
+      }
+    },
     {
       "id": "webgpu-2026-09-08",
       "currentId": "webgpu",

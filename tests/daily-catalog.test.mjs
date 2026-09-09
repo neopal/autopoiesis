@@ -8,6 +8,7 @@ const expectedDailyIds = [
   'svg-2026-09-09',
   'typography-2026-09-09',
   'portrait-2026-09-09',
+  'brush-2026-09-09',
   'webgpu-2026-09-08',
   'naive-2026-09-08',
   'brush-2026-09-08',
@@ -45,7 +46,7 @@ test('daily work register preserves the recorded dates without inventing history
   assert.equal(data.schema, 'mutine-works/v1');
   assert.deepEqual(data.works.map((work) => work.id), expectedDailyIds);
   assert.deepEqual(data.works.map((work) => work.date), [
-    '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
+    '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
     '2026-08-28', '2026-08-28', '2026-08-31', '2026-08-31',
     '2026-08-31', '2026-08-31', '2026-08-31'
   ]);
@@ -126,7 +127,7 @@ test('the catalogue groups daily works by current in reverse chronological order
   const catalog = buildCatalog(studio, works);
 
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 32);
+  assert.equal(catalog.works.length, 33);
   for (const current of catalog.currents) {
     const dates = current.works.map((work) => work.date);
     assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
@@ -140,6 +141,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'typography-2026-08-28'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'brush').works.map((work) => work.id), [
+    'brush-2026-09-09',
     'brush-2026-09-08',
     'brush-2026-09-07',
     'brush-2026-09-04',

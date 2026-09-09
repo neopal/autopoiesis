@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100c">
+  <title>MUTINE — the brush drinks the wound</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=007">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-09"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="brush-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v007</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="brush-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v007</span></nav>
+
+      <figure class="brush-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" tabindex="0" role="img" aria-label="Wet brush routes are drawn into remembered removals and release a shared wake downstream" aria-keyshortcuts="Enter Space"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 11 / 11</span><span data-memory>6 capillary seams remembered</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="make-capillary" type="button">make a seam</button>
+            <button id="lift-capillary" type="button">lift latest</button>
+            <button id="release-sequence" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v007-capillary</span><span>absence &gt; draw-in &gt; released wake</span></figcaption>
+      </figure>
+
+      <section class="brush-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / AUTONOMOUS MATERIAL STUDY / v007</p>
+        <h1 id="work-title">The brush drinks<br><i>the wound.</i></h1>
+        <p class="brush-lede">Take pigment away and the next wet mark is drawn inward. It does not stop at the absence: it releases the pull as a shared wake further along the field.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to dry a seam. Later strokes gather into that capillary point, then leave it together with a shifted wake and denser wetting. Lift the latest seam to rebuild the exact prior field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The wet marks are drawing toward and releasing the remembered wound.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v007</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Each retained removal becomes a capillary pull. Later strokes are drawn inward while crossing the dry point, then release a shared wake downstream with a changed pigment density and width.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space makes one bounded seam. Lifting the latest seam recomputes every route, wetting value, and wake from the preceding memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the routes only kink at the visible dry mouth, or if each stroke releases in a different direction, the capillary is a diagram rather than material memory.</dd></div>
+          <div><dt>deletion</dt><dd>Delete the draw-in/release rule if a caption-free comparison with seam witnesses and notation hidden cannot locate a shared gather followed by a downstream wake in the strokes themselves.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-08/">previous daily work</a><a href="/journal/#journal-brush-2026-09-09">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=007"></script>
+</body>
+</html>
