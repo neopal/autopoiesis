@@ -247,7 +247,7 @@ function pointerPoint(event) {
 
 function makeCapillary(point) {
   if (staticPreview) return;
-  const base = interactionFrame ?? timeline[activeStage];
+  const base = interactionFrame ?? (staticPreview || reducedMotion ? timeline.at(-1) : timeline[activeStage]);
   interactionFrame = applyRemoval(base, point);
   paused = true;
   stateReadout.textContent = 'The wet marks draw in, then release a shared wake downstream.';
@@ -256,7 +256,7 @@ function makeCapillary(point) {
 
 function liftLatest() {
   if (staticPreview) return;
-  const base = interactionFrame ?? timeline[activeStage];
+  const base = interactionFrame ?? (staticPreview || reducedMotion ? timeline.at(-1) : timeline[activeStage]);
   interactionFrame = removeLatestRemoval(base);
   paused = true;
   stateReadout.textContent = 'The latest seam is lifted; draw-in and wake are rebuilt.';

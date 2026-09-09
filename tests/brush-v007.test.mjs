@@ -67,6 +67,7 @@ test('brush v007 runtime binds input to structural capillary memory and reduced-
   const sketch = await read('studies/p5-brush/v007/sketch.js');
   const style = await read('studies/p5-brush/v007/style.css');
 
+  assert.match(sketch, /const base = interactionFrame \?\? \(staticPreview \|\| reducedMotion \? timeline\.at\(-1\) : timeline\[activeStage\]\);/);
   assert.match(sketch, /getContext\('2d',\s*\{\s*willReadFrequently:\s*true\s*\}\)/);
   assert.match(sketch, /pointerdown/);
   assert.match(sketch, /keydown/);
