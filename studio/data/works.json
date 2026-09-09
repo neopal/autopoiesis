@@ -49,25 +49,33 @@
         "replay": true,
         "renderer": "deterministic SVG path geometry",
         "browserEvidence": {
-          "status": "local browser matrix passed / held for production and independent perceptual review",
-          "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-09/",
-          "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v007/?preview=1&interaction=1",
+          "status": "local matrix and production route checks passed / held for independent perceptual review",
+          "observedRoute": "https://autopoiesis-nine.vercel.app/works/svg-2026-09-09/",
+          "rawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v007/?preview=1&interaction=1",
           "canonicalShellAndEmbeddedTableauRendered": true,
           "tableauFirst": true,
           "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
-          "overflow": "innerWidth equaled clientWidth and scrollWidth on all ten top-level runs; each embedded study frame had clientWidth equal to scrollWidth",
-          "touchTargets": "all three interaction buttons measured 44 CSS px high at every embedded-frame run",
-          "initialConsoleProbe": "empty console message buffer and zero page errors across all ten matrix runs",
-          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten matrix runs",
-          "pointerInteraction": "a field click changed memory from 0 to 1 and produced 3 echoed routes",
-          "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 and retained 3 echoed routes",
-          "eraseInteraction": "erase latest changed memory from 2 to 1 and restored the exact prior structural SVG signature",
-          "releaseInteraction": "release the body returned the readout to 0 remembered afterimages",
-          "staticPreview": "reduced-motion static preview at 390x844 rendered an SVG with no controls and no overflow",
-          "evidenceFiles": "research/qa/proofs/svg-v007-2026-09-09/results.json plus twelve PNG captures",
+          "overflow": "local matrix innerWidth equaled clientWidth and scrollWidth on all ten top-level runs; each embedded study frame had clientWidth equal to scrollWidth; production 390px raw preview also matched",
+          "touchTargets": "all three interaction buttons measured 44 CSS px high at every local embedded-frame run",
+          "initialConsoleProbe": "empty console message buffer and zero page errors across all ten local matrix runs and production canonical, Journal, and raw probes",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local matrix runs and production canonical, Journal, and raw probes",
+          "pointerInteraction": "local field click changed memory from 0 to 1 and produced 3 echoed routes; production raw button interaction changed memory from 0 to 1 and produced 3 echoed routes",
+          "keyboardInteraction": "local Enter on the focused SVG changed memory from 1 to 2 and retained 3 echoed routes",
+          "eraseInteraction": "local erase latest changed memory from 2 to 1 and restored the exact prior structural SVG signature",
+          "releaseInteraction": "local release the body returned the readout to 0 remembered afterimages",
+          "staticPreview": "local reduced-motion static preview at 390x844 rendered an SVG with no controls and no overflow",
+          "production": {
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "deploymentUrl": "https://autopoiesis-7an26zd37-lairpa-hotmailfrs-projects.vercel.app",
+            "worksJsonRecord": "HTTP 200 JSON contained svg-2026-09-09, its title, rawPath, and Journal anchor",
+            "canonicalWork": "HTTP 200 and rendered read contained the recorded id/title, one v007 iframe, and one SVG",
+            "journal": "HTTP 200 and rendered Journal contained exactly one #journal-svg-2026-09-09 node containing the recorded title",
+            "rawPreview": "HTTP 200 and rendered preview retained preview and interactive classes, SVG field, 390px overflow-free geometry, and 3 echoed routes after interaction",
+            "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays"
+          },
+          "evidenceFiles": "research/qa/proofs/svg-v007-2026-09-09/results.json plus twelve local PNG captures",
           "unresolved": [
-            "independent caption-free perceptual comparison with afterimage witnesses, echo threads, labels, and readout hidden",
-            "production deployment and deployed Journal verification"
+            "independent caption-free perceptual comparison with afterimage witnesses, echo threads, labels, and readout hidden"
           ]
         }
       },
