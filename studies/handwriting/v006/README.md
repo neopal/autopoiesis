@@ -21,4 +21,4 @@ A refusal should become a visible counterform rather than a private mark. If a s
 
 ## Evidence status
 
-The artifact remains **candidate / held** until browser-visible interaction, reduced-motion behavior, five-viewport responsive probes, production readback, and an independent caption-free perceptual comparison are observed. A passing runtime check is not a perceptual approval.
+The artifact remains **candidate / held** after browser-visible interaction, reduced-motion behavior, five-viewport responsive probes, and production readback passed. An independent caption-free perceptual comparison is still required; a passing runtime check is not a perceptual approval.

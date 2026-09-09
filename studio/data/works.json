@@ -44,9 +44,11 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "browserEvidence": {
-          "status": "local browser matrix passed / held for production readback and independent perceptual review",
+          "status": "local and production browser readback passed / held for independent perceptual review",
           "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-10/",
           "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v006/?preview=1&interaction=1",
+          "productionAlias": "https://autopoiesis-nine.vercel.app",
+          "productionCanonical": "https://autopoiesis-nine.vercel.app/works/typography-2026-09-10/",
           "canonicalShellAndEmbeddedTableauRendered": true,
           "tableauFirst": true,
           "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
@@ -60,9 +62,9 @@
           "releaseInteraction": "release sequence returned to stage 0, memory 0, and unpaused the sequence",
           "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture hidden and no overflow",
           "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and blind 390x844 captures",
-          "evidenceFiles": "research/qa/proofs/typography-v006-2026-09-10/results.json plus twelve PNG captures",
+          "productionReadback": "production Playwright probe passed at 390x844; record, Journal anchor/title, canonical v006 canvas, preview interaction, and zero console/network/page errors observed; /favicon.ico returned HTTP 200",
+          "evidenceFiles": "research/qa/proofs/typography-v006-2026-09-10/results.json, production-results.json, two probes, plus twelve PNG captures",
           "unresolved": [
-            "production deployment readback",
             "independent caption-free perceptual comparison with gap witnesses, labels, and readout hidden"
           ]
         }
