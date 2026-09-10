@@ -35,6 +35,16 @@
     "staticPreview": "reduced-motion static preview at 390x844 hid controls, readout, relay witnesses, handoff threads, relay stitch, and relay arc with no overflow",
     "screenshots": "13 PNG captures: ten normal/reduced canonical matrix runs, initial/final 390x844 interaction, and reduced-motion static 390x844",
     "evidenceFiles": "research/qa/proofs/svg-v008-2026-09-10/probe.mjs and results.json plus thirteen PNG captures",
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "manualDeploymentUrl": null,
+      "manualDeployment": "npx vercel --prod --yes --scope lairpa-hotmailfrs-projects was blocked with scope-not-accessible",
+      "worksJsonRecord": "HTTP 200 stable alias JSON contained svg-2026-09-10, its title, rawPath, and Journal anchor",
+      "canonicalWork": "HTTP 200 stable alias rendered the recorded title, one v008 iframe, and one SVG at 390x844",
+      "journal": "HTTP 200 stable alias rendered exactly one #journal-svg-2026-09-10 node containing the recorded title",
+      "rawPreview": "HTTP 200 stable alias rendered the v008 preview with preview and interactive classes, SVG field, and no overflow at 390x844",
+      "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays"
+    },
     "unresolved": [
       "independent caption-free perceptual comparison with relay witnesses, handoff threads, labels, and readout hidden"
     ]
