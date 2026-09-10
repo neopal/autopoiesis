@@ -44,7 +44,7 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "browserEvidence": {
-          "status": "local browser matrix passed / held for independent perceptual review",
+          "status": "local and production browser readback passed / held for independent perceptual review",
           "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-10/",
           "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v006/?preview=1&interaction=1",
           "canonicalShellAndEmbeddedTableauRendered": true,
@@ -60,7 +60,17 @@
           "releaseInteraction": "release sequence returned to stage 0, memory 0, crease routes 0, fold depth 0, and unpaused",
           "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, and readout hidden and no overflow",
           "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and static blind 390x844 captures",
-          "evidenceFiles": "research/qa/proofs/portrait-v006-2026-09-10/results.json plus twelve PNG captures",
+          "evidenceFiles": "research/qa/proofs/portrait-v006-2026-09-10/results.json plus twelve local PNG captures and production-results.json",
+          "production": {
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "deploymentUrl": "https://autopoiesis-nine.vercel.app",
+            "worksJsonRecord": "HTTP 200 JSON contained portrait-2026-09-10, its title, rawPath, and Journal anchor",
+            "canonicalWork": "HTTP 200 and rendered read contained the recorded title, one v006 iframe, and one canvas at 390x844",
+            "journal": "HTTP 200 and rendered Journal contained exactly one #journal-portrait-2026-09-10 node containing the recorded title",
+            "rawPreview": "HTTP 200 and rendered preview retained preview and interactive classes, canvas field, 3 controls, 390px overflow-free geometry, and memory 0 to 1 after fold interaction",
+            "favicon": "HTTP 200",
+            "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays"
+          },
           "unresolved": [
             "independent caption-free perceptual comparison with fold witnesses, labels, and readout hidden"
           ]

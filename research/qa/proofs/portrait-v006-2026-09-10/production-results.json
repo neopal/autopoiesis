@@ -1,0 +1,100 @@
+{
+  "base": "https://autopoiesis-nine.vercel.app",
+  "status": "passed",
+  "results": {
+    "worksJson": {
+      "status": 200,
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
+      "record": {
+        "id": "portrait-2026-09-10",
+        "title": "The face folds around its decision.",
+        "rawPath": "/studies/self-portrait/v006/",
+        "journalAnchor": "journal-portrait-2026-09-10"
+      }
+    },
+    "journal": {
+      "status": 200,
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
+      "renderedAnchorCount": 1,
+      "renderedTitle": "The face folds around its decision.",
+      "renderedNote": "v006 changes the portrait rule: a remembered decision becomes an occlusion fold. Later contour points bend across a crease, disappear beneath the fold, and return as an inner route; lifting the latest fold reconstructs the preceding field exactly."
+    },
+    "canonical": {
+      "status": 200,
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
+      "renderedTitle": "The face folds around its decision.",
+      "iframeCount": 1,
+      "tableauCanvas": 1,
+      "topGeometry": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      },
+      "frameGeometry": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "folds": 0,
+          "creaseRoutes": 0,
+          "foldDepth": 0,
+          "interaction": null,
+          "paused": true
+        }
+      }
+    },
+    "rawPreview": {
+      "status": 200,
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
+      "previewClass": true,
+      "interactiveClass": true,
+      "furnitureHidden": true,
+      "controls": 3,
+      "before": {
+        "stage": 0,
+        "memory": 0,
+        "folds": 0,
+        "creaseRoutes": 0,
+        "foldDepth": 0,
+        "interaction": null,
+        "paused": false
+      },
+      "after": {
+        "stage": 0,
+        "memory": 1,
+        "folds": 1,
+        "creaseRoutes": 1,
+        "foldDepth": 0.077572,
+        "interaction": "visitor-fold",
+        "paused": true
+      },
+      "geometry": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      }
+    },
+    "favicon": {
+      "status": 200,
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
+      "icon": true
+    }
+  }
+}
