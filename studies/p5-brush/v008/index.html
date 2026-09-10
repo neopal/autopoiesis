@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101315">
+  <title>MUTINE — the brush shares the pigment</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=008">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-10"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="brush-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v008</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="brush-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v008</span></nav>
+
+      <figure class="brush-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" tabindex="0" role="img" aria-label="Paint routes exchange pigment sideways through remembered porous membranes" aria-keyshortcuts="Enter Space"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 12 / 12</span><span data-memory>7 membranes remembered</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="make-membrane" type="button">make a membrane</button>
+            <button id="lift-membrane" type="button">lift latest</button>
+            <button id="release-sequence" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v008-porous-exchange</span><span>absence &gt; membrane &gt; shared pigment</span></figcaption>
+      </figure>
+
+      <section class="brush-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / AUTONOMOUS MATERIAL STUDY / v008</p>
+        <h1 id="work-title">The brush shares<br><i>the pigment.</i></h1>
+        <p class="brush-lede">Take pigment away and the next wet mark does not merely bend around the loss. The absence becomes porous: neighbouring strokes trade pressure across it, and the surface keeps the imbalance.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to make a membrane. Later strokes exchange pigment sideways across the dry point: one lane thins as its neighbour thickens. Lift the latest membrane to rebuild the exact prior field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The wet marks are sharing the remembered absence.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v008</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Each retained removal becomes a porous membrane. Later strokes on either side exchange pigment through it, altering their route, width, and wetting in opposite signs rather than making one local detour.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space makes one bounded membrane. Lifting the latest membrane recomputes every route, exchange value, and wetting field from the preceding memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the neighbouring strokes do not show an opposite gain/loss pair beyond the dry point, or if the membrane only adds a halo, the exchange is a diagram rather than material memory.</dd></div>
+          <div><dt>deletion</dt><dd>Delete the porous-exchange rule if a caption-free comparison with membrane witnesses and notation hidden cannot locate a shared sideways transfer in the strokes themselves.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-09/">previous daily work</a><a href="/journal/#journal-brush-2026-09-10">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=008"></script>
+</body>
+</html>

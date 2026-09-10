@@ -2,6 +2,77 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-10",
+      "currentId": "brush",
+      "date": "2026-09-10",
+      "title": "The brush shares the pigment.",
+      "rawPath": "/studies/p5-brush/v008/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-10",
+        "note": "v008 changes the material rule: a remembered removal becomes a porous membrane. Later strokes exchange pigment sideways across it, shifting route, width, and wetting in an opposite gain/loss pair; lifting the latest membrane rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The removal must be carried by the signed transfer in route coordinates, width, and wetting. A dark membrane or warm/cool bridge may point toward the rule, but cannot substitute for the exchanged strokes."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With membrane witnesses, labels, and readout hidden, a viewer should identify neighbouring strokes that gain and lose material together after a shared crossing. If it reads as independent colour accents, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded structural membrane; lifting only the latest one must reproduce the exact prior route field, including the opposite transfer pair."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Exchange is an easy metaphor. Delete v008 if the field only displays a decorative slit, if no opposite gain/loss pair survives caption-free viewing, or if the prose explains more sharing than the brush marks can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x42525538",
+        "stages": 12,
+        "strokesPerStage": 9,
+        "pointsPerStroke": 62,
+        "primitiveBudget": 37,
+        "memoryWindow": 7,
+        "memoryRule": "a remembered removal becomes a porous membrane that exchanges signed pigment across neighboring strokes",
+        "interactionRule": "a visitor membrane changes downstream route, width, and wetting through exchange in an opposite gain/loss pair; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local headless browser matrix passed / held for independent caption-free perceptual review",
+          "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-10/",
+          "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v008/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": true,
+          "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer canonical pages and embedded previews had no horizontal overflow on all ten runs; raw interaction and blind 390x844 previews also matched innerWidth/clientWidth/scrollWidth",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844 and all ten matrix runs",
+          "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical, raw interaction, and blind runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and blind runs",
+          "pointerInteraction": "raw pointer changed memory from 0 to 1 membrane and paused the tableau",
+          "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 membranes",
+          "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior canvas PNG SHA-256",
+          "releaseInteraction": "release sequence returned stage 01 / 12, memory 0, and resumed the sequence",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, and readout hidden and no overflow",
+          "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and blind 390x844 captures",
+          "evidenceFiles": "research/qa/proofs/brush-v008-2026-09-10/results.json, probe.mjs, plus twelve PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with membrane witnesses, labels, notation, and readout hidden"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with membrane witnesses, labels, notation, and readout hidden; delete v008 if a shared sideways transfer and opposite gain/loss pair cannot be identified in the strokes themselves.",
+        "lineage": "brush-2026-09-09"
+      }
+    },
+    {
       "id": "svg-2026-09-10",
       "currentId": "svg",
       "date": "2026-09-10",
@@ -263,7 +334,10 @@
         "contourDeltaAfterLatestLift": 0.7012833048821006,
         "routeDeltaAfterLatestLift": 2.064712768604503,
         "echoedRoutesAtStage9": 3,
-        "visitorBoundedPoint": {"x": 0.96, "y": 0.12},
+        "visitorBoundedPoint": {
+          "x": 0.96,
+          "y": 0.12
+        },
         "visitorMemoryAtStage5": 4,
         "memoryRule": "a remembered refusal becomes a delayed afterimage; downstream contour and later feet repeat an earlier rhythm one step late",
         "interactionRule": "a visitor afterimage changes downstream contour and route coordinates; erasing it restores the exact prior body",
@@ -457,7 +531,7 @@
         "lineage": "portrait-2026-09-08"
       }
     },
-{
+    {
       "id": "brush-2026-09-09",
       "currentId": "brush",
       "date": "2026-09-09",
@@ -573,7 +647,12 @@
         "finalEchoAgents": 145,
         "finalRehearsalCohesion": 0.40053615502651946,
         "fieldDeltaAfterLatestLift": 3.2878761593350068,
-        "echoAgentsByRehearsal": [115, 78, 33, 20],
+        "echoAgentsByRehearsal": [
+          115,
+          78,
+          33,
+          20
+        ],
         "memoryRule": "a remembered crossing becomes a delayed rehearsal of local neighbor order",
         "interactionRule": "a visitor rehearsal changes downstream cohort coordinates; lifting it restores the exact prior field",
         "replay": true,
@@ -997,7 +1076,13 @@
           "interactionAttempt": "MISPLACE AWAY button click was accepted; the following iframe accessibility snapshot made no progress and did not expose the changed inner state",
           "rawPreview": "browser adapter returned a UTF-8 decode error for the raw preview route",
           "consoleProbe": "not run after the no-progress guardrail",
-          "unresolved": ["post-click state change", "raw preview route decoding", "five-viewport browser matrix", "reduced-motion browser matrix", "independent caption-free perceptual comparison"]
+          "unresolved": [
+            "post-click state change",
+            "raw preview route decoding",
+            "five-viewport browser matrix",
+            "reduced-motion browser matrix",
+            "independent caption-free perceptual comparison"
+          ]
         }
       },
       "source": null,
@@ -1308,7 +1393,12 @@
         "finalQueuedAgents": 209,
         "finalOrderShear": 59.94210420500629,
         "finalVacancyLoad": 39.09180168613418,
-        "finalAffectedAgents": [191, 142, 23, 41],
+        "finalAffectedAgents": [
+          191,
+          142,
+          23,
+          41
+        ],
         "memoryRule": "an archived point becomes a vacancy in local order; later bodies queue in two lanes and rejoin with an order offset",
         "interactionRule": "a visitor vacancy changes downstream queue geometry and order coordinates; lifting it restores the exact prior field",
         "replay": true,
@@ -1527,7 +1617,13 @@
         "replay": true,
         "mobileComposition": "4:5 artwork field; controls move to a bottom action rail",
         "browserEvidence": {
-          "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+          "viewports": [
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080"
+          ],
           "overflow": false,
           "canvasFillsViewport": true,
           "controlsMinimumHeight": 44,
@@ -1584,7 +1680,13 @@
         "interactionRule": "a visitor hinge changes contour geometry and axis tilt; lifting it restores the prior memory",
         "replay": true,
         "browserEvidence": {
-          "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+          "viewports": [
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080"
+          ],
           "overflow": false,
           "canvasFillsViewportInPreview": true,
           "staticControlsHidden": true,
@@ -1652,7 +1754,9 @@
           "routeDeltaAfterLatestDeletion": 0.855034733951082
         },
         "browserEvidence": {
-          "observedViewports": ["1264x625"],
+          "observedViewports": [
+            "1264x625"
+          ],
           "overflow": false,
           "staticPreviewFurnitureHidden": true,
           "controlsMinimumHeight": 44,
@@ -1662,7 +1766,14 @@
           "consoleErrors": 0,
           "networkFailures": 0,
           "rawBridgeTarget": "/works/svg-2026-09-03/",
-          "unresolved": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080", "independent caption-free perceptual review"]
+          "unresolved": [
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080",
+            "independent caption-free perceptual review"
+          ]
         }
       },
       "source": null,
@@ -2093,13 +2204,22 @@
         "finalReindexedAgents": 309,
         "finalIndexShear": 226.05846153140482,
         "finalPhaseSlip": 294.07620742581696,
-        "finalAffectedAgents": [218, 174, 171, 105, 42],
+        "finalAffectedAgents": [
+          218,
+          174,
+          171,
+          105,
+          42
+        ],
         "visitorMemoryAtStage4": 3,
         "visitorAffectedAgents": 10,
         "visitorReindexedAgents": 315,
         "visitorIndexShear": 142.2263619814247,
         "latestDeletionFieldDelta": 1.5959626167100431,
-        "visitorBoundedPoint": {"x": 0.92, "y": 0.08},
+        "visitorBoundedPoint": {
+          "x": 0.92,
+          "y": 0.08
+        },
         "memoryRule": "an archived encounter inserts a rank slip; later bodies carry a row-specific phase error across the seam",
         "interactionRule": "a visitor index changes downstream rank coordinates and phase; lifting it restores the exact prior field",
         "replay": true,

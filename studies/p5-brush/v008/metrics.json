@@ -1,0 +1,35 @@
+{
+  "visitorInput": true,
+  "seed": "0x42525538",
+  "stages": 12,
+  "strokesPerStage": 9,
+  "pointsPerStroke": 62,
+  "primitiveBudget": 37,
+  "memoryWindow": 7,
+  "memoryRule": "a remembered removal becomes a porous membrane that exchanges signed pigment across neighboring strokes",
+  "interactionRule": "a visitor membrane changes downstream route, width, and wetting through exchange in an opposite gain/loss pair; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "browserEvidence": {
+    "status": "local headless browser matrix passed / held for independent caption-free perceptual review",
+    "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-10/",
+    "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v008/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": true,
+    "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer canonical pages and embedded previews had no horizontal overflow on all ten runs; raw interaction and blind 390x844 previews also matched innerWidth/clientWidth/scrollWidth",
+    "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844 and all ten matrix runs",
+    "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical, raw interaction, and blind runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and blind runs",
+    "pointerInteraction": "raw pointer changed memory from 0 to 1 membrane and paused the tableau",
+    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 membranes",
+    "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior canvas PNG SHA-256",
+    "releaseInteraction": "release sequence returned stage 01 / 12, memory 0, and resumed the sequence",
+    "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, and readout hidden and no overflow",
+    "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and blind 390x844 captures",
+    "evidenceFiles": "research/qa/proofs/brush-v008-2026-09-10/results.json, probe.mjs, plus twelve PNG captures",
+    "unresolved": [
+      "independent caption-free perceptual comparison with membrane witnesses, labels, notation, and readout hidden"
+    ]
+  }
+}
