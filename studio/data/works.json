@@ -2,6 +2,72 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-10",
+      "currentId": "svg",
+      "date": "2026-09-10",
+      "title": "The animal passes it on.",
+      "rawPath": "/studies/pure-svg/v008/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-10",
+        "note": "v008 changes the SVG rule: a remembered refusal becomes a relay knot. The downstream contour switches sides around a later receiver, and the three feet inherit the same lead/return order; unlinking the latest relay reconstructs the preceding body and routes exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Formal critic",
+          "argument": "The remembered refusal must be carried by the downstream contour switching sides around a later receiver and by the shared lead/return gait, not by the gold knot or dotted handoff thread drawn over a stable body."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses and labels hidden, a viewer should identify one animal whose later outline changes side at a receiver and whose feet share the same alternating order. If it reads as a decorative zigzag, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A visitor relay must change downstream contour and route coordinates, while unlinking the latest relay must reproduce the exact prior state from pointer, button, and keyboard paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Passing-on is an easy social metaphor. Delete v008 if hiding the witness marks leaves only a generic kink, if the feet do not inherit one relay order, or if the prose explains more handoff than the SVG body can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x53564738",
+        "stages": 12,
+        "primitiveBudget": 18,
+        "memoryWindow": 4,
+        "routeCount": 3,
+        "settledStage": 10,
+        "settledMemory": 4,
+        "settledRelayIndex": 10,
+        "settledAnchorIndex": 8,
+        "settledContourDeltaAgainstLatestUnlinked": 0.7363219279077099,
+        "settledRouteDeltaAgainstLatestUnlinked": 0.49184277650604985,
+        "relayedRoutes": 3,
+        "alternatingRoutes": 1,
+        "memoryRule": "a remembered refusal becomes a relay knot; downstream contour points alternate around a later receiver and later feet inherit its lead/return order",
+        "interactionRule": "a visitor relay changes downstream contour and route coordinates; unlinking the latest relay restores the exact prior body",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "status": "held pending fresh headless browser matrix and independent caption-free perceptual review",
+          "unresolved": [
+            "canonical rendered appearance and tableau-first ordering",
+            "pointer and keyboard state changes and exact unlink restoration",
+            "320x568, 390x844, 768x1024, 1280x800, and 1920x1080 normal/reduced-motion runs",
+            "console and network-failure probes",
+            "independent caption-free perceptual comparison with relay witnesses hidden"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with relay knots, handoff threads, labels, and readout hidden; delete v008 if the contour's side-switch and shared lead/return gait cannot be identified in the body itself.",
+        "lineage": "svg-2026-09-09"
+      }
+    },
+    {
       "id": "portrait-2026-09-10",
       "currentId": "portrait",
       "date": "2026-09-10",
