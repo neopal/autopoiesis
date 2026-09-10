@@ -2,6 +2,77 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-09-10",
+      "currentId": "portrait",
+      "date": "2026-09-10",
+      "title": "The face folds around its decision.",
+      "rawPath": "/studies/self-portrait/v006/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-10",
+        "note": "v006 changes the portrait rule: a remembered decision becomes an occlusion fold. Later contour points bend across a crease, disappear beneath the fold, and return as an inner route; lifting the latest fold reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The decision must be carried by the changed downstream contour and its inner returning route, not by a dashed crease or a caption calling a displacement a fold."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels and crease witnesses hidden, a viewer should find one body whose later outline crosses, disappears beneath itself, and returns around the aperture. If it reads as two offset outlines, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded fold, while lifting it must restore the exact prior contour, route, and aperture from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Folding is an easy metaphor. Delete v006 if hiding the readout and crease witnesses leaves only a chromatic displacement, if the inner route does not return, or if the prose explains more occlusion than the field can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x53505636",
+        "stages": 12,
+        "contourPoints": 48,
+        "foldRoutePoints": 14,
+        "primitiveBudget": 42,
+        "memoryWindow": 4,
+        "memoryRule": "a remembered decision becomes an occlusion fold that bends the later contour through a crease and returns as an inner route",
+        "interactionRule": "a visitor fold changes contour, crease routes, and aperture geometry; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local browser matrix passed / held for independent perceptual review",
+          "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-10/",
+          "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v006/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": true,
+          "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer and embedded innerWidth equaled clientWidth and scrollWidth on all ten canonical runs; raw and static blind 390px previews matched",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844",
+          "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical, raw interaction, and static blind runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+          "pointerInteraction": "raw fold control changed memory from 0 to 1, crease routes from 0 to 1, and paused the tableau",
+          "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and crease routes from 1 to 2",
+          "liftInteraction": "lift latest changed memory from 2 to 1, crease routes from 2 to 1, restored fold depth 0.077572, and reported fold-lifted",
+          "releaseInteraction": "release sequence returned to stage 0, memory 0, crease routes 0, fold depth 0, and unpaused",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, and readout hidden and no overflow",
+          "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and static blind 390x844 captures",
+          "evidenceFiles": "research/qa/proofs/portrait-v006-2026-09-10/results.json plus twelve PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with fold witnesses, labels, and readout hidden"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with fold witnesses, labels, and readout hidden; delete v006 if the contour crossing and inner return cannot be identified in the handwriting of the body itself.",
+        "lineage": "portrait-2026-09-09"
+      }
+    },
+    {
       "id": "typography-2026-09-10",
       "currentId": "typography",
       "date": "2026-09-10",

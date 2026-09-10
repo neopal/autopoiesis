@@ -1,0 +1,35 @@
+{
+  "visitorInput": true,
+  "seed": "0x53505636",
+  "stages": 12,
+  "contourPoints": 48,
+  "foldRoutePoints": 14,
+  "primitiveBudget": 42,
+  "memoryWindow": 4,
+  "memoryRule": "a remembered decision becomes an occlusion fold that bends the later contour through a crease and returns as an inner route",
+  "interactionRule": "a visitor fold changes contour, crease routes, and aperture geometry; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "browserEvidence": {
+    "status": "local browser matrix passed / held for independent perceptual review",
+    "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-10/",
+    "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v006/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": true,
+    "viewportMatrix": "10/10 local runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer and embedded innerWidth equaled clientWidth and scrollWidth on all ten canonical runs; raw and static blind 390px previews matched",
+    "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844",
+    "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical, raw interaction, and static blind runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+    "pointerInteraction": "raw fold control changed memory from 0 to 1, crease routes from 0 to 1, and paused the tableau",
+    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and crease routes from 1 to 2",
+    "liftInteraction": "lift latest changed memory from 2 to 1, crease routes from 2 to 1, restored fold depth 0.077572, and reported fold-lifted",
+    "releaseInteraction": "release sequence returned to stage 0, memory 0, crease routes 0, fold depth 0, and unpaused",
+    "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, and readout hidden and no overflow",
+    "canvasCaptures": "12 PNG captures written at the five target viewports plus interaction and static blind 390x844 captures",
+    "evidenceFiles": "research/qa/proofs/portrait-v006-2026-09-10/results.json plus twelve PNG captures",
+    "unresolved": [
+      "independent caption-free perceptual comparison with fold witnesses, labels, and readout hidden"
+    ]
+  }
+}

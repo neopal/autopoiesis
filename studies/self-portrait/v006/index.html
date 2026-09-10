@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1018">
+  <title>MUTINE — the face folds around its decision</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-10"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v006-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v006</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v006-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v006</span></nav>
+      <section class="v006-surface artwork-frame" aria-label="Self portrait folding field">
+        <div class="v006-field-wrap">
+          <canvas id="field" role="img" aria-label="An abstract self portrait whose later contour folds through remembered decisions, with an inner crease and returning route" tabindex="0" aria-keyshortcuts="Enter Space R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 12</span><span data-memory>0 folds carried</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="fold-control" data-gesture="fold">fold a decision</button>
+            <button type="button" id="undo-control" data-gesture="undo">lift latest fold</button>
+            <button type="button" id="release-control" data-gesture="release">release sequence</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Twelve seeded states print one body twice. The later contour folds where decisions accumulate and returns as an inner route.</p></div>
+          <div><span>changed rule</span><p>A decision becomes an occlusion fold: downstream contour points bend across a crease instead of merely drifting into a second plate.</p></div>
+          <div><span>progression</span><p>Touch the field or press Enter. Lift the latest fold to compare the exact field before the contour crossed itself.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V006 / DAILY WORK</p><h1 id="work-title">The face<br><i>folds around its decision.</i></h1></div>
+        <p class="work-premise">A self-image that refuses a clean second plate: each remembered decision makes the later outline crease, disappear beneath itself, and return on the inside.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a decision changes the later contour, crease routes, and aperture; lifting it restores the exact prior field. Promotion still depends on whether the fold reads without its witnesses or readout.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>fold without vanishing?</i></h2>
+        <div class="note-copy"><p>The field stores no browser history. Its memory is rebuilt from a fixed seed and bounded to four folds. A visitor gesture changes contour geometry and an inner crease route, not just colour, and can be reversed for comparison.</p><dl><div><dt>seed</dt><dd>0x53505636 / replayable</dd></div><div><dt>input</dt><dd>pointer, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>latest fold leaves the contour or returning route unchanged</dd></div><div><dt>deletion</dt><dd>delete v006 if the fold is only a dashed guide or colour displacement</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>
