@@ -67,9 +67,21 @@
           "staticBlindPreview": "reduced-motion static raw preview at 390x844 rendered with editorial furniture, controls, readout, archive cuts, labels, and detour witnesses hidden; no overflow",
           "canvasCaptures": "12 PNG captures written: ten canonical viewport/motion captures, one interaction capture, and one raw caption-free blind capture",
           "evidenceFiles": "research/qa/proofs/webgpu-v006/results.json, probe.mjs, and twelve PNG captures",
+          "production": {
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "deploymentUrl": null,
+            "deploymentMethod": "manual Vercel deploy was blocked by inaccessible scope and then by missing local credentials; stable alias content was read back independently after Git push",
+            "worksJsonRecord": "HTTP 200 JSON contained webgpu-2026-09-10, title, rawPath /studies/webgpu/v006/, and Journal anchor",
+            "canonicalWork": "HTTP 200 rendered production canonical work at 390x844 with tableau before prose, one v006 iframe/canvas, stage 14 / 14, 5 detours, and no overflow",
+            "journal": "HTTP 200 rendered production Journal at 390x844 contained exactly one #journal-webgpu-2026-09-10 entry with the recorded title and /works/webgpu-2026-09-10/#journal href",
+            "favicon": "HTTP 200",
+            "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical and Journal readback",
+            "evidenceFiles": "research/qa/proofs/webgpu-v006/production-results.json, production-probe.mjs, production-canonical-390x844.png, and production-journal-390x844.png",
+            "providerRevision": "not verified: stable alias content was observed, but the provider revision linking it to GitHub SHA 343da9ee9f47e7afd186fcf9e01cb64846426cbc was not reported by the blocked CLI deploy"
+          },
           "unresolved": [
             "independent caption-free perceptual comparison with detour cuts, labels, and readout hidden",
-            "public production URL, GitHub SHA, and deployed Journal verification"
+            "provider/deployment revision linking the stable alias to GitHub SHA 343da9ee9f47e7afd186fcf9e01cb64846426cbc"
           ]
         }
       },

@@ -30,4 +30,4 @@ Delete this direction if a caption-free viewer cannot identify adjacent strata o
 
 ## Evidence boundary
 
-`research/qa/proofs/webgpu-v006/results.json` records the observed local headless Playwright matrix, interaction readback, redirect, screenshot captures, and empty runtime-failure arrays. It does not claim independent perceptual approval or production deployment. Those remain unresolved and keep this work held.
+`research/qa/proofs/webgpu-v006/results.json` records the observed local headless Playwright matrix, interaction readback, redirect, screenshot captures, and empty runtime-failure arrays. `production-results.json` records an independent rendered readback of the stable alias: the canonical work and Journal anchor/title were present at 390×844 with empty runtime-failure arrays. The manual Vercel deploy was blocked by scope access and missing local credentials, so the provider revision linking that stable content to the commit remains unverified. Independent perceptual approval also remains unresolved; the work stays held.
