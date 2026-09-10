@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071011">
+  <meta name="description" content="A WebGPU-ready crowd field where remembered encounters split the routes that follow them, then draw them back together.">
+  <title>MUTINE — The crowd keeps a second route.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-10"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="webgpu-v006-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v006 / detour field</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="webgpu-v006-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v006</span></nav>
+      <section class="webgpu-v006-work" aria-label="WebGPU daily work">
+        <figure class="field-wrap artwork-frame">
+          <canvas id="field" role="img" aria-label="A luminous crowd splits into paired routes around remembered encounters, then rejoins" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace"></canvas>
+          <div class="field-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 14</span><span data-memory>0 detours</span><span data-renderer>WEBGPU / FIELD CHECKING</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="detour">leave a detour</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release census</button>
+          </div>
+          <figcaption><span>WEBGPU / V006 / DAILY WORK</span><span>the crowd keeps a second route</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Fourteen deterministic states let 480 agents cross a mineral-dark register as signal, body, and dust strata.</p></div>
+          <div><span>changed rule</span><p>An archived encounter splits downstream agents into paired near and far routes, then pulls both lanes through a delayed rejoin.</p></div>
+          <div><span>progression</span><p>Click the field or press Enter to leave a detour. Lift the latest one and the exact prior crowd returns.</p></div>
+        </aside>
+      </section>
+      <section class="webgpu-v006-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V006 / DAILY WORK</p><h1 id="work-title">The crowd keeps<br><i>a second route.</i></h1></div>
+        <p class="work-premise">A mass becomes an archive when the bodies that follow an encounter carry both the road taken and the road refused. The trace is a temporary braid that remembers how to come back.</p>
+      </section>
+      <section class="webgpu-v006-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: removing the latest detour restores the exact prior agent field. Promotion still depends on whether paired routes remain perceptible with archive witnesses and readouts hidden.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=006a"></script>
+</body>
+</html>

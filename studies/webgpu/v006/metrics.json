@@ -1,0 +1,19 @@
+{
+  "id": "webgpu-v006",
+  "seed": "0x57475036",
+  "visitorInput": true,
+  "stages": 14,
+  "agentCount": 480,
+  "memoryLimit": 5,
+  "finalMemory": 5,
+  "finalBraidedAgents": 191,
+  "finalRejoinedAgents": 183,
+  "finalRouteSeparation": 25.924648974289024,
+  "finalRejoinLoad": 101.32030618004424,
+  "latestDetourFieldDelta": 1.548830848761373,
+  "memoryRule": "a remembered encounter splits downstream agents into paired near/far routes and pulls them through a delayed rejoin",
+  "interactionRule": "a visitor detour changes downstream route coordinates; lifting it restores the exact prior crowd field",
+  "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+  "replay": true,
+  "promotion": "candidate / held pending independent caption-free perceptual review and production verification"
+}

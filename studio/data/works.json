@@ -2,6 +2,160 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "webgpu-2026-09-10",
+      "currentId": "webgpu",
+      "date": "2026-09-10",
+      "title": "The crowd keeps a second route.",
+      "rawPath": "/studies/webgpu/v006/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-10",
+        "note": "v006 changes the WebGPU rule: a remembered encounter becomes a paired detour. Downstream agents split into near and far routes, then return through a delayed rejoin; lifting the latest detour rebuilds the preceding crowd exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Systems critic",
+          "argument": "The archive must be carried by the paired agent routes and their delayed rejoin, not by the detour cross, counters, or WebGPU label. Hide every witness and ask whether the crowd still opens and returns."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "A caption-free viewer should find adjacent crowd strata fanning into near/far lanes around an encounter and drawing back together downstream. If it reads as luminous waves, the changed rule is not visible."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must place the same bounded detour, while lifting the latest one must restore the exact prior agent field from both input paths."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A second route is an attractive metaphor. Delete v006 if the split only changes colour, if the paired lanes never rejoin, or if the prose explains more memory than the mass can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x57475036",
+        "stages": 14,
+        "agentCount": 480,
+        "memoryLimit": 5,
+        "finalMemory": 5,
+        "finalBraidedAgents": 191,
+        "finalRejoinedAgents": 183,
+        "finalRouteSeparation": 25.924648974289024,
+        "finalRejoinLoad": 101.32030618004424,
+        "latestDetourFieldDelta": 1.548830848761373,
+        "memoryRule": "a remembered encounter splits downstream agents into paired near/far routes and pulls them through a delayed rejoin",
+        "interactionRule": "a visitor detour changes downstream route coordinates; lifting it restores the exact prior crowd field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+          "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-10/",
+          "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v006/?preview=1&interaction=1&blind=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": "canonical shell rendered the embedded v006 tableau before generated title, journal, critique, evidence, and neighbouring-work prose",
+          "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; embedded frames had no horizontal overflow and matched their own client geometry",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844 and all ten matrix runs",
+          "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical, raw interaction, and blind runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and blind runs",
+          "normalState": "normal-motion canonical runs opened at stage 01 / 14 with 0 detours",
+          "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 14 / 14 with 5 detours",
+          "pointerInteraction": "raw pointer changed memory from 0 to 1 detour and paused the tableau",
+          "keyboardInteraction": "Enter on the focused field changed the paused tableau from 0 to 1 detour",
+          "liftInteraction": "Delete returned memory to 0 detours and restored the exact prior canvas data URL after pointer and keyboard paths",
+          "releaseInteraction": "release sequence returned to stage 01 / 14 and 0 detours",
+          "staticBlindPreview": "reduced-motion static raw preview at 390x844 rendered with editorial furniture, controls, readout, archive cuts, labels, and detour witnesses hidden; no overflow",
+          "canvasCaptures": "12 PNG captures written: ten canonical viewport/motion captures, one interaction capture, and one raw caption-free blind capture",
+          "evidenceFiles": "research/qa/proofs/webgpu-v006/results.json, probe.mjs, and twelve PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with detour cuts, labels, and readout hidden",
+            "public production URL, GitHub SHA, and deployed Journal verification"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with detour cuts, labels, and readout hidden; delete v006 if the crowd does not visibly fan into paired routes and return downstream.",
+        "lineage": "webgpu-2026-09-09"
+      }
+    },
+    {
+      "id": "naive-2026-09-10",
+      "currentId": "naive",
+      "date": "2026-09-10",
+      "title": "The mistake comes back.",
+      "rawPath": "/studies/naive-art/v006/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-10",
+        "note": "v006 changes the naive art rule: a remembered mistake becomes an advance-return-continue reversal. The kept house edge, ground, and path repeat the same small act of coming back instead of merely displaying a memory witness; a visitor reversal can be undone to reconstruct the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The retained mistake must be a return sequence, not a decorative kink. House edge, ground, and route need to share the same advance/return/continue order from different origins."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "Hide labels, bridge, readout, and reversal dots. A caption-free viewer should find the line repeatedly coming back into itself in the kept house and path before reading the explanation."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create a real bounded reversal; undo must restore the exact earlier geometry, not merely reset the counter."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Coming back is an easy metaphor. Delete v006 if the image reads as an ordinary zigzag, if the house and path do not carry one return rhythm, or if the copy explains more memory than the marks show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x4e413036",
+        "stages": 11,
+        "primitiveBudget": 34,
+        "memoryWindow": 8,
+        "settledStage": 10,
+        "settledMemory": 8,
+        "settledReturns": 8,
+        "settledReturnPoints": 24,
+        "memoryRule": "a retained correction becomes an advance-return-continue reversal replayed by house, ground, and route",
+        "interactionRule": "visitor placement changes reversal geometry in all three origins; undo restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+          "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-10/",
+          "rawPreview": "http://127.0.0.1:4173/studies/naive-art/v006/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": "canonical shell rendered the embedded v006 tableau before generated title, journal, critique, evidence, and neighbouring-work prose",
+          "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interactive and blind 390x844 previews also matched",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px at every matrix run and raw 390x844 interaction run",
+          "initialConsoleProbe": "empty console message buffers and zero page errors across all ten canonical, raw interaction, and blind runs",
+          "networkProbe": "zero failed requests and zero first-party HTTP 400+ responses across all ten canonical, raw interaction, and blind runs",
+          "normalState": "normal-motion canonical runs opened at stage 04 / 11 with 3 reversals retained",
+          "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 11 / 11 with 8 structural reversals retained",
+          "pointerInteraction": "pointer click on the raw field changed the canonical tableau from 3 to 4 reversals and paused the sequence",
+          "keyboardInteraction": "Enter on the focused field changed the paused tableau from 4 to 5 reversals with further route geometry",
+          "undoInteraction": "undo latest changed memory from 5 to 4 and exactly restored the pointer-state route path",
+          "releaseInteraction": "release sequence returned to stage 01 / 11, 0 reversals retained, and the initial plain route",
+          "staticBlindPreview": "reduced-motion static raw preview at 390x844 rendered with editorial furniture, controls, readout, bridge, labels, sequence marks, and reversal dots hidden; no overflow",
+          "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one interaction capture, one raw interactive capture, and one raw caption-free blind capture",
+          "evidenceFiles": "research/qa/proofs/naive-art-v006-2026-09-10/results.json, probe.cjs, and thirteen PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with labels, bridge, readout, and reversal dots hidden",
+            "public production URL, GitHub SHA, and deployed Journal verification"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with labels, bridge, readout, and reversal dots hidden; delete v006 if the kept house and path do not visibly repeat one advance/return/continue rhythm.",
+        "lineage": "naive-2026-09-08"
+      }
+    },
+    {
       "id": "brush-2026-09-10",
       "currentId": "brush",
       "date": "2026-09-10",
