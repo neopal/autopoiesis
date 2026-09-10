@@ -73,8 +73,29 @@ was also unavailable in this Hermes session; no independent approval is claimed.
   results all passed.
 - `git diff --check`: pass.
 
+## Production readback
+
+The requested production command `npx vercel --prod --yes --scope
+lairpa-hotmailfrs-projects` failed with `You do not have access to the specified
+account`. The fallback `npx vercel --prod --yes` failed with `No existing
+credentials found`. No temporary deployment was created and no credentials were
+inspected or copied.
+
+The stable alias was nevertheless fetched and rendered independently after the
+push. `https://autopoiesis-nine.vercel.app/studio/data/works.json`, `/journal/`,
+`/works/brush-2026-09-10/`, `/studies/p5-brush/v008/?preview=1&interaction=1`,
+and `/favicon.ico` all returned HTTP 200. The rendered Journal readback at
+390x844 found exactly one `#journal-brush-2026-09-10` entry with the recorded
+title and canonical work link. The complete production headless matrix and
+interaction evidence are in `research/qa/proofs/brush-v008-2026-09-10/`.
+
+This proves observed stable-alias content, not that a specific commit reached
+that deployment: Vercel provider revision provenance was unavailable.
+
 ## Publication state at record time
 
-This QA record is a factual pre-publication snapshot. Git commit/push and
-production deployment are performed only after the remaining release checks;
-production URLs are not claimed here until separately fetched and read back.
+The artifact was committed and pushed after the local gates. Stable production
+content was observed and recorded separately above; the Vercel CLI deploy
+remains blocked by account/credential access. The work remains
+**candidate / held** because independent caption-free perceptual review and an
+independent reviewer subagent were unavailable in this unattended session.

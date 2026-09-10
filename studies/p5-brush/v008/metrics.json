@@ -11,7 +11,7 @@
   "replay": true,
   "renderer": "deterministic Canvas 2D",
   "browserEvidence": {
-    "status": "local headless browser matrix passed / held for independent caption-free perceptual review",
+    "status": "local and production headless browser readback passed / held for independent caption-free perceptual review",
     "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-10/",
     "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v008/?preview=1&interaction=1",
     "canonicalShellAndEmbeddedTableauRendered": true,
@@ -30,6 +30,18 @@
     "evidenceFiles": "research/qa/proofs/brush-v008-2026-09-10/results.json, probe.mjs, plus twelve PNG captures",
     "unresolved": [
       "independent caption-free perceptual comparison with membrane witnesses, labels, notation, and readout hidden"
-    ]
+    ],
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentUrl": "https://autopoiesis-nine.vercel.app",
+      "worksJsonRecord": "HTTP 200 JSON contained brush-2026-09-10, title, rawPath /studies/p5-brush/v008/, and Journal anchor",
+      "canonicalWork": "production Playwright matrix rendered HTTP 200 canonical work with tableau before prose, one v008 iframe/canvas, and no overflow at all ten viewport/motion runs",
+      "journal": "HTTP 200 rendered Journal at 390x844 contained exactly one #journal-brush-2026-09-10 entry with the recorded title and /works/brush-2026-09-10/#journal href",
+      "rawPreview": "production Playwright matrix rendered HTTP 200 raw preview with preview and interactive classes, canvas, 3 controls, 390px overflow-free geometry, and memory 0 to 1 to 2 to 1 to 0 through pointer/keyboard/lift/release",
+      "favicon": "HTTP 200",
+      "browserIssues": "empty page-error, request-failure, and HTTP 400+ arrays across production matrix, interaction, blind, and Journal readback",
+      "evidenceFiles": "research/qa/proofs/brush-v008-2026-09-10/production/production-results.json and production-journal-readback.json",
+      "providerRevision": "not verified: requested Vercel CLI deploy failed for inaccessible scope, fallback failed because no local credentials; stable alias content was read back independently"
+    }
   }
 }
