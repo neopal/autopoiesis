@@ -247,6 +247,66 @@
       }
     },
     {
+      "id": "naive-2026-09-11",
+      "currentId": "naive",
+      "date": "2026-09-11",
+      "title": "The mistake keeps a shadow.",
+      "rawPath": "/studies/naive-art/v007/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-11",
+        "note": "v007 changes the naive drawing rule: a remembered turn becomes a companion outline. The house edge, ground, and route each depart, run parallel, and fuse back downstream; lifting the latest shadow reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {"persona":"Naive-form critic","argument":"The retained mistake must be a companion line with a real departure, parallel run, and downstream fusion. House edge, ground, and route need to share that order from different origins."},
+        {"persona":"Perceptual critic","argument":"With labels, bridge, readout, and fuse dots hidden, a caption-free viewer should find a line briefly keeping company with the house and route before returning to them. If it reads as a decorative double contour, the mutation fails."},
+        {"persona":"Interaction critic","argument":"Pointer, Enter, and Space must create a bounded shadow that changes route and house geometry; undo must restore the exact earlier geometry, not merely reset the counter."},
+        {"persona":"Cynic","argument":"A shadow is an easy metaphor. Delete v007 if the parallel line is only a coloured accent, if it never fuses back, or if the copy explains more memory than the marks show."}
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x4e413037",
+        "stages": 12,
+        "primitiveBudget": 38,
+        "memoryWindow": 7,
+        "memoryRule": "a remembered mistake keeps a temporary companion outline beside the original before fusing back",
+        "interactionRule": "a visitor shadow changes house, ground, and route geometry; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+          "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-11/",
+          "rawPreview": "http://127.0.0.1:4173/studies/naive-art/v007/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": "canonical shell rendered the v007 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+          "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; embedded preview geometry also stayed overflow-free; raw interaction and blind 390x844 previews matched",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844",
+          "initialConsoleProbe": "zero console messages and zero page errors across all ten canonical, raw interactive, and raw blind runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+          "normalState": "normal-motion canonical runs opened at stage 03 / 12 with 2 structural shadows",
+          "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 12 / 12 with 7 structural shadows in the finite window",
+          "pointerInteraction": "raw pointer changed memory from 2 to 3 shadows and paused the tableau",
+          "keyboardInteraction": "Enter on the focused canvas changed memory from 3 to 4 shadows and retained the changed route field",
+          "liftInteraction": "undo latest changed memory from 4 to 3 and restored the preceding pointer-state route signature",
+          "releaseInteraction": "release sequence returned to stage 01 / 12, memory 0, and restarted the sequence",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, readout, fuse dots, and SVG notation hidden; no overflow",
+          "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one raw blind capture",
+          "evidenceFiles": "research/qa/proofs/naive-art-v007-2026-09-11/results.json, probe.mjs, release-readback.mjs, release-readback.json, and twelve PNG captures"
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with labels, readout, bridge, and fuse dots hidden; delete v007 if the house and route do not visibly share a temporary parallel companion.",
+        "lineage": "naive-2026-09-10"
+      },
+      "unresolved": [
+        "independent caption-free perceptual comparison with companion lines, labels, and readout hidden",
+        "provider revision linking any future stable alias to the GitHub commit"
+      ]
+    },
+    {
       "id": "webgpu-2026-09-10",
       "currentId": "webgpu",
       "date": "2026-09-10",
