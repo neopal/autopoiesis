@@ -14,29 +14,38 @@
   "renderer": "deterministic Canvas 2D",
   "measured": true,
   "browserEvidence": {
-    "status": "local headless browser readback passed / held for independent caption-free perceptual review and production deployment",
+    "status": "local and stable-alias headless browser readback passed / held for independent caption-free perceptual review",
     "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-12/",
     "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v008/?preview=1&interaction=1",
     "canonicalShellAndEmbeddedTableauRendered": true,
-    "tableauFirst": "canonical shell rendered the v008 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+    "tableauFirst": "local and stable alias canonical shells rendered the v008 tableau before generated title, journal, critique, evidence, and neighbouring-work prose",
     "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
     "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; the timeline rail's intentional horizontal scroll region stayed contained; raw interactive and blind 390x844 previews had no overflow",
-    "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844",
-    "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
-    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
-    "normalState": "normal-motion canonical runs opened at stage 00 / 12 with 0 relays and continued animation",
+    "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844 locally and on the stable alias",
+    "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, local raw, and stable alias canonical, Journal, and raw runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, local raw, and stable alias canonical, Journal, and raw runs",
+    "normalState": "normal-motion canonical runs opened at stage 00 / 12 with 0 relays and continued animation locally; stable alias canonical opened at stage 00 / 12 with 0 relays",
     "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 12 / 12 with 5 relays and 16 affected routes",
-    "pointerInteraction": "raw pointer changed memory from 0 to 1 relay, affected 14 routes, and paused the tableau",
-    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 relays and retained the changed route field",
-    "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior pointer-state route signature",
-    "releaseInteraction": "release sequence returned to stage 00 / 12, memory 0, and unpaused the sequence",
+    "pointerInteraction": "local and stable-alias raw pointer changed memory from 0 to 1 relay, affected 14 routes, and paused the tableau",
+    "keyboardInteraction": "local and stable-alias Enter on the focused canvas changed memory from 1 to 2 relays and retained the changed route field",
+    "liftInteraction": "local and stable-alias lift latest changed memory from 2 to 1 and restored the exact prior pointer-state route signature",
+    "releaseInteraction": "local and stable-alias release sequence returned to stage 00 / 12, memory 0, and unpaused the sequence",
     "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, relay witnesses, labels, and interaction panel hidden; no overflow",
-    "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one local interaction capture, and one local raw blind capture",
-    "evidenceFiles": "research/qa/proofs/typography-v008-2026-09-12/results.json, probe.mjs, and PNG captures",
-    "unresolved": [
-      "production readback and stable-alias content after publication",
-      "independent caption-free perceptual comparison with relay witnesses, labels, and readout hidden"
-    ]
+    "canvasCaptures": "15 PNG captures written: ten local canonical viewport/motion captures, one local interaction capture, one local raw blind capture, and three stable-alias captures",
+    "evidenceFiles": "research/qa/proofs/typography-v008-2026-09-12/results.json, production-results.json, probe.mjs, production-probe.mjs, and PNG captures",
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentUrl": null,
+      "deploymentMethod": "Vercel CLI production deploy was blocked by inaccessible requested scope and missing local credentials; stable alias content was read back independently after Git push",
+      "worksJsonRecord": "HTTP 200 JSON contained exactly one typography-2026-09-12 record, title, rawPath /studies/handwriting/v008/, and Journal anchor",
+      "canonicalWork": "production Playwright readback at 390x844 rendered HTTP 200 canonical work with tableau before prose, one v008 iframe/canvas, stage 00 / 12, and no overflow",
+      "journal": "production Playwright readback at 390x844 rendered HTTP 200 Journal with exactly one #journal-typography-2026-09-12 entry, recorded title, and /works/typography-2026-09-12/#journal href",
+      "rawPreview": "production Playwright readback at 390x844 rendered HTTP 200 raw preview with canvas, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 to 0 through pointer/keyboard/lift/release",
+      "favicon": "HTTP 200; no 400+ response in production canonical, Journal, or raw readback",
+      "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, Journal, and raw readback",
+      "evidenceFiles": "research/qa/proofs/typography-v008-2026-09-12/production-results.json, production-probe.mjs, production-canonical-390x844.png, production-journal-390x844.png, and production-raw-interaction-390x844.png",
+      "providerRevision": "not verified: Vercel CLI was blocked by inaccessible scope and missing credentials; stable alias content was observed after Git push but the provider revision linking it to GitHub SHA 386f8513a181c7352f57b1bd2889ee96bc7392c was not reported"
+    }
   },
-  "promotion": "candidate / held pending independent perceptual review and production readback"
+  "promotion": "candidate / held pending independent perceptual review and provider revision"
 }
