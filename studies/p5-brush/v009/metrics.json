@@ -1,0 +1,38 @@
+{
+  "visitorInput": true,
+  "seed": "0x42525539",
+  "stages": 13,
+  "strokesPerStage": 10,
+  "pointsPerStroke": 68,
+  "primitiveBudget": 43,
+  "memoryWindow": 8,
+  "memoryRule": "a remembered removal becomes a braid gate that splits neighboring wet routes and settles them into one downstream deposit",
+  "interactionRule": "a visitor braid gate changes downstream split, settlement, route, width, and deposit geometry; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "browserEvidence": {
+    "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+    "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-11/",
+    "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v009/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": "canonical shell rendered the v009 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+    "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interactive and blind 390x844 previews also matched",
+    "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844",
+    "initialConsoleProbe": "zero console messages and zero page errors across all ten canonical, raw interactive, and raw blind runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+    "normalState": "normal-motion canonical runs opened at stage 01 / 13 with 0 braid gates",
+    "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 13 / 13 with 8 braid gates",
+    "pointerInteraction": "raw pointer changed memory from 0 to 1 braid gate and paused the tableau",
+    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 braid gates and retained the changed route field",
+    "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior pointer-state canvas data URL",
+    "releaseInteraction": "release sequence returned memory 0 and restarted the sequence",
+    "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, readout, gates, threads, and notation hidden; no overflow",
+    "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one local interaction capture, and one local raw blind capture",
+    "evidenceFiles": "research/qa/proofs/brush-v009-2026-09-11/results.json, probe.mjs, and twelve PNG captures",
+    "unresolved": [
+      "independent caption-free perceptual comparison with braid gates, threads, labels, notation, and readout hidden",
+      "production stable-alias readback and provider revision linking deployment to the eventual GitHub SHA"
+    ]
+  }
+}

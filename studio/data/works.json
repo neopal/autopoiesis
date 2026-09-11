@@ -2,6 +2,65 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-11",
+  "currentId": "brush",
+  "date": "2026-09-11",
+  "title": "The brush settles the braid.",
+  "rawPath": "/studies/p5-brush/v009/",
+  "status": "candidate / held",
+  "lifecycle": "active",
+  "journal": {
+    "anchor": "journal-brush-2026-09-11",
+    "note": "v009 changes the brush rule: a remembered removal becomes a braid gate. Nearby wet routes split in opposite directions around the absence, then settle toward one downstream deposit where width and pigment density accumulate; lifting the latest gate reconstructs the preceding field exactly."
+  },
+  "critiques": [
+    {"persona":"Material critic","argument":"The removal must be carried by opposing split routes that settle into one downstream deposit. A dark gate or warm/cool thread may point toward the rule, but cannot substitute for changed stroke geometry and density."},
+    {"persona":"Perceptual critic","argument":"With gates, threads, labels, and readout hidden, a viewer should identify a repeated divide followed by a common downstream knot. If it reads as independent colour accents or a wave field, the mutation fails."},
+    {"persona":"Interaction critic","argument":"Pointer, Enter, and Space must create the same bounded structural gate; lifting only the latest one must reproduce the exact prior route field, including its split and settled deposit."},
+    {"persona":"Cynic","argument":"A braid is an easy metaphor. Delete v009 if the field only displays decorative threads, if the routes never rejoin, or if the prose explains more settling than the brush marks can show."}
+  ],
+  "metrics": {
+    "visitorInput": true,
+    "seed": "0x42525539",
+    "stages": 13,
+    "strokesPerStage": 10,
+    "pointsPerStroke": 68,
+    "primitiveBudget": 43,
+    "memoryWindow": 8,
+    "memoryRule": "a remembered removal becomes a braid gate that splits neighboring wet routes and settles them into one downstream deposit",
+    "interactionRule": "a visitor braid gate changes downstream split, settlement, route, width, and deposit geometry; lifting it restores the exact prior field",
+    "replay": true,
+    "renderer": "deterministic Canvas 2D",
+    "browserEvidence": {
+      "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+      "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-11/",
+      "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v009/?preview=1&interaction=1",
+      "canonicalShellAndEmbeddedTableauRendered": true,
+      "tableauFirst": "canonical shell rendered the v009 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+      "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+      "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interactive and blind 390x844 previews also matched",
+      "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844",
+      "initialConsoleProbe": "zero console messages and zero page errors across all ten canonical, raw interactive, and raw blind runs",
+      "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+      "normalState": "normal-motion canonical runs opened at stage 01 / 13 with 0 braid gates",
+      "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 13 / 13 with 8 braid gates",
+      "pointerInteraction": "raw pointer changed memory from 0 to 1 braid gate and paused the tableau",
+      "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 braid gates and retained the changed route field",
+      "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior pointer-state canvas data URL",
+      "releaseInteraction": "release sequence returned memory 0 and restarted the sequence",
+      "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, readout, gates, threads, and notation hidden; no overflow",
+      "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one local interaction capture, and one local raw blind capture",
+      "evidenceFiles": "research/qa/proofs/brush-v009-2026-09-11/results.json, probe.mjs, and twelve PNG captures",
+      "unresolved": ["independent caption-free perceptual comparison with braid gates, threads, labels, notation, and readout hidden", "production stable-alias readback and provider revision linking deployment to the eventual GitHub SHA"]
+    }
+  },
+  "source": null,
+  "decision": {
+    "nextMutation": "Run an independent caption-free comparison with braid gates, threads, labels, notation, and readout hidden; delete v009 if the strokes do not visibly split and settle into a common downstream deposit.",
+    "lineage": "brush-2026-09-10"
+  }
+},
+    {
       "id": "typography-2026-09-11",
       "currentId": "typography",
       "date": "2026-09-11",
