@@ -1,0 +1,42 @@
+{
+  "id": "handwriting-v007",
+  "seed": "mutine-handwriting-v007-stutter / 0x73747574",
+  "visitorInput": true,
+  "stages": 13,
+  "routeCount": 16,
+  "pointsPerRoute": 32,
+  "primitiveBudget": 34,
+  "memoryWindow": 6,
+  "sharedStutterRule": true,
+  "memoryRule": "a remembered refusal becomes a shared stutter repeated by nearby later routes",
+  "interactionRule": "a visitor stutter changes later route points and after-cadence; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "measured": true,
+  "browserEvidence": {
+    "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+    "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-11/",
+    "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v007/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": "canonical shell rendered the v007 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+    "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interactive and blind 390x844 previews matched",
+    "touchTargets": "all three raw interaction buttons measured at least 44 CSS px at 390x844",
+    "initialConsoleProbe": "zero console messages and zero page errors across all ten canonical, raw interactive, and raw blind runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+    "normalState": "normal-motion canonical runs opened at stage 00 / 12 with 0 stutters",
+    "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 12 / 12 with deterministic accumulated memory",
+    "pointerInteraction": "raw pointer changed memory from 0 to 1, affected 11 routes, and paused the tableau",
+    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and retained the changed route field",
+    "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior pointer-state route signature",
+    "releaseInteraction": "release sequence returned to stage 00 / 12, memory 0, and unpaused the sequence",
+    "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, witnesses, labels, and interaction panel hidden; no overflow",
+    "canvasCaptures": "12 PNG captures written: ten canonical viewport/motion captures, one interaction capture, and one raw caption-free blind capture",
+    "evidenceFiles": "research/qa/proofs/typography-v007-2026-09-11/results.json, probe.mjs, and twelve PNG captures",
+    "unresolved": [
+      "independent caption-free perceptual comparison with stutter witnesses, labels, and readout hidden",
+      "GitHub and stable production revision provenance"
+    ]
+  },
+  "promotion": "candidate / held pending independent perceptual review"
+}

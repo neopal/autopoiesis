@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <title>MUTINE — The sentence stutters together.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=007">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-11"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v007</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v007</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes that repeat one shared hook before continuing with a changed cadence" aria-keyshortcuts="Enter Space R"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 007</span><span>SHARED STUTTER</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v007-stutter</span><span>refusal &gt; repeat &gt; after-cadence</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to interrupt a line. Nearby routes must repeat its small hook together, then carry the stutter into their next cadence. Lift the latest stutter to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-stutter" type="button">place stutter</button>
+          <button id="lift-stutter" type="button">lift latest</button>
+          <button id="release-sequence" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The sentence is moving; a shared hesitation is forming.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v007</p>
+        <h1 id="work-title">The sentence stutters<br><i>together.</i></h1>
+        <p class="lede">A refusal no longer opens a hole. It makes nearby routes repeat the same small hook before they continue, so hesitation becomes a collective rhythm rather than a missing sign.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v007</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered refusal becomes a shared stutter. Nearby later routes bend toward one hinge, repeat a doubled hook across the same interval, then leave with a common phase slip before returning to their lanes.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space adds one bounded stutter. Route points are recomputed from memory; lifting the latest stutter rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the stutter witnesses, labels, and readout. If the routes do not still repeat one local gesture together and carry its altered cadence, the mutation is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v007 if a caption-free comparison cannot locate the shared repeated hook in the handwriting itself, if one line carries the meaning alone, or if the witness accent explains more than the routes show.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/typography-2026-09-10/">previous daily work</a><a href="/journal/#journal-typography-2026-09-11">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=007"></script>
+</body>
+</html>
