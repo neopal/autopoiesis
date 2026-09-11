@@ -11,10 +11,10 @@ const catalog = buildCatalog(studio, worksData);
 
 test('catalog is current -> daily work -> journal/critique data', () => {
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 45);
+  assert.equal(catalog.works.length, 46);
   assert.equal(catalog.works.length, worksData.works.length);
-  assert.equal(catalog.worksByCurrent.typography.length, 7);
-  assert.deepEqual(catalog.worksByCurrent.typography.map((work) => work.date), ['2026-09-11', '2026-09-10', '2026-09-09', '2026-09-04', '2026-09-03', '2026-08-31', '2026-08-28']);
+  assert.equal(catalog.worksByCurrent.typography.length, 8);
+  assert.deepEqual(catalog.worksByCurrent.typography.map((work) => work.date), ['2026-09-12', '2026-09-11', '2026-09-10', '2026-09-09', '2026-09-04', '2026-09-03', '2026-08-31', '2026-08-28']);
   assert.deepEqual(catalog.worksByCurrent.svg.map((work) => work.id), ['svg-2026-09-10', 'svg-2026-09-09', 'svg-2026-09-08', 'svg-2026-09-07', 'svg-2026-09-04', 'svg-2026-09-03', 'svg-2026-09-02', 'svg-2026-08-31']);
   assert.equal(catalog.works.find((work) => work.id === 'naive-2026-08-31').lifecycle, 'active');
   assert.ok(catalog.works.every((work) => work.route === `/works/${work.id}/`));

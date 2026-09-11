@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d12">
+  <title>MUTINE — The break walks the sentence.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=008">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-12"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v008</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v008</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes passing one break from lane to lane" aria-keyshortcuts="Enter Space R"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 008</span><span>THE WALKING BREAK</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v008-relay</span><span>refusal &gt; handoff &gt; after-cadence</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to interrupt a line. The break must pass from route to route, arriving at a different point in each lane. Lift the latest relay to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-relay" type="button">place relay</button>
+          <button id="lift-relay" type="button">lift latest</button>
+          <button id="release-sequence" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The sentence is moving; a break is learning how to travel.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v008</p>
+        <h1 id="work-title">The break walks<br><i>the sentence.</i></h1>
+        <p class="lede">A refusal no longer holds a single band. It is handed from route to route: each line receives the break at a slightly different point, then carries a changed cadence onward.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v008</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered refusal becomes a relay. Routes near the interruption bend toward its handoff, receive the hook at staggered downstream points, then leave with a lane-dependent after-cadence.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space adds one bounded relay. Route points are recomputed from memory; lifting the latest relay rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the relay witnesses, labels, and readout. If the break does not visibly migrate across several routes at different points, the mutation is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v008 if a caption-free comparison finds one fixed event instead of a passing handoff, if only one route carries the meaning, or if the witness accent explains more than the writing shows.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/typography-2026-09-11/">previous daily work</a><a href="/journal/#journal-typography-2026-09-12">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=008"></script>
+</body>
+</html>
