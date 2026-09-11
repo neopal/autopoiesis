@@ -5,6 +5,7 @@ import { access, readFile } from 'node:fs/promises';
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 const expectedDailyIds = [
+  'webgpu-2026-09-11',
   'brush-2026-09-11',
   'typography-2026-09-11',
   'portrait-2026-09-11',
@@ -57,7 +58,7 @@ test('daily work register preserves the recorded dates without inventing history
   assert.equal(data.schema, 'mutine-works/v1');
   assert.deepEqual(data.works.map((work) => work.id), expectedDailyIds);
   assert.deepEqual(data.works.map((work) => work.date), [
-    '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
+    '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
     '2026-08-28', '2026-08-28', '2026-08-31', '2026-08-31',
     '2026-08-31', '2026-08-31', '2026-08-31', '2026-09-09'
   ]);
@@ -138,7 +139,7 @@ test('the catalogue groups daily works by current in reverse chronological order
   const catalog = buildCatalog(studio, works);
 
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 44);
+  assert.equal(catalog.works.length, 45);
   for (const current of catalog.currents) {
     const dates = current.works.map((work) => work.date);
     assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
@@ -173,7 +174,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'portrait-2026-09-03',
     'portrait-2026-08-31'
   ]);
-  assert.deepEqual(catalog.currents.find((current) => current.id === 'webgpu').works.map((work) => work.id), ['webgpu-2026-09-10', 'webgpu-2026-09-09', 'webgpu-2026-09-08', 'webgpu-2026-09-07', 'webgpu-2026-09-04', 'webgpu-2026-09-03']);
+  assert.deepEqual(catalog.currents.find((current) => current.id === 'webgpu').works.map((work) => work.id), ['webgpu-2026-09-11', 'webgpu-2026-09-10', 'webgpu-2026-09-09', 'webgpu-2026-09-08', 'webgpu-2026-09-07', 'webgpu-2026-09-04', 'webgpu-2026-09-03']);
 });
 
 test('current register contains identity and cadence policy but no duplicated work arrays', async () => {
