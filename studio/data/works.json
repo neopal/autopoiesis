@@ -293,7 +293,20 @@
           "releaseInteraction": "release sequence returned to stage 01 / 12, memory 0, and restarted the sequence",
           "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, readout, fuse dots, and SVG notation hidden; no overflow",
           "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one raw blind capture",
-          "evidenceFiles": "research/qa/proofs/naive-art-v007-2026-09-11/results.json, probe.mjs, release-readback.mjs, release-readback.json, and twelve PNG captures"
+          "evidenceFiles": "research/qa/proofs/naive-art-v007-2026-09-11/results.json, probe.mjs, release-readback.mjs, release-readback.json, and twelve PNG captures",
+          "production": {
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "deploymentUrl": null,
+            "deploymentMethod": "Vercel CLI production deploy was attempted after GitHub push 08d6b0d1be0f45e8ea8b487e25a844384fd38c56 but blocked by inaccessible scope; stable alias content was read back independently",
+            "worksJsonRecord": "HTTP 200 JSON contained naive-2026-09-11, title, rawPath /studies/naive-art/v007/, and Journal anchor",
+            "canonicalWork": "production Playwright matrix rendered HTTP 200 canonical work with tableau before prose, one v007 iframe/canvas, and no overflow at all ten viewport/motion runs",
+            "journal": "HTTP 200 rendered production Journal at 390x844 contained exactly one #journal-naive-2026-09-11 entry with the recorded title and /works/naive-2026-09-11/#journal href",
+            "rawPreview": "production Playwright readback rendered HTTP 200 raw preview with canvas, three 44px controls, no overflow, and memory 2 to 3 to 4 to 3 to 0 through pointer/keyboard/undo/release",
+            "favicon": "HTTP 200",
+            "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production matrix, interaction, blind, and Journal readback",
+            "evidenceFiles": "research/qa/proofs/naive-art-v007-2026-09-11/production/results.json, production-probe.mjs, production journal and canonical/raw PNG captures",
+            "providerRevision": "not verified: stable alias content was observed after GitHub push, but the blocked Vercel CLI did not report the provider revision linking the alias to the GitHub SHA"
+          }
         }
       },
       "source": null,

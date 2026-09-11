@@ -75,6 +75,7 @@ test('Naive v007 is recorded exactly once as the 2026-09-11 daily work', async (
   assert.equal(record.journal.anchor, 'journal-naive-2026-09-11');
   assert.ok(record.critiques.length >= 3);
   assert.match(record.metrics.memoryRule, /companion|shadow/);
+  assert.equal(record.metrics.browserEvidence?.production?.worksJsonRecord, 'HTTP 200 JSON contained naive-2026-09-11, title, rawPath /studies/naive-art/v007/, and Journal anchor');
   assert.equal(await read('studies/naive-art/v007/README.md').then(Boolean), true);
   assert.equal(await read('works/naive-2026-09-11/index.html').then(Boolean), true);
 });
