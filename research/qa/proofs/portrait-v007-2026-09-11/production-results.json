@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-09-11T05:53:25.043Z",
+  "stableAlias": "https://autopoiesis-nine.vercel.app",
+  "canonical": {
+    "status": 200,
+    "title": "The face looks away from its decision.",
+    "tableauFirst": true,
+    "canvas": 1,
+    "layout": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "capture": "production-canonical-390x844.png",
+    "pageErrors": [],
+    "requestFailures": [],
+    "httpErrors": []
+  },
+  "journal": {
+    "status": 200,
+    "anchorCount": 1,
+    "titleCount": 1,
+    "workHrefCount": 1,
+    "layout": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "capture": "production-journal-390x844.png",
+    "pageErrors": [],
+    "requestFailures": [],
+    "httpErrors": []
+  },
+  "raw": {
+    "status": 200,
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "gazeRoutes": 0,
+      "counterGazePressure": 0,
+      "interaction": null,
+      "paused": false
+    },
+    "pointer": {
+      "stage": 0,
+      "memory": 1,
+      "gazeRoutes": 1,
+      "counterGazePressure": 1.25,
+      "interaction": "visitor-counter-gaze",
+      "paused": true
+    },
+    "keyboard": {
+      "stage": 0,
+      "memory": 2,
+      "gazeRoutes": 2,
+      "counterGazePressure": 2.5,
+      "interaction": "visitor-counter-gaze",
+      "paused": true
+    },
+    "lifted": {
+      "stage": 0,
+      "memory": 1,
+      "gazeRoutes": 1,
+      "counterGazePressure": 1.25,
+      "interaction": "gaze-returned",
+      "paused": true
+    },
+    "controls": [
+      {
+        "label": "look away",
+        "height": 44
+      },
+      {
+        "label": "return latest gaze",
+        "height": 44
+      },
+      {
+        "label": "release sequence",
+        "height": 44
+      }
+    ],
+    "layout": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "capture": "production-raw-interaction-390x844.png",
+    "pageErrors": [],
+    "requestFailures": [],
+    "httpErrors": []
+  }
+}

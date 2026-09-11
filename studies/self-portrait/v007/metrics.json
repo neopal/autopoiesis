@@ -11,7 +11,7 @@
   "replay": true,
   "renderer": "deterministic Canvas 2D",
   "browserEvidence": {
-    "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+    "status": "local and production headless browser readback passed / held for independent caption-free perceptual review",
     "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-11/",
     "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v007/?preview=1&interaction=1",
     "canonicalShellAndEmbeddedTableauRendered": true,
@@ -30,9 +30,22 @@
     "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, readout, and interaction controls hidden; no overflow",
     "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one raw blind capture",
     "evidenceFiles": "research/qa/proofs/portrait-v007-2026-09-11/results.json, probe.mjs, and twelve PNG captures",
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentUrl": null,
+      "deploymentMethod": "requested Vercel CLI production deploy was blocked by inaccessible scope and missing local credentials; stable alias content was read back independently after Git push",
+      "worksJsonRecord": "HTTP 200 JSON contained portrait-2026-09-11, title, rawPath /studies/self-portrait/v007/, and Journal anchor",
+      "canonicalWork": "HTTP 200 rendered production canonical work at 390x844 with tableau before prose, one v007 iframe/canvas, recorded title, and no overflow",
+      "journal": "HTTP 200 rendered production Journal at 390x844 contained exactly one #journal-portrait-2026-09-11 entry with the recorded title and /works/portrait-2026-09-11/#journal href",
+      "rawPreview": "HTTP 200 rendered production raw preview at 390x844 with preview and interactive classes, canvas, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 through pointer/keyboard/lift",
+      "favicon": "HTTP 200",
+      "browserIssues": "empty page-error, request-failure, and HTTP 400+ arrays across production canonical, raw interaction, and Journal readback",
+      "evidenceFiles": "research/qa/proofs/portrait-v007-2026-09-11/production-results.json, production-probe.mjs, production-canonical-390x844.png, production-journal-390x844.png, and production-raw-interaction-390x844.png",
+      "providerRevision": "not verified: stable alias content was observed, but the provider revision linking it to GitHub SHA 7c59a25dc44ca4d56957ef7d761e1e2a0cb9f0a5 was not reported by the blocked CLI deploy"
+    },
     "unresolved": [
       "independent caption-free perceptual comparison with gaze witnesses, labels, and readout hidden",
-      "public production URL, GitHub SHA, and deployed Journal verification"
+      "provider/deployment revision linking the stable alias to GitHub SHA 7c59a25dc44ca4d56957ef7d761e1e2a0cb9f0a5"
     ]
   }
 }
