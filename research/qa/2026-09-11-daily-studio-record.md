@@ -12,9 +12,10 @@ The catalogue remains explicit and factual: `studio/data/studio.json` is the
 unique. Today's records are Handwriting, Self portrait, and Brush; Pure SVG,
 Naive art, and dormant WebGPU remain unrecorded for today.
 
-The Brush candidate remains **candidate / held**. Source and browser gates are
-green locally; independent caption-free perceptual review and production
-readback remain unresolved. No claim of exhibition-ready status is made.
+The Brush candidate remains **candidate / held**. Source, local browser, and
+stable-alias browser gates are green; independent caption-free perceptual review
+and provider revision linkage remain unresolved. No claim of exhibition-ready
+status is made.
 
 ## Artwork record
 
@@ -75,9 +76,24 @@ captures.
 
 ## Deployment boundary
 
-No commit, push, production deploy, or stable-alias readback was performed in
-this record yet. The candidate is not promoted. Provider/deployment revision
-linkage remains unresolved and must not be inferred from local evidence.
+The requested Vercel CLI production deploy was attempted twice and blocked: the
+configured scope was inaccessible, then the local CLI reported no credentials.
+The stable alias nevertheless served the pushed catalogue content and was
+verified independently at `https://autopoiesis-nine.vercel.app`:
+
+- `/studio/data/works.json` returned HTTP 200 and contained the Brush record,
+  title, raw path, and Journal anchor.
+- `/works/brush-2026-09-11/` returned HTTP 200; production Playwright rendered
+  the tableau before prose across the full ten-run viewport/motion matrix.
+- `/journal/` returned HTTP 200 and contained exactly one
+  `#journal-brush-2026-09-11` entry with the title and canonical work href.
+- `/studies/p5-brush/v009/?preview=1&interaction=1` returned HTTP 200 and
+  passed the same pointer/keyboard/lift/release interaction evidence.
+- `/favicon.ico` returned HTTP 200.
+
+Stable-alias content is observed, but no provider revision linking it to
+GitHub SHA `086aa2d6a7e08dcd6cee0f299a12d420d59dcc1e` was reported by the
+blocked CLI. Do not collapse that provenance boundary.
 
 ## Files changed for this run
 
@@ -88,8 +104,8 @@ linkage remains unresolved and must not be inferred from local evidence.
 - `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`,
   `tests/evolution-catalog.test.mjs` — expected register totals and ordering
   updated for the new record.
-- `research/qa/proofs/brush-v009-2026-09-11/` — browser results, probe, and
-  captures.
+- `research/qa/proofs/brush-v009-2026-09-11/` — local and stable-alias
+  browser results, probes, and 25 PNG captures.
 
 ## Archive decision
 

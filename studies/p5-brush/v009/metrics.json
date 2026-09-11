@@ -11,16 +11,16 @@
   "replay": true,
   "renderer": "deterministic Canvas 2D",
   "browserEvidence": {
-    "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+    "status": "local and production stable-alias headless browser readback passed / held for independent caption-free perceptual review",
     "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-11/",
     "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v009/?preview=1&interaction=1",
     "canonicalShellAndEmbeddedTableauRendered": true,
     "tableauFirst": "canonical shell rendered the v009 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
-    "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
-    "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interactive and blind 390x844 previews also matched",
-    "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844",
-    "initialConsoleProbe": "zero console messages and zero page errors across all ten canonical, raw interactive, and raw blind runs",
-    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+    "viewportMatrix": "10/10 local and 10/10 stable-alias headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all local and stable-alias canonical runs; raw interactive and blind 390x844 previews also matched",
+    "touchTargets": "all three local and stable-alias raw interaction buttons measured 44 CSS px high at 390x844",
+    "initialConsoleProbe": "zero console messages and zero page errors across all local and stable-alias canonical, raw interactive, raw blind, and Journal runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all local and stable-alias canonical, raw interactive, raw blind, and Journal runs",
     "normalState": "normal-motion canonical runs opened at stage 01 / 13 with 0 braid gates",
     "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 13 / 13 with 8 braid gates",
     "pointerInteraction": "raw pointer changed memory from 0 to 1 braid gate and paused the tableau",
@@ -28,11 +28,24 @@
     "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior pointer-state canvas data URL",
     "releaseInteraction": "release sequence returned memory 0 and restarted the sequence",
     "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, readout, gates, threads, and notation hidden; no overflow",
-    "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one local interaction capture, and one local raw blind capture",
-    "evidenceFiles": "research/qa/proofs/brush-v009-2026-09-11/results.json, probe.mjs, and twelve PNG captures",
+    "canvasCaptures": "25 PNG captures written: 12 local and 12 stable-alias canonical/raw captures plus one stable-alias Journal capture",
+    "evidenceFiles": "research/qa/proofs/brush-v009-2026-09-11/results.json, production/results.json, probe.mjs, production-probe.mjs, and PNG captures",
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentUrl": null,
+      "deploymentMethod": "requested Vercel CLI production deploy was blocked by inaccessible scope and missing local credentials; stable alias content was read back independently after Git push",
+      "worksJsonRecord": "HTTP 200 JSON contained brush-2026-09-11, title, rawPath /studies/p5-brush/v009/, and Journal anchor",
+      "canonicalWork": "production Playwright matrix rendered HTTP 200 canonical work with tableau before prose, one v009 iframe/canvas, title, and no overflow at all ten viewport/motion runs",
+      "journal": "HTTP 200 rendered Journal at 390x844 contained exactly one #journal-brush-2026-09-11 entry with the recorded title and /works/brush-2026-09-11/#journal href",
+      "rawPreview": "production Playwright matrix rendered HTTP 200 raw preview with canvas, three 44px controls, 390px overflow-free geometry, and memory 0 to 1 to 2 to 1 to 0 through pointer/keyboard/lift/release",
+      "favicon": "HTTP 200",
+      "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production matrix, interaction, blind, and Journal readback",
+      "evidenceFiles": "research/qa/proofs/brush-v009-2026-09-11/production/results.json, production-probe.mjs, production/production-journal-390x844.png",
+      "providerRevision": "not verified: stable alias content was observed after Git push, but the blocked Vercel CLI did not report the provider revision linking the alias to GitHub SHA 086aa2d6a7e08dcd6cee0f299a12d420d59dcc1e"
+    },
     "unresolved": [
       "independent caption-free perceptual comparison with braid gates, threads, labels, notation, and readout hidden",
-      "production stable-alias readback and provider revision linking deployment to the eventual GitHub SHA"
+      "provider revision linking the stable alias to GitHub SHA 086aa2d6a7e08dcd6cee0f299a12d420d59dcc1e"
     ]
   }
 }
