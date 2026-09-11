@@ -88,6 +88,80 @@
       }
     },
     {
+      "id": "portrait-2026-09-11",
+      "currentId": "portrait",
+      "date": "2026-09-11",
+      "title": "The face looks away from its decision.",
+      "rawPath": "/studies/self-portrait/v007/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-11",
+        "note": "v007 changes the portrait rule: a remembered decision becomes a counter-gaze. The opposite contour bends downstream, the eye aperture and pupil slip away, and a sight route returns toward the answering contour; returning the latest gaze rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The decision must be carried by the opposite contour response, displaced aperture/pupil, and sight route together, not by a coral line or a caption calling a displacement a gaze."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, and route witnesses hidden, a viewer should find an eye leaving the marked side while the face answers elsewhere. If it reads as a decorative offset or ordinary profile, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded counter-gaze, while returning it must restore the exact prior contour, eye, pupil, and route from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Looking away is an easy metaphor. Delete v007 if hiding the witness marks leaves only a coloured thread, if the pupil moves without the body answering, or if the prose explains more refusal than the portrait can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x53505637",
+        "stages": 13,
+        "contourPoints": 52,
+        "gazeRoutePoints": 16,
+        "primitiveBudget": 46,
+        "memoryWindow": 4,
+        "memoryRule": "a remembered decision becomes a counter-gaze: the opposite contour bends while the eye slips away and sends a route back across the face",
+        "interactionRule": "a visitor counter-gaze changes downstream contour, aperture, pupil, and sight-route geometry; returning it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+          "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-11/",
+          "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v007/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": "canonical shell rendered the v007 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+          "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; embedded previews matched their own client geometry; raw interaction and blind 390x844 previews matched",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844",
+          "initialConsoleProbe": "zero console messages and zero page errors across all ten canonical, raw interactive, and raw blind runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+          "normalState": "normal-motion canonical runs opened at stage 00 / 13 with 0 counter-gazes",
+          "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 12 / 13 with 4 counter-gazes and 4 sight routes",
+          "pointerInteraction": "raw pointer changed memory from 0 to 1 counter-gaze, added one sight route, and paused the tableau",
+          "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 counter-gazes and retained the changed route field",
+          "liftInteraction": "return latest gaze changed memory from 2 to 1 and reported gaze-returned",
+          "releaseInteraction": "release sequence returned to stage 00 / 13, memory 0, and unpaused the sequence",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, readout, and interaction controls hidden; no overflow",
+          "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one raw blind capture",
+          "evidenceFiles": "research/qa/proofs/portrait-v007-2026-09-11/results.json, probe.mjs, and twelve PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with gaze witnesses, labels, and readout hidden",
+            "public production URL, GitHub SHA, and deployed Journal verification"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with labels, route witnesses, and readout hidden; delete v007 if the eye looking away and the answering contour cannot be identified in the portrait itself.",
+        "lineage": "portrait-2026-09-10"
+      }
+    },
+    {
       "id": "webgpu-2026-09-10",
       "currentId": "webgpu",
       "date": "2026-09-10",
