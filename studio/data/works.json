@@ -67,11 +67,23 @@
           "releaseInteraction": "release sequence returned memory 0 and restarted the sequence",
           "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, readout, census witnesses, labels, and notation hidden; no overflow",
           "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one local interaction capture, and one local raw blind capture",
-          "evidenceFiles": "research/qa/proofs/webgpu-v007/results.json, probe.mjs, and PNG captures"
+          "evidenceFiles": "research/qa/proofs/webgpu-v007/results.json, probe.mjs, and PNG captures",
+          "production": {
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "deploymentUrl": null,
+            "deploymentMethod": "requested Vercel CLI production deploy was blocked by inaccessible scope; stable alias content was read back independently after Git push",
+            "worksJsonRecord": "HTTP 200 JSON contained exactly one webgpu-2026-09-11 record, title, rawPath /studies/webgpu/v007/, and Journal anchor",
+            "canonicalWork": "production Playwright readback at 390x844 rendered HTTP 200 canonical work with tableau before prose, one v007 iframe/canvas, and no overflow",
+            "journal": "production Playwright readback at 390x844 rendered HTTP 200 Journal with exactly one #journal-webgpu-2026-09-11 entry, recorded title, and /works/webgpu-2026-09-11/#journal href",
+            "favicon": "no HTTP 400+ response in production canonical or Journal readback",
+            "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical and Journal readback",
+            "evidenceFiles": "research/qa/proofs/webgpu-v007/production-results.json, production-probe.mjs, production-canonical-390x844.png, and production-journal-390x844.png",
+            "providerRevision": "not verified: the Vercel CLI was blocked by inaccessible scope and did not report the provider revision linking the stable alias to GitHub SHA 1d0fe3d0b402e785f84eb9fd4bbcf8c4560b5589"
+          }
         },
         "unresolved": [
           "caption-free perceptual review with census witnesses and readout hidden",
-          "responsive and production browser evidence"
+          "provider revision linking the stable alias to GitHub SHA 1d0fe3d0b402e785f84eb9fd4bbcf8c4560b5589"
         ]
       },
       "source": null,
