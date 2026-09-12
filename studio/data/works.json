@@ -36,7 +36,7 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "browserEvidence": {
-          "status": "local headless browser matrix passed / held for independent caption-free perceptual review and production readback",
+          "status": "local and stable-alias headless browser matrix passed / held for independent caption-free perceptual review",
           "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-12/",
           "rawPreview": "http://127.0.0.1:4173/studies/naive-art/v008/?preview=1&interaction=1",
           "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
@@ -45,9 +45,21 @@
           "networkAndConsole": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all canonical, raw interactive, and static blind runs",
           "interaction": "pointer, Enter, undo, and release changed the deterministic knot memory as observed; static blind preview hid controls and notation without overflow",
           "captures": "research/qa/proofs/naive-art-v008-2026-09-12/results.json, probe.mjs, and twelve PNG captures",
+          "production": {
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "deploymentUrl": null,
+            "deploymentMethod": "manual Vercel CLI deploy was blocked by scope-not-accessible and no-credentials-found; stable alias content was observed independently after Git push",
+            "recordExactlyOnce": true,
+            "worksJson": "HTTP 200 JSON contained exactly one naive-2026-09-12 record, title The mistake keeps a knot., rawPath /studies/naive-art/v008/, and Journal anchor journal-naive-2026-09-12",
+            "canonicalWork": "HTTP 200 production readback rendered the v008 tableau before generated title/prose, with no horizontal overflow at 390x844",
+            "journal": "HTTP 200 production readback rendered exactly one #journal-naive-2026-09-12 entry with the recorded title and /works/naive-2026-09-12/#journal href",
+            "rawInteraction": "HTTP 200 production readback measured three 44px controls and observed memory 2 to 3 to 4 to 3 to 0 through pointer/keyboard/undo/release",
+            "favicon": "HTTP 200 /studio/favicon.svg",
+            "networkAndConsole": "zero console messages, page errors, failed requests, and HTTP 400+ responses on production canonical and raw interaction runs",
+            "evidenceFiles": "research/qa/proofs/naive-art-v008-2026-09-12/production/results.json, production-probe.mjs, canonical-390x844.png, raw-interaction-390x844.png, and journal-390x844.png"
+          },
           "unresolved": [
-            "independent caption-free perceptual comparison with labels, bridge, readout, and knot dots hidden",
-            "public deployment and stable-alias readback"
+            "independent caption-free perceptual comparison with labels, bridge, readout, and knot dots hidden"
           ]
         }
       },
