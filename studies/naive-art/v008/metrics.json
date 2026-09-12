@@ -1,0 +1,19 @@
+{
+  "renderer": "deterministic Canvas 2D",
+  "seed": "0x4e413038",
+  "stages": 13,
+  "primitiveBudget": 42,
+  "memoryWindow": 6,
+  "visitorInput": true,
+  "replay": true,
+  "changedRule": "a retained correction becomes a depart-cross-loop-rejoin knot replayed from roof, ground, and route origins",
+  "memoryRule": "later scenes keep a shared crooked grammar: each retained mistake crosses its lane, loops once, and rejoins downstream",
+  "interactionRule": "visitor placement changes roof, ground, route, handedness, lift, and return-peak geometry; undo restores the exact prior field",
+  "structuralWitnesses": ["house-knot-line", "ground-knot-line", "route-knot"],
+  "settledStage": 13,
+  "settledMemory": 6,
+  "settledStructuralMemory": 6,
+  "settledCrossPoints": 18,
+  "settledLoopPoints": 18,
+  "settledRejoinPoints": 18
+}
