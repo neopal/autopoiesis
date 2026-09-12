@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-09-12T12:46:00.495Z",
+  "target": "brush-2026-09-12",
+  "stableAlias": "https://autopoiesis-nine.vercel.app",
+  "record": {
+    "status": 200,
+    "matches": 1,
+    "title": "The brush keeps a hinge.",
+    "rawPath": "/studies/p5-brush/v010/",
+    "journalAnchor": "journal-brush-2026-09-12"
+  },
+  "results": [
+    {
+      "route": "https://autopoiesis-nine.vercel.app/works/brush-2026-09-12/",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "status": 200,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauFirst": true,
+        "tableauTop": 183.5,
+        "headingTop": 692.296875,
+        "title": "The brush keeps a hinge.",
+        "iframeTitle": "The brush keeps a hinge. — full artwork",
+        "ready": true
+      }
+    },
+    {
+      "route": "https://autopoiesis-nine.vercel.app/journal/",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "status": 200,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "ready": true,
+        "anchor": true,
+        "title": "The brush keeps a hinge.",
+        "workHref": "/works/brush-2026-09-12/#journal"
+      }
+    },
+    {
+      "route": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v010/?preview=1&interaction=1",
+      "viewport": "390x844",
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "status": 200,
+      "evidence": {
+        "initial": "0 hinges remembered",
+        "rects": [
+          {
+            "label": "make a hinge",
+            "width": 117.328125,
+            "height": 44
+          },
+          {
+            "label": "lift latest",
+            "width": 117.328125,
+            "height": 44
+          },
+          {
+            "label": "release sequence",
+            "width": 117.328125,
+            "height": 44
+          }
+        ],
+        "afterPointer": "1 hinges remembered",
+        "afterKeyboard": "2 hinges remembered",
+        "afterLift": "1 hinges remembered",
+        "afterRelease": "0 hinges remembered",
+        "reversibleAfterLatestLift": true,
+        "outer": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390
+        }
+      }
+    },
+    {
+      "route": "https://autopoiesis-nine.vercel.app/favicon.ico",
+      "viewport": "390x844",
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "status": 200,
+      "contentType": "image/vnd.microsoft.icon"
+    }
+  ],
+  "assertions": {
+    "recordExactlyOnce": true,
+    "canonical": true,
+    "journal": true,
+    "raw": true,
+    "noConsoleOrNetworkFailures": true
+  }
+}
