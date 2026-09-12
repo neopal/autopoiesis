@@ -1,0 +1,117 @@
+{
+  "stableAlias": "https://autopoiesis-nine.vercel.app",
+  "routes": {
+    "canonical": {
+      "status": 200,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauTop": 182.5,
+        "headingTop": 661.296875,
+        "title": "The animal keeps a pocket.",
+        "iframeCount": 1
+      },
+      "inner": {
+        "width": 352,
+        "height": 437,
+        "memory": "4",
+        "buttons": [
+          {
+            "id": "fold-control",
+            "height": 44
+          },
+          {
+            "id": "unfold-control",
+            "height": 44
+          },
+          {
+            "id": "release-control",
+            "height": 44
+          }
+        ],
+        "scrollWidth": 352,
+        "clientWidth": 352
+      },
+      "issues": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "httpErrors": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v009-2026-09-12\\production-canonical-390x844.png"
+    },
+    "journal": {
+      "status": 200,
+      "state": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "anchorCount": 1,
+        "titleCount": 2,
+        "href": "/works/svg-2026-09-12/#journal"
+      },
+      "issues": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "httpErrors": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v009-2026-09-12\\production-journal-390x844.png"
+    },
+    "raw": {
+      "status": 200,
+      "initial": {
+        "memory": "0",
+        "overflow": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390
+        }
+      },
+      "final": {
+        "memory": "0",
+        "state": "sequence",
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "buttons": [
+          {
+            "id": "fold-control",
+            "height": 44
+          },
+          {
+            "id": "unfold-control",
+            "height": 44
+          },
+          {
+            "id": "release-control",
+            "height": 44
+          }
+        ]
+      },
+      "issues": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "httpErrors": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v009-2026-09-12\\production-raw-interaction-390x844.png",
+      "sequence": [
+        "0 → 1 pointer",
+        "1 → 2 Enter",
+        "2 → 1 unfold latest",
+        "1 → 0 release"
+      ]
+    }
+  },
+  "failures": [],
+  "worksJson": {
+    "status": 200,
+    "matchCount": 1,
+    "title": "The animal keeps a pocket.",
+    "rawPath": "/studies/pure-svg/v009/",
+    "journalAnchor": "journal-svg-2026-09-12"
+  },
+  "passed": true
+}

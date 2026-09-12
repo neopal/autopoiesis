@@ -21,10 +21,16 @@
   "replay": true,
   "renderer": "deterministic SVG path geometry",
   "browserEvidence": {
-    "status": "local headless browser matrix passed / held for independent caption-free perceptual review",
+    "status": "local and stable-alias headless browser readback passed / held for independent caption-free perceptual review and provider-revision verification",
     "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-12/",
     "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v009/?preview=1&interaction=1",
-    "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/results.json and thirteen PNG captures"
+    "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/results.json and thirteen local PNG captures",
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "readback": "HTTP 200 JSON, canonical work, Journal, raw interaction, and favicon; zero console/page/request/HTTP issues",
+      "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/production-results.json and three production PNG captures",
+      "providerRevision": "not verified: Vercel CLI scope and credentials unavailable"
+    }
   },
   "unresolved": [
     "independent caption-free perceptual comparison with pocket witnesses, labels, and readout hidden",

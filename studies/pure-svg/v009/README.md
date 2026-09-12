@@ -20,4 +20,4 @@
 
 ## Evidence state
 
-The deterministic engine, bounded visitor input, exact undo, tableau-first contract, responsive CSS hooks, daily register, and local headless browser matrix are covered by `tests/pure-svg-v009.test.mjs` and `research/qa/proofs/svg-v009-2026-09-12/results.json`. The independent caption-free perceptual review and production readback remain held until the release gate is complete.
+The deterministic engine, bounded visitor input, exact undo, tableau-first contract, responsive CSS hooks, local headless browser matrix, and stable-alias readback are covered by `tests/pure-svg-v009.test.mjs` and `research/qa/proofs/svg-v009-2026-09-12/results.json`, `production-results.json`. The independent caption-free perceptual review remains held; Vercel provider revision is not verified because the CLI scope and local credentials were unavailable.

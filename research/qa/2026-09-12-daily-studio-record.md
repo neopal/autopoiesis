@@ -115,6 +115,14 @@ unresolved and were not inferred or mutated:
 `svg-2026-08-31`, `portrait-2026-08-31`, `naive-2026-08-31`, and
 `brush-2026-08-31`.
 
+Stable-alias readback is now observed at `https://autopoiesis-nine.vercel.app`:
+HTTP 200 JSON contains the single SVG record, the canonical work renders the
+v009 tableau first, the Journal renders one SVG anchor/title, and the raw
+preview passes the 390x844 pointer/keyboard/unfold/release sequence with empty
+browser issue arrays. Both Vercel CLI paths were blocked (`scope-not-accessible`
+and `no-credentials-found`), so no deployment URL or provider-revision linkage
+is claimed.
+
 Keep `svg-2026-09-12` as an honest **candidate / held** record. Keep the
-other empty slots visibly held. Production deployment, stable-alias
-readback, and provider-revision linkage remain pending the release step.
+other empty slots visibly held. The independent caption-free perceptual
+comparison remains the unresolved artistic gate.

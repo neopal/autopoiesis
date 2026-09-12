@@ -61,10 +61,23 @@
           "releaseInteraction": "release the body returned to memory 0 and resumed the sequence",
           "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible, hid controls/readout/witness marks, and had no overflow",
           "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, two raw interaction captures, and one static blind capture",
-          "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/results.json, probe.mjs, and thirteen PNG captures",
+          "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/results.json, probe.mjs, production-results.json, production-probe.mjs, and sixteen PNG captures",
+          "production": {
+            "stableAlias": "https://autopoiesis-nine.vercel.app",
+            "deploymentUrl": null,
+            "deploymentMethod": "requested scoped Vercel CLI deploy returned scope-not-accessible; unscoped CLI returned no-credentials-found; stable alias content was observed independently after Git push without inferring a provider mechanism",
+            "worksJsonRecord": "HTTP 200 JSON contained exactly one svg-2026-09-12 record, title, rawPath /studies/pure-svg/v009/, and Journal anchor",
+            "canonicalWork": "production Playwright readback at 390x844 rendered HTTP 200 canonical work with v009 iframe/canvas, title The animal keeps a pocket., tableau before heading, and no overflow",
+            "journal": "production Playwright readback at 390x844 rendered HTTP 200 Journal with exactly one #journal-svg-2026-09-12 entry, recorded title, and /works/svg-2026-09-12/#journal href",
+            "rawPreview": "production Playwright readback at 390x844 rendered HTTP 200 raw preview with SVG, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 to 0 through pointer/keyboard/unfold/release",
+            "favicon": "HTTP 200",
+            "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, Journal, and raw readback",
+            "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/production-results.json, production-probe.mjs, production-canonical-390x844.png, production-journal-390x844.png, and production-raw-interaction-390x844.png",
+            "providerRevision": "not verified: Vercel CLI scope and credentials were unavailable; stable alias content was observed after Git push but the provider revision linking it to GitHub SHA c18d90a2ac4d74038d3ca406d31c0e78edd5713d was not reported"
+          },
           "unresolved": [
             "independent caption-free perceptual comparison with pocket witnesses, labels, and readout hidden",
-            "production deployment and stable-alias readback"
+            "provider revision linking the stable alias to GitHub SHA c18d90a2ac4d74038d3ca406d31c0e78edd5713d"
           ]
         }
       },
