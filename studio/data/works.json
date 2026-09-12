@@ -414,6 +414,75 @@
       }
     },
     {
+      "id": "webgpu-2026-09-12",
+      "currentId": "webgpu",
+      "date": "2026-09-12",
+      "title": "The crowd keeps an echo.",
+      "rawPath": "/studies/webgpu/v008/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-12",
+        "note": "v008 changes the WebGPU rule: a remembered absence opens the lanes, delays a relay across alternating strata, and leaves a phase-shifted echo downstream; lifting the latest echo rebuilds the preceding crowd exactly."
+      },
+      "critiques": [
+        {"persona":"Systems critic","argument":"The archive must be carried by changed agent geometry: an opening relay followed by a displaced second passage, not by the absence cross, counters, or WebGPU label."},
+        {"persona":"Perceptual critic","argument":"With echo witnesses and readouts hidden, a caption-free viewer should find a repeated offset passage in the crowd strata after the initial opening. If it reads as luminous waves or a colour wash, the mutation fails."},
+        {"persona":"Interaction critic","argument":"Pointer and Enter/Space must place the same bounded absence, while lifting the latest one must restore the exact prior agent field from both input paths, including the delayed relay."},
+        {"persona":"Cynic","argument":"An echo is an easy metaphor. Delete v008 if the second passage is only a glow, if the relay never changes downstream coordinates, if edge clicks produce no echo, or if the prose explains more memory than the mass can show."}
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x57475038",
+        "stages": 16,
+        "agentCount": 480,
+        "memoryLimit": 5,
+        "finalMemory": 5,
+        "finalRelayAgents": 108,
+        "finalLaggedAgents": 249,
+        "finalEchoAgents": 207,
+        "finalRouteSeparation": 11.81754593740257,
+        "finalEchoStrength": 0.14914603877843263,
+        "finalEchoLoad": 48.64417944777747,
+        "latestEchoLoad": 13.54713830123338,
+        "latestEchoFieldDelta": 1.5658972085991043,
+        "visitorBoundedPoint": {"x":0.92,"y":0.08},
+        "visitorStage4EchoAgents": 2,
+        "visitorStage4EchoLoad": 0.08352496714738292,
+        "memoryRule": "a remembered absence opens the lanes, delays a relay across alternating strata, and leaves a phase-shifted echo downstream",
+        "interactionRule": "a visitor echo changes downstream relay, lag, echo offset, and route geometry; lifting it restores the exact prior crowd field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held for independent caption-free perceptual review and production readback",
+        "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-12/",
+        "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v008/?preview=1&interaction=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "canonical shell rendered the v008 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interactive and blind 390x844 previews matched",
+        "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 16 with 0 echoes",
+        "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 16 / 16 with 5 echoes",
+        "pointerInteraction": "raw pointer changed memory from 0 to 1 echo and paused the tableau",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 echoes and retained the changed relay field",
+        "liftInteraction": "lift latest changed memory from 1 to 0 and restored the exact prior pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned memory to 0 and restarted the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, controls, readout, echo witnesses, labels, and notation hidden; no overflow",
+        "directRawRedirect": "direct /studies/webgpu/v008/ redirected to /works/webgpu-2026-09-12/",
+        "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one local interaction capture, and one local raw blind capture",
+        "evidenceFiles": "research/qa/proofs/webgpu-v008/results.json, probe.mjs, and twelve PNG captures",
+        "unresolved": ["independent caption-free perceptual comparison with echo witnesses, labels, and readout hidden", "production readback and provider revision"]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with echo witnesses, labels, and readout hidden; delete v008 if the delayed relay and displaced second passage do not remain legible in the crowd strata.",
+        "lineage": "webgpu-2026-09-11"
+      }
+    },
+    {
       "id": "webgpu-2026-09-11",
       "currentId": "webgpu",
       "date": "2026-09-11",
