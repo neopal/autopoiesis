@@ -1,6 +1,82 @@
 {
   "schema": "mutine-works/v1",
   "works": [
+        {
+      "id": "portrait-2026-09-12",
+      "currentId": "portrait",
+      "date": "2026-09-12",
+      "title": "The face keeps a blind spot.",
+      "rawPath": "/studies/self-portrait/v008/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-12",
+        "note": "v008 changes the portrait rule: a remembered decision becomes a blind spot. Two contour lips split around the absence and rejoin downstream while the aperture shifts to keep living around the missing place; returning the latest absence rebuilds the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The decision must be carried by two contour lips that separate around an absent span and reunite downstream, with the aperture shifting too; a dark oval or return line cannot substitute for changed body geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, and route witnesses hidden, a viewer should find a local interruption that the face routes around and later closes. If it reads as a decorative halo or ordinary contour noise, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded blind spot, while returning it must restore the exact prior contour, aperture, split lips, and return route from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A blind spot is an easy metaphor. Delete v008 if hiding the witness marks leaves only a dark patch, if the lips never genuinely separate and rejoin, or if the prose explains more absence than the portrait can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x53505638",
+        "stages": 14,
+        "contourPoints": 56,
+        "lipPoints": 13,
+        "returnRoutePoints": 16,
+        "primitiveBudget": 50,
+        "memoryWindow": 4,
+        "memoryRule": "a remembered decision becomes a blind spot: two contour lips split around the absence and rejoin downstream",
+        "interactionRule": "a visitor blind spot changes downstream contour, aperture, split/rejoin lips, and return-route geometry; returning it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and deployment",
+          "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-12/",
+          "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v008/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": "canonical shell rendered the v008 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+          "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; embedded previews matched their own client geometry; raw interactive and blind 390x844 previews matched",
+          "touchTargets": "all three raw interaction buttons measured 44 CSS px high at 390x844",
+          "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and raw blind runs",
+          "normalState": "normal-motion canonical runs opened at stage 00 / 14 with 0 blind spots",
+          "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 13 / 14 with 4 blind spots and 4 split routes",
+          "pointerInteraction": "raw pointer changed memory from 0 to 1 blind spot, added one split route, and paused the tableau",
+          "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 blind spots and retained the changed split/rejoin field",
+          "liftInteraction": "return latest absence changed memory from 2 to 1 and reported blind-spot-returned",
+          "releaseInteraction": "release sequence returned to stage 00 / 14, memory 0, and unpaused the sequence",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered with editorial furniture, readout, and interaction controls hidden; no overflow",
+          "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one raw blind capture",
+          "evidenceFiles": "research/qa/proofs/portrait-v008-2026-09-12/results.json, probe.mjs, and twelve PNG captures",
+          "production": null,
+          "unresolved": [
+            "independent caption-free perceptual comparison with blind-spot witnesses, labels, and readout hidden",
+            "production readback and provider revision linkage"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Obtain an independent caption-free comparison with blind-spot witnesses, labels, and readout hidden; delete v008 if the face does not visibly route around an absence and rejoin downstream.",
+        "lineage": "portrait-2026-09-11"
+      }
+    },
     {
       "id": "typography-2026-09-12",
       "currentId": "typography",

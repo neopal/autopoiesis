@@ -1,0 +1,383 @@
+import {
+  STAGES,
+  applyBlindSpot,
+  buildTimeline,
+  deleteLatestBlindSpot
+} from './engine.mjs';
+
+const canvas = document.querySelector('#field');
+const context = canvas.getContext('2d', { alpha: false });
+const stageReadout = document.querySelector('[data-stage]');
+const memoryReadout = document.querySelector('[data-memory]');
+const blindControl = document.querySelector('#blind-control');
+const undoControl = document.querySelector('#undo-control');
+const releaseControl = document.querySelector('#release-control');
+const params = new URLSearchParams(location.search);
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const interactivePreview = params.has('interaction');
+const staticPreview = params.get('static') === '1' || (params.has('preview') && !params.has('interaction'));
+const frozen = reducedMotion || staticPreview;
+const timeline = buildTimeline(STAGES);
+const STAGE_MS = 4200;
+const colors = {
+  ground: '#0b0c12',
+  deep: '#05060a',
+  groundMid: '#1b1724',
+  groundLight: '#3a2d3c',
+  ink: '#f3ecdf',
+  paper: '#e3cda3',
+  coral: '#ef9c78',
+  mint: '#8fd7c5',
+  violet: '#bc9cf3',
+  muted: '#9da0ad'
+};
+
+let width = 1;
+let height = 1;
+let pixelRatio = 1;
+let startedAt = performance.now();
+let currentStage = 0;
+let paused = frozen;
+let interactionFrame = null;
+
+if (interactivePreview) canvas.dataset.interactive = 'true';
+if (staticPreview) {
+  canvas.tabIndex = -1;
+  canvas.removeAttribute('aria-keyshortcuts');
+}
+
+const clamp = (value, min = 0, max = 1) => Math.max(min, Math.min(max, value));
+const midpoint = (a, b) => ({ x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 });
+
+function traceClosed(points) {
+  if (!points?.length) return;
+  const start = midpoint(points.at(-1), points[0]);
+  context.beginPath();
+  context.moveTo(start.x, start.y);
+  points.forEach((point, index) => {
+    const middle = midpoint(point, points[(index + 1) % points.length]);
+    context.quadraticCurveTo(point.x, point.y, middle.x, middle.y);
+  });
+  context.closePath();
+}
+
+function traceOpen(points) {
+  if (!points?.length) return;
+  context.beginPath();
+  context.moveTo(points[0].x, points[0].y);
+  for (let index = 1; index < points.length; index += 1) {
+    const previous = points[index - 1];
+    const point = points[index];
+    const middle = midpoint(previous, point);
+    context.quadraticCurveTo(previous.x, previous.y, middle.x, middle.y);
+    if (index === points.length - 1) context.quadraticCurveTo(point.x, point.y, point.x, point.y);
+  }
+}
+
+function syncCanvas() {
+  const bounds = canvas.getBoundingClientRect();
+  width = Math.max(1, bounds.width);
+  height = Math.max(1, bounds.height);
+  pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+  const pixelWidth = Math.max(1, Math.round(width * pixelRatio));
+  const pixelHeight = Math.max(1, Math.round(height * pixelRatio));
+  if (canvas.width !== pixelWidth || canvas.height !== pixelHeight) {
+    canvas.width = pixelWidth;
+    canvas.height = pixelHeight;
+  }
+  context.setTransform(pixelWidth, 0, 0, pixelHeight, 0, 0);
+}
+
+function drawBackground(stage) {
+  const gradient = context.createRadialGradient(.38, .26, .02, .5, .5, .86);
+  gradient.addColorStop(0, colors.groundLight);
+  gradient.addColorStop(.48, colors.groundMid);
+  gradient.addColorStop(1, colors.deep);
+  context.fillStyle = gradient;
+  context.fillRect(0, 0, 1, 1);
+
+  const halo = context.createRadialGradient(.77, .2, 0, .77, .2, .7);
+  halo.addColorStop(0, 'rgba(143,215,197,.12)');
+  halo.addColorStop(.45, 'rgba(188,156,243,.05)');
+  halo.addColorStop(1, 'rgba(0,0,0,0)');
+  context.fillStyle = halo;
+  context.fillRect(0, 0, 1, 1);
+
+  context.save();
+  context.globalAlpha = .14;
+  context.strokeStyle = colors.paper;
+  context.lineWidth = .00055;
+  for (let index = 0; index < 22; index += 1) {
+    const y = .07 + index * .043;
+    const drift = Math.sin(index * 1.23 + stage * .13) * .017;
+    context.beginPath();
+    context.moveTo(.035, y + drift);
+    context.bezierCurveTo(.27, y - drift * .8, .68, y + drift * .7, .965, y - drift * .22);
+    context.stroke();
+  }
+  context.restore();
+
+  context.save();
+  context.globalCompositeOperation = 'screen';
+  for (let index = 0; index < 360; index += 1) {
+    const x = ((index * 83.17 + stage * 6) % 991) / 991;
+    const y = ((index * 157.31 + 29 + stage * 5) % 997) / 997;
+    context.fillStyle = index % 7 === 0 ? 'rgba(143,215,197,.055)' : 'rgba(227,205,163,.018)';
+    context.fillRect(x, y, .0011, .0011);
+  }
+  context.restore();
+
+  context.save();
+  context.strokeStyle = 'rgba(227,205,163,.36)';
+  context.lineWidth = .0007;
+  context.beginPath();
+  context.moveTo(.045, .045); context.lineTo(.08, .045); context.moveTo(.045, .045); context.lineTo(.045, .08);
+  context.moveTo(.955, .955); context.lineTo(.92, .955); context.moveTo(.955, .955); context.lineTo(.955, .92);
+  context.stroke();
+  context.restore();
+}
+
+function drawContour(points, kind, progress) {
+  const counter = kind === 'counter';
+  context.save();
+  context.globalAlpha = counter ? .3 + progress * .18 : .88;
+  context.fillStyle = counter ? 'rgba(143,215,197,.065)' : 'rgba(243,236,223,.05)';
+  context.strokeStyle = counter ? colors.mint : colors.ink;
+  context.lineWidth = counter ? .00125 : .0025;
+  context.lineJoin = 'round';
+  if (counter) context.setLineDash([.006, .011]);
+  traceClosed(points);
+  context.fill();
+  context.stroke();
+  context.setLineDash([]);
+  context.restore();
+
+  context.save();
+  context.globalAlpha = counter ? .17 + progress * .1 : .15;
+  context.strokeStyle = counter ? colors.violet : colors.coral;
+  context.lineWidth = .009;
+  traceClosed(points);
+  context.stroke();
+  context.restore();
+}
+
+function aperturePath(aperture, scale = 1) {
+  context.save();
+  context.translate(aperture.x, aperture.y);
+  context.rotate(aperture.rotation);
+  context.scale(aperture.rx * scale, aperture.ry * scale);
+  context.beginPath();
+  context.moveTo(-1, 0);
+  context.bezierCurveTo(-.5, -.85, .55, -.82, 1, 0);
+  context.bezierCurveTo(.48, .86, -.5, .82, -1, 0);
+  context.closePath();
+  context.restore();
+}
+
+function drawEye(eye, kind, progress) {
+  const counter = kind === 'counter';
+  context.save();
+  aperturePath(eye);
+  context.globalAlpha = counter ? .92 : .96;
+  context.fillStyle = counter ? 'rgba(7,9,16,.92)' : 'rgba(4,5,10,.98)';
+  context.fill();
+  context.strokeStyle = counter ? colors.mint : colors.paper;
+  context.lineWidth = counter ? .0016 : .0019;
+  context.stroke();
+  context.restore();
+
+  context.save();
+  context.globalAlpha = counter ? .86 : .58;
+  context.fillStyle = counter ? colors.coral : colors.violet;
+  context.beginPath();
+  context.ellipse(eye.pupilX, eye.pupilY, .012 + progress * .002, .019 + progress * .002, eye.rotation, 0, Math.PI * 2);
+  context.fill();
+  context.globalAlpha = .85;
+  context.fillStyle = colors.ink;
+  context.beginPath();
+  context.ellipse(eye.pupilX + (counter ? -.003 : .002), eye.pupilY - .003, .0025, .004, 0, 0, Math.PI * 2);
+  context.fill();
+  context.restore();
+}
+
+function drawBlindRoutes(frame, progress) {
+  frame.blindRoutes.forEach((route, index) => {
+    context.save();
+    context.globalAlpha = .22 + ((index + 1) / frame.blindRoutes.length) * (.22 + progress * .1);
+    context.strokeStyle = index % 2 ? colors.violet : colors.coral;
+    context.lineWidth = .0011 + index * .00012;
+    context.lineCap = 'round';
+    traceOpen(route.upperLip);
+    context.stroke();
+    context.globalAlpha *= .84;
+    context.strokeStyle = colors.mint;
+    context.lineWidth *= .9;
+    traceOpen(route.lowerLip);
+    context.stroke();
+    context.restore();
+
+    context.save();
+    context.globalAlpha = .78;
+    context.fillStyle = 'rgba(3,5,10,.93)';
+    context.translate(route.center.x, route.center.y);
+    context.rotate(Math.atan2(route.lowerLip.at(-1).y - route.upperLip.at(-1).y, route.lowerLip.at(-1).x - route.upperLip.at(-1).x));
+    context.beginPath();
+    context.ellipse(0, 0, route.aperture.rx, route.aperture.ry, 0, 0, Math.PI * 2);
+    context.fill();
+    context.restore();
+
+    context.save();
+    context.globalAlpha = .34 + progress * .16;
+    context.strokeStyle = colors.paper;
+    context.lineWidth = .0012;
+    context.setLineDash([.004, .008]);
+    traceOpen(route.returnRoute);
+    context.stroke();
+    context.setLineDash([]);
+    context.fillStyle = colors.paper;
+    context.beginPath();
+    context.arc(route.center.x, route.center.y, .0045 + index * .001, 0, Math.PI * 2);
+    context.fill();
+    context.restore();
+  });
+}
+
+function drawMarks(frame, state) {
+  if (staticPreview) return;
+  context.save();
+  context.font = '0.013px ui-monospace, SFMono-Regular, Menlo, monospace';
+  context.fillStyle = 'rgba(243,236,223,.72)';
+  context.fillText('SELF / BLIND-SPOT REGISTER', .045, .065);
+  context.fillStyle = colors.coral;
+  const label = state === 'visitor-blind-spot' ? 'ABSENCE REGISTERED' : state === 'blind-spot-returned' ? 'LATEST ABSENCE RETURNED' : `STAGE ${String(frame.stage + 1).padStart(2, '0')} / ${STAGES}`;
+  context.fillText(label, .045, .93);
+  context.textAlign = 'right';
+  context.fillStyle = colors.muted;
+  context.fillText(`${frame.memory.length} BLIND SPOT${frame.memory.length === 1 ? '' : 'S'} CARRIED`, .955, .93);
+  context.restore();
+}
+
+function render(frame, progress = 1, state = 'sequence') {
+  syncCanvas();
+  drawBackground(frame.stage);
+  drawBlindRoutes(frame, progress);
+  drawContour(frame.contour, 'original', progress);
+  drawContour(frame.counterContour, 'counter', progress);
+  drawEye(frame.aperture, 'original', progress);
+  drawEye(frame.counterAperture, 'counter', progress);
+  drawMarks(frame, state);
+
+  if (stageReadout) {
+    stageReadout.textContent = state === 'visitor-blind-spot'
+      ? 'blind spot registered / paused'
+      : state === 'blind-spot-returned'
+        ? 'latest absence returned'
+        : `stage ${String(frame.stage + 1).padStart(2, '0')} / ${STAGES}`;
+  }
+  if (memoryReadout) {
+    memoryReadout.textContent = `${frame.memory.length} blind spot${frame.memory.length === 1 ? '' : 's'} carried · ${frame.blindRoutes.length} split routes`;
+  }
+  canvas.dataset.stage = String(frame.stage);
+  canvas.dataset.memory = String(frame.memory.length);
+  canvas.dataset.interaction = state;
+}
+
+function frameAt(now) {
+  const elapsed = Math.max(0, now - startedAt);
+  const cycle = STAGE_MS * timeline.length;
+  const withinCycle = elapsed % cycle;
+  currentStage = Math.floor(withinCycle / STAGE_MS);
+  return { frame: timeline[currentStage], progress: (withinCycle % STAGE_MS) / STAGE_MS };
+}
+
+function renderCurrent(now = performance.now()) {
+  if (interactionFrame) {
+    render(interactionFrame, 1, interactionFrame.interaction ?? 'visitor-blind-spot');
+    return;
+  }
+  if (frozen) {
+    render(timeline.at(-1), 1, 'sequence');
+    return;
+  }
+  const current = frameAt(now);
+  render(current.frame, current.progress, 'sequence');
+}
+
+function pointerPoint(event) {
+  const bounds = canvas.getBoundingClientRect();
+  return {
+    x: clamp((event.clientX - bounds.left) / Math.max(bounds.width, 1), .08, .92),
+    y: clamp((event.clientY - bounds.top) / Math.max(bounds.height, 1), .16, .84)
+  };
+}
+
+function markBlindSpot(point) {
+  if (staticPreview) return;
+  const base = interactionFrame ?? timeline[currentStage];
+  interactionFrame = applyBlindSpot(base, point);
+  paused = true;
+  render(interactionFrame, 1, 'visitor-blind-spot');
+}
+
+function returnLatestAbsence() {
+  if (staticPreview) return;
+  const base = interactionFrame ?? timeline[currentStage];
+  interactionFrame = deleteLatestBlindSpot(base);
+  paused = true;
+  render(interactionFrame, 1, 'blind-spot-returned');
+}
+
+function releaseSequence() {
+  if (staticPreview) return;
+  interactionFrame = null;
+  currentStage = 0;
+  startedAt = performance.now();
+  paused = false;
+  renderCurrent();
+}
+
+function saveStill() {
+  const link = document.createElement('a');
+  link.download = 'mutine-self-portrait-v008.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+canvas.addEventListener('pointerdown', (event) => {
+  event.preventDefault();
+  markBlindSpot(pointerPoint(event));
+});
+canvas.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    markBlindSpot({ x: .74, y: .4 });
+  }
+  if (event.key.toLowerCase() === 'r') releaseSequence();
+  if (event.key.toLowerCase() === 's') saveStill();
+});
+blindControl?.addEventListener('click', () => markBlindSpot({ x: .74, y: .4 }));
+undoControl?.addEventListener('click', returnLatestAbsence);
+releaseControl?.addEventListener('click', releaseSequence);
+
+function animate(now) {
+  if (!paused) renderCurrent(now);
+  if (!frozen) window.requestAnimationFrame(animate);
+}
+
+new ResizeObserver(() => renderCurrent()).observe(canvas);
+renderCurrent();
+if (!frozen) window.requestAnimationFrame(animate);
+
+window.__mutinePortraitV008 = {
+  getState: () => {
+    const frame = interactionFrame ?? (frozen ? timeline.at(-1) : timeline[currentStage] ?? timeline.at(-1));
+    return {
+      stage: frame.stage,
+      memory: frame.memory.length,
+      blindRoutes: frame.blindRoutes.length,
+      routeSeparation: frame.blindRoutes.reduce((sum, route) => sum + route.separation, 0),
+      interaction: interactionFrame?.interaction ?? null,
+      paused
+    };
+  }
+};

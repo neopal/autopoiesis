@@ -11,7 +11,7 @@ const catalog = buildCatalog(studio, worksData);
 
 test('catalog is current -> daily work -> journal/critique data', () => {
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 46);
+  assert.equal(catalog.works.length, 47);
   assert.equal(catalog.works.length, worksData.works.length);
   assert.equal(catalog.worksByCurrent.typography.length, 8);
   assert.deepEqual(catalog.worksByCurrent.typography.map((work) => work.date), ['2026-09-12', '2026-09-11', '2026-09-10', '2026-09-09', '2026-09-04', '2026-09-03', '2026-08-31', '2026-08-28']);
