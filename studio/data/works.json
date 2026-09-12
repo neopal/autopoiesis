@@ -50,13 +50,14 @@
             "deploymentUrl": null,
             "deploymentMethod": "manual Vercel CLI deploy was blocked by scope-not-accessible and no-credentials-found; stable alias content was observed independently after Git push",
             "recordExactlyOnce": true,
+            "viewportMatrix": "10/10 stable-alias runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
             "worksJson": "HTTP 200 JSON contained exactly one naive-2026-09-12 record, title The mistake keeps a knot., rawPath /studies/naive-art/v008/, and Journal anchor journal-naive-2026-09-12",
             "canonicalWork": "HTTP 200 production readback rendered the v008 tableau before generated title/prose, with no horizontal overflow at 390x844",
             "journal": "HTTP 200 production readback rendered exactly one #journal-naive-2026-09-12 entry with the recorded title and /works/naive-2026-09-12/#journal href",
             "rawInteraction": "HTTP 200 production readback measured three 44px controls and observed memory 2 to 3 to 4 to 3 to 0 through pointer/keyboard/undo/release",
             "favicon": "HTTP 200 /studio/favicon.svg",
             "networkAndConsole": "zero console messages, page errors, failed requests, and HTTP 400+ responses on production canonical and raw interaction runs",
-            "evidenceFiles": "research/qa/proofs/naive-art-v008-2026-09-12/production/results.json, production-probe.mjs, canonical-390x844.png, raw-interaction-390x844.png, and journal-390x844.png"
+            "evidenceFiles": "research/qa/proofs/naive-art-v008-2026-09-12/production/results.json, production-probe.mjs, production-matrix.mjs, canonical-390x844.png, raw-interaction-390x844.png, journal-390x844.png, and ten matrix PNG captures"
           },
           "unresolved": [
             "independent caption-free perceptual comparison with labels, bridge, readout, and knot dots hidden"

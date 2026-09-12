@@ -87,4 +87,5 @@ test('Naive v008 exposes its canvas interaction, preview mode, and daily archive
   assert.equal(record.metrics.browserEvidence.viewportMatrix, '10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes');
   assert.equal(record.metrics.browserEvidence.production.stableAlias, 'https://autopoiesis-nine.vercel.app');
   assert.equal(record.metrics.browserEvidence.production.recordExactlyOnce, true);
+  assert.equal(record.metrics.browserEvidence.production.viewportMatrix, '10/10 stable-alias runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes');
 });
