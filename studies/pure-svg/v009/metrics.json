@@ -1,0 +1,33 @@
+{
+  "visitorInput": true,
+  "seed": "0x53564739",
+  "stages": 12,
+  "primitiveBudget": 18,
+  "memoryWindow": 4,
+  "routeCount": 3,
+  "settledStage": 10,
+  "settledMemory": 4,
+  "settledFoldAnchorIndex": 5,
+  "settledFoldSeamIndex": 10,
+  "settledPocketDepth": 0.09799999999999999,
+  "settledPocketWidth": 0.076,
+  "settledContourDeltaAgainstLatestUnlinked": 0.4177011193607442,
+  "settledGaitDeltaAgainstLatestUnlinked": 1.9539783001759623,
+  "foldedRoutes": 3,
+  "insideRoutes": 2,
+  "outsideRoutes": 1,
+  "memoryRule": "a remembered refusal folds the contour inward into a negative-space pocket and turns the downstream gait inside or outside around its seam",
+  "interactionRule": "a visitor fold changes downstream contour, pocket opening, and route coordinates; unfolding it restores the exact prior body",
+  "replay": true,
+  "renderer": "deterministic SVG path geometry",
+  "browserEvidence": {
+    "status": "local headless browser matrix passed / held for independent caption-free perceptual review",
+    "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-12/",
+    "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v009/?preview=1&interaction=1",
+    "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/results.json and thirteen PNG captures"
+  },
+  "unresolved": [
+    "independent caption-free perceptual comparison with pocket witnesses, labels, and readout hidden",
+    "production deployment and stable-alias readback"
+  ]
+}

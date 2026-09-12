@@ -2,6 +2,79 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-12",
+      "currentId": "svg",
+      "date": "2026-09-12",
+      "title": "The animal keeps a pocket.",
+      "rawPath": "/studies/pure-svg/v009/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-12",
+        "note": "v009 changes the SVG rule: a remembered refusal folds the contour inward, opens a negative-space pocket, and rejoins at a later seam; downstream legs choose inside or outside around the same fold. Unfolding the latest pocket reconstructs the preceding body and gait exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by an actual even-odd opening in the body and changed downstream leg geometry; the gold seam, witness threads, and readout cannot substitute for the pocket."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, and readout hidden, a viewer should find a local bodily opening whose contour folds inward and later rejoins, while the feet share inside/outside consequences. If it reads as a sticker or decorative notch, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must place the same bounded fold, while unfolding the latest one must restore the exact prior contour, pocket, gait, and route state from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A pocket is an easy metaphor. Delete v009 if hiding the witness marks leaves only a dark cut-out, if the seam does not visibly reconnect the contour, or if the prose explains more silence than the animal can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x53564739",
+        "stages": 12,
+        "primitiveBudget": 18,
+        "routeCount": 3,
+        "memoryWindow": 4,
+        "memoryRule": "a remembered refusal folds the contour inward into a negative-space pocket and turns the downstream gait inside or outside around its seam",
+        "interactionRule": "a visitor fold changes downstream contour, pocket opening, and route coordinates; unfolding it restores the exact prior body",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and production readback",
+          "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-12/",
+          "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v009/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": "all ten local canonical runs rendered the v009 tableau iframe before generated title, journal, critique, evidence, and neighbouring-work prose",
+          "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; embedded study frames also matched their own client geometry; raw interactive and static blind 390x844 runs matched",
+          "touchTargets": "all three local canonical embedded interaction buttons measured at least 44 CSS px high; raw 390x844 controls measured exactly 44 CSS px",
+          "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interactive, and static blind runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interactive, and static blind runs",
+          "normalState": "normal-motion canonical runs opened at user-facing stage 01 / 12 (zero-based dataset stage 0) with 0 folds",
+          "reducedMotionState": "reduced-motion canonical runs settled at user-facing stage 12 / 12 (zero-based dataset stage 11) with 4 folds, 3 folded routes, and 2 inside / 1 outside gait",
+          "pointerInteraction": "raw pointer changed memory from 0 to 1 fold and paused the tableau",
+          "keyboardInteraction": "Enter on the focused raw SVG changed memory from 1 to 2 folds and retained the changed pocket/gait field",
+          "unfoldInteraction": "unfold latest changed memory from 2 to 1 and restored the exact preceding structural state",
+          "releaseInteraction": "release the body returned to memory 0 and resumed the sequence",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible, hid controls/readout/witness marks, and had no overflow",
+          "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, two raw interaction captures, and one static blind capture",
+          "evidenceFiles": "research/qa/proofs/svg-v009-2026-09-12/results.json, probe.mjs, and thirteen PNG captures",
+          "unresolved": [
+            "independent caption-free perceptual comparison with pocket witnesses, labels, and readout hidden",
+            "production deployment and stable-alias readback"
+          ]
+        }
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run the responsive and caption-free pocket comparison with witnesses, labels, and readout hidden; delete v009 if the opening does not read as a bodily fold that changes the downstream gait.",
+        "lineage": "pure-svg-v008"
+      }
+    },
+    {
       "id": "portrait-2026-09-12",
       "currentId": "portrait",
       "date": "2026-09-12",

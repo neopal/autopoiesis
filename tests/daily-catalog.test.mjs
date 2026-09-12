@@ -5,6 +5,7 @@ import { access, readFile } from 'node:fs/promises';
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 const expectedDailyIds = [
+  'svg-2026-09-12',
   'portrait-2026-09-12',
   'typography-2026-09-12',
   'webgpu-2026-09-11',
@@ -60,7 +61,7 @@ test('daily work register preserves the recorded dates without inventing history
   assert.equal(data.schema, 'mutine-works/v1');
   assert.deepEqual(data.works.map((work) => work.id), expectedDailyIds);
   assert.deepEqual(data.works.map((work) => work.date), [
-    '2026-09-12', '2026-09-12', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
+    '2026-09-12', '2026-09-12', '2026-09-12', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
     '2026-08-28', '2026-08-28', '2026-08-31', '2026-08-31',
     '2026-08-31', '2026-08-31', '2026-08-31', '2026-09-09'
   ]);
@@ -141,7 +142,7 @@ test('the catalogue groups daily works by current in reverse chronological order
   const catalog = buildCatalog(studio, works);
 
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 47);
+  assert.equal(catalog.works.length, 48);
   for (const current of catalog.currents) {
     const dates = current.works.map((work) => work.date);
     assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
