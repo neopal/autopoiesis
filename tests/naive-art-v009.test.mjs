@@ -85,5 +85,6 @@ test('Naive v009 exposes the doorway tableau, deterministic interaction, and dai
   assert.equal(record.journal.anchor, 'journal-naive-2026-09-13');
   assert.ok(record.critiques.length >= 3);
   assert.match(record.metrics.memoryRule, /door|threshold|inside|exit/);
-  assert.equal(record.metrics.browserEvidence.status, 'local headless browser matrix passed / held for independent caption-free perceptual review');
+  assert.equal(record.metrics.browserEvidence.status, 'local and stable-alias headless browser readback passed / held for independent caption-free perceptual review and provider revision verification');
+  assert.equal(record.metrics.promotion, 'candidate / held pending independent caption-free perceptual review and provider revision verification');
 });
