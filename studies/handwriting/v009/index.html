@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e8e0d1">
+  <title>MUTINE — The sentence changes lanes.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=009">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-13"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v009</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v009</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes crossing once and continuing in exchanged lanes" aria-keyshortcuts="Enter Space R P"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 009</span><span>THE LANE SWITCH</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v009-switch</span><span>refusal &gt; crossing &gt; exchanged lane</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to make two neighbouring routes cross. They keep writing in each other’s lane; lift the latest switch to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-switch" data-gesture="switch" type="button">make switch</button>
+          <button id="lift-switch" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The sentence is moving; its lanes are still separate.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v009</p>
+        <h1 id="work-title">The sentence<br><i>changes lanes.</i></h1>
+        <p class="lede">A refusal no longer travels as a hook. It forces neighbouring routes to cross once, exchange their order, and continue downstream as if each line had inherited the other’s handwriting.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v009</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered refusal becomes a lane switch. Two adjacent routes approach one seam, cross, exchange vertical order, and keep the displacement downstream.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space places one bounded switch at the last pointer position. Route points are recomputed from memory; lifting the latest switch rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the switch witnesses, labels, and readout. If the lines do not visibly cross and leave in exchanged order, the switch is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v009 if a caption-free comparison finds only a coloured accent, if the pair does not cross once, or if the copy explains more lane exchange than the handwriting can show.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-12/">previous daily work</a><a href="/journal/#journal-typography-2026-09-13">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=009"></script>
+</body>
+</html>

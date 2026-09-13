@@ -1,0 +1,43 @@
+{
+  "id": "handwriting-v009",
+  "seed": "mutine-handwriting-v009-switch / 0x57563339",
+  "visitorInput": true,
+  "stages": 13,
+  "routeCount": 18,
+  "pointsPerRoute": 40,
+  "primitiveBudget": 41,
+  "laneCount": 14,
+  "memoryWindow": 5,
+  "laneSwitchRule": true,
+  "memoryRule": "a remembered refusal becomes a lane switch that crosses adjacent routes once and keeps their exchanged order downstream",
+  "interactionRule": "a visitor switch changes crossing position, affected route pair, downstream order, and carried drift; lifting it restores the exact prior field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review",
+  "browserEvidence": {
+    "status": "local headless browser readback passed / held for production readback and independent caption-free perceptual review",
+    "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-13/",
+    "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v009/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": "all ten local canonical runs rendered the v009 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+    "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; embedded tableau frames also matched their own geometry; raw interactive and static blind 390x844 runs matched",
+    "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844",
+    "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, raw interaction, and static blind runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, raw interaction, and static blind runs",
+    "normalState": "normal-motion canonical runs opened at stage 00 / 13 with 0 switches",
+    "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 12 / 13 with 5 switches remembered and 4 switched routes",
+    "pointerInteraction": "raw pointer changed memory from 0 to 1 switch, paused the tableau, and changed 2 route geometries",
+    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 switches while retaining the changed route field",
+    "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior pointer-state route signature",
+    "releaseInteraction": "release sequence returned to stage 00 / 13, memory 0, and unpaused the sequence",
+    "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered the canvas with editorial furniture, controls, readout, switch witnesses, labels, and notation hidden; no overflow",
+    "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one static blind capture",
+    "evidenceFiles": "research/qa/proofs/typography-v009-2026-09-13/results.json, probe.mjs, twelve PNG captures",
+    "unresolved": [
+      "production canonical, Journal, and raw readback",
+      "independent caption-free perceptual comparison with switch witnesses, labels, and readout hidden"
+    ]
+  }
+}

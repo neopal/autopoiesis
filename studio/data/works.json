@@ -2,6 +2,161 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-13",
+      "currentId": "svg",
+      "date": "2026-09-13",
+      "title": "The animal keeps a counterweight.",
+      "rawPath": "/studies/pure-svg/v010/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-13",
+        "note": "v010 changes the SVG rule: a remembered refusal becomes a counterweight. The body leans through a balance seam, an inner spine carries the load, and the three feet resolve it as loaded or countered postures; lifting the latest weight reconstructs the preceding body and gait exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by the actual downstream contour, an inner spine that bends through a balance seam, and changed feet; the gold vector, witness circles, and counter label cannot substitute for the body geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, and readout hidden, a viewer should find a body leaning through a local seam while its feet answer with different pressure. If it reads as a stable animal with an interior stripe, the counterweight fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must place the same bounded weight, while lifting only the latest one must reproduce the exact prior contour, spine, gait, and route state from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Balance is an easy metaphor. Delete v010 if hiding the witness marks leaves no legible lean, if the seam does not change downstream geometry, if the feet do not compensate, or if the prose explains more weight than the animal can show."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v010-counterweight",
+        "visitorInput": true,
+        "seed": "0x53564740",
+        "stages": 13,
+        "primitiveBudget": 19,
+        "memoryWindow": 4,
+        "routeCount": 3,
+        "memoryRule": "a remembered refusal leans the contour through a balance seam, bends an inner spine, and makes the feet resolve loaded or countered postures",
+        "interactionRule": "a visitor weight changes downstream contour, spine, gait, and route coordinates; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held for production readback and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-13/",
+        "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v010/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "all ten local canonical runs rendered the v010 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; embedded study frames matched their own geometry; raw interactive and static blind 390x844 runs also matched",
+        "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, raw interactive, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, raw interactive, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 13 with 0 weights",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 13 / 13 with 4 weights, 3 weighted routes, 1 loaded route, and 2 countered routes",
+        "pointerInteraction": "raw pointer changed memory from 0 to 1 counterweight and paused the tableau",
+        "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 counterweights and changed the route field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state SVG geometry",
+        "releaseInteraction": "release sequence returned to memory 0 and resumed the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, labels, weight witnesses, and vector threads; no overflow",
+        "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, two raw interaction captures, and one static blind capture",
+        "evidenceFiles": "research/qa/proofs/svg-v010-2026-09-13/results.json, probe.mjs, and thirteen PNG captures",
+        "unresolved": [
+          "production canonical, Journal, and raw readback",
+          "independent caption-free perceptual comparison with weight witnesses, vector threads, labels, and readout hidden"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with weight witnesses, vector threads, labels, and readout hidden; delete v010 if the lean and compensating gait do not remain legible in the animal itself.",
+        "lineage": "pure-svg-v009"
+      }
+    },
+    {
+      "id": "typography-2026-09-13",
+      "currentId": "typography",
+      "date": "2026-09-13",
+      "title": "The sentence changes lanes.",
+      "rawPath": "/studies/handwriting/v009/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-13",
+        "note": "v009 changes the handwriting rule: a remembered refusal becomes a lane switch. Two neighbouring routes cross once, exchange vertical order, and continue downstream in each other’s lane; lifting the latest switch reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by actual route geometry: two neighbouring lines need one shared crossing seam, an order exchange, and a changed downstream exit. A coral X or crossing index cannot substitute for the paths themselves."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, and readout hidden, a viewer should find an X-shaped crossing and recognize that the same pair leaves in the opposite vertical order. If it reads as a local kink or generic wave, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must place the same bounded switch; lifting only the latest one must reproduce the exact preceding route field, including the crossing position and downstream exchange."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Changing lanes is an easy metaphor. Delete v009 if hiding the witness leaves no clear crossing, if the routes cross more than once, if the order does not stay exchanged downstream, or if the prose explains more memory than the handwriting can show."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v009",
+        "seed": "mutine-handwriting-v009-switch / 0x57563339",
+        "visitorInput": true,
+        "stages": 13,
+        "routeCount": 18,
+        "pointsPerRoute": 40,
+        "primitiveBudget": 41,
+        "laneCount": 14,
+        "memoryWindow": 5,
+        "laneSwitchRule": true,
+        "memoryRule": "a remembered refusal becomes a lane switch that crosses adjacent routes once and keeps their exchanged order downstream",
+        "interactionRule": "a visitor switch changes crossing position, affected route pair, downstream order, and carried drift; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held for production readback and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-13/",
+        "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v009/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "all ten local canonical runs rendered the v009 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; embedded tableau frames also matched their own geometry; raw interactive and static blind 390x844 runs matched",
+        "touchTargets": "all three raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, raw interaction, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, raw interaction, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 00 / 13 with 0 switches",
+        "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 12 / 13 with 5 switches remembered and 4 switched routes",
+        "pointerInteraction": "raw pointer changed memory from 0 to 1 switch, paused the tableau, and changed 2 route geometries",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 switches while retaining the changed route field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact prior pointer-state route signature",
+        "releaseInteraction": "release sequence returned to stage 00 / 13, memory 0, and unpaused the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 rendered the canvas with editorial furniture, controls, readout, switch witnesses, labels, and notation hidden; no overflow",
+        "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one static blind capture",
+        "evidenceFiles": "research/qa/proofs/typography-v009-2026-09-13/results.json, probe.mjs, twelve PNG captures",
+        "unresolved": [
+          "production canonical, Journal, and raw readback",
+          "independent caption-free perceptual comparison with switch witnesses, labels, and readout hidden"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with switch witnesses, labels, and readout hidden; delete v009 if the pair does not cross once and leave in exchanged order.",
+        "lineage": "typography-2026-09-12"
+      }
+    },
+    {
       "id": "naive-2026-09-12",
       "currentId": "naive",
       "date": "2026-09-12",
