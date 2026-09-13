@@ -119,7 +119,6 @@ for (const reduced of [false, true]) {
   const afterLiftImage = await frame.locator('#field').evaluate((canvas) => canvas.toDataURL());
   await frame.locator('#lift-siphon').click();
   const afterSecondLift = await readStudy(frame);
-  const afterSecondLiftImage = await frame.locator('#field').evaluate((canvas) => canvas.toDataURL());
   await frame.locator('#release-sequence').click();
   const afterRelease = await readStudy(frame);
   await page.screenshot({ path: `${proofDir}/raw-interaction-390x844.png`, fullPage: false });

@@ -1,0 +1,253 @@
+{
+  "stableAlias": "https://autopoiesis-nine.vercel.app",
+  "worksJson": {
+    "status": 200,
+    "count": 1,
+    "record": {
+      "id": "brush-2026-09-13",
+      "currentId": "brush",
+      "date": "2026-09-13",
+      "title": "The brush keeps a siphon.",
+      "rawPath": "/studies/p5-brush/v011/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-13",
+        "note": "v011 changes the brush rule: a remembered removal becomes a capillary siphon. Nearby wet routes gather toward its mouth, compress into a shared throat, then fan back out downstream with a fading release; lifting the latest siphon reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The removal must be carried by actual gather routes, a compressed throat, and a downstream fan with changed wet load. A dark mouth or colored capillary may point toward the rule, but cannot substitute for changed stroke geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With mouths, witnesses, labels, and readout hidden, a viewer should identify repeated convergence, a brief narrowing, and an outward release that continues downstream. If it reads as a striped wave field, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded structural siphon; lifting only the latest one must reproduce the exact prior route field, including its throat, fan, and stain."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A siphon is an easy metaphor. Delete v011 if the field only displays decorative mouths, if routes do not gather before them, if release ends at the marker, or if the prose explains more pressure than the brush marks can show."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v011-siphon-release",
+        "visitorInput": true,
+        "seed": "0x42525531",
+        "stages": 15,
+        "strokesPerStage": 14,
+        "pointsPerStroke": 76,
+        "primitiveBudget": 53,
+        "memoryWindow": 9,
+        "memoryRule": "a remembered removal gathers wet routes into a shared throat and releases them downstream with decaying pressure",
+        "interactionRule": "a visitor siphon changes upstream gather, throat, downstream release, width, and wet load; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held for independent caption-free perceptual review and production readback",
+        "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-13/",
+        "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v011/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "all ten local canonical runs rendered the v011 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; study frames matched their own geometry; the only larger scrollWidth was the contained horizontal daily timeline rail",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, raw interactive, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, raw interactive, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 15 with 0 siphons remembered",
+        "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 15 / 15 with 9 siphons remembered",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 siphon and paused the tableau",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 siphons and retained the changed route field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas PNG data URL",
+        "releaseInteraction": "second lift returned memory to 0; release sequence returned to stage 01 / 15 with 0 siphons and resumed the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, and notation; no document or study-frame overflow",
+        "canvasCaptures": "12 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, and one static blind capture",
+        "evidenceFiles": "research/qa/proofs/brush-v011-2026-09-13/results.json, probe.mjs, and twelve PNG captures",
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "deploymentUrl": null,
+          "deploymentMethod": "pending authorized commit, GitHub push, and Vercel CLI attempt",
+          "providerRevision": "pending"
+        },
+        "unresolved": [
+          "independent caption-free perceptual comparison with siphon mouths, capillary witnesses, labels, notation, and readout hidden",
+          "production canonical, Journal, and raw readback"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with siphon mouths, capillary witnesses, labels, notation, and readout hidden; delete v011 if gather → throat → release is not legible in the strokes themselves.",
+        "lineage": "brush-2026-09-12"
+      }
+    },
+    "issues": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "canonical": {
+    "status": 200,
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "ready": true,
+      "title": "The brush keeps a siphon.",
+      "tableauBeforeHeading": true,
+      "iframeCount": 1
+    },
+    "study": {
+      "innerWidth": 352,
+      "clientWidth": 352,
+      "scrollWidth": 352,
+      "canvasVisible": true,
+      "memory": "0 siphons remembered",
+      "stage": "stage 01 / 15",
+      "buttonHeights": [
+        44,
+        44,
+        44
+      ],
+      "controlsDisplay": "flex",
+      "readoutDisplay": "flex"
+    },
+    "issues": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "journal": {
+    "status": 200,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "entryCount": 1,
+    "title": "The brush keeps a siphon.",
+    "href": "/works/brush-2026-09-13/#journal",
+    "issues": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "rawPreview": {
+    "status": 200,
+    "initial": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "canvasVisible": true,
+      "memory": "0 siphons remembered",
+      "stage": "stage 01 / 15",
+      "buttonHeights": [
+        44,
+        44,
+        44
+      ],
+      "controlsDisplay": "flex",
+      "readoutDisplay": "flex"
+    },
+    "afterPointer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "canvasVisible": true,
+      "memory": "1 siphon remembered",
+      "stage": "siphon made / paused",
+      "buttonHeights": [
+        44,
+        44,
+        44
+      ],
+      "controlsDisplay": "flex",
+      "readoutDisplay": "flex"
+    },
+    "afterKeyboard": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "canvasVisible": true,
+      "memory": "2 siphons remembered",
+      "stage": "siphon made / paused",
+      "buttonHeights": [
+        44,
+        44,
+        44
+      ],
+      "controlsDisplay": "flex",
+      "readoutDisplay": "flex"
+    },
+    "afterLift": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "canvasVisible": true,
+      "memory": "1 siphon remembered",
+      "stage": "latest siphon lifted",
+      "buttonHeights": [
+        44,
+        44,
+        44
+      ],
+      "controlsDisplay": "flex",
+      "readoutDisplay": "flex"
+    },
+    "afterSecondLift": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "canvasVisible": true,
+      "memory": "0 siphons remembered",
+      "stage": "latest siphon lifted",
+      "buttonHeights": [
+        44,
+        44,
+        44
+      ],
+      "controlsDisplay": "flex",
+      "readoutDisplay": "flex"
+    },
+    "afterRelease": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "canvasVisible": true,
+      "memory": "0 siphons remembered",
+      "stage": "stage 01 / 15",
+      "buttonHeights": [
+        44,
+        44,
+        44
+      ],
+      "controlsDisplay": "flex",
+      "readoutDisplay": "flex"
+    },
+    "issues": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "favicon": {
+    "status": 200,
+    "contentType": "image/svg+xml",
+    "issues": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  }
+}
