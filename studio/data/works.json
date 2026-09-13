@@ -1,7 +1,7 @@
 {
   "schema": "mutine-works/v1",
   "works": [
-        {
+    {
       "id": "webgpu-2026-09-13",
       "currentId": "webgpu",
       "date": "2026-09-13",
@@ -80,10 +80,24 @@
         "directRawRedirect": "http://127.0.0.1:4173/works/webgpu-2026-09-13/",
         "journal": "local Journal readback rendered exactly one #journal-webgpu-2026-09-13 entry with the recorded title and /works/webgpu-2026-09-13/#journal href",
         "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
-        "evidenceFiles": "research/qa/proofs/webgpu-v009/results.json, probe.mjs, and thirteen PNG captures",
+        "evidenceFiles": "research/qa/proofs/webgpu-v009/results.json, probe.mjs, production-results.json, production-probe.mjs, and thirteen local PNG captures",
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "deploymentUrl": null,
+          "deploymentError": "Vercel CLI returned scope-not-accessible",
+          "deploymentMethod": "authorized Vercel CLI returned scope-not-accessible; stable-alias content was read independently after GitHub push bb873e501933535f053e2284a08d818e07428aeb",
+          "worksJsonRecord": "HTTP 200 cache-busted production JSON contained exactly one webgpu-2026-09-13 record with title The crowd keeps a countercurrent., rawPath /studies/webgpu/v009/, and Journal anchor journal-webgpu-2026-09-13",
+          "canonicalWork": "HTTP 200 production Playwright readback at 390x844 rendered the v009 tableau before the recorded title and prose, with stage 17 / 17, 6 countercurrents, and outer scrollWidth 390px",
+          "journal": "HTTP 200 production Playwright readback at 390x844 rendered exactly one #journal-webgpu-2026-09-13 entry with the recorded title and /works/webgpu-2026-09-13/#journal href",
+          "rawPreview": "HTTP 200 production Playwright readback at 390x844 rendered v009 canvas, three 44px controls, no overflow, changed canvas pixels on pointer, and memory 0 to 1 to 0 through pointer/lift plus keyboard/release",
+          "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+          "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, Journal, raw, JSON, and favicon readback",
+          "evidenceFiles": "research/qa/proofs/webgpu-v009/production-results.json, production-probe.mjs, production-canonical-390x844.png, production-journal-390x844.png, and production-raw-interaction-390x844.png",
+          "providerRevision": "not verified: the scoped Vercel CLI returned scope-not-accessible; no provider revision linking the stable alias to GitHub SHA bb873e501933535f053e2284a08d818e07428aeb was reported"
+        },
         "unresolved": [
           "independent caption-free perceptual comparison with route witnesses, labels, and readout hidden",
-          "provider revision linking the stable alias to the eventual GitHub SHA"
+          "provider revision linking the stable alias to GitHub SHA bb873e501933535f053e2284a08d818e07428aeb"
         ]
       },
       "source": null,
