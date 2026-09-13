@@ -1,6 +1,97 @@
 {
   "schema": "mutine-works/v1",
   "works": [
+        {
+      "id": "webgpu-2026-09-13",
+      "currentId": "webgpu",
+      "date": "2026-09-13",
+      "title": "The crowd keeps a countercurrent.",
+      "rawPath": "/studies/webgpu/v009/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-13",
+        "note": "v009 changes the WebGPU rule: a remembered absence reverses a bounded packet against the main flow, bends it at a turning seam, and rejoins it downstream; lifting the latest countercurrent rebuilds the preceding crowd exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Systems critic",
+          "argument": "The archive must be carried by changed agent geometry: a packet must enter, reverse against the field, and rejoin downstream; the route witness and counters cannot substitute for that motion."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With countercurrent witnesses and readouts hidden, a caption-free viewer should find a short backward passage cutting into the dominant rightward strata, followed by a changed downstream exit. If it reads as a colour wash or a kink, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must place the same bounded current, while lifting the latest one must restore the exact prior agent field from both input paths, including the turn and rejoin."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A countercurrent is an easy metaphor. Delete v009 if the packet never reverses, if the turn is only a witness line, if edge clicks produce no real return-current, or if the prose explains more resistance than the mass can show."
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v009-countercurrent",
+        "visitorInput": true,
+        "seed": "0x57475039",
+        "stages": 17,
+        "agentCount": 480,
+        "memoryLimit": 6,
+        "finalMemory": 6,
+        "finalCounterflowAgents": 253,
+        "finalReverseAgents": 198,
+        "finalRejoinedAgents": 213,
+        "finalRouteSeparation": 47.62104876461587,
+        "finalCountercurrentStrength": 0.329990931876258,
+        "finalReturnLoad": 50.78703082941448,
+        "latestReturnLoad": 2.362554863259994,
+        "latestFieldDelta": 4.860632377932714,
+        "visitorBoundedPoint": {
+          "x": 0.92,
+          "y": 0.08
+        },
+        "visitorReverseAgents": 6,
+        "visitorReturnLoad": 1.1969996502482614,
+        "memoryRule": "a remembered absence reverses a packet against the main flow, bends it at a turning seam, and rejoins it downstream",
+        "interactionRule": "a visitor countercurrent changes upstream entry, backward turn, downstream rejoin, and agent coordinates; lifting it restores the exact prior crowd field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, and stable-alias verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-13/",
+        "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v009/?preview=1&interaction=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "all ten local canonical runs rendered the v009 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; raw, static-blind, and Journal 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, raw interaction, static blind, and Journal runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, raw interaction, static blind, and Journal runs",
+        "normalState": "normal-motion local canonical runs opened at stage 01 / 17 with 0 countercurrents",
+        "reducedMotionState": "reduced-motion local canonical and blind runs settled at stage 17 / 17 with 6 countercurrents",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 countercurrent, changed the canvas PNG signature, and paused the tableau",
+        "keyboardInteraction": "Enter on the focused blind canvas changed memory from 0 to 1 countercurrent and paused the tableau",
+        "liftInteraction": "Delete after pointer changed memory from 1 to 0 and restored the exact preceding pointer-state canvas PNG data URL",
+        "releaseInteraction": "release current returned memory to 0 and restarted the sequence at stage 01 / 17",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, labels, and route notation; no document overflow",
+        "directRawRedirect": "http://127.0.0.1:4173/works/webgpu-2026-09-13/",
+        "journal": "local Journal readback rendered exactly one #journal-webgpu-2026-09-13 entry with the recorded title and /works/webgpu-2026-09-13/#journal href",
+        "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
+        "evidenceFiles": "research/qa/proofs/webgpu-v009/results.json, probe.mjs, and thirteen PNG captures",
+        "unresolved": [
+          "independent caption-free perceptual comparison with route witnesses, labels, and readout hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with route witnesses, labels, and readout hidden; delete v009 if the reverse packet and downstream rejoin do not remain legible in the crowd strata.",
+        "lineage": "webgpu-2026-09-12"
+      }
+    },
     {
       "id": "naive-2026-09-13",
       "currentId": "naive",
