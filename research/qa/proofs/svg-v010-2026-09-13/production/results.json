@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "failureCount": 0,
+  "failures": [],
+  "pages": [
+    {
+      "kind": "works-json",
+      "response": 200,
+      "recordCount": 1,
+      "title": "The animal keeps a counterweight.",
+      "issues": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "httpErrors": [],
+        "url": "https://autopoiesis-nine.vercel.app/studio/data/works.json"
+      }
+    },
+    {
+      "kind": "canonical",
+      "response": 200,
+      "state": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauTop": 182.5,
+        "headingTop": 661.296875,
+        "title": "The animal keeps a counterweight.",
+        "iframeCount": 1,
+        "frameSrc": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v010/?preview=1&interaction=1&cache=svg-2026-09-13"
+      },
+      "issues": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "httpErrors": [],
+        "url": "https://autopoiesis-nine.vercel.app/works/svg-2026-09-13/"
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v010-2026-09-13\\production\\canonical-390x844.png"
+    },
+    {
+      "kind": "journal",
+      "response": 200,
+      "state": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "count": 1,
+        "title": "The animal keeps a counterweight.",
+        "href": "/works/svg-2026-09-13/#journal"
+      },
+      "issues": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "httpErrors": [],
+        "url": "https://autopoiesis-nine.vercel.app/journal/"
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v010-2026-09-13\\production\\journal-390x844.png"
+    },
+    {
+      "kind": "raw-interaction",
+      "response": 200,
+      "initial": {
+        "memory": "0",
+        "overflow": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390
+        }
+      },
+      "afterPointer": {
+        "memory": "1",
+        "signature": "[{\"x\":0.09458689641579986,\"y\":0.5093842799924314},{\"x\":0.17653594316076487,\"y\":0.4048074576175189},{\"x\":0.29554082261607983,\"y\":0.3283272774784108},{\"x\":0.445701673688367,\"y\":0.2882699264910005},{\"x\":0.5997628614532295,\"y\":0.26486198932278954},{\"x\":0.7616845806825441,\"y\":0.3185491165683934},{\"x\":0.9174120551976506,\"y\":0.44932313266135604},{\"x\":0.8706011290359171,\"y\":0.5621606656138861},{\"x\":0.7771329861475909,\"y\":0.5282469067656418},{\"x\":0.7540493246781521,\"y\":0.6741051880730319},{\"x\":0.6415229540261038,\"y\":0.7206034065095915},{\"x\":0.5278721798265599,\"y\":0.6280214146416322},{\"x\":0.4176469641847497,\"y\":0.7047321965484885},{\"x\":0.2996838856856483,\"y\":0.6308336089161877},{\"x\":0.3268450489404938,\"y\":0.5092292156573655},{\"x\":0.20594045788092039,\"y\":0.6026403646329179}]"
+      },
+      "afterKeyboard": {
+        "memory": "2",
+        "signature": "[{\"x\":0.09458689641579986,\"y\":0.5093842799924314},{\"x\":0.17653594316076487,\"y\":0.4048074576175189},{\"x\":0.29554082261607983,\"y\":0.3283272774784108},{\"x\":0.445701673688367,\"y\":0.2882699264910005},{\"x\":0.5997628614532295,\"y\":0.26486198932278954},{\"x\":0.7616845806825441,\"y\":0.3185491165683934},{\"x\":0.9541411970773759,\"y\":0.4501118588948488},{\"x\":0.9384677338946797,\"y\":0.5636180416616434},{\"x\":0.8658049786079492,\"y\":0.5301510603355395},{\"x\":0.85002719770163,\"y\":0.676166229045248},{\"x\":0.7277479967815996,\"y\":0.7147732434061338},{\"x\":0.6043443923140736,\"y\":0.6143000474625006},{\"x\":0.48436634640428133,\"y\":0.683119625293683},{\"x\":0.35665043763719784,\"y\":0.6013298335857082},{\"x\":0.3740587706240613,\"y\":0.4718342362512121},{\"x\":0.24340134929650575,\"y\":0.5573541811510907}]"
+      },
+      "afterLift": {
+        "memory": "1",
+        "signature": "[{\"x\":0.09458689641579986,\"y\":0.5093842799924314},{\"x\":0.17653594316076487,\"y\":0.4048074576175189},{\"x\":0.29554082261607983,\"y\":0.3283272774784108},{\"x\":0.445701673688367,\"y\":0.2882699264910005},{\"x\":0.5997628614532295,\"y\":0.26486198932278954},{\"x\":0.7616845806825441,\"y\":0.3185491165683934},{\"x\":0.9174120551976506,\"y\":0.44932313266135604},{\"x\":0.8706011290359171,\"y\":0.5621606656138861},{\"x\":0.7771329861475909,\"y\":0.5282469067656418},{\"x\":0.7540493246781521,\"y\":0.6741051880730319},{\"x\":0.6415229540261038,\"y\":0.7206034065095915},{\"x\":0.5278721798265599,\"y\":0.6280214146416322},{\"x\":0.4176469641847497,\"y\":0.7047321965484885},{\"x\":0.2996838856856483,\"y\":0.6308336089161877},{\"x\":0.3268450489404938,\"y\":0.5092292156573655},{\"x\":0.20594045788092039,\"y\":0.6026403646329179}]"
+      },
+      "afterRelease": {
+        "memory": "0",
+        "state": "sequence",
+        "overflow": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390
+        },
+        "buttons": [
+          {
+            "id": "weight-control",
+            "height": 44
+          },
+          {
+            "id": "lift-control",
+            "height": 44
+          },
+          {
+            "id": "release-control",
+            "height": 44
+          }
+        ]
+      },
+      "issues": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "httpErrors": [],
+        "url": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v010/?preview=1&interaction=1"
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v010-2026-09-13\\production\\raw-interaction-390x844.png"
+    },
+    {
+      "kind": "favicon",
+      "response": 200,
+      "url": "https://autopoiesis-nine.vercel.app/studio/favicon.svg"
+    }
+  ],
+  "generatedAt": "2026-09-13T06:25:38.782Z"
+}
