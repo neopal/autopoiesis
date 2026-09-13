@@ -24,11 +24,7 @@ const sortByDateDescending = (entries) => [...entries].sort((a, b) => b.date.loc
 
 function renderArtistPhilosophy(root, artist) {
   root.dataset.ready = 'true';
-  root.innerHTML = `
-    <p class="gallery-artist__statement">${escapeHtml(artist.statement)}</p>
-    <ul class="artist-principles">
-      ${(artist.principles ?? []).map((principle) => `<li>${escapeHtml(principle)}</li>`).join('')}
-    </ul>`;
+  root.innerHTML = `<p class="gallery-artist__statement">${escapeHtml(artist.statement)}</p>`;
 }
 
 function renderHomeCurrent(current) {
@@ -106,7 +102,8 @@ function renderCurrentHeader(root, catalog) {
   root.dataset.ready = 'true';
   root.innerHTML = `
     <p class="studio-kicker">CURRENT / ${escapeHtml(current.title)} / ${escapeHtml(current.state)}</p>
-    <h1 class="catalog-current-header__title" id="current-title">${escapeHtml(current.title)}<br><i>${escapeHtml(current.subtitle ?? 'a question kept open.')}</i></h1>
+    <h1 class="catalog-current-header__title" id="current-title">${escapeHtml(current.title)}</h1>
+    <p class="catalog-current-header__subtitle"><i>${escapeHtml(current.subtitle ?? 'a question kept open.')}</i></p>
     <p class="catalog-current-header__question">${escapeHtml(current.question)}</p>
     <p class="catalog-current-header__state">${latest ? `${escapeHtml(latest.date)} / ${escapeHtml(latest.status)}` : 'question held / no tableau recorded'}</p>`;
 }

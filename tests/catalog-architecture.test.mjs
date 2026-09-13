@@ -49,7 +49,7 @@ test('styles support dense current grids and mobile collapse', async () => {
   assert.match(css, /\.current-page \.catalog-grid \{ grid-template-columns: repeat\(3/);
   assert.match(css, /\.gallery-current-grid \{ display: grid/);
   assert.match(css, /@media \(max-width: 620px\)/);
-  assert.match(css, /content-visibility: auto/);
+  assert.doesNotMatch(css, /\.current-page \.catalog-card \{[^}]*content-visibility/);
   assert.match(css, /\.home-current__art \{[^}]*display: block/);
   assert.match(css, /\.work-timeline-bar \{[^}]*overflow-x: auto/);
 });
