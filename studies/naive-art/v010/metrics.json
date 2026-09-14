@@ -42,9 +42,17 @@
     "evidenceFiles": "research/qa/proofs/naive-art-v010-2026-09-14/results.json, probe.mjs, probe-output.txt, ten canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
     "production": {
       "stableAlias": "https://autopoiesis-nine.vercel.app",
-      "deploymentUrl": null,
-      "deploymentMethod": "pending authorized Vercel CLI production publication",
-      "providerRevision": "pending production publication"
+      "deploymentUrl": "https://autopoiesis-i0i0ristj-lairpa-hotmailfrs-projects.vercel.app",
+      "deploymentId": "dpl_89tBTsu1sHgyaU2UVMfAqKDRrvyT",
+      "deploymentMethod": "authorized Vercel CLI production deploy completed and aliased to stable production",
+      "worksJsonRecord": "HTTP 200 JSON contained exactly one naive-2026-09-14 record with title The mistake keeps a bypass., rawPath /studies/naive-art/v010/, and Journal anchor journal-naive-2026-09-14",
+      "canonicalWork": "HTTP 200 production Playwright readback at 390x844 rendered one v010 tableau iframe before prose, recorded title, and no document overflow",
+      "journal": "HTTP 200 production Playwright readback at 390x844 rendered exactly one #journal-naive-2026-09-14 entry with the recorded title and /works/naive-2026-09-14/#journal href",
+      "rawPreview": "HTTP 200 production Playwright readback at 390x844 rendered v010 canvas, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 to 0 through pointer/keyboard/undo/release",
+      "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+      "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production JSON, canonical, Journal, raw, and favicon readback",
+      "evidenceFiles": "research/qa/proofs/naive-art-v010-2026-09-14/production/results.json, production-probe.mjs, production/probe-output.txt, canonical-390x844.png, journal-390x844.png, and raw-interaction-390x844.png",
+      "providerRevision": "not verified: Vercel inspect reported deployment dpl_89tBTsu1sHgyaU2UVMfAqKDRrvyT but no provider GitHub commit SHA field was returned"
     },
     "unresolved": [
       "independent caption-free perceptual comparison with bypass witnesses, labels, and readout hidden",
