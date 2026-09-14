@@ -2,6 +2,90 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-14",
+      "currentId": "naive",
+      "date": "2026-09-14",
+      "title": "The mistake keeps a bypass.",
+      "rawPath": "/studies/naive-art/v010/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-14",
+        "note": "v010 changes the naive drawing rule: a remembered wrong turn becomes a bypass. The roof edge, ground, and walking route each approach a closed point, sidestep into a longer lane, travel alongside it, and return downstream; lifting the latest bypass reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The retained mistake must be actual bypass geometry: a line approaches a closed point, shifts into a side lane, travels alongside it, and returns downstream. Roof edge, ground, and route need to share that order from different origins."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, bridge, and bypass dots hidden, a viewer should find repeated sideways departures, longer parallel runs, and later returns in all three drawing systems. If it reads as a decorative offset, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded bypass, while lifting only the latest one must reproduce the exact prior geometry, including its side lane and downstream return."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A bypass is an easy metaphor. Delete v010 if the line never gets beside anything, if the return happens at the same point, if edge clicks produce no structural change, or if the prose explains more detour than the drawing can show."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v010-bypass",
+        "visitorInput": true,
+        "seed": "0x4e413130",
+        "stages": 15,
+        "primitiveBudget": 48,
+        "memoryWindow": 6,
+        "memoryRule": "a retained correction becomes an approach-sidestep-alongside-return bypass replayed from house, ground, and route origins",
+        "interactionRule": "visitor placement changes bypass side, width, duration, depth, tilt, and all three route geometries; undo restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, and provider revision verification",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification"
+        }
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-14/",
+        "rawPreview": "http://127.0.0.1:4173/studies/naive-art/v010/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v010 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction and static blind 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 15 with 0 bypasses retained",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 15 / 15 with 6 bypasses retained",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 bypass and paused the tableau; canvas pixels changed",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 bypasses and changed the route field",
+        "liftInteraction": "undo latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "second undo returned memory to 0; release sequence returned to stage 01 / 15 with 0 bypasses and resumed the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, labels, and bypass notation; no document overflow",
+        "canvasCaptures": "12 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, and one static blind capture",
+        "evidenceFiles": "research/qa/proofs/naive-art-v010-2026-09-14/results.json, probe.mjs, probe-output.txt, ten canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "deploymentUrl": null,
+          "deploymentMethod": "pending authorized Vercel CLI production publication",
+          "providerRevision": "pending production publication"
+        },
+        "unresolved": [
+          "independent caption-free perceptual comparison with bypass witnesses, labels, and readout hidden",
+          "provider revision linking the stable production alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with bypass dots, labels, bridge, and readout hidden; delete v010 if approach → sidestep → alongside → return is not legible in the roof, ground, and route together.",
+        "lineage": "naive-2026-09-13"
+      }
+    },
+    {
       "id": "brush-2026-09-14",
       "currentId": "brush",
       "date": "2026-09-14",
