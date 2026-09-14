@@ -65,9 +65,9 @@ const expectedDailyIds = [
   'naive-2026-08-31',
   'brush-2026-08-31',
   'webgpu-2026-09-09',
-  'typography-2026-09-14'
+  'typography-2026-09-14',
+  'typography-2026-09-15'
 ];
-
 test('daily work register preserves the recorded dates without inventing history', async () => {
   const data = JSON.parse(await read('studio/data/works.json'));
 
@@ -76,7 +76,7 @@ test('daily work register preserves the recorded dates without inventing history
   assert.deepEqual(data.works.map((work) => work.date), [
     '2026-09-14', '2026-09-14', '2026-09-14', '2026-09-14', '2026-09-13', '2026-09-13', '2026-09-13', '2026-09-13', '2026-09-13', '2026-09-12', '2026-09-12', '2026-09-12', '2026-09-12', '2026-09-12', '2026-09-12', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-11', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-10', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-09', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-08', '2026-09-07', '2026-09-07', '2026-09-07', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-04', '2026-09-07', '2026-09-04', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-03', '2026-09-02', '2026-09-02',
     '2026-08-28', '2026-08-28', '2026-08-31', '2026-08-31',
-    '2026-08-31', '2026-08-31', '2026-08-31', '2026-09-09', '2026-09-14'
+    '2026-08-31', '2026-08-31', '2026-08-31', '2026-09-09', '2026-09-14', '2026-09-15'
   ]);
   assert.ok(data.works.every((work) => /^\d{4}-\d{2}-\d{2}$/.test(work.date)));
   assert.ok(data.works.every((work) => work.rawPath?.startsWith('/studies/')));
@@ -155,13 +155,14 @@ test('the catalogue groups daily works by current in reverse chronological order
   const catalog = buildCatalog(studio, works);
 
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 61);
+  assert.equal(catalog.works.length, 62);
   for (const current of catalog.currents) {
     const dates = current.works.map((work) => work.date);
     assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
   }
 
   assert.deepEqual(catalog.currents.find((current) => current.id === 'typography').works.map((work) => work.id), [
+    'typography-2026-09-15',
     'typography-2026-09-14',
     'typography-2026-09-13',
     'typography-2026-09-12',

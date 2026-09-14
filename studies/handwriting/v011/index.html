@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b16">
+  <title>MUTINE — The sentence keeps a stutter.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=011">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-15"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v011</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v011</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes that stutter, double back, repeat, and resume" aria-keyshortcuts="Enter Space R P"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 011</span><span>THE STUTTER FIELD</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v011-stutter</span><span>advance &gt; backtrack &gt; repeat &gt; resume</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to make a local family repeat one beat. The routes advance, double back, and leave with a changed cadence; lift the latest stutter to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-stutter" data-gesture="stutter" type="button">make stutter</button>
+          <button id="lift-stutter" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The sentence is moving; its stutters are still latent.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v011</p>
+        <h1 id="work-title">The sentence<br><i>keeps a stutter.</i></h1>
+        <p class="lede">A refusal does not change lanes or fold around a seam. It makes the sentence rehearse: neighbouring routes advance into one short beat, double back through it, repeat the hesitation, and resume with a changed cadence.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v011</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered refusal becomes a spatial stutter. A local family advances into one shared beat, reverses for a bounded rehearsal, then resumes downstream with a carried offset.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space places one bounded stutter at the last pointer position. Route points are recomputed from memory; lifting the latest stutter rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the stutter witnesses, labels, readout, captions, controls, and editorial furniture. If the route field does not still show a spatial return and changed exit, the stutter is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v011 if a caption-free comparison finds only decorative waviness, if the family does not share one rehearsal beat, or if the copy explains more hesitation than the handwriting can show.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-14/">previous daily work</a><a href="/journal/#journal-typography-2026-09-15">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=011"></script>
+</body>
+</html>
