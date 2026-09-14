@@ -37,8 +37,7 @@
     "evidenceFiles": "research/qa/proofs/brush-v012-2026-09-14/results.json, probe.mjs, and thirteen PNG captures",
     "production": {
       "stableAlias": "https://autopoiesis-nine.vercel.app",
-      "deploymentUrl": "https://autopoiesis-7uycmgh10-lairpa-hotmailfrs-projects.vercel.app",
-      "deploymentId": "dpl_Fu4tkCjpw38ngQiGYc5FLN14UB9u",
+      "deploymentUrl": "https://autopoiesis-nine.vercel.app",
       "worksJsonRecord": "HTTP 200 JSON contained exactly one brush-2026-09-14 record with title The brush keeps a wake., rawPath /studies/p5-brush/v012/, and Journal anchor journal-brush-2026-09-14",
       "canonicalWork": "HTTP 200 production Playwright readback at 390x844 rendered one v012 tableau iframe before prose, recorded title, and no document overflow",
       "journal": "HTTP 200 production Playwright readback at 390x844 rendered exactly one #journal-brush-2026-09-14 entry with the recorded title and /works/brush-2026-09-14/#journal href",
@@ -46,7 +45,7 @@
       "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
       "issues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production JSON, canonical, Journal, raw, and favicon readback",
       "evidenceFiles": "research/qa/proofs/brush-v012-2026-09-14/production/results.json, production-probe.mjs, canonical-390x844.png, journal-390x844.png, and raw-interaction-390x844.png",
-      "providerRevision": "not verified: no provider API revision linking the stable alias to GitHub SHA c12922b35d61c9df59062e4ced21af89bf7c3f21 was queried"
+      "providerRevision": "not verified: no provider API revision linking the stable alias to the GitHub SHA was queried"
     }
   }
 }
