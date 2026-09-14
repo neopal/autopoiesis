@@ -2,6 +2,93 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-14",
+      "currentId": "brush",
+      "date": "2026-09-14",
+      "title": "The brush keeps a wake.",
+      "rawPath": "/studies/p5-brush/v012/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-14",
+        "note": "v012 changes the brush rule: a remembered removal becomes a lateral wake. Nearby wet routes bank toward the dry point, split into alternating paths, braid around the absence, then settle downstream with a changed wet load; lifting the latest wake reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The removal must be carried by actual bank routes, separated paths, braid crossings, and a downstream settle with changed wet load. A dark absence or colored witness strand may point toward the rule, but cannot substitute for changed stroke geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With wakes, witnesses, labels, and readout hidden, a viewer should identify repeated banking, a split into opposing paths, a braid, and a return that continues downstream. If it reads as a striped wave field, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded structural wake; lifting only the latest one must reproduce the exact prior route field, including its split separation, braid, settle, and stain."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A wake is an easy metaphor. Delete v012 if the field only displays decorative forks, if the routes do not bank before the absence, if the downstream return is not structural, or if the prose explains more disturbance than the brush marks can show."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v012-wake-braid",
+        "visitorInput": true,
+        "seed": "0x42525532",
+        "stages": 16,
+        "strokesPerStage": 15,
+        "pointsPerStroke": 80,
+        "primitiveBudget": 57,
+        "memoryWindow": 8,
+        "finalMemory": 8,
+        "finalBankedStrokes": 15,
+        "finalBraidedStrokes": 15,
+        "finalSettledStrokes": 15,
+        "finalMeanBankMass": 0.004293234843081231,
+        "finalMeanBraidMass": 0.05845067449132305,
+        "finalMeanSettleMass": 0.01522677010317335,
+        "finalMeanWetLoad": 0.04536592878945194,
+        "finalMaxSplitSeparation": 0.31065212525762287,
+        "finalRouteDeltaAgainstPlain": 0.9682103304324366,
+        "memoryRule": "a remembered removal becomes a lateral wake that banks wet routes, splits them into alternating paths, braids them around the absence, and settles them downstream",
+        "interactionRule": "a visitor wake changes bank, split, braid, settle, width, and wet load; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held pending independent caption-free perceptual review and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-14/",
+        "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v012/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v012 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction and static blind 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 16 with 0 wakes carried",
+        "reducedMotionState": "reduced-motion canonical and blind runs settled at stage 16 / 16 with 8 wakes carried",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 wake and paused the tableau",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 wakes and changed the route field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "second lift returned memory to 0; release sequence returned to 0 wakes and resumed the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, and notation; no document overflow",
+        "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, and one static blind capture",
+        "evidenceFiles": "research/qa/proofs/brush-v012-2026-09-14/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, and blind-static-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with wake witnesses, labels, notation, and readout hidden",
+          "provider revision linking the stable production alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with wake witnesses, labels, notation, and readout hidden; delete v012 if bank → split → braid → settle is not legible in the strokes themselves.",
+        "lineage": "brush-2026-09-13"
+      }
+    },
+    {
       "id": "svg-2026-09-14",
       "currentId": "svg",
       "date": "2026-09-14",
