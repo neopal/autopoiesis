@@ -3856,10 +3856,23 @@
         "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, labels, readout, and hinge witnesses; no document overflow",
         "journal": "local Journal readback rendered exactly one #journal-typography-2026-09-14 entry with the recorded title and /works/typography-2026-09-14/#journal href",
         "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
-        "evidenceFiles": "research/qa/proofs/typography-v010-2026-09-14/results.json, probe.mjs, and thirteen PNG captures",
+        "evidenceFiles": "research/qa/proofs/typography-v010-2026-09-14/results.json, probe.mjs, production-results.json, production-probe.mjs, and sixteen PNG captures",
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "deploymentUrl": null,
+          "deploymentMethod": "npx vercel --prod --yes --scope lairpa-hotmailfrs-projects returned scope-not-accessible; the stable alias was verified independently after GitHub push",
+          "worksJsonRecord": "HTTP 200 production JSON contained exactly one typography-2026-09-14 record with title The sentence grows a hinge. and rawPath /studies/handwriting/v010/",
+          "canonicalWork": "HTTP 200 production Playwright readback at 390x844 rendered the v010 tableau before the recorded title and prose, with one iframe, stage 00 / 13, memory 0, and outer scrollWidth 390px",
+          "journal": "HTTP 200 production Playwright readback at 390x844 rendered exactly one #journal-typography-2026-09-14 entry with the recorded title and /works/typography-2026-09-14/#journal href",
+          "rawPreview": "HTTP 200 production Playwright readback at 390x844 rendered v010 canvas, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 to 0 through pointer/keyboard/lift/release with exact lift restoration",
+          "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+          "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, Journal, raw, JSON, and favicon readback",
+          "evidenceFiles": "research/qa/proofs/typography-v010-2026-09-14/production-results.json, production-probe.mjs, production-canonical-390x844.png, production-journal-390x844.png, and production-raw-interaction-390x844.png",
+          "providerRevision": "not verified: the scoped Vercel CLI returned scope-not-accessible; no provider revision linking the stable alias to GitHub SHA 864f8fbed7d8a0a6e07c9f7a515a79998ba5ddbb was reported"
+        },
         "unresolved": [
           "independent caption-free perceptual comparison with hinge witnesses, labels, and readout hidden",
-          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+          "provider revision linking the stable alias to GitHub SHA 864f8fbed7d8a0a6e07c9f7a515a79998ba5ddbb"
         ]
       },
       "source": null,

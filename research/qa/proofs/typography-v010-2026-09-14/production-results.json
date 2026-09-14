@@ -1,0 +1,167 @@
+{
+  "base": "https://autopoiesis-nine.vercel.app",
+  "targetId": "typography-2026-09-14",
+  "targetTitle": "The sentence grows a hinge.",
+  "status": "stable alias contains v010",
+  "json": {
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 257836,
+    "matchingRecords": 1,
+    "containsTitle": true,
+    "containsRawPath": true
+  },
+  "canonical": {
+    "status": 200,
+    "ready": true,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "tableauFirst": true,
+    "iframeCount": 1,
+    "workId": "typography-2026-09-14",
+    "titlePresent": true,
+    "capture": "production-canonical-390x844.png",
+    "tableauState": {
+      "stage": 0,
+      "memory": [],
+      "paused": false,
+      "interactive": true,
+      "blind": false
+    },
+    "issues": []
+  },
+  "journal": {
+    "status": 200,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "anchorCount": 1,
+    "titlePresent": true,
+    "capture": "production-journal-390x844.png",
+    "issues": []
+  },
+  "rawPreview": {
+    "status": 200,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "state": {
+      "stage": 0,
+      "memory": [],
+      "paused": false,
+      "interactive": true,
+      "blind": false
+    },
+    "controls": [
+      {
+        "id": "place-hinge",
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "id": "lift-hinge",
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "id": "release-sequence",
+        "height": 44,
+        "disabled": false
+      }
+    ],
+    "pointerState": {
+      "stage": 0,
+      "memory": [
+        {
+          "id": "visitor-hinge-0-0",
+          "source": "visitor-hinge",
+          "stage": 0,
+          "x": 0.56,
+          "y": 0.42,
+          "point": {
+            "x": 0.56,
+            "y": 0.42
+          },
+          "force": 1,
+          "phase": 13.874
+        }
+      ],
+      "paused": true,
+      "interactive": true,
+      "blind": false
+    },
+    "keyboardState": {
+      "stage": 0,
+      "memory": [
+        {
+          "id": "visitor-hinge-0-0",
+          "source": "visitor-hinge",
+          "stage": 0,
+          "x": 0.56,
+          "y": 0.42,
+          "point": {
+            "x": 0.56,
+            "y": 0.42
+          },
+          "force": 1,
+          "phase": 13.874
+        },
+        {
+          "id": "visitor-hinge-0-1",
+          "source": "visitor-hinge",
+          "stage": 0,
+          "x": 0.56,
+          "y": 0.42,
+          "point": {
+            "x": 0.56,
+            "y": 0.42
+          },
+          "force": 1,
+          "phase": 13.874
+        }
+      ],
+      "paused": true,
+      "interactive": true,
+      "blind": false
+    },
+    "liftState": {
+      "stage": 0,
+      "memory": [
+        {
+          "id": "visitor-hinge-0-0",
+          "source": "visitor-hinge",
+          "stage": 0,
+          "x": 0.56,
+          "y": 0.42,
+          "point": {
+            "x": 0.56,
+            "y": 0.42
+          },
+          "force": 1,
+          "phase": 13.874
+        }
+      ],
+      "paused": true,
+      "interactive": true,
+      "blind": false
+    },
+    "releaseState": {
+      "stage": 0,
+      "memory": [],
+      "paused": false,
+      "interactive": true,
+      "blind": false
+    },
+    "liftRestoredPointerField": true,
+    "hasCanvas": true,
+    "capture": "production-raw-interaction-390x844.png",
+    "issues": []
+  },
+  "favicon": {
+    "status": 200,
+    "contentType": "image/svg+xml",
+    "bytes": 376
+  },
+  "browserIssues": []
+}
