@@ -2,6 +2,82 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-09-14",
+      "currentId": "portrait",
+      "date": "2026-09-14",
+      "title": "The portrait keeps a seam.",
+      "rawPath": "/studies/self-portrait/v009/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-14",
+        "note": "v009 changes the portrait rule: a remembered decision becomes a seam. Two contour anchors are tugged while a paired-rail thread crosses the interior and exits elsewhere; lifting the latest seam rebuilds the preceding face exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The decision must be carried by two contour anchors that tug apart while a route enters, crosses the interior, and exits elsewhere; a bright thread over an unchanged body cannot substitute for changed geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, endpoint ticks, and knot witnesses hidden, a viewer should find an interior crossing tied to two altered points of the body. If it reads as a decorative line or ordinary contour noise, the mutation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded seam, while returning it must restore the exact prior contour, aperture, entry, crossing, exit, and rails from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A seam is an easy metaphor. Delete v009 if hiding the witnesses leaves only a line on a stable face, if the route does not cross the body, or if the prose explains more tension than the portrait can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x53505639",
+        "stages": 15,
+        "contourPoints": 64,
+        "threadPoints": 21,
+        "railPoints": 21,
+        "primitiveBudget": 54,
+        "memoryWindow": 4,
+        "memoryRule": "a remembered decision becomes a seam: two contour anchors are tugged while a paired-rail thread crosses the interior and exits elsewhere",
+        "interactionRule": "a visitor seam changes downstream contour, aperture, entry, crossing, exit, and paired-rail geometry; returning it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "browserEvidence": {
+          "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
+          "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-14/",
+          "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v009/?preview=1&interaction=1",
+          "canonicalShellAndEmbeddedTableauRendered": true,
+          "tableauFirst": "10/10 local canonical runs rendered the v009 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+          "viewportMatrix": "10/10 local headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; the only larger child bounds were the contained horizontal daily timeline rail; embedded study frames matched their own geometry",
+          "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+          "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, static blind, raw interaction, and Journal runs",
+          "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, static blind, raw interaction, and Journal runs",
+          "normalState": "normal-motion local canonical runs opened at stage 01 / 15 with 0 seams carried",
+          "reducedMotionState": "reduced-motion local canonical runs settled at stage 15 / 15 with 4 seams carried and 4 interior routes",
+          "pointerInteraction": "local raw pointer changed memory from 0 to 1 seam, changed the canvas PNG signature, and paused the tableau",
+          "keyboardInteraction": "Enter on the focused raw canvas changed memory from 0 to 1 seam and paused the tableau",
+          "liftInteraction": "Delete after pointer changed memory from 1 to 0 and restored the exact preceding canvas PNG data URL",
+          "releaseInteraction": "release sequence returned to stage 01 / 15, memory 0, and unpaused the sequence",
+          "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, endpoint ticks, and crossing-knot witnesses; no document overflow",
+          "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, one static blind capture, one raw interaction capture, and one Journal capture",
+          "evidenceFiles": "research/qa/proofs/portrait-v009-2026-09-14/results.json, probe.mjs, and thirteen PNG captures"
+        },
+        "promotion": "candidate / held pending browser matrix, independent caption-free perceptual review, and provider revision verification",
+        "unresolved": [
+          "independent caption-free perceptual comparison with endpoint ticks, seam knot, labels, readout, and editorial furniture hidden",
+          "provider revision linking the stable production alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with endpoint ticks, seam knot, labels, and readout hidden; delete v009 if entry → crossing → exit does not remain legible as changed body geometry.",
+        "lineage": "portrait-2026-09-12"
+      }
+    },
+    {
       "id": "webgpu-2026-09-13",
       "currentId": "webgpu",
       "date": "2026-09-13",

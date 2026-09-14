@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071217">
+  <title>MUTINE — the portrait keeps a seam</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-14"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v009-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v009</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v009-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v009</span></nav>
+      <section class="v009-surface artwork-frame" aria-label="Self portrait decision seam field">
+        <div class="v009-field-wrap">
+          <canvas id="field" role="img" aria-label="An abstract self portrait whose contour is tugged at two points by a remembered seam that crosses the interior and exits elsewhere" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 seams carried</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="seam-control" data-gesture="seam">thread a seam</button>
+            <button type="button" id="undo-control" data-gesture="undo">return latest seam</button>
+            <button type="button" id="release-control" data-gesture="release">release sequence</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Fifteen seeded states let the face make decisions, then carry them as tension through its own body.</p></div>
+          <div><span>changed rule</span><p>A remembered decision tugs two contour anchors and sends a threaded route through the interior before it exits elsewhere.</p></div>
+          <div><span>progression</span><p>Touch the field or press Enter. Return the latest seam to compare the exact face before the decision crossed it.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V009 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>keeps a seam.</i></h1></div>
+        <p class="work-premise">A self-image that cannot bury a decision: the contour is pulled at two points, while a fine thread crosses the body and leaves by another route.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a decision changes contour geometry, creates a real entry → crossing → exit route with paired rails, and shifts the aperture; returning it restores the exact prior field. Promotion still depends on whether the image reads as bodily tension without its witnesses or readout.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>carry what it chose?</i></h2>
+        <div class="note-copy"><p>The field stores no browser history. Its memory is rebuilt from a fixed seed and bounded to four seams. A visitor gesture changes contour geometry, aperture geometry, and the interior route, not only colour or text, and can be reversed for comparison.</p><dl><div><dt>seed</dt><dd>0x53505639 / replayable</dd></div><div><dt>input</dt><dd>pointer, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>latest seam leaves contour, aperture, entry, crossing, or exit unchanged</dd></div><div><dt>deletion</dt><dd>delete v009 if the seam is only a line over an unchanged face</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>
