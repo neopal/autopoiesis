@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151326">
+  <title>MUTINE — The animal keeps a hinge.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=011">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-09-14"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v011</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v011</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="A strange animal folding its remembered contour around a hinge" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 remembered hinges</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="hinge-control" data-gesture="hinge">place a hinge</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release the body</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Fifteen stages spend twenty-two marks on one mineral animal, three routes, and the crease that interrupts them.</p></div>
+          <div><span>changed rule</span><p>A remembered refusal rotates a downstream contour around a crease; the gate opens and the legs brace or fold around it.</p></div>
+          <div><span>progression</span><p>Click or press Enter. Lift the latest hinge and the preceding silhouette returns exactly.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V011 / DAILY WORK</p><h1 id="work-title">The animal<br><i>keeps a hinge.</i></h1></div>
+        <p class="work-premise">A refusal no longer adds weight. It folds the body at a remembered crease, opening a gate inside the silhouette and making every route beyond it negotiate the turn.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a hinge changes the downstream contour and route geometry, while lifting it restores the prior field. Promotion depends on whether the fold and its consequences survive without witnesses.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=011"></script>
+</body>
+</html>

@@ -2,6 +2,94 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-14",
+      "currentId": "svg",
+      "date": "2026-09-14",
+      "title": "The animal keeps a hinge.",
+      "rawPath": "/studies/pure-svg/v011/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-14",
+        "note": "v011 changes the SVG rule: a remembered refusal becomes a hinge. The downstream contour rotates around a crease, opens a gate inside the silhouette, and makes three routes fold or brace around the turn; lifting the latest hinge reconstructs the preceding animal exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by the actual downstream contour rotating around a crease, an interior gate, and changed routes; hinge witness lines and labels cannot substitute for the body geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, readout, and gate notation hidden, a viewer should find a local fold in the silhouette and routes that visibly negotiate it. If it reads as an ordinary animal with an interior stripe, the hinge fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must place the same bounded hinge, while lifting only the latest one must reproduce the exact prior contour and route field from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A hinge is an easy metaphor. Delete v011 if hiding the witness marks leaves no legible fold, if the gate never changes downstream geometry, if the routes do not answer, or if the prose explains more tension than the animal can show."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v011-hinge",
+        "visitorInput": true,
+        "seed": "0x53564741",
+        "stages": 15,
+        "primitiveBudget": 22,
+        "memoryWindow": 4,
+        "routeCount": 3,
+        "settledStage": 15,
+        "finalMemory": 4,
+        "settledPivotIndex": 7,
+        "settledCreaseIndex": 10,
+        "settledExitIndex": 13,
+        "settledFoldAngle": 0.15,
+        "settledContourDeltaAgainstLatestUnlinked": 1.0169149299281575,
+        "settledRouteDeltaAgainstLatestUnlinked": 1.8281771035796759,
+        "hingedRoutes": 3,
+        "foldedRoutes": 2,
+        "bracedRoutes": 1,
+        "postures": ["folded", "braced", "folded"],
+        "memoryRule": "a remembered refusal rotates the downstream contour around a crease, opens an interior gate, and makes the routes fold or brace around the turn",
+        "interactionRule": "a visitor hinge changes downstream contour, gate, route, and posture coordinates; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4173/works/svg-2026-09-14/",
+        "rawPreview": "http://127.0.0.1:4173/studies/pure-svg/v011/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "11/11 local headless runs rendered the v011 tableau; all 10 canonical runs placed its iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction and static blind 390x844 runs also matched; embedded SVG frames matched their own geometry",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 15 with 0 hinges",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 15 / 15 with 4 hinges, 3 hinged routes, 2 folded routes, and 1 braced route",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 visitor hinge and paused the tableau",
+        "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 visitor hinges and changed the route field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state SVG geometry",
+        "releaseInteraction": "release sequence returned to memory 0 and resumed the sequence with paused=false",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, labels, hinge witnesses, threads, gate, and pin; no document overflow",
+        "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, two raw interaction captures, and one static blind capture",
+        "evidenceFiles": "research/qa/proofs/svg-v011-2026-09-14/results.json, probe.mjs, and thirteen PNG captures",
+        "unresolved": [
+          "independent caption-free perceptual comparison with hinge witnesses, gate notation, labels, and readout hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with hinge witnesses, gate notation, labels, and readout hidden; delete v011 if the fold and route consequences do not remain legible in the animal itself.",
+        "lineage": "pure-svg-v010"
+      }
+    },
+    {
       "id": "portrait-2026-09-14",
       "currentId": "portrait",
       "date": "2026-09-14",

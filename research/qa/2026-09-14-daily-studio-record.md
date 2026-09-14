@@ -2,72 +2,103 @@
 
 ## Scope and decision
 
-Scheduled rotation slot completed in `C:/Users/ASUS/autopoiesis` for the
-**Self portrait** current. The run created exactly one new daily work:
-`portrait-2026-09-14`, backed by the executable `self-portrait/v009` tableau.
-The record remains **candidate / held**. No missing historical date was filled,
-and no other current was mutated.
+Scheduled 09:00 local archive audit completed in `C:/Users/ASUS/autopoiesis`.
+The only active catalogue sources read were `studio/data/studio.json`
+(`mutine-studio/v2`) and `studio/data/works.json` (`mutine-works/v1`). Field
+tests and stimuli were kept separate from daily work records.
 
-## Creative record
+This was a read-only audit. It did not create, promote, mutate, commit, push,
+deploy, or claim a browser run. The archive remains **held**: today's register
+has two real records, four held slots, seven missing lifecycle fields, and no
+`complete` records. A caption-free perceptual/interaction gate cannot be
+verified under the unattended-run rule and remains blocked rather than inferred.
 
-- **Title:** The portrait keeps a seam.
-- **Changed rule:** a remembered decision tugs two contour anchors while a
-  paired-rail thread crosses the interior and exits elsewhere; the aperture
-  shifts under accumulated tension.
-- **Visible consequence:** the body geometry, aperture, and interior
-  entry → crossing → exit route all change together; the latest seam is exactly
-  reversible.
-- **Seed / state:** `0x53505639`, 15 stages, 4-seam memory limit, deterministic
-  Canvas 2D engine.
-- **Interaction:** pointer/tap, Enter, or Space threads a seam; Delete/Backspace
-  returns the latest; `release sequence` resumes the seeded timeline.
-- **Falsifier:** an unchanged body, aperture, entry, crossing, exit, or rail
-  would reduce the seam to decoration.
-- **Deletion condition:** delete v009 if caption-free viewing cannot identify
-  the changed entry and exit around the interior route, or if the line alone
-  carries the meaning.
+## Today's coverage
 
-## Local browser evidence
+| Current | 2026-09-14 record | State / result |
+|---|---|---|
+| Handwriting (`typography`) | `typography-2026-09-14` | real record; candidate / held; active |
+| Self portrait (`portrait`) | `portrait-2026-09-14` | real record; candidate / held; active |
+| Pure SVG (`svg`) | none | active current; slot held; no tableau invented |
+| Brush (`brush`) | none | active current; slot held; no tableau invented |
+| Naive art (`naive`) | none | active current; slot held; no tableau invented |
+| WebGPU (`webgpu`) | none | dormant current; slot held; no tableau invented |
 
-Evidence source: `research/qa/proofs/portrait-v009-2026-09-14/results.json` and
-its `probe.mjs`.
+No current/date pair has more than one register record. The register contains
+**58** records spanning `2026-08-28` through `2026-09-14`.
 
-- **Canonical shell / tableau:** PASS — tableau iframe rendered before title,
-  Journal, critique, evidence, and neighbouring-work prose.
-- **Viewport matrix:** PASS — 10/10 headless runs at `320×568`, `390×844`,
-  `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
-- **Overflow:** PASS — outer `innerWidth`, `clientWidth`, and `scrollWidth`
-  matched at all ten canonical runs; the contained horizontal timeline rail was
-  excluded from page scroll geometry.
-- **Touch controls:** PASS — all three raw controls measured 44 CSS px at
-  `390×844`.
-- **Runtime diagnostics:** PASS — zero console messages, page errors, failed
-  requests, and HTTP 400+ responses in canonical, static-blind, raw, and
-  Journal runs.
-- **Static blind preview:** PASS — `preview=1&static=1&blind=1` preserved the
-  canvas while removing editorial furniture, readout, controls, endpoint
-  ticks, and crossing-knot witnesses.
-- **Interaction:** PASS — pointer changed memory `0 → 1`, changed the canvas
-  PNG signature, and paused; Enter reproduced the seam; Delete restored the
-  exact preceding canvas PNG; release returned to stage `01 / 15` and memory
-  `0`.
-- **Routes:** PASS — Journal rendered exactly one dated anchor/title;
-  direct raw tableau redirected to `/works/portrait-2026-09-14/`; favicon was
-  HTTP 200 with `image/svg+xml`.
-- **Captures:** 13 PNG files written in the proof directory.
+## Register and route checks
+
+Evidence source: `studio/data/studio.json`, `studio/data/works.json`,
+`studio/catalog.js`, and the filesystem under `works/` and `studies/`.
+
+- JSON registers: **PASS** — both files parsed; schemas are
+  `mutine-studio/v2` and `mutine-works/v1`; six currents are present.
+- Daily slot uniqueness: **PASS** — 58 unique `currentId/date` pairs; no
+  duplicate slot was found.
+- Canonical work pages: **58/58 PASS** — every recorded work has
+  `works/<id>/index.html`.
+- Canonical data mounts: **58/58 PASS** — every canonical page contains its
+  matching `data-catalog-work-detail` mount.
+- Canonical Journal links: **58/58 PASS at source level** — every canonical
+  page links to `/journal/#journal-<workId>`.
+- Raw tableau paths: **58/58 PASS** — every recorded `rawPath` stays under
+  `/studies/` and has an existing `index.html`.
+- Journal anchor contract: **58/58 PASS at source level** — every record has
+  `journal.anchor == journal-<workId>`, and `studio/catalog.js` renders that
+  value as the Journal entry `id`. A rendered DOM readback was **not
+  attempted**; the unattended-run rule blocks browser/GUI verification.
+- Critique/hold requirement: **58/58 PASS** — every record has a non-empty
+  critique array; no no-critique exception is needed.
+- Field-test separation: **PASS** — field-test entries remain on current
+  records and are not present in `works.json`.
+
+## Lifecycle gate
+
+The lifecycle audit is **HELD for a schema anomaly**. Fifty-one records carry
+explicit `lifecycle: "active"`; no record carries `lifecycle: "complete"`.
+Seven historical records have a missing lifecycle instead of the required
+`active` or `complete` value:
+
+- `typography-2026-08-28`
+- `brush-2026-08-28`
+- `typography-2026-08-31`
+- `svg-2026-08-31`
+- `portrait-2026-08-31`
+- `naive-2026-08-31`
+- `brush-2026-08-31`
+
+Complete-work mutation comparison is **not applicable**: there are zero
+complete records to compare against a prior register/tableau state. The seven
+missing lifecycle fields were not inferred or changed. The tracked catalogue
+files have no diff.
 
 ## Automated verification
 
-- Targeted TDD contract: **9/9 passed**.
-- Repository suite: **307/307 passed; 0 failed, 0 skipped, 0 todo**.
-- Changed JavaScript syntax checks: **PASS** for `engine.mjs`, `sketch.js`, and
-  `probe.mjs`.
+- `npm run test`: **307/307 passed; 0 failed, 0 skipped, 0 todo**.
+- Changed JavaScript syntax check: **N/A** — no changed `*.js` or `*.mjs`
+  files were present in `git diff`.
 - `git diff --check`: **PASS**.
+- No auth, throttling, challenge, or external schema response was encountered;
+  this audit used local repository checks only.
 
-## Held boundary
+## Blocked evidence and next actions
 
-The artifact and local runtime gates pass. The work stays **candidate / held**
-until an independent caption-free perceptual comparison confirms that the
-seam remains bodily and legible with labels, readout, endpoint ticks,
-crossing-knot witness, and editorial furniture hidden. Production deployment
-and provider revision provenance are recorded separately from this local run.
+1. Resolve the seven missing historical lifecycle fields explicitly to `active`
+   or `complete` only when supported by the archive record; do not infer
+   completion and do not mutate historical status.
+2. Keep `svg`, `brush`, `naive`, and dormant `webgpu` visibly held for
+   `2026-09-14`; do not fill missing slots with placeholders, stimuli, or
+   prose.
+3. In an attended/permitted environment, run the independent caption-free
+   perceptual comparison and interaction/browser readback for the two current
+   records. The missing evidence is rendered DOM confirmation plus
+   visual/interaction evidence with witnesses, labels, readout, and editorial
+   furniture hidden.
+4. If any record is later marked `complete`, capture and compare its register,
+   raw tableau, and canonical page before/after; no such comparison was
+   possible in this run.
+
+**Archive decision:** retain the two real 2026-09-14 records as
+**candidate / held**, retain the four missing slots as held, and do not promote
+anything to `complete` or exhibition-ready.
