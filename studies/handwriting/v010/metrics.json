@@ -1,0 +1,17 @@
+{
+  "id": "handwriting-v010-hinge",
+  "seed": "0x57563130",
+  "visitorInput": true,
+  "stages": 14,
+  "routeCount": 20,
+  "pointsPerRoute": 42,
+  "primitiveBudget": 42,
+  "memoryWindow": 6,
+  "hingeRule": "a remembered refusal bends a local family around one shared finite pivot seam and carries an offset downstream",
+  "memoryRule": "the latest six hinges are replayed in order through the route builder",
+  "interactionRule": "pointer, Enter, and Space place a bounded hinge with a carried offset; lifting the latest rebuilds the exact preceding route field",
+  "replay": true,
+  "renderer": "deterministic Canvas 2D",
+  "measured": false,
+  "promotion": "candidate / held pending local browser matrix, production readback, and independent caption-free perceptual review"
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d18">
+  <title>MUTINE — The sentence grows a hinge.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=010">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-14"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v010</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v010</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes bending around repeated angular hinges" aria-keyshortcuts="Enter Space R P"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 010</span><span>THE HINGE FIELD</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v010-hinge</span><span>refusal &gt; pivot &gt; carried offset</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to give a local family one hinge. The routes pivot through the fold and keep a trace of its angle; lift the latest hinge to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-hinge" data-gesture="hinge" type="button">make hinge</button>
+          <button id="lift-hinge" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The sentence is moving; its hinges are still latent.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v010</p>
+        <h1 id="work-title">The sentence<br><i>grows a hinge.</i></h1>
+        <p class="lede">A refusal no longer crosses into another lane. It makes a finite fold: neighbouring routes approach one seam, pivot through an angular pocket, and leave carrying the memory as a small downstream offset.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v010</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered refusal becomes a hinge. A local family approaches one pivot, folds through a bounded pocket, and continues downstream with a carried offset.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space places one bounded hinge at the last pointer position. Route points are recomputed from memory; lifting the latest hinge rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the hinge witnesses, labels, and readout. If the routes do not visibly pivot and retain a changed exit, the hinge is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v010 if a caption-free comparison finds only a coloured mark, if the bend is not finite and angular, or if the copy explains more memory than the handwriting can show.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-13/">previous daily work</a><a href="/journal/#journal-typography-2026-09-14">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=010"></script>
+</body>
+</html>
