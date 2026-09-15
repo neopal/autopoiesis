@@ -1,0 +1,62 @@
+{
+  "renderer": "deterministic Canvas 2D",
+  "seed": "0x4e413131",
+  "stages": 16,
+  "primitiveBudget": 52,
+  "memoryWindow": 6,
+  "visitorInput": true,
+  "replay": true,
+  "changedRule": "a retained correction becomes an approach-lift-crest-descent-return bump replayed from house, ground, and route origins",
+  "memoryRule": "later scenes keep a shared vertical excursion: each retained mistake rises, crests, descends, and returns downstream",
+  "interactionRule": "visitor placement changes bump polarity, width, duration, height, tilt, and all three route geometries; undo restores the exact prior field",
+  "structuralWitnesses": [
+    "house-bump",
+    "ground-bump-line",
+    "route-bump"
+  ],
+  "settledStage": 16,
+  "settledMemory": 6,
+  "settledApproachPoints": 18,
+  "settledLiftPoints": 18,
+  "settledCrestPoints": 18,
+  "settledDescentPoints": 18,
+  "settledReturnPoints": 18,
+  "visitorStructuralMemory": 1,
+  "visitorPhasePoints": {
+    "approach": 1,
+    "lift": 1,
+    "crest": 1,
+    "descent": 1,
+    "return": 1
+  },
+  "browserEvidence": {
+    "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
+    "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-15/",
+    "rawPreview": "http://127.0.0.1:4173/studies/naive-art/v011/?preview=1&interaction=1",
+    "canonicalShellAndEmbeddedTableauRendered": true,
+    "tableauFirst": "10/10 local canonical runs placed the v011 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+    "viewportMatrix": "10/10 local canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction and static blind 390x844 runs also matched",
+    "touchTargets": "all three local raw interaction buttons measured at least 44 CSS px at 390x844",
+    "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+    "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+    "normalState": "normal-motion canonical runs opened at stage 01 / 16 with 0 bumps retained",
+    "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 16 / 16 with 6 bumps retained",
+    "pointerInteraction": "local raw pointer changed memory from 0 to 1 bump and paused the tableau; canvas pixels changed",
+    "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 bumps and changed the route field",
+    "liftInteraction": "undo latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+    "releaseInteraction": "second undo returned memory to 0; release sequence returned to stage 01 / 16 with 0 bumps and resumed the sequence",
+    "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, labels, and bump notation; no document overflow",
+    "canvasCaptures": "12 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, and one static blind capture",
+    "evidenceFiles": "research/qa/proofs/naive-art-v011-2026-09-15/results.json, probe.py, probe-output.txt, ten canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentUrl": null,
+      "providerRevision": "not verified: pending this run's authorized production deploy and provider revision readback"
+    },
+    "unresolved": [
+      "independent caption-free perceptual comparison with bump witnesses, labels, and readout hidden",
+      "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+    ]
+  }
+}
