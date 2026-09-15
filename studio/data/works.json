@@ -1,6 +1,101 @@
 {
   "schema": "mutine-works/v1",
   "works": [
+  {
+    "id": "webgpu-2026-09-15",
+    "currentId": "webgpu",
+    "date": "2026-09-15",
+    "title": "The crowd keeps a switched order.",
+    "rawPath": "/studies/webgpu/v010/",
+    "status": "candidate / held",
+    "lifecycle": "active",
+    "journal": {
+      "anchor": "journal-webgpu-2026-09-15",
+      "note": "v010 changes the WebGPU rule: a remembered absence exchanges neighboring lanes through a finite crossing, then lets the altered order settle downstream. The route is not merely a reversal or echo; the agent field itself carries the crossing and the changed arrival order."
+    },
+    "critiques": [
+      {
+        "persona": "Field-structure critic",
+        "argument": "The archive must be carried by actual agent geometry: cohorts need to enter, cross through a bounded interval, and keep a changed downstream order. Crossing witnesses may clarify the event, but cannot substitute for exchanged coordinates."
+      },
+      {
+        "persona": "Perceptual critic",
+        "argument": "With switch witnesses, labels, and readout hidden, a viewer should find a crossing and a different order after it. If the field reads as colored turbulence or parallel detours, the mutation fails."
+      },
+      {
+        "persona": "Interaction critic",
+        "argument": "Pointer, Enter, and Space must create the same bounded lane switch; lifting only the latest one must reproduce the exact preceding crowd, including its crossing and settled order."
+      },
+      {
+        "persona": "Cynic",
+        "argument": "A switched order is an easy metaphor. Delete v010 if neighboring lanes never visibly exchange, if the downstream order returns to baseline, if edge input produces no crossing, or if the prose explains more memory than the field can show."
+      }
+    ],
+    "metrics": {
+      "id": "webgpu-v010-switched-order",
+      "visitorInput": true,
+      "seed": "0x5747503a",
+      "stages": 18,
+      "agentCount": 480,
+      "memoryLimit": 7,
+      "finalMemory": 7,
+      "finalCrossingAgents": 249,
+      "finalSwitchedAgents": 170,
+      "finalSettledAgents": 232,
+      "finalRouteSeparation": 17.574700951742283,
+      "finalSwitchStrength": 0.04622637170922601,
+      "finalLaneExchange": 0.030585139094511982,
+      "finalSettleLoad": 14.41109154817206,
+      "latestCrossLoad": 4.158425373039698,
+      "latestSettleLoad": 6.843938907739637,
+      "latestFieldDelta": 2.9002623868148483,
+      "visitorBoundedPoint": {
+        "x": 0.92,
+        "y": 0.08
+      },
+      "visitorCrossingAgents": 9,
+      "visitorSwitchedAgents": 2,
+      "visitorSettledAgents": 2,
+      "visitorCrossLoad": 2.0093925985519507,
+      "visitorSettleLoad": 0.15155910968335953,
+      "memoryRule": "a remembered absence makes neighboring cohorts cross a finite interval and keep an exchanged order downstream",
+      "interactionRule": "a visitor switch changes entry, crossing, settled lane, and agent coordinates; lifting it restores the exact prior crowd field",
+      "replay": true,
+      "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+      "measured": true,
+      "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+    },
+    "browserEvidence": {
+      "status": "local headless browser matrix passed / held pending production readback and independent caption-free perceptual review",
+      "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-15/",
+      "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v010/?preview=1&interaction=1&blind=1",
+      "canonicalShellAndEmbeddedTableauRendered": true,
+      "tableauFirst": "10/10 local canonical runs placed the v010 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+      "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+      "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction, static blind, and Journal runs also matched",
+      "touchTargets": "all three local raw interaction buttons measured at least 44px height at 390x844",
+      "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+      "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+      "normalState": "normal-motion canonical runs opened at stage 01 / 18 with 0 switches carried",
+      "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 18 / 18 with 7 switches carried",
+      "pointerInteraction": "local raw pointer changed memory from 0 to 1 switch and paused the tableau; canvas pixels changed",
+      "keyboardInteraction": "Enter on the focused canvas changed memory from 0 to 1 switch and changed the crowd field",
+      "liftInteraction": "Delete after pointer changed memory from 1 to 0 and restored the exact preceding pointer-state canvas data URL",
+      "releaseInteraction": "release sequence returned to stage 01 / 18 with 0 switches and resumed the sequence",
+      "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, and route notation; no document overflow",
+      "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
+      "evidenceFiles": "research/qa/proofs/webgpu-v010-2026-09-15/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+      "unresolved": [
+        "independent caption-free perceptual comparison with switch witnesses, labels, and readout hidden",
+        "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+      ]
+    },
+    "source": null,
+    "decision": {
+      "nextMutation": "Run an independent caption-free comparison with switch witnesses, labels, and readout hidden; delete v010 if entry → crossing → settled order is not legible in the crowd field itself.",
+      "lineage": "webgpu-2026-09-13"
+    }
+  },
     {
       "id": "brush-2026-09-15",
       "currentId": "brush",
