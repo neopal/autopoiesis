@@ -2,6 +2,154 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-15",
+      "currentId": "brush",
+      "date": "2026-09-15",
+      "title": "The brush keeps a dry seam.",
+      "rawPath": "/studies/p5-brush/v013/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-15",
+        "note": "v013 changes the brush rule: a remembered removal becomes a drying seam. Wet routes bank toward both edges, leave a finite gap, then re-enter downstream with a changed offset and quieter wet load; lifting the latest seam reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The removal must be carried by actual broken route geometry: neighbouring marks need to approach both banks, vanish across a finite interval, and re-enter with a changed offset and wet load. A dark seam or coloured witness may point toward the rule, but cannot substitute for the discontinuity in the strokes."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With seam witnesses, labels, notation, and readout hidden, a viewer should identify repeated inward banking, a literal gap, and a downstream return. If it reads as a stripe over an intact field, the dry seam fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded structural seam; lifting only the latest one must reproduce the exact prior route field, including its gap, re-entry, and stain."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A dry seam is an easy metaphor. Delete v013 if the route never truly breaks, if the two banks do not answer one another, if edge input produces no re-entry, or if the prose explains more drying than the brush marks can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x42525533",
+        "stages": 17,
+        "strokesPerStage": 16,
+        "pointsPerStroke": 84,
+        "primitiveBudget": 61,
+        "memoryWindow": 9,
+        "finalMemory": 9,
+        "finalApproachStrokes": 16,
+        "finalBridgeStrokes": 16,
+        "finalReturnStrokes": 16,
+        "finalGapStrokes": 16,
+        "finalMeanApproachMass": 0.0030750888565768014,
+        "finalMeanBridgeMass": 0.003921756861069395,
+        "finalMeanReturnMass": 0.012467237062731668,
+        "finalMeanDryGap": 0.09005993635807491,
+        "finalMeanWetLoad": 0.010021493446837091,
+        "finalMaxGapWidth": 0.047457048153614866,
+        "finalMaxReentryShift": 0.03595664953840322,
+        "finalRouteDeltaAgainstPlain": 0.27294820535714287,
+        "visitorPoint": {
+          "x": 0.71,
+          "y": 0.44
+        },
+        "visitorGapWidth": 0.057209090909090904,
+        "visitorReentryShift": 0.036013649634993,
+        "memoryRule": "a remembered removal becomes a drying seam; wet routes approach both banks, leave a finite gap, and re-enter downstream with a quieter offset",
+        "interactionRule": "a visitor seam changes bank, gap, re-entry, width, and wet load; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-15/",
+        "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v013/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v013 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction and blind 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured at least 44px height at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 17 with 0 seams carried",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 17 / 17 with 9 seams carried",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 seam and paused the tableau",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 seams and changed the route field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned to stage 01 / 17 with 0 seams and resumed the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, witnesses, and notation; no document overflow",
+        "canvasCaptures": "12 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, and one static blind capture",
+        "evidenceFiles": "research/qa/proofs/brush-v013-2026-09-15/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with seam witnesses, labels, notation, and readout hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with seam witnesses, notation, labels, and readout hidden; delete v013 if approach → gap → re-entry is not legible in the strokes themselves.",
+        "lineage": "brush-2026-09-14"
+      }
+    },
+    {
+      "id": "svg-2026-09-15",
+      "currentId": "svg",
+      "date": "2026-09-15",
+      "title": "The animal keeps a threshold.",
+      "rawPath": "/studies/pure-svg/v012/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-15",
+        "note": "v012 changes the SVG rule: a remembered refusal becomes a threshold. The contour opens a true aperture, resumes on the far side, and three routes queue, cross, and clear the opening; lifting the latest threshold reconstructs the preceding animal exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by the contour itself: a real aperture, a changed downstream return, and routes that take distinct positions before, through, and beyond it. Witness threads and labels cannot substitute for the opening."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, readout, and gate notation hidden, a viewer should find an opening in the animal and three routes that visibly queue, cross, and clear it. If it reads as an interior badge, the threshold fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must place the same bounded threshold, while lifting only the latest one must reproduce the exact preceding contour and route geometry from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A threshold is an easy metaphor. Delete v012 if the body never actually opens, if the route marks merely decorate the opening, if edge input produces no structural change, or if the prose explains more crossing than the silhouette can show."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v012-threshold",
+        "visitorInput": true,
+        "seed": "0x53564742",
+        "stages": 16,
+        "primitiveBudget": 24,
+        "memoryWindow": 4,
+        "memoryRule": "a remembered refusal cuts a true aperture into the contour; the body resumes across it and routes queue, cross, and clear",
+        "interactionRule": "visitor placement changes aperture, downstream contour, route queue, crossing, and clearance; lift restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic SVG / Canvas-free",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "pending local headless browser readback and independent caption-free perceptual review"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with threshold witnesses, labels, gate, and readout hidden; delete v012 if opening → crossing → clearance is not legible in the contour and route geometry together.",
+        "lineage": "pure-svg-v011"
+      }
+    },
+    {
       "id": "naive-2026-09-14",
       "currentId": "naive",
       "date": "2026-09-14",

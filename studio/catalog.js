@@ -1,11 +1,5 @@
 import { buildCatalog, findCurrent, findWork } from './catalog.mjs';
-
-const DATA_URLS = [
-  '/studio/data/studio.json',
-  '/studio/data/works.json',
-  '/studio/data/stimuli.json',
-  '/studio/data/artist.json'
-];
+import { loadCatalogData } from './catalog-data.mjs';
 
 const escapeHtml = (value) => String(value ?? '')
   .replaceAll('&', '&amp;')
@@ -21,6 +15,32 @@ const withPreview = (path, options = {}) => {
 const pluralize = (count, singular, plural = `${singular}s`) => `${count} ${count === 1 ? singular : plural}`;
 const journalHref = (work) => work.journal?.anchor ? `/journal/#${work.journal.anchor}` : null;
 const sortByDateDescending = (entries) => [...entries].sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+
+function hydrateLazyFrames(root) {
+  const frames = [...root.querySelectorAll('iframe[data-src]')];
+  if (!frames.length) return;
+
+  const load = (frame) => {
+    if (!frame.dataset.src) return;
+    frame.src = frame.dataset.src;
+    delete frame.dataset.src;
+  };
+
+  if (!('IntersectionObserver' in window)) {
+    frames.forEach(load);
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries, currentObserver) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      load(entry.target);
+      currentObserver.unobserve(entry.target);
+    });
+  }, { rootMargin: '200px 0px' });
+
+  frames.forEach((frame) => observer.observe(frame));
+}
 
 function renderArtistPhilosophy(root, artist) {
   root.dataset.ready = 'true';
@@ -39,7 +59,7 @@ function renderHomeCurrent(current) {
   return `<article class="home-current" data-current-id="${escapeHtml(current.id)}">
     <a class="home-current__art" href="${escapeHtml(work.route)}" aria-label="Open ${escapeHtml(work.title)}">
       <figure>
-        <iframe src="${escapeHtml(withPreview(work.rawPath, { static: '1' }))}" title="${escapeHtml(work.title)} — latest ${escapeHtml(current.title)} work" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+        <iframe data-src="${escapeHtml(withPreview(work.rawPath, { static: '1' }))}" title="${escapeHtml(work.title)} — latest ${escapeHtml(current.title)} work" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
         <figcaption><span>${escapeHtml(current.title)}</span><time datetime="${escapeHtml(work.date)}">${escapeHtml(work.date)}</time></figcaption>
       </figure>
     </a>
@@ -50,6 +70,7 @@ function renderHomeCurrent(current) {
 function renderLatestByCurrent(root, catalog) {
   root.dataset.ready = 'true';
   root.innerHTML = `<div class="gallery-current-grid">${catalog.currents.map(renderHomeCurrent).join('')}</div>`;
+  hydrateLazyFrames(root);
   const count = root.closest('.gallery-latest')?.querySelector('[data-gallery-count]');
   if (count) count.textContent = `${catalog.currents.length} currents · latest recorded work per current`;
 }
@@ -60,7 +81,7 @@ function renderWorkCard(work) {
   return `<article class="catalog-card catalog-card--work catalog-card--${escapeHtml(work.currentId)}" data-work-id="${escapeHtml(work.id)}">
     <a class="catalog-card__art-link" href="${escapeHtml(work.route)}" aria-label="Open work ${escapeHtml(work.title)}">
       <figure class="catalog-card__art">
-        <iframe src="${escapeHtml(withPreview(work.rawPath, { static: '1' }))}" title="${escapeHtml(work.title)} — ${current}" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+        <iframe data-src="${escapeHtml(withPreview(work.rawPath, { static: '1' }))}" title="${escapeHtml(work.title)} — ${current}" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
         <figcaption><span>${current}</span><time datetime="${escapeHtml(work.date)}">${escapeHtml(work.date)}</time></figcaption>
       </figure>
     </a>
@@ -84,6 +105,7 @@ function renderCurrentGrid(root, catalog, currentId) {
   root.innerHTML = current.works.length
     ? `<div class="catalog-grid catalog-grid--current">${current.works.map(renderWorkCard).join('')}</div>`
     : `<div class="catalog-state catalog-state--empty"><strong>NO WORK YET</strong><span>${escapeHtml(current.question)}</span><small>This current stays open without inventing a tableau.</small></div>`;
+  hydrateLazyFrames(root);
 
   const count = root.closest('section')?.querySelector('[data-catalog-count]');
   if (count) count.textContent = current.works.length
@@ -197,9 +219,7 @@ async function init() {
   if (!mounts.length) return;
 
   try {
-    const responses = await Promise.all(DATA_URLS.map((url) => fetch(url)));
-    if (responses.some((response) => !response.ok)) throw new Error('Catalog data request failed');
-    const [studio, works, stimuli, artist] = await Promise.all(responses.map((response) => response.json()));
+    const { studio, works, stimuli, artist } = await loadCatalogData();
     const catalog = buildCatalog(studio, works, stimuli);
 
     document.querySelectorAll('[data-catalog="artist"]').forEach((root) => renderArtistPhilosophy(root, artist));
@@ -213,4 +233,4 @@ async function init() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', init);
+if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', init);
