@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111326">
+  <title>MUTINE — the portrait keeps a fork</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-15"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v010-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v010</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v010-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v010</span></nav>
+      <section class="v010-surface artwork-frame" aria-label="Self portrait decision fork field">
+        <div class="v010-field-wrap">
+          <canvas id="field" role="img" aria-label="An abstract self portrait whose internal route forks into two lanes, reunites, and continues toward a changed contour" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 16</span><span data-memory>0 forks carried</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="fork-control" data-gesture="fork">split a route</button>
+            <button type="button" id="undo-control" data-gesture="undo">return latest fork</button>
+            <button type="button" id="release-control" data-gesture="release">release sequence</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Sixteen seeded states let the face choose, branch, reunite, and carry the decision toward its lower edge.</p></div>
+          <div><span>changed rule</span><p>A remembered decision becomes one trunk that splits into two lanes, resolves at a common merge, and continues downstream.</p></div>
+          <div><span>progression</span><p>Touch the field or press Enter. Return the latest fork to compare the exact portrait before the choice divided it.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V010 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>keeps a fork.</i></h1></div>
+        <p class="work-premise">A self-image that cannot collapse a decision into one line: a route leaves the eye, becomes two possible lanes, and returns with the jaw changed by the choice.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a decision changes contour and aperture geometry, creates a shared trunk with two separated lanes and a downstream resolution, and can restore the exact prior field. Promotion still depends on whether the branching grammar reads without its witnesses or readout.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>hold two answers?</i></h2>
+        <div class="note-copy"><p>The field stores no browser history. Its memory is rebuilt from a fixed seed and bounded to four forks. A visitor gesture changes contour geometry, aperture geometry, lane separation, merge geometry, and the downstream route, not only colour or text, and can be reversed for comparison.</p><dl><div><dt>seed</dt><dd>0x53505640 / replayable</dd></div><div><dt>input</dt><dd>pointer, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>latest fork leaves contour, aperture, split, merge, or downstream resolution unchanged</dd></div><div><dt>deletion</dt><dd>delete v010 if the fork is only two decorative lines over an unchanged face</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

@@ -4322,6 +4322,83 @@
         "nextMutation": "Run an independent caption-free comparison with stutter witnesses, labels, and readout hidden; delete v011 if advance → backtrack → repeat → resume is not legible in the route field itself.",
         "lineage": "typography-2026-09-14"
       }
+    },
+    {
+      "id": "portrait-2026-09-15",
+      "currentId": "portrait",
+      "date": "2026-09-15",
+      "title": "The portrait keeps a fork.",
+      "rawPath": "/studies/self-portrait/v010/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-15",
+        "note": "v010 changes the portrait rule: a remembered decision becomes a fork. One trunk leaves the aperture, splits into two materially different lanes, reunites at a shared merge, and continues toward a changed lower contour; lifting the latest fork reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The decision must be carried by a real one-to-two-to-one route: one trunk leaves the aperture, two branches separate at different waypoints, they share a merge, and the route continues downstream. Branch dots or color cannot substitute for the geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, and readout hidden, a viewer should find a common origin, a visible split into two lanes, and a later resolution tied to the changed contour. If it reads as two decorative stripes, the fork fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer and Enter/Space must register the same bounded fork, while returning only the latest one must restore the exact prior contour, aperture, trunk, lanes, merge, and resolution from either input path."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A fork is an easy metaphor. Delete v010 if the lanes do not separate, if they merge at their origin, if the lower route does not continue, or if the prose explains more ambivalence than the portrait can show."
+        }
+      ],
+      "metrics": {
+        "visitorInput": true,
+        "seed": "0x53505640",
+        "stages": 16,
+        "contourPoints": 72,
+        "trunkPoints": 15,
+        "branchPoints": 21,
+        "resolutionPoints": 13,
+        "primitiveBudget": 62,
+        "memoryWindow": 4,
+        "memoryRule": "a remembered decision becomes one trunk that forks into two lanes, shares a merge, and resolves into the lower contour",
+        "interactionRule": "a visitor fork changes the trunk, split, separated branch lanes, merge, and downstream resolution; returning it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-15/",
+        "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v010/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v010 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction, static blind, and Journal 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, raw interaction, static blind, and Journal runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, raw interaction, static blind, and Journal runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 16 with 0 forks carried and paused false",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 16 / 16 with 4 forks carried and paused true",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 fork, changed the canvas PNG signature, and paused the tableau",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 forks and retained the changed field",
+        "liftInteraction": "undo latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL; second undo restored the empty field",
+        "releaseInteraction": "release sequence returned to stage 01 / 16, memory 0, and unpaused the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, labels, readout, and fork witnesses; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-portrait-2026-09-15 entry with the recorded title and /works/portrait-2026-09-15/#journal href",
+        "directRawRedirect": "direct raw tableau request redirected to /works/portrait-2026-09-15/",
+        "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+        "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
+        "evidenceFiles": "research/qa/proofs/portrait-v010-2026-09-15/results.json, probe.mjs, probe-output.txt, ten canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, and journal-390x844.png"
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with fork witnesses, labels, and readout hidden; delete v010 if one trunk → two lanes → merge → downstream resolution is not legible in the portrait itself.",
+        "lineage": "portrait-2026-09-14"
+      }
     }
   ]
 }
