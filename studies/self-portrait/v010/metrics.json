@@ -24,13 +24,13 @@
   "renderer": "deterministic Canvas 2D",
   "measured": true,
   "browserEvidence": {
-    "status": "local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
+    "status": "local and stable-alias production headless browser readback passed / held for independent caption-free perceptual review and provider revision verification",
     "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-15/",
     "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v010/?preview=1&interaction=1",
     "canonicalShellAndEmbeddedTableauRendered": true,
     "tableauFirst": "10/10 local canonical runs placed the v010 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
-    "viewportMatrix": "10/10 local headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
-    "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction, static blind, and Journal 390x844 runs also matched",
+    "viewportMatrix": "10/10 local and stable-alias production headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+    "overflow": "outer innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; raw interaction, static blind, and Journal 390x844 runs also matched",
     "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
     "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten local canonical, raw interaction, static blind, and Journal runs",
     "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten local canonical, raw interaction, static blind, and Journal runs",
@@ -41,11 +41,18 @@
     "liftInteraction": "undo latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas PNG data URL; second undo restored the empty field",
     "releaseInteraction": "release sequence returned to stage 01 / 16, memory 0, and unpaused the sequence",
     "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, labels, readout, and fork witnesses; no document overflow",
-    "journal": "local Journal readback rendered exactly one #journal-portrait-2026-09-15 entry with the recorded title and /works/portrait-2026-09-15/#journal href",
-    "directRawRedirect": "direct raw tableau request redirected to /works/portrait-2026-09-15/",
-    "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
-    "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
-    "evidenceFiles": "research/qa/proofs/portrait-v010-2026-09-15/results.json, probe.mjs, probe-output.txt, ten canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, and journal-390x844.png"
+    "journal": "local and stable-alias production Journal readback rendered exactly one #journal-portrait-2026-09-15 entry with the recorded title and /works/portrait-2026-09-15/#journal href",
+    "directRawRedirect": "direct raw tableau request redirected to /works/portrait-2026-09-15/ on the stable alias",
+    "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type on the stable alias",
+    "canvasCaptures": "13 local PNG captures and 13 stable-alias production PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture per run",
+    "evidenceFiles": "research/qa/proofs/portrait-v010-2026-09-15/results.json, probe.mjs, probe-output.txt, ten canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and production/results.json, production-probe.mjs, production/probe-output.txt, ten production canonical PNG captures, production/raw-interaction-390x844.png, production/static-blind-390x844.png, and production/journal-390x844.png",
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentUrl": "https://autopoiesis-njjahxamy-lairpa-hotmailfrs-projects.vercel.app",
+      "deploymentId": "dpl_2Vz5jAUEBpSHet6AAMRZ4eLF9XLa",
+      "deploymentStatus": "READY / production",
+      "providerRevision": "not verified: Vercel inspect reported deployment dpl_2Vz5jAUEBpSHet6AAMRZ4eLF9XLa but returned no provider GitHub commit SHA field"
+    }
   },
   "promotion": "candidate / held pending independent caption-free perceptual review and provider revision verification",
   "unresolved": [
