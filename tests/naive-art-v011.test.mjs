@@ -82,5 +82,5 @@ test('Naive v011 exposes a bump tableau and an honest daily record', async () =>
   assert.equal(record.journal.anchor, 'journal-naive-2026-09-15');
   assert.ok(record.critiques.length >= 3);
   assert.match(record.metrics.memoryRule, /bump|lift|crest|descent|return/);
-  assert.equal(record.metrics.browserEvidence.status, 'local headless browser readback passed / held for independent caption-free perceptual review and provider revision verification');
+  assert.match(record.browserEvidence.status, /^local and stable-alias production headless browser readback passed/);
 });
