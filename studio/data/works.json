@@ -87,11 +87,11 @@
           "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
           "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, raw, static-blind, Journal, current, JSON, and favicon readback",
           "evidenceFiles": "research/qa/proofs/webgpu-v011-2026-09-16/production-results.json, production-canonical-*.png, production-raw-interaction-390x844.png, production-static-blind-390x844.png, production-journal-390x844.png, and production-current-webgpu-390x844.png",
-          "providerRevision": "not verified: Vercel inspect reported deployment dpl_3qPZRkhLL8VH8o99XnGNQtfqLcF7 and stable aliases but no provider GitHub commit SHA field"
+          "providerRevision": "not verified: Vercel inspect reported a READY production deployment and stable aliases but no provider GitHub commit SHA field"
         },
         "unresolved": [
           "independent caption-free perceptual comparison with delay witnesses, labels, and readout hidden",
-          "provider revision linking the stable alias to GitHub SHA 6973813c4a8e6b9058eda86bebcd5c78c9480d5b"
+          "provider revision linking the stable alias to GitHub SHA df823d50130e45a14e582a12e9b8a79c0302f5c4"
         ]
       },
       "source": null,
