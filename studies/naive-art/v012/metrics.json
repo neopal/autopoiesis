@@ -1,0 +1,32 @@
+{
+  "renderer": "deterministic Canvas 2D",
+  "seed": "0x4e413132",
+  "stages": 17,
+  "primitiveBudget": 58,
+  "memoryWindow": 6,
+  "visitorInput": true,
+  "replay": true,
+  "changedRule": "a retained correction becomes an approach-rise-span-drop-reunite bridge replayed from house, ground, and route origins",
+  "memoryRule": "later scenes keep a shared crossing: each retained mistake rises from its old level, carries a span, drops to the far bank, and reunites downstream",
+  "interactionRule": "visitor placement changes bridge polarity, width, span, rise, tilt, and all three route geometries; undo restores the exact prior field",
+  "structuralWitnesses": [
+    "house-bridge",
+    "ground-bridge-line",
+    "route-bridge"
+  ],
+  "settledStage": 17,
+  "settledMemory": 6,
+  "settledApproachPoints": 18,
+  "settledRisePoints": 18,
+  "settledSpanPoints": 18,
+  "settledDropPoints": 18,
+  "settledReunitePoints": 18,
+  "visitorStructuralMemory": 1,
+  "visitorPhasePoints": {
+    "approach": 1,
+    "rise": 1,
+    "span": 1,
+    "drop": 1,
+    "reunite": 1
+  }
+}
