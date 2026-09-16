@@ -62,11 +62,13 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "measured": true,
-        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+        "promotion": "candidate / held pending independent caption-free perceptual review"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / held pending production readback and independent caption-free perceptual review",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review",
         "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-16/",
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionReadback": "stable production alias returned HTTP 200 for works JSON, Journal, canonical work, and raw tableau; deployed Journal rendered journal-brush-2026-09-16 and The brush keeps a tide mark.; production matrix passed at all ten canonical viewport/motion runs with zero console, page, request, or HTTP 400+ diagnostics",
         "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v014/?preview=1&interaction=1",
         "canonicalShellAndEmbeddedTableauRendered": true,
         "tableauFirst": "10/10 local canonical runs placed the v014 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
@@ -86,7 +88,7 @@
         "evidenceFiles": "research/qa/proofs/brush-v014-2026-09-16/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
         "unresolved": [
           "independent caption-free perceptual comparison with mark witnesses, labels, notation, and readout hidden",
-          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+          "provider revision linking the stable alias to the GitHub SHA"
         ]
       },
       "source": null,

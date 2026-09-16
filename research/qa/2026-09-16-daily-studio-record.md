@@ -74,10 +74,18 @@ responses; all canonical runs matched innerWidth, clientWidth, and scrollWidth;
 the tableau preceded generated prose; and the raw interaction changed memory
 0→1→2→1→0 with exact canvas restoration after lifting.
 
+The stable production alias `https://autopoiesis-nine.vercel.app` was then
+read back: `/studio/data/works.json`, `/journal/`, the canonical Brush URL, and
+the raw tableau all returned HTTP 200. A production headless matrix repeated
+the ten canonical viewport/motion runs with zero console messages, page errors,
+failed requests, or HTTP 400+ responses; `/journal/` rendered the
+`journal-brush-2026-09-16` anchor and title; and the deployed raw interaction
+changed memory 0→1→2→1.
+
 The three 2026-09-16 records carry catalogue statuses of `candidate / held` and
-recorded browser-evidence notes that still leave production readback, provider
-revision verification, and/or independent caption-free perceptual comparison
-unresolved. The exact missing evidence remains the visual gate: a fresh
+recorded browser-evidence notes that still leave provider revision verification
+and/or independent caption-free perceptual comparison unresolved. The exact
+missing evidence remains the visual gate: a fresh
 caption-free review with witnesses, labels, readout, and editorial furniture
 hidden. The recorded works therefore remain held.
 
@@ -99,5 +107,4 @@ hidden. The recorded works therefore remain held.
 2. Keep the three 2026-09-16 no-record slots held unless a real work record and
    its filesystem evidence are created.
 3. Obtain the blocked independent caption-free perceptual review for the three
-   recorded works, then perform any authorized production readback and provider
-   revision check separately.
+   recorded works, then perform the provider revision check separately.
