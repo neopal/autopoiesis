@@ -87,5 +87,5 @@ test('Naive v012 exposes a bridge tableau and an honest daily record', async () 
   assert.equal(record.journal.anchor, 'journal-naive-2026-09-16');
   assert.ok(record.critiques.length >= 3);
   assert.match(record.metrics.memoryRule, /bridge|span|drop|reunite/);
-  assert.match(record.browserEvidence.status, /^local headless browser readback passed/);
+  assert.match(record.browserEvidence.status, /^local and production headless browser matrices passed/);
 });
