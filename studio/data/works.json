@@ -4760,6 +4760,102 @@
         "nextMutation": "Run an independent caption-free comparison with bump dots, labels, bridge, and readout hidden; delete v011 if approach → lift → crest → descent → return is not legible in the roof, ground, and route together.",
         "lineage": "naive-2026-09-14"
       }
+    },
+    {
+      "id": "typography-2026-09-16",
+      "currentId": "typography",
+      "date": "2026-09-16",
+      "title": "The sentence enters a chorus.",
+      "rawPath": "/studies/handwriting/v012/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-16",
+        "note": "v012 changes the handwriting rule: a remembered refusal becomes a finite chorus. A local family approaches one displaced shared phrase, occupies it together, then fans back out with altered exits; lifting the latest chorus reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The refusal must be carried by a real shared interval: several neighbouring routes should approach one displaced phrase, occupy it together, and leave through distinct exits. A bracket, glow, or chorus label cannot substitute for convergence in the route points."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, readout, captions, and furniture hidden, a viewer should find a short region where multiple lines meet and then separate. If the field reads as parallel drift or a colored band, the chorus fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must place the same bounded chorus; lifting only the latest chorus must restore the exact preceding route geometry, including the shared phrase and altered exits."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A chorus is an easy metaphor. Delete v012 if the lines never really meet, if the fan-out is not structural, if edge input produces no meaningful phrase, or if the witnesses explain more collective voice than the handwriting can show."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v012-chorus",
+        "seed": "0x57563132",
+        "visitorInput": true,
+        "stages": 17,
+        "routeCount": 24,
+        "pointsPerRoute": 56,
+        "laneCount": 18,
+        "primitiveBudget": 56,
+        "memoryWindow": 6,
+        "finalMemory": 6,
+        "finalChorusedRoutes": 17,
+        "finalMaxConvergence": 0.1586,
+        "finalMeanConvergence": 0.05459,
+        "finalMaxFanOut": 0.1725,
+        "finalMeanFanOut": 0.07586,
+        "finalSharedSpan": 7,
+        "visitorPoint": {
+          "x": 0.92,
+          "y": 0.105
+        },
+        "visitorChorusedRoutes": 8,
+        "visitorMaxConvergence": 0.0987,
+        "visitorMaxFanOut": 0.0849,
+        "memoryRule": "the latest six choruses are replayed in order through the route builder",
+        "chorusRule": "a remembered refusal draws a local family into one finite shared phrase, then fans the routes out with altered exits",
+        "interactionRule": "pointer, Enter, and Space place a bounded chorus; lifting the latest rebuilds the exact preceding route field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, production readback, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held for independent caption-free perceptual review, production readback, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-16/",
+        "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v012/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v012 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction, static blind, and Journal runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured at least 44px height at 390x844; lift latest was correctly disabled with empty memory",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+        "normalState": "normal-motion canonical runs opened at stage 00 / 17 with 0 choruses and paused false",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 16 / 17 with 6 choruses and paused true",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 chorus, paused the tableau, and changed the canvas PNG signature",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 choruses and retained the changed field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned to stage 00 / 17 with 0 choruses and unpaused the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, labels, readout, and chorus witnesses; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-typography-2026-09-16 entry with the recorded title and /works/typography-2026-09-16/#journal href",
+        "directRawRedirect": "direct raw tableau request redirected to /works/typography-2026-09-16/",
+        "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+        "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
+        "evidenceFiles": "research/qa/proofs/typography-v012-2026-09-16/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, and journal-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with chorus witnesses, labels, and readout hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with chorus witnesses, labels, and readout hidden; delete v012 if approach → shared phrase → fan-out is not legible in the route field itself.",
+        "lineage": "typography-2026-09-15"
+      }
     }
   ]
 }

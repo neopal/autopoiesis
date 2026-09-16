@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d18">
+  <title>MUTINE — The sentence enters a chorus.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=012">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-16"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v012</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v012</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes that converge into shared phrases and fan out again" aria-keyshortcuts="Enter Space R P"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 012</span><span>THE CHORUS FIELD</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v012-chorus</span><span>approach &gt; chorus &gt; fan-out</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to call nearby routes into one phrase. They approach from different lines, share a finite interval, then leave with altered spacing; lift the latest chorus to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-chorus" data-gesture="chorus" type="button">call chorus</button>
+          <button id="lift-chorus" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The sentence is moving; separate routes are learning one phrase.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v012</p>
+        <h1 id="work-title">The sentence<br><i>enters a chorus.</i></h1>
+        <p class="lede">A refusal no longer makes one route hesitate alone. Neighbouring passages are pulled toward a shared phrase, hold one compressed interval together, then return to the page with their spacing altered.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v012</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered refusal becomes a finite chorus. A local family approaches one displaced shared baseline, occupies the same phrase, then fans back out with lane-dependent exits.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space places one bounded chorus at the last pointer position. Route points are recomputed from memory; lifting the latest chorus rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the chorus witnesses, labels, readout, captions, controls, and editorial furniture. If several routes do not visibly meet and separate in the lines themselves, the chorus is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v012 if a caption-free comparison finds parallel drift instead of a shared phrase, if the fan-out is only an accent overlay, or if the copy explains more collective voice than the handwriting can show.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-15/">previous daily work</a><a href="/journal/#journal-typography-2026-09-16">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=012"></script>
+</body>
+</html>
