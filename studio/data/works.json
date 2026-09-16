@@ -2,6 +2,94 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "webgpu-2026-09-16",
+      "currentId": "webgpu",
+      "date": "2026-09-16",
+      "title": "The crowd keeps a deferred arrival.",
+      "rawPath": "/studies/webgpu/v011/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-16",
+        "note": "v011 changes the WebGPU rule: a remembered absence holds a cohort in a finite pocket, releases it downstream, and leaves a staggered arrival trace; lifting the latest delay reconstructs the preceding crowd exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Field-structure critic",
+          "argument": "The archive must be carried by actual agent geometry: a cohort needs to enter, hold in a finite pocket, release downstream, and leave a changed arrival trace. Route witnesses may clarify the event, but cannot substitute for shifted coordinates."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With delay witnesses, labels, and readout hidden, a viewer should find a pocket of held mass, a release, and a late downstream trace. If it reads as ordinary turbulence or a lane exchange, the deferred arrival fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded delay; lifting only the latest one must reproduce the exact preceding crowd, including its hold, release, and echo."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Deferred arrival is an easy metaphor. Delete v011 if the mass never visibly pauses, if the release has no downstream consequence, if edge input produces no real hold, or if the prose explains more time than the field can show."
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v011-deferred-arrival",
+        "visitorInput": true,
+        "seed": "0x5747503b",
+        "stages": 19,
+        "agentCount": 480,
+        "memoryLimit": 8,
+        "finalMemory": 8,
+        "finalHeldAgents": 96,
+        "finalReleasedAgents": 120,
+        "finalDeferredAgents": 151,
+        "finalRouteSeparation": 7.375947501278286,
+        "finalDelayStrength": 0.04600030321632783,
+        "finalHoldLoad": 1.9121998280846342,
+        "finalReleaseLoad": 5.463747673193658,
+        "latestHoldLoad": 1.6710829835259986,
+        "latestReleaseLoad": 1.4727509303534216,
+        "latestEchoLoad": 4.404339851802986,
+        "latestFieldDelta": 1.1728804722436479,
+        "visitorBoundedPoint": {"x": 0.92, "y": 0.08},
+        "memoryRule": "a remembered absence holds a cohort in a finite pocket, releases it downstream, and leaves a staggered echo",
+        "interactionRule": "a visitor delay changes entry, hold, release, echo, and agent coordinates; lifting it restores the exact prior crowd field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-16/",
+        "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v011/?preview=1&interaction=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v011 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction, static blind, Journal, and WebGPU current runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, static blind, Journal, and current runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, static blind, Journal, and current runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 19 with 0 delays",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 19 / 19 with 8 delays",
+        "pointerInteraction": "local raw blind-preview pointer changed memory from 0 to 1 delay and changed the canvas pixels",
+        "keyboardInteraction": "Enter on the focused raw blind-preview canvas changed memory from 1 to 2 delays and changed the field",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding blind field data URL",
+        "releaseInteraction": "release current returned memory to 0 and restarted the deterministic sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, caption, witnesses, and notation; no document overflow",
+        "canvasCaptures": "14 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static-blind capture, one Journal capture, and one WebGPU current capture",
+        "evidenceFiles": "research/qa/proofs/webgpu-v011-2026-09-16/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-webgpu-390x844.png",
+        "unresolved": [
+          "production readback and provider revision linking the stable alias to the GitHub SHA",
+          "independent caption-free perceptual comparison with delay witnesses, labels, and readout hidden"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with delay witnesses, labels, and readout hidden; delete v011 if hold → release → deferred trace is not legible in the crowd field itself.",
+        "lineage": "webgpu-2026-09-15"
+      }
+    },
+    {
       "id": "naive-2026-09-16",
       "currentId": "naive",
       "date": "2026-09-16",

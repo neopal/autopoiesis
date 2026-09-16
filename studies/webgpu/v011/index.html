@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1017">
+  <meta name="description" content="A WebGPU-ready crowd field where a remembered absence holds a cohort, releases it downstream, and leaves a deferred arrival.">
+  <title>MUTINE — The crowd keeps a deferred arrival.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const hasWebGPU = Boolean(navigator.gpu);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-16"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="webgpu-v011-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v011 / deferred arrival</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="webgpu-v011-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v011</span></nav>
+      <section class="webgpu-v011-work" aria-label="WebGPU daily work">
+        <figure class="field-wrap artwork-frame">
+          <canvas id="field" role="img" aria-label="A crowd holds a cohort in a finite pocket, releases it downstream, and leaves a deferred arrival" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace"></canvas>
+          <div class="field-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 19</span><span data-memory>0 delays</span><span data-renderer>WEBGPU / ARRIVAL CHECKING</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="delay">mark a delay</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release current</button>
+          </div>
+          <figcaption><span>WEBGPU / V011 / DAILY WORK</span><span>the crowd keeps a deferred arrival</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Nineteen deterministic states carry 480 agents through a mineral night as signal, body, and dust strata.</p></div>
+          <div><span>changed rule</span><p>A remembered absence holds a cohort in a finite pocket, releases it downstream, and leaves a staggered echo instead of exchanging lanes.</p></div>
+          <div><span>progression</span><p>Click the field or press Enter to mark a delay. Lift the latest mark and the exact preceding crowd returns.</p></div>
+        </aside>
+      </section>
+      <section class="webgpu-v011-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V011 / DAILY WORK</p><h1 id="work-title">The crowd keeps<br><i>a deferred arrival.</i></h1></div>
+        <p class="work-premise">An absence becomes an archive when it changes not who arrives, but when. The field records a pocket of held mass, a release, and the late trace that follows.</p>
+      </section>
+      <section class="webgpu-v011-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: lifting the latest delay restores the exact prior agent field. Promotion depends on whether a viewer can see the pocket, release, and deferred trace with route witnesses and readouts hidden.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=011a"></script>
+</body>
+</html>
