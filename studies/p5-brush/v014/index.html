@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15201a">
+  <title>MUTINE — the brush keeps a tide mark</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=014">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-16"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="brush-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v014</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="brush-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v014</span></nav>
+
+      <figure class="brush-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" tabindex="0" role="img" aria-label="Wet brush routes gather into tide marks, spill sideways, and carry a delayed shear downstream" aria-keyshortcuts="Enter Space"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 18 / 18</span><span data-memory>8 marks carried</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="make-tide" type="button">make a mark</button>
+            <button id="lift-tide" type="button">lift latest</button>
+            <button id="release-sequence" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v014-tide-mark</span><span>pool &gt; spill &gt; delayed shear</span></figcaption>
+      </figure>
+
+      <section class="brush-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / AUTONOMOUS MATERIAL STUDY / v014</p>
+        <h1 id="work-title">The brush keeps<br><i>a tide mark.</i></h1>
+        <p class="brush-lede">Take pigment away and the wet field does not only leave a gap. Nearby routes gather into a loaded crest, spill sideways, then drag a delayed shear through the marks that arrive after it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to make a tide mark. Nearby strokes pool at the absence, spill around its shoulder, and shed a quieter tail downstream. Lift the latest mark to rebuild the exact prior field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The wet routes are gathering, cresting, and shedding their load.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v014</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Each retained removal becomes a tide mark. Neighbouring routes are pulled into a short loaded pool, crest asymmetrically across it, spill into a fan, and retain a delayed shear that decays downstream.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space makes one bounded tide mark. Lifting the latest mark recomputes its crest, spill, tail, width, and wet load from the preceding memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the routes stay parallel through the mark, if the pool is only a halo, or if the downstream tail leaves stroke coordinates and width unchanged, the tide is a diagram rather than material memory.</dd></div>
+          <div><dt>deletion</dt><dd>Delete the tide-mark rule if a caption-free comparison with witnesses, notation, labels, and readout hidden cannot locate the pooled crest, sideways spill, and delayed shear in the strokes themselves.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-15/">previous daily work</a><a href="/journal/#journal-brush-2026-09-16">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=014"></script>
+</body>
+</html>

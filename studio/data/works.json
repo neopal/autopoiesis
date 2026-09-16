@@ -1,6 +1,100 @@
 {
   "schema": "mutine-works/v1",
   "works": [
+    {
+      "id": "brush-2026-09-16",
+      "currentId": "brush",
+      "date": "2026-09-16",
+      "title": "The brush keeps a tide mark.",
+      "rawPath": "/studies/p5-brush/v014/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-16",
+        "note": "v014 changes the brush rule: a remembered removal becomes a tide mark. Nearby wet routes pool at a loaded crest, spill sideways around the mark, and carry a delayed shear downstream; lifting the latest mark reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The removal must be carried by actual route geometry: neighbouring strokes need to load at a bounded crest, spill with opposite pressure, and retain a shifted downstream tail. A halo or coloured witness may point toward the rule, but cannot substitute for changed coordinates, width, and wet load."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With mark witnesses, labels, notation, and readout hidden, a viewer should find repeated pooled crests, sideways spills, and delayed shears in the strokes. If it reads as an overlay on parallel lines, the tide mark fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded material mark; lifting only the latest one must reproduce the exact preceding route field, including the crest, spill, tail, and wet response."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A tide mark is an easy metaphor. Delete v014 if edge input produces no structural spill, if every route returns to the same lane immediately, or if the prose explains more delayed material than the strokes can show."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v014-tide-mark",
+        "visitorInput": true,
+        "seed": "0x42525534",
+        "stages": 18,
+        "strokesPerStage": 18,
+        "pointsPerStroke": 96,
+        "primitiveBudget": 64,
+        "memoryWindow": 8,
+        "finalMemory": 8,
+        "finalMeanPoolMass": 0.1871677807644977,
+        "finalMeanSpillMass": 0.12186080537394146,
+        "finalMeanDelayMass": 0.19431420775607658,
+        "finalMeanTideMass": 0.1521043406289155,
+        "finalMeanWetLoad": 0.021062287262412157,
+        "finalMaxPoolPeak": 1.0327094825895988,
+        "finalMaxSpillTail": 0.15732945490566985,
+        "finalMaxDelayTail": 0.2729835208891438,
+        "finalMeanDownstreamShift": 0.16379488502134618,
+        "finalRouteDeltaAgainstPlain": 0.16604516090557214,
+        "visitorPoint": {"x": 0.71, "y": 0.44},
+        "visitorMemory": 1,
+        "visitorPoolPeak": 0.9336861339774204,
+        "visitorSpillTail": 0.07356314980519829,
+        "visitorDelayTail": 0.10760173792423938,
+        "visitorDownstreamShift": 0.09381018428538324,
+        "memoryRule": "a remembered removal becomes a tide mark; nearby wet routes pool at its crest, spill sideways, and carry a delayed shear downstream",
+        "interactionRule": "a visitor tide mark changes crest, spill, tail, width, and wet load; lifting it restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/brush-2026-09-16/",
+        "rawPreview": "http://127.0.0.1:4173/studies/p5-brush/v014/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v014 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction and static blind 390x844 also matched",
+        "touchTargets": "all three local raw interaction buttons measured at least 44px height at 320x568 and 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 18 with 0 marks carried",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 18 / 18 with 8 marks carried",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 mark and paused the tableau; canvas data URL changed",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 marks and changed the tide field",
+        "liftInteraction": "lift latest after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned to stage 01 / 18 with 0 marks and resumed the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, witnesses, and notation; no document overflow",
+        "canvasCaptures": "12 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, and one static-blind capture",
+        "evidenceFiles": "research/qa/proofs/brush-v014-2026-09-16/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with mark witnesses, labels, notation, and readout hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with mark witnesses, labels, notation, and readout hidden; delete v014 if pool → spill → delayed shear is not legible in the strokes themselves.",
+        "lineage": "brush-2026-09-15"
+      }
+    },
   {
     "id": "webgpu-2026-09-15",
     "currentId": "webgpu",
