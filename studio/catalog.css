@@ -1142,6 +1142,7 @@ body.work-page[data-current='brush'] .artwork-frame iframe {
 
 .journal-calendar__event span,
 .journal-calendar__event small {
+  min-width: 0;
   color: var(--red);
   font-size: 8px;
   letter-spacing: .08em;
