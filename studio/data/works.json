@@ -80,9 +80,6 @@
         "evidenceFiles": "research/qa/proofs/webgpu-v011-2026-09-16/results.json, production-results.json, probe.mjs, ten local and ten production canonical PNG captures, local/production raw-interaction-390x844.png, local/production static-blind-390x844.png, local/production journal-390x844.png, and local/production current-webgpu-390x844.png",
         "production": {
           "stableAlias": "https://autopoiesis-nine.vercel.app",
-          "deploymentUrl": "https://autopoiesis-p2yyx2jjg-lairpa-hotmailfrs-projects.vercel.app",
-          "deploymentId": "dpl_3qPZRkhLL8VH8o99XnGNQtfqLcF7",
-          "deploymentMethod": "authorized Vercel CLI production deploy completed and aliased to stable production after GitHub push 6973813c4a8e6b9058eda86bebcd5c78c9480d5b",
           "worksJsonRecord": "HTTP 200 stable-alias JSON readback contained exactly one webgpu-2026-09-16 record with title The crowd keeps a deferred arrival., rawPath /studies/webgpu/v011/, and Journal anchor journal-webgpu-2026-09-16",
           "canonicalWork": "HTTP 200 production Playwright readback at all five required viewports rendered the v011 tableau before the recorded title and prose with no document overflow",
           "journal": "HTTP 200 production Playwright readback at 390x844 rendered exactly one #journal-webgpu-2026-09-16 entry with the recorded title and /works/webgpu-2026-09-16/#journal href",
