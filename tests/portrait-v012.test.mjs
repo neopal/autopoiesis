@@ -115,7 +115,7 @@ test('portrait v012 is the unique 2026-09-17 daily work with a canonical page', 
   assert.equal(work.id, 'portrait-2026-09-17');
   assert.equal(work.rawPath, '/studies/self-portrait/v012/');
   assert.equal(work.status, 'candidate / held');
-  assert.match(work.browserEvidence.status, /^local headless browser matrix passed/);
+  assert.match(work.browserEvidence.status, /^local headless browser matrix(?: and production route readback)? passed/);
   assert.equal(work.browserEvidence.observedRoute, 'http://127.0.0.1:4173/works/portrait-2026-09-17/');
   assert.equal(work.journal.anchor, 'journal-portrait-2026-09-17');
   assert.equal(work.decision.lineage, 'portrait-2026-09-16');

@@ -5339,10 +5339,10 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "measured": true,
-        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision verification"
+        "promotion": "candidate / held pending a production viewport matrix, independent caption-free perceptual review, and provider revision verification"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision verification",
+        "status": "local headless browser matrix and production route readback passed / held pending a production viewport matrix, independent caption-free perceptual review, and provider revision verification",
         "observedRoute": "http://127.0.0.1:4173/works/portrait-2026-09-17/",
         "rawPreview": "http://127.0.0.1:4173/studies/self-portrait/v012/?preview=1&interaction=1&blind=1",
         "canonicalShellAndEmbeddedTableauRendered": true,
@@ -5360,6 +5360,9 @@
         "releaseInteraction": "release sequence returned to stage 00 / 18 with 0 thresholds and unpaused the sequence",
         "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, labels, and threshold witnesses; no document overflow",
         "journal": "local Journal readback rendered exactly one #journal-portrait-2026-09-17 entry with the recorded title and /works/portrait-2026-09-17/#journal href",
+        "productionReadback": "stable production alias returned HTTP 200 for the register JSON, rendered Journal, canonical work shell, and favicon; the deployed register contains portrait-2026-09-17 with its title, raw path, held status, and Journal anchor",
+        "productionRoute": "https://autopoiesis-nine.vercel.app/works/portrait-2026-09-17/",
+        "productionJournal": "headless production Journal at 390x844 rendered exactly one #journal-portrait-2026-09-17 entry with the recorded title; scrollWidth equaled innerWidth and no page errors were observed",
         "directRawRedirect": "direct raw tableau request redirected to /works/portrait-2026-09-17/",
         "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
         "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
