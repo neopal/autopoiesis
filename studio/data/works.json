@@ -2,6 +2,82 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-17",
+      "currentId": "naive",
+      "date": "2026-09-17",
+      "title": "The mistake keeps a fork.",
+      "rawPath": "/studies/naive-art/v013/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-17",
+        "note": "v013 changes the naive drawing rule: a remembered wrong turn becomes a fork. The roof edge, ground, and walking route each approach, split into two actual paths, carry both, and merge downstream; lifting the latest fork reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The retained mistake must be actual fork geometry: one line approaches, splits, carries two separated paths, merges, and leaves downstream. Roof edge, ground, and route need to share that order from different origins."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, split dots, and all prose hidden, a caption-free viewer should find repeated divisions, twin paths, and later meetings in all three drawing systems. If it reads as a colored branch over an unchanged line, the fork fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded fork that changes actual route geometry; lifting only the latest one must reproduce the exact prior field, including the split, separation, merge, and downstream exit."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A fork is an easy metaphor. Delete v013 if the two paths never separate, if the merge is only a witness line, if edge input produces no structural change, or if the prose explains more plurality than the drawing can show."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v013-fork",
+        "visitorInput": true,
+        "seed": "0x4e413133",
+        "stages": 18,
+        "primitiveBudget": 62,
+        "memoryWindow": 6,
+        "memoryRule": "a retained correction becomes an approach-split-twin-paths-merge-leave fork replayed from house, ground, and route origins",
+        "interactionRule": "visitor placement changes fork polarity, width, span, separation, tilt, and all three route geometries; undo restores the exact prior field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending local and production headless browser matrices and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-17/",
+        "rawPreview": "http://127.0.0.1:4173/studies/naive-art/v013/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v013 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction, static blind, and Journal runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 18 with 0 forks",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled on the deterministic final stage with 6 forks",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 fork and changed the canvas state; 1 upper and 1 lower route branch were measured",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 forks and changed the route field",
+        "liftInteraction": "undo latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned to stage 01 / 18 with 0 forks and restarted the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, labels, and fork witnesses; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-naive-2026-09-17 entry with the recorded title and /works/naive-2026-09-17/#journal href",
+        "canvasCaptures": "13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, one static-blind capture, and one Journal capture",
+        "evidenceFiles": "research/qa/proofs/naive-art-v013-2026-09-17/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, and journal-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with fork witnesses, labels, and readout hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with fork witnesses, labels, and readout hidden; delete v013 if approach → split → twin paths → merge is not legible in the roof, ground, and route themselves.",
+        "lineage": "naive-2026-09-16"
+      }
+    },
+    {
       "id": "typography-2026-09-17",
       "currentId": "typography",
       "date": "2026-09-17",

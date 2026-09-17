@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d7b07b">
+  <title>MUTINE — naive art v013</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-17"></script>
+</head>
+<body class="work-page interactive-preview" data-current="naive">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / naive art / v013</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">→</span><span aria-current="page">v013</span></nav>
+      <section class="work-surface" aria-label="Naive art daily work">
+        <div class="field-column">
+          <div class="field-wrap artwork-frame">
+            <canvas id="field" role="img" aria-label="A direct house path beside a kept house, ground, and walking route that each split into two ways forward and merge downstream" tabindex="0" aria-keyshortcuts="Enter Space"></canvas>
+            <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 18</span><span data-memory>0 forks retained</span></div>
+            <div class="field-controls" aria-label="Work gestures">
+              <button type="button" id="fork-control" data-gesture="fork">keep the fork</button>
+              <button type="button" id="undo-control" data-gesture="undo">undo latest</button>
+              <button type="button" id="release-control" data-gesture="release">release sequence</button>
+            </div>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Eighteen seeded scenes let a wrong line divide, take two small ways forward, and find one downstream meeting without being corrected.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if roof edge, ground, and route all carry an actual split and merge without the witnesses.</p></div>
+          <div><span>progression</span><p>Tap the field or press Enter/Space to keep a fork, undo only the newest one, then release the sequence.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V013 / DAILY WORK</p><h1 id="work-title">The mistake<br><i>keeps a fork.</i></h1></div>
+        <p class="work-premise">A wrong line does not choose. It becomes two small possibilities, carries both, and learns to meet itself again.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v013 abandons the bridge's single span. Each retained correction becomes a six-phase fork—approach, split, twin paths, merge, leave—replayed through the roof edge, ground, and walking route. Promotion requires that fork grammar to survive a caption-free comparison; if it reads as a colored branch over unchanged lines, delete this version.</p></section>
+      <p class="work-loop">creation → critique → progression</p>
+    </main>
+    <footer class="studio-footer"><a href="/currents/naive-art/">naive art current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>
