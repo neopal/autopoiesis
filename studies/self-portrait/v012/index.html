@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10161c">
+  <title>MUTINE — the portrait keeps a threshold</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-17"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v012-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v012</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v012-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v012</span></nav>
+      <section class="v012-surface artwork-frame" aria-label="Self portrait threshold field">
+        <div class="v012-field-wrap">
+          <canvas id="field" role="img" aria-label="An abstract self portrait whose remembered routes approach a boundary, cross it, and depart into changed contours" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 18</span><span data-memory>0 thresholds held</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="threshold-control" data-gesture="threshold">cross the threshold</button>
+            <button type="button" id="undo-control" data-gesture="undo">return latest threshold</button>
+            <button type="button" id="release-control" data-gesture="release">release sequence</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Eighteen seeded states let the face hold a boundary: routes lean toward it, travel its edge, cross once, then leave with a different exit.</p></div>
+          <div><span>changed rule</span><p>A remembered braid no longer resolves by exchange. It must meet a threshold, skim its limit, cross into the interior, and carry that passage downstream.</p></div>
+          <div><span>progression</span><p>Touch the field or press Enter. Return only the latest threshold to compare the exact portrait before its boundary was crossed.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V012 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>keeps a threshold.</i></h1></div>
+        <p class="work-premise">A self-image that makes a decision tangible: one route approaches a limit, runs its edge, crosses into the face, and leaves the crossing inside its later contour.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a remembered threshold changes contour and aperture geometry, creates an actual boundary crossing with measured distance, and carries an interior departure that can be restored exactly. Promotion still depends on whether the passage reads without its witnesses or readout.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>cross its limit?</i></h2>
+        <div class="note-copy"><p>The field stores no browser history. Its memory is rebuilt from a fixed seed and bounded to four thresholds. A visitor gesture changes contour geometry, aperture geometry, approach, boundary skim, crossing, interior route, and downstream departure, not only colour or text, and can be reversed for comparison.</p><dl><div><dt>seed</dt><dd>0x53505642 / replayable</dd></div><div><dt>input</dt><dd>pointer, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>the latest threshold leaves contour, aperture, crossing, or departure unchanged</dd></div><div><dt>deletion</dt><dd>delete v012 if a caption-free pair sees an ornament instead of an approach → edge → crossing → interior passage</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>
