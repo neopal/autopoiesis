@@ -1,10 +1,12 @@
 import { chromium } from 'playwright';
 import { mkdir, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const BASE = process.env.MUTINE_BASE_URL ?? 'http://127.0.0.1:4173';
-const PROOF_DIR = fileURLToPath(new URL('./', import.meta.url));
+const PROOF_DIR = process.env.MUTINE_PROOF_DIR
+  ? resolve(process.env.MUTINE_PROOF_DIR)
+  : fileURLToPath(new URL('./', import.meta.url));
 const viewports = [
   { name: '320x568', width: 320, height: 568 },
   { name: '390x844', width: 390, height: 844 },
