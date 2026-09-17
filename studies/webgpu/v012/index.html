@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1118">
+  <meta name="description" content="A WebGPU-ready crowd field where remembered absences converge, fold, and fan into a changed downstream trace.">
+  <title>MUTINE — The crowd keeps a hinge.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const hasWebGPU = Boolean(navigator.gpu);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-17"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="webgpu-v012-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v012 / the hinge</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="webgpu-v012-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v012</span></nav>
+      <section class="webgpu-v012-work" aria-label="WebGPU daily work">
+        <figure class="field-wrap artwork-frame">
+          <canvas id="field" role="img" aria-label="A crowd converges into a hinge, folds across it, and fans back out into a trace" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace"></canvas>
+          <div class="field-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 21</span><span data-memory>0 hinges</span><span data-renderer>WEBGPU / HINGE CHECKING</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="hinge">make a hinge</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release current</button>
+          </div>
+          <figcaption><span>WEBGPU / V012 / DAILY WORK</span><span>the crowd keeps a hinge</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Twenty-one deterministic states carry 540 agents through a blue-black field as signal, body, and dust strata.</p></div>
+          <div><span>changed rule</span><p>A remembered absence pulls a cohort together, folds its local order across a hinge, then fans it back out with a displaced trace.</p></div>
+          <div><span>progression</span><p>Click the field or press Enter to make a bounded hinge. Lift the latest mark and the exact preceding crowd returns.</p></div>
+        </aside>
+      </section>
+      <section class="webgpu-v012-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V012 / DAILY WORK</p><h1 id="work-title">The crowd keeps<br><i>a hinge.</i></h1></div>
+        <p class="work-premise">An absence becomes an archive when it changes the shape of arrival. The field records a convergence, a fold, and the fan that survives downstream.</p>
+      </section>
+      <section class="webgpu-v012-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: lifting the latest hinge restores the exact prior agent field. Promotion depends on whether a viewer can see convergence, fold, and fan with route witnesses and readouts hidden.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=012a"></script>
+</body>
+</html>

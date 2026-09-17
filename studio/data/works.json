@@ -2,6 +2,106 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "webgpu-2026-09-17",
+      "currentId": "webgpu",
+      "date": "2026-09-17",
+      "title": "The crowd keeps a hinge.",
+      "rawPath": "/studies/webgpu/v012/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-17",
+        "note": "v012 changes the WebGPU rule: a remembered absence pulls a cohort into convergence, folds its local order across a hinge, and fans it back out with a displaced downstream trace; lifting the latest hinge reconstructs the preceding crowd exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Field-structure critic",
+          "argument": "The archive must be carried by actual agent geometry: a cohort needs to approach, converge into a narrow hinge, fold its local order across it, fan back out, and leave a changed downstream trace. Route witnesses may clarify the event, but cannot substitute for shifted coordinates."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With hinge witnesses, labels, and readout hidden, a viewer should find compression, a sharp directional fold, and a downstream fan in the field itself. If it reads as ordinary turbulence or a glowing crossing, the hinge fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded hinge; lifting only the latest one must reproduce the exact preceding crowd, including its convergence, fold, fan, and trace."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A hinge is an easy metaphor. Delete v012 if edge input produces no real structural change, if the local order never folds, if the fan is only a witness line, or if the prose explains more memory than the blind field can show."
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v012-hinge",
+        "visitorInput": true,
+        "seed": "0x5747503c",
+        "stages": 21,
+        "agentCount": 540,
+        "memoryLimit": 8,
+        "finalMemory": 8,
+        "finalArchivedAgents": 248,
+        "finalConvergedAgents": 75,
+        "finalFoldedAgents": 103,
+        "finalFannedAgents": 189,
+        "finalTracedAgents": 188,
+        "finalHingeStrength": 0.08928533954374276,
+        "finalConvergenceLoad": 0.46837836221376766,
+        "finalFoldLoad": 7.702377497680547,
+        "finalFanLoad": 30.048343864096825,
+        "finalTraceLoad": 10.463361991843733,
+        "latestAffectedAgents": 58,
+        "latestConvergedAgents": 1,
+        "latestFoldedAgents": 0,
+        "latestFannedAgents": 10,
+        "latestTracedAgents": 10,
+        "latestConvergenceLoad": 0.10182940732973055,
+        "latestFoldLoad": 0.08104620146878988,
+        "latestFanLoad": 0.9676656779658803,
+        "latestTraceLoad": 2.2732955787073514,
+        "visitorBoundedPoint": {"x": 0.92, "y": 0.08},
+        "latestFieldDelta": 0.7696511326745863,
+        "memoryRule": "a remembered absence converges a cohort, folds its local order across a hinge, fans it downstream, and leaves a trace",
+        "interactionRule": "a visitor hinge changes convergence, fold, fan, trace, and agent coordinates; lifting it restores the exact prior crowd field",
+        "replay": true,
+        "renderer": "WebGPU-ready detection with deterministic Canvas 2D fallback",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, and independent caption-free perceptual review"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-17/",
+        "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v012/?preview=1&interaction=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v012 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; raw interaction and static blind 390x844 also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px height at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, static blind, Journal, and current runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, static blind, Journal, and current runs",
+        "normalState": "normal-motion canonical runs opened at stage 01 / 21 with 0 hinges",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 21 / 21 with 8 hinges",
+        "pointerInteraction": "local raw blind-preview pointer changed memory from 0 to 1 hinge and changed the canvas pixels",
+        "keyboardInteraction": "Enter on the focused local raw blind-preview canvas changed memory from 1 to 2 hinges and changed the field",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding blind field data URL locally",
+        "releaseInteraction": "release current returned memory to 0 and restarted the deterministic sequence locally",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, caption, witnesses, and notation; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-webgpu-2026-09-17 entry with the recorded title and /works/webgpu-2026-09-17/#journal href",
+        "current": "local WebGPU current readback rendered exactly one current header at 390x844 with no document overflow",
+        "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, one static-blind capture, one Journal capture, and one WebGPU current capture",
+        "evidenceFiles": "research/qa/proofs/webgpu-v012-2026-09-17/results.json, probe.mjs, ten canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-webgpu-390x844.png",
+        "unresolved": [
+          "production readback and production viewport/interaction evidence",
+          "independent caption-free perceptual comparison with hinge witnesses, labels, and readout hidden",
+          "provider revision linking the stable alias to the GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with hinge witnesses, labels, and readout hidden; delete v012 if convergence → fold → fan is not legible in the crowd field itself.",
+        "lineage": "webgpu-2026-09-16"
+      }
+    },
+    {
       "id": "naive-2026-09-17",
       "currentId": "naive",
       "date": "2026-09-17",
