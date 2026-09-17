@@ -11,7 +11,7 @@ const viewports = [
   { width: 1920, height: 1080 }
 ];
 await mkdir(out, { recursive: true });
-const results = { stableAlias: root, deployment: 'https://autopoiesis-nhjgkhe4k-lairpa-hotmailfrs-projects.vercel.app', canonical: [], raw: null, journal: null, favicon: null, worksJson: null };
+const results = { stableAlias: root, deployment: root, canonical: [], raw: null, journal: null, favicon: null, worksJson: null };
 
 const jsonResponse = await fetch(`${root}/studio/data/works.json?cachebust=naive-v013-2026-09-17`);
 results.worksJson = { status: jsonResponse.status, contentType: jsonResponse.headers.get('content-type') };
