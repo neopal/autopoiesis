@@ -88,5 +88,5 @@ test('Naive v013 exposes a fork tableau and an honest daily record', async () =>
   assert.equal(record.journal.anchor, 'journal-naive-2026-09-17');
   assert.ok(record.critiques.length >= 3);
   assert.match(record.metrics.memoryRule, /fork|split|merge/);
-  assert.match(record.browserEvidence.status, /^local(?: and production)? headless browser matr(?:ix|ices) passed/);
+  assert.match(record.browserEvidence.status, /^local and production headless browser matrices passed/);
 });
