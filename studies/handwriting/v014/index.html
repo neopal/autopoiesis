@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1018">
+  <title>MUTINE — The sentence answers itself.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=014">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-18"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v014</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v014</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of handwriting routes that carry one another's cadence, answer later with a counterphrase, and leave altered exits" aria-keyshortcuts="Enter Space R P"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 014</span><span>COUNTERPHRASE</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v014-counterphrase</span><span>approach &gt; phrase &gt; carry &gt; answer &gt; exit</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to call nearby routes into one phrase. They carry one another's cadence, then answer later with a counterphrase; lift the latest answer to restore the earlier sentence.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="place-return" data-gesture="return" type="button">return phrase</button>
+          <button id="lift-return" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">Separate routes are waiting for an answer.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v014</p>
+        <h1 id="work-title">The sentence<br><i>answers itself.</i></h1>
+        <p class="lede">A borrowed cadence no longer ends at the handoff. It returns later as a counterphrase, bending the route against what it carried before the line settles into an altered exit.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v014</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered cadence now creates a delayed counterphrase: nearby routes share one phrase, carry a neighbour's motion, then reflect that borrowed deviation against their own draft before settling.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space places one bounded return at the last pointer position. Later route coordinates are recomputed from memory; lifting the latest return rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the return witnesses, labels, readout, captions, controls, and editorial furniture. If the lines do not still show phrase → carry → delayed answer → changed exit, the counterphrase is only a diagram.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v014 if a caption-free comparison finds only parallel drift, if the answer is carried by an accent overlay instead of route geometry, if edge placement has no structural consequence, or if the copy explains more memory than the handwriting can show.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-17/">previous daily work</a><a href="/journal/#journal-typography-2026-09-18">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=014"></script>
+</body>
+</html>

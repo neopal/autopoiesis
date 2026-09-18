@@ -2,6 +2,97 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-09-18",
+      "currentId": "typography",
+      "date": "2026-09-18",
+      "title": "The sentence answers itself.",
+      "rawPath": "/studies/handwriting/v014/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-18",
+        "note": "v014 changes the handwriting rule: a remembered cadence becomes a delayed counterphrase. A local family shares one phrase, carries a neighbour's motion, reflects that borrowed deviation later, and settles with altered exits; lifting the latest return reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The cadence needs a consequence after the handoff: several routes must share a finite phrase, carry a neighbour's draft motion, then reflect that borrowed deviation later in their actual point coordinates. A counterphrase witness or colour cannot substitute for the answer geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, readout, captions, and furniture hidden, a viewer should find approach, a compressed phrase, a carried cadence, a delayed answer, and altered downstream exits. If it reads as a band laid over parallel lines, the counterphrase fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must place the same bounded return event; lifting only the latest event must restore the exact preceding route geometry, including the shared phrase, carried cadence, delayed answer, and settled exit."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A sentence answering itself is an easy metaphor. Delete v014 if edge input produces no meaningful route change, if the later answer is not an actual reflection of borrowed motion, or if witnesses explain more memory than the handwriting can show."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v014-counterphrase",
+        "visitorInput": true,
+        "seed": "0x57563134",
+        "stages": 17,
+        "routeCount": 24,
+        "pointsPerRoute": 64,
+        "laneCount": 18,
+        "primitiveBudget": 61,
+        "memoryWindow": 6,
+        "finalMemory": 6,
+        "finalAnsweredRoutes": 17,
+        "finalMaxCounterShift": 0.0686,
+        "finalMeanCounterShift": 0.037485964912280706,
+        "finalSharedSpan": 7,
+        "finalReplySpan": 8,
+        "visitorPoint": {"x": 0.92, "y": 0.105},
+        "visitorAnsweredRoutes": 8,
+        "visitorMaxCounterShift": 0.0617,
+        "memoryRule": "the latest six counterphrase events are replayed in order through the route builder",
+        "counterphraseRule": "a remembered cadence draws a local family into one phrase, passes neighbouring cadence, reflects the borrowed deviation later, and settles with altered exits",
+        "interactionRule": "pointer, Enter, and Space place a bounded return; later route coordinates change and lifting the latest rebuilds the exact preceding route field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, production readback, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4173/works/typography-2026-09-18/",
+        "rawPreview": "http://127.0.0.1:4173/studies/handwriting/v014/?preview=1&interaction=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v014 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten local canonical runs; raw interaction and static blind runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured at least 44 CSS px at 390x844; lift latest was correctly disabled with empty memory",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, static blind, and Journal runs",
+        "normalState": "normal-motion canonical runs opened at stage 00 / 17 with 0 returns and paused false",
+        "reducedMotionState": "reduced-motion canonical and static blind runs settled at stage 16 / 17 with 6 returns and paused true",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 return, paused the tableau, changed the canvas PNG signature, and answered 8 routes",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 returns and retained the changed field",
+        "liftInteraction": "lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned to stage 00 / 17 with 0 returns and unpaused the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, labels, readout, and return witnesses; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-typography-2026-09-18 entry with the recorded title and /works/typography-2026-09-18/#journal href",
+        "directRawRedirect": "direct raw tableau request redirected to /works/typography-2026-09-18/",
+        "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+        "canvasCaptures": "13 PNG captures written: ten local canonical viewport/motion captures, one raw interaction capture, one static blind capture, and one Journal capture",
+        "evidenceFiles": "research/qa/proofs/typography-v014-2026-09-18/results.json, probe.mjs, ten local canonical PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, and journal-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with counterphrase witnesses, labels, and readout hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": null,
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with counterphrase witnesses, labels, and readout hidden; delete v014 if approach → phrase → carry → delayed answer → changed exit is not legible in the route field itself.",
+        "lineage": "typography-2026-09-17"
+      }
+    },
+    {
       "id": "webgpu-2026-09-17",
       "currentId": "webgpu",
       "date": "2026-09-17",
