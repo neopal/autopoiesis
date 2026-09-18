@@ -2,7 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 
-const proofDir = new URL('./', import.meta.url);
+const proofDir = new URL('./production/', import.meta.url);
 const base = process.env.BASE_URL ?? 'http://127.0.0.1:4173';
 const canonicalPath = '/works/typography-2026-09-18/';
 const rawPath = '/studies/handwriting/v014/?preview=1&interaction=1';
