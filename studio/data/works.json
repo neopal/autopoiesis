@@ -77,7 +77,7 @@
         "lineage": "webgpu-2026-09-17"
       },
       "browserEvidence": {
-        "status": "local headless browser matrices passed / held pending production readback, independent caption-free perceptual review, and provider revision verification",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision verification",
         "observedRoute": "http://127.0.0.1:4173/works/webgpu-2026-09-21/",
         "rawPreview": "http://127.0.0.1:4173/studies/webgpu/v013/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4173/studies/webgpu/v013/?preview=1&static=1&blind=1",
@@ -101,8 +101,21 @@
         "evidenceFiles": "research/qa/proofs/webgpu-v013-2026-09-21/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-webgpu-390x844.png",
         "unresolved": [
           "independent caption-free perceptual comparison with witnesses, labels, readout, and prose hidden",
-          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
-        ]
+          "provider revision linking the stable alias to GitHub SHA 730396ca4c6d493a2e29ae240c243648fb29d320 is not exposed by the provider or deployed site"
+        ],
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "deploymentUrl": "https://autopoiesis-pfikea0ke-lairpa-hotmailfrs-projects.vercel.app",
+          "deploymentId": "dpl_BvhHo3AEqnDP4BgMDiixSqKfFwm5",
+          "deploymentMethod": "authorized Vercel CLI production deploy completed and aliased to the stable production URL",
+          "worksJsonRecord": "HTTP 200 stable-alias JSON readback contained exactly one webgpu-2026-09-21 record with title The crowd answers the look., rawPath /studies/webgpu/v013/, and Journal anchor journal-webgpu-2026-09-21",
+          "canonicalWork": "HTTP 200 production headless readback at all five required viewports rendered one v013 tableau before the recorded title and prose with no document overflow",
+          "journal": "HTTP 200 production Playwright readback at 390x844 rendered exactly one #journal-webgpu-2026-09-21 entry with the recorded title and /works/webgpu-2026-09-21/#journal href",
+          "rawPreview": "HTTP 200 production headless readback at 390x844 rendered the v013 canvas, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 to 0 through pointer/Enter/Delete/release",
+          "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+          "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, raw, static-blind, Journal, current, JSON, work, and favicon readback",
+          "providerRevision": "not verified: Vercel reported READY deployment dpl_BvhHo3AEqnDP4BgMDiixSqKfFwm5 and stable alias but no provider GitHub commit SHA field"
+        }
       }
     },
     {
