@@ -1,0 +1,69 @@
+:root {
+  --ground: #17121b;
+  --deep: #201a29;
+  --ink: #f2e8d8;
+  --muted: #b6aab7;
+  --line: rgba(242, 232, 216, 0.22);
+  --cyan: #86ddd0;
+  --amber: #efbd72;
+  --rose: #df8c99;
+  --violet: #bba8f2;
+  --field-width: min(100%, 1160px);
+}
+
+html, body { background: var(--ground); }
+body.work-page[data-current="webgpu"] { color: var(--ink); }
+.webgpu-v013-shell { min-height: 100vh; background: radial-gradient(circle at 55% 24%, rgba(79, 57, 88, 0.34), transparent 44%), var(--ground); }
+.webgpu-v013-main { width: min(100% - 36px, 1420px); margin: 0 auto; padding: 0 0 4rem; }
+.webgpu-v013-work { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 1rem; align-items: start; }
+.field-wrap { position: relative; min-width: 0; margin: 0; overflow: hidden; background: #100d15; }
+.field-wrap canvas { display: block; width: 100%; aspect-ratio: 1200 / 860; min-height: 360px; outline: none; cursor: crosshair; }
+.field-wrap canvas:focus-visible { box-shadow: inset 0 0 0 3px var(--cyan); }
+.field-readout { position: absolute; top: 14px; left: 16px; right: 16px; display: flex; justify-content: space-between; gap: .75rem; color: rgba(242, 232, 216, .68); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+.field-controls { position: absolute; left: 16px; bottom: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+.field-controls button { min-height: 44px; border: 1px solid rgba(242, 232, 216, .34); border-radius: 999px; padding: 0 13px; background: rgba(23, 18, 27, .74); color: var(--ink); font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; cursor: pointer; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--cyan); color: var(--cyan); }
+.field-wrap figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: 10px 14px 12px; border-top: 1px solid var(--line); color: rgba(242, 232, 216, .7); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.work-annotations { display: grid; gap: 1rem; padding: 1rem 0; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .7rem; }
+.work-annotations span, .studio-kicker { color: var(--cyan); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .1em; text-transform: uppercase; }
+.work-annotations p { margin: .55rem 0 0; color: var(--muted); font-size: .9rem; line-height: 1.45; }
+.webgpu-v013-opening { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(240px, .8fr); gap: 2rem; align-items: end; padding: 3.6rem 0 1.8rem; border-top: 1px solid var(--line); margin-top: 2rem; }
+.webgpu-v013-opening h1 { margin: .7rem 0 0; font-size: clamp(3rem, 8vw, 8.2rem); line-height: .87; letter-spacing: -.07em; font-weight: 500; }
+.webgpu-v013-opening h1 i { color: var(--amber); font-family: Georgia, serif; font-weight: 400; letter-spacing: -.08em; }
+.work-premise { max-width: 30rem; margin: 0 0 .3rem; color: var(--muted); font-size: clamp(1rem, 1.5vw, 1.28rem); line-height: 1.3; }
+.webgpu-v013-note { max-width: 54rem; border-top: 1px solid var(--line); padding-top: 1rem; color: var(--muted); font-size: .88rem; line-height: 1.5; }
+.webgpu-v013-note p { margin: 0; }
+.webgpu-v013-note strong { color: var(--ink); font-weight: 500; }
+
+html.preview-mode .webgpu-v013-shell { min-height: auto; background: #100d15; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .work-annotations, html.preview-mode .webgpu-v013-opening, html.preview-mode .webgpu-v013-note, html.preview-mode .studio-footer, html.preview-mode .field-wrap figcaption { display: none; }
+html.preview-mode .webgpu-v013-main { width: 100%; padding: 0; }
+html.preview-mode .webgpu-v013-work { display: block; }
+html.preview-mode .field-wrap { border: 0; box-shadow: none; }
+html.preview-mode .field-wrap canvas { min-height: 100vh; aspect-ratio: auto; }
+html.blind-mode .field-readout, html.blind-mode .field-controls, html.blind-mode .field-wrap figcaption { display: none; }
+html.static-mode .field-wrap canvas { cursor: default; }
+
+@media (max-width: 900px) {
+  .webgpu-v013-work { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, 1fr); padding-top: 0; }
+  .webgpu-v013-opening { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+@media (max-width: 680px) {
+  .webgpu-v013-main { width: min(100% - 24px, 560px); }
+  .field-wrap canvas { min-height: 300px; }
+  .field-readout { top: 10px; left: 10px; right: 10px; font-size: 8px; }
+  .field-readout span:last-child { display: none; }
+  .field-controls { left: 10px; right: 10px; bottom: 10px; }
+  .field-controls button { flex: 1 1 30%; padding: 0 8px; font-size: 10px; }
+  .field-wrap figcaption { font-size: 8px; padding: 8px 10px; }
+  .work-annotations { grid-template-columns: 1fr; gap: .8rem; }
+  .webgpu-v013-opening { padding: 2.4rem 0 1.3rem; margin-top: 1.3rem; }
+  .webgpu-v013-opening h1 { font-size: clamp(2.8rem, 16vw, 5.5rem); }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .field-wrap canvas { cursor: default; }
+}
