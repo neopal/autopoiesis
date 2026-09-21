@@ -40,8 +40,7 @@ The engine exposes these as route coordinates and width/wet-load changes, not wi
 - `tests/catalog-architecture.test.mjs`
 - `tests/daily-catalog.test.mjs`
 - `tests/evolution-catalog.test.mjs`
-- `research/qa/proofs/brush-v015-2026-09-21/`
-
+- `research/qa/proofs/brush-v015-2026-09-21/production/` captured the deployed production matrix and readback.
 The pre-existing untracked `research/qa/2026-09-18-daily-studio-record.md` was not modified or staged.
 
 ## Evidence
@@ -59,10 +58,12 @@ The pre-existing untracked `research/qa/2026-09-18-daily-studio-record.md` was n
 - `node --check research/qa/proofs/brush-v015-2026-09-21/probe.mjs`: **PASS**.
 - `git diff --check`: **PASS**.
 
+## Resolved gates
+
+- Production readback: `https://autopoiesis-nine.vercel.app/studio/data/works.json` returned HTTP 200 with exactly one `brush-2026-09-21` record, title, raw path, and `journal-brush-2026-09-21`; `/journal/` rendered the title and canonical work link; the canonical page returned HTTP 200 with the tableau iframe before its heading; the raw preview returned HTTP 200 and `lift latest` changed memory from 8 to 7; favicon returned HTTP 200 (`image/svg+xml`). All production probes recorded zero console, page, request-failure, and bad-response diagnostics.
+
 ## Unresolved gates
 
 - Independent caption-free perceptual comparison with basin witnesses, labels, notation, and readout hidden.
-- Production readback of `/studio/data/works.json`, `/journal/`, the canonical work, and the raw preview.
-- Provider revision linking the stable production alias to the GitHub SHA.
-
+- Provider revision linking the stable production alias to the GitHub SHA is not independently exposed by the deployed site/CLI evidence.
 The candidate remains **held**; the hold is honest and does not claim exhibition-ready perceptual success.
