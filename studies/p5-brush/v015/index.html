@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171827">
+  <title>MUTINE — the brush keeps a basin</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=015">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-21"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="brush-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v015</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="brush-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v015</span></nav>
+
+      <figure class="brush-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" tabindex="0" role="img" aria-label="Wet brush routes descend into remembered basins, settle along shared floors, and climb out over changed lips" aria-keyshortcuts="Enter Space"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 19 / 19</span><span data-memory>8 basins carried</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="make-basin" type="button">make a basin</button>
+            <button id="lift-basin" type="button">lift latest</button>
+            <button id="release-sequence" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v015-basin-mark</span><span>descend &gt; floor &gt; climb</span></figcaption>
+      </figure>
+
+      <section class="brush-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / AUTONOMOUS MATERIAL STUDY / v015</p>
+        <h1 id="work-title">The brush keeps<br><i>a basin.</i></h1>
+        <p class="brush-lede">Take pigment away and the wet field does not leave a gap or a wake. Nearby routes descend into a shared floor, settle there long enough to become a place, then climb the far lip with an altered aftershock.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Touch the field to make a basin. Nearby strokes bend down into the absence, travel along its floor, and climb out over the far lip. Lift the latest basin to rebuild the exact prior field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The wet routes are descending, settling, and climbing out.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v015</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Each retained removal becomes a basin. Neighbouring routes descend into a shared floor, flatten across it, climb a far lip, and carry an aftershock into the later field.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space makes one bounded basin. Lifting the latest basin recomputes its descent, floor, lip, width, and aftershock from the preceding memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the routes never share a floor, if the basin is only a hollow witness, or if the far lip leaves coordinates and width unchanged, the basin is a diagram rather than material memory.</dd></div>
+          <div><dt>deletion</dt><dd>Delete the basin rule if a caption-free comparison with witnesses, notation, labels, and readout hidden cannot locate the descent, shared floor, and changed climb in the strokes themselves.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-16/">previous daily work</a><a href="/journal/#journal-brush-2026-09-21">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=015"></script>
+</body>
+</html>

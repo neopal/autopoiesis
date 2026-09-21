@@ -2,6 +2,53 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-21",
+      "currentId": "brush",
+      "date": "2026-09-21",
+      "title": "The brush keeps a basin.",
+      "rawPath": "/studies/p5-brush/v015/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-21",
+        "note": "v015 changes the brush rule: a remembered removal becomes a basin. Nearby wet routes descend into a shared floor, settle there long enough to become a place, climb a far lip, and carry an altered aftershock downstream; lifting the latest basin reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {"persona":"Material critic","argument":"The removal must be carried by actual route geometry: neighbouring strokes need to descend together, share a finite floor, climb a far lip, and keep a changed downstream exit. A hollow witness or coloured marker may point toward the rule, but cannot substitute for changed coordinates, width, and wet load."},
+        {"persona":"Perceptual critic","argument":"With basin witnesses, labels, notation, and readout hidden, a viewer should find repeated descents, shared floors, and climbs in the strokes. If it reads as a halo over parallel lines, the basin fails."},
+        {"persona":"Interaction critic","argument":"Pointer, Enter, and Space must create the same bounded material basin; lifting only the latest one must reproduce the exact preceding route field, including descent, floor, lip, and aftershock."},
+        {"persona":"Cynic","argument":"A basin is an easy metaphor. Delete v015 if edge input produces no real floor, if neighbouring routes do not share a descent, or if the prose explains more place than the strokes can show."}
+      ],
+      "metrics": {
+        "id":"p5-brush-v015-basin-mark","visitorInput":true,"seed":"0x42525535","stages":19,"strokesPerStage":19,"pointsPerStroke":104,"primitiveBudget":68,"memoryWindow":8,"finalMemory":8,"finalMeanBasinMass":0.16355126038031456,"finalMeanFloorMass":0.025070738533767734,"finalMeanLipMass":0.1022174286963898,"finalMeanAftershockMass":0.12450634076340883,"finalMeanWetLoad":0.021457554229572694,"finalMaxBasin":1.0015279524888225,"finalMaxFloor":0.22619180380088288,"finalMaxLip":0.6432604863971534,"finalMaxAftershock":0.9223321161770135,"finalMeanDownstreamShift":0.11514499769526082,"finalRouteDeltaAgainstPlain":0.010865032513948577,"visitorPoint":{"x":0.71,"y":0.44},"visitorMemory":1,"visitorFloorPlateau":0.06730769230769232,"visitorLipTail":0.10832229839274676,"visitorAftershockTail":0.2005935681852867,"memoryRule":"a remembered removal becomes a basin; nearby wet routes descend, share a floor, climb a far lip, and carry an aftershock downstream","interactionRule":"a visitor basin changes descent, floor, lip, width, and wet load; lifting it restores the exact prior field","replay":true,"renderer":"deterministic Canvas 2D","measured":true,"promotion":"candidate / held pending fresh local and production browser matrices, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status":"local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "observedRoute":"http://127.0.0.1:4173/works/brush-2026-09-21/",
+        "rawPreview":"http://127.0.0.1:4173/studies/p5-brush/v015/?preview=1&interaction=1",
+        "blindPreview":"http://127.0.0.1:4173/studies/p5-brush/v015/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered":true,
+        "tableauFirst":"10/10 local canonical runs placed the v015 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix":"10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow":"innerWidth equaled clientWidth and scrollWidth at all ten canonical runs; raw interaction and static blind 390x844 also matched",
+        "touchTargets":"all three local raw interaction buttons measured 44px height at 320x568, 390x844, and all canonical embedded runs",
+        "initialConsoleProbe":"zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "networkProbe":"zero failed requests and zero HTTP 400+ responses across all ten canonical, raw interaction, and static blind runs",
+        "normalState":"normal-motion canonical runs opened at stage 01 / 19 with 0 basins carried",
+        "reducedMotionState":"reduced-motion canonical and static blind runs settled on stage 19 / 19 with 8 basins carried",
+        "pointerInteraction":"local raw pointer changed memory from 0 to 1 basin, paused the tableau, and changed the canvas PNG signature",
+        "keyboardInteraction":"Enter on the focused canvas changed memory from 1 to 2 basins and retained the changed field",
+        "liftInteraction":"lift latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction":"release sequence returned to stage 01 / 19 with 0 basins and unpaused the sequence",
+        "staticBlindPreview":"reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, witnesses, and notation; no document overflow",
+        "canvasCaptures":"13 PNG captures written: ten canonical viewport/motion captures, one raw interaction capture, and one static-blind capture",
+        "evidenceFiles":"research/qa/proofs/brush-v015-2026-09-21/results.json, probe.mjs, ten local canonical PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+        "unresolved":["independent caption-free perceptual comparison with basin witnesses, labels, notation, and readout hidden","production readback and provider revision linking the stable alias to the eventual GitHub SHA"]
+      },
+      "source":null,
+      "decision":{"nextMutation":"Run an independent caption-free comparison with basin witnesses, labels, notation, and readout hidden; delete v015 if descend → shared floor → climb is not legible in the strokes themselves.","lineage":"brush-2026-09-16"}
+    },
+    {
       "id": "portrait-2026-09-18",
       "currentId": "portrait",
       "date": "2026-09-18",
