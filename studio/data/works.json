@@ -78,13 +78,11 @@
             "evidenceFiles": "research/qa/proofs/naive-art-v014-2026-09-21/results.json, canonical-results.json, production/results.json, probe.mjs, canonical-probe.mjs, production-probe.mjs, local and production viewport/motion PNG captures, interaction captures, static-blind captures, and production journal-390x844.png",
             "unresolved": [
                 "independent caption-free perceptual comparison with cut markers, labels, and readout hidden",
-                "provider revision linking the stable alias to GitHub SHA 5d319fa1bd441cee3e2f5e25fef4d8b1282bdb4a"
+                "provider revision linking the stable alias to the GitHub artifact commit is not exposed by the provider or deployed site"
             ],
             "production": {
                 "stableAlias": "https://autopoiesis-nine.vercel.app",
-                "deploymentUrl": "https://autopoiesis-q7tvb5fql-lairpa-hotmailfrs-projects.vercel.app",
-                "deploymentId": "dpl_EDXhmC1AoUd8QWX1hGKfc6fr8BXB",
-                "deploymentMethod": "authorized Vercel CLI production deploy completed and aliased to the stable production URL",
+                "deploymentMethod": "authorized Vercel CLI production deploy completed and aliased to the stable production URL; exact deployment ID is recorded in the dated QA proof",
                 "worksJsonRecord": "HTTP 200 stable-alias browser readback contained exactly one naive-2026-09-21 record with title The mistake refuses a room., rawPath /studies/naive-art/v014/, and Journal anchor journal-naive-2026-09-21",
                 "canonicalWork": "HTTP 200 production headless readback at all five required viewports rendered the v014 tableau before the recorded title and prose with matching outer and embedded scrollWidth",
                 "journal": "HTTP 200 production headless readback at 390x844 rendered exactly one #journal-naive-2026-09-21 anchor, one title, and the /works/naive-2026-09-21/#journal link",
