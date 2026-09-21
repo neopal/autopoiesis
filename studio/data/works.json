@@ -2,6 +2,103 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+        "id": "naive-2026-09-21",
+        "currentId": "naive",
+        "date": "2026-09-21",
+        "title": "The mistake refuses a room.",
+        "rawPath": "/studies/naive-art/v014/",
+        "status": "candidate / held",
+        "lifecycle": "active",
+        "journal": {
+            "anchor": "journal-naive-2026-09-21",
+            "note": "v014 changes the naive drawing rule: a remembered wrong turn becomes a material puncture. A missing room is cut from the paper scene, its fragment lifts out, the ground is notched, and the house shifts around the absence; lifting the latest tear reconstructs the preceding field exactly."
+        },
+        "critiques": [
+            {
+                "persona": "Naive-form critic",
+                "argument": "The retained mistake must be actual material geometry: a visible absence, a displaced fragment, and a changed house/ground relation. A colored badge or cut marker cannot substitute for the missing polygon."
+            },
+            {
+                "persona": "Perceptual critic",
+                "argument": "With labels, readout, cut markers, and all prose hidden, a caption-free viewer should find missing rooms, lifted pieces, and a scene that has been re-cut around them. If it reads as a normal house with stickers, the puncture fails."
+            },
+            {
+                "persona": "Interaction critic",
+                "argument": "Pointer, Enter, and Space must create the same bounded puncture; lifting only the latest one must reproduce the exact preceding cutouts, fragments, ground notches, and house shift."
+            },
+            {
+                "persona": "Radical progression critic",
+                "argument": "v014 must remain an object/void composition rather than another route event. If its first-render grammar is still approach → altered path → downstream exit, reject it as a polished v013."
+            },
+            {
+                "persona": "Cynic",
+                "argument": "Material absence is an easy metaphor. Delete v014 if the cutouts do not change the scene's actual geometry, if fragments merely decorate the background, or if the prose explains more memory than the blind field can show."
+            }
+        ],
+        "metrics": {
+            "id": "naive-art-v014-puncture",
+            "visitorInput": true,
+            "seed": "0x4e413134",
+            "stages": 16,
+            "primitiveBudget": 48,
+            "memoryWindow": 5,
+            "finalMemory": 5,
+            "finalCutouts": 5,
+            "finalFragments": 5,
+            "finalNotches": 5,
+            "visitorMemoryAfterPointer": 1,
+            "visitorMemoryAfterKeyboard": 2,
+            "memoryRule": "a remembered mistake cuts a missing room, lifts a fragment, notches the ground, and shifts the house around the absence",
+            "interactionRule": "visitor placement changes target, polarity, depth, lift, angle, cutout, fragment, notch, and house shift; undo restores the exact prior field",
+            "replay": true,
+            "renderer": "deterministic Canvas 2D",
+            "measured": true,
+            "promotion": "candidate / held pending independent caption-free perceptual review, production readback, and provider revision verification"
+        },
+        "browserEvidence": {
+            "status": "local headless browser matrices passed / held pending production headless readback, independent caption-free perceptual review, and provider revision verification",
+            "observedRoute": "http://127.0.0.1:4173/works/naive-2026-09-21/",
+            "rawPreview": "http://127.0.0.1:4173/studies/naive-art/v014/?preview=1&interaction=1",
+            "blindPreview": "http://127.0.0.1:4173/studies/naive-art/v014/?preview=1&static=1&blind=1",
+            "canonicalShellAndEmbeddedTableauRendered": true,
+            "tableauFirst": "10/10 local canonical runs placed the v014 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+            "viewportMatrix": "10/10 local raw and 10/10 local canonical headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+            "overflow": "innerWidth equaled clientWidth and scrollWidth at all ten raw and ten canonical local runs; interaction and static blind 390x844 also matched",
+            "touchTargets": "all three local raw and embedded interaction buttons measured 44px height at 390x844",
+            "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all ten raw and ten canonical local runs, interaction, and static blind",
+            "networkProbe": "zero failed requests and zero HTTP 400+ responses across all ten raw and ten canonical local runs, interaction, and static blind",
+            "normalState": "normal-motion raw and canonical runs opened at stage 01 / 16 with 0 tears remembered",
+            "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 16 / 16 with 5 tears remembered",
+            "pointerInteraction": "local raw pointer changed memory from 0 to 1 tear and changed the canvas PNG signature",
+            "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 tears and changed the field",
+            "undoInteraction": "undo latest changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+            "releaseInteraction": "release sequence returned to stage 01 / 16 with 0 tears and restarted the sequence",
+            "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding editorial furniture, controls, readout, cut markers, and notation; no document overflow",
+            "canvasCaptures": "23 PNG captures written: ten raw viewport/motion captures, ten canonical viewport/motion captures, one raw interaction capture, and one static-blind capture",
+            "evidenceFiles": "research/qa/proofs/naive-art-v014-2026-09-21/results.json, canonical-results.json, probe.mjs, canonical-probe.mjs, ten raw and ten canonical viewport/motion PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+            "unresolved": [
+                "stable-alias production readback",
+                "independent caption-free perceptual comparison with cut markers, labels, and readout hidden",
+                "provider revision linking the stable alias to the eventual GitHub SHA"
+            ]
+        },
+        "source": {
+            "referenceId": "p5-brush",
+            "title": "p5.brush",
+            "url": "https://github.com/acamposuribe/p5.brush",
+            "observedMechanism": "Material is an engine: pressure, density, grain, and fields change how geometry is produced and remembered rather than decorating fixed geometry.",
+            "translatedRule": "In naive art, a retained wrong turn punctures the flat scene, removes a room, lifts the missing fragment, and forces the house and ground to be re-cut around the absence.",
+            "visibleConsequence": "The first encounter is a single object/void collage with actual missing polygons, floating fragments, notched ground, and cumulative house displacement; pointer and keyboard add the same structural puncture.",
+            "falsifier": "If caption-free viewing sees an intact house with decorative stickers, or if interaction changes only a counter, the translation fails.",
+            "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, palette, character, composition, or API surface is reproduced.",
+            "directionConsequence": "Closes the naive current's route-bundle grammar after v010–v013 and opens an object/void period in which error is a missing material piece rather than a changed path."
+        },
+        "decision": {
+            "nextMutation": "Run an independent caption-free comparison with cut markers, labels, readout, and prose hidden; delete v014 if missing room → lifted fragment → re-cut scene is not legible in the house and ground themselves.",
+            "lineage": "naive-2026-09-17"
+        }
+    },
+    {
       "id": "brush-2026-09-21",
       "currentId": "brush",
       "date": "2026-09-21",

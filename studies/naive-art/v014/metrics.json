@@ -1,0 +1,29 @@
+{
+  "renderer": "deterministic Canvas 2D",
+  "seed": "0x4e413134",
+  "stages": 16,
+  "primitiveBudget": 48,
+  "memoryWindow": 5,
+  "visitorInput": true,
+  "replay": true,
+  "changedRule": "a retained correction becomes a material puncture: missing room, lifted fragment, and re-cut house/ground geometry",
+  "memoryRule": "later scenes keep missing pieces; each retained mistake cuts a polygon, displaces a fragment, and shifts the house around the absence",
+  "interactionRule": "visitor placement changes target, polarity, depth, lift, angle, cutout, fragment, notch, and house shift; undo restores the exact prior field",
+  "structuralWitnesses": [
+    "house-cutout",
+    "ground-notch",
+    "lifted-fragment"
+  ],
+  "settledStage": 16,
+  "settledMemory": 5,
+  "settledCutouts": 5,
+  "settledFragments": 5,
+  "settledNotches": 5,
+  "visitorStructuralMemory": 1,
+  "visitorPhasePoints": [
+    "cutout polygon",
+    "displaced fragment",
+    "ground notch",
+    "house shift"
+  ]
+}
