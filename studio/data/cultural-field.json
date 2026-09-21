@@ -1,0 +1,117 @@
+{
+  "schema": "mutine-cultural-field/v1",
+  "title": "Mutine cultural field",
+  "purpose": "A living research field for changing Mutine's engines without copying another artist's surface vocabulary.",
+  "practice": {
+    "cycle": [
+      "observe a mechanism",
+      "translate it into a changed causal rule",
+      "invert or collide with that rule",
+      "build a bounded experiment",
+      "criticise the visible consequence",
+      "promote, hold, or delete the direction"
+    ],
+    "antiCopyRules": [
+      "Borrow mechanisms, not palettes, marks, characters, compositions, or names.",
+      "A reference must produce a new behavior that can be described without the reference.",
+      "The translated rule must be visible in the first encounter and survive captions-off viewing.",
+      "One source may seed a trial, but it cannot by itself justify a production work.",
+      "If the translation only changes texture, decoration, or mood, reject it as cultural tourism."
+    ],
+    "periodRule": "A period is declared only after two connected experiments share a changed rule, one abandoned rule, and a retrospective that names the next rupture."
+  },
+  "references": [
+    {
+      "id": "p5-brush",
+      "kind": "open-source-library",
+      "title": "p5.brush",
+      "url": "https://github.com/acamposuribe/p5.brush",
+      "author": "acamposuribe",
+      "observedMechanisms": [
+        "natural drawing tools treated as programmable instruments",
+        "brushes with pressure, density, grain, and directional behavior",
+        "watercolor-like fills, hatching, and vector fields that bend strokes",
+        "a material vocabulary implemented as a rendering and field engine"
+      ],
+      "translation": {
+        "principle": "Material is not a skin laid over geometry; material changes how geometry is produced and remembered.",
+        "candidateCurrents": ["brush", "pure-svg", "webgpu"],
+        "experiments": [
+          "Make resistance, sediment, or pressure alter the next event rather than only the current mark.",
+          "Replace the familiar route bundle with a mass that pools, tears, dries, or refuses to cross a field.",
+          "Use a field as an antagonist with a visible threshold, not as an invisible noise source."
+        ],
+        "falsifier": "If the result still reads as lines with a brush texture, the material rule is not embodied.",
+        "doNotCopy": "Do not reproduce p5.brush's brushes, watercolor appearance, hatching vocabulary, or API surface."
+      }
+    },
+    {
+      "id": "little-critters",
+      "kind": "browser-artwork",
+      "title": "little-critters",
+      "url": "https://github.com/GordenSun/little-critters",
+      "author": "GordenSun",
+      "observedMechanisms": [
+        "a population of code-drawn animals arranged as a small social field",
+        "proximity to the pointer becomes a legible change in attention",
+        "the animals turn their heads and look back at the visitor",
+        "simple local behavior creates a reciprocal encounter without a dashboard"
+      ],
+      "translation": {
+        "principle": "Interaction can be a relation between situated agents rather than a control panel imposed on an image.",
+        "candidateCurrents": ["self-portrait", "naive-art", "webgpu", "handwriting"],
+        "experiments": [
+          "Make the viewer's presence redistribute attention, allegiance, or avoidance across a population.",
+          "Give each agent a local memory of being watched and let that memory alter a later collective decision.",
+          "Replace cursor-following with a social rule: stare, hide, imitate, defect, recruit, or refuse."
+        ],
+        "falsifier": "If the visitor only moves a decorative cursor or a cosmetic eye, the encounter has no consequence.",
+        "doNotCopy": "Do not draw animals, reproduce the paper style, or reuse the head-turning scene; translate reciprocity into Mutine's own question."
+      }
+    }
+  ],
+  "researchDirections": [
+    {
+      "id": "material-agency",
+      "question": "What if matter changes the rule that makes the next form?",
+      "preferredCurrents": ["brush", "pure-svg", "webgpu"]
+    },
+    {
+      "id": "social-attention",
+      "question": "What can a field of agents remember about being seen?",
+      "preferredCurrents": ["self-portrait", "naive-art", "webgpu"]
+    },
+    {
+      "id": "organism-and-ecology",
+      "question": "Can local survival rules produce an image that is not a crowd diagram?",
+      "preferredCurrents": ["webgpu", "naive-art", "brush"]
+    },
+    {
+      "id": "constraint-and-topology",
+      "question": "Can a formal constraint become an event, obstruction, or irreversible choice?",
+      "preferredCurrents": ["handwriting", "pure-svg"]
+    },
+    {
+      "id": "temporal-memory",
+      "question": "Can time change the ontology of the work rather than animate its decoration?",
+      "preferredCurrents": ["all"]
+    },
+    {
+      "id": "anti-instrument",
+      "question": "What happens when the viewer's expected control is refused, delayed, or answered by another rule?",
+      "preferredCurrents": ["naive-art", "handwriting", "self-portrait"]
+    }
+  ],
+  "rotation": {
+    "selection": "The slot helper selects one reference deterministically from local date and selected current index.",
+    "requiredOutput": [
+      "reference id and observed mechanism",
+      "translated rule in Mutine's vocabulary",
+      "visible consequence",
+      "falsifier",
+      "anti-copy statement",
+      "period or direction-change consequence"
+    ],
+    "reuseRule": "Do not select the same reference for consecutive works in the same current unless the second work explicitly inverts the first translation."
+  }
+}

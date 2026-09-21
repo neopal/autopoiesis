@@ -79,6 +79,16 @@ The quality defender and adversary confirm regression tests, responsive browser 
 
 The durable rotation runs every four hours and targets exactly one current per slot, covering all six currents in one day. The slot helper is read-only and idempotent: it identifies the local date/current and refuses duplicate `current/date` records. The agent may create a daily work only after a real tableau, Journal note, critique/hold and validation exist; stimuli never create work automatically. A separate 09:00 archivist audits coverage, route existence, lifecycle, duplicate slots, tests and the evidence record.
 
+## Cultural field and direction changes
+
+Mutine must cultivate mechanisms, not imitate surfaces. `studio/data/cultural-field.json` is the internal research register: it stores observed mechanisms, source URLs, non-borrowing rules, translated experiments, falsifiers, and research directions. The slot helper assigns one cultural reference to each pulse so a daily work begins from a deliberate encounter rather than from the last successful motif.
+
+The cultural loop is:
+
+`observe → translate → invert or collide → build → critique → promote / hold / delete`
+
+Every reference-led candidate must name the mechanism it observed, the new rule it gives Mutine, the visible consequence, the falsifier, and the thing it refuses to borrow. A reference is not evidence of progress: only a changed causal engine, viewer relation, memory model, medium, or visible grammar can pass the radical progression gate. At least one seven-day period should move into a declared new direction, with an abandoned rule recorded rather than silently forgotten.
+
 ## Skill policy
 
 Create a Hermes skill only after a procedure has completed twice with stable commands, gates and objective verification. The first candidate is a `mutine-browser-work-release` skill after a real v002 completes browser test, critique, indexing, commit and deploy. Do not make skills out of ambitions, taste notes or unverified automation.
