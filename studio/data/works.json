@@ -54,7 +54,7 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "measured": true,
-        "promotion": "candidate / held pending production readback and independent caption-free perceptual review",
+        "promotion": "candidate / held pending independent caption-free perceptual review",
         "settledEngineMemory": 17,
         "visitorMemoryAfterPointer": 1,
         "visitorMemoryAfterKeyboard": 2,
@@ -62,15 +62,14 @@
         "replayRestored": true
       },
       "browserEvidence": {
-        "status": "local headless browser matrices passed / pending production readback and independent caption-free perceptual review",
+        "status": "local and production headless browser matrices passed / pending independent caption-free perceptual review",
         "unresolved": [
-          "production readback and stable-alias verification",
-          "independent caption-free perceptual comparison with labels, readout, and prose hidden",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
           "provider revision linking the stable alias to the GitHub SHA"
         ],
-        "observedRoute": "http://127.0.0.1:4175/works/naive-2026-09-22/",
-        "rawPreview": "http://127.0.0.1:4175/studies/naive-art/v015/?preview=1&interaction=1",
-        "blindPreview": "http://127.0.0.1:4175/studies/naive-art/v015/?preview=1&static=1&blind=1",
+        "observedRoute": "https://autopoiesis-nine.vercel.app/works/naive-2026-09-22/",
+        "rawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v015/?preview=1&interaction=1",
+        "blindPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v015/?preview=1&static=1&blind=1",
         "canonicalShellAndEmbeddedTableauRendered": true,
         "tableauFirst": "10/10 local canonical runs placed the v015 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
         "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
@@ -88,7 +87,14 @@
         "journal": "local Journal readback rendered exactly one #journal-naive-2026-09-22 entry with the recorded title and canonical work link",
         "current": "local Naive art current readback at 390x844 rendered exactly one current header and one first artwork card with no document overflow",
         "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
-        "evidenceFiles": "research/qa/proofs/naive-art-v015-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-naive-390x844.png"
+        "evidenceFiles": "research/qa/proofs/naive-art-v015-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-naive-390x844.png",
+        "productionDeployment": "https://autopoiesis-j303x5o85-lairpa-hotmailfrs-projects.vercel.app",
+        "productionReadback": "HTTP 200 for the stable /studio/data/works.json, /journal/, and /works/naive-2026-09-22/ routes; the deployed record, title, raw path, rendered Journal entry, and canonical work shell were confirmed.",
+        "productionViewportMatrix": "10/10 production canonical and 10/10 production raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; 0 diagnostics, 0 overflow cases, and 10/10 tableau-first canonical runs.",
+        "productionInteraction": "Production pointer changed memory 0 to 1, Enter changed 1 to 2, Delete changed 2 to 1 with exact prior signature restored, and release returned memory to 0.",
+        "productionBlindPreview": "Production reduced-motion static blind preview kept the canvas visible while hiding readout and controls at 390x844 with no overflow.",
+        "productionJournal": "Production Journal rendered exactly one #journal-naive-2026-09-22 entry with the recorded title and canonical work link.",
+        "productionCurrent": "Production Naive art current rendered exactly one current header and one first artwork card at 390x844 with no overflow."
       },
       "source": {
         "referenceId": "little-critters",
