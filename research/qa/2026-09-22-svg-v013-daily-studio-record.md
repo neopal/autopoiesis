@@ -36,10 +36,12 @@ The last three Pure SVG works (v010–v012) repeat one grammar: a filled mineral
 - Interaction: pointer `0→1`, Enter `1→2`, Delete `2→1` with exact signature restoration, release to `0`.
 - Blind preview: SVG remained visible while readout, controls, witnesses, labels, and centre count were hidden.
 - Touch controls: all three measured `44px` high at `390×844`.
-- Journal: exactly one local `#journal-svg-2026-09-22` entry.
-- Current: exactly one local Pure SVG header and first artwork card.
-- Evidence: `research/qa/proofs/svg-v013-2026-09-22/`.
+- Journal: exactly one local and production `#journal-svg-2026-09-22` entry with the recorded title.
+- Production stable-alias readback: HTTP 200 for `/studio/data/works.json`, canonical work, raw preview, blind preview, `/journal/`, current, and favicon; the deployed JSON contained exactly one `svg-2026-09-22` record.
+- Production headless interaction: pointer `0→1`, Enter `1→2`, Delete `2→1`, release `→0`; all three controls measured `44px` high; no overflow or browser diagnostics.
+- Production deployment: stable alias `https://autopoiesis-nine.vercel.app/`; the final Vercel deployment identifier is recorded in the release report.
+- GitHub SHA and remote SHA matched at `9fa46aacd9e955e22272f264d22f6dc13f17ed1d`; Vercel's provider revision link to GitHub was not exposed.
 
 ## Unresolved doubt
 
-Independent caption-free perceptual comparison is still outstanding. The work remains **candidate / held**, not exhibition-ready. Production readback and provider revision verification are also pending until after the authorized commit/push/deploy sequence.
+Independent caption-free perceptual comparison is still outstanding. The work remains **candidate / held**, not exhibition-ready. The deployed content is verified, but no provider-side GitHub revision field was exposed to prove the alias's exact source SHA beyond the separate GitHub and HTTP readbacks.

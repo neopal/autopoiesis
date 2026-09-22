@@ -51,8 +51,8 @@
         "replay": true,
         "renderer": "deterministic SVG path geometry",
         "measured": true,
-        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, production readback, and provider revision verification",
-        "browserEvidence": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification"
+        "promotion": "candidate / held pending independent caption-free perceptual review; local and production browser evidence complete",
+        "browserEvidence": "local and production headless browser evidence passed / held pending independent caption-free perceptual review; provider-side GitHub revision link not exposed"
       },
       "source": {
         "referenceId": "little-critters",
@@ -70,7 +70,7 @@
         "lineage": "pure-svg-v012"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "status": "local and production headless browser evidence passed / held pending independent caption-free perceptual review; provider-side GitHub revision link not exposed",
         "observedRoute": "http://127.0.0.1:4175/works/svg-2026-09-22/",
         "rawPreview": "http://127.0.0.1:4175/studies/pure-svg/v013/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4175/studies/pure-svg/v013/?preview=1&static=1&blind=1",
@@ -82,7 +82,7 @@
         "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
         "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
         "normalState": "normal-motion local raw and canonical runs opened at stage 01 / 12 with 0 gazes, 0 looking cells, 0 answering cells, and 0 vacancies",
-      "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 12 / 12 with 4 remembered gazes, 7 looking cells, 8 answering cells, and 4 vacancies",
+        "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 12 / 12 with 4 remembered gazes, 7 looking cells, 8 answering cells, and 4 vacancies",
         "pointerInteraction": "local raw pointer changed memory from 0 to 1 gaze, with 3 looking cells, 5 answering cells, and 1 vacancy",
         "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 gazes and changed the field again, with 3 looking cells, 6 answering cells, and 1 vacancy",
         "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state SVG signature",
@@ -91,11 +91,24 @@
         "journal": "local Journal readback rendered exactly one #journal-svg-2026-09-22 entry with the recorded title and /works/svg-2026-09-22/#journal href",
         "current": "local Pure SVG current readback at 390x844 rendered exactly one current header and one first artwork with no document overflow",
         "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
-        "evidenceFiles": "research/qa/proofs/svg-v013-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-pure-svg-390x844.png",
+        "evidenceFiles": "research/qa/proofs/svg-v013-2026-09-22/results.json, production-results.json, probe.mjs, 20 local viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-pure-svg-390x844.png",
         "unresolved": [
           "independent caption-free perceptual comparison with witnesses, labels, readout, centre count, and prose hidden",
-          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
-        ]
+          "provider-side revision field linking the stable alias to the verified GitHub SHA was not exposed"
+        ],
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "deploymentMethod": "authorized Vercel CLI production deploy from the committed worktree; final deployment identifier is recorded in the release report",
+          "worksJsonRecord": "HTTP 200 stable-alias JSON contained exactly one svg-2026-09-22 record with title The field returns the gaze., rawPath /studies/pure-svg/v013/, and Journal anchor journal-svg-2026-09-22",
+          "canonicalWork": "HTTP 200 production headless readback at 390x844 rendered one v013 tableau before the recorded work detail with stage 12 / 12, 4 gazes, 7 looking cells, 8 answering cells, and 4 vacancies",
+          "journal": "HTTP 200 production headless readback at 390x844 rendered exactly one #journal-svg-2026-09-22 entry with the recorded title",
+          "rawPreview": "HTTP 200 production headless readback at 390x844 rendered the v013 SVG, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 to 0 through pointer/Enter/Delete/release",
+          "blindPreview": "HTTP 200 production headless readback kept the SVG visible while readout and controls were hidden; no overflow",
+          "current": "HTTP 200 production headless readback at 390x844 rendered the Pure SVG header and first artwork card with no overflow",
+          "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+          "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, raw, blind, Journal, and current readback",
+          "providerRevision": "not exposed by the Vercel CLI or deployed site; stable-alias content and GitHub SHA were verified separately"
+        }
       }
     },
     {

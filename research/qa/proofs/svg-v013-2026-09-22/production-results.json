@@ -1,0 +1,185 @@
+{
+  "urls": {
+    "canonical": "https://autopoiesis-nine.vercel.app/works/svg-2026-09-22/",
+    "raw": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v013/?preview=1&interaction=1",
+    "blind": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v013/?preview=1&static=1&blind=1",
+    "journal": "https://autopoiesis-nine.vercel.app/journal/",
+    "current": "https://autopoiesis-nine.vercel.app/currents/pure-svg/"
+  },
+  "canonical": {
+    "status": 200,
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "MUTINE — The field returns the gaze.",
+      "journalEntry": null,
+      "currentTitle": null,
+      "workMount": true,
+      "iframeCount": 1
+    },
+    "state": {
+      "stage": 11,
+      "memory": 4,
+      "paused": true,
+      "looking": 7,
+      "answering": 8,
+      "vacancies": 4,
+      "gazeState": "sequence"
+    },
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "raw": {
+    "status": 200,
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "paused": false,
+      "looking": 0,
+      "answering": 0,
+      "vacancies": 0,
+      "gazeState": "sequence"
+    },
+    "pointer": {
+      "stage": 0,
+      "memory": 1,
+      "paused": true,
+      "looking": 3,
+      "answering": 5,
+      "vacancies": 1,
+      "gazeState": "visitor-gaze"
+    },
+    "keyboard": {
+      "stage": 0,
+      "memory": 2,
+      "paused": true,
+      "looking": 3,
+      "answering": 6,
+      "vacancies": 1,
+      "gazeState": "visitor-gaze"
+    },
+    "lifted": {
+      "stage": 0,
+      "memory": 1,
+      "paused": true,
+      "looking": 3,
+      "answering": 5,
+      "vacancies": 1,
+      "gazeState": "ungazed"
+    },
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "paused": false,
+      "looking": 0,
+      "answering": 0,
+      "vacancies": 0,
+      "gazeState": "sequence"
+    },
+    "controls": [
+      {
+        "label": "place a gaze",
+        "height": 44
+      },
+      {
+        "label": "lift latest",
+        "height": 44
+      },
+      {
+        "label": "release the field",
+        "height": 44
+      }
+    ],
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "MUTINE — The field returns the gaze.",
+      "journalEntry": null,
+      "currentTitle": null,
+      "workMount": false,
+      "iframeCount": 0
+    },
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "status": 200,
+    "state": {
+      "stage": 11,
+      "memory": 4,
+      "paused": true,
+      "looking": 7,
+      "answering": 8,
+      "vacancies": 4,
+      "gazeState": "sequence"
+    },
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "svg": "block",
+      "readout": "none",
+      "controls": "none"
+    },
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "journal": {
+    "status": 200,
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "MUTINE — journal",
+      "journalEntry": "2026-09-22Pure SVG / candidate / heldThe field returns the gaze.v013 changes the Pure SVG rule: the filled animal and its route bundle are refused. Twenty-four angular cells become a reciprocal field; a remembered gaze recruits a local quorum, a distant ring answers from another orientation, and one cell is absent. Lifting the latest gaze reconstructs the preceding topology exactly.open daily work ↗candidate / held4 critiquesdaily trace retained",
+      "currentTitle": null,
+      "workMount": false,
+      "iframeCount": 0
+    },
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "current": {
+    "status": 200,
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "MUTINE — current / pure SVG",
+      "journalEntry": null,
+      "currentTitle": "Pure SVG",
+      "workMount": false,
+      "iframeCount": 13
+    },
+    "firstArtwork": {
+      "x": 34.5,
+      "y": 523.734375,
+      "width": 321,
+      "height": 250.375
+    },
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  }
+}

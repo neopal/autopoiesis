@@ -35,6 +35,19 @@
     "staticBlind": "SVG visible while readout, controls, witnesses, labels, and centre count were hidden",
     "journal": "exactly one #journal-svg-2026-09-22 entry rendered locally",
     "current": "exactly one Pure SVG current header and one first artwork rendered locally",
-    "proof": "research/qa/proofs/svg-v013-2026-09-22/results.json"
+    "production": {
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentMethod": "authorized Vercel CLI production deploy from the committed worktree; final deployment identifier is recorded in the release report",
+      "worksJsonRecord": "HTTP 200 stable-alias JSON contained exactly one svg-2026-09-22 record with title The field returns the gaze., rawPath /studies/pure-svg/v013/, and Journal anchor journal-svg-2026-09-22",
+      "canonicalWork": "HTTP 200 production headless readback at 390x844 rendered one v013 tableau before the recorded work detail with stage 12 / 12, 4 gazes, 7 looking cells, 8 answering cells, and 4 vacancies",
+      "journal": "HTTP 200 production headless readback at 390x844 rendered exactly one #journal-svg-2026-09-22 entry with the recorded title",
+      "rawPreview": "HTTP 200 production headless readback at 390x844 rendered the v013 SVG, three 44px controls, no overflow, and memory 0 to 1 to 2 to 1 to 0 through pointer/Enter/Delete/release",
+      "blindPreview": "HTTP 200 production headless readback kept the SVG visible while readout and controls were hidden; no overflow",
+      "current": "HTTP 200 production headless readback at 390x844 rendered the Pure SVG header and first artwork card with no overflow",
+      "favicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+      "browserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, raw, blind, Journal, and current readback",
+      "providerRevision": "not exposed by the Vercel CLI or deployed site; stable-alias content and GitHub SHA were verified separately"
+    },
+    "proof": "research/qa/proofs/svg-v013-2026-09-22/results.json and production-results.json"
   }
 }
