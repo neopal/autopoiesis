@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9e4d6">
+  <title>MUTINE — The letters choose a quorum.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=015">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-22"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v015</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v015</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="canvas-wrap">
+          <canvas id="piece" tabindex="0" role="img" aria-label="A field of typographic marks that turn toward a visitor, answer as a second ring, and leave a deliberate blank in the sentence" aria-keyshortcuts="Enter Space P R S"></canvas>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 015</span><span>QUORUM MARKS</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v015-quorum</span><span>look &gt; answer &gt; vacancy &gt; sentence</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Look at the field. Nearby marks turn toward you, a second ring answers from the other side, and one place in the sentence is left empty. Lift the latest look to restore the exact earlier alphabet.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="attend-mark" data-gesture="attend" type="button">attend here</button>
+          <button id="lift-attention" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The marks are waiting as separate syllables.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v015</p>
+        <h1 id="work-title">The letters<br><i>choose a quorum.</i></h1>
+        <p class="lede">A sentence is no longer a line that carries a private cadence. It is a field of marks with local attention: some turn toward the look, some answer it, and one position goes missing so the next sentence has to make room.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v015</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Continuous route memory is replaced by a discrete attention quorum. A local cohort reorients toward the visitor, a second ring mirrors the look, and a third witness vacates one typographic slot; later events replay the same topology change.</dd></div>
+          <div><dt>visitor action</dt><dd>A pointer, Enter, or Space places one bounded attention event. The event changes mark positions, apertures, angles, roles, and occupancy. Lifting the latest event rebuilds the exact preceding field.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the labels, witnesses, readout, controls, captions, and editorial furniture. If the blind field still does not show a local turn, a distinct answering ring, and an actual blank in the sentence, the quorum is only an explanation.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v015 if the marks still read as a softened route bundle, if the vacancy is only a coloured dot, if edge attention produces no structural cohort, or if removing the latest look does not restore the exact prior mark field.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-18/">previous daily work</a><a href="/journal/#journal-typography-2026-09-22">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=015"></script>
+</body>
+</html>

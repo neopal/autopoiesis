@@ -2,6 +2,110 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-09-22",
+      "currentId": "typography",
+      "date": "2026-09-22",
+      "title": "The letters choose a quorum.",
+      "rawPath": "/studies/handwriting/v015/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-22",
+        "note": "v015 changes the handwriting rule: continuous route memory becomes a discrete attention quorum. Nearby marks turn toward the visitor, a second ring answers from the opposite orientation, and a third witness vacates one typographic slot; lifting the latest look reconstructs the preceding alphabet exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "v015 must not be another route event with a different surface. The affected marks need to change role, orientation, position, and occupancy: a local looking cohort, a distinct answering ring, and an actual empty slot. A halo or colour legend cannot substitute for changed topology."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, readout, captions, controls, and furniture hidden, a viewer should find a discrete field rather than horizontal paths, then notice a local turn, a reversed answering ring, and a missing mark. If it reads as a brighter grid, the quorum fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must place the same bounded attention event. Lifting only the latest look must restore the exact preceding field, including positions, angles, roles, and the vacancy pattern."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Reciprocal attention is an easy metaphor. Delete v015 if the marks still read as a route bundle, if edge placement yields no coherent cohort, if the blank is decorative, or if the prose explains more social consequence than the blind field can show."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v015-quorum",
+        "visitorInput": true,
+        "seed": "0x57563135",
+        "stages": 15,
+        "agentCount": 45,
+        "grid": "9 x 5",
+        "memoryWindow": 5,
+        "finalStage": 14,
+        "finalMemory": 5,
+        "finalVisibleMarks": 40,
+        "finalVacancies": 5,
+        "finalQuorums": 5,
+        "finalLookingAgents": 56,
+        "finalAnsweringAgents": 41,
+        "visitorPoint": {
+          "x": 0.93,
+          "y": 0.13
+        },
+        "visitorLookingAgents": 5,
+        "visitorAnsweringAgents": 10,
+        "visitorVacancies": 1,
+        "memoryRule": "the latest five attention events are replayed in order through the typographic quorum builder",
+        "quorumRule": "a local cohort turns toward the visitor, a second ring answers from the opposite orientation, and a third witness vacates one typographic slot",
+        "interactionRule": "pointer, Enter, and Space place a bounded attention quorum; positions, angles, apertures, roles, and occupancy change, while lifting the latest rebuilds the exact preceding field",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, production readback, and provider revision verification"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In handwriting, discrete typographic marks become a social grammar: a local cohort turns toward the visitor, a second ring answers from the opposite orientation, and a third witness yields one slot so the sentence remembers that someone was seen.",
+        "visibleConsequence": "The blind field changes topology, orientation, and occupancy after a look. It shows a local looking cohort, a distinct answering ring, and a real blank rather than a cursor or decorative marker.",
+        "falsifier": "If caption-free viewing sees only a regular grid with changed colour, or if the vacancy is not materially different from a missing label, the translation fails.",
+        "antiCopy": "No animals, characters, paper scene, head-turning animation, palette, composition, or surface style from little-critters is reproduced.",
+        "directionConsequence": "Closes the handwriting current's v010-v014 continuous route grammar and opens a discrete typographic ecology: provisional marks, social spacing, and absence as syntax."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with witnesses, labels, readout, controls, captions, and prose hidden; delete v015 if local turn -> answering ring -> actual blank is not legible in the marks themselves.",
+        "lineage": "typography-2026-09-18"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4174/works/typography-2026-09-22/",
+        "rawPreview": "http://127.0.0.1:4174/studies/handwriting/v015/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4174/studies/handwriting/v015/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v015 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "normalState": "normal-motion local raw and canonical runs opened at stage 00 / 14 with 0 looks, 45 visible marks, and paused false",
+        "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 14 / 14 with 5 remembered looks, 40 visible marks, and paused true",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 look, changed the canvas PNG signature, and produced 15 looking marks, 27 answering marks, and 1 vacancy",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 looks and changed the field again",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned memory to 0, 45 visible marks, and stage 00 / 14",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout furniture, controls, caption, and corner notation; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-typography-2026-09-22 entry with the recorded title and /works/typography-2026-09-22/#journal href",
+        "current": "local Handwriting current readback at 390x844 rendered exactly one current header with the 2026-09-22 candidate and no document overflow",
+        "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/typography-v015-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-handwriting-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with witnesses, labels, readout, captions, controls, and prose hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-09-21",
       "currentId": "webgpu",
       "date": "2026-09-21",
