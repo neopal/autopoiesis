@@ -125,6 +125,6 @@ v016 is a structural rupture from the Brush current's v013–v015 horizontal wet
 
 ## Unresolved doubt
 
-No independent caption-free perceptual reviewer is available in this unattended run. The structural and browser evidence is complete, but the work remains honestly **candidate / held** until the blind image is judged against v013–v015 without labels, controls, readout, or prose. Delete v016 rather than polish it if the plate still reads as a route field.
+No independent caption-free perceptual reviewer is available in this unattended run. The structural, local browser, and production browser evidence is complete, but the work remains honestly **candidate / held** until the blind image is judged against v013–v015 without labels, controls, readout, or prose. Delete v016 rather than polish it if the plate still reads as a route field.
 
-Production readback and provider revision linkage remain pending.
+Production verification completed against `https://autopoiesis-nine.vercel.app/` after deployment `dpl_EwZEsWcshkkmvhA4dTvSgzv7q7Be`: 20/20 production headless viewport runs passed, production interaction and blind-preview checks passed, the rendered Journal/current each contained exactly one matching record, the deployed JSON contained exactly one `brush-2026-09-22` record, and favicon/canonical/raw routes returned HTTP 200. Provider revision linkage from the stable alias to the GitHub SHA remains unresolved.

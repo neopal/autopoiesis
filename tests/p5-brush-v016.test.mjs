@@ -85,7 +85,7 @@ test('brush v016 is the unique 2026-09-22 daily work with a canonical page', asy
   assert.equal(work.status, 'candidate / held');
   assert.equal(work.lifecycle, 'active');
   assert.equal(work.source.referenceId, 'p5-brush');
-  assert.match(work.browserEvidence.status, /^local headless browser matrix passed/);
+  assert.match(work.browserEvidence.status, /^local and production headless browser matrices passed/);
   assert.equal(work.journal.anchor, 'journal-brush-2026-09-22');
   assert.equal(work.decision.lineage, 'brush-2026-09-21');
 
