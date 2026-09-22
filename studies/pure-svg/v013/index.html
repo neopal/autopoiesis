@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090812">
+  <title>MUTINE — The field returns the gaze.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=013">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-09-22"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v013</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v013</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="Twenty-four angular cells form a reciprocal field: a local quorum looks back, a distant ring answers, and one vacancy remains" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 12</span><span data-memory>0 remembered gazes · 0 vacancies</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="gaze-control" data-gesture="gaze">place a gaze</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release the field</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Twelve stages keep twenty-four angular cells and an empty centre; nothing is drawn as a body or character.</p></div>
+          <div><span>changed rule</span><p>A visitor gaze recruits a local quorum, makes a distant ring answer, and removes one cell from the field.</p></div>
+          <div><span>progression</span><p>Click or press Enter. Lift the latest gaze and the preceding topology returns exactly.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V013 / DAILY WORK</p><h1 id="work-title">The field<br><i>returns the gaze.</i></h1></div>
+        <p class="work-premise">The animal is refused. Twenty-four primitive apertures become a situated field: three marks turn toward the visitor, five answer from the far ring, and one place is left empty so looking has a consequence.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: gaze changes roles, positions, angles, and occupancy. Promotion depends on whether a viewer can read local looking, reciprocal answering, and actual absence without labels or witnesses.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=013"></script>
+</body>
+</html>

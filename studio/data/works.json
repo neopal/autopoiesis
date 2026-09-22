@@ -2,6 +2,103 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-22",
+      "currentId": "svg",
+      "date": "2026-09-22",
+      "title": "The field returns the gaze.",
+      "rawPath": "/studies/pure-svg/v013/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-22",
+        "note": "v013 changes the Pure SVG rule: the filled animal and its route bundle are refused. Twenty-four angular cells become a reciprocal field; a remembered gaze recruits a local quorum, a distant ring answers from another orientation, and one cell is absent. Lifting the latest gaze reconstructs the preceding topology exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Radical progression critic",
+          "argument": "v013 must not read as another animal with a renamed internal event. The first-render field needs a distributed cell grammar, no filled silhouette, and no route bundle. The visitor task must change from placing a threshold in a body to placing attention in a field."
+        },
+        {
+          "persona": "Structural critic",
+          "argument": "Gaze must change geometry, not only colour. The local quorum needs altered positions and angles, the answering ring needs a distinct orientation and displacement, and the vacancy must remove a real cell from the rendered topology."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With witnesses, labels, readout, and centre count hidden, a viewer should find a reciprocal field: a local group turns toward an encounter, a distant group answers, and a missing place remains. If it reads as a decorative constellation, the translation fails."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Little-critters is only a seed. Delete v013 if the pointer merely moves a marker, if the answering ring is cosmetic, if the vacancy is only explained by prose, or if the old filled-animal grammar remains the dominant first impression."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v013-reciprocal-gaze",
+        "visitorInput": true,
+        "seed": "0x53564743",
+        "stages": 12,
+        "primitiveBudget": 24,
+        "nodeCount": 24,
+        "memoryWindow": 4,
+        "finalMemory": 4,
+        "finalLooking": 7,
+        "finalAnswering": 8,
+        "finalVacancies": 4,
+        "visibleCells": 20,
+        "memoryRule": "a remembered gaze recruits a local quorum, makes a distant ring answer, and removes one cell from the field",
+        "interactionRule": "a visitor gaze changes node roles, positions, angles, and occupancy; lifting the latest gaze restores the exact prior topology",
+        "representationRupture": "filled animal and routes → distributed angular cell field",
+        "encounterRupture": "threshold placement → reciprocal attention event",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, production readback, and provider revision verification",
+        "browserEvidence": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Pure SVG, twenty-four primitive cells become situated agents without characters: a bounded visitor gaze recruits a local quorum, a distant ring answers with another orientation, and one cell vacates so attention changes the field itself.",
+        "visibleConsequence": "The blind field is a distributed set of angular cells around an empty centre rather than a filled animal. After interaction, positions, angles, roles, and occupancy change: a local group looks, a distant group answers, and a real vacancy remains.",
+        "falsifier": "If caption-free viewing sees only a constellation with changed colour, if the answering ring is not materially distinct, or if the vacancy is not visible as missing geometry, the translation fails.",
+        "antiCopy": "No animals, characters, paper scene, head-turning animation, palette, composition, or surface style from little-critters is reproduced.",
+        "directionConsequence": "Closes Pure SVG v010–v012's filled-animal, internal-event grammar and opens the constraint-and-topology direction as reciprocal field behaviour: distributed cells, attention roles, and absence replace silhouette and route memory."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with witnesses, labels, readout, and centre count hidden; delete v013 if local looking → distant answering → true vacancy is not legible in the cells themselves.",
+        "lineage": "pure-svg-v012"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4175/works/svg-2026-09-22/",
+        "rawPreview": "http://127.0.0.1:4175/studies/pure-svg/v013/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4175/studies/pure-svg/v013/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs rendered the v013 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44 CSS px high and 114 CSS px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "normalState": "normal-motion local raw and canonical runs opened at stage 01 / 12 with 0 gazes, 0 looking cells, 0 answering cells, and 0 vacancies",
+      "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 12 / 12 with 4 remembered gazes, 7 looking cells, 8 answering cells, and 4 vacancies",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 gaze, with 3 looking cells, 5 answering cells, and 1 vacancy",
+        "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 gazes and changed the field again, with 3 looking cells, 6 answering cells, and 1 vacancy",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state SVG signature",
+        "releaseInteraction": "release sequence returned memory to 0 and cleared the interaction state",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, witnesses, labels, and centre count; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-svg-2026-09-22 entry with the recorded title and /works/svg-2026-09-22/#journal href",
+        "current": "local Pure SVG current readback at 390x844 rendered exactly one current header and one first artwork with no document overflow",
+        "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/svg-v013-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-pure-svg-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with witnesses, labels, readout, centre count, and prose hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "typography-2026-09-22",
       "currentId": "typography",
       "date": "2026-09-22",
