@@ -6282,6 +6282,108 @@
         "nextMutation": "Run an independent caption-free comparison with threshold witnesses, labels, and readout hidden; delete v012 if approach → edge → crossing → interior departure is not legible in the portrait field itself.",
         "lineage": "portrait-2026-09-16"
       }
+    },
+    {
+      "id": "brush-2026-09-22",
+      "currentId": "brush",
+      "date": "2026-09-22",
+      "title": "The brush keeps a cut.",
+      "rawPath": "/studies/p5-brush/v016/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-22",
+        "note": "v016 changes the brush rule: the horizontal wet-route field becomes a finite pressure plate. A bounded drag cuts the plate, cells on both sides pivot and lift, and displaced material gathers into a ridge; lifting the latest cut reconstructs the exact prior plate."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The pressure cut must be carried by actual plate geometry: cells on both sides need to pivot, lift, and change their grain, while the ridge follows the visitor's path. A dark incision drawn over an unchanged grid is not material memory."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, controls, readout, and ridge witnesses hidden, a viewer should find a singular plate/object, a finite incision, two lifted banks, and a displaced ridge. If it reads as another bundle of horizontal routes, the medium switch fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A drag must be causally different from a click: path shape and pressure must alter the cut width and displaced geometry. Enter/Space may provide an equivalent deterministic cut, and lifting only the latest cut must restore the exact preceding plate."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A fracture is an easy metaphor. Delete v016 if the ridge is decorative, if edge-to-edge drags do not alter the plate materially, if speed/path length has no consequence, or if prose carries more force than the blind object can show."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v016-pressure-cut",
+        "visitorInput": true,
+        "seed": "0x42525536",
+        "stages": 17,
+        "grid": "16 x 11 pressure plate",
+        "cellCount": 176,
+        "primitiveBudget": 72,
+        "memoryWindow": 6,
+        "settledStage": 16,
+        "settledMemory": 6,
+        "visitorMemory": 1,
+        "visitorPressure": 0.72,
+        "visitorCutWidth": 0.07023431036829444,
+        "visitorPathPoints": 3,
+        "visitorScarPoints": 28,
+        "visitorRidgePoints": 28,
+        "visitorDisplacedCells": 72,
+        "visitorMaterialLoad": 30.224287852048477,
+        "baselineMaterialLoad": 6.42032334830463,
+        "visitorLiftDelta": 23.803964503743845,
+        "memoryRule": "a remembered removal becomes a pressure cut: nearby cells pivot and lift, grain turns around the incision, and displaced matter gathers into a ridge",
+        "interactionRule": "a visitor drag changes cut width, bank lift, cell angle, grain, edge, pigment, and ridge geometry; lifting it restores the exact prior plate",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, browser matrix, production readback, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4174/works/brush-2026-09-22/",
+        "rawPreview": "http://127.0.0.1:4174/studies/p5-brush/v016/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4174/studies/p5-brush/v016/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v016 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px height at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "normalState": "normal-motion local raw and canonical runs opened at stage 00 / 17 with 0 cuts, 176 cells, and paused false",
+        "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 16 / 17 with 6 cuts, 176 cells, and paused true",
+        "pointerInteraction": "local raw drag changed memory from 0 to 1 cut, changed the canvas PNG signature, and produced a pressure-shaped material state",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 cuts and retained the changed plate",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned memory to 0 and unpaused the sequence",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, caption, and cut witnesses; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-brush-2026-09-22 entry with the recorded title and /works/brush-2026-09-22/#journal href",
+        "current": "local Brush current readback at 390x844 rendered exactly one current header and exactly one 2026-09-22 work card with no document overflow",
+        "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/brush-v016-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-brush-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with plate, cut, ridge, labels, controls, and readout hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Natural drawing tools are treated as programmable instruments: pressure, density, grain, directional behaviour, fills, and vector fields alter how geometry is produced rather than being a skin applied after geometry.",
+        "translatedRule": "In the Brush current, pressure becomes a topological event: a bounded drag cuts a finite plate, changes both banks' cell angle, lift, grain, edge, and pigment, and forces displaced matter to gather into a ridge.",
+        "visibleConsequence": "The blind field becomes a singular pressure-shaped plate/object with a finite incision, two lifted banks, and a path-following ridge instead of horizontal wet routes.",
+        "falsifier": "If caption-free viewing sees only a grid with a dark line, or if cells and ridge geometry remain unchanged, the material translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, palette, compositions, or API surface is reproduced.",
+        "directionConsequence": "Closes the Brush current's v013-v015 continuous route grammar and opens a cut-object grammar: pressure, fracture, lifted matter, and a drag-shaped viewer task."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with plate, incision, ridge, labels, controls, and readout hidden; delete v016 if the singular pressure plate is not legible as a medium switch from v013-v015.",
+        "lineage": "brush-2026-09-21"
+      }
     }
   ]
 }

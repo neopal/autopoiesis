@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111814">
+  <title>MUTINE — the brush keeps a cut</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=016">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-22"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="cut-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v016 / PRESSURE PLATE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="cut-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v016</span></nav>
+
+      <figure class="cut-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" tabindex="0" role="img" aria-label="A material plate of lifted cells split by a pressure cut and displaced ridge" aria-keyshortcuts="Enter Space Delete R S"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 17 / 17</span><span data-memory>6 cuts carried</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="cut-control" data-gesture="cut" type="button">press the plate</button>
+            <button id="undo-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v016-pressure-plate</span><span>cut &gt; lift &gt; displace</span></figcaption>
+      </figure>
+
+      <section class="cut-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / MATERIAL BREAK / v016</p>
+        <h1 id="work-title">The brush keeps<br><i>a cut.</i></h1>
+        <p class="cut-lede">The route field is gone. A pressure gesture opens a finite plate: cells lift along the incision, the remainder gathers into a raised ridge, and the next grain turns around what was removed.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL ACTION</p>
+          <p class="interaction-copy">Drag across the plate. Speed and length become pressure. The cut is not a line painted on top: it changes cell angle, lift, grain, edge, and pigment on both sides. Lift only the latest cut to rebuild the exact prior plate.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The plate is holding its layered pressure.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v016</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered removal becomes a pressure cut. The plate resolves it as a real incision and a displaced ridge; cells on both sides pivot, lift, and alter their grain.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag, press Enter, or press Space to cut. A drag path is bounded and replayable; Delete or “lift latest” restores the preceding plate exactly.</dd></div>
+          <div><dt>falsifier</dt><dd>If the cut is only a dark stroke, if the ridge does not move material, or if cells keep the same angle and lift, the plate is decoration rather than remembered matter.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v016 if a caption-free comparison with labels, controls, readout, and witnesses hidden still reads as the old horizontal route grammar instead of a split, lifted, pressure-shaped plate.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-21/">previous daily work</a><a href="/journal/#journal-brush-2026-09-22">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=016"></script>
+</body>
+</html>

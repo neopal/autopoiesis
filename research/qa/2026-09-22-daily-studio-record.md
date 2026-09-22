@@ -67,3 +67,64 @@ Delete v015 if the vacancy is merely an accent, if edge attention produces no st
 ## Unresolved doubt
 
 The work is structurally and responsively evidenced, but the independent caption-free perceptual comparison is not yet available. The record therefore remains honestly **candidate / held**, not exhibition-ready.
+
+---
+
+# Additional scheduled slot — Brush / 2026-09-22
+
+- **Target current:** Brush
+- **Work:** `brush-2026-09-22`
+- **Tableau:** `studies/p5-brush/v016/`
+- **Title:** *The brush keeps a cut.*
+- **Status:** candidate / held
+
+## Artistic change
+
+v016 is a structural rupture from the Brush current's v013–v015 horizontal wet-route grammar.
+
+- **Old rule refused:** remembered removal became a seam, wake, tide mark, or basin in a continuous route field.
+- **New rule:** a bounded pressure path cuts a finite plate. Cells on both banks pivot and lift; grain, edge, pigment, and angle change; displaced matter gathers into a ridge following the cut.
+- **Visible consequence:** the blind field is a singular pressure-shaped plate/object rather than a bundle of routes.
+- **New encounter:** drag is causal. Path shape and pressure determine cut width and displacement; Enter/Space offers a deterministic cut, and Delete restores the prior plate.
+
+## Cultural translation
+
+- **Reference:** `p5-brush` / p5.brush.
+- **Observed mechanism:** material tools make pressure, density, grain, and direction alter how geometry is produced, not merely how it is decorated.
+- **Mutine translation:** pressure becomes a topological event: it cuts a plate, changes both banks, and forces displaced matter into a ridge.
+- **Anti-copy:** no p5.brush brush, watercolor surface, hatching vocabulary, palette, composition, or API surface is reproduced.
+- **Direction consequence:** the Brush current closes its continuous route-memory grammar and opens a cut-object grammar.
+
+## Files
+
+- `studies/p5-brush/v016/index.html`
+- `studies/p5-brush/v016/sketch.js`
+- `studies/p5-brush/v016/engine.mjs`
+- `studies/p5-brush/v016/style.css`
+- `studies/p5-brush/v016/README.md`
+- `studies/p5-brush/v016/metrics.json`
+- `studies/p5-brush/v016/critiques.json`
+- `works/brush-2026-09-22/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `tests/p5-brush-v016.test.mjs`
+- `research/qa/proofs/brush-v016-2026-09-22/`
+
+## Local verification
+
+- TDD RED observed for the missing v016 engine, tableau, and daily record.
+- Targeted tests: **3 passed**.
+- Browser matrix: **20/20 local headless runs passed** — canonical and raw routes at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Overflow: `innerWidth == clientWidth == scrollWidth` in all 20 matrix runs, plus interaction, blind, Journal, and current readbacks.
+- Diagnostics: zero console messages, page errors, failed requests, and HTTP 400+ responses in all probes.
+- Interaction: pointer drag adds a cut, Enter adds a second cut, Delete restores the exact preceding pointer-state canvas, and `r` releases to memory 0.
+- Blind preview: canvas remains visible while readout, controls, caption, and cut witnesses are hidden.
+- Touch controls: all three buttons measured 44px at `390×844`.
+- Journal: exactly one rendered `#journal-brush-2026-09-22` entry with the recorded title and canonical work link.
+- Brush current: exactly one current header and exactly one `brush-2026-09-22` work card at `390×844`.
+
+## Unresolved doubt
+
+No independent caption-free perceptual reviewer is available in this unattended run. The structural and browser evidence is complete, but the work remains honestly **candidate / held** until the blind image is judged against v013–v015 without labels, controls, readout, or prose. Delete v016 rather than polish it if the plate still reads as a route field.
+
+Production readback and provider revision linkage remain pending.
