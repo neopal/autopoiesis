@@ -2,6 +2,111 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-22",
+      "currentId": "naive",
+      "date": "2026-09-22",
+      "title": "The picture copies the wrong thing.",
+      "rawPath": "/studies/naive-art/v015/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-22",
+        "note": "v015 changes the Naive art rule: a remembered look becomes a failed transmission between four picture panels. A nearby panel leans toward the encounter, a distant panel receives a wrong copied motif, and a third panel loses one actual pictorial slot; lifting the latest misread reconstructs the preceding panel arrangement exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The mistake must be carried by relations between actual picture panels: one panel turns, one receives a displaced motif, and a third loses a real component. A witness label or arrow cannot substitute for changed panel and motif geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and all prose hidden, a caption-free viewer should find four pictures disagreeing: local lean, wrong copy, and a blank slot. If it reads as four decorative cards, the translation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must create the same bounded misread; lifting only the newest event must reproduce the exact preceding panel turns, reply offsets, and missing motifs."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v015 must remain a distributed picture-strip, not another route, bridge, fork, or single-scene puncture. If the first-render task is still to watch one object change along a path, reject it as a polished v014."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Reciprocity is an easy metaphor. Delete v015 if the distant copy is only a color echo, if the blank slot is explained only by prose, or if the panels do not materially disagree after input."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v015-copy-error",
+        "visitorInput": true,
+        "seed": "0x4e413135",
+        "stages": 18,
+        "primitiveBudget": 56,
+        "memoryWindow": 5,
+        "settledStage": 17,
+        "settledMemory": 5,
+        "settledLocalTurns": 3,
+        "settledReplies": 5,
+        "settledBlankSlots": 5,
+        "memoryRule": "a remembered look becomes a local misread, a distant wrong copy, and a blank pictorial slot",
+        "interactionRule": "visitor placement changes local panel turn, reply offset, reply rotation, vacancy component, and panel topology; undo restores the exact prior field",
+        "representationRupture": "single paper scene and route grammar → four related picture panels with copy error",
+        "encounterRupture": "tear or reroute an object → make one picture misread another",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending production readback and independent caption-free perceptual review",
+        "settledEngineMemory": 17,
+        "visitorMemoryAfterPointer": 1,
+        "visitorMemoryAfterKeyboard": 2,
+        "visitorMemoryAfterDelete": 1,
+        "replayRestored": true
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / pending production readback and independent caption-free perceptual review",
+        "unresolved": [
+          "production readback and stable-alias verification",
+          "independent caption-free perceptual comparison with labels, readout, and prose hidden",
+          "provider revision linking the stable alias to the GitHub SHA"
+        ],
+        "observedRoute": "http://127.0.0.1:4175/works/naive-2026-09-22/",
+        "rawPreview": "http://127.0.0.1:4175/studies/naive-art/v015/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4175/studies/naive-art/v015/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v015 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and at least 118px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "normalState": "normal-motion local raw and canonical runs opened at stage 00 / 18 with 0 misreads",
+        "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 18 / 18 with 5 visible misreads, 3 local turns, 5 wrong copies, and 5 blank slots; the retained engine memory is 17 stages with a five-event visible window",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 misread, with one local turn, one wrong copy, and one blank slot",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 misreads and changed the panel signature",
+        "deleteInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state panel signature",
+        "releaseInteraction": "release sequence returned memory to 0 and cleared the interaction state",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout and controls; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-naive-2026-09-22 entry with the recorded title and canonical work link",
+        "current": "local Naive art current readback at 390x844 rendered exactly one current header and one first artwork card with no document overflow",
+        "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/naive-art-v015-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-naive-390x844.png"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Naive art, four childlike picture panels become a relational family: a visitor look makes a nearby picture lean, sends a wrong motif to a distant picture, and removes that motif from a third panel.",
+        "visibleConsequence": "The blind field is a four-panel picture-strip rather than a filled animal or single house. After interaction, panel orientation changes, a displaced motif appears in a distant panel, and a real pictorial slot remains blank.",
+        "falsifier": "If caption-free viewing sees only four decorative cards, if the distant copy is only a color echo, or if the blank slot is not materially visible, the translation fails.",
+        "antiCopy": "No animals, characters, head-turning scene, paper style, palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Naive art v010–v014's route and single-scene object/void grammar and opens a distributed picture-memory direction: error travels between panels through misread, wrong copy, and absence."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with labels, readout, controls, and prose hidden; delete v015 if local lean → distant wrong copy → real blank slot is not legible in the four picture panels themselves.",
+        "lineage": "naive-2026-09-21"
+      }
+    },
+    {
       "id": "svg-2026-09-22",
       "currentId": "svg",
       "date": "2026-09-22",

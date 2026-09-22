@@ -1,0 +1,28 @@
+{
+  "renderer": "deterministic Canvas 2D",
+  "seed": "0x4e413135",
+  "stages": 18,
+  "primitiveBudget": 56,
+  "memoryWindow": 5,
+  "visitorInput": true,
+  "replay": true,
+  "changedRule": "a remembered look becomes a local misread, a distant wrong copy, and a blank pictorial slot",
+  "memoryRule": "later scenes keep failed transmissions; each retained mistake turns one picture, copies one motif into a distant picture, and removes that motif from a third",
+  "interactionRule": "visitor placement changes local panel turn, reply offset, reply rotation, vacancy component, and panel topology; undo restores the exact prior field",
+  "structuralWitnesses": [
+    "local-panel-turn",
+    "distant-wrong-copy",
+    "third-panel-blank-slot"
+  ],
+  "settledStage": 18,
+  "settledMemory": 5,
+  "settledLocalTurns": 4,
+  "settledReplies": 5,
+  "settledBlankSlots": 5,
+  "visitorStructuralMemory": 1,
+  "visitorPhasePoints": [
+    "local panel rotation",
+    "wrong copied motif",
+    "missing pictorial component"
+  ]
+}

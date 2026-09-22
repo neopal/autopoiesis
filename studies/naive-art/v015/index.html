@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f0ebe0">
+  <title>MUTINE — naive art v015</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-22"></script>
+</head>
+<body class="work-page interactive-preview" data-current="naive">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / naive art / v015</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">→</span><span aria-current="page">v015</span></nav>
+      <section class="work-surface" aria-label="Naive art daily work">
+        <div class="field-column">
+          <div class="field-wrap artwork-frame">
+            <canvas id="field" role="img" aria-label="Four childlike picture panels passing a wrong copy between them, with one pictorial slot left blank" tabindex="0" aria-keyshortcuts="Enter Space"></canvas>
+            <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 18</span><span data-memory>0 misreads remembered</span></div>
+            <div class="field-controls" aria-label="Work gestures">
+              <button type="button" id="misread-control" data-gesture="misread">misread this</button>
+              <button type="button" id="undo-control" data-gesture="undo">undo latest</button>
+              <button type="button" id="release-control" data-gesture="release">release sequence</button>
+            </div>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Four paper pictures are drawn as a small family. They do not share one scene; they share a mistake.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if a local lean, a distant wrong copy, and a real blank slot survive without captions.</p></div>
+          <div><span>progression</span><p>Tap a panel or press Enter/Space to misread it, undo only the newest error, then release the sequence.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V015 / DAILY WORK</p><h1 id="work-title">The picture<br><i>copies the wrong thing.</i></h1></div>
+        <p class="work-premise">A mistake is no longer a missing piece. It becomes a bad transmission between pictures: one leans, one answers, one forgets.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v015 abandons the single-scene puncture and route grammar of v010–v014. Each remembered look makes a nearby panel lean, sends a wrong motif to a distant panel, and removes one actual pictorial slot from a third. Promotion requires the relation to read without labels, readout, or explanation.</p></section>
+      <p class="work-loop">creation → critique → progression</p>
+    </main>
+    <footer class="studio-footer"><a href="/currents/naive-art/">naive art current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>
