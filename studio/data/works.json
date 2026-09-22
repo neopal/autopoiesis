@@ -6679,7 +6679,7 @@
         "promotion": "candidate / held pending independent caption-free perceptual review, production readback, and provider revision verification"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / production not yet run / held pending independent caption-free perceptual review",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision verification",
         "observedRoute": "http://127.0.0.1:4176/works/webgpu-2026-09-22/",
         "rawPreview": "http://127.0.0.1:4176/studies/webgpu/v014/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4176/studies/webgpu/v014/?preview=1&static=1&blind=1",
@@ -6702,10 +6702,21 @@
         "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures; all 24 had non-empty image bounds",
         "evidenceFiles": "research/qa/proofs/webgpu-v014-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-webgpu-390x844.png",
         "unresolved": [
-          "production readback and deployment verification",
           "independent caption-free perceptual comparison with labels, readout, controls, and pressure witnesses hidden",
           "provider revision linking the stable alias to the GitHub SHA"
-        ]
+        ],
+        "productionBase": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_EnD5HuknQTon9q2PiPTxKLj572Lw",
+        "productionReadback": "stable alias returned HTTP 200 for works.json, Journal, current, canonical work, raw preview, and favicon; works.json contained exactly one webgpu-2026-09-22 record",
+        "productionRegister": "HTTP 200 stable-alias JSON readback contained exactly one webgpu-2026-09-22 record with title The crowd compacts into a pressure map., rawPath /studies/webgpu/v014/, and Journal anchor journal-webgpu-2026-09-22",
+        "productionCanonicalWork": "HTTP 200 production headless readback at all five required viewports rendered one v014 tableau before the recorded title and prose with no overflow",
+        "productionInteraction": "Production pointer changed memory 0 to 1, Enter changed 1 to 2, Delete changed 2 to 1 with exact prior signature restored, and release returned memory to 0",
+        "productionBlindPreview": "Production reduced-motion static blind preview kept the canvas visible while hiding readout and controls at 390x844 with no overflow",
+        "productionJournal": "Production Journal headless readback at 390x844 rendered exactly one #journal-webgpu-2026-09-22 entry with the recorded title and canonical work link",
+        "productionCurrent": "Production WebGPU current headless readback at 390x844 rendered exactly one current header and one 2026-09-22 candidate with no overflow",
+        "productionFavicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type",
+        "productionBrowserIssues": "empty console, page-error, request-failure, and HTTP 400+ arrays across production canonical, raw, static-blind, Journal, and current readback",
+        "productionEvidenceFiles": "research/qa/proofs/webgpu-v014-2026-09-22/production/results.json, 20 production viewport PNG captures, production raw-interaction-390x844.png, production static-blind-390x844.png, production journal-390x844.png, and production current-webgpu-390x844.png"
       },
       "source": {
         "referenceId": "p5-brush",
