@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1018">
+  <meta name="description" content="A WebGPU-ready pressure surface where a crowd compacts into a remembered topography.">
+  <title>MUTINE — The crowd compacts into a pressure map.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const hasWebGPU = Boolean(navigator.gpu);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=014">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-22"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="pressure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v014 / pressure archive</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="pressure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v014</span></nav>
+      <section class="pressure-work" aria-label="WebGPU pressure archive">
+        <figure class="pressure-frame artwork-frame">
+          <canvas id="field" role="img" aria-label="A continuous pressure surface with compacted ridges, creases, and remembered topography" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace"></canvas>
+          <div class="pressure-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 16</span><span data-memory>0 pressures</span><span data-renderer>WEBGPU / PRESSURE CHECK</span></div>
+          <div class="pressure-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="press">press the field</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release current</button>
+          </div>
+          <figcaption><span>WEBGPU / V014 / DAILY WORK</span><span>compact → crease → archive</span></figcaption>
+        </figure>
+        <aside class="pressure-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd no longer appears as separate marks. It resolves as one tessellated pressure surface whose height remembers where force entered.</p></div>
+          <div><span>changed rule</span><p>A bounded pressure path compacts the surface, raises a crease, and stores the load in the mesh instead of pointing at a witness.</p></div>
+          <div><span>progression</span><p>Drag across the field or press Enter. Lift only the latest pressure and the exact previous topography returns.</p></div>
+        </aside>
+      </section>
+      <section class="pressure-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V014 / DAILY WORK</p><h1 id="work-title">The crowd compacts<br><i>into a pressure map.</i></h1></div>
+        <p class="pressure-premise">The visitor is not asking a population to look. Pressure makes the population lose its separateness: a surface rises where the force has been kept.</p>
+      </section>
+      <section class="pressure-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: pressure changes node position, height, grain, crease, and surface memory. Promotion depends on whether the blind field reads as a continuous topographic object rather than a decorated grid.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>pressure → consequence → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=014a"></script>
+</body>
+</html>

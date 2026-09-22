@@ -6611,6 +6611,117 @@
         "nextMutation": "Run an independent caption-free comparison with plate, incision, ridge, labels, controls, and readout hidden; delete v016 if the singular pressure plate is not legible as a medium switch from v013-v015.",
         "lineage": "brush-2026-09-21"
       }
+    },
+    {
+      "id": "webgpu-2026-09-22",
+      "currentId": "webgpu",
+      "date": "2026-09-22",
+      "title": "The crowd compacts into a pressure map.",
+      "rawPath": "/studies/webgpu/v014/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-22",
+        "note": "v014 changes the WebGPU rule: the angular crowd field becomes one continuous pressure surface. A bounded force compacts nearby nodes, raises a crease, changes tilt and grain, and stores the load as topographic height; lifting the latest pressure reconstructs the exact prior surface."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "Pressure must be carried by the surface itself: nodes near the path need to compact, rise, tilt, and change grain while the crease follows the pressure path. A colored band over an unchanged mesh is not an archive."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, controls, readout, and pressure witnesses hidden, a viewer should find one continuous topographic object rather than a population of angular marks. If it reads as a decorated grid, the medium switch fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A drag must be causally different from a click: path shape and pressure must alter the surface geometry. Enter/Space may provide a deterministic equivalent, and lifting only the latest pressure must restore the exact preceding topography."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Compaction is an easy metaphor. Delete v014 if the crease is decorative, if edge-to-edge pressure produces no material displacement, if pressure has no consequence beyond colour, or if prose carries more force than the blind object can show."
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v014-pressure-archive",
+        "visitorInput": true,
+        "seed": "0x57475040",
+        "stages": 16,
+        "grid": "24 x 18 pressure surface",
+        "nodeCount": 432,
+        "faceCount": 782,
+        "primitiveBudget": 68,
+        "memoryWindow": 5,
+        "settledStage": 15,
+        "settledMemory": 5,
+        "settledCompactedNodes": 317,
+        "settledCreasedNodes": 346,
+        "settledArchivedPressure": 752.1199619987012,
+        "settledLiftLoad": 100.50189199761564,
+        "settledNodeDisplacement": 2.660503369621433,
+        "visitorMemory": 2,
+        "visitorPressure": 0.76,
+        "visitorPathPoints": 3,
+        "visitorAffectedNodes": 234,
+        "visitorCompactedNodes": 195,
+        "visitorCreasedNodes": 226,
+        "visitorArchivedPressure": 127.21644696712495,
+        "visitorLiftLoad": 51.923917637668346,
+        "visitorSurfaceDelta": 22.016224295733316,
+        "memoryRule": "a remembered pressure compacts the crowd into a continuous surface, raises a crease, and stores force as topographic height",
+        "interactionRule": "a visitor drag changes node position, height, tilt, grain, crease, and pressure load; lifting it restores the exact prior surface",
+        "representationRupture": "angular agent field -> continuous tessellated pressure surface",
+        "encounterRupture": "make a population look -> drag a force into the material record",
+        "replay": true,
+        "restoredExactly": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, production readback, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / production not yet run / held pending independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4176/works/webgpu-2026-09-22/",
+        "rawPreview": "http://127.0.0.1:4176/studies/webgpu/v014/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4176/studies/webgpu/v014/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v014 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 118px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "normalState": "normal-motion local raw and canonical runs opened at stage 01 / 16 with 0 pressures",
+        "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 16 / 16 with 5 pressures and a continuous topographic surface",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 pressure and changed the canvas PNG signature",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 pressures and changed the surface again",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state canvas data URL",
+        "releaseInteraction": "release sequence returned memory to 0 pressures",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, and caption; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-webgpu-2026-09-22 entry with the recorded title and canonical work link",
+        "current": "local WebGPU current readback at 390x844 rendered exactly one current header with the 2026-09-22 candidate and no document overflow",
+        "canvasCaptures": "24 PNG captures written: ten local canonical viewport/motion captures, ten local raw viewport/motion captures, raw interaction, static blind, Journal, and current captures; all 24 had non-empty image bounds",
+        "evidenceFiles": "research/qa/proofs/webgpu-v014-2026-09-22/results.json, probe.mjs, 20 viewport PNG captures, raw-interaction-390x844.png, static-blind-390x844.png, journal-390x844.png, and current-webgpu-390x844.png",
+        "unresolved": [
+          "production readback and deployment verification",
+          "independent caption-free perceptual comparison with labels, readout, controls, and pressure witnesses hidden",
+          "provider revision linking the stable alias to the GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable material tools make pressure, density, grain, and directional fields alter how geometry is produced rather than being a skin applied after geometry.",
+        "translatedRule": "In WebGPU, pressure is promoted from a stroke attribute to a collective topological event: a bounded force compacts the crowd into one surface, raises a crease, and stores load in the mesh.",
+        "visibleConsequence": "The blind field is a continuous tessellated topographic object rather than angular agents. After interaction, nodes change position, height, tilt, grain, and crease load along the pressure path; lifting the latest event restores the preceding surface.",
+        "falsifier": "If caption-free viewing still sees independent marks or a decorated grid, if pressure only changes colour, or if the crease is painted above unchanged nodes, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, palette, composition, or API surface is reproduced.",
+        "directionConsequence": "Closes WebGPU v009-v013 route and agent grammar and opens a pressure-surface direction in which the crowd becomes a material record; the viewer task changes from making a population look to dragging force into a shared surface."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with labels, controls, readout, and pressure witnesses hidden; delete v014 if compacted surface -> raised crease -> stored topography is not legible before explanation.",
+        "lineage": "webgpu-2026-09-21"
+      }
     }
   ]
 }
