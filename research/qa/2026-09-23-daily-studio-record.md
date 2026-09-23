@@ -230,3 +230,69 @@ With labels, readout, controls, relation marks, and prose hidden, the work fails
 ## Publication boundary
 
 The local artifact, canonical page, catalogue record, local evidence, stable deployment, deployed record, rendered Journal entry, current route, and production interaction readback are real. Independent caption-free perceptual comparison and provider revision linkage remain unresolved. The candidate remains **held**.
+
+---
+
+# Scheduled artwork run — Naive art / 2026-09-23
+
+## Target and concept
+
+- Current: Naive art (`naive`)
+- Work: `naive-2026-09-23`
+- Study: `studies/naive-art/v016/`
+- Title: *The mistake waits until you leave.*
+- Status: **candidate / held**
+- Slot source: the pre-run helper selected Naive art / `2026-09-23`; no duplicate current/date record existed before this run.
+
+### Repeated grammar refused
+
+The last three Naive art records (v013–v015) moved through remembered visitor events as forks, punctures, and a distributed picture-panel copy error. Their repeated gesture was look/approach → local change → remote consequence → absence, rendered as routes, one scene, or panels.
+
+### Structural and perceptual rupture
+
+v016 inverts the causal relation and changes the medium. Eight isolated inline-SVG forms replace routes, a house scene, and picture panels. Pointer entry and proximity are refused; only leaving commits a material event: one form loses a notch, a distant form receives a wrong fragment, and a third form hollows. The viewer task changes from looking for an immediate reply to noticing what absence leaves behind.
+
+The blind falsifier remains active: if the field reads as decorative blobs, if entering changes the image, or if notch/fragment/hollow are only color overlays, the direction fails.
+
+### Falsifier and deletion condition
+
+Hide labels, readout, controls, and prose. Delete v016 rather than polish it if two caption-free comparisons cannot locate departure → cut → wrong fragment → hollow in the form geometry itself.
+
+## Cultural translation
+
+- Reference: `little-critters` — https://github.com/GordenSun/little-critters
+- Observed mechanism: situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a dashboard operator.
+- Mutine translation: invert immediate reciprocity; presence is refused and only departure redistributes material across three isolated SVG forms — cut, wrong fragment, hollow.
+- Anti-copy: no animals, eyes, characters, paper scene, head-turning behavior, source palette, composition, or surface vocabulary is reproduced.
+- Direction consequence: closes Naive art v013–v015's route/puncture/picture-panel grammar and opens the anti-instrument direction where absence is causal.
+
+## Files
+
+- `studies/naive-art/v016/`
+- `works/naive-2026-09-23/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `tests/naive-art-v016.test.mjs`
+- Updated catalogue-count/date expectations in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
+- `research/qa/proofs/naive-art-v016-2026-09-23/`
+
+## Verification
+
+- TDD RED observed for the missing v016 engine; the structural engine test then passed.
+- TDD RED observed for the missing v016 tableau and daily record; targeted v016 tests then passed after implementation and registration.
+- Existing catalogue-count/date assertions failed after adding the real record; they were updated to the new 90-work register.
+- Targeted v016 tests: **2 passed**.
+- Full suite: **464 passed, 0 failed, 0 skipped, 0 todo**.
+- Changed JavaScript syntax: **PASS** for `engine.mjs`, `sketch.js`, and `probe.mjs`.
+- `git diff --check`: **PASS**.
+- Local browser matrix: **10 canonical + 10 raw headless runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Diagnostics: zero console messages, page errors, failed requests, or HTTP 400+ responses across the 20 route runs, interaction, blind, Journal, and current probes.
+- Overflow: `innerWidth == clientWidth == scrollWidth` in all 20 route runs and focused 390px probes.
+- Tableau order: v016 iframe preceded generated title, Journal, critique, evidence, and neighbouring-work prose in all 10 canonical runs.
+- Interaction: pointer entry left memory/signature unchanged; pointer leave `0 → 1`, Enter `1 → 2`, Delete `2 → 1` with exact restoration, and release returned memory to `0`.
+- Reduced-motion blind preview: SVG remained visible at `390×844` while readout, controls, header, and annotations were hidden.
+- Evidence: 24 local PNG captures plus `results.json`, `summary.json`, and `probe.mjs`.
+
+## Publication boundary
+
+The local artifact and local catalogue/browser evidence are real. Independent caption-free perceptual comparison and provider revision linkage remain unresolved. The candidate remains **held** and is not described as exhibition-ready.

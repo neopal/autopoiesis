@@ -1,0 +1,31 @@
+{
+  "renderer": "deterministic inline SVG",
+  "seed": "0x4e413136",
+  "stages": 18,
+  "primitiveBudget": 44,
+  "memoryWindow": 5,
+  "visitorInput": true,
+  "replay": true,
+  "changedRule": "presence is refused; only departure cuts a source, sends a wrong fragment, and hollows a third form",
+  "memoryRule": "later fields keep failed departures; each retained absence notches one loose form, misplaces a fragment into a distant form, and removes an inner mark from a third",
+  "interactionRule": "pointer entry and proximity produce no visual change; pointer departure, Enter, Space, and the control produce the same bounded event; undo restores the exact prior field",
+  "structuralWitnesses": [
+    "source-form-notch",
+    "distant-wrong-fragment",
+    "third-form-hollow"
+  ],
+  "rupture": {
+    "representation": "four picture panels and copied motifs -> eight isolated SVG forms with holes and displaced fragments",
+    "encounter": "look triggers an immediate answer -> presence is refused and absence commits the event",
+    "medium": "deterministic Canvas 2D -> deterministic inline SVG"
+  },
+  "settledStage": 18,
+  "settledMemory": 5,
+  "settledSourceNotches": 5,
+  "settledWrongFragments": 5,
+  "settledHollows": 5,
+  "visitorPresenceChanges": 0,
+  "visitorDepartureChanges": 3,
+  "visitorMemoryAfterDeparture": 1,
+  "memoryGrammar": "presence refused -> departure cuts source -> wrong fragment arrives -> third form hollows"
+}

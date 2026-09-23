@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee7d7">
+  <title>MUTINE — naive art v016</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.has('blind')) document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-23"></script>
+</head>
+<body class="work-page interactive-preview" data-current="naive">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / naive art / v016</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">→</span><span aria-current="page">v016</span></nav>
+      <section class="work-surface" aria-label="Naive art daily work">
+        <div class="field-column">
+          <div class="field-wrap artwork-frame">
+            <svg id="field" role="img" aria-label="A loose field of childlike abstract forms that stays unchanged while watched, then cuts, misplaces, and hollows itself when the visitor leaves" tabindex="0" aria-keyshortcuts="Enter Space Delete" viewBox="0 0 1000 760" preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 18</span><span data-memory>0 departures remembered</span></div>
+            <div class="field-controls" aria-label="Work gestures">
+              <button type="button" id="depart-control" data-gesture="depart">leave a trace</button>
+              <button type="button" id="undo-control" data-gesture="undo">undo latest</button>
+              <button type="button" id="release-control" data-gesture="release">release sequence</button>
+            </div>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Eight loose forms share a paper field. Attention is refused; the empty edge is the only thing that can commit a mistake.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if a source notch, a wrong fragment, and a third hollow survive without captions.</p></div>
+          <div><span>progression</span><p>Enter the field, leave it, undo only the newest absence, then release the sequence.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V016 / DAILY WORK</p><h1 id="work-title">The mistake waits<br><i>until you leave.</i></h1></div>
+        <p class="work-premise">Presence is not enough. The field keeps the wrong part only after the visitor has gone.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v016 inverts v015's immediate reciprocal copy. The field no longer uses picture panels or a look that answers at once: proximity is refused, departure cuts one loose form, sends a wrong fragment to a distant form, and hollows a third. Promotion requires the three material consequences to read without labels, readout, or explanation.</p></section>
+      <p class="work-loop">creation → critique → progression</p>
+    </main>
+    <footer class="studio-footer"><a href="/currents/naive-art/">naive art current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

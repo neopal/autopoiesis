@@ -2,6 +2,112 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-23",
+      "currentId": "naive",
+      "date": "2026-09-23",
+      "title": "The mistake waits until you leave.",
+      "rawPath": "/studies/naive-art/v016/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-23",
+        "note": "v016 inverts the previous copy-error: the loose SVG field refuses presence, then a departure cuts one form, sends a wrong fragment to a distant form, and hollows a third; lifting the latest absence reconstructs the preceding field exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The mistake must be actual SVG geometry: a source silhouette loses a notch, a distant form carries a displaced fragment, and a third form loses its inner mark. A cursor, badge, or colour legend cannot substitute for those changes."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and prose hidden, a caption-free viewer should see a loose field of unlike forms with a material cut, an arriving wrong fragment, and a real hollow. If it reads as decorative blobs, the departure rule fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer entry and proximity must be visibly refused. Only leaving the field, Enter, or Space may commit the same bounded event; lifting the newest departure must restore the exact prior SVG form state."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v016 must break v013–v015's route, puncture, and picture-panel grammar. Its first-render task is to read a population of isolated forms, and its interaction must make absence—not looking—the causal event."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delayed reciprocity is an easy metaphor. Delete v016 if entering changes the field, if the notch is only a sticker, if the wrong fragment is only recolouring, or if the hollow is not legible without the caption."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v016-departure-inversion",
+        "visitorInput": true,
+        "seed": "0x4e413136",
+        "stages": 18,
+        "primitiveBudget": 44,
+        "memoryWindow": 5,
+        "settledStage": 17,
+        "settledMemory": 5,
+        "settledSourceNotches": 5,
+        "settledWrongFragments": 5,
+        "settledHollows": 5,
+        "visitorPresenceChanges": 0,
+        "visitorDepartureChanges": 3,
+        "visitorMemoryAfterDeparture": 1,
+        "memoryRule": "presence refused -> departure cuts source -> wrong fragment arrives -> third form hollows",
+        "interactionRule": "pointer entry and proximity produce no visual change; pointer departure, Enter, Space, and the control produce the same bounded event; undo restores the exact prior field",
+        "representationRupture": "four picture panels and copied motifs -> eight isolated SVG forms with holes and displaced fragments",
+        "encounterRupture": "look triggers an immediate answer -> presence is refused and absence commits the event",
+        "mediumRupture": "deterministic Canvas 2D -> deterministic inline SVG",
+        "replay": true,
+        "renderer": "deterministic inline SVG",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / held pending independent caption-free perceptual review and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4177/works/naive-2026-09-23/",
+        "rawPreview": "http://127.0.0.1:4177/studies/naive-art/v016/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4177/studies/naive-art/v016/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v016 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10 canonical + 10 raw local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and at least 118px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 18 with 0 departures",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 18 / 18 with 5 visible departures, 5 source notches, 5 wrong fragments, and 5 hollows in the retained five-event window",
+        "presenceInteraction": "local raw pointer entry changed pending state only; departure signature and memory remained unchanged",
+        "pointerInteraction": "local raw pointer leave changed memory from 0 to 1 departure with one source notch, one wrong fragment, and one hollow",
+        "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 departures and changed the form signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding departure signature",
+        "releaseInteraction": "release sequence returned the local interaction route to 0 departures",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, header, and annotations; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-naive-2026-09-23 entry with the recorded title and canonical work link",
+        "current": "local Naive art current readback rendered exactly 1 current header and a first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/naive-art-v016-2026-09-23/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Naive art, invert immediate reciprocity: presence is refused, and only departure redistributes material across three isolated SVG forms — one is cut, a distant one receives a wrong fragment, and a third hollows.",
+        "visibleConsequence": "The blind field is a loose population of unlike forms rather than picture panels. After departure, one silhouette loses a notch, a distant form carries a displaced fragment, and a third form loses its inner mark.",
+        "falsifier": "If pointer entry changes the field, if caption-free viewing sees only decorative blobs, or if the notch, wrong fragment, and hollow are only colour overlays, the inversion fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Naive art v013–v015's route, puncture, and picture-panel grammar and opens an anti-instrument direction in which absence is causal and the medium switches from Canvas 2D to inline SVG."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with labels, readout, controls, and prose hidden; delete v016 if departure -> cut -> wrong fragment -> hollow is not legible in the forms themselves.",
+        "lineage": "naive-2026-09-22"
+      }
+    },
+    {
       "id": "brush-2026-09-23",
       "currentId": "brush",
       "date": "2026-09-23",
