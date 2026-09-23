@@ -89,7 +89,20 @@
         "unresolved": [
           "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
           "provider revision linking the stable alias to the eventual GitHub SHA"
-        ]
+        ],
+        "productionDeployment": "https://autopoiesis-nine.vercel.app/",
+        "productionRecord": "HTTP 200 stable /studio/data/works.json returned exactly one naive-2026-09-23 record with the recorded title, rawPath, candidate / held status, and Journal anchor",
+        "productionJournal": "HTTP 200 stable /journal/ rendered exactly one #journal-naive-2026-09-23 entry with the recorded title and canonical work link",
+        "productionWork": "HTTP 200 stable /works/naive-2026-09-23/ rendered the canonical data mount and title",
+        "productionRaw": "HTTP 200 stable /studies/naive-art/v016/?preview=1&interaction=1 rendered the raw SVG tableau",
+        "productionFavicon": "HTTP 200 stable /studio/favicon.svg",
+        "productionBrowserMatrix": "10 canonical + 10 raw production headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionInteraction": "Production pointer entry left memory/signature unchanged, pointer leave changed 0 -> 1, Enter changed 1 -> 2, Delete changed 2 -> 1 with exact restoration, and release returned to 0",
+        "productionBlindPreview": "Production reduced-motion static blind preview kept the SVG visible while hiding readout, controls, header, and annotations with no overflow",
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "deploymentId": "dpl_5rVTD4xRmp2n6oNbG7cYHn1TZgQn",
+        "observedAt": "2026-09-23"
       },
       "source": {
         "referenceId": "little-critters",

@@ -1,0 +1,192 @@
+{
+  "matrixRuns": 10,
+  "rawMatrixRuns": 10,
+  "tableauFirstCount": 10,
+  "overflowCount": 0,
+  "interaction": {
+    "path": "/studies/naive-art/v016/?preview=1&interaction=1",
+    "httpStatus": 200,
+    "initial": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 0,
+      "engineMemory": 0,
+      "departureChanges": 0,
+      "presenceChanges": 0,
+      "sourceNotches": 0,
+      "wrongFragments": 0,
+      "hollows": 0,
+      "interaction": "sequence",
+      "pending": false,
+      "departureSignature": "coral-loop|0.0561|0.9588|0.0112||ink-kite|-0.1210|0.9593|-0.0027||lemon-pool|0.1022|1.0126|0.0042||green-bowl|-0.0503|0.9429|0.0001||lilac-knot|0.1231|1.0049|0.0059||sky-step|-0.1343|0.9270|0.0168||coral-crumb|0.1249|0.9859|-0.0054||ink-pool|-0.0592|1.0021|-0.0163"
+    },
+    "present": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 0,
+      "engineMemory": 0,
+      "departureChanges": 0,
+      "presenceChanges": 0,
+      "sourceNotches": 0,
+      "wrongFragments": 0,
+      "hollows": 0,
+      "interaction": "sequence",
+      "pending": true,
+      "departureSignature": "coral-loop|0.0561|0.9588|0.0112||ink-kite|-0.1210|0.9593|-0.0027||lemon-pool|0.1022|1.0126|0.0042||green-bowl|-0.0503|0.9429|0.0001||lilac-knot|0.1231|1.0049|0.0059||sky-step|-0.1343|0.9270|0.0168||coral-crumb|0.1249|0.9859|-0.0054||ink-pool|-0.0592|1.0021|-0.0163"
+    },
+    "departure": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 1,
+      "engineMemory": 1,
+      "departureChanges": 3,
+      "presenceChanges": 0,
+      "sourceNotches": 1,
+      "wrongFragments": 1,
+      "hollows": 1,
+      "interaction": "visitor-departure",
+      "pending": false,
+      "departureSignature": "coral-loop|0.0155|0.9293|0.0028|notch:-0.3380,0.2829||ink-kite|-0.1210|0.9593|-0.0027||lemon-pool|0.1022|1.0126|0.0042||green-bowl|-0.0232|0.9429|0.0001|wrong:loop:0.0256,-0.2324||lilac-knot|0.1231|1.0049|0.0059||sky-step|-0.1343|0.9270|0.0168|hollow:diamond:0.1397,-0.1000||coral-crumb|0.1249|0.9859|-0.0054||ink-pool|-0.0592|1.0021|-0.0163"
+    },
+    "keyboard": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 2,
+      "engineMemory": 2,
+      "departureChanges": 6,
+      "presenceChanges": 0,
+      "sourceNotches": 2,
+      "wrongFragments": 2,
+      "hollows": 2,
+      "interaction": "visitor-departure",
+      "pending": false,
+      "departureSignature": "coral-loop|-0.0074|0.9293|0.0028|notch:-0.3380,0.2829|wrong:step:-0.0571,-0.2402||ink-kite|-0.1210|0.9593|-0.0027||lemon-pool|0.1022|1.0126|0.0042|hollow:circle:-0.1628,0.1200||green-bowl|-0.0232|0.9429|0.0001|wrong:loop:0.0256,-0.2324||lilac-knot|0.1231|1.0049|0.0059||sky-step|-0.1000|0.8961|0.0239|notch:0.5260,0.2892|hollow:diamond:0.1397,-0.1000||coral-crumb|0.1249|0.9859|-0.0054||ink-pool|-0.0592|1.0021|-0.0163"
+    },
+    "lifted": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 1,
+      "engineMemory": 1,
+      "departureChanges": 3,
+      "presenceChanges": 0,
+      "sourceNotches": 1,
+      "wrongFragments": 1,
+      "hollows": 1,
+      "interaction": "departure-lifted",
+      "pending": false,
+      "departureSignature": "coral-loop|0.0155|0.9293|0.0028|notch:-0.3380,0.2829||ink-kite|-0.1210|0.9593|-0.0027||lemon-pool|0.1022|1.0126|0.0042||green-bowl|-0.0232|0.9429|0.0001|wrong:loop:0.0256,-0.2324||lilac-knot|0.1231|1.0049|0.0059||sky-step|-0.1343|0.9270|0.0168|hollow:diamond:0.1397,-0.1000||coral-crumb|0.1249|0.9859|-0.0054||ink-pool|-0.0592|1.0021|-0.0163"
+    },
+    "released": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 0,
+      "engineMemory": 0,
+      "departureChanges": 0,
+      "presenceChanges": 0,
+      "sourceNotches": 0,
+      "wrongFragments": 0,
+      "hollows": 0,
+      "interaction": "sequence",
+      "pending": false,
+      "departureSignature": "coral-loop|0.0561|0.9588|0.0112||ink-kite|-0.1210|0.9593|-0.0027||lemon-pool|0.1022|1.0126|0.0042||green-bowl|-0.0503|0.9429|0.0001||lilac-knot|0.1231|1.0049|0.0059||sky-step|-0.1343|0.9270|0.0168||coral-crumb|0.1249|0.9859|-0.0054||ink-pool|-0.0592|1.0021|-0.0163"
+    },
+    "controls": [
+      {
+        "label": "leave a trace",
+        "height": 44,
+        "width": 118.65625
+      },
+      {
+        "label": "undo latest",
+        "height": 44,
+        "width": 118.671875
+      },
+      {
+        "label": "release sequence",
+        "height": 44,
+        "width": 118.671875
+      }
+    ],
+    "outer": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "firstFrame": null,
+      "firstHeading": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "title": "MUTINE — naive art v016"
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "presenceRefused": true,
+    "exactLiftRestored": true,
+    "releaseCleared": true
+  },
+  "blind": {
+    "state": {
+      "stage": 17,
+      "stages": 18,
+      "memory": 5,
+      "engineMemory": 17,
+      "departureChanges": 15,
+      "presenceChanges": 0,
+      "sourceNotches": 5,
+      "wrongFragments": 5,
+      "hollows": 5,
+      "interaction": "sequence",
+      "pending": false,
+      "departureSignature": "coral-loop|0.0434|0.8797|-0.0127|notch:0.8724,0.2894|notch:0.6165,0.2807|wrong:knot:0.1464,-0.2257|wrong:knot:-0.0485,-0.2719||ink-kite|-0.0490|0.9636|-0.0098|wrong:step:-0.1584,-0.2227|hollow:diamond:0.1727,-0.1000|hollow:circle:-0.1605,0.1200||lemon-pool|0.1107|0.9758|-0.0133|hollow:circle:-0.1905,0.1200||green-bowl|-0.0847|0.9792|0.0039|wrong:loop:0.1863,-0.2404||lilac-knot|0.2041|0.9477|-0.0033|notch:0.2109,0.2774|notch:1.0450,0.3152|wrong:loop:0.0244,-0.2297||sky-step|-0.0997|0.9206|-0.0101|notch:0.0653,0.2749|hollow:diamond:0.1835,-0.1000||coral-crumb|0.1177|0.9302|-0.0140|hollow:diamond:0.1394,-0.1000||ink-pool|-0.0852|0.9214|0.0119"
+    },
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "svgVisible": true,
+    "readout": "none",
+    "controls": "none",
+    "header": "none",
+    "annotations": "none"
+  },
+  "journal": {
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "count": 1,
+    "title": "2026-09-23Naive art / candidate / heldThe mistake waits until you leave.v016 inverts the previous copy-error: the loose SVG field refuses presence, then a departure cuts one form, sends a wrong fragment to a distant form, and hollows a third; lifting the latest absence reconstructs the preceding field exactly.open daily work ↗candidate / held5 critiquesdaily trace retained",
+    "firstArtwork": null
+  },
+  "current": {
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "count": 1,
+    "title": "Naive art",
+    "firstArtwork": {
+      "x": 34.5,
+      "y": 523.734375,
+      "width": 321,
+      "height": 250.375
+    }
+  },
+  "issueCount": 0
+}

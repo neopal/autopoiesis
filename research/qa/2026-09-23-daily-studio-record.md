@@ -296,3 +296,18 @@ Hide labels, readout, controls, and prose. Delete v016 rather than polish it if 
 ## Publication boundary
 
 The local artifact and local catalogue/browser evidence are real. Independent caption-free perceptual comparison and provider revision linkage remain unresolved. The candidate remains **held** and is not described as exhibition-ready.
+
+## Publication and deployment verification
+
+- Git commit: `cdd3607641f5efcf91dd37ebbdfaa7ee8942aba7`.
+- `origin/main`: verified at the same SHA before deployment.
+- Vercel deployment: `dpl_5rVTD4xRmp2n6oNbG7cYHn1TZgQn`, `READY`, aliased to `https://autopoiesis-nine.vercel.app/`.
+- Stable `/studio/data/works.json`: HTTP 200; exactly one `naive-2026-09-23` record with title *The mistake waits until you leave.*, raw path `/studies/naive-art/v016/`, status `candidate / held`, and Journal anchor `journal-naive-2026-09-23`.
+- Stable `/journal/`: HTTP 200; exactly one matching Journal entry/title with the canonical work link.
+- Stable canonical work, raw tableau, and `/studio/favicon.svg`: HTTP 200.
+- Production browser matrix: **10 canonical + 10 raw headless runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion; 0 diagnostics, 0 overflow cases, and tableau-first canonical order in all 10 canonical runs.
+- Production interaction: pointer entry left signature/memory unchanged; pointer leave `0 → 1`, Enter `1 → 2`, Delete `2 → 1` with exact restoration, release `→ 0`.
+- Production blind preview: SVG remained visible while readout, controls, header, and annotations were hidden.
+- Production evidence: `research/qa/proofs/naive-art-v016-2026-09-23/production/`.
+
+The Vercel release is a manual production deployment of the committed/pushed worktree. Deployment provenance is verified by the READY deployment and stable-alias readback; provider GitHub revision linkage remains unresolved.
