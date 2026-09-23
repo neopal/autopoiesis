@@ -215,6 +215,18 @@ With labels, readout, controls, relation marks, and prose hidden, the work fails
 - Reduced-motion blind preview: canvas remained visible at `390×844` while readout, controls, header, and annotations were hidden.
 - Evidence: 24 local PNG captures plus `results.json` and `probe.mjs`.
 
+## Publication and deployment verification
+
+- Commit: `d49d57d21ef7e460e612dbffe9367c2c27b7420c`.
+- Remote `origin/main`: same SHA verified.
+- Vercel deployment: `dpl_5ESZZmvPqqgGMKBncaG4QKwvQTVG` reached `READY` and was aliased to `https://autopoiesis-nine.vercel.app/`.
+- Stable `/studio/data/works.json`: HTTP 200; exactly one `brush-2026-09-23` record with the recorded title, raw path, status, and Journal anchor.
+- Stable `/journal/`: HTTP 200; exactly one rendered `#journal-brush-2026-09-23` entry with title and canonical work link.
+- Stable canonical work, raw tableau, and favicon routes: HTTP 200.
+- Production headless browser matrix: 10 canonical + 10 raw runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion; zero diagnostics and zero overflow.
+- Production interaction: pointer `0 → 1`, Enter `1 → 2`, Delete `2 → 1` with exact restoration, release `→ 0`.
+- Production blind preview: canvas remained visible while readout, controls, header, and annotations were hidden.
+
 ## Publication boundary
 
-Local artifact, canonical page, catalogue record, local browser evidence, and local Journal/current readbacks are real. Production deployment and production readback remain to be verified. Independent caption-free perceptual comparison and provider revision linkage remain unresolved. The candidate remains **held**.
+The local artifact, canonical page, catalogue record, local evidence, stable deployment, deployed record, rendered Journal entry, current route, and production interaction readback are real. Independent caption-free perceptual comparison and provider revision linkage remain unresolved. The candidate remains **held**.

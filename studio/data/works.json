@@ -65,10 +65,10 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "measured": true,
-        "promotion": "candidate / held pending independent caption-free perceptual review, production verification, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4177/works/brush-2026-09-23/",
         "rawPreview": "http://127.0.0.1:4177/studies/p5-brush/v017/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4177/studies/p5-brush/v017/?preview=1&static=1&blind=1",
@@ -91,12 +91,25 @@
         "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures, raw interaction, static blind, Journal, and current captures",
         "evidenceFiles": "research/qa/proofs/brush-v017-2026-09-23/results.json, probe.mjs, and 24 PNG captures",
         "unresolved": [
-          "production browser matrix and deployed Journal/work/current readback",
           "independent caption-free perceptual comparison with labels, readout, relation marks, and prose hidden",
           "provider revision linking the stable alias to the eventual GitHub SHA"
         ],
         "diagnosticCount": 0,
-        "overflowCount": 0
+        "overflowCount": 0,
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app/",
+          "deployedRecord": "stable /studio/data/works.json returned HTTP 200 and exactly one brush-2026-09-23 record with the recorded title, rawPath, candidate / held status, and Journal anchor",
+          "deployedJournal": "stable /journal/ returned HTTP 200 and exactly one #journal-brush-2026-09-23 entry with the title and canonical work link",
+          "deployedWork": "stable /works/brush-2026-09-23/ returned HTTP 200 and rendered the canonical data mount and title",
+          "deployedRaw": "stable /studies/p5-brush/v017/?preview=1&interaction=1 returned HTTP 200 and rendered the raw tableau",
+          "deployedFavicon": "stable /studio/favicon.svg returned HTTP 200",
+          "browserMatrix": "10 canonical + 10 raw production headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "interaction": "production pointer 0 -> 1, Enter 1 -> 2, Delete 2 -> 1 with exact restoration, release -> 0",
+          "blind": "production reduced-motion blind preview kept the canvas visible while hiding readout, controls, header, and annotations",
+          "diagnostics": 0,
+          "overflow": 0,
+          "observedAt": "2026-09-23"
+        }
       },
       "source": {
         "referenceId": "little-critters",
