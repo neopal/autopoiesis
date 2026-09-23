@@ -116,6 +116,7 @@ test('portrait v014 is the unique 2026-09-23 daily work with a canonical page', 
   assert.equal(work.rawPath, '/studies/self-portrait/v014/');
   assert.equal(work.status, 'candidate / held');
   assert.match(work.browserEvidence.status, /^local and production headless browser matrices passed/);
+  assert.doesNotMatch(work.metrics.promotion, /pending local browser matrix|pending production readback/);
   assert.equal(work.browserEvidence.observedRoute, 'http://127.0.0.1:51334/works/portrait-2026-09-23/');
   assert.match(work.browserEvidence.tableauFirst, /^10\/10 local canonical runs placed/);
   assert.match(work.browserEvidence.viewportMatrix, /10\/10 local canonical/);
