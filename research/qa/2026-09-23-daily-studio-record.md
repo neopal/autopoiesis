@@ -311,3 +311,14 @@ The local artifact and local catalogue/browser evidence are real. Independent ca
 - Production evidence: `research/qa/proofs/naive-art-v016-2026-09-23/production/`.
 
 The Vercel release is a manual production deployment of the committed/pushed worktree. Deployment provenance is verified by the READY deployment and stable-alias readback; provider GitHub revision linkage remains unresolved.
+
+## Final content deployment readback
+
+- Source commit deployed for the final archive state: `0343545afc94cf848b43910c6bc54456500b4d5c`.
+- `origin/main`: verified at the same SHA after push.
+- Final Vercel deployment: `dpl_51hpDPzQjbYBFMScNMBPKcRJ6rQT`, `READY`, aliased to `https://autopoiesis-nine.vercel.app/`.
+- Stable readback after the final deploy: HTTP 200 for `/studio/data/works.json`, `/journal/`, `/works/naive-2026-09-23/`, `/studies/naive-art/v016/?preview=1&interaction=1`, and `/studio/favicon.svg`.
+- Stable JSON readback contained exactly one `naive-2026-09-23` record; the Journal route rendered exactly one matching entry/title and canonical link.
+- Final production probe: 10 canonical + 10 raw viewport runs, tableau-first `10/10`, overflow `0`, diagnostic issues `0`; pointer `0 → 1`, Enter `1 → 2`, Delete `2 → 1` with exact restoration, release `→ 0`; blind SVG remained visible while annotations and controls were hidden.
+
+The final deployment publishes the archive metadata and production evidence record. The candidate remains **held** pending independent caption-free perceptual comparison and provider revision linkage.
