@@ -217,9 +217,9 @@ With labels, readout, controls, relation marks, and prose hidden, the work fails
 
 ## Publication and deployment verification
 
-- Commit: `d49d57d21ef7e460e612dbffe9367c2c27b7420c`.
-- Remote `origin/main`: same SHA verified.
-- Vercel deployment: `dpl_5ESZZmvPqqgGMKBncaG4QKwvQTVG` reached `READY` and was aliased to `https://autopoiesis-nine.vercel.app/`.
+- Commit carrying the published artifact and production evidence: `383853cd788dc582a72a301727695e6dd5b9aaaf`.
+- Remote `origin/main` matched that SHA before the final deployment.
+- Vercel deployment: `dpl_3FPbraZ4nX4aDL62Y7R5pctgp5Fe` reached `READY` and was aliased to `https://autopoiesis-nine.vercel.app/`.
 - Stable `/studio/data/works.json`: HTTP 200; exactly one `brush-2026-09-23` record with the recorded title, raw path, status, and Journal anchor.
 - Stable `/journal/`: HTTP 200; exactly one rendered `#journal-brush-2026-09-23` entry with title and canonical work link.
 - Stable canonical work, raw tableau, and favicon routes: HTTP 200.
