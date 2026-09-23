@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071011">
+  <title>MUTINE — The line refuses a witness.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=014">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-09-23"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v014</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v014</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="Three corridors made from angular gates. A visitor constraint closes one passage and moves the only gap elsewhere." preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 14</span><span data-memory>0 remembered constraints · 0 gaps</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="constraint-control" data-gesture="constraint">place a constraint</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release the line</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Eighteen angular gates make three narrow corridors and leave their centre open. No cell, body, or character is drawn.</p></div>
+          <div><span>changed rule</span><p>The reciprocal gaze is inverted: attention is not returned. A visitor constraint closes one local passage and moves a gap to another corridor.</p></div>
+          <div><span>progression</span><p>Click or press Enter. Lift the latest constraint and the exact prior route topology returns.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V014 / DAILY WORK</p><h1 id="work-title">The line<br><i>refuses a witness.</i></h1></div>
+        <p class="work-premise">The field no longer looks back. It treats attention as an obstruction: one gate closes, another gap migrates, and the line refuses the visitor's expected reply.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: constraint changes gate geometry, corridor signatures, and a true vacancy, while lifting it restores the prior topology. Promotion depends on whether refusal and gap migration survive without witnesses or labels.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=014"></script>
+</body>
+</html>

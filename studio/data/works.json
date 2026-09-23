@@ -113,6 +113,107 @@
       }
     },
     {
+      "id": "svg-2026-09-23",
+      "currentId": "svg",
+      "date": "2026-09-23",
+      "title": "The line refuses a witness.",
+      "rawPath": "/studies/pure-svg/v014/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-23",
+        "note": "v014 inverts the reciprocal gaze experiment: eighteen angular gates make three corridors, a visitor constraint closes one local passage, a true gap migrates to another corridor, and lifting the latest constraint reconstructs the exact prior topology."
+      },
+      "critiques": [
+        {
+          "persona": "Radical progression critic",
+          "argument": "v014 must not be another radial field that turns toward a visitor. Its first-render task is to read horizontal passage and obstruction; the interaction must close a route rather than assign looking and answering roles."
+        },
+        {
+          "persona": "Topological critic",
+          "argument": "The refusal must live in actual SVG geometry: neighbouring gates close around the nearest point, a distant gate is absent, and corridor signatures change. A witness mark or label cannot substitute for changed occupancy."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, witness marks, gap marks, and prose hidden, a caption-free viewer should find three broken corridors, a local closure, and a migrated gap. If it reads as a decorative barcode, the translation fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must place the same bounded constraint; lifting only the newest constraint must restore the exact preceding gate points, angles, roles, corridor signatures, and vacancy."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Refusal is an easy metaphor. Delete v014 if the line merely changes colour, if the gap is explained only by prose, if the visitor still receives a simulated look-back, or if undo changes anything outside the latest event."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v014-topological-refusal",
+        "visitorInput": true,
+        "seed": "0x53564744",
+        "stages": 14,
+        "primitiveBudget": 18,
+        "gateCount": 18,
+        "laneCount": 3,
+        "memoryWindow": 3,
+        "settledStage": 13,
+        "finalMemory": 3,
+        "finalBlocked": 8,
+        "finalEscapes": 2,
+        "finalVacancies": 3,
+        "representationRupture": "radial reciprocal cell field -> horizontal topological corridor of gates",
+        "encounterRupture": "visitor gaze is answered by local and distant roles -> visitor constraint is refused by a route closure and migrating gap",
+        "memoryRule": "a remembered constraint closes a local passage, moves one actual gap to another corridor, and nudges an escape gate away",
+        "interactionRule": "visitor input changes gate coordinates, angles, roles, corridor signatures, and occupancy; lifting the latest constraint restores the exact prior topology",
+        "replay": true,
+        "renderer": "deterministic SVG path geometry",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4176/works/svg-2026-09-23/",
+        "rawPreview": "http://127.0.0.1:4176/studies/pure-svg/v014/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4176/studies/pure-svg/v014/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v014 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 114px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "normalState": "normal-motion canonical and raw runs opened at stage 00 / 14 with 0 remembered constraints, 0 blocked gates, and 0 gaps",
+        "reducedMotionState": "reduced-motion canonical and raw runs settled at stage 14 / 14 with 3 remembered constraints, 8 blocked gates, 2 escape gates, and 3 gaps",
+        "pointerInteraction": "local raw pointer changed memory from 0 to 1 constraint with 3 blocked gates, 1 escape, and 1 gap",
+        "keyboardInteraction": "Enter on the focused SVG changed memory from 1 to 2 constraints and changed the corridor signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding pointer-state signature",
+        "releaseInteraction": "release sequence reset the interaction route to stage 00 / 14 with 0 visitor constraints",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, labels, witness marks, gap marks, and count; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-svg-2026-09-23 entry with the recorded title and canonical work link",
+        "current": "local Pure SVG current readback at 390x844 rendered exactly one current header and one first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: ten canonical viewport/motion captures, ten raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/svg-v014-2026-09-23/results.json, probe.mjs, 24 PNG captures",
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, witnesses, gap marks, count, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Pure SVG, invert reciprocity: remove situated agents and turn visitor proximity into a topological obstruction. The nearest local passage closes, a true gap migrates to another corridor, and the line refuses to answer with a look.",
+        "visibleConsequence": "The blind field is three horizontal corridors made from eighteen angular gates rather than a radial reciprocal cell field. After interaction, neighbouring gate geometry closes one passage, one distant gate disappears, and the corridor signature changes.",
+        "falsifier": "If caption-free viewing sees only a decorative barcode, if the gap is not materially visible, or if the field still simulates a look-back through colour or markers, the inversion fails.",
+        "antiCopy": "No animals, characters, paper style, head-turning scene, palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes v013 reciprocal-attention grammar and opens the constraint-and-topology plus anti-instrument directions: attention becomes obstruction, route closure, and refusal rather than a social reply."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with labels, readout, controls, witness marks, gap marks, and prose hidden; delete v014 if local closure and migrated gap are not legible in the gate geometry itself.",
+        "lineage": "pure-svg-v013"
+      }
+    },
+    {
       "id": "naive-2026-09-22",
       "currentId": "naive",
       "date": "2026-09-22",
