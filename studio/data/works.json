@@ -2,6 +2,111 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-09-23",
+      "currentId": "portrait",
+      "date": "2026-09-23",
+      "title": "The portrait answers in plates.",
+      "rawPath": "/studies/self-portrait/v014/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-23",
+        "note": "v014 changes the portrait rule: a remembered look becomes a reciprocal plate event. One situated plate turns toward the visitor, a distant plate answers, and a third plate vacates so the portrait remembers an actual absence; the displaced shard remains outside its former slot and lifting the latest witness reconstructs the preceding mosaic exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Structural critic",
+          "argument": "The look must be carried by actual plate geometry: one polygon turns toward the visitor, a distant polygon answers with another orientation, and a third polygon is absent from the mosaic. A halo, label, or colour legend cannot substitute for changed coordinates and occupancy."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, labels, shard witnesses, and prose hidden, a caption-free viewer should find a tiled self-image whose parts disagree: one turns, one answers elsewhere, and a real slot is open. If it reads as a regular decorative grid, the plate rule fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer, Enter, and Space must place the same bounded reciprocal event; lifting only the latest witness must restore the exact preceding plate points, role assignments, vacancy, and displaced shard."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v014 must not be another route, threshold, braid, or inward fold drawn over a continuous face. Its first-render task is to read a modular surface, and its interaction must change occupancy and part-to-part relation rather than send a path through the portrait."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Reciprocity is an easy metaphor. Delete v014 if the reply only changes colour, if the vacancy is a dark sticker, if the displaced shard is decorative, or if the mosaic does not visibly remember that a visitor looked."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v014-reciprocal-plates",
+        "visitorInput": true,
+        "seed": "0x53505644",
+        "stages": 16,
+        "rows": 5,
+        "columns": 5,
+        "plateCount": 25,
+        "primitiveBudget": 84,
+        "memoryWindow": 5,
+        "settledStage": 15,
+        "finalMemory": 5,
+        "finalVisiblePlates": 20,
+        "finalVacancies": 5,
+        "finalLookingPlates": 2,
+        "finalAnsweringPlates": 3,
+        "visitorMemoryAfterPointer": 1,
+        "visitorLookingPlates": 1,
+        "visitorAnsweringPlates": 1,
+        "visitorVacancies": 1,
+        "memoryRule": "a remembered look recruits one plate to turn, makes a distant plate answer, and vacates a third slot",
+        "interactionRule": "a visitor witness changes polygon coordinates, orientation, occupancy, internal mark, and displaced shard; lifting it restores the exact prior mosaic",
+        "representationRupture": "continuous face contour with routes -> single modular portrait surface made from discrete plates",
+        "encounterRupture": "follow a path through the face -> make one part of the self alter another part and leave an absence",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending local browser matrix, production readback, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:51334/works/portrait-2026-09-23/",
+        "rawPreview": "http://127.0.0.1:51334/studies/self-portrait/v014/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:51334/studies/self-portrait/v014/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v014 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction and static blind 390x844 also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 370px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, and static blind",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs, interaction, and static blind",
+        "normalState": "normal-motion canonical runs opened at stage 00 / 16 with 0 witnesses; raw preview is intentionally frozen on the settled deterministic field",
+        "reducedMotionState": "reduced-motion canonical and raw runs settled at stage 16 / 16 with 5 witnesses, 5 answer responses, and 5 vacancies",
+        "pointerInteraction": "local raw interaction changed memory from 5 to 1 visitor witness with one looking plate, one answering plate, and one vacancy",
+        "keyboardInteraction": "Enter on the focused canvas changed visitor memory from 1 to 2 witnesses and changed the plate signature",
+        "liftInteraction": "Delete after keyboard changed visitor memory from 2 to 1 and restored the exact preceding pointer-state signature",
+        "releaseInteraction": "release sequence reset the reduced-motion interaction route to stage 00 / 16 with 0 visitor witnesses",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout and controls; no document overflow",
+        "canvasCaptures": "22 local PNG captures written: twenty raw/canonical viewport and motion captures, one raw interaction capture, and one static-blind capture",
+        "evidenceFiles": "research/qa/proofs/portrait-v014-2026-09-23/results.json, probe.mjs, twenty raw/canonical viewport PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, shard witnesses, and prose hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Self portrait, a visitor look recruits one plate to turn toward the encounter, makes a distant plate answer from another relation, and vacates a third plate so self-observation changes the portrait's actual occupancy.",
+        "visibleConsequence": "The blind field is a tiled portrait surface rather than a continuous contour with routes. After interaction, polygon geometry and internal marks change on one looking plate and one answering plate, a real slot opens, and the displaced shard remains elsewhere.",
+        "falsifier": "If caption-free viewing sees only a regular decorative grid, if the reply changes only colour, or if the vacancy is not visible as missing plate geometry, the translation fails.",
+        "antiCopy": "No animals, characters, paper style, palette, head-turning scene, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes the Self portrait current's v011-v013 continuous route, braid, threshold, and inward-fold grammar and opens a discrete self-modification direction: situated parts, reciprocal answer, and material absence replace passage through a face."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with labels, readout, shard witnesses, and prose hidden; delete v014 if look -> answer -> vacancy is not legible in the plate geometry itself.",
+        "lineage": "portrait-2026-09-18"
+      }
+    },
+    {
       "id": "naive-2026-09-22",
       "currentId": "naive",
       "date": "2026-09-22",
