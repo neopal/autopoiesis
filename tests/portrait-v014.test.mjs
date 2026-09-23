@@ -100,6 +100,7 @@ test('portrait v014 tableau exposes self-modification as an isolated reversible 
   assert.equal(metrics.replay, true);
   assert.equal(metrics.measured, true);
   assert.doesNotMatch(metrics.promotion, /pending browser matrix/);
+  assert.doesNotMatch(metrics.promotion, /pending production readback/);
   assert.equal(metrics.renderer, 'deterministic Canvas 2D');
   assert.equal(metrics.memoryRule.includes('plate'), true);
   assert.equal(critiques.length, 5);
@@ -114,17 +115,24 @@ test('portrait v014 is the unique 2026-09-23 daily work with a canonical page', 
   assert.equal(work.id, 'portrait-2026-09-23');
   assert.equal(work.rawPath, '/studies/self-portrait/v014/');
   assert.equal(work.status, 'candidate / held');
-  assert.match(work.browserEvidence.status, /^local headless browser matrix passed/);
+  assert.match(work.browserEvidence.status, /^local and production headless browser matrices passed/);
   assert.equal(work.browserEvidence.observedRoute, 'http://127.0.0.1:51334/works/portrait-2026-09-23/');
   assert.match(work.browserEvidence.tableauFirst, /^10\/10 local canonical runs placed/);
   assert.match(work.browserEvidence.viewportMatrix, /10\/10 local canonical/);
   assert.match(work.browserEvidence.touchTargets, /44px high/);
+  assert.equal(work.browserEvidence.productionDeployment, 'https://autopoiesis-nine.vercel.app/');
+  assert.match(work.browserEvidence.productionReadback, /HTTP 200/);
+  assert.match(work.browserEvidence.productionViewportMatrix, /20\/20 production/);
+  assert.match(work.browserEvidence.productionJournal, /exactly one/);
   assert.ok(!work.browserEvidence.unresolved.includes('canonical route and Journal browser readback'));
+  assert.ok(!work.browserEvidence.unresolved.includes('production readback and provider revision linking the stable alias to the eventual GitHub SHA'));
   assert.equal(work.journal.anchor, 'journal-portrait-2026-09-23');
   assert.equal(work.decision.lineage, 'portrait-2026-09-18');
 
   const canonical = await read('works/portrait-2026-09-23/index.html');
+  const probe = await read('research/qa/proofs/portrait-v014-2026-09-23/probe.mjs');
   assert.match(canonical, /data-catalog-work-detail="portrait-2026-09-23"/);
+  assert.match(probe, /process\.env\.MUTINE_QA_BASE_URL/);
 });
 
 test('portrait v014 reduced-motion and static preview render a settled plate field', async () => {

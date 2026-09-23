@@ -2,7 +2,7 @@ import { chromium } from 'playwright';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
-const base = 'http://127.0.0.1:51334';
+const base = process.env.MUTINE_QA_BASE_URL ?? 'http://127.0.0.1:51334';
 const raw = `${base}/studies/self-portrait/v014/`;
 const canonical = `${base}/works/portrait-2026-09-23/`;
 const viewports = [

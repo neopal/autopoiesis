@@ -65,7 +65,7 @@
         "promotion": "candidate / held pending local browser matrix, production readback, independent caption-free perceptual review, and provider revision verification"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / held pending independent caption-free perceptual review, production readback, and provider revision verification",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision verification",
         "observedRoute": "http://127.0.0.1:51334/works/portrait-2026-09-23/",
         "rawPreview": "http://127.0.0.1:51334/studies/self-portrait/v014/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:51334/studies/self-portrait/v014/?preview=1&static=1&blind=1",
@@ -85,9 +85,15 @@
         "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout and controls; no document overflow",
         "canvasCaptures": "22 local PNG captures written: twenty raw/canonical viewport and motion captures, one raw interaction capture, and one static-blind capture",
         "evidenceFiles": "research/qa/proofs/portrait-v014-2026-09-23/results.json, probe.mjs, twenty raw/canonical viewport PNG captures, raw-interaction-390x844.png, and static-blind-390x844.png",
+        "productionDeployment": "https://autopoiesis-nine.vercel.app/",
+        "productionReadback": "HTTP 200 for the stable /studio/data/works.json, /journal/, canonical work, and raw tableau routes; deployed JSON contains exactly one portrait-2026-09-23 record with the recorded title and raw path, and the rendered Journal contains exactly one matching anchor/title with its canonical work link",
+        "productionViewportMatrix": "20/20 production headless runs passed: 10 canonical and 10 raw at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; 0 route diagnostics, 0 overflow cases, and 10/10 tableau-first canonical runs",
+        "productionInteraction": "Production pointer changed visitor memory 5 to 1, Enter changed 1 to 2, Delete changed 2 to 1 with exact prior signature restored, and release returned memory to 0",
+        "productionBlindPreview": "Production reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout and controls with no overflow",
+        "productionJournal": "Production Journal rendered exactly one #journal-portrait-2026-09-23 entry with the recorded title and canonical work link at 390x844; no console, page, request, or HTTP 400+ diagnostics",
         "unresolved": [
           "independent caption-free perceptual comparison with labels, readout, shard witnesses, and prose hidden",
-          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+          "provider revision linking the stable alias to the eventual GitHub SHA"
         ]
       },
       "source": {

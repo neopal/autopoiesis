@@ -68,6 +68,10 @@ Hide labels, readout, controls, shard witnesses, captions, and prose. The direct
 - Reduced-motion blind preview: the canvas remained visible at `390×844` while readout and controls were hidden; no document overflow.
 - Evidence: 22 local PNG captures (20 raw/canonical viewport captures, one interaction capture, one static-blind capture) plus `results.json` and `probe.mjs`.
 
+- Production deployment readback: HTTP 200 for stable `/studio/data/works.json`, `/journal/`, the canonical work route, and the raw tableau route. The deployed JSON contained exactly one `portrait-2026-09-23` record; the rendered Journal contained exactly one matching anchor/title and canonical work link.
+- Production browser matrix: **10 canonical + 10 raw headless runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion; zero diagnostics, zero overflow cases, and tableau-first canonical order in all 10 canonical runs.
+- Production interaction: pointer `5 → 1`, Enter `1 → 2`, Delete `2 → 1` with exact restoration, release `→ 0`; production blind preview kept the canvas visible while hiding readout and controls.
+
 ## Publication boundary
 
-The local artifact, canonical page, Journal data, and QA evidence are real. The work remains **candidate / held** because independent caption-free perceptual comparison, production readback, and provider revision linkage are not yet observed. It is not described as exhibition-ready.
+The local artifact, canonical page, Journal data, local and production browser evidence are real. The work remains **candidate / held** because independent caption-free perceptual comparison and provider revision linkage are not yet observed. It is not described as exhibition-ready.
