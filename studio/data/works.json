@@ -195,7 +195,17 @@
         "unresolved": [
           "independent caption-free perceptual comparison with labels, readout, witnesses, gap marks, count, and prose hidden",
           "provider revision linking the stable alias to the eventual GitHub SHA"
-        ]
+        ],
+        "productionDeployment": "https://autopoiesis-nine.vercel.app/",
+        "productionDeploymentId": "dpl_CewdMTJRmtNtnzbfVEzi11cWf7t8",
+        "productionReadback": "HTTP 200 for stable /studio/data/works.json, /journal/, canonical work, and raw tableau routes; deployed JSON contains exactly one svg-2026-09-23 record with the recorded title and raw path, and the rendered Journal contains exactly one matching anchor/title with its canonical work link.",
+        "productionViewportMatrix": "20/20 production headless runs passed: 10 canonical and 10 raw at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; zero route diagnostics, zero overflow cases, and 10/10 tableau-first canonical runs.",
+        "productionInteraction": "Production pointer changed memory 0 to 1 constraint, Enter changed 1 to 2, Delete changed 2 to 1 with exact prior signature restored, and release returned memory to 0.",
+        "productionBlindPreview": "Production reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, labels, witness marks, gap marks, and count with no overflow.",
+        "productionJournal": "Production Journal rendered exactly one #journal-svg-2026-09-23 entry with the recorded title and canonical work link at 390x844; no console, page, request, or HTTP 400+ diagnostics.",
+        "productionCurrent": "Production Pure SVG current rendered exactly one current header and one first artwork at 390x844 with no overflow.",
+        "productionFavicon": "HTTP 200 /studio/favicon.svg with image/svg+xml content type.",
+        "productionEvidenceFiles": "research/qa/proofs/svg-v014-2026-09-23/production/results.json, production-probe.mjs, 24 production PNG captures"
       },
       "source": {
         "referenceId": "little-critters",

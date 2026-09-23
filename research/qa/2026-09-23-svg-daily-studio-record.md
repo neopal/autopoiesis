@@ -69,4 +69,16 @@ Hide labels, readout, controls, witness marks, gap marks, count, captions, and p
 
 The local artifact, canonical page, Journal data, local browser evidence, and checked-in public catalog are real. The work remains **candidate / held** because independent caption-free perceptual comparison and provider revision linkage are not yet observed. It is not described as exhibition-ready.
 
-Production publication and remote verification are the next explicit gates; GitHub synchronization and Vercel content must be verified separately.
+## Publication verification
+
+- First release commit: `7b69edd888bf3087ba43dc5dddab85c55771cf86`.
+- First push: remote `origin/main` matched that SHA before deployment.
+- Production deployment: `dpl_CewdMTJRmtNtnzbfVEzi11cWf7t8`, ready at `https://autopoiesis-pf1lomd9b-lairpa-hotmailfrs-projects.vercel.app`; stable alias `https://autopoiesis-nine.vercel.app/`.
+- Stable production HTTP readback: `/studio/data/works.json`, `/journal/`, `/works/svg-2026-09-23/`, and `/studies/pure-svg/v014/?preview=1&static=1&blind=1` returned HTTP 200.
+- Deployed JSON: exactly one `svg-2026-09-23` record with the recorded title and raw path.
+- Deployed Journal: exactly one `#journal-svg-2026-09-23` entry with the recorded title and canonical work link.
+- Production browser matrix: **10 canonical + 10 raw headless runs passed** at all five required viewports in normal and reduced motion; zero diagnostics and zero overflow cases.
+- Production interaction: pointer `0 → 1`, Enter `1 → 2`, Delete `2 → 1` with exact signature restoration, release `→ 0`.
+- Production blind/current checks: the blind SVG remained visible with explanatory furniture hidden; Journal and Pure SVG current each rendered their expected unique target at `390×844`.
+- Production evidence: `research/qa/proofs/svg-v014-2026-09-23/production/`.
+- The deployment was a manual Vercel production deploy from the committed worktree; GitHub synchronization and Vercel deployment are recorded separately. A provider revision field tying the stable alias to the eventual final SHA was not exposed.
