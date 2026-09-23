@@ -2,6 +2,119 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-23",
+      "currentId": "brush",
+      "date": "2026-09-23",
+      "title": "The brush keeps a vacancy.",
+      "rawPath": "/studies/p5-brush/v017/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-23",
+        "note": "v017 abandons the pressure plate for a porous archipelago. A visitor approach makes the nearest island yield pigment, a distant island receive it, and a third island open into a real vacancy; lifting the latest encounter reconstructs the exact preceding field."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The transfer must live in island geometry: the source loses radius and sediment, the receiver grows, and the vacancy becomes porous. A connecting line or colour change cannot stand in for moved material."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, relation marks, and prose hidden, the first encounter should read as a sparse archipelago of separate bodies rather than a route field or pressure plate. After an encounter, one body must visibly yield, one swell, and one open."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Proximity must be the causal action, not a cosmetic cursor. Pointer movement, click, and Enter should select a situated source and create the same bounded relation; lifting only the latest encounter must restore the exact preceding field."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v017 must change representation and viewer task after v014–v016: isolated population replaces horizontal routes and tiled plate, and the visitor approaches a field rather than drawing an incision."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Social transfer is an easy metaphor. Delete v017 if source/receiver/vacancy cannot be located without prose, if the receiver does not materially grow, if the vacancy is only a dark sticker, or if repeated events are merely parametric recolouring."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v017-proximity-archipelago",
+        "visitorInput": true,
+        "seed": "0x42525537",
+        "stages": 16,
+        "islandCount": 13,
+        "primitiveBudget": 52,
+        "memoryWindow": 5,
+        "settledStage": 15,
+        "settledMemory": 5,
+        "settledVacancies": 4,
+        "settledTransferMass": 1.780365846534912,
+        "visitorMemory": 1,
+        "visitorPressure": 0.4772482069113317,
+        "visitorTransfer": 0.3040845337969462,
+        "visitorSourceIndex": 4,
+        "visitorReceiverIndex": 11,
+        "visitorVacancyIndex": 8,
+        "visitorSourceRadius": 0.05676442466748653,
+        "visitorReceiverRadius": 0.09846171933288432,
+        "visitorVacancyPorosity": 0.36096104314311983,
+        "visitorTransferMass": 0.3040845337969462,
+        "visitorVacancies": 1,
+        "memoryRule": "a remembered proximity transfers sediment from the nearest island to a distant receiver and opens a third island into a porous vacancy",
+        "interactionRule": "pointer proximity, click, Enter, and Space change source radius, receiver radius, vacancy porosity, grain, edge, and tilt; lifting the latest encounter restores the exact prior archipelago",
+        "representationRupture": "continuous wet routes and tiled pressure plate -> sparse population of isolated porous material islands",
+        "encounterRupture": "draw or cut the surface -> approach a situated field and cause a three-body yield/receive/open relation",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, production verification, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4177/works/brush-2026-09-23/",
+        "rawPreview": "http://127.0.0.1:4177/studies/p5-brush/v017/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4177/studies/p5-brush/v017/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v017 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10 canonical + 10 raw local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current also matched",
+        "touchTargets": "all three local raw interaction buttons measured at least 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all local route, interaction, static-blind, Journal, and current runs",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across the local browser matrix and focused probes",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 16 with 0 encounters; the interaction route was live and deterministic",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 16 / 16 with 5 encounters, 4 porous places, and 13 islands",
+        "pointerInteraction": "local raw pointer changed visitor memory 0 to 1 with 1 porous place",
+        "keyboardInteraction": "Enter changed visitor memory 1 to 2 and changed the island signature",
+        "liftInteraction": "Delete changed visitor memory 2 to 1 and restored the exact preceding pointer-state signature",
+        "releaseInteraction": "release returned the local interaction route to 0 encounters",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-brush-2026-09-23 entry with the recorded title and canonical work link",
+        "current": "local Brush current readback rendered exactly 1 current header and a first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/brush-v017-2026-09-23/results.json, probe.mjs, and 24 PNG captures",
+        "unresolved": [
+          "production browser matrix and deployed Journal/work/current readback",
+          "independent caption-free perceptual comparison with labels, readout, relation marks, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Brush, remove agents and social scene; make proximity redistribute actual painted material across three situated islands: the nearest yields, a distant island receives, and a third opens.",
+        "visibleConsequence": "The blind field is a sparse archipelago of isolated painted bodies. After interaction, one island loses radius and sediment and gains porosity, one grows and turns, and a third island hollows out.",
+        "falsifier": "If proximity only changes colour, if the receiver does not materially grow, or if the vacancy is a dark sticker over unchanged geometry, the translation fails.",
+        "antiCopy": "No animals, characters, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes the Brush current’s route, basin, and pressure-plate grammar and opens a population direction: isolated material bodies, proximity as transfer, and absence as a shared social consequence."
+      },
+      "decision": {
+        "nextMutation": "Run the caption-free comparison with labels, readout, relation marks, and prose hidden; delete v017 if yield → receive → vacancy is not legible in the island geometry itself.",
+        "lineage": "brush-2026-09-22"
+      }
+    },
+    {
       "id": "portrait-2026-09-23",
       "currentId": "portrait",
       "date": "2026-09-23",

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b100e">
+  <title>MUTINE — the brush keeps a vacancy</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=017">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-23"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="archipelago-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v017 / PROXIMITY ARCHIPELAGO</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="archipelago-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v017</span></nav>
+
+      <figure class="archipelago-work artwork-frame" aria-labelledby="work-title">
+        <div class="field-wrap">
+          <canvas id="field" tabindex="0" role="img" aria-label="A porous archipelago of painted islands that exchange material and leave a vacancy when approached" aria-keyshortcuts="Enter Space Delete R S"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 16 / 16</span><span data-memory>5 encounters carried</span></div>
+          <div class="field-controls" aria-label="Brush actions">
+            <button id="encounter-control" data-gesture="encounter" type="button">approach the field</button>
+            <button id="undo-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release sequence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v017-proximity-archipelago</span><span>approach &gt; transfer &gt; vacancy</span></figcaption>
+      </figure>
+
+      <section class="archipelago-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / MATERIAL BREAK / v017</p>
+        <h1 id="work-title">The brush keeps<br><i>a vacancy.</i></h1>
+        <p class="archipelago-lede">The plate has broken into an archipelago. Approach one island and its material withdraws, arrives elsewhere, and leaves a true porous place behind.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE MATERIAL RELATION</p>
+          <p class="interaction-copy">Move near an island or press Enter. The nearest body yields pigment to a distant body while a third island hollows out. The gesture is proximity, not painting; lift only the latest encounter to rebuild the exact prior archipelago.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The islands are keeping their separate weight.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v017</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>A remembered removal becomes a social material transfer: the nearest island shrinks and opens, a distant island receives its load, and a third island becomes porous.</dd></div>
+          <div><dt>visitor action</dt><dd>Approach, click, press Enter, or press Space. Delete or “lift latest” restores the preceding islands exactly; release sequence clears visitor memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the islands only change colour, if the receiver does not grow, or if the vacancy is a dark sticker rather than changed island geometry, the relation is decoration.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v017 if a caption-free comparison still reads as the v016 pressure plate or any earlier route field. Do not rescue a failed medium switch with labels, witness marks, or prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-22/">previous daily work</a><a href="/journal/#journal-brush-2026-09-23">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=017"></script>
+</body>
+</html>
