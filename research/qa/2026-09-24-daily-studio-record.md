@@ -353,17 +353,18 @@ The changed rule is misaddressed sustained attention. Pointer movement arms a wi
 
 - TDD RED observed: the new v017 test initially failed because `engine.mjs` was absent.
 - TDD GREEN engine slice: v017 material mutation and exact undo test passed after the minimal engine implementation.
-- Local tableau browser matrix: **10/10 canonical + 10/10 raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
-- Tableau-first canonical runs: **10/10**.
-- Local diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
-- Overflow: **0**; `innerWidth == clientWidth == scrollWidth` in all matrix runs.
-- Local interaction at `390×844`: pointer movement only armed; held pointer changed memory `0 → 1`, Enter changed `1 → 2`, Delete restored `2 → 1` with the exact preceding pile signature, and release returned memory to `0`.
-- Reduced-motion/static blind preview kept the canvas visible while hiding readout, controls, header, and annotations; no overflow.
-- All three raw controls measured `44px` high and at least `118px` wide at `390×844`.
-- Local Journal readback rendered exactly one `#journal-naive-2026-09-24` entry with the recorded title and canonical work link.
-- Local Naive art current rendered exactly one current header and first artwork at `390×844` with no overflow.
-- Proofs: `research/qa/proofs/naive-art-v017-2026-09-24/summary.json`, `results.json`, `probe.mjs`, and 24 PNG captures.
+- Local and production tableau browser matrices: **10/10 canonical + 10/10 raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Tableau-first canonical runs: **10/10 local + 10/10 production**.
+- Local and production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
+- Overflow: **0**; `innerWidth == clientWidth == scrollWidth` in all local and production matrix runs.
+- Local and production interaction at `390×844`: pointer movement only armed; held pointer changed memory `0 → 1`, Enter changed `1 → 2`, Delete restored `2 → 1` with the exact preceding pile signature, and release returned memory to `0`.
+- Reduced-motion/static blind preview locally and in production kept the canvas visible while hiding readout, controls, header, and annotations; no overflow.
+- All three raw controls measured `44px` high and at least `118px` wide locally and in production at `390×844`.
+- Local and production Journal readback rendered exactly one `#journal-naive-2026-09-24` entry with the recorded title and canonical work link.
+- Local and production Naive art current readback rendered exactly one current header and first artwork at `390×844` with no overflow.
+- Production routes `/works/naive-2026-09-24/`, `/studies/naive-art/v017/`, `/journal/`, and `/studio/favicon.svg` returned HTTP 200 under deployment `dpl_3kAangEZQh4Py1ESpX4RWb9tHRYD`.
+- Proofs: `research/qa/proofs/naive-art-v017-2026-09-24/summary.json`, `results.json`, `probe.mjs`, and 24 local PNG captures.
 
 ## Unresolved doubt
 
-No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, Journal/current, register, catalog, and route evidence are complete, but production readback and provider revision linkage remain unresolved. The blind perceptual question is whether the block pile reads as one load-bearing misaddress rather than a polished arrangement of coloured abstract blocks. The work therefore remains honestly **candidate / held**, not exhibition-ready.
+No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, production browser, Journal/current, register, catalog, and route evidence are complete. Provider revision linkage from the stable alias to the GitHub SHA remains unverified, and the blind perceptual question remains open: does the block pile read as one load-bearing misaddress rather than a polished arrangement of coloured abstract blocks? The work therefore remains honestly **candidate / held**, not exhibition-ready.
