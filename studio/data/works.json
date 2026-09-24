@@ -417,6 +417,106 @@
       }
     },
     {
+      "id": "webgpu-2026-09-24",
+      "currentId": "webgpu",
+      "date": "2026-09-24",
+      "title": "The crowd hides a room.",
+      "rawPath": "/studies/webgpu/v015/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-24",
+        "note": "v015 abandons route, reciprocal-looking, and pressure-surface grammars. A projected volume accepts a witness, hides the nearest bodies, turns the rim away, and archives the resulting cavity as depth; lifting the latest witness reconstructs the exact preceding room."
+      },
+      "critiques": [
+        {
+          "persona": "Spatial critic",
+          "argument": "The cavity must be carried by occupied geometry: nearby bodies need to hide, the rim must turn away, and depth must open behind the missing cohort. A dark circle or glow cannot substitute for a changed volume."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and prose hidden, the first encounter should read as a layered wall. After witnessing, a viewer should find a room made by absence, not a brighter grid or an overlaid marker."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement may only arm the witness. Pointerdown, Enter, and Space must create the same bounded cavity; lifting only the latest event must restore the exact preceding bodies, depth, yaw, and hidden state."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v015 if concealment is only opacity, if the cavity does not change the occupied field, if release cannot reconstruct the empty room, or if the work still reads as v014's pressure map with a hole painted on top."
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v015-remembered-cavity",
+        "visitorInput": true,
+        "seed": "0x57473135",
+        "stages": 18,
+        "bodyCount": 180,
+        "memoryWindow": 5,
+        "finalStage": 17,
+        "finalMemory": 5,
+        "finalCavityBodies": 30,
+        "finalHiddenBodies": 108,
+        "finalReorientedBodies": 156,
+        "finalArchivedLoad": 25.749796020733235,
+        "memoryRule": "a witnessed point hides a core cohort, turns the rim away, and archives the resulting cavity as depth",
+        "interactionRule": "pointer movement arms only; pointerdown, Enter, Space, and the witness control commit the same bounded concealment; Delete lifts the latest cavity; release clears the room",
+        "representationRupture": "route bundle, angular crowd, and pressure surface -> projected volumetric wall with actual cavities",
+        "encounterRupture": "attraction, reciprocal orientation, and pressure -> witness causes concealment",
+        "temporalRupture": "continuous drift and additive memory -> discrete rooms that can be lifted in reverse order",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrix, production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4183/works/webgpu-2026-09-24/",
+        "rawPreview": "http://127.0.0.1:4183/studies/webgpu/v015/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4183/studies/webgpu/v015/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v015 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10 canonical + 10 raw local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and WebGPU current 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and at least 115px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 0 with 0 cavities and no witness mutation",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 17 with 5 remembered cavities, 30 cavity bodies, 108 hidden bodies, and 156 reoriented bodies",
+        "pointerInteraction": "pointer movement changed only armed state; pointerdown changed memory from 0 to 1 and changed the compact canvas signature",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and changed the compact canvas signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding witnessed signature",
+        "releaseInteraction": "release sequence returned memory to 0 and cleared the interaction state",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-webgpu-2026-09-24 entry with the recorded title and canonical work link",
+        "current": "local WebGPU current readback rendered exactly 1 current header and a first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures, raw interaction, static blind, Journal, and WebGPU current captures",
+        "evidenceFiles": "research/qa/proofs/webgpu-v015-2026-09-24/summary.json, results.json, probe.mjs, and 24 PNG captures",
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Invert reciprocal looking into collective concealment: a witnessed point makes the nearest WebGPU bodies hide, turns the surrounding rim away, and archives the resulting cavity as depth instead of attracting the field.",
+        "visibleConsequence": "The blind field is a layered volumetric wall rather than a route bundle or pressure plate. After witnessing, an actual occupied gap opens, nearby bodies turn away, and the cavity remains as a visible room in depth.",
+        "falsifier": "If caption-free viewing sees only a brighter grid, if the cavity is a decorative dark oval rather than a changed occupied volume, or if pointer movement commits before click/Enter, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes WebGPU v009-v014's route, orientation, and pressure grammars and opens a volumetric absence direction: archive as a room made by missing bodies."
+      },
+      "decision": {
+        "nextMutation": "Run a caption-free comparison with labels, readout, controls, and prose hidden; delete v015 if concealment reads as a cosmetic overlay or if lifting the latest cavity is not visibly exact.",
+        "lineage": "webgpu-2026-09-22"
+      }
+    },
+    {
       "id": "naive-2026-09-23",
       "currentId": "naive",
       "date": "2026-09-23",

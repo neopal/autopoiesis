@@ -368,3 +368,75 @@ The changed rule is misaddressed sustained attention. Pointer movement arms a wi
 ## Unresolved doubt
 
 No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, production browser, Journal/current, register, catalog, and route evidence are complete. Provider revision linkage from the stable alias to the GitHub SHA remains unverified, and the blind perceptual question remains open: does the block pile read as one load-bearing misaddress rather than a polished arrangement of coloured abstract blocks? The work therefore remains honestly **candidate / held**, not exhibition-ready.
+
+---
+
+# Fresh daily work run — WebGPU / 2026-09-24
+
+## Slot and status
+
+- Current: WebGPU (`webgpu`)
+- Work: `webgpu-2026-09-24`
+- Study: `studies/webgpu/v015/`
+- Canonical route: `/works/webgpu-2026-09-24/`
+- Title: *The crowd hides a room.*
+- Status: **candidate / held**
+- Lineage: `webgpu-2026-09-22`
+
+## Artistic gate
+
+v015 makes a material break from the previous WebGPU route, orientation, and pressure grammars. The last three works treated the field as a route bundle, a reciprocal crowd, or a pressure-bearing surface; their repeated gesture was approach or pressure → local response → reversible field change. v015 refuses that vocabulary and presents one projected volumetric wall of 180 deterministic bodies.
+
+The changed rule is collective concealment. Pointer movement only arms a witness. Pointerdown, Enter, Space, or the witness control commits a bounded event that hides a core cohort, turns the rim away, changes depth, and archives the missing load as a cavity. Delete lifts only the latest cavity; release reconstructs the empty field.
+
+This changes representation (route/surface grammar → projected volume), encounter (attraction/orientation/pressure → witness-caused concealment), and temporal behaviour (continuous or additive change → discrete rooms lifted in reverse order). It is a causal and perceptual rupture, not a palette, texture, density, title, or annotation variation.
+
+- Hypothesis: a collective archive can be made from concealment rather than accumulation; the bodies nearest a witness should disappear from the front plane and leave a legible volumetric room behind them.
+- Visible consequence: the blind first view is a layered wall with depth; after witnessing, an actual occupied gap opens, nearby bodies hide and turn away, and the cavity remains visible as a room in depth.
+- Falsifier: if caption-free viewing sees only a brighter grid, if the cavity is a decorative dark oval rather than a changed occupied volume, or if pointer movement commits before click/Enter, the translation fails.
+- Deletion condition: delete v015 if two independent blind comparisons cannot distinguish concealment from a cosmetic overlay, or if lifting the latest event does not restore the exact previous geometry.
+
+## Cultural translation / anti-copy
+
+- Reference: `little-critters` — https://github.com/GordenSun/little-critters
+- Observed mechanism: situated code-drawn agents respond to proximity by changing attention and looking back, making the visitor part of a reciprocal encounter.
+- Mutine translation: invert reciprocal looking into collective concealment. The visitor's witness does not attract the field; it makes the nearest bodies hide and leaves a room made from their absence.
+- Visible consequence: one witness event changes occupied positions, depth, yaw, hidden bodies, and archived cavities; repeated events produce several rooms within a bounded memory window.
+- Anti-copy statement: no animals, characters, eyes, paper scene, source palette, composition, or surface vocabulary is reproduced.
+- Direction consequence: closes WebGPU v009–v014's route, orientation, and pressure grammars and opens a volumetric absence direction: archive as a room made by missing bodies.
+
+## Files
+
+- `studies/webgpu/v015/index.html`
+- `studies/webgpu/v015/engine.mjs`
+- `studies/webgpu/v015/sketch.js`
+- `studies/webgpu/v015/style.css`
+- `studies/webgpu/v015/README.md`
+- `studies/webgpu/v015/metrics.json`
+- `studies/webgpu/v015/critiques.json`
+- `works/webgpu-2026-09-24/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `tests/webgpu-v015.test.mjs`
+- Updated count/date/catalog assertions in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
+- `research/qa/proofs/webgpu-v015-2026-09-24/` including `summary.json`, `results.json`, `probe.mjs`, and 24 PNG captures
+
+## Verification
+
+- TDD RED observed: the new v015 targeted suite initially failed because `studies/webgpu/v015/engine.mjs` was absent; a later browser-contract assertion also failed until the sketch imported the `STAGES` constant used by its readout.
+- TDD GREEN: targeted v015 suite **5 passed, 0 failed**.
+- Full suite: **487 passed, 0 failed, 0 skipped, 0 todo**.
+- `node --check` passed for `engine.mjs`, `sketch.js`, `probe.mjs`, and the targeted test.
+- `git diff --check`: **PASS**.
+- Local tableau browser matrix: **10/10 canonical + 10/10 raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Tableau-first canonical runs: **10/10**; no viewport overflow in the matrix or focused readbacks.
+- Local diagnostics: zero console messages, page errors, failed requests, or HTTP 400+ responses.
+- Local interaction at `390×844`: pointer movement only armed; pointerdown changed memory `0 → 1`, Enter changed it `1 → 2`, Delete restored `2 → 1` with the exact preceding canvas signature, and release returned memory to `0`.
+- Reduced-motion/static blind preview kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow.
+- All three raw controls measured at least `44px` high and at least `115px` wide at `390×844`.
+- Local Journal/current readback rendered exactly one `#journal-webgpu-2026-09-24` entry with the recorded title and canonical work link, plus exactly one WebGPU current header and first artwork.
+- Proofs: `research/qa/proofs/webgpu-v015-2026-09-24/summary.json`, `results.json`, `probe.mjs`, and 24 local PNG captures.
+
+## Unresolved doubt
+
+No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, Journal/current, register, and catalog evidence are complete, but production readback and provider revision linkage remain pending until after deployment. The blind perceptual question also remains open: does the field read as a volumetric room made by missing bodies rather than an illuminated grid with a dark overlay? The work therefore remains honestly **candidate / held**, not exhibition-ready.

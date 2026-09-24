@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1320">
+  <meta name="description" content="A WebGPU-ready volumetric crowd that hides a remembered cavity when it is witnessed.">
+  <title>MUTINE — The crowd hides a room.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const hasWebGPU = Boolean(navigator.gpu);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=015">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-24"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="cavity-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v015 / remembered cavity</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="cavity-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v015</span></nav>
+      <section class="cavity-work" aria-label="WebGPU daily work">
+        <figure class="cavity-frame artwork-frame">
+          <canvas id="field" role="img" aria-label="A volumetric crowd hides a remembered cavity when the field is witnessed" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace"></canvas>
+          <div class="cavity-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 18</span><span data-memory>0 cavities</span><span data-renderer>WEBGPU / CAVITY CHECK</span></div>
+          <div class="cavity-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="witness">witness the field</button>
+            <button type="button" data-gesture="lift">lift latest cavity</button>
+            <button type="button" data-gesture="release">release the room</button>
+          </div>
+          <figcaption><span>WEBGPU / V015 / DAILY WORK</span><span>witness → hide → archive</span></figcaption>
+        </figure>
+        <aside class="cavity-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a route bundle or a pressure plate. It is a volumetric wall whose missing bodies make a room.</p></div>
+          <div><span>changed rule</span><p>Attention does not attract or compact the field. A witnessed point makes nearby bodies hide, turns the rim away, and archives the void as depth.</p></div>
+          <div><span>progression</span><p>Move to arm a witness, then click or press Enter. Lift only the latest cavity and the exact preceding room returns.</p></div>
+        </aside>
+      </section>
+      <section class="cavity-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V015 / DAILY WORK</p><h1 id="work-title">The crowd hides<br><i>a room.</i></h1></div>
+        <p class="cavity-premise">The visitor is not mirrored by the crowd. Being seen is answered by disappearance: the room is made from the bodies that refuse to remain in front.</p>
+      </section>
+      <section class="cavity-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: witnessing changes occupied positions, depth, yaw, hidden bodies, and archived cavities. Promotion depends on whether the blind field reads as a volumetric room made by concealment rather than an illuminated grid.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>witness → absence → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=015a"></script>
+</body>
+</html>
