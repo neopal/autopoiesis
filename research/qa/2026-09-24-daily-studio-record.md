@@ -419,14 +419,14 @@ This changes representation (route/surface grammar → projected volume), encoun
 - `studio/data/catalog-public.json`
 - `tests/webgpu-v015.test.mjs`
 - Updated count/date/catalog assertions in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
-- `research/qa/proofs/webgpu-v015-2026-09-24/` including `summary.json`, `results.json`, `probe.mjs`, and 24 PNG captures
+- `research/qa/proofs/webgpu-v015-2026-09-24/` including `summary.json`, `results.json`, `probe.mjs`, `production-summary.json`, `production-results.json`, `production-probe.mjs`, and 30 PNG captures
 
 ## Verification
 
 - TDD RED observed: the new v015 targeted suite initially failed because `studies/webgpu/v015/engine.mjs` was absent; a later browser-contract assertion also failed until the sketch imported the `STAGES` constant used by its readout.
 - TDD GREEN: targeted v015 suite **5 passed, 0 failed**.
 - Full suite: **487 passed, 0 failed, 0 skipped, 0 todo**.
-- `node --check` passed for `engine.mjs`, `sketch.js`, `probe.mjs`, and the targeted test.
+- `node --check` passed for `engine.mjs`, `sketch.js`, `probe.mjs`, `production-probe.mjs`, and the targeted test.
 - `git diff --check`: **PASS**.
 - Local tableau browser matrix: **10/10 canonical + 10/10 raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
 - Tableau-first canonical runs: **10/10**; no viewport overflow in the matrix or focused readbacks.
@@ -437,6 +437,21 @@ This changes representation (route/surface grammar → projected volume), encoun
 - Local Journal/current readback rendered exactly one `#journal-webgpu-2026-09-24` entry with the recorded title and canonical work link, plus exactly one WebGPU current header and first artwork.
 - Proofs: `research/qa/proofs/webgpu-v015-2026-09-24/summary.json`, `results.json`, `probe.mjs`, and 24 local PNG captures.
 
+## Production verification
+
+- Commit deployed: `891aef9db3c4f0c21e3fc3fa2173a6628878c5c4`.
+- GitHub `origin/main`: matched the local commit SHA before deployment.
+- Vercel deployment: `dpl_8uU3mj3vM91Wgx5BPrmSYPg4t7R1`; stable alias `https://autopoiesis-nine.vercel.app/`.
+- Stable-alias browser matrix: **10/10 canonical + 10/10 raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Stable-alias diagnostics: zero console messages, page errors, failed requests, or HTTP 400+ responses in the production matrix and focused readbacks.
+- Stable-alias interaction at `390×844`: pointer movement only armed; pointerdown changed memory `0 → 1`, Enter changed it `1 → 2`, Delete restored `2 → 1` with the exact preceding canvas signature, and release returned memory to `0`.
+- Production blind preview kept the canvas visible while hiding readout, controls, header, and annotations; `innerWidth == clientWidth == scrollWidth == 390`.
+- Production raw controls measured `44px` high and at least `115px` wide at `390×844`.
+- Production Journal rendered exactly one `#journal-webgpu-2026-09-24` entry with title *The crowd hides a room.* and canonical link `/works/webgpu-2026-09-24/`.
+- Production WebGPU current rendered exactly one current header and first artwork at `390×844` with no overflow.
+- Stable-alias register contained exactly one `webgpu-2026-09-24` record with the expected title and raw path; `/works/webgpu-2026-09-24/`, `/studies/webgpu/v015/`, `/journal/`, and `/studio/favicon.svg` returned HTTP 200.
+- Production proofs: `production-summary.json`, `production-results.json`, `production-probe.mjs`, and six focused PNG captures.
+
 ## Unresolved doubt
 
-No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, Journal/current, register, and catalog evidence are complete, but production readback and provider revision linkage remain pending until after deployment. The blind perceptual question also remains open: does the field read as a volumetric room made by missing bodies rather than an illuminated grid with a dark overlay? The work therefore remains honestly **candidate / held**, not exhibition-ready.
+No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, production browser, Journal/current, register, catalog, and route evidence are complete. Provider revision linkage from the stable alias to the GitHub SHA remains unverified, and the blind perceptual question remains open: does the field read as a volumetric room made by missing bodies rather than an illuminated grid with a dark overlay? The work therefore remains honestly **candidate / held**, not exhibition-ready.

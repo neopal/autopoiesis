@@ -491,11 +491,21 @@
         "journal": "local Journal readback rendered exactly 1 #journal-webgpu-2026-09-24 entry with the recorded title and canonical work link",
         "current": "local WebGPU current readback rendered exactly 1 current header and a first artwork with no document overflow",
         "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures, raw interaction, static blind, Journal, and WebGPU current captures",
-        "evidenceFiles": "research/qa/proofs/webgpu-v015-2026-09-24/summary.json, results.json, probe.mjs, and 24 PNG captures",
+        "evidenceFiles": "research/qa/proofs/webgpu-v015-2026-09-24/summary.json, results.json, probe.mjs, production-summary.json, production-results.json, production-probe.mjs, and 30 PNG captures",
+        "productionDeployment": "dpl_8uU3mj3vM91Wgx5BPrmSYPg4t7R1; stable alias https://autopoiesis-nine.vercel.app/ returned the verified routes",
+        "productionViewportMatrix": "10 canonical + 10 raw production headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionTableauFirst": "10/10 production canonical runs placed the v015 tableau iframe before generated title and explanatory prose",
+        "productionOverflow": "innerWidth equaled clientWidth and scrollWidth in all 20 production raw/canonical runs",
+        "productionDiagnostics": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all production matrix and focused readback runs",
+        "productionInteraction": "production pointer movement only armed; pointerdown changed memory 0 to 1; Enter changed 1 to 2; Delete restored the exact preceding signature; release returned memory to 0",
+        "productionTouchTargets": "all three production raw controls measured 44px high and at least 115px wide at 390x844",
+        "productionBlindPreview": "production blind preview kept the canvas visible while hiding readout, controls, header, and annotations with no document overflow",
+        "productionJournal": "production Journal rendered exactly one #journal-webgpu-2026-09-24 entry with the title and canonical work link",
+        "productionCurrent": "production WebGPU current rendered exactly one current header and first artwork with no document overflow",
+        "productionRoutes": "works/webgpu-2026-09-24, studies/webgpu/v015, Journal, and studio/favicon.svg returned HTTP 200",
         "unresolved": [
-          "production readback",
           "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
-          "provider revision linking the stable alias to the eventual GitHub SHA"
+          "provider revision linking the stable alias to the GitHub SHA"
         ],
         "diagnosticCount": 0,
         "overflowCount": 0
