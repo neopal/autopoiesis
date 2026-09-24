@@ -282,6 +282,19 @@ This changes representation (trails/islands → continuous membrane), encounter 
 - All three raw controls measured `44px` high at `390×844`; blind preview kept the canvas visible while hiding readout, controls, header, and annotations.
 - Local Journal/current readback: exactly one matching Journal anchor/title/link and one Brush current header/first artwork; no horizontal overflow at `390×844`.
 
+## Production verification
+
+- Commit deployed: `68bb316d95f5cda66633270cb25b1b488fa76e3c`.
+- GitHub `origin/main`: matched the local commit SHA.
+- Vercel deployment: `dpl_Htpw1Pp6THrwcG5a2XS4derqKULu`; stable alias `https://autopoiesis-nine.vercel.app/`.
+- Stable-alias browser matrix: **20/20 canonical + raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion; zero console messages, page errors, failed requests, or HTTP 400+ responses.
+- Stable-alias interaction at `390×844`: departure changed memory `0 → 1`, Enter changed it `1 → 2`, Delete restored `2 → 1` with the exact preceding canvas signature, and release returned memory to `0`.
+- Stable-alias rendered Journal: exactly one `#journal-brush-2026-09-24` entry titled *The brush keeps the back.* with canonical link `/works/brush-2026-09-24/`.
+- Stable-alias Brush current: header `Brush` and first work `brush-2026-09-24` observed at `390×844`; no horizontal overflow.
+- Stable-alias register: exactly one `brush-2026-09-24` record with the expected title and raw path.
+- Public catalog: exactly one matching record for `brush-2026-09-24`.
+- Canonical work, raw tableau, and `/studio/favicon.svg` returned HTTP 200; favicon content type was `image/svg+xml`.
+
 ## Unresolved doubt
 
-No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, Journal/current, register, and route evidence are complete, but production readback and provider-revision linkage from the stable alias to the eventual GitHub SHA remain unresolved until deployment. The work therefore remains honestly **candidate / held**, not exhibition-ready.
+No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, production browser, Journal/current, register, catalog, and route evidence are complete. Provider revision linkage from the stable alias to the GitHub SHA remains unverified, and the blind perceptual question remains open: does the membrane read as departure-held material rather than polished abstract texture? The work therefore remains honestly **candidate / held**, not exhibition-ready.
