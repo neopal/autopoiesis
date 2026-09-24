@@ -2,6 +2,108 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-24",
+      "currentId": "svg",
+      "date": "2026-09-24",
+      "title": "The void changes host.",
+      "rawPath": "/studies/pure-svg/v015/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-24",
+        "note": "v015 abandons the gate corridors and reciprocal cell field for five blunt compound territories. Visitor attention closes the nearest territory around its void while a distant territory receives the opening; lifting the latest attention reconstructs the exact preceding topology."
+      },
+      "critiques": [
+        {
+          "persona": "Topological critic",
+          "argument": "The translated event must live in compound SVG paths: a host must lose its actual hole, a receiver must carry an actual opening, and the surrounding territory geometry must move. A halo, label, or colour swap cannot substitute for changed topology."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, controls, attention marks, and prose hidden, a caption-free viewer should see five separate bodies with real voids, then notice one void close while another body receives an opening. If it reads as decorative blobs, void ownership is not visible."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer proximity, click, Enter, and Space must create the same bounded attention event; lifting only the latest attention must restore the exact prior compound paths, hole states, roles, and topology signature."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v015 must break v012-v014's threshold routes, reciprocal cells, and gate corridors. Its first-render task is to read bodies and absences, and its interaction must move ownership of a void rather than close a passage or assign a gaze role."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Attention transfer is an easy metaphor. Delete v015 if the host hole is only hidden by colour, if the receiver opening is only a witness mark, if proximity does not change geometry, or if undo fails to restore the exact prior topology."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v015-void-ownership",
+        "visitorInput": true,
+        "seed": "0x53564745",
+        "stages": 16,
+        "primitiveBudget": 9,
+        "territoryCount": 5,
+        "memoryWindow": 4,
+        "settledStage": 15,
+        "finalMemory": 4,
+        "finalOpenVoids": 2,
+        "finalClosedVoids": 3,
+        "memoryRule": "situated attention closes the nearest compound territory around its void and makes a distant territory receive the opening",
+        "interactionRule": "pointer proximity, click, Enter, and Space change compound-path topology, host/receiver geometry, hole ownership, and role; lifting the latest restores the exact prior field",
+        "representationRupture": "horizontal gate corridors and reciprocal radial cells -> five blunt compound territories with owned voids",
+        "encounterRupture": "visitor constraint closes a passage -> visitor proximity transfers a vacancy between bodies",
+        "temporalRupture": "route obstruction and gaze roles -> reversible topology of closing and receiving territories",
+        "replay": true,
+        "renderer": "deterministic inline SVG compound paths",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / held pending independent caption-free perceptual review and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4176/works/svg-2026-09-24/",
+        "rawPreview": "http://127.0.0.1:4176/studies/pure-svg/v015/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4176/studies/pure-svg/v015/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v015 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 114px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 16 with 0 remembered attentions and 5 open voids",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 15 / 16 with 4 remembered attentions, 2 open voids, and 3 closed voids",
+        "pointerInteraction": "local raw pointer move changed the topology signature and pointer click changed it again while the field remained bounded at memory 4",
+        "keyboardInteraction": "Enter on the focused SVG changed the compound-path topology signature and hole count",
+        "liftInteraction": "Delete after keyboard changed the signature back to the exact pointer state",
+        "releaseInteraction": "release returned the reduced-motion interaction route to stage 00 / 16 with 0 remembered attentions and 5 open voids",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, void marks, attention marks, labels, and count with no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-svg-2026-09-24 entry with the recorded title and canonical work link",
+        "current": "local Pure SVG current readback at 390x844 rendered exactly one current header and one first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: ten canonical viewport/motion captures, ten raw viewport/motion captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/svg-v015-2026-09-24/results.json, probe.mjs, 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, attention marks, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Pure SVG, remove the agents and invert the reply. Visitor proximity makes attention leave its nearest compound territory: that host closes around its void while a distant territory receives the opening as an actual compound-path hole.",
+        "visibleConsequence": "The blind field is five blunt bodies with owned voids rather than corridors, gates, or a reciprocal cell field. After interaction, one body becomes solid where its hole was and another body carries a newly legible opening with changed contour scale and position.",
+        "falsifier": "If caption-free viewing sees only decorative blobs, if the host hole is merely recoloured, if the receiver opening is only a mark, or if pointer proximity changes no compound-path geometry, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Pure SVG v012-v014's threshold, reciprocal-gaze, and gate-corridor grammars and opens constraint-and-topology as ownership of negative space: the next rupture must test whether absence can become the moving subject without a route."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with labels, readout, controls, attention marks, and prose hidden; delete v015 if void closure, receiver opening, and changed compound geometry are not legible in the bodies themselves.",
+        "lineage": "pure-svg-v014"
+      }
+    },
+    {
       "id": "portrait-2026-09-24",
       "currentId": "portrait",
       "date": "2026-09-24",

@@ -82,3 +82,135 @@ Delete v015 if the gap is only a colour or destination-out sticker over unchange
 ## Unresolved doubt
 
 No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, production browser, Journal/current, register, and route evidence are complete, but provider-revision linkage from the stable alias to the GitHub SHA and the blind perceptual comparison remain unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.
+
+---
+
+# Scheduled archive audit — 2026-09-24
+
+- Audit root: `C:/Users/ASUS/autopoiesis`.
+- Observed at: `2026-09-24 09:02:34 +0200` local host time.
+- Active catalogue sources read: `studio/data/studio.json` (`mutine-studio/v2`) and `studio/data/works.json` (`mutine-works/v1`) only.
+- Field tests and stimuli remained separate from the daily work register.
+- No browser automation, GUI/CUA, Chrome, DevTools, CDP, remote debugging, or window launch was used.
+
+## Today's coverage register
+
+| Current | Registry state | 2026-09-24 slot | Record |
+|---|---|---|---|
+| Handwriting (`typography`) | active | held / no record | — |
+| Self portrait (`portrait`) | active | recorded / candidate-held | `portrait-2026-09-24` |
+| Pure SVG (`svg`) | active | held / no record | — |
+| Brush (`brush`) | active | held / no record | — |
+| Naive art (`naive`) | active | held / no record | — |
+| WebGPU (`webgpu`) | dormant | held / no record | — |
+
+The only recorded 2026-09-24 slot is `portrait-2026-09-24`, titled *The portrait resists pressure.*, with raw tableau `/studies/self-portrait/v015/`, catalogue status `candidate / held`, and lifecycle `active`. The other five current/date slots are held because no work record exists.
+
+## Register and filesystem checks
+
+- JSON parsing: **PASS** for both active catalogue sources.
+- Register size: **91 work records** across **6 currents**.
+- Current IDs: **PASS** — all 91 records reference a registered current; no unknown current IDs.
+- Duplicate current/date slots: **PASS** — none found anywhere in the register, including 2026-09-24.
+- Canonical pages: **91/91 present** at `works/<workId>/index.html`.
+- Raw tableau indexes: **91/91 present** under the recorded `/studies/` paths.
+- Journal anchors: **91/91 canonical pages contain** `/journal/#journal-<workId>`.
+- Critique gate: **91/91 records have at least one critique**; no explicit no-critique hold was needed.
+- Field-test separation: field-test IDs were not counted as works.
+
+## Schema anomaly and lifecycle gate
+
+The lifecycle check is **held globally** because seven legacy records omit `lifecycle`:
+
+- `typography-2026-08-28`
+- `brush-2026-08-28`
+- `typography-2026-08-31`
+- `svg-2026-08-31`
+- `portrait-2026-08-31`
+- `naive-2026-08-31`
+- `brush-2026-08-31`
+
+The working register therefore contains **84 active**, **0 complete**, and **7 missing lifecycle values**. No lifecycle value was inferred or written. The affected lifecycle acceptance audit stopped at this schema anomaly; the independent page, tableau, Journal-link, duplicate-slot, current-ID, and critique checks completed for all 91 records.
+
+Complete-work immutability is vacuous: there are no complete records in either the working register or `HEAD`, so there is no complete record to compare and no complete-work mutation to report.
+
+## Automated checks
+
+- `npm run test`: **471 passed, 0 failed, 0 skipped, 0 todo**.
+- Changed JavaScript syntax: **not applicable**; no changed `.js`, `.mjs`, or `.cjs` paths were present in the working tree.
+- `git diff --check`: **PASS** after the report update.
+- No auth, throttling, challenge, missing tableau, or catalogue/path mismatch was observed in the permitted local audit.
+- Browser/visual/perceptual gates were not rerun under the unattended-run restriction and remain held; no browser result is claimed by this audit.
+
+## Pre-existing working-tree state
+
+Before this audit, the worktree already contained modifications to the 2026-09-21 and 2026-09-22 QA reports and 18 canonical HTML pages, plus the untracked `research/qa/2026-09-18-daily-studio-record.md`. This run changed only this dated QA report; no catalogue, artwork, study, or JavaScript file was changed.
+
+## Held gates and next actions
+
+- Supply explicit `lifecycle` values for the seven legacy records; do not infer them.
+- Keep `portrait-2026-09-24` held because its catalogue status is `candidate / held`.
+- Keep the five unrecorded 2026-09-24 slots held; no work record was present for them.
+- Keep browser/visual/perceptual claims held unless separately evidenced by a permitted local or HTTP check.
+
+---
+
+# Fresh daily work run — Pure SVG / 2026-09-24
+
+## Slot and status
+
+- Current: Pure SVG (`svg`)
+- Work: `svg-2026-09-24`
+- Study: `studies/pure-svg/v015/`
+- Title: *The void changes host.*
+- Status: **candidate / held**
+- Lineage: `pure-svg-v014`
+
+## Artistic gate
+
+v015 makes a structural and perceptual break from v012–v014. The previous three works used threshold routes, reciprocal radial cells, and horizontal gate corridors. v015 refuses routes and gates entirely: five blunt compound SVG territories hold separate negative spaces.
+
+The changed rule is void ownership. Situated attention, translated from the source's proximity-based reciprocal looking and then inverted, closes the nearest territory around its actual compound-path hole while a distant territory receives the opening. The interaction is proximity-based rather than a generic control panel. The host and receiver change contour scale, position, rotation, role, and actual hole topology. Lifting the latest attention reconstructs the exact preceding field.
+
+- Hypothesis: absence can become the moving subject of a Pure SVG work without a route or responding agent.
+- Visible consequence: the blind field begins as five separate bodies with open voids; after attention one body closes around its void and another visibly receives an opening.
+- Falsifier: if the host hole is only hidden by colour, if the receiver opening is only a witness mark, or if proximity changes no compound-path geometry, the translation fails.
+- Deletion condition: delete v015 if caption-free viewing reads only decorative blobs, if the work still reads as a gate/route field, or if exact undo fails.
+
+## Cultural translation / anti-copy
+
+- Reference: `little-critters` — https://github.com/GordenSun/little-critters
+- Observed mechanism: situated code-drawn agents respond to pointer proximity by changing attention and looking back.
+- Mutine translation: remove the agents and invert the reply. Proximity transfers a vacancy between compound bodies.
+- Anti-copy statement: no animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary is reproduced.
+- Direction consequence: closes the threshold, reciprocal-gaze, and gate-corridor grammars; opens constraint-and-topology as ownership of negative space.
+
+## Files
+
+- `studies/pure-svg/v015/index.html`
+- `studies/pure-svg/v015/engine.mjs`
+- `studies/pure-svg/v015/sketch.js`
+- `studies/pure-svg/v015/style.css`
+- `studies/pure-svg/v015/README.md`
+- `studies/pure-svg/v015/metrics.json`
+- `works/svg-2026-09-24/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `tests/pure-svg-v015.test.mjs`
+- `research/qa/proofs/svg-v015-2026-09-24/`
+
+## Verification
+
+- TDD RED observed: missing v015 engine/tableau caused the targeted suite to fail with `ERR_MODULE_NOT_FOUND`; after the first implementation, missing tableau/record failures were observed.
+- TDD GREEN: targeted v015 suite **6 passed, 0 failed**.
+- JavaScript syntax checks: `node --check` passed for `engine.mjs` and `sketch.js`.
+- Local headless browser QA: **10/10 raw + 10/10 canonical** viewport/motion runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes.
+- Local diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses in the matrix and focused readbacks.
+- Local interaction: pointer move changed topology, click changed it again, Enter changed topology/hole count, Delete restored the exact pointer signature, and release returned to stage `00 / 16` with `0` remembered attentions.
+- Local blind preview: SVG remained visible while readout, controls, void marks, attention marks, labels, and count were hidden; no overflow at `390×844`.
+- Local Journal/current readback: exactly one matching Journal anchor/title/link and one Pure SVG current header/first artwork; no overflow.
+- Proofs: `research/qa/proofs/svg-v015-2026-09-24/results.json`, `probe.mjs`, and 24 PNG captures.
+
+## Unresolved doubt
+
+The structural and runtime gates pass. The work remains **candidate / held** because no independent caption-free perceptual critic was available in this unattended run. The unresolved question is whether the blind first-render and post-attention state communicate *void ownership* rather than merely a polished family of abstract blobs. Provider revision linkage from the stable production alias to the eventual GitHub SHA is also unverified until after deployment.

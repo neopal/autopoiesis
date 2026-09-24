@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0712">
+  <title>MUTINE — The void changes host.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=015">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-09-24"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v015</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v015</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="Five irregular compound territories hold separate voids. Visitor attention closes one void and makes another territory receive it." preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 16</span><span data-memory>0 remembered attentions · 5 open voids</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="attention-control" data-gesture="attention">place attention</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release the field</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Five blunt compound territories hold their own voids. There are no routes, gates, cells, or figures to follow.</p></div>
+          <div><span>changed rule</span><p>Attention is not returned. It changes ownership: the nearest territory closes around a void while a distant territory receives the opening.</p></div>
+          <div><span>progression</span><p>Move toward a territory or click the field. Lift the latest attention and the exact prior topology returns.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V015 / DAILY WORK</p><h1 id="work-title">The void<br><i>changes host.</i></h1></div>
+        <p class="work-premise">A visitor does not make the forms look back. Presence makes a vacancy leave one body and become legible inside another.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: attention changes compound-path topology, host/receiver geometry, and memory with exact undo. Promotion depends on whether a blind viewer can read void ownership without labels, witnesses, or prose.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=015"></script>
+</body>
+</html>
