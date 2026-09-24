@@ -298,3 +298,72 @@ This changes representation (trails/islands → continuous membrane), encounter 
 ## Unresolved doubt
 
 No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, production browser, Journal/current, register, catalog, and route evidence are complete. Provider revision linkage from the stable alias to the GitHub SHA remains unverified, and the blind perceptual question remains open: does the membrane read as departure-held material rather than polished abstract texture? The work therefore remains honestly **candidate / held**, not exhibition-ready.
+
+---
+
+# Fresh daily work run — Naive art / 2026-09-24
+
+## Slot and status
+
+- Current: Naive art (`naive`)
+- Work: `naive-2026-09-24`
+- Study: `studies/naive-art/v017/`
+- Canonical route: `/works/naive-2026-09-24/`
+- Title: *The pile mistakes your shadow.*
+- Status: **candidate / held**
+- Lineage: `naive-2026-09-23`
+
+## Artistic gate
+
+v017 makes a material break from v014-v016. The previous three works used a punctured single scene, distributed picture panels, and isolated SVG forms; their recent causal vocabulary was cut/copy/departure. v017 refuses that grammar and builds one lopsided Canvas 2D pile of ten irregular blocks.
+
+The changed rule is misaddressed sustained attention. Pointer movement arms a witness but does not mutate the image. A held attention event makes the attended block mistake the visitor for a distant block: a false face is cut into the target, a distant block inherits the wrong identity, and a shifted support exposes a real gap. Lifting the latest attention reconstructs the exact preceding pile.
+
+- Hypothesis: a naive picture can remember a mistake as a wrong assignment inside one load-bearing object.
+- Visible consequence: the blind field begins as one assembled pile; after sustained attention, target geometry, distant inheritance, support displacement, and gap geometry change together.
+- Falsifier: if movement changes the pile before a hold, or if false face/inheritance/gap are only recolouring or annotation, the translation fails.
+- Deletion condition: delete v017 if caption-free comparison cannot distinguish sustained attention from departure, or if the blind view collapses back into panels, routes, isolated forms, or an explanatory diagram.
+
+## Cultural translation / anti-copy
+
+- Reference: `little-critters` — https://github.com/GordenSun/little-critters
+- Observed mechanism: situated code-drawn agents make proximity legible as attention and reciprocal looking.
+- Mutine translation: explicitly invert v016's refusal of presence. Sustained presence is accepted, but the reply is a material misaddress: the pile assigns the visitor to the wrong block and rebalances its supports.
+- Visible consequence: one held event produces a false face, a distant inherited identity, and an exposed support gap in one assembled pile.
+- Anti-copy statement: no animals, characters, eyes, head-turning scene, paper style, source palette, composition, or surface vocabulary is reproduced.
+- Direction consequence: closes Naive art v014-v016's puncture, picture-panel, and departure-is-absence grammar; opens a load-bearing misaddress direction.
+
+## Files
+
+- `studies/naive-art/v017/index.html`
+- `studies/naive-art/v017/engine.mjs`
+- `studies/naive-art/v017/sketch.js`
+- `studies/naive-art/v017/style.css`
+- `studies/naive-art/v017/README.md`
+- `studies/naive-art/v017/metrics.json`
+- `studies/naive-art/v017/critiques.json`
+- `works/naive-2026-09-24/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `tests/naive-art-v017.test.mjs`
+- Updated count/date/catalog assertions in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
+- `research/qa/proofs/naive-art-v017-2026-09-24/` including local results, summary, probe, and 24 PNG captures
+
+## Verification
+
+- TDD RED observed: the new v017 test initially failed because `engine.mjs` was absent.
+- TDD GREEN engine slice: v017 material mutation and exact undo test passed after the minimal engine implementation.
+- Local tableau browser matrix: **10/10 canonical + 10/10 raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Tableau-first canonical runs: **10/10**.
+- Local diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
+- Overflow: **0**; `innerWidth == clientWidth == scrollWidth` in all matrix runs.
+- Local interaction at `390×844`: pointer movement only armed; held pointer changed memory `0 → 1`, Enter changed `1 → 2`, Delete restored `2 → 1` with the exact preceding pile signature, and release returned memory to `0`.
+- Reduced-motion/static blind preview kept the canvas visible while hiding readout, controls, header, and annotations; no overflow.
+- All three raw controls measured `44px` high and at least `118px` wide at `390×844`.
+- Local Journal readback rendered exactly one `#journal-naive-2026-09-24` entry with the recorded title and canonical work link.
+- Local Naive art current rendered exactly one current header and first artwork at `390×844` with no overflow.
+- Proofs: `research/qa/proofs/naive-art-v017-2026-09-24/summary.json`, `results.json`, `probe.mjs`, and 24 PNG captures.
+
+## Unresolved doubt
+
+No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, Journal/current, register, catalog, and route evidence are complete, but production readback and provider revision linkage remain unresolved. The blind perceptual question is whether the block pile reads as one load-bearing misaddress rather than a polished arrangement of coloured abstract blocks. The work therefore remains honestly **candidate / held**, not exhibition-ready.

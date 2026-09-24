@@ -2,6 +2,111 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-24",
+      "currentId": "naive",
+      "date": "2026-09-24",
+      "title": "The pile mistakes your shadow.",
+      "rawPath": "/studies/naive-art/v017/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-24",
+        "note": "v017 leaves the picture-strip and departure field behind. One lopsided canvas pile accepts a visitor's sustained presence, misaddresses the attended block as a distant block, cuts a false face into one body, makes another inherit the wrong identity, and exposes a real support gap; lifting the latest attention reconstructs the exact preceding pile."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The mistake must be geometry inside the pile: the addressed block needs a false face with changed construction, a distant block needs a materially inherited identity, and the support gap must be visible between shifted blocks."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and prose hidden, a caption-free viewer should first see one lopsided assembled pile, then notice a wrong face, a foreign identity, and a real gap after sustained attention."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement may only arm a witness. A bounded hold, Enter, and Space must commit the same attention event; lifting only the latest event must restore the exact prior pile."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v017 must break v014-v016's punctured scene, picture-strip, and isolated-form grammars: one load-bearing pile and sustained attention replace departure and absence."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v017 if a short tap and sustained hold are indistinguishable, if the false face is only a colour sticker, if inheritance is only a marker, or if the gap is only explained by prose."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v017-misaddressed-pile",
+        "visitorInput": true,
+        "seed": "0x4e413137",
+        "stages": 16,
+        "primitiveBudget": 39,
+        "blockCount": 10,
+        "memoryWindow": 4,
+        "settledStage": 15,
+        "settledMemory": 4,
+        "settledFalseFaces": 4,
+        "settledInheritedFaces": 4,
+        "settledGaps": 4,
+        "visitorMemoryAfterAttention": 1,
+        "memoryRule": "presence arms a witness -> sustained attention misaddresses a block -> a false face is cut into the target -> a distant block inherits the wrong identity -> the support pile exposes a gap",
+        "interactionRule": "pointer movement only arms; held attention, Enter, Space, and the control commit the same bounded event; undo restores the exact prior pile",
+        "representationRupture": "isolated SVG forms and distributed picture panels -> one assembled Canvas 2D pile of irregular blocks",
+        "encounterRupture": "visitor departure commits absence -> sustained presence commits a wrong assignment",
+        "temporalRupture": "instant or departure event -> dwell threshold with accumulated load",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4185/works/naive-2026-09-24/",
+        "rawPreview": "http://127.0.0.1:4185/studies/naive-art/v017/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4185/studies/naive-art/v017/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v017 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10 canonical + 10 raw local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and current 390x844 runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and at least 118px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, static blind, Journal, and current readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 16 with 0 attention events and no sustained-attention changes",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 15 / 16 with 4 visible attention events, 4 false faces, 4 inherited faces, and 4 gaps",
+        "pointerInteraction": "local raw pointer movement changed only armed state; a held pointer changed memory from 0 to 1 with one false face, one inherited face, and one gap",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and changed the pile signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding held-attention signature",
+        "releaseInteraction": "release sequence returned memory to 0 and cleared the interaction state",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-naive-2026-09-24 entry with the recorded title and canonical work link",
+        "current": "local Naive art current readback rendered exactly 1 current header and a first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures, raw interaction, static blind, Journal, and Naive current captures",
+        "evidenceFiles": "research/qa/proofs/naive-art-v017-2026-09-24/summary.json, results.json, probe.mjs, and 24 PNG captures",
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Invert v016's refusal of presence: in Naive art, sustained visitor attention makes one block misaddress the visitor as a distant block. The target receives a false face, the distant block inherits the wrong identity, and the supporting pile opens a gap.",
+        "visibleConsequence": "The blind field is one lopsided assembled pile rather than panels or isolated forms. After a held attention event, target geometry, distant inherited face, support displacement, and the exposed gap all change.",
+        "falsifier": "If pointer movement changes the pile before a hold, if the false face or inherited identity is only recolouring, or if the gap is not materially visible without prose, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Naive art v014-v016's puncture, picture-panel, and departure-is-absence grammar and opens a load-bearing misaddress direction: one assembled object, sustained presence, wrong identity, and support memory."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v017 if the false face, distant inheritance, and support gap are not legible in the pile itself or if a short tap behaves like a sustained hold.",
+        "lineage": "naive-2026-09-23"
+      }
+    },
+    {
       "id": "brush-2026-09-24",
       "currentId": "brush",
       "date": "2026-09-24",

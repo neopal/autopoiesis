@@ -1,0 +1,206 @@
+{
+  "matrixRuns": 10,
+  "rawMatrixRuns": 10,
+  "tableauFirstCount": 10,
+  "overflowCount": 0,
+  "interaction": {
+    "path": "/studies/naive-art/v017/?preview=1&interaction=1",
+    "httpStatus": 200,
+    "initial": {
+      "stage": 0,
+      "stages": 16,
+      "memory": 0,
+      "engineMemory": 0,
+      "immediatePresenceChanges": 0,
+      "sustainedAttentionChanges": 0,
+      "falseFaces": 0,
+      "inheritedFaces": 0,
+      "gaps": 0,
+      "interaction": "sequence",
+      "armed": false,
+      "holding": false,
+      "committedHold": false,
+      "attentionSignature": "brick-01|0.0376|0.0086|0.9465|0.9896|-0.0030|0.0010||brick-02|-0.0660|0.0055|0.9525|1.0069|0.0029|0.0011||brick-03|0.0225|0.0116|0.9624|0.9619|-0.0049|0.0059||brick-04|-0.0741|0.0023|0.9457|0.9653|0.0029|-0.0004||brick-05|0.0726|0.0018|0.9621|0.9982|0.0018|-0.0001||brick-06|-0.0613|0.0027|0.9775|1.0258|0.0030|0.0057||brick-07|0.0670|0.0070|0.9764|1.0197|0.0038|0.0018||brick-08|-0.0498|0.0007|0.9952|0.9541|-0.0017|0.0044||brick-09|0.0279|0.0035|0.9976|1.0138|0.0055|-0.0006||brick-10|-0.0697|0.0010|0.9822|0.9824|-0.0013|-0.0058"
+    },
+    "present": {
+      "stage": 0,
+      "stages": 16,
+      "memory": 0,
+      "engineMemory": 0,
+      "immediatePresenceChanges": 0,
+      "sustainedAttentionChanges": 0,
+      "falseFaces": 0,
+      "inheritedFaces": 0,
+      "gaps": 0,
+      "interaction": "sequence",
+      "armed": true,
+      "holding": false,
+      "committedHold": false,
+      "attentionSignature": "brick-01|0.0376|0.0086|0.9465|0.9896|-0.0030|0.0010||brick-02|-0.0660|0.0055|0.9525|1.0069|0.0029|0.0011||brick-03|0.0225|0.0116|0.9624|0.9619|-0.0049|0.0059||brick-04|-0.0741|0.0023|0.9457|0.9653|0.0029|-0.0004||brick-05|0.0726|0.0018|0.9621|0.9982|0.0018|-0.0001||brick-06|-0.0613|0.0027|0.9775|1.0258|0.0030|0.0057||brick-07|0.0670|0.0070|0.9764|1.0197|0.0038|0.0018||brick-08|-0.0498|0.0007|0.9952|0.9541|-0.0017|0.0044||brick-09|0.0279|0.0035|0.9976|1.0138|0.0055|-0.0006||brick-10|-0.0697|0.0010|0.9822|0.9824|-0.0013|-0.0058"
+    },
+    "attention": {
+      "stage": 0,
+      "stages": 16,
+      "memory": 1,
+      "engineMemory": 1,
+      "immediatePresenceChanges": 0,
+      "sustainedAttentionChanges": 4,
+      "falseFaces": 1,
+      "inheritedFaces": 1,
+      "gaps": 1,
+      "interaction": "visitor-attention",
+      "armed": false,
+      "holding": false,
+      "committedHold": true,
+      "attentionSignature": "brick-01|0.0875|0.0313|0.9465|0.9896|-0.0030|0.0010|inherited:eyelet:0.0971,-0.0300||brick-02|-0.0660|0.0055|0.9525|1.0069|0.0029|0.0011||brick-03|0.0225|0.0116|0.9624|0.9619|-0.0049|0.0059||brick-04|-0.0741|0.0023|0.9457|0.9653|0.0029|-0.0004||brick-05|0.0726|0.0018|0.9621|0.9982|0.0018|-0.0001||brick-06|-0.0613|0.0027|0.9775|1.0258|0.0030|0.0057||brick-07|0.0670|0.0070|0.9764|1.0197|0.0038|0.0018||brick-08|-0.1059|0.0541|0.9886|0.9581|-0.0017|0.0044|false:loop:-0.0499,-0.0500||brick-09|0.0279|0.0035|0.9976|1.0138|0.0055|-0.0006||brick-10|-0.0411|0.0010|0.9822|0.9824|0.0006|0.0097"
+    },
+    "keyboard": {
+      "stage": 0,
+      "stages": 16,
+      "memory": 2,
+      "engineMemory": 2,
+      "immediatePresenceChanges": 0,
+      "sustainedAttentionChanges": 8,
+      "falseFaces": 2,
+      "inheritedFaces": 2,
+      "gaps": 2,
+      "interaction": "visitor-attention",
+      "armed": false,
+      "holding": false,
+      "committedHold": true,
+      "attentionSignature": "brick-01|0.0875|0.0313|0.9465|0.9896|-0.0030|0.0010|inherited:eyelet:0.0971,-0.0300||brick-02|-0.0660|0.0055|0.9525|1.0069|0.0029|0.0011||brick-03|0.0225|0.0116|0.9624|0.9619|-0.0049|0.0059||brick-04|-0.0741|0.0023|0.9457|0.9653|0.0029|-0.0004||brick-05|0.0899|0.0631|0.9545|1.0028|0.0018|-0.0001|false:stripe:0.0154,-0.0620||brick-06|-0.0569|0.0027|0.9775|1.0258|-0.0071|0.0245||brick-07|0.0670|0.0070|0.9764|1.0197|0.0038|0.0018||brick-08|-0.1059|0.0541|0.9886|0.9581|-0.0017|0.0044|false:loop:-0.0499,-0.0500||brick-09|0.0126|0.0295|0.9976|1.0138|0.0055|-0.0006|inherited:knot:-0.1235,-0.0300||brick-10|-0.0411|0.0010|0.9822|0.9824|0.0006|0.0097"
+    },
+    "lifted": {
+      "stage": 0,
+      "stages": 16,
+      "memory": 1,
+      "engineMemory": 1,
+      "immediatePresenceChanges": 0,
+      "sustainedAttentionChanges": 4,
+      "falseFaces": 1,
+      "inheritedFaces": 1,
+      "gaps": 1,
+      "interaction": "attention-lifted",
+      "armed": false,
+      "holding": false,
+      "committedHold": false,
+      "attentionSignature": "brick-01|0.0875|0.0313|0.9465|0.9896|-0.0030|0.0010|inherited:eyelet:0.0971,-0.0300||brick-02|-0.0660|0.0055|0.9525|1.0069|0.0029|0.0011||brick-03|0.0225|0.0116|0.9624|0.9619|-0.0049|0.0059||brick-04|-0.0741|0.0023|0.9457|0.9653|0.0029|-0.0004||brick-05|0.0726|0.0018|0.9621|0.9982|0.0018|-0.0001||brick-06|-0.0613|0.0027|0.9775|1.0258|0.0030|0.0057||brick-07|0.0670|0.0070|0.9764|1.0197|0.0038|0.0018||brick-08|-0.1059|0.0541|0.9886|0.9581|-0.0017|0.0044|false:loop:-0.0499,-0.0500||brick-09|0.0279|0.0035|0.9976|1.0138|0.0055|-0.0006||brick-10|-0.0411|0.0010|0.9822|0.9824|0.0006|0.0097"
+    },
+    "released": {
+      "stage": 0,
+      "stages": 16,
+      "memory": 0,
+      "engineMemory": 0,
+      "immediatePresenceChanges": 0,
+      "sustainedAttentionChanges": 0,
+      "falseFaces": 0,
+      "inheritedFaces": 0,
+      "gaps": 0,
+      "interaction": "sequence",
+      "armed": false,
+      "holding": false,
+      "committedHold": false,
+      "attentionSignature": "brick-01|0.0376|0.0086|0.9465|0.9896|-0.0030|0.0010||brick-02|-0.0660|0.0055|0.9525|1.0069|0.0029|0.0011||brick-03|0.0225|0.0116|0.9624|0.9619|-0.0049|0.0059||brick-04|-0.0741|0.0023|0.9457|0.9653|0.0029|-0.0004||brick-05|0.0726|0.0018|0.9621|0.9982|0.0018|-0.0001||brick-06|-0.0613|0.0027|0.9775|1.0258|0.0030|0.0057||brick-07|0.0670|0.0070|0.9764|1.0197|0.0038|0.0018||brick-08|-0.0498|0.0007|0.9952|0.9541|-0.0017|0.0044||brick-09|0.0279|0.0035|0.9976|1.0138|0.0055|-0.0006||brick-10|-0.0697|0.0010|0.9822|0.9824|-0.0013|-0.0058"
+    },
+    "controls": [
+      {
+        "label": "hold attention",
+        "height": 44,
+        "width": 118.65625
+      },
+      {
+        "label": "undo latest",
+        "height": 44,
+        "width": 118.671875
+      },
+      {
+        "label": "release sequence",
+        "height": 44,
+        "width": 118.671875
+      }
+    ],
+    "outer": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "firstFrame": null,
+      "firstHeading": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "title": "MUTINE — naive art v017"
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "presenceOnlyArmed": true,
+    "exactLiftRestored": true,
+    "releaseCleared": true
+  },
+  "blind": {
+    "state": {
+      "stage": 15,
+      "stages": 16,
+      "memory": 4,
+      "engineMemory": 15,
+      "immediatePresenceChanges": 0,
+      "sustainedAttentionChanges": 16,
+      "falseFaces": 4,
+      "inheritedFaces": 4,
+      "gaps": 4,
+      "interaction": "sequence",
+      "armed": false,
+      "holding": false,
+      "committedHold": false,
+      "attentionSignature": "brick-01|0.0240|0.0040|0.9988|0.9482|0.0004|-0.0008||brick-02|-0.0457|0.0311|0.9907|0.9977|0.0001|-0.0006|inherited:stripe:-0.1171,-0.0300||brick-03|0.0971|0.0331|0.9494|0.9800|0.0000|-0.0049|inherited:stripe:0.1171,-0.0300||brick-04|-0.1655|0.0693|0.9821|0.9976|0.0013|0.0042|false:stripe:-0.0691,-0.0620||brick-05|0.0829|0.0069|0.9693|1.0276|-0.0138|0.0123||brick-06|-0.0888|0.0761|0.9695|1.0302|0.0052|-0.0036|false:stripe:-0.0072,-0.0740||brick-07|0.0734|0.0087|0.9443|0.9496|0.0024|0.0202||brick-08|-0.0355|0.0118|0.9807|1.0072|-0.0047|0.0002||brick-09|0.0389|0.1863|0.9673|1.0082|0.0054|-0.0005|false:star:-0.0201,-0.0500|false:ladder:-0.0540,-0.0860|inherited:cup:-0.1496,-0.0300|inherited:step:0.1111,-0.0300||brick-10|-0.0232|0.0078|0.9445|1.0038|0.0025|0.0320"
+    },
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "canvasVisible": true,
+    "readout": "none",
+    "controls": "none",
+    "header": "none",
+    "annotations": "none"
+  },
+  "journal": {
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "count": 1,
+    "title": "2026-09-24Naive art / candidate / heldThe pile mistakes your shadow.v017 leaves the picture-strip and departure field behind. One lopsided canvas pile accepts a visitor's sustained presence, misaddresses the attended block as a distant block, cuts a false face into one body, makes another inherit the wrong identity, and exposes a real support gap; lifting the latest attention reconstructs the exact preceding pile.open daily work ↗candidate / held5 critiquesdaily trace retained",
+    "firstArtwork": null
+  },
+  "current": {
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "count": 1,
+    "title": "Naive art",
+    "firstArtwork": {
+      "x": 34.5,
+      "y": 523.734375,
+      "width": 321,
+      "height": 250.375
+    }
+  },
+  "issueCount": 0
+}
