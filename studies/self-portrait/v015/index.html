@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11151a">
+  <title>MUTINE — The portrait resists pressure.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-24"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v015-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v015</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v015-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v015</span></nav>
+      <section class="v015-surface artwork-frame" aria-label="Self portrait pressure membrane">
+        <div class="v015-field-wrap">
+          <canvas id="field" role="img" aria-label="A continuous portrait membrane that dents, tears, and remembers pressure" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 14</span><span data-memory>0 scars held</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="pressure-control" data-gesture="pressure">press the membrane</button>
+            <button type="button" id="undo-control" data-gesture="undo">lift latest scar</button>
+            <button type="button" id="release-control" data-gesture="release">release pressure</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single material body carries its own resistance. Pressure does not add a witness; it changes the surface that must receive the next decision.</p></div>
+          <div><span>changed rule</span><p>A remembered press yields a real opening and a detached flap. The next press meets the scarred membrane, so resistance changes future geometry.</p></div>
+          <div><span>progression</span><p>Press the field or use Enter. Lift only the latest scar to compare the exact membrane before it yielded.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V015 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>resists pressure.</i></h1></div>
+        <p class="work-premise">A self-image as a continuous material body: pressure opens it, lifts part of it away, and makes the next decision harder.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: pressure changes the membrane, opens actual gaps, displaces flaps, and increases resistance at the scar. Promotion still depends on whether the blind surface reads as a portrait making material decisions without its labels.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>resist itself?</i></h2>
+        <div class="note-copy"><p>The field is not a history log and not a plate mosaic. Its memory is a resistance map rebuilt from a fixed seed and bounded to four pressure events. A press changes actual outline points, fibers, aperture, openings, detached flaps, and the force available to the next press.</p><dl><div><dt>seed</dt><dd>0x53504631 / replayable</dd></div><div><dt>input</dt><dd>pointer pressure, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>the scar is only colour, the gap is a sticker, or the next press behaves as if nothing happened</dd></div><div><dt>deletion</dt><dd>delete v015 if a caption-free pair sees a decorated oval instead of a yielding, tearing, resisting surface</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

@@ -2,6 +2,91 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-09-24",
+      "currentId": "portrait",
+      "date": "2026-09-24",
+      "title": "The portrait resists pressure.",
+      "rawPath": "/studies/self-portrait/v015/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-24",
+        "note": "v015 abandons the reciprocal plate mosaic for one continuous pressure-bearing membrane. A press dents the body, opens a real gap, lifts a detached flap, and increases local resistance so the next press yields differently; lifting the latest scar reconstructs the preceding membrane exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The pressure event must live in geometry: the continuous membrane must dent, the opening must remove material, the banks must separate, and the flap must occupy a new position. Colour, halo, or a scar label cannot substitute for a changed surface."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, controls, fibres, and prose hidden, a caption-free viewer should see one continuous body with a real rupture and a displaced fragment. If it reads as an oval with decorative scratches, the material rule fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer pressure, click, Enter, and Space must create the same bounded pressure event; lifting only the latest scar must restore the exact preceding outline, resistance map, opening, and flap. A second press at the same place must visibly meet a different resistance."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v015 must break v013-v014's route and reciprocal-plate grammar. Its first-render task is to read a single material body, and its interaction must change the future law of the body rather than assign looking and answering roles."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Material memory is an easy metaphor. Delete v015 if the gap is a destination-out sticker over unchanged geometry, if the flap is only a coloured witness, or if repeated pressure changes only opacity, labels, or noise."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v015-pressure-membrane",
+        "visitorInput": true,
+        "seed": "0x53504631",
+        "stages": 14,
+        "outlinePoints": 72,
+        "fiberBands": 13,
+        "resistanceSectors": 24,
+        "primitiveBudget": 63,
+        "memoryWindow": 4,
+        "settledStage": 13,
+        "finalMemory": 4,
+        "finalScars": 4,
+        "finalFlaps": 4,
+        "memoryRule": "a remembered pressure increases local resistance, changes the next yield, opens a material gap, and lifts a detached flap",
+        "interactionRule": "pointer pressure, Enter, and Space alter outline points, fibers, aperture, resistance, gap geometry, and flap position; lifting the latest restores the exact prior membrane",
+        "representationRupture": "discrete reciprocal plate mosaic -> one continuous pressure-bearing membrane",
+        "encounterRupture": "visitor looks and a part answers -> visitor presses and the material law of the next press changes",
+        "temporalRupture": "bounded witness roles -> accumulated resistance with changed future response",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless matrix passed / held for production readback and independent caption-free perceptual review",
+        "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "interaction": "pointer pressure, Enter, Space, lift latest scar, and release pressure exercised; exact prior membrane restoration observed",
+        "catalogReadback": "local Journal anchor/title and Self portrait current header/first work observed at 390x844",
+        "diagnostics": "zero console messages, page errors, failed requests, or HTTP 400+ responses in local tableau and catalog probes",
+        "unresolved": [
+          "production readback and provider revision linking the stable alias to the GitHub SHA",
+          "independent caption-free perceptual comparison with readout, controls, fibres, and prose hidden"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Material is implemented as a programmable field of pressure, density, grain, and directional behaviour; it changes how geometry is produced rather than only changing a surface colour.",
+        "translatedRule": "In Self portrait, pressure becomes a resistance map in one continuous membrane. A press yields an actual opening and lifts a detached flap; later pressure in the scarred neighbourhood meets more resistance and changes its yield.",
+        "visibleConsequence": "The blind field is one continuous body rather than a plate grid. After pressure, the body dents, tears open, and carries a displaced flap; repeated pressure at the same place produces a different material response.",
+        "falsifier": "If the opening is only colour, if the flap is only a witness sticker, or if a second press behaves as if the first never happened, the material translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, API surface, palette, or source composition is reproduced.",
+        "directionConsequence": "Closes the Self portrait current’s v013 route and v014 reciprocal-plate grammar and opens material-agency work: one continuous self-image whose resistance changes the future event."
+      },
+      "decision": {
+        "nextMutation": "Run an independent caption-free comparison with readout, controls, fibres, and prose hidden; delete v015 if yielding, tearing, resistance, and changed repeat pressure are not legible in the membrane itself.",
+        "lineage": "portrait-2026-09-23"
+      }
+    },
+    {
       "id": "naive-2026-09-23",
       "currentId": "naive",
       "date": "2026-09-23",
