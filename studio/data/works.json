@@ -57,16 +57,27 @@
         "replay": true,
         "renderer": "deterministic Canvas 2D",
         "measured": true,
-        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision verification"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision verification"
       },
       "browserEvidence": {
-        "status": "local headless matrix passed / held for production readback and independent caption-free perceptual review",
+        "status": "local and stable-alias headless browser matrices passed / held for independent caption-free perceptual review",
         "viewportMatrix": "10/10 local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "interaction": "pointer pressure, Enter, Space, lift latest scar, and release pressure exercised; exact prior membrane restoration observed",
         "catalogReadback": "local Journal anchor/title and Self portrait current header/first work observed at 390x844",
         "diagnostics": "zero console messages, page errors, failed requests, or HTTP 400+ responses in local tableau and catalog probes",
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "recordExactlyOnce": true,
+          "journalAnchor": "journal-portrait-2026-09-24",
+          "journalTitle": "The portrait resists pressure.",
+          "currentHeader": "Self portrait",
+          "viewportMatrix": "10/10 stable-alias runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+          "interaction": "production pointer pressure, Enter, Space, lift latest scar, and release pressure exercised; exact prior membrane restoration observed",
+          "diagnostics": "zero console messages, page errors, failed requests, or HTTP 400+ responses in production tableau and catalog probes",
+          "deployment": "dpl_7qken6cCmRihVEDA6yFo2aq6r7VW"
+        },
         "unresolved": [
-          "production readback and provider revision linking the stable alias to the GitHub SHA",
+          "provider revision linking the stable alias to the GitHub SHA",
           "independent caption-free perceptual comparison with readout, controls, fibres, and prose hidden"
         ]
       },

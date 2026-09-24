@@ -52,14 +52,14 @@ Delete v015 if the gap is only a colour or destination-out sticker over unchange
 - `studio/data/catalog-public.json`
 - `tests/portrait-v015.test.mjs`
 - Updated count/date/catalog assertions in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
-- `research/qa/proofs/portrait-v015-2026-09-24/`
+- `research/qa/proofs/portrait-v015-2026-09-24/` including local results, catalog readback, and `production-render-probe.mjs` / `production-render-results.json`
 
 ## Verification
 
 - TDD RED observed first: the new browser-evidence assertion failed because the record still said browser evidence was pending.
 - TDD GREEN: targeted v015 tests **7 passed** after recording the observed local matrix.
 - Full suite: **471 passed, 0 failed, 0 skipped, 0 todo**.
-- `node --check` passed for changed study JavaScript, targeted test, and both browser probes.
+- `node --check` passed for changed study JavaScript, targeted test, tableau probes, and production render probe.
 - `git diff --check`: **PASS**.
 - Local tableau browser matrix: **10/10 runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
 - Local raw tableau matrix: **10/10 runs passed** at the same five viewports and motion modes.
@@ -67,8 +67,18 @@ Delete v015 if the gap is only a colour or destination-out sticker over unchange
 - Local interaction: pointer pressure, Enter, Space, lift latest scar, and release pressure were exercised; lifting restored the exact preceding membrane.
 - Local catalog readback at `390×844`: Journal contained exactly `#journal-portrait-2026-09-24` with the recorded title; Self portrait current showed the current header and first work card; `innerWidth == clientWidth == scrollWidth == 390`.
 
+## Production verification
+
+- Commit: `65539a03a78363765ca2bddf1496a905a0409e6b`
+- GitHub `origin/main`: matched the local commit SHA.
+- Vercel deployment: `dpl_7qken6cCmRihVEDA6yFo2aq6r7VW`, stable alias `https://autopoiesis-nine.vercel.app/`.
+- Stable-alias browser matrix: **10/10 canonical + 10/10 raw runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Stable-alias diagnostics: zero console messages, page errors, failed requests, or HTTP 400+ responses in tableau and catalog probes.
+- Stable-alias rendered Journal: exactly one `#journal-portrait-2026-09-24` entry with title *The portrait resists pressure.*
+- Stable-alias Self portrait current: header `Self portrait` and first work `The portrait resists pressure.` observed at `390×844` with no horizontal overflow.
+- Stable-alias register: exactly one `portrait-2026-09-24` record with the expected raw path and title.
+- Canonical work, raw tableau, and favicon returned HTTP 200.
+
 ## Unresolved doubt
 
-No independent caption-free perceptual reviewer is available in this unattended run. The structural and local browser gates are evidenced, but production readback, provider-revision linkage, and the blind perceptual comparison remain unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.
-
-No commit, push, or deployment has been performed at this point in the record.
+No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, production browser, Journal/current, register, and route evidence are complete, but provider-revision linkage from the stable alias to the GitHub SHA and the blind perceptual comparison remain unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.

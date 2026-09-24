@@ -113,8 +113,11 @@ test('portrait v015 is the unique 2026-09-24 daily work with a canonical page', 
   assert.equal(work.id, 'portrait-2026-09-24');
   assert.equal(work.rawPath, '/studies/self-portrait/v015/');
   assert.equal(work.status, 'candidate / held');
-  assert.equal(work.browserEvidence.status, 'local headless matrix passed / held for production readback and independent caption-free perceptual review');
+  assert.equal(work.browserEvidence.status, 'local and stable-alias headless browser matrices passed / held for independent caption-free perceptual review');
   assert.match(work.browserEvidence.viewportMatrix, /^10\/10 local headless runs passed/);
+  assert.equal(work.browserEvidence.production.stableAlias, 'https://autopoiesis-nine.vercel.app');
+  assert.equal(work.browserEvidence.production.recordExactlyOnce, true);
+  assert.match(work.browserEvidence.production.viewportMatrix, /^10\/10 stable-alias runs passed/);
   assert.equal(work.journal.anchor, 'journal-portrait-2026-09-24');
   assert.equal(work.decision.lineage, 'portrait-2026-09-23');
 
