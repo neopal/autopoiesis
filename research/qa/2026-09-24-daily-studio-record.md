@@ -214,3 +214,74 @@ The changed rule is void ownership. Situated attention, translated from the sour
 ## Unresolved doubt
 
 The structural and runtime gates pass. The work remains **candidate / held** because no independent caption-free perceptual critic was available in this unattended run. The unresolved question is whether the blind first-render and post-attention state communicate *void ownership* rather than merely a polished family of abstract blobs. Provider revision linkage from the stable production alias to the eventual GitHub SHA is also unverified until after deployment.
+
+---
+
+# Fresh daily work run — Brush / 2026-09-24
+
+## Slot and status
+
+- Current: Brush (`brush`)
+- Work: `brush-2026-09-24`
+- Study: `studies/p5-brush/v018/`
+- Canonical route: `/works/brush-2026-09-24/`
+- Title: *The brush keeps the back.*
+- Status: **candidate / held**
+
+## Artistic gate
+
+### Repeated grammar refused
+
+The previous three Brush works repeatedly used guided trails, tiled pressure, and discrete material islands. Their shared gesture was approach → pressure trace → reversible surface response. v018 refuses that front-facing trail grammar and returns to one continuous membrane with a new temporal rule: pointer departure, not pointer arrival, commits the material event.
+
+### Structural rupture
+
+On departure, the membrane opens an actual aperture through the front skin, the surrounding contour buckles, and the displaced load rises as a far-side fold. The latest departure is exactly reversible. Repeated departures are capped memory, not decorative recolouring.
+
+This changes representation (trails/islands → continuous membrane), encounter (approach/hover → consequential departure), temporal behaviour (reversible response → bounded memory), and visible grammar (front marks → front aperture plus non-local back fold). It is a new causal engine, not a palette, texture, density, title, or annotation change.
+
+- Hypothesis: departure can become a material operation; the brush surface can keep what leaves it by moving the load to the back.
+- Visible consequence: hovering leaves the membrane unchanged; leaving creates an aperture, a changed contour, and a distant back-fold.
+- Falsifier: if leaving is indistinguishable from hovering, if the aperture is a dark sticker, or if the fold is only a line or colour shift, the translation fails.
+- Deletion condition: delete v018 if the blind field reads as decorative scratches, if the aperture does not remove front fill and buckle the contour, or if exact undo/release cannot restore the prior state.
+
+## Cultural translation / anti-copy
+
+- Reference: `little-critters` — https://github.com/GordenSun/little-critters
+- Observed mechanism: situated agents change attention through proximity and reciprocal looking; the visitor becomes part of the encounter.
+- Mutine translation: invert the reply. The material refuses to answer an approach; only departure causes the surface to open and lift its displaced load to the back.
+- Visible consequence: hover leaves the membrane stable; departure commits an aperture, contour buckling, and a non-local fold; later departures accumulate within a bounded memory window.
+- Anti-copy statement: no animals, characters, eyes, head-turning scene, source palette, composition, or surface vocabulary is reproduced.
+- Direction consequence: closes the recent Brush trail/island grammar and opens delayed material consequence, departure memory, and front/back membrane logic.
+
+## Files
+
+- `studies/p5-brush/v018/index.html`
+- `studies/p5-brush/v018/engine.mjs`
+- `studies/p5-brush/v018/sketch.js`
+- `studies/p5-brush/v018/style.css`
+- `studies/p5-brush/v018/README.md`
+- `studies/p5-brush/v018/metrics.json`
+- `studies/p5-brush/v018/critiques.json`
+- `works/brush-2026-09-24/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `tests/p5-brush-v018.test.mjs`
+- Updated count/date/catalog assertions in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
+- `research/qa/proofs/brush-v018-2026-09-24/` including local results, probe, and 24 PNG captures
+
+## Verification
+
+- TDD RED observed first for the v018 engine contract; the targeted suite failed before the implementation existed. GREEN: targeted v018 tests passed after the minimal engine and tableau were added.
+- Full suite: **480 passed, 0 failed, 0 skipped, 0 todo**.
+- `node --check` passed for changed study JavaScript, the targeted test, and the browser probe.
+- `git diff --check`: **PASS**.
+- Local tableau browser matrix: **10/10 canonical + 10/10 raw** runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
+- Local diagnostics: zero console messages, page errors, failed requests, or HTTP 400+ responses.
+- Local interaction: departure changed memory `0 → 1`, Enter changed it `1 → 2`, Delete restored `2 → 1` with the exact preceding canvas signature, and release returned memory to `0`.
+- All three raw controls measured `44px` high at `390×844`; blind preview kept the canvas visible while hiding readout, controls, header, and annotations.
+- Local Journal/current readback: exactly one matching Journal anchor/title/link and one Brush current header/first artwork; no horizontal overflow at `390×844`.
+
+## Unresolved doubt
+
+No independent caption-free perceptual reviewer is available in this unattended run. Structural, local browser, Journal/current, register, and route evidence are complete, but production readback and provider-revision linkage from the stable alias to the eventual GitHub SHA remain unresolved until deployment. The work therefore remains honestly **candidate / held**, not exhibition-ready.

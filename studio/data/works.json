@@ -2,6 +2,108 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-24",
+      "currentId": "brush",
+      "date": "2026-09-24",
+      "title": "The brush keeps the back.",
+      "rawPath": "/studies/p5-brush/v018/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-24",
+        "note": "v018 refuses the approach grammar. A visitor can arm a witness, but only departure commits the material event: the continuous skin opens, the surrounding contour buckles, and the missing load rises as a far-side fold; lifting the latest departure reconstructs the exact preceding membrane."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The departure must live in one continuous membrane: an actual aperture needs to remove the front fill, the surrounding contour must buckle, and the displaced load must become a volumetric rear fold. A dark oval, halo, or line cannot substitute for changed geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and prose hidden, the first encounter should read as one sheet with a front and a back, not as a route bundle, pressure plate, or population of islands. After leaving, a viewer must notice both a cut and a distant lifted edge."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement must only arm the witness. Pointer leave, Enter, and Space must commit the same bounded departure, while lifting only the latest event restores the exact preceding surface and fold."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v018 must switch both representation and viewer task after v015-v017: continuous membrane replaces routes, plates, and islands; departure replaces drawing, approach, and social transfer as the causal action."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Absence and reciprocity are easy metaphors. Delete v018 if leaving is not causally different from hovering, if the aperture is only a dark sticker, if the back-fold reads as a decorative ribbon, or if repeated departures are only colour changes."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v018-departure-fold",
+        "visitorInput": true,
+        "seed": "0x42525538",
+        "stages": 15,
+        "surfacePoints": 36,
+        "primitiveBudget": 48,
+        "memoryWindow": 4,
+        "settledStage": 14,
+        "settledMemory": 4,
+        "settledApertures": 4,
+        "visitorMemory": 1,
+        "memoryRule": "a remembered departure opens a real aperture in the continuous membrane and carries the missing load to a far-side back-fold",
+        "interactionRule": "pointer enter and move only arm a witness; pointer leave, Enter, or Space commits a fold; lifting it restores the exact prior membrane",
+        "representationRupture": "route field, tiled pressure plate, and isolated islands -> one continuous front skin with a non-local back-fold",
+        "encounterRupture": "approach, draw, or transfer -> hold, leave, and make absence the causal state",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4183/works/brush-2026-09-24/",
+        "rawPreview": "http://127.0.0.1:4183/studies/p5-brush/v018/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4183/studies/p5-brush/v018/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v018 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10 canonical + 10 raw local headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; blind, Journal, and Brush current runs also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs, interaction, blind, Journal, and current",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across the local browser matrix and focused probes",
+        "normalState": "normal-motion raw interaction opened at memory 0 / 0 apertures; the departure interaction route was live and deterministic",
+        "reducedMotionState": "reduced-motion canonical and raw runs settled on memory 4 / 4 apertures",
+        "pointerInteraction": "pointer enter + move + leave changed memory from 0 to 1, changed the compact canvas signature, and reported visitor-departure-fold",
+        "keyboardInteraction": "Enter changed memory from 1 to 2 and changed the compact canvas signature",
+        "liftInteraction": "Delete changed memory from 2 to 1 and restored the exact preceding departure signature",
+        "releaseInteraction": "release sequence returned to memory 0 and the sequence state",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-brush-2026-09-24 entry with the recorded title and canonical work link",
+        "current": "local Brush current readback rendered exactly 1 current header and a first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures, raw interaction, static blind, Journal, and Brush current captures",
+        "evidenceFiles": "research/qa/proofs/brush-v018-2026-09-24/results.json, probe.mjs, and 24 PNG captures",
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Invert the reciprocal look in Brush: proximity only arms a witness; departure refuses the visitor and makes one continuous pigment skin open while the displaced load rises as a far-side back-fold.",
+        "visibleConsequence": "Hovering leaves the membrane unchanged. Leaving creates a real aperture whose surrounding contour buckles and raises a distant fold with changed depth, span, turn, and load.",
+        "falsifier": "If pointer leave is indistinguishable from hover, if the aperture is a dark sticker, or if the far fold is only a line or colour shift, the inversion fails.",
+        "antiCopy": "No animals, characters, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Brush route, basin, pressure-plate, and island grammar and opens a temporal absence direction: departure as a state transition, continuous skin as medium, and front/back as memory."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v018 if the cut and far fold are not legible in the membrane itself or if it still reads as v017, v016, or a route field.",
+        "lineage": "brush-2026-09-23"
+      }
+    },
+    {
       "id": "svg-2026-09-24",
       "currentId": "svg",
       "date": "2026-09-24",
