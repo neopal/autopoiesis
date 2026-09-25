@@ -73,8 +73,10 @@ Hide the readout, controls, witness marks, annotations, and prose. The direction
 ## Git and deployment
 
 - Implementation commit: `0b31cb99555515509b7ec1d25fca2837cc668eb7`.
-- `origin/main`: matched the implementation commit after push.
-- Production deployment: `dpl_EhuXBUKhjkQtqxDGerP57U6K4uR5`.
+- Evidence commit: `b5fbac726c77e7c6c2112e08d5706c8f15caa97e`.
+- `origin/main`: matched the evidence commit after push.
+- Initial production deployment carrying the artwork: `dpl_EhuXBUKhjkQtqxDGerP57U6K4uR5`.
+- Final production deployment carrying the evidence update: `dpl_7e2cQQ4kMsMTN6YLm7T2dw5NW2UT`.
 - Stable alias: `https://autopoiesis-nine.vercel.app/`.
 
 ## Publication boundary
