@@ -1,0 +1,61 @@
+{
+  "base": "https://autopoiesis-nine.vercel.app",
+  "deploymentId": "dpl_EhuXBUKhjkQtqxDGerP57U6K4uR5",
+  "matrixRuns": 20,
+  "matrixFailures": 0,
+  "matrixViewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "motionModes": ["no-preference", "reduce"],
+  "interaction": {
+    "initial": {"stage": 0, "memory": 0, "attentions": 0, "voids": 0, "transfers": 0},
+    "armed": {"stage": 0, "memory": 0, "attentions": 0, "voids": 0, "transfers": 0},
+    "pointer": {"stage": 0, "memory": 1, "attentions": 1, "voids": 1, "transfers": 1},
+    "keyboard": {"stage": 0, "memory": 2, "attentions": 2, "voids": 2, "transfers": 2},
+    "lifted": {"stage": 0, "memory": 1, "attentions": 1, "voids": 1, "transfers": 1},
+    "released": {"stage": 0, "memory": 0, "attentions": 0, "voids": 0, "transfers": 0}
+  },
+  "blindEvidence": {
+    "canvasVisible": true,
+    "readoutDisplay": "none",
+    "controlsDisplay": "none",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "http": {
+    "registerStatus": 200,
+    "journalStatus": 200,
+    "canonicalStatus": 200,
+    "rawStatus": 200,
+    "faviconStatus": 200,
+    "matchingRecords": 1,
+    "registerContainsTitle": true,
+    "canonicalContainsMount": true,
+    "rawContainsCanvas": true
+  },
+  "journalRendered": {
+    "entryCount": 1,
+    "title": true,
+    "links": [
+      {"text": "The portrait loses the watched patch.", "href": "/works/portrait-2026-09-25/#journal"},
+      {"text": "open daily work ↗", "href": "/works/portrait-2026-09-25/"}
+    ],
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  },
+  "notes": [
+    "The 20-run production matrix and raw interaction readback were completed against the stable alias before the rendered Journal readback.",
+    "The Journal entry was verified in the rendered DOM rather than by raw HTML text because the Journal is data-rendered client-side."
+  ]
+}

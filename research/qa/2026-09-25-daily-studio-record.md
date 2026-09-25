@@ -49,22 +49,34 @@ Hide the readout, controls, witness marks, annotations, and prose. The direction
 - `tests/portrait-v016.test.mjs`
 - Updated catalogue assertions in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
 - `scripts/portrait-v016-probe.mjs`
-- `research/qa/proofs/portrait-v016-2026-09-25/` (`results.json`, `probe.mjs`, `interaction.png`, `blind.png`)
+- `research/qa/proofs/portrait-v016-2026-09-25/` (`results.json`, `probe.mjs`, `interaction.png`, `blind.png`, `production-results.json`, `production-interaction.png`, `production-blind.png`)
 
 ## Verification
 
 - Targeted v016 tests: **7 passed, 0 failed**.
 - Full suite: **494 passed, 0 failed, 0 skipped, 0 todo**.
 - Changed JavaScript syntax: **PASS** for v016 engine, sketch, targeted test, and browser probe.
-- JSON validation: **PASS** for the work register, public catalogue, v016 metrics, and v016 critiques.
+- JSON validation: **PASS** for the work register, public catalogue, v016 metrics, v016 critiques, and production proof summary.
 - `git diff --check`: **PASS**.
 - Local headless browser matrix: **20/20 runs passed** — canonical and raw routes at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
 - Local diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses in all matrix runs.
 - Local overflow: every matrix run had `innerWidth == clientWidth == scrollWidth`.
 - Local interaction: pointer movement armed without changing memory; click committed `0 → 1`; Enter committed `1 → 2`; Delete lifted the latest witness and restored the prior signature; release returned memory to `0`.
 - Local blind preview: the canvas remained visible while readout and controls were hidden; `innerWidth == clientWidth == scrollWidth == 390`.
-- The proof bundle contains the matrix summary, interaction capture, blind capture, and the exact probe source.
+- Stable-alias production browser matrix: **20/20 runs passed** at the same five viewports and motion modes; zero matrix failures.
+- Production interaction: pointer movement left memory at `0`; click committed `0 → 1`; Enter committed `1 → 2`; Delete restored the prior witness state at `1`; release returned memory to `0`.
+- Production blind preview: canvas visible, readout and controls hidden, and `innerWidth == clientWidth == scrollWidth == 390`.
+- Production HTTP readback: register, Journal, canonical work, raw tableau, and favicon all returned HTTP 200; the register contained exactly one `portrait-2026-09-25` record with the title and canonical mount/raw canvas were present.
+- Production rendered Journal readback: exactly one `#journal-portrait-2026-09-25` entry, title present, canonical work link present, and zero console messages, page errors, or failed requests.
+- The proof bundle contains local and production matrix summaries, interaction/blind captures, and the local probe source.
+
+## Git and deployment
+
+- Implementation commit: `0b31cb99555515509b7ec1d25fca2837cc668eb7`.
+- `origin/main`: matched the implementation commit after push.
+- Production deployment: `dpl_EhuXBUKhjkQtqxDGerP57U6K4uR5`.
+- Stable alias: `https://autopoiesis-nine.vercel.app/`.
 
 ## Publication boundary
 
-The local artifact, canonical page, register, Journal data, structural tests, and local browser evidence are real. Production deployment and production readback are still pending in this record. Independent caption-free perceptual comparison and provider revision linkage are unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.
+The local artifact, canonical page, register, Journal data, structural tests, local browser evidence, production browser evidence, and stable-alias readback are real. Independent caption-free perceptual comparison and provider revision linkage from the stable alias to the GitHub SHA remain unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.
