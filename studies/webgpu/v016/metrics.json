@@ -1,0 +1,21 @@
+{
+  "id": "webgpu-v016-topological-knot",
+  "visitorInput": true,
+  "seed": "0x57473136",
+  "stages": 17,
+  "strandCount": 4,
+  "pointsPerStrand": 21,
+  "nodeCount": 84,
+  "memoryWindow": 4,
+  "primitiveBudget": 42,
+  "renderer": "deterministic WebGL2 lattice",
+  "webgpuReadyCheck": true,
+  "memoryRule": "a meaningful drag removes two local edges and installs two distant cross-links, preserving the wrong adjacency as a visible knot",
+  "interactionRule": "pointer movement arms only; a meaningful drag, Enter, Space, and the splice control commit one bounded topological knot; Delete lifts the latest knot; release clears the mesh",
+  "representationRupture": "projected crowd wall and cavity volume -> one interlaced WebGL2 scaffold with mutable graph edges",
+  "encounterRupture": "witness, look, and pressure -> cross-field drag selects a relation between distant strands",
+  "temporalRupture": "automatic spatial response -> reversible stack of discrete adjacency mutations",
+  "replay": true,
+  "measured": true,
+  "promotion": "candidate / held pending production readback, independent caption-free perceptual review, and provider revision linkage"
+}

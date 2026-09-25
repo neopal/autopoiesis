@@ -2,6 +2,97 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "webgpu-2026-09-25",
+      "currentId": "webgpu",
+      "date": "2026-09-25",
+      "title": "The crowd ties itself elsewhere.",
+      "rawPath": "/studies/webgpu/v016/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-09-25",
+        "note": "v016 abandons the hinge, reciprocal look, pressure surface, and remembered cavity. One interlaced WebGL2 scaffold accepts a meaningful drag between distant strands: two actual local edges disappear, two distant cross-links appear, and the wrong adjacency remains as a visible knot; lifting the latest knot reconstructs the exact preceding lattice."
+      },
+      "critiques": [
+        {"persona":"Topology critic","argument":"The event must live in the graph: two actual local edges need to disappear and two distant cross-links need to carry the relation. A glow, badge, or colour legend cannot substitute for changed adjacency."},
+        {"persona":"Perceptual critic","argument":"With labels, readout, controls, and prose hidden, the first encounter should read as one woven spatial object. After a drag, the missing strand segments and distant diagonal knot must be findable in the scaffold itself."},
+        {"persona":"Interaction critic","argument":"Pointer movement and a short tap must be refused. A meaningful drag, the splice control, Enter, and Space must commit the same bounded event; Delete must restore the exact preceding graph."},
+        {"persona":"Medium critic","argument":"The switch to WebGL2 must change the encounter, not merely accelerate a Canvas drawing. Depth, projected crossing, line hierarchy, and the topology mutation must be visible before the explanation."},
+        {"persona":"Cynic","argument":"Delete v016 if the scaffold is only a decorative wireframe, if the old edges remain under the bridges, if a click behaves like a drag, or if the result still reads as v015's cavity wall with a new colour."}
+      ],
+      "metrics": {
+        "id": "webgpu-v016-topological-knot",
+        "visitorInput": true,
+        "seed": "0x57473136",
+        "stages": 17,
+        "strandCount": 4,
+        "pointsPerStrand": 21,
+        "nodeCount": 84,
+        "baseEdgeCount": 100,
+        "memoryWindow": 4,
+        "finalMemory": 4,
+        "finalRemovedEdges": 8,
+        "finalBridgeEdges": 8,
+        "primitiveBudget": 42,
+        "memoryRule": "a meaningful drag removes two local edges and installs two distant cross-links, preserving the wrong adjacency as a visible knot",
+        "interactionRule": "pointer movement arms only; a meaningful drag, Enter, Space, and the splice control commit one bounded topological knot; Delete lifts the latest knot; release clears the mesh",
+        "representationRupture": "projected crowd wall and cavity volume -> one interlaced WebGL2 scaffold with mutable graph edges",
+        "encounterRupture": "witness, look, and pressure -> cross-field drag selects a relation between distant strands",
+        "temporalRupture": "automatic spatial response -> reversible stack of discrete adjacency mutations",
+        "replay": true,
+        "renderer": "deterministic WebGL2 lattice",
+        "measured": true,
+        "promotion": "candidate / held pending production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4188/works/webgpu-2026-09-25/",
+        "rawPreview": "http://127.0.0.1:4188/studies/webgpu/v016/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4188/studies/webgpu/v016/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v016 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; blind, Journal, and WebGPU current readbacks also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and at least 115px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 0 with 0 knots",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 16 / 17 with 4 remembered knots",
+        "shortClick": "local raw short click left memory and graph signature unchanged",
+        "dragInteraction": "local raw drag changed memory from 0 to 1 with 2 removed edges and 2 bridge edges",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and changed the graph signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding dragged signature",
+        "releaseInteraction": "release sequence returned to the deterministic empty lattice",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-webgpu-2026-09-25 entry with the recorded title and canonical work link",
+        "current": "local WebGPU current readback rendered exactly 1 current header and first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures plus interaction, blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/webgpu-v016-2026-09-25/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal relation.",
+        "translatedRule": "Remove the agents and invert reciprocity into a topological relation. A drag between distant strands makes the scaffold exchange two edges, so the crowd remembers a wrong connection rather than looking back.",
+        "visibleConsequence": "The blind first view is an interlaced spatial object. After a meaningful drag, two actual strand gaps and two distant diagonal bridges make a knot elsewhere; lifting the latest event restores the preceding graph exactly.",
+        "falsifier": "If a short click changes the lattice, if pointer movement commits before release, if the original edges remain and the bridges are only glowing overlays, or if the blind field reads as a generic wireframe, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, composition, or head-turning surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes WebGPU v012's hinge, v013's social orientation, and v015's cavity grammars; opens a graph-and-medium direction in which the archive is a remembered change in adjacency."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v016 if removed edges and distant cross-links are not legible in the scaffold itself or if the work still reads as v015's cavity wall.",
+        "lineage": "webgpu-2026-09-24"
+      }
+    },
+    {
       "id": "naive-2026-09-25",
       "currentId": "naive",
       "date": "2026-09-25",

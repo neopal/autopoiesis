@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08101a">
+  <meta name="description" content="A WebGL2 lattice whose topology changes when a visitor drags between distant strands.">
+  <title>MUTINE — The crowd ties itself elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=016">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-25"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="knot-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v016 / remembered knot</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="knot-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v016</span></nav>
+      <section class="knot-work" aria-label="WebGPU daily work">
+        <figure class="knot-frame artwork-frame">
+          <canvas id="field" role="img" aria-label="An interlaced spatial lattice changes its topology when a visitor drags between distant strands" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape"></canvas>
+          <div class="knot-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 knots</span><span data-renderer>WEBGL2 / TOPOLOGY CHECK</span></div>
+          <div class="knot-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="splice">splice the lattice</button>
+            <button type="button" data-gesture="lift">lift latest knot</button>
+            <button type="button" data-gesture="release">release the mesh</button>
+          </div>
+          <figcaption><span>WEBGPU / V016 / DAILY WORK</span><span>drag → cut → tie</span></figcaption>
+        </figure>
+        <aside class="knot-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a wall of bodies or a room made by missing bodies. It is one braided scaffold with edges that can change owners.</p></div>
+          <div><span>changed rule</span><p>A meaningful drag removes two actual local edges and installs two distant cross-links. The archive is topology, not brightness, density, or depth.</p></div>
+          <div><span>progression</span><p>Drag across the field, then lift only the latest knot. A short click is refused; Enter and Space replay the deterministic splice.</p></div>
+        </aside>
+      </section>
+      <section class="knot-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V016 / DAILY WORK</p><h1 id="work-title">The crowd ties<br><i>itself elsewhere.</i></h1></div>
+        <p class="knot-premise">The archive is not a pile of witnesses. It is a change in who is connected to whom, kept visible as a knot in the scaffold.</p>
+      </section>
+      <section class="knot-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a drag changes graph edges, creates distant bridges, and reverses exactly. Promotion depends on whether the blind field reads as a single woven spatial object rather than a decorative wireframe.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>drag → topology → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=016a"></script>
+</body>
+</html>
