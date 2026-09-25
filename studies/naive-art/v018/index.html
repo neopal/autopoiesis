@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b2d">
+  <title>MUTINE — naive art v018</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.has('blind')) document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-25"></script>
+</head>
+<body class="work-page interactive-preview" data-current="naive">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / naive art / v018</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">→</span><span aria-current="page">v018</span></nav>
+      <section class="work-surface" aria-label="Naive art daily work">
+        <div class="field-column">
+          <div class="field-wrap artwork-frame">
+            <canvas id="field" role="img" aria-label="A crooked hinged paper sculpture that misremembers which neighbour it belongs to when dragged" tabindex="0" aria-keyshortcuts="Enter Space Delete"></canvas>
+            <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 folds remembered</span></div>
+            <div class="field-controls" aria-label="Work gestures">
+              <button type="button" id="fold-control" data-gesture="fold">make wrong fold</button>
+              <button type="button" id="undo-control" data-gesture="undo">undo latest</button>
+              <button type="button" id="release-control" data-gesture="release">release sequence</button>
+            </div>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single hinged picture has to carry a wrong neighbour. Dragging does not move a cursor; it misassigns a joint.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if one real hinge opens and a distant false hinge carries the remembered direction without captions.</p></div>
+          <div><span>progression</span><p>Drag across the sculpture, undo one false joint, then release the sequence.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V018 / DAILY WORK</p><h1 id="work-title">The picture forgets<br><i>the hinge.</i></h1></div>
+        <p class="work-premise">Drag one part toward another. The sculpture remembers the wrong neighbour and opens the joint it was born with.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v018 abandons v016's loose departure field and v017's load-bearing pile. One hinged picture is rebuilt as a crooked paper mechanism: a meaningful drag makes the nearest panel drift, severs its actual hinge into a gap, and makes a distant false hinge carry the stolen direction. Promotion requires that the wrong joint and opened joint survive without labels, readout, or explanation.</p></section>
+      <p class="work-loop">creation → critique → progression</p>
+    </main>
+    <footer class="studio-footer"><a href="/currents/naive-art/">naive art current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

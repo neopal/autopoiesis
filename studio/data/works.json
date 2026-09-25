@@ -2,6 +2,95 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-25",
+      "currentId": "naive",
+      "date": "2026-09-25",
+      "title": "The picture forgets the hinge.",
+      "rawPath": "/studies/naive-art/v018/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-25",
+        "note": "v018 abandons the pile and the departure field. One crooked hinged picture accepts a directional drag, misremembers which neighbour it belongs to, opens its true hinge into a gap, and grows a distant false hinge that carries the stolen direction; lifting the latest fold reconstructs the exact preceding sculpture."
+      },
+      "critiques": [
+        {"persona":"Joint-form critic","argument":"The mistake must live in the mechanism: the source panel must drift, its true hinge must open into a real gap, and a distant false hinge must carry the borrowed direction. A cursor, badge, or colour swap cannot substitute for changed joints."},
+        {"persona":"Perceptual critic","argument":"With labels, readout, controls, and prose hidden, a caption-free viewer should first see one connected crooked paper mechanism, not six cards. After a drag, the opened joint and distant false bridge must be findable in the sculpture itself."},
+        {"persona":"Interaction critic","argument":"Pointer movement and a short tap must be refused. A meaningful drag, Enter, and Space must commit the same bounded misremembered hinge; lifting only the latest event must restore the exact prior panel and joint geometry."},
+        {"persona":"Radical progression critic","argument":"v018 must break v015-v017's picture-strip, departure field, and block-pile grammars. Its first-render task is to read one hinged object, and its interaction must change from presence or departure to a directional misassignment."},
+        {"persona":"Cynic","argument":"Wrong adjacency is an easy metaphor. Delete v018 if a click behaves like a drag, if the open hinge is only a dark sticker, if the false hinge is only a line, or if the sculpture still reads as v017's pile with a new palette."}
+      ],
+      "metrics": {
+        "id": "naive-art-v018-misremembered-hinge",
+        "visitorInput": true,
+        "seed": "0x4e413138",
+        "stages": 17,
+        "primitiveBudget": 31,
+        "panelCount": 6,
+        "jointCount": 5,
+        "memoryWindow": 4,
+        "settledStage": 16,
+        "settledMemory": 4,
+        "settledUnhingedJoints": 3,
+        "settledWrongHinges": 3,
+        "visitorMemoryAfterDrag": 1,
+        "memoryRule": "a directional drag misremembers the nearest neighbour -> the source panel drifts -> its true hinge opens -> a distant false hinge carries the borrowed direction",
+        "interactionRule": "pointer movement and short clicks only arm; a meaningful drag, Enter, Space, and the control commit the same bounded event; undo restores the exact prior sculpture",
+        "representationRupture": "one assembled Canvas pile of blocks -> one connected hinged paper mechanism with actual joints",
+        "encounterRupture": "sustained attention assigns a wrong identity -> a directional drag misassigns adjacency",
+        "temporalRupture": "dwell threshold and load memory -> path threshold and reversible hinge reassignment",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": false,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4185/works/naive-2026-09-25/",
+        "rawPreview": "http://127.0.0.1:4185/studies/naive-art/v018/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4185/studies/naive-art/v018/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v018 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; blind preview also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured at least 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction/blind readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw runs opened at stage 00 / 17 with 0 folds, 0 unhinged joints, and 0 wrong hinges",
+        "reducedMotionState": "reduced-motion raw runs settled at stage 16 / 17 with 4 retained folds, 2 unhinged joints, and 2 wrong hinges",
+        "shortClick": "local raw short click left fold memory and fold signature unchanged",
+        "dragInteraction": "local raw drag changed memory from 0 to 1 with one drifting source panel, one unhinged joint, and one wrong hinge",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 and changed the fold signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding dragged signature",
+        "releaseInteraction": "release sequence returned to the deterministic reduced-motion sequence state",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures plus interaction and blind captures",
+        "evidenceFiles": "research/qa/proofs/naive-art-v018-2026-09-25/results.json, probe.mjs, check-canonical.mjs, and 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse the look-back and translate proximity into misassigned adjacency: a drag across the Naive sculpture makes the nearest panel borrow a distant neighbour, opens its true hinge, and grows a false hinge elsewhere.",
+        "visibleConsequence": "The blind field is one connected hinged paper mechanism rather than a pile, picture strip, or loose population. After a meaningful drag, one panel drifts, its original joint opens, and a distant false hinge carries a borrowed mark and direction.",
+        "falsifier": "If a short click changes the field, if the original hinge is only recoloured, if the false hinge is only a line or marker, or if the drag cannot be distinguished from v017's sustained attention, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Naive art v015's picture panels, v016's departure field, and v017's misaddressed pile; opens a joint-and-adjacency direction in which the mistake is remembered as a wrong relationship between parts."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v018 if the opened true hinge and distant false bridge are not legible in the sculpture itself or if a short click behaves like a drag.",
+        "lineage": "naive-2026-09-24"
+      }
+    },
+    {
       "id": "brush-2026-09-25",
       "currentId": "brush",
       "date": "2026-09-25",
