@@ -45,10 +45,14 @@
         "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "local headless browser matrices passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4185/works/naive-2026-09-25/",
         "rawPreview": "http://127.0.0.1:4185/studies/naive-art/v018/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4185/studies/naive-art/v018/?preview=1&static=1&blind=1",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionRoute": "https://autopoiesis-nine.vercel.app/works/naive-2026-09-25/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v018/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v018/?preview=1&static=1&blind=1",
         "canonicalShellAndEmbeddedTableauRendered": true,
         "tableauFirst": "10/10 local canonical runs placed the v018 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
         "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
@@ -65,14 +69,24 @@
         "releaseInteraction": "release sequence returned to the deterministic reduced-motion sequence state",
         "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
         "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures plus interaction and blind captures",
-        "evidenceFiles": "research/qa/proofs/naive-art-v018-2026-09-25/results.json, probe.mjs, check-canonical.mjs, and 24 PNG captures",
-        "diagnosticCount": 0,
-        "overflowCount": 0,
+        "evidenceFiles": "research/qa/proofs/naive-art-v018-2026-09-25/results.json, probe.mjs, check-canonical.mjs, and 24 PNG captures; production evidence in research/qa/proofs/naive-art-v018-2026-09-25-production/",
+        "productionViewportMatrix": "20/20 production raw and canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "innerWidth equaled clientWidth and scrollWidth in all 20 production raw/canonical runs; production blind, Journal, and Naive art current readbacks also matched at 390x844",
+        "productionDiagnostics": "zero console messages, page errors, failed requests, or HTTP 400+ responses across the production browser matrix and focused interaction, blind, Journal, and current readbacks",
+        "productionInteraction": "production raw drag changed memory 0 to 1 with one drifting source panel, one unhinged joint, and one wrong hinge; Enter changed 1 to 2; Delete restored the exact preceding dragged signature; release returned to 0",
+        "productionRoutes": "production canonical work, raw tableau, Journal, Naive art current, studio/data/works.json, and favicon returned HTTP 200",
+        "productionJournal": "production Journal rendered exactly one #journal-naive-2026-09-25 entry with the recorded title and canonical work link",
+        "productionCurrent": "production Naive art current rendered exactly one current header and first artwork with no document overflow",
+        "productionStaticBlindPreview": "production reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "productionEvidenceFiles": "research/qa/proofs/naive-art-v018-2026-09-25-production/results.json, production-probe.mjs, and 24 production PNG captures",
+        "deployment": "dpl_3ireBGDhMu3MfXscG1zubrkPYAKG",
+        "stableAliasVerified": true,
         "unresolved": [
-          "production readback",
           "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
           "provider revision linking the stable alias to the eventual GitHub SHA"
-        ]
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
       },
       "source": {
         "referenceId": "little-critters",
