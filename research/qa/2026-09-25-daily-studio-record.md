@@ -136,11 +136,18 @@ Hide the gaze ring, labels, readout, controls, annotations, and prose. The direc
 - Local blind preview: the SVG remained visible while controls, readout, labels, count, and gaze rings were hidden at `390×844`; no document overflow.
 - Local Journal readback: exactly one `#journal-svg-2026-09-25` entry with the recorded title and canonical work link.
 - Local Pure SVG current readback: exactly one current header and first artwork at `390×844`, with no document overflow.
-- Proof bundle: `research/qa/proofs/svg-v016-2026-09-25/` contains `results.json`, `probe.mjs`, and 24 PNG captures.
+- Production stable-alias headless browser matrix: **20/20 runs passed** — canonical and raw routes at the same five viewports and motion modes; zero matrix issues.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses in the matrix and focused readbacks.
+- Production interaction: pointer movement left memory at `0`; short tap was refused; a 0.72-second hold committed `0 → 1`; Enter committed `1 → 2`; Delete restored the preceding held-pointer signature; release returned memory to `0`.
+- Production blind preview: SVG visible, readout and controls hidden, and `innerWidth == clientWidth == scrollWidth == 390`.
+- Production HTTP readback: stable-alias register, Journal, canonical work, raw tableau, and favicon all returned HTTP 200; the deployed register contained exactly one `svg-2026-09-25` record with the recorded title.
+- Production rendered Journal readback: exactly one `#journal-svg-2026-09-25` entry, title present, canonical work link present, and zero console messages, page errors, or failed requests.
+- Production Pure SVG current readback: exactly one current header and first artwork at `390×844`, with no document overflow.
+- Proof bundles: `research/qa/proofs/svg-v016-2026-09-25/` and `research/qa/proofs/svg-v016-2026-09-25-production/` contain probe sources, result summaries, and 24 PNG captures each.
 
 ## Publication boundary
 
-Production readback, independent caption-free perceptual comparison, and provider revision linkage remain unresolved. The artifact is therefore honestly **candidate / held**, not exhibition-ready.
+Independent caption-free perceptual comparison and provider revision linkage remain unresolved. The artifact is therefore honestly **candidate / held**, not exhibition-ready.
 
 ---
 
