@@ -1,0 +1,22 @@
+{
+  "id": "pure-svg-v016-held-gaze-joint",
+  "seed": "0x53564746",
+  "stages": 18,
+  "primitiveBudget": 12,
+  "jointCount": 6,
+  "memoryWindow": 4,
+  "commitThreshold": 0.65,
+  "settledStage": 17,
+  "finalMemory": 4,
+  "finalSacrificedSegments": 3,
+  "finalInheritedEchoes": 4,
+  "renderer": "deterministic inline SVG geometry",
+  "memoryRule": "a held gaze removes one actual body segment, narrows its source joint, and grows a distant inherited echo",
+  "interactionRule": "pointer movement arms only; a 0.65-second hold, witness button, Enter, or Space commits; lifting the latest restores the exact prior body",
+  "representationRupture": "five compound territories with owned voids -> one continuous articulated body with a detached inherited echo",
+  "encounterRupture": "visitor proximity transfers a vacancy between bodies -> sustained gaze makes the body sacrifice a joint",
+  "temporalRupture": "reversible void ownership -> thresholded hold with cumulative loss and inherited articulation",
+  "replay": true,
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
+}

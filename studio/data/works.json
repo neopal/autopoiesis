@@ -2,6 +2,112 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-25",
+      "currentId": "svg",
+      "date": "2026-09-25",
+      "title": "The body gives away a joint.",
+      "rawPath": "/studies/pure-svg/v016/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-25",
+        "note": "v016 abandons distributed cells, corridors, and compound territories. One articulated SVG body accepts a held gaze: an actual segment disappears, the source joint narrows, and a distant joint inherits a crooked echo. Lifting the latest gaze reconstructs the exact preceding body."
+      },
+      "critiques": [
+        {
+          "persona": "Body-form critic",
+          "argument": "The event must live in the organism's geometry: one body segment must actually disappear, its source joint must narrow, and the distant inherited echo must occupy a new coordinate. A ring, badge, or colour change cannot substitute for continuity breaking."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, gaze marks, and prose hidden, a caption-free viewer should first see one articulated body. After a held gaze, the viewer must find a real break and a second crooked articulation rather than a decorated ribbon."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement may only arm the witness. A short tap must be refused; a 0.65-second hold, the witness button, Enter, and Space must commit the same bounded event. Delete lifts only the latest event and restores the exact prior geometry."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v016 must break v013-v015's distributed cell, corridor, and territory grammars: one continuous articulated body replaces the field, and sustained attention changes continuity rather than moving a void between bodies."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A body giving something away is an easy metaphor. Delete v016 if the gap is only a dark sticker, if the echo is only a witness marker, if a short tap commits like a hold, or if repeated attention ignores the changed body."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v016-held-gaze-joint",
+        "visitorInput": true,
+        "seed": "0x53564746",
+        "stages": 18,
+        "primitiveBudget": 12,
+        "jointCount": 6,
+        "memoryWindow": 4,
+        "commitThreshold": 0.65,
+        "settledStage": 17,
+        "finalMemory": 4,
+        "finalSacrificedSegments": 3,
+        "finalInheritedEchoes": 4,
+        "memoryRule": "a held gaze removes one actual body segment, narrows its source joint, and grows a distant inherited echo",
+        "interactionRule": "pointer movement arms only; a 0.65-second hold, witness button, Enter, or Space commits; lifting the latest restores the exact prior body",
+        "representationRupture": "five compound territories with owned voids -> one continuous articulated body with a detached inherited echo",
+        "encounterRupture": "visitor proximity transfers a vacancy between bodies -> sustained gaze makes the body sacrifice a joint",
+        "temporalRupture": "reversible void ownership -> thresholded hold with cumulative loss and inherited articulation",
+        "replay": true,
+        "renderer": "deterministic inline SVG geometry",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / held pending production readback, independent caption-free perceptual review, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4176/works/svg-2026-09-25/",
+        "rawPreview": "http://127.0.0.1:4176/studies/pure-svg/v016/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4176/studies/pure-svg/v016/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v016 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; interaction, static blind, Journal, and Pure SVG current runs also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 114px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across the local browser matrix and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 18 with 0 held gazes and 0 missing joints",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 17 / 18 with 4 held gazes, 3 missing segments, and 4 inherited echoes",
+        "pointerMovement": "pointer movement changed interaction state to armed while memory and body signature remained unchanged",
+        "shortTap": "short pointer tap was refused with memory remaining 0",
+        "heldPointer": "0.72-second pointer hold changed memory 0 to 1, missing joints 0 to 1, and inherited echoes 0 to 1",
+        "keyboardInteraction": "Enter on the focused SVG changed memory 1 to 2 and changed the body signature",
+        "liftInteraction": "Delete after keyboard changed memory 2 to 1 and restored the exact preceding held-pointer signature",
+        "releaseInteraction": "release body returned memory to 0 and restored the initial body signature",
+        "staticBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, labels, count, and gaze rings; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-svg-2026-09-25 entry with the recorded title and canonical work link",
+        "current": "local Pure SVG current readback at 390x844 rendered exactly 1 current header and a first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: ten raw/canonical viewport and motion captures, raw interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/svg-v016-2026-09-25/results.json, probe.mjs, and 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, gaze rings, count, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Remove the agents and refuse the look-back. A sustained visitor gaze makes one SVG body segment absent and lets a distant joint inherit the displaced articulation as a crooked echo.",
+        "visibleConsequence": "The blind field is one continuous articulated organism rather than a cell field, corridor, or territory map. After a committed gaze, a real break opens in the body and an extra joint grows elsewhere.",
+        "falsifier": "If a held gaze leaves the body continuous, if the echo is only a marker or colour change, if a short tap commits, or if repeated gazes behave as though the body never changed, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Pure SVG v013's reciprocal field, v014's corridor refusal, and v015's void ownership; opens a body/echo direction in which attention changes the organism's continuity rather than its place in a field."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v016 if the body does not visibly break and inherit a distant joint, or if a short tap behaves like a held gaze.",
+        "lineage": "pure-svg-v015"
+      }
+    },
+    {
       "id": "portrait-2026-09-25",
       "currentId": "portrait",
       "date": "2026-09-25",
