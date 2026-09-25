@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1110">
+  <title>MUTINE — the brush counts the gap</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=019">
+  <script>window.p5 = window.p5 || undefined;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-25"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="register-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v019 / ORDINAL REGISTER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="register-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v019</span></nav>
+
+      <figure class="register-work artwork-frame" aria-labelledby="work-title">
+        <div id="rack" class="rack-wrap" tabindex="0" role="application" aria-label="A hanging register of pigment weights. Turn the wheel or use the arrow keys to remove one weight and leave a load-bearing gap." aria-keyshortcuts="ArrowUp ArrowDown Enter Space Delete R S">
+          <div class="rack-readout" aria-live="polite"><span data-stage>stage 16 / 16</span><span data-memory>5 gaps carried</span></div>
+          <div class="rack-controls" aria-label="Brush actions">
+            <button id="turn-control" data-gesture="turn" type="button">turn the wheel</button>
+            <button id="lift-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release register</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v019-ordinal-register</span><span>turn &gt; remove &gt; bear</span></figcaption>
+      </figure>
+
+      <section class="register-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / DIRECTION SWITCH / v019</p>
+        <h1 id="work-title">The brush counts<br><i>the gap.</i></h1>
+        <p class="register-lede">Paint leaves the sheet. It hangs in an ordinal register, where one missing weight makes every later weight sag and the removed load becomes a counterweight at the edge.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE TURN, NOT A TOUCH</p>
+          <p class="interaction-copy">Turn the wheel over the rack, press ArrowUp or ArrowDown, or use the button. A rung is removed as a real absence; the remaining pigments settle under its lost load. Delete or “lift latest” restores the exact preceding register.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The register is carrying its first load.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v019</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Invert v018’s departure event. The visitor is no longer a presence that opens a skin; a discrete wheel turn advances an ordinal register, removes one hanging pigment weight, leaves a load-bearing gap, and suspends the missing load at the far edge.</dd></div>
+          <div><dt>visitor action</dt><dd>Wheel or arrow keys commit one bounded turn. Enter and Space repeat the positive turn; Delete or “lift latest” removes only the latest gap; release register clears visitor memory and restarts the autonomous sequence.</dd></div>
+          <div><dt>falsifier</dt><dd>If the missing rung is only a dark sticker, if the later weights do not sag, or if the counterweight is only a label or colour shift, the register has not remembered a removal.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v019 if the labels-off, controls-off image still reads as a surface, island field, or back-fold. Do not rescue the load-bearing gap with explanatory text.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-24/">previous daily work</a><a href="/journal/#journal-brush-2026-09-25">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=019"></script>
+</body>
+</html>

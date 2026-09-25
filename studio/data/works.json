@@ -2,6 +2,95 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-25",
+      "currentId": "brush",
+      "date": "2026-09-25",
+      "title": "The brush counts the gap.",
+      "rawPath": "/studies/p5-brush/v019/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-25",
+        "note": "v019 abandons the surface grammar. One wheel turn removes an actual pigment rung from an ordinal register, leaves a load-bearing gap, makes later weights sag, and suspends the missing load as a counterweight at the far edge; lifting the latest turn reconstructs the exact preceding register."
+      },
+      "critiques": [
+        {"persona":"Material critic","argument":"The removal must live in the register: one actual pigment rung must disappear, later rungs must sag under the missing load, and the counterweight must carry mass rather than act as a badge."},
+        {"persona":"Perceptual critic","argument":"With labels, readout, controls, and prose hidden, the first encounter should read as a hanging ordered register, not a surface, island population, or back-fold. After a turn, the missing rung and the later sag must be findable before the far counterweight is explained."},
+        {"persona":"Interaction critic","argument":"The viewer task must be discrete and non-positional: wheel or arrow-key turns commit one bounded removal, while Delete or lift latest restores the exact preceding register. Pointer movement alone must have no causal path."},
+        {"persona":"Radical progression critic","argument":"v019 must switch representation, composition, and encounter after v016-v018: a hanging ordinal register replaces every surface grammar, and a wheel/keyboard step replaces drag, approach, and departure."},
+        {"persona":"Cynic","argument":"Load and absence are easy diagrams. Delete v019 if the wheel only changes a counter, if the missing rung is merely painted black, if later rungs remain fixed, or if the counterweight is decorative rather than displaced material."}
+      ],
+      "metrics": {
+        "id": "p5-brush-v019-ordinal-register",
+        "visitorInput": true,
+        "seed": "0x42525539",
+        "stages": 16,
+        "rungCount": 11,
+        "primitiveBudget": 58,
+        "memoryWindow": 5,
+        "settledStage": 15,
+        "settledMemory": 5,
+        "settledGaps": 5,
+        "settledCounterweights": 5,
+        "visitorMemory": 1,
+        "memoryRule": "a wheel turn removes one actual pigment rung, leaves a load-bearing gap, makes later rungs sag, and suspends the missing load as a counterweight",
+        "interactionRule": "wheel, ArrowUp/ArrowDown, Enter, Space, and the turn control commit one bounded ordinal turn; lifting the latest restores the exact prior register",
+        "representationRupture": "surface, pressure plate, island field, and membrane -> discrete hanging pigment register",
+        "encounterRupture": "draw, approach, or departure -> wheel/keyboard step with no pointer-position state",
+        "temporalRupture": "continuous surface deformation -> ordinal removal followed by settling and accumulated counterweights",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D canvas",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4184/works/brush-2026-09-25/",
+        "rawPreview": "http://127.0.0.1:4184/studies/p5-brush/v019/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4184/studies/p5-brush/v019/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v019 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 10 local canonical runs; blind, Journal, and Brush current readbacks also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 117px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 10 local canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests across the local browser matrix and focused readbacks",
+        "normalState": "normal-motion canonical runs opened with the embedded raw tableau live; focused raw interaction opened at memory 0 / 0 gaps",
+        "reducedMotionState": "reduced-motion canonical runs settled on memory 5 / 5 gaps; blind preview kept the canvas visible",
+        "wheelInteraction": "local raw wheel gesture changed memory from 0 to 1 and gaps from 0 to 1 without pointer-position state",
+        "keyboardInteraction": "ArrowDown changed memory from 1 to 2 and changed the canvas signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and reported turn-lifted",
+        "releaseInteraction": "release register returned memory to 0 and the sequence state",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, header, and annotations; no document overflow",
+        "journal": "local Journal readback rendered exactly 1 #journal-brush-2026-09-25 entry with the recorded title and canonical work link",
+        "current": "local Brush current readback rendered exactly 1 current header and first artwork with no document overflow",
+        "canvasCaptures": "14 local PNG captures written: ten canonical viewport captures plus raw interaction, blind preview, Journal, and Brush current captures",
+        "evidenceFiles": "research/qa/proofs/brush-v019-2026-09-25/results.json, summary.json, probe.mjs, and 14 PNG captures",
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Invert both reciprocity and proximity in the Brush current: the visitor becomes an ordinal metronome. A discrete wheel turn, not a gaze or departure, removes one weight; the absence changes later load and reappears as a counterweight.",
+        "visibleConsequence": "The work switches from continuous surface to hanging register, from pointer presence to wheel/keyboard step, and from hole/back-fold to gap/sag/counterweight.",
+        "falsifier": "If a wheel turn does not remove a real rung, if later weights do not sag, or if the counterweight is only a label or colour shift, the translation fails.",
+        "antiCopy": "No animals, characters, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Brush v016's pressure cut, v017's archipelago transfer, and v018's departure fold; opens a discrete load-memory direction in which absence changes the order and weight of later material."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v019 if the missing rung, later sag, and far counterweight are not legible in the register itself or if it still reads as a surface, island field, or back-fold.",
+        "lineage": "brush-2026-09-24"
+      }
+    },
+    {
       "id": "svg-2026-09-25",
       "currentId": "svg",
       "date": "2026-09-25",

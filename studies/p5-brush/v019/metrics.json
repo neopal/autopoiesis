@@ -1,0 +1,23 @@
+{
+  "id": "p5-brush-v019-ordinal-register",
+  "visitorInput": true,
+  "seed": "0x42525539",
+  "stages": 16,
+  "rungCount": 11,
+  "primitiveBudget": 58,
+  "memoryWindow": 5,
+  "settledStage": 15,
+  "settledMemory": 5,
+  "settledGaps": 5,
+  "settledCounterweights": 5,
+  "visitorMemory": 1,
+  "memoryRule": "a wheel turn removes one actual pigment rung, leaves a load-bearing gap, makes later rungs sag, and suspends the missing load as a counterweight",
+  "interactionRule": "wheel, ArrowUp/ArrowDown, Enter, Space, and the turn control commit one bounded ordinal turn; lifting the latest restores the exact prior register",
+  "representationRupture": "surface, pressure plate, island field, and membrane -> discrete hanging pigment register",
+  "encounterRupture": "draw, approach, or departure -> wheel/keyboard step with no pointer-position state",
+  "temporalRupture": "continuous surface deformation -> ordinal removal followed by settling and accumulated counterweights",
+  "replay": true,
+  "renderer": "deterministic p5.js 2D canvas",
+  "measured": true,
+  "promotion": "candidate / held pending independent caption-free perceptual review, production verification, and provider revision linkage"
+}
