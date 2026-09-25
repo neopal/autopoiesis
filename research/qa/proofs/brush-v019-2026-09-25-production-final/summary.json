@@ -1,0 +1,77 @@
+{
+  "matrixCount": 10,
+  "matrixPassCount": 10,
+  "overflowCount": 0,
+  "diagnosticCount": 0,
+  "interaction": {
+    "initial": {
+      "memory": "0",
+      "gaps": "0",
+      "sample": "9ifvEbg6Ark0ha626rU9ApsI/E8AAAD//xFfFPIAAAAGSURBVAMA/8t8HRURTh0AAAAASUVORK5CYII="
+    },
+    "afterWheel": {
+      "memory": "1",
+      "gaps": "1",
+      "interaction": "visitor-wheel-turn",
+      "sample": "B0urJQKPPgK5NIUe/UCXAT6aCPyPAAAA//8nqAtBAAAABklEQVQDAGTqimgkVsfnAAAAAElFTkSuQmCC"
+    },
+    "afterKeyboard": {
+      "memory": "2",
+      "gaps": "2",
+      "sample": "cKlYIvCGRyCXptAbHobl8Z8jAv9/AAAA///en4FHAAAABklEQVQDAMfLOobhcDwcAAAAAElFTkSuQmCC"
+    },
+    "afterLift": {
+      "memory": "1",
+      "gaps": "1",
+      "interaction": "turn-lifted"
+    },
+    "afterRelease": {
+      "memory": "0",
+      "gaps": "0",
+      "interaction": "sequence",
+      "buttonRects": [
+        {
+          "width": 117,
+          "height": 44
+        },
+        {
+          "width": 117,
+          "height": 44
+        },
+        {
+          "width": 117,
+          "height": 44
+        }
+      ]
+    },
+    "consoleMessages": [],
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "blind": {
+    "canvasVisible": true,
+    "readoutHidden": true,
+    "controlsHidden": true,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "memory": "5",
+    "gaps": "5"
+  },
+  "journal": {
+    "status": "The brush counts the gap.",
+    "link": "/works/brush-2026-09-25/",
+    "count": 1,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "current": {
+    "title": "Brush",
+    "firstWork": "The brush counts the gap.",
+    "count": 19,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  }
+}
