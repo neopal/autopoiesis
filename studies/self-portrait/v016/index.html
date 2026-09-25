@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081016">
+  <title>MUTINE — The portrait loses the watched patch.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-25"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v016-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v016</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v016-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v016</span></nav>
+      <section class="v016-surface artwork-frame" aria-label="Self portrait raster witness field">
+        <div class="v016-field-wrap">
+          <canvas id="field" role="img" aria-label="A raster self portrait that loses a watched patch and transfers it elsewhere" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 witnesses held</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="attend-control" data-gesture="attend">watch this patch</button>
+            <button type="button" id="undo-control" data-gesture="undo">lift latest witness</button>
+            <button type="button" id="release-control" data-gesture="release">release the image</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>The portrait is a population of decisions, not an outline. Its image is assembled by local cells that can be watched, withdrawn, and redistributed.</p></div>
+          <div><span>changed rule</span><p>A sustained witness makes one raster patch lose density while a distant patch inherits its mass. The image remembers attention as a changed distribution, not a coloured mark.</p></div>
+          <div><span>progression</span><p>Move to arm the field. Hold or use Enter to commit attention. Lift only the latest witness to compare the exact prior raster.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V016 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>loses the watched patch.</i></h1></div>
+        <p class="work-premise">A self-image as a field of local witnesses: watching one patch makes it withdraw and transfers its density to a distant place.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: attention changes raster cell geometry, creates actual voids, transfers density, and changes the next transfer through resistance. Promotion still depends on whether the blind field reads as an image redistributing its own witness.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>lose its witness?</i></h2>
+        <div class="note-copy"><p>The field is not a face contour, plate mosaic, or pressure membrane. Its memory is a bounded sequence of local attention events rebuilt from a fixed seed. Each event changes actual cell position, radius, opacity, source void, receiver density, and the resistance available to the next witness.</p><dl><div><dt>seed</dt><dd>0x53504636 / replayable</dd></div><div><dt>input</dt><dd>pointer dwell, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>the watched patch only changes tint, the receiver only receives a marker, or the next witness behaves as if nothing happened</dd></div><div><dt>deletion</dt><dd>delete v016 if a caption-free pair sees a decorated dot field instead of a real withdrawal and transfer</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

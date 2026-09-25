@@ -2,6 +2,92 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-09-25",
+      "currentId": "portrait",
+      "date": "2026-09-25",
+      "title": "The portrait loses the watched patch.",
+      "rawPath": "/studies/self-portrait/v016/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-25",
+        "note": "v016 leaves pressure, plates, and folded routes behind. A raster population accepts sustained attention: the nearest image patch withdraws density, a distant patch inherits it, local resistance changes the next transfer, and lifting the latest witness reconstructs the exact preceding field."
+      },
+      "critiques": [
+        {
+          "persona": "Raster critic",
+          "argument": "The witness must be carried by actual cell geometry: the watched patch must lose radius and opacity, a distant patch must grow, and surrounding cells must move. A dark sticker, halo, or label cannot substitute for redistributed image material."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, controls, marks, and prose hidden, the first encounter should read as a dense raster self-image rather than a plate grid or dotted decoration. After attention, a viewer must find a real thinning and a distant swelling before reading the explanation."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement may only arm the witness. A sustained hold, click/tap, Enter, and Space must commit the same bounded transfer; lifting only the latest witness must restore the exact prior cell field."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v016 must break v013-v015's route, part, and membrane grammars: raster population replaces contour/plate/membrane, sustained attention replaces pressure, and a non-local transfer replaces a local scar or reply."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Social attention is an easy metaphor. Delete v016 if a short tap and a sustained hold are indistinguishable, if the source only changes tint, if the receiver only receives a marker, or if repeated attention ignores the remembered resistance."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v016-raster-witness-transfer",
+        "visitorInput": true,
+        "seed": "0x53504636",
+        "stages": 15,
+        "gridColumns": 18,
+        "gridRows": 26,
+        "cellCount": 468,
+        "attentionThreshold": 0.65,
+        "primitiveBudget": 72,
+        "memoryWindow": 5,
+        "settledStage": 14,
+        "finalMemory": 5,
+        "finalAttentions": 5,
+        "finalVoids": 5,
+        "finalTransfers": 5,
+        "memoryRule": "a sustained witness withdraws density from the nearest raster patch, transfers it to a distant patch, and raises local resistance",
+        "interactionRule": "pointer movement arms only; hold/release, click, Enter, and Space commit a witness transfer; lifting the latest restores the exact prior raster",
+        "representationRupture": "continuous pressure membrane, reciprocal plates, and folded routes -> dense raster population of image cells",
+        "encounterRupture": "visitor presses or looks for a local reply -> visitor sustains attention and causes non-local density transfer",
+        "temporalRupture": "material scars and part roles -> bounded social memory of withdrawal and inheritance",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / production verification pending",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production headless browser matrix",
+          "independent caption-free perceptual comparison",
+          "provider revision linking the stable alias to the GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "A population of situated code-drawn agents responds to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Self portrait, situated attention becomes a witness token inside a raster image: the nearest patch withdraws density, a distant patch inherits it, and local resistance changes the next collective decision.",
+        "visibleConsequence": "The blind field is a dense oblique raster self-image rather than a route, plate mosaic, or pressure membrane. After attention, one actual cell population thins and opens while a distant population grows and shifts.",
+        "falsifier": "If the watched patch only changes tint, the receiver only receives a marker, or a second witness behaves as if the first never happened, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Self portrait v013-v015's folded-route, reciprocal-plate, and pressure-membrane grammar and opens a social-attention direction in which a raster population remembers being watched through non-local withdrawal and inheritance."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v016 if source withdrawal, receiver growth, and changed repeat attention are not legible in the raster itself or if it still reads as a decorated dot field.",
+        "lineage": "portrait-2026-09-24"
+      }
+    },
+    {
       "id": "naive-2026-09-24",
       "currentId": "naive",
       "date": "2026-09-24",

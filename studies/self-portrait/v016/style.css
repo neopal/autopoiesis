@@ -1,0 +1,67 @@
+:root {
+  color-scheme: dark;
+  --ground: #081016;
+  --deep: #03070a;
+  --ink: #e7f1ed;
+  --muted: #9aabb0;
+  --copper: #d89b72;
+  --mint: #72e2c1;
+  --blue: #7cc9ea;
+  --lilac: #c1b3ff;
+  --line: rgba(231, 241, 237, .17);
+}
+
+html, body { margin: 0; min-height: 100%; background: var(--ground); color: var(--ink); }
+body { font-family: ui-sans-serif, system-ui, sans-serif; }
+.v016-shell { min-height: 100vh; padding: 22px clamp(14px, 3vw, 48px) 28px; box-sizing: border-box; background: radial-gradient(circle at 15% 6%, #1c3a43 0, #0d1b21 24%, #05090d 76%); }
+.v016-main { max-width: 1440px; margin: 0 auto; }
+.v016-surface { margin-top: 18px; border: 1px solid var(--line); background: rgba(2, 7, 11, .7); box-shadow: 0 24px 110px rgba(0,0,0,.36); }
+.v016-field-wrap { position: relative; min-height: min(78vw, 760px); height: min(78vw, 760px); overflow: hidden; }
+#field { display: block; width: 100%; height: 100%; touch-action: none; outline: none; cursor: crosshair; }
+#field:focus-visible { outline: 2px solid var(--mint); outline-offset: -5px; }
+.surface-readout { position: absolute; inset: 18px 22px auto; display: flex; justify-content: space-between; gap: 14px; color: rgba(231,241,237,.76); font: 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+.field-controls { position: absolute; left: 18px; right: 18px; bottom: 18px; display: flex; gap: 8px; flex-wrap: wrap; }
+.field-controls button { min-height:44px; border: 1px solid rgba(231,241,237,.28); border-radius: 999px; padding: 0 16px; background: rgba(4,11,15,.76); color: var(--ink); font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; cursor: pointer; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--mint); color: var(--mint); }
+.work-annotations { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 18px 20px 20px; border-top: 1px solid var(--line); background: rgba(3, 8, 12, .78); }
+.work-annotations span, .studio-kicker, .work-notes dt { color: var(--copper); font: 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .11em; text-transform: uppercase; }
+.work-annotations p { max-width: 36ch; margin: 8px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.work-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .55fr); gap: 36px; padding: 56px 4px 28px; align-items: end; }
+.work-opening h1, .work-notes h2 { margin: 10px 0 0; font: 500 clamp(42px, 7vw, 108px)/.86 Georgia, serif; letter-spacing: -.055em; }
+.work-opening i, .work-notes i { color: var(--copper); font-weight: 400; }
+.work-premise { max-width: 34ch; margin: 0 0 6px; color: var(--muted); font-size: 18px; line-height: 1.35; }
+.work-note { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 18px 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+.work-note p { max-width: 70ch; margin: 0; }
+.work-note strong { color: var(--ink); }
+.work-notes { display: grid; grid-template-columns: .9fr 1fr 1.2fr; gap: 28px; padding: 68px 4px 88px; }
+.work-notes h2 { font-size: clamp(38px, 5.5vw, 82px); }
+.note-copy { max-width: 45ch; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.note-copy p { margin-top: 0; }
+.note-copy dl { display: grid; gap: 12px; margin: 26px 0 0; }
+.note-copy dl div { display: grid; grid-template-columns: 78px 1fr; gap: 12px; border-top: 1px solid var(--line); padding-top: 10px; }
+.note-copy dd { margin: 0; }
+.preview-mode .studio-header, .preview-mode .studio-path, .preview-mode .work-opening, .preview-mode .work-note, .preview-mode .work-notes, .preview-mode .studio-footer { display: none; }
+.preview-mode .v016-shell { padding: 0; background: var(--deep); }
+.preview-mode .v016-surface { margin: 0; border: 0; box-shadow: none; }
+.preview-mode .work-annotations { display: none; }
+.preview-mode .v016-field-wrap { height: 100vh; min-height: 100vh; }
+.static-mode .surface-readout, .static-mode .field-controls, .blind-mode .surface-readout, .blind-mode .field-controls { display: none; }
+
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+@media (max-width: 680px) {
+  .v016-shell { padding: 12px 10px 20px; }
+  .v016-field-wrap { min-height: 116vw; height: 116vw; }
+  .surface-readout { inset: 12px 12px auto; font-size: 9px; }
+  .field-controls { left: 10px; right: 10px; bottom: 10px; }
+  .field-controls button { flex: 1 1 100%; }
+  .work-annotations { grid-template-columns: 1fr; gap: 12px; padding: 15px; }
+  .work-annotations p { max-width: none; }
+  .work-opening, .work-notes { grid-template-columns: 1fr; gap: 22px; padding-top: 38px; }
+  .work-opening h1 { font-size: clamp(46px, 16vw, 72px); }
+  .work-premise { font-size: 16px; }
+  .work-notes { padding-bottom: 56px; }
+  .note-copy dl div { grid-template-columns: 70px 1fr; }
+}
