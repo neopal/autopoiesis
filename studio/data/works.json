@@ -42,13 +42,19 @@
         "replay": true,
         "renderer": "deterministic WebGL2 lattice",
         "measured": true,
-        "promotion": "candidate / held pending production readback, independent caption-free perceptual review, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4188/works/webgpu-2026-09-25/",
         "rawPreview": "http://127.0.0.1:4188/studies/webgpu/v016/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4188/studies/webgpu/v016/?preview=1&static=1&blind=1",
+        "productionCanonical": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-09-25/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v016/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v016/?preview=1&static=1&blind=1",
+        "productionEvidence": "research/qa/proofs/webgpu-v016-2026-09-25-production/production-summary.json, production-results.json, production-probe.mjs, and 24 PNG captures",
+        "productionReadback": "20/20 production canonical/raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, blind preview, Journal, and WebGPU current readbacks also passed with zero diagnostics",
+        "productionRevision": "deployment dpl_FgELbsFGcg1yyteCBYLcJ45Tke77 published after GitHub SHA e40aeeb78ed63da599ae17ad2ae671a988001b0a; provider revision linkage remains unverified",
         "canonicalShellAndEmbeddedTableauRendered": true,
         "tableauFirst": "10/10 local canonical runs placed the v016 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
         "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
@@ -69,7 +75,6 @@
         "canvasCaptures": "24 local PNG captures written: twenty raw/canonical viewport captures plus interaction, blind, Journal, and current captures",
         "evidenceFiles": "research/qa/proofs/webgpu-v016-2026-09-25/results.json, summary.json, probe.mjs, and 24 PNG captures",
         "unresolved": [
-          "production readback",
           "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
           "provider revision linking the stable alias to the eventual GitHub SHA"
         ],
