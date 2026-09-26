@@ -66,13 +66,21 @@ Duplicate current/date slots: **none**. No missing day was invented.
 - Blind preview: WebGL canvas remained visible; readout and controls hidden; reduced-motion state reached `4` seams.
 - Journal: exactly one `#journal-brush-2026-09-26` entry with the recorded title and canonical link.
 - Brush current: current header and first artwork rendered at `390×844`; catalogue count `20`; no overflow.
-- Proof bundle: `research/qa/proofs/brush-v020-2026-09-26/` with `results.json`, `summary.json`, `probe.mjs`, and `24` PNG captures.
+- Proof bundles: local `research/qa/proofs/brush-v020-2026-09-26/` and production `research/qa/proofs/brush-v020-2026-09-26-production/`, each with `results.json`, `summary.json`, `probe.mjs`, and `24` PNG captures.
+- Production headless matrix: **20/20** canonical/raw runs passed at the same five viewports in normal and reduced-motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses across the matrix and focused readbacks.
+- Production interaction: dry button `0→1`; `D` `1→2`; Delete `2→1`; release `→0`; all three production controls measured `44px` high.
+- Production blind/Journal/current readbacks: canvas visible with furniture hidden; exactly one Journal anchor/title; Brush current header and first work present; no overflow.
 
 ## Publication state
 
-- **Not yet deployed in this run.** Production readback, remote SHA, deployment URL, and deployed Journal verification remain outstanding until the generated work is committed and pushed.
-- Existing unrelated worktree modifications remain untouched and will not be staged.
+- Commit deployed: `18692e8a78c0044bb2b11b2438f868683a51bf3e`.
+- `origin/main`: matched the deployed commit at deployment time.
+- Deployment: `dpl_3sj9f1aTxTf2uRDQKpF7tKeXqiwt`, stable alias `https://autopoiesis-nine.vercel.app/`.
+- Production HTTP readback: `works.json`, `/journal/`, canonical work, raw blind preview, and favicon all returned **200**.
+- Deployed register: exactly one `brush-2026-09-26` record with the title, raw path, and `journal-brush-2026-09-26` anchor.
+- The post-deploy production evidence archive and QA registry additions are local evidence changes; they do not alter the already verified artwork payload.
 
 ## Held decision
 
-The work remains honestly **candidate / held**, not exhibition-ready. The engine, interaction, local responsive matrix, and register are real and verified. The unresolved doubt is perceptual: an independent caption-free reviewer has not yet confirmed that the broken band and the deflected wet bands read immediately as a changed material law rather than an attractive generic 3D coil. Provider revision linkage is also unresolved.
+The work remains honestly **candidate / held**, not exhibition-ready. The engine, interaction, local and production responsive matrices, deployment, and register are real and verified. The unresolved doubt is perceptual: an independent caption-free reviewer has not yet confirmed that the broken band and the deflected wet bands read immediately as a changed material law rather than an attractive generic 3D coil. Provider revision linkage is also unresolved.

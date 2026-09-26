@@ -83,10 +83,22 @@
         "diagnosticCount": 0,
         "overflowCount": 0,
         "unresolved": [
-          "production readback",
           "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
           "provider revision linking the stable alias to the eventual GitHub SHA"
-        ]
+        ],
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/brush-2026-09-26/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v020/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v020/?preview=1&static=1&blind=1",
+        "productionViewportMatrix": "20/20 production canonical and raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "production innerWidth equaled clientWidth and scrollWidth in all 20 canonical/raw runs; production blind, Journal, and Brush current readbacks also matched at 390x844",
+        "productionDiagnostics": "zero production console messages, page errors, failed requests, or HTTP 400+ responses across all 20 canonical/raw runs and focused readbacks",
+        "productionInteraction": "production dry button changed memory 0 to 1; D changed 1 to 2; Delete restored 2 to 1; release returned memory and seams to 0",
+        "productionBlind": "production static blind preview kept the WebGL canvas visible while hiding readout and controls; memory reached 4 seams with no document overflow",
+        "productionJournal": "production Journal rendered exactly one #journal-brush-2026-09-26 entry with the recorded title and canonical work link",
+        "productionCurrent": "production Brush current rendered the Brush header and first artwork with no document overflow",
+        "productionHttp": "stable alias works.json, Journal, canonical work, raw tableau, and favicon returned HTTP 200; deployed register contained exactly one brush-2026-09-26 record",
+        "productionDeployment": "dpl_3sj9f1aTxTf2uRDQKpF7tKeXqiwt",
+        "productionStableAliasVerified": true
       },
       "source": {
         "referenceId": "p5-brush",
