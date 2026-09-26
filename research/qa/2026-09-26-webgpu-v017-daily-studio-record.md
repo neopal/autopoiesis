@@ -48,6 +48,8 @@ The rupture is visible in code (`advanceTurn`, displaced segment placement, sour
 - `tests/webgpu-v017.test.mjs`
 - `studio/data/works.json`
 - `studio/data/catalog-public.json`
+- `research/qa/proofs/webgpu-v017-2026-09-26/`
+- `research/qa/proofs/webgpu-v017-2026-09-26-production/`
 
 ## Local evidence
 
@@ -66,8 +68,24 @@ The rupture is visible in code (`advanceTurn`, displaced segment placement, sour
 - Journal: exactly one `#journal-webgpu-2026-09-26` entry in the local readback.
 - WebGPU current: exactly one latest work rendered in the local current readback.
 
+## Production evidence
+
+- Push: local commit `9f4cb316dd6f0945dc66e9df406a4dd1d551b36e` matched `origin/main` before deployment.
+- Deployment: Vercel production deployment `dpl_HesTKJmqHPR79x87aTBfFFHsSec6`, stable alias `https://autopoiesis-nine.vercel.app/`.
+- Production route fetches: `/studio/data/works.json`, `/journal/`, `/works/webgpu-2026-09-26/`, `/studies/webgpu/v017/`, and `/favicon.ico` returned HTTP 200.
+- Production browser matrix: **20/20 passed** — canonical and raw tableau at `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced motion.
+- Production tableau order: **10/10 canonical runs** placed the iframe before title and explanatory prose.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
+- Production overflow: **0** failures; `innerWidth`, `clientWidth`, and `scrollWidth` matched in every matrix run and focused readback.
+- Production interaction: short click unchanged; drag unchanged; Enter changed the score; Delete restored the preceding score; release cleared memory.
+- Production blind mode: canvas visible, readout/controls/caption/annotations hidden, stage `16`, memory `4`.
+- Production touch targets: all three controls measured `44px` high at `390×844`.
+- Production Journal: exactly one `#journal-webgpu-2026-09-26` entry with the correct title and note.
+- Production WebGPU current: exactly one current header and latest work rendered.
+- Production proof: `research/qa/proofs/webgpu-v017-2026-09-26-production/production-summary.json` and screenshots.
+
 ## Release decision
 
-**Candidate / held.** The structural and runtime gates passed locally. The unresolved artistic question is whether the first-render, labels-off score reads as a temporal-computation rupture — a cohort actually missing and arriving late — rather than as v016's spatial scaffold flattened into horizontal ribbons. Production readback and provider revision linkage remain pending.
+**Candidate / held.** Structural, runtime, responsive, and deployment gates passed. The unresolved artistic question is whether the first-render, labels-off score reads as a temporal-computation rupture — a cohort actually missing and arriving late — rather than as v016's spatial scaffold flattened into horizontal ribbons. Provider revision linkage between the stable alias and the GitHub SHA remains unverified.
 
 Deletion condition: if two independent caption-free comparisons cannot distinguish source gap and delayed cohort from decorative overlays, delete v017 rather than polishing the controls or prose.
