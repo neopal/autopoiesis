@@ -1,89 +1,78 @@
 # Mutine daily studio record — 2026-09-26
 
-## Target
+## Audit scope
 
-- Current: Handwriting (`typography`)
-- Work: `typography-2026-09-26`
-- Study: `studies/handwriting/v016/`
-- Title: *The sentence dries toward another mouth.*
-- Status: **candidate / held**
-- Raw tableau: `/studies/handwriting/v016/`
-- Canonical: `/works/typography-2026-09-26/`
-- Observed at: `2026-09-26 04:10:59 +0200`
+- Target slot: `brush` / `2026-09-26` / current index `4/6`.
+- Cultural reference selected by the slot helper: `p5-brush` / p5.brush.
+- Active catalogue sources: `studio/data/studio.json`, `studio/data/works.json`, and generated `studio/data/catalog-public.json`.
+- Field tests and stimuli were not counted as works.
+- Browser verification used headless Playwright only; no headed browser, CUA, CDP, remote debugging, or GUI launch was used.
 
-## Artistic gate
+## Today's work
 
-### Repeated grammar refused
+- **Brush** (`brush`, active): recorded `brush-2026-09-26`, *The brush dries on the inside.*, status `candidate / held`, lifecycle `active`, raw tableau `/studies/p5-brush/v020/`, canonical `/works/brush-2026-09-26/`.
 
-The recent handwriting studies were organized around attention fields, discrete marks, and reciprocal or quorum-like response. v016 refuses the population/attention grammar and makes one connected sentence behave as a material route.
+### Changed rule
 
-### Structural and perceptual rupture
+v020 changes the Brush current from planar islands, membrane, and ordinal rack to a suspended WebGL helical coil. A discrete drying pulse fractures one actual pigment band into separated dry fragments and deflects the still-wet bands through changed phase, radius, and route. The material remembers by changing how the next geometry is produced.
 
-A meaningful drag is pressure, not selection. The nearest reservoir seals its mouth, its adjacent spine disappears as actual geometry, and the overflow is forced into a later reservoir through a new bridge. The latest pressure can be lifted to reconstruct the exact preceding sentence; a short click is refused.
+### Cultural translation
 
-This changes representation (attention field → one capillary sentence), composition (distributed marks → one connected object), encounter (proximity/look-back → thresholded pressure path), temporal behaviour (social reply → bounded breakage and overflow memory), and viewer task. It is not a palette, texture, density, title, or annotation variation.
+- **Observed mechanism:** p5.brush treats pressure, density, grain, and vector fields as programmable geometry-producing behaviour rather than a cosmetic surface skin.
+- **Mutine translation:** drying becomes an antagonist field. One pulse creates a structural seam in a helical band; later wet bands bend around it.
+- **Visible consequence:** WebGL coil, central volume, fractured band, floating dry fragments, and deflected neighbouring bands; pointer position is not causal.
+- **Falsifier:** if the pulse only changes hue, opacity, labels, or decorative particles, or if the wet bands keep their original route, the translation fails.
+- **Anti-copy:** no p5.brush brushes, watercolor appearance, hatching vocabulary, API surface, palette, composition, or source examples were reproduced.
 
-### Falsifier and deletion condition
+## Today's coverage
 
-Hide labels, readout, controls, captions, and editorial furniture. The direction fails if the blind field does not show a sealed mouth, missing local join, and downstream bridge; if the old spine remains underneath the reroute; if a short click commits; or if lifting the latest event does not restore the exact previous SVG signature. Delete v016 rather than polishing it if the caption-free image reads only as decorative wire or as v015's attention ecology.
+The six current/date slots for `2026-09-26` were checked against the parsed work register:
 
-## Cultural translation
+- **Handwriting** (`typography`, active): recorded `typography-2026-09-26`.
+- **Self portrait** (`portrait`, active): **held / no record**.
+- **Pure SVG** (`svg`, active): recorded `svg-2026-09-26`, *The loop misremembers a turn.*.
+- **Brush** (`brush`, active): recorded `brush-2026-09-26`, *The brush dries on the inside.*.
+- **Naive art** (`naive`, active): **held / no record**.
+- **WebGPU** (`webgpu`, dormant): **held / no record**.
 
-- Reference: `little-critters` — https://github.com/GordenSun/little-critters
-- Observed mechanism: situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a dashboard operator.
-- Mutine translation: refuse the look-back and translate relation into material pressure. The visitor's path loads one reservoir; that load seals the source, breaks its local adjacency, and forces a later mouth to accept the overflow.
-- Visible consequence: the blind field is one connected sentence with actual chamber openings, missing spine segments, and a downstream bridge after pressure; it does not merely recolour a fixed mark field.
-- Anti-copy statement: no animals, characters, paper scene, head-turning animation, source palette, composition, or surface vocabulary from `little-critters` is reproduced.
-- Direction consequence: close the handwriting current's v015 attention quorum and open a material-route direction. The next viable handwriting experiment must either make the material rule more irreversible or abandon the capillary sentence rather than polish another attention field.
+Duplicate current/date slots: **none**. No missing day was invented.
 
-## Files
+## Register integrity
 
-- `studies/handwriting/v016/index.html`
-- `studies/handwriting/v016/engine.mjs`
-- `studies/handwriting/v016/sketch.js`
-- `studies/handwriting/v016/style.css`
-- `studies/handwriting/v016/README.md`
-- `studies/handwriting/v016/metrics.json`
-- `studies/handwriting/v016/critiques.json`
-- `works/typography-2026-09-26/index.html`
-- `studio/data/works.json`
-- `studio/data/catalog-public.json`
-- `vercel.json`
-- `tests/handwriting-v016.test.mjs`
-- Updated catalogue assertions in `tests/catalog-architecture.test.mjs`, `tests/daily-catalog.test.mjs`, and `tests/evolution-catalog.test.mjs`
-- `research/qa/proofs/typography-v016-2026-09-26/`
+- JSON parsing: **PASS** for source and generated public catalog registers.
+- Parsed schemas: `mutine-studio/v2`, `mutine-works/v1`, and `mutine-public-catalog/v1`.
+- Register size: **103 works across 6 currents**.
+- Canonical pages: **103/103** present.
+- Raw tableaux: **103/103** resolve to an existing `index.html` under `studies/`.
+- Duplicate current/date keys: **none**.
+- Generated public catalog: rebuilt from source data; QA/browser evidence is excluded from the public payload.
 
-## Verification
+## Automated verification
 
-- Targeted tests: **23 passed, 0 failed** across catalogue and handwriting v016 coverage.
-- Full suite: **516 passed, 0 failed, 0 skipped, 0 todo**.
-- Changed JavaScript syntax: **PASS** for the v016 engine, sketch, and browser probe.
-- JSON validation: **PASS** for the work register, route configuration, v016 metrics, and v016 critiques.
-- `git diff --check`: **PASS**.
-- Local headless browser matrix: **20/20 runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
-- Local diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
-- Local overflow: every matrix run had `innerWidth == clientWidth == scrollWidth`.
-- Local interaction: short click left stage at `0`; a meaningful drag committed pressure; Enter repeated the event; Delete/lift restored the exact prior SVG signature; release returned to the empty deterministic sentence.
-- Blind preview: SVG remained visible while readout, controls, and editorial furniture were hidden at `390×844`.
-- Local Journal readback: exactly one `#journal-typography-2026-09-26` entry with the recorded title.
-- Local typography current readback: exactly one current header and first artwork; first artwork index `16` in the catalogue probe.
-- Auth preflight: `openai-codex` is logged in and a real one-shot request returned `AUTH_OK` using `gpt-5.6-luna`.
+- Targeted v020 tests: **5 passed, 0 failed**.
+- Full suite: **526 passed, 0 failed, 0 cancelled, 0 skipped, 0 todo**.
+- Changed JavaScript syntax: **PASS** for `studies/p5-brush/v020/engine.mjs`, `sketch.js`, and the QA probe.
+- JSON validation: **PASS** for v020 metadata, critiques, source works register, and generated public catalog.
+- `git diff --check`: **PASS**; only existing LF→CRLF working-copy warnings were emitted.
+- Static security scan: **no findings** in the generated v020 changes.
 
-## Publication
+## Browser and interaction evidence
 
-- Implementation commit: `7ef9653f68a5b5d8edc692bac5ca17be6fe7be2b`.
-- `origin/main` matched that commit before deployment.
-- Production deployment: `dpl_DJkE2FaTXSTVEpgfZ5ZcEwUkimDQ`.
-- Stable alias: `https://autopoiesis-nine.vercel.app/`.
-- Stable-alias HTTP readback: `/studio/data/works.json`, `/journal/`, `/works/typography-2026-09-26/`, `/studies/handwriting/v016/`, and `/favicon.ico` all returned **200**.
-- Deployed register readback: exactly one `typography-2026-09-26` record with the recorded title and raw path.
-- Rendered production Journal readback: exactly one `#journal-typography-2026-09-26` entry, title present, canonical link present.
-- Rendered production typography current readback: exactly one current header and first artwork; date `2026-09-26` present.
-- Production headless browser matrix: **20/20 runs passed** at the five required viewports and both motion modes; **0** diagnostics and **0** overflow runs.
-- Production interaction: short click left memory at `0`; drag committed `1` pressure event with `3` loaded reservoirs, `1` broken join, and `1` overflow bridge; Enter committed a second event; Delete restored the preceding SVG signature; release returned memory to `0`.
-- Production blind preview: SVG visible, readout/controls/editorial furniture hidden, and `innerWidth == clientWidth == scrollWidth == 390`.
-- The production proof bundle is `research/qa/proofs/typography-v016-2026-09-26-production/`.
+- Local headless matrix: **20/20** canonical/raw runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
+- Local diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses across the matrix and focused readbacks.
+- Local overflow: **0**; `innerWidth === clientWidth === scrollWidth` in all matrix runs and focused catalogue reads.
+- Touch targets: all three raw controls measured **44px high × 117px wide** at `390×844`.
+- Interaction: initial memory `0`; dry button `0→1`; `D` on focused canvas `1→2`; Delete `2→1` with `pulse-lifted`; release `→0`.
+- Blind preview: WebGL canvas remained visible; readout and controls hidden; reduced-motion state reached `4` seams.
+- Journal: exactly one `#journal-brush-2026-09-26` entry with the recorded title and canonical link.
+- Brush current: current header and first artwork rendered at `390×844`; catalogue count `20`; no overflow.
+- Proof bundle: `research/qa/proofs/brush-v020-2026-09-26/` with `results.json`, `summary.json`, `probe.mjs`, and `24` PNG captures.
 
-## Publication boundary
+## Publication state
 
-The local artifact, canonical page, register, Journal data, structural tests, local and production browser evidence, and stable-alias readback are real. Provider revision linkage between the stable alias and the GitHub SHA remains unresolved. Independent caption-free perceptual comparison also remains unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.
+- **Not yet deployed in this run.** Production readback, remote SHA, deployment URL, and deployed Journal verification remain outstanding until the generated work is committed and pushed.
+- Existing unrelated worktree modifications remain untouched and will not be staged.
+
+## Held decision
+
+The work remains honestly **candidate / held**, not exhibition-ready. The engine, interaction, local responsive matrix, and register are real and verified. The unresolved doubt is perceptual: an independent caption-free reviewer has not yet confirmed that the broken band and the deflected wet bands read immediately as a changed material law rather than an attractive generic 3D coil. Provider revision linkage is also unresolved.

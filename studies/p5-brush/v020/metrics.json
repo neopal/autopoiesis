@@ -1,0 +1,23 @@
+{
+  "id": "p5-brush-v020-drying-coil",
+  "visitorInput": true,
+  "seed": "0x42525540",
+  "stages": 17,
+  "bandCount": 9,
+  "primitiveBudget": 84,
+  "memoryWindow": 4,
+  "settledStage": 16,
+  "settledMemory": 4,
+  "settledDryBands": 4,
+  "settledDeflectedBands": 8,
+  "visitorMemory": 1,
+  "memoryRule": "a drying pulse fractures one actual helical band into dry fragments and deflects later wet bands around the seam",
+  "interactionRule": "the pulse button, D, Enter, and Space commit one bounded drying pulse; Delete or lift latest restores the exact prior coil",
+  "representationRupture": "planar islands, membrane, and ordinal rack -> suspended WebGL helical coil with a central volume",
+  "encounterRupture": "proximity, departure, or wheel step -> discrete drying pulse with no pointer-position state",
+  "temporalRupture": "surface absence and load removal -> material phase change that alters the next geometry",
+  "replay": true,
+  "renderer": "deterministic p5.js WebGL 2D/3D hybrid",
+  "measured": true,
+  "promotion": "candidate / held pending independent caption-free perceptual review, production verification, and provider revision linkage"
+}

@@ -2,6 +2,109 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-09-26",
+      "currentId": "brush",
+      "date": "2026-09-26",
+      "title": "The brush dries on the inside.",
+      "rawPath": "/studies/p5-brush/v020/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-09-26",
+        "note": "v020 abandons the planar island, membrane, and ordinal-register grammars. One suspended WebGL coil carries nine helical pigment bands: a drying pulse fractures one actual band into separated dry fragments, and the remaining wet bands bend around the new seam. Lifting the latest pulse reconstructs the exact preceding coil."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "Drying must live in geometry: one actual helical band needs breaks and detached fragments, while later wet bands need changed phase, radius, or deflection. A darker hue, opacity fade, or particle halo cannot substitute for a changed production law."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and prose hidden, the first encounter should read as a suspended material coil rather than a generic torus or wireframe. After a pulse, the seam and routed wet bands must be findable in the object itself."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "The pulse is discrete and non-positional: the button, D, Enter, and Space must commit the same bounded event; Delete or lift latest must restore the exact preceding coil; pointer movement must have no causal path."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v020 must break v017-v019's planar island, membrane, and hanging-register grammars. The WebGL coil changes medium, the central volume changes composition, and a drying pulse changes the future law of the material instead of removing or transferring a visible object."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Drying is an easy metaphor. Delete v020 if the coil is only a decorative 3D torus, if the chosen band remains continuous under the fragments, if wet bands keep their old route, or if the pulse only changes a counter and colour."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v020-drying-coil",
+        "visitorInput": true,
+        "seed": "0x42525540",
+        "stages": 17,
+        "bandCount": 9,
+        "primitiveBudget": 84,
+        "memoryWindow": 4,
+        "settledStage": 16,
+        "settledMemory": 4,
+        "settledDryBands": 4,
+        "settledDeflectedBands": 8,
+        "visitorMemory": 1,
+        "memoryRule": "a drying pulse fractures one actual helical band into dry fragments and deflects later wet bands around the seam",
+        "interactionRule": "the pulse button, D, Enter, and Space commit one bounded drying pulse; Delete or lift latest restores the exact prior coil",
+        "representationRupture": "planar islands, membrane, and ordinal rack -> suspended WebGL helical coil with a central volume",
+        "encounterRupture": "proximity, departure, or wheel step -> discrete drying pulse with no pointer-position state",
+        "temporalRupture": "surface absence and load removal -> material phase change that alters the next geometry",
+        "replay": true,
+        "renderer": "deterministic p5.js WebGL 2D/3D hybrid",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local browser matrices passed / held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4189/works/brush-2026-09-26/",
+        "rawPreview": "http://127.0.0.1:4189/studies/p5-brush/v020/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4189/studies/p5-brush/v020/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "viewportMatrix": "20/20 local canonical and raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local canonical/raw runs; blind, Journal, and Brush current readbacks also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 117px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, or failed requests across all 20 local canonical/raw runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all local canonical/raw runs and focused readbacks",
+        "normalState": "normal-motion raw runs opened at memory 0 / 0 seams with the WebGL coil live",
+        "reducedMotionState": "reduced-motion raw runs settled at memory 4 / 4 seams with the fractured coil visible",
+        "buttonInteraction": "local raw dry-one-seam changed memory 0 to 1 and seams 0 to 1",
+        "keyboardInteraction": "D on the focused canvas changed memory 1 to 2 and changed the WebGL canvas image signature",
+        "liftInteraction": "Delete after keyboard changed memory 2 to 1 and reported pulse-lifted",
+        "releaseInteraction": "release sequence returned memory to 0 and seams to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the WebGL canvas visible while hiding readout and controls; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-brush-2026-09-26 entry with the recorded title and canonical work link",
+        "current": "local Brush current readback at 390x844 rendered the Brush header and first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: 20 canonical/raw viewport captures plus interaction, blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/brush-v020-2026-09-26/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "A programmable brush engine treats pressure, density, grain, and vector fields as geometry-producing behaviour rather than as a cosmetic skin.",
+        "translatedRule": "Make drying the antagonist field: one pulse fractures a helical band into dry fragments and bends later wet bands around the seam, changing how future geometry is produced.",
+        "visibleConsequence": "The work switches from planar surface/register to a WebGL coil, from pointer proximity/departure/wheel to a discrete pulse, and from a removed mark to a causal seam that deflects future bands.",
+        "falsifier": "If a pulse only changes hue, opacity, labels, or decorative particles, if the selected band remains continuous, or if neighbouring bands keep their original phase and radius, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, API surface, palette, composition, or source examples are reproduced.",
+        "directionConsequence": "Closes Brush's recent planar absence and ordinal-load grammar; opens a material-field direction in which drying is a spatial obstruction and the next mark must route around what was lost."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v020 if the fractured seam and deflected wet bands are not legible in the coil itself or if it reads as a generic torus.",
+        "lineage": "brush-2026-09-25"
+      }
+    },
+    {
       "id": "svg-2026-09-26",
       "currentId": "svg",
       "date": "2026-09-26",

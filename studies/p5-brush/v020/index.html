@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081215">
+  <title>MUTINE — the brush dries on the inside</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=020">
+  <script>p5 = window.p5 || undefined;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-09-26"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="coil-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v020 / DRYING COIL</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="coil-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v020</span></nav>
+
+      <figure class="coil-work artwork-frame" aria-labelledby="work-title">
+        <div id="coil" class="coil-wrap" tabindex="0" role="application" aria-label="A suspended helical coil of pigment. Send a drying pulse to fracture one band and bend the wet bands around the seam." aria-keyshortcuts="D Enter Space Delete R S">
+          <div class="coil-readout" aria-live="polite"><span data-stage>stage 17 / 17</span><span data-memory>4 seams held</span></div>
+          <div class="coil-controls" aria-label="Brush actions">
+            <button id="dry-control" data-gesture="dry" type="button">dry one seam</button>
+            <button id="lift-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release coil</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v020-drying-coil</span><span>pulse &gt; fracture &gt; route</span></figcaption>
+      </figure>
+
+      <section class="coil-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / DIRECTION SWITCH / v020</p>
+        <h1 id="work-title">The brush dries<br><i>on the inside.</i></h1>
+        <p class="coil-lede">A drying pulse fractures one helical band and makes the wet bands route around the seam. Material memory is not a stain; it is a changed future.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE PULSE, NOT A POINTER</p>
+          <p class="interaction-copy">Press the button, D, Enter, or Space. One coherent band dries into separated fragments; the still-wet bands bend around the new seam. Delete or “lift latest” restores the exact preceding coil.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The coil is still wet inside.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v020</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Translate p5.brush's material field into a drying obstruction: a pulse fractures one actual helical band, then deflects later wet bands through changed phase and radius.</dd></div>
+          <div><dt>visitor action</dt><dd>Press the pulse control, D, Enter, or Space to dry one bounded band. Delete or “lift latest” removes only the latest seam; release coil clears visitor memory and restarts the sequence.</dd></div>
+          <div><dt>falsifier</dt><dd>If the pulse changes only hue or opacity, if the band remains continuous, or if neighbouring bands do not route differently, the coil has not remembered a drying event.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v020 if labels-off, controls-off viewing reads as a generic torus or as v019's ordinal register. Do not rescue the fracture with explanatory text.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-25/">previous daily work</a><a href="/journal/#journal-brush-2026-09-26">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=020"></script>
+</body>
+</html>
