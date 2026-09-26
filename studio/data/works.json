@@ -2,6 +2,113 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-09-26",
+      "currentId": "svg",
+      "date": "2026-09-26",
+      "title": "The loop misremembers a turn.",
+      "rawPath": "/studies/pure-svg/v017/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-09-26",
+        "note": "v017 abandons the articulated body, sustained gaze, and inherited echo. One irregular SVG loop holds eight angular seals around a warped central void: a first chosen seal arms a relation, a second distant seal commits it, the source return disappears as actual geometry, and a wrong return crosses the loop between them. Lifting the latest relay reconstructs the exact preceding topology."
+      },
+      "critiques": [
+        {
+          "persona": "Topology critic",
+          "argument": "The changed rule must live in the loop: the source local link must actually disappear and the distant wrong-return path must become an actual SVG edge. A glow, badge, selection ring, or colour legend cannot substitute for changed adjacency."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, selection ring, and prose hidden, the first encounter should read as one sealed irregular return around a dark core. After a relay, the missing seam and the distant cross-route must be findable in the loop itself before the explanation is read."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement may only locate a seal. A first click arms; a second non-identical click commits. Same-point taps and drags must be refused, Enter and Space must commit the same bounded relay, and Delete must restore the exact preceding topology."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v017 must break v014-v016's corridor, territory, and articulated-body grammars. Its composition is one closed loop, its shape vocabulary is angular seals plus a central negative core, and its viewer task is selecting a relation between two points rather than holding a gaze."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v017 if the cut is only a red sticker, if the wrong return is only a decorative diagonal, if the loop remains a body or corridor in blind view, if same-point taps commit, or if lifting the latest relay does not restore the exact prior signature."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v017-misremembered-loop",
+        "visitorInput": true,
+        "seed": "0x53564747",
+        "stages": 16,
+        "primitiveBudget": 12,
+        "anchorCount": 8,
+        "memoryWindow": 4,
+        "settledStage": 15,
+        "settledMemory": 4,
+        "settledCuts": 4,
+        "settledWrongReturns": 4,
+        "memoryRule": "a two-point relay cuts the source actual local return and installs a distant wrong-return bridge between the chosen seals",
+        "interactionRule": "pointer movement only locates; a first point arms, a second non-identical point commits; Enter, Space, and the relay control commit a bounded pair; Delete lifts the latest relay",
+        "representationRupture": "single articulated body with inherited echo -> one sealed irregular loop with eight angular seals and a warped central void",
+        "encounterRupture": "sustained gaze -> two-point selection of a relation; same-point taps and drags are refused",
+        "temporalRupture": "thresholded joint sacrifice -> discrete topological relay with bounded adjacency memory",
+        "replay": true,
+        "renderer": "deterministic inline SVG geometry",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4187/works/svg-2026-09-26/",
+        "rawPreview": "http://127.0.0.1:4187/studies/pure-svg/v017/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4187/studies/pure-svg/v017/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v017 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local raw and 10/10 local canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; Journal, Pure SVG current, interaction, and static blind readbacks also matched",
+        "touchTargets": "all three local raw interaction buttons measured 44px high and 114px wide at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 16 with 0 relays, 0 cuts, and 0 wrong returns",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 15 / 16 with 4 relays, 4 cuts, and 4 wrong returns",
+        "pointerMovement": "local interaction pointer movement left memory and topology unchanged",
+        "dragInteraction": "local interaction drag was refused with memory and topology unchanged",
+        "firstPoint": "local interaction first seal click armed only with memory 0",
+        "samePoint": "local interaction same-seal second click was refused with memory 0",
+        "twoPointRelay": "local interaction second distant seal click changed memory 0 to 1 with 1 cut and 1 wrong-return bridge",
+        "keyboardInteraction": "Enter on the focused SVG changed memory 1 to 2 and changed the topology signature",
+        "liftInteraction": "Delete after keyboard changed memory 2 to 1 and restored the exact preceding relayed signature",
+        "releaseInteraction": "release loop returned memory to 0 and the seeded topology",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, labels, center label, and selection ring; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-svg-2026-09-26 entry with the recorded title and canonical work link",
+        "current": "local Pure SVG current readback at 390x844 rendered exactly one current header and a first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: 20 raw/canonical viewport captures plus interaction, static blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/svg-v017-2026-09-26/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, selection ring, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Remove the agents and refuse the look-back. Treat attention as a two-point relay inside topology: the first chosen seal recruits a second distant seal, the original return is cut, and the loop keeps the wrong neighbour as a real bridge.",
+        "visibleConsequence": "The blind first view is one sealed irregular loop around a warped central void. After a two-point relay, an actual local seam is absent and a distant wrong-return path crosses the loop; lifting the latest event restores the preceding graph exactly.",
+        "falsifier": "If same-point taps commit, if dragging becomes the hidden control, if the original link remains under a decorative bridge, or if blind viewing cannot find the missing seam and wrong return, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Pure SVG v014's corridor, v015's void ownership, and v016's body/echo grammars; opens a constraint-and-topology direction in which selecting a relation is the event and negative space remembers a wrong adjacency."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v017 if the missing seam and distant wrong return are not legible in the loop itself or if the first-render blind view still reads as the v016 articulated body.",
+        "lineage": "svg-2026-09-25"
+      }
+    },
+    {
       "id": "webgpu-2026-09-25",
       "currentId": "webgpu",
       "date": "2026-09-25",

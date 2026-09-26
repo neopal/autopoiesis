@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101526">
+  <title>MUTINE — The loop misremembers a turn.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=017">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-09-26"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v017</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v017</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="An irregular closed SVG loop with eight seals. Choose two distant points to cut one return and make the loop misremember its route." preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 16</span><span data-memory>0 relays · 0 cuts · 0 returns</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="relay-control" data-gesture="relay">relay two points</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release loop</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Eight angular seals hold one irregular loop around a dark core. No body, corridor, or territory: the first image is a sealed return.</p></div>
+          <div><span>changed rule</span><p>Choose one point, then another. The loop cuts its actual local return and installs a distant wrong return between the two chosen seals.</p></div>
+          <div><span>progression</span><p>Pointer movement only locates a seal. A two-point tap commits; Enter or Space makes the bounded relay; Delete lifts the latest return.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V017 / DAILY WORK</p><h1 id="work-title">The loop<br><i>misremembers a turn.</i></h1></div>
+        <p class="work-premise">A closed route can be made to remember the wrong neighbour: one seam vanishes, and a distant return carries the relation elsewhere.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a two-point relay changes SVG topology, removes a real local link, adds a distant return, and restores the exact preceding loop when lifted. Promotion depends on whether the blind loop reads as a changed route rather than a decorated diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=017"></script>
+</body>
+</html>

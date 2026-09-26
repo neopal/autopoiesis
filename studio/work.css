@@ -404,3 +404,17 @@ html:not(.preview-mode) body.field-test-page .clock {
   body.work-page .artwork-frame,
   body.field-test-page::before { transition: none !important; }
 }
+
+@media (max-width: 380px) {
+  html:not(.preview-mode) body.work-page .work-inspect,
+  html:not(.preview-mode) body.work-page .work-inspect__stage,
+  html:not(.preview-mode) body.work-page .work-inspect__heading,
+  html:not(.preview-mode) body.work-page .work-inspect__heading h1 {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  html:not(.preview-mode) body.work-page .work-inspect__heading h1 {
+    overflow-wrap: anywhere;
+  }
+}
