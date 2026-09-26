@@ -55,11 +55,25 @@ A wheel step misreads one weather form. Its actual contour opens, a distant form
 - Captures: `24` PNGs in the proof bundle (`20` matrix, interaction, blind, Journal, current).
 - `node --check` passed for `engine.mjs` and `sketch.js`.
 - Catalog-focused suite: **21 passed, 0 failed**.
-- Full suite and final deployment verification remain release gates.
+- Full suite: **529 passed, 0 failed, 0 cancelled, 0 skipped, 0 todo**.
+- Production headless browser matrix: **20/20** raw/canonical runs passed at the same five viewports in normal and reduced-motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
+- Production interaction: pointer/click unchanged; wheel and ArrowDown changed geometry; Delete restored the preceding signature; release returned to the seeded sequence.
+- Production blind/Journal/current readbacks: canvas visible with furniture hidden; exactly one Journal anchor/title; Naive art current header and first work present; no overflow.
+- Production proof bundle: `research/qa/proofs/naive-art-v019-2026-09-26-production/`, with `24` PNG captures plus `results.json`, `summary.json`, and `probe.mjs`.
+
+## Publication state
+
+- Commit: `717f3e3fac30ca17a0d59cd0dd8c46db320c78ba`.
+- `origin/main`: matched the commit before deployment.
+- Deployment: `dpl_2CUcgKuv4KJeb6zXQKpHGyw7GPKc`; stable alias `https://autopoiesis-nine.vercel.app/`.
+- Production HTTP readback: `/studio/data/works.json`, canonical work, raw tableau, and favicon returned **200**.
+- Rendered production Journal readback: exactly one `#journal-naive-2026-09-26` entry with the title and canonical link.
+- The deployed JSON contains exactly one `naive-2026-09-26` record with the correct raw path, status, and Journal anchor.
 
 ## Evidence boundary
 
-Local runtime and responsive evidence is complete. The candidate remains held for independent caption-free perceptual review and provider revision linkage. Runtime evidence does not prove that the changed weather law reads immediately without labels or explanation.
+Production runtime and responsive evidence is complete. The candidate remains held for independent caption-free perceptual review and provider revision linkage. Runtime evidence does not prove that the changed weather law reads immediately without labels or explanation.
 
 ## Next decision
 
