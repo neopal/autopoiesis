@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f0e7d3">
+  <title>MUTINE — the picture remembers a second horizon</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.has('blind')) document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=019">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-26"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="mural-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v019 / SECOND HORIZON</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="mural-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v019</span></nav>
+
+      <figure class="mural-work artwork-frame" aria-labelledby="work-title">
+        <div id="panorama" class="panorama-wrap" tabindex="0" role="application" aria-label="A naive painted panorama that misremembers one weather form when stepped with the wheel" aria-keyshortcuts="ArrowUp ArrowDown Enter Space Delete R S">
+          <div class="mural-readout" aria-live="polite"><span data-stage>stage 18 / 18</span><span data-memory>4 misreads held</span></div>
+          <div class="mural-controls" aria-label="Panorama actions">
+            <button id="step-control" data-gesture="step" type="button">misread one weather</button>
+            <button id="undo-control" data-gesture="undo" type="button">undo latest</button>
+            <button id="release-control" data-gesture="release" type="button">release panorama</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-naive-v019-second-horizon</span><span>wheel &gt; borrow &gt; rebuild</span></figcaption>
+      </figure>
+
+      <section class="mural-opening" aria-labelledby="work-title">
+        <p class="eyebrow">NAIVE ART / DIRECTION SWITCH / v019</p>
+        <h1 id="work-title">The picture remembers <br><i>a second horizon.</i></h1>
+        <p class="mural-lede">A wheel step makes one weather shape lose its contour and teaches a distant shape the wrong edge. The landscape keeps the mistake in its horizon.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE STEP, NOT A CURSOR</p>
+          <p class="interaction-copy">Scroll or press an arrow key. One source form opens, a distant form borrows its contour, and the horizon redraws itself at the wrong angle. Delete or “undo latest” restores the exact preceding panorama.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The weather is still in its first place.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v019</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Translate situated attention into a wheel-stepped misreading: a weather form opens, a distant form inherits the wrong contour, and the shared horizon tilts to contain the error.</dd></div>
+          <div><dt>visitor action</dt><dd>Scroll, ArrowUp, ArrowDown, Enter, or Space commits one bounded misread. Delete or “undo latest” removes only the newest event; release panorama restarts the seeded sequence.</dd></div>
+          <div><dt>falsifier</dt><dd>If the wheel changes only a counter or colour, if the source remains geometrically intact, or if the horizon stays fixed, the panorama has not remembered anything.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v019 if labels-off viewing still reads as v018's hinged sculpture or if the source opening and wrong horizon cannot be found in the image itself.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-09-25/">previous daily work</a><a href="/journal/#journal-naive-2026-09-26">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=019"></script>
+</body>
+</html>

@@ -2,6 +2,112 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-09-26",
+      "currentId": "naive",
+      "date": "2026-09-26",
+      "title": "The picture remembers a second horizon.",
+      "rawPath": "/studies/naive-art/v019/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-09-26",
+        "note": "v019 abandons the loose-form, load-bearing pile, and hinged-object grammars. One continuous p5 panorama carries six naive weather forms over a shared horizon: a wheel step opens one source contour, teaches a distant form the wrong edge, and tilts the horizon to carry the error. Lifting the latest step reconstructs the exact preceding mural."
+      },
+      "critiques": [
+        {
+          "persona": "Mural critic",
+          "argument": "The error must live in the panorama: the source weather form needs an actual opening in its contour, a distant form must inherit a changed edge, and the shared horizon must redraw its slope. A counter, tint, or sticker cannot carry the rule."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and prose hidden, the first encounter should read as one continuous naive panorama rather than v018's hinged sculpture or a collection of cards. After a step, the open form and second horizon must be findable in the image itself."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement and short taps must have no causal path. Wheel, ArrowUp/ArrowDown, Enter, Space, and the step control must commit the same bounded event; Delete must restore the exact previous panorama."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v019 must break v016-v018's loose forms, load-bearing pile, and hinged object grammars. Its field is a continuous mural, its shape vocabulary is weather and horizon, and its viewer task is stepping through a wrong reading rather than holding or dragging."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "A second horizon is an easy metaphor. Delete v019 if the wheel only advances a counter, if the source form remains whole, if the horizon stays fixed, or if the blind view still reads as a repaired hinge mechanism."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v019-second-horizon",
+        "visitorInput": true,
+        "seed": "0x4e413139",
+        "stages": 18,
+        "primitiveBudget": 34,
+        "formCount": 6,
+        "memoryWindow": 4,
+        "settledStage": 17,
+        "settledMemory": 4,
+        "settledOpenedForms": 4,
+        "settledBorrowedForms": 4,
+        "settledWrongHorizon": 4,
+        "visitorMemoryAfterWheel": 1,
+        "memoryRule": "a wheel step misreads one weather form -> its contour opens -> a distant form borrows the wrong edge -> the shared horizon tilts to contain the error",
+        "interactionRule": "wheel, ArrowUp/ArrowDown, Enter, Space, and the step control commit one bounded weather misread; Delete or undo latest restores the exact prior panorama",
+        "representationRupture": "one hinged Canvas paper mechanism -> one continuous p5 panorama with a horizon, weather forms, and shared painted ground",
+        "encounterRupture": "directional drag names a wrong neighbour -> wheel step advances a discrete misreading with no pointer-position state",
+        "temporalRupture": "reversible hinge reassignment -> ordinal weather error that redraws the common horizon",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D Canvas",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrices passed / held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4190/works/naive-2026-09-26/",
+        "rawPreview": "http://127.0.0.1:4190/studies/naive-art/v019/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4190/studies/naive-art/v019/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v019 tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; blind, Journal, and Naive art current readbacks also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened with the live panorama and deterministic stage sequence",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 17 / 18 with 4 retained misreads",
+        "pointerMovement": "pointer movement and a short click left memory and geometry signature unchanged",
+        "wheelInteraction": "local raw wheel changed the geometry signature and kept the bounded memory at 4",
+        "keyboardInteraction": "ArrowDown on the focused canvas changed the geometry signature and kept memory bounded at 4",
+        "liftInteraction": "Delete after keyboard changed memory from 4 to 3 and restored the exact preceding wheel signature",
+        "releaseInteraction": "release sequence returned to the deterministic reduced-motion sequence state",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the p5 canvas visible while hiding readout and controls; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-naive-2026-09-26 entry with the recorded title and canonical work link",
+        "current": "local Naive art current readback at 390x844 rendered the Naive art header and first artwork with no document overflow",
+        "canvasCaptures": "24 local PNG captures written: 20 canonical/raw viewport captures plus interaction, blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/naive-art-v019-2026-09-26/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse the look-back and translate situated attention into an ordinal weather error: a wheel step opens one source contour, teaches a distant form the wrong edge, and forces the shared horizon to carry the false relation.",
+        "visibleConsequence": "The blind field is one continuous naive panorama rather than a pile, picture strip, loose form population, or hinged object. After a step, one weather form has a changed contour, a distant form carries a borrowed edge, and the shared horizon tilts.",
+        "falsifier": "If a short tap changes the mural, if the source opening is only recolouring, if the borrowed contour is only a marker, or if the horizon remains fixed, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, source palette, composition, or head-turning surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Naive art v016's isolated-form, v017's load-bearing pile, and v018's joint/adjacency grammars; opens a continuous mural direction in which a discrete misreading becomes a rule of the shared world rather than damage to one object."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v019 if the source opening, distant borrowed contour, and wrong horizon are not legible in the panorama itself or if a short tap behaves like a wheel step.",
+        "lineage": "naive-2026-09-25"
+      }
+    },
+    {
       "id": "brush-2026-09-26",
       "currentId": "brush",
       "date": "2026-09-26",
