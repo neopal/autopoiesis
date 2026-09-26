@@ -69,6 +69,21 @@ Hide labels, readout, controls, captions, and editorial furniture. The direction
 - Local typography current readback: exactly one current header and first artwork; first artwork index `16` in the catalogue probe.
 - Auth preflight: `openai-codex` is logged in and a real one-shot request returned `AUTH_OK` using `gpt-5.6-luna`.
 
+## Publication
+
+- Implementation commit: `7ef9653f68a5b5d8edc692bac5ca17be6fe7be2b`.
+- `origin/main` matched that commit before deployment.
+- Production deployment: `dpl_DJkE2FaTXSTVEpgfZ5ZcEwUkimDQ`.
+- Stable alias: `https://autopoiesis-nine.vercel.app/`.
+- Stable-alias HTTP readback: `/studio/data/works.json`, `/journal/`, `/works/typography-2026-09-26/`, `/studies/handwriting/v016/`, and `/favicon.ico` all returned **200**.
+- Deployed register readback: exactly one `typography-2026-09-26` record with the recorded title and raw path.
+- Rendered production Journal readback: exactly one `#journal-typography-2026-09-26` entry, title present, canonical link present.
+- Rendered production typography current readback: exactly one current header and first artwork; date `2026-09-26` present.
+- Production headless browser matrix: **20/20 runs passed** at the five required viewports and both motion modes; **0** diagnostics and **0** overflow runs.
+- Production interaction: short click left memory at `0`; drag committed `1` pressure event with `3` loaded reservoirs, `1` broken join, and `1` overflow bridge; Enter committed a second event; Delete restored the preceding SVG signature; release returned memory to `0`.
+- Production blind preview: SVG visible, readout/controls/editorial furniture hidden, and `innerWidth == clientWidth == scrollWidth == 390`.
+- The production proof bundle is `research/qa/proofs/typography-v016-2026-09-26-production/`.
+
 ## Publication boundary
 
-The local artifact, canonical page, register, Journal data, structural tests, and browser proof bundle are real. No commit, push, or production deploy has been performed yet in this run. The gateway is not running, but this manual run does not require the scheduler ticker. Independent caption-free perceptual comparison and provider revision linkage remain unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.
+The local artifact, canonical page, register, Journal data, structural tests, local and production browser evidence, and stable-alias readback are real. Provider revision linkage between the stable alias and the GitHub SHA remains unresolved. Independent caption-free perceptual comparison also remains unresolved. The work therefore remains honestly **candidate / held**, not exhibition-ready.
