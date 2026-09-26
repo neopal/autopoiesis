@@ -1,0 +1,22 @@
+{
+  "id": "handwriting-v016-capillary",
+  "seed": "0x48574416",
+  "visitorInput": true,
+  "stages": 17,
+  "reservoirCount": 12,
+  "memoryWindow": 5,
+  "finalStage": 16,
+  "finalMemory": 5,
+  "finalBrokenJoins": 5,
+  "finalOverflowBridges": 5,
+  "renderer": "deterministic SVG DOM",
+  "materialRule": "pressure seals one reservoir, removes its local spine, and forces overflow into a later mouth",
+  "memoryRule": "the latest five pressure paths are replayed through the capillary sentence builder",
+  "interactionRule": "a meaningful drag commits pressure; a short click is refused; lifting the latest pressure rebuilds the exact preceding material sentence",
+  "representationRupture": "discrete attention field -> one connected capillary sentence of material reservoirs",
+  "encounterRupture": "pointer proximity and looking -> pressure path with a threshold and a downstream reroute",
+  "temporalRupture": "social reorientation -> pressure, drying, breakage, and overflow memory",
+  "replay": true,
+  "measured": false,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision verification"
+}
