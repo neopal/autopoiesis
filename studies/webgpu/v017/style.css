@@ -1,0 +1,63 @@
+:root {
+  --tempo-ground: #080916;
+  --tempo-ink: #eef2ff;
+  --tempo-muted: #8e94b5;
+  --tempo-cyan: #77e1d0;
+  --tempo-lilac: #b3a4ff;
+  --tempo-coral: #f18f79;
+  --tempo-sun: #f3c36d;
+  --tempo-frame: rgba(238, 242, 255, .22);
+}
+
+* { box-sizing: border-box; }
+html, body { background: var(--tempo-ground); color: var(--tempo-ink); }
+body.work-page { min-height: 100vh; }
+.tempo-shell { min-height: 100vh; background: radial-gradient(circle at 58% 10%, rgba(112, 105, 220, .16), transparent 42%), var(--tempo-ground); }
+.tempo-main { width: min(1500px, calc(100% - 48px)); margin: 0 auto; padding: 12px 0 64px; }
+.tempo-work { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .28fr); gap: 20px; align-items: start; }
+.tempo-frame { position: relative; margin: 0; min-height: clamp(440px, 67vw, 780px); overflow: hidden; border: 1px solid var(--tempo-frame); background: #050611; box-shadow: 0 28px 90px rgba(0, 0, 0, .34); }
+.tempo-frame::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(119, 225, 208, .17); pointer-events: none; }
+#field { display: block; width: 100%; height: 100%; min-height: clamp(440px, 67vw, 780px); touch-action: none; outline: none; cursor: crosshair; }
+#field:focus-visible { box-shadow: inset 0 0 0 2px var(--tempo-sun); }
+.tempo-readout { position: absolute; z-index: 2; top: 18px; left: 20px; right: 20px; display: flex; justify-content: space-between; gap: 12px; color: var(--tempo-muted); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; text-transform: uppercase; pointer-events: none; }
+.tempo-controls { position: absolute; z-index: 3; left: 20px; bottom: 46px; display: flex; flex-wrap: wrap; gap: 8px; }
+.tempo-controls button { min-height: 44px; padding: 0 14px; border: 1px solid rgba(238, 242, 255, .32); border-radius: 999px; background: rgba(5, 6, 17, .78); color: var(--tempo-ink); font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em; cursor: pointer; }
+.tempo-controls button:hover, .tempo-controls button:focus-visible { border-color: var(--tempo-cyan); color: var(--tempo-cyan); }
+.tempo-frame figcaption { position: absolute; z-index: 2; left: 20px; right: 20px; bottom: 14px; display: flex; justify-content: space-between; gap: 16px; color: rgba(238, 242, 255, .62); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; pointer-events: none; }
+.tempo-notes { display: grid; gap: 14px; padding-top: 24px; }
+.tempo-notes > div { padding: 14px 0; border-top: 1px solid rgba(238, 242, 255, .14); }
+.tempo-notes span { color: var(--tempo-sun); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.tempo-notes p, .tempo-premise, .tempo-note p { margin: 8px 0 0; color: var(--tempo-muted); font-size: 14px; line-height: 1.55; }
+.tempo-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .42fr); gap: 32px; padding: 44px 0 0; }
+.tempo-opening h1 { margin: 8px 0 0; max-width: 760px; font-size: clamp(44px, 7vw, 108px); line-height: .88; letter-spacing: -.06em; font-weight: 500; }
+.tempo-opening h1 i { color: var(--tempo-cyan); font-family: Georgia, serif; font-weight: 400; }
+.tempo-premise { align-self: end; max-width: 420px; font-size: 17px; }
+.tempo-note { max-width: 720px; padding: 22px 0 0; }
+.tempo-note strong { color: var(--tempo-ink); font-weight: 500; }
+html.preview-mode .tempo-shell { background: #050611; }
+html.preview-mode .tempo-main { width: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .tempo-notes, html.preview-mode .tempo-opening, html.preview-mode .tempo-note, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .tempo-frame { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode #field { min-height: 100vh; }
+html.blind-mode .tempo-readout, html.blind-mode .tempo-controls, html.blind-mode .tempo-frame figcaption, html.blind-mode .studio-header, html.blind-mode .studio-path, html.blind-mode .tempo-notes, html.blind-mode .tempo-opening, html.blind-mode .tempo-note, html.blind-mode .studio-footer { display: none; }
+html.blind-mode .tempo-frame::after { display: none; }
+html.blind-mode .tempo-frame { min-height: 100vh; border: 0; }
+html.blind-mode #field { min-height: 100vh; }
+
+@media (prefers-reduced-motion:reduce) {
+  .tempo-frame, .tempo-controls button { transition: none; }
+}
+
+@media (max-width: 680px) {
+  .tempo-main { width: min(100% - 24px, 520px); padding-bottom: 40px; }
+  .tempo-work, .tempo-opening { grid-template-columns: 1fr; gap: 20px; }
+  .tempo-frame, #field { min-height: min(124vw, 620px); }
+  .tempo-readout { top: 14px; left: 14px; right: 14px; font-size: 9px; }
+  .tempo-controls { left: 14px; right: 14px; bottom: 42px; }
+  .tempo-controls button { flex: 1 1 30%; padding: 0 8px; font-size: 10px; }
+  .tempo-frame figcaption { left: 14px; right: 14px; bottom: 12px; font-size: 8px; }
+  .tempo-notes { padding-top: 0; }
+  .tempo-opening { padding-top: 26px; }
+  .tempo-opening h1 { font-size: clamp(50px, 16vw, 78px); }
+  .tempo-premise { font-size: 15px; }
+}

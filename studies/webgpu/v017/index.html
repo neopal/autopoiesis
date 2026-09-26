@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080916">
+  <meta name="description" content="A WebGPU-ready temporal score where a discrete turn delays a real cohort and leaves a gap in the band it left.">
+  <title>MUTINE — The crowd misses its own beat.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=017">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-26"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="tempo-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v017 / temporal deferral</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="tempo-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v017</span></nav>
+      <section class="tempo-work" aria-label="WebGPU daily work">
+        <figure class="tempo-frame artwork-frame">
+          <canvas id="field" role="img" aria-label="A temporal score of broad strata where a discrete turn can delay one cohort and leave a gap in its former band" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape"></canvas>
+          <div class="tempo-readout" role="status" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 turns</span><span data-renderer>WEBGPU / TEMPORAL CHECK</span></div>
+          <div class="tempo-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="advance">advance the quorum</button>
+            <button type="button" data-gesture="lift">lift latest turn</button>
+            <button type="button" data-gesture="release">release the score</button>
+          </div>
+          <figcaption><span>WEBGPU / V017 / DAILY WORK</span><span>delay → gap → echo</span></figcaption>
+        </figure>
+        <aside class="tempo-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a wall, cavity, scaffold, or pressure skin. It is a temporal score: broad strata hold cohorts in sequence.</p></div>
+          <div><span>changed rule</span><p>A discrete turn removes one actual cohort from its present band and places it later. The bands between them tighten around the missing beat.</p></div>
+          <div><span>progression</span><p>Pointer movement and short clicks are refused. Enter, Space, and the advance control commit one bounded turn; Delete lifts only the latest.</p></div>
+        </aside>
+      </section>
+      <section class="tempo-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V017 / DAILY WORK</p><h1 id="work-title">The crowd misses<br><i>its own beat.</i></h1></div>
+        <p class="tempo-premise">The archive is not more bodies or a brighter field. It is a cohort arriving late, with the gap it left still visible in the score.</p>
+      </section>
+      <section class="tempo-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a discrete turn moves an actual cohort to a later temporal stratum, creates a real gap, and reverses exactly. Promotion depends on whether the blind score reads as a new temporal medium rather than v016's spatial scaffold in bands.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>turn → delay → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=017a"></script>
+</body>
+</html>
