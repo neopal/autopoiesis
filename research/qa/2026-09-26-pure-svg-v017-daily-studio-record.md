@@ -45,8 +45,12 @@
 
 - Provider auth status: `openai-codex` logged in.
 - One-shot provider check: `AUTH_OK` returned using model `gpt-5.6-luna`.
-- Gateway status: the `autopoiesis` gateway is not running; this scheduled run executed, but scheduler automation is not currently healthy.
-- Production readback, GitHub SHA synchronization, and Vercel deployment remain pending.
+- **Gateway status:** the `autopoiesis` gateway is not running; this scheduled run executed, but scheduler automation is not currently healthy.
+- **Production deployment:** Vercel deployment `dpl_AYheEmynkrTPG7FKM3UMBVPDvnSy` completed `READY` and was aliased to `https://autopoiesis-nine.vercel.app/`.
+- **Production readback:** stable-alias `works.json`, Journal, canonical work, raw tableau, and favicon returned HTTP 200; the deployed register contains exactly one `svg-2026-09-26` record and the rendered Journal contains exactly one matching anchor/title.
+- **Production browser probe:** 10/10 raw and 10/10 canonical runs passed at all five required viewports in normal and reduced-motion modes; focused interaction, blind, Journal, and Pure SVG current checks passed with zero diagnostics and zero overflow.
+- **Git synchronization:** implementation/evidence commit `304dcc9c7679f6aae8e6083b3210690e4aee05d2` was pushed to `origin/main`; provider revision linkage to the stable alias remains unverified.
+- **Production proof bundle:** `research/qa/proofs/svg-v017-2026-09-26-production/` contains the production probe, summary, results, and 24 PNG captures.
 
 ## Unresolved doubt
 

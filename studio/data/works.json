@@ -58,7 +58,7 @@
         "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
       },
       "browserEvidence": {
-        "status": "local browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision verification",
+        "status": "local and production browser matrices passed / held pending independent caption-free perceptual review and provider revision verification",
         "observedRoute": "http://127.0.0.1:4187/works/svg-2026-09-26/",
         "rawPreview": "http://127.0.0.1:4187/studies/pure-svg/v017/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4187/studies/pure-svg/v017/?preview=1&static=1&blind=1",
@@ -84,10 +84,20 @@
         "current": "local Pure SVG current readback at 390x844 rendered exactly one current header and a first artwork with no document overflow",
         "canvasCaptures": "24 local PNG captures written: 20 raw/canonical viewport captures plus interaction, static blind, Journal, and current captures",
         "evidenceFiles": "research/qa/proofs/svg-v017-2026-09-26/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/svg-2026-09-26/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v017/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v017/?preview=1&static=1&blind=1",
+        "productionViewportMatrix": "10/10 production raw and 10/10 production canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "production innerWidth equaled clientWidth and scrollWidth in all 20 raw/canonical runs; production Journal, Pure SVG current, interaction, and static blind readbacks also matched",
+        "productionDiagnostics": "zero production console messages, page errors, failed requests, or HTTP 400+ responses across all 20 raw/canonical runs and focused readbacks",
+        "productionInteraction": "production pointer movement and drag were refused; first seal armed; same seal refused; second seal committed one cut and one wrong-return bridge; Enter committed a second relay; Delete restored the preceding signature; release cleared memory",
+        "productionBlind": "production static blind preview at 390x844 kept the SVG visible with readout, controls, labels, center label, and selection ring hidden; memory reached 4 and document overflow remained absent",
+        "productionJournal": "production Journal rendered exactly one #journal-svg-2026-09-26 entry with the recorded title and canonical work link",
+        "productionCurrent": "production Pure SVG current rendered exactly one current header and a first artwork with no document overflow",
+        "productionProofFiles": "research/qa/proofs/svg-v017-2026-09-26-production/results.json, summary.json, probe.mjs, and 24 PNG captures",
         "diagnosticCount": 0,
         "overflowCount": 0,
         "unresolved": [
-          "production readback",
           "independent caption-free perceptual comparison with labels, readout, controls, selection ring, and prose hidden",
           "provider revision linking the stable alias to the eventual GitHub SHA"
         ]

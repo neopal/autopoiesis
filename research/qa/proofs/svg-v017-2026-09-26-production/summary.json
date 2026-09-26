@@ -1,0 +1,468 @@
+{
+  "checks": {
+    "rawMatrix": true,
+    "canonicalMatrix": true,
+    "interaction": true,
+    "blind": true,
+    "journal": true,
+    "current": true
+  },
+  "rawRuns": 10,
+  "canonicalRuns": 10,
+  "issues": {
+    "raw": 0,
+    "canonical": 0,
+    "interaction": 0,
+    "blind": 0,
+    "journal": 0,
+    "current": 0
+  },
+  "interaction": {
+    "httpStatus": 200,
+    "initial": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "0",
+      "cuts": "0",
+      "bridges": "0",
+      "signature": "i:0.5000:0.1810|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|i:0.5000:0.7978|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:1:b|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b",
+      "interaction": "sequence",
+      "notice": "",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "moved": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "0",
+      "cuts": "0",
+      "bridges": "0",
+      "signature": "i:0.5000:0.1810|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|i:0.5000:0.7978|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:1:b|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b",
+      "interaction": "sequence",
+      "notice": "",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "drag": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "0",
+      "cuts": "0",
+      "bridges": "0",
+      "signature": "i:0.5000:0.1810|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|i:0.5000:0.7978|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:1:b|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b",
+      "interaction": "sequence",
+      "notice": "drag-refused-use-two-points",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "firstPoint": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "0",
+      "cuts": "0",
+      "bridges": "0",
+      "signature": "i:0.5000:0.1810|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|i:0.5000:0.7978|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:1:b|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b",
+      "interaction": "armed",
+      "notice": "first-point-selected",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "samePoint": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "0",
+      "cuts": "0",
+      "bridges": "0",
+      "signature": "i:0.5000:0.1810|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|i:0.5000:0.7978|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:1:b|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b",
+      "interaction": "refused",
+      "notice": "same-point-refused",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "relayed": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "1",
+      "cuts": "1",
+      "bridges": "1",
+      "signature": "c:0.5000:0.2026|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|w:0.5000:0.7811|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:0:c|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b|bridge-00:0>4:1:w",
+      "interaction": "relayed",
+      "notice": "relay-committed",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "keyboard": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "2",
+      "cuts": "2",
+      "bridges": "2",
+      "signature": "c:0.5000:0.2026|c:0.7140:0.2852|i:0.8445:0.5000|i:0.7282:0.7117|w:0.5000:0.7811|w:0.2952:0.6791|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:0:c|link-01:1>2:0:c|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b|bridge-00:0>4:1:w|bridge-01:1>5:1:w",
+      "interaction": "relayed",
+      "notice": "relay-committed",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "lifted": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "1",
+      "cuts": "1",
+      "bridges": "1",
+      "signature": "c:0.5000:0.2026|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|w:0.5000:0.7811|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:0:c|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b|bridge-00:0>4:1:w",
+      "interaction": "lifted",
+      "notice": "latest-relay-lifted",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "released": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "0",
+      "memory": "0",
+      "cuts": "0",
+      "bridges": "0",
+      "signature": "i:0.5000:0.1810|i:0.7296:0.2705|i:0.8445:0.5000|i:0.7282:0.7117|i:0.5000:0.7978|i:0.2831:0.6904|i:0.1916:0.5000|i:0.2643:0.2808||link-00:0>1:1:b|link-01:1>2:1:b|link-02:2>3:1:b|link-03:3>4:1:b|link-04:4>5:1:b|link-05:5>6:1:b|link-06:6>7:1:b|link-07:7>0:1:b",
+      "interaction": "sequence",
+      "notice": "loop-released",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "label": "lift latest",
+          "width": 114,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "label": "release loop",
+          "width": 114,
+          "height": 44,
+          "disabled": false
+        }
+      ]
+    },
+    "pointerMoveDidNotCommit": true,
+    "dragDidNotCommit": true,
+    "firstPointOnlyArmed": true,
+    "samePointRefused": true,
+    "relayCommitted": true,
+    "keyboardCommitted": true,
+    "exactLiftRestored": true,
+    "releaseClearedMemory": true,
+    "consoleMessages": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badResponses": [],
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v017-2026-09-26-production\\raw-interaction-390x844.png"
+  },
+  "blind": {
+    "httpStatus": 200,
+    "state": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "stage": "15",
+      "memory": "4",
+      "cuts": "4",
+      "bridges": "4",
+      "signature": "c:0.5000:0.2076|w:0.7110:0.3175|c:0.7903:0.5003|w:0.7069:0.7060|c:0.5076:0.7499|i:0.2711:0.7205|w:0.2148:0.5072|i:0.2714:0.2658||link-00:0>1:0:c|link-01:1>2:1:b|link-02:2>3:0:c|link-03:3>4:1:b|link-04:4>5:0:c|link-05:5>6:1:b|link-06:6>7:0:c|link-07:7>0:1:b|bridge-00:6>3:1:w|bridge-01:0>4:1:w|bridge-02:2>6:1:w|bridge-03:4>1:1:w",
+      "interaction": "sequence",
+      "notice": "",
+      "controls": [
+        {
+          "label": "relay two points",
+          "width": 0,
+          "height": 0,
+          "disabled": true
+        },
+        {
+          "label": "lift latest",
+          "width": 0,
+          "height": 0,
+          "disabled": true
+        },
+        {
+          "label": "release loop",
+          "width": 0,
+          "height": 0,
+          "disabled": true
+        }
+      ]
+    },
+    "visibility": {
+      "svgVisible": true,
+      "readout": "none",
+      "controls": "none",
+      "labels": "absent",
+      "center": "absent",
+      "selection": "absent"
+    },
+    "consoleMessages": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badResponses": [],
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v017-2026-09-26-production\\static-blind-390x844.png"
+  },
+  "journal": {
+    "httpStatus": 200,
+    "evidence": {
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      },
+      "count": 1,
+      "title": "2026-09-26Pure SVG / candidate / heldThe loop misremembers a turn.v017 abandons the articulated body, sustained gaze, and inherited echo. One irregular SVG loop holds eight angular seals around a warped central void: a first chosen seal arms a relation, a second distant seal commits it, the source return disappears as actual geometry, and a wrong return crosses the loop between them. Lifting the latest relay reconstructs the exact preceding topology.open daily work ↗candidate / held5 critiquesdaily trace retained",
+      "link": "/works/svg-2026-09-26/#journal"
+    },
+    "consoleMessages": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badResponses": [],
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v017-2026-09-26-production\\journal-390x844.png"
+  },
+  "current": {
+    "httpStatus": 200,
+    "evidence": {
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      },
+      "currentHeaders": 1,
+      "firstArtwork": true,
+      "title": "Pure SVG"
+    },
+    "consoleMessages": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badResponses": [],
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\svg-v017-2026-09-26-production\\current-pure-svg-390x844.png"
+  }
+}
