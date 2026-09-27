@@ -74,14 +74,14 @@ The blind falsifier is concrete: hide labels, readout, controls, captions, and p
 
 ## Git and deployment provenance
 
-- Content commit deployed first: `37045c03149b6e77c004e0f8d63d4e1b34ae7999`.
-- QA/evidence commit: `b3b41270c8486d0ab4d16bf717c246718e6aab0d`.
-- Remote `origin/main` at that verification point: `b3b41270c8486d0ab4d16bf717c246718e6aab0d`.
-- Verified Vercel production deployment URL: `https://autopoiesis-a08lig9ic-lairpa-hotmailfrs-projects.vercel.app/`.
+- Final content/deployment commit: `610ffe6df3e24954e0c402d98c874f4b0d30d31a`.
+- Remote `origin/main` at deployment time: `610ffe6df3e24954e0c402d98c874f4b0d30d31a`.
+- Verified Vercel production deployment ID: `dpl_6zQHXbZPH7oWr1AKCgG7XikUhtoy`.
+- Verified Vercel production deployment URL: `https://autopoiesis-hzy1pzv4e-lairpa-hotmailfrs-projects.vercel.app/`.
 - Stable alias: https://autopoiesis-nine.vercel.app/
-- Vercel listing reported `READY`, `target=production`, and `meta.githubCommitSha=b3b41270c8486d0ab4d16bf717c246718e6aab0d` for that deployment.
+- Vercel listing reported `READY`, `target=production`, and `meta.githubCommitSha=610ffe6df3e24954e0c402d98c874f4b0d30d31a` for that deployment.
 
-The Vercel listing therefore verifies the deployment-to-SHA link for the recorded production readback. A later QA-only commit may update this record without changing the deployed artwork content.
+The Vercel listing therefore verifies the deployment-to-SHA link for the final production readback. This QA record is committed after deployment; that QA-only commit does not alter the deployed artwork content.
 
 ## Unresolved doubt
 
