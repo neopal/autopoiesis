@@ -40,6 +40,16 @@ The viewer can do something the previous three could not: press without a pointe
 - Reduced motion: stage `18/19`, four retained pressures, four cavities, three reliefs, register gap `0.241757`, offset `0.086720`.
 - Proof bundle: `research/qa/proofs/naive-art-v020-2026-09-27/` with `results.json` and 23 PNG captures.
 
+## Production evidence
+
+- Stable alias: `https://autopoiesis-nine.vercel.app/`
+- Headless production matrix: **20/20** raw/canonical runs passed at the same five viewports in normal and reduced motion.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses across the matrix and focused interaction, blind, Journal, and current readbacks.
+- Production overflow: **0**; `innerWidth = clientWidth = scrollWidth` in all matrix/readback runs.
+- Production interaction: Enter changed memory `0→1`; Delete changed `1→0` and restored the exact signature; click and wheel were unchanged; the press control changed geometry.
+- Production route/register checks: canonical, raw, blind preview, Journal, Naive art current, favicon, and `/studio/data/works.json` returned HTTP 200; the deployed register contained exactly one `naive-2026-09-27` record and the rendered Journal exactly one `#journal-naive-2026-09-27` anchor/title.
+- Production proof bundle: `research/qa/proofs/naive-art-v020-2026-09-27-production/` with `results.json` and 23 PNG captures.
+
 ## Evidence boundary
 
 This record is candidate/held. Runtime, responsive, and route evidence does not substitute for the unresolved caption-free perceptual comparison. The work should be deleted if the cavity, distant relief, and register gap do not survive labels-off viewing as geometry rather than explanation.
