@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171514">
+  <title>MUTINE — The sentence sets its own weight.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=017">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-09-27"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v017</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v017</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="type-wrap">
+          <div id="piece" class="typefield" role="img" aria-label="A loose setting of large letterforms. A tap presses one type tile into a shelf, shifts its neighbors, ejects a letter into an impression rail, and leaves a blank slot." tabindex="0" aria-keyshortcuts="Enter Space Delete R S">
+            <div class="field-sheen" aria-hidden="true"></div>
+            <div id="shelf-layer" class="shelf-layer" aria-hidden="true"></div>
+            <div id="glyph-layer" class="glyph-layer" aria-hidden="true"></div>
+            <div id="vacancy-layer" class="vacancy-layer" aria-hidden="true"></div>
+            <div class="field-corner" aria-hidden="true"><span>HAND / 017</span><span>TYPE UNDER LOAD</span></div>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v017-setting</span><span>tap &gt; set &gt; eject &gt; leave a blank</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE TYPOGRAPHIC ACTION</p>
+          <p class="interaction-copy">Tap a letter field. The nearest tile is pressed into a common shelf, nearby type shifts, and another letter leaves an impression below. Lift only the latest setting to rebuild the exact earlier plate.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="press-type" data-gesture="impression" type="button">press type</button>
+          <button id="lift-impression" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The type is loose; no shelf has taken the weight.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v017</p>
+        <h1 id="work-title">The sentence<br><i>sets its own weight.</i></h1>
+        <p class="lede">The route is gone. Actual letters sit as loose type. A press changes how the next line can be set: one shelf locks, its neighbours slide, and a displaced character leaves a blank where the sentence used to hold it.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v017</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Handwriting abandons the connected route, reservoir, and attention-field grammar. A tap on the actual text DOM presses one glyph into its shelf, shifts the local setting, ejects another glyph into an impression rail, and leaves a real vacant slot.</dd></div>
+          <div><dt>visitor action</dt><dd>Only a bounded tap commits. Enter or Space repeats the last tap; Delete or lift latest removes only the latest impression and reconstructs the prior DOM setting exactly. There is no drag path to steer.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide the labels, readout, controls, captions, and editorial furniture. If the blind field still reads as a route bundle or a cosmetic weight change instead of shelves, displaced type, and an actual blank, the material translation failed.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v017 if the letters remain a decorative grid, if pressing changes only colour or font weight, if the blank is not a missing slot, or if lifting the latest impression fails to restore the earlier setting byte-for-byte.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-26/">previous daily work</a><a href="/journal/#journal-typography-2026-09-27">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=017"></script>
+</body>
+</html>

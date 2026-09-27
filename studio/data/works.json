@@ -2,6 +2,117 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-09-27",
+      "currentId": "typography",
+      "date": "2026-09-27",
+      "title": "The sentence sets its own weight.",
+      "rawPath": "/studies/handwriting/v017/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-09-27",
+        "note": "v017 abandons the connected capillary sentence. Twenty-four actual HTML letter tiles begin as a loose four-shelf setting; a bounded tap presses one tile into a shelf, shifts its neighbours, ejects another tile into an impression rail, and leaves the old slot vacant. Lifting the latest impression reconstructs the exact preceding type setting."
+      },
+      "critiques": [
+        {
+          "persona": "Typesetting critic",
+          "argument": "The material rule must be carried by actual text objects: one glyph needs to lock to a shelf, neighbours need to shift, another glyph must leave its slot, and the vacancy must be real DOM geometry rather than a legend."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, a viewer should find shelves, a pressed letter, displaced type, and a missing slot. If it reads as a decorated grid, the setting fails."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A bounded tap must create the same deterministic impression from pointer, Enter, and Space. There must be no drag path to steer; lifting only the latest event must restore the exact earlier DOM signature."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v017 must break v016's connected SVG capillary grammar. Its first-render task is to read an unstable typesetting plate, and its encounter is a tap that changes occupancy, not a path that reroutes load."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v017 if the type only becomes bolder, if the ejected glyph is decorative, if the blank is explained only by prose, or if the work needs its caption to be understood as a setting under pressure."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v017-setting",
+        "seed": "0x48574417",
+        "visitorInput": true,
+        "stages": 13,
+        "tileCount": 24,
+        "rows": 4,
+        "columns": 6,
+        "memoryWindow": 6,
+        "finalStage": 12,
+        "finalMemory": 6,
+        "finalVacancies": 6,
+        "renderer": "deterministic HTML text DOM",
+        "materialRule": "a bounded tap presses one actual text tile into a shelf, shifts its neighbours, ejects another tile, and leaves a vacant slot",
+        "memoryRule": "the latest six tap impressions are replayed through the typographic setting builder",
+        "interactionRule": "a tap commits a bounded impression; a drag path is not used; lifting the latest impression reconstructs the exact preceding DOM setting",
+        "representationRupture": "one connected SVG capillary sentence -> actual HTML text DOM tiles on four shelves",
+        "encounterRupture": "pressure drag and reroute -> bounded tap that changes setting and occupancy",
+        "temporalRupture": "material overflow memory -> cumulative impressions, displaced type, and missing slots",
+        "replay": true,
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision verification",
+        "settledStage": 12,
+        "settledMemory": 6,
+        "settledSetTiles": 4,
+        "settledVacancies": 6,
+        "visitorMemoryAfterTap": 1,
+        "visitorMemoryAfterKeyboard": 2,
+        "visitorMemoryAfterDelete": 1,
+        "replayRestored": true
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision verification",
+        "observedRoute": "http://127.0.0.1:4188/works/typography-2026-09-27/",
+        "rawPreview": "http://127.0.0.1:4188/studies/handwriting/v017/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4188/studies/handwriting/v017/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v017 HTML text tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; blind, Journal, and Handwriting current readbacks also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all 20 local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 12 with 0 impressions, 0 set tiles, and 0 vacancies",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 12 / 12 with 6 remembered impressions, 4 set tiles, and 6 vacancies",
+        "tapInteraction": "local raw tap changed memory from 0 to 1, set one shelf, ejected one tile, and left one vacancy",
+        "keyboardInteraction": "Enter on the focused HTML type field changed memory from 1 to 2 impressions and changed the DOM signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding tap signature: true",
+        "releaseInteraction": "release sequence returned to stage 00 / 12 with 0 impressions, 0 set tiles, and 0 vacancies",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the HTML type field visible while hiding readout, controls, corner notation, and editorial furniture; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-typography-2026-09-27 entry with the recorded title and /works/typography-2026-09-27/#journal href",
+        "current": "local Handwriting current readback at 390x844 rendered one current header and the 2026-09-27 first/latest artwork with no document overflow",
+        "canvasCaptures": "24 non-empty PNG captures written: twenty local raw/canonical viewport captures plus interaction, blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/typography-v017-2026-09-27/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
+          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+        ],
+        "diagnosticCount": 0,
+        "overflowCount": 0
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Natural drawing tools treat pressure, density, grain, and vector fields as programmable material forces; material changes how geometry is produced and remembered rather than decorating finished geometry.",
+        "translatedRule": "Translate material pressure into typesetting pressure. The visitor does not steer a line; a tap changes the setting rule itself: one glyph locks, local type is displaced, and another glyph leaves an impression that changes the next available plate.",
+        "visibleConsequence": "The blind field changes from loose shelves to a pressed setting with heavier type, a shifted local arrangement, an ejected letter, and a true vacant slot.",
+        "falsifier": "If tapping changes only colour, font weight, or a counter; if the ejected glyph is not visibly displaced; or if the blank is not a missing slot in the setting, the material rule is not embodied.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, palette, API surface, or compositional language is reproduced.",
+        "directionConsequence": "Closes the handwriting current's v016 capillary sentence and opens a browser-native typesetting direction: handwriting is tested as setting, occupancy, and absence."
+      },
+      "decision": {
+        "nextMutation": "Run the labels-off, controls-off, readout-off comparison; delete v017 if pressed shelf -> displaced type -> actual blank is not legible in the type plate itself or if the tap behaves like a cosmetic style toggle.",
+        "lineage": "typography-2026-09-26"
+      }
+    },
+    {
       "id": "webgpu-2026-09-26",
       "currentId": "webgpu",
       "date": "2026-09-26",

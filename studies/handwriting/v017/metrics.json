@@ -1,0 +1,23 @@
+{
+  "id": "handwriting-v017-setting",
+  "seed": "0x48574417",
+  "visitorInput": true,
+  "stages": 13,
+  "tileCount": 24,
+  "rows": 4,
+  "columns": 6,
+  "memoryWindow": 6,
+  "finalStage": 12,
+  "finalMemory": 6,
+  "finalVacancies": 6,
+  "renderer": "deterministic HTML text DOM",
+  "materialRule": "a bounded tap presses one actual text tile into a shelf, shifts its neighbours, ejects another tile, and leaves a vacant slot",
+  "memoryRule": "the latest six tap impressions are replayed through the typographic setting builder",
+  "interactionRule": "a tap commits a bounded impression; a drag path is not used; lifting the latest impression reconstructs the exact preceding DOM setting",
+  "representationRupture": "one connected SVG capillary sentence -> actual HTML text DOM tiles on four shelves",
+  "encounterRupture": "pressure drag and reroute -> bounded tap that changes setting and occupancy",
+  "temporalRupture": "material overflow memory -> cumulative impressions, displaced type, and missing slots",
+  "replay": true,
+  "measured": false,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision verification"
+}
