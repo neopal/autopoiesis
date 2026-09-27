@@ -67,7 +67,7 @@
         "replayRestored": true
       },
       "browserEvidence": {
-        "status": "local headless browser matrix passed / held pending production readback, independent caption-free perceptual review, and provider revision verification",
+        "status": "local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision verification",
         "observedRoute": "http://127.0.0.1:4188/works/typography-2026-09-27/",
         "rawPreview": "http://127.0.0.1:4188/studies/handwriting/v017/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4188/studies/handwriting/v017/?preview=1&static=1&blind=1",
@@ -88,10 +88,14 @@
         "journal": "local Journal readback rendered exactly one #journal-typography-2026-09-27 entry with the recorded title and /works/typography-2026-09-27/#journal href",
         "current": "local Handwriting current readback at 390x844 rendered one current header and the 2026-09-27 first/latest artwork with no document overflow",
         "canvasCaptures": "24 non-empty PNG captures written: twenty local raw/canonical viewport captures plus interaction, blind, Journal, and current captures",
-        "evidenceFiles": "research/qa/proofs/typography-v017-2026-09-27/results.json, summary.json, probe.mjs, and 24 PNG captures",
+        "evidenceFiles": "research/qa/proofs/typography-v017-2026-09-27/results.json, summary.json, probe.mjs, and 24 PNG captures; production proof: research/qa/proofs/typography-v017-2026-09-27-production/results.json, summary.json, and 24 PNG captures",
+        "productionRoute": "https://autopoiesis-nine.vercel.app/works/typography-2026-09-27/",
+        "productionViewportMatrix": "10/10 production canonical and 10/10 production raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionDiagnostics": "zero production console messages, page errors, failed requests, and HTTP 400+ responses across all 20 raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "productionOverflow": 0,
         "unresolved": [
           "independent caption-free perceptual comparison with labels, readout, controls, and prose hidden",
-          "production readback and provider revision linking the stable alias to the eventual GitHub SHA"
+          "provider revision linking the stable alias to the eventual GitHub SHA"
         ],
         "diagnosticCount": 0,
         "overflowCount": 0
