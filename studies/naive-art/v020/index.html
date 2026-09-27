@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#242033">
+  <title>MUTINE — the picture keeps the wrong pressure</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.has('blind')) document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=020">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-27"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="press-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v020 / WRONG PRESSURE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="press-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v020</span></nav>
+
+      <section class="work-surface" aria-label="Naive pressure print">
+        <div class="field-column">
+          <figure class="print-work artwork-frame">
+            <div class="print-wrap" id="press-sheet" tabindex="0" role="application" aria-label="A naive print sheet that keeps a pressure mistake in its cut cavities and displaced reliefs" aria-keyshortcuts="Enter Space Delete R S">
+              <div class="print-readout" aria-live="polite"><span data-stage>stage 19 / 19</span><span data-memory>4 pressures held</span></div>
+              <div class="print-controls" aria-label="Print actions">
+                <button id="press-control" data-gesture="press" type="button">press the wrong plate</button>
+                <button id="undo-control" data-gesture="undo" type="button">undo latest</button>
+                <button id="release-control" data-gesture="release" type="button">release the sheet</button>
+              </div>
+            </div>
+            <figcaption><span>seed | mutine-naive-v020-wrong-pressure</span><span>press &gt; cavity &gt; relief</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single print sheet has to remember pressure as missing paper. One plate caves in; a distant plate inherits the force as a raised wrong edge.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if the cavity, relief, and register shift survive without a counter or caption.</p></div>
+          <div><span>progression</span><p>Press once, lift only the latest pressure, then release the sheet back to its seeded first state.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V020 / DAILY WORK</p><h1 id="work-title">The picture keeps <br><i>the wrong pressure.</i></h1></div>
+        <p class="work-premise">A press removes a real piece from one plate and forces a distant plate to print around a relief that was never there.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v020 abandons v017's pile, v018's hinge, and v019's continuous weather mural. One print sheet becomes a discrete pressure register: a press opens an actual cavity in a source plate, displaces a distant relief, and misaligns the shared register so later impressions are made by a changed rule.</p></section>
+      <p class="work-loop">creation → critique → progression</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-09-26/">previous daily work</a><a href="/journal/#journal-naive-2026-09-27">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=020"></script>
+</body>
+</html>

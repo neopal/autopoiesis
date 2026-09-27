@@ -1,72 +1,45 @@
 # Mutine daily studio record — 2026-09-27
 
-## Target
+## Slot
 
-- Current: **Pure SVG** (`svg`)
+- Target current: **Naive art** (`naive`)
 - Date: **2026-09-27**
-- Work: **The figure keeps a negative alphabet.**
+- Work: **The picture keeps the wrong pressure.**
+- Version: `v020`
 - Status: **candidate / held**
-- Raw tableau: `/studies/pure-svg/v018/`
-- Canonical route: `/works/svg-2026-09-27/`
-- Register result: exactly one `svg/2026-09-27` record
+- Canonical work: `/works/naive-2026-09-27/`
+- Raw tableau: `/studies/naive-art/v020/`
 
-## Art gate
+## Concept and progression gate
 
-### Changed rule
+v020 breaks the last three Naive art grammars: v017's load-bearing pile, v018's connected misremembered hinge, and v019's continuous weather panorama. The rupture is material and structural: a flat print sheet with five independent relief plates replaces the connected mural; a discrete press replaces drag, dwell, and wheel; pressure is remembered as a source cavity, a distant relief, and a changed vertical register.
 
-v018 abandons v015's host/receiver territories, v016's continuous articulated body, and v017's connected wrong-return loop. Nine freestanding compound SVG plates begin with filled inner contours. Pointer proximity arms one plate without memory. One committed attention opens the source plate's edge as a notch and transfers a true `evenodd` compound-path cut to a distant plate. Delete reconstructs the exact prior plate signature.
+The viewer can do something the previous three could not: press without a pointer-position relation and watch pressure change the geometry-producing register of a separate plate. A pointer click and wheel gesture are refused; Enter/Space and the press control are equivalent causal paths; Delete lifts only the latest pressure and restores the exact prior print.
 
-### Cultural translation
+## Cultural translation
 
-- Reference: `little-critters` — https://github.com/GordenSun/little-critters
-- Observed mechanism: situated agents make pointer proximity legible as reciprocal attention rather than as a dashboard control.
-- Mutine translation: remove the agents and refuse the look-back; local attention becomes a remote change in SVG fill algebra, while the source plate records the cost as a notch.
-- Visible consequence: one source plate is notched and a distant plate contains a real cut-out; the figure is disjoint rather than route-, body-, or field-based.
-- Falsifier: if the notch or remote cut is only colour, if the local/remote relation cannot be found blind, or if the work reads as a decorative tile board, the translation fails.
-- Anti-copy statement: no animals, characters, eyes, paper scene, source palette, composition, or surface vocabulary is reproduced.
+- Reference: **p5.brush** — https://github.com/acamposuribe/p5.brush
+- Observed mechanism: programmable material tools use pressure, density, grain, and fields to change how geometry is produced, not merely how a finished mark is decorated.
+- Mutine translation: refuse the brush surface and make pressure a print rule. A discrete press opens an actual cavity in one source plate, displaces a distant relief, and misaligns a vertical register that changes later impressions.
+- Visible consequence: the blind field is a single paper print sheet with independent stamped forms, crop marks, a vertical register, and—after pressing—a real cavity, a changed distant silhouette, and a visible register gap/offset.
+- Falsifier: if pressure changes only colour, opacity, a counter, or an overlay; if the source/distant geometry does not change; if the register stays fixed; or if the blind view reads as a generic stamp sheet whose meaning depends on prose.
+- Anti-copy: no p5.brush brushes, watercolor appearance, hatching vocabulary, palette, API surface, composition, or source examples are reproduced.
+- Direction consequence: opens a print-and-pressure direction for Naive art in which the mistake changes the rule that makes later geometry.
 
-### Falsifier and deletion condition
+## Local evidence
 
-Delete v018 rather than polish it if the labels-off blind view cannot distinguish disjoint winding plates from a decorative grid, or if one-point attention has no visible remote compound-path consequence.
+- Targeted v020 tests: **3 passed, 0 failed**.
+- Full suite: **552 passed, 0 failed**.
+- `node --check` for engine, sketch, and test: passed.
+- Headless local matrix: **20/20** raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced motion.
+- Additional local readbacks: blind preview, Journal, and Naive art current at `390×844`.
+- Diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses across 23 local runs.
+- Overflow: **0**; `innerWidth = clientWidth = scrollWidth` in all runs.
+- Touch targets: all three raw controls measured `118.67×44px` at `390×844`.
+- Interaction: Enter changed memory `0→1`; Delete changed `1→0` and restored the exact signature; click and wheel were unchanged; press control changed geometry.
+- Reduced motion: stage `18/19`, four retained pressures, four cavities, three reliefs, register gap `0.241757`, offset `0.086720`.
+- Proof bundle: `research/qa/proofs/naive-art-v020-2026-09-27/` with `results.json` and 23 PNG captures.
 
-## Browser and release evidence
+## Evidence boundary
 
-- Headless browser: installed Chrome executable via Playwright; no GUI/CUA/CDP/remote debugging.
-- Local viewports: `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`.
-- Production stable-alias viewports: the same five sizes.
-- Modes: normal motion and reduced motion.
-- Local raw matrix: **10/10 passed**.
-- Local canonical matrix: **10/10 passed**.
-- Production raw matrix: **10/10 passed**.
-- Production canonical matrix: **10/10 passed**.
-- All 40 matrix route responses: **HTTP 200**.
-- Diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses across local and production matrix/readback runs.
-- Overflow: **0**; `innerWidth === clientWidth === scrollWidth` in all raw/canonical runs and the 390px Journal/current readbacks.
-- Reduced-motion state: stage `15/15`, 4 remembered countermarks, 3 notches, 4 remote imprints.
-- Normal state: stage `00/15`, 0 countermarks.
-- Pointer path: proximity armed without memory; pointer commit changed memory `0 → 1` and changed both source notch and remote cut.
-- Keyboard path: Enter changed memory `0 → 1`; Delete changed it `1 → 0` and restored the exact prior signature.
-- Touch controls: three controls measured `114px × 44px` at `390×844` locally and in production.
-- Blind preview: SVG visible; readout, controls, labels, and centre notation hidden; no overflow.
-- Production register: stable `/studio/data/works.json` returned exactly one `svg-2026-09-27` record with the recorded title, raw path, candidate / held status, and Journal anchor.
-- Production Journal: rendered exactly one `#journal-svg-2026-09-27` entry from the shared catalogue source.
-- Production canonical/raw/favicon routes: HTTP 200.
-- Evidence: 26 non-empty local PNG captures and 26 non-empty production PNG captures, with `results.json` in each proof directory.
-
-## Automated verification
-
-- Targeted test: **4 passed, 0 failed** (`tests/pure-svg-v018.test.mjs`).
-- Catalog/date regression tests: **16 passed, 0 failed**.
-- Full `npm test`: **549 passed, 0 failed, 0 cancelled, 0 skipped, 0 todo**.
-- `node --check`: passed for v018 engine, sketch, and targeted test.
-- Static security scan on staged additions: no findings.
-- `git diff --check`: passed.
-- GitHub `origin/main`: matched the committed source before final evidence publication; final source commit is verified separately in the release report.
-
-## Publication boundary
-
-The stable production alias is healthy and the deployed record/Journal were read back after deployment. Independent caption-free perceptual comparison remains unresolved; the work stays **candidate / held** and is not described as exhibition-ready.
-
-## Unresolved doubt
-
-The central artistic doubt is whether the blind first render reads as a figure whose relation is carried by negative/winding grammar, rather than as a polished board of nine decorative tiles. The next decision is deletion or revision based on that caption-free comparison, not another palette or texture refinement.
+This record is candidate/held. Runtime, responsive, and route evidence does not substitute for the unresolved caption-free perceptual comparison. The work should be deleted if the cavity, distant relief, and register gap do not survive labels-off viewing as geometry rather than explanation.
