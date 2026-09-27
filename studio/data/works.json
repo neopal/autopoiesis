@@ -43,7 +43,7 @@
         "promotion":"candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
       },
       "browserEvidence": {
-        "status":"local headless browser matrix passed / held pending production matrix, independent caption-free perceptual review, and provider revision verification",
+        "status":"local and production headless browser matrices passed / held pending independent caption-free perceptual review and provider revision verification",
         "observedRoute":"http://127.0.0.1:4193/works/svg-2026-09-27/",
         "rawPreview":"http://127.0.0.1:4193/studies/pure-svg/v018/?preview=1&interaction=1",
         "blindPreview":"http://127.0.0.1:4193/studies/pure-svg/v018/?preview=1&static=1&blind=1",
@@ -63,11 +63,20 @@
         "staticBlindPreview":"local reduced-motion static blind preview at 390x844 kept the SVG visible while hiding readout, controls, labels, and centre notation; no document overflow",
         "journal":"local Journal readback rendered the new record from the shared catalogue source and remained within the 390px viewport",
         "current":"local Pure SVG current readback rendered the v018 latest artwork card and remained within the 390px viewport",
-        "canvasCaptures":"26 non-empty PNG captures written: twenty local raw/canonical viewport captures plus Enter, Delete, pointer, blind, Journal, and current captures",
-        "evidenceFiles":"research/qa/proofs/pure-svg-v018-2026-09-27/results.json and 26 PNG captures",
+        "productionRoute":"https://autopoiesis-nine.vercel.app/works/svg-2026-09-27/",
+        "productionViewportMatrix":"10/10 stable-alias canonical and 10/10 stable-alias raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionDiagnostics":"zero stable-alias console messages, page errors, failed requests, or HTTP 400+ responses across all 20 raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "productionOverflow":0,
+        "productionRecord":"stable production /studio/data/works.json returned exactly one svg-2026-09-27 record with the recorded title, raw path, candidate / held status, and journal anchor",
+        "productionJournal":"stable production rendered exactly one #journal-svg-2026-09-27 entry from the shared catalog source; the title was present in the rendered entry",
+        "productionCurrent":"stable production Pure SVG current readback rendered the v018 latest artwork card at 390x844 without overflow",
+        "productionRawPreview":"stable production raw preview returned HTTP 200 and rendered the v018 SVG tableau",
+        "productionFavicon":"stable production /studio/favicon.svg returned HTTP 200",
+        "canvasCaptures":"26 non-empty local PNG captures plus 26 non-empty production PNG captures written",
+        "evidenceFiles":"research/qa/proofs/pure-svg-v018-2026-09-27/results.json and 26 local PNG captures; research/qa/proofs/pure-svg-v018-2026-09-27-production/results.json and 26 production PNG captures",
         "diagnosticCount":0,
         "overflowCount":0,
-        "unresolved":["production viewport/interaction matrix and deployed Journal/register readback","independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden","provider revision linking the stable alias to the eventual GitHub SHA"]
+        "unresolved":["independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden","provider revision linking the stable alias to the eventual GitHub SHA"]
       },
       "source": {
         "referenceId":"little-critters",

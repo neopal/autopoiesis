@@ -29,36 +29,43 @@ v018 abandons v015's host/receiver territories, v016's continuous articulated bo
 
 Delete v018 rather than polish it if the labels-off blind view cannot distinguish disjoint winding plates from a decorative grid, or if one-point attention has no visible remote compound-path consequence.
 
-## Local browser evidence
+## Browser and release evidence
 
 - Headless browser: installed Chrome executable via Playwright; no GUI/CUA/CDP/remote debugging.
-- Viewports: `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`.
+- Local viewports: `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`.
+- Production stable-alias viewports: the same five sizes.
 - Modes: normal motion and reduced motion.
-- Raw tableau matrix: **10/10 passed**.
-- Canonical work matrix: **10/10 passed**.
-- Route HTTP statuses: **20/20 returned 200**.
-- Overflow: **0**; `innerWidth === clientWidth === scrollWidth` in all 20 raw/canonical runs.
-- Diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
+- Local raw matrix: **10/10 passed**.
+- Local canonical matrix: **10/10 passed**.
+- Production raw matrix: **10/10 passed**.
+- Production canonical matrix: **10/10 passed**.
+- All 40 matrix route responses: **HTTP 200**.
+- Diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses across local and production matrix/readback runs.
+- Overflow: **0**; `innerWidth === clientWidth === scrollWidth` in all raw/canonical runs and the 390px Journal/current readbacks.
 - Reduced-motion state: stage `15/15`, 4 remembered countermarks, 3 notches, 4 remote imprints.
 - Normal state: stage `00/15`, 0 countermarks.
 - Pointer path: proximity armed without memory; pointer commit changed memory `0 → 1` and changed both source notch and remote cut.
 - Keyboard path: Enter changed memory `0 → 1`; Delete changed it `1 → 0` and restored the exact prior signature.
-- Touch controls: three controls measured `114px × 44px` at `390×844`.
+- Touch controls: three controls measured `114px × 44px` at `390×844` locally and in production.
 - Blind preview: SVG visible; readout, controls, labels, and centre notation hidden; no overflow.
-- Journal and Pure SVG current readbacks: no overflow at `390×844`.
-- Evidence: `research/qa/proofs/pure-svg-v018-2026-09-27/results.json` plus 26 non-empty PNG captures.
+- Production register: stable `/studio/data/works.json` returned exactly one `svg-2026-09-27` record with the recorded title, raw path, candidate / held status, and Journal anchor.
+- Production Journal: rendered exactly one `#journal-svg-2026-09-27` entry from the shared catalogue source.
+- Production canonical/raw/favicon routes: HTTP 200.
+- Evidence: 26 non-empty local PNG captures and 26 non-empty production PNG captures, with `results.json` in each proof directory.
 
 ## Automated verification
 
 - Targeted test: **4 passed, 0 failed** (`tests/pure-svg-v018.test.mjs`).
-- Catalog/date regression tests after registering the new slot: **16 passed, 0 failed**.
-- Full `npm test`: pending final post-evidence run.
+- Catalog/date regression tests: **16 passed, 0 failed**.
+- Full `npm test`: **549 passed, 0 failed, 0 cancelled, 0 skipped, 0 todo**.
 - `node --check`: passed for v018 engine, sketch, and targeted test.
-- `git diff --check`: passed before final data-evidence update; rerun required.
+- Static security scan on staged additions: no findings.
+- `git diff --check`: passed.
+- GitHub `origin/main`: matched the committed source before final evidence publication; final source commit is verified separately in the release report.
 
 ## Publication boundary
 
-Production deployment and stable-alias readback remain pending. Independent caption-free perceptual comparison remains unresolved; the work stays **candidate / held** and is not described as exhibition-ready.
+The stable production alias is healthy and the deployed record/Journal were read back after deployment. Independent caption-free perceptual comparison remains unresolved; the work stays **candidate / held** and is not described as exhibition-ready.
 
 ## Unresolved doubt
 
