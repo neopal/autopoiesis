@@ -49,4 +49,8 @@ The structural critic is satisfied that refusal is embodied in aperture geometry
 
 ## Publication boundary
 
-Production verification, production browser matrix, GitHub SHA, Vercel deployment URL, and public Journal/register readback are recorded only after those states are observed. This record must not be read as evidence that local execution reached production.
+- Production deployment observed as `READY` at `https://autopoiesis-lk2vuqoah-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+- Production verification observed after deploy: 20/20 raw/canonical matrix runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; production interaction, Journal, current, register, favicon, canonical, and raw-preview routes were verified.
+- GitHub synchronization and Vercel deployment are separate provenance events. The repository SHA and provider revision link are recorded only when independently observed.
+
+The work remains **candidate / held** because the independent caption-free perceptual comparison has not been completed.
