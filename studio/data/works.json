@@ -2,6 +2,96 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-09-27",
+      "currentId": "portrait",
+      "date": "2026-09-27",
+      "title": "The portrait changes the order of looking.",
+      "rawPath": "/studies/self-portrait/v017/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-09-27",
+        "note": "v017 abandons the raster population, pressure membrane, and reciprocal plate grammars. Eleven overlapping aperture blades hold a shared opening; approaching one arms it, and a committed gaze makes that blade refuse, changes the depth order, and redirects visibility to a distant blade with less refusal debt. Lifting the latest refusal reconstructs the exact preceding order."
+      },
+      "critiques": [
+        {"persona":"Aperture critic","argument":"The rule must live in the opening: one situated blade needs to turn away, another needs to inherit the aperture, and the depth order must visibly change. A tint or halo cannot substitute for a changed occlusion relationship."},
+        {"persona":"Perceptual critic","argument":"With labels, readout, controls, and prose hidden, the first encounter should read as an ordered self-observing aperture rather than a grid, membrane, raster, or decorative shutter. After a gaze, the refusal and redirected opening must be findable in the blades themselves."},
+        {"persona":"Interaction critic","argument":"Pointer proximity may arm but must not write history. Tap, Enter, and Space must commit the same bounded refusal; Delete must restore the exact prior order; release must clear the replayable state."},
+        {"persona":"Radical progression critic","argument":"v017 must break v014's plates, v015's membrane, and v016's raster population. Its medium is an overlapping aperture with depth order, its task is approach then commit, and its memory is refusal debt that changes who can be seen next."},
+        {"persona":"Cynic","argument":"Delete v017 if the work only looks like a polished camera shutter, if the redirected blade is merely an accent, if repeated attention ignores refusal debt, or if the caption is required to understand that the portrait has changed the order of looking."}
+      ],
+      "metrics": {
+        "id": "portrait-v017-aperture-refusal",
+        "visitorInput": true,
+        "seed": "0x53504637",
+        "stages": 13,
+        "bladeCount": 11,
+        "primitiveBudget": 58,
+        "memoryWindow": 5,
+        "settledStage": 12,
+        "finalMemory": 5,
+        "finalRefusals": 5,
+        "finalRedirects": 5,
+        "finalApertureGap": 0.42162647162344574,
+        "finalApertureOcclusion": 0.5250725714501425,
+        "memoryRule": "a situated gaze makes the nearest aperture agent refuse, changes the depth order, redirects the shared opening to a distant agent, and increases refusal debt",
+        "interactionRule": "pointer proximity arms only; tap, hold, Enter, and Space commit one bounded aperture refusal; Delete lifts the latest refusal; release clears the gaze history",
+        "representationRupture": "raster population, continuous membrane, and reciprocal plates -> an ordered aperture of hinged agents whose visibility is defined by depth and occlusion",
+        "encounterRupture": "sustained attention or pressure -> proximity selects a situated blade, then a discrete commitment changes the shared viewing order",
+        "temporalRupture": "density transfer and material resistance -> bounded refusal debt that redirects later attention to another agent",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D aperture",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed / held pending production verification and independent caption-free perceptual review",
+        "observedRoute": "http://127.0.0.1:4192/works/portrait-2026-09-27/",
+        "rawPreview": "http://127.0.0.1:4192/studies/self-portrait/v017/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4192/studies/self-portrait/v017/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs placed the v017 aperture tableau iframe before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "10/10 local canonical and 10/10 local raw headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "innerWidth equaled clientWidth and scrollWidth in all 20 local raw/canonical runs; blind, Journal, and Self portrait current readbacks also matched at 390x844",
+        "touchTargets": "all three local raw interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, and HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across all local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 / 12 with 0 refusals",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 12 / 12 with 5 remembered refusals, changed blade order, and widened aperture",
+        "pointerInteraction": "pointer proximity armed blade 7 without adding memory; pointer commitment changed memory from 0 to 1, refused blade 7, redirected the opening, and changed depth order",
+        "keyboardInteraction": "Enter on the focused canvas changed memory from 1 to 2 refusals and changed the aperture signature",
+        "liftInteraction": "Delete after keyboard changed memory from 2 to 1 and restored the exact preceding refusal signature",
+        "releaseInteraction": "release sequence returned to stage 00 / 12 with 0 refusals and the baseline aperture",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the aperture canvas visible while hiding readout, controls, annotations, and editorial furniture; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-portrait-2026-09-27 entry with the recorded title and /works/portrait-2026-09-27/#journal href",
+        "current": "local Self portrait current readback at 390x844 rendered the current header and 2026-09-27 first/latest artwork with no document overflow",
+        "canvasCaptures": "24 non-empty PNG captures written: twenty local raw/canonical viewport captures plus interaction, blind, Journal, and current captures",
+        "evidenceFiles": "research/qa/proofs/portrait-v017-2026-09-27/results.json, summary.json, and 24 PNG captures",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production verification",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linking the stable alias to the eventual GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "A population of situated code-drawn agents responds to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "In Self portrait, proximity selects one situated aperture blade. A committed gaze makes that blade refuse, changes its depth, and redirects the shared opening to a distant blade with less refusal debt; refusal changes the next collective decision.",
+        "visibleConsequence": "The blind field is an overlapping aperture rather than a route, plate mosaic, pressure membrane, or raster. After interaction, one actual blade turns away, another inherits the opening, and the depth order changes; repeating the same gaze redirects it elsewhere.",
+        "falsifier": "If the selected blade only changes tint, if the redirected blade is only a marker, if the depth order does not change, or if repeated attention ignores refusal debt, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, composition, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Self portrait v014-v016's reciprocal-plate, pressure-membrane, and raster-witness grammars and opens a browser-native social-attention direction where self-representation is an access order rather than an image field."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v017 if blade refusal, redirected opening, and changed depth order are not legible in the aperture itself or if the blind image reads as a polished shutter.",
+        "lineage": "portrait-2026-09-25"
+      }
+    },
+    {
       "id": "typography-2026-09-27",
       "currentId": "typography",
       "date": "2026-09-27",

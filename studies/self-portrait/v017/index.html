@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090c12">
+  <title>MUTINE — The portrait changes the order of looking.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-09-27"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v017-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v017</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v017-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v017</span></nav>
+      <section class="v017-surface artwork-frame" aria-label="Self portrait aperture that changes the order of looking">
+        <div class="v017-field-wrap">
+          <canvas id="aperture" role="img" aria-label="An ordered aperture of self-observing blades that refuses a gaze and redirects the opening" tabindex="0" aria-keyshortcuts="Enter Space Delete R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 refusals held</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="attend-control" data-gesture="attend">approach the aperture</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest refusal</button>
+            <button type="button" id="release-control" data-gesture="release">release the gaze</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A self-image appears as an ordered aperture: a population of agents holding a shared opening, each one carrying the possibility of refusal.</p></div>
+          <div><span>changed rule</span><p>Proximity arms one blade. A committed gaze makes that blade turn away, reorders the depth of the aperture, and redirects the opening to a distant blade with less refusal debt.</p></div>
+          <div><span>progression</span><p>Move near a blade to be noticed. Tap, hold, or use Enter to commit. Lift only the latest refusal to reconstruct the exact prior order.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V017 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>changes the order of looking.</i></h1></div>
+        <p class="work-premise">A self-image as an aperture of situated agents: the nearest one refuses the gaze, and the rest must renegotiate who remains visible.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural rule is embodied in blade geometry, occlusion, depth order, aperture width, finite refusal debt, and exact replay. Promotion still depends on whether the blind field reads as a self changing its relation to looking rather than an elegant shutter illustration.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>refuse a witness?</i></h2>
+        <div class="note-copy"><p>The work abandons the route, plate, membrane, and raster grammars of the previous three portrait trials. It is a hard-edged, ordered aperture: a small society of hinged agents that changes its own visibility order after being approached.</p><dl><div><dt>seed</dt><dd>0x53504637 / replayable</dd></div><div><dt>input</dt><dd>pointer proximity, tap, Enter, or Space / reversible</dd></div><div><dt>falsifier</dt><dd>the selected blade only changes tint, the redirected blade is decorative, or a repeated gaze ignores refusal debt</dd></div><div><dt>deletion</dt><dd>delete v017 if a caption-free pair sees a polished shutter instead of an aperture that changes who can be seen</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>
