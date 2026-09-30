@@ -1,0 +1,1391 @@
+{
+  "baseUrl": "http://127.0.0.1:50949",
+  "canonicalPath": "/works/webgpu-2026-09-30/",
+  "rawPath": "/studies/webgpu/v018/?preview=1&interaction=1",
+  "blindPath": "/studies/webgpu/v018/?preview=1&static=1&blind=1",
+  "matrix": [
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 282,
+          "height": 358,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 282,
+          "height": 358
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframe": {
+          "x": 19,
+          "y": 196.5,
+          "width": 282,
+          "height": 358.390625
+        },
+        "heading": {
+          "x": 18,
+          "y": 626.890625,
+          "width": 284,
+          "height": 170.5
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-320x568-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 282,
+          "height": 358,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 282,
+          "height": 358
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframe": {
+          "x": 19,
+          "y": 196.5,
+          "width": 282,
+          "height": 358.390625
+        },
+        "heading": {
+          "x": 18,
+          "y": 626.890625,
+          "width": 284,
+          "height": 170.5
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-320x568-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 352,
+          "height": 437,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 352,
+          "height": 437
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 352,
+          "height": 436.796875
+        },
+        "heading": {
+          "x": 18,
+          "y": 692.296875,
+          "width": 354,
+          "height": 127.875
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-390x844-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 352,
+          "height": 437,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 352,
+          "height": 437
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 352,
+          "height": 436.796875
+        },
+        "heading": {
+          "x": 18,
+          "y": 692.296875,
+          "width": 354,
+          "height": 127.875
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-390x844-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 490,
+          "height": 630,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 490,
+          "height": 630
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 730,
+          "height": 629.75
+        },
+        "heading": {
+          "x": 18,
+          "y": 885.25,
+          "width": 732,
+          "height": 100.75
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-768x1024-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 490,
+          "height": 630,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 490,
+          "height": 630
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 730,
+          "height": 629.75
+        },
+        "heading": {
+          "x": 18,
+          "y": 885.25,
+          "width": 732,
+          "height": 100.75
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-768x1024-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 495,
+          "height": 720,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 495,
+          "height": 720
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframe": {
+          "x": 57,
+          "y": 161,
+          "width": 734.546875,
+          "height": 720
+        },
+        "heading": {
+          "x": 56,
+          "y": 953,
+          "width": 736.546875,
+          "height": 167.9375
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-1280x800-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 495,
+          "height": 720,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 495,
+          "height": 720
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframe": {
+          "x": 57,
+          "y": 161,
+          "width": 734.546875,
+          "height": 720
+        },
+        "heading": {
+          "x": 56,
+          "y": 953,
+          "width": 736.546875,
+          "height": 167.9375
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-1280x800-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 482,
+          "height": 720,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 482,
+          "height": 720
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframe": {
+          "x": 377,
+          "y": 161,
+          "width": 721.59375,
+          "height": 720
+        },
+        "heading": {
+          "x": 376,
+          "y": 953,
+          "width": 723.59375,
+          "height": 290.25
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-1920x1080-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 482,
+          "height": 720,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 482,
+          "height": 720
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframe": {
+          "x": 377,
+          "y": 161,
+          "width": 721.59375,
+          "height": 720
+        },
+        "heading": {
+          "x": 376,
+          "y": 953,
+          "width": 723.59375,
+          "height": 290.25
+        }
+      },
+      "tableau": {
+        "iframeCount": 1,
+        "tableauFirst": true,
+        "iframeVisible": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\canonical-1920x1080-reduced.png"
+    }
+  ],
+  "rawMatrix": [
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 320,
+          "height": 568,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 320,
+          "height": 568
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-320x568-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 320,
+          "height": 568,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 320,
+          "height": 568
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-320x568-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 390,
+          "height": 844,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 390,
+          "height": 844
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-390x844-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 390,
+          "height": 844,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 390,
+          "height": 844
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-390x844-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 528,
+          "height": 1024,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 528,
+          "height": 1024
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-768x1024-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 528,
+          "height": 1024,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 528,
+          "height": 1024
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-768x1024-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 984.375,
+          "height": 800,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 984.375,
+          "height": 800
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-1280x800-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 984.375,
+          "height": 800,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 984.375,
+          "height": 800
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-1280x800-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "motion": "normal",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 01 / 15",
+        "memory": "0 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 1484.375,
+          "height": 1080,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 1484.375,
+          "height": 1080
+        },
+        "runtime": {
+          "stage": 0,
+          "memory": 0,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+          "vacancies": 0,
+          "apertures": 0,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-1920x1080-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "motion": "reduced",
+      "httpStatus": 200,
+      "snapshot": {
+        "stage": "field 15 / 15",
+        "memory": "4 witnesses",
+        "renderer": "WEBGPU / RADIAL FIELD",
+        "canvas": {
+          "width": 1484.375,
+          "height": 1080,
+          "visible": true
+        },
+        "gpuCanvas": {
+          "width": 1484.375,
+          "height": 1080
+        },
+        "runtime": {
+          "stage": 14,
+          "memory": 4,
+          "armedNode": -1,
+          "signature": "{\"field\":\"[[0,0.5,0.2549,-0.088,1.104,0,0.76,4,0.65],[1,0.64574,0.26763,0.57466,0.91,0.72,0,6,0.7],[2,0.76659,0.3342,0.87069,1.092,0,0.76,8,0.55],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,2.01096,0.91,0.72,0,0,0.94],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.79497,1.08,0,0.76,1,0.45],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.9244,0.91,0.72,0,2,0.82],[9,0.23026,0.57913,4.28166,1.116,0,0.76,11,0.75],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.46551,0.91,0.72,0,9,1.06],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":1,\"serial\":0,\"strength\":0.72},{\"node\":8,\"serial\":1,\"strength\":0.72},{\"node\":4,\"serial\":2,\"strength\":0.72},{\"node\":11,\"serial\":3,\"strength\":0.72}],\"apertures\":[{\"node\":6,\"answeredFrom\":1,\"serial\":0,\"strength\":0.76},{\"node\":2,\"answeredFrom\":8,\"serial\":1,\"strength\":0.76},{\"node\":0,\"answeredFrom\":4,\"serial\":2,\"strength\":0.76},{\"node\":9,\"answeredFrom\":11,\"serial\":3,\"strength\":0.76}]}",
+          "vacancies": 4,
+          "apertures": 4,
+          "gpuReady": true
+        }
+      },
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframe": null,
+        "heading": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "tableau": {
+        "iframeCount": 0,
+        "tableauFirst": false,
+        "iframeVisible": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-1920x1080-reduced.png"
+    }
+  ],
+  "interaction": {
+    "httpStatus": 200,
+    "initial": {
+      "stage": "field 01 / 15",
+      "memory": "0 witnesses",
+      "renderer": "WEBGPU / RADIAL FIELD",
+      "canvas": {
+        "width": 390,
+        "height": 844,
+        "visible": true
+      },
+      "gpuCanvas": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": {
+        "stage": 0,
+        "memory": 0,
+        "armedNode": -1,
+        "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+        "vacancies": 0,
+        "apertures": 0,
+        "gpuReady": true
+      }
+    },
+    "armedOnly": {
+      "stage": "field 01 / 15",
+      "memory": "0 witnesses",
+      "renderer": "WEBGPU / RADIAL FIELD",
+      "canvas": {
+        "width": 390,
+        "height": 844,
+        "visible": true
+      },
+      "gpuCanvas": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": {
+        "stage": 0,
+        "memory": 0,
+        "armedNode": 2,
+        "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+        "vacancies": 0,
+        "apertures": 0,
+        "gpuReady": true
+      }
+    },
+    "shortClick": {
+      "stage": "field 01 / 15",
+      "memory": "0 witnesses",
+      "renderer": "WEBGPU / RADIAL FIELD",
+      "canvas": {
+        "width": 390,
+        "height": 844,
+        "visible": true
+      },
+      "gpuCanvas": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": {
+        "stage": 0,
+        "memory": 0,
+        "armedNode": 2,
+        "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+        "vacancies": 0,
+        "apertures": 0,
+        "gpuReady": true
+      }
+    },
+    "sustained": {
+      "stage": "field 02 / 15",
+      "memory": "1 witness",
+      "renderer": "WEBGPU / RADIAL FIELD",
+      "canvas": {
+        "width": 390,
+        "height": 844,
+        "visible": true
+      },
+      "gpuCanvas": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": {
+        "stage": 1,
+        "memory": 1,
+        "armedNode": -1,
+        "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,1.02469,0.91,0.72,0,7,0.7],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.36724,1.08,0,0.76,2,0.45],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":2,\"serial\":0,\"strength\":0.72}],\"apertures\":[{\"node\":7,\"answeredFrom\":2,\"serial\":0,\"strength\":0.76}]}",
+        "vacancies": 1,
+        "apertures": 1,
+        "gpuReady": true
+      }
+    },
+    "keyboard": {
+      "stage": "field 03 / 15",
+      "memory": "2 witnesses",
+      "renderer": "WEBGPU / RADIAL FIELD",
+      "canvas": {
+        "width": 390,
+        "height": 844,
+        "visible": true
+      },
+      "gpuCanvas": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": {
+        "stage": 2,
+        "memory": 2,
+        "armedNode": -1,
+        "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.59266,0.91,0.72,0,8,0.82],[2,0.76659,0.3342,1.02469,0.91,0.72,0,7,0.7],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.36724,1.08,0,0.76,2,0.45],[8,0.2919,0.71915,3.7524,1.092,0,0.76,1,0.55],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":2,\"serial\":0,\"strength\":0.72},{\"node\":1,\"serial\":1,\"strength\":0.72}],\"apertures\":[{\"node\":7,\"answeredFrom\":2,\"serial\":0,\"strength\":0.76},{\"node\":8,\"answeredFrom\":1,\"serial\":1,\"strength\":0.76}]}",
+        "vacancies": 2,
+        "apertures": 2,
+        "gpuReady": true
+      }
+    },
+    "lifted": {
+      "stage": "field 02 / 15",
+      "memory": "1 witness",
+      "renderer": "WEBGPU / RADIAL FIELD",
+      "canvas": {
+        "width": 390,
+        "height": 844,
+        "visible": true
+      },
+      "gpuCanvas": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": {
+        "stage": 1,
+        "memory": 1,
+        "armedNode": -1,
+        "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,1.02469,0.91,0.72,0,7,0.7],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.36724,1.08,0,0.76,2,0.45],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[{\"node\":2,\"serial\":0,\"strength\":0.72}],\"apertures\":[{\"node\":7,\"answeredFrom\":2,\"serial\":0,\"strength\":0.76}]}",
+        "vacancies": 1,
+        "apertures": 1,
+        "gpuReady": true
+      }
+    },
+    "released": {
+      "stage": "field 01 / 15",
+      "memory": "0 witnesses",
+      "renderer": "WEBGPU / RADIAL FIELD",
+      "canvas": {
+        "width": 390,
+        "height": 844,
+        "visible": true
+      },
+      "gpuCanvas": {
+        "width": 390,
+        "height": 844
+      },
+      "runtime": {
+        "stage": 0,
+        "memory": 0,
+        "armedNode": -1,
+        "signature": "{\"field\":\"[[0,0.5,0.2549,0,1,0,0,-1,0],[1,0.64574,0.26763,0.49466,1,0,0,-1,0],[2,0.76659,0.3342,0.94469,1,0,0,-1,0],[3,0.78385,0.47805,1.48111,1,0,0,-1,0],[4,0.79101,0.5841,1.89496,1,0,0,-1,0],[5,0.70737,0.71966,2.45964,1,0,0,-1,0],[6,0.58057,0.7351,2.85497,1,0,0,-1,0],[7,0.41349,0.75332,3.42724,1,0,0,-1,0],[8,0.2919,0.71915,3.8264,1,0,0,-1,0],[9,0.23026,0.57913,4.38366,1,0,0,-1,0],[10,0.1944,0.47478,4.80804,1,0,0,-1,0],[11,0.23207,0.3358,5.33151,1,0,0,-1,0],[12,0.3666,0.28341,5.79608,1,0,0,-1,0]]\",\"vacancies\":[],\"apertures\":[]}",
+        "vacancies": 0,
+        "apertures": 0,
+        "gpuReady": true
+      }
+    },
+    "controls": [
+      {
+        "label": "witness the field",
+        "width": 115.328125,
+        "height": 44
+      },
+      {
+        "label": "lift latest witness",
+        "width": 115.34375,
+        "height": 44
+      },
+      {
+        "label": "release the field",
+        "width": 115.328125,
+        "height": 44
+      }
+    ],
+    "outer": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "iframe": null,
+      "heading": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "armedWithoutMemory": true,
+    "shortClickUnchanged": true,
+    "sustainedChanged": true,
+    "keyboardChanged": true,
+    "liftRestoredSustained": true,
+    "releaseCleared": true,
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\raw-interaction-390x844.png"
+  },
+  "blind": {
+    "httpStatus": 200,
+    "evidence": {
+      "canvasVisible": true,
+      "canvasWidth": 390,
+      "canvasHeight": 844,
+      "readout": "none",
+      "controls": "none",
+      "caption": "none",
+      "header": "none",
+      "annotations": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "state": {
+        "stage": 14,
+        "memory": 4,
+        "vacancies": 4,
+        "apertures": 4
+      }
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\static-blind-390x844.png"
+  },
+  "journal": {
+    "path": "/journal/",
+    "httpStatus": 200,
+    "evidence": {
+      "count": 1,
+      "text": "2026-09-30WebGPU / candidate / heldThe field keeps the wrong witness.v018 abandons the cavity, scaffold, and temporal-score grammars. A radial field arms one situated witness; sustained attention makes its local body lose a real sector while a distant witness opens an answering aperture. The wrong reply remains visible as distributed spatial absence, and lifting the latest witness reconstructs the exact preceding field.open daily work ↗candidate / held5 critiquesdaily trace retained",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\journal-390x844.png"
+  },
+  "current": {
+    "path": "/currents/webgpu/",
+    "httpStatus": 200,
+    "evidence": {
+      "count": 1,
+      "text": "CURRENT / WebGPU / dormant\n    WebGPU\n    mass leaves a trace.\n    Can a crowd become an archive?\n    2026-09-30 / candidate / held",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v018-2026-09-30\\current-webgpu-390x844.png"
+  }
+}

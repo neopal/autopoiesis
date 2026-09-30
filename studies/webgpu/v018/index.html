@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071017">
+  <meta name="description" content="A radial WebGPU field where sustained attention vacates one local witness and opens a reply elsewhere.">
+  <title>MUTINE — The field keeps the wrong witness.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=018">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-09-30"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="witness-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v018 / wrong witness</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="witness-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v018</span></nav>
+      <section class="witness-work" aria-label="WebGPU daily work">
+        <figure class="witness-frame artwork-frame">
+          <canvas id="gpu-field" aria-hidden="true"></canvas>
+          <canvas id="field" role="img" aria-label="A radial field of witnesses where sustained attention can vacate one local form and open a reply in another" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape"></canvas>
+          <div class="witness-readout" role="status" aria-live="polite"><span data-stage>field 01 / 15</span><span data-memory>0 witnesses</span><span data-renderer>WEBGPU / INITIALISING</span></div>
+          <div class="witness-status" data-status>field awaiting a witness</div>
+          <div class="witness-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="witness">witness the field</button>
+            <button type="button" data-gesture="lift">lift latest witness</button>
+            <button type="button" data-gesture="release">release the field</button>
+          </div>
+          <figcaption><span>WEBGPU / V018 / DAILY WORK</span><span>approach → dwell → vacancy</span></figcaption>
+        </figure>
+        <aside class="witness-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a wall, band, or scaffold. It is a radial field of local witnesses rendered through a GPU background and an explicit geometry layer.</p></div>
+          <div><span>changed rule</span><p>Approach arms one witness. Hold your attention long enough to commit: its local body loses a real sector while a distant witness opens an answering aperture.</p></div>
+          <div><span>progression</span><p>A short tap is refused. Sustained pointer attention, Enter, Space, and the witness control commit the same bounded event; Delete lifts only the latest.</p></div>
+        </aside>
+      </section>
+      <section class="witness-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V018 / DAILY WORK</p><h1 id="work-title">The field keeps<br><i>the wrong witness.</i></h1></div>
+        <p class="witness-premise">The archive is not a delayed cohort or a brighter crowd. It is a local absence answered at a distance, with the wrong witness carrying the opening.</p>
+      </section>
+      <section class="witness-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: sustained attention creates a real vacancy in one radial cell and a real aperture in another, then reverses exactly. Promotion depends on whether the blind field reads as a changed spatial medium rather than a decorative constellation.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>attention → vacancy → reply</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=018a"></script>
+</body>
+</html>
