@@ -1,0 +1,234 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "stages": 17,
+      "memory": 0,
+      "engineMemory": 0,
+      "armedRoom": null,
+      "openings": 0,
+      "closures": 0,
+      "topologyChanges": 0,
+      "pointerOnlyChanges": 0,
+      "interaction": "sequence",
+      "geometrySignature": "{\"rooms\":[{\"id\":\"north-west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north-east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"middle\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"south\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0}],\"trace\":{\"topologyChanges\":0,\"pointerOnlyChanges\":0,\"attentionCount\":0,\"wrongReplies\":0}}"
+    },
+    "moved": {
+      "stage": 0,
+      "stages": 17,
+      "memory": 0,
+      "engineMemory": 0,
+      "armedRoom": 1,
+      "openings": 0,
+      "closures": 0,
+      "topologyChanges": 0,
+      "pointerOnlyChanges": 0,
+      "interaction": "sequence",
+      "geometrySignature": "{\"rooms\":[{\"id\":\"north-west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north-east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"middle\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"south\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0}],\"trace\":{\"topologyChanges\":0,\"pointerOnlyChanges\":0,\"attentionCount\":0,\"wrongReplies\":0}}"
+    },
+    "clicked": {
+      "stage": 1,
+      "stages": 17,
+      "memory": 1,
+      "engineMemory": 1,
+      "armedRoom": 1,
+      "openings": 1,
+      "closures": 1,
+      "topologyChanges": 2,
+      "pointerOnlyChanges": 0,
+      "interaction": "attention-committed",
+      "geometrySignature": "{\"rooms\":[{\"id\":\"north-west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north\",\"openings\":[\"east\"],\"closures\":[],\"attention\":1,\"replies\":0},{\"id\":\"north-east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"middle\",\"openings\":[],\"closures\":[\"west\"],\"attention\":0,\"replies\":1},{\"id\":\"east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"south\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0}],\"trace\":{\"topologyChanges\":2,\"pointerOnlyChanges\":0,\"attentionCount\":1,\"wrongReplies\":1}}"
+    },
+    "keyboard": {
+      "stage": 2,
+      "stages": 17,
+      "memory": 2,
+      "engineMemory": 2,
+      "armedRoom": 1,
+      "openings": 1,
+      "closures": 2,
+      "topologyChanges": 4,
+      "pointerOnlyChanges": 0,
+      "interaction": "attention-committed",
+      "geometrySignature": "{\"rooms\":[{\"id\":\"north-west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north\",\"openings\":[\"east\",\"south\"],\"closures\":[],\"attention\":2,\"replies\":0},{\"id\":\"north-east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"middle\",\"openings\":[],\"closures\":[\"west\"],\"attention\":0,\"replies\":1},{\"id\":\"east\",\"openings\":[],\"closures\":[\"north\"],\"attention\":0,\"replies\":1},{\"id\":\"south\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0}],\"trace\":{\"topologyChanges\":4,\"pointerOnlyChanges\":0,\"attentionCount\":2,\"wrongReplies\":2}}"
+    },
+    "lifted": {
+      "stage": 1,
+      "stages": 17,
+      "memory": 1,
+      "engineMemory": 1,
+      "armedRoom": 1,
+      "openings": 1,
+      "closures": 1,
+      "topologyChanges": 2,
+      "pointerOnlyChanges": 0,
+      "interaction": "attention-lifted",
+      "geometrySignature": "{\"rooms\":[{\"id\":\"north-west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north\",\"openings\":[\"east\"],\"closures\":[],\"attention\":1,\"replies\":0},{\"id\":\"north-east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"middle\",\"openings\":[],\"closures\":[\"west\"],\"attention\":0,\"replies\":1},{\"id\":\"east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"south\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0}],\"trace\":{\"topologyChanges\":2,\"pointerOnlyChanges\":0,\"attentionCount\":1,\"wrongReplies\":1}}"
+    },
+    "released": {
+      "stage": 0,
+      "stages": 17,
+      "memory": 0,
+      "engineMemory": 0,
+      "armedRoom": null,
+      "openings": 0,
+      "closures": 0,
+      "topologyChanges": 0,
+      "pointerOnlyChanges": 0,
+      "interaction": "released",
+      "geometrySignature": "{\"rooms\":[{\"id\":\"north-west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"north-east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"west\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"middle\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"east\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0},{\"id\":\"south\",\"openings\":[],\"closures\":[],\"attention\":0,\"replies\":0}],\"trace\":{\"topologyChanges\":0,\"pointerOnlyChanges\":0,\"attentionCount\":0,\"wrongReplies\":0}}"
+    },
+    "touchTargets": [
+      {
+        "id": "attention-control",
+        "width": 118.65625,
+        "height": 44
+      },
+      {
+        "id": "undo-control",
+        "width": 118.671875,
+        "height": 44
+      },
+      {
+        "id": "release-control",
+        "width": 118.671875,
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blindEvidence": {
+    "svgVisible": true,
+    "readoutDisplay": "none",
+    "controlsDisplay": "none",
+    "annotationsDisplay": "none",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "memory": 4,
+    "openings": 4,
+    "closures": 4
+  },
+  "journalEvidence": {
+    "count": 1,
+    "title": "The map answers in the wrong room.",
+    "canonicalHref": "/works/naive-2026-09-30/#journal",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "currentEvidence": {
+    "header": "Naive art",
+    "firstWork": "The map answers in the wrong room.",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "sample": [
+    {
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "svg": {
+          "width": 389.96875,
+          "height": 304.1875,
+          "display": "inline"
+        },
+        "iframe": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The map answers in the wrong room."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "svg": {
+          "width": 1919.984375,
+          "height": 1497.59375,
+          "display": "inline"
+        },
+        "iframe": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The map answers in the wrong room."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "svg": {
+          "width": 389.96875,
+          "height": 304.1875,
+          "display": "inline"
+        },
+        "iframe": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The map answers in the wrong room."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "svg": {
+          "width": 1919.984375,
+          "height": 1497.59375,
+          "display": "inline"
+        },
+        "iframe": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The map answers in the wrong room."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    }
+  ]
+}

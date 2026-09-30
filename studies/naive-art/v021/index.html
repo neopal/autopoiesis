@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#c6bba7">
+  <title>MUTINE — The map answers in the wrong room</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.has('blind')) document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=021">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-09-30"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="map-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v021 / WRONG ROOM</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="map-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v021</span></nav>
+
+      <section class="work-surface" aria-label="Naive wrong-room map">
+        <div class="field-column">
+          <figure class="map-work artwork-frame">
+            <div class="map-wrap" id="attention-map" tabindex="0" role="application" aria-label="An impossible room map that answers attention in the wrong room" aria-keyshortcuts="Enter Space Delete R S">
+              <div class="map-readout" aria-live="polite"><span data-stage>stage 0 / 17</span><span data-memory>0 rooms remembering</span></div>
+              <svg id="map-field" viewBox="0 0 1000 780" role="img" aria-label="Seven irregular rooms around a central absence">
+                <defs>
+                  <filter id="paper-noise" x="-10%" y="-10%" width="120%" height="120%">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="2" seed="21" result="noise"/>
+                    <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+                    <feComponentTransfer><feFuncA type="table" tableValues="0 0.09"/></feComponentTransfer>
+                    <feBlend in="SourceGraphic" in2="mono" mode="multiply"/>
+                  </filter>
+                </defs>
+                <rect class="map-ground" x="0" y="0" width="1000" height="780" rx="9"/>
+                <path class="map-border" d="M38 37H962V743H38Z"/>
+                <path class="map-crease crease-a" d="M90 318C238 284 338 322 457 293S731 282 914 336"/>
+                <path class="map-crease crease-b" d="M86 571C233 602 341 560 468 592S737 611 918 565"/>
+                <ellipse class="map-void" cx="510" cy="394" rx="92" ry="72"/>
+                <g class="room-field" data-room-field="true">
+                  <g class="room" data-room="north-west" tabindex="-1" aria-label="north-west room"><path class="room-shadow"/><path class="room-fill"/><path class="room-opening" data-opening="true"/><path class="room-closure" data-closure="true"/><path class="room-mark"/></g>
+                  <g class="room" data-room="north" tabindex="-1" aria-label="north room"><path class="room-shadow"/><path class="room-fill"/><path class="room-opening" data-opening="true"/><path class="room-closure" data-closure="true"/><path class="room-mark"/></g>
+                  <g class="room" data-room="north-east" tabindex="-1" aria-label="north-east room"><path class="room-shadow"/><path class="room-fill"/><path class="room-opening" data-opening="true"/><path class="room-closure" data-closure="true"/><path class="room-mark"/></g>
+                  <g class="room" data-room="west" tabindex="-1" aria-label="west room"><path class="room-shadow"/><path class="room-fill"/><path class="room-opening" data-opening="true"/><path class="room-closure" data-closure="true"/><path class="room-mark"/></g>
+                  <g class="room" data-room="middle" tabindex="-1" aria-label="middle room"><path class="room-shadow"/><path class="room-fill"/><path class="room-opening" data-opening="true"/><path class="room-closure" data-closure="true"/><path class="room-mark"/></g>
+                  <g class="room" data-room="east" tabindex="-1" aria-label="east room"><path class="room-shadow"/><path class="room-fill"/><path class="room-opening" data-opening="true"/><path class="room-closure" data-closure="true"/><path class="room-mark"/></g>
+                  <g class="room" data-room="south" tabindex="-1" aria-label="south room"><path class="room-shadow"/><path class="room-fill"/><path class="room-opening" data-opening="true"/><path class="room-closure" data-closure="true"/><path class="room-mark"/></g>
+                </g>
+                <path class="map-thread" d="M285 294C356 340 406 347 452 393S626 428 724 382"/>
+                <g class="map-annotations" aria-hidden="true"><circle cx="510" cy="394" r="5"/><path d="M500 394h20M510 384v20"/></g>
+              </svg>
+              <div class="map-controls" aria-label="Map actions">
+                <button id="attention-control" data-gesture="attention" type="button">look into a room</button>
+                <button id="undo-control" data-gesture="undo" type="button">lift latest look</button>
+                <button id="release-control" data-gesture="release" type="button">release the map</button>
+              </div>
+            </div>
+            <figcaption><span>seed | mutine-naive-v021-wrong-room</span><span>attention &gt; answer &gt; topology</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Seven rooms hold no shared plan. Looking into one opens a doorway; a distant room answers by closing the door it was never asked to close.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if the wrong answer survives as geometry: a real opening here, a real block there, no caption required.</p></div>
+          <div><span>progression</span><p>Approach a room, commit the look, lift only the latest answer, then release the map back to its first impossible arrangement.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V021 / DAILY WORK</p><h1 id="work-title">The map answers <br><i>in the wrong room.</i></h1></div>
+        <p class="work-premise">Attention opens a doorway here and closes one elsewhere. The picture keeps the misaddressed reply as a change in topology.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v021 abandons v018's hinge, v019's weather mural, and v020's pressure sheet. A single inline SVG map becomes a field of disjoint rooms around an absence: proximity arms a situated room, and one committed look opens its boundary while a distant room returns a wrong closure. Lifting the latest look reconstructs the prior topology.</p></section>
+      <p class="work-loop">attention → wrong answer → topology</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-09-27/">previous daily work</a><a href="/journal/#journal-naive-2026-09-30">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=021"></script>
+</body>
+</html>
