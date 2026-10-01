@@ -1,0 +1,23 @@
+{
+  "id": "pure-svg-v019-pressure-valve",
+  "visitorInput": true,
+  "seed": "0x53564749",
+  "stages": 15,
+  "primitiveBudget": 11,
+  "channelCount": 7,
+  "memoryWindow": 4,
+  "settledStage": 14,
+  "settledMemory": 4,
+  "settledFlippedChannels": 4,
+  "settledApertures": 4,
+  "memoryRule": "a global pressure event flips one channel behind the stack, opens a real aperture, and changes the paint order for later channels",
+  "interactionRule": "pointer movement and pointer taps are refused; the pressure control, Enter, Space, or P commit one bounded order inversion; Delete lifts the latest pressure",
+  "representationRupture": "continuous body, closed loop, and disjoint compound plates -> one radial valve of overlapping channel paths",
+  "encounterRupture": "situated pointer attention, two-point relay, and local countermark -> global non-positional pressure command",
+  "temporalRupture": "winding and remote-hole memory -> bounded occlusion memory where front/back order is the material state",
+  "mediumRupture": "compound plate field -> inline SVG paint order plus path winding",
+  "replay": true,
+  "renderer": "deterministic inline SVG pressure valve",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
+}
