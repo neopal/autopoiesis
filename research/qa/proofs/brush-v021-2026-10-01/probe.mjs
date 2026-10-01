@@ -90,7 +90,10 @@ async function interactionProbe(browser) {
   const diagnostics = diagnosticsFor(page);
   await page.goto(`${targetBase}${routes.raw}`, { waitUntil: 'networkidle' });
   await page.waitForSelector('#grain-canvas');
-  const snapshot = () => page.evaluate(() => ({ ...document.querySelector('#grain-field').dataset }));
+  const snapshot = () => page.evaluate(() => ({
+    ...document.querySelector('#grain-field').dataset,
+    touchTargets: [...document.querySelectorAll('.grain-controls button')].map((button) => ({ id: button.id, width: button.getBoundingClientRect().width, height: button.getBoundingClientRect().height }))
+  }));
   const initial = await snapshot();
   const field = page.locator('#grain-canvas');
   const box = await field.boundingBox();

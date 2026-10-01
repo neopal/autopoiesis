@@ -8,37 +8,139 @@
       "stage": "14",
       "memory": "3",
       "removed": "78",
-      "interaction": "sequence"
+      "interaction": "sequence",
+      "touchTargets": [
+        {
+          "id": "rake-control",
+          "width": 117.328125,
+          "height": 44
+        },
+        {
+          "id": "lift-control",
+          "width": 117.34375,
+          "height": 44
+        },
+        {
+          "id": "release-control",
+          "width": 117.328125,
+          "height": 44
+        }
+      ]
     },
     "tap": {
       "stage": "14",
       "memory": "3",
       "removed": "78",
-      "interaction": "rake-refused"
+      "interaction": "rake-refused",
+      "touchTargets": [
+        {
+          "id": "rake-control",
+          "width": 117.328125,
+          "height": 44
+        },
+        {
+          "id": "lift-control",
+          "width": 117.34375,
+          "height": 44
+        },
+        {
+          "id": "release-control",
+          "width": 117.328125,
+          "height": 44
+        }
+      ]
     },
     "dragged": {
       "stage": "14",
       "memory": "3",
       "removed": "68",
-      "interaction": "visitor-rake"
+      "interaction": "visitor-rake",
+      "touchTargets": [
+        {
+          "id": "rake-control",
+          "width": 117.328125,
+          "height": 44
+        },
+        {
+          "id": "lift-control",
+          "width": 117.34375,
+          "height": 44
+        },
+        {
+          "id": "release-control",
+          "width": 117.328125,
+          "height": 44
+        }
+      ]
     },
     "keyboard": {
       "stage": "14",
       "memory": "3",
       "removed": "63",
-      "interaction": "visitor-rake"
+      "interaction": "visitor-rake",
+      "touchTargets": [
+        {
+          "id": "rake-control",
+          "width": 117.328125,
+          "height": 44
+        },
+        {
+          "id": "lift-control",
+          "width": 117.34375,
+          "height": 44
+        },
+        {
+          "id": "release-control",
+          "width": 117.328125,
+          "height": 44
+        }
+      ]
     },
     "lifted": {
       "stage": "14",
       "memory": "3",
       "removed": "68",
-      "interaction": "rake-lifted"
+      "interaction": "rake-lifted",
+      "touchTargets": [
+        {
+          "id": "rake-control",
+          "width": 117.328125,
+          "height": 44
+        },
+        {
+          "id": "lift-control",
+          "width": 117.34375,
+          "height": 44
+        },
+        {
+          "id": "release-control",
+          "width": 117.328125,
+          "height": 44
+        }
+      ]
     },
     "released": {
       "stage": "14",
       "memory": "3",
       "removed": "78",
-      "interaction": "sequence"
+      "interaction": "sequence",
+      "touchTargets": [
+        {
+          "id": "rake-control",
+          "width": 117.328125,
+          "height": 44
+        },
+        {
+          "id": "lift-control",
+          "width": 117.34375,
+          "height": 44
+        },
+        {
+          "id": "release-control",
+          "width": 117.328125,
+          "height": 44
+        }
+      ]
     },
     "diagnostics": {
       "consoleMessages": [],
