@@ -75,8 +75,13 @@ The blind falsifier is concrete: hide labels, readout, controls, captions, and f
 - Touch targets: all three raw controls measured `44px` high at `390×844`.
 - Local Journal: exactly one `#journal-typography-2026-10-01` entry with title and canonical link.
 - Local Handwriting current: exactly one latest `2026-10-01` artwork with no overflow.
-- Proof bundle: `results.json`, `summary.json`, `probe.mjs`, and 26 non-empty PNG captures.
+- Proof bundle: `results.json`, `summary.json`, `probe.mjs`, `production-results.json`, `production-summary.json`, and 26 local plus 8 representative production PNG captures.
+- Production deployment: Vercel deployment `dpl_48HHonCKBteUhCbxR8YMfnfjthTy` reached `READY` and aliased to `https://autopoiesis-nine.vercel.app`.
+- Production headless browser matrix: **10/10 canonical + 10/10 raw** at `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced-motion modes.
+- Production browser diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses; production overflow **0**.
+- Production readback: `/studio/data/works.json` returned exactly one matching record; `/studio/data/catalog-public.json` returned exactly one public record; the canonical page and raw v018 URL returned HTTP 200; the rendered Journal contained exactly one `#journal-typography-2026-10-01` entry with the title and canonical link; the Handwriting current contained exactly one latest 2026-10-01 artwork.
+- GitHub publication: local `HEAD` and `origin/main` both equal `ada2af7f4baeb5b7a893686836559eaa3a9d0407`.
 
 ## Evidence boundary
 
-Production deployment and public readback have not yet been performed in this record. The candidate remains **candidate / held** pending independent caption-free perceptual review and post-deploy verification. The current browser evidence establishes runtime and responsive behavior locally; it does not prove public visibility or provider revision linkage.
+The deployed runtime, routes, catalog, Journal, current, responsive matrix, and interaction paths are now verified. The candidate remains **candidate / held** pending an independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden; provider-side linkage between the stable Vercel deployment and the GitHub revision is also not independently confirmed.
