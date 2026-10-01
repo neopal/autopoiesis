@@ -1,0 +1,21 @@
+{
+  "id": "handwriting-v018-counter",
+  "seed": "0x48574818",
+  "visitorInput": true,
+  "stages": 13,
+  "lineCount": 5,
+  "memoryWindow": 5,
+  "finalStage": 12,
+  "holdThresholdMs": 560,
+  "renderer": "deterministic inline SVG text with mask geometry",
+  "materialRule": "sustained pressure punches a counter-shaped aperture from one word and shifts a later word's baseline and tracking",
+  "memoryRule": "the latest five hold-pressure events are replayed through the typographic lock-up builder",
+  "interactionRule": "a pointer hold crosses a 560ms threshold; short touch is refused; Enter, Space, and the pressure control commit one bounded event; lifting latest reconstructs the exact prior SVG signature",
+  "representationRupture": "HTML text tiles on shelves -> one continuous SVG typographic lock-up with subtractive mask geometry",
+  "encounterRupture": "bounded tap -> sustained pressure threshold with explicit short-touch refusal",
+  "temporalRupture": "additive setting occupancy -> bounded memory of missing counters propagated to later baselines",
+  "mediumRupture": "deterministic HTML text DOM -> deterministic inline SVG text and mask",
+  "replay": true,
+  "measured": false,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision verification"
+}

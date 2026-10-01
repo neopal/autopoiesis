@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#241b18">
+  <title>MUTINE — The ink leaves a counter.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=018">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-01"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="handwriting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v018</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="handwriting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v018</span></nav>
+
+      <figure id="work" class="work artwork-frame" data-frame="artwork-frame" aria-labelledby="work-title">
+        <div class="svg-wrap">
+          <svg id="piece" viewBox="0 0 1200 760" role="img" aria-label="An oversized typographic sentence. Hold on the ink long enough to punch a counter-shaped aperture and move a later word off its baseline." tabindex="0" aria-keyshortcuts="Enter Space Delete R S">
+            <defs id="defs">
+              <mask id="ink-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="760"></mask>
+            </defs>
+            <g id="paper-layer" aria-hidden="true"></g>
+            <g id="ink-layer" mask="url(#ink-mask)"></g>
+            <g id="registration-layer" aria-hidden="true"></g>
+          </svg>
+          <div class="canvas-corner" aria-hidden="true"><span>HAND / 018</span><span>COUNTER PRESS</span></div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v018-counter</span><span>hold &gt; punch &gt; reroute &gt; lift</span></figcaption>
+      </figure>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE THRESHOLD ACTION</p>
+          <p class="interaction-copy">Hold on the ink. A short touch is refused; sustained pressure punches a real counter from one word and makes a later word inherit the missing room. Lift only the latest pressure to rebuild the exact earlier lock-up.</p>
+        </div>
+        <div class="interaction-actions" aria-label="Handwriting actions">
+          <button id="hold-pressure" data-gesture="pressure" type="button">hold pressure</button>
+          <button id="lift-perforation" data-gesture="lift" type="button">lift latest</button>
+          <button id="release-sequence" data-gesture="release" type="button">release sequence</button>
+        </div>
+        <p id="state" class="interaction-state" aria-live="polite">The ink is closed; pressure has not crossed the counter.</p>
+      </section>
+
+      <section class="opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / AUTONOMOUS STUDY / v018</p>
+        <h1 id="work-title">The ink<br><i>leaves a counter.</i></h1>
+        <p class="lede">Pressure no longer sets the letter. It removes a piece of the sentence and makes the absence travel: one word is perforated, a later word slips its baseline, and the next reading must make room for what is missing.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v018</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Handwriting abandons shelves, tile occupancy, and connected capillary routing. A sustained pressure event punches a counter-shaped aperture through one continuous SVG typographic lock-up and shifts a downstream word's baseline and tracking.</dd></div>
+          <div><dt>visitor action</dt><dd>Pointer pressure commits only after a deterministic hold threshold; a short click is refused. Enter, Space, and the pressure control commit the same bounded event. Delete or lift latest removes only the newest pressure and reconstructs the prior geometry.</dd></div>
+          <div><dt>falsifier</dt><dd>Hide labels, readout, controls, captions, and editorial furniture. If the blind field does not visibly carry a true punched aperture and a downstream baseline displacement—or if holding behaves like a tap—the material translation failed.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v018 if the counter is only a coloured sticker, if the later word stays fixed, if a short touch commits, or if lifting the latest pressure fails to restore the exact preceding SVG signature.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-09-27/">previous daily work</a><a href="/journal/#journal-typography-2026-10-01">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=018"></script>
+</body>
+</html>
