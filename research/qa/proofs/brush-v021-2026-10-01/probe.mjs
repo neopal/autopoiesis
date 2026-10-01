@@ -6,7 +6,8 @@ import { chromium } from 'playwright';
 
 const root = resolve('C:/Users/ASUS/autopoiesis');
 const port = 4196;
-const proofRoot = resolve('C:/Users/ASUS/autopoiesis/research/qa/proofs/brush-v021-2026-10-01');
+const targetBase = process.env.MUTINE_PROBE_BASE_URL || `http://127.0.0.1:${port}`;
+const proofRoot = resolve(process.env.MUTINE_PROBE_OUTPUT || 'C:/Users/ASUS/autopoiesis/research/qa/proofs/brush-v021-2026-10-01');
 const mime = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
@@ -57,7 +58,7 @@ async function probePage(browser, path, viewport, reducedMotion) {
   const page = await browser.newPage({ viewport: { width: viewport[0], height: viewport[1] } });
   await page.emulateMedia({ reducedMotion: reducedMotion ? 'reduce' : 'no-preference' });
   const diagnostics = diagnosticsFor(page);
-  await page.goto(`http://127.0.0.1:${port}${path}`, { waitUntil: 'networkidle' });
+  await page.goto(`${targetBase}${path}`, { waitUntil: 'networkidle' });
   await waitForSurface(page, path);
   await page.waitForTimeout(100);
   const evidence = await page.evaluate(() => {
@@ -87,7 +88,7 @@ async function interactionProbe(browser) {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   await page.emulateMedia({ reducedMotion: 'reduce' });
   const diagnostics = diagnosticsFor(page);
-  await page.goto(`http://127.0.0.1:${port}${routes.raw}`, { waitUntil: 'networkidle' });
+  await page.goto(`${targetBase}${routes.raw}`, { waitUntil: 'networkidle' });
   await page.waitForSelector('#grain-canvas');
   const snapshot = () => page.evaluate(() => ({ ...document.querySelector('#grain-field').dataset }));
   const initial = await snapshot();
@@ -117,7 +118,7 @@ async function blindProbe(browser) {
   await page.emulateMedia({ reducedMotion: 'reduce' });
   const diagnostics = diagnosticsFor(page);
   const path = '/studies/p5-brush/v021/?preview=1&static=1&blind=1';
-  await page.goto(`http://127.0.0.1:${port}${path}`, { waitUntil: 'networkidle' });
+  await page.goto(`${targetBase}${path}`, { waitUntil: 'networkidle' });
   await page.waitForSelector('#grain-canvas');
   const evidence = await page.evaluate(() => ({
     canvasVisible: getComputedStyle(document.querySelector('#grain-canvas')).display !== 'none',
@@ -144,7 +145,7 @@ async function focusedProbe(browser) {
     const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
     await page.emulateMedia({ reducedMotion: 'reduce' });
     const diagnostics = diagnosticsFor(page);
-    const response = await page.goto(`http://127.0.0.1:${port}${check.path}`, { waitUntil: 'networkidle' });
+    const response = await page.goto(`${targetBase}${check.path}`, { waitUntil: 'networkidle' });
     if (check.selector) await page.waitForSelector(check.selector, { timeout: 12000 });
     const evidence = await page.evaluate(check.assertion);
     evidence.status = response?.status() ?? null;
@@ -162,7 +163,8 @@ async function focusedProbe(browser) {
 
 async function main() {
   await mkdir(proofRoot, { recursive: true });
-  await new Promise((resolveListen) => server.listen(port, '127.0.0.1', resolveListen));
+  const localServer = targetBase.startsWith(`http://127.0.0.1:${port}`);
+  if (localServer) await new Promise((resolveListen) => server.listen(port, '127.0.0.1', resolveListen));
   const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
   const results = [];
   for (const reducedMotion of [false, true]) {
@@ -174,20 +176,20 @@ async function main() {
   const blind = await blindProbe(browser);
   const focused = await focusedProbe(browser);
   await browser.close();
-  server.close();
+  if (localServer) server.close();
   const matrixFailures = results.filter((result) => {
     const width = Number(result.viewport.split('x')[0]);
     return result.evidence.innerWidth !== width || result.evidence.scrollWidth > result.evidence.innerWidth || result.diagnostics.consoleMessages.length || result.diagnostics.pageErrors.length || result.diagnostics.failedRequests.length || result.diagnostics.badResponses.length;
   });
   const allDiagnostics = [...results.map((item) => item.diagnostics), interaction.diagnostics, blind.diagnostics, ...focused.map((item) => item.diagnostics)];
   const diagnosticsCount = allDiagnostics.reduce((sum, item) => sum + item.consoleMessages.length + item.pageErrors.length + item.failedRequests.length + item.badResponses.length, 0);
-  const result = { target: 'brush v021 / 2026-10-01', localURL: `http://127.0.0.1:${port}`, matrixRuns: results.length, matrixFailures, interaction, blind, focused, results, diagnosticsCount };
+  const result = { target: 'brush v021 / 2026-10-01', targetBase, matrixRuns: results.length, matrixFailures, interaction, blind, focused, results, diagnosticsCount };
   await writeFile(resolve(proofRoot, 'results.json'), JSON.stringify(result, null, 2));
   console.log(JSON.stringify({ matrixRuns: result.matrixRuns, matrixFailures: result.matrixFailures.length, diagnosticsCount: result.diagnosticsCount, interaction: result.interaction, blind: result.blind, focused: result.focused }, null, 2));
 }
 
 main().catch((error) => {
-  server.close();
+  if (server.listening) server.close();
   console.error(error.stack || error);
   process.exitCode = 1;
 });
