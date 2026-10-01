@@ -1,0 +1,1644 @@
+{
+  "status": "local-headless-browser-probe",
+  "root": "http://127.0.0.1:4197",
+  "routes": {
+    "raw": "/studies/naive-art/v022/?preview=1&interaction=1",
+    "canonical": "/works/naive-2026-10-01/"
+  },
+  "viewportRuns": [
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 568,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "controls": [
+          {
+            "width": 94.65625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 0,
+          "stages": 18,
+          "memory": 0,
+          "memoryWindow": 4,
+          "vacancies": 0,
+          "railCount": 0,
+          "layoutChanges": 0,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-320x568-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 568,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "controls": [
+          {
+            "width": 94.65625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 17,
+          "stages": 18,
+          "memory": 4,
+          "memoryWindow": 4,
+          "vacancies": 4,
+          "railCount": 4,
+          "layoutChanges": 12,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-320x568-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 844,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "controls": [
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 0,
+          "stages": 18,
+          "memory": 0,
+          "memoryWindow": 4,
+          "vacancies": 0,
+          "railCount": 0,
+          "layoutChanges": 0,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-390x844-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 844,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "controls": [
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 17,
+          "stages": 18,
+          "memory": 4,
+          "memoryWindow": 4,
+          "vacancies": 4,
+          "railCount": 4,
+          "layoutChanges": 12,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-390x844-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 1024,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "controls": [
+          {
+            "width": 113.5,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 125.90625,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 0,
+          "stages": 18,
+          "memory": 0,
+          "memoryWindow": 4,
+          "vacancies": 0,
+          "railCount": 0,
+          "layoutChanges": 0,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-768x1024-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 1024,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "controls": [
+          {
+            "width": 113.5,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 125.90625,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 17,
+          "stages": 18,
+          "memory": 4,
+          "memoryWindow": 4,
+          "vacancies": 4,
+          "railCount": 4,
+          "layoutChanges": 12,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-768x1024-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 800,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "controls": [
+          {
+            "width": 113.5,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 125.90625,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 0,
+          "stages": 18,
+          "memory": 0,
+          "memoryWindow": 4,
+          "vacancies": 0,
+          "railCount": 0,
+          "layoutChanges": 0,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-1280x800-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 800,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "controls": [
+          {
+            "width": 113.5,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 125.90625,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 17,
+          "stages": 18,
+          "memory": 4,
+          "memoryWindow": 4,
+          "vacancies": 4,
+          "railCount": 4,
+          "layoutChanges": 12,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-1280x800-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 1080,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "controls": [
+          {
+            "width": 113.5,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 125.90625,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 0,
+          "stages": 18,
+          "memory": 0,
+          "memoryWindow": 4,
+          "vacancies": 0,
+          "railCount": 0,
+          "layoutChanges": 0,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-1920x1080-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v022/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 1080,
+        "firstCanvas": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "controls": [
+          {
+            "width": 113.5,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 125.90625,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "rawState": {
+          "stage": 17,
+          "stages": 18,
+          "memory": 4,
+          "memoryWindow": 4,
+          "vacancies": 4,
+          "railCount": 4,
+          "layoutChanges": 12,
+          "pointerOnlyChanges": 0,
+          "armedSource": null,
+          "armedTarget": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+        },
+        "pageTitle": "MUTINE — The picture learns the wrong slot"
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/raw-1920x1080-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 3221,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 18,
+          "top": 195.5,
+          "right": 302,
+          "bottom": 610.890625,
+          "width": 284,
+          "height": 415.390625
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 282,
+          "clientWidth": 282,
+          "scrollWidth": 282,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 282,
+            "height": 358
+          },
+          "state": {
+            "stage": 0,
+            "stages": 18,
+            "memory": 0,
+            "memoryWindow": 4,
+            "vacancies": 0,
+            "railCount": 0,
+            "layoutChanges": 0,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 82,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 82,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 82,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-320x568-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 3221,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 18,
+          "top": 195.5,
+          "right": 302,
+          "bottom": 610.890625,
+          "width": 284,
+          "height": 415.390625
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 282,
+          "clientWidth": 282,
+          "scrollWidth": 282,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 282,
+            "height": 358
+          },
+          "state": {
+            "stage": 17,
+            "stages": 18,
+            "memory": 4,
+            "memoryWindow": 4,
+            "vacancies": 4,
+            "railCount": 4,
+            "layoutChanges": 12,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 82,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 82,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 82,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-320x568-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 3128,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 18,
+          "top": 182.5,
+          "right": 372,
+          "bottom": 661.296875,
+          "width": 354,
+          "height": 478.796875
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 352,
+          "clientWidth": 352,
+          "scrollWidth": 352,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 352,
+            "height": 437
+          },
+          "state": {
+            "stage": 0,
+            "stages": 18,
+            "memory": 0,
+            "memoryWindow": 4,
+            "vacancies": 0,
+            "railCount": 0,
+            "layoutChanges": 0,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 105.328125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 105.34375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 105.328125,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-390x844-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 3128,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 18,
+          "top": 182.5,
+          "right": 372,
+          "bottom": 661.296875,
+          "width": 354,
+          "height": 478.796875
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 352,
+          "clientWidth": 352,
+          "scrollWidth": 352,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 352,
+            "height": 437
+          },
+          "state": {
+            "stage": 17,
+            "stages": 18,
+            "memory": 4,
+            "memoryWindow": 4,
+            "vacancies": 4,
+            "railCount": 4,
+            "layoutChanges": 12,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 105.328125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 105.34375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 105.328125,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-390x844-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 2889,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 18,
+          "top": 182.5,
+          "right": 750,
+          "bottom": 854.25,
+          "width": 732,
+          "height": 671.75
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 730,
+          "clientWidth": 730,
+          "scrollWidth": 730,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 730,
+            "height": 630
+          },
+          "state": {
+            "stage": 0,
+            "stages": 18,
+            "memory": 0,
+            "memoryWindow": 4,
+            "vacancies": 0,
+            "railCount": 0,
+            "layoutChanges": 0,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 113.5,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 125.90625,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-768x1024-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 2889,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 18,
+          "top": 182.5,
+          "right": 750,
+          "bottom": 854.25,
+          "width": 732,
+          "height": 671.75
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 730,
+          "clientWidth": 730,
+          "scrollWidth": 730,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 730,
+            "height": 630
+          },
+          "state": {
+            "stage": 17,
+            "stages": 18,
+            "memory": 4,
+            "memoryWindow": 4,
+            "vacancies": 4,
+            "railCount": 4,
+            "layoutChanges": 12,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 113.5,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 125.90625,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-768x1024-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 1923,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 56,
+          "top": 160,
+          "right": 792.546875,
+          "bottom": 922,
+          "width": 736.546875,
+          "height": 762
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 735,
+          "clientWidth": 735,
+          "scrollWidth": 735,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 735,
+            "height": 720
+          },
+          "state": {
+            "stage": 0,
+            "stages": 18,
+            "memory": 0,
+            "memoryWindow": 4,
+            "vacancies": 0,
+            "railCount": 0,
+            "layoutChanges": 0,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 113.5,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 125.90625,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-1280x800-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 1923,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 56,
+          "top": 160,
+          "right": 792.546875,
+          "bottom": 922,
+          "width": 736.546875,
+          "height": 762
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 735,
+          "clientWidth": 735,
+          "scrollWidth": 735,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 735,
+            "height": 720
+          },
+          "state": {
+            "stage": 17,
+            "stages": 18,
+            "memory": 4,
+            "memoryWindow": 4,
+            "vacancies": 4,
+            "railCount": 4,
+            "layoutChanges": 12,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 113.5,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 125.90625,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-1280x800-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 2049,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 376,
+          "top": 160,
+          "right": 1099.59375,
+          "bottom": 922,
+          "width": 723.59375,
+          "height": 762
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 722,
+          "clientWidth": 722,
+          "scrollWidth": 722,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 722,
+            "height": 720
+          },
+          "state": {
+            "stage": 0,
+            "stages": 18,
+            "memory": 0,
+            "memoryWindow": 4,
+            "vacancies": 0,
+            "railCount": 0,
+            "layoutChanges": 0,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 113.5,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 125.90625,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-1920x1080-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-01/",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 2049,
+        "firstCanvas": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 376,
+          "top": 160,
+          "right": 1099.59375,
+          "bottom": 922,
+          "width": 723.59375,
+          "height": 762
+        },
+        "controls": [],
+        "rawState": null,
+        "pageTitle": "MUTINE — The picture learns the wrong slot.",
+        "embedded": {
+          "innerWidth": 722,
+          "clientWidth": 722,
+          "scrollWidth": 722,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 722,
+            "height": 720
+          },
+          "state": {
+            "stage": 17,
+            "stages": 18,
+            "memory": 4,
+            "memoryWindow": 4,
+            "vacancies": 4,
+            "railCount": 4,
+            "layoutChanges": 12,
+            "pointerOnlyChanges": 0,
+            "armedSource": null,
+            "armedTarget": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+          },
+          "controls": [
+            {
+              "width": 113.5,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 125.90625,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "research/qa/proofs/naive-art-v022-2026-10-01/canonical-1920x1080-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 0,
+      "memoryWindow": 4,
+      "vacancies": 0,
+      "railCount": 0,
+      "layoutChanges": 0,
+      "pointerOnlyChanges": 0,
+      "armedSource": null,
+      "armedTarget": null,
+      "interaction": "sequence",
+      "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+    },
+    "afterTap": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 0,
+      "memoryWindow": 4,
+      "vacancies": 0,
+      "railCount": 0,
+      "layoutChanges": 0,
+      "pointerOnlyChanges": 0,
+      "armedSource": null,
+      "armedTarget": null,
+      "interaction": "drag-refused",
+      "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+    },
+    "afterDrag": {
+      "stage": 1,
+      "stages": 18,
+      "memory": 1,
+      "memoryWindow": 4,
+      "vacancies": 1,
+      "railCount": 1,
+      "layoutChanges": 3,
+      "pointerOnlyChanges": 0,
+      "armedSource": null,
+      "armedTarget": null,
+      "interaction": "misread-committed",
+      "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-upper-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":3,\"pointerOnlyChanges\":0,\"vacancyCount\":1,\"railCount\":1,\"wrongPlacements\":1,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+    },
+    "afterEnter": {
+      "stage": 2,
+      "stages": 18,
+      "memory": 2,
+      "memoryWindow": 4,
+      "vacancies": 2,
+      "railCount": 2,
+      "layoutChanges": 6,
+      "pointerOnlyChanges": 0,
+      "armedSource": null,
+      "armedTarget": null,
+      "interaction": "misread-committed",
+      "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",\"piece-middle-left\",null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":6,\"pointerOnlyChanges\":0,\"vacancyCount\":2,\"railCount\":2,\"wrongPlacements\":2,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+    },
+    "afterDelete": {
+      "stage": 1,
+      "stages": 18,
+      "memory": 1,
+      "memoryWindow": 4,
+      "vacancies": 1,
+      "railCount": 1,
+      "layoutChanges": 3,
+      "pointerOnlyChanges": 0,
+      "armedSource": null,
+      "armedTarget": null,
+      "interaction": "misread-lifted",
+      "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-upper-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":3,\"pointerOnlyChanges\":0,\"vacancyCount\":1,\"railCount\":1,\"wrongPlacements\":1,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+    },
+    "afterRelease": {
+      "stage": 0,
+      "stages": 18,
+      "memory": 0,
+      "memoryWindow": 4,
+      "vacancies": 0,
+      "railCount": 0,
+      "layoutChanges": 0,
+      "pointerOnlyChanges": 0,
+      "armedSource": null,
+      "armedTarget": null,
+      "interaction": "released",
+      "geometrySignature": "{\"slots\":[\"piece-upper-left\",\"piece-upper-centre\",\"piece-upper-right\",\"piece-middle-left\",\"piece-middle\",\"piece-middle-right\",\"piece-lower-left\",\"piece-lower-centre\",\"piece-lower-right\"],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":1,\"railIndex\":null},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":3,\"railIndex\":null},{\"id\":\"piece-middle\",\"slotIndex\":4,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-lower-right\",\"slotIndex\":8,\"railIndex\":null}],\"trace\":{\"layoutChanges\":0,\"pointerOnlyChanges\":0,\"vacancyCount\":0,\"railCount\":0,\"wrongPlacements\":0,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+    },
+    "sourceBox": {
+      "x": 136.53170776367188,
+      "y": 66.09314727783203,
+      "width": 85.71783447265625,
+      "height": 205.39183807373047
+    },
+    "targetBox": {
+      "x": 176.3400115966797,
+      "y": 589.433837890625,
+      "width": 80.19499206542969,
+      "height": 163.08544921875
+    },
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "blind": {
+    "httpStatus": 200,
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "fieldVisible": true,
+      "readoutVisible": false,
+      "controlsVisible": false,
+      "headingVisible": false,
+      "state": {
+        "stage": 17,
+        "stages": 18,
+        "memory": 4,
+        "memoryWindow": 4,
+        "vacancies": 4,
+        "railCount": 4,
+        "layoutChanges": 12,
+        "pointerOnlyChanges": 0,
+        "armedSource": null,
+        "armedTarget": null,
+        "interaction": "sequence",
+        "geometrySignature": "{\"slots\":[\"piece-upper-left\",null,\"piece-upper-right\",null,null,\"piece-middle-right\",\"piece-lower-left\",\"piece-middle\",null],\"pieces\":[{\"id\":\"piece-upper-left\",\"slotIndex\":0,\"railIndex\":null},{\"id\":\"piece-upper-centre\",\"slotIndex\":null,\"railIndex\":3},{\"id\":\"piece-upper-right\",\"slotIndex\":2,\"railIndex\":null},{\"id\":\"piece-middle-left\",\"slotIndex\":null,\"railIndex\":1},{\"id\":\"piece-middle\",\"slotIndex\":7,\"railIndex\":null},{\"id\":\"piece-middle-right\",\"slotIndex\":5,\"railIndex\":null},{\"id\":\"piece-lower-left\",\"slotIndex\":6,\"railIndex\":null},{\"id\":\"piece-lower-centre\",\"slotIndex\":null,\"railIndex\":0},{\"id\":\"piece-lower-right\",\"slotIndex\":null,\"railIndex\":2}],\"trace\":{\"layoutChanges\":12,\"pointerOnlyChanges\":0,\"vacancyCount\":4,\"railCount\":4,\"wrongPlacements\":4,\"grammar\":\"drag → wrong slot → displaced margin → reflow\"}}"
+      }
+    },
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "counts": {
+    "viewportRuns": 20,
+    "httpFailures": 0,
+    "overflowFailures": 0,
+    "diagnosticRuns": 0
+  }
+}
