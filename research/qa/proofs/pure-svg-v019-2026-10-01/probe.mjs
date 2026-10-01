@@ -5,7 +5,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { chromium } from 'playwright';
 
 const root = resolve(fileURLToPath(new URL('../../../../', import.meta.url)));
-const proofDir = fileURLToPath(new URL('./', import.meta.url));
+const proofDir = process.env.MUTINE_QA_PROOF_DIR ? resolve(process.env.MUTINE_QA_PROOF_DIR) : fileURLToPath(new URL('./', import.meta.url));
 const port = Number(process.env.MUTINE_QA_PORT ?? 4196);
 const base = process.env.MUTINE_QA_BASE_URL ?? `http://127.0.0.1:${port}`;
 const executablePath = process.env.CHROME_PATH ?? 'C:/Users/ASUS/AppData/Local/ms-playwright/chromium-1194/chrome-win/chrome.exe';
@@ -16,6 +16,7 @@ const canonicalPath = '/works/svg-2026-10-01/';
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon' };
 
 await mkdir(proofDir, { recursive: true });
+const proofFile = (filename) => resolve(proofDir, filename);
 const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url ?? '/', base);
@@ -73,7 +74,7 @@ async function runRaw(browser, viewport, reduced, index) {
   const response = await page.goto(`${base}${rawPath}&cache=raw-${index}-${reduced}`, { waitUntil: 'networkidle' });
   await page.waitForTimeout(reduced ? 110 : 180);
   const state = await page.evaluate(snapshotFromDocument);
-  const screenshot = fileURLToPath(new URL(`./raw-${viewport[0]}x${viewport[1]}-${reduced ? 'reduced' : 'normal'}.png`, import.meta.url));
+  const screenshot = proofFile(`raw-${viewport[0]}x${viewport[1]}-${reduced ? 'reduced' : 'normal'}.png`);
   await page.screenshot({ path: screenshot, fullPage: false });
   const result = { viewport: `${viewport[0]}x${viewport[1]}`, reduced, httpStatus: response?.status() ?? null, state, issues, screenshot };
   await context.close();
@@ -96,7 +97,7 @@ async function runCanonical(browser, viewport, reduced, index) {
     const title = mount?.querySelector('h1');
     return { iframePresent: Boolean(iframe), iframeBeforeTitle: Boolean(iframe && title && (iframe.compareDocumentPosition(title) & Node.DOCUMENT_POSITION_FOLLOWING)), iframeRect: iframe?.getBoundingClientRect().toJSON() ?? null, titleRect: title?.getBoundingClientRect().toJSON() ?? null };
   });
-  const screenshot = fileURLToPath(new URL(`./canonical-${viewport[0]}x${viewport[1]}-${reduced ? 'reduced' : 'normal'}.png`, import.meta.url));
+  const screenshot = proofFile(`canonical-${viewport[0]}x${viewport[1]}-${reduced ? 'reduced' : 'normal'}.png`);
   await page.screenshot({ path: screenshot, fullPage: false });
   const result = { viewport: `${viewport[0]}x${viewport[1]}`, reduced, httpStatus: response?.status() ?? null, outer, embedded, tableauOrder, issues, screenshot };
   await context.close();
@@ -128,7 +129,7 @@ async function runInteraction(browser) {
   await page.locator('#release-control').click();
   await page.waitForTimeout(70);
   const released = await page.evaluate(snapshotFromDocument);
-  const screenshot = fileURLToPath(new URL('./interaction-390x844.png', import.meta.url));
+  const screenshot = proofFile('interaction-390x844.png');
   await page.screenshot({ path: screenshot, fullPage: false });
   const result = {
     httpStatus: response?.status(), initial, pointerTap, button, keyboard, lifted, released, issues, screenshot,
@@ -153,7 +154,7 @@ async function runBlind(browser) {
     const display = (selector) => { const element = document.querySelector(selector); return element ? getComputedStyle(element).display : 'absent'; };
     return { field: display('#field'), readout: display('.field-readout'), controls: display('.field-controls'), labels: display('.svg-labels'), center: display('.center-label') };
   });
-  const screenshot = fileURLToPath(new URL('./static-blind-390x844.png', import.meta.url));
+  const screenshot = proofFile('static-blind-390x844.png');
   await page.screenshot({ path: screenshot, fullPage: false });
   const result = { httpStatus: response?.status(), state, visibility, issues, screenshot };
   await context.close();
@@ -167,7 +168,7 @@ async function runCatalogRoute(browser, path, selector, filename) {
   const response = await page.goto(`${base}${path}?cache=${filename}`, { waitUntil: 'networkidle' });
   await page.waitForTimeout(260);
   const evidence = await page.evaluate((target) => ({ outer: { innerWidth: window.innerWidth, clientWidth: document.documentElement.clientWidth, scrollWidth: document.documentElement.scrollWidth }, count: document.querySelectorAll(target).length, title: document.querySelector(target)?.textContent?.trim() ?? null }), selector);
-  const screenshot = fileURLToPath(new URL(`./${filename}-390x844.png`, import.meta.url));
+  const screenshot = proofFile(`${filename}-390x844.png`);
   await page.screenshot({ path: screenshot, fullPage: false });
   const result = { httpStatus: response?.status(), evidence, issues, screenshot };
   await context.close();
@@ -203,7 +204,7 @@ const summary = {
   currentIssues: issueList(result.current.issues),
   result
 };
-await writeFile(new URL('./results.json', import.meta.url), `${JSON.stringify(summary, null, 2)}\n`);
+await writeFile(proofFile('results.json'), `${JSON.stringify(summary, null, 2)}\n`);
 const checks = {
   rawMatrix: result.raw.length === 10 && result.raw.every((entry) => entry.httpStatus === 200 && entry.state.innerWidth === Number(entry.viewport.split('x')[0]) && entry.state.clientWidth === entry.state.scrollWidth && entry.state.fieldVisible && entry.consoleIssues?.length !== 1 && issueList(entry.issues).length === 0),
   canonicalMatrix: result.canonical.length === 10 && result.canonical.every((entry) => entry.httpStatus === 200 && entry.outer.innerWidth === Number(entry.viewport.split('x')[0]) && entry.outer.clientWidth === entry.outer.scrollWidth && entry.embedded?.fieldVisible && entry.tableauOrder?.iframeBeforeTitle && issueList(entry.issues).length === 0),
@@ -213,6 +214,6 @@ const checks = {
   current: result.current.httpStatus === 200 && result.current.evidence.count === 1 && result.current.evidence.outer.clientWidth === result.current.evidence.outer.scrollWidth && issueList(result.current.issues).length === 0
 };
 const final = { checks, rawRuns: result.raw.length, canonicalRuns: result.canonical.length, issues: { raw: summary.rawIssues.length, canonical: summary.canonicalIssues.length, interaction: summary.interactionIssues.length, blind: summary.blindIssues.length, journal: summary.journalIssues.length, current: summary.currentIssues.length }, interaction: result.interaction, blind: result.blind, journal: result.journal, current: result.current };
-await writeFile(new URL('./summary.json', import.meta.url), `${JSON.stringify(final, null, 2)}\n`);
+await writeFile(proofFile('summary.json'), `${JSON.stringify(final, null, 2)}\n`);
 console.log(JSON.stringify(final, null, 2));
 if (!Object.values(checks).every(Boolean)) process.exitCode = 1;
