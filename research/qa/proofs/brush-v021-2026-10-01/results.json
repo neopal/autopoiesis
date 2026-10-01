@@ -1,0 +1,667 @@
+{
+  "target": "brush v021 / 2026-10-01",
+  "localURL": "http://127.0.0.1:4196",
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "stage": "14",
+      "memory": "3",
+      "removed": "78",
+      "interaction": "sequence"
+    },
+    "tap": {
+      "stage": "14",
+      "memory": "3",
+      "removed": "78",
+      "interaction": "rake-refused"
+    },
+    "dragged": {
+      "stage": "14",
+      "memory": "3",
+      "removed": "68",
+      "interaction": "visitor-rake"
+    },
+    "keyboard": {
+      "stage": "14",
+      "memory": "3",
+      "removed": "63",
+      "interaction": "visitor-rake"
+    },
+    "lifted": {
+      "stage": "14",
+      "memory": "3",
+      "removed": "68",
+      "interaction": "rake-lifted"
+    },
+    "released": {
+      "stage": "14",
+      "memory": "3",
+      "removed": "78",
+      "interaction": "sequence"
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "canvasVisible": true,
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "focused": [
+    {
+      "name": "journal",
+      "evidence": {
+        "anchor": true,
+        "title": true,
+        "status": 200,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "name": "current",
+      "evidence": {
+        "latestCard": true,
+        "header": "Brush",
+        "status": 200,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "name": "works-json",
+      "evidence": {
+        "record": true,
+        "status": 200,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "name": "favicon",
+      "evidence": {
+        "record": true,
+        "status": 200,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    }
+  ],
+  "results": [
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": {
+          "width": 320,
+          "height": 568
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "0",
+          "memory": "0",
+          "removed": "0",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": {
+          "width": 390,
+          "height": 844
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "0",
+          "memory": "0",
+          "removed": "0",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": {
+          "width": 768,
+          "height": 1024
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "0",
+          "memory": "0",
+          "removed": "0",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": {
+          "width": 1280,
+          "height": 800
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "0",
+          "memory": "0",
+          "removed": "0",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "0",
+          "memory": "0",
+          "removed": "0",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": {
+          "width": 282,
+          "height": 358
+        },
+        "tableauTop": 196.5,
+        "headingTop": 626.890625,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": {
+          "width": 352,
+          "height": 437
+        },
+        "tableauTop": 183.5,
+        "headingTop": 692.296875,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": {
+          "width": 730,
+          "height": 630
+        },
+        "tableauTop": 183.5,
+        "headingTop": 885.25,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": {
+          "width": 735,
+          "height": 720
+        },
+        "tableauTop": 161,
+        "headingTop": 953,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": {
+          "width": 722,
+          "height": 720
+        },
+        "tableauTop": 161,
+        "headingTop": 953,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": {
+          "width": 320,
+          "height": 568
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "14",
+          "memory": "3",
+          "removed": "78",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": {
+          "width": 390,
+          "height": 844
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "14",
+          "memory": "3",
+          "removed": "78",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": {
+          "width": 768,
+          "height": 1024
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "14",
+          "memory": "3",
+          "removed": "78",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": {
+          "width": 1280,
+          "height": 800
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "14",
+          "memory": "3",
+          "removed": "78",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/studies/p5-brush/v021/?preview=1&interaction=1",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": {
+          "width": 1920,
+          "height": 1080
+        },
+        "tableauTop": null,
+        "headingTop": null,
+        "mountReady": null,
+        "fieldDataset": {
+          "stage": "14",
+          "memory": "3",
+          "removed": "78",
+          "interaction": "sequence"
+        }
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": {
+          "width": 282,
+          "height": 358
+        },
+        "tableauTop": 196.5,
+        "headingTop": 626.890625,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": {
+          "width": 352,
+          "height": 437
+        },
+        "tableauTop": 183.5,
+        "headingTop": 692.296875,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": {
+          "width": 730,
+          "height": 630
+        },
+        "tableauTop": 183.5,
+        "headingTop": 885.25,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": {
+          "width": 735,
+          "height": 720
+        },
+        "tableauTop": 161,
+        "headingTop": 953,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "path": "/works/brush-2026-10-01/",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": {
+          "width": 722,
+          "height": 720
+        },
+        "tableauTop": 161,
+        "headingTop": 953,
+        "mountReady": "true",
+        "fieldDataset": null
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    }
+  ],
+  "diagnosticsCount": 0
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10141b">
+  <title>MUTINE — the brush answers under the cut</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=021">
+  <script>window.p5 = window.p5 || undefined;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-01"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="grain-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v021 / GRAIN LATTICE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="grain-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v021</span></nav>
+
+      <figure class="grain-work artwork-frame" aria-labelledby="work-title">
+        <div id="grain-field" class="grain-wrap" tabindex="0" role="application" aria-label="A dense lattice of pigment grains. Drag through the field to remove a real path of grains and make a distant cluster answer." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="grain-readout" aria-live="polite"><span data-stage>stage 15 / 15</span><span data-memory>3 scars held</span></div>
+          <div class="grain-controls" aria-label="Brush actions">
+            <button id="rake-control" data-gesture="rake" type="button">rake the field</button>
+            <button id="lift-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release field</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v021-grain-lattice</span><span>rake &gt; scar &gt; answer</span></figcaption>
+      </figure>
+
+      <section class="grain-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / DIRECTION SWITCH / v021</p>
+        <h1 id="work-title">The brush answers<br><i>under the cut.</i></h1>
+        <p class="grain-lede">A drag is not a stroke. It removes a path of grains, and the missing material returns as a distant answer that changes the field around it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A DRAG, NOT A BUTTON</p>
+          <p class="interaction-copy">Drag across the grain field. A short tap is refused. A real rake opens a path of empty cells; the far side answers by growing and bending its neighbours. Delete or “lift latest” restores the exact preceding field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The grains are holding their first surface.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v021</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v020’s drying coil with a grain lattice. A sustained drag removes actual cells along a path, bends the grains around the scar, and makes a distant cluster answer with increased load and altered tilt.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag through the field to commit one bounded rake. Enter, Space, or the control use the same deterministic rake; Delete or “lift latest” removes only the latest scar; release field clears memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If a drag only draws a cursor trail, if the empty path is an overlay, or if the distant answer does not change cell geometry, the lattice has not remembered a removal.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v021 if labels-off, controls-off viewing reads as a generic grid, if the scars are not legible as missing material, or if the distant answer needs the caption to exist.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-09-26/">previous daily work</a><a href="/journal/#journal-brush-2026-10-01">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=021"></script>
+</body>
+</html>
