@@ -1,0 +1,21 @@
+{
+  "id": "p5-brush-v022-pressure-coagulation",
+  "visitorInput": true,
+  "seed": "0x42525542",
+  "stages": 16,
+  "primitiveBudget": 96,
+  "fieldColumns": 54,
+  "fieldRows": 34,
+  "memoryWindow": 4,
+  "settledStage": 15,
+  "memoryRule": "a sustained dwell increases binder density, forms a real cusp in the continuous pigment field, and changes the material encountered by later dwells",
+  "interactionRule": "a hold of at least 360ms commits one bounded pressure event; taps are refused; Enter, Space, and the hold control use the seeded default; Delete lifts the latest dwell",
+  "representationRupture": "grain lattice, WebGL coil, and hanging register -> continuous interpolated pigment field with density and binder as geometry-producing state",
+  "encounterRupture": "traveled drag, discrete pulse, and wheel step -> press-and-hold whose duration becomes material load",
+  "temporalRupture": "local removal and phase fracture -> cumulative coagulation where later pressure meets inherited binder resistance",
+  "mediumRupture": "deterministic p5.js 2D cell field -> deterministic p5.js 2D continuous pixel field",
+  "replay": true,
+  "renderer": "deterministic p5.js continuous pigment field",
+  "measured": true,
+  "promotion": "candidate / held; local browser matrix and interaction readback passed; production verification, independent caption-free perceptual review, and provider revision linkage remain open"
+}

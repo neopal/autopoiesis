@@ -1,0 +1,3683 @@
+{
+  "status": "local-headless-browser-probe",
+  "root": "http://127.0.0.1:4224",
+  "routes": {
+    "raw": "/studies/naive-art/v024/?preview=1&interaction=1",
+    "canonical": "/works/naive-2026-10-04/"
+  },
+  "viewportRuns": [
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 568,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "controls": [
+          {
+            "width": 94.65625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 0,
+          "stages": 19,
+          "memory": 0,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 0,
+          "changedPlaneCount": 0,
+          "shadowOffsetTotal": 0,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-320x568-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 568,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "width": 320,
+          "height": 568
+        },
+        "controls": [
+          {
+            "width": 94.65625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 94.671875,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 18,
+          "stages": 19,
+          "memory": 4,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 4,
+          "changedPlaneCount": 8,
+          "shadowOffsetTotal": 1.24,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-320x568-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 844,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "controls": [
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 0,
+          "stages": 19,
+          "memory": 0,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 0,
+          "changedPlaneCount": 0,
+          "shadowOffsetTotal": 0,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-390x844-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 844,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        },
+        "controls": [
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 118,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 18,
+          "stages": 19,
+          "memory": 4,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 4,
+          "changedPlaneCount": 8,
+          "shadowOffsetTotal": 1.24,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-390x844-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 1024,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "controls": [
+          {
+            "width": 136.109375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 128.5,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 0,
+          "stages": 19,
+          "memory": 0,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 0,
+          "changedPlaneCount": 0,
+          "shadowOffsetTotal": 0,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-768x1024-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 1024,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "width": 768,
+          "height": 1024
+        },
+        "controls": [
+          {
+            "width": 136.109375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 128.5,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 18,
+          "stages": 19,
+          "memory": 4,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 4,
+          "changedPlaneCount": 8,
+          "shadowOffsetTotal": 1.24,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-768x1024-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 800,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "controls": [
+          {
+            "width": 136.109375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 128.5,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 0,
+          "stages": 19,
+          "memory": 0,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 0,
+          "changedPlaneCount": 0,
+          "shadowOffsetTotal": 0,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-1280x800-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 800,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "width": 1280,
+          "height": 800
+        },
+        "controls": [
+          {
+            "width": 136.109375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 128.5,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 18,
+          "stages": 19,
+          "memory": 4,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 4,
+          "changedPlaneCount": 8,
+          "shadowOffsetTotal": 1.24,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-1280x800-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": false,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 1080,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "controls": [
+          {
+            "width": 136.109375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 128.5,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 0,
+          "stages": 19,
+          "memory": 0,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 0,
+          "changedPlaneCount": 0,
+          "shadowOffsetTotal": 0,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-1920x1080-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": true,
+      "route": "/studies/naive-art/v024/?preview=1&interaction=1",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 1080,
+        "field": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "intro": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "firstArtwork": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "controls": [
+          {
+            "width": 136.109375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 92.4375,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "width": 128.5,
+            "height": 44,
+            "visible": true
+          }
+        ],
+        "state": {
+          "stage": 18,
+          "stages": 19,
+          "memory": 4,
+          "memoryWindow": 4,
+          "shadowMisreadCount": 4,
+          "changedPlaneCount": 8,
+          "shadowOffsetTotal": 1.24,
+          "armedPlane": null,
+          "interaction": "sequence",
+          "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+          "p5WebGL": true
+        },
+        "pageTitle": "MUTINE — The picture misreads its own shadow",
+        "wideNodes": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/raw-1920x1080-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 3355,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 26,
+          "top": 251,
+          "right": 294,
+          "bottom": 659.390625,
+          "width": 268,
+          "height": 408.390625
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 26,
+            "right": 5166.390625,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1252.53125,
+            "right": 1488.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 266,
+          "clientWidth": 266,
+          "scrollWidth": 266,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 266,
+            "height": 358
+          },
+          "state": {
+            "stage": 0,
+            "stages": 19,
+            "memory": 0,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 0,
+            "changedPlaneCount": 0,
+            "shadowOffsetTotal": 0,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 76.65625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 76.671875,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 76.671875,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-320x568-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollHeight": 3355,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 26,
+          "top": 251,
+          "right": 294,
+          "bottom": 659.390625,
+          "width": 268,
+          "height": 408.390625
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 26,
+            "right": 5166.390625,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1252.53125,
+            "right": 1488.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 266,
+          "clientWidth": 266,
+          "scrollWidth": 266,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 266,
+            "height": 358
+          },
+          "state": {
+            "stage": 18,
+            "stages": 19,
+            "memory": 4,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 4,
+            "changedPlaneCount": 8,
+            "shadowOffsetTotal": 1.24,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 76.65625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 76.671875,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 76.671875,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-320x568-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 3179,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 26,
+          "top": 251,
+          "right": 364,
+          "bottom": 725.796875,
+          "width": 338,
+          "height": 474.796875
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 26,
+            "right": 5166.390625,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1252.53125,
+            "right": 1488.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 336,
+          "clientWidth": 336,
+          "scrollWidth": 336,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 336,
+            "height": 437
+          },
+          "state": {
+            "stage": 0,
+            "stages": 19,
+            "memory": 0,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 0,
+            "changedPlaneCount": 0,
+            "shadowOffsetTotal": 0,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 100,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 100,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 100,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-390x844-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollHeight": 3179,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 26,
+          "top": 251,
+          "right": 364,
+          "bottom": 725.796875,
+          "width": 338,
+          "height": 474.796875
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 26,
+            "right": 5166.390625,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 272.734375,
+            "right": 512.46875,
+            "width": 239.734375,
+            "scrollWidth": 240,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 283.734375,
+            "right": 501.46875,
+            "width": 217.734375,
+            "scrollWidth": 218,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 519.46875,
+            "right": 747.109375,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 530.46875,
+            "right": 736.109375,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 754.109375,
+            "right": 981.75,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 765.109375,
+            "right": 970.75,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 988.75,
+            "right": 1234.53125,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 999.75,
+            "right": 1223.53125,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1241.53125,
+            "right": 1499.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1252.53125,
+            "right": 1488.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 336,
+          "clientWidth": 336,
+          "scrollWidth": 336,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 336,
+            "height": 437
+          },
+          "state": {
+            "stage": 18,
+            "stages": 19,
+            "memory": 4,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 4,
+            "changedPlaneCount": 8,
+            "shadowOffsetTotal": 1.24,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 100,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 100,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 100,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-390x844-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 2894,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 26,
+          "top": 251,
+          "right": 742,
+          "bottom": 918.75,
+          "width": 716,
+          "height": 667.75
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 188.71875,
+            "right": 5329.109375,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 682.1875,
+            "right": 909.828125,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 682.1875,
+            "right": 909.828125,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 693.1875,
+            "right": 898.828125,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 693.1875,
+            "right": 898.828125,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 916.828125,
+            "right": 1144.46875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 916.828125,
+            "right": 1144.46875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 927.828125,
+            "right": 1133.46875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 927.828125,
+            "right": 1133.46875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1151.46875,
+            "right": 1397.25,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1151.46875,
+            "right": 1397.25,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1162.46875,
+            "right": 1386.25,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1162.46875,
+            "right": 1386.25,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1404.25,
+            "right": 1662.125,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1404.25,
+            "right": 1662.125,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1415.25,
+            "right": 1651.125,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1415.25,
+            "right": 1651.125,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1669.125,
+            "right": 1872.5625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1669.125,
+            "right": 1872.5625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1680.125,
+            "right": 1861.5625,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 714,
+          "clientWidth": 714,
+          "scrollWidth": 714,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 714,
+            "height": 630
+          },
+          "state": {
+            "stage": 0,
+            "stages": 19,
+            "memory": 0,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 0,
+            "changedPlaneCount": 0,
+            "shadowOffsetTotal": 0,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 136.109375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 128.5,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-768x1024-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollHeight": 2894,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 26,
+          "top": 251,
+          "right": 742,
+          "bottom": 918.75,
+          "width": 716,
+          "height": 667.75
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 188.71875,
+            "right": 5329.109375,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 682.1875,
+            "right": 909.828125,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 682.1875,
+            "right": 909.828125,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 693.1875,
+            "right": 898.828125,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 693.1875,
+            "right": 898.828125,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 916.828125,
+            "right": 1144.46875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 916.828125,
+            "right": 1144.46875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 927.828125,
+            "right": 1133.46875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 927.828125,
+            "right": 1133.46875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1151.46875,
+            "right": 1397.25,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1151.46875,
+            "right": 1397.25,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1162.46875,
+            "right": 1386.25,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1162.46875,
+            "right": 1386.25,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1404.25,
+            "right": 1662.125,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1404.25,
+            "right": 1662.125,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1415.25,
+            "right": 1651.125,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1415.25,
+            "right": 1651.125,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1669.125,
+            "right": 1872.5625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1669.125,
+            "right": 1872.5625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1680.125,
+            "right": 1861.5625,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 714,
+          "clientWidth": 714,
+          "scrollWidth": 714,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 714,
+            "height": 630
+          },
+          "state": {
+            "stage": 18,
+            "stages": 19,
+            "memory": 4,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 4,
+            "changedPlaneCount": 8,
+            "shadowOffsetTotal": 1.24,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 136.109375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 128.5,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-768x1024-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 2050,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 64,
+          "top": 255,
+          "right": 789.75,
+          "bottom": 1013,
+          "width": 725.75,
+          "height": 758
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 319.984375,
+            "right": 5460.375,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1282.734375,
+            "right": 1528.515625,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1282.734375,
+            "right": 1528.515625,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1293.734375,
+            "right": 1517.515625,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1293.734375,
+            "right": 1517.515625,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1535.515625,
+            "right": 1793.390625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1535.515625,
+            "right": 1793.390625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1546.515625,
+            "right": 1782.390625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1546.515625,
+            "right": 1782.390625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1800.390625,
+            "right": 2003.828125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1800.390625,
+            "right": 2003.828125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1811.390625,
+            "right": 1992.828125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1811.390625,
+            "right": 1992.828125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2010.828125,
+            "right": 2214.265625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2010.828125,
+            "right": 2214.265625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2021.828125,
+            "right": 2203.265625,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2021.828125,
+            "right": 2203.265625,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2221.265625,
+            "right": 2448.90625,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2221.265625,
+            "right": 2448.90625,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2232.265625,
+            "right": 2437.90625,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 724,
+          "clientWidth": 724,
+          "scrollWidth": 724,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 724,
+            "height": 720
+          },
+          "state": {
+            "stage": 0,
+            "stages": 19,
+            "memory": 0,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 0,
+            "changedPlaneCount": 0,
+            "shadowOffsetTotal": 0,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 136.109375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 128.5,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-1280x800-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollHeight": 2050,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 64,
+          "top": 255,
+          "right": 789.75,
+          "bottom": 1013,
+          "width": 725.75,
+          "height": 758
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 319.984375,
+            "right": 5460.375,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1282.734375,
+            "right": 1528.515625,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1282.734375,
+            "right": 1528.515625,
+            "width": 245.78125,
+            "scrollWidth": 246,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1293.734375,
+            "right": 1517.515625,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1293.734375,
+            "right": 1517.515625,
+            "width": 223.78125,
+            "scrollWidth": 224,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1535.515625,
+            "right": 1793.390625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1535.515625,
+            "right": 1793.390625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1546.515625,
+            "right": 1782.390625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1546.515625,
+            "right": 1782.390625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1800.390625,
+            "right": 2003.828125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1800.390625,
+            "right": 2003.828125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1811.390625,
+            "right": 1992.828125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1811.390625,
+            "right": 1992.828125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2010.828125,
+            "right": 2214.265625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2010.828125,
+            "right": 2214.265625,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2021.828125,
+            "right": 2203.265625,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2021.828125,
+            "right": 2203.265625,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2221.265625,
+            "right": 2448.90625,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2221.265625,
+            "right": 2448.90625,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2232.265625,
+            "right": 2437.90625,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 724,
+          "clientWidth": 724,
+          "scrollWidth": 724,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 724,
+            "height": 720
+          },
+          "state": {
+            "stage": 18,
+            "stages": 19,
+            "memory": 4,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 4,
+            "changedPlaneCount": 8,
+            "shadowOffsetTotal": 1.24,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 136.109375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 128.5,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-1280x800-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": false,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 2089,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 376,
+          "top": 255,
+          "right": 1099.59375,
+          "bottom": 1013,
+          "width": 723.59375,
+          "height": 758
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 650,
+            "right": 5790.390625,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1865.53125,
+            "right": 2123.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1865.53125,
+            "right": 2123.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1876.53125,
+            "right": 2112.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1876.53125,
+            "right": 2112.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2130.40625,
+            "right": 2333.84375,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2130.40625,
+            "right": 2333.84375,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2141.40625,
+            "right": 2322.84375,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2141.40625,
+            "right": 2322.84375,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2340.84375,
+            "right": 2544.28125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2340.84375,
+            "right": 2544.28125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2351.84375,
+            "right": 2533.28125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2351.84375,
+            "right": 2533.28125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2551.28125,
+            "right": 2778.921875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2551.28125,
+            "right": 2778.921875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2562.28125,
+            "right": 2767.921875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2562.28125,
+            "right": 2767.921875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2785.921875,
+            "right": 3019.609375,
+            "width": 233.6875,
+            "scrollWidth": 234,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2785.921875,
+            "right": 3019.609375,
+            "width": 233.6875,
+            "scrollWidth": 234,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2796.921875,
+            "right": 3008.609375,
+            "width": 211.6875,
+            "scrollWidth": 212,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 722,
+          "clientWidth": 722,
+          "scrollWidth": 722,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 722,
+            "height": 720
+          },
+          "state": {
+            "stage": 0,
+            "stages": 19,
+            "memory": 0,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 0,
+            "changedPlaneCount": 0,
+            "shadowOffsetTotal": 0,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 136.109375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 128.5,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-1920x1080-normal.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    },
+    {
+      "label": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": true,
+      "route": "/works/naive-2026-10-04/",
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollHeight": 2089,
+        "field": null,
+        "intro": null,
+        "firstArtwork": {
+          "left": 376,
+          "top": 255,
+          "right": 1099.59375,
+          "bottom": 1013,
+          "width": 723.59375,
+          "height": 758
+        },
+        "controls": [],
+        "state": null,
+        "pageTitle": "MUTINE — Naive art — 2026-10-04",
+        "wideNodes": [
+          {
+            "selector": "ol.work-timeline",
+            "left": 650,
+            "right": 5790.390625,
+            "width": 5140.390625,
+            "scrollWidth": 5140,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 1865.53125,
+            "right": 2123.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 1865.53125,
+            "right": 2123.40625,
+            "width": 257.875,
+            "scrollWidth": 258,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 1876.53125,
+            "right": 2112.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 1876.53125,
+            "right": 2112.40625,
+            "width": 235.875,
+            "scrollWidth": 236,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2130.40625,
+            "right": 2333.84375,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2130.40625,
+            "right": 2333.84375,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2141.40625,
+            "right": 2322.84375,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2141.40625,
+            "right": 2322.84375,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2340.84375,
+            "right": 2544.28125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2340.84375,
+            "right": 2544.28125,
+            "width": 203.4375,
+            "scrollWidth": 203,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2351.84375,
+            "right": 2533.28125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2351.84375,
+            "right": 2533.28125,
+            "width": 181.4375,
+            "scrollWidth": 181,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2551.28125,
+            "right": 2778.921875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2551.28125,
+            "right": 2778.921875,
+            "width": 227.640625,
+            "scrollWidth": 228,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2562.28125,
+            "right": 2767.921875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "strong",
+            "left": 2562.28125,
+            "right": 2767.921875,
+            "width": 205.640625,
+            "scrollWidth": 206,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "li.work-timeline__item",
+            "left": 2785.921875,
+            "right": 3019.609375,
+            "width": 233.6875,
+            "scrollWidth": 234,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "a",
+            "left": 2785.921875,
+            "right": 3019.609375,
+            "width": 233.6875,
+            "scrollWidth": 234,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          },
+          {
+            "selector": "time",
+            "left": 2796.921875,
+            "right": 3008.609375,
+            "width": 211.6875,
+            "scrollWidth": 212,
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "transform": "none"
+          }
+        ],
+        "embedded": {
+          "innerWidth": 722,
+          "clientWidth": 722,
+          "scrollWidth": 722,
+          "fieldVisible": true,
+          "fieldRect": {
+            "left": 0,
+            "top": 0,
+            "width": 722,
+            "height": 720
+          },
+          "state": {
+            "stage": 18,
+            "stages": 19,
+            "memory": 4,
+            "memoryWindow": 4,
+            "shadowMisreadCount": 4,
+            "changedPlaneCount": 8,
+            "shadowOffsetTotal": 1.24,
+            "armedPlane": null,
+            "interaction": "sequence",
+            "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+            "p5WebGL": true
+          },
+          "controls": [
+            {
+              "width": 136.109375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 92.4375,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "width": 128.5,
+              "height": 44,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-art-v024-2026-10-04/canonical-1920x1080-reduced.png",
+      "httpStatus": 200,
+      "pageErrors": [],
+      "failedRequests": [],
+      "consoleMessages": []
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "stages": 19,
+      "memory": 0,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 0,
+      "changedPlaneCount": 0,
+      "shadowOffsetTotal": 0,
+      "armedPlane": null,
+      "interaction": "sequence",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+      "p5WebGL": true
+    },
+    "afterTap": {
+      "stage": 0,
+      "stages": 19,
+      "memory": 0,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 0,
+      "changedPlaneCount": 0,
+      "shadowOffsetTotal": 0,
+      "armedPlane": 8,
+      "interaction": "pointer-tap-refused",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+      "p5WebGL": true
+    },
+    "afterApproach": {
+      "stage": 0,
+      "stages": 19,
+      "memory": 0,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 0,
+      "changedPlaneCount": 0,
+      "shadowOffsetTotal": 0,
+      "armedPlane": 2,
+      "interaction": "armed",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+      "p5WebGL": true
+    },
+    "afterDeparture": {
+      "stage": 1,
+      "stages": 19,
+      "memory": 1,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 1,
+      "changedPlaneCount": 2,
+      "shadowOffsetTotal": 0.17,
+      "armedPlane": null,
+      "interaction": "misread-committed",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.11,\"hinge\":-0.05,\"shadowOffset\":0.1054,\"shadowAngle\":-0.035},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.1094,\"hinge\":0.356,\"shadowOffset\":0.17,\"shadowAngle\":-0.0225},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":1,\"changedPlaneCount\":2,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0.17,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+      "p5WebGL": true
+    },
+    "afterEnter": {
+      "stage": 2,
+      "stages": 19,
+      "memory": 2,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 2,
+      "changedPlaneCount": 4,
+      "shadowOffsetTotal": 0.375,
+      "armedPlane": null,
+      "interaction": "misread-committed",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.0719,\"hinge\":-0.1772,\"shadowOffset\":0.3104,\"shadowAngle\":-0.22175},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.1094,\"hinge\":0.356,\"shadowOffset\":0.17,\"shadowAngle\":-0.0225},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.265,\"hinge\":-0.415,\"shadowOffset\":0.1271,\"shadowAngle\":-0.2905},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":2,\"changedPlaneCount\":4,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0.375,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+      "p5WebGL": true
+    },
+    "afterDelete": {
+      "stage": 1,
+      "stages": 19,
+      "memory": 1,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 1,
+      "changedPlaneCount": 2,
+      "shadowOffsetTotal": 0.17,
+      "armedPlane": null,
+      "interaction": "misread-lifted",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.11,\"hinge\":-0.05,\"shadowOffset\":0.1054,\"shadowAngle\":-0.035},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.1094,\"hinge\":0.356,\"shadowOffset\":0.17,\"shadowAngle\":-0.0225},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":1,\"changedPlaneCount\":2,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0.17,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+      "p5WebGL": true
+    },
+    "afterRelease": {
+      "stage": 0,
+      "stages": 19,
+      "memory": 0,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 0,
+      "changedPlaneCount": 0,
+      "shadowOffsetTotal": 0,
+      "armedPlane": null,
+      "interaction": "released",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":-0.08,\"hinge\":-0.31,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":0,\"changedPlaneCount\":0,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0,\"nextRule\":\"situated-approach\"}}",
+      "p5WebGL": true
+    },
+    "afterButton": {
+      "stage": 1,
+      "stages": 19,
+      "memory": 1,
+      "memoryWindow": 4,
+      "shadowMisreadCount": 1,
+      "changedPlaneCount": 2,
+      "shadowOffsetTotal": 0.17,
+      "armedPlane": null,
+      "interaction": "misread-committed",
+      "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.22,\"hinge\":-0.18,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.11,\"hinge\":-0.05,\"shadowOffset\":0.1054,\"shadowAngle\":-0.035},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.16,\"hinge\":-0.22,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.1094,\"hinge\":0.356,\"shadowOffset\":0.17,\"shadowAngle\":-0.0225},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":-0.05,\"hinge\":-0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.24,\"hinge\":0.21,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.3,\"hinge\":-0.08,\"shadowOffset\":0,\"shadowAngle\":0}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":1,\"changedPlaneCount\":2,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":0.17,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+      "p5WebGL": true
+    },
+    "pageErrors": [],
+    "failedRequests": [],
+    "consoleMessages": []
+  },
+  "blind": {
+    "httpStatus": 200,
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "fieldVisible": true,
+      "readoutVisible": false,
+      "controlsVisible": false,
+      "canvasVisible": true,
+      "state": {
+        "stage": 18,
+        "stages": 19,
+        "memory": 4,
+        "memoryWindow": 4,
+        "shadowMisreadCount": 4,
+        "changedPlaneCount": 8,
+        "shadowOffsetTotal": 1.24,
+        "armedPlane": null,
+        "interaction": "sequence",
+        "geometrySignature": "{\"planes\":[{\"id\":\"plane-00\",\"x\":-0.62,\"y\":-0.38,\"depth\":-0.0958,\"hinge\":-0.3752,\"shadowOffset\":0.5022,\"shadowAngle\":0.4285},{\"id\":\"plane-01\",\"x\":-0.2,\"y\":-0.53,\"depth\":0.08,\"hinge\":0.26,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-02\",\"x\":0.29,\"y\":-0.43,\"depth\":0.0442,\"hinge\":-0.3804,\"shadowOffset\":0.5022,\"shadowAngle\":0.162},{\"id\":\"plane-03\",\"x\":0.62,\"y\":-0.12,\"depth\":0.18,\"hinge\":0.12,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-04\",\"x\":0.3,\"y\":0.32,\"depth\":-0.0358,\"hinge\":-0.2488,\"shadowOffset\":0.31,\"shadowAngle\":0.0405},{\"id\":\"plane-05\",\"x\":-0.13,\"y\":0.48,\"depth\":0.14,\"hinge\":0.34,\"shadowOffset\":0,\"shadowAngle\":0},{\"id\":\"plane-06\",\"x\":-0.58,\"y\":0.3,\"depth\":0.24,\"hinge\":0.28,\"shadowOffset\":0.1922,\"shadowAngle\":0.196},{\"id\":\"plane-07\",\"x\":-0.38,\"y\":-0.02,\"depth\":0.53,\"hinge\":0.61,\"shadowOffset\":0.1922,\"shadowAngle\":0.427},{\"id\":\"plane-08\",\"x\":0.02,\"y\":-0.02,\"depth\":-0.1758,\"hinge\":-0.1696,\"shadowOffset\":0.31,\"shadowAngle\":0.126}],\"trace\":{\"grammar\":\"approach → departure → shadow misread → reconstruction\",\"shadowMisreadCount\":4,\"changedPlaneCount\":8,\"pointerOnlyChanges\":0,\"shadowOffsetTotal\":1.24,\"nextRule\":\"reconstruct-from-wrong-shadow\"}}",
+        "p5WebGL": true
+      }
+    },
+    "pageErrors": [],
+    "failedRequests": [],
+    "consoleMessages": []
+  },
+  "counts": {
+    "viewportRuns": 20,
+    "httpFailures": 0,
+    "overflowFailures": 0,
+    "diagnosticRuns": 0
+  }
+}

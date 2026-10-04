@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111522">
+  <title>MUTINE — the paint turns from the witness</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=023">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-03"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="witness-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v023 / RECIPROCAL WITNESS</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="witness-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v023</span></nav>
+
+      <figure class="witness-work artwork-frame" aria-labelledby="work-title">
+        <div id="witness-field" class="witness-wrap" tabindex="0" role="application" aria-label="A connected SVG paint body made from seven turning stations. Move near a station, then leave the field: the paint turns away from the witness and changes its later geometry. A tap is refused." aria-keyshortcuts="Enter Space Delete R">
+          <svg id="paint-svg" viewBox="0 0 1000 650" preserveAspectRatio="none" role="img" aria-label="Seven folded pigment stations joined by wet seams">
+            <title>Seven folded pigment stations joined by wet seams</title>
+            <g id="wash-layer"></g>
+            <g id="seam-layer"></g>
+            <g id="station-marks"></g>
+            <g id="station-labels"></g>
+          </svg>
+          <div class="witness-readout" aria-live="polite"><span data-stage>stage 15 / 15</span><span data-memory>4 departures held</span></div>
+          <div class="witness-controls" aria-label="Brush actions">
+            <button id="watch-control" data-gesture="watch" type="button">watch the next seam</button>
+            <button id="lift-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release field</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v023-reciprocal-witness</span><span>approach &gt; leave &gt; turn</span></figcaption>
+      </figure>
+
+      <section class="witness-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / ENCOUNTER SWITCH / v023</p>
+        <h1 id="work-title">The paint turns<br><i>from the witness.</i></h1>
+        <p class="witness-lede">The visitor does not paint. Nearness arms one wet station; leaving makes it avert its face and bends the later body around that refusal.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A DEPARTURE, NOT A STROKE</p>
+          <p class="interaction-copy">Move near a station, then leave the field. Proximity only arms; departure commits the change. The addressed station opens a real notch and the later seams inherit its turn. Delete or “lift latest” restores the exact preceding body.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The paint has not been witnessed.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v023</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v022’s pressure coagulation with a connected SVG paint body. A witnessed station turns away on departure, opening a real notch; later stations bend around the altered seam rather than receiving a separate answer.</dd></div>
+          <div><dt>visitor action</dt><dd>Move near a station, then leave the field to commit one bounded witness departure. Enter, Space, or the control uses the seeded next station; Delete lifts the latest event; R releases memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If proximity writes history, if departure changes only colour or a marker, if the notch is not in the SVG path, or if the later body does not turn, the reciprocal material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v023 if labels-off, controls-off viewing reads as seven decorative blobs, if the witness task is indistinguishable from a drag or hold, or if the changed seam requires the caption to exist.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-02/">previous daily work</a><a href="/journal/#journal-brush-2026-10-03">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=023"></script>
+</body>
+</html>

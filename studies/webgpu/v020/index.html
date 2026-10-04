@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100f">
+  <meta name="description" content="A GPU-ready oblique material sheet where pressure opens a crease and seals a distant layer.">
+  <title>MUTINE — The mass stores a crease.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=020">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-02"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="crease-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v020 / crease sheet</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="crease-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v020</span></nav>
+      <section class="crease-work" aria-label="WebGPU daily work">
+        <figure class="crease-frame artwork-frame">
+          <canvas id="gpu-field" aria-hidden="true"></canvas>
+          <canvas id="field" role="img" aria-label="An oblique material sheet where a selected pressure pulse opens a crease and seals a distant slice" tabindex="0" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Backspace Escape"></canvas>
+          <div class="crease-readout" role="status" aria-live="polite"><span data-stage>sheet 01 / 17</span><span data-memory>0 pulses</span><span data-renderer>WEBGPU / INITIALISING</span></div>
+          <div class="crease-status" data-status>wheel to choose a slice</div>
+          <div class="crease-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="pulse">pulse the sheet</button>
+            <button type="button" data-gesture="lift">lift latest pulse</button>
+            <button type="button" data-gesture="release">release the sheet</button>
+          </div>
+          <figcaption><span>WEBGPU / V020 / DAILY WORK</span><span>choose → pulse → fold</span></figcaption>
+        </figure>
+        <aside class="crease-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd has left. One oblique sheet carries depth as a stack of continuous slices, with a GPU field breathing beneath its geometry.</p></div>
+          <div><span>changed rule</span><p>Wheel chooses a depth slice without writing history. A pulse splits that slice into an actual gap and transfers sealing load to a distant slice; binder resistance changes the next fold.</p></div>
+          <div><span>progression</span><p>Pointer taps are refused. Wheel plus Enter, Space, and the pulse control commit the same bounded event; Delete lifts only the latest.</p></div>
+        </aside>
+      </section>
+      <section class="crease-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V020 / DAILY WORK</p><h1 id="work-title">The mass stores<br><i>a crease.</i></h1></div>
+        <p class="crease-premise">The archive is not another witness or delayed cohort. It is pressure carried by one sheet: a local split, a distant seal, and a later fold that meets the binder already inside the material.</p>
+      </section>
+      <section class="crease-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a selected pulse changes real sheet geometry in two non-adjacent slices, accumulates binder resistance, and reverses exactly. Promotion depends on whether the blind sheet reads as material computation rather than a decorated stack.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>choose → pressure → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=020a"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "memory": 0,
+      "creases": 0,
+      "signature": "0:0.1085,0.6658:0.0670:quiet|1:0.2330,0.3911:0.0850:quiet|2:0.3724,0.5197:0.0980:quiet|3:0.5033,0.2773:0.0730:quiet|4:0.6381,0.4496:0.0920:quiet|5:0.7794,0.3437:0.0690:quiet|6:0.8968,0.6402:0.0810:quiet::0.1695,0.6934|0.2741,0.4655|0.4105,0.6100|0.5219,0.3478|0.6165,0.5390|0.7385,0.3993|0.8215,0.6701|0.9721,0.6104|0.8203,0.2882|0.6596,0.3601|0.4847,0.2067|0.3344,0.4294|0.1918,0.3168|0.0474,0.6381::",
+      "interaction": "sequence",
+      "notice": ""
+    },
+    "pointerTap": {
+      "memory": 0,
+      "creases": 0,
+      "signature": "0:0.1085,0.6658:0.0670:quiet|1:0.2330,0.3911:0.0850:quiet|2:0.3724,0.5197:0.0980:quiet|3:0.5033,0.2773:0.0730:quiet|4:0.6381,0.4496:0.0920:quiet|5:0.7794,0.3437:0.0690:quiet|6:0.8968,0.6402:0.0810:quiet::0.1695,0.6934|0.2741,0.4655|0.4105,0.6100|0.5219,0.3478|0.6165,0.5390|0.7385,0.3993|0.8215,0.6701|0.9721,0.6104|0.8203,0.2882|0.6596,0.3601|0.4847,0.2067|0.3344,0.4294|0.1918,0.3168|0.0474,0.6381::",
+      "interaction": "sequence",
+      "notice": "short-touch-refused"
+    },
+    "keyboard": {
+      "memory": 1,
+      "creases": 1,
+      "signature": "0:0.1085,0.6658:0.0670:quiet|1:0.2330,0.3911:0.0850:quiet|2:0.3724,0.5197:0.0980:quiet|3:0.5031,0.3528:0.0409:crease|4:0.6381,0.4702:0.0920:drawn|5:0.7794,0.3437:0.0690:quiet|6:0.9055,0.5915:0.1117:binder::0.1695,0.6934|0.2741,0.4655|0.3862,0.6167|0.5105,0.3929|0.6411,0.5621|0.7509,0.4065|0.8060,0.6421|1.0000,0.5408|0.8079,0.2809|0.6351,0.3782|0.4956,0.3126|0.3586,0.4227|0.1918,0.3168|0.0474,0.6381::3:6:0.82:1",
+      "interaction": "material-crease",
+      "notice": "traveled-pressure-committed"
+    },
+    "lifted": {
+      "memory": 0,
+      "creases": 0,
+      "signature": "0:0.1085,0.6658:0.0670:quiet|1:0.2330,0.3911:0.0850:quiet|2:0.3724,0.5197:0.0980:quiet|3:0.5033,0.2773:0.0730:quiet|4:0.6381,0.4496:0.0920:quiet|5:0.7794,0.3437:0.0690:quiet|6:0.8968,0.6402:0.0810:quiet::0.1695,0.6934|0.2741,0.4655|0.4105,0.6100|0.5219,0.3478|0.6165,0.5390|0.7385,0.3993|0.8215,0.6701|0.9721,0.6104|0.8203,0.2882|0.6596,0.3601|0.4847,0.2067|0.3344,0.4294|0.1918,0.3168|0.0474,0.6381::",
+      "interaction": "lifted",
+      "notice": "latest-pressure-lifted"
+    },
+    "released": {
+      "memory": 0,
+      "creases": 0,
+      "signature": "0:0.1085,0.6658:0.0670:quiet|1:0.2330,0.3911:0.0850:quiet|2:0.3724,0.5197:0.0980:quiet|3:0.5033,0.2773:0.0730:quiet|4:0.6381,0.4496:0.0920:quiet|5:0.7794,0.3437:0.0690:quiet|6:0.8968,0.6402:0.0810:quiet::0.1695,0.6934|0.2741,0.4655|0.4105,0.6100|0.5219,0.3478|0.6165,0.5390|0.7385,0.3993|0.8215,0.6701|0.9721,0.6104|0.8203,0.2882|0.6596,0.3601|0.4847,0.2067|0.3344,0.4294|0.1918,0.3168|0.0474,0.6381::",
+      "interaction": "sequence",
+      "notice": "ribbon-released"
+    },
+    "drag": {
+      "memory": 1,
+      "creases": 1,
+      "signature": "0:0.1085,0.6658:0.0670:quiet|1:0.2271,0.3391:0.1190:binder|2:0.3724,0.5197:0.0980:quiet|3:0.5033,0.2773:0.0730:quiet|4:0.6381,0.4496:0.0920:quiet|5:0.7571,0.4237:0.0386:crease|6:0.8968,0.6622:0.0810:drawn::0.1714,0.6886|0.2847,0.4433|0.3938,0.6153|0.5219,0.3478|0.5921,0.5293|0.7325,0.4536|0.8269,0.7032|0.9667,0.6213|0.7816,0.3939|0.6841,0.3699|0.4847,0.2067|0.3510,0.4241|0.1695,0.2350|0.0455,0.6429::5:1:1:1",
+      "interaction": "material-crease",
+      "notice": "traveled-pressure-committed"
+    },
+    "buttons": [
+      {
+        "text": "press once",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "ribbonVisible": true,
+      "creaseCount": 3,
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "labelsDisplay": "none",
+      "stationDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "recordAnchor": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "Pure SVG",
+      "recordAnchor": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-v021-2026-10-03",
+  "scratchDir": "C:\\Users\\ASUS\\AppData\\Local\\hermes\\profiles\\autopoiesis\\cache\\scratch"
+}

@@ -1,0 +1,46 @@
+{
+  "target": "webgpu-v020",
+  "viewportRuns": "20/20",
+  "requiredViewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "normalAndReducedMotion": true,
+  "diagnosticsCount": 0,
+  "overflowCount": 0,
+  "interaction": "wheel selection remained memory-neutral; pointer tap remained memory-neutral; pulse 0→1; Enter 1→2; Delete 2→1 exact restoration; Escape →0",
+  "blindPreview": {
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "canvasVisible": true,
+    "furnitureHidden": true,
+    "memory": 4
+  },
+  "touchTargets": [
+    {
+      "label": "pulse the sheet",
+      "width": 115.328125,
+      "height": 44
+    },
+    {
+      "label": "lift latest pulse",
+      "width": 115.34375,
+      "height": 44
+    },
+    {
+      "label": "release the sheet",
+      "width": 115.328125,
+      "height": 44
+    }
+  ],
+  "screenshots": 24,
+  "unresolved": [
+    "independent caption-free perceptual comparison",
+    "production readback",
+    "provider revision linkage"
+  ]
+}

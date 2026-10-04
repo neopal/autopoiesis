@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e8dbc1">
+  <title>MUTINE — The line forgets where it was going</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=023">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-03"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="slip-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v023 / WRONG LANDING</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="slip-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v023</span></nav>
+
+      <section class="work-surface" aria-label="Naive wrong-landing tableau">
+        <div class="field-column">
+          <figure class="slip-work artwork-frame">
+            <div class="slip-field" id="slip-field" tabindex="0" role="application" aria-label="A continuous painted route that remembers a timed double tap as a wrong landing" aria-keyshortcuts="Enter Space Delete R S">
+              <div class="slip-readout" aria-live="polite"><span data-stage>stage 00 / 20</span><span data-memory>0 slips</span></div>
+              <canvas id="naive-field" width="1200" height="820" role="img" aria-label="A sweeping chain of broad painted bands, with later bands inheriting earlier landings"></canvas>
+              <div class="slip-controls" aria-label="Route actions">
+                <button id="slip-control" data-gesture="slip" type="button">make a slip</button>
+                <button id="undo-control" data-gesture="undo" type="button">lift latest</button>
+                <button id="release-control" data-gesture="release" type="button">release picture</button>
+              </div>
+            </div>
+            <figcaption><span>seed | mutine-naive-v023-wrong-landing</span><span>double tap &gt; wrong landing &gt; reuse</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single painted route makes a promise about where its next band will land. A timed double tap makes that promise incorrectly, and the next bands inherit the mistake.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if the wrong landing changes the route itself: a missing intended arrival and a visible knot elsewhere, not a badge added after the fact.</p></div>
+          <div><span>progression</span><p>Tap once to wait. Tap again before the picture forgets. Lift only the newest slip, then release the whole route back to its first instruction.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V023 / DAILY WORK</p><h1 id="work-title">The line forgets <br><i>where it was going.</i></h1></div>
+        <p class="work-premise">A timed double tap changes the rule of the next painted band. The route keeps the wrong arrival and carries it forward.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v023 abandons v020's pressure sheet, v021's wrong-room map, and v022's cut-out register. The medium becomes a continuous Canvas route with no slots or rooms: material memory lives in a changed landing, and later geometry is rebuilt from that wrong point. The event is temporal rather than positional: one tap only waits, two taps in time commit.</p></section>
+      <p class="work-loop">wait → slip → wrong landing → reuse</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-01/">previous daily work</a><a href="/journal/#journal-naive-2026-10-03">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=023"></script>
+</body>
+</html>

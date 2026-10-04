@@ -9,7 +9,48 @@
 - Raw tableau: `/studies/p5-brush/v015/`
 - Canonical page: `/works/brush-2026-09-21/`
 
-This slot was absent before the run. One record was created; no current/date duplicate was present.
+The current catalogue contains one `2026-09-21` record for this slot; this unattended archive audit did not create or mutate any catalogue, artwork, or source record. No current/date duplicate was present.
+
+## Unattended archive audit — 2026-09-21
+
+The audit ran from `C:/Users/ASUS/autopoiesis` at `2026-09-21 12:55:48 +0200`. It used only `studio/data/studio.json` (`mutine-studio/v2`) and `studio/data/works.json` (`mutine-works/v1`) as active catalogue sources. Field tests remained separate from daily works.
+
+### Today's coverage
+
+| Current | Register state | 2026-09-21 slot | Record |
+|---|---|---|---|
+| Handwriting (`typography`) | active | held / no record | — |
+| Self portrait (`portrait`) | active | held / no record | — |
+| Pure SVG (`svg`) | active | held / no record | — |
+| Brush (`brush`) | active | recorded / candidate-held | `brush-2026-09-21` |
+| Naive art (`naive`) | active | held / no record | — |
+| WebGPU (`webgpu`) | dormant | held / no record | — |
+
+The register contains 79 work records: Handwriting 14, Self portrait 13, Pure SVG 12, Brush 15, Naive art 13, and WebGPU 12. There are no duplicate current/date slots and no unknown current IDs.
+
+### Register and filesystem integrity
+
+- Canonical pages: **79/79 present** at `works/<workId>/index.html`.
+- Raw tableau indexes: **79/79 present** under each registered `/studies/.../` path.
+- Journal anchor shape: **79/79 use `journal-<workId>`**.
+- Canonical Journal links: **79/79 contain `/journal/#journal-<workId>`**.
+- Critique gate: **79/79 have at least one critique**; no no-critique fallback was needed.
+- Field-test IDs (`disobedient-writing`, `subtractive-ecology`) were not treated as daily work records.
+
+### Schema anomaly and lifecycle gate
+
+The lifecycle gate is held globally because seven legacy records have no `lifecycle` field: `typography-2026-08-28`, `brush-2026-08-28`, `typography-2026-08-31`, `svg-2026-08-31`, `portrait-2026-08-31`, `naive-2026-08-31`, and `brush-2026-08-31`. The register has 72 `active`, 0 `complete`, and 7 missing/other lifecycle values. The audit did not infer a lifecycle for the affected records.
+
+No records are marked `complete` in either the working register or `HEAD`, so the complete-work immutability check is vacuous. The initial working tree had only the pre-existing untracked `research/qa/2026-09-18-daily-studio-record.md`; no tracked catalogue, artwork, or JavaScript files were changed by this audit.
+
+### Automated checks and visual boundary
+
+- `npm run test`: **411 passed, 0 failed, 0 skipped, 0 todo**.
+- Changed JavaScript syntax: **not applicable**; there were no changed `.js`, `.mjs`, or `.cjs` files.
+- `git diff --check`: **PASS**.
+- No browser automation, GUI/CUA, Chrome, DevTools, CDP, remote debugging, or window launch was performed.
+
+The `brush-2026-09-21` record remains **candidate / held**. Its stored browser-evidence fields report local/production checks, but the record still lists independent caption-free perceptual review and provider-revision verification as unresolved. Those visual and deployment gates were not independently re-run by this unattended audit.
 
 ## Concept and structural delta
 

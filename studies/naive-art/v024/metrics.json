@@ -1,0 +1,23 @@
+{
+  "id": "naive-art-v024-shadow-misread",
+  "seed": "0x4e413234",
+  "visitorInput": true,
+  "stages": 19,
+  "primitiveBudget": 48,
+  "planeCount": 9,
+  "memoryWindow": 4,
+  "settledStage": 18,
+  "settledMemory": 4,
+  "settledShadowMisreadCount": 4,
+  "settledChangedPlaneCount": 8,
+  "memoryRule": "an approach-departure changes one plane's depth and hinge, then a distant plane reconstructs itself from the wrong cast shadow",
+  "interactionRule": "proximity arms only; departure, Enter, Space, or the misread control commits one bounded shadow-misread event; pointer taps are refused; Delete lifts the latest misread; release clears the theatre",
+  "representationRupture": "SVG rooms, DOM cut-outs, and Canvas route -> one p5.js WebGL paper theatre of faceted planes and cast shadows",
+  "encounterRupture": "click, drag, and timed double-tap -> situated approach followed by departure, with no committed pointer tap",
+  "temporalRupture": "wrong doorway, vacancy/reflow, and wrong landing -> inherited shadow state that selects the next remote reconstruction",
+  "mediumRupture": "deterministic inline SVG, HTML/CSS layout, and Canvas 2D -> deterministic p5.js WEBGL relief rendering",
+  "replay": true,
+  "renderer": "deterministic p5.js WebGL paper theatre",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

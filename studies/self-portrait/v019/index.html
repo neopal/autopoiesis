@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#13110f">
+  <title>MUTINE — The portrait borrows a witness.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-03"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v019-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v019</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v019-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v019</span></nav>
+      <section class="v019-surface artwork-frame" aria-label="Self portrait syntax seal">
+        <div class="v019-field-wrap">
+          <svg id="syntax-seal" viewBox="0 0 1000 760" role="img" aria-label="A single syntax seal of nine clauses. Keyboard attention splits one clause and makes a distant clause reply." tabindex="0" aria-keyshortcuts="Tab ArrowRight ArrowLeft Enter Space Delete R">
+            <defs>
+              <linearGradient id="seal-ground" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#2c2420"/><stop offset="0.52" stop-color="#161513"/><stop offset="1" stop-color="#090a0a"/></linearGradient>
+              <linearGradient id="clause-quiet" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#e1c7a8"/><stop offset="0.48" stop-color="#aa735c"/><stop offset="1" stop-color="#382620"/></linearGradient>
+              <linearGradient id="clause-split" x1="0" x2="1"><stop offset="0" stop-color="#f19b72"/><stop offset="0.5" stop-color="#a85143"/><stop offset="1" stop-color="#3a1719"/></linearGradient>
+              <linearGradient id="clause-reply" x1="0" x2="1"><stop offset="0" stop-color="#c3e0a0"/><stop offset="0.52" stop-color="#6ea49a"/><stop offset="1" stop-color="#1d3537"/></linearGradient>
+              <filter id="seal-shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+              <filter id="clause-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5"/></filter>
+            </defs>
+            <rect class="seal-ground" x="0" y="0" width="1000" height="760" rx="4"/>
+            <path class="seal-shadow" d="M185 382 C220 170 395 82 605 128 C822 175 873 366 769 560 C648 705 344 704 205 548 Z" filter="url(#seal-shadow)"/>
+            <path class="seal-ghost" d="M185 382 C220 170 395 82 605 128 C822 175 873 366 769 560 C648 705 344 704 205 548 Z"/>
+            <path class="syntax-thread" d="M183 504 C310 416 315 302 433 268 C522 242 587 326 686 271 C731 246 769 228 824 253"/>
+            <g id="clauses" aria-hidden="true"></g>
+            <g id="armed-mark" aria-hidden="true"><path d="M0 -98 L18 -80 M0 -98 L-18 -80"/></g>
+            <text class="seal-word seal-word--top" x="52" y="70">SELF / SYNTAX</text>
+            <text class="seal-word seal-word--bottom" x="948" y="704" text-anchor="end">ATTENTION LEAVES A FORM</text>
+          </svg>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 14</span><span data-memory>0 replies held</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="attend-control" data-gesture="attend">attend the armed clause</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest reply</button>
+            <button type="button" id="release-control" data-gesture="release">release the syntax</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A self-image becomes one syntax seal: nine clauses share a form, but none is allowed to remain only itself.</p></div>
+          <div><span>changed rule</span><p>Keyboard attention splits the addressed clause into a real notch. A distant clause welds the reply into its own geometry and changes the next choice.</p></div>
+          <div><span>progression</span><p>Tab or the arrow keys move attention; Enter or Space commits. Pointer clicks are refused. Delete lifts only the latest reply.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V019 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>borrows a witness.</i></h1></div>
+        <p class="work-premise">A self-image as a syntax seal: attention does not decorate one clause; it makes another clause answer and changes the grammar of the next look.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural rule is embodied in actual SVG path changes, a local split, a non-adjacent weld, bounded attention memory, and exact replay. Promotion still depends on whether the blind seal reads as a self carrying reciprocal syntax rather than an ornamental emblem.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>answer itself?</i></h2>
+        <div class="note-copy"><p>The work abandons the aperture, raster, pressure membrane, and serial register grammars of the previous portrait trials. It uses one SVG syntax seal: an addressed clause splits, a distant clause welds the reply, and the seal remembers the debt in its next keyboard choice.</p><dl><div><dt>seed</dt><dd>0x53504639 / replayable</dd></div><div><dt>input</dt><dd>Tab or arrows, Enter or Space / pointer clicks refused</dd></div><div><dt>falsifier</dt><dd>the split is an overlay, the remote reply is only a tint, or repeated attention ignores clause debt</dd></div><div><dt>deletion</dt><dd>delete v019 if the blind seal reads as a generic emblem rather than a self-carrying syntax</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1020">
+  <meta name="description" content="A GPU-ready chorus lattice where local calls create reciprocal replies and remembered vacancies.">
+  <title>MUTINE — The field learns to answer.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=021">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-03"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="chorus-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v021 / chorus lattice</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="chorus-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v021</span></nav>
+      <section class="chorus-work" aria-label="WebGPU daily work">
+        <figure class="chorus-frame artwork-frame">
+          <canvas id="gpu-field" aria-hidden="true"></canvas>
+          <canvas id="field" role="img" aria-label="A three-layer chorus lattice where a tuned call produces reciprocal replies and real withheld vacancies" tabindex="0" aria-keyshortcuts="ArrowLeft ArrowRight 1 2 3 4 Enter Space Delete Backspace Escape R"></canvas>
+          <div class="chorus-readout" role="status" aria-live="polite"><span data-stage>lattice 01 / 17</span><span data-memory>0 calls</span><span data-carrier>carrier 01</span><span data-renderer>WEBGPU / INITIALISING</span></div>
+          <div class="chorus-status" data-status>move to choose a node · 1–4 tune the call</div>
+          <div class="chorus-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="call">send the call</button>
+            <button type="button" data-gesture="lift">lift latest call</button>
+            <button type="button" data-gesture="release">release the lattice</button>
+          </div>
+          <figcaption><span>WEBGPU / V021 / DAILY WORK</span><span>tune → call → answer</span></figcaption>
+        </figure>
+        <aside class="chorus-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a scene of bodies. It is a three-layer lattice of listening places, with carrier phase embedded in the geometry.</p></div>
+          <div><span>changed rule</span><p>Pointer motion only arms a node. A tuned call makes local nodes answer, mismatched neighbours withhold themselves, and a distant layer return the signal.</p></div>
+          <div><span>progression</span><p>Taps are refused. Keys 1–4 choose a carrier; Enter, Space, and the call control commit the same bounded event. Delete lifts only the latest.</p></div>
+        </aside>
+      </section>
+      <section class="chorus-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V021 / DAILY WORK</p><h1 id="work-title">The field learns<br><i>to answer.</i></h1></div>
+        <p class="chorus-premise">A local call is not a command sent to a crowd. It is a frequency that some places recognize, some places refuse, and another layer returns as a changed spatial relation.</p>
+      </section>
+      <section class="chorus-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a tuned call changes real node lift, tilt, twist, activity, and vacancy geometry across layers, accumulates carrier resistance, and reverses exactly. Promotion depends on whether the blind lattice reads as reciprocal computation rather than a decorative voxel wall.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>tune → answer → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=021a"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.
+    at eval (eval at evaluate (:311:30), <anonymous>:7:20)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at runBlind (C:\Users\ASUS\autopoiesis\scripts\pure-svg-v022-probe.mjs:152:31)
+    at async main (C:\Users\ASUS\autopoiesis\scripts\pure-svg-v022-probe.mjs:196:17)

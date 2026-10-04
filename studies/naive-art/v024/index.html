@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#222938">
+  <title>MUTINE — The picture misreads its own shadow</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=024">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-04"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="theatre-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v024 / SHADOW MISREAD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="theatre-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v024</span></nav>
+
+      <section class="work-surface" aria-label="Naive shadow-misread tableau">
+        <div class="field-column">
+          <figure class="theatre-work artwork-frame">
+            <div class="theatre-field" id="naive-theatre" tabindex="0" role="application" aria-label="A paper theatre whose planes remember a visitor's departure as a wrong shadow" aria-keyshortcuts="Enter Space Delete R S">
+              <div class="theatre-readout" aria-live="polite"><span data-stage>stage 00 / 19</span><span data-memory>0 misreads</span></div>
+              <div id="theatre-canvas" aria-label="A faceted paper theatre with cast shadows"></div>
+              <div class="theatre-controls" aria-label="Theatre actions">
+                <button id="misread-control" data-gesture="misread" type="button">misread a shadow</button>
+                <button id="undo-control" data-gesture="undo" type="button">lift latest</button>
+                <button id="release-control" data-gesture="release" type="button">release theatre</button>
+              </div>
+            </div>
+            <figcaption><span>seed | mutine-naive-v024-shadow-misread</span><span>approach &gt; depart &gt; wrong shadow</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Nine childlike planes float in one paper theatre. Come close to one and leave: its hinge changes, and a far plane reconstructs itself from the shadow it misunderstood.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if the error is spatial: depth, hinge, and cast shadow must change in the planes, not in a counter or a decorative cursor.</p></div>
+          <div><span>progression</span><p>Approach to arm. Depart to commit. Lift one misread, then release the theatre and watch the picture forget the witness.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V024 / DAILY WORK</p><h1 id="work-title">The picture misreads <br><i>its own shadow.</i></h1></div>
+        <p class="work-premise">A visitor's departure changes one paper plane. A distant plane inherits the wrong cast shadow and rebuilds itself from the mistake.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v024 abandons v021's rooms, v022's slots, and v023's painted route. The medium becomes a p5.js WebGL paper theatre: depth and hinge carry the error, while an approach-departure encounter replaces click, drag, and double tap. The work refuses to depict animals or eyes; attention is translated into a wrong reconstruction from a cast shadow.</p></section>
+      <p class="work-loop">approach → depart → misread shadow → rebuild</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-03/">previous daily work</a><a href="/journal/#journal-naive-2026-10-04">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=024"></script>
+</body>
+</html>

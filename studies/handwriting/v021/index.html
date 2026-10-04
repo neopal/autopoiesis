@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e1020">
+  <title>MUTINE — The sentence looks back.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=021">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-04"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="listening-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v021 / RECIPROCAL SYNTAX</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="listening-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v021</span></nav>
+
+      <figure id="work" class="listening-work artwork-frame" aria-labelledby="work-title">
+        <div id="listening-field" class="listening-wrap" tabindex="0" role="application" aria-label="An orbital sentence whose letters attend and answer one another. Move close to a letter, then leave the field to make it turn back. A tap is refused." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 reciprocal glances</span></div>
+          <div class="field-controls" aria-label="Reciprocal sentence actions">
+            <button id="turn-toward-control" type="button">turn toward</button>
+            <button id="lift-glance" type="button">lift latest</button>
+            <button id="release-glances" type="button">release glances</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v021-reciprocal-syntax</span><span>approach &gt; depart &gt; answer</span></figcaption>
+      </figure>
+
+      <section class="listening-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / ENCOUNTER SWITCH / v021</p>
+        <h1 id="work-title">The sentence<br><i>looks back.</i></h1>
+        <p class="listening-lede">A letter is not waiting to be read. It notices a nearness, turns toward the departure, and leaves a changed reply somewhere else in the sentence.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">APPROACH, THEN LEAVE</p>
+          <p class="interaction-copy">Move toward one glyph to arm it. Leave the field to commit a reciprocal glance: the approached letter turns, a distant letter answers, and the next reply is changed by attention already spent. Enter or “turn toward” uses a deterministic witness.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The sentence is unobserved.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v021</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the pressure slab, vertical channels, and SVG lock-up. Twenty glyphs orbit a listening void; proximity arms one witness, departure makes it turn, and a non-adjacent glyph answers through actual letter geometry.</dd></div>
+          <div><dt>visitor action</dt><dd>Approach a letter and leave the field. A tap is refused. Enter, Space, or the control commits the seeded witness; Delete lifts the latest glance; R releases the sentence.</dd></div>
+          <div><dt>falsifier</dt><dd>If proximity writes without departure, if the reply is only a glow or line, if the remote letter does not move, or if each glance returns the same partner, reciprocity has not become a syntax rule.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v021 if the blind field reads as an ornamental text ring, if the turn is not visible in the letters, or if the caption is needed to reveal that one letter answered another.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-03/">previous daily work</a><a href="/journal/#journal-typography-2026-10-04">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=021"></script>
+</body>
+</html>

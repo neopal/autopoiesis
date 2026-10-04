@@ -1,0 +1,123 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "memory": 0,
+      "pockets": 0,
+      "signature": "0.4229,0.1252|0.5869,0.1447|0.6677,0.2348|0.6035,0.3417|0.7394,0.4694|0.6387,0.5748|0.6853,0.7531|0.5037,0.8736|0.3737,0.7567|0.4290,0.6078|0.2638,0.5283|0.3760,0.3970|0.2474,0.2512::::0:quiet:0|1:quiet:0|2:quiet:0|3:quiet:0|4:quiet:0|5:quiet:0",
+      "interaction": "sequence",
+      "notice": ""
+    },
+    "pointer": {
+      "memory": 0,
+      "pockets": 0,
+      "signature": "0.4229,0.1252|0.5869,0.1447|0.6677,0.2348|0.6035,0.3417|0.7394,0.4694|0.6387,0.5748|0.6853,0.7531|0.5037,0.8736|0.3737,0.7567|0.4290,0.6078|0.2638,0.5283|0.3760,0.3970|0.2474,0.2512::::0:quiet:0|1:quiet:0|2:quiet:0|3:quiet:0|4:quiet:0|5:quiet:0",
+      "interaction": "refused",
+      "notice": "pointer-tap-refused-choose-clause"
+    },
+    "keyboard": {
+      "memory": 1,
+      "pockets": 1,
+      "signature": "0.4229,0.1252|0.5784,0.1571|0.6677,0.2348|0.6035,0.3417|0.7394,0.4694|0.6387,0.5748|0.6887,0.7604|0.5037,0.8736|0.3737,0.7567|0.4290,0.6078|0.2638,0.5283|0.3760,0.3970|0.2474,0.2512::0:0.3460,0.3000|0.3587,0.2480|0.3990,0.2698|0.4140,0.3073|0.3861,0.3520|0.3555,0.3286::0:contour-reply:0.053|1:quiet:0|2:negative-pocket:0|3:quiet:0|4:quiet:0|5:quiet:0",
+      "interaction": "contour-reply",
+      "notice": "contour-reply-committed"
+    },
+    "lifted": {
+      "memory": 0,
+      "pockets": 0,
+      "signature": "0.4229,0.1252|0.5869,0.1447|0.6677,0.2348|0.6035,0.3417|0.7394,0.4694|0.6387,0.5748|0.6853,0.7531|0.5037,0.8736|0.3737,0.7567|0.4290,0.6078|0.2638,0.5283|0.3760,0.3970|0.2474,0.2512::::0:quiet:0|1:quiet:0|2:quiet:0|3:quiet:0|4:quiet:0|5:quiet:0",
+      "interaction": "lifted",
+      "notice": "latest-constraint-lifted"
+    },
+    "released": {
+      "memory": 0,
+      "pockets": 0,
+      "signature": "0.4229,0.1252|0.5869,0.1447|0.6677,0.2348|0.6035,0.3417|0.7394,0.4694|0.6387,0.5748|0.6853,0.7531|0.5037,0.8736|0.3737,0.7567|0.4290,0.6078|0.2638,0.5283|0.3760,0.3970|0.2474,0.2512::::0:quiet:0|1:quiet:0|2:quiet:0|3:quiet:0|4:quiet:0|5:quiet:0",
+      "interaction": "sequence",
+      "notice": "contour-released"
+    },
+    "button": {
+      "memory": 1,
+      "pockets": 1,
+      "signature": "0.4229,0.1252|0.5885,0.1345|0.6677,0.2348|0.6035,0.3417|0.7394,0.4694|0.6387,0.5748|0.6853,0.7531|0.5037,0.8736|0.3737,0.7567|0.4359,0.6041|0.2638,0.5283|0.3760,0.3970|0.2474,0.2512::4:0.3860,0.6800|0.3987,0.6280|0.4390,0.6498|0.4540,0.6873|0.4261,0.7320|0.3955,0.7086::0:negative-pocket:0|1:quiet:0|2:quiet:0|3:quiet:0|4:contour-reply:0.053|5:quiet:0",
+      "interaction": "contour-reply",
+      "notice": "contour-reply-committed"
+    },
+    "buttons": [
+      {
+        "text": "\n                shoulderhingethroatheelcrowntail\n              ",
+        "height": 44
+      },
+      {
+        "text": "change rule",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "contourVisible": true,
+      "pocketCount": 4,
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "labelsDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "recordAnchor": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "Pure SVG",
+      "recordAnchor": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\pure-svg-v020-2026-10-02",
+  "scratchDir": "C:\\Users\\ASUS\\AppData\\Local\\hermes\\profiles\\autopoiesis\\cache\\scratch"
+}

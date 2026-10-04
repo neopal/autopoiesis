@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e5e2d8">
+  <title>MUTINE — The ribbon keeps the pressure.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=021">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-10-03"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v021</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v021</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 680" role="img" aria-label="One broad SVG ribbon whose material pinches under pressure and binds elsewhere." preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="1 2 3 4 5 6 7 Enter Space Delete R">
+            <title>The ribbon keeps the pressure.</title>
+          </svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 19</span><span data-memory>0 pressures · ribbon quiet</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="pressure-control" data-gesture="pressure">press once</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One broad SVG ribbon crosses a quiet field. Its width is material, not a contour enclosing rooms or a set of objects.</p></div>
+          <div><span>changed rule</span><p>Travel a pressure across the ribbon. The touched station pinches into a crease while a distant station binds and swells; the next pressure inherits both.</p></div>
+          <div><span>progression</span><p>A tap is refused. Drag, press once, or use Enter / Space. Keys 1–7 arm a station without writing; Delete lifts the latest and R releases.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V021 / DAILY WORK</p><h1 id="work-title">The ribbon<br><i>keeps the pressure.</i></h1></div>
+        <p class="work-premise">A material rule crosses the boundary between line and body: one stroke is enough, but it cannot forget where force entered.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a traveled gesture changes the actual ribbon silhouette, narrows its source station, swells a non-adjacent binder, and restores the prior signature when lifted. Promotion depends on whether the blind ribbon reads as a material body rather than a styled stroke.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=021"></script>
+</body>
+</html>

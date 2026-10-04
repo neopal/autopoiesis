@@ -1,0 +1,67 @@
+:root {
+  --crease-ground: #11100f;
+  --crease-ink: #f1eadb;
+  --crease-muted: #a69a87;
+  --crease-lime: #c4e17d;
+  --crease-coral: #ef8e78;
+  --crease-blue: #8bb4db;
+  --crease-ochre: #d7ad61;
+  --crease-frame: rgba(241, 234, 219, .22);
+}
+
+* { box-sizing: border-box; }
+html, body { background: var(--crease-ground); color: var(--crease-ink); }
+body.work-page { min-height: 100vh; }
+.crease-shell { min-height: 100vh; background: radial-gradient(circle at 52% 4%, rgba(155, 112, 62, .18), transparent 43%), var(--crease-ground); }
+.crease-main { width: min(1500px, calc(100% - 48px)); margin: 0 auto; padding: 12px 0 64px; }
+.crease-work { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .28fr); gap: 20px; align-items: start; }
+.crease-frame { position: relative; margin: 0; min-height: clamp(440px, 67vw, 780px); overflow: hidden; border: 1px solid var(--crease-frame); background: #080a0b; box-shadow: 0 28px 90px rgba(0, 0, 0, .36); }
+.crease-frame::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(196, 225, 125, .16); pointer-events: none; }
+#gpu-field, #field { position: absolute; inset: 0; display: block; width: 100%; height: 100%; min-height: clamp(440px, 67vw, 780px); }
+#gpu-field { z-index: 0; }
+#field { z-index: 1; touch-action: none; outline: none; cursor: ew-resize; }
+#field:focus-visible { box-shadow: inset 0 0 0 2px var(--crease-ochre); }
+.crease-readout { position: absolute; z-index: 3; top: 18px; left: 20px; right: 20px; display: flex; justify-content: space-between; gap: 12px; color: var(--crease-muted); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; text-transform: uppercase; pointer-events: none; }
+.crease-status { position: absolute; z-index: 3; top: 49px; left: 20px; color: rgba(241, 234, 219, .58); font: 11px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .06em; pointer-events: none; }
+.crease-controls { position: absolute; z-index: 3; left: 20px; bottom: 46px; display: flex; flex-wrap: wrap; gap: 8px; }
+.crease-controls button { min-height: 44px; padding: 0 14px; border: 1px solid rgba(241, 234, 219, .32); border-radius: 999px; background: rgba(8, 10, 11, .8); color: var(--crease-ink); font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em; cursor: pointer; }
+.crease-controls button:hover, .crease-controls button:focus-visible { border-color: var(--crease-lime); color: var(--crease-lime); }
+.crease-frame figcaption { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 14px; display: flex; justify-content: space-between; gap: 16px; color: rgba(241, 234, 219, .62); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; pointer-events: none; }
+.crease-notes { display: grid; gap: 14px; padding-top: 24px; }
+.crease-notes > div { padding: 14px 0; border-top: 1px solid rgba(241, 234, 219, .14); }
+.crease-notes span { color: var(--crease-ochre); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.crease-notes p, .crease-premise, .crease-note p { margin: 8px 0 0; color: var(--crease-muted); font-size: 14px; line-height: 1.55; }
+.crease-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .42fr); gap: 32px; padding: 44px 0 0; }
+.crease-opening h1 { margin: 8px 0 0; max-width: 760px; font-size: clamp(44px, 7vw, 108px); line-height: .88; letter-spacing: -.06em; font-weight: 500; }
+.crease-opening h1 i { color: var(--crease-lime); font-family: Georgia, serif; font-weight: 400; }
+.crease-premise { align-self: end; max-width: 420px; font-size: 17px; }
+.crease-note { max-width: 720px; padding: 22px 0 0; }
+.crease-note strong { color: var(--crease-ink); font-weight: 500; }
+html.preview-mode .crease-shell { background: #080a0b; }
+html.preview-mode .crease-main { width: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .crease-notes, html.preview-mode .crease-opening, html.preview-mode .crease-note, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .crease-frame { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode #gpu-field, html.preview-mode #field { min-height: 100vh; }
+html.blind-mode .crease-readout, html.blind-mode .crease-status, html.blind-mode .crease-controls, html.blind-mode .crease-frame figcaption, html.blind-mode .studio-header, html.blind-mode .studio-path, html.blind-mode .crease-notes, html.blind-mode .crease-opening, html.blind-mode .crease-note, html.blind-mode .studio-footer { display: none; }
+html.blind-mode .crease-frame::after { display: none; }
+html.blind-mode .crease-frame { min-height: 100vh; border: 0; }
+html.blind-mode #gpu-field, html.blind-mode #field { min-height: 100vh; }
+
+@media (prefers-reduced-motion:reduce) {
+  .crease-frame, .crease-controls button { transition: none; }
+}
+
+@media (max-width: 680px) {
+  .crease-main { width: min(100% - 24px, 520px); padding-bottom: 40px; }
+  .crease-work, .crease-opening { grid-template-columns: 1fr; gap: 20px; }
+  .crease-frame, #gpu-field, #field { min-height: min(124vw, 620px); }
+  .crease-readout { top: 14px; left: 14px; right: 14px; font-size: 9px; }
+  .crease-status { top: 41px; left: 14px; }
+  .crease-controls { left: 14px; right: 14px; bottom: 42px; }
+  .crease-controls button { flex: 1 1 30%; padding: 0 8px; font-size: 10px; }
+  .crease-frame figcaption { left: 14px; right: 14px; bottom: 12px; font-size: 8px; }
+  .crease-notes { padding-top: 0; }
+  .crease-opening { padding-top: 26px; }
+  .crease-opening h1 { font-size: clamp(50px, 16vw, 78px); }
+  .crease-premise { font-size: 15px; }
+}

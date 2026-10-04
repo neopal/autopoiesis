@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12121b">
+  <title>MUTINE — The sentence takes pressure.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=020">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-03"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="pressure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v020 / PRESSURE SYNTAX</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="pressure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v020</span></nav>
+
+      <figure id="work" class="pressure-work artwork-frame" aria-labelledby="work-title">
+        <div id="pressure-field" class="pressure-wrap" tabindex="0" role="application" aria-label="A typographic slab whose letters deform under a traveled pressure stroke. A tap is refused; drag across the field to change the material sentence." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 pressure strokes</span></div>
+          <div class="field-controls" aria-label="Pressure actions">
+            <button id="press-type-control" type="button">press the type</button>
+            <button id="lift-stroke" type="button">lift latest</button>
+            <button id="release-strokes" type="button">release sentence</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v020-pressure-syntax</span><span>drag &gt; deform &gt; inherit</span></figcaption>
+      </figure>
+
+      <section class="pressure-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / DIRECTION SWITCH / v020</p>
+        <h1 id="work-title">The sentence takes<br><i>pressure.</i></h1>
+        <p class="pressure-lede">Letters are not marks laid on a page. They are a material slab: a stroke compresses what it touches, and the weight left behind changes what the next sentence can become.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">TRAVEL, DO NOT TAP</p>
+          <p class="interaction-copy">Drag across the type. A traveled stroke changes the geometry of the actual letters and leaves resistance in the slab; the next stroke meets the changed material. Enter or “press the type” uses a deterministic stroke. Delete lifts only the latest stroke.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The type is dry and uncommitted.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v020</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v019’s situated glyph channels and phoneme address with one canvas typographic slab. A traveled pressure stroke deforms the letters it crosses and deposits resistance that alters the next geometry.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag through the slab far enough to commit one bounded stroke. A tap is refused. Enter, Space, or the control uses the seeded default; Delete lifts the latest stroke; R releases the sentence.</dd></div>
+          <div><dt>falsifier</dt><dd>If the drag only paints a line, if the letter geometry stays fixed, or if the second stroke behaves like the first despite inherited resistance, the material translation has failed.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v020 if the blind field reads as a decorative text poster, if pressure does not alter actual glyph proportions and positions, or if the work needs its caption to reveal that language has become material.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-02/">previous daily work</a><a href="/journal/#journal-typography-2026-10-03">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=020"></script>
+</body>
+</html>

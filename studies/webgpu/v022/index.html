@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111216">
+  <meta name="description" content="A GPU-ready adaptive field where a released sweep reroutes a collective archive through material wakes and returned cuts.">
+  <title>MUTINE — The archive changes the weather.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=022">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-04"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="weather-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v022 / adaptive field</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="weather-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v022</span></nav>
+      <section class="weather-work" aria-label="WebGPU daily work">
+        <figure class="weather-frame artwork-frame">
+          <canvas id="gpu-field" aria-hidden="true"></canvas>
+          <canvas id="field" role="img" aria-label="An adaptive field of joined cells where a released sweep opens a wake, reroutes a return, and leaves material residue" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape R"></canvas>
+          <div class="weather-readout" role="status" aria-live="polite"><span data-stage>weather 01 / 19</span><span data-memory>0 sweeps</span><span data-residue>residue 0.00</span><span data-renderer>WEBGPU / INITIALISING</span></div>
+          <div class="weather-status" data-status>drag across the field · release to reroute</div>
+          <div class="weather-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="sweep">release a sweep</button>
+            <button type="button" data-gesture="lift">lift latest sweep</button>
+            <button type="button" data-gesture="release">release the weather</button>
+          </div>
+          <figcaption><span>WEBGPU / V022 / DAILY WORK</span><span>drag → wake → return</span></figcaption>
+        </figure>
+        <aside class="weather-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a population of blocks. It is one adaptive field of joined cells, cut open and bent by the path that crosses it.</p></div>
+          <div><span>changed rule</span><p>A sweep is not painted over the image. Release reroutes the cells it encounters, opens a cut elsewhere, and leaves residue that changes the next route.</p></div>
+          <div><span>progression</span><p>A short tap is refused. A real drag, Enter, Space, or the sweep control commits; Delete lifts only the latest field event and R releases the archive.</p></div>
+        </aside>
+      </section>
+      <section class="weather-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V022 / DAILY WORK</p><h1 id="work-title">The archive<br><i>changes the weather.</i></h1></div>
+        <p class="weather-premise">A collective record is not a wall of entries. It is a field whose pressure changes the route that later pressure can take.</p>
+      </section>
+      <section class="weather-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a released sweep changes actual cell coordinates, bend, opening, and remote return geometry, while bounded residue changes later routes and exact lifting reconstructs the prior field. Promotion depends on whether the blind field reads as one adaptive weather system rather than decorative polygon tiles.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>sweep → weather → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=022a"></script>
+</body>
+</html>

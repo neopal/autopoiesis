@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d12">
+  <title>MUTINE — The portrait makes room.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-04"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v020-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v020</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v020-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v020</span></nav>
+      <section class="v020-surface artwork-frame" aria-label="Self portrait material relief">
+        <div class="v020-field-wrap">
+          <canvas id="yield-field" width="1200" height="840" role="img" aria-label="A layered material relief whose own resistance chooses where it yields. Hold pressure and release to make the relief open a real gap." tabindex="0" aria-keyshortcuts="Space Enter Delete R"></canvas>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 18</span><span data-memory>0 yields held</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="press-control" data-gesture="press">make it yield</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest yield</button>
+            <button type="button" id="release-control" data-gesture="release">release the load</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A self-image becomes one oblique relief. It does not wait for a part to be addressed; its internal resistance decides where the next break can happen.</p></div>
+          <div><span>changed rule</span><p>Measured pressure loads the whole object. Release crosses a threshold, one rib buckles into a true gap, and the surrounding material inherits the load.</p></div>
+          <div><span>progression</span><p>Hold the relief or Space, then release. A short tap is refused. Delete lifts only the latest yield; R releases the bounded load.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V020 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>makes room.</i></h1></div>
+        <p class="work-premise">A self-image as material decision: pressure does not select a witness. It lets the relief decide where it can no longer stay whole.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural rule is embodied in actual Canvas geometry: measured pressure opens a gap in a yielded rib, redistributes load through neighbouring ribs, changes the next choice, and can be lifted exactly.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>choose its break?</i></h2>
+        <div class="note-copy"><p>The work abandons the aperture, pressure register, and syntax seal grammars of the previous portrait trials. It uses one oblique material relief: hold pressure, release it, and the lowest-resistance rib yields while the rest of the object takes the load.</p><dl><div><dt>seed</dt><dd>0x53504640 / replayable</dd></div><div><dt>input</dt><dd>hold canvas or Space, then release / short taps refused</dd></div><div><dt>falsifier</dt><dd>the event is only a glow, the same rib always yields, or the relief stays a decorative stack</dd></div><div><dt>deletion</dt><dd>delete v020 if the blind relief does not visibly choose and remember its own fracture</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

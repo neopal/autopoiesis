@@ -1,0 +1,61 @@
+:root {
+  --loom-ground: #0a0d12;
+  --loom-ink: #e9f0f1;
+  --loom-muted: #8fa2aa;
+  --loom-cyan: #72d4d2;
+  --loom-orange: #ef9d65;
+  --loom-violet: #aa9cff;
+  --loom-frame: rgba(233, 240, 241, .22);
+}
+* { box-sizing: border-box; }
+html, body { background: var(--loom-ground); color: var(--loom-ink); }
+body.work-page { min-height: 100vh; }
+.loom-shell { min-height: 100vh; background: radial-gradient(circle at 50% 4%, rgba(48, 91, 116, .25), transparent 46%), var(--loom-ground); }
+.loom-main { width: min(1500px, calc(100% - 48px)); margin: 0 auto; padding: 12px 0 64px; }
+.loom-work { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .28fr); gap: 20px; align-items: start; }
+.loom-frame { position: relative; margin: 0; min-height: clamp(440px, 67vw, 780px); overflow: hidden; border: 1px solid var(--loom-frame); background: #070a0f; box-shadow: 0 28px 90px rgba(0, 0, 0, .42); }
+.loom-frame::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(114, 212, 210, .17); pointer-events: none; }
+#gpu-field, #field { position: absolute; inset: 0; display: block; width: 100%; height: 100%; min-height: clamp(440px, 67vw, 780px); }
+#gpu-field { z-index: 0; }
+#field { z-index: 1; touch-action: none; outline: none; cursor: crosshair; }
+#field:focus-visible { box-shadow: inset 0 0 0 2px var(--loom-orange); }
+.loom-readout { position: absolute; z-index: 3; top: 18px; left: 20px; right: 20px; display: flex; justify-content: space-between; gap: 12px; color: var(--loom-muted); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; text-transform: uppercase; pointer-events: none; }
+.loom-status { position: absolute; z-index: 3; top: 49px; left: 20px; color: rgba(233, 240, 241, .6); font: 11px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .06em; pointer-events: none; }
+.loom-controls { position: absolute; z-index: 3; left: 20px; bottom: 46px; display: flex; flex-wrap: wrap; gap: 8px; }
+.loom-controls button { min-height: 44px; padding: 0 14px; border: 1px solid rgba(233, 240, 241, .32); border-radius: 999px; background: rgba(7, 10, 15, .82); color: var(--loom-ink); font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em; cursor: pointer; }
+.loom-controls button:hover, .loom-controls button:focus-visible { border-color: var(--loom-cyan); color: var(--loom-cyan); }
+.loom-frame figcaption { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 14px; display: flex; justify-content: space-between; gap: 16px; color: rgba(233, 240, 241, .62); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; pointer-events: none; }
+.loom-notes { display: grid; gap: 14px; padding-top: 24px; }
+.loom-notes > div { padding: 14px 0; border-top: 1px solid rgba(233, 240, 241, .14); }
+.loom-notes span { color: var(--loom-orange); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.loom-notes p, .loom-premise, .loom-note p { margin: 8px 0 0; color: var(--loom-muted); font-size: 14px; line-height: 1.55; }
+.loom-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .42fr); gap: 32px; padding: 44px 0 0; }
+.loom-opening h1 { margin: 8px 0 0; max-width: 760px; font-size: clamp(44px, 7vw, 108px); line-height: .88; letter-spacing: -.06em; font-weight: 500; }
+.loom-opening h1 i { color: var(--loom-cyan); font-family: Georgia, serif; font-weight: 400; }
+.loom-premise { align-self: end; max-width: 420px; font-size: 17px; }
+.loom-note { max-width: 720px; padding: 22px 0 0; }
+.loom-note strong { color: var(--loom-ink); font-weight: 500; }
+html.preview-mode .loom-shell { background: #070a0f; }
+html.preview-mode .loom-main { width: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .loom-notes, html.preview-mode .loom-opening, html.preview-mode .loom-note, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .loom-frame { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode #gpu-field, html.preview-mode #field { min-height: 100vh; }
+html.blind-mode .loom-readout, html.blind-mode .loom-status, html.blind-mode .loom-controls, html.blind-mode .loom-frame figcaption, html.blind-mode .studio-header, html.blind-mode .studio-path, html.blind-mode .loom-notes, html.blind-mode .loom-opening, html.blind-mode .loom-note, html.blind-mode .studio-footer { display: none; }
+html.blind-mode .loom-frame::after { display: none; }
+html.blind-mode .loom-frame { min-height: 100vh; border: 0; }
+html.blind-mode #gpu-field, html.blind-mode #field { min-height: 100vh; }
+@media (prefers-reduced-motion:reduce) { .loom-frame, .loom-controls button { transition: none; } }
+@media (max-width: 680px) {
+  .loom-main { width: min(100% - 24px, 520px); padding-bottom: 40px; }
+  .loom-work, .loom-opening { grid-template-columns: 1fr; gap: 20px; }
+  .loom-frame, #gpu-field, #field { min-height: min(124vw, 620px); }
+  .loom-readout { top: 14px; left: 14px; right: 14px; font-size: 9px; }
+  .loom-status { top: 41px; left: 14px; }
+  .loom-controls { left: 14px; right: 14px; bottom: 42px; }
+  .loom-controls button { flex: 1 1 30%; padding: 0 8px; font-size: 10px; }
+  .loom-frame figcaption { left: 14px; right: 14px; bottom: 12px; font-size: 8px; }
+  .loom-notes { padding-top: 0; }
+  .loom-opening { padding-top: 26px; }
+  .loom-opening h1 { font-size: clamp(50px, 16vw, 78px); }
+  .loom-premise { font-size: 15px; }
+}

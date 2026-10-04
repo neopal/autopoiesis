@@ -5,10 +5,27 @@ import { access, readFile } from 'node:fs/promises';
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 const expectedDailyIds = [
+  'webgpu-2026-10-04',
+  'naive-2026-10-04',
+  'svg-2026-10-04',
+  'portrait-2026-10-04',
+  'typography-2026-10-04',
+  'webgpu-2026-10-03',
+  'naive-2026-10-03',
+  'brush-2026-10-03',
+  'portrait-2026-10-03',
+  'typography-2026-10-03',
+  'svg-2026-10-03',
+  'webgpu-2026-10-02',
+  'brush-2026-10-02',
+  'svg-2026-10-02',
+  'portrait-2026-10-02',
+  'typography-2026-10-02',
   'brush-2026-10-01',
   'naive-2026-10-01',
   'svg-2026-10-01',
   'typography-2026-10-01',
+  'webgpu-2026-10-01',
   'webgpu-2026-09-30',
   'naive-2026-09-30',
   'naive-2026-09-27',
@@ -204,13 +221,16 @@ test('the catalogue groups daily works by current in reverse chronological order
   const catalog = buildCatalog(studio, works);
 
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 115);
+  assert.equal(catalog.works.length, 132);
   for (const current of catalog.currents) {
     const dates = current.works.map((work) => work.date);
     assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
   }
 
   assert.deepEqual(catalog.currents.find((current) => current.id === 'typography').works.map((work) => work.id), [
+    'typography-2026-10-04',
+    'typography-2026-10-03',
+    'typography-2026-10-02',
     'typography-2026-10-01',
     'typography-2026-09-27',
     'typography-2026-09-26',
@@ -231,6 +251,9 @@ test('the catalogue groups daily works by current in reverse chronological order
     'typography-2026-08-28'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'svg').works.map((work) => work.id), [
+    'svg-2026-10-04',
+    'svg-2026-10-03',
+    'svg-2026-10-02',
     'svg-2026-10-01',
     'svg-2026-09-27',
     'svg-2026-09-26',
@@ -252,6 +275,8 @@ test('the catalogue groups daily works by current in reverse chronological order
     'svg-2026-08-31'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'brush').works.map((work) => work.id), [
+    'brush-2026-10-03',
+    'brush-2026-10-02',
     'brush-2026-10-01',
     'brush-2026-09-26',
     'brush-2026-09-25',
@@ -275,6 +300,9 @@ test('the catalogue groups daily works by current in reverse chronological order
     'brush-2026-08-28'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'portrait').works.map((work) => work.id), [
+    'portrait-2026-10-04',
+    'portrait-2026-10-03',
+    'portrait-2026-10-02',
     'portrait-2026-09-27',
     'portrait-2026-09-25',
     'portrait-2026-09-24',
@@ -293,7 +321,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'portrait-2026-09-03',
     'portrait-2026-08-31'
   ]);
-  assert.deepEqual(catalog.currents.find((current) => current.id === 'webgpu').works.map((work) => work.id), ['webgpu-2026-09-30', 'webgpu-2026-09-26', 'webgpu-2026-09-25', 'webgpu-2026-09-24', 'webgpu-2026-09-22', 'webgpu-2026-09-21', 'webgpu-2026-09-17', 'webgpu-2026-09-16', 'webgpu-2026-09-15', 'webgpu-2026-09-13', 'webgpu-2026-09-12', 'webgpu-2026-09-11', 'webgpu-2026-09-10', 'webgpu-2026-09-09', 'webgpu-2026-09-08', 'webgpu-2026-09-07', 'webgpu-2026-09-04', 'webgpu-2026-09-03']);
+  assert.deepEqual(catalog.currents.find((current) => current.id === 'webgpu').works.map((work) => work.id), ['webgpu-2026-10-04', 'webgpu-2026-10-03', 'webgpu-2026-10-02', 'webgpu-2026-10-01', 'webgpu-2026-09-30', 'webgpu-2026-09-26', 'webgpu-2026-09-25', 'webgpu-2026-09-24', 'webgpu-2026-09-22', 'webgpu-2026-09-21', 'webgpu-2026-09-17', 'webgpu-2026-09-16', 'webgpu-2026-09-15', 'webgpu-2026-09-13', 'webgpu-2026-09-12', 'webgpu-2026-09-11', 'webgpu-2026-09-10', 'webgpu-2026-09-09', 'webgpu-2026-09-08', 'webgpu-2026-09-07', 'webgpu-2026-09-04', 'webgpu-2026-09-03']);
 });
 
 test('current register contains identity and cadence policy but no duplicated work arrays', async () => {

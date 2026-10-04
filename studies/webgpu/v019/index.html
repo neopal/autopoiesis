@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d12">
+  <meta name="description" content="A cube loom where a borrowed phase crosses the archive and returns as an echo.">
+  <title>MUTINE — The crowd borrows a phase.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('preview') || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.has('static') || location.search.includes('static=1')) document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=019">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-01"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="loom-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>webgpu / daily work / v019 / cube loom</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="loom-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v019</span></nav>
+      <section class="loom-work" aria-label="WebGPU daily work">
+        <figure class="loom-frame artwork-frame">
+          <canvas id="gpu-field" aria-hidden="true"></canvas>
+          <canvas id="field" role="img" aria-label="A cube loom carrying a borrowed phase into a remote echo" tabindex="0" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Backspace Escape"></canvas>
+          <div class="loom-readout" role="status" aria-live="polite"><span data-stage>loom 01 / 17</span><span data-memory>0 broadcasts</span><span data-renderer>WEBGPU / INITIALISING</span></div>
+          <div class="loom-status" data-status>choose a signal lane</div>
+          <div class="loom-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="broadcast">broadcast phase</button>
+            <button type="button" data-gesture="lift">lift latest echo</button>
+            <button type="button" data-gesture="release">release the loom</button>
+          </div>
+          <figcaption><span>WEBGPU / V019 / DAILY WORK</span><span>signal → borrow → echo</span></figcaption>
+        </figure>
+        <aside class="loom-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd becomes a loom of quiet cubes. A phase is borrowed from one lane and returns through a non-adjacent body.</p></div>
+          <div><span>changed rule</span><p>Arrow keys choose a signal without writing history. A broadcast commits a seam in the carrier and a displaced phase in the echo.</p></div>
+          <div><span>progression</span><p>Pointer taps are refused. Enter, Space, and the broadcast control commit the same bounded event; Delete lifts only the latest.</p></div>
+        </aside>
+      </section>
+      <section class="loom-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V019 / DAILY WORK</p><h1 id="work-title">The crowd<br><i>borrows a phase.</i></h1></div>
+        <p class="loom-premise">Attention is not a brighter signal. It is a stolen timing: one cube carries a phase it did not originate, while a distant cube answers with the wrong return.</p>
+      </section>
+      <section class="loom-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: broadcasts alter carrier seams, remote echoes, and bounded phase memory. Promotion depends on whether the blind loom reads as a single computational body rather than a decorative cube wall.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>borrow → transmit → echo</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=019a"></script>
+</body>
+</html>

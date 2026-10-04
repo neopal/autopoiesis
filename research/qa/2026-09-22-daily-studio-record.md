@@ -128,3 +128,72 @@ v016 is a structural rupture from the Brush current's v013–v015 horizontal wet
 No independent caption-free perceptual reviewer is available in this unattended run. The structural, local browser, and production browser evidence is complete, but the work remains honestly **candidate / held** until the blind image is judged against v013–v015 without labels, controls, readout, or prose. Delete v016 rather than polish it if the plate still reads as a route field.
 
 Production verification completed against `https://autopoiesis-nine.vercel.app/` after deployment `dpl_EwZEsWcshkkmvhA4dTvSgzv7q7Be`: 20/20 production headless viewport runs passed, production interaction and blind-preview checks passed, the rendered Journal/current each contained exactly one matching record, the deployed JSON contained exactly one `brush-2026-09-22` record, and favicon/canonical/raw routes returned HTTP 200. Provider revision linkage from the stable alias to the GitHub SHA remains unresolved.
+
+---
+
+# Scheduled archive audit — 2026-09-22
+
+- Audit root: `C:/Users/ASUS/autopoiesis`
+- Observed at: `2026-09-22 09:03:29 +0200`
+- Active catalogue sources: `studio/data/studio.json` (`mutine-studio/v2`) and `studio/data/works.json` (`mutine-works/v1`)
+- Field tests remained separate from daily works.
+- No browser automation, GUI/CUA, Chrome, DevTools, CDP, remote debugging, or window launch was used.
+- No catalogue, artwork, study, or JavaScript file was changed by this audit.
+
+## Coverage register
+
+| Current | Register state | 2026-09-22 slot | Record |
+|---|---|---|---|
+| Handwriting (`typography`) | active | recorded / candidate-held | `typography-2026-09-22` |
+| Self portrait (`portrait`) | active | held / no record | — |
+| Pure SVG (`svg`) | active | held / no record | — |
+| Brush (`brush`) | active | recorded / candidate-held | `brush-2026-09-22` |
+| Naive art (`naive`) | active | held / no record | — |
+| WebGPU (`webgpu`) | dormant | held / no record | — |
+
+The two recorded slots are `typography-2026-09-22` (`/studies/handwriting/v015/`) and `brush-2026-09-22` (`/studies/p5-brush/v016/`). Both are `candidate / held`, `active`, and have four critiques.
+
+The register contains 83 work records: Handwriting 15, Self portrait 13, Pure SVG 12, Brush 16, Naive art 14, and WebGPU 13. There are no duplicate current/date slots and no unknown current IDs.
+
+## Register and filesystem checks
+
+- JSON parsing: **PASS** for both active catalogue sources.
+- Canonical pages: **83/83 present** at `works/<workId>/index.html`.
+- Raw tableau indexes: **83/83 present** under each registered `/studies/.../` path.
+- Journal anchor shape: **83/83 use `journal-<workId>`**.
+- Canonical Journal links: **83/83 contain `/journal/#journal-<workId>`**.
+- Critique gate: **83/83 have at least one critique**; no no-critique fallback was needed.
+- Field-test separation: field-test IDs were not treated as daily work records.
+
+## Schema anomaly and lifecycle gate
+
+The lifecycle gate is held globally because seven legacy records have no `lifecycle` field:
+
+- `typography-2026-08-28`
+- `brush-2026-08-28`
+- `typography-2026-08-31`
+- `svg-2026-08-31`
+- `portrait-2026-08-31`
+- `naive-2026-08-31`
+- `brush-2026-08-31`
+
+The working register has 76 `active`, 0 `complete`, and 7 missing lifecycle values. No lifecycle was inferred for the affected records. The lifecycle acceptance check is therefore held; the independent page, tableau, Journal, duplicate-slot, and critique checks above completed for all 83 records.
+
+No records are marked `complete` in the working register or `HEAD`. Complete-work immutability is therefore vacuous: there are no complete records to compare, and no complete-record paths were changed.
+
+## Automated checks
+
+- `npm run test`: **436 passed, 0 failed, 0 skipped, 0 todo**.
+- Changed JavaScript syntax: **not applicable**; `git diff --name-only -- '*.js' '*.mjs' '*.cjs'` returned no paths.
+- `git diff --check`: **PASS**.
+- No auth, throttling, challenge, missing tableau, or catalogue/path mismatch was observed in this local audit.
+
+## Pre-existing working-tree state
+
+The working tree already contained modifications to the prior QA report and 20 canonical HTML pages, plus the untracked `research/qa/2026-09-18-daily-studio-record.md`. Those paths were observed but not changed by this audit. This run only appended this scheduled-audit section to the dated QA record.
+
+## Held gates and next actions
+
+- Keep the seven legacy records held until an explicit `lifecycle` value is supplied; do not infer one.
+- Keep both recorded 2026-09-22 works held because their catalogue statuses are `candidate / held`.
+- No browser or perceptual gate was independently rerun under the unattended-run restriction. Any caption-free visual, interaction, production-readback, or provider-revision claim remains held unless separately evidenced by a permitted local or HTTP check.

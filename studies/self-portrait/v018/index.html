@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111018">
+  <title>MUTINE — The portrait keeps a pressure register.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-02"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v018-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>work / self portrait / v018</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="v018-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">→</span><span aria-current="page">v018</span></nav>
+      <section class="v018-surface artwork-frame" aria-label="Self portrait pressure register">
+        <div class="v018-field-wrap">
+          <div id="pressure-field" role="img" aria-label="A browser-native pressure register whose strands can be cut and redistributed" tabindex="0" aria-keyshortcuts="Enter Space Delete R">
+            <div class="register-axis" aria-hidden="true"></div>
+            <div class="register-mark register-mark--top" aria-hidden="true">SELF / MATERIAL DECISION</div>
+            <div id="register" aria-hidden="true"></div>
+            <div class="register-mark register-mark--bottom" aria-hidden="true">PRESSURE IS REMEMBERED</div>
+          </div>
+          <div class="surface-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 cuts held</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="press-control" data-gesture="press">apply pressure</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest cut</button>
+            <button type="button" id="release-control" data-gesture="release">release the register</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A self-image appears as a register of material decisions: a field of strands that has to carry the load of its own previous cuts.</p></div>
+          <div><span>changed rule</span><p>A pressure event removes a real interval from one strand. The displaced load thickens a distant strand and bends the intervening register.</p></div>
+          <div><span>progression</span><p>The field refuses pointer taps. Use the pressure command, Enter, or Space; lift only the latest cut to replay the exact earlier register.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">SELF PORTRAIT / V018 / DAILY WORK</p><h1 id="work-title">The portrait<br><i>keeps a pressure register.</i></h1></div>
+        <p class="work-premise">A self-image as a serial material decision: pressure does not mark the surface; it changes what the next strand is allowed to become.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural rule is embodied in actual DOM strand intervals, changed span geometry, remote load, finite resistance, and exact replay. Promotion still depends on whether the blind register reads as a self that carries its own pressure rather than an ornamental data chart.</p></section>
+      <section class="work-notes" aria-label="Work evidence boundary">
+        <p class="studio-kicker">EVIDENCE BOUNDARY</p>
+        <h2>Can a self<br><i>carry its own cut?</i></h2>
+        <div class="note-copy"><p>The work abandons the aperture, raster, and membrane grammars of the previous three portrait trials. It uses a browser-native register of material strands: a cut is a true gap, and the reply is a changed distant strand rather than a highlighted witness.</p><dl><div><dt>seed</dt><dd>0x53504638 / replayable</dd></div><div><dt>input</dt><dd>pressure command, Enter, or Space / pointer taps refused</dd></div><div><dt>falsifier</dt><dd>the cut is an overlay, the reply is only a colour accent, or repeated pressure ignores resistance</dd></div><div><dt>deletion</dt><dd>delete v018 if the blind register reads as a generic chart rather than a self-carrying material field</dd></div></dl></div>
+      </section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/self-portrait/">self portrait current</a><span>candidate / held for critique</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js"></script>
+</body>
+</html>

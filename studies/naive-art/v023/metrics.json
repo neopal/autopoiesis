@@ -1,0 +1,23 @@
+{
+  "id": "naive-art-v023-wrong-landing",
+  "seed": "0x4e413233",
+  "visitorInput": true,
+  "stages": 20,
+  "primitiveBudget": 28,
+  "bandCount": 12,
+  "memoryWindow": 4,
+  "settledStage": 19,
+  "settledMemory": 4,
+  "settledWrongLandingCount": 4,
+  "settledIntendedGapCount": 4,
+  "memoryRule": "a timed double tap makes one painted band land at a wrong anchor and later bands reuse that wrong landing",
+  "interactionRule": "a single tap only arms a short interval; a timed double-tap, Enter, Space, or the slip control commits one bounded wrong-landing event; Delete lifts the latest slip; release clears the route",
+  "representationRupture": "pressure print sheet, SVG room map, and DOM cut-outs -> one continuous Canvas route whose stroke endpoints carry memory",
+  "encounterRupture": "button pressure, situated attention, and traveled drag -> a temporal double tap that must arrive before the interval expires",
+  "temporalRupture": "pressure register, wrong closure, and vacancy/reflow -> later geometry rebuilt from a wrong landing",
+  "mediumRupture": "p5 Canvas print, inline SVG topology, and HTML/CSS layout -> deterministic Canvas 2D material route",
+  "replay": true,
+  "renderer": "deterministic browser Canvas 2D route",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

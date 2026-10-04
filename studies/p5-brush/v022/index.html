@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11131d">
+  <title>MUTINE — the brush seals a pause</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=022">
+  <script>window.p5 = window.p5 || undefined;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-02"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="coagulation-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v022 / PRESSURE COAGULATION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="coagulation-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v022</span></nav>
+
+      <figure class="coagulation-work artwork-frame" aria-labelledby="work-title">
+        <div id="pigment-field" class="pigment-wrap" tabindex="0" role="application" aria-label="A continuous field of wet pigment. Press and hold on the field to thicken material into a real coagulation cusp; a tap is refused." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="pigment-readout" aria-live="polite"><span data-stage>stage 16 / 16</span><span data-memory>4 pressure holds</span></div>
+          <div class="pigment-controls" aria-label="Brush actions">
+            <button id="coagulate-control" data-gesture="coagulate" type="button">hold the pigment</button>
+            <button id="lift-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release field</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v022-pressure-coagulation</span><span>hold &gt; thicken &gt; cusp</span></figcaption>
+      </figure>
+
+      <section class="coagulation-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / DIRECTION SWITCH / v022</p>
+        <h1 id="work-title">The brush seals<br><i>a pause.</i></h1>
+        <p class="coagulation-lede">A held pressure does not remove pigment. It thickens the field until the material changes how the next pressure can move through it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A HOLD, NOT A STROKE</p>
+          <p class="interaction-copy">Press and hold on the pigment. A tap is refused. The dwell coagulates a real cusp in the continuous field; a later hold is computed through the altered material. Delete or “lift latest” restores the exact preceding field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The pigment is wet and uncommitted.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v022</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v021’s grain removal with a continuous pigment field. A sustained dwell increases binder density, bends the field into a cusp, and changes the material that receives the next dwell.</dd></div>
+          <div><dt>visitor action</dt><dd>Press and hold for at least 360ms to coagulate one bounded pressure site. Enter, Space, or the control uses the seeded default; Delete lifts the latest event; R releases memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If holding only paints a halo, if the field is unchanged outside a cursor sticker, or if the second hold behaves exactly like the first, the material has not remembered pressure.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v022 if labels-off, controls-off viewing reads as decorative noise, if a tap commits, or if the visible cusp and changed later response require the caption to exist.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-01/">previous daily work</a><a href="/journal/#journal-brush-2026-10-02">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=022"></script>
+</body>
+</html>

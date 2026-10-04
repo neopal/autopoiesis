@@ -1,0 +1,144 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5049214,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0496507,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2425912,\"y\":0.5202608,\"width\":0.1697217,\"height\":0.1979144,\"tilt\":-0.0798879,\"mass\":0.5727642,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":2,\"x\":0.3806304,\"y\":0.5234713,\"width\":0.1552499,\"height\":0.1943738,\"tilt\":0.0152399,\"mass\":0.6164756,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":3,\"x\":0.4995027,\"y\":0.5231163,\"width\":0.1559241,\"height\":0.1969383,\"tilt\":0.1258856,\"mass\":0.6636315,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":4,\"x\":0.6309441,\"y\":0.4943659,\"width\":0.1744213,\"height\":0.2069336,\"tilt\":-0.1472366,\"mass\":0.5413354,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":5,\"x\":0.756722,\"y\":0.4768443,\"width\":0.1667445,\"height\":0.1973342,\"tilt\":-0.1461307,\"mass\":0.532477,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":6,\"x\":0.8882355,\"y\":0.4817241,\"width\":0.1569134,\"height\":0.1838276,\"tilt\":-0.1374169,\"mass\":0.6998034,\"notch\":0,\"aversion\":0,\"seam\":0}]",
+      "interaction": "sequence",
+      "armed": null
+    },
+    "pointerTap": {
+      "stage": 0,
+      "memory": 0,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5049214,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0496507,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2425912,\"y\":0.5202608,\"width\":0.1697217,\"height\":0.1979144,\"tilt\":-0.0798879,\"mass\":0.5727642,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":2,\"x\":0.3806304,\"y\":0.5234713,\"width\":0.1552499,\"height\":0.1943738,\"tilt\":0.0152399,\"mass\":0.6164756,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":3,\"x\":0.4995027,\"y\":0.5231163,\"width\":0.1559241,\"height\":0.1969383,\"tilt\":0.1258856,\"mass\":0.6636315,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":4,\"x\":0.6309441,\"y\":0.4943659,\"width\":0.1744213,\"height\":0.2069336,\"tilt\":-0.1472366,\"mass\":0.5413354,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":5,\"x\":0.756722,\"y\":0.4768443,\"width\":0.1667445,\"height\":0.1973342,\"tilt\":-0.1461307,\"mass\":0.532477,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":6,\"x\":0.8882355,\"y\":0.4817241,\"width\":0.1569134,\"height\":0.1838276,\"tilt\":-0.1374169,\"mass\":0.6998034,\"notch\":0,\"aversion\":0,\"seam\":0}]",
+      "interaction": "witness-refused",
+      "armed": 1
+    },
+    "armed": {
+      "stage": 0,
+      "memory": 0,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5049214,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0496507,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2425912,\"y\":0.5202608,\"width\":0.1697217,\"height\":0.1979144,\"tilt\":-0.0798879,\"mass\":0.5727642,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":2,\"x\":0.3806304,\"y\":0.5234713,\"width\":0.1552499,\"height\":0.1943738,\"tilt\":0.0152399,\"mass\":0.6164756,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":3,\"x\":0.4995027,\"y\":0.5231163,\"width\":0.1559241,\"height\":0.1969383,\"tilt\":0.1258856,\"mass\":0.6636315,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":4,\"x\":0.6309441,\"y\":0.4943659,\"width\":0.1744213,\"height\":0.2069336,\"tilt\":-0.1472366,\"mass\":0.5413354,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":5,\"x\":0.756722,\"y\":0.4768443,\"width\":0.1667445,\"height\":0.1973342,\"tilt\":-0.1461307,\"mass\":0.532477,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":6,\"x\":0.8882355,\"y\":0.4817241,\"width\":0.1569134,\"height\":0.1838276,\"tilt\":-0.1374169,\"mass\":0.6998034,\"notch\":0,\"aversion\":0,\"seam\":0}]",
+      "interaction": "witness-refused",
+      "armed": 1
+    },
+    "departure": {
+      "stage": 0,
+      "memory": 1,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5015614,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0566507,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2339512,\"y\":0.4938608,\"width\":0.1632044,\"height\":0.2102643,\"tilt\":-0.5942879,\"mass\":0.5151642,\"notch\":0.2976,\"aversion\":0.3576,\"seam\":0.0576},{\"id\":2,\"x\":0.3911604,\"y\":0.5177766,\"width\":0.1580793,\"height\":0.196578,\"tilt\":0.0840899,\"mass\":0.6610256,\"notch\":0,\"aversion\":0,\"seam\":0.1377},{\"id\":3,\"x\":0.5080827,\"y\":0.5251341,\"width\":0.1582396,\"height\":0.198758,\"tilt\":0.1819856,\"mass\":0.6999315,\"notch\":0,\"aversion\":0,\"seam\":0.1122},{\"id\":4,\"x\":0.6375741,\"y\":0.4963129,\"width\":0.1764228,\"height\":0.2084111,\"tilt\":-0.1038866,\"mass\":0.5693854,\"notch\":0,\"aversion\":0,\"seam\":0.0867},{\"id\":5,\"x\":0.761402,\"y\":0.4759939,\"width\":0.1680951,\"height\":0.1983288,\"tilt\":-0.1155307,\"mass\":0.552277,\"notch\":0,\"aversion\":0,\"seam\":0.0612},{\"id\":6,\"x\":0.8909655,\"y\":0.4814686,\"width\":0.1576548,\"height\":0.184368,\"tilt\":-0.1195669,\"mass\":0.7113534,\"notch\":0,\"aversion\":0,\"seam\":0.0357}]",
+      "interaction": "witness-departed",
+      "armed": null
+    },
+    "departedSignature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5015614,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0566507,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2339512,\"y\":0.4938608,\"width\":0.1632044,\"height\":0.2102643,\"tilt\":-0.5942879,\"mass\":0.5151642,\"notch\":0.2976,\"aversion\":0.3576,\"seam\":0.0576},{\"id\":2,\"x\":0.3911604,\"y\":0.5177766,\"width\":0.1580793,\"height\":0.196578,\"tilt\":0.0840899,\"mass\":0.6610256,\"notch\":0,\"aversion\":0,\"seam\":0.1377},{\"id\":3,\"x\":0.5080827,\"y\":0.5251341,\"width\":0.1582396,\"height\":0.198758,\"tilt\":0.1819856,\"mass\":0.6999315,\"notch\":0,\"aversion\":0,\"seam\":0.1122},{\"id\":4,\"x\":0.6375741,\"y\":0.4963129,\"width\":0.1764228,\"height\":0.2084111,\"tilt\":-0.1038866,\"mass\":0.5693854,\"notch\":0,\"aversion\":0,\"seam\":0.0867},{\"id\":5,\"x\":0.761402,\"y\":0.4759939,\"width\":0.1680951,\"height\":0.1983288,\"tilt\":-0.1155307,\"mass\":0.552277,\"notch\":0,\"aversion\":0,\"seam\":0.0612},{\"id\":6,\"x\":0.8909655,\"y\":0.4814686,\"width\":0.1576548,\"height\":0.184368,\"tilt\":-0.1195669,\"mass\":0.7113534,\"notch\":0,\"aversion\":0,\"seam\":0.0357}]",
+    "lifted": {
+      "stage": 0,
+      "memory": 0,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5049214,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0496507,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2425912,\"y\":0.5202608,\"width\":0.1697217,\"height\":0.1979144,\"tilt\":-0.0798879,\"mass\":0.5727642,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":2,\"x\":0.3806304,\"y\":0.5234713,\"width\":0.1552499,\"height\":0.1943738,\"tilt\":0.0152399,\"mass\":0.6164756,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":3,\"x\":0.4995027,\"y\":0.5231163,\"width\":0.1559241,\"height\":0.1969383,\"tilt\":0.1258856,\"mass\":0.6636315,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":4,\"x\":0.6309441,\"y\":0.4943659,\"width\":0.1744213,\"height\":0.2069336,\"tilt\":-0.1472366,\"mass\":0.5413354,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":5,\"x\":0.756722,\"y\":0.4768443,\"width\":0.1667445,\"height\":0.1973342,\"tilt\":-0.1461307,\"mass\":0.532477,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":6,\"x\":0.8882355,\"y\":0.4817241,\"width\":0.1569134,\"height\":0.1838276,\"tilt\":-0.1374169,\"mass\":0.6998034,\"notch\":0,\"aversion\":0,\"seam\":0}]",
+      "interaction": "witness-lifted",
+      "armed": null
+    },
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5049214,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0496507,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2425912,\"y\":0.5202608,\"width\":0.1697217,\"height\":0.1979144,\"tilt\":-0.0798879,\"mass\":0.5727642,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":2,\"x\":0.3806304,\"y\":0.5234713,\"width\":0.1552499,\"height\":0.1943738,\"tilt\":0.0152399,\"mass\":0.6164756,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":3,\"x\":0.4995027,\"y\":0.5231163,\"width\":0.1559241,\"height\":0.1969383,\"tilt\":0.1258856,\"mass\":0.6636315,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":4,\"x\":0.6309441,\"y\":0.4943659,\"width\":0.1744213,\"height\":0.2069336,\"tilt\":-0.1472366,\"mass\":0.5413354,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":5,\"x\":0.756722,\"y\":0.4768443,\"width\":0.1667445,\"height\":0.1973342,\"tilt\":-0.1461307,\"mass\":0.532477,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":6,\"x\":0.8882355,\"y\":0.4817241,\"width\":0.1569134,\"height\":0.1838276,\"tilt\":-0.1374169,\"mass\":0.6998034,\"notch\":0,\"aversion\":0,\"seam\":0}]",
+      "interaction": "field-released",
+      "armed": null
+    },
+    "keyboard": {
+      "stage": 0,
+      "memory": 1,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5025497,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0545918,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2425912,\"y\":0.5161949,\"width\":0.1697217,\"height\":0.1979144,\"tilt\":-0.0714173,\"mass\":0.5727642,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":2,\"x\":0.3719904,\"y\":0.4970713,\"width\":0.1492883,\"height\":0.2065028,\"tilt\":-0.4991601,\"mass\":0.5588756,\"notch\":0.2976,\"aversion\":0.3576,\"seam\":0.0576},{\"id\":3,\"x\":0.5096716,\"y\":0.5259507,\"width\":0.1586684,\"height\":0.1990949,\"tilt\":0.1923745,\"mass\":0.7066537,\"notch\":0,\"aversion\":0,\"seam\":0.1329778},{\"id\":4,\"x\":0.6388019,\"y\":0.4971008,\"width\":0.1767935,\"height\":0.2086847,\"tilt\":-0.0958588,\"mass\":0.5745799,\"notch\":0,\"aversion\":0,\"seam\":0.1027556},{\"id\":5,\"x\":0.7622687,\"y\":0.4756498,\"width\":0.1683452,\"height\":0.198513,\"tilt\":-0.1098641,\"mass\":0.5559437,\"notch\":0,\"aversion\":0,\"seam\":0.0725333},{\"id\":6,\"x\":0.891471,\"y\":0.4813652,\"width\":0.1577921,\"height\":0.1844681,\"tilt\":-0.1162614,\"mass\":0.7134923,\"notch\":0,\"aversion\":0,\"seam\":0.0423111}]",
+      "interaction": "witness-departed",
+      "armed": null
+    },
+    "button": {
+      "stage": 0,
+      "memory": 2,
+      "stationCount": 7,
+      "signature": "[{\"id\":0,\"x\":0.1153582,\"y\":0.5007452,\"width\":0.1625629,\"height\":0.1917033,\"tilt\":0.0583511,\"mass\":0.8977737,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":1,\"x\":0.2425912,\"y\":0.5131016,\"width\":0.1697217,\"height\":0.1979144,\"tilt\":-0.0649728,\"mass\":0.5727642,\"notch\":0,\"aversion\":0,\"seam\":0},{\"id\":2,\"x\":0.3719904,\"y\":0.492689,\"width\":0.1492883,\"height\":0.2065028,\"tilt\":-0.4900305,\"mass\":0.5588756,\"notch\":0.2976,\"aversion\":0.3576,\"seam\":0.0576},{\"id\":3,\"x\":0.5096716,\"y\":0.5202796,\"width\":0.1586684,\"height\":0.1990949,\"tilt\":0.2041893,\"mass\":0.7066537,\"notch\":0,\"aversion\":0,\"seam\":0.1329778},{\"id\":4,\"x\":0.6283619,\"y\":0.4652008,\"width\":0.1685902,\"height\":0.2244195,\"tilt\":-0.6382588,\"mass\":0.5049799,\"notch\":0.3096,\"aversion\":0.3696,\"seam\":0.1723556},{\"id\":5,\"x\":0.7729134,\"y\":0.4704479,\"width\":0.1714467,\"height\":0.2007886,\"tilt\":-0.0402641,\"mass\":0.600979,\"notch\":0,\"aversion\":0,\"seam\":0.2117333},{\"id\":6,\"x\":0.8976804,\"y\":0.481601,\"width\":0.1594879,\"height\":0.1857017,\"tilt\":-0.0756614,\"mass\":0.7397629,\"notch\":0,\"aversion\":0,\"seam\":0.1235111}]",
+      "interaction": "witness-departed",
+      "armed": null
+    },
+    "buttons": [
+      {
+        "text": "watch the next seam",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release field",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "stationCount": 7,
+      "paintPathCount": 7,
+      "seamCount": 6,
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "labelsDisplay": "none",
+      "stationDisplay": "none",
+      "memory": 4,
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "recordAnchor": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "Brush",
+      "recordAnchor": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\brush-v023-2026-10-03"
+}
