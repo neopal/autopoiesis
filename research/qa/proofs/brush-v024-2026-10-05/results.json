@@ -1,0 +1,841 @@
+{
+  "base": "http://127.0.0.1:60270",
+  "matrix": [
+    {
+      "route": "raw",
+      "width": 320,
+      "height": 568,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 320,
+        "height": 568
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 390,
+      "height": 844,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 1280,
+      "height": 800,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 1280,
+        "height": 800
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 1920,
+      "height": 1080,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 320,
+      "height": 568,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 282,
+        "height": 358
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 196.5,
+        "titleTop": 626.890625
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 390,
+      "height": 844,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 352,
+        "height": 437
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 183.5,
+        "titleTop": 692.296875
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 730,
+        "height": 630
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 183.5,
+        "titleTop": 885.25
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 1280,
+      "height": 800,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 735,
+        "height": 720
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 161,
+        "titleTop": 953
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 1920,
+      "height": 1080,
+      "reducedMotion": false,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 722,
+        "height": 720
+      },
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 161,
+        "titleTop": 953
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 320,
+      "height": 568,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 320,
+        "height": 568
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 390,
+      "height": 844,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 1280,
+      "height": 800,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 1280,
+        "height": 800
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "raw",
+      "width": 1920,
+      "height": 1080,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": null,
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 320,
+      "height": 568,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 282,
+        "height": 358
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 196.5,
+        "titleTop": 626.890625
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 390,
+      "height": 844,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 352,
+        "height": 437
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 183.5,
+        "titleTop": 692.296875
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 730,
+        "height": 630
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 183.5,
+        "titleTop": 885.25
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 1280,
+      "height": 800,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 735,
+        "height": 720
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 161,
+        "titleTop": 953
+      },
+      "diagnostics": []
+    },
+    {
+      "route": "canonical",
+      "width": 1920,
+      "height": 1080,
+      "reducedMotion": true,
+      "status": 200,
+      "overflow": false,
+      "touchTargets": true,
+      "canvas": {
+        "width": 722,
+        "height": 720
+      },
+      "state": {
+        "stage": 17,
+        "memory": 4,
+        "segmentCount": 11,
+        "removed": 8,
+        "signature": "[{\"id\":0,\"x\":0.0910609,\"y\":0.4681018,\"width\":0.0948992,\"height\":0.3502238,\"tilt\":0.1250673,\"depth\":0.8324349,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1102289,\"y\":0.3271887,\"width\":0.0596289,\"height\":0.4132464,\"tilt\":-1.1861335,\"depth\":0.8200455,\"removed\":false,\"cut\":0.96,\"stress\":1,\"endpoint\":1},{\"id\":2,\"x\":0.2413747,\"y\":0.380464,\"width\":0,\"height\":0,\"tilt\":0.1272332,\"depth\":0.7961673,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":3,\"x\":0.3327428,\"y\":0.3732171,\"width\":0,\"height\":0,\"tilt\":-0.0247666,\"depth\":0.8692669,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":4,\"x\":0.4186661,\"y\":0.3344138,\"width\":0,\"height\":0,\"tilt\":-0.4897843,\"depth\":0.7013388,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":5,\"x\":0.5146082,\"y\":0.4072193,\"width\":0.045,\"height\":0.12,\"tilt\":0.2691393,\"depth\":0.8147924,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":1},{\"id\":6,\"x\":0.6003432,\"y\":0.4174641,\"width\":0.045,\"height\":0.12,\"tilt\":0.4697088,\"depth\":1,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":7,\"x\":0.6849126,\"y\":0.4430688,\"width\":0.045,\"height\":0.12,\"tilt\":-0.0119342,\"depth\":0.6087362,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":8,\"x\":0.7778066,\"y\":0.5754907,\"width\":0.045,\"height\":0.12,\"tilt\":0.4318183,\"depth\":0.9815467,\"removed\":true,\"cut\":1,\"stress\":1,\"endpoint\":0},{\"id\":9,\"x\":0.8245292,\"y\":0.5847955,\"width\":0.045,\"height\":0.12,\"tilt\":0.0949099,\"depth\":1,\"removed\":true,\"cut\":0.8748,\"stress\":0.7315928,\"endpoint\":0},{\"id\":10,\"x\":0.9329867,\"y\":0.6411805,\"width\":0.0923595,\"height\":0.3505346,\"tilt\":0.5560257,\"depth\":0.8961361,\"removed\":false,\"cut\":0.32,\"stress\":0.5803157,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "canonicalOrder": {
+        "frameTop": 161,
+        "titleTop": 953
+      },
+      "diagnostics": []
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "sequence",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "armed": {
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "pair-armed",
+        "pending": 4
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "repeated": {
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "pair-committed",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "committed": {
+      "state": {
+        "stage": 0,
+        "memory": 1,
+        "segmentCount": 11,
+        "removed": 5,
+        "signature": "[{\"id\":0,\"x\":0.1112202,\"y\":0.4695467,\"width\":0.096845,\"height\":0.332484,\"tilt\":0.1081802,\"depth\":0.5425684,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1843425,\"y\":0.4366061,\"width\":0.1036658,\"height\":0.3610593,\"tilt\":0.1107519,\"depth\":0.8023405,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2478406,\"y\":0.387768,\"width\":0.087074,\"height\":0.3569934,\"tilt\":-0.2109267,\"depth\":1,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":3,\"x\":0.3332042,\"y\":0.3597044,\"width\":0,\"height\":0,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":4,\"x\":0.4277547,\"y\":0.3648088,\"width\":0,\"height\":0,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":5,\"x\":0.5099702,\"y\":0.3601868,\"width\":0,\"height\":0,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":6,\"x\":0.5703451,\"y\":0.3852192,\"width\":0,\"height\":0,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":7,\"x\":0.6475025,\"y\":0.4484144,\"width\":0,\"height\":0,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":8,\"x\":0.7449594,\"y\":0.5407653,\"width\":0.0878495,\"height\":0.3759935,\"tilt\":0.2081235,\"depth\":0.7012964,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":9,\"x\":0.8211623,\"y\":0.5760377,\"width\":0.104584,\"height\":0.3412485,\"tilt\":-0.1087966,\"depth\":0.886477,\"removed\":false,\"cut\":0,\"stress\":0.0685714,\"endpoint\":0},{\"id\":10,\"x\":0.8999113,\"y\":0.6029415,\"width\":0.101954,\"height\":0.3545935,\"tilt\":-0.0502029,\"depth\":0.5060566,\"removed\":false,\"cut\":0,\"stress\":0.0411429,\"endpoint\":0}]",
+        "interaction": "pair-committed",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "committedSignature": "[{\"id\":0,\"x\":0.1112202,\"y\":0.4695467,\"width\":0.096845,\"height\":0.332484,\"tilt\":0.1081802,\"depth\":0.5425684,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1843425,\"y\":0.4366061,\"width\":0.1036658,\"height\":0.3610593,\"tilt\":0.1107519,\"depth\":0.8023405,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2478406,\"y\":0.387768,\"width\":0.087074,\"height\":0.3569934,\"tilt\":-0.2109267,\"depth\":1,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":3,\"x\":0.3332042,\"y\":0.3597044,\"width\":0,\"height\":0,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":4,\"x\":0.4277547,\"y\":0.3648088,\"width\":0,\"height\":0,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":5,\"x\":0.5099702,\"y\":0.3601868,\"width\":0,\"height\":0,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":6,\"x\":0.5703451,\"y\":0.3852192,\"width\":0,\"height\":0,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":7,\"x\":0.6475025,\"y\":0.4484144,\"width\":0,\"height\":0,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":8,\"x\":0.7449594,\"y\":0.5407653,\"width\":0.0878495,\"height\":0.3759935,\"tilt\":0.2081235,\"depth\":0.7012964,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":9,\"x\":0.8211623,\"y\":0.5760377,\"width\":0.104584,\"height\":0.3412485,\"tilt\":-0.1087966,\"depth\":0.886477,\"removed\":false,\"cut\":0,\"stress\":0.0685714,\"endpoint\":0},{\"id\":10,\"x\":0.8999113,\"y\":0.6029415,\"width\":0.101954,\"height\":0.3545935,\"tilt\":-0.0502029,\"depth\":0.5060566,\"removed\":false,\"cut\":0,\"stress\":0.0411429,\"endpoint\":0}]",
+    "lifted": {
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "pair-lifted",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "keyboardCommitted": {
+      "state": {
+        "stage": 0,
+        "memory": 1,
+        "segmentCount": 11,
+        "removed": 5,
+        "signature": "[{\"id\":0,\"x\":0.1112202,\"y\":0.4695467,\"width\":0.096845,\"height\":0.332484,\"tilt\":0.1081802,\"depth\":0.5425684,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1843425,\"y\":0.4366061,\"width\":0.1036658,\"height\":0.3610593,\"tilt\":0.1107519,\"depth\":0.8023405,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2478406,\"y\":0.387768,\"width\":0.087074,\"height\":0.3569934,\"tilt\":-0.2109267,\"depth\":1,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":3,\"x\":0.3332042,\"y\":0.3597044,\"width\":0,\"height\":0,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":4,\"x\":0.4277547,\"y\":0.3648088,\"width\":0,\"height\":0,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":5,\"x\":0.5099702,\"y\":0.3601868,\"width\":0,\"height\":0,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":6,\"x\":0.5703451,\"y\":0.3852192,\"width\":0,\"height\":0,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":7,\"x\":0.6475025,\"y\":0.4484144,\"width\":0,\"height\":0,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":8,\"x\":0.7449594,\"y\":0.5407653,\"width\":0.0878495,\"height\":0.3759935,\"tilt\":0.2081235,\"depth\":0.7012964,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":9,\"x\":0.8211623,\"y\":0.5760377,\"width\":0.104584,\"height\":0.3412485,\"tilt\":-0.1087966,\"depth\":0.886477,\"removed\":false,\"cut\":0,\"stress\":0.0685714,\"endpoint\":0},{\"id\":10,\"x\":0.8999113,\"y\":0.6029415,\"width\":0.101954,\"height\":0.3545935,\"tilt\":-0.0502029,\"depth\":0.5060566,\"removed\":false,\"cut\":0,\"stress\":0.0411429,\"endpoint\":0}]",
+        "interaction": "pair-committed",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "buttonLifted": {
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "pair-lifted",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "buttonCommitted": {
+      "state": {
+        "stage": 0,
+        "memory": 1,
+        "segmentCount": 11,
+        "removed": 5,
+        "signature": "[{\"id\":0,\"x\":0.1112202,\"y\":0.4695467,\"width\":0.096845,\"height\":0.332484,\"tilt\":0.1081802,\"depth\":0.5425684,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1843425,\"y\":0.4366061,\"width\":0.1036658,\"height\":0.3610593,\"tilt\":0.1107519,\"depth\":0.8023405,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2478406,\"y\":0.387768,\"width\":0.087074,\"height\":0.3569934,\"tilt\":-0.2109267,\"depth\":1,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":3,\"x\":0.3332042,\"y\":0.3597044,\"width\":0,\"height\":0,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":4,\"x\":0.4277547,\"y\":0.3648088,\"width\":0,\"height\":0,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":5,\"x\":0.5099702,\"y\":0.3601868,\"width\":0,\"height\":0,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":6,\"x\":0.5703451,\"y\":0.3852192,\"width\":0,\"height\":0,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":7,\"x\":0.6475025,\"y\":0.4484144,\"width\":0,\"height\":0,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":true,\"cut\":0.8064,\"stress\":0.2592,\"endpoint\":0},{\"id\":8,\"x\":0.7449594,\"y\":0.5407653,\"width\":0.0878495,\"height\":0.3759935,\"tilt\":0.2081235,\"depth\":0.7012964,\"removed\":false,\"cut\":0.32,\"stress\":0.42,\"endpoint\":1},{\"id\":9,\"x\":0.8211623,\"y\":0.5760377,\"width\":0.104584,\"height\":0.3412485,\"tilt\":-0.1087966,\"depth\":0.886477,\"removed\":false,\"cut\":0,\"stress\":0.0685714,\"endpoint\":0},{\"id\":10,\"x\":0.8999113,\"y\":0.6029415,\"width\":0.101954,\"height\":0.3545935,\"tilt\":-0.0502029,\"depth\":0.5060566,\"removed\":false,\"cut\":0,\"stress\":0.0411429,\"endpoint\":0}]",
+        "interaction": "pair-committed",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "released": {
+      "state": {
+        "stage": 0,
+        "memory": 0,
+        "segmentCount": 11,
+        "removed": 0,
+        "signature": "[{\"id\":0,\"x\":0.1119882,\"y\":0.4706987,\"width\":0.096845,\"height\":0.3318469,\"tilt\":0.1101002,\"depth\":0.5459284,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":1,\"x\":0.1866465,\"y\":0.4400621,\"width\":0.1036658,\"height\":0.3589915,\"tilt\":0.1165119,\"depth\":0.8124205,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":2,\"x\":0.2598406,\"y\":0.409848,\"width\":0.1012489,\"height\":0.3305494,\"tilt\":0.1346733,\"depth\":0.8934147,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":3,\"x\":0.3461656,\"y\":0.3648862,\"width\":0.0925505,\"height\":0.3332896,\"tilt\":-0.0094504,\"depth\":0.3465129,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":4,\"x\":0.4208371,\"y\":0.358814,\"width\":0.0971503,\"height\":0.3431487,\"tilt\":0.0408477,\"depth\":0.8160229,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":5,\"x\":0.4987914,\"y\":0.3530854,\"width\":0.1049043,\"height\":0.3379707,\"tilt\":-0.1143855,\"depth\":0.3762077,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":6,\"x\":0.5801434,\"y\":0.3889401,\"width\":0.0934371,\"height\":0.3360684,\"tilt\":-0.0507996,\"depth\":0.7327009,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":7,\"x\":0.6561564,\"y\":0.4567072,\"width\":0.0952714,\"height\":0.3562588,\"tilt\":-0.1423042,\"depth\":0.4271562,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":8,\"x\":0.7329594,\"y\":0.5186853,\"width\":0.1021506,\"height\":0.3481422,\"tilt\":-0.1374765,\"depth\":0.5412964,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":9,\"x\":0.8149908,\"y\":0.5698705,\"width\":0.1033439,\"height\":0.3412485,\"tilt\":-0.1499394,\"depth\":0.8453341,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0},{\"id\":10,\"x\":0.8962084,\"y\":0.6022133,\"width\":0.1012251,\"height\":0.3545935,\"tilt\":-0.0748886,\"depth\":0.4813709,\"removed\":false,\"cut\":0,\"stress\":0,\"endpoint\":0}]",
+        "interaction": "field-released",
+        "pending": null
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "controls": [
+        {
+          "text": "keep two ends",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "lift latest",
+          "width": 117,
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "width": 117,
+          "height": 44
+        }
+      ],
+      "canvas": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "restoredAfterLift": true,
+    "restoredAfterRelease": true,
+    "consoleMessages": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "screenshotPath": "C:\\Users\\ASUS\\AppData\\Local\\hermes\\profiles\\autopoiesis\\cache\\scratch\\brush-v024-local-proofs\\interaction-390x844.png"
+  },
+  "diagnosticCount": 0,
+  "generatedAt": "2026-10-05T14:25:18.208Z"
+}

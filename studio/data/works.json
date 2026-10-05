@@ -2,6 +2,111 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-05",
+      "currentId": "brush",
+      "date": "2026-10-05",
+      "title": "The paint keeps the endpoints.",
+      "rawPath": "/studies/p5-brush/v024/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-05",
+        "note": "v024 leaves v021's grain lattice, v022's coagulating field, and v023's reciprocal station body. One suspended pigment bridge holds eleven connected segments; the first touch only holds attention, and a second distinct touch keeps the two endpoints while every segment between them lifts out as actual geometry. The far bank inherits the missing span, and lifting the latest pair reconstructs the exact preceding bridge."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The relation must live in the bridge geometry: the two endpoints need actual changed coordinates, every interior segment must become absent geometry with zero width and height, and the later bank must inherit stress. A dark overlay or highlighted pair cannot substitute for lifted pigment."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first view should read as one broad suspended pigment bridge, not a card wall, segmented diagram, grain lattice, coagulation field, or station ribbon. After a pair, the empty interval and leaning endpoints must be findable in the body itself."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "The first touch must only arm and a same-segment second touch must be refused. A distinct second touch, Enter, Space, and the pair control must commit the same deterministic span; Delete restores the exact preceding bridge and R releases memory."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The situated-attention mechanism is translated into reciprocal endpoint relation without animals, eyes, or look-back imagery. If the visitor merely selects a decorative marker, the little-critters translation has not entered the material rule."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v024 must leave v021's drag-cut lattice, v022's dwell cusp, and v023's approach-depart station body through a bridge composition, a two-touch endpoint task, and a memory model that removes the interval between surviving places."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v024 if it is only a segmented card wall, if the middle still exists under a dark tint, if the first touch commits, if endpoints do not change, if the second pair ignores the first absence, or if the caption is needed to understand that the paint keeps the endpoints."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v024-reciprocal-span",
+        "visitorInput": true,
+        "seed": "0x42525544",
+        "stages": 18,
+        "primitiveBudget": 44,
+        "segmentCount": 11,
+        "memoryWindow": 4,
+        "settledStage": 17,
+        "settledMemory": 4,
+        "settledRemovedSegments": 8,
+        "settledEndpointCount": 8,
+        "memoryRule": "two distinct attended endpoints keep altered geometry while every segment between them lifts out; later banks inherit the span stress",
+        "interactionRule": "the first touch only arms; a second distinct touch, Enter, Space, or the pair control commits one bounded endpoint pair; Delete lifts the latest pair; R releases memory",
+        "representationRupture": "grain lattice, continuous pigment field, and connected station ribbon -> one suspended pigment bridge-body whose intervals can be lifted",
+        "encounterRupture": "drag, press-and-hold, and approach-departure -> two discrete touches that complete a reciprocal endpoint relation",
+        "temporalRupture": "local cut, cumulative binder, and witness refusal -> relational removal in which surviving endpoints determine the missing middle",
+        "mediumRupture": "deterministic Canvas field and inline SVG body -> deterministic p5.js 2D bridge with layered material shading",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D reciprocal pigment span",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix and interaction readback passed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4234/works/brush-2026-10-05/",
+        "rawPreview": "http://127.0.0.1:4234/studies/p5-brush/v024/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4234/studies/p5-brush/v024/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v024 p5.js bridge before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus focused interaction readback",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across the local matrix and focused interaction readback",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 11 pigment segments, 0 spans, and 0 removed segments",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 17 with 4 bounded spans and 8 removed segments",
+        "pointerInteraction": "two real pointer clicks armed segment 4 without memory, a repeated second click on the same segment remained at memory 0, and a distinct pair changed memory to 1 with 5 removed segments",
+        "keyboardInteraction": "focused-field Enter changed memory from 0 to 1 and changed the bridge signature",
+        "liftInteraction": "Delete after a committed pair changed memory from 1 to 0 and restored the exact preceding bridge signature",
+        "buttonInteraction": "keep two ends changed memory from 0 to 1; lift latest restored the exact baseline; release field returned memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the canvas bridge visible while hiding readout and controls; no document overflow",
+        "canvasCaptures": "24 non-empty PNG captures written across the 20 raw/canonical matrix plus interaction and blind readbacks",
+        "proofDir": "research/qa/proofs/brush-v024-2026-10-05/",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "production readback and provider revision linkage between the deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate situated reciprocity into a material endpoint pact: one touched segment only holds attention; a second distinct segment answers and causes the pigment span between them to lift. The endpoints carry the relation's memory through changed geometry and the later bank receives inherited stress.",
+        "visibleConsequence": "A single touch leaves memory and bridge geometry unchanged except for a temporary attended endpoint; a second touch creates a real geometric absence between two altered endpoints. Later pairs are computed through the changed bridge.",
+        "falsifier": "If the first touch commits, if the missing middle is only an overlay, if either endpoint remains geometrically unchanged, if later pairs ignore the altered bank, or if the blind view reads as a decorative segmented wall, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, source composition, code, API surface, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Brush's pressure / coagulation / witness sequence and opens a relational-removal direction in which paint remembers not merely what was removed, but which two surviving endpoints made the removal possible."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v024 if the blind bridge does not read as one material body with a real missing interval, if the first touch writes memory, if endpoints do not change, or if a later pair ignores the prior absence.",
+        "lineage": "brush-2026-10-03"
+      }
+    },
+    {
       "id": "svg-2026-10-05",
       "currentId": "svg",
       "date": "2026-10-05",

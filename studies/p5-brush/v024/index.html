@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17191c">
+  <title>MUTINE — the paint keeps the endpoints</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash.startsWith('#interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=024">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-05"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="span-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v024 / RECIPROCAL SPAN</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="span-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v024</span></nav>
+
+      <figure class="span-work artwork-frame" aria-labelledby="work-title">
+        <div id="bridge-field" class="bridge-wrap" tabindex="0" role="application" aria-label="A suspended pigment bridge made from eleven connected segments. Touch one segment, then another: the endpoints stay and the material between them lifts out. A single touch only attends and does not change the bridge." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="bridge-readout" aria-live="polite"><span data-stage>stage 01 / 18</span><span data-memory>0 spans held</span></div>
+          <div class="bridge-controls" aria-label="Brush actions">
+            <button id="pair-control" data-gesture="pair" type="button">keep two ends</button>
+            <button id="lift-control" data-gesture="undo" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release field</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-brush-v024-reciprocal-span</span><span>touch &gt; answer &gt; lift</span></figcaption>
+      </figure>
+
+      <section class="span-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / ENCOUNTER SWITCH / v024</p>
+        <h1 id="work-title">The paint keeps<br><i>the endpoints.</i></h1>
+        <p class="span-lede">Two places must answer each other. The span between them is the part that cannot remain.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A PAIR, NOT A STROKE</p>
+          <p class="interaction-copy">Touch one pigment segment, then a different one. The first touch only holds attention. The second completes a relation: the endpoints stay as changed anchors while every segment between them lifts from the bridge. Delete or “lift latest” restores the exact preceding body.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The bridge is intact.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v024</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v023’s approach-and-depart witness with a two-endpoint relation. One attended segment does not write; a second endpoint makes the material between them disappear as actual geometry and shifts the far bank.</dd></div>
+          <div><dt>visitor action</dt><dd>Touch one segment, then another. Enter, Space, or the pair control uses the seeded endpoints; Delete lifts the latest span; R releases all remembered spans.</dd></div>
+          <div><dt>falsifier</dt><dd>If the first touch changes memory, if the missing middle is only a dark overlay, if the endpoints do not change, or if a later pair ignores the altered bridge, the reciprocal material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v024 if labels-off, controls-off viewing reads as a card wall or segmented diagram, if the relation is indistinguishable from a drag, or if the removed span needs the caption to be seen.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-03/">previous daily work</a><a href="/journal/#journal-brush-2026-10-05">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=024"></script>
+</body>
+</html>
