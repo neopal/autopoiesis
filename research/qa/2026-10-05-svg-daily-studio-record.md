@@ -3,7 +3,7 @@
 - **Target/date:** Pure SVG — `2026-10-05`
 - **Work:** *The sheet refuses a quick touch.*
 - **Status:** **candidate / held**
-- **Canonical URL:** `https://autopoiesis-nine.vercel.app/works/svg-2026-10-05/` (pending production deployment)
+- **Canonical URL:** `https://autopoiesis-nine.vercel.app/works/svg-2026-10-05/`
 - **Raw study:** `/studies/pure-svg/v023/`
 
 ## Changed rule
@@ -40,6 +40,18 @@ v023 breaks v020's singular compound contour, v021's pressure ribbon, and v022's
 - Blind preview: field and 5 chamber outlines remained visible while readout, controls, labels, and hold mark were hidden.
 - Local Journal and Pure SVG current readbacks: anchor/card present at `390×844` with no overflow.
 
+## Production verification
+
+- Deployment: `https://autopoiesis-mkao3uddy-lairpa-hotmailfrs-projects.vercel.app`; stable alias `https://autopoiesis-nine.vercel.app/`; Vercel state `READY`.
+- Production probe: `20/20` matrix runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw/canonical, normal/reduced motion.
+- Production diagnostics: `0` console, page, failed-request, or HTTP 400+ diagnostics.
+- Production overflow: `0` failures; all matrix runs reported target `innerWidth`, equal client width, and no scroll-width overflow.
+- Production interaction: tap refused; chamber selection did not write; Enter wrote `0 → 1`; Delete restored the exact prior signature; `R` returned memory to `0`; real `650ms` hold wrote `0 → 1`; `180ms` hold stayed at `0`; all three controls measured `44px`.
+- Production blind preview: sheet visible with five chambers and four deterministic drying stages; readout and controls hidden; omitted labels/hold marks absent; no horizontal overflow.
+- Deployed Journal: HTTP `200`, anchor `#journal-svg-2026-10-05` and title present.
+- Deployed Pure SVG current: HTTP `200`, `svg-2026-10-05` card/anchor present.
+- Deployed canonical work: HTTP `200`, title and record anchor present; tableau mounted in the production matrix.
+
 ## Unresolved
 
-Independent caption-free perceptual comparison remains open: whether the blind sheet immediately reads as a single material body with negative chambers rather than an attractive decorated plate. Production readback and provider revision linkage remain pending.
+Independent caption-free perceptual comparison remains open: whether the blind sheet immediately reads as a single material body with negative chambers rather than an attractive decorated plate. Provider revision linkage between the manual Vercel deployment and the GitHub SHA is also unresolved. The work therefore remains **candidate / held**, not exhibition-ready.
