@@ -2,6 +2,115 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-10-05",
+      "currentId": "portrait",
+      "date": "2026-10-05",
+      "title": "The portrait keeps a blind side.",
+      "rawPath": "/studies/self-portrait/v021/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-10-05",
+        "note": "v021 breaks v018's serial pressure register, v019's addressed glyph field, and v020's oblique material relief. An irregular WebGL mobile of eleven suspended facets replaces the relief: proximity only arms the nearest facet, departure makes it turn its blind side, and a non-adjacent facet answers through changed depth, twist, and shadow. Attention memory changes later replies; lifting the latest departure reconstructs the exact preceding mobile."
+      },
+      "critiques": [
+        {
+          "persona": "Spatial-material critic",
+          "argument": "The event must live in the WebGL solids: the approached facet needs changed rotation and depth, while the non-adjacent answer needs changed depth, twist, and shadow displacement. A cursor ring, tint, or counter cannot substitute for moved geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as an irregular suspended mobile around a blind core, not a face, aperture, serial register, oblique relief, or generic 3D card wall. After departure, local aversion and the remote answer must be findable in the silhouettes."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Proximity may arm but must not write. A short pointer tap must be refused; leaving the field, the deterministic control, Enter, and Space must commit the same departure. Delete restores the exact preceding mobile and R releases bounded attention memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v021 must break v018's serial pressure register, v019's addressed glyph field, and v020's material relief through a WebGL depth composition, an approach/departure encounter, and reciprocal aversion that refuses direct mirroring."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The little-critters mechanism is translated as situated reciprocity without animals or eyes: attention is an arm state, departure is causality, and a distant abstract facet carries the response. If the visitor merely controls a decorative cursor, the translation fails."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v021 if the mobile is a decorative card wall, if the remote answer is only a tint or overlay, if proximity or a tap commits, if later answers ignore memory, or if the caption is needed to understand that the portrait kept a blind side."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v021-blind-side-mobile",
+        "visitorInput": true,
+        "seed": "0x53504641",
+        "stages": 17,
+        "facetCount": 11,
+        "memoryWindow": 4,
+        "settledStage": 16,
+        "settledMemory": 4,
+        "settledAverted": 4,
+        "settledAnswered": 4,
+        "primitiveBudget": 66,
+        "memoryRule": "a measured approach-departure turns the local facet away and gives a non-adjacent facet changed depth, twist, and shadow; bounded attention memory changes later replies",
+        "interactionRule": "proximity arms without writing; departure, Enter, Space, or the blind-side control commits one bounded turn; pointer taps are refused; Delete lifts the latest; R releases attention",
+        "representationRupture": "serial pressure register, addressed glyph field, and oblique material relief -> depth-separated WebGL mobile of abstract suspended facets",
+        "encounterRupture": "pressure command, keyboard address, and whole-object hold -> proximity arm followed by departure, with release as the causal event",
+        "temporalRupture": "negative interval, clause debt, and redistributed load -> reciprocal aversion memory that changes which distant facet answers",
+        "mediumRupture": "HTML/CSS DOM geometry and Canvas 2D relief -> deterministic p5.js 1.11.3 WEBGL rendering",
+        "replay": true,
+        "renderer": "deterministic p5.js WEBGL blind-side mobile",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix and interaction readback passed; candidate held pending independent caption-free perceptual review, production readback, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4231/works/portrait-2026-10-05/",
+        "rawPreview": "http://127.0.0.1:4231/studies/self-portrait/v021/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4231/studies/self-portrait/v021/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v021 WebGL blind-side mobile before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 370px wide × 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across the local matrix and focused readbacks",
+        "normalState": "normal-motion raw runs opened at stage 00 with 11 facets, 0 turns, 0 averted facets, and 0 answering facets",
+        "reducedMotionState": "reduced-motion static blind preview settled at stage 16 with 4 bounded turns, 4 averted facets, and 4 answering facets",
+        "pointerInteraction": "a real pointer tap left memory at 0 and reported pointer-tap-refused",
+        "buttonInteraction": "leave a blind side changed memory from 0 to 1",
+        "keyboardInteraction": "focused-field Enter changed memory from 1 to 2",
+        "liftInteraction": "Delete after Enter changed memory from 2 to 1 and restored the exact preceding mobile signature",
+        "releaseInteraction": "R returned to memory 0",
+        "departureInteraction": "a real pointer approach followed by leaving the field changed memory from 0 to 1",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the WebGL field visible while hiding readout, controls, and hint; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered the #journal-portrait-2026-10-05 anchor and contained the recorded title",
+        "current": "local Self portrait current readback rendered the portrait-2026-10-05 latest artwork card with no overflow",
+        "canvasCaptures": "24 non-empty PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, and current readbacks",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "production verification",
+          "provider revision linkage between the eventual deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate situated reciprocity into a self-portrait rule: proximity arms one abstract facet, departure makes it avert through actual 3D rotation and depth, and a non-adjacent facet answers through changed depth, twist, and shadow geometry.",
+        "visibleConsequence": "The blind field is an irregular WebGL mobile around a dark core, not a character scene. After departure, the approached facet turns away and a distant facet changes its solid orientation and shadow; later departures inherit bounded attention memory.",
+        "falsifier": "If proximity or a tap commits, if the remote answer is only a tint or overlay, if the mobile reads as a generic 3D card wall, or if later departures ignore attention memory, the translation fails.",
+        "antiCopy": "No animals, eyes, character design, paper scene, source palette, composition, surface style, API surface, or head-turning imagery is reproduced.",
+        "directionConsequence": "Closes Self portrait's pressure-register, syntax-seal, and load-bearing relief family and opens a self-observation direction where the portrait can refuse direct reciprocity through depth and non-local answer geometry."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v021 if local aversion and distant answer are not legible in the solids, if proximity or a tap commits, if later replies ignore memory, or if the blind field reads as a decorative card wall.",
+        "lineage": "portrait-2026-10-04"
+      }
+    },
+    {
       "id": "typography-2026-10-05",
       "currentId": "typography",
       "date": "2026-10-05",

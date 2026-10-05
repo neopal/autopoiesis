@@ -1,0 +1,60 @@
+{
+  "target": "portrait-v021",
+  "viewportRuns": "20/20",
+  "requiredViewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "normalAndReducedMotion": true,
+  "diagnosticsCount": 0,
+  "overflowCount": 0,
+  "interaction": "pointer tap remained memory-neutral; control 0→1; Enter 1→2; Delete 2→1 exact restoration; R →0; approach/departure 0→1",
+  "blindPreview": {
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "ready": true,
+    "canvasVisible": true,
+    "canvas": {
+      "width": 390,
+      "height": 844
+    },
+    "state": {
+      "stage": 16,
+      "memory": 4,
+      "averted": 4,
+      "answered": 4,
+      "interaction": "sequence",
+      "interactive": false,
+      "blind": true,
+      "signature": "{\"composition\":\"webgl-blind-side-mobile\",\"stage\":16,\"facets\":[[0,-0.15105,0.09833,0.11179,0.17576,0.45748,0.10288,-0.23832,-0.04072,0,0,\"quiet\"],[1,-0.11758,-0.01128,0.07651,0.184,0.45931,0.15956,-0.58099,0.20758,0,1,\"averted\"],[2,-0.08835,-0.11032,0.0618,0.19464,0.40964,0.09651,0.22126,-0.18446,0,1,\"averted\"],[3,-0.06279,-0.07067,0.31622,0.21097,0.40147,0.17857,-0.05979,0.2825,0.26,0.7,\"answered\"],[4,-0.03964,0.08794,0.25037,0.21279,0.40276,0.0815,0.00781,-0.01672,0,0,\"quiet\"],[5,0.01181,0.131,0.23685,0.18094,0.43682,0.08359,0.03629,-0.19298,0.18,0.7,\"answered\"],[6,0.02432,-0.02175,0.03642,0.17833,0.45954,0.17848,0.43837,-0.26027,0,1,\"averted\"],[7,0.05577,-0.10624,0.22302,0.21027,0.45249,0.20744,0.09316,-0.04091,0,0,\"quiet\"],[8,0.0846,-0.06112,0.33854,0.20568,0.41354,0.13567,0.12359,0.20119,0.22,0.7,\"answered\"],[9,0.13489,0.05406,0.3387,0.20088,0.39685,0.17565,0.23335,0.25382,0.3,0.7,\"answered\"],[10,0.17142,0.10661,0.05668,0.1811,0.38404,0.08115,0.63079,-0.22456,0,1,\"averted\"]]}"
+    },
+    "hiddenFurniture": true
+  },
+  "touchTargets": [
+    {
+      "label": "leave a blind side",
+      "width": 370,
+      "height": 44
+    },
+    {
+      "label": "lift latest turn",
+      "width": 370,
+      "height": 44
+    },
+    {
+      "label": "release attention",
+      "width": 370,
+      "height": 44
+    }
+  ],
+  "screenshots": 24,
+  "unresolved": [
+    "independent caption-free perceptual comparison",
+    "production readback",
+    "provider revision linkage"
+  ]
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d14">
+  <title>MUTINE — The portrait keeps a blind side.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=021">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-05"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v021-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v021 / BLIND SIDE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v021-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v021</span></nav>
+
+      <figure class="v021-work artwork-frame" aria-labelledby="work-title">
+        <div id="blind-field" class="blind-field" tabindex="0" role="application" aria-label="A suspended three-dimensional mobile of abstract plates. Move near one plate, then leave the field: the plate turns away and a distant plate answers. A tap is refused." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 blind-side turns</span></div>
+          <div class="field-controls" aria-label="Blind-side actions">
+            <button id="approach-control" data-gesture="approach" type="button">leave a blind side</button>
+            <button id="lift-turn" data-gesture="lift" type="button">lift latest turn</button>
+            <button id="release-attention" data-gesture="release" type="button">release attention</button>
+          </div>
+          <p class="field-hint" data-hint>move close, then leave</p>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v021-blind-side</span><span>approach &gt; depart &gt; answer</span></figcaption>
+      </figure>
+
+      <section class="v021-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / DIRECTION SWITCH / v021</p>
+        <h1 id="work-title">The portrait keeps<br><i>a blind side.</i></h1>
+        <p class="v021-lede">A self-image does not turn toward every witness. Nearness only arms a suspended facet; leaving makes it avert, and a distant facet inherits the unanswered attention.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">APPROACH, THEN DEPART</p>
+          <p class="interaction-copy">Move into the mobile and pause near a facet. Leave the field to commit the turn. A short tap is refused. Enter, Space, or “leave a blind side” uses a deterministic departure; Delete lifts the latest turn; R releases the bounded attention memory.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The mobile is not looking back.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v021</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v018’s serial pressure register, v019’s addressed glyph field, and v020’s whole-object load with a suspended WebGL mobile. Proximity arms one facet; departure turns it away and changes a non-adjacent facet’s depth and shadow.</dd></div>
+          <div><dt>visitor action</dt><dd>Approach, then leave. Proximity never writes history. Enter, Space, or the control commits the seeded departure; Delete lifts the latest turn; R releases the field.</dd></div>
+          <div><dt>falsifier</dt><dd>If the remote answer is only a tint, if proximity or a tap commits, if the first view reads as a decorative 3D card wall, or if later departures ignore attention memory, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v021 if the local aversion and distant answer are not findable in the plate geometry without its caption, or if the mobile cannot remember which side it refused.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-04/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-05">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=021"></script>
+</body>
+</html>
