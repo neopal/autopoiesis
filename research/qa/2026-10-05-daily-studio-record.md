@@ -82,5 +82,5 @@ The active JSON registers parsed successfully. All six currents were accounted f
 - Interaction proof: first touch `0 → 0`; repeated same-segment touch `0 → 0`; distinct pair `0 → 1` with 5 removed segments; Enter and button commit; Delete/lift restore exact signature; release returns memory to `0`.
 - Reduced-motion settled state: stage `17`, memory `4`, 8 removed segments. Normal state: stage `0`, memory `0`, 0 removed segments.
 - Production browser proof: **20/20** raw/canonical runs at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal/reduced motion; **0** diagnostics, **0** overflow failures, **10/10** tableau-first canonical order checks.
-- Production readbacks: stable `/studio/data/works.json`, `/journal/`, `/currents/brush/`, and `/works/brush-2026-10-05/` returned HTTP `200`; Journal rendered `#journal-brush-2026-10-05` and the work title. Deployment: `dpl_3K58MDegm6yeuwTKiZxA8eaGN1VP` at `https://autopoiesis-nine.vercel.app/`.
+- Production readbacks: stable `/studio/data/works.json`, `/journal/`, `/currents/brush/`, and `/works/brush-2026-10-05/` returned HTTP `200`; Journal rendered `#journal-brush-2026-10-05` and the work title. Stable production alias: `https://autopoiesis-nine.vercel.app/`.
 - Candidate remains held pending provider revision linkage and independent caption-free perceptual review.
