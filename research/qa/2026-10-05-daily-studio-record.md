@@ -68,11 +68,11 @@ There are **0 complete records in the working register and 0 complete records in
 1. Keep the one no-record slot held; create no catalogue entry without a real work and its filesystem evidence.
 2. Resolve the seven missing `lifecycle` fields as a schema task; do not infer `active` or `complete` in QA prose.
 3. Keep all five 2026-10-05 candidate-held works pending the independent caption-free perceptual gate and any remaining production/provider-revision evidence declared by their records.
-4. Local and production browser, interaction, responsive, routing, and deterministic gates passed for Brush v024. Local browser, interaction, responsive, routing, and deterministic gates passed for WebGPU v023; WebGPU production readback, independent caption-free perceptual review, and provider revision linkage remain open.
+4. Local and production browser, interaction, responsive, routing, and deterministic gates passed for Brush v024 and WebGPU v023; independent caption-free perceptual review and provider revision linkage remain open for both.
 
 ## Evidence summary
 
-The active JSON registers parsed successfully. All six currents were accounted for on 2026-10-05: five real candidate-held records and one held/no-record slot in the target rotation's remaining work. Duplicate detection, current-ID validation, canonical pages, raw tableaux, Journal anchors and links, critique coverage, JavaScript syntax, the full Node test suite, whitespace checks, and the Brush v024 local and production browser matrices passed. The WebGPU v023 local browser and interaction matrix also passed. The lifecycle audit remains incomplete for seven legacy records, and WebGPU production readback, provider revision linkage plus the independent caption-free perceptual gate remain open.
+The active JSON registers parsed successfully. All six currents were accounted for on 2026-10-05: five real candidate-held records and one held/no-record slot in the target rotation's remaining work. Duplicate detection, current-ID validation, canonical pages, raw tableaux, Journal anchors and links, critique coverage, JavaScript syntax, the full Node test suite, whitespace checks, and the Brush v024 and WebGPU v023 local and production browser matrices passed. The lifecycle audit remains incomplete for seven legacy records, and provider revision linkage plus the independent caption-free perceptual gate remain open.
 
 ## Brush v024 execution record
 
@@ -92,5 +92,7 @@ The active JSON registers parsed successfully. All six currents were accounted f
 - Local browser proof: **20/20** raw/canonical runs across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal/reduced motion; **0** diagnostics and **0** overflow failures.
 - Interaction proof: partial `A` remained memory-neutral; incomplete seal remained at `0`; `A-C-B` plus Enter committed `0 → 1` with omitted triangles; Delete restored the exact baseline; equivalent token-button path committed; release returned memory to `0`; all controls were at least `44px` high.
 - Blind reduced-motion preview: canvas visible, editorial furniture hidden, `scrollWidth = innerWidth = 390`, settled memory `3`, six apertures, and `44` open triangles.
+- Production browser proof: **20/20** raw/canonical runs across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal/reduced motion; **0** diagnostics and **0** overflow failures; **10/10** tableau-first canonical order checks.
+- Production readbacks: stable `/studio/data/works.json`, `/journal/`, `/currents/webgpu/`, and `/works/webgpu-2026-10-05/` returned HTTP `200`; Journal rendered `#journal-webgpu-2026-10-05` and the title. Stable production alias: `https://autopoiesis-nine.vercel.app/`.
 - Targeted v023 tests: **5 passed**. Full `npm test`: **675 passed, 0 failed**. `node --check` for the v023 engine and sketch passed. `git diff --check`: **PASS**.
-- Candidate remains held pending production readback, independent caption-free perceptual comparison, and provider revision linkage.
+- Candidate remains held pending independent caption-free perceptual comparison and provider revision linkage.

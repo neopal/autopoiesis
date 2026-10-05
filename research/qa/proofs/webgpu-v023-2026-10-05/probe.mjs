@@ -76,6 +76,7 @@ for (const reducedMotion of [false, true]) {
         assert.ok(metrics.canvasVisible, `raw canvas must be visible at ${width}x${height}`);
       } else {
         await page.locator('iframe').first().waitFor({ state: 'visible', timeout: 15000 });
+        await page.waitForFunction(() => Boolean(document.querySelector('iframe')?.contentDocument?.querySelector('#membrane-field')), null, { timeout: 15000 });
         const frame = page.frames().find((candidate) => candidate !== page.mainFrame() && candidate.url().includes('/studies/webgpu/v023/'));
         assert.ok(frame, `canonical v023 iframe must load at ${width}x${height}`);
         await frame.waitForFunction(() => Boolean(window.__mutineWebGPUV023), null, { timeout: 15000 });
