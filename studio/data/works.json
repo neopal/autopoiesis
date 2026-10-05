@@ -63,7 +63,7 @@
         "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix and interaction readback passed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "status": "local and production headless browser matrices and interaction readback passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4234/works/brush-2026-10-05/",
         "rawPreview": "http://127.0.0.1:4234/studies/p5-brush/v024/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4234/studies/p5-brush/v024/?preview=1&static=1&blind=1",
@@ -85,9 +85,18 @@
         "proofDir": "research/qa/proofs/brush-v024-2026-10-05/",
         "diagnosticCount": 0,
         "overflowCount": 0,
+        "productionRoute": "https://autopoiesis-nine.vercel.app/works/brush-2026-10-05/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v024/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v024/?preview=1&static=1&blind=1",
+        "productionDeployment": "dpl_3K58MDegm6yeuwTKiZxA8eaGN1VP",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionTableauFirst": "10/10 production canonical runs mounted the v024 p5.js bridge before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the production matrix and focused interaction readback",
+        "productionJournalReadback": "Production /journal/ rendered #journal-brush-2026-10-05 and the title The paint keeps the endpoints.; HTTP 200",
+        "productionCatalogReadback": "Production /studio/data/works.json returned HTTP 200 with brush-2026-10-05, title, and journal anchor; /currents/brush/ and the canonical work route returned HTTP 200",
         "unresolved": [
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
-          "production readback and provider revision linkage between the deployment and GitHub SHA"
+          "provider revision linkage between the deployment and GitHub SHA"
         ]
       },
       "source": {

@@ -68,11 +68,11 @@ There are **0 complete records in the working register and 0 complete records in
 1. Keep the two no-record slots held; create no catalogue entry without a real work and its filesystem evidence.
 2. Resolve the seven missing `lifecycle` fields as a schema task; do not infer `active` or `complete` in QA prose.
 3. Keep all four 2026-10-05 candidate-held works pending the independent caption-free perceptual gate and any remaining production/provider-revision evidence declared by their records.
-4. Local browser, interaction, responsive, and deterministic gates were re-run for Brush v024 and passed; production readback and independent caption-free perceptual review remain open.
+4. Local and production browser, interaction, responsive, routing, and deterministic gates passed for Brush v024; independent caption-free perceptual review and provider revision linkage remain open.
 
 ## Evidence summary
 
-The active JSON registers parsed successfully. All six currents were accounted for on 2026-10-05: four real candidate-held records and two held/no-record slots in the target rotation's remaining work. Duplicate detection, current-ID validation, canonical pages, raw tableaux, Journal anchors and links, critique coverage, JavaScript syntax, the full Node test suite, whitespace checks, and the Brush v024 local browser matrix passed. The lifecycle audit remains incomplete for seven legacy records, and production readback/provider revision linkage plus the independent caption-free perceptual gate remain open.
+The active JSON registers parsed successfully. All six currents were accounted for on 2026-10-05: four real candidate-held records and two held/no-record slots in the target rotation's remaining work. Duplicate detection, current-ID validation, canonical pages, raw tableaux, Journal anchors and links, critique coverage, JavaScript syntax, the full Node test suite, whitespace checks, and the Brush v024 local and production browser matrices passed. The lifecycle audit remains incomplete for seven legacy records, and provider revision linkage plus the independent caption-free perceptual gate remain open.
 
 ## Brush v024 execution record
 
@@ -81,5 +81,6 @@ The active JSON registers parsed successfully. All six currents were accounted f
 - Local browser proof: **20/20** raw/canonical runs across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal/reduced motion; **0** diagnostics and **0** overflow failures.
 - Interaction proof: first touch `0 → 0`; repeated same-segment touch `0 → 0`; distinct pair `0 → 1` with 5 removed segments; Enter and button commit; Delete/lift restore exact signature; release returns memory to `0`.
 - Reduced-motion settled state: stage `17`, memory `4`, 8 removed segments. Normal state: stage `0`, memory `0`, 0 removed segments.
-- Proof directory: `research/qa/proofs/brush-v024-2026-10-05/`.
-- Candidate remains held pending production readback, provider revision linkage, and independent caption-free perceptual review.
+- Production browser proof: **20/20** raw/canonical runs at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal/reduced motion; **0** diagnostics, **0** overflow failures, **10/10** tableau-first canonical order checks.
+- Production readbacks: stable `/studio/data/works.json`, `/journal/`, `/currents/brush/`, and `/works/brush-2026-10-05/` returned HTTP `200`; Journal rendered `#journal-brush-2026-10-05` and the work title. Deployment: `dpl_3K58MDegm6yeuwTKiZxA8eaGN1VP` at `https://autopoiesis-nine.vercel.app/`.
+- Candidate remains held pending provider revision linkage and independent caption-free perceptual review.
