@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1016">
+  <meta name="description" content="A continuous WebGPU-ready membrane where a typed three-token witness opens remembered apertures in a collective surface.">
+  <title>MUTINE — The crowd keeps the unspoken.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=023">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-05"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="membrane-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v023 / continuous membrane</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="membrane-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v023</span></nav>
+      <section class="membrane-work" aria-label="WebGPU daily work">
+        <figure class="membrane-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <canvas id="membrane-field" role="img" aria-label="A continuous three-dimensional membrane with remembered apertures opened by a typed witness" tabindex="0" aria-keyshortcuts="A B C D Enter Delete Backspace Escape R"></canvas>
+          <div class="membrane-readout" role="status" aria-live="polite"><span data-stage>membrane 01 / 21</span><span data-memory>0 witnesses</span><span data-draft>draft —</span><span data-renderer>CANVAS / INITIALISING</span></div>
+          <div class="membrane-status" data-status>type three tokens · seal the witness</div>
+          <div class="membrane-controls" aria-label="Work gestures">
+            <div class="token-row" aria-label="Witness tokens">
+              <button type="button" data-token="A" aria-label="Add token A">A</button>
+              <button type="button" data-token="B" aria-label="Add token B">B</button>
+              <button type="button" data-token="C" aria-label="Add token C">C</button>
+              <button type="button" data-token="D" aria-label="Add token D">D</button>
+            </div>
+            <button type="button" data-gesture="seal">seal witness</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release membrane</button>
+          </div>
+          <figcaption><span>WEBGPU / V023 / DAILY WORK</span><span>tokens → aperture → residue</span></figcaption>
+        </figure>
+        <aside class="membrane-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a population of cells. It is one continuous skin: a shared surface whose missing triangles are its remembered speech.</p></div>
+          <div><span>changed rule</span><p>A three-token witness does not draw a signal on the image. It cuts two non-local apertures into the membrane, folds their surrounding vertices, and changes the route of the next witness.</p></div>
+          <div><span>progression</span><p>A draft is not history. Only a complete seal commits; Delete lifts the latest witness and R releases the bounded archive. The same path works with keys or the four token buttons.</p></div>
+        </aside>
+      </section>
+      <section class="membrane-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V023 / DAILY WORK</p><h1 id="work-title">The crowd keeps<br><i>the unspoken.</i></h1></div>
+        <p class="membrane-premise">A collective record is not a row of agents. It is a skin that remembers what the group could not say by leaving openings in itself.</p>
+      </section>
+      <section class="membrane-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a complete token witness changes actual mesh vertices and omits real triangles as two non-local apertures; accumulated residue routes later witnesses differently and exact lifting rebuilds the prior membrane. Promotion depends on whether the blind surface reads as one continuous body rather than a decorated mesh.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>token → aperture → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=023a"></script>
+</body>
+</html>
