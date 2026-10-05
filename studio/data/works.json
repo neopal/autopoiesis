@@ -60,10 +60,10 @@
         "replay": true,
         "renderer": "deterministic p5.js WEBGL blind-side mobile",
         "measured": true,
-        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix and interaction readback passed; candidate held pending independent caption-free perceptual review, production readback, and provider revision linkage",
+        "status": "local and production headless browser matrices plus interaction readback passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4231/works/portrait-2026-10-05/",
         "rawPreview": "http://127.0.0.1:4231/studies/self-portrait/v021/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4231/studies/self-portrait/v021/?preview=1&static=1&blind=1",
@@ -85,12 +85,12 @@
         "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the WebGL field visible while hiding readout, controls, and hint; innerWidth equaled clientWidth and scrollWidth",
         "journal": "local Journal readback rendered the #journal-portrait-2026-10-05 anchor and contained the recorded title",
         "current": "local Self portrait current readback rendered the portrait-2026-10-05 latest artwork card with no overflow",
+        "production": "https://autopoiesis-nine.vercel.app readback passed: deployed JSON contains portrait-2026-10-05; Journal renders the title; canonical work tableau mounts; 20/20 raw/canonical viewport runs plus interaction, Journal, and current readbacks passed with zero diagnostics and zero overflow",
         "canvasCaptures": "24 non-empty PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, and current readbacks",
         "diagnosticCount": 0,
         "overflowCount": 0,
         "unresolved": [
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
-          "production verification",
           "provider revision linkage between the eventual deployment and GitHub SHA"
         ]
       },
