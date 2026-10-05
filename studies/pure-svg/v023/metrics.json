@@ -1,0 +1,23 @@
+{
+  "id": "pure-svg-v023-drying-sheet",
+  "visitorInput": true,
+  "seed": "0x53564753",
+  "stages": 16,
+  "primitiveBudget": 1,
+  "chamberCount": 5,
+  "memoryWindow": 4,
+  "holdThresholdMs": 520,
+  "settledStage": 15,
+  "settledMemory": 4,
+  "settledDryings": 4,
+  "memoryRule": "a dwell above the material threshold seals the held chamber, opens a non-local chamber, and slightly bridges a third; the changed topology is inherited by later holds",
+  "interactionRule": "a press-and-hold above 520ms commits one bounded topology change; short taps and short holds are refused; the dry control, Enter, or Space commits deterministically; Delete lifts the latest drying",
+  "representationRupture": "faceted body, compound contour, and pressure ribbon -> one monolithic SVG sheet whose negative chambers are the material",
+  "encounterRupture": "approach-departure, clause selection, and traveled drag -> dwell threshold: time spent holding is the only committing gesture",
+  "temporalRupture": "edge exchange and inherited width -> discrete topology memory in which sealing one chamber opens another",
+  "mediumRupture": "multiple SVG object families -> one even-odd compound path with five material voids",
+  "replay": true,
+  "renderer": "deterministic inline SVG compound drying sheet",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
+}

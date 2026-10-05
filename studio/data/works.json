@@ -2,6 +2,111 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-05",
+      "currentId": "svg",
+      "date": "2026-10-05",
+      "title": "The sheet refuses a quick touch.",
+      "rawPath": "/studies/pure-svg/v023/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-05",
+        "note": "v023 breaks v020's singular compound contour, v021's pressure ribbon, and v022's six-face folding object. One monolithic SVG sheet holds five negative chambers; a press-and-hold above 520ms seals the held void, opens a non-local void, and shifts a third as a bridge. The changed topology is inherited by later dryings, and lifting the latest drying reconstructs the exact preceding sheet signature."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The rule must live in the compound path: a long hold must shrink the held chamber and enlarge a non-local chamber. A timer, readout, or coloured cursor cannot substitute for changed negative geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first view should read as one heavy sheet with five punched chambers, not a ribbon, contour, faceted body, or diagram. After a hold, the sealed and opened voids must be findable by their silhouettes."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "The work must ask for time, not travel: a short tap and short hold are refused, while a real dwell, the dry control, Enter, and Space commit the same deterministic topology event. Delete restores the exact previous sheet and R releases it."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v023 must leave v020's compound contour, v021's pressure ribbon, and v022's folded facets behind through a monolithic negative-space sheet, a dwell-based encounter, and a threshold that changes what counts as a chamber."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v023 if the sheet is only a decorated plate, if sealing and opening are not visible in the voids, if a tap or short hold writes memory, if later holds ignore topology memory, or if the blind image needs the caption to become material."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v023-drying-sheet",
+        "visitorInput": true,
+        "seed": "0x53564753",
+        "stages": 16,
+        "primitiveBudget": 1,
+        "chamberCount": 5,
+        "memoryWindow": 4,
+        "holdThresholdMs": 520,
+        "settledStage": 15,
+        "settledMemory": 4,
+        "settledDryings": 4,
+        "memoryRule": "a dwell above the material threshold seals the held chamber, opens a non-local chamber, and slightly bridges a third; the changed topology is inherited by later holds",
+        "interactionRule": "a press-and-hold above 520ms commits one bounded topology change; short taps and short holds are refused; the dry control, Enter, or Space commits deterministically; Delete lifts the latest drying",
+        "representationRupture": "faceted body, compound contour, and pressure ribbon -> one monolithic SVG sheet whose negative chambers are the material",
+        "encounterRupture": "approach-departure, clause selection, and traveled drag -> dwell threshold: time spent holding is the only committing gesture",
+        "temporalRupture": "edge exchange and inherited width -> discrete topology memory in which sealing one chamber opens another",
+        "mediumRupture": "multiple SVG object families -> one even-odd compound path with five material voids",
+        "replay": true,
+        "renderer": "deterministic inline SVG compound drying sheet",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision verification"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4232/works/svg-2026-10-05/",
+        "rawPreview": "http://127.0.0.1:4232/studies/pure-svg/v023/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4232/studies/pure-svg/v023/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v023 inline-SVG compound drying sheet before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "zero console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, and current readbacks",
+        "networkProbe": "zero failed requests and zero HTTP 400+ responses across the local matrix and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 with one compound sheet, 5 chambers, and 0 dryings",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 15 with 4 bounded dryings, sealed voids, and opened non-local voids",
+        "pointerInteraction": "a real pointer tap left memory and geometry unchanged and reported hold-too-short",
+        "keyboardInteraction": "focused-field key 1 selected a chamber without writing; Enter changed memory from 0 to 1 and changed the chamber silhouettes",
+        "holdInteraction": "a real 650ms pointer hold changed memory from 0 to 1 and changed the held and remote chamber signatures; Delete after the hold returned memory to 0",
+        "liftInteraction": "Delete after Enter changed memory from 1 to 0 and restored the exact preceding sheet signature",
+        "releaseInteraction": "R returned to the deterministic baseline with memory 0",
+        "buttonInteraction": "dry this chamber changed memory from 0 to 1",
+        "shortHoldInteraction": "a real 180ms pointer hold remained at memory 0 and reported hold-too-short",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the compound SVG sheet and 5 chamber outlines visible while hiding readout, controls, labels, and hold mark; no document overflow",
+        "journal": "local Journal readback rendered the #journal-svg-2026-10-05 anchor and contained the recorded title",
+        "current": "local Pure SVG current readback rendered the svg-2026-10-05 latest artwork card with no overflow",
+        "canvasCaptures": "24 non-empty PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, and current readbacks",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "production readback and provider revision linkage"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Natural drawing tools treat pressure, density, grain, and vector fields as programmable material forces; material changes how geometry is produced and remembered rather than decorating finished geometry.",
+        "translatedRule": "Refuse p5.brush's brush surface, hatching, watercolor, and API. Translate resistance into a dwell threshold inside Pure SVG: time held above 520ms is a material force that seals one negative chamber, opens another elsewhere, and slightly shifts a third. The altered topology becomes material memory for the next hold.",
+        "visibleConsequence": "The blind field is one heavy compound sheet with five voids. After a long hold, one void narrows and another expands in their actual SVG silhouettes; no brush mark or overlay carries the event.",
+        "falsifier": "If dwell changes only a readout, color, or cursor, if the remote opening is not actual path geometry, if short touches commit, or if the next hold ignores the changed voids, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, palette, API surface, source examples, or source composition is reproduced.",
+        "directionConsequence": "Closes the line-like pressure and faceted-body sequence of v019-v022 and opens a topology-as-material direction in which time changes the ontology of one SVG sheet's negative space."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v023 if the blind sheet does not read as one material body, if sealing and opening are not visible in the voids, if a tap or short hold commits, or if lifting the latest drying fails to restore the exact prior signature.",
+        "lineage": "svg-2026-10-04"
+      }
+    },
+    {
       "id": "portrait-2026-10-05",
       "currentId": "portrait",
       "date": "2026-10-05",

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151311">
+  <title>MUTINE — The sheet refuses a quick touch.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=023">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-10-05"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v023</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v023</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 680" role="img" aria-label="A single material sheet punctured by five negative chambers that change when held long enough." preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="1 2 3 4 5 Enter Space Delete R">
+            <title>The sheet refuses a quick touch.</title>
+          </svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 16</span><span data-memory>0 dryings · sheet quiet</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="dry-control" data-gesture="dry">dry this chamber</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One heavy SVG sheet holds five negative chambers. The voids are not windows onto an image; they are the material's memory.</p></div>
+          <div><span>changed rule</span><p>Stay with one chamber above 520ms. It seals, another opens elsewhere, and a third shifts as a bridge.</p></div>
+          <div><span>progression</span><p>A quick touch is refused. Use a real dwell, the dry control, or Enter / Space. Keys 1–5 choose without writing; Delete lifts.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V023 / DAILY WORK</p><h1 id="work-title">The sheet<br><i>refuses a quick touch.</i></h1></div>
+        <p class="work-premise">Duration is the pressure. The longer the hand stays, the less stable the void becomes.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: one even-odd SVG sheet changes actual negative topology after a dwell, bounds four dryings, refuses quick touches, and restores the prior signature when lifted. Promotion depends on whether the blind sheet reads as material rather than a decorated plate.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=023"></script>
+</body>
+</html>
