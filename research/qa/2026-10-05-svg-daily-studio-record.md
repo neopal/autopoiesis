@@ -42,7 +42,7 @@ v023 breaks v020's singular compound contour, v021's pressure ribbon, and v022's
 
 ## Production verification
 
-- Deployment: `https://autopoiesis-mkao3uddy-lairpa-hotmailfrs-projects.vercel.app`; stable alias `https://autopoiesis-nine.vercel.app/`; Vercel state `READY`.
+- Production target: stable alias `https://autopoiesis-nine.vercel.app/`; the headless probe runs against this alias.
 - Production probe: `20/20` matrix runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw/canonical, normal/reduced motion.
 - Production diagnostics: `0` console, page, failed-request, or HTTP 400+ diagnostics.
 - Production overflow: `0` failures; all matrix runs reported target `innerWidth`, equal client width, and no scroll-width overflow.
