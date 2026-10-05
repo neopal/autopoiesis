@@ -2,6 +2,111 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-05",
+      "currentId": "typography",
+      "date": "2026-10-05",
+      "title": "Pressure changes the word.",
+      "rawPath": "/studies/handwriting/v022/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-05",
+        "note": "v022 breaks v019's vertical phoneme channels, v020's pressure slab, and v021's orbital witness field. Eighteen actual SVG glyphs become separated word stones; a traveled pressure changes crossed letters as geometry and identity, retypes a non-adjacent reply, and carries resistance into the next pressure. Lifting the latest pressure reconstructs the exact preceding quarry."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "Pressure must live in the letters: crossed glyphs need changed identity, position, rotation, and scale, while a non-adjacent reply changes its own geometry. A guide stroke or colour overlay cannot substitute for changed SVG type."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as a separated quarry of word stones, not an orbital ring, pressure slab, linefield, or decorative word grid. After pressure, the changed letters and remote reply must be findable in the glyphs themselves."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A short pointer tap must be refused. Only a path that travels and releases, the deterministic control, Enter, or Space may commit; Delete restores the exact preceding quarry and R releases bounded pressure memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v022 must break v019's vertical channels, v020's pressure slab, and v021's orbital witnesses through a separated SVG cell composition, a traveled pressure task, and a countertype memory that changes visible word identity."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v022 if the stones are only a styled poster, if the countertype is just an accent colour, if a tap commits, if the distant reply is not geometric, if repeated pressure ignores resistance, or if the caption is needed to understand that the word changed."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v022-countertype-quarry",
+        "visitorInput": true,
+        "seed": "0x48574922",
+        "stages": 14,
+        "glyphCount": 18,
+        "wordCount": 3,
+        "memoryWindow": 3,
+        "primitiveBudget": 72,
+        "settledStage": 13,
+        "settledMemory": 3,
+        "settledResistance": 3.0825550505978923,
+        "memoryRule": "a traveled pressure changes crossed glyph identity and geometry, retypes a non-adjacent reply, and carries resistance into later countertype events",
+        "interactionRule": "a short pointer tap is refused; a traveled drag release, Enter, Space, or the press-the-word control commits one bounded material pressure; Delete lifts the latest pressure; R releases the field",
+        "representationRupture": "vertical glyph channels, pressure slab, and orbital witness field -> separated SVG word stones with independent material cells",
+        "encounterRupture": "typed address, traveled pressure, and approach/depart attention -> path travel through letter stones with release as the causal event",
+        "temporalRupture": "reply migration, pressure debt, and reciprocal attention -> inherited countertype resistance that changes later identity and geometry",
+        "mediumRupture": "HTML glyph field and p5 Canvas orbital syntax -> inline SVG language geometry with a p5.js atmospheric layer",
+        "replay": true,
+        "renderer": "deterministic inline SVG countertype quarry with p5.js 2D atmosphere",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix and interaction readback passed; candidate held pending independent caption-free perceptual review, production readback, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4230/works/typography-2026-10-05/",
+        "rawPreview": "http://127.0.0.1:4230/studies/handwriting/v022/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4230/studies/handwriting/v022/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v022 countertype quarry before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth; raw SVG tableaux had no internal horizontal overflow",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, and current readbacks",
+        "normalState": "normal-motion raw runs opened at stage 00 with 18 glyph stones, 0 pressures, 0 resistance, and a quiet quarry",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 13 with 3 bounded pressures and 3.0825550505978923 resistance",
+        "pointerInteraction": "a real pointer tap left memory at 0 and reported pressure-refused",
+        "dragInteraction": "a real pointer drag changed memory from 0 to 1 and changed the SVG geometry signature",
+        "keyboardInteraction": "focused-field Enter changed memory from 0 to 1 and reported pressure-committed",
+        "liftInteraction": "Delete after drag changed memory from 1 to 0 and restored the exact preceding quarry signature",
+        "releaseInteraction": "R returned to stage 00 with memory 0 and the deterministic baseline",
+        "buttonInteraction": "press-the-word changed memory from 0 to 1",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the SVG field visible while hiding readout and controls; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered exactly one #journal-typography-2026-10-05 anchor and contained the recorded title",
+        "current": "local Handwriting current readback rendered the typography-2026-10-05 latest artwork card with no overflow",
+        "canvasCaptures": "24 non-empty local PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, and current readbacks",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "production verification",
+          "provider revision linkage between the eventual deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools treat pressure, density, grain, and vector fields as material forces; material changes how geometry is produced and remembered rather than decorating finished geometry.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, and the library's surface vocabulary. Translate pressure into language-as-material: a traveled path makes crossed glyph stones yield and retypes a distant word-stone, while accumulated resistance changes later geometry.",
+        "visibleConsequence": "The blind field is a separated quarry of actual letters, not a line, ring, slab, or brush trail. After release, crossed letters are displaced and retyped, a remote letter changes its own geometry, and the next pressure responds differently.",
+        "falsifier": "If the gesture is only an overlay, if letters keep their identity and geometry, if the remote reply is only a colour change, if a tap commits, or if later pressure ignores resistance, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, API surface, example composition, or source mark-making is reproduced.",
+        "directionConsequence": "Closes the orbital reciprocal-syntax family and opens a material-language direction where handwriting is a set of load-bearing word stones. It abandons the stable shared-baseline sentence as the next invariant."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v022 if the field reads as a decorative word grid, if the changed word needs the caption to be seen, if a tap commits, or if later pressure ignores resistance.",
+        "lineage": "typography-2026-10-04"
+      }
+    },
+    {
       "id": "webgpu-2026-10-04",
       "currentId": "webgpu",
       "date": "2026-10-04",

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e4ddcf">
+  <title>MUTINE — Pressure changes the word.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=022">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-05"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="quarry-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v022 / COUNTERTYPE QUARRY</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="quarry-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v022</span></nav>
+
+      <figure id="work" class="quarry-work artwork-frame" aria-labelledby="work-title">
+        <div id="countertype-field" class="quarry-wrap" tabindex="0" role="application" aria-label="A field of letter stones. Drag across the letters to press the sentence. A tap is refused." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 14</span><span data-memory>0 pressures · resistance 0.00</span></div>
+          <svg id="countertype-svg" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+          <div class="field-controls" aria-label="Countertype actions">
+            <button id="press-type-control" type="button">press the word</button>
+            <button id="lift-pressure" type="button">lift latest</button>
+            <button id="release-pressure" type="button">release pressure</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v022-countertype-quarry</span><span>travel &gt; yield &gt; retype</span></figcaption>
+      </figure>
+
+      <section class="quarry-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MATERIAL SWITCH / v022</p>
+        <h1 id="work-title">Pressure changes<br><i>the word.</i></h1>
+        <p class="quarry-lede">A sentence is not ink on top of a surface. Cross its stones and the letters yield, retype themselves, and make a distant word carry the load.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">TRAVEL THROUGH THE TYPE</p>
+          <p class="interaction-copy">Drag across the field. A short tap does nothing. A traveled pressure changes the crossed glyphs, displaces their stones, and retypes a remote answer. Later pressure inherits resistance from the sentence already changed.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The word is unpressed.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v022</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the pressure slab, vertical channels, and orbital witness field. Eighteen actual SVG glyphs sit as separate word stones; a traveled pressure makes crossed letters yield and retypes a distant reply.</dd></div>
+          <div><dt>visitor action</dt><dd>Travel through the type and release. A tap is refused. Enter, Space, or the control commits a seeded pressure; Delete lifts the latest pressure; R releases the sentence.</dd></div>
+          <div><dt>falsifier</dt><dd>If pressure only paints a trace, if letters do not change their geometry or identity, if the remote reply is cosmetic, or if later pressure ignores resistance, material language has not become a rule.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v022 if the blind field reads as a decorative word grid, if the changed word needs the caption to be seen, or if the traveled gesture is just a prettified slider.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-04/">previous daily work</a><a href="/journal/#journal-typography-2026-10-05">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=022"></script>
+</body>
+</html>
