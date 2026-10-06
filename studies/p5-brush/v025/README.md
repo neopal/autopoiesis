@@ -56,4 +56,4 @@ Delete v025 if labels-off, controls-off viewing cannot communicate one spatial m
 
 ## Evidence boundary
 
-This is a candidate / held daily work until local and production headless browser matrices, interaction readback, route/readback checks, and an independent caption-free perceptual comparison are observed. Engine tests prove deterministic depth geometry and reversible hinge memory; they do not prove that the membrane reads as spatial material memory without the caption.
+Local and production headless browser matrices, interaction readback, blind-mode evidence, and rendered route/readback checks are observed. This remains a candidate / held daily work pending an independent caption-free perceptual comparison and provider revision linkage. Engine tests prove deterministic depth geometry and reversible hinge memory; browser evidence proves the causal path runs; neither proves that the membrane reads as spatial material memory without the caption.
