@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171516">
+  <title>MUTINE — The reader moves the break.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=023">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-06"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="fold-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v023 / READING FOLD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="fold-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v023</span></nav>
+
+      <figure id="work" class="fold-work artwork-frame" aria-labelledby="work-title">
+        <div id="reading-field" class="reading-wrap" tabindex="0" role="application" aria-label="A continuous typographic field. Move the reading window forward, then turn back to change the sentence." aria-keyshortcuts="ArrowDown ArrowUp Enter Space Delete R">
+          <div class="field-readout" aria-live="polite"><span data-stage>reading 01 / 16</span><span data-memory>0 returns · line intact</span></div>
+          <div id="sentence-stage" class="sentence-stage" aria-hidden="true"></div>
+          <div class="reading-aperture" aria-hidden="true"><span></span></div>
+          <div class="field-controls" aria-label="Reading actions">
+            <button id="read-forward-control" type="button">read forward</button>
+            <button id="turn-back-control" type="button">turn back</button>
+            <button id="lift-return" type="button">lift latest</button>
+            <button id="release-reading" type="button">release reading</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v023-reading-fold</span><span>approach &gt; return &gt; reflow</span></figcaption>
+      </figure>
+
+      <section class="fold-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MEDIUM SWITCH / v023</p>
+        <h1 id="work-title">The reader<br><i>moves the break.</i></h1>
+        <p class="fold-lede">A sentence is a field of places. Read past one, return through it, and the line gives that place to a distant word.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">READ THE WHOLE FIELD</p>
+          <p class="interaction-copy">Use the wheel, arrow keys, or the buttons to move the reading window. Forward travel only arms attention. A return is the cause: the actual word flow reorders and a non-local word is rewritten. A tap is refused.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The line is intact.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v023</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the pressure slab, orbital witness field, and separated word stones. Browser-native words now flow through four vertical reading lanes; only a travelled return can exchange two places and rewrite the distant reply.</dd></div>
+          <div><dt>visitor action</dt><dd>Read forward, then reverse direction. Wheel, Arrow keys, and the reading buttons are equivalent paths. Enter or Space performs the deterministic return; Delete lifts it; R releases the line.</dd></div>
+          <div><dt>falsifier</dt><dd>If moving only changes an aperture, if the return does not change actual word order and text, if every reply is fixed, or if a tap commits, attention has not become a typographic rule.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v023 if the blind field reads as a four-column poster, if the changed break needs the caption to be seen, or if the reading return is only a disguised button.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-05/">previous daily work</a><a href="/journal/#journal-typography-2026-10-06">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=023"></script>
+</body>
+</html>

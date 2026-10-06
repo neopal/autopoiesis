@@ -2,6 +2,106 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-06",
+      "currentId": "typography",
+      "date": "2026-10-06",
+      "title": "The reader moves the break.",
+      "rawPath": "/studies/handwriting/v023/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-06",
+        "note": "v023 breaks v020's pressure slab, v021's orbital witness field, and v022's separated word stones. Sixteen browser-native words form one continuous typographic corridor; forward reading only arms attention, while a travelled return exchanges two actual places and rewrites a distant word. Later returns choose another reply through remembered line debt, and lifting the latest return reconstructs the exact preceding sentence."
+      },
+      "critiques": [
+        {
+          "persona": "Typographic-material critic",
+          "argument": "The changed rule must live in actual DOM words and layout: a committed return must exchange two slots and rewrite a remote word's text. A moving aperture, color, or status line cannot substitute for reflow."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as one continuous sentence-corridor, not four unrelated columns, a pressure slab, an orbital ring, or a word-card grid. After a return, the changed break and distant word must be findable in the body."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Forward reading may arm but must not write. A tap and a one-way pass are refused; reversal, Enter, Space, wheel, directional touch, and the semantic controls must share the same bounded return rule. Delete restores the exact preceding line and R releases memory."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The little-critters mechanism is translated from situated looking into situated reading: the visitor's moving attention arms a local place, but only a return produces a non-local answer. No animals, eyes, characters, or head-turning imagery may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v023 if it is only a four-column poster, if the words do not actually reflow, if the distant reply is fixed or cosmetic, if a tap commits, or if the caption is needed to see that the reader moved the break."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v023-reading-fold",
+        "visitorInput": true,
+        "seed": "0x48574923",
+        "stages": 16,
+        "tokenCount": 16,
+        "memoryWindow": 4,
+        "primitiveBudget": 48,
+        "settledStage": 15,
+        "settledMemory": 4,
+        "memoryRule": "a travelled reading return exchanges two actual word places and rewrites a non-local reply; later returns choose a different partner through remembered line debt",
+        "interactionRule": "wheel, arrow keys, a directional touch sweep, or read-forward/turn-back controls move the reading window; a one-way pass is refused; Enter or Space commits a deterministic return; Delete lifts the latest; R releases reading",
+        "representationRupture": "orbital glyph field, pressure slab, and separated word stones -> one continuous browser-native sentence flowing through vertical reading lanes",
+        "encounterRupture": "approach/depart attention, drag pressure, and pointer path -> reading direction and reversal; the return, not the touch, is causal",
+        "temporalRupture": "countertype resistance and reciprocal glance debt -> line-break memory that reallocates a place to a distant word",
+        "mediumRupture": "p5 Canvas atmosphere and inline SVG word cells -> semantic DOM words with CSS writing-mode and browser-native flow",
+        "replay": true,
+        "renderer": "deterministic browser-native typographic reading fold",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix and interaction/readback evidence passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4233/works/typography-2026-10-06/",
+        "rawPreview": "http://127.0.0.1:4233/studies/handwriting/v023/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4233/studies/handwriting/v023/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v023 browser-native reading fold before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all four local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, and current readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across all local raw/canonical runs and focused readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 16 DOM words, 0 returns, and an intact line",
+        "reducedMotionState": "reduced-motion static blind preview kept the deterministic stage-00 sentence corridor visible with 16 DOM words and 0 returns",
+        "pointerInteraction": "a real pointer tap left memory at 0 and did not write the sentence",
+        "directionInteraction": "two read-forward controls left memory at 0 and changed only the reading cursor",
+        "buttonInteraction": "turn back committed 0 -> 1 and changed actual word slots and a remote word; lift latest returned memory to 0",
+        "keyboardInteraction": "focused-field Enter committed 0 -> 1 and changed the DOM word signature; Delete restored memory to 0",
+        "blindPreview": "local reduced-motion static blind preview at 390x844 kept the word field visible while hiding readout and controls; no document overflow",
+        "journal": "local Journal readback rendered exactly one #journal-typography-2026-10-06 anchor and contained the recorded title",
+        "current": "local Handwriting current readback rendered the typography-2026-10-06 latest artwork card with no overflow",
+        "canvasCaptures": "24 non-empty local PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, and current readbacks",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback and provider revision linkage",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate situated reciprocity into reading direction: the visitor's moving attention arms a local word-place, but only a return makes that place exchange with a distant word and rewrite the reply.",
+        "visibleConsequence": "The blind field is one continuous sentence-corridor of actual DOM words. Forward motion leaves the sentence unchanged; after a return, two words occupy exchanged positions and the distant word becomes a new word. Later returns choose a different remote partner.",
+        "falsifier": "If moving only changes the aperture, if a one-way pass or tap commits, if the return does not alter real word order and text, if every reply is fixed, or if the blind field reads as four decorative columns, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, source palette, source composition, head-turning scene, API surface, code, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Handwriting's pressure / orbit / countertype sequence and opens a reading-as-topology direction where language remembers not a mark or glance, but the place a reader crossed twice. It abandons the stable glyph-object as the next invariant."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v023 if the blind field reads as a four-column poster, if the changed break is not visible in actual word placement, if a one-way pass or tap commits, or if later returns repeat the same reply.",
+        "lineage": "typography-2026-10-05"
+      }
+    },
+    {
       "id": "brush-2026-10-05",
       "currentId": "brush",
       "date": "2026-10-05",
