@@ -1,0 +1,23 @@
+{
+  "id": "pure-svg-v024-witness-knot",
+  "visitorInput": true,
+  "seed": "0x53564754",
+  "stages": 17,
+  "primitiveBudget": 1,
+  "portCount": 7,
+  "memoryWindow": 4,
+  "witnessThreshold": "two distinct ports",
+  "settledStage": 16,
+  "settledMemory": 4,
+  "settledSplices": 4,
+  "memoryRule": "a first witness arms without writing; a distinct second witness seals the source, opens the remote port, and shears a third port; later pairs inherit the changed knot",
+  "interactionRule": "the first pointer click or key arms a port; a distinct second click, splice control, Enter, or Space commits one bounded topological splice; same-port touches are refused; Delete lifts the latest; R releases",
+  "representationRupture": "pressure ribbon, folding object, and negative chamber sheet -> one asymmetrical compound SVG knot with a central absence and peripheral witness mouths",
+  "encounterRupture": "traveled drag, approach-departure, and dwell threshold -> two distinct witness touches; relation, not duration or travel, is causal",
+  "temporalRupture": "inherited width, edge exchange, and chamber drying -> bounded pair memory in which a second place is required before topology changes",
+  "mediumRupture": "filled ribbon, polygonal body, and monolithic sheet -> one even-odd SVG compound path with a non-radial knot composition",
+  "replay": true,
+  "renderer": "deterministic inline SVG witness-knot",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

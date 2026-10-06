@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10151b">
+  <title>MUTINE — The contour takes attendance.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=024">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-10-06"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v024</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v024</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 680" role="img" aria-label="A single asymmetrical SVG knot with one central absence and seven witness ports that change when two distinct ports are touched." preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="1 2 3 4 5 6 7 Enter Space Delete R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 splices · knot quiet</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="splice-control" data-gesture="splice">splice two witnesses</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One closed SVG knot carries a central absence and seven mouths. The ports are not buttons; they are places where the contour can disagree with itself.</p></div>
+          <div><span>changed rule</span><p>One witness only arms attention. A second, distinct witness splices the topology: the first seals, the second opens, and a third carries the shear.</p></div>
+          <div><span>progression</span><p>A same-port touch is refused. Use two touches, the splice control, or keys 1–7 then Enter / Space. Delete lifts the latest relation.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V024 / DAILY WORK</p><h1 id="work-title">The contour<br><i>takes attendance.</i></h1></div>
+        <p class="work-premise">Attention is not a cursor. It becomes a relation only when a second place answers.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: one compound SVG knot changes actual negative topology after two distinct witnesses, bounds four splices, refuses same-port touches, and restores the prior signature when lifted. Promotion depends on whether the blind knot reads as a single topological body rather than a decorated control diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=024"></script>
+</body>
+</html>

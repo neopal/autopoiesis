@@ -2,6 +2,116 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-06",
+      "currentId": "svg",
+      "date": "2026-10-06",
+      "title": "The contour takes attendance.",
+      "rawPath": "/studies/pure-svg/v024/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-06",
+        "note": "v024 breaks v021's pressure ribbon, v022's folding object, and v023's drying sheet. One asymmetrical compound SVG knot carries a central absence and seven witness ports; one place only arms attention, while a distinct second place seals the source, opens a remote mouth, and shears a third. Bounded pair memory makes the second place part of the topology, and lifting the latest relation reconstructs the exact preceding knot."
+      },
+      "critiques": [
+        {
+          "persona": "Topology critic",
+          "argument": "The second witness must change the actual compound path: the source mouth contracts, the remote mouth expands, and a third port shears. A readout, highlight, or connector cannot substitute for changed topology."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as one asymmetrical knot with one central absence, not a port diagram, card wall, sheet, ribbon, or folded object. After a pair, the three altered mouths must be findable in the silhouette."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "One witness only arms and must not write. A same-port second touch is refused. A distinct second touch, the splice control, Enter, or Space commits the same deterministic relation; Delete restores the exact preceding knot and R releases memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v024 changes both the visual grammar and the encounter: it leaves the filled ribbon, faceted folding body, and dwell sheet for one non-radial knot, and replaces travel, departure, and duration with a two-place relation."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The little-critters mechanism is translated from local attention and reciprocal looking into a two-place topological relation. No animal, eye, character, or head-turning image may carry the encounter."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v024 if the first touch commits, if same-port contact commits, if the remote change is cosmetic, if later pairs ignore prior topology, if the blind field reads as seven controls, or if the caption is needed to understand why a second place matters."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v024-witness-knot",
+        "visitorInput": true,
+        "seed": "0x53564754",
+        "stages": 17,
+        "primitiveBudget": 1,
+        "portCount": 7,
+        "memoryWindow": 4,
+        "witnessThreshold": "two distinct ports",
+        "settledStage": 16,
+        "settledMemory": 4,
+        "settledSplices": 4,
+        "memoryRule": "a first witness arms without writing; a distinct second witness seals the source, opens the remote port, and shears a third port; later pairs inherit the changed knot",
+        "interactionRule": "the first pointer click or key arms a port; a distinct second click, splice control, Enter, or Space commits one bounded topological splice; same-port touches are refused; Delete lifts the latest; R releases",
+        "representationRupture": "pressure ribbon, folding object, and negative chamber sheet -> one asymmetrical compound SVG knot with a central absence and peripheral witness mouths",
+        "encounterRupture": "traveled drag, approach-departure, and dwell threshold -> two distinct witness touches; relation, not duration or travel, is causal",
+        "temporalRupture": "inherited width, edge exchange, and chamber drying -> bounded pair memory in which a second place is required before topology changes",
+        "mediumRupture": "filled ribbon, polygonal body, and monolithic sheet -> one even-odd SVG compound path with a non-radial knot composition",
+        "replay": true,
+        "renderer": "deterministic inline SVG witness-knot",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix and interaction/readback evidence passed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4235/works/svg-2026-10-06/",
+        "rawPreview": "http://127.0.0.1:4235/studies/pure-svg/v024/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4235/studies/pure-svg/v024/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v024 inline-SVG witness-knot before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, current, and canonical readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across the local matrix and focused readbacks",
+        "normalState": "normal-motion raw and canonical runs opened at stage 00 with 7 witness ports, 0 splices, one compound path, and a quiet knot",
+        "reducedMotionState": "reduced-motion raw and canonical runs settled at stage 16 with 4 bounded splices, 7 ports, one compound path, and changed source/remote/bridge mouths",
+        "pointerInteraction": "a real first pointer click armed port 2 without changing memory; a distinct second click changed memory from 0 to 1 and changed the compound-path signature",
+        "sameWitnessInteraction": "a same-port second click remained at memory 0 and reported same-witness-refused",
+        "keyboardInteraction": "key 3 armed without writing; focused-field Enter committed memory 0 to 1; Delete restored memory 0",
+        "liftInteraction": "Delete after pointer and keyboard splices restored memory to 0 and the exact prior compound-path signature",
+        "buttonInteraction": "splice two witnesses changed memory from 0 to 1; all three controls measured 44px high",
+        "releaseInteraction": "R returned to the deterministic baseline with memory 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the compound SVG knot visible while hiding readout, controls, labels, and port marks; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered #journal-svg-2026-10-06 and contained the recorded title",
+        "current": "local Pure SVG current readback rendered the svg-2026-10-06 latest artwork card with no overflow",
+        "work": "local canonical work readback rendered the title, tableau mount, raw tableau route, and catalogue record for svg-2026-10-06",
+        "canvasCaptures": "26 non-empty local PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, current, and canonical readbacks",
+        "proofDir": "research/qa/proofs/pure-svg-v024-2026-10-06/",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback and provider revision linkage",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate situated reciprocity into a topological witness relation: one port can be attended without consequence, but a distinct second port answers and changes the compound path at three places.",
+        "visibleConsequence": "The blind field is one asymmetrical SVG knot with a central absence and seven ports. After two distinct witnesses, one mouth contracts, another expands, and a third shears through actual compound-path geometry; later pairs inherit the changed knot.",
+        "falsifier": "If the first touch writes memory, if same-port contact commits, if the remote change is only a marker or colour, if later pairs ignore earlier topology, or if the blind image reads as a control diagram rather than one altered body, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, composition, source code, API surface, or head-turning vocabulary is reproduced.",
+        "directionConsequence": "Closes Pure SVG's pressure-ribbon, folding-object, and drying-sheet sequence and opens a constraint-as-relation direction where topology requires another place before it changes."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v024 if the blind knot does not read as one topological body, if the first witness writes memory, if same-port contact commits, if the three changed mouths are not visible, or if later pairs ignore prior topology.",
+        "lineage": "svg-2026-10-05"
+      }
+    },
+    {
       "id": "portrait-2026-10-06",
       "currentId": "portrait",
       "date": "2026-10-06",
@@ -169,7 +279,7 @@
         "status": "local and production headless browser matrices and interaction/readback evidence passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4233/works/typography-2026-10-06/",
         "rawPreview": "http://127.0.0.1:4233/studies/handwriting/v023/?preview=1&interaction=1",
-        "blindPreview": "http://127.0.0.1:4233/studies/handwriting/v023/?preview=1&static=1&blind=1",
+        "blindPreview": "local reduced-motion static blind preview at 390x844 kept the word field visible while hiding readout and controls; no document overflow",
         "canonicalShellAndEmbeddedTableauRendered": true,
         "tableauFirst": "10/10 local canonical runs mounted the v023 browser-native reading fold before generated title, Journal, critique, evidence, and neighbouring-work prose",
         "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
@@ -183,7 +293,6 @@
         "directionInteraction": "two read-forward controls left memory at 0 and changed only the reading cursor",
         "buttonInteraction": "turn back committed 0 -> 1 and changed actual word slots and a remote word; lift latest returned memory to 0",
         "keyboardInteraction": "focused-field Enter committed 0 -> 1 and changed the DOM word signature; Delete restored memory to 0",
-        "blindPreview": "local reduced-motion static blind preview at 390x844 kept the word field visible while hiding readout and controls; no document overflow",
         "journal": "local Journal readback rendered exactly one #journal-typography-2026-10-06 anchor and contained the recorded title",
         "current": "local Handwriting current readback rendered the typography-2026-10-06 latest artwork card with no overflow",
         "productionRoute": "https://autopoiesis-nine.vercel.app/works/typography-2026-10-06/",
