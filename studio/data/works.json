@@ -2,6 +2,114 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-10-06",
+      "currentId": "portrait",
+      "date": "2026-10-06",
+      "title": "The portrait argues with its branch.",
+      "rawPath": "/studies/self-portrait/v022/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-10-06",
+        "note": "v022 breaks v019's syntax seal, v020's oblique material relief, and v021's suspended mobile. A browser-native branching atlas presents incompatible left/right possibilities: a committed choice opens one actual card, contracts the refused sibling, and moves a non-local counter-branch. The refused possibility becomes the next active condition; lifting the latest choice reconstructs the exact preceding atlas."
+      },
+      "critiques": [
+        {
+          "persona": "Decision-material critic",
+          "argument": "The choice must live in the cards: the kept card needs changed size and angle, the refused sibling needs changed dimensions and cut, and the remote counter-branch needs changed position and counter-mark. A readout or colour swap cannot substitute for altered browser geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as one angular branching atlas, not a face, mobile, relief, syntax seal, or decorative card grid. After a choice, keep, refusal, and remote answer must be findable in the silhouettes and negative cuts."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "The encounter must ask for a binary wager, not an approach, hold, drag, or generic selector. A side can be armed without writing; a committed left/right choice must alter the atlas, Delete must restore the exact previous state, and R must release bounded decision memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v022 must leave v019's syntax seal, v020's oblique load relief, and v021's suspended mobile through a new browser-native medium, a broad branching composition, and a choice model in which refusal—not attention, pressure, or departure—controls the next answer."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The little-critters mechanism is translated from situated reciprocal looking into situated self-contradiction: the visitor gives a local choice, but the unchosen possibility answers remotely. No animal, eye, character, or head-turning image may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v022 if the atlas is only a recoloured grid, if the refused card does not alter the future cursor, if every counter-branch repeats, if a choice does not change actual layout, or if the caption is needed to understand that the portrait argues with its branch."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v022-self-rebuttal-atlas",
+        "visitorInput": true,
+        "seed": "0x53504642",
+        "stages": 19,
+        "nodeCount": 18,
+        "memoryWindow": 5,
+        "settledStage": 18,
+        "settledMemory": 5,
+        "settledKept": 3,
+        "settledRefused": 4,
+        "settledCounters": 4,
+        "primitiveBudget": 54,
+        "memoryRule": "a binary choice opens one actual card, contracts the refused card, and moves a non-local counter-branch; the refused possibility determines the next active condition",
+        "interactionRule": "a left/right tap or control commits a binary wager; arrow keys arm without writing; Enter or Space commits; Delete lifts the latest refusal; R releases decision memory",
+        "representationRupture": "syntax seal, material relief, and depth-separated mobile -> browser-native branching atlas of angular cards and negative cuts",
+        "encounterRupture": "keyboard attention, pressure release, and approach/departure -> binary wager in which the unchosen side becomes the next condition",
+        "temporalRupture": "clause debt, load redistribution, and reciprocal aversion -> refusal memory that changes the active branch and the non-local answer",
+        "mediumRupture": "inline SVG paths, Canvas 2D, and p5.js WEBGL -> semantic HTML/CSS geometry with deterministic layout variables",
+        "replay": true,
+        "renderer": "deterministic browser-native branching atlas",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix and interaction/readback evidence passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4235/works/portrait-2026-10-06/",
+        "rawPreview": "http://127.0.0.1:4235/studies/self-portrait/v022/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4235/studies/self-portrait/v022/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v022 browser-native branching atlas before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all four local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, and current readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across the local matrix and focused readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 18 quiet cards and 0 refusals",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 18 with 5 bounded choices, 3 kept cards, 4 refused cards, and 4 counter cards",
+        "pointerInteraction": "a real pointer tap on the left half changed memory from 0 to 1; Delete restored memory to 0",
+        "keyboardInteraction": "ArrowRight armed without writing; focused-field Enter changed memory from 0 to 1 and changed the DOM geometry signature; Delete restored memory to 0",
+        "buttonInteraction": "keep the left possibility changed memory from 0 to 1; all four controls measured 44px",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the branching atlas visible while hiding readout, controls, and hint; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered #journal-portrait-2026-10-06 and contained the recorded title",
+        "current": "local Self portrait current readback rendered the portrait-2026-10-06 latest artwork card with no overflow",
+        "canvasCaptures": "24 non-empty PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, and current readbacks",
+        "proofDir": "research/qa/proofs/portrait-v022-2026-10-06/",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix and public readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the eventual deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate situated reciprocity into self-contradiction: a visitor chooses one local possibility, the unchosen branch contracts and becomes the next condition, and a non-local branch answers through changed browser geometry.",
+        "visibleConsequence": "The blind field is one angular branching atlas of actual HTML/CSS cards. After a choice, one card opens, its sibling refuses and contracts, and a distant card moves and carries a counter-mark. Repeated choices move the active condition and reply.",
+        "falsifier": "If the choices only recolour fixed cards, if the refused possibility does not alter the next active branch, if the remote answer is always in one place, or if the blind atlas reads as a decorative card grid, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, source palette, source composition, head-turning scene, API surface, code, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Self portrait's syntax-seal, material-load, and direct-aversion family and opens an adversarial self-observation direction in which refusal, not the selected surface, carries continuity."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v022 if the blind atlas does not read as one branching self-decision, if the refused card does not change the future cursor, if counter-branches repeat, or if a choice does not alter actual layout.",
+        "lineage": "portrait-2026-10-05"
+      }
+    },
+    {
       "id": "typography-2026-10-06",
       "currentId": "typography",
       "date": "2026-10-06",
