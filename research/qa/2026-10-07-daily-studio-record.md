@@ -32,6 +32,10 @@ v024 leaves v021's orbital glyph population, v022's separated pressure stones, a
 - Blind mode: Canvas remained visible while readout, controls, hint, and caption were hidden; no overflow.
 - Touch evidence: all three controls measured `44px` high at `390×844`.
 - Local rendered readbacks: Journal anchor/title, Handwriting current card, and canonical work route all rendered.
+- Production browser matrix: **20/20 passed** at the same five viewports in normal and reduced-motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP `400+` responses.
+- Production rendered readbacks: `/studio/data/works.json` and `/studio/data/catalog-public.json` returned HTTP `200` with the record; `/journal/` rendered exactly one Journal anchor/title; the canonical work route rendered the title/tableau.
+- Production deployment: `https://autopoiesis-nine.vercel.app/` (deployment `dpl_E2sTQmFJWZtuhSGZNQPy5BteFogq`), Ready.
 
 ## Unresolved doubt
 

@@ -6,7 +6,9 @@ import { chromium } from 'playwright';
 
 const root = resolve('C:/Users/ASUS/autopoiesis');
 const port = 4246;
-const proofDir = resolve('C:/Users/ASUS/autopoiesis/research/qa/proofs/handwriting-v024-2026-10-07');
+const baseUrl = process.env.MUTINE_PROBE_BASE_URL ?? `http://127.0.0.1:${port}`;
+const useLocalServer = baseUrl.startsWith('http://127.0.0.1');
+const proofDir = resolve(process.env.MUTINE_PROBE_PROOF_DIR ?? 'C:/Users/ASUS/autopoiesis/research/qa/proofs/handwriting-v024-2026-10-07');
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon' };
 const viewports = [[320, 568], [390, 844], [768, 1024], [1280, 800], [1920, 1080]];
 const routes = { raw: '/studies/handwriting/v024/?preview=1&interaction=1', canonical: '/works/typography-2026-10-07/' };
@@ -71,7 +73,7 @@ async function runMatrix(browser) {
         const page = await browser.newPage({ viewport: { width: viewport[0], height: viewport[1] } });
         const diag = diagnostics(page);
         await page.emulateMedia({ reducedMotion: reducedMotion ? 'reduce' : 'no-preference' });
-        await page.goto(`http://127.0.0.1:${port}${route}`, { waitUntil: 'networkidle', timeout: 60000 });
+        await page.goto(`${baseUrl}${route}`, { waitUntil: 'networkidle', timeout: 60000 });
         const frame = await waitForTableau(page, routeName === 'canonical');
         const evidence = await inspect(page, frame, routeName === 'canonical', viewport, reducedMotion);
         const filename = `handwriting-v024-${routeName}-${viewport[0]}x${viewport[1]}-${reducedMotion ? 'reduced' : 'normal'}.png`;
@@ -88,7 +90,7 @@ async function runInteraction(browser) {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const diag = diagnostics(page);
   await page.emulateMedia({ reducedMotion: 'no-preference' });
-  await page.goto(`http://127.0.0.1:${port}${routes.raw}`, { waitUntil: 'networkidle', timeout: 60000 });
+  await page.goto(`${baseUrl}${routes.raw}`, { waitUntil: 'networkidle', timeout: 60000 });
   const frame = await waitForTableau(page, false);
   const initial = await state(frame);
   await frame.locator('#pressure-field').click({ position: { x: 180, y: 320 } });
@@ -112,7 +114,7 @@ async function runBlind(browser) {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const diag = diagnostics(page);
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  await page.goto(`http://127.0.0.1:${port}/studies/handwriting/v024/?preview=1&static=1&blind=1`, { waitUntil: 'networkidle', timeout: 60000 });
+  await page.goto(`${baseUrl}/studies/handwriting/v024/?preview=1&static=1&blind=1`, { waitUntil: 'networkidle', timeout: 60000 });
   const frame = await waitForTableau(page, false);
   const evidence = await frame.evaluate(() => ({ fieldVisible: getComputedStyle(document.querySelector('#pressure-field')).display !== 'none', canvasVisible: Boolean(document.querySelector('#pressure-field canvas')), readoutDisplay: getComputedStyle(document.querySelector('.field-readout')).display, controlsDisplay: getComputedStyle(document.querySelector('.field-controls')).display, hintDisplay: getComputedStyle(document.querySelector('.field-hint')).display, innerWidth: window.innerWidth, clientWidth: document.documentElement.clientWidth, scrollWidth: document.documentElement.scrollWidth }));
   await page.screenshot({ path: resolve(proofDir, 'handwriting-v024-blind-390x844.png'), fullPage: true });
@@ -129,7 +131,7 @@ async function runReadbacks(browser) {
   ]) {
     const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
     const diag = diagnostics(page);
-    await page.goto(`http://127.0.0.1:${port}${path}`, { waitUntil: 'networkidle', timeout: 60000 });
+    await page.goto(`${baseUrl}${path}`, { waitUntil: 'networkidle', timeout: 60000 });
     await page.waitForSelector(marker, { timeout: 30000 });
     results[name] = { found: await page.locator(marker).count(), titleVisible: (await page.locator('body').innerText()).includes(title), innerWidth: await page.evaluate(() => innerWidth), clientWidth: await page.evaluate(() => document.documentElement.clientWidth), scrollWidth: await page.evaluate(() => document.documentElement.scrollWidth), diagnostics: diag };
     await page.screenshot({ path: resolve(proofDir, `handwriting-v024-${name}-390x844.png`), fullPage: true });
@@ -139,7 +141,7 @@ async function runReadbacks(browser) {
 }
 
 await mkdir(proofDir, { recursive: true });
-await new Promise((resolvePromise, reject) => server.listen(port, '127.0.0.1', (error) => error ? reject(error) : resolvePromise()));
+if (useLocalServer) await new Promise((resolvePromise, reject) => server.listen(port, '127.0.0.1', (error) => error ? reject(error) : resolvePromise()));
 const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
 try {
   const matrix = await runMatrix(browser);
@@ -157,5 +159,5 @@ try {
   if (matrixFailures.length || diagnosticCount || !interactionOk || !blindOk || !readbacksOk) process.exitCode = 1;
 } finally {
   await browser.close();
-  await new Promise((resolvePromise) => server.close(() => resolvePromise()));
+  if (useLocalServer) await new Promise((resolvePromise) => server.close(() => resolvePromise()));
 }
