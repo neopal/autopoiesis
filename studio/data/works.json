@@ -57,7 +57,7 @@
         "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix and interaction/readback evidence passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "local and production headless browser matrices and interaction/readback evidence passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4233/works/typography-2026-10-06/",
         "rawPreview": "http://127.0.0.1:4233/studies/handwriting/v023/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4233/studies/handwriting/v023/?preview=1&static=1&blind=1",
@@ -77,12 +77,21 @@
         "blindPreview": "local reduced-motion static blind preview at 390x844 kept the word field visible while hiding readout and controls; no document overflow",
         "journal": "local Journal readback rendered exactly one #journal-typography-2026-10-06 anchor and contained the recorded title",
         "current": "local Handwriting current readback rendered the typography-2026-10-06 latest artwork card with no overflow",
-        "canvasCaptures": "24 non-empty local PNG captures written across the 20 raw/canonical matrix plus interaction, blind, Journal, and current readbacks",
+        "productionRoute": "https://autopoiesis-nine.vercel.app/works/typography-2026-10-06/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v023/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v023/?preview=1&static=1&blind=1",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionTableauFirst": "10/10 production canonical runs mounted the v023 browser-native reading fold before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the production matrix and focused interaction, blind, Journal, and current readbacks",
+        "productionInteraction": "production pointer tap kept memory at 0; read-forward kept memory at 0; turn back committed 0 -> 1; Delete restored 0; Enter committed 0 -> 1; all four controls measured 44px",
+        "productionJournalReadback": "Production /journal/ rendered #journal-typography-2026-10-06 and the title The reader moves the break.; HTTP 200",
+        "productionCatalogReadback": "Production /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with typography-2026-10-06; /currents/handwriting/ and the canonical work route returned HTTP 200",
+        "canvasCaptures": "24 non-empty local PNG captures and 24 non-empty production PNG captures written across the matrices plus interaction, blind, Journal, and current readbacks",
         "diagnosticCount": 0,
         "overflowCount": 0,
         "unresolved": [
-          "production readback and provider revision linkage",
-          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden"
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the deployment and GitHub SHA"
         ]
       },
       "source": {
