@@ -2,6 +2,92 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-06",
+      "currentId": "brush",
+      "date": "2026-10-06",
+      "title": "The paint folds its weight inward.",
+      "rawPath": "/studies/p5-brush/v025/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-06",
+        "note": "v025 leaves v022s continuous pigment field, v023s connected witness body, and v024s flat endpoint span. One hanging pigment membrane is rendered in depth; a single addressed seam becomes a hinge and every lower row folds through actual x/y/z geometry. Later hinges inherit the displaced surface, so paint remembers load as spatial weight rather than as a mark or missing interval."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The hinge must live in the mesh: rows below the selected seam need changed x, y, and z coordinates, and a later hinge must begin from those changed coordinates. A tint, cursor ring, or crease label cannot substitute for spatial displacement."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as one suspended membrane with a weighted bend, not a card stack, flat ribbon, segmented bridge, or generic 3D demo. After a hinge, the displaced lower section must be findable in depth and silhouette."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A single click on one seam commits immediately and changes the material below it; Enter and Space use the deterministic next seam, Delete restores the exact preceding mesh, and R releases the bounded hinge memory. The interaction must not degrade into a hold, departure, drag, or pair."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The situated-attention mechanism from little-critters is translated into a non-figurative material answer: the membrane does not look back, but it changes its load-bearing geometry at the place the visitor addresses. No animals, eyes, characters, or head-turning image may carry the relation."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v025 must leave v022's continuous field, v023's connected SVG station body, and v024's flat endpoint span through a 3D membrane composition, an immediate single-seam hinge, and depth memory that compounds rather than removes an interval."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v025 if the mesh is only a rotated flat card, if lower rows do not actually move, if later hinges recompute from the original sheet, if controls are required to read the fold, or if the blind field looks like a generic WebGL object."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v025-hanging-membrane",
+        "visitorInput": true,
+        "seed": "0x42525545",
+        "stages": 16,
+        "primitiveBudget": 36,
+        "rowCount": 9,
+        "columnCount": 17,
+        "memoryWindow": 3,
+        "settledStage": 15,
+        "settledMemory": 3,
+        "settledFoldedNodes": 96,
+        "memoryRule": "a single seam hinges the material below it through depth; later hinges are applied to the already displaced membrane",
+        "interactionRule": "a click commits one bounded seam hinge; Enter and Space use the seeded next seam; Delete lifts the latest hinge; R releases memory",
+        "representationRupture": "continuous pigment field, connected SVG body, and flat two-endpoint bridge -> one hanging membrane rendered as a spatial load-bearing surface",
+        "encounterRupture": "press-and-hold, approach-and-depart, and two-touch relation -> immediate single-seam hinge selected by spatial position",
+        "temporalRupture": "binder accumulation, departure refusal, and span removal -> inherited depth load in which each later fold acts on the already folded surface",
+        "mediumRupture": "p5.js Canvas 2D and inline SVG -> deterministic p5.js WEBGL membrane with actual x/y/z mesh geometry",
+        "replay": true,
+        "renderer": "deterministic p5.js WEBGL hanging membrane",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "pending local and production headless browser matrices and interaction readback",
+        "unresolved": [
+          "local browser matrix and interaction evidence",
+          "production verification",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the eventual deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate situated reciprocity into a material hinge: when the visitor addresses one seam, the membrane answers at that place by changing the load-bearing geometry below it. The answer is altered depth, not a face or cursor.",
+        "visibleConsequence": "The blind field is one hanging pigment membrane rendered as a spatial mesh. A single click changes real lower-row coordinates; later hinges inherit the prior displacement and remain visible in silhouette and depth.",
+        "falsifier": "If a click only changes colour or a marker, if lower rows keep the original x/y/z positions, if later folds start from the original flat state, or if the blind view reads as a generic WebGL card, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper style, head-turning scene, source palette, source composition, source code, API surface, or surface vocabulary from little-critters is reproduced.",
+        "directionConsequence": "Closes Brushs pressure / witness / span sequence and opens a spatial-material direction in which paint remembers weight by carrying a deformed surface forward through depth."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v025 if the blind membrane does not read as one spatial material body, if lower rows do not move in actual geometry, or if a later hinge forgets prior load.",
+        "lineage": "brush-2026-10-05"
+      }
+    },
+    {
       "id": "svg-2026-10-06",
       "currentId": "svg",
       "date": "2026-10-06",

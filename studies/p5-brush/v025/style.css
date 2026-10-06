@@ -1,0 +1,325 @@
+:root {
+  --membrane-night: #151719;
+  --membrane-ink: #eee7d8;
+  --membrane-muted: #9a9387;
+  --membrane-copper: #d17e4e;
+  --membrane-gold: #e4ba65;
+  --membrane-cyan: #78b6ad;
+  --membrane-line: rgba(238, 231, 216, 0.18);
+}
+
+html,
+body {
+  background: var(--membrane-night);
+  color: var(--membrane-ink);
+}
+
+.membrane-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 72% 18%, rgba(120, 182, 173, 0.08), transparent 29rem),
+    radial-gradient(circle at 16% 78%, rgba(209, 126, 78, 0.08), transparent 24rem),
+    var(--membrane-night);
+}
+
+.membrane-main {
+  width: min(1280px, calc(100% - 56px));
+  margin: 0 auto;
+  padding: 18px 0 68px;
+}
+
+.membrane-work {
+  margin: 0;
+  border: 1px solid var(--membrane-line);
+  background: rgba(10, 12, 14, 0.72);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.32);
+}
+
+.membrane-wrap {
+  position: relative;
+  min-height: min(68vw, 760px);
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    linear-gradient(108deg, rgba(228, 186, 101, 0.04), transparent 31%, rgba(120, 182, 173, 0.04)),
+    radial-gradient(ellipse at 51% 45%, rgba(209, 126, 78, 0.12), transparent 48%),
+    #111416;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.membrane-wrap::before,
+.membrane-wrap::after {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  color: rgba(238, 231, 216, 0.36);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.membrane-wrap::before {
+  content: "load-bearing / 025";
+  top: 18px;
+  left: 20px;
+}
+
+.membrane-wrap::after {
+  content: "depth is the scar";
+  right: 20px;
+  bottom: 18px;
+  writing-mode: vertical-rl;
+}
+
+.membrane-wrap canvas {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 12 / 7;
+}
+
+.membrane-readout,
+.membrane-controls,
+.membrane-hint {
+  position: absolute;
+  z-index: 3;
+}
+
+.membrane-readout {
+  top: 18px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+  color: rgba(238, 231, 216, 0.72);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.membrane-controls {
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.membrane-controls button {
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid rgba(228, 186, 101, 0.38);
+  border-radius: 0;
+  background: rgba(21, 23, 25, 0.86);
+  color: var(--membrane-ink);
+  font: 11px/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.membrane-controls button:hover,
+.membrane-controls button:focus-visible {
+  border-color: var(--membrane-gold);
+  color: var(--membrane-gold);
+  outline: none;
+}
+
+.membrane-hint {
+  right: 20px;
+  bottom: 23px;
+  margin: 0;
+  color: rgba(238, 231, 216, 0.48);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.membrane-opening {
+  max-width: 720px;
+  padding: 54px 7vw 42px;
+}
+
+.membrane-opening h1 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--membrane-ink);
+  font-size: clamp(2.7rem, 7vw, 7.2rem);
+  line-height: 0.87;
+  letter-spacing: -0.065em;
+}
+
+.membrane-opening h1 i {
+  color: var(--membrane-copper);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+.membrane-lede {
+  max-width: 32rem;
+  margin: 26px 0 0;
+  color: var(--membrane-muted);
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  line-height: 1.35;
+}
+
+.membrane-work + .membrane-opening,
+.membrane-opening + .interaction-panel,
+.interaction-panel + .annotations {
+  border-top: 1px solid var(--membrane-line);
+}
+
+.interaction-panel,
+.annotations {
+  padding: 28px 7vw;
+}
+
+.interaction-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 0.55fr);
+  gap: 40px;
+}
+
+.interaction-copy,
+.interaction-state,
+.annotations dd {
+  max-width: 50rem;
+  color: var(--membrane-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.interaction-state {
+  margin: 0;
+  color: var(--membrane-cyan);
+}
+
+.annotations dl {
+  display: grid;
+  gap: 18px;
+  margin: 0;
+}
+
+.annotations dl > div {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 24px;
+  border-top: 1px solid rgba(238, 231, 216, 0.1);
+  padding-top: 14px;
+}
+
+.annotations dt {
+  color: var(--membrane-gold);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.annotations dd {
+  margin: 0;
+}
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode figcaption,
+html.preview-mode .membrane-opening,
+html.preview-mode .interaction-panel,
+html.preview-mode .annotations,
+html.preview-mode .studio-footer {
+  display: none;
+}
+
+html.preview-mode .membrane-main {
+  width: 100%;
+  padding: 0;
+}
+
+html.preview-mode .membrane-work {
+  border: 0;
+  box-shadow: none;
+}
+
+html.blind-mode .membrane-readout,
+html.blind-mode .membrane-controls,
+html.blind-mode .membrane-hint,
+html.blind-mode .membrane-wrap::before,
+html.blind-mode .membrane-wrap::after {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .membrane-wrap canvas {
+    filter: saturate(0.92);
+  }
+}
+
+@media (max-width: 680px) {
+  .membrane-main {
+    width: calc(100% - 24px);
+    padding-top: 8px;
+  }
+
+  .membrane-wrap {
+    min-height: 0;
+  }
+
+  .membrane-readout {
+    top: 12px;
+    right: 12px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    font-size: 9px;
+  }
+
+  .membrane-wrap::before {
+    top: 12px;
+    left: 12px;
+    font-size: 9px;
+  }
+
+  .membrane-wrap::after {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .membrane-controls {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    gap: 6px;
+  }
+
+  .membrane-controls button {
+    flex: 1 1 30%;
+    padding: 9px 8px;
+    font-size: 10px;
+  }
+
+  .membrane-hint {
+    display: none;
+  }
+
+  .membrane-opening {
+    padding: 38px 18px 30px;
+  }
+
+  .membrane-opening h1 {
+    font-size: clamp(2.7rem, 15vw, 4.6rem);
+  }
+
+  .interaction-panel,
+  .annotations {
+    padding: 24px 18px;
+  }
+
+  .interaction-panel {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .annotations dl > div {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}

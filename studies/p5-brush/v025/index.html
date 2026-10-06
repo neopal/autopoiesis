@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151719">
+  <title>MUTINE — the paint folds its weight inward</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=025">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-06"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="membrane-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v025 / HANGING MEMBRANE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="membrane-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v025</span></nav>
+
+      <figure class="membrane-work artwork-frame" aria-labelledby="work-title">
+        <div id="membrane-field" class="membrane-wrap" tabindex="0" role="application" aria-label="A suspended pigment membrane rendered in depth. Click one seam to fold the material below it inward. Each later hinge acts on the already folded membrane." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="membrane-readout" aria-live="polite"><span data-stage>stage 01 / 16</span><span data-memory>0 hinges held</span></div>
+          <div class="membrane-controls" aria-label="Brush actions">
+            <button id="hinge-control" data-gesture="hinge" type="button">hinge the next seam</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release membrane</button>
+          </div>
+          <p class="membrane-hint">click a seam / enter to hinge / delete to lift</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v025-hanging-membrane</span><span>hinge &gt; load &gt; fold</span></figcaption>
+      </figure>
+
+      <section class="membrane-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / MEDIUM SWITCH / v025</p>
+        <h1 id="work-title">The paint folds<br><i>its weight inward.</i></h1>
+        <p class="membrane-lede">A single seam becomes a hinge. Everything below it must answer in depth.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A HINGE, NOT A STROKE</p>
+          <p class="interaction-copy">Click one seam in the hanging membrane. The event commits immediately: the material below that seam folds through depth, and the next hinge inherits the displaced surface. Delete or “lift latest” reconstructs the exact preceding membrane.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The membrane is hanging under its own weight.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v025</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v024’s flat two-endpoint removal with a single spatial hinge. A click on one material seam folds every lower row in depth; later hinges are applied to the already displaced membrane.</dd></div>
+          <div><dt>visitor action</dt><dd>Click a seam, or use Enter/Space for the seeded next hinge. Delete lifts only the latest fold. R releases the bounded hinge memory. S exports the current view.</dd></div>
+          <div><dt>falsifier</dt><dd>If a hinge changes only colour or a cursor marker, if lower rows do not move in real geometry, or if a later fold begins from the original flat state, the material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v025 if labels-off and controls-off viewing reads as a generic card stack or flat ribbon, if the depth fold is not visible without prose, or if the membrane forgets its previous load.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-05/">previous daily work</a><a href="/journal/#journal-brush-2026-10-06">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=025"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "id": "p5-brush-v025-hanging-membrane",
+  "visitorInput": true,
+  "seed": "0x42525545",
+  "stages": 16,
+  "primitiveBudget": 36,
+  "rowCount": 9,
+  "columnCount": 17,
+  "memoryWindow": 3,
+  "settledStage": 15,
+  "settledMemory": 3,
+  "settledFoldedNodes": 96,
+  "memoryRule": "a single seam hinges the material below it through depth; later hinges are applied to the already displaced membrane",
+  "interactionRule": "a click commits one bounded seam hinge; Enter and Space use the seeded next seam; Delete lifts the latest hinge; R releases memory",
+  "representationRupture": "continuous pigment field, connected SVG body, and flat two-endpoint bridge -> one hanging membrane rendered as a spatial load-bearing surface",
+  "encounterRupture": "press-and-hold, approach-and-depart, and two-touch relation -> immediate single-seam hinge selected by spatial position",
+  "temporalRupture": "binder accumulation, departure refusal, and span removal -> inherited depth load in which each later fold acts on the already folded surface",
+  "mediumRupture": "p5.js Canvas 2D and inline SVG -> deterministic p5.js WEBGL membrane with actual x/y/z mesh geometry",
+  "replay": true,
+  "renderer": "deterministic p5.js WEBGL hanging membrane",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+}
