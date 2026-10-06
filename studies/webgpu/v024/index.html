@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="A vertical archive of suspended loops where a measured pause becomes phase and delay.">
+  <title>MUTINE — The archive keeps the interval.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=024">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-06"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="interval-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v024 / temporal loop archive</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="interval-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v024</span></nav>
+      <section class="interval-work" aria-label="WebGPU daily work">
+        <figure class="interval-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <canvas id="archive-field" role="img" aria-label="A vertical procession of suspended loops holding a measured interval in their geometry" tabindex="0" aria-keyshortcuts="ArrowUp ArrowDown Enter Space Delete Backspace Escape R"></canvas>
+          <div class="interval-readout" role="status" aria-live="polite"><span data-stage>interval 01 / 17</span><span data-memory>0 pauses</span><span data-armed>ring 08</span><span data-renderer>CANVAS / INITIALISING</span></div>
+          <div class="interval-status" data-status>pause on a loop · release to record the interval</div>
+          <div class="interval-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="measure">measure a pause</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V024 / DAILY WORK</span><span>pause → phase → archive</span></figcaption>
+        </figure>
+        <aside class="interval-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a surface or a set of cells. It is a procession of separate loops, each carrying a different amount of waiting in its angle, gap, and distance.</p></div>
+          <div><span>changed rule</span><p>A pointer hold becomes causal only on release. Its measured duration opens one loop and leaves a phase lag in every later loop; the archive stores delay as geometry.</p></div>
+          <div><span>progression</span><p>Arming is not history. A short tap is refused, a pause can be lifted exactly, and the four remembered intervals can be released. Arrow keys and the button provide the same deterministic path.</p></div>
+        </aside>
+      </section>
+      <section class="interval-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V024 / DAILY WORK</p><h1 id="work-title">The archive<br><i>keeps the interval.</i></h1></div>
+        <p class="interval-premise">A crowd becomes an archive when waiting is not empty time. Each pause leaves a real delay in the procession, so the next body arrives already late.</p>
+      </section>
+      <section class="interval-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The causal test passes: a measured release changes loop openings, rotations, positions, and downstream phase lag; short taps remain non-causal and exact lifting rebuilds the prior procession. Promotion depends on whether the blind form reads as a temporal archive rather than a decorative ring diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>pause → phase → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=024a"></script>
+</body>
+</html>

@@ -2,6 +2,110 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "webgpu-2026-10-06",
+      "currentId": "webgpu",
+      "date": "2026-10-06",
+      "title": "The archive keeps the interval.",
+      "rawPath": "/studies/webgpu/v024/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-10-06",
+        "note": "v024 breaks v021's solid node lattice, v022's adaptive filled-cell field, and v023's continuous membrane. Fifteen separate loops form a vertical procession; a pointer hold above 420ms commits only on release, opens and turns the addressed loop, and leaves a measured phase lag in downstream loops. The bounded archive stores delay as geometry, while lifting the latest pause reconstructs the exact preceding procession."
+      },
+      "critiques": [
+        {
+          "persona": "Temporal-material critic",
+          "argument": "The pause must live in loop geometry: release after a measured interval needs to change the addressed loop's opening and rotation, then carry a real lag into later loop positions. A timer label or glow cannot substitute for changed coordinates."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as one sparse procession of separate suspended loops with an interval, not a node lattice, membrane, tile wall, or decorative ring diagram. After a pause, the opened loop and downstream delay must be findable in the silhouettes."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Arming and a short tap must remain non-causal. Only a real hold and release above 420ms, the deterministic measure control, Enter, or Space may commit; Delete restores the exact prior procession and R releases bounded memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v024 must leave the lattice, adaptive field, and continuous membrane through a separate-loop composition, a duration-bearing hold-and-release encounter, and a memory model in which delay propagates downstream instead of opening a surface or rerouting cells."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v024 if the loops are only a decorative ring chart, if duration does not affect geometry, if a tap commits, if later loops ignore the stored lag, if exact lifting fails, or if the caption is needed to understand that the archive keeps an interval."
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v024-temporal-loop-archive",
+        "visitorInput": true,
+        "seed": "0x57473234",
+        "stages": 17,
+        "loopCount": 15,
+        "loopSegments": 28,
+        "memoryWindow": 4,
+        "minimumPauseMs": 420,
+        "settledStage": 16,
+        "settledMemory": 4,
+        "settledDelayedLoops": 15,
+        "primitiveBudget": 72,
+        "memoryRule": "a measured pause opens one loop and leaves a phase delay in downstream loops; later pauses inherit the archive residue",
+        "interactionRule": "pointer movement and a short tap arm without history; a hold above 420ms commits on release; Enter, Space, or measure-a-pause use the deterministic interval; Delete lifts the latest; Escape or R releases",
+        "representationRupture": "solid node lattice, adaptive filled-cell field, and continuous membrane -> a vertical procession of separate broken loops with temporal gaps",
+        "encounterRupture": "carrier tuning, pointer sweep, and typed witness -> measured hold-and-release whose duration is causal",
+        "temporalRupture": "phase response, route residue, and topological absence -> retained interval that propagates as downstream phase lag",
+        "mediumRupture": "GPU-ready cubes, filled cells, and triangulated mesh -> GPU-ready loop projection with deterministic Canvas fallback",
+        "replay": true,
+        "renderer": "WebGPU temporal loop archive with Canvas projection fallback",
+        "webgpuReadyCheck": true,
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrix, interaction readback, blind preview, and catalogue readbacks; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4241/works/webgpu-2026-10-06/",
+        "rawPreview": "http://127.0.0.1:4241/studies/webgpu/v024/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4241/studies/webgpu/v024/?preview=1&static=1&blind=1",
+        "viewportRuns": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "canonicalTableauFirst": "10/10 local canonical runs mounted the v024 temporal loop archive before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction, blind, Journal, current, and work readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 15 loops, 0 pauses, and 0 delayed loops",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 16 with 4 pauses, 15 opened loops, and 12 delayed loops",
+        "pointerInteraction": "a real short pointer tap kept memory at 0 and the exact baseline signature; a real 560ms hold-and-release changed memory from 0 to 1 and changed loop geometry",
+        "keyboardInteraction": "focused-field Enter committed memory from 0 to 1 after the held pause was lifted; Delete restored memory to 0 and the exact baseline signature",
+        "liftInteraction": "Delete after the real hold restored the exact preceding procession signature",
+        "buttonInteraction": "measure a pause changed memory from 0 to 1; all three controls measured 44px high",
+        "releaseInteraction": "release archive returned memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the loop field visible while hiding readout, status, controls, and caption; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered #journal-webgpu-2026-10-06",
+        "current": "local WebGPU current readback rendered the webgpu-2026-10-06 artwork card",
+        "work": "local canonical work readback rendered the title and tableau mount for webgpu-2026-10-06",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production readback and provider revision linkage between the eventual deployment and GitHub SHA",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate situated attention into a pause held by one loop: the visitor's waiting is not mirrored by a figure; on release it becomes a measured phase lag carried by later loops.",
+        "visibleConsequence": "A real pause opens and rotates an actual loop, changes downstream loop positions and phase, and remains in bounded memory; a short tap changes neither archive nor geometry.",
+        "falsifier": "If pointer release does not use measured duration, if a short tap commits, if the selected loop only changes colour, if later loops do not inherit actual phase and position changes, if Delete cannot restore the exact prior procession, or if the blind image reads as a decorative ring diagram, the translation fails.",
+        "antiCopy": "No animals, character designs, eyes, paper scene, source palette, source composition, API surface, or head-turning surface vocabulary is reproduced.",
+        "directionConsequence": "Closes the WebGPU current's surface / cell / membrane family and opens a temporal-computation direction where the unit of the archive is delay rather than a populated body."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v024 if the blind procession does not read as a temporal archive of separate loops, if a short tap commits, or if downstream loops do not carry the measured lag.",
+        "lineage": "webgpu-2026-10-05"
+      }
+    },
+    {
       "id": "brush-2026-10-06",
       "currentId": "brush",
       "date": "2026-10-06",
