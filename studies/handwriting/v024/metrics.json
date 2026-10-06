@@ -1,0 +1,23 @@
+{
+  "id": "handwriting-v024-resistance-field",
+  "visitorInput": true,
+  "seed": "0x48574924",
+  "stages": 16,
+  "tokenCount": 18,
+  "portCount": 9,
+  "memoryWindow": 4,
+  "primitiveBudget": 96,
+  "settledStage": 15,
+  "settledMemory": 4,
+  "settledPressures": 4,
+  "memoryRule": "a point pressure changes downstream word geometry and text, then carries a resistance field into the next pressure",
+  "interactionRule": "a pointer point commits one local pressure immediately; Enter or Space presses the deterministic centre; Delete lifts the latest; R releases bounded material memory",
+  "representationRupture": "orbital glyph population, pressure stones, and browser-native reading lanes -> one curved Canvas sentence current with weighted word bodies",
+  "encounterRupture": "approach/departure, drag, and reading reversal -> direct point pressure with immediate local consequence",
+  "temporalRupture": "reciprocal attention and line debt -> carried resistance that changes how the next word is produced",
+  "mediumRupture": "semantic DOM words and CSS writing-mode -> deterministic p5.js 1.11.3 Canvas 2D material field",
+  "replay": true,
+  "renderer": "deterministic p5.js Canvas 2D resistance field",
+  "measured": false,
+  "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+}

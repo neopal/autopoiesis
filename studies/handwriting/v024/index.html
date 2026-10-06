@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1420">
+  <title>MUTINE — The margin pushes back.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=024">
+  <script>window.p5 = window.p5 || {}; window.p5.disableFriendlyErrors = true;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-07"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="material-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v024 / RESISTANCE FIELD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="material-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v024</span></nav>
+
+      <figure id="work" class="material-work artwork-frame" aria-labelledby="work-title">
+        <div id="pressure-field" class="pressure-wrap" tabindex="0" role="application" aria-label="A sentence made by resistance. Press the field to make the next words bend." aria-keyshortcuts="Enter Space Delete R">
+          <div class="field-readout" aria-live="polite"><span data-stage>material field / quiet</span><span data-memory>0 pressures · resistance 0.00</span></div>
+          <div id="canvas-mount" class="canvas-mount" aria-hidden="true"></div>
+          <div class="field-controls" aria-label="Material actions">
+            <button id="press-margin" type="button">press the margin</button>
+            <button id="lift-pressure" type="button">lift latest</button>
+            <button id="release-pressure" type="button">release material</button>
+          </div>
+          <p class="field-hint">press once · the field carries it forward</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v024-resistance-field</span><span>pressure &gt; bend &gt; carry</span></figcaption>
+      </figure>
+
+      <section class="material-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MATERIAL SWITCH / v024</p>
+        <h1 id="work-title">The margin<br><i>pushes back.</i></h1>
+        <p class="material-lede">A word is not placed on a page. It is made by the resistance left behind by the word before it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">PRESS THE SENTENCE</p>
+          <p class="interaction-copy">Click inside the field to make a local pressure event. The event does not mark the place and disappear: it bends the actual word field, rewrites one anchor and a distant reply, and leaves resistance for the next pressure. Enter or Space uses the deterministic centre. Delete lifts the latest event; R releases the material.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The sentence is quiet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v024</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the orbital glyph field, pressure slab, and browser-native reading lanes. A p5.js Canvas field now produces the next word from a carried resistance: pressure changes downstream position, angle, weight, and text.</dd></div>
+          <div><dt>visitor action</dt><dd>Press a point in the field. A single point is causal, not an arming gesture. The deterministic button, Enter, and Space address the centre; Delete lifts the latest pressure; R releases the bounded field memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If pressure only adds a glow, if the words do not bend in actual geometry, if the rewritten reply is cosmetic, if later pressure forgets the residue, or if the blind field reads as a static word poster, material agency has failed.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v024 if the canvas is only a typographic texture, if pressure does not change how later words are made, if lifting cannot restore the exact previous field, or if the caption is needed to reveal the rule.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-06/">previous daily work</a><a href="/journal/#journal-typography-2026-10-07">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=024"></script>
+</body>
+</html>

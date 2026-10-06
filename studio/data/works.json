@@ -2,6 +2,110 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-07",
+      "currentId": "typography",
+      "date": "2026-10-07",
+      "title": "The margin pushes back.",
+      "rawPath": "/studies/handwriting/v024/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-07",
+        "note": "v024 abandons v021's orbital glyph population, v022's separated pressure stones, and v023's browser-native reading corridor. Eighteen words become one curved p5.js Canvas sentence current. A direct point pressure changes actual downstream x/y/angle/scale/weight geometry, rewrites an anchor and a distant reply, and leaves a resistance field for the next pressure. The bounded material memory can be lifted to reconstruct the exact preceding field."
+      },
+      "critiques": [
+        {
+          "persona": "Material-language critic",
+          "argument": "Pressure must change how the sentence is produced: actual word x/y/angle/scale/weight geometry must bend, an anchor must rewrite, and a distant reply must change text. A halo, cursor, or status line cannot substitute for material causality."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first field should read as one elastic sentence current in a material space, not an orbital ring, word-card grid, lane poster, or generic Canvas text demo. After pressure, the altered path and remote reply must be findable in the bodies."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A direct point press is the changed encounter: one pointer point commits immediately, while Enter and Space address the deterministic centre. Delete must restore the exact preceding field and R must release bounded pressure memory."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The p5.brush mechanism is translated from programmable material forces into language production, not brush appearance. No brushes, watercolor, hatching, or source surface vocabulary may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v024 if the Canvas is only a typographic texture, if pressure is a generic selector, if downstream geometry or text does not change, if the second pressure forgets the first resistance, if lifting is inexact, or if the caption is required to see the rule."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v024-resistance-field",
+        "visitorInput": true,
+        "seed": "0x48574924",
+        "stages": 16,
+        "tokenCount": 18,
+        "portCount": 9,
+        "memoryWindow": 4,
+        "primitiveBudget": 96,
+        "settledStage": 15,
+        "settledMemory": 4,
+        "settledPressures": 4,
+        "memoryRule": "a point pressure changes downstream word geometry and text, then carries a resistance field into the next pressure",
+        "interactionRule": "a pointer point commits one local pressure immediately; Enter or Space presses the deterministic centre; Delete lifts the latest; R releases bounded material memory",
+        "representationRupture": "orbital glyph population, pressure stones, and browser-native reading lanes -> one curved Canvas sentence current with weighted word bodies",
+        "encounterRupture": "approach/departure, drag, and reading reversal -> direct point pressure with immediate local consequence",
+        "temporalRupture": "reciprocal attention and line debt -> carried resistance that changes how the next word is produced",
+        "mediumRupture": "semantic DOM words and CSS writing-mode -> deterministic p5.js 1.11.3 Canvas 2D material field",
+        "replay": true,
+        "renderer": "deterministic p5.js Canvas 2D resistance field",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrices, interaction readback, blind-mode readback, and rendered route readbacks; candidate held pending independent caption-free perceptual review and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4246/works/typography-2026-10-07/",
+        "rawPreview": "http://127.0.0.1:4246/studies/handwriting/v024/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4246/studies/handwriting/v024/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v024 p5.js resistance field before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across all local and canonical runs and focused readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 18 words, 0 pressures, 0 resistance, and a quiet sentence field",
+        "reducedMotionState": "reduced-motion raw/canonical runs opened at deterministic stage 00; the engine replay settles four bounded pressures at stage 15",
+        "pointerInteraction": "a real pointer point changed memory from 0 to 1, changed the signature, and changed actual downstream word geometry and text",
+        "keyboardInteraction": "focused-field Enter changed memory from 0 to 1 and changed the deterministic field signature; Delete restored memory 0 and the exact baseline signature",
+        "liftInteraction": "Delete after pointer and keyboard pressure restored the exact preceding material field",
+        "buttonInteraction": "press the margin changed memory from 0 to 1; all three controls measured 44px high",
+        "releaseInteraction": "release material returned memory and resistance to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the Canvas field visible while hiding readout, controls, hint, and caption; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered #journal-typography-2026-10-07 and contained the recorded title",
+        "current": "local Handwriting current readback rendered the typography-2026-10-07 latest artwork card with no overflow",
+        "work": "local canonical work readback rendered the title and tableau mount for typography-2026-10-07",
+        "screenshotCount": 26,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "provider revision linkage between the deployment and GitHub SHA",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing treats pressure, density, grain, and vector fields as material forces; material changes how geometry is produced and remembered rather than decorating finished geometry.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, and the library's API vocabulary. Translate material agency into handwriting: a pressure point changes the production rule of the sentence downstream, bending word geometry, increasing weight, rewriting an anchor, and sending a reply to a distant word.",
+        "visibleConsequence": "The blind field is one elastic Canvas sentence current, not a card grid. After pressure, actual word positions, angles, scales, weights, and texts change; later pressure carries an accumulated resistance field.",
+        "falsifier": "If a press adds only a glow or overlay, if the words do not bend in actual geometry, if the rewritten reply is cosmetic, if later pressure starts from the original sentence, or if the blind image reads as a static word poster, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, examples, API surface, or surface marks are reproduced.",
+        "directionConsequence": "Closes Handwriting's orbital / slab / reading-corridor family and opens a material-language direction where a sentence is generated by resistance rather than read as a finished line. It abandons the stable DOM word as the next invariant."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and hint-off comparison; delete v024 if pressure is only a typographic halo, if downstream geometry or actual text does not change, if repeated pressure forgets residue, if lifting is inexact, or if the blind field reads as a static word poster.",
+        "lineage": "typography-2026-10-06"
+      }
+    },
+    {
       "id": "webgpu-2026-10-06",
       "currentId": "webgpu",
       "date": "2026-10-06",
