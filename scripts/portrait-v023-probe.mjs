@@ -6,7 +6,7 @@ import { chromium } from 'playwright';
 
 const root = resolve('C:/Users/ASUS/autopoiesis');
 const port = 4247;
-const proofDir = resolve('C:/Users/ASUS/autopoiesis/research/qa/proofs/portrait-v023-2026-10-07');
+const proofDir = resolve(process.env.MUTINE_PROBE_PROOF_DIR || 'C:/Users/ASUS/autopoiesis/research/qa/proofs/portrait-v023-2026-10-07');
 const mime = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.ico': 'image/x-icon'

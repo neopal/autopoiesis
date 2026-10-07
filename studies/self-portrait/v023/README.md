@@ -30,4 +30,4 @@ This direction changes the portrait's research question from “what did the cod
 
 ## Evidence boundary
 
-The focused unit tests prove deterministic single-solid geometry, non-causal orbiting, unseen-face mutation, bounded memory, exact lifting, staged replay, tableau contracts, and catalogue uniqueness. Browser matrices, interaction readback, blind perceptual review, and provider revision linkage must be recorded separately; until those gates are observed, this work stays held.
+The focused unit tests prove deterministic single-solid geometry, non-causal orbiting, unseen-face mutation, bounded memory, exact lifting, staged replay, tableau contracts, and catalogue uniqueness. Local and production browser matrices, interaction readback, blind preview, responsive evidence, and deployed publication readback are recorded in `research/qa/2026-10-07-portrait-daily-studio-record.md` and the proof directories. The candidate remains held only for independent caption-free perceptual review and provider revision linkage.
