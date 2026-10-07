@@ -1,0 +1,325 @@
+:root {
+  --threshold-night: #10131c;
+  --threshold-ink: #eee9dc;
+  --threshold-muted: #9a9ba5;
+  --threshold-oxide: #d86f4b;
+  --threshold-gold: #e3bb67;
+  --threshold-cyan: #80c0bd;
+  --threshold-line: rgba(238, 233, 220, 0.18);
+}
+
+html,
+body {
+  background: var(--threshold-night);
+  color: var(--threshold-ink);
+}
+
+.threshold-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 75% 14%, rgba(128, 192, 189, 0.09), transparent 29rem),
+    radial-gradient(circle at 15% 84%, rgba(216, 111, 75, 0.11), transparent 25rem),
+    var(--threshold-night);
+}
+
+.threshold-main {
+  width: min(1280px, calc(100% - 56px));
+  margin: 0 auto;
+  padding: 18px 0 68px;
+}
+
+.threshold-work {
+  margin: 0;
+  border: 1px solid var(--threshold-line);
+  background: rgba(8, 10, 16, 0.74);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.34);
+}
+
+.threshold-wrap {
+  position: relative;
+  min-height: min(62vw, 760px);
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    linear-gradient(115deg, rgba(216, 111, 75, 0.04), transparent 35%, rgba(128, 192, 189, 0.05)),
+    radial-gradient(ellipse at 54% 48%, rgba(86, 75, 130, 0.18), transparent 49%),
+    #0d1119;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.threshold-wrap::before,
+.threshold-wrap::after {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  color: rgba(238, 233, 220, 0.38);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.threshold-wrap::before {
+  content: "field / 026";
+  top: 18px;
+  left: 20px;
+}
+
+.threshold-wrap::after {
+  content: "the rule moves";
+  right: 20px;
+  bottom: 18px;
+  writing-mode: vertical-rl;
+}
+
+.threshold-wrap canvas {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 15 / 10;
+}
+
+.threshold-readout,
+.threshold-controls,
+.threshold-hint {
+  position: absolute;
+  z-index: 3;
+}
+
+.threshold-readout {
+  top: 18px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+  color: rgba(238, 233, 220, 0.72);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.threshold-controls {
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.threshold-controls button {
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid rgba(227, 187, 103, 0.38);
+  border-radius: 999px;
+  background: rgba(16, 19, 28, 0.88);
+  color: var(--threshold-ink);
+  font: 11px/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.threshold-controls button:hover,
+.threshold-controls button:focus-visible {
+  border-color: var(--threshold-gold);
+  color: var(--threshold-gold);
+  outline: none;
+}
+
+.threshold-hint {
+  right: 20px;
+  bottom: 23px;
+  margin: 0;
+  color: rgba(238, 233, 220, 0.48);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.threshold-opening {
+  max-width: 720px;
+  padding: 54px 7vw 42px;
+}
+
+.threshold-opening h1 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--threshold-ink);
+  font-size: clamp(2.7rem, 7vw, 7.2rem);
+  line-height: 0.87;
+  letter-spacing: -0.065em;
+}
+
+.threshold-opening h1 i {
+  color: var(--threshold-oxide);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+.threshold-lede {
+  max-width: 34rem;
+  margin: 26px 0 0;
+  color: var(--threshold-muted);
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  line-height: 1.35;
+}
+
+.threshold-work + .threshold-opening,
+.threshold-opening + .interaction-panel,
+.interaction-panel + .annotations {
+  border-top: 1px solid var(--threshold-line);
+}
+
+.interaction-panel,
+.annotations {
+  padding: 28px 7vw;
+}
+
+.interaction-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 0.55fr);
+  gap: 40px;
+}
+
+.interaction-copy,
+.interaction-state,
+.annotations dd {
+  max-width: 50rem;
+  color: var(--threshold-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.interaction-state {
+  margin: 0;
+  color: var(--threshold-cyan);
+}
+
+.annotations dl {
+  display: grid;
+  gap: 18px;
+  margin: 0;
+}
+
+.annotations dl > div {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 24px;
+  border-top: 1px solid rgba(238, 233, 220, 0.1);
+  padding-top: 14px;
+}
+
+.annotations dt {
+  color: var(--threshold-gold);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.annotations dd {
+  margin: 0;
+}
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode figcaption,
+html.preview-mode .threshold-opening,
+html.preview-mode .interaction-panel,
+html.preview-mode .annotations,
+html.preview-mode .studio-footer {
+  display: none;
+}
+
+html.preview-mode .threshold-main {
+  width: 100%;
+  padding: 0;
+}
+
+html.preview-mode .threshold-work {
+  border: 0;
+  box-shadow: none;
+}
+
+html.blind-mode .threshold-readout,
+html.blind-mode .threshold-controls,
+html.blind-mode .threshold-hint,
+html.blind-mode .threshold-wrap::before,
+html.blind-mode .threshold-wrap::after {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .threshold-wrap canvas {
+    filter: saturate(0.92);
+  }
+}
+
+@media (max-width: 680px) {
+  .threshold-main {
+    width: calc(100% - 24px);
+    padding-top: 8px;
+  }
+
+  .threshold-wrap {
+    min-height: 0;
+  }
+
+  .threshold-readout {
+    top: 12px;
+    right: 12px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    font-size: 9px;
+  }
+
+  .threshold-wrap::before {
+    top: 12px;
+    left: 12px;
+    font-size: 9px;
+  }
+
+  .threshold-wrap::after {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .threshold-controls {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    gap: 6px;
+  }
+
+  .threshold-controls button {
+    flex: 1 1 30%;
+    padding: 9px 8px;
+    font-size: 10px;
+  }
+
+  .threshold-hint {
+    display: none;
+  }
+
+  .threshold-opening {
+    padding: 38px 18px 30px;
+  }
+
+  .threshold-opening h1 {
+    font-size: clamp(2.7rem, 15vw, 4.6rem);
+  }
+
+  .interaction-panel,
+  .annotations {
+    padding: 24px 18px;
+  }
+
+  .interaction-panel {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .annotations dl > div {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "p5-brush-v026-threshold-slab",
+  "visitorInput": true,
+  "seed": "0x42525546",
+  "stages": 14,
+  "gridColumns": 18,
+  "gridRows": 10,
+  "memoryWindow": 4,
+  "settledStage": 13,
+  "settledMemory": 4,
+  "primitiveBudget": 180,
+  "memoryRule": "a sampled pressure moves a global threshold and recasts mass, dryness, shear, and lift across the slab; later samples act on the recast field",
+  "interactionRule": "a click samples one point without making a local mark; Enter and Space use deterministic samples; Delete lifts the latest; R releases bounded threshold memory",
+  "representationRupture": "connected SVG body, endpoint bridge, and hanging membrane -> one stratified 2D threshold slab with a global production boundary",
+  "encounterRupture": "approach/departure, two-touch endpoint relation, and local seam click -> one pressure sample whose consequence is global rather than local",
+  "temporalRupture": "inherited depth fold -> bounded threshold archive that recasts the entire field and can be lifted exactly",
+  "mediumRupture": "inline SVG and p5.js WEBGL -> deterministic p5.js 2D cell slab with material values producing block geometry",
+  "replay": true,
+  "renderer": "deterministic p5.js 2D threshold slab",
+  "measured": true,
+  "promotion": "candidate / held pending caption-free perceptual review and provider revision linkage"
+}

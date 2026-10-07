@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131c">
+  <title>MUTINE — the paint sets its own limit</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=026">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-07"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="threshold-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v026 / THRESHOLD SLAB</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="threshold-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v026</span></nav>
+
+      <figure class="threshold-work artwork-frame" aria-labelledby="work-title">
+        <div id="threshold-field" class="threshold-wrap" tabindex="0" role="application" aria-label="A stratified pigment slab. Click once to sample pressure; the material changes its global threshold rather than making a local mark." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="threshold-readout" aria-live="polite"><span data-stage>stage 01 / 14</span><span data-memory>0 samples held</span></div>
+          <div class="threshold-controls" aria-label="Brush actions">
+            <button id="squeeze-control" data-gesture="squeeze" type="button">sample the slab</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release threshold</button>
+          </div>
+          <p class="threshold-hint">click once / enter to sample / delete to lift</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v026-threshold-slab</span><span>sample &gt; threshold &gt; recast</span></figcaption>
+      </figure>
+
+      <section class="threshold-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / ANTAGONIST FIELD / v026</p>
+        <h1 id="work-title">The paint sets<br><i>its own limit.</i></h1>
+        <p class="threshold-lede">A pressure sample does not mark the place you touch. It moves the rule that makes the whole slab.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A SAMPLE, NOT A STROKE</p>
+          <p class="interaction-copy">Click the slab once. The material samples that pressure, then recasts its global threshold: dry mass, shear, and density change across the entire panel. A later sample meets the already recast field. Delete or “lift latest” reconstructs the exact preceding slab.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The slab is holding its own threshold.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v026</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v025’s local seam hinge with a global pressure threshold. One sampled point changes the production law of every cell in the slab; subsequent samples act on the recast field.</dd></div>
+          <div><dt>visitor action</dt><dd>Click one point, or use Enter/Space for the seeded next sample. Delete lifts only the latest threshold event. R releases the bounded material memory. S exports the current view.</dd></div>
+          <div><dt>falsifier</dt><dd>If a sample only changes a local mark, cursor halo, or label, if the field does not recast globally, or if later samples begin from the baseline slab, the material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v026 if labels-off and controls-off viewing reads as a generic grid, if the threshold is only an annotation, or if the blind slab cannot show a changed production law without prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-06/">previous daily work</a><a href="/journal/#journal-brush-2026-10-07">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=026"></script>
+</body>
+</html>

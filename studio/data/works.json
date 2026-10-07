@@ -495,6 +495,115 @@
       }
     },
     {
+      "id": "brush-2026-10-07",
+      "currentId": "brush",
+      "date": "2026-10-07",
+      "title": "The paint sets its own limit.",
+      "rawPath": "/studies/p5-brush/v026/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-07",
+        "note": "v026 breaks v023's connected witness body, v024's relational span, and v025's load-bearing membrane. One stratified pigment slab refuses the local mark: a sampled pressure moves a global threshold, recasts mass, dryness, shear, and lift across the entire field, and makes later samples meet the already recast material. The bounded archive can be lifted exactly."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The event must live in the production field: a sample needs to change threshold, mass, dryness, shear, and lift across actual cells. A local dot, glow, cursor ring, or counter cannot substitute for global recasting."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as one stratified pigment slab with an oblique limit, not a hanging membrane, bridge, route bundle, or generic grid. After a sample, the moved boundary and global density change must be findable in the material."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A pointer sample commits one global threshold event rather than marking the sampled point. Enter, Space, and the sample control must use the same deterministic law; Delete must lift only the latest event; R must release the bounded archive."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The p5.brush mechanism is translated from pressure and vector fields into a global antagonist threshold. No brush, watercolor, hatching, source palette, or library surface vocabulary may carry the relation."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v026 must leave v023's connected witness body, v024's relational span, and v025's load-bearing membrane through a flat stratified slab, a global consequence, and a sampled-pressure encounter whose locality is deliberately refused."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v026 if the slab is only a generic grid, if the boundary is an annotation, if only the local sample changes, if later events recompute from baseline, if lift is inexact, or if the caption is required to see what changed."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v026-threshold-slab",
+        "visitorInput": true,
+        "seed": "0x42525546",
+        "stages": 14,
+        "gridColumns": 18,
+        "gridRows": 10,
+        "memoryWindow": 4,
+        "settledStage": 13,
+        "settledMemory": 4,
+        "primitiveBudget": 180,
+        "memoryRule": "a sampled pressure moves a global threshold and recasts mass, dryness, shear, and lift across the slab; later samples act on the recast field",
+        "interactionRule": "a click samples one point without making a local mark; Enter and Space use deterministic samples; Delete lifts the latest; R releases bounded threshold memory",
+        "representationRupture": "connected SVG body, endpoint bridge, and hanging membrane -> one stratified 2D threshold slab with a global production boundary",
+        "encounterRupture": "approach/departure, two-touch endpoint relation, and local seam click -> one pressure sample whose consequence is global rather than local",
+        "temporalRupture": "inherited depth fold -> bounded threshold archive that recasts the entire field and can be lifted exactly",
+        "mediumRupture": "inline SVG and p5.js WEBGL -> deterministic p5.js 2D cell slab with material values producing block geometry",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D threshold slab",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrices, interaction readback, blind preview, and Journal/current/work readbacks; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4237/works/brush-2026-10-07/",
+        "rawPreview": "http://127.0.0.1:4237/studies/p5-brush/v026/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4237/studies/p5-brush/v026/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v026 p5.js threshold slab before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across the local matrix and focused readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 180 cells, 0 samples, and a quiet global threshold slab",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 13 with four bounded threshold samples, a moved boundary, and recast cells",
+        "pointerInteraction": "a real pointer click changed memory from 0 to 1 and changed the global slab signature; a repeated same sample was refused; a different sample changed memory to 2",
+        "keyboardInteraction": "focused-field Enter changed memory from 0 to 1 and changed the deterministic field signature",
+        "liftInteraction": "Delete after two pointer samples restored memory 1 and the exact first-sample signature",
+        "buttonInteraction": "sample the slab changed memory from 0 to 1; all three production controls measured 44px",
+        "releaseInteraction": "R returned the threshold memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the Canvas slab visible while hiding readout, controls, hint, and threshold labels; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered #journal-brush-2026-10-07 and contained the recorded title",
+        "current": "local Brush current readback rendered the brush-2026-10-07 latest artwork card with no overflow",
+        "work": "local canonical work readback rendered the title and tableau mount for brush-2026-10-07",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "screenshotCount": 26,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production deployment and public Journal/catalog readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the final production deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing treats pressure, density, grain, and vector fields as material forces; material changes how geometry is produced and remembered rather than decorating finished geometry.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, and the library's API vocabulary. Translate pressure into an antagonist threshold: one sampled point recasts mass, dryness, shear, and lift across the whole slab, and later samples encounter that changed production law.",
+        "visibleConsequence": "The blind field is one stratified 2D pigment slab with an oblique threshold boundary, not a connected body or hanging surface. A sample changes the global boundary and actual cell geometry; it does not paint a local mark.",
+        "falsifier": "If a sample only changes a local mark, cursor halo, or label, if the global field does not recast, if later samples restart from the baseline, or if the blind image reads as a generic grid, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, examples, or API surface are reproduced.",
+        "directionConsequence": "Closes Brush's witness / endpoint / hanging-membrane sequence and opens a field-antagonist direction where material sets the boundary that the viewer's pressure must negotiate."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v026 if the blind slab does not show a moved threshold and global material recast, if later samples forget prior state, or if lifting is inexact.",
+        "lineage": "brush-2026-10-06"
+      }
+    },
+    {
       "id": "svg-2026-10-06",
       "currentId": "svg",
       "date": "2026-10-06",
