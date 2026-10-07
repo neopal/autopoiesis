@@ -2,6 +2,107 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-10-07",
+      "currentId": "naive",
+      "date": "2026-10-07",
+      "title": "The picture swallows the pressure.",
+      "rawPath": "/studies/naive-art/v025/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-10-07",
+        "note": "v025 abandons v022's cut-out register, v023's continuous route, and v024's faceted theatre. One dense Canvas 2D construction sheet holds a moving aperture: a sustained pressure changes the cut that re-forms every paper fragment, and later pressure inherits the absence. Lifting the latest cut reconstructs the exact preceding body."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "Pressure must change the production geometry of the entire sheet: several polygon bodies, the aperture, and the shared cut horizon must move together. A local dot or opacity change is not material agency."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first encounter should read as one dense construction body with a real absence, not as a route, card wall, or theatre. After pressure, the displaced silhouette and moved aperture must be findable in the body itself."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A short tap must be refused. A sustained press, the deterministic control, Enter, and Space must commit equivalent structural pressure; Delete must restore the exact previous sheet and R must release all memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v025 must break v022's slot occupancy, v023's temporal route, and v024's plane/shadow theatre through an object-sized paper body, a duration-bearing press, and a global negative-space rule."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v025 if the pressure only opens a decorative hole, if the fragments keep their old geometry, if a short tap writes, if later cuts ignore the inherited aperture, or if the blind image needs the caption to be seen as one body rather than a collection of tiles."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v025-pressure-cut",
+        "seed": "0x4e413235",
+        "visitorInput": true,
+        "stages": 17,
+        "primitiveBudget": 46,
+        "pieceCount": 12,
+        "memoryWindow": 4,
+        "settledStage": 16,
+        "settledMemory": 4,
+        "settledGlobalCut": 2.365712,
+        "settledChangedPieceCount": 48,
+        "memoryRule": "sustained pressure changes a global aperture and re-forms every paper fragment around the inherited cut",
+        "interactionRule": "a short pointer tap is refused; a press held for 140ms or the press control, Enter, or Space commits a sampled pressure; Delete lifts the latest cut and R releases all memory",
+        "representationRupture": "DOM cut-out register, Canvas route, and WebGL plane theatre -> one dense Canvas 2D construction sheet with a moving global aperture",
+        "encounterRupture": "drag, timed double tap, and approach-departure -> press-and-release with duration threshold and sampled pressure location",
+        "temporalRupture": "vacancy/reflow, wrong landing, and inherited shadow -> a negative aperture that re-forms the complete body and persists into later cuts",
+        "mediumRupture": "browser layout, Canvas route, and p5.js WEBGL -> p5.js Canvas 2D polygon body with layered paper and negative space",
+        "replay": true,
+        "renderer": "deterministic p5.js Canvas 2D",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Natural drawing tools treat pressure, density, grain, and directional fields as programmable material forces; material changes how geometry is produced and remembered rather than decorating finished geometry.",
+        "translatedRule": "Refuse p5.brush's brushes, watercolor, hatching, palette, and API surface. Translate material agency into a naive construction-sheet rule: a sustained pressure changes one global aperture and re-forms the whole body around the inherited cut.",
+        "visibleConsequence": "The blind field is one dense Canvas 2D paper body with a real absence. After a sustained press, several polygon fragments, the shared cut horizon, the silhouette, and the aperture move together; the point is not rendered as a local mark.",
+        "falsifier": "If the event only changes a local accent, if the aperture and fragments do not move together, or if the blind body reads as another route, card wall, or theatre, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, API surface, or source examples are reproduced.",
+        "directionConsequence": "Closes Naive art v022's slot occupancy, v023's wrong landing, and v024's shadow theatre. It opens a negative-space construction direction in which a naive mistake is a global cut inherited by the whole body."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off comparison; delete v025 if the blind body reads as another route, card wall, or theatre, if pressure only opens a decorative hole, if later cuts ignore the inherited aperture, or if exact lifting fails.",
+        "lineage": "naive-2026-10-04"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrix, interaction readback, responsive evidence, and blind preview; candidate held pending independent caption-free perceptual review, production readback, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4237/works/naive-2026-10-07/",
+        "rawPreview": "http://127.0.0.1:4237/studies/naive-art/v025/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4237/studies/naive-art/v025/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v025 Canvas 2D construction sheet before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 118px wide × 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction and blind readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across all 20 local raw/canonical runs plus interaction and blind readbacks",
+        "normalState": "normal-motion raw runs opened at stage 00 with 12 pieces, 0 pressure cuts, and the seeded aperture",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 16 with 4 bounded pressure cuts, 48 changed-piece applications, and global cut 2.365712",
+        "pointerInteraction": "a real short pointer tap left memory at 0 and reported short-press-refused; a sustained pointer press changed memory 0 to 1 and changed 12 piece geometries",
+        "keyboardInteraction": "focused-field Enter changed memory from 1 to 2 and changed the geometry signature",
+        "liftInteraction": "Delete after Enter changed memory from 2 to 1 and restored the exact preceding sheet signature",
+        "releaseInteraction": "R returned to the deterministic stage-00 sheet with 0 memory",
+        "buttonInteraction": "the press-the-sheet control changed memory from 0 to 1",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the p5 Canvas 2D sheet visible while hiding readout, controls, labels, and annotations; no document overflow",
+        "canvasCaptures": "22 non-empty local PNG captures written across the 5-viewport raw/canonical matrix plus interaction and blind readbacks",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "production URL/readback and provider revision linkage between the stable Vercel deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "portrait-2026-10-07",
       "currentId": "portrait",
       "date": "2026-10-07",
@@ -122,69 +223,100 @@
         "note": "v025 abandons v022's folding body, v023's drying sheet, and v024's closed witness-knot. One unfilled SVG contour refuses closure through a single scarce gap. A continuous span between two stations changes the source and target geometry, then transfers the rupture to a non-local relay. Three transfers remain in bounded memory; lifting the latest reconstructs the exact preceding contour."
       },
       "critiques": [
-        {"persona":"Topology critic","argument":"The missing edge must be real geometry: a single open SVG path must transfer its gap and alter source, target, and remote relay points after a drawn span. A marker, glow, or extra connector cannot substitute."},
-        {"persona":"Perceptual critic","argument":"With labels, stations, controls, readout, captions, and furniture hidden, the first field should read as one luminous broken boundary, not a closed body, route diagram, linefield, or disguised control ring. After a span, the moved rupture must be findable in the silhouette."},
-        {"persona":"Interaction critic","argument":"Pointerdown may arm but cannot write. A continuous pointerup at a distinct station must commit; same-station contact is refused. Delete must reconstruct the exact preceding contour and R must release bounded route memory."},
-        {"persona":"Cultural critic","argument":"The little-critters mechanism is translated from local reciprocal looking into a route-dependent topology. No animal, eye, character, or head-turning image may carry the relation."},
-        {"persona":"Cynic","argument":"Delete v025 if the line is only a polished loop, if the gap does not migrate, if a route commits without a distinct target, if the relay is always a fixed neighbour, or if the caption is needed to see the rule."}
+        {
+          "persona": "Topology critic",
+          "argument": "The missing edge must be real geometry: a single open SVG path must transfer its gap and alter source, target, and remote relay points after a drawn span. A marker, glow, or extra connector cannot substitute."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, stations, controls, readout, captions, and furniture hidden, the first field should read as one luminous broken boundary, not a closed body, route diagram, linefield, or disguised control ring. After a span, the moved rupture must be findable in the silhouette."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerdown may arm but cannot write. A continuous pointerup at a distinct station must commit; same-station contact is refused. Delete must reconstruct the exact preceding contour and R must release bounded route memory."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The little-critters mechanism is translated from local reciprocal looking into a route-dependent topology. No animal, eye, character, or head-turning image may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v025 if the line is only a polished loop, if the gap does not migrate, if a route commits without a distinct target, if the relay is always a fixed neighbour, or if the caption is needed to see the rule."
+        }
       ],
       "metrics": {
-        "id":"pure-svg-v025-route-dependent-rupture","visitorInput":true,"seed":"0x53564725","stages":15,"stationCount":6,"memoryWindow":3,"primitiveBudget":1,
-        "ruptureThreshold":"continuous pointer span between distinct stations","settledStage":14,"settledMemory":3,"settledTransfers":3,
-        "memoryRule":"a drawn span changes source and target geometry while transferring the single open rupture to a non-local relay",
-        "interactionRule":"pointerdown arms without writing; pointerup at a distinct station commits; keys 1–6 arm and Enter/Space draw a deterministic span; Delete lifts latest; R releases",
-        "representationRupture":"folding body, drying sheet, and closed witness-knot -> one unfilled open SVG contour with a migrating gap",
-        "encounterRupture":"dwell, two-click relation, and discrete witness selection -> continuous drawn route whose endpoint pair determines a remote response",
-        "temporalRupture":"negative chambers and bounded pair memory -> one scarce rupture transferred through a bounded route history",
-        "mediumRupture":"filled compound paths and multiple negative subforms -> one stroked, unclosed SVG path",
-        "replay":true,"renderer":"deterministic inline SVG broken-contour","measured":true,
-        "promotion":"candidate / held pending independent caption-free perceptual review and provider revision linkage"
+        "id": "pure-svg-v025-route-dependent-rupture",
+        "visitorInput": true,
+        "seed": "0x53564725",
+        "stages": 15,
+        "stationCount": 6,
+        "memoryWindow": 3,
+        "primitiveBudget": 1,
+        "ruptureThreshold": "continuous pointer span between distinct stations",
+        "settledStage": 14,
+        "settledMemory": 3,
+        "settledTransfers": 3,
+        "memoryRule": "a drawn span changes source and target geometry while transferring the single open rupture to a non-local relay",
+        "interactionRule": "pointerdown arms without writing; pointerup at a distinct station commits; keys 1–6 arm and Enter/Space draw a deterministic span; Delete lifts latest; R releases",
+        "representationRupture": "folding body, drying sheet, and closed witness-knot -> one unfilled open SVG contour with a migrating gap",
+        "encounterRupture": "dwell, two-click relation, and discrete witness selection -> continuous drawn route whose endpoint pair determines a remote response",
+        "temporalRupture": "negative chambers and bounded pair memory -> one scarce rupture transferred through a bounded route history",
+        "mediumRupture": "filled compound paths and multiple negative subforms -> one stroked, unclosed SVG path",
+        "replay": true,
+        "renderer": "deterministic inline SVG broken-contour",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "browserEvidence": {
-        "status":"observed local and production headless browser matrices, interaction/readback evidence, blind preview, and deployed Journal/current/work/catalog readbacks; candidate held pending independent caption-free perceptual review and provider revision linkage",
-        "observedRoute":"https://autopoiesis-nine.vercel.app/works/svg-2026-10-07/",
-        "rawPreview":"https://autopoiesis-nine.vercel.app/studies/pure-svg/v025/?preview=1&interaction=1",
-        "blindPreview":"https://autopoiesis-nine.vercel.app/studies/pure-svg/v025/?preview=1&static=1&blind=1",
-        "canonicalShellAndEmbeddedTableauRendered":true,
-        "tableauFirst":"10/10 local and 10/10 production canonical runs mounted the v025 single open SVG contour before generated title, Journal, critique, evidence, and neighbouring-work prose",
-        "viewportMatrix":"20/20 local and 20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
-        "overflow":"all 20 local and 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
-        "touchTargets":"all three local and production interaction buttons measured 44px high at 390x844",
-        "initialConsoleProbe":"0 console messages, page errors, failed requests, or HTTP 400+ responses across all local and production raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
-        "networkProbe":"0 failed requests and 0 HTTP 400+ responses across the local and production matrices and focused readbacks",
-        "normalState":"normal-motion local and production raw/canonical runs opened at stage 00 with one open contour, one path, 0 transfers, and a quiet gap",
-        "reducedMotionState":"reduced-motion local and production raw/canonical runs settled at stage 14; the deterministic timeline holds three bounded rupture transfers",
-        "keyboardInteraction":"production key 2 armed without memory; Enter changed memory 0 to 1 and moved the gap; Delete restored memory 0 and the exact baseline signature; R released to 0",
-        "pointerInteraction":"production continuous pointer span between stations 1 and 4 changed memory 0 to 1 and exposed rupture-transfer",
-        "sameStationInteraction":"production pointer down/up at the same station remained at memory 0 and exposed same-station-refused",
-        "liftInteraction":"production Delete after keyboard and pointer transfer restored the exact preceding contour signature",
-        "buttonInteraction":"production draw-a-span control changed memory 0 to 1; all three controls measured 44px high",
-        "releaseInteraction":"production R returned memory to 0",
-        "staticBlindPreview":"production reduced-motion static blind preview at 390x844 kept the single SVG contour visible while hiding readout, controls, labels, stations, and endpoints; innerWidth equaled clientWidth and scrollWidth",
-        "journal":"production Journal rendered #journal-svg-2026-10-07 and contained the recorded title",
-        "current":"production Pure SVG current rendered the svg-2026-10-07 latest artwork card with no overflow",
-        "work":"production canonical work rendered the title and tableau mount for svg-2026-10-07 with tableau first",
-        "catalog":"production /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with exactly one matching public record",
-        "productionAlias":"https://autopoiesis-nine.vercel.app/",
-        "productionDeployment":"dpl_5b4xYX9JE5fd3CqePA4bpDNYvQaB",
-        "productionReady":true,
-        "screenshotCount":49,
-        "diagnosticCount":0,
-        "overflowCount":0,
-        "unresolved":["provider revision linkage between the final Vercel deployment and GitHub SHA","independent caption-free perceptual comparison with labels, readout, controls, stations, endpoints, annotations, and prose hidden"]
+        "status": "observed local and production headless browser matrices, interaction/readback evidence, blind preview, and deployed Journal/current/work/catalog readbacks; candidate held pending independent caption-free perceptual review and provider revision linkage",
+        "observedRoute": "https://autopoiesis-nine.vercel.app/works/svg-2026-10-07/",
+        "rawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v025/?preview=1&interaction=1",
+        "blindPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v025/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local and 10/10 production canonical runs mounted the v025 single open SVG contour before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local and 20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local and 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local and production interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all local and production raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across the local and production matrices and focused readbacks",
+        "normalState": "normal-motion local and production raw/canonical runs opened at stage 00 with one open contour, one path, 0 transfers, and a quiet gap",
+        "reducedMotionState": "reduced-motion local and production raw/canonical runs settled at stage 14; the deterministic timeline holds three bounded rupture transfers",
+        "keyboardInteraction": "production key 2 armed without memory; Enter changed memory 0 to 1 and moved the gap; Delete restored memory 0 and the exact baseline signature; R released to 0",
+        "pointerInteraction": "production continuous pointer span between stations 1 and 4 changed memory 0 to 1 and exposed rupture-transfer",
+        "sameStationInteraction": "production pointer down/up at the same station remained at memory 0 and exposed same-station-refused",
+        "liftInteraction": "production Delete after keyboard and pointer transfer restored the exact preceding contour signature",
+        "buttonInteraction": "production draw-a-span control changed memory 0 to 1; all three controls measured 44px high",
+        "releaseInteraction": "production R returned memory to 0",
+        "staticBlindPreview": "production reduced-motion static blind preview at 390x844 kept the single SVG contour visible while hiding readout, controls, labels, stations, and endpoints; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "production Journal rendered #journal-svg-2026-10-07 and contained the recorded title",
+        "current": "production Pure SVG current rendered the svg-2026-10-07 latest artwork card with no overflow",
+        "work": "production canonical work rendered the title and tableau mount for svg-2026-10-07 with tableau first",
+        "catalog": "production /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with exactly one matching public record",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_5b4xYX9JE5fd3CqePA4bpDNYvQaB",
+        "productionReady": true,
+        "screenshotCount": 49,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "provider revision linkage between the final Vercel deployment and GitHub SHA",
+          "independent caption-free perceptual comparison with labels, readout, controls, stations, endpoints, annotations, and prose hidden"
+        ]
       },
       "source": {
-        "referenceId":"little-critters","title":"little-critters","url":"https://github.com/GordenSun/little-critters",
-        "observedMechanism":"Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
-        "translatedRule":"Refuse animals, eyes, and head-turning imagery. Translate reciprocity into a route-dependent topology: the visitor draws continuously between two places, and the boundary answers at a third place by moving its scarce rupture.",
-        "visibleConsequence":"The blind field is one luminous, unfilled, open SVG contour with one missing edge. After a drawn span, source and target points change and the missing edge migrates to a non-local relay; bounded transfers alter the same single path.",
-        "falsifier":"If pointerdown writes memory, if the target is only a marker, if the gap does not migrate, if every relay is a fixed neighbour, or if the blind image reads as a generic line diagram, the translation fails.",
-        "antiCopy":"No animals, characters, eyes, paper scene, source palette, source composition, source code, API surface, or head-turning vocabulary is reproduced.",
-        "directionConsequence":"Closes Pure SVG's pressure-ribbon, folding-object, drying-sheet, and closed witness-knot family and opens a topology-as-route direction where a boundary remembers a refusal without becoming a filled thing."
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, and head-turning imagery. Translate reciprocity into a route-dependent topology: the visitor draws continuously between two places, and the boundary answers at a third place by moving its scarce rupture.",
+        "visibleConsequence": "The blind field is one luminous, unfilled, open SVG contour with one missing edge. After a drawn span, source and target points change and the missing edge migrates to a non-local relay; bounded transfers alter the same single path.",
+        "falsifier": "If pointerdown writes memory, if the target is only a marker, if the gap does not migrate, if every relay is a fixed neighbour, or if the blind image reads as a generic line diagram, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, source composition, source code, API surface, or head-turning vocabulary is reproduced.",
+        "directionConsequence": "Closes Pure SVG's pressure-ribbon, folding-object, drying-sheet, and closed witness-knot family and opens a topology-as-route direction where a boundary remembers a refusal without becoming a filled thing."
       },
       "decision": {
-        "nextMutation":"Run labels-off, station-off, readout-off, controls-off, and hint-off comparison; delete v025 if the blind contour reads as a generic line diagram, if pointerdown writes memory, if the gap does not migrate, if relay response is fixed, or if exact lifting fails.",
-        "lineage":"svg-2026-10-06"
+        "nextMutation": "Run labels-off, station-off, readout-off, controls-off, and hint-off comparison; delete v025 if the blind contour reads as a generic line diagram, if pointerdown writes memory, if the gap does not migrate, if relay response is fixed, or if exact lifting fails.",
+        "lineage": "svg-2026-10-06"
       }
     },
     {
