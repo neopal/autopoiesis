@@ -41,4 +41,14 @@ The new rule is a distributed refusal plate. Touching a clause only selects it. 
 
 ## Publication state
 
-Production publication is still pending. Candidate remains held pending production browser/publication readback, independent caption-free perceptual comparison, and provider revision linkage between Vercel and GitHub SHA.
+- **Vercel deployment:** `dpl_GAzutuWcmxrrbfX6cUmm88pTrXJN`
+- **Deployment state:** `READY`
+- **Stable alias:** https://autopoiesis-nine.vercel.app/
+- **Production browser matrix:** **20/20 passed** on raw and canonical routes at all five required viewports in normal and reduced-motion modes.
+- **Production diagnostics:** **0** console messages, page errors, failed requests, or HTTP `400+` responses.
+- **Production interaction:** clause selection remained non-causal; key `b` committed; Delete restored exact baseline; input `m` + send control committed; release returned memory to `0`; controls measured `44px`.
+- **Production blind preview:** 12-clause plate remained visible with readout, controls, and hint hidden; no overflow.
+- **Production readbacks:** `/studio/data/works.json`, `/studio/data/catalog-public.json`, `/journal/`, `/currents/handwriting/`, `/works/typography-2026-10-08/`, and `/studio/favicon.svg` returned HTTP 200; the JSON catalogs contained exactly one matching record, and the rendered Journal/current/work routes each found the target once with its title.
+- **Production proofs:** 25 PNG captures plus `report.json` in `research/qa/proofs/handwriting-v025-2026-10-08-production/`.
+
+The candidate remains **held**, not exhibition-ready, pending independent caption-free perceptual comparison and provider revision linkage between the Vercel deployment and GitHub SHA. The final evidence commit may follow the deployed release commit; Git and Vercel provenance remain separate claims.
