@@ -39,10 +39,11 @@ v023 abandons v020's load-bearing relief, v021's suspended mobile, and v022's bi
 
 ## Git and deployment
 
-- **Git provenance:** the source/artifact commit is recorded below; the final QA-only provenance pin will be added after the production deployment. The deployment is a manual Vercel upload and must not be conflated with Git auto-deploy.
-- **Production deployment:** pending the final evidence-record commit.
+- **Source/artifact commit deployed:** `8a98ebf3c872f5303a6e159978e29ce9db139efd`.
+- **Remote `origin/main` at deployment:** matched `8a98ebf3c872f5303a6e159978e29ce9db139efd`.
+- **Production deployment:** `dpl_89mhUGvvQ8Lq1L9bCoBpLuiq3tbc`, Ready.
 - **Stable alias:** https://autopoiesis-nine.vercel.app/
-- **Deployment provenance:** provider revision linkage remains unverified until the deployment metadata is compared with the GitHub SHA.
+- **Deployment provenance:** manual Vercel upload from the source/artifact commit. `vercel inspect` confirmed Ready production state and the stable alias, but returned no Git revision field; provider revision linkage remains unverified. The later QA-only commit records the final probe and proof readback and was not separately deployed.
 
 ## Unresolved doubt
 

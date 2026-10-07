@@ -160,7 +160,7 @@ async function runReadback(browser, baseUrl, path, marker, title, filename) {
     innerWidth: window.innerWidth,
     clientWidth: document.documentElement.clientWidth,
     scrollWidth: document.documentElement.scrollWidth,
-    titleVisible: document.body.innerText.includes(expectedTitle),
+    titleVisible: document.body.innerText.includes(expectedTitle) || [...document.querySelectorAll('iframe')].some((node) => node.contentDocument?.body?.innerText.includes(expectedTitle)),
     markerCount: document.querySelectorAll('[id^="journal-portrait-2026-10-07"], [data-work-id="portrait-2026-10-07"], [data-catalog-work-detail="portrait-2026-10-07"]').length
   }), title);
   await page.screenshot({ path: resolve(proofDir, filename), fullPage: true });
