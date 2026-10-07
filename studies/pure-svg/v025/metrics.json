@@ -1,0 +1,23 @@
+{
+  "id": "pure-svg-v025-route-dependent-rupture",
+  "visitorInput": true,
+  "seed": "0x53564725",
+  "stages": 15,
+  "stationCount": 6,
+  "memoryWindow": 3,
+  "primitiveBudget": 1,
+  "ruptureThreshold": "continuous pointer span between distinct stations",
+  "settledStage": 14,
+  "settledMemory": 3,
+  "settledTransfers": 3,
+  "memoryRule": "a drawn span changes source and target geometry while transferring the single open rupture to a non-local relay",
+  "interactionRule": "pointerdown arms without writing; pointerup at a distinct station commits; keys 1–6 arm and Enter/Space draw a deterministic span; Delete lifts latest; R releases",
+  "representationRupture": "folding body, drying sheet, and closed witness-knot -> one unfilled open SVG contour with a migrating gap",
+  "encounterRupture": "dwell, two-click relation, and discrete witness selection -> continuous drawn route whose endpoint pair determines a remote response",
+  "temporalRupture": "negative chambers and bounded pair memory -> one scarce rupture transferred through a bounded route history",
+  "mediumRupture": "filled compound paths and multiple negative subforms -> one stroked, unclosed SVG path",
+  "replay": true,
+  "renderer": "deterministic inline SVG broken-contour",
+  "measured": false,
+  "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

@@ -6,6 +6,7 @@ const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 const expectedDailyIds = [
   'portrait-2026-10-07',
+  'svg-2026-10-07',
   'typography-2026-10-07',
   'webgpu-2026-10-06',
   'brush-2026-10-06',
@@ -233,7 +234,7 @@ test('the catalogue groups daily works by current in reverse chronological order
   const catalog = buildCatalog(studio, works);
 
   assert.equal(catalog.currents.length, 6);
-  assert.equal(catalog.works.length, 144)
+  assert.equal(catalog.works.length, 145)
   for (const current of catalog.currents) {
     const dates = current.works.map((work) => work.date);
     assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
@@ -266,6 +267,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'typography-2026-08-28'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'svg').works.map((work) => work.id), [
+    'svg-2026-10-07',
     'svg-2026-10-06',
     'svg-2026-10-05',
     'svg-2026-10-04',

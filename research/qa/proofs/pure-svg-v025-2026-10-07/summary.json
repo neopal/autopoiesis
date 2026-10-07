@@ -1,0 +1,51 @@
+{
+  "target": "svg-v025",
+  "viewportRuns": "20/20",
+  "requiredViewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "normalAndReducedMotion": true,
+  "diagnosticsCount": 0,
+  "overflowCount": 0,
+  "interaction": "arming 0→0; Enter 0→1 and gap moved; Delete exact restore; R →0; pointer span 0→1; same station refused; button 0→1",
+  "blindPreview": {
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "svgVisible": true,
+    "boundaryVisible": true,
+    "pathCount": 1,
+    "memory": 3,
+    "gapAt": 5,
+    "signature": "{\"stage\":14,\"path\":\"M 520.832 563.860 Q 583.286 537.875 708.194 485.905 Q 747.838 469.588 827.125 436.954 Q 850.874 397.546 898.373 318.731 Q 897.641 283.103 896.176 211.847 Q 866.708 196.729 807.772 166.494 Q 768.157 163.067 688.926 156.214 Q 660.539 156.128 603.766 155.955 Q 543.397 166.638 422.659 188.003 Q 397.806 168.678 348.101 130.029 Q 318.909 134.581 260.526 143.686 Q 222.996 154.331 147.936 175.620 Q 131.528 194.285 98.713 231.615 Q 102.226 276.605 109.251 366.584 Q 147.367 398.993 223.598 463.810\",\"gapAt\":5,\"stations\":[\"260.526,143.686|147.936,175.620|98.713,231.615\",\"109.251,366.584|223.598,463.810|343.664,551.600\",\"520.832,563.860|708.194,485.905|827.125,436.954\",\"898.373,318.731|896.176,211.847|807.772,166.494\",\"807.772,166.494|688.926,156.214|603.766,155.955\",\"603.766,155.955|422.659,188.003|348.101,130.029\"],\"memory\":[{\"kind\":\"rupture\",\"mode\":\"rupture-transfer\",\"gesture\":\"drawn-span\",\"origin\":\"auto-span\",\"stage\":6,\"source\":2,\"target\":5,\"relay\":0,\"force\":1.21,\"ordinal\":1},{\"kind\":\"rupture\",\"mode\":\"rupture-transfer\",\"gesture\":\"drawn-span\",\"origin\":\"auto-span\",\"stage\":9,\"source\":4,\"target\":1,\"relay\":2,\"force\":1.21,\"ordinal\":2},{\"kind\":\"rupture\",\"mode\":\"rupture-transfer\",\"gesture\":\"drawn-span\",\"origin\":\"auto-span\",\"stage\":12,\"source\":3,\"target\":0,\"relay\":5,\"force\":1.21,\"ordinal\":3}]}",
+    "interaction": "sequence",
+    "hiddenFurniture": true
+  },
+  "touchTargets": [
+    {
+      "label": "draw a span",
+      "width": 114,
+      "height": 44
+    },
+    {
+      "label": "lift latest",
+      "width": 114,
+      "height": 44
+    },
+    {
+      "label": "release",
+      "width": 114,
+      "height": 44
+    }
+  ],
+  "screenshots": 24,
+  "unresolved": [
+    "independent caption-free perceptual comparison",
+    "production readback",
+    "provider revision linkage"
+  ]
+}
