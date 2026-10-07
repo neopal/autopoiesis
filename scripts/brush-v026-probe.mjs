@@ -6,7 +6,8 @@ import { chromium } from 'playwright';
 
 const root = resolve('C:/Users/ASUS/autopoiesis');
 const port = 4237;
-const proofDir = resolve('C:/Users/ASUS/autopoiesis/research/qa/proofs/brush-v026-2026-10-07');
+const baseUrl = process.env.MUTINE_PROBE_BASE_URL ?? `http://127.0.0.1:${port}`;
+const proofDir = resolve(process.env.MUTINE_PROBE_PROOF_DIR ?? 'C:/Users/ASUS/autopoiesis/research/qa/proofs/brush-v026-2026-10-07');
 const mime = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.ico': 'image/x-icon', '.png': 'image/png'
@@ -100,7 +101,7 @@ async function runMatrix(browser) {
         const page = await browser.newPage({ viewport: { width: viewport[0], height: viewport[1] } });
         const diag = diagnostics(page);
         await page.emulateMedia({ reducedMotion: reducedMotion ? 'reduce' : 'no-preference' });
-        await page.goto(`http://127.0.0.1:${port}${route}`, { waitUntil: 'networkidle' });
+        await page.goto(`${baseUrl}${route}`, { waitUntil: 'networkidle' });
         const frame = await waitForTableau(page, routeName === 'canonical');
         const shell = await shellEvidence(page, routeName === 'canonical', viewport);
         const tableau = await tableauEvidence(frame, viewport, reducedMotion);
@@ -117,7 +118,7 @@ async function runInteraction(browser) {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const diag = diagnostics(page);
   await page.emulateMedia({ reducedMotion: 'no-preference' });
-  await page.goto(`http://127.0.0.1:${port}${routes.raw}`, { waitUntil: 'networkidle' });
+  await page.goto(`${baseUrl}${routes.raw}`, { waitUntil: 'networkidle' });
   await waitForTableau(page, false);
   const state = () => page.evaluate(() => window.__mutineBrushV026.getState());
   const initial = await state();
@@ -149,7 +150,7 @@ async function runBlind(browser) {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const diag = diagnostics(page);
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  await page.goto(`http://127.0.0.1:${port}/studies/p5-brush/v026/?preview=1&static=1&blind=1`, { waitUntil: 'networkidle' });
+  await page.goto(`${baseUrl}/studies/p5-brush/v026/?preview=1&static=1&blind=1`, { waitUntil: 'networkidle' });
   await waitForTableau(page, false);
   const evidence = await page.evaluate(() => {
     const state = window.__mutineBrushV026.getState();
@@ -173,7 +174,7 @@ async function runBlind(browser) {
 async function runReadback(browser, path, marker, filename) {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   const diag = diagnostics(page);
-  await page.goto(`http://127.0.0.1:${port}${path}`, { waitUntil: 'networkidle' });
+  await page.goto(`${baseUrl}${path}`, { waitUntil: 'networkidle' });
   await page.waitForSelector(marker);
   const evidence = await page.evaluate(() => ({
     innerWidth: window.innerWidth,
