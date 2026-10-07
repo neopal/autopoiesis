@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1014">
+  <title>MUTINE — The portrait keeps what you never saw.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=023">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-07"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v023-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v023 / UNSEEN INVERSION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v023-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v023</span></nav>
+
+      <figure class="v023-work artwork-frame" aria-labelledby="work-title">
+        <div id="observation-field" class="observation-field" tabindex="0" role="application" aria-label="A single faceted solid. Orbit around it, then seal the observation; the least-seen face opens while the watched face remains unchanged." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete R S">
+          <canvas id="solid-canvas" aria-label="A single faceted solid with a changing unseen face"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 unseen changes held</span></div>
+          <div class="observation-controls" aria-label="Observation controls">
+            <button type="button" data-action="orbit-left">orbit left</button>
+            <button type="button" data-action="seal">seal the unseen face</button>
+            <button type="button" data-action="lift">lift latest change</button>
+            <button type="button" data-action="release">release memory</button>
+          </div>
+          <p class="field-hint" data-hint>orbit first; sealing changes what you did not see</p>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v023-unseen-inversion</span><span>look &gt; orbit &gt; leave a blind side</span></figcaption>
+      </figure>
+
+      <section class="v023-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / MEDIUM SWITCH / v023</p>
+        <h1 id="work-title">The portrait keeps<br><i>what you never saw.</i></h1>
+        <p class="v023-lede">A code self-image becomes one solid with hidden consequences. Your orbit only names a witness; when you seal the view, the least-seen face opens and another facet carries the reply.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">OBSERVE WITHOUT POINTING</p>
+          <p class="interaction-copy">Move across the solid or use the arrow keys to orbit. Enter, Space, or the seal control commits the observation. The watched face does not change: the least-seen face takes the notch, and a remote seam answers. Delete lifts the latest seal; R releases the bounded memory.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The solid is holding four unseen decisions.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v023</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v020's load-bearing relief, v021's suspended mobile, and v022's binary atlas with one browser Canvas 2D solid. Observation is not a local command: sealing a view changes the least-seen face and sends a seam to another face.</dd></div>
+          <div><dt>visitor action</dt><dd>Orbit by pointer or arrow keys, then seal. Orbiting changes the view without writing memory; sealing records the watched face and alters a different face. Delete lifts the latest inversion and R releases all bounded observation memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the watched face changes directly, if orbiting alone writes memory, if the least-seen face is not structurally notched, or if the reply is always adjacent and fixed, the social-attention translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v023 if the blind first view reads as a generic polygon or if the unseen inversion cannot be found in the silhouette, occlusion, and seam geometry without labels or readout.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-06/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-07">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=023"></script>
+</body>
+</html>

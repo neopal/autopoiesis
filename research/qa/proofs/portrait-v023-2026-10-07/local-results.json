@@ -1,0 +1,311 @@
+{
+  "baseUrl": "http://127.0.0.1:4247",
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "watchedFace": null,
+      "alteredFace": null,
+      "interaction": "sequence",
+      "interactive": true,
+      "blind": false,
+      "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":0,\"viewPitch\":0,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.19341,-0.01672,0,0,0,\"quiet\"],[1,-0.6732,0.76875,0.87731,0.73884,0.23136,-0.04791,0,0,0,\"quiet\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.22377,-0.06379,0,0,0,\"quiet\"],[4,2.0196,0.72741,0.8466,0.83717,0.28833,-0.04292,0,0,0,\"quiet\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+    },
+    "armed": {
+      "stage": 0,
+      "memory": 0,
+      "watchedFace": 6,
+      "alteredFace": null,
+      "interaction": "orbit-armed",
+      "interactive": true,
+      "blind": false,
+      "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":0.3024,\"viewPitch\":0.108,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.19341,-0.01672,0,0,0,\"quiet\"],[1,-0.6732,0.76875,0.87731,0.73884,0.23136,-0.04791,0,0,0,\"quiet\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.22377,-0.06379,0,0,0,\"quiet\"],[4,2.0196,0.72741,0.8466,0.83717,0.28833,-0.04292,0,0,0,\"quiet\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+    },
+    "keyboardSealed": {
+      "state": {
+        "stage": 0,
+        "memory": 1,
+        "watchedFace": 6,
+        "alteredFace": 0,
+        "interaction": "observation-sealed",
+        "interactive": true,
+        "blind": false,
+        "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":0.3024,\"viewPitch\":-0.07418,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.26141,0.11608,0.256,0.2752,0,\"unseen-open\"],[1,-0.6732,0.76875,0.87731,0.73884,0.23136,-0.04791,0,0,0,\"quiet\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.17897,0.02261,0,0,0.192,\"echo\"],[4,2.0196,0.72741,0.8466,0.83717,0.28833,-0.04292,0,0,0,\"quiet\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+      },
+      "frame": {
+        "composition": "single-observed-solid",
+        "stage": 0,
+        "faces": [
+          {
+            "index": 0,
+            "radial": -1.5707963267948966,
+            "radius": 0.7237914494751021,
+            "height": 0.8820500288158656,
+            "width": 0.7802388811483979,
+            "depth": 0.2614065272565931,
+            "twist": 0.11608289292752744,
+            "notch": 0.256,
+            "fold": 0.2752,
+            "seam": 0,
+            "seen": 0,
+            "state": "unseen-open"
+          },
+          {
+            "index": 1,
+            "radial": -0.6731984257692414,
+            "radius": 0.7687505501834675,
+            "height": 0.8773095262143762,
+            "width": 0.7388361857458948,
+            "depth": 0.23135644580237566,
+            "twist": -0.04791149358730763,
+            "notch": 0,
+            "fold": 0,
+            "seam": 0,
+            "seen": 0,
+            "state": "quiet"
+          },
+          {
+            "index": 2,
+            "radial": 0.2243994752564138,
+            "radius": 0.7387569267116487,
+            "height": 0.9168359964527191,
+            "width": 0.8489740210399032,
+            "depth": 0.18127386809326707,
+            "twist": -0.00165729864500463,
+            "notch": 0,
+            "fold": 0,
+            "seam": 0,
+            "seen": 0,
+            "state": "quiet"
+          },
+          {
+            "index": 3,
+            "radial": 1.121997376282069,
+            "radius": 0.7213384948251769,
+            "height": 0.8567653971072287,
+            "width": 0.7585823072865605,
+            "depth": 0.17897044945955276,
+            "twist": 0.02260524284429849,
+            "notch": 0,
+            "fold": 0,
+            "seam": 0.192,
+            "seen": 0,
+            "state": "echo"
+          },
+          {
+            "index": 4,
+            "radial": 2.019595277307724,
+            "radius": 0.7274088262394071,
+            "height": 0.846602192465216,
+            "width": 0.837172346636653,
+            "depth": 0.2883261047210544,
+            "twist": -0.042922953623346985,
+            "notch": 0,
+            "fold": 0,
+            "seam": 0,
+            "seen": 0,
+            "state": "quiet"
+          },
+          {
+            "index": 5,
+            "radial": 2.9171931783333793,
+            "radius": 0.77087604096625,
+            "height": 0.90137457145378,
+            "width": 0.7637882412225008,
+            "depth": 0.21606876695528626,
+            "twist": -0.08089266553055495,
+            "notch": 0,
+            "fold": 0,
+            "seam": 0,
+            "seen": 0,
+            "state": "quiet"
+          },
+          {
+            "index": 6,
+            "radial": 3.8147910793590345,
+            "radius": 0.8066593874990939,
+            "height": 0.8506897195242346,
+            "width": 0.7543240712955593,
+            "depth": 0.2598813085723668,
+            "twist": 0.04484250290784984,
+            "notch": 0,
+            "fold": 0,
+            "seam": 0,
+            "seen": 1,
+            "state": "quiet"
+          }
+        ],
+        "memory": [
+          {
+            "id": "visitor-unseen-0-1",
+            "stage": 0,
+            "source": "situated-observation",
+            "kind": "unseen-inversion",
+            "watchedFace": 6,
+            "alteredFace": 0,
+            "replyFace": 3,
+            "angle": 0.72,
+            "reason": "the least-seen face changes while the watched face remains only a witness"
+          }
+        ],
+        "viewAzimuth": 0.3024,
+        "viewPitch": -0.074176453468444,
+        "armedFace": null,
+        "armedAngle": null,
+        "interaction": "observation-sealed"
+      }
+    },
+    "restored": {
+      "stage": 0,
+      "memory": 0,
+      "watchedFace": null,
+      "alteredFace": null,
+      "interaction": "observation-lifted",
+      "interactive": true,
+      "blind": false,
+      "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":0,\"viewPitch\":0,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.19341,-0.01672,0,0,0,\"quiet\"],[1,-0.6732,0.76875,0.87731,0.73884,0.23136,-0.04791,0,0,0,\"quiet\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.22377,-0.06379,0,0,0,\"quiet\"],[4,2.0196,0.72741,0.8466,0.83717,0.28833,-0.04292,0,0,0,\"quiet\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+    },
+    "pointerSealed": {
+      "stage": 0,
+      "memory": 1,
+      "watchedFace": 1,
+      "alteredFace": 0,
+      "interaction": "observation-sealed",
+      "interactive": true,
+      "blind": false,
+      "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":-0.22615,\"viewPitch\":-0.03066,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.26141,0.11608,0.256,0.2752,0,\"unseen-open\"],[1,-0.6732,0.76875,0.87731,0.73884,0.23136,-0.04791,0,0,0,\"quiet\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.17897,0.02261,0,0,0.192,\"echo\"],[4,2.0196,0.72741,0.8466,0.83717,0.28833,-0.04292,0,0,0,\"quiet\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+    },
+    "liftedByButton": {
+      "stage": 0,
+      "memory": 0,
+      "watchedFace": null,
+      "alteredFace": null,
+      "interaction": "observation-lifted",
+      "interactive": true,
+      "blind": false,
+      "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":0,\"viewPitch\":0,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.19341,-0.01672,0,0,0,\"quiet\"],[1,-0.6732,0.76875,0.87731,0.73884,0.23136,-0.04791,0,0,0,\"quiet\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.22377,-0.06379,0,0,0,\"quiet\"],[4,2.0196,0.72741,0.8466,0.83717,0.28833,-0.04292,0,0,0,\"quiet\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+    },
+    "buttonSealed": {
+      "stage": 0,
+      "memory": 1,
+      "watchedFace": 0,
+      "alteredFace": 1,
+      "interaction": "observation-sealed",
+      "interactive": true,
+      "blind": false,
+      "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":-0.3024,\"viewPitch\":0.119,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.19341,-0.01672,0,0,0,\"quiet\"],[1,-0.6732,0.76875,0.87731,0.73884,0.29936,-0.18071,0.256,0.2752,0,\"unseen-open\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.22377,-0.06379,0,0,0,\"quiet\"],[4,2.0196,0.72741,0.8466,0.83717,0.24353,-0.12932,0,0,0.192,\"echo\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+    },
+    "buttonMetrics": [
+      {
+        "text": "orbit left",
+        "height": 44
+      },
+      {
+        "text": "seal the unseen face",
+        "height": 44
+      },
+      {
+        "text": "lift latest change",
+        "height": 44
+      },
+      {
+        "text": "release memory",
+        "height": 44
+      }
+    ],
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "watchedFace": null,
+      "alteredFace": null,
+      "interaction": "sequence",
+      "interactive": true,
+      "blind": false,
+      "signature": "{\"composition\":\"single-observed-solid\",\"stage\":0,\"viewAzimuth\":0,\"viewPitch\":0,\"faces\":[[0,-1.5708,0.72379,0.88205,0.78024,0.19341,-0.01672,0,0,0,\"quiet\"],[1,-0.6732,0.76875,0.87731,0.73884,0.23136,-0.04791,0,0,0,\"quiet\"],[2,0.2244,0.73876,0.91684,0.84897,0.18127,-0.00166,0,0,0,\"quiet\"],[3,1.122,0.72134,0.85677,0.75858,0.22377,-0.06379,0,0,0,\"quiet\"],[4,2.0196,0.72741,0.8466,0.83717,0.28833,-0.04292,0,0,0,\"quiet\"],[5,2.91719,0.77088,0.90137,0.76379,0.21607,-0.08089,0,0,0,\"quiet\"],[6,3.81479,0.80666,0.85069,0.75432,0.25988,0.04484,0,0,0,\"quiet\"]]}"
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "hintDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "state": {
+        "stage": 16,
+        "memory": 4,
+        "watchedFace": 6,
+        "alteredFace": 0,
+        "interaction": "sequence",
+        "interactive": false,
+        "blind": true,
+        "signature": "{\"composition\":\"single-observed-solid\",\"stage\":16,\"viewAzimuth\":0.4626,\"viewPitch\":-0.02018,\"faces\":[[0,-1.5708,0.74495,0.86894,0.83801,0.28993,0.12087,0.29275,0.2983,0.213,\"echo\"],[1,-0.6732,0.7728,0.84359,0.74824,0.20862,-0.05602,0.256,0.2752,0.199,\"echo\"],[2,0.2244,0.72142,0.90227,0.76632,0.29429,-0.042,0,0,0,\"quiet\"],[3,1.122,0.81609,0.81068,0.75904,0.18785,0.02661,0,0,0,\"quiet\"],[4,2.0196,0.75479,0.89745,0.82052,0.3209,0.01179,0.26825,0.2829,0.192,\"unseen-open\"],[5,2.91719,0.77081,0.81019,0.84742,0.21382,0.01777,0,0,0.206,\"echo\"],[6,3.81479,0.77374,0.86441,0.85845,0.32831,0.08302,0.2805,0.2906,0,\"unseen-open\"]]}"
+      }
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "readbacks": {
+    "journal": {
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "titleVisible": true,
+        "markerCount": 1
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    "current": {
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "titleVisible": true,
+        "markerCount": 1
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    "work": {
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "titleVisible": true,
+        "markerCount": 2
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    }
+  },
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v023-2026-10-07"
+}
