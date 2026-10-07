@@ -2,6 +2,113 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-08",
+      "currentId": "typography",
+      "date": "2026-10-08",
+      "title": "The word asks another word.",
+      "rawPath": "/studies/handwriting/v025/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-08",
+        "note": "v025 abandons v022's separated countertype quarry, v023's reading corridor, and v024's elastic Canvas sentence. Twelve browser-native clauses form one typographic plate: a committed letter opens a refusal in the selected clause, wakes a non-local reply, and shifts nearby geometry. The bounded grammar remembers refusals; lifting the latest event reconstructs the exact preceding plate."
+      },
+      "critiques": [
+        {
+          "persona": "Language-material critic",
+          "argument": "The exchange must live in actual DOM text and CSS geometry: the selected clause needs a visible refused character, a non-local clause needs a changed reply, and nearby clauses need moved positions. A readout, cursor, or accent colour cannot substitute for the exchange."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first field should read as one dense typographic plate with distributed clauses, not a sentence corridor, word quarry, elastic line, or generic card grid. After a letter, refusal and reply must be findable in the text bodies."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Touching a clause may select but must not write. A literal keyboard character, Enter, Space, and the send control must share the same commit law; Delete restores the exact prior plate and R releases bounded grammar memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v025 must change the viewer task from reading, dragging, and pressure to offering a literal character, and change the visual grammar from a continuous sentence to a distributed compound plate whose clauses answer across distance."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v025 if the letter is only appended at the selected place, if the remote reply is fixed or decorative, if later offers forget refusals, if selection commits, if the blind view is another line or card wall, or if the source citation is required to see the relation."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v025-refusal-plate",
+        "seed": "0x48574925",
+        "visitorInput": true,
+        "stages": 15,
+        "clauseCount": 12,
+        "memoryWindow": 4,
+        "primitiveBudget": 12,
+        "settledStage": 14,
+        "settledMemory": 4,
+        "settledReplyCount": 4,
+        "memoryRule": "a committed letter is refused by the selected clause and answered by a non-local clause; the bounded refusal ledger changes later grammar",
+        "interactionRule": "touching a clause only selects it; a typed letter, Enter, Space, or the send control commits one event; Delete lifts the latest; R releases the grammar",
+        "representationRupture": "separated SVG word stones, browser-native reading corridor, and elastic Canvas sentence -> one dense browser-native typographic plate of distributed clauses",
+        "encounterRupture": "traveled drag, reading reversal, and direct point pressure -> selecting a clause then offering a literal keyboard character",
+        "temporalRupture": "countertype resistance, line-break debt, and carried material pressure -> bounded refusal grammar in which a remote reply changes the next destination",
+        "mediumRupture": "inline SVG, semantic reading DOM, and p5.js Canvas -> semantic DOM clauses with CSS geometry and actual text mutation",
+        "replay": true,
+        "renderer": "deterministic browser-native typographic refusal plate",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, production browser/publication readback, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrices, interaction readback, responsive evidence, blind preview, and local Journal/current/work readbacks; candidate held pending production publication readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4247/works/typography-2026-10-08/",
+        "rawPreview": "http://127.0.0.1:4247/studies/handwriting/v025/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4247/studies/handwriting/v025/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v025 browser-native refusal plate before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across the local matrix and focused readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 12 DOM clauses, 0 refusals, and an intact typographic plate",
+        "reducedMotionState": "reduced-motion raw/canonical runs opened at deterministic stage 00 with 12 DOM clauses and 0 refusals",
+        "selectionInteraction": "a real pointer selection changed selected clause 5 to 2 while memory remained 0 and the geometry signature stayed exact",
+        "keyboardInteraction": "focused-field key b committed memory 0 to 1, changed actual local and non-local clause text and CSS geometry, and recorded grammar b",
+        "liftInteraction": "Delete after the keyboard letter changed memory from 1 to 0 and restored the exact baseline plate signature",
+        "buttonInteraction": "a filled letter m and send-the-letter control changed memory from 0 to 1 and changed actual plate text; all three production controls measured 44px",
+        "releaseInteraction": "release grammar returned to the deterministic stage-00 plate with memory 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the 12-clause typographic plate visible while hiding readout, controls, hint, and editorial furniture; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered exactly one #journal-typography-2026-10-08 anchor and contained the recorded title",
+        "current": "local Handwriting current readback rendered the typography-2026-10-08 latest artwork card with no overflow",
+        "work": "local canonical work readback rendered the title and tableau mount for typography-2026-10-08",
+        "catalog": "local /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with typography-2026-10-08",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "proofDir": "research/qa/proofs/handwriting-v025-2026-10-08/",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser/publication readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between the deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, head-turning imagery, and the source scene. Translate reciprocity into language-as-negotiation: a typed character is refused by the selected clause and answered by a non-local clause; the bounded ledger changes who can answer next.",
+        "visibleConsequence": "The blind field is a single irregular typographic plate of twelve actual DOM clauses, not a route or sentence corridor. After a committed letter, the selected clause opens around the refused character, a distant clause gains the reply, and neighbouring clauses shift their actual positions.",
+        "falsifier": "If the character is only appended at its point of entry, if the remote reply is fixed or cosmetic, if nearby clauses do not move, if the next letter forgets earlier refusals, or if the blind field reads as another line, route, or static word-card poster, the translation fails.",
+        "antiCopy": "No animals, character designs, eyes, paper scene, source palette, source composition, source code, API surface, or head-turning imagery is reproduced.",
+        "directionConsequence": "Closes Handwriting's countertype quarry, reading corridor, and resistance-field sequence. It opens a refusal-grammar direction in which language is a field of clauses that negotiate across distance, and switches the viewer task from reading or pressure to offering a literal character."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and hint-off comparison; delete v025 if selection writes, if the refusal or non-local reply is not visible in actual text and geometry, if later offers forget the bounded ledger, or if the blind plate reads as another sentence corridor or card grid.",
+        "lineage": "typography-2026-10-07"
+      }
+    },
+    {
       "id": "naive-2026-10-07",
       "currentId": "naive",
       "date": "2026-10-07",

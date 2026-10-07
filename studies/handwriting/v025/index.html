@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101721">
+  <title>MUTINE — The word asks another word.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=025">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-08"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="plate-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v025 / REFUSAL PLATE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="plate-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v025</span></nav>
+
+      <figure id="work" class="plate-work artwork-frame" aria-labelledby="work-title">
+        <div id="refusal-plate" class="refusal-plate" tabindex="0" role="application" aria-label="A typographic refusal plate. Type a letter to make one clause refuse it and another clause answer." aria-keyshortcuts="A-Z Enter Space Delete R">
+          <div class="plate-readout" aria-live="polite"><span data-stage>plate / quiet</span><span data-memory>0 refusals · grammar —</span></div>
+          <div id="plate-field" class="plate-field" aria-hidden="true"></div>
+          <div class="plate-controls" aria-label="Typographic actions">
+            <label class="letter-entry" for="letter-input"><span>offer a letter</span><input id="letter-input" maxlength="1" inputmode="latin" autocomplete="off" spellcheck="false" value="a" aria-label="Letter to offer"></label>
+            <button id="commit-letter" type="button">send the letter</button>
+            <button id="lift-letter" type="button">lift latest</button>
+            <button id="release-letters" type="button">release grammar</button>
+          </div>
+          <p class="plate-hint">type a letter · the plate sends it elsewhere</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v025-refusal-plate</span><span>offer &gt; refuse &gt; answer</span></figcaption>
+      </figure>
+
+      <section class="plate-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / ENCOUNTER SWITCH / v025</p>
+        <h1 id="work-title">The word asks<br><i>another word.</i></h1>
+        <p class="plate-lede">A letter offered to one clause is refused there and wakes a reply elsewhere. The page keeps the refusal, not the input.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">TYPE INTO THE PLATE</p>
+          <p class="interaction-copy">Choose a clause by touching it, then type one letter. The letter is not appended to the place you touched: the local clause opens around a refusal while a non-local clause takes the reply. Enter, Space, or the button uses the current letter; Delete lifts the latest refusal; R releases the bounded grammar.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The plate is quiet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v025</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the quarry, reading corridor, and elastic sentence field. Twelve actual DOM clauses now form one typographic plate: an offered character is refused at the selected clause and answered by a non-local clause, while nearby clauses shift to make the exchange visible.</dd></div>
+          <div><dt>visitor action</dt><dd>Touch a clause to select it, then offer a letter through the field or keyboard. Selection arms but does not write. A committed character changes text and geometry in two clauses; the input is a grammatical event, not a cosmetic parameter.</dd></div>
+          <div><dt>falsifier</dt><dd>If a character is merely appended where it was typed, if the reply is fixed or only coloured, if nearby clauses keep their geometry, if the next offer forgets earlier refusals, or if the blind field reads as another sentence corridor, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v025 if the plate is only a word-card grid, if the local refusal and remote reply are not visible in the actual text bodies, if selection writes, or if lifting the latest event cannot restore the exact preceding plate.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-07/">previous daily work</a><a href="/journal/#journal-typography-2026-10-08">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=025"></script>
+</body>
+</html>
