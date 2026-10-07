@@ -221,7 +221,7 @@ const output = {
   status: 'production-headless-browser-probe',
   base: BASE,
   routes,
-  deployment: 'dpl_Fu2nPP83cxhif1iPa8UJqmeBfyM1',
+  deployment: process.env.MUTINE_DEPLOYMENT_ID ?? 'deployment-id-not-supplied',
   viewportRuns: results,
   interaction: { initial, afterTap, afterPress, afterEnter, afterDelete, afterRelease, afterButton, touchTargets, pageErrors: interactionErrors, failedRequests: interactionFailed, consoleMessages: interactionConsole },
   blind: { httpStatus: blindResponse?.status() ?? null, evidence: blindEvidence, pageErrors: blindErrors, failedRequests: blindFailed, consoleMessages: blindConsole },

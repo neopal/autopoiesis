@@ -10,4 +10,7 @@ test('production probe records every captured PNG in its screenshot count', asyn
   const files = await readdir(proofDir);
   const pngCount = files.filter((file) => file.endsWith('.png')).length;
   assert.equal(result.counts.screenshotCount, pngCount);
+  if (process.env.MUTINE_EXPECTED_DEPLOYMENT_ID) {
+    assert.equal(result.deployment, process.env.MUTINE_EXPECTED_DEPLOYMENT_ID);
+  }
 });
