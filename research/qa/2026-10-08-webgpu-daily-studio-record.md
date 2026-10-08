@@ -56,7 +56,7 @@ v025 abandons the previous WebGPU field, continuous membrane, and vertical loop 
 - Production Journal readback: `/journal/` HTTP `200`, one `#journal-webgpu-2026-10-08` anchor containing the target title.
 - Production current readback: `/currents/webgpu/` HTTP `200`, mounted catalogue, exactly one target title.
 - Production favicon: `/studio/favicon.svg` HTTP `200`, valid SVG.
-- GitHub synchronization: local `HEAD` equals `origin/main` at the implementation commit before this evidence update.
+- GitHub synchronization: final local `HEAD` equals `origin/main` at `cc6cae251d4eb0562efd98f80044d79293cc2579`; the deployment published the preceding evidence/catalogue commit above, and provider-to-SHA linkage remains unresolved.
 
 ## Unresolved doubt
 
