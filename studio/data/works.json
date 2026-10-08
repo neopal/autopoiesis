@@ -61,19 +61,24 @@
         "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "observed local headless browser matrix, interaction/readback evidence, responsive evidence, blind preview, and local Journal/current/work readbacks; production and perceptual gates remain pending",
+        "status": "observed local and production headless browser matrices, interaction/readback evidence, responsive evidence, blind preview, and local/production Journal/current/work readbacks; perceptual and provider-linkage gates remain pending",
         "observedRoute": "http://127.0.0.1:4253/works/brush-2026-10-08/",
         "rawPreview": "http://127.0.0.1:4253/studies/p5-brush/v027/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4253/studies/p5-brush/v027/?preview=1&static=1&blind=1",
-        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "viewportMatrix": "20/20 local raw/canonical runs and 20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "diagnosticCount": 0,
         "overflowCount": 0,
-        "screenshotCount": 25,
+        "screenshotCount": 50,
         "proofDir": "research/qa/proofs/brush-v027-2026-10-08/",
+        "productionProofDir": "research/qa/proofs/brush-v027-2026-10-08-production/",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_AP5bPhxp4iooV69BNTAYpqookJJ5",
+        "productionReadbacks": "HTTP 200 for works.json, catalog-public.json, Journal, Brush current, canonical work, and favicon; exactly one matching record in each JSON catalog; rendered Journal anchor/title, current title/card, and canonical work title/tableau verified",
+        "productionInteraction": "pointer drag committed 0 to 1; repeated scrape refused; Delete restored the prior signature; R/release cleared memory; keyboard and button paths committed; three controls measured 44px",
+        "productionBlindPreview": "Canvas population remained visible while readout, controls, and hint were hidden at 390x844 with no overflow",
         "unresolved": [
-          "production browser matrix and deployed Journal/current/work/catalog readbacks",
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
-          "provider revision linkage between the eventual Vercel deployment and GitHub SHA"
+          "provider revision linkage between the Vercel deployment and GitHub SHA"
         ]
       },
       "source": {
