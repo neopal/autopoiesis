@@ -42,14 +42,24 @@ The visitor draws a stroke and releases. The stroke is measured, not painted bac
 - Local readbacks: Journal anchor/title, Self portrait current card/title, canonical work/title/tableau, and local public catalog resolved once.
 - Proofs: **25 PNG captures plus `local-results.json`** in `research/qa/proofs/portrait-v024-2026-10-08/`.
 
-## Publication boundary
+## Publication state
 
-Production deployment and production browser/publication readback are still pending at this point. The candidate remains held; no claim about the stable Vercel alias is made in this local record.
+- **Git source commit deployed:** `49efd9dc9a552b0899a07771fd5c8c8fd26d4b87`.
+- **Remote `origin/main`:** matched `49efd9dc9a552b0899a07771fd5c8c8fd26d4b87` before deployment.
+- **Vercel deployment:** `dpl_3ZUFRWkNXBQYUMHAqPX6SxJudL1s`, `READY`.
+- **Stable alias:** https://autopoiesis-nine.vercel.app/
+- **Production browser matrix:** **20/20 passed** on raw and canonical routes at all five required viewports in normal and reduced-motion modes.
+- **Production diagnostics:** **0** console messages, page errors, failed requests, or HTTP `400+` responses.
+- **Production interaction:** Enter committed memory `0 → 1`; Delete restored the exact baseline membrane signature; pointer stroke committed a resistance-selected rupture and non-local relay; lift restored baseline; strain control committed; release returned memory to `0`; all three controls measured `44px` high.
+- **Production blind preview:** the settled SVG membrane remained visible while readout, controls, hint, and editorial furniture were hidden; no overflow.
+- **Production readbacks:** `/studio/data/works.json` and `/studio/data/catalog-public.json` returned HTTP `200` with exactly one `portrait-2026-10-08` record; `/journal/`, `/currents/self-portrait/`, and `/works/portrait-2026-10-08/` rendered the title/tableau in headless Chromium; `/studio/favicon.svg` returned HTTP `200 image/svg+xml`.
+- **Production proofs:** **25 PNG captures plus `production-results.json`** in `research/qa/proofs/portrait-v024-2026-10-08-production/`.
 
 ## Unresolved doubt
 
 The work remains **candidate / held**, not exhibition-ready, pending:
 
-1. production browser matrix and deployed Journal/current/work/catalog readbacks;
-2. independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden;
-3. provider revision linkage between the eventual Vercel deployment and GitHub SHA.
+1. independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden;
+2. provider revision linkage between the Vercel deployment and GitHub SHA. `vercel inspect` confirmed Ready state and the stable aliases but returned no Git revision field.
+
+The final evidence commit may follow the deployed release commit; Git and Vercel provenance remain separate claims.
