@@ -1,0 +1,136 @@
+:root {
+  --field: #efe8d9;
+  --ink: #202d31;
+  --quiet: #6f746f;
+  --accent: #c65c3b;
+  --line: rgba(32, 45, 49, 0.22);
+  --paper-shadow: rgba(30, 39, 40, 0.24);
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  background:
+    radial-gradient(circle at 76% 13%, rgba(198, 92, 59, 0.12), transparent 24rem),
+    linear-gradient(135deg, #18252a 0%, #28383b 48%, #152125 100%);
+  color: #edf0e9;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+.miscount-shell { min-height: 100vh; padding: 0 3vw; }
+.miscount-main { max-width: 1420px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: #edf0e9; }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(237, 240, 233, 0.66); }
+.studio-path a { color: #edf0e9; }
+.work-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.29fr);
+  gap: clamp(1rem, 3vw, 3.5rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.field-column { min-width: 0; }
+.miscount-work {
+  margin: 0;
+  background: #d8d4c8;
+  color: var(--ink);
+  padding: clamp(0.45rem, 1.2vw, 1.15rem);
+  box-shadow: 0 1.4rem 3rem rgba(0, 0, 0, 0.2);
+}
+.miscount-field {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 47%, rgba(198, 92, 59, 0.15), transparent 9rem),
+    linear-gradient(132deg, #f4eee1 0%, #ded7c8 100%);
+  border: 1px solid rgba(32, 45, 49, 0.34);
+  outline: none;
+}
+.miscount-field:focus-visible { box-shadow: 0 0 0 4px var(--accent); }
+#miscount-stage, #miscount-svg { display: block; width: 100%; aspect-ratio: 10 / 7.6; }
+#miscount-svg { height: auto; }
+.miscount-readout {
+  position: absolute;
+  z-index: 2;
+  top: 0.75rem;
+  left: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  color: rgba(32, 45, 49, 0.72);
+  font: 500 0.68rem/1.2 'DM Mono', monospace;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+}
+.miscount-readout span::before { content: '— '; color: var(--accent); }
+.miscount-void { filter: drop-shadow(0 0.9rem 0.7rem rgba(32, 45, 49, 0.18)); }
+.miscount-void-cut { mix-blend-mode: screen; }
+.miscount-witness { cursor: pointer; outline: none; transform-box: fill-box; transform-origin: center; }
+.miscount-witness:focus-visible .witness-body { stroke: var(--accent); stroke-width: 7; }
+.witness-shadow { fill: rgba(32, 45, 49, 0.22); transform: translate(9px, 13px); }
+.witness-body { stroke-width: 4; vector-effect: non-scaling-stroke; transition: d 360ms cubic-bezier(.22, .7, .2, 1), stroke 240ms ease; }
+.witness-scar { fill: none; stroke: rgba(239, 232, 217, 0.66); stroke-width: 2.2; vector-effect: non-scaling-stroke; pointer-events: none; opacity: 0; transition: opacity 250ms ease; }
+.miscount-witness.is-selected .witness-body { stroke: var(--accent); stroke-width: 6; }
+.miscount-witness.is-attended .witness-scar,
+.miscount-witness.is-miscounted .witness-scar,
+.miscount-witness.is-echo .witness-scar { opacity: 0.9; }
+.miscount-witness.is-miscounted .witness-body { stroke: #8c4031; }
+.miscount-witness.is-echo .witness-body { stroke-dasharray: 9 5; }
+.miscount-controls { display: flex; flex-wrap: wrap; gap: 0.45rem; padding: 0.75rem 0.15rem 0.05rem; }
+.miscount-controls button {
+  min-height: 44px;
+  border: 1px solid rgba(32, 45, 49, 0.48);
+  border-radius: 0;
+  padding: 0.6rem 0.8rem;
+  background: transparent;
+  color: var(--ink);
+  font: 500 0.72rem/1.1 'DM Mono', monospace;
+  cursor: pointer;
+}
+.miscount-controls button:hover, .miscount-controls button:focus-visible { background: var(--ink); color: var(--field); outline: none; }
+.miscount-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: 0.65rem 0.1rem 0; color: rgba(32, 45, 49, 0.66); font: 0.65rem/1.3 'DM Mono', monospace; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: 0.5rem; }
+.work-annotations > div { border-top: 1px solid rgba(237, 240, 233, 0.3); padding-top: 0.65rem; }
+.work-annotations span, .studio-kicker { color: #d98261; font: 500 0.66rem/1.2 'DM Mono', monospace; letter-spacing: 0.08em; text-transform: uppercase; }
+.work-annotations p { margin: 0.5rem 0 0; color: rgba(237, 240, 233, 0.76); font-size: 0.92rem; line-height: 1.55; }
+.work-opening { border-top-color: rgba(237, 240, 233, 0.3); }
+.work-opening h1 { color: #f1eee3; }
+.work-premise { color: rgba(237, 240, 233, 0.72); }
+.work-note { border-color: rgba(237, 240, 233, 0.3); color: rgba(237, 240, 233, 0.73); }
+.work-loop { color: #d98261; }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .miscount-work figcaption { display: none; }
+html.preview-mode .miscount-main { max-width: 100vw; padding: 0; }
+html.preview-mode .work-surface { display: block; margin: 0; }
+html.preview-mode .miscount-work { padding: 0; box-shadow: none; }
+html.blind-mode .miscount-readout,
+html.blind-mode .miscount-controls { display: none; }
+html.blind-mode .miscount-field { border: 0; }
+html.blind-mode .miscount-witness { cursor: default; }
+
+@media (max-width: 860px) {
+  .miscount-shell { padding: 0 1rem; }
+  .work-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; }
+}
+@media (max-width: 560px) {
+  .miscount-shell { padding: 0 0.55rem; }
+  .work-surface { margin-top: 0.5rem; }
+  .miscount-work { padding: 0.35rem; }
+  .miscount-readout { top: 0.5rem; left: 0.55rem; gap: 0.35rem 0.65rem; font-size: 0.58rem; }
+  .miscount-controls { gap: 0.35rem; }
+  .miscount-controls button { flex: 1 1 30%; min-width: 0; padding: 0.55rem 0.35rem; font-size: 0.62rem; }
+  .miscount-work figcaption { font-size: 0.58rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: 0.75rem; }
+  .work-annotations > div { display: grid; grid-template-columns: 5rem 1fr; gap: 0.7rem; }
+  .work-annotations p { margin: 0; font-size: 0.82rem; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .witness-body, .witness-scar { transition: none; }
+}

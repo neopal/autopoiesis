@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202d31">
+  <title>MUTINE — The picture miscounts its witnesses</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=026">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-08"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="miscount-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v026 / MISCOUNTED WITNESSES</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="miscount-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v026</span></nav>
+
+      <section class="work-surface" aria-label="Naive miscounted-witness tableau">
+        <div class="field-column">
+          <figure class="miscount-work artwork-frame">
+            <div class="miscount-field" id="miscount-field" tabindex="0" role="application" aria-label="Nine irregular witnesses that miscount focused attention" aria-keyshortcuts="Tab Enter Space Delete R 1 2 3 4 5 6 7 8 9">
+              <div class="miscount-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-memory>0 miscounts</span><span data-selection>focus witness 1</span></div>
+              <div id="miscount-stage" aria-label="An SVG field of nine irregular witness apertures">
+                <svg id="miscount-svg" viewBox="0 0 1000 760" role="img" aria-label="A dispersed field of nine irregular apertures around a quiet absence" preserveAspectRatio="xMidYMid meet">
+                  <defs>
+                    <filter id="paper-grain" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="26" result="noise"/><feColorMatrix in="noise" type="saturate" values="0" result="mono"/><feComponentTransfer in="mono"><feFuncA type="table" tableValues="0 0.08"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+                  </defs>
+                  <path class="miscount-void" d="M454 255 L520 229 L588 272 L612 351 L579 437 L505 469 L429 430 L402 351 Z" fill="#202d31" opacity="0.94"/>
+                  <path class="miscount-void-cut" d="M470 300 L522 281 L561 310 L574 358 L546 405 L501 421 L457 392 L443 345 Z" fill="#efe8d9" opacity="0.92"/>
+                  <g id="miscount-witnesses" filter="url(#paper-grain)" aria-label="Witnesses"></g>
+                </svg>
+              </div>
+              <div class="miscount-controls" aria-label="Witness actions">
+                <button type="button" data-gesture="commit">miscount focused witness</button>
+                <button type="button" data-gesture="undo">lift latest</button>
+                <button type="button" data-gesture="release">release the count</button>
+              </div>
+            </div>
+            <figcaption><span>seed | mutine-naive-v026-miscount</span><span>focus &gt; miscount &gt; echo</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>The field is not a crowd. It is a set of witnesses that cannot agree on what attention means. Focus one; the picture changes three other bodies and counts the wrong one.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if focus itself remains non-causal and the miscount lives in three actual SVG silhouettes, not in a readout or colour flash.</p></div>
+          <div><span>progression</span><p>Tab through the apertures, then press Enter or Space. Lift one miscount, or release the bounded count and return to the first field.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V026 / DAILY WORK</p><h1 id="work-title">The picture miscounts <br><i>its witnesses.</i></h1></div>
+        <p class="work-premise">Attention is only evidence. The picture makes the wrong witness carry it, then lets the mistake echo elsewhere.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v026 abandons v023's continuous route, v024's faceted theatre, and v025's pressure sheet. The medium becomes a browser-native SVG field of irregular apertures: focus does not write, but a committed miscount changes the selected witness, a wrongly counted witness, and a third echo body.</p></section>
+      <p class="work-loop">focus → miscount → remote witness → echo</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-07/">previous daily work</a><a href="/journal/#journal-naive-2026-10-08">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=026"></script>
+</body>
+</html>

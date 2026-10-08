@@ -2,6 +2,106 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-10-08",
+      "currentId": "naive",
+      "date": "2026-10-08",
+      "title": "The picture miscounts its witnesses.",
+      "rawPath": "/studies/naive-art/v026/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-10-08",
+        "note": "v026 abandons v023's continuous route, v024's faceted theatre, and v025's pressure sheet. Nine irregular SVG witness apertures surround a quiet absence: focus only selects, while an explicit commit deliberately miscounts the attention into a different witness and echoes it into a third body. Four miscounts remain in bounded memory, and lifting the latest reconstructs the exact preceding field."
+      },
+      "critiques": [
+        {
+          "persona": "Witness critic",
+          "argument": "The tableau must read as a distributed field of nine irregular apertures around a quiet absence, not a grid or crowd. The three changed bodies must be actual SVG path mutations."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and furniture hidden, the first view should break from the route, theatre, and pressure-sheet grammar. After a commit, the attended body, wrong counted body, and echo body must be findable without prose."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Focus and pointer selection may not write. Tab plus Enter, Space, the button, Delete, and R must be real equivalent paths; lift must reconstruct the exact preceding SVG field."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The little-critters relation is translated into a non-figurative error system. No animal, eye, head-turn, paper scene, or reciprocal-looking surface vocabulary may carry the mechanism."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v026 if it is only a polished polygon scatter, if focus commits, if fewer than three bodies change, if the wrong witness is fixed or cosmetic, if later miscounts forget prior geometry, or if the caption is required to see the error."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v026-miscounted-witnesses",
+        "visitorInput": true,
+        "seed": "0x4e413236",
+        "stages": 5,
+        "witnessCount": 9,
+        "memoryWindow": 4,
+        "settledStage": 4,
+        "settledMemory": 4,
+        "primitiveBudget": 9,
+        "memoryRule": "focus is non-causal; a committed attention is deliberately miscounted into one witness and echoed by a third, with later SVG geometry inheriting the error",
+        "interactionRule": "Tab, pointer selection, or keys 1–9 focus without writing; Enter, Space, or the commit control miscount; Delete lifts the latest; R releases memory",
+        "representationRupture": "continuous Canvas route, faceted WebGL theatre, and dense pressure sheet -> browser-native SVG population of irregular witness apertures around a quiet absence",
+        "encounterRupture": "traveled route, approach-departure, and sustained pressure -> reversible focus followed by explicit keyboard commit",
+        "temporalRupture": "wrong landing, inherited shadow, and global cut -> bounded miscount ledger that changes three actual witness bodies and is exactly liftable",
+        "mediumRupture": "p5.js Canvas 2D and WebGL -> semantic inline SVG path geometry",
+        "replay": true,
+        "renderer": "deterministic inline SVG miscount field",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, independent caption-free perceptual review, production readback, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents make pointer proximity legible as attention and return the visitor's presence through a local change in looking.",
+        "translatedRule": "Refuse animals, eyes, head-turning imagery, and the source scene. Translate situated attention into a naive error system: focus only selects; an explicit commit makes the picture miscount that attention into a different witness and distribute an echo to a third body.",
+        "visibleConsequence": "The blind field is a dispersed SVG population of nine irregular apertures around a quiet absence. After a commit, the attended witness, a wrongly counted witness, and a third echo witness change their actual path silhouettes; later commits inherit those changed bodies.",
+        "falsifier": "If focus writes memory, if the commit changes only colour or a counter, if fewer than three bodies change, if later events restart from baseline, or if the blind field reads as a generic polygon scatter, the translation fails.",
+        "antiCopy": "No animals, eyes, character designs, paper scene, source palette, source composition, source code, API surface, or head-turning image is reproduced.",
+        "directionConsequence": "Closes Naive art's route, theatre, and pressure-sheet family and opens a browser-native witness grammar: error is a social misassignment carried by three apertures rather than a displaced object or global cut."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and annotation-off comparison; delete v026 if focus writes, fewer than three silhouettes change, later events forget prior geometry, or the blind field reads as a generic polygon scatter.",
+        "lineage": "naive-2026-10-07"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrices, keyboard/button interaction/readback evidence, responsive evidence, and blind preview; production publication, caption-free perceptual review, and provider linkage remain pending",
+        "observedRoute": "http://127.0.0.1:4254/works/naive-2026-10-08/",
+        "rawPreview": "http://127.0.0.1:4254/studies/naive-art/v026/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4254/studies/naive-art/v026/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v026 SVG witness field before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs and focused interaction/blind readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across all local matrices and focused readbacks",
+        "normalState": "normal-motion local raw/canonical runs opened at stage 00 with nine quiet SVG witnesses and 0 miscounts",
+        "reducedMotionState": "reduced-motion local raw/canonical runs opened at deterministic stage 00 with nine quiet SVG witnesses and 0 miscounts",
+        "focusInteraction": "local focus on witness 4 changed selection while memory remained 0 and the geometry signature stayed exact",
+        "keyboardInteraction": "local focused-field Enter changed memory from 0 to 1 and changed three actual witness path geometries; Delete restored memory 0 and the exact baseline signature",
+        "liftInteraction": "local lift control after a committed miscount restored memory 0 and the exact baseline signature",
+        "buttonInteraction": "local miscount button changed memory from 0 to 1 with the same deterministic geometry as Enter; all three controls measured 44px high",
+        "releaseInteraction": "local R returned memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the SVG witness field visible with 9 witnesses while hiding readout and controls; innerWidth equaled clientWidth and scrollWidth",
+        "screenshotCount": 22,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix, interaction evidence, public Journal/work/catalog readbacks, and production deployment",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the eventual Vercel deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "brush-2026-10-08",
       "currentId": "brush",
       "date": "2026-10-08",
