@@ -43,16 +43,22 @@ v026 makes a material rupture in representation and encounter: it leaves the enc
 
 ## Publication state
 
-- **Git source commit:** pending initial verified commit.
-- **Remote `origin/main`:** pending push.
-- **Vercel deployment:** pending production deployment and stable-alias readback.
+- **Initial verified source commit:** `475b727a0ee2f1106e00c0a7eb61693599241aa` (`[verified] add pure SVG v026 discrete choir`).
+- **Remote `origin/main`:** matched `475b727a0ee2f1106e00c0a7eb61693599241aa` before production deployment.
+- **Vercel deployment:** `dpl_EL1fNPPLgvha68CsVd8GERC66oo7`, `READY`.
+- **Stable alias:** https://autopoiesis-nine.vercel.app/
+- **Production browser matrix:** **20/20 passed** on raw and canonical routes at all five required viewports in normal and reduced-motion modes.
+- **Production diagnostics:** **0** console messages, page errors, failed requests, or HTTP `400+` responses.
+- **Production interaction:** pointerdown memory `0`, pointerup memory `1`; Enter committed; Delete and lift restored the exact prior signature; release returned memory to `0`; all four controls measured **44px** high.
+- **Production blind preview:** the settled 17-polygon SVG choir remained visible while readout and controls were hidden; no overflow.
+- **Production readbacks:** `/studio/data/works.json` and `/studio/data/catalog-public.json` returned HTTP `200` with exactly one `svg-2026-10-08` record and title; `/journal/`, `/currents/pure-svg/`, and `/works/svg-2026-10-08/` returned HTTP `200` and rendered the record/title/tableau; `/studio/favicon.svg` returned HTTP `200 image/svg+xml`.
+- **Production proofs:** **25 PNG captures plus `production-results.json`** in `research/qa/proofs/pure-svg-v026-2026-10-08-production/`.
 
 ## Unresolved doubt
 
 The work remains **candidate / held**, not exhibition-ready, pending:
 
-1. production browser matrix, interaction evidence, and deployed Journal/current/work/catalog readback;
-2. independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden;
-3. provider revision linkage between the final Vercel deployment and GitHub SHA.
+1. independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden;
+2. provider revision linkage between the final Vercel deployment and GitHub SHA. `vercel inspect` exposes Ready state and stable aliases but no Git revision field.
 
 The deletion condition is active: delete v026 if the blind constellation reads as a generic polygon scatter, if departure is not visibly causal, or if exact lifting fails.
