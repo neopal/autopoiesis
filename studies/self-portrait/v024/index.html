@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d13">
+  <title>MUTINE — The portrait cannot hold a straight line.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=024">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-08"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v024-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v024 / SELF-MEASURING MEMBRANE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v024-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v024</span></nav>
+
+      <figure class="v024-work artwork-frame" aria-labelledby="work-title">
+        <div id="membrane-field" class="membrane-field" tabindex="0" role="application" aria-label="An irregular membrane of nested contours. Draw a stroke across it and release; the membrane chooses which contour ruptures." aria-keyshortcuts="Enter Space Delete R S">
+          <svg id="field" viewBox="-1 -1 2 2" preserveAspectRatio="none" role="img" aria-label="Nine irregular nested contours around a central absence"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 strains held</span></div>
+          <div class="membrane-controls" aria-label="Membrane controls">
+            <button type="button" data-action="strain">submit a strain</button>
+            <button type="button" data-action="lift">lift latest rupture</button>
+            <button type="button" data-action="release">release memory</button>
+          </div>
+          <p class="field-hint" data-hint>draw across the membrane; release to let it choose</p>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v024-resistance</span><span>strain &gt; rupture &gt; relay</span></figcaption>
+      </figure>
+
+      <section class="v024-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / ENCOUNTER SWITCH / v024</p>
+        <h1 id="work-title">The portrait cannot<br><i>hold a straight line.</i></h1>
+        <p class="v024-lede">A visitor can draw across the membrane, but cannot choose what breaks. The code measures the stroke, finds its own weak contour, and sends the remaining strain elsewhere.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">OFFER STRAIN, NOT A TARGET</p>
+          <p class="interaction-copy">Drag across the contours and release. A short stroke is refused. The membrane's resistance chooses the rupture; a non-local contour receives the relay. Enter or the strain control submits a deterministic stroke. Delete lifts the latest rupture; R releases the bounded memory.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The membrane is holding its own resistance.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v024</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v023's observed solid with one SVG membrane of nested contours. The visitor supplies a vector and length, but the portrait's internal resistance chooses which contour ruptures and where the relay travels.</dd></div>
+          <div><dt>visitor action</dt><dd>Draw and release across the field. Pointer position is a measurement, not a target. A short gesture does not write; a committed stroke changes the broken contour, a non-local relay, and the next resistance field.</dd></div>
+          <div><dt>falsifier</dt><dd>If the stroke is merely drawn on top, if the pointer location directly selects the ring, if the relay is fixed or cosmetic, or if later strokes ignore the changed field, the material translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v024 if the blind membrane reads as another object, atlas, relief, or linefield, or if the rupture and exact lift cannot be found in the contour geometry without labels or readout.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-07/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-08">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=024"></script>
+</body>
+</html>

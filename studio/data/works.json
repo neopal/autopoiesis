@@ -2,6 +2,116 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-10-08",
+      "currentId": "portrait",
+      "date": "2026-10-08",
+      "title": "The portrait cannot hold a straight line.",
+      "rawPath": "/studies/self-portrait/v024/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-10-08",
+        "note": "v024 abandons v020's load-bearing relief, v021's suspended mobile, v022's binary atlas, and v023's single observed solid. One browser-native SVG membrane of nested contours measures a visitor stroke, lets its own resistance choose the rupture, and relays strain to a non-local contour. The bounded strain field changes the next decision; lifting the latest stroke reconstructs the exact prior membrane."
+      },
+      "critiques": [
+        {
+          "persona": "Membrane critic",
+          "argument": "The work must read as one pressure-bearing membrane before it reads as nine decorative circles: irregular contour phase, central absence, actual open gaps, and the relay must carry the event. A cursor line or colour swap is not enough."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first field should read as a nested SVG membrane around a void, not a face, solid, card atlas, suspended mobile, relief, route bundle, or generic radial diagram. After a stroke, a contour gap and non-local relay must be findable in the paths."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A short pointer movement must be refused. A real drag-release, deterministic control, Enter, and Space must share the same commit law; Delete must reconstruct the exact preceding membrane and R must release bounded strain memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v024 must change both the viewer task and causal relation: the visitor offers a vector but cannot address a target, while the portrait's own resistance selects the rupture. The medium and composition must leave the single-object Canvas solid behind."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The p5.brush mechanism is translated from pressure and fields as rendering state into SVG production logic: strain changes which contour is made, not just how a finished contour looks. No brush, watercolor, hatching, source palette, or API surface may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v024 if the drawn stroke is merely a temporary overlay, if the same ring always ruptures, if the relay is fixed or cosmetic, if later strokes ignore prior strain, or if the caption is needed to see a self-measuring membrane rather than a concentric graphic."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v024-resistance-membrane",
+        "visitorInput": true,
+        "seed": "0x53504644",
+        "stages": 17,
+        "ringCount": 9,
+        "memoryWindow": 4,
+        "settledStage": 16,
+        "settledMemory": 4,
+        "primitiveBudget": 72,
+        "memoryRule": "a measured visitor stroke lets the membrane choose its weakest contour, rupture it, and relay strain to a non-local ring; the changed field affects later choices",
+        "interactionRule": "drag and release submits a stroke; short strokes are refused; Enter, Space, and the strain control submit a deterministic cue; Delete lifts the latest; R releases memory",
+        "representationRupture": "single Canvas solid, suspended WebGL mobile, binary HTML atlas -> browser-native SVG membrane of nested openable contours",
+        "encounterRupture": "orbit-and-seal, approach-and-departure, and binary choice -> draw-and-release measurement with no visitor-selected target",
+        "temporalRupture": "unseen-face archive -> bounded strain field that changes the resistance used by the next rupture",
+        "mediumRupture": "Canvas 2D -> semantic SVG path geometry",
+        "replay": true,
+        "renderer": "deterministic SVG self-measuring membrane",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, independent caption-free perceptual review, production readback, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure modes, directional fields, custom brushes, and drawing state participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Refuse p5.brush's brushes, watercolor, hatching, palette, examples, and API surface. Translate material agency into a self-measuring SVG membrane: a visitor stroke supplies strain, the portrait's internal resistance chooses which contour ruptures, and a non-local ring receives the relay.",
+        "visibleConsequence": "The blind field is nine irregular nested SVG contours around a central absence. A committed stroke creates a real open gap in a resistance-selected ring, shifts its geometry, and changes a non-local relay ring; later strokes inherit the changed field.",
+        "falsifier": "If the stroke is only a temporary overlay, if pointer location directly selects the ring, if the relay is fixed or cosmetic, if later strokes ignore prior strain, or if the blind field reads as another solid, atlas, relief, route bundle, or generic linefield, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, source examples, or API surface is reproduced.",
+        "directionConsequence": "Closes the Self portrait direct-target and unseen-face sequence. It opens a self-measuring material-agency direction in which the code chooses where a visitor-supplied vector becomes visible."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off comparison; delete v024 if the membrane reads as a generic concentric graphic, if pointer location selects the rupture, if relay is fixed, if later strain forgets the field, or if exact lifting fails.",
+        "lineage": "portrait-2026-10-07"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrix, interaction/readback evidence, responsive evidence, blind preview, and local Journal/current/work readbacks; production and independent caption-free perceptual evidence remain pending",
+        "observedRoute": "http://127.0.0.1:4248/works/portrait-2026-10-08/",
+        "rawPreview": "http://127.0.0.1:4248/studies/self-portrait/v024/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4248/studies/self-portrait/v024/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v024 SVG membrane before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all local raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across all local runs and focused readbacks",
+        "normalState": "normal-motion local raw/canonical runs opened at stage 00 with nine quiet nested contours and 0 strain memory",
+        "reducedMotionState": "reduced-motion local raw/canonical runs settled at stage 16 with four bounded ruptures and a changed relay field",
+        "pointerInteraction": "local pointer stroke changed memory from 0 to 1, selected a resistance-selected rupture, and sent a non-local relay",
+        "keyboardInteraction": "focused-field Enter changed memory from 0 to 1; Delete restored memory 0 and the exact baseline membrane signature",
+        "liftInteraction": "local lift control after a pointer stroke restored memory 0 and the exact baseline signature",
+        "buttonInteraction": "local strain control changed memory from 0 to 1; all three controls measured 44px high",
+        "releaseInteraction": "local release control returned memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the SVG membrane visible while hiding readout, controls, hint, and editorial furniture; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal readback rendered exactly one #journal-portrait-2026-10-08 anchor and contained the recorded title",
+        "current": "local Self portrait current readback rendered the portrait-2026-10-08 artwork card and title with no overflow",
+        "work": "local canonical work readback rendered the title and v024 tableau mount",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionReady": false,
+        "proofDir": "research/qa/proofs/portrait-v024-2026-10-08/",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser/publication readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "typography-2026-10-08",
       "currentId": "typography",
       "date": "2026-10-08",

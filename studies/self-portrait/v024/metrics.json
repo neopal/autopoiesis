@@ -1,0 +1,21 @@
+{
+  "id": "portrait-v024-resistance-membrane",
+  "visitorInput": true,
+  "seed": "0x53504644",
+  "stages": 17,
+  "ringCount": 9,
+  "memoryWindow": 4,
+  "settledStage": 16,
+  "settledMemory": 4,
+  "primitiveBudget": 72,
+  "memoryRule": "a measured visitor stroke lets the membrane choose its weakest contour, rupture it, and relay strain to a non-local ring; the changed field affects later choices",
+  "interactionRule": "drag and release submits a stroke; short strokes are refused; Enter, Space, and the strain control submit a deterministic cue; Delete lifts the latest; R releases memory",
+  "representationRupture": "single Canvas solid, suspended WebGL mobile, binary HTML atlas -> browser-native SVG membrane of nested openable contours",
+  "encounterRupture": "orbit-and-seal, approach-and-departure, and binary choice -> draw-and-release measurement with no visitor-selected target",
+  "temporalRupture": "unseen-face archive -> bounded strain field that changes the resistance used by the next rupture",
+  "mediumRupture": "Canvas 2D -> semantic SVG path geometry",
+  "replay": true,
+  "renderer": "deterministic SVG self-measuring membrane",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, interaction evidence, independent caption-free perceptual review, production readback, and provider revision linkage"
+}

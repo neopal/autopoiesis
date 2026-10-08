@@ -1,0 +1,261 @@
+{
+  "baseUrl": "http://127.0.0.1:4248",
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "interaction": "sequence",
+      "rupturedRing": null,
+      "relayRing": null,
+      "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":0,\"fieldBias\":[0,0],\"rings\":[[0,0.16467,0.83147,4.88787,0.47239,0,0,0,0,\"quiet\"],[1,0.24532,0.82067,4.78972,0.8479,0,0,0,0,\"quiet\"],[2,0.33887,0.84192,3.31825,0.56786,0,0,0,0,\"quiet\"],[3,0.42358,0.91688,1.28661,0.67631,0,0,0,0,\"quiet\"],[4,0.49147,0.85734,2.41322,0.72626,0,0,0,0,\"quiet\"],[5,0.57222,0.86295,5.07687,0.38122,0,0,0,0,\"quiet\"],[6,0.65937,0.81252,5.96652,0.52792,0,0,0,0,\"quiet\"],[7,0.73699,0.78589,5.19467,0.64809,0,0,0,0,\"quiet\"],[8,0.82389,0.78806,0.13321,0.48267,0,0,0,0,\"quiet\"]]}",
+      "ringStates": [
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet"
+      ],
+      "interactive": true,
+      "blind": false
+    },
+    "committed": {
+      "stage": 0,
+      "memory": 1,
+      "interaction": "stroke-committed",
+      "rupturedRing": 8,
+      "relayRing": 3,
+      "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":0,\"fieldBias\":[0.39961,0.12928],\"rings\":[[0,0.16467,0.83147,4.88787,0.47239,0,0,0,0,\"quiet\"],[1,0.24532,0.82067,4.78972,0.8479,0,0,0,0,\"quiet\"],[2,0.33887,0.84192,3.31825,0.56786,0,0,0,0,\"quiet\"],[3,0.42358,0.91688,1.25845,0.67631,0,0.11,0.47,0.34,\"relayed\"],[4,0.49147,0.85734,2.41322,0.72626,0,0,0,0,\"quiet\"],[5,0.57222,0.86295,5.07687,0.38122,0,0,0,0,\"quiet\"],[6,0.65937,0.81252,5.96652,0.52792,0,0,0,0,\"quiet\"],[7,0.73699,0.78589,5.19467,0.64809,0,0,0,0,\"quiet\"],[8,0.82389,0.85806,0.13321,0.48267,0.4,0.05006,0,1,\"ruptured\"]]}",
+      "ringStates": [
+        "quiet",
+        "quiet",
+        "quiet",
+        "relayed",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "ruptured"
+      ],
+      "interactive": true,
+      "blind": false
+    },
+    "restored": {
+      "stage": 0,
+      "memory": 0,
+      "interaction": "stroke-lifted",
+      "rupturedRing": null,
+      "relayRing": null,
+      "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":0,\"fieldBias\":[0,0],\"rings\":[[0,0.16467,0.83147,4.88787,0.47239,0,0,0,0,\"quiet\"],[1,0.24532,0.82067,4.78972,0.8479,0,0,0,0,\"quiet\"],[2,0.33887,0.84192,3.31825,0.56786,0,0,0,0,\"quiet\"],[3,0.42358,0.91688,1.28661,0.67631,0,0,0,0,\"quiet\"],[4,0.49147,0.85734,2.41322,0.72626,0,0,0,0,\"quiet\"],[5,0.57222,0.86295,5.07687,0.38122,0,0,0,0,\"quiet\"],[6,0.65937,0.81252,5.96652,0.52792,0,0,0,0,\"quiet\"],[7,0.73699,0.78589,5.19467,0.64809,0,0,0,0,\"quiet\"],[8,0.82389,0.78806,0.13321,0.48267,0,0,0,0,\"quiet\"]]}",
+      "ringStates": [
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet"
+      ],
+      "interactive": true,
+      "blind": false
+    },
+    "pointerCommitted": {
+      "stage": 0,
+      "memory": 1,
+      "interaction": "stroke-committed",
+      "rupturedRing": 8,
+      "relayRing": 1,
+      "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":0,\"fieldBias\":[0.40184,0.12216],\"rings\":[[0,0.16467,0.83147,4.88787,0.47239,0,0,0,0,\"quiet\"],[1,0.24532,0.82067,4.76316,0.8479,0,0.11,0.47,0.34,\"relayed\"],[2,0.33887,0.84192,3.31825,0.56786,0,0,0,0,\"quiet\"],[3,0.42358,0.91688,1.28661,0.67631,0,0,0,0,\"quiet\"],[4,0.49147,0.85734,2.41322,0.72626,0,0,0,0,\"quiet\"],[5,0.57222,0.86295,5.07687,0.38122,0,0,0,0,\"quiet\"],[6,0.65937,0.81252,5.96652,0.52792,0,0,0,0,\"quiet\"],[7,0.73699,0.78589,5.19467,0.64809,0,0,0,0,\"quiet\"],[8,0.82389,0.85806,0.13321,0.48267,0.4,0.04722,0,1,\"ruptured\"]]}",
+      "ringStates": [
+        "quiet",
+        "relayed",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "ruptured"
+      ],
+      "interactive": true,
+      "blind": false
+    },
+    "lifted": {
+      "stage": 0,
+      "memory": 0,
+      "interaction": "stroke-lifted",
+      "rupturedRing": null,
+      "relayRing": null,
+      "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":0,\"fieldBias\":[0,0],\"rings\":[[0,0.16467,0.83147,4.88787,0.47239,0,0,0,0,\"quiet\"],[1,0.24532,0.82067,4.78972,0.8479,0,0,0,0,\"quiet\"],[2,0.33887,0.84192,3.31825,0.56786,0,0,0,0,\"quiet\"],[3,0.42358,0.91688,1.28661,0.67631,0,0,0,0,\"quiet\"],[4,0.49147,0.85734,2.41322,0.72626,0,0,0,0,\"quiet\"],[5,0.57222,0.86295,5.07687,0.38122,0,0,0,0,\"quiet\"],[6,0.65937,0.81252,5.96652,0.52792,0,0,0,0,\"quiet\"],[7,0.73699,0.78589,5.19467,0.64809,0,0,0,0,\"quiet\"],[8,0.82389,0.78806,0.13321,0.48267,0,0,0,0,\"quiet\"]]}",
+      "ringStates": [
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet"
+      ],
+      "interactive": true,
+      "blind": false
+    },
+    "buttonCommitted": {
+      "stage": 0,
+      "memory": 1,
+      "interaction": "stroke-committed",
+      "rupturedRing": 8,
+      "relayRing": 3,
+      "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":0,\"fieldBias\":[0.39961,0.12928],\"rings\":[[0,0.16467,0.83147,4.88787,0.47239,0,0,0,0,\"quiet\"],[1,0.24532,0.82067,4.78972,0.8479,0,0,0,0,\"quiet\"],[2,0.33887,0.84192,3.31825,0.56786,0,0,0,0,\"quiet\"],[3,0.42358,0.91688,1.25845,0.67631,0,0.11,0.47,0.34,\"relayed\"],[4,0.49147,0.85734,2.41322,0.72626,0,0,0,0,\"quiet\"],[5,0.57222,0.86295,5.07687,0.38122,0,0,0,0,\"quiet\"],[6,0.65937,0.81252,5.96652,0.52792,0,0,0,0,\"quiet\"],[7,0.73699,0.78589,5.19467,0.64809,0,0,0,0,\"quiet\"],[8,0.82389,0.85806,0.13321,0.48267,0.4,0.05006,0,1,\"ruptured\"]]}",
+      "ringStates": [
+        "quiet",
+        "quiet",
+        "quiet",
+        "relayed",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "ruptured"
+      ],
+      "interactive": true,
+      "blind": false
+    },
+    "buttonMetrics": [
+      {
+        "text": "submit a strain",
+        "height": 44
+      },
+      {
+        "text": "lift latest rupture",
+        "height": 44
+      },
+      {
+        "text": "release memory",
+        "height": 44
+      }
+    ],
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "interaction": "sequence",
+      "rupturedRing": null,
+      "relayRing": null,
+      "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":0,\"fieldBias\":[0,0],\"rings\":[[0,0.16467,0.83147,4.88787,0.47239,0,0,0,0,\"quiet\"],[1,0.24532,0.82067,4.78972,0.8479,0,0,0,0,\"quiet\"],[2,0.33887,0.84192,3.31825,0.56786,0,0,0,0,\"quiet\"],[3,0.42358,0.91688,1.28661,0.67631,0,0,0,0,\"quiet\"],[4,0.49147,0.85734,2.41322,0.72626,0,0,0,0,\"quiet\"],[5,0.57222,0.86295,5.07687,0.38122,0,0,0,0,\"quiet\"],[6,0.65937,0.81252,5.96652,0.52792,0,0,0,0,\"quiet\"],[7,0.73699,0.78589,5.19467,0.64809,0,0,0,0,\"quiet\"],[8,0.82389,0.78806,0.13321,0.48267,0,0,0,0,\"quiet\"]]}",
+      "ringStates": [
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet",
+        "quiet"
+      ],
+      "interactive": true,
+      "blind": false
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "svgVisible": true,
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "hintDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "state": {
+        "stage": 16,
+        "memory": 4,
+        "interaction": "sequence",
+        "rupturedRing": 1,
+        "relayRing": 2,
+        "signature": "{\"composition\":\"self-measuring-membrane\",\"stage\":16,\"fieldBias\":[0.93773,-0.06512],\"rings\":[[0,0.17399,0.85837,5.50349,0.72857,0,0,0,0,\"quiet\"],[1,0.2479,0.91956,5.43365,0.63149,0.4,-0.07951,0,1,\"ruptured\"],[2,0.32982,0.91788,5.02566,0.57895,0,0.22,0.94,0.68,\"relayed\"],[3,0.40608,0.84972,4.67981,0.89509,0,0,0,0,\"quiet\"],[4,0.48953,0.80177,2.31673,0.92221,0,0,0,0,\"quiet\"],[5,0.57018,0.79735,2.32187,0.82758,0,0.11,0.47,0.34,\"relayed\"],[6,0.65296,0.96037,4.67737,0.49367,0.4,-0.08358,0,1,\"ruptured\"],[7,0.73608,0.87391,5.64108,0.4948,0.4,0.16006,0.47,1.34,\"relayed\"],[8,0.82207,0.94647,1.77805,0.55414,0.4,0.11248,0,1,\"ruptured\"]]}",
+        "ringStates": [
+          "quiet",
+          "ruptured",
+          "relayed",
+          "quiet",
+          "quiet",
+          "relayed",
+          "ruptured",
+          "relayed",
+          "ruptured"
+        ],
+        "interactive": false,
+        "blind": true
+      }
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "readbacks": {
+    "journal": {
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "titleVisible": true,
+        "markerCount": 1
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    "current": {
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "titleVisible": true,
+        "markerCount": 1
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    "work": {
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "titleVisible": true,
+        "markerCount": 2
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    }
+  },
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v024-2026-10-08"
+}
