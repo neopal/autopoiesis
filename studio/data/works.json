@@ -13840,16 +13840,37 @@
         "renderer": "WebGPU pressure crown with Canvas 3D projection fallback",
         "webgpuReadyCheck": true,
         "measured": true,
-        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "structural artifact and targeted engine tests passed; browser matrix, interaction evidence, production readback, and independent caption-free perceptual review pending",
+        "status": "local and production browser matrices passed; structural interaction and production readback observed; independent caption-free perceptual review and provider revision linkage remain pending",
         "rawPreview": "/studies/webgpu/v025/?preview=1&interaction=1",
         "blindPreview": "/studies/webgpu/v025/?preview=1&static=1&blind=1",
-        "diagnosticCount": null,
-        "overflowCount": null,
+        "viewportMatrix": "320x568, 390x844, 768x1024, 1280x800, 1920x1080 in normal and reduced-motion modes",
+        "localMatrixPasses": 20,
+        "productionMatrixPasses": 20,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "interaction": {
+          "armingMemory": 0,
+          "enterMemory": 1,
+          "enterVacancies": 5,
+          "enterSheared": 8,
+          "deleteRestoredExactly": true,
+          "buttonEquivalent": true,
+          "releaseMemory": 0,
+          "minimumTouchTarget": 44
+        },
+        "blind": {
+          "canvasVisible": true,
+          "readoutHidden": true,
+          "controlsHidden": true
+        },
+        "canonical": {
+          "tableauBeforeHeading": true,
+          "title": "The crowd cures the pressure."
+        },
         "unresolved": [
-          "headless browser viewport and interaction matrix",
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
           "provider revision linkage between the eventual deployment and GitHub SHA"
         ]
