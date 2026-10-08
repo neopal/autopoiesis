@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0c10">
+  <meta name="description" content="A pressure crown where a strike cures one tooth and opens a distant vacancy in the collective form.">
+  <title>MUTINE — The crowd cures the pressure.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=025">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-08"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="crown-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v025 / pressure crown</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="crown-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v025</span></nav>
+      <section class="crown-work" aria-label="WebGPU daily work">
+        <figure class="crown-frame artwork-frame">
+          <canvas id="gpu-grain" aria-hidden="true"></canvas>
+          <canvas id="crown-field" role="img" aria-label="A broken pressure crown made of twelve spatial fins around a dark cavity" tabindex="0" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Backspace Escape R"></canvas>
+          <div class="crown-readout" role="status" aria-live="polite"><span data-stage>crown 01 / 13</span><span data-memory>0 strikes</span><span data-sector>tooth 04</span><span data-renderer>CANVAS / INITIALISING</span></div>
+          <div class="crown-status" data-status>address a tooth · strike to cure the crown</div>
+          <div class="crown-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="strike">strike pressure</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release crown</button>
+          </div>
+          <figcaption><span>WEBGPU / V025 / DAILY WORK</span><span>pressure → shear → vacancy</span></figcaption>
+        </figure>
+        <aside class="crown-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a surface, a cell field, or a procession. It is one broken crown of spatial fins around a cavity: mass has an inside and a depth.</p></div>
+          <div><span>changed rule</span><p>Pressure is not a mark. A committed strike shears the addressed fin and cures a distant fin into vacancy; every later strike acts on the already altered crown.</p></div>
+          <div><span>progression</span><p>Pointer travel only addresses. Release commits one strike, Delete lifts it exactly, and R releases the bounded pressure memory. The same strike is available by keyboard and button.</p></div>
+        </aside>
+      </section>
+      <section class="crown-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V025 / DAILY WORK</p><h1 id="work-title">The crowd<br><i>cures the pressure.</i></h1></div>
+        <p class="crown-premise">A collective can keep pressure without becoming a crowd picture. Here, force changes the body that will receive the next force: a strike leans one fin, opens another, and leaves the cavity no longer centered.</p>
+      </section>
+      <section class="crown-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a committed strike changes actual fin vertices, creates non-local vacancy, and compounds through later strikes; arming remains non-causal and lifting restores the exact prior crown. Promotion depends on whether the blind form reads as a pressure-made spatial body rather than a decorative radial chart.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>pressure → shear → vacancy</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=025a"></script>
+</body>
+</html>
