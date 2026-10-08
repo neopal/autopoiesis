@@ -40,8 +40,9 @@ v025 abandons the previous WebGPU field, continuous membrane, and vertical loop 
 
 ## Publication verification
 
-- Implementation commit: `4d085dd73666b514658ebfb4dd87428ee466ba8e`.
-- Vercel deployment: `dpl_EBCbtBi4Pkss6cw1MbUX8z5QGcud`.
+- **Implementation commit:** `4d085dd73666b514658ebfb4dd87428ee466ba8e`.
+- **Evidence/catalogue commit:** `6c07ac568223bf0085a65ea45a56b3ecc2201924`.
+- **Vercel deployment:** `dpl_ALFWUDdpWbF2uEHL12uT8CVtErTZ`.
 - Deployment state: `READY`.
 - Stable alias: https://autopoiesis-nine.vercel.app/
 - Production headless browser matrix: **20/20 passed** on raw tableau at all five required viewports, normal and reduced-motion.
