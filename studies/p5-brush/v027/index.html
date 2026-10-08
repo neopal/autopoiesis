@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11101a">
+  <title>MUTINE — The paint returns what it loses</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=027">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-08"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="fracture-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v027 / FRACTURE-RETURN</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="fracture-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v027</span></nav>
+
+      <figure class="fracture-work artwork-frame" aria-labelledby="work-title">
+        <div id="fracture-field" class="fracture-wrap" tabindex="0" role="application" aria-label="A population of detached pigment islands. Drag across the field to scrape; crossed islands fracture and return residue to a distant island." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="fracture-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 scrapes held</span></div>
+          <div class="fracture-controls" aria-label="Brush actions">
+            <button id="scrape-control" data-gesture="scrape" type="button">scrape a memory</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release residue</button>
+          </div>
+          <p class="fracture-hint">drag across two islands / release to scrape</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v027-fracture-return</span><span>scrape &gt; fracture &gt; return</span></figcaption>
+      </figure>
+
+      <section class="fracture-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / SUBTRACTIVE POPULATION / v027</p>
+        <h1 id="work-title">The paint returns<br><i>what it loses.</i></h1>
+        <p class="fracture-lede">A scrape does not leave a line. It breaks the islands it crosses and sends their residue somewhere else.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A SCRAPE, NOT A STROKE</p>
+          <p class="interaction-copy">Drag through the pigment population. On release, the material measures the whole path: crossed islands fray and separate, while a distant island thickens from the returned residue. Later scrapes inherit those changed bodies. Delete or “lift latest” reconstructs the exact preceding population.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The islands are holding their residue.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v027</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v026’s global threshold slab with a population rule: a freehand scrape fractures every island it crosses and returns mass to a non-local island. The missing material is not erased; it changes who can thicken.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag across the field and release. Enter, Space, and the scrape control use deterministic paths. Delete lifts only the latest scrape. R releases the bounded residue memory. S exports a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If the interaction only draws a temporary line, if only the touched island changes, if the remote return is fixed or cosmetic, or if later scrapes forget prior fractures, the material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v027 if labels-off and controls-off viewing reads as generic particles, if the population does not visibly split, or if lifting the latest scrape fails to restore the exact preceding bodies.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-07/">previous daily work</a><a href="/journal/#journal-brush-2026-10-08">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=027"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "id": "p5-brush-v027-fracture-return",
+  "visitorInput": true,
+  "seed": "0x42525547",
+  "stages": 15,
+  "islandCount": 13,
+  "memoryWindow": 4,
+  "settledStage": 14,
+  "settledMemory": 4,
+  "primitiveBudget": 13,
+  "memoryRule": "a freehand scrape fractures every detached island it crosses and returns residue to a non-local island; later scrapes act on the changed population",
+  "interactionRule": "pointer drag and release submits a scrape; short or repeated scrapes are refused; Enter, Space, and the scrape control use deterministic paths; Delete lifts latest; R releases bounded residue memory",
+  "representationRupture": "threshold slab, hanging membrane, and endpoint span -> sparse population of detached filled pigment islands",
+  "encounterRupture": "global sample, seam click, and endpoint relation -> freehand scrape whose path crosses and fractures a population",
+  "temporalRupture": "threshold and inherited depth deformation -> bounded fracture archive with non-local residue return",
+  "mediumRupture": "continuous slab, spatial membrane, and connected relation -> deterministic p5.js Canvas 2D population of irregular islands",
+  "replay": true,
+  "renderer": "deterministic p5.js 2D fracture-return field",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+}

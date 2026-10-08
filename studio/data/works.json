@@ -2,6 +2,97 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-08",
+      "currentId": "brush",
+      "date": "2026-10-08",
+      "title": "The paint returns what it loses.",
+      "rawPath": "/studies/p5-brush/v027/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-08",
+        "note": "v027 abandons v024's endpoint span, v025's load-bearing membrane, and v026's global threshold slab. Thirteen detached pigment islands form a sparse population: a freehand scrape fractures every island it crosses and returns residue to a non-local island. The temporary scrape disappears; the changed bodies remain. Four scrape events stay in bounded memory, and lifting the latest reconstructs the exact preceding population."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The scrape must live in population geometry: crossed islands need actual fracture and separation, while a remote island needs actual returned mass. A transient path or counter cannot carry the rule."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as detached pigment islands, not a threshold grid, hanging membrane, bridge, route, or generic particle demo. After a scrape, split bodies and the thickened remote body must be findable."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A real freehand drag followed by release is the changed encounter. Short or repeated scrapes must not write. Enter, Space, and the scrape control share the commit law; Delete restores the exact prior population and R releases bounded memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v027 must leave v024's endpoint span, v025's seam hinge, and v026's global slab through a discrete-island composition, path-crossing scrape, and non-local residue memory."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The p5.brush mechanism is translated from programmable pressure into population production, not borrowed brush appearance. No brush, watercolor, hatching, palette, source composition, or API surface may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v027 if the work is only generic particles, if the scrape is only a line overlay, if only the local body changes, if the remote return is fixed or cosmetic, if later scrapes forget prior fractures, or if the caption is required to see what was lost and returned."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v027-fracture-return",
+        "visitorInput": true,
+        "seed": "0x42525547",
+        "stages": 15,
+        "islandCount": 13,
+        "memoryWindow": 4,
+        "settledStage": 14,
+        "settledMemory": 4,
+        "primitiveBudget": 13,
+        "memoryRule": "a freehand scrape fractures every detached island it crosses and returns residue to a non-local island; later scrapes act on the changed population",
+        "interactionRule": "pointer drag and release submits a scrape; short or repeated scrapes are refused; Enter, Space, and the scrape control use deterministic paths; Delete lifts latest; R releases bounded residue memory",
+        "representationRupture": "threshold slab, hanging membrane, and endpoint span -> sparse population of detached filled pigment islands",
+        "encounterRupture": "global sample, seam click, and endpoint relation -> freehand scrape whose path crosses and fractures a population",
+        "temporalRupture": "threshold and inherited depth deformation -> bounded fracture archive with non-local residue return",
+        "mediumRupture": "continuous slab, spatial membrane, and connected relation -> deterministic p5.js Canvas 2D population of irregular islands",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D fracture-return field",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrix, interaction/readback evidence, responsive evidence, blind preview, and local Journal/current/work readbacks; production and perceptual gates remain pending",
+        "observedRoute": "http://127.0.0.1:4253/works/brush-2026-10-08/",
+        "rawPreview": "http://127.0.0.1:4253/studies/p5-brush/v027/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4253/studies/p5-brush/v027/?preview=1&static=1&blind=1",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "screenshotCount": 25,
+        "proofDir": "research/qa/proofs/brush-v027-2026-10-08/",
+        "unresolved": [
+          "production browser matrix and deployed Journal/current/work/catalog readbacks",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the eventual Vercel deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, grain, and directional fields participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Refuse the library's brushes, watercolor, hatching, palette, examples, and API surface. Translate material agency into a subtractive population law: pressure along a scrape fractures the bodies it crosses and returns their missing mass to a distant body.",
+        "visibleConsequence": "The blind field is thirteen detached filled pigment islands. After a scrape, crossed islands visibly split and a non-local island thickens; later scrapes inherit those changed bodies while the temporary path disappears.",
+        "falsifier": "If the scrape only leaves a temporary line, if only the touched island changes, if the remote return is fixed or cosmetic, if later scrapes restart from baseline, or if the blind field reads as generic particles, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, examples, or API surface are reproduced.",
+        "directionConsequence": "Closes Brush's continuous surface sequence and opens a discrete population direction: absence is material redistribution, not a missing mark."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and annotation-off comparison; delete v027 if the blind population reads as generic particles, if only local geometry changes, if the non-local return is cosmetic, or if exact lifting fails.",
+        "lineage": "brush-2026-10-07"
+      }
+    },
+    {
       "id": "svg-2026-10-08",
       "currentId": "svg",
       "date": "2026-10-08",
