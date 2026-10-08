@@ -46,6 +46,7 @@ v026 makes a material rupture in representation and encounter: it leaves the enc
 - **Initial verified source commit:** `475b727a0ee2f1106e00c0a7eb61693599241aa` (`[verified] add pure SVG v026 discrete choir`).
 - **Remote `origin/main`:** matched `475b727a0ee2f1106e00c0a7eb61693599241aa` before production deployment.
 - **Vercel deployment:** `dpl_EL1fNPPLgvha68CsVd8GERC66oo7`, `READY`.
+- **Final re-deployment after the production-evidence commit:** `dpl_6DqYZDBZDuzRXPkC57yQuUP65aJR`, `READY`; stable alias was re-probed after this deployment.
 - **Stable alias:** https://autopoiesis-nine.vercel.app/
 - **Production browser matrix:** **20/20 passed** on raw and canonical routes at all five required viewports in normal and reduced-motion modes.
 - **Production diagnostics:** **0** console messages, page errors, failed requests, or HTTP `400+` responses.
