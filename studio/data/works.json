@@ -2,6 +2,114 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-08",
+      "currentId": "svg",
+      "date": "2026-10-08",
+      "title": "The chorus rehearses absence.",
+      "rawPath": "/studies/pure-svg/v026/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-08",
+        "note": "v026 abandons v023's negative chamber sheet, v024's witness-knot, and v025's single open boundary. Seventeen autonomous filled SVG fragments form a dispersed constellation: attention only arms a fragment, departure withdraws it, and a distant fragment carries the reply with a third echo. Four departures remain in bounded memory; lifting the latest reconstructs the exact preceding population."
+      },
+      "critiques": [
+        {
+          "persona": "Population critic",
+          "argument": "The work must read as one distributed population rather than a body: seventeen autonomous fragments need differentiated scale, angle, spacing, and actual geometry. A background treatment or labels cannot carry the grammar."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and furniture hidden, the first field should read as a new discrete constellation, not a negative chamber, knot, open contour, route diagram, or generic tile grid. After departure, the source withdrawal and distant reply must be findable in the fragment bodies."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Attention may arm but cannot write. A real attend-then-depart gesture must contract the source, enlarge a remote relay, and alter a third echo. Delete must reconstruct the exact preceding population and R must release bounded memory."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The little-critters mechanism is explicitly inverted: no animals, eyes, characters, or reciprocal looking-back. The visitor is not answered while present; leaving is the event that redistributes the population's geometry."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v026 if the work is only a polished polygon scatter, if attention commits, if only the local fragment changes, if the remote reply is fixed or cosmetic, or if the caption is required to see absence as the causal rule."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v026-discrete-choir",
+        "visitorInput": true,
+        "seed": "0x53564726",
+        "stages": 14,
+        "fragmentCount": 17,
+        "memoryWindow": 4,
+        "primitiveBudget": 17,
+        "departureThreshold": "attend then depart",
+        "settledStage": 13,
+        "settledMemory": 4,
+        "settledDepartures": 4,
+        "memoryRule": "attention only arms; departure contracts the source fragment and changes a non-local relay plus a third echo fragment",
+        "interactionRule": "pointerdown or keys 1–9 attend without writing; pointerup, Enter, Space, or depart commits one departure; Delete lifts the latest; R releases",
+        "representationRupture": "compound sheet, witness-knot, and single open boundary -> seventeen autonomous filled SVG polygons in a dispersed constellation",
+        "encounterRupture": "dwell, two-place witness, and drawn route -> attend then depart: presence is temporary and leaving is causal",
+        "temporalRupture": "negative-space and migrating-gap memory -> bounded social absence memory carried by a population of discrete fragments",
+        "mediumRupture": "one or multiple SVG path bodies -> SVG polygon field with no enclosing path",
+        "replay": true,
+        "renderer": "deterministic inline SVG discrete choir",
+        "measured": true,
+        "promotion": "candidate / held pending production readback, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrix, interaction/readback evidence, responsive evidence, and blind preview; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4260/works/svg-2026-10-08/",
+        "rawPreview": "http://127.0.0.1:4260/studies/pure-svg/v026/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4260/studies/pure-svg/v026/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v026 discrete SVG choir before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept each document innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all four local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, current, and canonical readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across the local matrix and focused readbacks",
+        "normalState": "normal-motion local raw and canonical runs opened at stage 00 with 17 quiet filled SVG fragments, 0 departures, and 0 SVG paths",
+        "reducedMotionState": "reduced-motion local raw and canonical runs settled at stage 13 with 4 bounded departures, 17 polygons, and changed source/relay/echo fragments",
+        "pointerDownInteraction": "local pointerdown attended fragment 2 without changing memory; pointerup committed memory 0 to 1 and changed the source plus non-local relay and echo polygons",
+        "pointerInteraction": "local pointer click committed memory 0 to 1 through attend-then-depart",
+        "keyboardInteraction": "local key 4 armed without writing; Enter committed memory 0 to 1; Delete restored memory 0 and the exact baseline signature; R released to 0",
+        "liftInteraction": "local lift control after departure restored memory 0 and the exact preceding constellation signature",
+        "buttonInteraction": "local attend control kept memory at 0, depart committed memory 0 to 1, lift restored 0, and release returned 0; all four controls measured 44px high",
+        "releaseInteraction": "local R and release control returned to deterministic memory 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the SVG choir visible with 17 polygons and no paths while hiding readout and controls; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal rendered #journal-svg-2026-10-08 and contained the recorded title anchor",
+        "current": "local Pure SVG current rendered the svg-2026-10-08 artwork card and title with no overflow",
+        "work": "local canonical work rendered the title and v026 tableau mount with tableau first",
+        "catalog": "local /studio/data/works.json and /studio/data/catalog-public.json contained exactly one svg-2026-10-08 record",
+        "proofDir": "research/qa/proofs/pure-svg-v026-2026-10-08/",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix, interaction evidence, and deployed readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the final Vercel deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents make pointer proximity into reciprocal attention: local approach changes where an agent looks back, so the visitor becomes part of a social field rather than operating a dashboard.",
+        "translatedRule": "Invert looking-back into looking-away. Attention only arms a fragment; departure withdraws that fragment, makes a distant fragment carry the reply, and changes a third echo fragment. No character, eye, or agent illustration is needed.",
+        "visibleConsequence": "The blind first render is a distributed constellation of seventeen filled geometric fragments. After departure, the source contracts and shifts while non-local relay and echo fragments change their actual SVG polygons; later departures inherit the altered population.",
+        "falsifier": "If attention writes memory, if departure only changes colour or a marker, if only the source changes, if the reply is a fixed neighbour, or if the blind image reads as a generic polygon scatter, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, source composition, source code, API surface, or head-turning surface vocabulary is reproduced.",
+        "directionConsequence": "Opens a discrete-population grammar for Pure SVG and closes the enclosing-body / single-boundary family. It abandons direct reciprocity in favour of absence as the only committed social act."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and annotation-off comparison; delete v026 if the blind constellation reads as a generic polygon scatter, if attention commits, if only the local fragment changes, if the remote reply is fixed, or if exact lifting fails.",
+        "lineage": "svg-2026-10-07"
+      }
+    },
+    {
       "id": "portrait-2026-10-08",
       "currentId": "portrait",
       "date": "2026-10-08",
