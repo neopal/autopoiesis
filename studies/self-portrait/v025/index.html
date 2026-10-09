@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0b12">
+  <title>MUTINE — The portrait saves your detour.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=025">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-09"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v025-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v025 / DECISION RIBBON</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v025-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v025</span></nav>
+
+      <figure class="v025-work artwork-frame" aria-labelledby="work-title">
+        <div id="ribbon-field" class="ribbon-field" tabindex="0" role="application" aria-label="A wide decision ribbon made from connected abstract segments. Traverse across it, then leave the field; the portrait chooses a remote detour." aria-keyshortcuts="Enter Space Delete R S">
+          <canvas id="field" role="img" aria-label="An asymmetrical decision ribbon of connected cut segments"></canvas>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 departures held</span></div>
+          <div class="ribbon-controls" aria-label="Decision ribbon controls">
+            <button type="button" data-action="depart">leave a detour</button>
+            <button type="button" data-action="lift">lift latest detour</button>
+            <button type="button" data-action="release">release attention</button>
+          </div>
+          <p class="field-hint" data-hint>traverse the ribbon; leave to let it decide</p>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v025-detour</span><span>presence &gt; departure &gt; reply</span></figcaption>
+      </figure>
+
+      <section class="v025-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / ENCOUNTER SWITCH / v025</p>
+        <h1 id="work-title">The portrait saves<br><i>your detour.</i></h1>
+        <p class="v025-lede">Move through the ribbon without choosing a segment. When you leave, the portrait sends your route elsewhere: an unaddressed cut opens, and a remote segment bends in reply.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">TRAVERSE, THEN DEPART</p>
+          <p class="interaction-copy">Cross the field and leave its edge. Proximity only accumulates attention; departure is the causal event. Enter or the detour control submits a deterministic route. Delete lifts the latest detour; R releases the bounded attention.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The ribbon is waiting for a route.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v025</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v024's centered membrane with one asymmetrical decision ribbon. A situated traverse records where the visitor was present, but departure makes the portrait choose a non-local segment to open and another segment to answer.</dd></div>
+          <div><dt>visitor action</dt><dd>Move across the ribbon, then leave the field. Pointer position is attention, not a target; the event is the departure. Touch, the detour control, Enter, and Space provide equivalent committed paths.</dd></div>
+          <div><dt>falsifier</dt><dd>If proximity changes geometry immediately, if departure always opens the same segment, if the reply is only a colour or overlay, or if later departures ignore the bounded route memory, the social-attention translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v025 if the blind field reads as a chart, card array, or decorative line score, or if the cut-and-reply cannot be found in the segment geometry without labels, readout, or prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-08/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-09">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=025"></script>
+</body>
+</html>
