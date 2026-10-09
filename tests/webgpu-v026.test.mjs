@@ -112,7 +112,8 @@ test('WebGPU v026 is recorded exactly once for the 2026-10-09 daily slot', async
   assert.match(record.source.translatedRule, /invert|deferred|non-local/i);
   assert.match(record.browserEvidence.status, /production/i);
   assert.match(record.browserEvidence.viewportRuns, /20\/20 production/i);
-  assert.equal(record.browserEvidence.productionDeployment, 'dpl_8XzbTShKcznKNUM2HubmvibhXDk4');
+  assert.equal(record.browserEvidence.productionStatus, 'READY');
+  assert.equal(record.browserEvidence.productionAlias, 'https://autopoiesis-nine.vercel.app/');
   assert.ok(!record.browserEvidence.unresolved.includes('production readback'));
   assert.match(record.metrics.memoryRule, /pair|excision|reply|register/i);
   assert.equal(await read('works/webgpu-2026-10-09/index.html').then(Boolean), true);
