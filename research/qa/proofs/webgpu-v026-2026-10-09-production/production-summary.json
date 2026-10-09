@@ -1,0 +1,170 @@
+{
+  "target": "webgpu-v026",
+  "base": "https://autopoiesis-nine.vercel.app",
+  "production": true,
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interactionOk": true,
+  "blindOk": true,
+  "readbacksOk": true,
+  "allDiagnosticsOk": true,
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "selectedSlot": 4,
+      "armed": null,
+      "excisions": 0,
+      "replies": 0,
+      "bridges": 0,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"quiet\\",
+      "action": "quiet",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "armed": {
+      "stage": 0,
+      "memory": 0,
+      "selectedSlot": 2,
+      "armed": {
+        "slot": 2,
+        "startedAt": 1306.8000001907349
+      },
+      "excisions": 0,
+      "replies": 0,
+      "bridges": 0,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"quiet\\",
+      "action": "witness-armed",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "paired": {
+      "stage": 1,
+      "memory": 1,
+      "selectedSlot": 12,
+      "armed": null,
+      "excisions": 1,
+      "replies": 1,
+      "bridges": 9,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"2>12>0",
+      "action": "pair-committed",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "lifted": {
+      "stage": 0,
+      "memory": 0,
+      "selectedSlot": 12,
+      "armed": null,
+      "excisions": 0,
+      "replies": 0,
+      "bridges": 0,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"quiet\\",
+      "action": "pair-lifted",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "keyboardArmed": {
+      "stage": 0,
+      "memory": 0,
+      "selectedSlot": 12,
+      "armed": {
+        "slot": 12,
+        "startedAt": 1469
+      },
+      "excisions": 0,
+      "replies": 0,
+      "bridges": 0,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"quiet\\",
+      "action": "witness-armed",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "keyboard": {
+      "stage": 1,
+      "memory": 1,
+      "selectedSlot": 19,
+      "armed": null,
+      "excisions": 1,
+      "replies": 1,
+      "bridges": 6,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"12>19>",
+      "action": "pair-committed",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "button": {
+      "stage": 1,
+      "memory": 1,
+      "selectedSlot": 4,
+      "armed": null,
+      "excisions": 1,
+      "replies": 1,
+      "bridges": 20,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"4>25>0",
+      "action": "pair-committed",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "selectedSlot": 4,
+      "armed": null,
+      "excisions": 0,
+      "replies": 0,
+      "bridges": 0,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"quiet\\",
+      "action": "register-released",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "buttons": [
+      {
+        "text": "pair witnesses",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release register",
+        "height": 44
+      }
+    ]
+  },
+  "blind": {
+    "fieldVisible": true,
+    "state": {
+      "stage": 12,
+      "memory": 4,
+      "selectedSlot": 4,
+      "armed": null,
+      "excisions": 4,
+      "replies": 4,
+      "bridges": 35,
+      "signature": "{\"register\":\"{\\\"route\\\":\\\"4>25>0",
+      "action": "settled-preview",
+      "renderer": "WEBGPU / PAPER VEIL"
+    },
+    "readoutDisplay": "none",
+    "controlsDisplay": "none",
+    "statusDisplay": "none",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "journal": {
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "title": "What changed.What did not."
+  },
+  "current": {
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "title": "WebGPU"
+  },
+  "work": {
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "title": "The crowd files the witness."
+  },
+  "screenshotCount": 25,
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v026-2026-10-09-production"
+}
