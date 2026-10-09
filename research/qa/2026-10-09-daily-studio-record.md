@@ -43,11 +43,17 @@ Eight layered ink plates form one misregistered print. Pointerdown only arms the
 
 ## Publication state
 
-- **Source commit:** pending verification and commit.
-- **Remote SHA:** pending push.
-- **Deployment:** pending production publication; the current stable alias does not yet contain v027.
+- **Source commit:** `efed500110d70cf8588887dbe9c6a0dfcf767caf` (`[verified] record naive v027 daily work`).
+- **Remote SHA:** `efed500110d70cf8588887dbe9c6a0dfcf767caf` matched `origin/main` after push.
+- **Deployment:** `dpl_GzBobotaoCK6Sfqb5dY2MQRWLESB`.
+- **Deployment state:** `READY`.
 - **Stable alias:** https://autopoiesis-nine.vercel.app/
-- **Production browser matrix:** blocked until the v027 source is published. The first attempted probe correctly failed closed because production returned HTTP 404 for the raw and canonical v027 routes.
-- **Production readbacks:** the stable alias currently returns HTTP 200 for `/studio/data/works.json`, `/journal/`, and `/studio/favicon.svg`, but does not yet contain `naive-2026-10-09`; no production success is claimed.
+- **Deploy note:** the requested scoped command succeeded; the deployment was aliased to the stable production URL.
+- **Production browser matrix:** **20/20 passed** on raw and canonical routes at all five required viewports in normal and reduced-motion modes.
+- **Production diagnostics:** **0** console messages, page errors, failed requests, or HTTP `400+` responses.
+- **Production interaction:** pointerdown armed without writing; closed loop committed; open/short loop was refused; Enter and the correction control committed; Delete restored the exact baseline; R released memory; controls measured 44px.
+- **Production blind preview:** the eight-layer print remained visible with readout, controls, and hint hidden; no overflow.
+- **Production proofs:** 21 PNG captures plus `report.json` in `research/qa/proofs/naive-v027-2026-10-09-production/`.
+- **Production readbacks:** `/studio/data/works.json` returned HTTP 200 with 157 records and exactly one `naive-2026-10-09`; `/studio/data/catalog-public.json` contained the target; rendered `/journal/` contained the target anchor/title; rendered `/currents/naive-art/` contained the target card/title; canonical `/works/naive-2026-10-09/` rendered the title and v027 iframe/tableau with eight layers; `/studio/favicon.svg` returned HTTP 200.
 
-The candidate remains **held**, not exhibition-ready, pending production publication/readback, independent caption-free perceptual comparison, and provider revision linkage between the Vercel deployment and GitHub SHA.
+The candidate remains **held**, not exhibition-ready, pending independent caption-free perceptual comparison and provider revision linkage between the Vercel deployment and GitHub SHA. GitHub synchronization and Vercel deployment are verified separately; no provider revision record explicitly links the deployment to the GitHub SHA.
