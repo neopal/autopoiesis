@@ -61,7 +61,7 @@
         "replay": true,
         "renderer": "deterministic inline SVG slip-strata field",
         "measured": true,
-        "promotion": "candidate / held pending independent caption-free perceptual review, production browser/publication readback, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "source": {
         "referenceId": "p5-brush",
@@ -79,7 +79,7 @@
         "lineage": "svg-2026-10-08"
       },
       "browserEvidence": {
-        "status": "observed local headless browser matrix, interaction/readback evidence, responsive evidence, blind preview, and local Journal/current/work readbacks; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "status": "observed local and production headless browser matrices, interaction/readback evidence, responsive evidence, blind preview, and public Journal/current/work/catalog readbacks; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4261/works/svg-2026-10-09/",
         "rawPreview": "http://127.0.0.1:4261/studies/pure-svg/v027/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4261/studies/pure-svg/v027/?preview=1&static=1&blind=1",
@@ -104,14 +104,30 @@
         "catalog": "local catalogue served from works.json contained exactly one matching record and 155 total works",
         "favicon": "local /studio/favicon.svg returned HTTP 200 image/svg+xml",
         "productionReady": false,
-        "screenshotCount": 26,
+        "screenshotCount": 52,
         "diagnosticCount": 0,
         "overflowCount": 0,
         "unresolved": [
-          "production browser matrix and public readbacks",
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
-          "provider revision linkage between Vercel deployment and GitHub SHA"
-        ]
+          "provider revision linkage between the Vercel deployment and GitHub SHA"
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeploymentId": "dpl_CgaHMUVsBWwkfd5DR6qryEHtf2AJ",
+        "productionDeploymentState": "READY",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/svg-2026-10-09/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v027/?preview=1&interaction=1",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 production matrix runs plus interaction, blind, Journal, current, and work readbacks",
+        "productionInteraction": "production pointerdown armed memory 0 without writing; pointerup committed memory 1; Enter committed memory 1; Delete restored the exact prior signature; load/lift/release controls completed; all measured controls were 44px high",
+        "productionBlindPreview": "production reduced-motion static blind preview kept the 11-strata SVG field visible with readout and controls hidden; innerWidth 390, clientWidth 390, scrollWidth 390",
+        "productionPublicReadbacks": {
+          "worksJson": "HTTP 200; 155 total works; exactly one svg-2026-10-09 record",
+          "catalogJson": "HTTP 200; target id and title present",
+          "journal": "HTTP 200 browser render; #journal-svg-2026-10-09 present; Journal title read as What changed.What did not.",
+          "current": "HTTP 200 browser render; Pure SVG current and target card present",
+          "work": "HTTP 200 browser render; target title and canonical tableau present before editorial route content",
+          "favicon": "HTTP 200 image/svg+xml"
+        }
       }
     },
     {
