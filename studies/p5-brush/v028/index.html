@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121316">
+  <title>MUTINE — The paint remembers the edge.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=028">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-09"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="mending-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v028 / MENDING-RESERVOIR</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="mending-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v028</span></nav>
+
+      <figure class="mending-work artwork-frame" aria-labelledby="work-title">
+        <div id="mending-field" class="mending-field" tabindex="0" role="application" aria-label="One continuous paint reservoir with actual wounds. Drag between wounds to mend; the material closes one edge and opens another elsewhere." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="mending-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 mends held</span></div>
+          <svg id="reservoir-svg" viewBox="0 0 1000 620" role="img" aria-label="A continuous painted reservoir with nine wound apertures"></svg>
+          <div class="mending-controls" aria-label="Brush actions">
+            <button id="mend-control" data-gesture="mend" type="button">mend an edge</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release memory</button>
+          </div>
+          <p class="mending-hint">drag from one wound toward another / release to mend</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v028-mending-reservoir</span><span>seal &gt; reroute &gt; open</span></figcaption>
+      </figure>
+
+      <section class="mending-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / WOUND TOPOLOGY / v028</p>
+        <h1 id="work-title">The paint remembers<br><i>the edge.</i></h1>
+        <p class="mending-lede">A mend does not restore a picture. It closes one wound and makes another place carry the missing edge.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">MENDING IS A TRANSFER</p>
+          <p class="interaction-copy">Drag through the reservoir and release. The gesture offers a route, but the material chooses which wound can close. Its saved edge reappears elsewhere as a new aperture. Later mends act on this changed topology; Delete or “lift latest” reconstructs the exact preceding wounds.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The reservoir is holding its edges.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v028</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Invert v027’s scrape: a freehand mending gesture does not fracture a population. It closes one actual SVG aperture selected by material resistance and opens a non-local wound, carrying the missing edge forward.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag from one wound toward another and release. Enter, Space, and the mend control use deterministic paths. Delete lifts only the latest mend. R releases bounded memory. S exports the SVG field.</dd></div>
+          <div><dt>falsifier</dt><dd>If the gesture directly picks the wound, if only a counter or colour changes, if no actual aperture closes and opens elsewhere, or if later mends forget the changed topology, the rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v028 if labels-off and controls-off viewing reads as a generic contour chart, if the wounds are only ornaments, or if lifting the latest mend fails to restore the exact preceding topology.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-08/">previous daily work</a><a href="/journal/#journal-brush-2026-10-09">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=028"></script>
+</body>
+</html>

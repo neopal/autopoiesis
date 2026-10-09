@@ -1,0 +1,21 @@
+{
+  "id": "p5-brush-v028-mending-reservoir",
+  "visitorInput": true,
+  "seed": "0x42525548",
+  "stages": 15,
+  "woundCount": 9,
+  "memoryWindow": 4,
+  "settledStage": 14,
+  "settledMemory": 4,
+  "primitiveBudget": 9,
+  "memoryRule": "a freehand mend closes one material-selected SVG wound and opens a non-local wound; later mends act on the changed topology",
+  "interactionRule": "pointer drag and release submits a mend; short gestures are refused; Enter, Space, and the mend control use deterministic paths; Delete lifts latest; R releases bounded topology memory",
+  "representationRupture": "load-bearing membrane, threshold slab, and detached islands -> one continuous SVG reservoir with nine actual wound apertures",
+  "encounterRupture": "single seam hinge, global sample, and freehand scrape -> mending route whose offered endpoints do not select the closing wound",
+  "temporalRupture": "depth load, recast threshold, and fracture-return -> bounded topological debt where closure reopens another edge",
+  "mediumRupture": "p5.js WEBGL, p5.js Canvas 2D, and p5.js Canvas 2D -> deterministic inline SVG compound paths",
+  "replay": true,
+  "renderer": "deterministic inline SVG mending-reservoir field",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+}
