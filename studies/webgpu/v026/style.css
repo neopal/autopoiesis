@@ -1,0 +1,69 @@
+:root {
+  --register-ground: #171827;
+  --register-deep: #0e0f18;
+  --register-paper: #e7dfd1;
+  --register-ink: #29283a;
+  --register-blue: #305c79;
+  --register-red: #a24e43;
+  --register-muted: #b9b1aa;
+  --register-frame: rgba(231, 223, 209, .24);
+  --register-rule: rgba(41, 40, 58, .24);
+}
+
+* { box-sizing: border-box; }
+html, body { background: var(--register-ground); color: var(--register-paper); }
+body.work-page { min-height: 100vh; }
+.register-shell { min-height: 100vh; background: radial-gradient(circle at 80% 14%, rgba(48, 92, 121, .22), transparent 31%), radial-gradient(circle at 12% 78%, rgba(162, 78, 67, .16), transparent 34%), var(--register-ground); }
+.register-main { width: min(1500px, calc(100% - 48px)); margin: 0 auto; padding: 12px 0 64px; }
+.register-work { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .28fr); gap: 20px; align-items: start; }
+.register-frame { position: relative; margin: 0; min-height: clamp(500px, 67vw, 800px); overflow: hidden; border: 1px solid var(--register-frame); background: var(--register-deep); box-shadow: 0 30px 90px rgba(0, 0, 0, .46); }
+.register-frame::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(231, 223, 209, .13); pointer-events: none; }
+#gpu-paper, #register-field { position: absolute; inset: 0; display: block; width: 100%; height: 100%; min-height: clamp(500px, 67vw, 800px); }
+#gpu-paper { z-index: 0; opacity: .58; }
+#register-field { z-index: 1; touch-action: none; outline: none; cursor: crosshair; }
+#register-field:focus-visible { box-shadow: inset 0 0 0 2px var(--register-red); }
+.register-readout { position: absolute; z-index: 3; top: 18px; left: 20px; right: 20px; display: flex; justify-content: space-between; gap: 12px; color: rgba(231, 223, 209, .66); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; text-transform: uppercase; pointer-events: none; }
+.register-status { position: absolute; z-index: 3; top: 49px; left: 20px; color: rgba(231, 223, 209, .63); font: 11px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .06em; pointer-events: none; }
+.register-controls { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 44px; display: flex; flex-wrap: wrap; gap: 8px; }
+.register-controls button { min-width: 44px; min-height: 44px; padding: 0 14px; border: 1px solid rgba(231, 223, 209, .34); border-radius: 999px; background: rgba(14, 15, 24, .84); color: var(--register-paper); font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em; cursor: pointer; }
+.register-controls button:first-child { border-color: rgba(162, 78, 67, .74); color: #e49c8e; }
+.register-controls button:hover, .register-controls button:focus-visible { border-color: var(--register-paper); color: var(--register-paper); }
+.register-frame figcaption { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 14px; display: flex; justify-content: space-between; gap: 16px; color: rgba(231, 223, 209, .62); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; pointer-events: none; }
+.register-notes { display: grid; gap: 14px; padding-top: 24px; }
+.register-notes > div { padding: 14px 0; border-top: 1px solid rgba(231, 223, 209, .14); }
+.register-notes span { color: #d88a77; font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.register-notes p, .register-premise, .register-note p { margin: 8px 0 0; color: var(--register-muted); font-size: 14px; line-height: 1.55; }
+.register-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .42fr); gap: 32px; padding: 44px 0 0; }
+.register-opening h1 { margin: 8px 0 0; max-width: 820px; font-size: clamp(44px, 7vw, 108px); line-height: .88; letter-spacing: -.06em; font-weight: 500; }
+.register-opening h1 i { color: #d88a77; font-family: Georgia, serif; font-weight: 400; }
+.register-premise { align-self: end; max-width: 420px; font-size: 17px; }
+.register-note { max-width: 760px; padding: 22px 0 0; }
+.register-note strong { color: var(--register-paper); font-weight: 500; }
+html.preview-mode .register-shell { background: var(--register-deep); }
+html.preview-mode .register-main { width: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .register-notes, html.preview-mode .register-opening, html.preview-mode .register-note, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .register-frame { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode #gpu-paper, html.preview-mode #register-field { min-height: 100vh; }
+html.blind-mode .register-readout, html.blind-mode .register-status, html.blind-mode .register-controls, html.blind-mode .register-frame figcaption, html.blind-mode .studio-header, html.blind-mode .studio-path, html.blind-mode .register-notes, html.blind-mode .register-opening, html.blind-mode .register-note, html.blind-mode .studio-footer { display: none; }
+html.blind-mode .register-frame::after { display: none; }
+html.blind-mode .register-frame { min-height: 100vh; border: 0; }
+html.blind-mode #gpu-paper, html.blind-mode #register-field { min-height: 100vh; }
+
+@media (prefers-reduced-motion:reduce) {
+  .register-frame, .register-controls button { transition: none; }
+}
+
+@media (max-width: 680px) {
+  .register-main { width: min(100% - 24px, 520px); padding-bottom: 40px; }
+  .register-work, .register-opening { grid-template-columns: 1fr; gap: 20px; }
+  .register-frame, #gpu-paper, #register-field { min-height: min(132vw, 640px); }
+  .register-readout { top: 14px; left: 14px; right: 14px; gap: 7px; font-size: 8px; letter-spacing: .07em; }
+  .register-status { top: 41px; left: 14px; max-width: 82%; }
+  .register-controls { left: 14px; right: 14px; bottom: 42px; gap: 6px; }
+  .register-controls button { flex: 1 1 auto; padding: 0 10px; font-size: 10px; }
+  .register-frame figcaption { left: 14px; right: 14px; bottom: 12px; font-size: 8px; }
+  .register-notes { padding-top: 0; }
+  .register-opening { padding-top: 26px; }
+  .register-opening h1 { font-size: clamp(50px, 16vw, 78px); }
+  .register-premise { font-size: 15px; }
+}

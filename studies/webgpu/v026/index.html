@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171827">
+  <meta name="description" content="A typographic witness register where a pair of acts of attention becomes an actual excision and reply.">
+  <title>MUTINE — The crowd files the witness.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=026">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-09"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="register-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v026 / witness register</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="register-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v026</span></nav>
+      <section class="register-work" aria-label="WebGPU daily work">
+        <figure class="register-frame artwork-frame">
+          <canvas id="gpu-paper" aria-hidden="true"></canvas>
+          <canvas id="register-field" role="img" aria-label="A pale typographic register made from broken horizontal records, with missing sections and shifted replies" tabindex="0" aria-keyshortcuts="ArrowUp ArrowDown ArrowLeft ArrowRight Enter Space Delete Backspace Escape R"></canvas>
+          <div class="register-readout" role="status" aria-live="polite"><span data-stage>register 01 / 13</span><span data-memory>0 pairs</span><span data-slot>slot 05</span><span data-renderer>CANVAS / INITIALISING</span></div>
+          <div class="register-status" data-status>choose a first witness · choose a second to file the pair</div>
+          <div class="register-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="pair">pair witnesses</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release register</button>
+          </div>
+          <figcaption><span>WEBGPU / V026 / DAILY WORK</span><span>witness → excision → reply</span></figcaption>
+        </figure>
+        <aside class="register-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a body, a procession, or a field. It is a printed register whose missing intervals carry the relation between two places.</p></div>
+          <div><span>changed rule</span><p>The first witness only arms. A second non-local witness seals the pair: one record is excised, another replies by shifting its break, and the corridor between them is re-set.</p></div>
+          <div><span>progression</span><p>A single tap is refused as history. Pair by two places, lift the latest exact pair, or release the bounded register. Arrows, Enter, and the button provide the same causal path.</p></div>
+        </aside>
+      </section>
+      <section class="register-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V026 / DAILY WORK</p><h1 id="work-title">The crowd<br><i>files the witness.</i></h1></div>
+        <p class="register-premise">Attention does not return as a face. It returns as paperwork: two places become one contested entry, and the sheet keeps the missing piece.</p>
+      </section>
+      <section class="register-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a first witness is memory-neutral; a non-local pair changes actual record segments, creates a reply displacement, and re-sets the corridor. Promotion depends on whether the blind field reads as an archive of contested registration rather than a decorative bar grid.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>witness → excision → reply</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=026a"></script>
+</body>
+</html>
