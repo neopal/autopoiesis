@@ -40,10 +40,10 @@
         "replay": true,
         "renderer": "deterministic inline SVG mending-reservoir field",
         "measured": true,
-        "promotion": "candidate / held pending browser matrices, interaction evidence, production readback, independent caption-free perceptual review, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "browserEvidence": {
-        "status": "observed local headless browser matrices, interaction/readback evidence, responsive evidence, blind preview, and local Journal/current/work/catalog readbacks; production and independent perceptual/provider-linkage gates remain pending",
+        "status": "observed local and production headless browser matrices, interaction/readback evidence, responsive evidence, blind preview, and public Journal/current/work/catalog readbacks; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:4262/works/brush-2026-10-09/",
         "rawPreview": "http://127.0.0.1:4262/studies/p5-brush/v028/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:4262/studies/p5-brush/v028/?preview=1&static=1&blind=1",
@@ -68,16 +68,32 @@
         "work": "local canonical work rendered the title and v028 tableau mount with tableau first; HTTP 200",
         "catalog": "local catalogue served from works.json contained exactly one matching brush-2026-10-09 record; HTTP 200",
         "favicon": "local /studio/favicon.svg returned HTTP 200 image/svg+xml",
-        "productionReady": false,
+        "productionReady": true,
         "screenshotCount": 25,
         "diagnosticCount": 0,
         "overflowCount": 0,
         "unresolved": [
-          "production browser matrix, interaction, blind, and public readbacks",
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
           "provider revision linkage between the Vercel deployment and GitHub SHA"
         ],
-        "productionAlias": "https://autopoiesis-nine.vercel.app/"
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_5pHcKQK2iCnPCEyFt76zhoxy3xv5",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/brush-2026-10-09/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v028/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v028/?preview=1&static=1&blind=1",
+        "productionProofDir": "research/qa/proofs/brush-v028-2026-10-09-production/",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 production raw/canonical runs plus interaction, blind, Journal, current, work, and favicon readbacks",
+        "productionInteraction": "production pointerdown armed without changing memory; pointerup after a real drag committed memory 0 to 1; repeated drag was refused; second drag committed memory 2; Delete restored the exact first signature; R, Enter, and the mend control completed; controls measured 44px",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the SVG field and nine wound paths visible with readout, controls, and hint hidden; innerWidth equaled clientWidth and scrollWidth",
+        "productionPublicReadbacks": {
+          "worksJson": "HTTP 200; 156 total works; exactly one brush-2026-10-09 record",
+          "catalogJson": "HTTP 200; target id, title, and metrics present",
+          "journal": "HTTP 200 browser render; #journal-brush-2026-10-09 present",
+          "current": "HTTP 200 browser render; Brush current and target card present",
+          "work": "HTTP 200 browser render; target title and canonical tableau present before editorial route content",
+          "favicon": "HTTP 200 image/svg+xml"
+        }
       },
       "source": {
         "referenceId": "p5-brush",

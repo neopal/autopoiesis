@@ -48,4 +48,18 @@ v028 makes a structural rupture: it changes medium from p5.js Canvas/WebGL to se
 
 ## Publication state
 
-Production publication is authorized after the local gates. The production matrix/readbacks and provider revision linkage are recorded separately after deployment. The candidate remains **held**, not exhibition-ready, pending independent caption-free perceptual comparison and explicit deployment-to-SHA linkage.
+- **Source commit:** `33b8f836fe0cef833e5eb5fc3141fcc653d7cee7` (`[verified] Record Brush v028 daily work`)
+- **Remote SHA:** `33b8f836fe0cef833e5eb5fc3141fcc653d7cee7` matched `origin/main` before production evidence update.
+- **Scoped deploy attempt:** `npx vercel --prod --yes --scope lairpa-hotmailfrs-projects` returned `Not authorized`.
+- **Linked-project deploy:** succeeded with `npx vercel --prod --yes`.
+- **Deployment:** `dpl_5pHcKQK2iCnPCEyFt76zhoxy3xv5`
+- **Deployment state:** `READY`
+- **Stable alias:** https://autopoiesis-nine.vercel.app/
+- **Production browser matrix:** **20/20 passed** on raw and canonical routes at all five required viewports in normal and reduced-motion modes.
+- **Production diagnostics:** **0** console messages, page errors, failed requests, or HTTP `400+` responses in matrix and focused readbacks.
+- **Production interaction:** pointerdown armed without writing; real drag committed; repeated drag refused; second drag committed; Delete restored the exact preceding signature; R, Enter, and mend control completed; controls measured 44px.
+- **Production blind preview:** SVG field and nine wound paths remained visible with readout, controls, and hint hidden; no overflow.
+- **Production readbacks:** `/studio/data/works.json` returned HTTP 200 with 156 records and exactly one `brush-2026-10-09`; `/studio/data/catalog-public.json` exposed the target; `/journal/` rendered the target anchor; `/currents/brush/` rendered the target card; `/works/brush-2026-10-09/` rendered the canonical title/tableau; `/studio/favicon.svg` returned HTTP 200.
+- **Production proofs:** `research/qa/proofs/brush-v028-2026-10-09-production/`.
+
+The candidate remains **held**, not exhibition-ready, pending independent caption-free perceptual comparison and explicit deployment-to-SHA linkage. The deployed content corresponds to the source/evidence commit above; the later evidence commit may follow the deployment, so Git and Vercel provenance remain separate claims.
