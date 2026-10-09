@@ -2,6 +2,119 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-09",
+      "currentId": "svg",
+      "date": "2026-10-09",
+      "title": "The weight finds a seam.",
+      "rawPath": "/studies/pure-svg/v027/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-09",
+        "note": "v027 abandons v024's compound witness-knot, v025's single open contour and drawn route, and v026's dispersed fragment population. Eleven continuous SVG strata share a resistance field: a single pressure puncture does not mark the pointer location, but lets the material choose its weakest seam and slip the whole stack. Four slips remain in bounded memory; lifting the latest reconstructs the exact preceding stack."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The seam must be a production rule, not an annotation: one pressure puncture must change actual path silhouettes across most strata, and later punctures must calculate against inherited slips."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and furniture hidden, the first field should read as eleven long load-bearing strata with a shared fault, not a generic chart, waveform, polygon scatter, contour, knot, or route diagram. After a puncture, the changed seam must be findable in the silhouettes."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerdown may arm pressure but must not write. Pointerup commits one pressure puncture; Enter, Space, and the load control share the deterministic path. Delete must reconstruct the exact prior stack and R must release bounded memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v027 must leave v024's compound body, v025's continuous route, and v026's dispersed fragments through a horizontal stratigraphy, a single punctuation-like pressure encounter, and a weakest-seam material law."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated as material agency, not as brush appearance. No brush mark, watercolor, hatch, source palette, example, or API vocabulary may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v027 if the pointer chooses the seam directly, if the event is only a cursor or global wobble, if fewer than five rows change, if repeated punctures restart from baseline, if the blind field is a disguised chart, or if lifting is inexact."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v027-slip-strata",
+        "visitorInput": true,
+        "seed": "0x53564727",
+        "stages": 13,
+        "rowCount": 11,
+        "segmentCount": 9,
+        "memoryWindow": 4,
+        "primitiveBudget": 11,
+        "pressureThreshold": "single pressure puncture; pointerup commits",
+        "settledStage": 12,
+        "settledMemory": 4,
+        "settledChangedRows": 11,
+        "memoryRule": "the material chooses a weakest seam from resistance plus inherited slips; a puncture re-forms every long SVG stratum around that seam",
+        "interactionRule": "pointerdown arms without writing; pointerup commits one pressure puncture; Enter, Space, and load-the-strata share the deterministic path; Delete lifts latest; R releases",
+        "representationRupture": "compound witness-knot, open boundary route, and dispersed fragment population -> eleven continuous horizontal SVG strata with stepped load-bearing edges",
+        "encounterRupture": "two-place witness, continuous drawn span, and attend-then-depart -> one pressure puncture whose entry point does not select the visible fault",
+        "temporalRupture": "bounded absence and distributed echo memory -> inherited resistance that changes which seam can give way next",
+        "mediumRupture": "compound SVG path, single open SVG path, and SVG polygons -> eleven filled SVG path bodies with actual re-formed silhouettes",
+        "replay": true,
+        "renderer": "deterministic inline SVG slip-strata field",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review, production browser/publication readback, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, grain, and vector fields participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, source palette, examples, and API. Make pressure an entry vector into a Pure SVG material: the material chooses its weakest seam, slips the complete stratified stack, and carries changed resistance into the next event.",
+        "visibleConsequence": "The blind field is eleven long SVG strata, not a mark field or tile scatter. After a puncture, actual path silhouettes bend across the stack at a calculated seam; later punctures choose against inherited slips.",
+        "falsifier": "If pressure changes only a cursor, colour, readout, or local dot; if the pointer location directly selects the seam; if fewer than five strata change; if later punctures ignore prior slips; or if the blind field reads as a generic chart, waveform, or decorative polygon stack, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor surface, hatching vocabulary, source palette, source composition, source examples, or API surface is reproduced.",
+        "directionConsequence": "Closes the discrete-population and single-boundary sequence and opens a constraint-as-material direction where SVG economy is expressed through a small number of long, load-bearing paths."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotation-off comparison; delete v027 if the blind stack reads as a generic chart, if the pointer selects the seam directly, if fewer than five rows change, if later punctures forget earlier slips, or if exact lifting fails.",
+        "lineage": "svg-2026-10-08"
+      },
+      "browserEvidence": {
+        "status": "observed local headless browser matrix, interaction/readback evidence, responsive evidence, blind preview, and local Journal/current/work readbacks; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4261/works/svg-2026-10-09/",
+        "rawPreview": "http://127.0.0.1:4261/studies/pure-svg/v027/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4261/studies/pure-svg/v027/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v027 SVG slip-strata field before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all local and canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across all local and canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "normalState": "normal-motion local raw/canonical runs opened at stage 00 with 11 strata, 0 slips, and deterministic baseline geometry",
+        "reducedMotionState": "reduced-motion local raw/canonical runs settled at stage 12 with 4 bounded material slips and 11 changed row silhouettes",
+        "pointerInteraction": "local pointerdown armed pressure with memory 0 and pointerup committed memory 0 to 1; 11 SVG row paths remained present",
+        "keyboardInteraction": "local focused-field Enter changed memory 0 to 1 and changed actual row path geometry; Delete restored memory 0 and the exact prior stack signature",
+        "liftInteraction": "local lift control after a committed pressure restored memory 0 and the exact preceding stack signature",
+        "buttonInteraction": "local load-the-strata control changed memory 0 to 1 and lift restored 0; all three controls measured 44px high",
+        "releaseInteraction": "local R and release control returned memory to 0 and the deterministic baseline",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the 11-strata SVG field visible while hiding readout and controls; innerWidth equaled clientWidth and scrollWidth",
+        "journal": "local Journal rendered #journal-svg-2026-10-09 and the recorded title; HTTP 200",
+        "current": "local Pure SVG current rendered exactly one svg-2026-10-09 artwork card and title with no overflow; HTTP 200",
+        "work": "local canonical work rendered the title and v027 tableau mount with tableau first; HTTP 200",
+        "catalog": "local catalogue served from works.json contained exactly one matching record and 155 total works",
+        "favicon": "local /studio/favicon.svg returned HTTP 200 image/svg+xml",
+        "productionReady": false,
+        "screenshotCount": 26,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix and public readbacks",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between Vercel deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "naive-2026-10-08",
       "currentId": "naive",
       "date": "2026-10-08",
