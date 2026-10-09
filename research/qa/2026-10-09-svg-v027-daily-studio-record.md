@@ -50,7 +50,7 @@ v027 abandons v024's compound witness-knot, v025's single open contour and drawn
 - Production interaction: pointerdown `memory 0 → pressure-armed`; pointerup `0 → 1`; Enter `0 → 1`; Delete restored exact prior signature; load/lift/release completed; controls measured 44px.
 - Production blind preview: field visible with 11 SVG strata and 11 paths; readout and controls hidden; `innerWidth=390`, `clientWidth=390`, `scrollWidth=390`.
 - Public readbacks: stable alias `https://autopoiesis-nine.vercel.app/` returned HTTP 200 for works JSON, public catalog, Journal, Pure SVG current, canonical work, and favicon; deployed works JSON contained 155 records and exactly one `svg-2026-10-09`; browser-rendered Journal/current/work contained the target anchor/card/title.
-- Deployment: Vercel `dpl_CgaHMUVsBWwkfd5DR6qryEHtf2AJ`, state READY.
+- Deployment: Vercel production state was **READY**; deployment identifier is kept in the release output rather than in the public work register.
 
 ## Unresolved doubt
 
