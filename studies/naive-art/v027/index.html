@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14262c">
+  <title>MUTINE — The correction shifts the whole print.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=027">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-09"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="register-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v027 / WRONG REGISTRATION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="register-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v027</span></nav>
+
+      <section class="register-surface" aria-label="Naive wrong-registration tableau">
+        <div class="register-column">
+          <figure class="register-work artwork-frame">
+            <div class="register-field" id="register-field" tabindex="0" role="application" aria-label="A single layered print that accepts only a closed correction loop" aria-keyshortcuts="pointer loop Enter Space Delete R">
+              <div class="register-readout" aria-live="polite"><span data-stage>correction 00 / 04</span><span data-memory>0 stored</span><span data-status>draw a loop and return</span></div>
+              <div class="register-stage" id="register-stage" aria-label="One layered print with a displaced opening">
+                <div class="print-shadow" aria-hidden="true"></div>
+                <div class="print-body" id="print-body" data-print-body="wrong-registration">
+                  <div class="registration-whisper" aria-hidden="true"></div>
+                  <div class="print-layers" id="print-layers" aria-label="Eight registered ink plates"></div>
+                  <div class="print-crop crop-a" aria-hidden="true"></div>
+                  <div class="print-crop crop-b" aria-hidden="true"></div>
+                </div>
+                <div class="registration-crosshair crosshair-a" aria-hidden="true"></div>
+                <div class="registration-crosshair crosshair-b" aria-hidden="true"></div>
+              </div>
+              <div class="register-controls" aria-label="Print actions">
+                <button type="button" data-gesture="correct">close the correction</button>
+                <button type="button" data-gesture="undo">lift latest</button>
+                <button type="button" data-gesture="release">release the register</button>
+              </div>
+              <p class="register-hint">pointer: draw a long loop, then return near its beginning · short or open loops are refused</p>
+            </div>
+            <figcaption><span>seed | mutine-naive-v027</span><span>loop &gt; slip &gt; wrong plate</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>The image is one print trying to line up with itself. A correction is not a local mark: closing the loop makes the entire registration drift, while a distant plate inherits the wrong opening.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if the visible body changes without a cursor scar, and if an open gesture remains materially refused rather than being rescued by the readout.</p></div>
+          <div><span>progression</span><p>Draw a loop around the field and return near its start. The next correction acts on the already slipped stack; lift one or release the bounded register.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V027 / DAILY WORK</p><h1 id="work-title">The correction shifts <br><i>the whole print.</i></h1></div>
+        <p class="work-premise">Pressure does not leave a mark. It makes a naive correction misregister every layer, then keeps the error alive in the plate that was not touched.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v027 abandons v024's plane theatre, v025's pressure sheet, and v026's witness apertures. The medium becomes a DOM/CSS registration object: only a closed return gesture commits, and the actual print geometry drifts as a whole while a non-local void widens.</p></section>
+      <p class="work-loop">closed loop → material slip → remote misprint → retained debt</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-08/">previous daily work</a><a href="/journal/#journal-naive-2026-10-09">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=027"></script>
+</body>
+</html>
