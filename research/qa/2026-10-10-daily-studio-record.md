@@ -64,19 +64,24 @@ This is a schema anomaly, not an inferred lifecycle. Those records remain held a
 
 ## Repository verification
 
-- `npm run test`: **801 passed, 0 failed, 0 skipped**.
+- `npm run test`: **801 passed, 0 failed, 0 skipped** before the production-evidence metadata update.
 - Changed JavaScript for this run: v029 engine, sketch, and probe; `node --check` **passed**.
 - `git diff --check`: **passed**. Git emitted only existing LF/CRLF normalization warnings for modified files.
 - Local headless browser matrix: **20/20 passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw/canonical, normal/reduced motion.
 - Local diagnostics: **0** console messages, page errors, failed requests, or HTTP errors; `scrollWidth` matched viewport width.
 - Local interaction: pointerdown arms only; short pointerup refuses; held pointerup commits; Enter/button commit; Delete restores exact mass; R releases; blind preview hides furniture; controls measure **44px**.
 - Local Journal/current/canonical work/favicon readbacks passed; proof is `research/qa/proofs/brush-v029-2026-10-10/` with `results.json` plus **25 PNG captures**.
-- Added-line static security scan: pending staged-diff verification before commit.
+- Production headless browser matrix: **20/20 passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw/canonical, normal/reduced motion.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP errors; `scrollWidth` matched viewport width.
+- Production interaction: pointerdown arms only; short pointerup refuses; held pointerup commits; Enter/button commit; Delete restores exact mass; R releases; blind preview hides furniture; controls measure **44px**.
+- Production public readbacks: `/studio/data/works.json` HTTP 200 with **161** works and exactly one target record; `/studio/data/catalog-public.json` HTTP 200 with **161** public works and no QA payload; Journal, Brush current, canonical work, and favicon all rendered/read back successfully.
+- Production proof: `research/qa/proofs/brush-v029-2026-10-10-production/` with `results.json` plus **25 PNG captures**.
+- Added-line static security scan: pending staged-diff verification for the production-evidence metadata update.
 - The working tree already contained unrelated/uncommitted changes; they remain untouched and unstaged.
 
 ## Blocked / next actions
 
-- Production deployment and public readbacks remain pending until the staged-diff quality gate passes.
+- Production deployment/readbacks completed at `https://autopoiesis-nine.vercel.app/` via deployment `dpl_CbAzaAL3SU9S1rn6fj9prUuEDaG6`; the evidence metadata update requires a follow-up commit/deploy.
 - Resolve the seven missing historical lifecycle fields through an explicit catalogue decision; do not infer them in a future audit.
 - The v029 candidate remains held pending independent caption-free perceptual comparison: does the blind field read as one radial sediment mass with consequential waiting, or an attractive radial chart?
 - Provider revision linkage between the eventual Vercel deployment and GitHub SHA remains unresolved; WebGPU remains dormant in the source register.
