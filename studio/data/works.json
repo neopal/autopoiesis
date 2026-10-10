@@ -2,6 +2,81 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-10",
+      "currentId": "svg",
+      "date": "2026-10-10",
+      "title": "The aperture waits for leaving.",
+      "rawPath": "/studies/pure-svg/v028/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-10",
+        "note": "v028 abandons v025's single open contour, v026's dispersed polygon constellation, and v027's horizontal slip strata. Seven standing SVG aperture plates form a sparse spatial instrument: attention only arms a plate, departure contracts its local opening, a distant plate receives the opening, and a third plate hinges by relay. Four departures remain in bounded memory; lifting the latest reconstructs the exact preceding array."
+      },
+      "critiques": [
+        {"persona":"Topology critic","argument":"The relation must live in actual compound SVG paths: one local aperture must contract, a distant aperture must enlarge, and a third plate must carry a real hinge change. A highlight, cursor, or readout cannot substitute."},
+        {"persona":"Perceptual critic","argument":"With labels, readout, controls, annotations, and furniture hidden, the first field should read as one spatial system of seven standing aperture bodies, not a line field, open contour, fragment constellation, strata chart, or generic UI panel grid. After departure, the three changed openings must be findable in the bodies."},
+        {"persona":"Interaction critic","argument":"Proximity and pointerdown may arm but must not write. Pointerup after a real held attention, Enter, Space, and the leave-the-plate control must share the departure law. Delete must reconstruct the exact preceding array; Escape and R must release bounded relay memory."},
+        {"persona":"Radical progression critic","argument":"v028 changes both representation and encounter: it leaves v025's single path, v026's autonomous fragments, and v027's continuous strata for seven large compound aperture bodies and a withdrawal-triggered opening transfer."},
+        {"persona":"Cultural critic","argument":"little-critters is translated from situated proximity and reciprocal attention into a non-figurative topology of openings. No animals, eyes, characters, paper scene, source palette, composition, code, or head-turning imagery may carry the relation."},
+        {"persona":"Cynic","argument":"Delete v028 if the field is only seven decorative panels, if proximity commits, if only the local opening changes, if the remote opening or hinge is cosmetic, if later departures forget altered apertures, or if the blind image requires the caption to distinguish it from an interface."}
+      ],
+      "metrics": {
+        "id": "pure-svg-v028-aperture-array",
+        "visitorInput": true,
+        "seed": "0x53564728",
+        "stages": 13,
+        "plateCount": 7,
+        "primitiveBudget": 7,
+        "memoryWindow": 4,
+        "departureThreshold": "attention arms; pointerup or explicit leave commits",
+        "settledStage": 4,
+        "memoryRule": "a departure contracts the local SVG aperture, enlarges a non-local aperture, and rotates a third hinge; later departures inherit the altered openings",
+        "interactionRule": "pointer proximity or pointerdown only arms; pointerup, Enter, Space, or leave-the-plate commits; Delete lifts latest; Escape or R releases",
+        "representationRupture": "open contour, dispersed polygons, and horizontal strata -> seven large filled SVG aperture bodies with actual even-odd cutouts",
+        "encounterRupture": "drawn span, attend-then-depart, and pressure puncture -> attention followed by withdrawal, with leaving as the causal event",
+        "temporalRupture": "scar migration, social absence, and inherited resistance -> bounded aperture custody where a local opening becomes a distant opening",
+        "mediumRupture": "single open path and filled path populations -> seven independent SVG compound paths with transform-bearing hinge states",
+        "replay": true,
+        "renderer": "deterministic inline SVG aperture array",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity with legible attention and reciprocal looking, making the visitor part of a social field without a control dashboard.",
+        "translatedRule": "Refuse animals, eyes, paper, and looking-back imagery. In Pure SVG's own vocabulary, proximity only arms a plate; withdrawal contracts its actual aperture, enlarges a distant aperture, and turns a third plate as a hinge relay.",
+        "visibleConsequence": "The blind first view is a sparse spatial array of seven tall aperture bodies. After departure, three actual SVG path bodies change: one hole closes, one hole opens, and one remote plate shifts its aperture and angle.",
+        "falsifier": "If proximity writes memory; if only colour, cursor marks, labels, or a counter change; if the local opening changes without a distant response; if the relay is decorative; if later departures restart from the seed; or if the blind field reads as a generic panel grid, the translation fails.",
+        "antiCopy": "No animals, eyes, characters, paper scene, source palette, source composition, source code, API surface, or head-turning imagery is reproduced.",
+        "directionConsequence": "Closes the line / contour / strata family and opens a plate-and-aperture grammar in which topology is an encounter distributed across distance."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off comparison; delete v028 if the blind field reads as a generic panel grid, if proximity commits, if only the local opening changes, if the remote opening or hinge is cosmetic, if later departures forget altered apertures, or if exact lifting fails.",
+        "lineage": "svg-2026-10-09"
+      },
+      "browserEvidence": {
+        "status": "10/10 local raw browser runs passed across five viewports in normal and reduced-motion modes; pointer, keyboard, Delete, release, blind preview, responsive, and network readbacks observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "rawPreview": "/studies/pure-svg/v028/?preview=1&interaction=1",
+        "blindPreview": "/studies/pure-svg/v028/?preview=1&static=1&blind=1",
+        "viewportRuns": "10/10 local raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 10 local raw runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the local matrix, interaction, and blind readbacks",
+        "normalState": "normal-motion local raw runs opened at stage 00 with 7 aperture plates, 0 departures, and deterministic baseline geometry",
+        "reducedMotionState": "reduced-motion local raw runs opened at stage 00 with 7 aperture plates, 0 departures, and deterministic baseline geometry",
+        "pointerInteraction": "a real pointer move armed a plate with memory 0; pointerdown remained memory-neutral; pointerup committed one departure and changed the source, target, and relay plate geometries",
+        "keyboardInteraction": "focused-field Enter committed a departure, Delete restored the exact preceding array, and Escape released to baseline",
+        "buttonInteraction": "leave-the-plate changed memory from 0 to 1; lift restored 0; release returned 0; all three controls measured 44px high",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the 7-plate SVG array visible while hiding readout, controls, labels, and relay lines; no document overflow",
+        "screenshotCount": 12,
+        "evidenceFiles": "research/qa/proofs/pure-svg-v028-2026-10-10/local-results.json plus 12 PNG captures",
+        "unresolved": ["production browser matrix and public readback not yet observed", "independent caption-free perceptual comparison", "provider revision linkage between deployment and GitHub SHA"]
+      }
+    },
+    {
       "id": "typography-2026-10-10",
       "currentId": "typography",
       "date": "2026-10-10",
