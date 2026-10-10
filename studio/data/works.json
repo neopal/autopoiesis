@@ -2,6 +2,83 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-10",
+      "currentId": "typography",
+      "date": "2026-10-10",
+      "title": "The margin keeps the spare.",
+      "rawPath": "/studies/handwriting/v026/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-10",
+        "note": "v026 abandons v023's browser-native reading fold, v024's elastic Canvas sentence, and v025's distributed refusal plate. Seven custom letter-routes stand as extruded WebGL line sculptures in a shallow depth rack: proximity arms a route without writing, withdrawal contracts one local segment, and a non-local route receives the spare. Four departures remain in bounded custody memory; lifting the latest reconstructs the exact preceding rack."
+      },
+      "critiques": [
+        {"persona":"Route-material critic","argument":"The departure must live in the route bodies: the local letter must contract an actual segment and the remote letter must acquire an actual segment. A bright line, cursor, or status readout cannot substitute for changed route geometry."},
+        {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, captions, and furniture hidden, the first field should read as one sparse three-dimensional rack of routed letter bodies, not a refusal plate, sentence corridor, word-card grid, or decorative 2D text field. After departure, the local gap and remote spare must be findable in the bodies themselves."},
+        {"persona":"Interaction critic","argument":"Proximity must remain memory-neutral. Only a real withdrawal across the threshold, the deterministic action, Enter, or Space commits; Delete restores the exact preceding rack and R releases bounded custody."},
+        {"persona":"Radical progression critic","argument":"v026 changes representation to custom routed letter skeletons, medium to p5.js WEBGL, and encounter to approach/withdrawal. The rupture must be visible in code, input, depth composition, and the changed local/remote geometry."},
+        {"persona":"Cultural critic","argument":"little-critters is translated from situated attention into non-local typographic custody. No animals, eyes, paper setting, head-turning image, source palette, composition, code, or API surface may carry the relation."}
+      ],
+      "metrics": {
+        "id":"handwriting-v026-route-rack",
+        "seed":"0x48574926",
+        "visitorInput":true,
+        "stages":13,
+        "glyphCount":7,
+        "routeSegmentCount":42,
+        "memoryWindow":4,
+        "settledStage":12,
+        "settledMemory":4,
+        "settledDepartureCount":4,
+        "primitiveBudget":72,
+        "memoryRule":"a withdrawn route contracts one local segment and transfers a spare segment to a non-local route; later departures inherit the custody",
+        "interactionRule":"proximity only arms; pointer withdrawal across the threshold, Enter, Space, or the route action commits one bounded departure; Delete lifts the latest; R releases the rack",
+        "representationRupture":"browser-native clauses, elastic Canvas sentence, and refusal plate -> seven extruded letter-routes in a depth rack",
+        "encounterRupture":"typed offer, point pressure, and reading reversal -> approach and withdrawal, with departure as the causal event",
+        "temporalRupture":"refusal grammar and pressure resistance -> bounded distributed custody of route segments",
+        "mediumRupture":"semantic DOM, p5 Canvas 2D, semantic DOM -> p5.js 1.11.3 WEBGL route sculpture",
+        "replay":true,
+        "renderer":"deterministic p5.js 1.11.3 WEBGL route rack",
+        "measured":true,
+        "promotion":"candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId":"little-critters",
+        "title":"little-critters",
+        "url":"https://github.com/GordenSun/little-critters",
+        "observedMechanism":"Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule":"Refuse animals, eyes, head-turning imagery, and the source scene. Translate reciprocity into handwriting's own question: a route can notice the visitor, but it cannot answer locally. Only withdrawal makes the route surrender a spare segment to a non-local route, whose geometry then carries that custody forward.",
+        "visibleConsequence":"The first blind view is a sparse three-dimensional rack of seven letter-routes with actual depth and extrusion. Nearness alone leaves the geometry exact. After withdrawal, the local route has a contracted segment and the remote route has an added route segment; later departures inherit a changed rack.",
+        "falsifier":"If proximity commits, if withdrawal only changes colour or a glow, if the local gap and remote custody are overlays rather than route geometry, if the reply is local, if later departures forget custody, or if the blind field reads as another text plate or card field, the translation fails.",
+        "antiCopy":"No animals, eyes, paper scene, character designs, source palette, source composition, code, API surface, or head-turning imagery is reproduced.",
+        "directionConsequence":"Closes the pressure / refusal / reading-corridor family and opens a depth-and-custody direction in which handwriting is a set of routed letter bodies that can relinquish material across distance. It forces a new medium and leaves the stable 2D typographic plate behind."
+      },
+      "decision": {
+        "nextMutation":"Run labels-off, readout-off, controls-off, and hint-off comparison; delete v026 if proximity writes, if withdrawal only brightens a route, if the local gap and remote custody are not visible in route geometry, if replies are local, if later departures forget custody, or if exact lifting fails.",
+        "lineage":"typography-2026-10-08"
+      },
+      "browserEvidence": {
+        "status":"10/10 local raw browser runs passed across five viewports in normal and reduced-motion modes; pointer, keyboard, Delete, release, blind preview, responsive, canvas, and network readbacks observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "rawPreview":"/studies/handwriting/v026/?preview=1&interaction=1",
+        "blindPreview":"/studies/handwriting/v026/?preview=1&static=1&blind=1",
+        "viewportRuns":"10/10 local raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow":"all 10 local raw runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets":"all three local interaction buttons measured 44px high at 390x844",
+        "initialDiagnostics":"0 console messages, page errors, failed requests, or HTTP 400+ responses across the local matrix",
+        "normalState":"normal-motion local raw runs opened at stage 00 with 0 departures and 0 custody",
+        "reducedMotionState":"reduced-motion local raw runs opened at stage 00 with 0 departures and 0 custody without animation race",
+        "pointerInteraction":"a real pointer move armed glyph 2 with memory 0; withdrawing to glyph 5 committed one departure and changed route geometry",
+        "keyboardInteraction":"focused route rack Enter committed a second departure, changing memory from 1 to 2",
+        "liftInteraction":"Delete restored memory from 2 to 1 and the exact preceding post-pointer geometry signature",
+        "releaseInteraction":"release rack returned memory from 1 to 0 and the exact baseline geometry signature",
+        "staticBlindPreview":"local reduced-motion static blind preview at 390x844 kept the WebGL canvas visible while hiding readout, controls, and hint; no document overflow",
+        "screenshotCount":11,
+        "evidenceFiles":"research/qa/proofs/typography-v026-2026-10-10/results.json plus 11 PNG captures",
+        "unresolved":["production browser matrix and public readback not yet observed","independent caption-free perceptual comparison","provider revision linkage between deployment and GitHub SHA"]
+      }
+    },
+    {
       "id": "webgpu-2026-10-09",
       "currentId": "webgpu",
       "date": "2026-10-09",

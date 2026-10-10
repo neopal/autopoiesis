@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1016">
+  <title>MUTINE — The margin keeps the spare.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=026">
+  <script>window.p5 = window.p5 || {}; window.p5.disableFriendlyErrors = true;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-10"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="rack-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v026 / ROUTE RACK</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="rack-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v026</span></nav>
+
+      <figure id="work" class="rack-work artwork-frame" aria-labelledby="work-title">
+        <div id="route-rack" class="route-rack" tabindex="0" role="application" aria-label="A three-dimensional rack of letter routes. Move close to a route, then withdraw to make it surrender a segment to another route." aria-keyshortcuts="Enter Space Delete R">
+          <div class="rack-readout" aria-live="polite"><span data-stage>rack / quiet</span><span data-memory>0 departures · custody —</span></div>
+          <div id="canvas-mount" class="canvas-mount" aria-hidden="true"></div>
+          <div class="rack-controls" aria-label="Route rack actions">
+            <button id="read-margin" type="button">read the margin</button>
+            <button id="lift-departure" type="button">lift latest</button>
+            <button id="release-rack" type="button">release rack</button>
+          </div>
+          <p class="rack-hint">approach a route · withdraw to release its spare</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v026-route-rack</span><span>approach &gt; withdraw &gt; custody</span></figcaption>
+      </figure>
+
+      <section class="rack-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MEDIUM SWITCH / v026</p>
+        <h1 id="work-title">The margin<br><i>keeps the spare.</i></h1>
+        <p class="rack-lede">A route noticed up close does not answer where it was noticed. When attention withdraws, its spare segment is carried to another letter.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">APPROACH, THEN WITHDRAW</p>
+          <p class="interaction-copy">Move toward one route to arm it without changing the rack. Move away across the threshold, or use the deterministic action, to make the route surrender a segment. A non-local route receives the spare and shifts its own geometry. Delete lifts the latest departure; R releases the bounded custody.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The rack is quiet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v026</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the refusal plate, elastic sentence, and browser reading corridor. Seven extruded letter-routes now occupy a shallow depth rack: proximity arms a route, but only withdrawal produces a structural event; the local route loses a segment while a non-local route takes custody of the spare.</dd></div>
+          <div><dt>visitor action</dt><dd>Approach one route with pointer or touch, then withdraw across the distance threshold. The first relation is memory-neutral. Enter, Space, or the action button makes the deterministic departure; Delete lifts the latest custody event; R releases the rack.</dd></div>
+          <div><dt>falsifier</dt><dd>If proximity writes, if withdrawal only brightens a route, if the local gap and remote custody are overlays rather than changed route geometry, if the reply is local, or if the blind view reads as another text plate or card field, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v026 if the 3D route sculpture is only a decorative font substitute, if the first encounter needs the caption to explain where the spare went, if later departures forget custody, or if lifting cannot restore the exact prior rack.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-08/">previous daily work</a><a href="/journal/#journal-typography-2026-10-10">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=026"></script>
+</body>
+</html>

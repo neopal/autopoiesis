@@ -1,0 +1,23 @@
+{
+  "id": "handwriting-v026-route-rack",
+  "seed": "0x48574926",
+  "visitorInput": true,
+  "stages": 13,
+  "glyphCount": 7,
+  "routeSegmentCount": 42,
+  "memoryWindow": 4,
+  "settledStage": 12,
+  "settledMemory": 4,
+  "settledDepartureCount": 4,
+  "primitiveBudget": 72,
+  "memoryRule": "a withdrawn route contracts one local segment and transfers a spare segment to a non-local route; later departures inherit the custody",
+  "interactionRule": "proximity only arms; pointer withdrawal across the threshold, Enter, Space, or the route action commits one bounded departure; Delete lifts the latest; R releases the rack",
+  "representationRupture": "browser-native clauses, elastic Canvas sentence, and refusal plate -> seven extruded letter-routes in a depth rack",
+  "encounterRupture": "typed offer, point pressure, and reading reversal -> approach and withdrawal, with departure as the causal event",
+  "temporalRupture": "refusal grammar and pressure resistance -> bounded distributed custody of route segments",
+  "mediumRupture": "semantic DOM, p5 Canvas 2D, semantic DOM -> p5.js 1.11.3 WEBGL route sculpture",
+  "replay": true,
+  "renderer": "deterministic p5.js 1.11.3 WEBGL route rack",
+  "measured": true,
+  "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

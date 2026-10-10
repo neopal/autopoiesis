@@ -1,0 +1,25 @@
+{
+  "workId": "typography-2026-10-10",
+  "study": "studies/handwriting/v026/",
+  "environment": "local",
+  "status": "candidate / held",
+  "matrix": {
+    "runs": 10,
+    "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+    "modes": ["normal", "reduced-motion"],
+    "httpStatus": "10/10 HTTP 200",
+    "ready": "10/10 p5 WebGL canvases initialized",
+    "overflow": "0/10; innerWidth = clientWidth = scrollWidth",
+    "touchTargets": "3/3 buttons measured 44px at 390x844",
+    "diagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses"
+  },
+  "interaction": {
+    "pointer": "glyph 2 armed at memory 0; withdrawal to glyph 5 committed memory 1 and changed route geometry",
+    "keyboard": "Enter committed memory 1 -> 2",
+    "delete": "Delete restored memory 2 -> 1 and the exact preceding post-pointer geometry signature",
+    "release": "release rack restored memory 1 -> 0 and the exact baseline geometry signature",
+    "blind": "390x844 reduced-motion static preview kept the canvas visible and hid readout, controls, and hint"
+  },
+  "screenshots": 11,
+  "proof": "research/qa/proofs/typography-v026-2026-10-10/results.json"
+}
