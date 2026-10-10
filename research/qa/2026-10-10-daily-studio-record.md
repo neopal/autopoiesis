@@ -117,7 +117,11 @@ v028 abandons v025's pressure body, v026's witness apertures, and v027's layered
 - Pointerenter arming, sustained departure, short-look refusal, Enter, button, Delete, R, blind preview, readbacks, and 44px touch targets: passed.
 - Proof: `research/qa/proofs/naive-v028-2026-10-10/` with `report.json` and **25 PNG captures**.
 - Register: exactly one `naive-2026-10-10` record; local public catalog rebuilt to **162 works** with QA evidence omitted.
+- Production deployment: `dpl_7MTy1VL63uwxHgXMhbcbYnSuViuH`; stable alias `https://autopoiesis-nine.vercel.app/`.
+- Production browser matrix: **20/20 passed** at the same five viewports, normal/reduced motion; **0** diagnostics, overflow failures, or HTTP failures.
+- Production interaction/blind: pointerenter arm, sustained departure commit, short refusal, Enter/Delete/button/lift/release/R, 44px controls, and 4-memory/11-changed-mark blind state passed.
+- Production readbacks: `/studio/data/works.json` HTTP 200 with **162 works** and one exact target record; rendered `/journal/`, `/currents/naive-art/`, and canonical work each HTTP 200 with the target title; `/favicon.ico` HTTP 200.
 
 ## Unresolved doubt
 
-The blind strip may still read as an attractive typographic score or data chart. Runtime evidence does not settle the independent caption-free perceptual question. Production deployment/readback and provider revision linkage are pending; the candidate remains held.
+The blind strip may still read as an attractive typographic score or data chart. Runtime evidence does not settle the independent caption-free perceptual question. Provider revision linkage remains unresolved; the candidate remains held.

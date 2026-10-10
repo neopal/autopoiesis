@@ -103,6 +103,8 @@ test('Naive v028 is a semantic mark strip with a real browser adapter and honest
   assert.equal(metrics.seed, '0x4e413238');
   assert.equal(metrics.visitorInput, true);
   assert.equal(metrics.replay, true);
+  assert.equal(record?.metrics?.settledChangedMarkCount, 11);
+  assert.match(record?.browserEvidence?.status ?? '', /production/i);
   assert.match(metrics.representationRupture, /semantic|mark|DOM/i);
   assert.match(metrics.interactionRule, /depart|look|pointer/i);
   assert.equal(critiques.length, 6);

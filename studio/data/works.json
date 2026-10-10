@@ -50,7 +50,7 @@
         "minimumLookMs": 420,
         "settledStage": 4,
         "settledMemory": 4,
-        "settledChangedMarkCount": 12,
+        "settledChangedMarkCount": 11,
         "primitiveBudget": 15,
         "memoryRule": "a sustained departure vacates one mark, repeats its glyph at a remote mark, adds an echo, and moves the gap; later observations inherit the changed strip",
         "interactionRule": "pointerenter arms without writing; pointerleave after 420ms commits; short looks are refused; Enter and the mishear control share the deterministic event; Delete lifts latest; R releases",
@@ -61,7 +61,7 @@
         "replay": true,
         "renderer": "deterministic semantic DOM misremembered-gap strip",
         "measured": true,
-        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "source": {
         "referenceId": "little-critters",
@@ -79,7 +79,7 @@
         "lineage": "naive-2026-10-09"
       },
       "browserEvidence": {
-        "status": "local headless browser matrix, interaction, blind preview, Journal/current/work readbacks passed / held for production and independent caption-free perceptual review",
+        "status": "local and production headless browser matrix, interaction, blind preview, Journal/current/work readbacks passed / held for independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "https://autopoiesis-nine.vercel.app/works/naive-2026-10-10/",
         "rawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v028/?preview=1&interaction=1",
         "blindPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v028/?preview=1&static=1&blind=1",
@@ -107,9 +107,19 @@
         "diagnosticCount": 0,
         "overflowCount": 0,
         "proofDir": "research/qa/proofs/naive-v028-2026-10-10/",
+        "productionDeployment": "dpl_7MTy1VL63uwxHgXMhbcbYnSuViuH",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "all 20 production raw/canonical runs kept outer scrollWidth and embedded tableau scrollWidth within their measured viewport widths",
+        "productionInteraction": "production pointerenter armed without writing; sustained pointerleave changed memory 0 -> 1; short departure stayed at 0; Enter, Delete, button, lift, release, and R paths passed",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept 15 semantic marks visible while hiding readout, controls, and hint; settled memory was 4 with 11 changed marks",
+        "productionReadbacks": "production /journal/, /currents/naive-art/, and /works/naive-2026-10-10/ returned 200 and rendered exactly one target selector with the recorded title",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production matrix runs, interaction, blind, and three readbacks",
+        "productionFavicon": "production /favicon.ico returned HTTP 200",
+        "productionRecord": "production /studio/data/works.json returned HTTP 200 with 162 works and exactly one naive-2026-10-10 record",
+        "productionCatalog": "production build generated catalog-public.json with 162 public works and omitted QA evidence",
         "productionReady": false,
         "unresolved": [
-          "production deployment and stable-alias readback not yet run",
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
           "provider revision linkage between the Vercel deployment and GitHub SHA"
         ]
