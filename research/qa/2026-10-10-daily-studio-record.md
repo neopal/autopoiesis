@@ -81,7 +81,7 @@ This is a schema anomaly, not an inferred lifecycle. Those records remain held a
 
 ## Blocked / next actions
 
-- Production deployment/readbacks completed at `https://autopoiesis-nine.vercel.app/` via deployment `dpl_CbAzaAL3SU9S1rn6fj9prUuEDaG6`; the evidence metadata update requires a follow-up commit/deploy.
+- Production deployment/readbacks completed at `https://autopoiesis-nine.vercel.app/` via deployment `dpl_AFWo5Nr4a3JkQkbrkpcjbsuEtMVw`; the production-evidence metadata update is committed as `533c2e80e6618358bfecfd5ffb87fff564361527` and pushed to `origin/main`.
 - Resolve the seven missing historical lifecycle fields through an explicit catalogue decision; do not infer them in a future audit.
 - The v029 candidate remains held pending independent caption-free perceptual comparison: does the blind field read as one radial sediment mass with consequential waiting, or an attractive radial chart?
 - Provider revision linkage between the eventual Vercel deployment and GitHub SHA remains unresolved; WebGPU remains dormant in the source register.
