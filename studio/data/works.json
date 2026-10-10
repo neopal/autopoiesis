@@ -40,7 +40,7 @@
         "replay": true,
         "renderer": "deterministic inline SVG aperture array",
         "measured": true,
-        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
       },
       "source": {
         "referenceId": "little-critters",
@@ -58,7 +58,7 @@
         "lineage": "svg-2026-10-09"
       },
       "browserEvidence": {
-        "status": "10/10 local raw browser runs passed across five viewports in normal and reduced-motion modes; pointer, keyboard, Delete, release, blind preview, responsive, and network readbacks observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "status": "10/10 local raw and 10/10 production raw/canonical browser runs passed across five viewports in normal and reduced-motion modes; pointer, keyboard, Delete, release, blind preview, responsive, and public readbacks observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "rawPreview": "/studies/pure-svg/v028/?preview=1&interaction=1",
         "blindPreview": "/studies/pure-svg/v028/?preview=1&static=1&blind=1",
         "viewportRuns": "10/10 local raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
@@ -73,7 +73,30 @@
         "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the 7-plate SVG array visible while hiding readout, controls, labels, and relay lines; no document overflow",
         "screenshotCount": 12,
         "evidenceFiles": "research/qa/proofs/pure-svg-v028-2026-10-10/local-results.json plus 12 PNG captures",
-        "unresolved": ["production browser matrix and public readback not yet observed", "independent caption-free perceptual comparison", "provider revision linkage between deployment and GitHub SHA"]
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_GBgLc8kzMid2dcLTc6Yooiqenjst",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/svg-2026-10-10/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v028/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v028/?preview=1&static=1&blind=1",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "all 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "productionTouchTargets": "all three production interaction buttons measured 44px high at 390x844",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 production raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
+        "productionInteraction": "production pointer movement armed with memory 0; pointerdown remained memory-neutral; pointerup committed memory 1 and changed source, target, and relay geometry; Enter committed; Delete restored the exact prior array; Escape/release returned to baseline",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the 7-plate SVG array visible while hiding readout, controls, labels, and relay lines; innerWidth 390, clientWidth 390, scrollWidth 390",
+        "productionPublicReadbacks": {
+          "worksJson": "HTTP 200; 160 total works; exactly one svg-2026-10-10 record with title and metrics",
+          "catalogJson": "HTTP 200; target id and title present",
+          "journal": "HTTP 200 browser render; #journal-svg-2026-10-10 present and title rendered",
+          "current": "HTTP 200 browser render; Pure SVG current and target card/title present",
+          "work": "HTTP 200 browser render; target title and v028 tableau present before editorial content",
+          "favicon": "HTTP 200 image/svg+xml"
+        },
+        "productionScreenshotCount": 22,
+        "productionProofDir": "research/qa/proofs/pure-svg-v028-2026-10-10-production/",
+        "screenshotCount": 12,
+        "evidenceFiles": "research/qa/proofs/pure-svg-v028-2026-10-10/local-results.json plus 12 PNG captures",
+        "unresolved": ["independent caption-free perceptual comparison", "provider revision linkage between deployment and GitHub SHA"]
       }
     },
     {
