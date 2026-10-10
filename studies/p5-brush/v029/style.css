@@ -1,0 +1,63 @@
+:root {
+  --sediment-night: #10161a;
+  --sediment-ink: #eee7d6;
+  --sediment-muted: #a8aaa0;
+  --sediment-rust: #df765f;
+  --sediment-gold: #d3af68;
+  --sediment-sage: #97b394;
+  --sediment-blue: #7f9daf;
+  --sediment-ochre: #c4925c;
+  --sediment-line: rgba(238, 231, 214, 0.17);
+}
+
+html, body { background: var(--sediment-night); color: var(--sediment-ink); }
+.sediment-shell {
+  min-height: 100vh;
+  background: radial-gradient(circle at 75% 18%, rgba(127, 157, 175, 0.12), transparent 28rem),
+    radial-gradient(circle at 15% 72%, rgba(223, 118, 95, 0.1), transparent 25rem), var(--sediment-night);
+}
+.sediment-main { width: min(1280px, calc(100% - 56px)); margin: 0 auto; padding: 18px 0 68px; }
+.sediment-work { margin: 0; border: 1px solid var(--sediment-line); background: rgba(8, 12, 14, 0.82); box-shadow: 0 30px 80px rgba(0, 0, 0, .38); }
+.sediment-field { position: relative; overflow: hidden; isolation: isolate; background: radial-gradient(ellipse at 50% 50%, rgba(100, 125, 99, .22), transparent 54%), linear-gradient(135deg, rgba(223, 118, 95, .05), transparent 40%, rgba(127, 157, 175, .08)), #0b1012; cursor: crosshair; touch-action: none; }
+.sediment-field::before, .sediment-field::after { position: absolute; z-index: 2; pointer-events: none; color: rgba(238, 231, 214, .4); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .16em; text-transform: uppercase; }
+.sediment-field::before { content: "sediment / 029"; top: 18px; left: 20px; }
+.sediment-field::after { content: "stillness is pressure"; right: 20px; bottom: 18px; writing-mode: vertical-rl; }
+#sediment-canvas { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 620; }
+.sediment-readout, .sediment-controls, .sediment-hint { position: absolute; z-index: 3; }
+.sediment-readout { top: 18px; right: 20px; display: flex; gap: 12px; color: rgba(238, 231, 214, .72); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.sediment-controls { left: 20px; bottom: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+.sediment-controls button { min-height: 44px; padding: 10px 14px; border: 1px solid rgba(151, 179, 148, .5); border-radius: 999px; background: rgba(16, 22, 26, .94); color: var(--sediment-ink); font: 11px/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; cursor: pointer; }
+.sediment-controls button:hover, .sediment-controls button:focus-visible { border-color: var(--sediment-sage); color: var(--sediment-sage); outline: none; }
+.sediment-hint { right: 20px; bottom: 23px; margin: 0; color: rgba(238, 231, 214, .5); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.sediment-opening { max-width: 760px; padding: 54px 7vw 42px; }
+.sediment-opening h1 { max-width: 780px; margin: 0; color: var(--sediment-ink); font-size: clamp(2.7rem, 7vw, 7.2rem); line-height: .87; letter-spacing: -.065em; }
+.sediment-opening h1 i { color: var(--sediment-rust); font-family: Georgia, 'Times New Roman', serif; font-weight: 400; letter-spacing: -.04em; }
+.sediment-lede { max-width: 35rem; margin: 26px 0 0; color: var(--sediment-muted); font-size: clamp(1rem, 1.5vw, 1.3rem); line-height: 1.35; }
+.sediment-work + .sediment-opening, .sediment-opening + .interaction-panel, .interaction-panel + .annotations { border-top: 1px solid var(--sediment-line); }
+.interaction-panel, .annotations { padding: 28px 7vw; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, .55fr); gap: 40px; }
+.interaction-copy, .interaction-state, .annotations dd { max-width: 50rem; color: var(--sediment-muted); font-size: .95rem; line-height: 1.55; }
+.interaction-state { margin: 0; color: var(--sediment-sage); }
+.annotations dl { display: grid; gap: 18px; margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; border-top: 1px solid rgba(238, 231, 214, .1); padding-top: 14px; }
+.annotations dt { color: var(--sediment-gold); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.annotations dd { margin: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode figcaption, html.preview-mode .sediment-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .sediment-main { width: 100%; padding: 0; }
+html.preview-mode .sediment-work { border: 0; box-shadow: none; }
+html.blind-mode .sediment-readout, html.blind-mode .sediment-controls, html.blind-mode .sediment-hint, html.blind-mode .sediment-field::before, html.blind-mode .sediment-field::after { display: none; }
+@media (prefers-reduced-motion: reduce) { #sediment-canvas { filter: saturate(.92); } }
+@media (max-width: 680px) {
+  .sediment-main { width: calc(100% - 24px); padding-top: 8px; }
+  .sediment-readout { top: 12px; right: 12px; flex-direction: column; align-items: flex-end; gap: 3px; font-size: 9px; }
+  .sediment-field::before { top: 14px; left: 12px; font-size: 9px; }
+  .sediment-field::after { right: 12px; bottom: 14px; font-size: 9px; }
+  .sediment-controls { left: 12px; right: 12px; bottom: 12px; }
+  .sediment-controls button { flex: 1 1 30%; padding-inline: 8px; font-size: 10px; }
+  .sediment-hint { display: none; }
+  .sediment-opening { padding: 34px 6vw 30px; }
+  .sediment-opening h1 { font-size: clamp(2.8rem, 15vw, 5rem); }
+  .interaction-panel { grid-template-columns: 1fr; gap: 16px; padding: 24px 6vw; }
+  .annotations { padding: 24px 6vw; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: 8px; }
+}

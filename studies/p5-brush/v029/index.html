@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10161a">
+  <title>MUTINE — The paint dries around the touch.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=029">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-10"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="sediment-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v029 / RADIAL-SEDIMENT</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="sediment-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v029</span></nav>
+
+      <figure class="sediment-work artwork-frame" aria-labelledby="work-title">
+        <div id="sediment-field" class="sediment-field" tabindex="0" role="application" aria-label="A radial mass of sediment tongues. Hold still over the field; leaving after the material has waited long enough commits a swell and a distant settling." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="sediment-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 dwells held</span></div>
+          <canvas id="sediment-canvas" width="1000" height="620" role="img" aria-label="A radial painted sediment mass made of eleven overlapping solid tongues"></canvas>
+          <div class="sediment-controls" aria-label="Brush actions">
+            <button id="dwell-control" data-gesture="dwell" type="button">let it settle</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release memory</button>
+          </div>
+          <p class="sediment-hint">hold still / release when the mass has waited</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v029-radial-sediment</span><span>wait &gt; swell &gt; settle</span></figcaption>
+      </figure>
+
+      <section class="sediment-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / STILLNESS AS PRESSURE / v029</p>
+        <h1 id="work-title">The paint dries<br><i>around the touch.</i></h1>
+        <p class="sediment-lede">The pointer is not a pen. Stay long enough and the material chooses one place to swell, another to settle, and a third to drift.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A HOLD, NOT A MARK</p>
+          <p class="interaction-copy">Hold still over the painted mass, then leave. A short visit evaporates without a trace. A long visit becomes a material event: one tongue gathers sediment, a distant tongue settles, and a third carries the drift. Later waits act on the changed mass; Delete or “lift latest” reconstructs the exact preceding body.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The sediment is still wet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v029</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the path. Stillness is now the force: the longer the visitor remains without drawing, the more material chooses a swell, a distant settling, and a drift in the radial mass.</dd></div>
+          <div><dt>visitor action</dt><dd>Hold still and release after the material has waited. Enter, Space, and the settling control use deterministic dwell events. Delete lifts only the latest dwell. R releases the bounded memory. S exports a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If a moving gesture commits, if only a timer or highlight changes, if the pointer selects the swelling tongue directly, or if later waits forget the changed mass, the material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v029 if labels-off and controls-off viewing reads as a generic radial chart, if solid geometry does not swell and settle, or if lifting the latest dwell fails to restore the exact preceding body.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-09/">previous daily work</a><a href="/journal/#journal-brush-2026-10-10">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=029"></script>
+</body>
+</html>

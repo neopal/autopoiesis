@@ -2,6 +2,109 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-10",
+      "currentId": "brush",
+      "date": "2026-10-10",
+      "title": "The paint dries around the touch.",
+      "rawPath": "/studies/p5-brush/v029/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-10",
+        "note": "v029 abandons v027's scrape, v028's mending route, and their moving pointer grammar. Eleven solid radial sediment tongues form one overlapping mass: a short visit evaporates, but stillness held long enough makes one tongue swell, a distant tongue settle, and a third drift. Four duration-weighted waits remain in bounded memory; lifting the latest reconstructs the exact preceding body."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "A long wait must change actual solid geometry at three non-local tongues: one swells, one settles, and one drifts. A timer, cursor ring, or state label cannot substitute."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and furniture hidden, the field must read as one radial sediment mass of overlapping solid tongues, not a wound chart, island population, slab, contour, or generic radial interface."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerdown only starts a clock; movement resets it; pointerup after a real held interval commits; short visits refuse. Enter, Space, and the settling control share the deterministic law; Delete restores the exact prior body and R releases bounded memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v029 changes representation and encounter: it leaves v027's population, v028's wound-bearing reservoir, and their moving drag paths for a radial mass whose causal gesture is stillness followed by departure."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated as material production and pressure, not appearance. No brush marks, watercolor, hatching, source palette, composition, examples, or API vocabulary are reproduced; duration becomes a new antagonist field."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v029 if the field is only an attractive radial chart, if movement or a direct location selects the swell, if the solid mass does not change at three positions, if later waits forget prior bodies, or if lifting is inexact."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v029-radial-sediment",
+        "visitorInput": true,
+        "seed": "0x42525549",
+        "stages": 13,
+        "tongueCount": 11,
+        "memoryWindow": 4,
+        "minimumDwellMs": 640,
+        "settledStage": 12,
+        "settledMemory": 4,
+        "primitiveBudget": 11,
+        "memoryRule": "a duration-weighted stillness event swells one solid tongue, settles a non-local tongue, and drifts a third; later waits inherit the changed radial mass",
+        "interactionRule": "pointerdown starts a waiting clock; movement resets it; pointerup after a long hold commits; short visits refuse; Enter, Space, and the settling control use deterministic dwells; Delete lifts latest; R releases",
+        "representationRupture": "detached pigment islands, wound reservoir, and compound apertures -> one radial sediment mass made of eleven overlapping solid tongues",
+        "encounterRupture": "freehand scrape and mending route -> hold still and leave; duration, not movement, is the causal input",
+        "temporalRupture": "fracture archive and topological debt -> waiting pressure redistributed across three non-local solid bodies",
+        "mediumRupture": "p5.js Canvas 2D and inline SVG -> deterministic Canvas 2D polygon mass with no path gesture retained",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D radial-sediment field",
+        "measured": true,
+        "promotion": "candidate / held pending independent caption-free perceptual review and provider revision linkage"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across five viewports in normal and reduced-motion modes; pointer hold/refusal, keyboard, Delete, release, blind preview, responsive, local Journal/current/work readbacks, and favicon observed; candidate held pending production deployment, independent caption-free perceptual review, and provider revision linkage",
+        "observedRoute": "http://127.0.0.1:4270/works/brush-2026-10-10/",
+        "rawPreview": "http://127.0.0.1:4270/studies/p5-brush/v029/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:4270/studies/p5-brush/v029/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v029 Canvas 2D radial-sediment field before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 local raw/canonical runs plus interaction, blind, Journal, current, work, and favicon readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 11 solid radial tongues, 0 dwells, and deterministic baseline geometry",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 12 with four bounded dwells, 11 tongues, and non-zero swell, settling, and drift counts",
+        "pointerInteraction": "a real pointerdown started a waiting clock with memory 0; immediate pointerup refused as too short; a real held pointerup committed memory 0 to 1 and changed the Canvas geometry",
+        "keyboardInteraction": "focused-field Enter committed a deterministic dwell, Delete restored the exact preceding mass, and R released to baseline",
+        "buttonInteraction": "let-it-settle changed memory from 0 to 1 and a second deterministic button dwell changed memory to 2; all three controls measured 44px high",
+        "releaseInteraction": "local R returned memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the Canvas radial-sediment field visible with 11 tongues while hiding readout, controls, and hint; innerWidth equaled clientWidth and scrollWidth",
+        "screenshotCount": 25,
+        "evidenceFiles": "research/qa/proofs/brush-v029-2026-10-10/results.json plus 25 PNG captures",
+        "productionReady": false,
+        "unresolved": [
+          "production deployment and public readbacks",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the Vercel deployment and GitHub SHA"
+        ]
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, grain, and directional fields participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Refuse the brush mark and make duration the pressure field. Stillness selects no tongue directly; material resistance chooses a swelling tongue, a distant settling tongue, and a third drift in the radial mass.",
+        "visibleConsequence": "The blind field is one overlapping radial sediment mass of eleven solid tongues. After a long wait, actual polygon bodies swell, settle, and drift at three non-local positions; later waits inherit those changed bodies.",
+        "falsifier": "If moving gesture commits; if the pointer directly selects the swelling tongue; if only a timer or readout changes; if the solid bodies do not change at three positions; if later waits restart from baseline; or if the blind field reads as a generic radial chart, the translation fails.",
+        "antiCopy": "No p5.brush brush, watercolor, hatching, source palette, source composition, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Brush's scrape / fracture / wound sequence and opens a stillness-as-pressure direction in which waiting, not marking, changes who carries the material."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and annotation-off comparison; delete v029 if the blind mass reads as a generic radial chart, movement commits, direct location selects the swell, the three solid changes are not visible, later waits forget prior bodies, or exact lifting fails.",
+        "lineage": "brush-2026-10-09"
+      }
+    },
+    {
       "id": "svg-2026-10-10",
       "currentId": "svg",
       "date": "2026-10-10",
