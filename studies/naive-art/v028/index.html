@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171827">
+  <title>MUTINE — The picture misremembers the gap.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=028">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-10"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="mishear-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v028 / MISREMEMBERED GAP</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="mishear-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v028</span></nav>
+
+      <section class="mishear-surface" aria-label="Naive misremembered-gap tableau">
+        <div class="notation-column">
+          <figure class="notation-work artwork-frame">
+            <div class="mishear-field" id="mishear-field" tabindex="0" role="application" aria-label="A three-line mark strip that remembers attention in the wrong place" aria-keyshortcuts="Tab Enter Space Delete R">
+              <div class="mishear-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-memory>0 retained</span><span data-status>look at a mark, then leave it</span></div>
+              <div class="score-stage" id="score-stage" aria-label="Three semantic lines of rough notation">
+                <div class="score-rule score-rule-a" aria-hidden="true"></div>
+                <div class="score-rule score-rule-b" aria-hidden="true"></div>
+                <div class="score-lines" id="score-lines"></div>
+                <div class="score-gap-marker" aria-hidden="true"></div>
+              </div>
+              <div class="mishear-controls" aria-label="Notation actions">
+                <button type="button" data-action="mishear">mishear the active mark</button>
+                <button type="button" data-action="lift">lift latest</button>
+                <button type="button" data-action="release">release the memory</button>
+              </div>
+              <p class="mishear-hint">hover a mark, wait, and leave it · a short look is refused · Enter repeats the active mishearing</p>
+            </div>
+            <figcaption><span>seed | mutine-naive-v028</span><span>look &gt; leave &gt; gap relocates</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>The picture is a three-line notation it cannot quite read. Attention does not make a portrait of the visitor; leaving one mark makes the strip move its gap and repeat that mark elsewhere.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if the misheard symbol and the moved blank are visible in the marks themselves, not supplied by the counter or the word “attention”.</p></div>
+          <div><span>progression</span><p>Look without writing, then leave. A short glance is refused. Lift one retained mistake, or release the bounded memory and return to the quiet strip.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V028 / DAILY WORK</p><h1 id="work-title">The picture misremembers <br><i>the gap.</i></h1></div>
+        <p class="work-premise">It sees one mark, loses another, and keeps the wrong absence where the visitor left.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v028 abandons v025's pressure body, v026's witness apertures, and v027's layered print. The medium becomes a semantic strip of marks: departure after a sustained look is the causal threshold, and the resulting absence, misheard symbol, and remote echo remain in bounded memory.</p></section>
+      <p class="work-loop">attention → departure → wrong mark → moved gap</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-09/">previous daily work</a><a href="/journal/#journal-naive-2026-10-10">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=028"></script>
+</body>
+</html>

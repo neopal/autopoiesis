@@ -2,6 +2,120 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-10-10",
+      "currentId": "naive",
+      "date": "2026-10-10",
+      "title": "The picture misremembers the gap.",
+      "rawPath": "/studies/naive-art/v028/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-10-10",
+        "note": "v028 abandons v025's pressure body, v026's witness apertures, and v027's layered print. Three semantic lines of marks now misremember attention: a sustained look followed by departure vacates one mark, repeats its glyph remotely, adds an echo, and moves the gap. Four observations remain in bounded memory; lifting the latest reconstructs the exact preceding strip."
+      },
+      "critiques": [
+        {
+          "persona": "Naive-form critic",
+          "argument": "The mistake must remain in the mark strip: a source mark must vacate, a remote mark must carry its old glyph, and a distinct echo plus moved gap must change the actual notation rather than merely annotate it."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and gap marker hidden, the first view should read as one three-line naive notation with uneven absences, not a chart, timeline, keyboard, or row of UI buttons."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerenter must arm without writing. Only a sustained look followed by pointerleave, the mishear control, Enter, or Space may commit; a short leave must be refused, Delete must restore the exact preceding strip, and R must release memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v028 must leave v025's pressure body, v026's witness field, and v027's print stack through semantic mark content, a linear three-line composition, and departure rather than explicit correction as the threshold."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated as situated attention and distributed response, not appearance. No animals, eyes, characters, source palette, paper scene, or look-back image may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v028 if hovering merely colours a token, if the button and departure are indistinguishable, if the gap remains fixed, if later observations forget earlier substitutions, or if the blind strip is an attractive data chart whose meaning depends on this caption."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v028-misremembered-gap",
+        "visitorInput": true,
+        "seed": "0x4e413238",
+        "stages": 5,
+        "markCount": 15,
+        "lineCount": 3,
+        "memoryWindow": 4,
+        "minimumLookMs": 420,
+        "settledStage": 4,
+        "settledMemory": 4,
+        "settledChangedMarkCount": 12,
+        "primitiveBudget": 15,
+        "memoryRule": "a sustained departure vacates one mark, repeats its glyph at a remote mark, adds an echo, and moves the gap; later observations inherit the changed strip",
+        "interactionRule": "pointerenter arms without writing; pointerleave after 420ms commits; short looks are refused; Enter and the mishear control share the deterministic event; Delete lifts latest; R releases",
+        "representationRupture": "pressure Canvas body, dispersed SVG witnesses, and clipped CSS plates -> semantic DOM mark strip made from ordered lines, glyph text, and stateful buttons",
+        "encounterRupture": "press, focus, or closed-loop commit -> situated look followed by departure as the causal threshold",
+        "temporalRupture": "global pressure, witness miscount, and registration debt -> a discrete error of reading in which absence migrates and later marks inherit the wrong glyph",
+        "mediumRupture": "p5.js Canvas 2D, inline SVG, and CSS clip-path layers -> semantic HTML lists with deterministic text and CSS transforms",
+        "replay": true,
+        "renderer": "deterministic semantic DOM misremembered-gap strip",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, production readback, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a dashboard operator.",
+        "translatedRule": "Refuse animals, eyes, characters, and the look-back scene. Translate situated attention into a naive act of reading: a mark is only observed while the visitor is near it, but departure makes the notation mishear that attention and distribute the mistake to a remote mark and a displaced gap.",
+        "visibleConsequence": "The blind first render is a three-line semantic mark strip. After a sustained leave, the source becomes a blank, a distant mark repeats the source glyph, an echo symbol appears elsewhere, and the gap migrates; later events inherit those changed marks.",
+        "falsifier": "If focus or pointer location writes history, if a short visit commits, if only the readout or colour changes, if the gap does not move in the marks, if later events restart from baseline, or if the blind strip reads as a generic chart, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, source composition, source code, or head-turning image is reproduced.",
+        "directionConsequence": "Closes Naive art's pressure/aperture/registration object sequence and opens an error-of-reading direction: discrete marks, departure as causality, semantic DOM as medium, and absence as a movable state."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and hint-off comparison; delete v028 if the blind strip cannot show the misheard glyph and relocated gap, if departure is indistinguishable from clicking, or if exact lifting fails.",
+        "lineage": "naive-2026-10-09"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix, interaction, blind preview, Journal/current/work readbacks passed / held for production and independent caption-free perceptual review",
+        "observedRoute": "https://autopoiesis-nine.vercel.app/works/naive-2026-10-10/",
+        "rawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v028/?preview=1&interaction=1",
+        "blindPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v028/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v028 semantic mark strip before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept outer scrollWidth and embedded tableau scrollWidth within their measured viewport widths",
+        "touchTargets": "local raw interaction controls measured at least 44px high at 390x844 (44, 44, 44px)",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local matrix runs, interaction, blind, and three readbacks",
+        "networkProbe": "0 failed requests and 0 HTTP 400+ responses across local raw/canonical matrix, interaction, blind, Journal, current, and canonical work readbacks",
+        "normalState": "local normal raw/canonical runs opened at stage 0 with 0 retained observations and 15 semantic marks",
+        "reducedMotionState": "local reduced-motion raw/canonical runs settled at stage 4 with 4 bounded observations and 11 changed marks",
+        "pointerInteraction": "local pointerenter armed without writing; sustained pointerleave changed memory 0 -> 1 and changed actual mark roles",
+        "shortLookInteraction": "local short departure kept memory at 0 and reported observation-refused-short",
+        "keyboardInteraction": "local focused mark Enter committed memory 0 -> 1; Delete restored memory 0 and the exact baseline signature",
+        "liftInteraction": "local lift button and Delete reconstructed the exact preceding semantic strip signature",
+        "buttonInteraction": "local mishear control committed memory 0 -> 1; lift returned memory to 0",
+        "releaseInteraction": "local release button and R returned memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept 15 semantic marks visible while hiding readout, controls, and hint; scrollWidth remained within 390px",
+        "journal": "local /journal/ rendered exactly one #journal-naive-2026-10-10 entry with the recorded title and canonical anchor",
+        "current": "local naive current rendered exactly one target artwork card and title without overflow",
+        "canonicalWork": "local canonical work rendered the target title, record mount, and embedded v028 tableau",
+        "favicon": "local routes loaded /studio/favicon.svg without a failed request",
+        "canvasCaptures": "25 local PNG captures written: 20 matrix runs, interaction, blind, Journal, current, and canonical work",
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "proofDir": "research/qa/proofs/naive-v028-2026-10-10/",
+        "productionReady": false,
+        "unresolved": [
+          "production deployment and stable-alias readback not yet run",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between the Vercel deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "brush-2026-10-10",
       "currentId": "brush",
       "date": "2026-10-10",
@@ -135,12 +249,30 @@
         "note": "v028 abandons v025's single open contour, v026's dispersed polygon constellation, and v027's horizontal slip strata. Seven standing SVG aperture plates form a sparse spatial instrument: attention only arms a plate, departure contracts its local opening, a distant plate receives the opening, and a third plate hinges by relay. Four departures remain in bounded memory; lifting the latest reconstructs the exact preceding array."
       },
       "critiques": [
-        {"persona":"Topology critic","argument":"The relation must live in actual compound SVG paths: one local aperture must contract, a distant aperture must enlarge, and a third plate must carry a real hinge change. A highlight, cursor, or readout cannot substitute."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, annotations, and furniture hidden, the first field should read as one spatial system of seven standing aperture bodies, not a line field, open contour, fragment constellation, strata chart, or generic UI panel grid. After departure, the three changed openings must be findable in the bodies."},
-        {"persona":"Interaction critic","argument":"Proximity and pointerdown may arm but must not write. Pointerup after a real held attention, Enter, Space, and the leave-the-plate control must share the departure law. Delete must reconstruct the exact preceding array; Escape and R must release bounded relay memory."},
-        {"persona":"Radical progression critic","argument":"v028 changes both representation and encounter: it leaves v025's single path, v026's autonomous fragments, and v027's continuous strata for seven large compound aperture bodies and a withdrawal-triggered opening transfer."},
-        {"persona":"Cultural critic","argument":"little-critters is translated from situated proximity and reciprocal attention into a non-figurative topology of openings. No animals, eyes, characters, paper scene, source palette, composition, code, or head-turning imagery may carry the relation."},
-        {"persona":"Cynic","argument":"Delete v028 if the field is only seven decorative panels, if proximity commits, if only the local opening changes, if the remote opening or hinge is cosmetic, if later departures forget altered apertures, or if the blind image requires the caption to distinguish it from an interface."}
+        {
+          "persona": "Topology critic",
+          "argument": "The relation must live in actual compound SVG paths: one local aperture must contract, a distant aperture must enlarge, and a third plate must carry a real hinge change. A highlight, cursor, or readout cannot substitute."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and furniture hidden, the first field should read as one spatial system of seven standing aperture bodies, not a line field, open contour, fragment constellation, strata chart, or generic UI panel grid. After departure, the three changed openings must be findable in the bodies."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Proximity and pointerdown may arm but must not write. Pointerup after a real held attention, Enter, Space, and the leave-the-plate control must share the departure law. Delete must reconstruct the exact preceding array; Escape and R must release bounded relay memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v028 changes both representation and encounter: it leaves v025's single path, v026's autonomous fragments, and v027's continuous strata for seven large compound aperture bodies and a withdrawal-triggered opening transfer."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated proximity and reciprocal attention into a non-figurative topology of openings. No animals, eyes, characters, paper scene, source palette, composition, code, or head-turning imagery may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v028 if the field is only seven decorative panels, if proximity commits, if only the local opening changes, if the remote opening or hinge is cosmetic, if later departures forget altered apertures, or if the blind image requires the caption to distinguish it from an interface."
+        }
       ],
       "metrics": {
         "id": "pure-svg-v028-aperture-array",
@@ -198,13 +330,12 @@
         "productionDeployment": "dpl_BPEZNDTCayNn5GrdtgnJeEmzV7Q7",
         "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/svg-2026-10-10/",
         "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v028/?preview=1&interaction=1",
-        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v028/?preview=1&static=1&blind=1",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the 7-plate SVG array visible while hiding readout, controls, labels, and relay lines; innerWidth 390, clientWidth 390, scrollWidth 390",
         "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "productionOverflow": "all 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
         "productionTouchTargets": "all three production interaction buttons measured 44px high at 390x844",
         "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 production raw/canonical runs plus interaction, blind, Journal, current, and work readbacks",
         "productionInteraction": "production pointer movement armed with memory 0; pointerdown remained memory-neutral; pointerup committed memory 1 and changed source, target, and relay geometry; Enter committed; Delete restored the exact prior array; Escape/release returned to baseline",
-        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the 7-plate SVG array visible while hiding readout, controls, labels, and relay lines; innerWidth 390, clientWidth 390, scrollWidth 390",
         "productionPublicReadbacks": {
           "worksJson": "HTTP 200; 160 total works; exactly one svg-2026-10-10 record with title and metrics",
           "catalogJson": "HTTP 200; target id and title present",
@@ -215,9 +346,10 @@
         },
         "productionScreenshotCount": 22,
         "productionProofDir": "research/qa/proofs/pure-svg-v028-2026-10-10-production/",
-        "screenshotCount": 12,
-        "evidenceFiles": "research/qa/proofs/pure-svg-v028-2026-10-10/local-results.json plus 12 PNG captures",
-        "unresolved": ["independent caption-free perceptual comparison", "provider revision linkage between deployment and GitHub SHA"]
+        "unresolved": [
+          "independent caption-free perceptual comparison",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       }
     },
     {
@@ -233,68 +365,87 @@
         "note": "v026 abandons v023's browser-native reading fold, v024's elastic Canvas sentence, and v025's distributed refusal plate. Seven custom letter-routes stand as extruded WebGL line sculptures in a shallow depth rack: proximity arms a route without writing, withdrawal contracts one local segment, and a non-local route receives the spare. Four departures remain in bounded custody memory; lifting the latest reconstructs the exact preceding rack."
       },
       "critiques": [
-        {"persona":"Route-material critic","argument":"The departure must live in the route bodies: the local letter must contract an actual segment and the remote letter must acquire an actual segment. A bright line, cursor, or status readout cannot substitute for changed route geometry."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, captions, and furniture hidden, the first field should read as one sparse three-dimensional rack of routed letter bodies, not a refusal plate, sentence corridor, word-card grid, or decorative 2D text field. After departure, the local gap and remote spare must be findable in the bodies themselves."},
-        {"persona":"Interaction critic","argument":"Proximity must remain memory-neutral. Only a real withdrawal across the threshold, the deterministic action, Enter, or Space commits; Delete restores the exact preceding rack and R releases bounded custody."},
-        {"persona":"Radical progression critic","argument":"v026 changes representation to custom routed letter skeletons, medium to p5.js WEBGL, and encounter to approach/withdrawal. The rupture must be visible in code, input, depth composition, and the changed local/remote geometry."},
-        {"persona":"Cultural critic","argument":"little-critters is translated from situated attention into non-local typographic custody. No animals, eyes, paper setting, head-turning image, source palette, composition, code, or API surface may carry the relation."}
+        {
+          "persona": "Route-material critic",
+          "argument": "The departure must live in the route bodies: the local letter must contract an actual segment and the remote letter must acquire an actual segment. A bright line, cursor, or status readout cannot substitute for changed route geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, captions, and furniture hidden, the first field should read as one sparse three-dimensional rack of routed letter bodies, not a refusal plate, sentence corridor, word-card grid, or decorative 2D text field. After departure, the local gap and remote spare must be findable in the bodies themselves."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Proximity must remain memory-neutral. Only a real withdrawal across the threshold, the deterministic action, Enter, or Space commits; Delete restores the exact preceding rack and R releases bounded custody."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v026 changes representation to custom routed letter skeletons, medium to p5.js WEBGL, and encounter to approach/withdrawal. The rupture must be visible in code, input, depth composition, and the changed local/remote geometry."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated attention into non-local typographic custody. No animals, eyes, paper setting, head-turning image, source palette, composition, code, or API surface may carry the relation."
+        }
       ],
       "metrics": {
-        "id":"handwriting-v026-route-rack",
-        "seed":"0x48574926",
-        "visitorInput":true,
-        "stages":13,
-        "glyphCount":7,
-        "routeSegmentCount":42,
-        "memoryWindow":4,
-        "settledStage":12,
-        "settledMemory":4,
-        "settledDepartureCount":4,
-        "primitiveBudget":72,
-        "memoryRule":"a withdrawn route contracts one local segment and transfers a spare segment to a non-local route; later departures inherit the custody",
-        "interactionRule":"proximity only arms; pointer withdrawal across the threshold, Enter, Space, or the route action commits one bounded departure; Delete lifts the latest; R releases the rack",
-        "representationRupture":"browser-native clauses, elastic Canvas sentence, and refusal plate -> seven extruded letter-routes in a depth rack",
-        "encounterRupture":"typed offer, point pressure, and reading reversal -> approach and withdrawal, with departure as the causal event",
-        "temporalRupture":"refusal grammar and pressure resistance -> bounded distributed custody of route segments",
-        "mediumRupture":"semantic DOM, p5 Canvas 2D, semantic DOM -> p5.js 1.11.3 WEBGL route sculpture",
-        "replay":true,
-        "renderer":"deterministic p5.js 1.11.3 WEBGL route rack",
-        "measured":true,
-        "promotion":"candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+        "id": "handwriting-v026-route-rack",
+        "seed": "0x48574926",
+        "visitorInput": true,
+        "stages": 13,
+        "glyphCount": 7,
+        "routeSegmentCount": 42,
+        "memoryWindow": 4,
+        "settledStage": 12,
+        "settledMemory": 4,
+        "settledDepartureCount": 4,
+        "primitiveBudget": 72,
+        "memoryRule": "a withdrawn route contracts one local segment and transfers a spare segment to a non-local route; later departures inherit the custody",
+        "interactionRule": "proximity only arms; pointer withdrawal across the threshold, Enter, Space, or the route action commits one bounded departure; Delete lifts the latest; R releases the rack",
+        "representationRupture": "browser-native clauses, elastic Canvas sentence, and refusal plate -> seven extruded letter-routes in a depth rack",
+        "encounterRupture": "typed offer, point pressure, and reading reversal -> approach and withdrawal, with departure as the causal event",
+        "temporalRupture": "refusal grammar and pressure resistance -> bounded distributed custody of route segments",
+        "mediumRupture": "semantic DOM, p5 Canvas 2D, semantic DOM -> p5.js 1.11.3 WEBGL route sculpture",
+        "replay": true,
+        "renderer": "deterministic p5.js 1.11.3 WEBGL route rack",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
       },
       "source": {
-        "referenceId":"little-critters",
-        "title":"little-critters",
-        "url":"https://github.com/GordenSun/little-critters",
-        "observedMechanism":"Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
-        "translatedRule":"Refuse animals, eyes, head-turning imagery, and the source scene. Translate reciprocity into handwriting's own question: a route can notice the visitor, but it cannot answer locally. Only withdrawal makes the route surrender a spare segment to a non-local route, whose geometry then carries that custody forward.",
-        "visibleConsequence":"The first blind view is a sparse three-dimensional rack of seven letter-routes with actual depth and extrusion. Nearness alone leaves the geometry exact. After withdrawal, the local route has a contracted segment and the remote route has an added route segment; later departures inherit a changed rack.",
-        "falsifier":"If proximity commits, if withdrawal only changes colour or a glow, if the local gap and remote custody are overlays rather than route geometry, if the reply is local, if later departures forget custody, or if the blind field reads as another text plate or card field, the translation fails.",
-        "antiCopy":"No animals, eyes, paper scene, character designs, source palette, source composition, code, API surface, or head-turning imagery is reproduced.",
-        "directionConsequence":"Closes the pressure / refusal / reading-corridor family and opens a depth-and-custody direction in which handwriting is a set of routed letter bodies that can relinquish material across distance. It forces a new medium and leaves the stable 2D typographic plate behind."
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, head-turning imagery, and the source scene. Translate reciprocity into handwriting's own question: a route can notice the visitor, but it cannot answer locally. Only withdrawal makes the route surrender a spare segment to a non-local route, whose geometry then carries that custody forward.",
+        "visibleConsequence": "The first blind view is a sparse three-dimensional rack of seven letter-routes with actual depth and extrusion. Nearness alone leaves the geometry exact. After withdrawal, the local route has a contracted segment and the remote route has an added route segment; later departures inherit a changed rack.",
+        "falsifier": "If proximity commits, if withdrawal only changes colour or a glow, if the local gap and remote custody are overlays rather than route geometry, if the reply is local, if later departures forget custody, or if the blind field reads as another text plate or card field, the translation fails.",
+        "antiCopy": "No animals, eyes, paper scene, character designs, source palette, source composition, code, API surface, or head-turning imagery is reproduced.",
+        "directionConsequence": "Closes the pressure / refusal / reading-corridor family and opens a depth-and-custody direction in which handwriting is a set of routed letter bodies that can relinquish material across distance. It forces a new medium and leaves the stable 2D typographic plate behind."
       },
       "decision": {
-        "nextMutation":"Run labels-off, readout-off, controls-off, and hint-off comparison; delete v026 if proximity writes, if withdrawal only brightens a route, if the local gap and remote custody are not visible in route geometry, if replies are local, if later departures forget custody, or if exact lifting fails.",
-        "lineage":"typography-2026-10-08"
+        "nextMutation": "Run labels-off, readout-off, controls-off, and hint-off comparison; delete v026 if proximity writes, if withdrawal only brightens a route, if the local gap and remote custody are not visible in route geometry, if replies are local, if later departures forget custody, or if exact lifting fails.",
+        "lineage": "typography-2026-10-08"
       },
       "browserEvidence": {
-        "status":"10/10 local raw browser runs passed across five viewports in normal and reduced-motion modes; pointer, keyboard, Delete, release, blind preview, responsive, canvas, and network readbacks observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
-        "rawPreview":"/studies/handwriting/v026/?preview=1&interaction=1",
-        "blindPreview":"/studies/handwriting/v026/?preview=1&static=1&blind=1",
-        "viewportRuns":"10/10 local raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
-        "overflow":"all 10 local raw runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
-        "touchTargets":"all three local interaction buttons measured 44px high at 390x844",
-        "initialDiagnostics":"0 console messages, page errors, failed requests, or HTTP 400+ responses across the local matrix",
-        "normalState":"normal-motion local raw runs opened at stage 00 with 0 departures and 0 custody",
-        "reducedMotionState":"reduced-motion local raw runs opened at stage 00 with 0 departures and 0 custody without animation race",
-        "pointerInteraction":"a real pointer move armed glyph 2 with memory 0; withdrawing to glyph 5 committed one departure and changed route geometry",
-        "keyboardInteraction":"focused route rack Enter committed a second departure, changing memory from 1 to 2",
-        "liftInteraction":"Delete restored memory from 2 to 1 and the exact preceding post-pointer geometry signature",
-        "releaseInteraction":"release rack returned memory from 1 to 0 and the exact baseline geometry signature",
-        "staticBlindPreview":"local reduced-motion static blind preview at 390x844 kept the WebGL canvas visible while hiding readout, controls, and hint; no document overflow",
-        "screenshotCount":11,
-        "evidenceFiles":"research/qa/proofs/typography-v026-2026-10-10/results.json plus 11 PNG captures",
-        "unresolved":["production browser matrix and public readback not yet observed","independent caption-free perceptual comparison","provider revision linkage between deployment and GitHub SHA"]
+        "status": "10/10 local raw browser runs passed across five viewports in normal and reduced-motion modes; pointer, keyboard, Delete, release, blind preview, responsive, canvas, and network readbacks observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "rawPreview": "/studies/handwriting/v026/?preview=1&interaction=1",
+        "blindPreview": "/studies/handwriting/v026/?preview=1&static=1&blind=1",
+        "viewportRuns": "10/10 local raw runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 10 local raw runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the local matrix",
+        "normalState": "normal-motion local raw runs opened at stage 00 with 0 departures and 0 custody",
+        "reducedMotionState": "reduced-motion local raw runs opened at stage 00 with 0 departures and 0 custody without animation race",
+        "pointerInteraction": "a real pointer move armed glyph 2 with memory 0; withdrawing to glyph 5 committed one departure and changed route geometry",
+        "keyboardInteraction": "focused route rack Enter committed a second departure, changing memory from 1 to 2",
+        "liftInteraction": "Delete restored memory from 2 to 1 and the exact preceding post-pointer geometry signature",
+        "releaseInteraction": "release rack returned memory from 1 to 0 and the exact baseline geometry signature",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the WebGL canvas visible while hiding readout, controls, and hint; no document overflow",
+        "screenshotCount": 11,
+        "evidenceFiles": "research/qa/proofs/typography-v026-2026-10-10/results.json plus 11 PNG captures",
+        "unresolved": [
+          "production browser matrix and public readback not yet observed",
+          "independent caption-free perceptual comparison",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       }
     },
     {
@@ -310,77 +461,95 @@
         "note": "v026 abandons v023's continuous membrane, v024's vertical loop procession, and v025's spatial crown. One pale typographic register holds six rows of interrupted record bars: a first witness only arms, a second non-local witness seals the pair, the source loses a real section, the target replies by shifting its break, and the corridor between them is re-set. Four pairs remain in bounded memory; lifting the latest reconstructs the exact preceding register."
       },
       "critiques": [
-        {"persona":"Document-material critic","argument":"The relation must live in record geometry: the source needs actual missing segments, the target needs an actual shifted break, and the corridor needs changed offsets. A highlight, line overlay, or counter cannot substitute for a re-set register."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, captions, and furniture hidden, the first field should read as one printed register with interruptions and asymmetrical spacing, not a node lattice, loop procession, membrane, radial crown, or decorative bar grid. After a pair, the excision and reply must be findable in the bars themselves."},
-        {"persona":"Interaction critic","argument":"A first tap must remain memory-neutral. Only a second non-local witness seals the pair; same-place taps are refused; Delete restores the exact preceding register and R releases bounded memory."},
-        {"persona":"Cultural critic","argument":"The p5.brush mechanism is translated from pressure and directional fields into a document-production rule. No brush, watercolor, hatching, source palette, or API surface vocabulary may carry the relation."},
-        {"persona":"Cynic","argument":"Delete v026 if the sheet is only a decorative bar grid, if source and target changes are cosmetic, if the corridor ignores the pair, if a first tap commits, if lifting is inexact, or if the caption is required to see that the crowd has become an archive of contested registration."}
+        {
+          "persona": "Document-material critic",
+          "argument": "The relation must live in record geometry: the source needs actual missing segments, the target needs an actual shifted break, and the corridor needs changed offsets. A highlight, line overlay, or counter cannot substitute for a re-set register."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, captions, and furniture hidden, the first field should read as one printed register with interruptions and asymmetrical spacing, not a node lattice, loop procession, membrane, radial crown, or decorative bar grid. After a pair, the excision and reply must be findable in the bars themselves."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A first tap must remain memory-neutral. Only a second non-local witness seals the pair; same-place taps are refused; Delete restores the exact preceding register and R releases bounded memory."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "The p5.brush mechanism is translated from pressure and directional fields into a document-production rule. No brush, watercolor, hatching, source palette, or API surface vocabulary may carry the relation."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v026 if the sheet is only a decorative bar grid, if source and target changes are cosmetic, if the corridor ignores the pair, if a first tap commits, if lifting is inexact, or if the caption is required to see that the crowd has become an archive of contested registration."
+        }
       ],
       "metrics": {
-        "id":"webgpu-v026-witness-register",
-        "visitorInput":true,
-        "seed":"0x57473236",
-        "stages":13,
-        "rowCount":6,
-        "slotCount":7,
-        "entryCount":42,
-        "memoryWindow":4,
-        "settledStage":12,
-        "settledMemory":4,
-        "primitiveBudget":54,
-        "memoryRule":"a two-place witness pair excises one record, shifts a non-local reply, and re-sets the corridor between them; later pairs inherit the altered register",
-        "interactionRule":"the first pointer or keyboard witness only arms; a second non-local witness commits one bounded pair; same-place taps are refused; Delete lifts the latest; Escape or R releases",
-        "representationRupture":"solid body, vertical loops, and spatial crown -> one pale typographic register of interrupted bars and actual missing intervals",
-        "encounterRupture":"token seal, measured hold, and immediate address -> two-place handshake where a first witness is not causal until answered",
-        "temporalRupture":"cavity vacancy, downstream delay, and compounded shear -> bounded pair memory that re-typesets absence and reply across a document",
-        "mediumRupture":"Canvas 3D solids and loop/mesh projections -> browser-native typographic Canvas register with optional WebGPU paper veil",
-        "replay":true,
-        "renderer":"WebGPU witness register with Canvas typographic fallback",
-        "webgpuReadyCheck":true,
-        "measured":true,
-        "promotion":"candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+        "id": "webgpu-v026-witness-register",
+        "visitorInput": true,
+        "seed": "0x57473236",
+        "stages": 13,
+        "rowCount": 6,
+        "slotCount": 7,
+        "entryCount": 42,
+        "memoryWindow": 4,
+        "settledStage": 12,
+        "settledMemory": 4,
+        "primitiveBudget": 54,
+        "memoryRule": "a two-place witness pair excises one record, shifts a non-local reply, and re-sets the corridor between them; later pairs inherit the altered register",
+        "interactionRule": "the first pointer or keyboard witness only arms; a second non-local witness commits one bounded pair; same-place taps are refused; Delete lifts the latest; Escape or R releases",
+        "representationRupture": "solid body, vertical loops, and spatial crown -> one pale typographic register of interrupted bars and actual missing intervals",
+        "encounterRupture": "token seal, measured hold, and immediate address -> two-place handshake where a first witness is not causal until answered",
+        "temporalRupture": "cavity vacancy, downstream delay, and compounded shear -> bounded pair memory that re-typesets absence and reply across a document",
+        "mediumRupture": "Canvas 3D solids and loop/mesh projections -> browser-native typographic Canvas register with optional WebGPU paper veil",
+        "replay": true,
+        "renderer": "WebGPU witness register with Canvas typographic fallback",
+        "webgpuReadyCheck": true,
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
       },
       "browserEvidence": {
-        "status":"20/20 local and 20/20 production raw/canonical browser runs passed; interaction, blind, Journal, current, work, favicon, responsive, and network readbacks observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
-        "rawPreview":"/studies/webgpu/v026/?preview=1&interaction=1",
-        "blindPreview":"/studies/webgpu/v026/?preview=1&static=1&blind=1",
-        "viewportRuns":"20/20 local and 20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
-        "overflow":"all local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
-        "touchTargets":"all three local interaction buttons measured 44px high at 390x844",
-        "initialConsoleProbe":"0 console messages, page errors, failed requests, or HTTP 400+ responses across local and production matrices, interaction, blind, Journal, current, work, and favicon readbacks",
-        "normalState":"normal-motion raw/canonical runs opened at stage 00 with 0 pairs and 0 excisions",
-        "reducedMotionState":"reduced-motion raw/canonical runs settled at stage 12 with 4 pairs, 4 excisions, 4 replies, and 35 corridor bridges",
-        "pointerInteraction":"a first pointer tap armed a slot while memory remained 0 and the exact baseline signature remained; a second non-local tap changed memory from 0 to 1 and changed register geometry",
-        "samePlaceInteraction":"same-place pair was refused without changing memory",
-        "keyboardInteraction":"Enter armed the selected witness; ArrowDown plus Enter committed a pair; Delete restored memory 0 and the exact baseline signature",
-        "liftInteraction":"Delete after the real pair restored the exact preceding register signature",
-        "buttonInteraction":"pair witnesses changed memory from 0 to 1; all three controls measured 44px high",
-        "releaseInteraction":"release register returned memory to 0",
-        "staticBlindPreview":"local reduced-motion static blind preview at 390x844 kept the register canvas visible while hiding readout, status, controls, and caption; no document overflow",
-        "journal":"local Journal readback rendered #journal-webgpu-2026-10-09",
-        "current":"local WebGPU current readback rendered the webgpu-2026-10-09 artwork card",
-        "work":"local canonical work readback rendered the title and v026 tableau mount",
-        "productionStatus":"READY",
-        "productionAlias":"https://autopoiesis-nine.vercel.app/",
-        "productionReadback":"production browser probe passed 20/20 raw/canonical runs, interaction, blind, Journal, current, work, favicon, overflow, touch-target, console, page-error, failed-request, and HTTP-status checks",
-        "screenshotCount":25,
-        "evidenceFiles":"research/qa/proofs/webgpu-v026-2026-10-09/summary.json plus 25 PNG captures",
-        "unresolved":["independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden","provider revision linkage between deployment and GitHub SHA"]
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed; interaction, blind, Journal, current, work, favicon, responsive, and network readbacks observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
+        "rawPreview": "/studies/webgpu/v026/?preview=1&interaction=1",
+        "blindPreview": "/studies/webgpu/v026/?preview=1&static=1&blind=1",
+        "viewportRuns": "20/20 local and 20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialConsoleProbe": "0 console messages, page errors, failed requests, or HTTP 400+ responses across local and production matrices, interaction, blind, Journal, current, work, and favicon readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 0 pairs and 0 excisions",
+        "reducedMotionState": "reduced-motion raw/canonical runs settled at stage 12 with 4 pairs, 4 excisions, 4 replies, and 35 corridor bridges",
+        "pointerInteraction": "a first pointer tap armed a slot while memory remained 0 and the exact baseline signature remained; a second non-local tap changed memory from 0 to 1 and changed register geometry",
+        "samePlaceInteraction": "same-place pair was refused without changing memory",
+        "keyboardInteraction": "Enter armed the selected witness; ArrowDown plus Enter committed a pair; Delete restored memory 0 and the exact baseline signature",
+        "liftInteraction": "Delete after the real pair restored the exact preceding register signature",
+        "buttonInteraction": "pair witnesses changed memory from 0 to 1; all three controls measured 44px high",
+        "releaseInteraction": "release register returned memory to 0",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the register canvas visible while hiding readout, status, controls, and caption; no document overflow",
+        "journal": "local Journal readback rendered #journal-webgpu-2026-10-09",
+        "current": "local WebGPU current readback rendered the webgpu-2026-10-09 artwork card",
+        "work": "local canonical work readback rendered the title and v026 tableau mount",
+        "productionStatus": "READY",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionReadback": "production browser probe passed 20/20 raw/canonical runs, interaction, blind, Journal, current, work, favicon, overflow, touch-target, console, page-error, failed-request, and HTTP-status checks",
+        "screenshotCount": 25,
+        "evidenceFiles": "research/qa/proofs/webgpu-v026-2026-10-09/summary.json plus 25 PNG captures",
+        "unresolved": [
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       },
       "source": {
-        "referenceId":"p5-brush",
-        "title":"p5.brush",
-        "url":"https://github.com/acamposuribe/p5.brush",
-        "observedMechanism":"Pressure, density, grain, and directional fields participate in producing geometry rather than decorating finished geometry.",
-        "translatedRule":"Invert p5.brush's immediate local production rule. Refuse brushes, marks, watercolor, hatching, and the source surface; defer pressure until a second non-local place answers the first witness by excising a record, shifting a reply, and re-setting the corridor in the register.",
-        "visibleConsequence":"One tap remains memory-neutral; a non-local pair changes actual record segments at both ends and actual offsets in the corridor; four pairs compound and can be lifted exactly.",
-        "falsifier":"If a first tap writes history, if a pair only changes colour or a readout, if the source gap and target reply are cosmetic overlays rather than missing record segments, if the corridor does not inherit the pair, if Delete cannot restore the exact prior register, or if the blind image reads as a generic bar grid, the translation fails.",
-        "antiCopy":"No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, examples, or API surface is reproduced.",
-        "directionConsequence":"Closes the WebGPU current's solid-body / loop / membrane family and opens a document-computation direction where material agency is held as contested registration and absence."
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Pressure, density, grain, and directional fields participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Invert p5.brush's immediate local production rule. Refuse brushes, marks, watercolor, hatching, and the source surface; defer pressure until a second non-local place answers the first witness by excising a record, shifting a reply, and re-setting the corridor in the register.",
+        "visibleConsequence": "One tap remains memory-neutral; a non-local pair changes actual record segments at both ends and actual offsets in the corridor; four pairs compound and can be lifted exactly.",
+        "falsifier": "If a first tap writes history, if a pair only changes colour or a readout, if the source gap and target reply are cosmetic overlays rather than missing record segments, if the corridor does not inherit the pair, if Delete cannot restore the exact prior register, or if the blind image reads as a generic bar grid, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, examples, or API surface is reproduced.",
+        "directionConsequence": "Closes the WebGPU current's solid-body / loop / membrane family and opens a document-computation direction where material agency is held as contested registration and absence."
       },
       "decision": {
-        "nextMutation":"Run labels-off, controls-off, readout-off comparison; delete v026 if viewers cannot find an actual source excision and displaced reply after the first pair, if a first tap commits, or if the corridor does not inherit the pair.",
-        "lineage":"webgpu-2026-10-08"
+        "nextMutation": "Run labels-off, controls-off, readout-off comparison; delete v026 if viewers cannot find an actual source excision and displaced reply after the first pair, if a first tap commits, or if the corridor does not inherit the pair.",
+        "lineage": "webgpu-2026-10-08"
       }
     },
     {
@@ -396,12 +565,30 @@
         "note": "v027 abandons v024's plane theatre, v025's pressure sheet, and v026's witness apertures. One DOM/CSS registration object holds eight layered ink plates: only a long return loop commits, and the correction drifts the whole print while widening a non-local void. Four corrections remain in bounded memory; lifting the latest reconstructs the exact preceding print."
       },
       "critiques": [
-        {"persona":"Material critic","argument":"The correction must live in actual CSS clip paths and transforms across the layered print, not in a route line or cursor scar."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, and furniture hidden, the field must read as one oversized misregistered print object with a displaced opening, not a card stack, chart, route, theatre, or polygon population."},
-        {"persona":"Interaction critic","argument":"Pointerdown arms without writing; open and short loops are refused; only a long return loop, the correction control, Enter, or Space commits. Delete restores the exact preceding print and R releases memory."},
-        {"persona":"Radical progression critic","argument":"v027 changes medium to DOM/CSS, representation to one registration object, and encounter to a closure-based loop whose material debt shifts every plate."},
-        {"persona":"Cultural critic","argument":"p5.brush is translated as material production and memory, not appearance; no brush marks, watercolor, hatching, source palette, examples, or API vocabulary is reproduced."},
-        {"persona":"Cynic","argument":"Delete v027 if looping is indistinguishable from clicking, if the endpoint directly selects the seam, if only decoration changes, if the remote void is cosmetic, if later corrections forget drift, or if the blind field is a stack of cards."}
+        {
+          "persona": "Material critic",
+          "argument": "The correction must live in actual CSS clip paths and transforms across the layered print, not in a route line or cursor scar."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and furniture hidden, the field must read as one oversized misregistered print object with a displaced opening, not a card stack, chart, route, theatre, or polygon population."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerdown arms without writing; open and short loops are refused; only a long return loop, the correction control, Enter, or Space commits. Delete restores the exact preceding print and R releases memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v027 changes medium to DOM/CSS, representation to one registration object, and encounter to a closure-based loop whose material debt shifts every plate."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated as material production and memory, not appearance; no brush marks, watercolor, hatching, source palette, examples, or API vocabulary is reproduced."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v027 if looping is indistinguishable from clicking, if the endpoint directly selects the seam, if only decoration changes, if the remote void is cosmetic, if later corrections forget drift, or if the blind field is a stack of cards."
+        }
       ],
       "metrics": {
         "id": "naive-art-v027-wrong-registration",
@@ -489,12 +676,30 @@
         "note": "v028 inverts v027's fracture-return. One continuous SVG reservoir carries nine actual wound apertures: a freehand mend offers a route, but material resistance chooses which wound can seal, and the missing edge reappears as a non-local opening. Four mends remain in bounded topology memory; lifting the latest reconstructs the exact preceding wounds."
       },
       "critiques": [
-        {"persona":"Topology critic","argument":"The wounds must be actual holes in compound SVG paths; a seal must contract one aperture and a non-local relay must enlarge another."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, annotations, and furniture hidden, the field must read as one continuous wound-bearing reservoir, not detached islands, a slab, a membrane, or a contour chart."},
-        {"persona":"Interaction critic","argument":"Pointerdown may arm but must not write. Drag-release, button, Enter, and Space must share the mend law; Delete reconstructs the exact preceding topology and R releases memory."},
-        {"persona":"Radical progression critic","argument":"v028 changes medium to semantic SVG, representation to one wound-bearing reservoir, and encounter to mending with non-local topological debt."},
-        {"persona":"Cultural critic","argument":"p5.brush is translated as material production and resistance, not appearance; no brush, watercolor, hatch, palette, composition, example, or API vocabulary is reproduced."},
-        {"persona":"Cynic","argument":"Delete v028 if the pointer directly selects the wound, if only decoration changes, if closure does not open another path hole, if later mends forget topology, or if the blind field is an attractive contour chart."}
+        {
+          "persona": "Topology critic",
+          "argument": "The wounds must be actual holes in compound SVG paths; a seal must contract one aperture and a non-local relay must enlarge another."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and furniture hidden, the field must read as one continuous wound-bearing reservoir, not detached islands, a slab, a membrane, or a contour chart."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerdown may arm but must not write. Drag-release, button, Enter, and Space must share the mend law; Delete reconstructs the exact preceding topology and R releases memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v028 changes medium to semantic SVG, representation to one wound-bearing reservoir, and encounter to mending with non-local topological debt."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated as material production and resistance, not appearance; no brush, watercolor, hatch, palette, composition, example, or API vocabulary is reproduced."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v028 if the pointer directly selects the wound, if only decoration changes, if closure does not open another path hole, if later mends forget topology, or if the blind field is an attractive contour chart."
+        }
       ],
       "metrics": {
         "id": "p5-brush-v028-mending-reservoir",
@@ -555,12 +760,11 @@
         "productionDeployment": "dpl_5pHcKQK2iCnPCEyFt76zhoxy3xv5",
         "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/brush-2026-10-09/",
         "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v028/?preview=1&interaction=1",
-        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v028/?preview=1&static=1&blind=1",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the SVG field and nine wound paths visible with readout, controls, and hint hidden; innerWidth equaled clientWidth and scrollWidth",
         "productionProofDir": "research/qa/proofs/brush-v028-2026-10-09-production/",
         "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across all 20 production raw/canonical runs plus interaction, blind, Journal, current, work, and favicon readbacks",
         "productionInteraction": "production pointerdown armed without changing memory; pointerup after a real drag committed memory 0 to 1; repeated drag was refused; second drag committed memory 2; Delete restored the exact first signature; R, Enter, and the mend control completed; controls measured 44px",
-        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the SVG field and nine wound paths visible with readout, controls, and hint hidden; innerWidth equaled clientWidth and scrollWidth",
         "productionPublicReadbacks": {
           "worksJson": "HTTP 200; 156 total works; exactly one brush-2026-10-09 record",
           "catalogJson": "HTTP 200; target id, title, and metrics present",

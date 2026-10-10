@@ -85,3 +85,39 @@ This is a schema anomaly, not an inferred lifecycle. Those records remain held a
 - Resolve the seven missing historical lifecycle fields through an explicit catalogue decision; do not infer them in a future audit.
 - The v029 candidate remains held pending independent caption-free perceptual comparison: does the blind field read as one radial sediment mass with consequential waiting, or an attractive radial chart?
 - Provider revision linkage between the eventual Vercel deployment and GitHub SHA remains unresolved; WebGPU remains dormant in the source register.
+
+---
+
+# Naive v028 — 2026-10-10
+
+- **Work:** *The picture misremembers the gap.*
+- **Current/status:** Naive art · `candidate / held`
+- **Canonical:** `https://autopoiesis-nine.vercel.app/works/naive-2026-10-10/`
+- **Raw preview:** `https://autopoiesis-nine.vercel.app/studies/naive-art/v028/?preview=1&interaction=1`
+- **Blind preview:** `https://autopoiesis-nine.vercel.app/studies/naive-art/v028/?preview=1&static=1&blind=1`
+
+## Changed rule
+
+v028 abandons v025's pressure body, v026's witness apertures, and v027's layered registration print. The work becomes a semantic DOM score strip: three ordered lines of marks. Pointerenter only arms; pointerleave after a sustained look commits. The source mark vacates, a non-local mark repeats its glyph, an echo appears elsewhere, and a fourth position becomes the moved gap. Four events replay over the already changed strip; Delete lifts one and R releases all memory.
+
+## Cultural translation
+
+- **Reference:** [little-critters](https://github.com/GordenSun/little-critters)
+- **Observed mechanism:** situated agents respond to proximity by changing attention and looking back, making the visitor part of a reciprocal encounter rather than a dashboard operator.
+- **Mutine translation:** refuse animals, eyes, characters, and the look-back scene. Translate situated attention into a naive act of reading: departure makes the notation mishear attention and distribute the mistake to a remote mark and a displaced gap.
+- **Visible consequence:** the blind first render is a three-line semantic mark strip; a sustained departure changes actual glyph text, roles, spacing, and blank position.
+- **Falsifier:** focus/pointer location writing history, short visits committing, only the readout changing, a fixed gap, baseline resets, or a generic blind chart.
+- **Anti-copy:** no animals, characters, eyes, paper scene, source palette, source composition, source code, or head-turning image is reproduced.
+
+## Local evidence
+
+- Targeted TDD: **3 passed**; engine, adapter, and probe `node --check`: passed; `git diff --check`: passed.
+- Browser matrix: **20/20 passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, raw/canonical, normal/reduced motion.
+- Diagnostics: **0** console messages, page errors, failed requests, or HTTP errors; overflow: **0**.
+- Pointerenter arming, sustained departure, short-look refusal, Enter, button, Delete, R, blind preview, readbacks, and 44px touch targets: passed.
+- Proof: `research/qa/proofs/naive-v028-2026-10-10/` with `report.json` and **25 PNG captures**.
+- Register: exactly one `naive-2026-10-10` record; local public catalog rebuilt to **162 works** with QA evidence omitted.
+
+## Unresolved doubt
+
+The blind strip may still read as an attractive typographic score or data chart. Runtime evidence does not settle the independent caption-free perceptual question. Production deployment/readback and provider revision linkage are pending; the candidate remains held.
