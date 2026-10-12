@@ -57,9 +57,9 @@ v029 breaks that invariant in four visible ways:
 
 ## Publication state
 
-- Commit: `a2046e29c83e7fdaf10fc84c998cceca0cc3c591`.
-- Remote: `origin/main` matched the commit after push.
-- Vercel production deployment: `dpl_Bd4JJCzd4A7Wm79Bktqp5pi1dbpU`, ready; stable alias `https://autopoiesis-nine.vercel.app`.
+- Commit: `8fda78517cb5e98e14507241c42ffab360dea3dc` (deployed source commit).
+- Remote: `origin/main` matched the deployed source commit after its push; this later QA-only archival update does not change the deployed source.
+- Vercel production deployment: `dpl_2obagxT3Yo4b3HxTfKVNPm2joUbm`, ready; stable alias `https://autopoiesis-nine.vercel.app` (a prior verified promotion was `dpl_Bd4JJCzd4A7Wm79Bktqp5pi1dbpU`).
 - Production browser matrix: **20/20 passed** on the stable alias at all five required viewports in normal and reduced-motion modes; diagnostics, overflow, pointer, keyboard, same-place refusal, blind preview, Journal/current/work readbacks all passed. Proofs: `research/qa/proofs/pure-svg-v029-2026-10-12-production/`.
 - Public readbacks: `/studio/data/works.json` returned 200 and contains `svg-2026-10-12`; browser-rendered `/journal/` contained `#journal-svg-2026-10-12`; `/currents/pure-svg/` contained the target card; `/works/svg-2026-10-12/` rendered the title and tableau-first embedded v029 field.
 - Deployment provenance remains separate from Git provenance: this was a manual Vercel deployment from the verified worktree; the Vercel record does not expose a provider-linked Git revision.
