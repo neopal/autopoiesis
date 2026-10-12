@@ -79,7 +79,7 @@
         "lineage": "naive-2026-10-10"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, shallow refusal, blind preview, responsive, Journal/current/work readbacks, and 44px controls observed",
+        "status": "20/20 local and 20/20 production raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, shallow refusal, blind preview, responsive, Journal/current/work readbacks, and 44px controls observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "observedRoute": "http://127.0.0.1:65206/works/naive-2026-10-12/",
         "rawPreview": "http://127.0.0.1:65206/studies/naive-art/v029/?preview=1&interaction=1",
         "blindPreview": "http://127.0.0.1:65206/studies/naive-art/v029/?preview=1&static=1&blind=1",
@@ -105,9 +105,20 @@
         "diagnosticCount": 0,
         "overflowCount": 0,
         "proofDir": "research/qa/proofs/naive-v029-2026-10-12/",
+        "productionDeployment": "dpl_Bq6zjJRAiD8EYDyQfn5sKdd79ooG",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/naive-2026-10-12/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v029/?preview=1&interaction=1",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the Canvas picture visible with readout, controls, and hint hidden; innerWidth/clientWidth/scrollWidth remained within 390px; settled memory 4 and changed patch count 10",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "all 20 production raw/canonical runs kept outer and embedded tableau innerWidth/clientWidth/scrollWidth within their measured widths",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production raw/canonical matrix runs plus interaction, blind, Journal, current, canonical work, and favicon readbacks",
+        "productionInteraction": "production pointerdown armed without writing; real multi-crossing gesture committed memory 1 and changed at least three Canvas patch geometries; shallow gesture refused; Enter/Delete/button/lift/release/R paths passed; controls measured 44px",
+        "productionReadbacks": "production /studio/data/works.json returned HTTP 200 with 164 works and exactly one naive-2026-10-12 record; /studio/data/catalog-public.json returned HTTP 200 with 164 public works and omitted browserEvidence; rendered Journal anchor/title, Naive current card/title, canonical work title/tableau, raw v029 tableau, and favicon passed",
+        "productionProofDir": "research/qa/proofs/naive-v029-2026-10-12-production/",
+        "productionScreenshotCount": 25,
         "productionReady": false,
         "unresolved": [
-          "production browser matrix and public readback",
           "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
           "provider revision linkage between the Vercel deployment and GitHub SHA"
         ]

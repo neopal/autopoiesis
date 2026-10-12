@@ -50,10 +50,15 @@ Material rupture chosen: **change the medium, composition, and encounter**. v029
 - Local blind preview: Canvas visible at 390px with readout, controls, and hint hidden; settled memory **4**; changed patch count **10**; no overflow.
 - Local readbacks: Journal anchor/title, Naive current card/title, canonical work title/tableau, and favicon paths passed.
 - Proof directory: `research/qa/proofs/naive-v029-2026-10-12/` with `report.json` and **25 PNG captures**.
-- Public catalog rebuilt with `node scripts/build-public-catalog.mjs`; QA-only browser evidence remains omitted from `catalog-public.json`.
-- `git diff --check`: pending final staged-diff check.
+- Production headless browser matrix: **20/20** raw/canonical runs passed at the same five viewports in normal and reduced-motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses; overflow failures **0**.
+- Production interaction: pointerdown arming remained memory-neutral; the real cross-seam gesture committed memory 1 and changed at least three Canvas patch geometries; shallow refusal, Enter/button equivalence, Delete/lift, R/release, blind preview, and 44px controls passed.
+- Production readbacks: `/studio/data/works.json` HTTP 200 with **164** works and exactly one target; `/studio/data/catalog-public.json` HTTP 200 with **164** public works and QA evidence omitted; rendered Journal anchor/title, Naive current card/title, canonical work title/tableau, raw v029 tableau, and favicon passed.
+- Production proof directory: `research/qa/proofs/naive-v029-2026-10-12-production/` with `report.json` and **25 PNG captures**.
+- Git source commit deployed: `e0ac65a268e4d1bc67d2b5bba5f4f751649e6038`; deployment: `dpl_Bq6zjJRAiD8EYDyQfn5sKdd79ooG`; stable alias: `https://autopoiesis-nine.vercel.app/`.
+- `git diff --check`: passed on the staged v029 diff; Git emitted only existing LF/CRLF normalization warnings for modified JSON/Markdown/JavaScript files.
 - Existing unrelated worktree modifications were left untouched and unstaged.
 
 ## Publication boundary
 
-This run is **candidate / held**. Local artifact and runtime gates passed. Production publication is still pending the production headless matrix, public JSON/Journal/current/work readbacks, and a separate production deployment. Independent caption-free perceptual review and provider-level Vercel-to-Git SHA linkage remain unresolved by policy.
+This run remains **candidate / held**, not exhibition-ready. Local and production artifact/runtime/public-readback gates passed. Independent caption-free perceptual review and provider-level Vercel-to-Git SHA linkage remain unresolved by policy.
