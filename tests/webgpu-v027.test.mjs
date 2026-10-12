@@ -112,9 +112,9 @@ test('WebGPU v027 is recorded exactly once for the 2026-10-12 daily slot', async
   assert.equal(record.source.title, 'little-critters');
   assert.match(record.source.observedMechanism, /proximity|attention|agents/i);
   assert.match(record.source.translatedRule, /wake|basin|witness|collective/i);
-  assert.match(record.browserEvidence.status, /local/i);
-  assert.match(record.browserEvidence.viewportRuns, /20\/20 local/i);
-  assert.ok(record.browserEvidence.unresolved.includes('production browser evidence pending'));
+  assert.match(record.browserEvidence.status, /production/i);
+  assert.match(record.browserEvidence.viewportRuns, /20\/20 production/i);
+  assert.ok(record.browserEvidence.unresolved.includes('independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden'));
   assert.match(record.metrics.memoryRule, /wake|basin|relay|channel/i);
   assert.equal(await read('works/webgpu-2026-10-12/index.html').then(Boolean), true);
 });

@@ -40,6 +40,16 @@ v027 leaves the recent WebGPU sequence of vertical loops, a pressure crown, and 
 - Local diagnostics: `0` console messages, page errors, failed requests, or HTTP 400+ responses.
 - Local proof captures: **25 PNGs** in `research/qa/proofs/webgpu-v027-2026-10-12/`.
 
+## Production verification
+
+- Authorized production deployment probe: `scripts/webgpu-v027-probe.mjs --production`.
+- Production matrix: **20/20** raw/canonical runs at `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced motion.
+- Production interactions: pointer traverse committed a non-local election; shallow pointerup refused; Enter/Space/button shared the wake path; Delete/lift restored the exact prior volume; release returned to the quiet baseline.
+- Production blind preview: Canvas volume visible with readout, status, controls, caption, and furniture hidden; settled memory `4`; no horizontal overflow.
+- Production diagnostics: `0` console messages, page errors, failed requests, or HTTP 400+ responses.
+- Production readbacks: `/journal/`, `/currents/webgpu/`, and `/works/webgpu-2026-10-12/` rendered the recorded title, card, canonical shell, and embedded v027 tableau.
+- Production proof captures: **25 PNGs** in `research/qa/proofs/webgpu-v027-2026-10-12-production/`.
+
 ## Publication boundary
 
-Production matrix and deployed readbacks remain to be observed after the first authorized deployment. Candidate remains held pending production evidence, independent caption-free perceptual comparison, and provider revision linkage between Vercel and GitHub SHA.
+Production browser behavior is now observed. Candidate remains held pending independent caption-free perceptual comparison and provider revision linkage between the Vercel deployment and GitHub SHA.
