@@ -1,0 +1,5747 @@
+{
+  "status": "local-headless-browser-probe",
+  "base": "http://127.0.0.1:65206",
+  "matrix": [
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 320,
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "firstArtwork": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 302.40625,
+            "height": 330.640625,
+            "top": 0,
+            "right": 311.203125,
+            "bottom": 330.640625,
+            "left": 8.796875
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 320,
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 302.40625,
+            "height": 191.515625,
+            "top": 0,
+            "right": 311.203125,
+            "bottom": 191.515625,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-320x568-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 320,
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "firstArtwork": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 302.40625,
+            "height": 330.640625,
+            "top": 0,
+            "right": 311.203125,
+            "bottom": 330.640625,
+            "left": 8.796875
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 320,
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 302.40625,
+            "height": 191.515625,
+            "top": 0,
+            "right": 311.203125,
+            "bottom": 191.515625,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-320x568-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "firstArtwork": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 372.40625,
+            "height": 374.96875,
+            "top": 0,
+            "right": 381.203125,
+            "bottom": 374.96875,
+            "left": 8.796875
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 372.40625,
+            "height": 235.84375,
+            "top": 0,
+            "right": 381.203125,
+            "bottom": 235.84375,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-390x844-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "firstArtwork": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 372.40625,
+            "height": 374.96875,
+            "top": 0,
+            "right": 381.203125,
+            "bottom": 374.96875,
+            "left": 8.796875
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 372.40625,
+            "height": 235.84375,
+            "top": 0,
+            "right": 381.203125,
+            "bottom": 235.84375,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-390x844-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "firstArtwork": {
+            "x": 16,
+            "y": 0,
+            "width": 736,
+            "height": 545.03125,
+            "top": 0,
+            "right": 752,
+            "bottom": 545.03125,
+            "left": 16
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 736,
+            "height": 466.125,
+            "top": 0,
+            "right": 752,
+            "bottom": 466.125,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-768x1024-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "firstArtwork": {
+            "x": 16,
+            "y": 0,
+            "width": 736,
+            "height": 545.03125,
+            "top": 0,
+            "right": 752,
+            "bottom": 545.03125,
+            "left": 16
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 736,
+            "height": 466.125,
+            "top": 0,
+            "right": 752,
+            "bottom": 466.125,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-768x1024-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1280,
+          "clientWidth": 1280,
+          "scrollWidth": 1280,
+          "firstArtwork": {
+            "x": 38.390625,
+            "y": 0,
+            "width": 1203.21875,
+            "height": 840.9375,
+            "top": 0,
+            "right": 1241.609375,
+            "bottom": 840.9375,
+            "left": 38.390625
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 1280,
+          "clientWidth": 1280,
+          "scrollWidth": 1280,
+          "canvas": {
+            "x": 38.390625,
+            "y": 0,
+            "width": 1203.21875,
+            "height": 762.03125,
+            "top": 0,
+            "right": 1241.609375,
+            "bottom": 762.03125,
+            "left": 38.390625
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-1280x800-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1280,
+          "clientWidth": 1280,
+          "scrollWidth": 1280,
+          "firstArtwork": {
+            "x": 38.390625,
+            "y": 0,
+            "width": 1203.21875,
+            "height": 840.9375,
+            "top": 0,
+            "right": 1241.609375,
+            "bottom": 840.9375,
+            "left": 38.390625
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 1280,
+          "clientWidth": 1280,
+          "scrollWidth": 1280,
+          "canvas": {
+            "x": 38.390625,
+            "y": 0,
+            "width": 1203.21875,
+            "height": 762.03125,
+            "top": 0,
+            "right": 1241.609375,
+            "bottom": 762.03125,
+            "left": 38.390625
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-1280x800-reduced.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1920,
+          "clientWidth": 1920,
+          "scrollWidth": 1920,
+          "firstArtwork": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1804.8125,
+            "height": 1221.953125,
+            "top": 0,
+            "right": 1862.40625,
+            "bottom": 1221.953125,
+            "left": 57.59375
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 1920,
+          "clientWidth": 1920,
+          "scrollWidth": 1920,
+          "canvas": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1804.8125,
+            "height": 1143.046875,
+            "top": 0,
+            "right": 1862.40625,
+            "bottom": 1143.046875,
+            "left": 57.59375
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-1920x1080-normal.png"
+    },
+    {
+      "kind": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1920,
+          "clientWidth": 1920,
+          "scrollWidth": 1920,
+          "firstArtwork": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1804.8125,
+            "height": 1221.953125,
+            "top": 0,
+            "right": 1862.40625,
+            "bottom": 1221.953125,
+            "left": 57.59375
+          },
+          "intro": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "tableauFirst": true,
+          "ready": null
+        },
+        "embedded": {
+          "innerWidth": 1920,
+          "clientWidth": 1920,
+          "scrollWidth": 1920,
+          "canvas": {
+            "x": 57.59375,
+            "y": 0,
+            "width": 1804.8125,
+            "height": 1143.046875,
+            "top": 0,
+            "right": 1862.40625,
+            "bottom": 1143.046875,
+            "left": 57.59375
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\raw-1920x1080-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 320,
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "firstArtwork": {
+            "x": 18,
+            "y": 195.5,
+            "width": 284,
+            "height": 415.390625,
+            "top": 195.5,
+            "right": 302,
+            "bottom": 610.890625,
+            "left": 18
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 282,
+          "clientWidth": 282,
+          "scrollWidth": 282,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 264.40625,
+            "height": 167.453125,
+            "top": 0,
+            "right": 273.203125,
+            "bottom": 167.453125,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-320x568-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 320,
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "firstArtwork": {
+            "x": 18,
+            "y": 195.5,
+            "width": 284,
+            "height": 415.390625,
+            "top": 195.5,
+            "right": 302,
+            "bottom": 610.890625,
+            "left": 18
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 282,
+          "clientWidth": 282,
+          "scrollWidth": 282,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 264.40625,
+            "height": 167.453125,
+            "top": 0,
+            "right": 273.203125,
+            "bottom": 167.453125,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-320x568-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "firstArtwork": {
+            "x": 18,
+            "y": 182.5,
+            "width": 354,
+            "height": 478.796875,
+            "top": 182.5,
+            "right": 372,
+            "bottom": 661.296875,
+            "left": 18
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 352,
+          "clientWidth": 352,
+          "scrollWidth": 352,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 334.40625,
+            "height": 211.78125,
+            "top": 0,
+            "right": 343.203125,
+            "bottom": 211.78125,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-390x844-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "firstArtwork": {
+            "x": 18,
+            "y": 182.5,
+            "width": 354,
+            "height": 478.796875,
+            "top": 182.5,
+            "right": 372,
+            "bottom": 661.296875,
+            "left": 18
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 352,
+          "clientWidth": 352,
+          "scrollWidth": 352,
+          "canvas": {
+            "x": 8.796875,
+            "y": 0,
+            "width": 334.40625,
+            "height": 211.78125,
+            "top": 0,
+            "right": 343.203125,
+            "bottom": 211.78125,
+            "left": 8.796875
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-390x844-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "firstArtwork": {
+            "x": 18,
+            "y": 182.5,
+            "width": 732,
+            "height": 671.75,
+            "top": 182.5,
+            "right": 750,
+            "bottom": 854.25,
+            "left": 18
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 730,
+          "clientWidth": 730,
+          "scrollWidth": 730,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 698,
+            "height": 442.0625,
+            "top": 0,
+            "right": 714,
+            "bottom": 442.0625,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-768x1024-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "firstArtwork": {
+            "x": 18,
+            "y": 182.5,
+            "width": 732,
+            "height": 671.75,
+            "top": 182.5,
+            "right": 750,
+            "bottom": 854.25,
+            "left": 18
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 730,
+          "clientWidth": 730,
+          "scrollWidth": 730,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 698,
+            "height": 442.0625,
+            "top": 0,
+            "right": 714,
+            "bottom": 442.0625,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-768x1024-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1280,
+          "clientWidth": 1280,
+          "scrollWidth": 1280,
+          "firstArtwork": {
+            "x": 56,
+            "y": 160,
+            "width": 736.546875,
+            "height": 762,
+            "top": 160,
+            "right": 792.546875,
+            "bottom": 922,
+            "left": 56
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 735,
+          "clientWidth": 735,
+          "scrollWidth": 735,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 703,
+            "height": 445.21875,
+            "top": 0,
+            "right": 719,
+            "bottom": 445.21875,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-1280x800-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1280,
+          "clientWidth": 1280,
+          "scrollWidth": 1280,
+          "firstArtwork": {
+            "x": 56,
+            "y": 160,
+            "width": 736.546875,
+            "height": 762,
+            "top": 160,
+            "right": 792.546875,
+            "bottom": 922,
+            "left": 56
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 735,
+          "clientWidth": 735,
+          "scrollWidth": 735,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 703,
+            "height": 445.21875,
+            "top": 0,
+            "right": 719,
+            "bottom": 445.21875,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-1280x800-reduced.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": false,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1920,
+          "clientWidth": 1920,
+          "scrollWidth": 1920,
+          "firstArtwork": {
+            "x": 376,
+            "y": 160,
+            "width": 723.59375,
+            "height": 762,
+            "top": 160,
+            "right": 1099.59375,
+            "bottom": 922,
+            "left": 376
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 722,
+          "clientWidth": 722,
+          "scrollWidth": 722,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 690,
+            "height": 437,
+            "top": 0,
+            "right": 706,
+            "bottom": 437,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-1920x1080-normal.png"
+    },
+    {
+      "kind": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reduced": true,
+      "status": 200,
+      "initial": {
+        "stage": 0,
+        "memory": 0
+      },
+      "metrics": {
+        "outer": {
+          "innerWidth": 1920,
+          "clientWidth": 1920,
+          "scrollWidth": 1920,
+          "firstArtwork": {
+            "x": 376,
+            "y": 160,
+            "width": 723.59375,
+            "height": 762,
+            "top": 160,
+            "right": 1099.59375,
+            "bottom": 922,
+            "left": 376
+          },
+          "intro": null,
+          "tableauFirst": true,
+          "ready": "true"
+        },
+        "embedded": {
+          "innerWidth": 722,
+          "clientWidth": 722,
+          "scrollWidth": 722,
+          "canvas": {
+            "x": 16,
+            "y": 0,
+            "width": 690,
+            "height": 437,
+            "top": 0,
+            "right": 706,
+            "bottom": 437,
+            "left": 16
+          },
+          "patches": 12,
+          "changedPatches": 0,
+          "controls": [
+            44,
+            44,
+            44
+          ],
+          "state": {
+            "seed": "0x4e413239",
+            "stage": 0,
+            "active": 0,
+            "memory": [],
+            "scene": {
+              "stage": 0,
+              "patches": [
+                {
+                  "id": 0,
+                  "x": 0.18,
+                  "y": 0.23,
+                  "width": 0.24,
+                  "height": 0.2,
+                  "tilt": -0.08,
+                  "tone": "ochre",
+                  "weight": 1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 1,
+                  "x": 0.48,
+                  "y": 0.18,
+                  "width": 0.18,
+                  "height": 0.25,
+                  "tilt": 0.12,
+                  "tone": "clay",
+                  "weight": 0.92,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 2,
+                  "x": 0.73,
+                  "y": 0.27,
+                  "width": 0.2,
+                  "height": 0.17,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.08,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 3,
+                  "x": 0.25,
+                  "y": 0.48,
+                  "width": 0.2,
+                  "height": 0.22,
+                  "tilt": 0.15,
+                  "tone": "ink",
+                  "weight": 0.84,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 4,
+                  "x": 0.51,
+                  "y": 0.48,
+                  "width": 0.26,
+                  "height": 0.18,
+                  "tilt": -0.04,
+                  "tone": "rust",
+                  "weight": 1.1,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 5,
+                  "x": 0.78,
+                  "y": 0.5,
+                  "width": 0.14,
+                  "height": 0.25,
+                  "tilt": 0.18,
+                  "tone": "ochre",
+                  "weight": 0.88,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 6,
+                  "x": 0.13,
+                  "y": 0.75,
+                  "width": 0.18,
+                  "height": 0.15,
+                  "tilt": -0.18,
+                  "tone": "lichen",
+                  "weight": 1.06,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 7,
+                  "x": 0.38,
+                  "y": 0.76,
+                  "width": 0.2,
+                  "height": 0.16,
+                  "tilt": 0.08,
+                  "tone": "rust",
+                  "weight": 0.94,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 8,
+                  "x": 0.65,
+                  "y": 0.76,
+                  "width": 0.22,
+                  "height": 0.14,
+                  "tilt": -0.12,
+                  "tone": "clay",
+                  "weight": 1.04,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 9,
+                  "x": 0.88,
+                  "y": 0.76,
+                  "width": 0.1,
+                  "height": 0.14,
+                  "tilt": 0.2,
+                  "tone": "ink",
+                  "weight": 0.8,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 10,
+                  "x": 0.3,
+                  "y": 0.34,
+                  "width": 0.13,
+                  "height": 0.1,
+                  "tilt": 0.22,
+                  "tone": "rust",
+                  "weight": 0.74,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                },
+                {
+                  "id": 11,
+                  "x": 0.63,
+                  "y": 0.38,
+                  "width": 0.12,
+                  "height": 0.11,
+                  "tilt": -0.2,
+                  "tone": "ochre",
+                  "weight": 0.78,
+                  "role": "quiet",
+                  "shear": 0,
+                  "notch": 0,
+                  "scale": 1,
+                  "stamp": 0
+                }
+              ],
+              "trace": {
+                "changedPatchCount": 0,
+                "changedPatchIds": [],
+                "roles": [],
+                "memoryCount": 0,
+                "crossings": 0
+              }
+            },
+            "interaction": "idle",
+            "geometrySignature": "0:quiet:0.18:0.23:0.24:0.2:-0.08:0:0:1:0|1:quiet:0.48:0.18:0.18:0.25:0.12:0:0:1:0|2:quiet:0.73:0.27:0.2:0.17:-0.18:0:0:1:0|3:quiet:0.25:0.48:0.2:0.22:0.15:0:0:1:0|4:quiet:0.51:0.48:0.26:0.18:-0.04:0:0:1:0|5:quiet:0.78:0.5:0.14:0.25:0.18:0:0:1:0|6:quiet:0.13:0.75:0.18:0.15:-0.18:0:0:1:0|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:quiet:0.65:0.76:0.22:0.14:-0.12:0:0:1:0|9:quiet:0.88:0.76:0.1:0.14:0.2:0:0:1:0|10:quiet:0.3:0.34:0.13:0.1:0.22:0:0:1:0|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+          }
+        }
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\canonical-1920x1080-reduced.png"
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "memory": 0
+    },
+    "armed": {
+      "memory": 0
+    },
+    "committed": {
+      "memory": 1,
+      "changed": 3
+    },
+    "refused": {
+      "memory": 1,
+      "interaction": "gesture-refused-shallow"
+    },
+    "afterEnter": {
+      "memory": 2
+    },
+    "afterDelete": {
+      "memory": 1
+    },
+    "afterButton": {
+      "memory": 2
+    },
+    "afterLift": {
+      "memory": 1
+    },
+    "afterRelease": {
+      "memory": 0
+    },
+    "touchTargets": [
+      44,
+      44,
+      44
+    ],
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\interaction-390x844.png"
+  },
+  "blind": {
+    "response": 200,
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "canvasVisible": true,
+      "canvasWidth": 372.40625,
+      "readoutVisible": false,
+      "controlsVisible": false,
+      "hintVisible": false,
+      "state": {
+        "seed": "0x4e413239",
+        "stage": 4,
+        "active": 0,
+        "memory": [
+          {
+            "kind": "hesitation-relay",
+            "first": 1,
+            "second": 9,
+            "echo": 5,
+            "crossings": 3,
+            "travel": 0.78,
+            "directionChanges": 2,
+            "duration": 820,
+            "memoryIndex": 0,
+            "phase": 0.22,
+            "drift": 0.045,
+            "turn": 0.06,
+            "shear": 0.15
+          },
+          {
+            "kind": "hesitation-relay",
+            "first": 6,
+            "second": 2,
+            "echo": 3,
+            "crossings": 4,
+            "travel": 0.68,
+            "directionChanges": 3,
+            "duration": 940,
+            "memoryIndex": 1,
+            "phase": 0.9,
+            "drift": 0.045,
+            "turn": 0.06,
+            "shear": 0.1
+          },
+          {
+            "kind": "hesitation-relay",
+            "first": 4,
+            "second": 10,
+            "echo": 2,
+            "crossings": 2,
+            "travel": 0.56,
+            "directionChanges": 1,
+            "duration": 620,
+            "memoryIndex": 2,
+            "phase": 0.39,
+            "drift": 0.018,
+            "turn": 0.06,
+            "shear": 0.15
+          },
+          {
+            "kind": "hesitation-relay",
+            "first": 8,
+            "second": 0,
+            "echo": 10,
+            "crossings": 5,
+            "travel": 0.88,
+            "directionChanges": 4,
+            "duration": 1120,
+            "memoryIndex": 3,
+            "phase": 0.39,
+            "drift": 0.045,
+            "turn": 0.06,
+            "shear": 0.1
+          }
+        ],
+        "scene": {
+          "stage": 4,
+          "patches": [
+            {
+              "id": 0,
+              "x": 0.20475,
+              "y": 0.21875,
+              "width": 0.24,
+              "height": 0.2,
+              "tilt": -0.1172,
+              "tone": "ochre",
+              "weight": 1,
+              "role": "relay",
+              "shear": 0.072,
+              "notch": 0.15,
+              "scale": 1.18,
+              "stamp": 1.3900000000000001
+            },
+            {
+              "id": 1,
+              "x": 0.4485,
+              "y": 0.19574999999999998,
+              "width": 0.18,
+              "height": 0.25,
+              "tilt": 0.16799999999999998,
+              "tone": "clay",
+              "weight": 0.92,
+              "role": "misjoined-source",
+              "shear": -0.15,
+              "notch": 0.134,
+              "scale": 0.82,
+              "stamp": 0.22
+            },
+            {
+              "id": 2,
+              "x": 0.76159,
+              "y": 0.26739,
+              "width": 0.2,
+              "height": 0.17,
+              "tilt": -0.1884,
+              "tone": "lichen",
+              "weight": 1.08,
+              "role": "echo",
+              "shear": 0.002999999999999989,
+              "notch": 0.07,
+              "scale": 1.062,
+              "stamp": 2.39
+            },
+            {
+              "id": 3,
+              "x": 0.2329,
+              "y": 0.5015999999999999,
+              "width": 0.2,
+              "height": 0.22,
+              "tilt": 0.1788,
+              "tone": "ink",
+              "weight": 0.84,
+              "role": "echo",
+              "shear": -0.046000000000000006,
+              "notch": 0.05,
+              "scale": 0.9,
+              "stamp": 2.9
+            },
+            {
+              "id": 4,
+              "x": 0.4974,
+              "y": 0.48629999999999995,
+              "width": 0.26,
+              "height": 0.18,
+              "tilt": 0.008,
+              "tone": "rust",
+              "weight": 1.1,
+              "role": "misjoined-source",
+              "shear": -0.15,
+              "notch": 0.116,
+              "scale": 0.82,
+              "stamp": 0.39
+            },
+            {
+              "id": 5,
+              "x": 0.7971,
+              "y": 0.5216,
+              "width": 0.14,
+              "height": 0.25,
+              "tilt": 0.20879999999999999,
+              "tone": "ochre",
+              "weight": 0.88,
+              "role": "echo",
+              "shear": -0.069,
+              "notch": 0.03,
+              "scale": 0.9,
+              "stamp": 2.22
+            },
+            {
+              "id": 6,
+              "x": 0.0985,
+              "y": 0.76575,
+              "width": 0.18,
+              "height": 0.15,
+              "tilt": -0.132,
+              "tone": "lichen",
+              "weight": 1.06,
+              "role": "misjoined-source",
+              "shear": -0.1,
+              "notch": 0.152,
+              "scale": 0.82,
+              "stamp": 0.9
+            },
+            {
+              "id": 7,
+              "x": 0.38,
+              "y": 0.76,
+              "width": 0.2,
+              "height": 0.16,
+              "tilt": 0.08,
+              "tone": "rust",
+              "weight": 0.94,
+              "role": "quiet",
+              "shear": 0,
+              "notch": 0,
+              "scale": 1,
+              "stamp": 0
+            },
+            {
+              "id": 8,
+              "x": 0.6185,
+              "y": 0.77575,
+              "width": 0.22,
+              "height": 0.14,
+              "tilt": -0.072,
+              "tone": "clay",
+              "weight": 1.04,
+              "role": "misjoined-source",
+              "shear": -0.1,
+              "notch": 0.17,
+              "scale": 0.82,
+              "stamp": 0.39
+            },
+            {
+              "id": 9,
+              "x": 0.90475,
+              "y": 0.74875,
+              "width": 0.1,
+              "height": 0.14,
+              "tilt": 0.1628,
+              "tone": "ink",
+              "weight": 0.8,
+              "role": "relay",
+              "shear": 0.108,
+              "notch": 0.1,
+              "scale": 1.18,
+              "stamp": 1.22
+            },
+            {
+              "id": 10,
+              "x": 0.2928,
+              "y": 0.35710000000000003,
+              "width": 0.13,
+              "height": 0.1,
+              "tilt": 0.2116,
+              "tone": "rust",
+              "weight": 0.74,
+              "role": "echo",
+              "shear": 0.06199999999999999,
+              "notch": 0.09,
+              "scale": 1.062,
+              "stamp": 2.39
+            },
+            {
+              "id": 11,
+              "x": 0.63,
+              "y": 0.38,
+              "width": 0.12,
+              "height": 0.11,
+              "tilt": -0.2,
+              "tone": "ochre",
+              "weight": 0.78,
+              "role": "quiet",
+              "shear": 0,
+              "notch": 0,
+              "scale": 1,
+              "stamp": 0
+            }
+          ],
+          "trace": {
+            "changedPatchCount": 10,
+            "changedPatchIds": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "roles": [
+              "relay",
+              "misjoined-source",
+              "echo",
+              "echo",
+              "misjoined-source",
+              "echo",
+              "misjoined-source",
+              "misjoined-source",
+              "relay",
+              "echo"
+            ],
+            "memoryCount": 4,
+            "crossings": 14
+          }
+        },
+        "interaction": "gesture-committed",
+        "geometrySignature": "0:relay:0.2047:0.2188:0.24:0.2:-0.1172:0.072:0.15:1.18:1.3900000000000001|1:misjoined-source:0.4485:0.1957:0.18:0.25:0.168:-0.15:0.134:0.82:0.22|2:echo:0.7616:0.2674:0.2:0.17:-0.1884:0.003:0.07:1.062:2.39|3:echo:0.2329:0.5016:0.2:0.22:0.1788:-0.046:0.05:0.9:2.9|4:misjoined-source:0.4974:0.4863:0.26:0.18:0.008:-0.15:0.116:0.82:0.39|5:echo:0.7971:0.5216:0.14:0.25:0.2088:-0.069:0.03:0.9:2.22|6:misjoined-source:0.0985:0.7658:0.18:0.15:-0.132:-0.1:0.152:0.82:0.9|7:quiet:0.38:0.76:0.2:0.16:0.08:0:0:1:0|8:misjoined-source:0.6185:0.7758:0.22:0.14:-0.072:-0.1:0.17:0.82:0.39|9:relay:0.9048:0.7488:0.1:0.14:0.1628:0.108:0.1:1.18:1.22|10:echo:0.2928:0.3571:0.13:0.1:0.2116:0.062:0.09:1.062:2.39|11:quiet:0.63:0.38:0.12:0.11:-0.2:0:0:1:0"
+      }
+    },
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\blind-390x844-reduced.png"
+  },
+  "publicReadbacks": [
+    {
+      "path": "/journal/",
+      "status": 200,
+      "evidence": {
+        "selectorCount": 1,
+        "titlePresent": true,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauReady": null
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\journal-390x844.png"
+    },
+    {
+      "path": "/currents/naive-art/",
+      "status": 200,
+      "evidence": {
+        "selectorCount": 1,
+        "titlePresent": true,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauReady": null
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\currentsnaive_art-390x844.png"
+    },
+    {
+      "path": "/works/naive-2026-10-12/",
+      "status": 200,
+      "evidence": {
+        "selectorCount": 1,
+        "titlePresent": true,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauReady": "true"
+      },
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v029-2026-10-12\\worksnaive_2026_10_12-390x844.png"
+    }
+  ],
+  "counts": {
+    "matrixRuns": 20,
+    "diagnosticsCount": 0,
+    "overflowFailures": 0,
+    "httpFailures": 0
+  }
+}

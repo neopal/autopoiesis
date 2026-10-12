@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#192b2b">
+  <title>MUTINE — The picture joins what never touched.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=029">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-12"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="junction-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v029 / FALSE JOIN</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="junction-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v029</span></nav>
+
+      <section class="junction-surface" aria-label="Naive false-join tableau">
+        <div class="junction-column">
+          <figure class="junction-work artwork-frame">
+            <div class="junction-field" id="junction-field" tabindex="0" role="application" aria-label="A naive picture that misjoins distant coloured parts after a hesitant cross-seam gesture" aria-keyshortcuts="Enter Space Delete R">
+              <canvas id="junction-canvas" width="1200" height="760" aria-label="Abstract cut-paper picture with twelve irregular coloured parts"></canvas>
+              <div class="junction-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-memory>0 retained</span><span data-status>cross the seam, hesitate, and release</span></div>
+              <div class="junction-controls" aria-label="Picture actions">
+                <button type="button" data-gesture="misjoin">make the false join</button>
+                <button type="button" data-gesture="lift">lift latest</button>
+                <button type="button" data-gesture="release">release the memory</button>
+              </div>
+              <p class="junction-hint">drag across the centre, change direction twice, and release on another part · shallow gestures are refused</p>
+            </div>
+            <figcaption><span>seed | mutine-naive-v029</span><span>cross &gt; hesitate &gt; misjoin</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>The picture is not a crowd and not a score. It is one crude cut-paper world whose distant parts are made to remember a relation that never happened.</p></div>
+          <div><span>critique</span><p>Keep the mutation only if the three false-joined bodies visibly move in the canvas without a cursor trail, status label, or explanatory caption.</p></div>
+          <div><span>progression</span><p>A single point does nothing. A hesitant crossing gesture is the new threshold: lift one false join, or release the bounded memory and return to the seeded picture.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V029 / DAILY WORK</p><h1 id="work-title">The picture joins <br><i>what never touched.</i></h1></div>
+        <p class="work-premise">A wavering hand makes the far-away parts remember one another incorrectly.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v029 abandons v026's witness apertures, v027's layered registration print, and v028's semantic mark strip. The medium becomes a raster cut-paper picture: proximity is translated into a hesitant cross-seam gesture, and release misjoins three distant parts into a persistent false relation.</p></section>
+      <p class="work-loop">approach &rarr; cross the seam &rarr; hesitate &rarr; false join</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-10/">previous daily work</a><a href="/journal/#journal-naive-2026-10-12">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=029"></script>
+</body>
+</html>

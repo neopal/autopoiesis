@@ -1,0 +1,128 @@
+:root {
+  --ground: #132222;
+  --ground-deep: #091313;
+  --paper: #f1e8d4;
+  --paper-dark: #d4c5a9;
+  --ink: #1d3030;
+  --muted: #a7b4aa;
+  --accent: #d16b4d;
+  --ochre: #c59b54;
+  --lichen: #7e9a7d;
+  --plum: #665a7e;
+  --line: rgba(241, 232, 212, 0.26);
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  color: var(--paper);
+  background:
+    radial-gradient(circle at 82% 18%, rgba(209, 107, 77, 0.15), transparent 25rem),
+    radial-gradient(circle at 12% 74%, rgba(126, 154, 125, 0.13), transparent 27rem),
+    linear-gradient(137deg, var(--ground-deep), var(--ground) 58%, #273c3b);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.junction-shell { min-height: 100vh; padding: 0 3vw; }
+.junction-main { max-width: 1440px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: var(--paper); }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(241, 232, 212, 0.65); }
+.studio-path a { color: var(--paper); }
+.junction-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.28fr);
+  gap: clamp(1rem, 3vw, 3.6rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.junction-column { min-width: 0; }
+.junction-work {
+  margin: 0;
+  padding: clamp(0.45rem, 1.2vw, 1.15rem);
+  color: var(--ink);
+  background: var(--paper-dark);
+  box-shadow: 0 1.8rem 3.5rem rgba(0, 0, 0, 0.28);
+}
+.junction-field { outline: none; position: relative; }
+.junction-field:focus-visible { box-shadow: 0 0 0 4px var(--accent); }
+#junction-canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 760;
+  background: var(--paper);
+  cursor: crosshair;
+  touch-action: none;
+}
+.junction-readout {
+  position: absolute;
+  z-index: 3;
+  left: 1.05rem;
+  top: 0.86rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  color: rgba(241, 232, 212, 0.76);
+  font-size: 0.67rem;
+  pointer-events: none;
+}
+.junction-readout span::before { content: '— '; color: var(--accent); }
+.junction-controls { display: flex; flex-wrap: wrap; gap: 0.45rem; padding: 0.75rem 0.15rem 0.05rem; }
+.junction-controls button {
+  min-height: 44px;
+  border: 1px solid rgba(29, 48, 48, 0.55);
+  border-radius: 0;
+  padding: 0.6rem 0.8rem;
+  color: var(--ink);
+  background: transparent;
+  font: 500 0.7rem/1.1 ui-monospace, monospace;
+  cursor: pointer;
+}
+.junction-controls button:hover, .junction-controls button:focus-visible { color: var(--paper); background: var(--ink); outline: none; }
+.junction-hint { margin: 0.5rem 0 0.1rem; color: rgba(241, 232, 212, 0.62); font-size: 0.63rem; line-height: 1.4; }
+.junction-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: 0.65rem 0.1rem 0; color: rgba(29, 48, 48, 0.72); font-size: 0.64rem; line-height: 1.3; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: 0.5rem; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: 0.65rem; }
+.work-annotations span, .studio-kicker { color: var(--accent); font: 500 0.66rem/1.2 ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; }
+.work-annotations p { margin: 0.5rem 0 0; color: rgba(241, 232, 212, 0.77); font: 0.92rem/1.55 system-ui, sans-serif; }
+.work-opening { border-top-color: var(--line); }
+.work-opening h1 { color: var(--paper); }
+.work-premise { color: rgba(241, 232, 212, 0.74); }
+.work-note { border-color: var(--line); color: rgba(241, 232, 212, 0.74); }
+.work-loop { color: var(--accent); }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .junction-work figcaption { display: none; }
+html.preview-mode .junction-main { max-width: 100vw; padding: 0; }
+html.preview-mode .junction-surface { display: block; margin: 0; }
+html.preview-mode .junction-work { padding: 0; box-shadow: none; }
+html.blind-mode .junction-readout,
+html.blind-mode .junction-controls,
+html.blind-mode .junction-hint { display: none; }
+html.blind-mode #junction-canvas { cursor: default; }
+
+@media (max-width: 860px) {
+  .junction-shell { padding: 0 1rem; }
+  .junction-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; }
+}
+@media (max-width: 560px) {
+  .junction-shell { padding: 0 0.55rem; }
+  .junction-surface { margin-top: 0.5rem; }
+  .junction-work { padding: 0.35rem; }
+  .junction-readout { left: 0.6rem; top: 0.55rem; font-size: 0.57rem; }
+  .junction-controls { gap: 0.3rem; }
+  .junction-controls button { flex: 1 1 8rem; padding: 0.55rem 0.5rem; }
+  .junction-hint { font-size: 0.57rem; }
+  .junction-work figcaption { display: grid; gap: 0.25rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: 0.8rem; }
+}
+@media (prefers-reduced-motion:reduce) {
+  #junction-canvas { cursor: default; }
+  .junction-controls button { transition: none; }
+}

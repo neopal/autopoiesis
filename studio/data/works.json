@@ -2,6 +2,118 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "naive-2026-10-12",
+      "currentId": "naive",
+      "date": "2026-10-12",
+      "title": "The picture joins what never touched.",
+      "rawPath": "/studies/naive-art/v029/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-10-12",
+        "note": "v029 abandons v026's witness apertures, v027's layered registration print, and v028's semantic mark strip. One deterministic Canvas 2D cut-paper picture holds twelve irregular parts: a single point only arms, but a hesitant gesture that crosses the seam, changes direction, and releases on a distant part makes three bodies remember a false relation. Four false joins remain in bounded memory; lifting the latest reconstructs the exact preceding picture."
+      },
+      "critiques": [
+        {
+          "persona": "Picture-form critic",
+          "argument": "The false relation must live in the canvas bodies: the source must contract and slip, the distant relay must swell and lean, and the remote echo must tilt. A cursor trail or status counter cannot substitute for changed raster geometry."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and furniture hidden, the first view should read as one contiguous naive cut-paper picture, not a chart, tile dashboard, mark strip, aperture population, or registration stack. After a join, three changed silhouettes must be findable in the picture."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerdown may arm but must not write. Only a real multi-crossing, direction-changing gesture released on a distant part commits; shallow drags are refused. Enter, the button, Delete, and R must provide equivalent deterministic paths."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v029 changes medium, composition, and encounter: it leaves SVG witness apertures, layered DOM print, and semantic notation for one raster cut-paper picture, and replaces focus, closure, and departure with a hesitant cross-seam gesture."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated as situated relation, not appearance. No animals, eyes, characters, paper scene, source palette, or reciprocal-looking image may carry the mechanism; proximity becomes a faulty spatial join that persists in the canvas."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v029 if a click or shallow drag writes, if the release location directly selects the change, if fewer than three bodies move, if later joins forget prior geometry, if the blind canvas reads as a generic grid, or if lifting is inexact."
+        }
+      ],
+      "metrics": {
+        "id": "naive-art-v029-false-join",
+        "visitorInput": true,
+        "seed": "0x4e413239",
+        "stages": 5,
+        "patchCount": 12,
+        "memoryWindow": 4,
+        "minimumCrossings": 2,
+        "minimumTravel": 0.42,
+        "minimumDurationMs": 420,
+        "settledStage": 4,
+        "settledMemory": 4,
+        "settledChangedPatchCount": 10,
+        "memoryRule": "a hesitant cross-seam gesture misjoins a source and distant relay and shifts a third echo; later gestures inherit the changed raster picture",
+        "interactionRule": "pointerdown arms without writing; a multi-crossing, direction-changing drag released on another part commits; shallow gestures refuse; Enter and the misjoin control share a deterministic event; Delete lifts latest; R releases",
+        "representationRupture": "SVG witness apertures, layered DOM registration print, and semantic mark strip -> one deterministic Canvas 2D cut-paper picture of twelve irregular raster parts",
+        "encounterRupture": "focus/commit, closed correction loop, and look-then-leave -> a hesitant cross-seam drag whose release misjoins distant parts",
+        "temporalRupture": "miscounted witnesses, registration debt, and moved absence -> bounded false-relation memory in which later spatial joins inherit prior distortions",
+        "mediumRupture": "inline SVG paths and semantic DOM/CSS -> Canvas 2D raster geometry with no semantic mark or layered plate representation",
+        "replay": true,
+        "renderer": "deterministic Canvas 2D false-join picture",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity with legible attention and reciprocal looking, making the visitor part of a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, and the look-back scene. Translate proximity into an error of relation: a single point only arms; a hesitant cross-seam gesture between distant picture parts creates a false join and a remote echo in the canvas.",
+        "visibleConsequence": "The blind first render is one contiguous cut-paper picture of irregular coloured parts. After a valid gesture, three actual bodies move, scale, shear, and tilt; later joins inherit those changes.",
+        "falsifier": "Delete the direction if a point or shallow drag writes, if the release location merely selects the result, if only the cursor/readout changes, if fewer than three bodies change, if later joins restart from baseline, or if the blind canvas reads as a generic chart.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, source composition, source code, or head-turning image is reproduced.",
+        "directionConsequence": "Closes Naive art's witness / registration / mark-strip sequence and opens a raster misrelation direction: the mistake is a spatial join produced by a hesitant gesture, not a moved gap or a corrected layer."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and hint-off comparison; delete v029 if the three changed bodies cannot be found at 390px, if a click or shallow drag writes, if the release location directly selects the change, if later joins forget prior geometry, or if exact lifting fails.",
+        "lineage": "naive-2026-10-10"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, shallow refusal, blind preview, responsive, Journal/current/work readbacks, and 44px controls observed",
+        "observedRoute": "http://127.0.0.1:65206/works/naive-2026-10-12/",
+        "rawPreview": "http://127.0.0.1:65206/studies/naive-art/v029/?preview=1&interaction=1",
+        "blindPreview": "http://127.0.0.1:65206/studies/naive-art/v029/?preview=1&static=1&blind=1",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v029 Canvas false-join picture before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept outer and embedded tableau innerWidth/clientWidth/scrollWidth within their measured widths",
+        "touchTargets": "all three local interaction buttons measured 44px high at 390x844",
+        "initialDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical matrix runs plus interaction, blind, Journal, current, and canonical work readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with 12 irregular raster patches and 0 false joins",
+        "reducedMotionState": "reduced-motion raw/canonical runs opened deterministically at stage 00 with 12 patches and 0 false joins",
+        "pointerInteraction": "pointerdown armed the first patch with memory 0; a real multi-crossing, direction-changing drag released on a distant patch committed memory 0 to 1 and changed three actual Canvas patch geometries",
+        "shallowGestureInteraction": "a shallow click/gesture remained at memory 1 and reported gesture-refused-shallow",
+        "keyboardInteraction": "Enter committed a deterministic false join; Delete restored the exact preceding picture; R released the bounded memory",
+        "buttonInteraction": "make the false join committed the same deterministic event as Enter; lift and release completed; all three controls measured 44px high",
+        "liftInteraction": "lift latest reconstructed the exact preceding picture signature",
+        "releaseInteraction": "release control and R returned memory to 0 and the deterministic baseline",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the Canvas picture visible while hiding readout, controls, and hint; scrollWidth remained within 390px; settled memory 4 and changed patch count 10",
+        "journal": "local /journal/ rendered exactly one #journal-naive-2026-10-12 entry with the recorded title",
+        "current": "local naive current rendered exactly one naive-2026-10-12 artwork card and title without overflow",
+        "canonicalWork": "local canonical work rendered the target title, record mount, and embedded v029 tableau",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "proofDir": "research/qa/proofs/naive-v029-2026-10-12/",
+        "productionReady": false,
+        "unresolved": [
+          "production browser matrix and public readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between the Vercel deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "svg-2026-10-12",
       "currentId": "svg",
       "date": "2026-10-12",
