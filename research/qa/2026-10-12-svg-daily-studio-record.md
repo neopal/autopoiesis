@@ -43,7 +43,8 @@ v029 breaks that invariant in four visible ways:
 
 - Slot helper: `current_id=svg`, `current_index=3/6`, `culture_reference_id=little-critters`, `existing_work_id=none`, `action=create-and-record`.
 - TDD targeted slice: **5 passed, 0 failed**. The first run failed with the expected `ERR_MODULE_NOT_FOUND` before `v029/engine.mjs` and tableau files existed; the minimal implementation then passed the slice.
-- JavaScript checks: `node --check` passed for `engine.mjs`, `sketch.js`, and `scripts/pure-svg-v029-probe.mjs`.
+- Full suite: **809 passed, 0 failed** via `npm run test`.
+- JavaScript checks: `node --check` passed for `engine.mjs`, `sketch.js`, `scripts/pure-svg-v029-probe.mjs`, and `tests/pure-svg-v029.test.mjs`.
 - Browser matrix: **20/20 passed locally** on raw and canonical routes at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
 - Local diagnostics: **0** console messages, page errors, failed requests, or HTTP `400+` responses across the matrix, interaction, same-place refusal, blind preview, Journal, current, and canonical readbacks.
 - Local overflow: **0** failures; every raw run matched its emulated viewport, and every canonical shell and embedded tableau stayed within measured widths.
@@ -56,12 +57,16 @@ v029 breaks that invariant in four visible ways:
 
 ## Publication state
 
-No commit, push, or production deployment has been made yet. Production browser evidence and public readbacks remain required before publication.
+- Commit: `a2046e29c83e7fdaf10fc84c998cceca0cc3c591`.
+- Remote: `origin/main` matched the commit after push.
+- Vercel production deployment: `dpl_Bd4JJCzd4A7Wm79Bktqp5pi1dbpU`, ready; stable alias `https://autopoiesis-nine.vercel.app`.
+- Production browser matrix: **20/20 passed** on the stable alias at all five required viewports in normal and reduced-motion modes; diagnostics, overflow, pointer, keyboard, same-place refusal, blind preview, Journal/current/work readbacks all passed. Proofs: `research/qa/proofs/pure-svg-v029-2026-10-12-production/`.
+- Public readbacks: `/studio/data/works.json` returned 200 and contains `svg-2026-10-12`; browser-rendered `/journal/` contained `#journal-svg-2026-10-12`; `/currents/pure-svg/` contained the target card; `/works/svg-2026-10-12/` rendered the title and tableau-first embedded v029 field.
+- Deployment provenance remains separate from Git provenance: this was a manual Vercel deployment from the verified worktree; the Vercel record does not expose a provider-linked Git revision.
 
 ## Unresolved doubt
 
 1. independent caption-free perceptual comparison with labels, readout, controls, annotations, and relay threads hidden;
-2. production browser matrix and public Journal/current/work/catalog readbacks;
-3. provider revision linkage between the final Vercel deployment and GitHub SHA.
+2. provider revision linkage between the final Vercel deployment and GitHub SHA.
 
-The candidate remains **held**, not exhibition-ready. The deletion condition is active.
+The candidate remains **held**, not exhibition-ready. The deletion condition is active. The local and production runtime gates are green; the hold is now perceptual/provenance, not a claimed runtime failure.
