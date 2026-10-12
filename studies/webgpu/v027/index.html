@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100f1b">
+  <meta name="description" content="A volumetric watershed where proximity is observed, then the least-witnessed basin keeps the collective wake.">
+  <title>MUTINE — The volume keeps what attention misses.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=027">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-12"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="volume-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v027 / watershed volume</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="volume-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v027</span></nav>
+      <section class="volume-work" aria-label="WebGPU daily work">
+        <figure class="volume-frame artwork-frame">
+          <canvas id="gpu-wash" aria-hidden="true"></canvas>
+          <canvas id="volume-field" role="img" aria-label="A dark volumetric watershed of nine luminous basins joined by transparent current ribbons" tabindex="0" aria-keyshortcuts="ArrowUp ArrowDown ArrowLeft ArrowRight Enter Space Delete Backspace Escape R"></canvas>
+          <div class="volume-readout" role="status" aria-live="polite"><span data-stage>volume 01 / 17</span><span data-memory>0 wakes</span><span data-basin>basin 05</span><span data-renderer>CANVAS / VOLUME</span></div>
+          <div class="volume-status" data-status>move through the volume · leave a collective wake</div>
+          <div class="volume-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="wake">leave a wake</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release volume</button>
+          </div>
+          <figcaption><span>WEBGPU / V027 / DAILY WORK</span><span>proximity → election → wake</span></figcaption>
+        </figure>
+        <aside class="volume-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a sheet, crown, or register. It is a shallow volume of basins joined by currents that can open without becoming a map.</p></div>
+          <div><span>changed rule</span><p>Proximity only leaves a witness trace. When the visitor leaves, the least-witnessed basin is elected to swell, a source basin contracts, and a remote relay takes the wake.</p></div>
+          <div><span>progression</span><p>Walk through three basins before leaving. The volume remembers the collective choice, not the cursor position; later currents inherit the altered channels.</p></div>
+        </aside>
+      </section>
+      <section class="volume-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V027 / DAILY WORK</p><h1 id="work-title">The volume<br><i>keeps what attention misses.</i></h1></div>
+        <p class="volume-premise">A crowd does not have to look back to answer. It can redistribute a wake to the place nobody watched.</p>
+      </section>
+      <section class="volume-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: the pointer trace is memory-neutral, departure elects a non-local basin, and the field carries the wake through real basin and channel geometry. Promotion depends on whether the blind volume reads as a remembered ecology rather than a decorative node scene.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>proximity → election → wake</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=027a"></script>
+</body>
+</html>
