@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b1715">
+  <title>MUTINE — The paint stores a pressure debt.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=030">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-13"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="pressure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v030 / PRESSURE-REGISTER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="pressure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v030</span></nav>
+
+      <figure class="pressure-work artwork-frame" aria-labelledby="work-title">
+        <div id="pressure-field" class="pressure-field" tabindex="0" role="application" aria-label="A single folded pigment sheet. Press and release quickly; the material stores the pressure as a local buckle, a remote lift, and a third seam scar." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="pressure-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 pulses held</span></div>
+          <div id="pressure-canvas-holder" class="pressure-canvas-holder"></div>
+          <div class="pressure-controls" aria-label="Brush actions">
+            <button id="pulse-control" data-gesture="pulse" type="button">pulse the sheet</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release pressure</button>
+          </div>
+          <p class="pressure-hint">press / release / do not wait</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v030-pressure-register</span><span>press &gt; buckle &gt; transfer</span></figcaption>
+      </figure>
+
+      <section class="pressure-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / PRESSURE DEBT / v030</p>
+        <h1 id="work-title">The paint stores<br><i>a pressure debt.</i></h1>
+        <p class="pressure-lede">A quick touch enters the sheet. Its resistance decides where the fold will buckle, where the far edge will lift, and which seam keeps the scar.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A PULSE, NOT A WAIT</p>
+          <p class="interaction-copy">Press and release before the pressure goes slack. The point is only an entry; the material chooses three different folds. A short pulse is too weak, a long hold is refused. Later pulses inherit the changed sheet. Delete or “lift latest” reconstructs the exact preceding register.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The sheet is carrying its own weight.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v030</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the radial mass and the dwell. A single folded sheet accepts a bounded pressure pulse; resistance produces a local buckle, a non-local lift, and a third seam scar in actual fold geometry.</dd></div>
+          <div><dt>visitor action</dt><dd>Press and release the field between 120ms and 560ms. Enter, Space, and the pulse control use deterministic pressure events. Delete lifts only the latest pulse. R releases the bounded pressure memory. S exports a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If waiting is rewarded, if the pointer directly selects the buckle, if only a ring or readout changes, or if later pulses restart from the seed sheet, the material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v030 if labels-off and controls-off viewing reads as a generic strip or chart, if three fold geometries do not change after a pulse, or if lifting the latest pulse fails to restore the exact preceding sheet.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-10/">previous daily work</a><a href="/journal/#journal-brush-2026-10-13">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=030"></script>
+</body>
+</html>

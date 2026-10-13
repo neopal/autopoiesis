@@ -2,6 +2,101 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-13",
+      "currentId": "brush",
+      "date": "2026-10-13",
+      "title": "The paint stores a pressure debt.",
+      "rawPath": "/studies/p5-brush/v030/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-13",
+        "note": "v030 abandons v027's scrape population, v028's mending reservoir, and v029's radial stillness mass. One suspended pigment sheet now holds nine broad register folds: a bounded quick pressure pulse makes a local fold buckle, a remote fold lift, and a third seam keep the scar. Weak and over-held pulses refuse; four pressure debts remain in bounded memory, and lifting the latest reconstructs the exact preceding sheet."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The pressure debt must be embodied in actual fold polygons: one local buckle, a non-local lift, and a third seam scar must change, while the transient pressure ring disappears on release."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and furniture hidden, the first field must read as one authored suspended pigment sheet, not a radial chart, wound reservoir, strip register, or generic interface. After a pulse, three changed fold silhouettes must be findable."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A weak pulse and an over-held pulse must both refuse. Only a bounded press followed by release commits; the entry point cannot directly select the buckle. Enter, Space, and the pulse control share the deterministic law; Delete restores the exact prior sheet and R releases memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v030 must leave v027's scrape population, v028's mending reservoir, and v029's stillness mass through a new vertical composition, quick pulse encounter, and pressure-debt memory model."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated as material production and resistance, not surface appearance. No source brushes, watercolor, hatching, palette, composition, example, or API vocabulary is reproduced; the borrowed mechanism is forced into a fold-and-debt rule."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v030 if waiting is rewarded, if the field is only a generic strip, if the pointer location chooses the buckle, if fewer than three fold bodies change, if later pulses forget prior debt, or if lifting is inexact."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v030-pressure-register",
+        "visitorInput": true,
+        "seed": "0x42525530",
+        "stages": 13,
+        "foldCount": 9,
+        "memoryWindow": 4,
+        "minimumPressureMs": 120,
+        "maximumPressureMs": 560,
+        "settledStage": 12,
+        "settledMemory": 4,
+        "primitiveBudget": 9,
+        "memoryRule": "a bounded pressure pulse enters at one point but resistance redistributes a local buckle, a remote lift, and a third seam scar through one folded sheet",
+        "interactionRule": "pointerdown arms; pointerup between 120ms and 560ms commits; weak and over-held pulses refuse; Enter, Space, and the pulse control use deterministic events; Delete lifts latest; R releases",
+        "representationRupture": "detached island population, wound reservoir, and radial sediment mass -> one vertical folded pigment sheet with an underside seam",
+        "encounterRupture": "moving scrape, route mending, and stillness dwell -> bounded quick pressure pulse; the entry point does not select the consequence",
+        "temporalRupture": "fracture residue, topological debt, and duration-weighted sediment -> pressure debt that transfers through three fold roles and is inherited by later pulses",
+        "mediumRupture": "p5.js Canvas 2D remains, but broad fold polygons and a register sheet replace radial tongues and reservoir wounds",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D pressure-register sheet",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, grain, and directional fields participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Refuse brush marks, watercolor, hatching, and library vocabulary. Translate material agency into a pressure debt: a bounded pulse enters at one point, but resistance redistributes its consequence across a local buckle, a remote lift, and a third seam scar.",
+        "visibleConsequence": "The blind first render is one suspended folded pigment sheet with a dark underside seam. A valid pulse changes three actual fold silhouettes at non-local positions; later pulses replay against those changed folds.",
+        "falsifier": "If waiting is rewarded, if the pointer directly selects the buckle, if a pressure ring or readout is the only change, if fewer than three fold geometries change, if later pulses restart from the seed sheet, or if the blind field reads as a generic strip, the translation fails.",
+        "antiCopy": "No p5.brush brush, watercolor, hatching, source palette, source composition, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Brush's scrape / mend / stillness sequence and opens a pressure-debt direction in which material resistance transfers consequence through a folded register rather than drawing, healing, or waiting."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and annotation-off comparison; delete v030 if the blind sheet reads as a generic strip, if weak or over-held pressure commits, if the entry point directly selects the buckle, if three changed folds are not visible, if later pulses forget prior debt, or if exact lifting fails.",
+        "lineage": "brush-2026-10-10"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across five required viewports in normal and reduced-motion modes; interaction, weak/overheld refusal, blind preview, responsive, Journal/current/work readbacks, favicon, and diagnostics observed; candidate held pending production deployment, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, current, and canonical work readbacks",
+        "localInteraction": "real pointerdown kept memory at 0; weak 20ms release refused; 260ms pulse committed memory 0 -> 1 and changed fold geometry; 620ms over-held release refused; deterministic pulse control committed memory 2; Delete/lift restored the exact committed geometry; R released; Enter committed and Delete restored",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the pressure-register canvas visible while hiding readout, controls, and hint; settled memory 4 with non-zero buckle, lift, and scar counts; no overflow",
+        "localTouchTargets": "all three interaction controls measured 44px high at 390x844",
+        "localReadbacks": "local Journal anchor, Brush current card, canonical work title, and embedded v030 tableau rendered",
+        "proofDir": "research/qa/proofs/brush-v030-2026-10-13/",
+        "screenshotCount": 25,
+        "unresolved": [
+          "production deployment and public readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "svg-2026-10-13",
       "currentId": "svg",
       "date": "2026-10-13",

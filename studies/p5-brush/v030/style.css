@@ -1,0 +1,63 @@
+:root {
+  --pressure-night: #171312;
+  --pressure-ink: #eee2cd;
+  --pressure-muted: #a89f91;
+  --pressure-coral: #c9785d;
+  --pressure-gold: #d6b16e;
+  --pressure-sage: #9bb28c;
+  --pressure-blue: #738e94;
+  --pressure-line: rgba(238, 226, 205, 0.2);
+}
+
+html, body { background: var(--pressure-night); color: var(--pressure-ink); }
+.pressure-shell {
+  min-height: 100vh;
+  background: radial-gradient(circle at 82% 12%, rgba(115, 142, 148, .13), transparent 27rem),
+    radial-gradient(circle at 12% 72%, rgba(201, 120, 93, .11), transparent 25rem), var(--pressure-night);
+}
+.pressure-main { width: min(1280px, calc(100% - 56px)); margin: 0 auto; padding: 18px 0 68px; }
+.pressure-work { margin: 0; border: 1px solid var(--pressure-line); background: rgba(8, 7, 7, .84); box-shadow: 25px 30px 80px rgba(0, 0, 0, .4); }
+.pressure-field { position: relative; overflow: hidden; isolation: isolate; background: #0d0b0b; cursor: crosshair; touch-action: none; }
+.pressure-field::before, .pressure-field::after { position: absolute; z-index: 2; pointer-events: none; color: rgba(238, 226, 205, .42); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .16em; text-transform: uppercase; }
+.pressure-field::before { content: "pressure / 030"; top: 18px; left: 20px; }
+.pressure-field::after { content: "the sheet refuses excess"; right: 20px; bottom: 18px; writing-mode: vertical-rl; }
+.pressure-canvas-holder, #pressure-canvas { display: block; width: 100%; }
+#pressure-canvas { width: 100% !important; max-width: 100%; height: auto !important; aspect-ratio: 1000 / 700; }
+.pressure-readout, .pressure-controls, .pressure-hint { position: absolute; z-index: 3; }
+.pressure-readout { top: 18px; right: 20px; display: flex; gap: 12px; color: rgba(238, 226, 205, .72); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.pressure-controls { left: 20px; bottom: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+.pressure-controls button { min-height: 44px; padding: 10px 14px; border: 1px solid rgba(155, 178, 140, .52); border-radius: 1px; background: rgba(23, 19, 18, .95); color: var(--pressure-ink); font: 11px/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; cursor: pointer; }
+.pressure-controls button:hover, .pressure-controls button:focus-visible { border-color: var(--pressure-gold); color: var(--pressure-gold); outline: none; }
+.pressure-hint { right: 20px; bottom: 23px; margin: 0; color: rgba(238, 226, 205, .5); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.pressure-opening { max-width: 760px; padding: 54px 7vw 42px; }
+.pressure-opening h1 { max-width: 780px; margin: 0; color: var(--pressure-ink); font-size: clamp(2.7rem, 7vw, 7.2rem); line-height: .87; letter-spacing: -.065em; }
+.pressure-opening h1 i { color: var(--pressure-coral); font-family: Georgia, 'Times New Roman', serif; font-weight: 400; letter-spacing: -.04em; }
+.pressure-lede { max-width: 35rem; margin: 26px 0 0; color: var(--pressure-muted); font-size: clamp(1rem, 1.5vw, 1.3rem); line-height: 1.35; }
+.pressure-work + .pressure-opening, .pressure-opening + .interaction-panel, .interaction-panel + .annotations { border-top: 1px solid var(--pressure-line); }
+.interaction-panel, .annotations { padding: 28px 7vw; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, .55fr); gap: 40px; }
+.interaction-copy, .interaction-state, .annotations dd { max-width: 50rem; color: var(--pressure-muted); font-size: .95rem; line-height: 1.55; }
+.interaction-state { margin: 0; color: var(--pressure-sage); }
+.annotations dl { display: grid; gap: 18px; margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; border-top: 1px solid rgba(238, 226, 205, .1); padding-top: 14px; }
+.annotations dt { color: var(--pressure-gold); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.annotations dd { margin: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode figcaption, html.preview-mode .pressure-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .pressure-main { width: 100%; padding: 0; }
+html.preview-mode .pressure-work { border: 0; box-shadow: none; }
+html.blind-mode .pressure-readout, html.blind-mode .pressure-controls, html.blind-mode .pressure-hint, html.blind-mode .pressure-field::before, html.blind-mode .pressure-field::after { display: none; }
+@media (prefers-reduced-motion: reduce) { #pressure-canvas { filter: saturate(.9); } }
+@media (max-width: 680px) {
+  .pressure-main { width: calc(100% - 24px); padding-top: 8px; }
+  .pressure-readout { top: 12px; right: 12px; flex-direction: column; align-items: flex-end; gap: 3px; font-size: 9px; }
+  .pressure-field::before { top: 14px; left: 12px; font-size: 9px; }
+  .pressure-field::after { right: 12px; bottom: 14px; font-size: 9px; }
+  .pressure-controls { left: 12px; right: 12px; bottom: 12px; }
+  .pressure-controls button { flex: 1 1 30%; padding-inline: 8px; font-size: 10px; }
+  .pressure-hint { display: none; }
+  .pressure-opening { padding: 34px 6vw 30px; }
+  .pressure-opening h1 { font-size: clamp(2.8rem, 15vw, 5rem); }
+  .interaction-panel { grid-template-columns: 1fr; gap: 16px; padding: 24px 6vw; }
+  .annotations { padding: 24px 6vw; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: 8px; }
+}
