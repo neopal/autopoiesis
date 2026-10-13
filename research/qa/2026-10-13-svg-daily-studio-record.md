@@ -80,14 +80,19 @@ The last three Pure SVG works repeated visible populations: horizontal strata, s
 - Interaction evidence: real drag armed memory `0`, committed memory `1`, changed geometry, and recorded source `0` / target `4` / relay `7`; same-gate return refused with memory `0`; Enter armed/committed; Delete lifted; `R` released.
 - Blind evidence: reduced-motion static blind preview at `390×844` kept the SVG field visible while hiding readout, controls, and annotations; no horizontal overflow.
 - Route evidence: local `/journal/`, `/currents/pure-svg/`, and `/works/svg-2026-10-13/` rendered the Journal anchor, current card, canonical title, and embedded v030 tableau.
-- Catalog generation: `node scripts/build-public-catalog.mjs` generated `studio/data/catalog-public.json`.
+- Production browser matrix: **20/20** raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses across the matrix, interaction, blind preview, Journal, current, canonical work, and favicon readbacks.
+- Production interaction: real drag armed memory `0`, committed memory `1`, changed geometry, and recorded source `0` / target `4` / relay `7`; same-gate return refused; Enter/Delete/`R` paths passed.
+- Production blind evidence: reduced-motion static blind preview at `390×844` kept the SVG field visible while hiding readout, controls, and annotations; no horizontal overflow.
+- Production readback: `/studio/data/works.json` and `/studio/data/catalog-public.json` returned HTTP 200 with **168** works and exactly one `svg-2026-10-13` record; rendered Journal anchor/title, Pure SVG current card/title, canonical work title/tableau, raw v030 tableau, and favicon all passed. Exact rendered text evidence is in `research/qa/proofs/pure-svg-v030-2026-10-13-production/rendered-readbacks.json`.
+- Production deployment: Vercel deployment `dpl_Gd4Fwv8Zrhzw5FKsxWmuyvt5WFjT`, stable alias `https://autopoiesis-nine.vercel.app/`.
+- Git synchronization: local `HEAD` and `origin/main` both read `10b5090ce39dacc563ae7db96e15ce702b476f33` before the evidence-only follow-up.
 
 ## Unresolved doubt
 
-1. Production browser matrix and production route readbacks remain to be run after deployment.
-2. Independent caption-free perceptual review is unresolved: whether the blind contour reads as one authored topological body rather than a decorative halo.
-3. Provider-level linkage between the eventual Vercel deployment and GitHub SHA remains unresolved.
+1. Independent caption-free perceptual review is unresolved: whether the blind contour reads as one authored topological body rather than a decorative halo.
+2. Provider-level linkage between the Vercel deployment and GitHub SHA remains unresolved.
 
 ## Release decision
 
-The work remains **candidate / held**. Structural, deterministic, responsive-local, and interaction gates pass. It is not called exhibition-ready because perceptual review and deployment provenance remain open.
+The work remains **candidate / held**. Structural, deterministic, responsive, interaction, and production readback gates pass. It is not called exhibition-ready because perceptual review and deployment provenance remain open.

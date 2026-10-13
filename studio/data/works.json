@@ -77,19 +77,31 @@
         "lineage": "svg-2026-10-12"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical viewport runs passed across five required viewports in normal and reduced-motion modes; drag, same-gate refusal, keyboard, blind preview, responsive, and Journal/current/work readbacks observed; candidate held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical viewport runs passed across five required viewports in normal and reduced-motion modes; drag, same-gate refusal, keyboard, blind preview, responsive, Journal/current/work readbacks, and favicon observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "localOverflow": "all 20 local raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
+        "productionOverflow": "all 20 production raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
         "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production raw/canonical runs plus interaction, blind, Journal, current, canonical work, and favicon readbacks",
         "localInteraction": "real drag armed memory 0, committed memory 1, changed geometry, and recorded source 0 / target 4 / relay 7; same-gate return refused with memory 0; Enter armed and committed; Delete lifted; R released",
+        "productionInteraction": "production real drag armed memory 0, committed memory 1, changed geometry, and recorded source 0 / target 4 / relay 7; same-gate return refused with memory 0; Enter armed and committed; Delete lifted; R released",
         "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG contour visible while hiding readout, controls, and annotations; innerWidth/clientWidth/scrollWidth remained within 390px",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the SVG contour visible while hiding readout, controls, and annotations; innerWidth/clientWidth/scrollWidth remained within 390px",
         "localTouchTargets": "all three interaction controls measured 44px high at 390x844",
+        "productionTouchTargets": "all three interaction controls measured 44px high at 390x844",
         "localReadbacks": "local Journal anchor, Pure SVG current card, canonical work title, and embedded v030 tableau rendered",
+        "productionReadbacks": "production works.json and catalog-public.json returned HTTP 200 with 168 works and exactly one svg-2026-10-13 record; rendered Journal anchor/title, Pure SVG current card/title, canonical work title/tableau, raw v030 tableau, and favicon returned/rendered",
+        "productionDeployment": "dpl_Gd4Fwv8Zrhzw5FKsxWmuyvt5WFjT",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/svg-2026-10-13/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v030/?preview=1&interaction=1",
         "proofDir": "research/qa/proofs/pure-svg-v030-2026-10-13/",
+        "productionProofDir": "research/qa/proofs/pure-svg-v030-2026-10-13-production/",
         "screenshotCount": 3,
+        "productionScreenshotCount": 3,
         "unresolved": [
-          "production responsive / interaction / blind browser evidence",
           "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
           "provider revision linkage between deployment and GitHub SHA"
         ]
