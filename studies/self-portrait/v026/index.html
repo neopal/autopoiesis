@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101217">
+  <title>MUTINE — The portrait elects an absence.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=026">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-13"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v026-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v026 / ABSENCE ELECTION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v026-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v026</span></nav>
+
+      <figure class="v026-work artwork-frame" aria-labelledby="work-title">
+        <div id="witness-field" class="witness-field" data-witness-field tabindex="0" role="application" aria-label="A semantic field of abstract witness marks. Visit a mark, then press Enter to let the portrait choose a remote absence." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="field-atmosphere" aria-hidden="true"></div>
+          <div class="field-threads" data-threads aria-hidden="true"></div>
+          <div class="field-marks" data-marks></div>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 elections held</span></div>
+          <div class="witness-controls" aria-label="Witness field controls">
+            <button type="button" data-action="witness">witness a mark</button>
+            <button type="button" data-action="lift">lift latest absence</button>
+            <button type="button" data-action="release">release the field</button>
+          </div>
+          <p class="field-hint" data-hint>visit one mark; press Enter to let it decide</p>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v026-witness-field</span><span>presence &gt; absence &gt; reply</span></figcaption>
+      </figure>
+
+      <section class="v026-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / ENCOUNTER SWITCH / v026</p>
+        <h1 id="work-title">The portrait elects<br><i>an absence.</i></h1>
+        <p class="v026-lede">Your attention is local. Its answer is not. The field remembers what was watched, then makes an unseen mark disappear and sends the reply elsewhere.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">WITNESS, THEN RELEASE THE DECISION</p>
+          <p class="interaction-copy">Visit a mark by touch, pointer, or keyboard focus. The first witness only arms. Enter, Space, or the witness control asks the portrait to elect a remote absence. Delete lifts the latest election; R releases the bounded memory.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The field is waiting to be witnessed.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v026</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Replace v025's departure-driven ribbon with a semantic DOM field of witness marks. Attention accumulates locally without changing geometry; a committed witness makes the least-seen remote mark become an actual absence, a watched mark reply, and a third mark carry the counter-decision.</dd></div>
+          <div><dt>visitor action</dt><dd>Visit one mark and press Enter, Space, or the witness control. Pointer proximity can locate attention, but it cannot commit the portrait's decision. Delete lifts the latest election; R releases memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If the visited mark is always the one that disappears, if attention changes geometry before commitment, if the reply is only a colour or readout, or if later elections forget exposure, the situated-attention translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v026 if the blind field reads as a dashboard or card grid, or if the elected absence, remote reply, and counter mark cannot be found in the actual DOM mark geometry without labels, controls, and prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-09/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-13">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=026"></script>
+</body>
+</html>
