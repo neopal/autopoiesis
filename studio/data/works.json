@@ -2,6 +2,100 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-13",
+      "currentId": "svg",
+      "date": "2026-10-13",
+      "title": "The contour answers from far away.",
+      "rawPath": "/studies/pure-svg/v030/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-13",
+        "note": "v030 abandons v027's horizontal slip strata, v028's standing aperture plates, and v029's woven compound bodies. One irregular SVG contour now holds eight cavities and a central silence: a local crossing only arms a cavity, while a distant reply changes three actual holes and the shared even-odd body. Four replies remain in bounded memory; lifting the latest reconstructs the exact preceding contour."
+      },
+      "critiques": [
+        {
+          "persona": "Topology critic",
+          "argument": "The rule must live in the even-odd contour: a distant reply must alter three cavity paths and the shared filled body, not merely add a thread, focus ring, or status label."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and prose hidden, the first view should read as one authored negative-space body rather than a ring of eight objects or an interface diagram."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A press-drag must hold the first cavity without writing and commit only on release at a different cavity. Same-gate return must refuse; Enter, Delete, Escape, and R must provide equivalent keyboard paths."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v030 must be visibly unlike v027's strata, v028's aperture plates, and v029's woven cluster in both composition and viewer task: one body and a crossing, not a field of selectable bodies."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated as reciprocal distance without animals, eyes, figures, paper, or head-turning imagery. The visitor is not looked at; a far cavity answers by changing topology."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v030 if the contour is only a decorative halo, if pointerdown writes, if same-gate contact commits, if three real cavities do not change, if later replies forget earlier topology, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v030-negative-reply",
+        "visitorInput": true,
+        "seed": "0x53564730",
+        "stages": 13,
+        "gateCount": 8,
+        "primitiveBudget": 8,
+        "memoryWindow": 4,
+        "settledStage": 4,
+        "settledMemory": 4,
+        "settledChangedGateCount": 8,
+        "memoryRule": "a near crossing only arms; a distant gate replies by changing source, target, relay, and one shared even-odd contour",
+        "interactionRule": "pointerdown arms the nearest cavity and pointerup at a distant cavity commits; same-gate return refuses; Enter twice shares the path; Delete lifts latest; Escape or R releases",
+        "representationRupture": "horizontal slip strata, standing aperture plates, and woven compound bodies -> one singular negative-space contour with cavities",
+        "encounterRupture": "click, proximity, withdrawal, and two-place offer/answer -> press-drag crossing from near cavity to far cavity",
+        "temporalRupture": "departure, fused-seam, and inherited body memory -> bounded topological replies that alter one body and can be lifted exactly",
+        "mediumRupture": "same inline SVG medium, but the work is now a single even-odd filled contour rather than a population of objects",
+        "replay": true,
+        "renderer": "deterministic inline SVG negative-reply contour",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "A situated population responds to pointer proximity with legible attention and reciprocal looking, making the visitor part of a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, and head-turning imagery. In Pure SVG's topology vocabulary, local contact only arms a cavity; a distant cavity must reply before three holes and one shared contour re-form.",
+        "visibleConsequence": "The blind first view is one large negative-space contour, not a population. A near crossing leaves it exact; a far reply changes the source, target, relay, and even-odd contour paths.",
+        "falsifier": "If a local crossing writes, if a same-gate return commits, if only a highlight or label changes, if the reply does not alter three cavity paths, or if the blind field reads as a decorative ring, the translation fails.",
+        "antiCopy": "No animals, eyes, characters, paper scene, source palette, source composition, source code, API surface, or head-turning imagery is reproduced.",
+        "directionConsequence": "Closes the population / aperture / woven-body sequence and opens a topology of distributed reply: relation is no longer represented by agents, but by holes in one body that can answer across distance."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, reply-trace-off, and prose-off comparison; delete v030 if the contour reads as a decorative halo or interface diagram, if a local or same-gate crossing writes, if three cavity changes are not visible, if later replies forget earlier topology, or if exact lifting fails.",
+        "lineage": "svg-2026-10-12"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical viewport runs passed across five required viewports in normal and reduced-motion modes; drag, same-gate refusal, keyboard, blind preview, responsive, and Journal/current/work readbacks observed; candidate held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs",
+        "localInteraction": "real drag armed memory 0, committed memory 1, changed geometry, and recorded source 0 / target 4 / relay 7; same-gate return refused with memory 0; Enter armed and committed; Delete lifted; R released",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG contour visible while hiding readout, controls, and annotations; innerWidth/clientWidth/scrollWidth remained within 390px",
+        "localTouchTargets": "all three interaction controls measured 44px high at 390x844",
+        "localReadbacks": "local Journal anchor, Pure SVG current card, canonical work title, and embedded v030 tableau rendered",
+        "proofDir": "research/qa/proofs/pure-svg-v030-2026-10-13/",
+        "screenshotCount": 3,
+        "unresolved": [
+          "production responsive / interaction / blind browser evidence",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "portrait-2026-10-13",
       "currentId": "portrait",
       "date": "2026-10-13",
