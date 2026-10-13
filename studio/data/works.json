@@ -78,19 +78,31 @@
         "lineage": "brush-2026-10-10"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across five required viewports in normal and reduced-motion modes; interaction, weak/overheld refusal, blind preview, responsive, Journal/current/work readbacks, favicon, and diagnostics observed; candidate held pending production deployment, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across five required viewports in normal and reduced-motion modes; interaction, weak/overheld refusal, blind preview, responsive, Journal/current/work readbacks, favicon, and diagnostics observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "localOverflow": "all 20 local raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
+        "productionOverflow": "all 20 production raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
         "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, current, and canonical work readbacks",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production raw/canonical runs plus interaction, blind, Journal, current, and canonical work readbacks",
         "localInteraction": "real pointerdown kept memory at 0; weak 20ms release refused; 260ms pulse committed memory 0 -> 1 and changed fold geometry; 620ms over-held release refused; deterministic pulse control committed memory 2; Delete/lift restored the exact committed geometry; R released; Enter committed and Delete restored",
+        "productionInteraction": "production pointerdown kept memory at 0; weak 20ms release refused; 260ms pulse committed memory 0 -> 1 with one buckle, one lift, and one scar; 620ms over-held release refused; deterministic pulse control and Enter committed; Delete/lift restored the exact prior signature; R released; all three controls measured 44px",
         "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the pressure-register canvas visible while hiding readout, controls, and hint; settled memory 4 with non-zero buckle, lift, and scar counts; no overflow",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the pressure-register canvas visible while hiding readout, controls, and hint; settled memory 4 with non-zero buckle, lift, and scar counts; no overflow",
         "localTouchTargets": "all three interaction controls measured 44px high at 390x844",
         "localReadbacks": "local Journal anchor, Brush current card, canonical work title, and embedded v030 tableau rendered",
+        "productionReadbacks": "production /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with 169 total works and exactly one brush-2026-10-13 record; rendered Journal anchor/title, Brush current card/title, canonical work mount/title, raw v030 tableau, and favicon passed",
+        "productionFavicon": "production /studio/favicon.svg returned HTTP 200 image/svg+xml",
         "proofDir": "research/qa/proofs/brush-v030-2026-10-13/",
+        "productionProofDir": "research/qa/proofs/brush-v030-2026-10-13-production/",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_2odsgtV4pp9HCPJokC35R3J2gJdc",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/brush-2026-10-13/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v030/?preview=1&interaction=1",
         "screenshotCount": 25,
+        "productionScreenshotCount": 25,
         "unresolved": [
-          "production deployment and public readback",
           "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
           "provider revision linkage between deployment and GitHub SHA"
         ]
