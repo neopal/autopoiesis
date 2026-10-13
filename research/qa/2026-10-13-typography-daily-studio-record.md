@@ -36,4 +36,11 @@ v027 breaks the last three typography gestures: v024's direct point pressure on 
 
 ## Publication boundary
 
-Production browser/public readback and provider-level deployment-to-Git-SHA linkage remain unresolved at this stage. The candidate stays held; no claim of exhibition readiness is made.
+- Commit: `b5a49ed2e1485f26c5e7f1a11d9a1c88c0f8dabb`.
+- `origin/main`: matches the commit.
+- Production deployment: `dpl_4FF9QAs8AmgDnsrCwojNBBNRTvvN`; stable alias: `https://autopoiesis-nine.vercel.app`.
+- Production headless browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, raw/canonical, normal/reduced motion.
+- Production interaction/readbacks: short hold refused; button/Enter commit; Delete/lift exact; R/release baseline; Journal/current/canonical work rendered; production `works.json` and `catalog-public.json` each contain exactly one target record among 166 works; favicon returned HTTP 200.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
+
+The candidate stays held. Independent caption-free perceptual comparison and provider-level deployment-to-Git-SHA linkage remain unresolved; no claim of exhibition readiness is made.

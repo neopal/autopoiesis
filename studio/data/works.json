@@ -73,7 +73,7 @@
         "lineage": "typography-2026-10-10"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across five viewports in normal and reduced-motion modes; interaction, blind preview, responsive evidence, Journal/current/work readbacks, and diagnostics observed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across five viewports in normal and reduced-motion modes; interaction, blind preview, responsive evidence, Journal/current/work readbacks, and diagnostics observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "rawPreview": "/studies/handwriting/v027/?preview=1&interaction=1",
         "blindPreview": "/studies/handwriting/v027/?preview=1&static=1&blind=1",
         "observedRoute": "local ephemeral server /works/typography-2026-10-13/",
@@ -98,9 +98,21 @@
         "diagnosticCount": 0,
         "overflowCount": 0,
         "proofDir": "research/qa/proofs/handwriting-v027-2026-10-13/",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_4FF9QAs8AmgDnsrCwojNBBNRTvvN",
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/typography-2026-10-13/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v027/?preview=1&interaction=1",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the Canvas loom visible with readout, controls, and hint hidden; innerWidth/clientWidth/scrollWidth remained within 390px",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "all 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "productionInteraction": "production 140ms hold/release refused with memory 0; deterministic button and Enter committed memory 1; Delete/lift restored the exact baseline signature; R/release returned memory 0; all three controls measured 44px",
+        "productionReadbacks": "production /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with exactly one typography-2026-10-13 record and 166 total works; rendered Journal anchor, Handwriting current card, canonical work mount, and v027 tableau passed",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production matrix runs, interaction, blind, Journal, current, and canonical work readbacks",
+        "productionFavicon": "production /studio/favicon.svg returned HTTP 200 image/svg+xml",
+        "productionScreenshotCount": 25,
+        "productionProofDir": "research/qa/proofs/handwriting-v027-2026-10-13-production/",
         "productionReady": false,
         "unresolved": [
-          "production browser matrix and public readback not yet observed",
           "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
           "provider revision linkage between deployment and GitHub SHA"
         ]
