@@ -52,3 +52,69 @@ The new rule is a distributed refusal plate. Touching a clause only selects it. 
 - **Production proofs:** 25 PNG captures plus `report.json` in `research/qa/proofs/handwriting-v025-2026-10-08-production/`.
 
 The candidate remains **held**, not exhibition-ready, pending independent caption-free perceptual comparison and provider revision linkage between the Vercel deployment and GitHub SHA. The final evidence commit may follow the deployed release commit; Git and Vercel provenance remain separate claims.
+
+---
+
+# Daily studio audit — 2026-10-08
+
+- **Audit time:** 09:00 local (system clock: `2026-10-08 09:00:45 +0200`)
+- **Active catalogue sources:** `studio/data/studio.json` and `studio/data/works.json` only
+- **Schemas observed:** `mutine-studio/v2`, `mutine-works/v1`
+- **Currents audited:** 6
+- **Work records parsed:** 149
+
+## Today’s coverage
+
+| Current | Date slot | Result |
+|---|---|---|
+| Handwriting (`typography`) | `2026-10-08` | **Recorded:** `typography-2026-10-08` |
+| Self portrait (`portrait`) | `2026-10-08` | **Recorded:** `portrait-2026-10-08` |
+| Pure SVG (`svg`) | `2026-10-08` | **Held:** no record |
+| Brush (`brush`) | `2026-10-08` | **Held:** no record |
+| Naive art (`naive`) | `2026-10-08` | **Held:** no record |
+| WebGPU (`webgpu`) | `2026-10-08` | **Held:** no record; current is `dormant` in `studio.json` |
+
+- Today’s real work records: **2/6 current/date slots**.
+- Duplicate current/date slots: **0** across all 149 records.
+
+## Recorded-work integrity
+
+- Canonical pages: **149/149 present** at `works/<workId>/index.html`.
+- Raw tableaux: **149/149 present** at each registered `rawPath` under `/studies/`, with an `index.html`.
+- Journal anchors: **149/149 structurally valid**. Each record’s anchor is exactly `journal-<workId>`, each canonical page links to `/journal/#journal-<workId>`, `/journal/index.html` exposes the journal mount, and `studio/catalog.js` renders each record anchor as the Journal entry `id`.
+- Critique coverage: **149/149 have at least one critique**; no explicit no-critique hold was needed.
+- Lifecycle: **142 valid** (`active` or `complete`); **7 missing fields**; **0 invalid values**.
+
+### Schema anomaly — affected records held, not inferred
+
+The following records lack a `lifecycle` field. Their lifecycle was not inferred, and the affected schema check remains held:
+
+- `typography-2026-08-28`
+- `brush-2026-08-28`
+- `typography-2026-08-31`
+- `svg-2026-08-31`
+- `portrait-2026-08-31`
+- `naive-2026-08-31`
+- `brush-2026-08-31`
+
+No missing tableau, canonical-page mismatch, rawPath mismatch, Journal-anchor mismatch, duplicate slot, or invalid lifecycle value was found.
+
+## Complete-work immutability
+
+- Complete records in `HEAD`: **0**.
+- Complete records in the working register: **0**.
+- Exact comparison therefore found **0 mutated complete records** and **0 newly complete records**.
+- The working-tree paths observed before this report update were pre-existing; this audit did not alter catalogue, work-page, or raw-tableau files, and did not commit, push, or deploy.
+
+## Repository verification
+
+- `npm run test`: **744 passed, 0 failed**.
+- Changed JavaScript syntax: no tracked JavaScript paths changed; untracked `.hermes/portrait-v016-probe.mjs` passed `node --check`.
+- `git diff --check`: **PASS**. Git reported only existing LF/CRLF normalization warnings for modified HTML/report files.
+- No browser, GUI, CUA, Chrome, CDP, remote-debugging, or window-launch activity was performed.
+
+## Verification boundary and next actions
+
+- Visual, interaction, responsive, blind-preview, and publication gates were **not re-verified in this unattended audit**. Existing evidence in the catalogue/report was not treated as a fresh browser observation.
+- Resolve the seven missing lifecycle fields, or explicitly document their intended state, before treating the register as schema-complete.
+- Run the independent caption-free perceptual and interaction gates in an authorized browser-capable review; do not infer them from source inspection.

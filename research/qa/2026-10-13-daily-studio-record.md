@@ -82,6 +82,25 @@ The last three self-portrait records repeated an object/field that watched, meas
 - Production proof captures: `research/qa/proofs/portrait-v026-2026-10-13-production/`.
 - `git diff --check` passed.
 
+## Daily catalogue audit — 2026-10-13, 09:00 local
+
+- Source registers parsed: `studio/data/studio.json` (`mutine-studio/v2`) and `studio/data/works.json` (`mutine-works/v1`). The registers contain six currents and 167 work records.
+- Today's recorded slots: `typography` / Handwriting → `typography-2026-10-13` (`candidate / held`, `active`); `portrait` / Self portrait → `portrait-2026-10-13` (`candidate / held`, `active`).
+- Today's empty/held slots: `svg` / Pure SVG, `brush` / Brush, `naive` / Naive art, and `webgpu` / WebGPU. WebGPU is marked dormant in `studio.json`.
+- Duplicate current/date slots: none found across the 167 records.
+- Structural route audit: 167/167 canonical `works/<id>/index.html` pages exist; 167/167 raw tableau `index.html` files exist under the recorded `/studies/` paths; 167/167 records have a valid Journal anchor field, and `studio/catalog.js` wires that field to the rendered Journal entry id.
+- Critique audit: 167/167 records contain at least one critique; no explicit no-critique hold was needed.
+- **Schema gap:** seven historical records have no explicit `lifecycle` field, so they cannot be confirmed as `active` or `complete` from the raw register: `typography-2026-08-28`, `brush-2026-08-28`, `typography-2026-08-31`, `svg-2026-08-31`, `portrait-2026-08-31`, `naive-2026-08-31`, and `brush-2026-08-31`. The runtime normalizer defaults these records, but this audit does not silently convert missing source data into a confirmed lifecycle.
+- Complete-work mutation check: there are no records with explicit `lifecycle: complete`, so no complete work was observed as mutated; this check is vacuous until complete records exist. `studio/data/studio.json` and `studio/data/works.json` are unchanged versus `HEAD`.
+- Regression checks: `npm run test` passed **829/829**. No tracked JavaScript files are changed; the untracked `.hermes/portrait-v016-probe.mjs` passed `node --check`. `git diff --check` passed.
+- No browser automation or GUI was run by this unattended audit. Existing works remain `candidate / held`; no fresh visual or interaction promotion is claimed here.
+
+## Gaps and next actions
+
+1. Resolve the lifecycle schema gap for the seven historical records without mutating their recorded content.
+2. Decide and record the four empty/held 2026-10-13 slots, beginning with the active currents before the dormant WebGPU current.
+3. Keep the two recorded candidates held until the existing independent caption-free perceptual review and provider revision linkage gaps are closed.
+
 ## Release decision
 
-The artifact remains honestly recorded as `candidate / held`. Local and production structural, interaction, and responsive evidence is complete. It is not called exhibition-ready: an independent caption-free perceptual review of the blind field remains unresolved, and provider-level linkage between the Vercel deployment and the GitHub SHA is not independently established.
+The daily catalogue audit is **BLOCKED by the seven-record lifecycle schema gap**. The two 2026-10-13 records remain honestly recorded as `candidate / held`; this audit does not promote them. Existing local and production evidence remains recorded for the current candidates, but an independent caption-free perceptual review and provider-level linkage between the Vercel deployment and the GitHub SHA remain unresolved.
