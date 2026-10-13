@@ -15894,22 +15894,33 @@
         "lineage": "typography-2026-10-13"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across five required viewports in normal and reduced-motion modes; pointer exchange, same-gap refusal, keyboard, button, exact lift, release, blind preview, responsive, Journal/current/work readbacks, and diagnostics observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across five required viewports in normal and reduced-motion modes; pointer exchange, same-gap refusal, keyboard, button, exact lift, release, blind preview, responsive, Journal/current/work readbacks, favicon, and diagnostics observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "localOverflow": "all raw runs kept innerWidth/clientWidth/scrollWidth within the viewport; canonical outer shells did the same, with embedded tableau widths measured separately",
+        "productionOverflow": "all production raw/canonical runs kept innerWidth/clientWidth/scrollWidth within the viewport; blind preview at 390x844 measured 390px outer scrollWidth",
         "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the 20 local raw/canonical runs and focused interaction, blind, Journal, current, and work readbacks",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the 20 production raw/canonical runs and focused interaction, blind, Journal, current, and work readbacks",
         "localInteraction": "real pointerdown near glyph 1 armed memory 0, pointerup near glyph 9 committed memory 1 and changed the SVG signature; same-gap return refused with memory 1; Enter committed memory 2; Delete restored the exact preceding pointer signature; the offer button committed memory 2; release returned memory 0; all three controls measured 44px high",
+        "productionInteraction": "production pointer exchange committed memory 1, same-gap return refused without changing memory, keyboard and button paths committed, Delete restored the exact preceding pointer signature, release returned memory 0, and all controls measured 44px high",
         "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG counter-field visible while hiding readout, controls, and hint; memory remained 0 and outer scrollWidth equaled 390px",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the SVG counter-field visible while hiding readout, controls, and hint; memory remained 0 and outer scrollWidth equaled 390px",
         "localReadbacks": "local Journal rendered the recorded title and anchor; Handwriting current rendered the recorded title; canonical work rendered the v028 iframe and title; raw interaction rendered twelve glyph bodies",
+        "productionReadbacks": "production /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with 171 works and exactly one typography-2026-10-14 record; Journal rendered anchor journal-typography-2026-10-14 and title; current, canonical work, raw study, and favicon returned/rendered successfully",
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeployment": "dpl_6Qoa467tbr8ycLFT1sE71AVvGvRv",
         "proofDir": "research/qa/proofs/handwriting-v028-2026-10-14/",
+        "productionProofDir": "research/qa/proofs/handwriting-v028-2026-10-14-production/",
         "screenshotCount": 25,
+        "productionScreenshotCount": 25,
         "diagnosticCount": 0,
+        "productionDiagnosticCount": 0,
         "overflowCount": 0,
+        "productionOverflowCount": 0,
         "unresolved": [
-          "production browser readback and deployed JSON/Journal verification",
           "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
-          "provider revision linkage between the eventual deployment and GitHub SHA"
+          "provider revision linkage between the final deployment and GitHub SHA"
         ]
       }
     }
