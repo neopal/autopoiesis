@@ -1,0 +1,68 @@
+:root {
+  --vacancy-ground: #091418;
+  --vacancy-deep: #061013;
+  --vacancy-shell: #1a5055;
+  --vacancy-glass: #85c7b6;
+  --vacancy-light: #e8d8b3;
+  --vacancy-coral: #dd866f;
+  --vacancy-muted: #a9b9b5;
+  --vacancy-frame: rgba(232, 216, 179, .24);
+}
+
+* { box-sizing: border-box; }
+html, body { background: var(--vacancy-ground); color: var(--vacancy-light); }
+body.work-page { min-height: 100vh; }
+.vacancy-shell { min-height: 100vh; background: radial-gradient(circle at 78% 14%, rgba(133, 199, 182, .16), transparent 31%), radial-gradient(circle at 12% 74%, rgba(221, 134, 111, .12), transparent 30%), var(--vacancy-ground); }
+.vacancy-main { width: min(1500px, calc(100% - 48px)); margin: 0 auto; padding: 12px 0 64px; }
+.vacancy-work { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .28fr); gap: 20px; align-items: start; }
+.vacancy-frame { position: relative; margin: 0; min-height: clamp(500px, 67vw, 800px); overflow: hidden; border: 1px solid var(--vacancy-frame); background: var(--vacancy-deep); box-shadow: 0 30px 90px rgba(0, 0, 0, .5); }
+.vacancy-frame::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(232, 216, 179, .12); pointer-events: none; }
+#gpu-veil, #vacancy-field { position: absolute; inset: 0; display: block; width: 100%; height: 100%; min-height: clamp(500px, 67vw, 800px); }
+#gpu-veil { z-index: 0; opacity: .58; }
+#vacancy-field { z-index: 1; touch-action: none; outline: none; cursor: crosshair; }
+#vacancy-field:focus-visible { box-shadow: inset 0 0 0 2px var(--vacancy-coral); }
+.vacancy-readout { position: absolute; z-index: 3; top: 18px; left: 20px; right: 20px; display: flex; justify-content: space-between; gap: 12px; color: rgba(232, 216, 179, .72); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; text-transform: uppercase; pointer-events: none; }
+.vacancy-status { position: absolute; z-index: 3; top: 49px; left: 20px; color: rgba(232, 216, 179, .68); font: 11px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .06em; pointer-events: none; }
+.vacancy-controls { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 44px; display: flex; flex-wrap: wrap; gap: 8px; }
+.vacancy-controls button { min-width: 44px; min-height: 44px; padding: 0 14px; border: 1px solid rgba(232, 216, 179, .34); border-radius: 999px; background: rgba(6, 16, 19, .86); color: var(--vacancy-light); font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em; cursor: pointer; }
+.vacancy-controls button:first-child { border-color: rgba(221, 134, 111, .78); color: #efaa92; }
+.vacancy-controls button:hover, .vacancy-controls button:focus-visible { border-color: var(--vacancy-light); color: #fff; }
+.vacancy-frame figcaption { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 14px; display: flex; justify-content: space-between; gap: 16px; color: rgba(232, 216, 179, .62); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; pointer-events: none; }
+.vacancy-notes { display: grid; gap: 14px; padding-top: 24px; }
+.vacancy-notes > div { padding: 14px 0; border-top: 1px solid rgba(232, 216, 179, .14); }
+.vacancy-notes span { color: var(--vacancy-coral); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.vacancy-notes p, .vacancy-premise, .vacancy-note p { margin: 8px 0 0; color: var(--vacancy-muted); font-size: 14px; line-height: 1.55; }
+.vacancy-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .42fr); gap: 32px; padding: 44px 0 0; }
+.vacancy-opening h1 { margin: 8px 0 0; max-width: 920px; font-size: clamp(44px, 7vw, 108px); line-height: .88; letter-spacing: -.06em; font-weight: 500; }
+.vacancy-opening h1 i { color: var(--vacancy-coral); font-family: Georgia, serif; font-weight: 400; }
+.vacancy-premise { align-self: end; max-width: 420px; font-size: 17px; }
+.vacancy-note { max-width: 800px; padding: 22px 0 0; }
+.vacancy-note strong { color: var(--vacancy-light); font-weight: 500; }
+html.preview-mode .vacancy-shell { background: var(--vacancy-deep); }
+html.preview-mode .vacancy-main { width: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .vacancy-notes, html.preview-mode .vacancy-opening, html.preview-mode .vacancy-note, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .vacancy-frame { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode #gpu-veil, html.preview-mode #vacancy-field { min-height: 100vh; }
+html.blind-mode .vacancy-readout, html.blind-mode .vacancy-status, html.blind-mode .vacancy-controls, html.blind-mode .vacancy-frame figcaption, html.blind-mode .studio-header, html.blind-mode .studio-path, html.blind-mode .vacancy-notes, html.blind-mode .vacancy-opening, html.blind-mode .vacancy-note, html.blind-mode .studio-footer { display: none; }
+html.blind-mode .vacancy-frame::after { display: none; }
+html.blind-mode .vacancy-frame { min-height: 100vh; border: 0; }
+html.blind-mode #gpu-veil, html.blind-mode #vacancy-field { min-height: 100vh; }
+
+@media (prefers-reduced-motion:reduce) {
+  .vacancy-frame, .vacancy-controls button { transition: none; }
+}
+
+@media (max-width: 680px) {
+  .vacancy-main { width: min(100% - 24px, 520px); padding-bottom: 40px; }
+  .vacancy-work, .vacancy-opening { grid-template-columns: 1fr; gap: 20px; }
+  .vacancy-frame, #gpu-veil, #vacancy-field { min-height: min(132vw, 640px); }
+  .vacancy-readout { top: 14px; left: 14px; right: 14px; gap: 7px; font-size: 8px; letter-spacing: .07em; }
+  .vacancy-status { top: 41px; left: 14px; max-width: 82%; }
+  .vacancy-controls { left: 14px; right: 14px; bottom: 42px; gap: 6px; }
+  .vacancy-controls button { flex: 1 1 auto; padding: 0 10px; font-size: 10px; }
+  .vacancy-frame figcaption { left: 14px; right: 14px; bottom: 12px; font-size: 8px; }
+  .vacancy-notes { padding-top: 0; }
+  .vacancy-opening { padding-top: 26px; }
+  .vacancy-opening h1 { font-size: clamp(50px, 16vw, 78px); }
+  .vacancy-premise { font-size: 15px; }
+}

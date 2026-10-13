@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091418">
+  <meta name="description" content="A single negative-space object where the addressed cavity closes and an unattended vacancy opens elsewhere.">
+  <title>MUTINE — The crowd leaves a vacancy.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=028">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-13"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="vacancy-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v028 / negative-space object</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="vacancy-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v028</span></nav>
+      <section class="vacancy-work" aria-label="WebGPU daily work">
+        <figure class="vacancy-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <canvas id="vacancy-field" role="img" aria-label="A single suspended dark object punctured by sixteen irregular cavities" tabindex="0" aria-keyshortcuts="ArrowUp ArrowDown ArrowLeft ArrowRight Enter Space Delete Backspace Escape R"></canvas>
+          <div class="vacancy-readout" role="status" aria-live="polite"><span data-stage>object 01 / 09</span><span data-memory>0 absences</span><span data-cavity>cavity 06</span><span data-renderer>CANVAS / OBJECT</span></div>
+          <div class="vacancy-status" data-status>focus a cavity · commit the refusal</div>
+          <div class="vacancy-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="commit">seal the focus</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V028 / DAILY WORK</span><span>focus → refusal → vacancy</span></figcaption>
+        </figure>
+        <aside class="vacancy-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a sheet, register, or flow volume. It is one load-bearing object whose cavities are the only population.</p></div>
+          <div><span>changed rule</span><p>Focus is not agency. The addressed cavity closes; the least-attended remote cavity opens and two shell plates carry the disturbance.</p></div>
+          <div><span>progression</span><p>Point or use the arrow keys to focus. Commit with Enter, Space, or the button. Four absences remain inside the object.</p></div>
+        </aside>
+      </section>
+      <section class="vacancy-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V028 / DAILY WORK</p><h1 id="work-title">The crowd<br><i>leaves a vacancy.</i></h1></div>
+        <p class="vacancy-premise">An addressed place can close without becoming the answer. The missed opening is where the body keeps the crowd.</p>
+      </section>
+      <section class="vacancy-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: focus is memory-neutral, commit refuses the addressed cavity, a remote opening is elected, and the shell shifts as geometry. Promotion depends on whether the blind object reads as one authored body rather than an ornamental hole grid.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>focus → refusal → vacancy</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=028a"></script>
+</body>
+</html>
