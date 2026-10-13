@@ -85,7 +85,7 @@
         "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across local matrix, interaction, blind, Journal, current, and canonical work readbacks",
         "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across production matrix, interaction, blind, Journal, current, and canonical work readbacks",
         "localInteraction": "first witness kept the geometry signature unchanged; real click plus Enter committed a remote absence election; witness control committed; Delete/lift restored the exact preceding signature; R released bounded memory",
-        "productionInteraction": "first witness kept the geometry signature unchanged; real click plus Enter committed a remote absence election; witness control committed; Delete/lift restored the exact preceding signature; R released bounded memory",
+        "productionInteraction": "production 20-run matrix exercised click plus keyboard-equivalent commit, witness control, Delete/lift, and R release; native Playwright click plus Enter was separately verified against the same raw interaction code locally",
         "localBlindPreview": "reduced-motion static blind preview at 390x844 kept all 15 marks visible while hiding readout, controls, and hint without overflow",
         "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept all 15 marks visible while hiding readout, controls, and hint without overflow",
         "localTouchTargets": "all three interaction controls measured 44px high at 390x844",
