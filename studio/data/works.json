@@ -15817,6 +15817,101 @@
           "provider revision linkage between the Vercel deployment and GitHub SHA"
         ]
       }
+    },
+    {
+      "id": "typography-2026-10-14",
+      "currentId": "typography",
+      "date": "2026-10-14",
+      "title": "The word leaves a hollow.",
+      "rawPath": "/studies/handwriting/v028/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-14",
+        "note": "v028 abandons the clause plate, route rack, and pressure loom. Twelve oversized letter-bodies now make one counter-field: a two-place bridge arms one gap and answers at another, closing the source counter, opening the remote counter, and shifting a relay letter. Four counter replies remain in bounded memory; lifting the latest reconstructs the exact preceding body."
+      },
+      "critiques": [
+        {
+          "persona": "Language-material critic",
+          "argument": "The counter exchange must live in actual SVG text bodies: the source needs a closed letter, the remote target an open letter, and a relay needs changed position. A bridge line, color, or readout cannot substitute for changed forms."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first field should read as one dense typographic body, not a clause plate, route rack, pressure loom, or decorative alphabet grid. After a reply, the changed source, remote opening, and relay movement must be findable in the letter geometry."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointerdown must only arm. A same-gap return must refuse; a two-gap bridge must commit. Enter, Space, and the offer control must provide the same deterministic path; Delete lifts the latest exact body and R releases the field."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v028 must leave v025's offer-and-reply clauses, v026's approach-and-withdraw sculpture, and v027's duration-pressure loom through a singular counter-field, a two-place gesture, and actual letter-body exchange."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated as situated reciprocity without animals, eyes, faces, paper, or head-turning imagery. A local letter cannot look back; a distant gap must answer by changing typography elsewhere."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v028 if it is an alphabet poster, if pointerdown writes, if same-gap contact commits, if source/target changes are only color, if the relay is only a decorative bridge, if later replies forget the body, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v028-counter-field",
+        "visitorInput": true,
+        "seed": "0x48574928",
+        "stages": 13,
+        "glyphCount": 12,
+        "memoryWindow": 4,
+        "settledStage": 0,
+        "settledMemory": 0,
+        "settledReplyCount": 0,
+        "primitiveBudget": 12,
+        "memoryRule": "a distant counter reply closes the source letter, opens the remote letter, and shifts a relay glyph; later offers inherit the altered body",
+        "interactionRule": "pointerdown near one gap only arms; pointerup at a different gap commits; same-gap return refuses; Enter, Space, or the offer control use a deterministic two-gap reply; Delete lifts latest; R releases",
+        "representationRupture": "distributed clause plate, extruded route rack, and stacked pressure loom -> one dense inline-SVG body whose counters are state",
+        "encounterRupture": "typing, approach/withdraw, and duration hold -> two-place bridge between separate gaps",
+        "temporalRupture": "refusal grammar, segment custody, and pressure transfer -> bounded counter exchange with a remembered relay",
+        "mediumRupture": "semantic DOM, p5.js WEBGL, and p5.js Canvas 2D -> deterministic inline SVG text geometry",
+        "replay": true,
+        "renderer": "deterministic inline SVG DOM counter-field",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity with legible attention and reciprocal looking, making the visitor part of a relation rather than a controller of a dashboard.",
+        "translatedRule": "Refuse animals, eyes, faces, head-turning imagery, and the source scene. A local letter can be armed but cannot answer itself; a distant gap completes the offer by closing the source counter, opening the remote counter, and shifting a relay letter.",
+        "visibleConsequence": "The blind field is one dense typographic body of large letterforms with actual open and closed shapes. A valid two-place offer changes the source glyph, opens the remote glyph, moves a relay glyph, and leaves a visible bridge in the SVG geometry.",
+        "falsifier": "If pointerdown writes, if a same-letter return commits, if source and remote bodies do not change, if the relay is only a glow or line, if later replies restart from the seed body, or if the blind image reads as a decorative alphabet grid, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, source palette, source composition, source code, API surface, or head-turning imagery is reproduced.",
+        "directionConsequence": "Closes Handwriting's clause / route / pressure family and opens a counter-topology direction: an opening can migrate across one typographic body without becoming a line, plate, or word-band."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off comparison; delete v028 if the two-place relation is not visible in actual letter geometry, if the field reads as an alphabet grid, if later replies forget the changed body, or if exact lifting fails.",
+        "lineage": "typography-2026-10-13"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across five required viewports in normal and reduced-motion modes; pointer exchange, same-gap refusal, keyboard, button, exact lift, release, blind preview, responsive, Journal/current/work readbacks, and diagnostics observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all raw runs kept innerWidth/clientWidth/scrollWidth within the viewport; canonical outer shells did the same, with embedded tableau widths measured separately",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the 20 local raw/canonical runs and focused interaction, blind, Journal, current, and work readbacks",
+        "localInteraction": "real pointerdown near glyph 1 armed memory 0, pointerup near glyph 9 committed memory 1 and changed the SVG signature; same-gap return refused with memory 1; Enter committed memory 2; Delete restored the exact preceding pointer signature; the offer button committed memory 2; release returned memory 0; all three controls measured 44px high",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG counter-field visible while hiding readout, controls, and hint; memory remained 0 and outer scrollWidth equaled 390px",
+        "localReadbacks": "local Journal rendered the recorded title and anchor; Handwriting current rendered the recorded title; canonical work rendered the v028 iframe and title; raw interaction rendered twelve glyph bodies",
+        "proofDir": "research/qa/proofs/handwriting-v028-2026-10-14/",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser readback and deployed JSON/Journal verification",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between the eventual deployment and GitHub SHA"
+        ]
+      }
     }
   ]
 }

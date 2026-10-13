@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e1118">
+  <title>MUTINE — The word leaves a hollow.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=028">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-14"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="counter-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v028 / COUNTER-FIELD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="counter-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v028</span></nav>
+
+      <figure id="work" class="counter-work artwork-frame" aria-labelledby="work-title">
+        <div id="counter-field" class="counter-field" tabindex="0" role="application" aria-label="A typographic counter-field. Arm one letter by pressing near it, then release at another letter to make a remote counter reply." aria-keyshortcuts="Enter Space Delete R">
+          <div class="counter-readout" aria-live="polite"><span data-stage>field / quiet</span><span data-memory>0 replies · custody —</span></div>
+          <svg id="counter-svg" class="counter-svg" viewBox="0 0 1000 1000" role="img" aria-label="A dense field of oversized letterforms with open and closed counters" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="counter-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111824"/><stop offset=".48" stop-color="#1a1822"/><stop offset="1" stop-color="#0f121a"/></linearGradient>
+              <radialGradient id="counter-glow" cx="52%" cy="44%" r="62%"><stop offset="0" stop-color="#8bd0c8" stop-opacity=".12"/><stop offset=".56" stop-color="#8bd0c8" stop-opacity="0"/><stop offset="1" stop-color="#0e1118" stop-opacity=".34"/></radialGradient>
+              <pattern id="counter-grain" width="31" height="31" patternUnits="userSpaceOnUse"><path d="M0 30L30 0M-8 30L30 -8M0 38L38 0" stroke="#f0e9dc" stroke-opacity=".035" stroke-width="2"/></pattern>
+            </defs>
+            <rect width="1000" height="1000" fill="url(#counter-bg)"></rect>
+            <rect width="1000" height="1000" fill="url(#counter-glow)"></rect>
+            <rect width="1000" height="1000" fill="url(#counter-grain)"></rect>
+            <g id="counter-structure" aria-hidden="true"></g>
+            <g id="counter-bridges" aria-hidden="true"></g>
+            <g id="counter-glyphs"></g>
+            <path d="M76 154C210 95 346 112 500 82S807 100 924 168M63 851C244 907 391 887 519 920S802 893 937 834" fill="none" stroke="#ef8e72" stroke-opacity=".25" stroke-width="2"></path>
+          </svg>
+          <div class="counter-controls" aria-label="Counter-field actions">
+            <button id="offer-counter" type="button">offer a gap</button>
+            <button id="lift-counter" type="button">lift latest</button>
+            <button id="release-counter" type="button">release field</button>
+          </div>
+          <p class="counter-hint">arm one gap · bridge another</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v028-counter-field</span><span>arm &gt; answer &gt; hollow</span></figcaption>
+      </figure>
+
+      <section class="counter-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / COUNTER EXCHANGE / v028</p>
+        <h1 id="work-title">The word<br><i>leaves a hollow.</i></h1>
+        <p class="counter-lede">A letter can be addressed without being allowed to answer itself. The reply arrives as an opening somewhere else.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ARM, THEN CROSS</p>
+          <p class="interaction-copy">Press near one letter and release at another. Contact only arms the first gap. A distant release closes the source, opens the remote letter, and shifts a third relay. Same-gap contact is refused; Enter, Space, or the offer control makes the deterministic exchange. Delete lifts the latest reply and R releases the ledger.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The field is quiet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v028</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the clause plate, route rack, and pressure loom. Twelve oversized letterforms now make one counter-field. The counter — not the glyph label or the pointer — stores the relation.</dd></div>
+          <div><dt>visitor action</dt><dd>Arm one gap and cross to another. The first endpoint cannot answer itself. Enter, Space, or the offer control supplies the deterministic two-gap reply; Delete lifts the latest event; R releases the four-reply ledger.</dd></div>
+          <div><dt>falsifier</dt><dd>If pointerdown writes, if same-gap return commits, if source and remote letter bodies stay unchanged, if the relay is only a decorative trace, or if the blind body reads as an alphabet grid, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v028 if the two-place relation is not visible in actual letter geometry, if later replies forget the changed counter field, or if lifting cannot restore the exact preceding body.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-13/">previous daily work</a><a href="/journal/#journal-typography-2026-10-14">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=028"></script>
+</body>
+</html>
