@@ -1,0 +1,22 @@
+{
+  "id": "handwriting-v027-pressure-loom",
+  "seed": "0x48574927",
+  "visitorInput": true,
+  "stages": 17,
+  "bandCount": 8,
+  "memoryWindow": 4,
+  "pressureThreshold": 0.42,
+  "settledStage": 16,
+  "settledMemory": 4,
+  "primitiveBudget": 8,
+  "memoryRule": "a sustained global pressure compresses one word-band and transfers room to a non-local word-band; later holds inherit the changed typography",
+  "interactionRule": "a short hold is refused; pointer hold and release, Enter, Space, or the pressure control commit duration; Delete lifts latest; R releases bounded pressure memory",
+  "representationRupture": "elastic sentence current, refusal plate, and route rack -> one stacked typographic pressure loom made of oversized word-bands",
+  "encounterRupture": "point pressure, literal character offer, and approach/withdraw -> global hold followed by release; no cursor location selects a word",
+  "temporalRupture": "resistance field, refusal grammar, and segment custody -> duration becomes a material pressure that redistributes whitespace across distance",
+  "mediumRupture": "Canvas sentence, semantic DOM plate, and WebGL routes -> deterministic p5.js Canvas 2D text with measured tracking",
+  "replay": true,
+  "renderer": "deterministic p5.js 2D pressure loom",
+  "measured": true,
+  "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

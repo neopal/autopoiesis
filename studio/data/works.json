@@ -2,6 +2,111 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-13",
+      "currentId": "typography",
+      "date": "2026-10-13",
+      "title": "The space takes the weight.",
+      "rawPath": "/studies/handwriting/v027/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-13",
+        "note": "v027 abandons v024's direct point pressure on an elastic sentence, v025's literal character offer to a distributed plate, and v026's approach-and-withdraw route rack. Eight oversized word-bands form one typographic pressure loom: a short hold is refused, while a sustained release compresses one word's actual spacing and transfers room to a non-local word. Four pressure events remain in bounded memory; lifting the latest reconstructs the exact preceding loom."
+      },
+      "critiques": [
+        {
+          "persona": "Language-material critic",
+          "argument": "Pressure must live in actual type production: the keystone word needs changed tracking, scale, slant, and weight while a non-local word receives changed tracking and baseline room. A halo, meter, or cursor cannot substitute for the redistribution."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first field should read as one stacked typographic mass, not a sentence corridor, refusal plate, route rack, or generic word poster. After a hold, compressed and relieved words must be findable in the letter geometry."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A short press must be refused. Only a real hold followed by release, the deterministic control, Enter, or Space may commit; pointer position must not select the word. Delete restores the exact preceding loom and R releases bounded memory."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v027 changes the encounter from point pressure, literal typing, and approach/withdraw to global duration pressure, and changes the composition from sentence, clause, and route to one stacked typographic body whose whitespace is the material."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v027 if the loom is only an attractive word poster, if duration does not alter actual glyph geometry, if relief is local or cosmetic, if later holds restart from baseline, if a short tap writes, or if the blind body needs the caption to be read as a pressure system."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v027-pressure-loom",
+        "seed": "0x48574927",
+        "visitorInput": true,
+        "stages": 17,
+        "bandCount": 8,
+        "memoryWindow": 4,
+        "pressureThreshold": 0.42,
+        "settledStage": 16,
+        "settledMemory": 4,
+        "primitiveBudget": 8,
+        "memoryRule": "a sustained global pressure compresses one word-band and transfers room to a non-local word-band; later holds inherit the changed typography",
+        "interactionRule": "a short hold is refused; pointer hold and release, Enter, Space, or the pressure control commit duration; Delete lifts latest; R releases bounded pressure memory",
+        "representationRupture": "elastic sentence current, refusal plate, and route rack -> one stacked typographic pressure loom made of oversized word-bands",
+        "encounterRupture": "point pressure, literal character offer, and approach/withdraw -> global hold followed by release; no cursor location selects a word",
+        "temporalRupture": "resistance field, refusal grammar, and segment custody -> duration becomes a material pressure that redistributes whitespace across distance",
+        "mediumRupture": "Canvas sentence, semantic DOM plate, and WebGL routes -> deterministic p5.js Canvas 2D text with measured tracking",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D pressure loom",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing treats pressure, density, grain, and directional fields as material forces; material changes how geometry is produced and remembered rather than decorating finished geometry.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, and the library's API vocabulary. Translate material agency into typography: duration is pressure, and a global hold compresses one word's production geometry while transferring the displaced room to a non-local word.",
+        "visibleConsequence": "The blind field is a stacked eight-band typographic mass. After a sustained hold, one word visibly tightens and leans while a distant word opens its tracking and changes its scale; nearby baselines shift, and later holds inherit the changed loom.",
+        "falsifier": "If cursor location selects the target, if a short tap commits, if duration only changes a halo or colour, if the compressed and relieved words do not change actual spacing and position, if later holds restart from baseline, or if the blind field reads as another route or plate, the translation fails.",
+        "antiCopy": "No p5.brush brushes, watercolor appearance, hatching vocabulary, source palette, source composition, examples, or API surface is reproduced.",
+        "directionConsequence": "Closes Handwriting's sentence / clause / routed-letter sequence and opens a pressure-as-whitespace direction: language is not addressed at a point; its material rule is distributed through time and space."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and hint-off comparison; delete v027 if duration does not visibly alter actual word geometry, if the remote relief is cosmetic, if later holds restart from baseline, if a short hold writes, or if exact lifting fails.",
+        "lineage": "typography-2026-10-10"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across five viewports in normal and reduced-motion modes; interaction, blind preview, responsive evidence, Journal/current/work readbacks, and diagnostics observed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "rawPreview": "/studies/handwriting/v027/?preview=1&interaction=1",
+        "blindPreview": "/studies/handwriting/v027/?preview=1&static=1&blind=1",
+        "observedRoute": "local ephemeral server /works/typography-2026-10-13/",
+        "canonicalShellAndEmbeddedTableauRendered": true,
+        "tableauFirst": "10/10 local canonical runs mounted the v027 pressure loom before generated title, Journal, critique, evidence, and neighbouring-work prose",
+        "viewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "overflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "touchTargets": "all three interaction buttons measured 44px high at 390x844",
+        "initialDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across local matrix, interaction, blind, Journal, current, and canonical work readbacks",
+        "normalState": "normal-motion raw/canonical runs opened at stage 00 with eight word-bands, 0 pressures, and deterministic baseline geometry",
+        "reducedMotionState": "reduced-motion raw/canonical runs opened at deterministic stage 00 with eight word-bands and 0 pressures",
+        "shortPressureInteraction": "a real 140ms hold/release was refused with memory remaining 0",
+        "buttonInteraction": "press-to-yield committed the deterministic duration event and changed actual keystone and remote relief geometry",
+        "keyboardInteraction": "Enter committed a deterministic pressure; Delete restored the exact preceding loom; R released memory",
+        "liftInteraction": "lift latest reconstructed the exact baseline geometry signature",
+        "releaseInteraction": "release loom returned memory to 0 and the deterministic baseline",
+        "staticBlindPreview": "local reduced-motion static blind preview at 390x844 kept the Canvas loom visible while hiding readout, controls, and hint; scrollWidth remained within 390px",
+        "journal": "local /journal/ rendered exactly one #journal-typography-2026-10-13 anchor with the recorded title",
+        "current": "local Handwriting current rendered exactly one typography-2026-10-13 artwork card and title without overflow",
+        "canonicalWork": "local canonical work rendered the target title and embedded v027 tableau",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "proofDir": "research/qa/proofs/handwriting-v027-2026-10-13/",
+        "productionReady": false,
+        "unresolved": [
+          "production browser matrix and public readback not yet observed",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-10-12",
       "currentId": "webgpu",
       "date": "2026-10-12",

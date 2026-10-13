@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11161d">
+  <title>MUTINE — The space takes the weight.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=027">
+  <script>window.p5 = window.p5 || {}; window.p5.disableFriendlyErrors = true;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-13"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="loom-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v027 / PRESSURE LOOM</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="loom-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v027</span></nav>
+
+      <figure id="work" class="loom-work artwork-frame" aria-labelledby="work-title">
+        <div id="pressure-loom" class="pressure-loom" tabindex="0" role="application" aria-label="A typographic pressure loom. Hold on the field and release to make pressure compress one word and open space in another." aria-keyshortcuts="Enter Space Delete R">
+          <div class="loom-readout" aria-live="polite"><span data-stage>loom / quiet</span><span data-memory>0 pressures · custody —</span></div>
+          <div id="canvas-mount" class="canvas-mount" aria-hidden="true"></div>
+          <div class="loom-controls" aria-label="Pressure loom actions">
+            <button id="press-to-yield" type="button">press to yield</button>
+            <button id="lift-pressure" type="button">lift latest</button>
+            <button id="release-pressure" type="button">release loom</button>
+          </div>
+          <p class="loom-hint">hold the field · release the weight</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v027-pressure-loom</span><span>hold &gt; release &gt; yield</span></figcaption>
+      </figure>
+
+      <section class="loom-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MATERIAL SWITCH / v027</p>
+        <h1 id="work-title">The space<br><i>takes the weight.</i></h1>
+        <p class="loom-lede">A held pressure does not mark the place that received it. One word tightens; another, elsewhere, inherits the room.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">HOLD, THEN RELEASE</p>
+          <p class="interaction-copy">Press and hold anywhere in the loom, then let go. Short pressure is refused. A sustained hold compresses one word's actual letter spacing and transfers room to a remote word. The next pressure begins from the changed loom; Delete lifts the latest event and R releases its bounded memory.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The loom is quiet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v027</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the elastic sentence, refusal plate, and route rack. Eight oversized word-bands now form one typographic loom: pressure is global rather than point-selected, and only the duration of a hold decides how much space is compressed and where relief appears.</dd></div>
+          <div><dt>visitor action</dt><dd>Hold anywhere, then release. The field does not track a cursor or select a word. Enter, Space, or the pressure control supplies the deterministic hold; Delete lifts the latest pressure; R releases the four-event ledger.</dd></div>
+          <div><dt>falsifier</dt><dd>If a cursor location chooses the target, if a short tap writes, if only colour or a halo changes, if the compressed and relieved words do not move in actual type geometry, if later holds restart from the baseline, or if the blind loom reads as another route or plate, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v027 if the loom is only a decorative word poster, if duration has no structural consequence, if the remote relief is cosmetic, if pressure memory is not inherited, or if lifting cannot restore the exact preceding typography.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-10/">previous daily work</a><a href="/journal/#journal-typography-2026-10-13">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=027"></script>
+</body>
+</html>
