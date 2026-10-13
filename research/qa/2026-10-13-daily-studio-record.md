@@ -76,8 +76,12 @@ The last three self-portrait records repeated an object/field that watched, meas
 - Blind evidence: reduced-motion static blind preview at `390×844` kept all 15 marks visible while hiding readout, controls, and hint; no horizontal overflow.
 - Route evidence: local `/journal/`, `/currents/self-portrait/`, and `/works/portrait-2026-10-13/` rendered the anchor, work card, canonical title, and embedded v026 tableau.
 - Catalog generation: `node scripts/generate-work-pages.mjs` generated the daily pages; `node scripts/build-public-catalog.mjs` generated `studio/data/catalog-public.json`.
+- Production browser matrix: **20/20** raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses; favicon returned HTTP 200 `image/svg+xml`.
+- Production readback: `/studio/data/works.json` and `/studio/data/catalog-public.json` returned HTTP 200; exactly one `portrait-2026-10-13` record was present among 167 works; `/journal/`, `/currents/self-portrait/`, `/works/portrait-2026-10-13/`, and the embedded v026 tableau rendered.
+- Production proof captures: `research/qa/proofs/portrait-v026-2026-10-13-production/`.
 - `git diff --check` passed.
 
 ## Release decision
 
-The artifact is recorded honestly as `candidate / held`. Local structural, interaction, and responsive evidence is complete. It is not called exhibition-ready: an independent caption-free perceptual review of the blind field remains unresolved, and production deployment/readback plus provider-level Git SHA linkage must occur after the release commit.
+The artifact remains honestly recorded as `candidate / held`. Local and production structural, interaction, and responsive evidence is complete. It is not called exhibition-ready: an independent caption-free perceptual review of the blind field remains unresolved, and provider-level linkage between the Vercel deployment and the GitHub SHA is not independently established.
