@@ -85,7 +85,7 @@ The last three Pure SVG works repeated visible populations: horizontal strata, s
 - Production interaction: real drag armed memory `0`, committed memory `1`, changed geometry, and recorded source `0` / target `4` / relay `7`; same-gate return refused; Enter/Delete/`R` paths passed.
 - Production blind evidence: reduced-motion static blind preview at `390×844` kept the SVG field visible while hiding readout, controls, and annotations; no horizontal overflow.
 - Production readback: `/studio/data/works.json` and `/studio/data/catalog-public.json` returned HTTP 200 with **168** works and exactly one `svg-2026-10-13` record; rendered Journal anchor/title, Pure SVG current card/title, canonical work title/tableau, raw v030 tableau, and favicon all passed. Exact rendered text evidence is in `research/qa/proofs/pure-svg-v030-2026-10-13-production/rendered-readbacks.json`.
-- Production deployment: Vercel deployment `dpl_Gd4Fwv8Zrhzw5FKsxWmuyvt5WFjT`, stable alias `https://autopoiesis-nine.vercel.app/`.
+- Production deployment: Vercel deployment `dpl_9KCQo1ezLAEa5DbVHa49suP78aZo`, stable alias `https://autopoiesis-nine.vercel.app/`.
 - Git synchronization: local `HEAD` and `origin/main` both read `10b5090ce39dacc563ae7db96e15ce702b476f33` before the evidence-only follow-up.
 
 ## Unresolved doubt

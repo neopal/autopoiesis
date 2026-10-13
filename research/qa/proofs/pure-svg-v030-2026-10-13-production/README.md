@@ -11,5 +11,5 @@
 - Readbacks: journal=true, current=true, canonical=true.
 - Exact rendered readbacks: `rendered-readbacks.json` confirms the Journal anchor/title, Pure SVG current card/title, canonical work title/tableau, innerWidth/clientWidth/scrollWidth, and no overflow.
 - HTTP readback: `/studio/data/works.json` and `/studio/data/catalog-public.json` returned 200 with 168 works and exactly one `svg-2026-10-13` record; `/studio/favicon.svg` returned 200.
-- Deployment: `dpl_Gd4Fwv8Zrhzw5FKsxWmuyvt5WFjT` via stable alias.
+- Deployment: `dpl_9KCQo1ezLAEa5DbVHa49suP78aZo` via stable alias.
 - Captures: interaction-drag-390.png, blind-static-390.png, canonical-390.png.
