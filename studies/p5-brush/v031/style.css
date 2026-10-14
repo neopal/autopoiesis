@@ -1,0 +1,62 @@
+:root {
+  --negative-night: #101518;
+  --negative-ink: #ece5d4;
+  --negative-muted: #a2aca5;
+  --negative-coral: #c97158;
+  --negative-mineral: #7d9c98;
+  --negative-gold: #c4a66f;
+  --negative-line: rgba(236, 229, 212, 0.2);
+}
+
+html, body { background: var(--negative-night); color: var(--negative-ink); }
+.negative-shell {
+  min-height: 100vh;
+  background: radial-gradient(circle at 86% 16%, rgba(125, 156, 152, .15), transparent 28rem),
+    radial-gradient(circle at 10% 76%, rgba(201, 113, 88, .12), transparent 24rem), var(--negative-night);
+}
+.negative-main { width: min(1280px, calc(100% - 56px)); margin: 0 auto; padding: 18px 0 68px; }
+.negative-work { margin: 0; border: 1px solid var(--negative-line); background: rgba(10, 14, 16, .88); box-shadow: 25px 30px 80px rgba(0, 0, 0, .42); }
+.negative-field { position: relative; overflow: hidden; isolation: isolate; background: #0b1012; cursor: crosshair; touch-action: none; }
+.negative-field::before, .negative-field::after { position: absolute; z-index: 2; pointer-events: none; color: rgba(236, 229, 212, .43); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .16em; text-transform: uppercase; }
+.negative-field::before { content: "negative / 031"; top: 18px; left: 20px; }
+.negative-field::after { content: "the mark goes elsewhere"; right: 20px; bottom: 18px; writing-mode: vertical-rl; }
+.negative-canvas-holder, #negative-canvas { display: block; width: 100%; }
+#negative-canvas { width: 100% !important; max-width: 100%; height: auto !important; aspect-ratio: 1000 / 700; }
+.negative-readout, .negative-controls, .negative-hint { position: absolute; z-index: 3; }
+.negative-readout { top: 18px; right: 20px; display: flex; gap: 12px; color: rgba(236, 229, 212, .72); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.negative-controls { left: 20px; bottom: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+.negative-controls button { min-height: 44px; padding: 10px 14px; border: 1px solid rgba(125, 156, 152, .56); border-radius: 1px; background: rgba(16, 21, 24, .95); color: var(--negative-ink); font: 11px/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; cursor: pointer; }
+.negative-controls button:hover, .negative-controls button:focus-visible { border-color: var(--negative-gold); color: var(--negative-gold); outline: none; }
+.negative-hint { right: 20px; bottom: 23px; margin: 0; color: rgba(236, 229, 212, .5); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.negative-opening { max-width: 800px; padding: 54px 7vw 42px; }
+.negative-opening h1 { max-width: 830px; margin: 0; color: var(--negative-ink); font-size: clamp(2.7rem, 7vw, 7.2rem); line-height: .87; letter-spacing: -.065em; }
+.negative-opening h1 i { color: var(--negative-coral); font-family: Georgia, 'Times New Roman', serif; font-weight: 400; letter-spacing: -.04em; }
+.negative-lede { max-width: 36rem; margin: 26px 0 0; color: var(--negative-muted); font-size: clamp(1rem, 1.5vw, 1.3rem); line-height: 1.35; }
+.negative-work + .negative-opening, .negative-opening + .interaction-panel, .interaction-panel + .annotations { border-top: 1px solid var(--negative-line); }
+.interaction-panel, .annotations { padding: 28px 7vw; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, .55fr); gap: 40px; }
+.interaction-copy, .interaction-state, .annotations dd { max-width: 50rem; color: var(--negative-muted); font-size: .95rem; line-height: 1.55; }
+.interaction-state { margin: 0; color: var(--negative-mineral); }
+.annotations dl { display: grid; gap: 18px; margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; border-top: 1px solid rgba(236, 229, 212, .1); padding-top: 14px; }
+.annotations dt { color: var(--negative-gold); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.annotations dd { margin: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode figcaption, html.preview-mode .negative-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .negative-main { width: 100%; padding: 0; }
+html.preview-mode .negative-work { border: 0; box-shadow: none; }
+html.blind-mode .negative-readout, html.blind-mode .negative-controls, html.blind-mode .negative-hint, html.blind-mode .negative-field::before, html.blind-mode .negative-field::after { display: none; }
+@media (prefers-reduced-motion: reduce) { #negative-canvas { filter: saturate(.92); } }
+@media (max-width: 680px) {
+  .negative-main { width: calc(100% - 24px); padding-top: 8px; }
+  .negative-readout { top: 12px; right: 12px; flex-direction: column; align-items: flex-end; gap: 3px; font-size: 9px; }
+  .negative-field::before { top: 14px; left: 12px; font-size: 9px; }
+  .negative-field::after { right: 12px; bottom: 14px; font-size: 9px; }
+  .negative-controls { left: 12px; right: 12px; bottom: 12px; }
+  .negative-controls button { flex: 1 1 30%; padding-inline: 8px; font-size: 10px; }
+  .negative-hint { display: none; }
+  .negative-opening { padding: 34px 6vw 30px; }
+  .negative-opening h1 { font-size: clamp(2.8rem, 15vw, 5rem); }
+  .interaction-panel { grid-template-columns: 1fr; gap: 16px; padding: 24px 6vw; }
+  .annotations { padding: 24px 6vw; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: 8px; }
+}

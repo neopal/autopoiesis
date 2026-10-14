@@ -2,6 +2,102 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-14",
+      "currentId": "brush",
+      "date": "2026-10-14",
+      "title": "The paint declines to become a mark.",
+      "rawPath": "/studies/p5-brush/v031/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-14",
+        "note": "v031 abandons v028's wound reservoir, v029's radial sediment mass, and v030's folded pressure register. One closed irregular paint ribbon now refuses a local drag: a remote segment thins, another swells as counterweight, and a third keeps the scar. Four negative strokes remain in bounded memory; lifting the latest reconstructs the exact preceding ribbon."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The negative rule must live in actual ribbon polygons: the offered point stays unmarked while one remote segment thins, one counterweight swells, and a third segment carries the scar."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and furniture hidden, the first field must read as one authored looped paint body with a central opening, not a chart, interface, reservoir, or decorative ring."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A still offer, a weak offer, and an over-held offer must refuse. Only a visible drag followed by release commits; the entry point cannot directly select the changed segment. Enter, Space, and the offer control share the deterministic law; Delete restores the exact preceding ribbon."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "The changed ribbon must be replayed from bounded negative-stroke memory. Later offers must inherit prior geometry, and lifting the latest must reconstruct the exact prior signature rather than reset the loop."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v031 must leave v028's reservoir, v029's radial mass, and v030's vertical register through a looped composition, a drag-and-release offer, and a local-mark refusal that changes the viewer's task."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated as programmable material resistance, then inverted into absence and remote displacement. No source brushes, watercolor, hatching, palette, composition, example, or API vocabulary is reproduced."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v031-negative-ribbon",
+        "visitorInput": true,
+        "seed": "0x42525531",
+        "stages": 13,
+        "segmentCount": 18,
+        "memoryWindow": 4,
+        "minimumStrokeMs": 140,
+        "maximumStrokeMs": 1100,
+        "minimumTravel": 0.08,
+        "settledStage": 12,
+        "settledMemory": 4,
+        "primitiveBudget": 18,
+        "memoryRule": "a bounded stroke is refused at the offered point and redistributes into one remote subtraction, one counterweight, and one scar in a closed paint ribbon",
+        "interactionRule": "pointerdown arms; pointerup after visible travel and between 140ms and 1100ms commits; weak, still, and over-held offers refuse; Enter, Space, and the offer control use deterministic events; Delete lifts latest; R releases",
+        "representationRupture": "wound reservoir, radial sediment mass, and folded pressure sheet -> one closed irregular negative-ribbon loop with a central opening",
+        "encounterRupture": "mending, stillness dwell, and bounded pulse -> drag-and-release offer whose local mark is refused and translated remotely",
+        "temporalRupture": "topology transfer, duration sediment, and pressure debt -> bounded absence memory that can be lifted exactly",
+        "mediumRupture": "p5.js Canvas 2D remains, but a single looped ribbon of actual segment polygons replaces reservoirs, tongues, and register folds",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D negative-ribbon loop",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, grain, and directional fields participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, grain, and library vocabulary. Invert the recent pressure-debt rule: a drag is an unfulfilled mark offer, so material resistance relocates the consequence into a remote subtraction, a counterweight, and a scar in a closed ribbon.",
+        "visibleConsequence": "The blind first render is one closed loop with a central opening. After a valid offer, the offered point stays unmarked while three remote segment geometries change; later offers replay against the altered ribbon.",
+        "falsifier": "If the offered point directly selects the changed segment, if the gesture remains as a decorative trace, if fewer than three actual segment geometries change, if later offers restart from baseline, or if the blind field reads as a generic loop, the translation fails.",
+        "antiCopy": "No p5.brush brush, watercolor, hatching, source palette, source composition, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Brush's wound / dwell / pressure-register sequence and opens a negative-ribbon direction in which material agency is defined by refusing a mark and moving absence elsewhere."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off comparison; delete v031 if the blind loop reads as a generic ring or interface, if the offered point changes directly, if three remote roles are not visible, if later offers forget prior absences, or if exact lifting fails.",
+        "lineage": "brush-2026-10-13"
+      },
+      "browserEvidence": {
+        "status": "local headless browser matrix passed; production matrix pending",
+        "productionReady": false,
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
+        "localDiagnostics": "0 console messages, page errors, or failed requests across 20 local raw/canonical runs",
+        "localInteraction": "real 260ms pointer drag committed memory 0 -> 1 with non-zero eroded, swollen, and scarred counts; Delete restored memory 1 -> 0; all three controls measured 44px at 390x844",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible, hid readout and controls, settled memory 4 with non-zero eroded count, and kept scrollWidth equal to innerWidth",
+        "localReadbacks": "raw tableau and canonical work route rendered; canonical iframe loaded the v031 study",
+        "proofDir": "research/qa/proofs/brush-v031-2026-10-14/",
+        "screenshotCount": 2,
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "unresolved": [
+          "production browser matrix and deployed record/Journal readback",
+          "independent caption-free perceptual comparison",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "svg-2026-10-14",
       "currentId": "svg",
       "date": "2026-10-14",

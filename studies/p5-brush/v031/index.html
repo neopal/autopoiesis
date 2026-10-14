@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101518">
+  <title>MUTINE — The paint declines to become a mark.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=031">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-14"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="negative-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v031 / NEGATIVE-RIBBON</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="negative-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v031</span></nav>
+
+      <figure class="negative-work artwork-frame" aria-labelledby="work-title">
+        <div id="negative-field" class="negative-field" tabindex="0" role="application" aria-label="A loop of paint that refuses a local mark. Drag across the field and release; the offered stroke is not drawn where it happened. Pressure opens a remote absence, swells another section, and scars a third." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="negative-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 absences held</span></div>
+          <div id="negative-canvas-holder" class="negative-canvas-holder"></div>
+          <div class="negative-controls" aria-label="Brush actions">
+            <button id="offer-control" data-gesture="offer" type="button">offer a stroke</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release absence</button>
+          </div>
+          <p class="negative-hint">drag / release / the mark will not be here</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v031-negative-ribbon</span><span>offer &gt; refuse &gt; relocate</span></figcaption>
+      </figure>
+
+      <section class="negative-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / NEGATIVE RIBBON / v031</p>
+        <h1 id="work-title">The paint declines<br><i>to become a mark.</i></h1>
+        <p class="negative-lede">A stroke enters the field and is refused at its point of arrival. The material keeps only a remote absence, a swelling, and a scar.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">AN OFFER WITHOUT A MARK</p>
+          <p class="interaction-copy">Drag across the ribbon and release. The gesture is not painted where it happened: a bounded pressure offer is translated through the loop into a remote opening, a counterweight, and a third scar. Short, still, and over-held offers are refused. Delete reconstructs the exact preceding ribbon.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The loop is holding its refusal.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v031</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the folded sheet, radial sediment, and wound reservoir. A single closed paint ribbon accepts no local mark; pressure becomes a remote subtraction, a counterweight, and a scar in actual segment geometry.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag and release between 140ms and 1100ms with visible travel. Enter, Space, and the offer control use deterministic strokes. Delete lifts the latest absence. R releases the bounded memory. S exports a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If the offered point is the changed point, if a stroke remains visible where it was made, if only a readout changes, if later offers restart from the baseline, or if the blind ribbon reads as a generic loop, the negative material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v031 if caption-free viewing cannot show one authored loop with a consequential void, if three remote segment roles do not change after an offer, or if lifting the latest offer fails to restore the exact preceding ribbon.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-13/">previous daily work</a><a href="/journal/#journal-brush-2026-10-14">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=031"></script>
+</body>
+</html>
