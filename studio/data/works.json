@@ -2,6 +2,100 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-14",
+      "currentId": "svg",
+      "date": "2026-10-14",
+      "title": "The line mishears the second touch.",
+      "rawPath": "/studies/pure-svg/v031/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-14",
+        "note": "v031 abandons v028's aperture plates, v029's woven compound bodies, and v030's singular negative-space contour. One spare SVG line now holds nine irregular joints: a first attention is inert, while a distant second attention makes the line mishear both offers and reroute through an unoffered witness joint. Four mishearings remain in bounded memory; lifting the latest reconstructs the exact preceding line."
+      },
+      "critiques": [
+        {
+          "persona": "Line-form critic",
+          "argument": "The nine joints must read as one authored articulation before they read as clickable points: stroke weight, spacing, and the deliberate mishearing bend must carry the composition."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, controls, readout, caption, and furniture hidden, the first canvas must read as a singular line-body or inscription-like object, not a graph, interface diagram, or decorative path."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A first attention must be geometry-neutral. Only a distinct, distant second attention may commit; adjacent attention must refuse, and Delete must restore the exact preceding line."
+        },
+        {
+          "persona": "Witness critic",
+          "argument": "The unoffered witness must carry the visible reroute in the actual path order and joint geometry; the offered pair cannot simply glow or become the answer."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v031 changes medium grammar, encounter, and temporal model: it abandons filled bodies and drag-carried topology for a sparse stroked line, two discrete attentions, and liftable path-order rewrites."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v031 if the thin line is only a graph with poetic copy, if the witness is decorative, if first attention changes pixels, if adjacent offers commit, or if the blind canvas needs the explanation to become consequential."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v031-misheard-line",
+        "visitorInput": true,
+        "seed": "0x53564731",
+        "stages": 13,
+        "jointCount": 9,
+        "primitiveBudget": 9,
+        "memoryWindow": 4,
+        "settledStage": 4,
+        "settledMemory": 4,
+        "memoryRule": "a first attention is inert; a distant second attention reroutes the actual line through an unoffered witness joint; four events remain liftable",
+        "interactionRule": "pointerdown or attend control holds a joint; pointerup or second gesture offers a distant joint; adjacent offers refuse; Delete lifts latest; Escape or R releases",
+        "representationRupture": "aperture plates, woven compound bodies, and one negative-space contour -> one thin articulated SVG line with nine discrete joints and mutable path order",
+        "encounterRupture": "press-drag crossing and continuous boundary carriage -> two separated attention events with adjacency refusal and an unoffered witness",
+        "temporalRupture": "cavity/body deformation memory -> a bounded ledger of path-order rewrites that can be lifted exactly",
+        "mediumRupture": "filled SVG bodies and even-odd cavities -> sparse stroked SVG path plus joint primitives",
+        "replay": true,
+        "renderer": "deterministic inline SVG articulated line",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "grammar": "misheard-line"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity with legible attention and reciprocal looking, making the visitor part of a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, and head-turning imagery. In Pure SVG's economy, attention becomes a temporary state on a joint; two distant attentions make one unoffered joint become the line's witness, changing the path order itself.",
+        "visibleConsequence": "The blind first view is one thin asymmetrical line. After two distant offers, the line visibly takes a new articulation through a joint the visitor did not offer; three joint paths carry tension, rather than a decorative highlight appearing on top.",
+        "falsifier": "If the first attention writes geometry, if an adjacent pair commits, if the offered pair is always the visible answer, if the witness is only a label or glow, if later events restart from the seed, or if the blind field reads as a graph/interface, the translation fails.",
+        "antiCopy": "No animals, eyes, character designs, paper scene, source palette, source composition, source code, API surface, or head-turning image is reproduced.",
+        "directionConsequence": "Closes the cavity / body / singular-contour sequence and opens a line-as-social-mishearing direction: relation is carried by path order and an absent witness rather than by bodies looking back."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v031 if the line reads as a graph or interface diagram, if first or adjacent attention writes, if the unoffered witness is not materially visible, if later mishearings forget earlier path order, or if exact lifting fails.",
+        "lineage": "svg-2026-10-13"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical viewport runs passed across five required viewports in normal and reduced-motion modes; drag, same-joint refusal, keyboard, blind preview, touch targets, Journal/current/work readbacks, and favicon route are observed; candidate held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth/clientWidth/scrollWidth within their measured widths",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs",
+        "localInteraction": "real drag armed memory 0 with geometry unchanged, committed memory 1, changed geometry, and recorded observer 0 / counter 4 / unoffered witness 8; same-joint return refused with memory 0; Enter armed and committed; Delete lifted; R released",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the SVG line visible while hiding readout, controls, and annotations; innerWidth/clientWidth/scrollWidth remained within 390px",
+        "localTouchTargets": "all four interaction controls measured 172.6x44px at 390x844",
+        "localReadbacks": "local Journal anchor, Pure SVG current card, canonical work title/tableau, raw v031 tableau, and favicon returned/rendered",
+        "proofDir": "research/qa/proofs/pure-svg-v031-2026-10-14/",
+        "screenshotCount": 3,
+        "unresolved": [
+          "production browser matrix and deployed works/catalog/Journal readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "portrait-2026-10-14",
       "currentId": "portrait",
       "date": "2026-10-14",

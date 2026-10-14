@@ -1,0 +1,22 @@
+{
+  "id": "pure-svg-v031-misheard-line",
+  "grammar": "misheard-line",
+  "visitorInput": true,
+  "seed": "0x53564731",
+  "stages": 13,
+  "jointCount": 9,
+  "primitiveBudget": 9,
+  "memoryWindow": 4,
+  "settledStage": 4,
+  "settledMemory": 4,
+  "memoryRule": "a first attention is inert; a distant second attention reroutes the actual line through an unoffered witness joint; four events remain liftable",
+  "interactionRule": "pointerdown or attend control holds a joint; pointerup or second gesture offers a distant joint; adjacent offers refuse; Delete lifts latest; Escape or R releases",
+  "representationRupture": "aperture plates, woven compound bodies, and one negative-space contour -> one thin articulated SVG line with nine discrete joints and mutable path order",
+  "encounterRupture": "press-drag crossing and continuous boundary carriage -> two separated attention events with adjacency refusal and an unoffered witness",
+  "temporalRupture": "cavity/body deformation memory -> a bounded ledger of path-order rewrites that can be lifted exactly",
+  "mediumRupture": "filled SVG bodies and even-odd cavities -> sparse stroked SVG path plus joint primitives",
+  "replay": true,
+  "renderer": "deterministic inline SVG articulated line",
+  "measured": true,
+  "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}
