@@ -2,6 +2,100 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-10-14",
+      "currentId": "portrait",
+      "date": "2026-10-14",
+      "title": "The portrait refuses the first answer.",
+      "rawPath": "/studies/self-portrait/v027/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-10-14",
+        "note": "v027 abandons v026's scattered witness field, v025's decision ribbon, and v024's resistance membrane. One dense p5.js raster counterportrait now contains six irregular registers: a solitary offer is refused, a pair opens a negotiation, and the portrait's own checksum elects an unchosen third register as the visible counter-reading. The pair scars, a fourth register retains residue, four readings remain in bounded memory, and lifting the latest restores the exact preceding geometry."
+      },
+      "critiques": [
+        {
+          "persona": "Raster-form critic",
+          "argument": "The six registers must fuse into one authored body before they read as six buttons: shared slab scale, asymmetrical seam, layered cuts, and negative mass must carry the composition."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first canvas must read as a single counterportrait object rather than a dashboard, face, card grid, membrane, ribbon, or generic pixel texture."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "A solitary offer must be geometry-neutral. Only a distinct pair plus Enter, Space, the ask control, or an equivalent keyboard path may commit; Delete must restore the exact preceding raster state and R must release memory."
+        },
+        {
+          "persona": "Counter-reading critic",
+          "argument": "The chosen pair cannot answer itself. The checksum must elect an unchosen register, and a fourth register must retain visible residue that changes a later counter-reading."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v027 changes representation, encounter, and memory: it leaves semantic DOM marks for a p5.js raster body, replaces witnessing with pair composition, and replaces remote absence elections with an internal counter-register checksum."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v027 if p5.js only wraps a static image, if a lone offer writes pixels, if the chosen pair is always the answer, if residue is cosmetic, or if the blind work needs its caption to become consequential."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v027-counter-reading",
+        "visitorInput": true,
+        "seed": "0x43504652",
+        "stages": 15,
+        "registerCount": 6,
+        "memoryWindow": 4,
+        "primitiveBudget": 78,
+        "settledStage": 14,
+        "settledMemory": 4,
+        "memoryRule": "a pair is remembered as a bounded negotiation; the checksum elects an unchosen counter-reading and leaves residue in a fourth register",
+        "interactionRule": "offer two different registers; Enter, Space, or the ask control commits; Delete lifts latest; R releases bounded memory",
+        "representationRupture": "semantic DOM witness field, decision ribbon, and nested SVG membrane -> one dense p5.js raster counterportrait with internal apertures",
+        "encounterRupture": "visit-and-commit and traverse-and-departure -> compose-a-pair then ask the code to refuse both",
+        "temporalRupture": "exposure/elected absence memory -> bounded negotiation ledger with checksum-selected counter-register and exact one-step undo",
+        "mediumRupture": "semantic HTML/CSS, Canvas 2D route, and inline SVG -> p5.js raster canvas body",
+        "replay": true,
+        "renderer": "deterministic raster counterportrait",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, production readback, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "A population of situated code-drawn agents responds to pointer proximity with legible attention and reciprocal looking, making the visitor part of a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, and the look-back scene. Translate situated reciprocity into a negotiation between internal registers: a lone offer cannot answer itself, two offers are compared, and a remote unoffered register performs the portrait's answer.",
+        "visibleConsequence": "The blind view is one dense asymmetrical raster body with six embedded apertures. After a pair is committed, the pair tightens and scars, an unchosen counter aperture opens and shifts, and a fourth register keeps residue that changes the next checksum.",
+        "falsifier": "If a lone offer changes pixels, if the chosen pair itself is always the visible answer, if the counter-reading is only a label or glow, if later pair submissions ignore residue, or if the blind canvas reads as a generic dashboard, face, or grid, the translation fails.",
+        "antiCopy": "No animals, character designs, paper scene, source palette, source composition, source code, API surface, or head-turning image is reproduced.",
+        "directionConsequence": "Closes Self portrait's witness-field / ribbon / membrane sequence and opens a counter-reading direction in which code portrays its own decision as an internal checksum that refuses the visitor's offered parts."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and caption-off comparison; delete v027 if a solitary offer changes geometry, if the chosen pair is the visible answer, if the counter aperture or residue is not materially visible in the raster, if later answers ignore the ledger, or if exact lifting fails.",
+        "lineage": "portrait-2026-10-13"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed; candidate held pending production matrix, independent caption-free perceptual review, production readback, and provider revision linkage",
+        "productionReady": false,
+        "rawPreview": "/studies/self-portrait/v027/?preview=1&interaction=1",
+        "blindPreview": "/studies/self-portrait/v027/?preview=1&static=1&blind=1",
+        "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the local matrix, interaction, blind preview, and Journal/current/canonical readbacks",
+        "localInteraction": "solitary offer kept the geometry signature exact; a distinct pair committed an unchosen counter-reading; Enter, the ask button, Delete/lift, duplicate-offer refusal, release, and 44px controls all passed",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, hint, and register hotspots without overflow",
+        "localReadbacks": "local Journal anchor, Self portrait current card, canonical work title, and embedded v027 tableau rendered",
+        "proofDir": "research/qa/proofs/portrait-v027-2026-10-14/",
+        "screenshotCount": 27,
+        "unresolved": [
+          "production browser matrix and deployed readback pending",
+          "independent caption-free perceptual comparison",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "brush-2026-10-13",
       "currentId": "brush",
       "date": "2026-10-13",

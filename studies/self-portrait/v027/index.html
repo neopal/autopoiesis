@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101119">
+  <title>MUTINE — The portrait refuses the first answer.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=027">
+  <script>p5 = window.p5 || undefined;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-14"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v027-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v027 / COUNTER-READING</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v027-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v027</span></nav>
+
+      <figure class="v027-work artwork-frame" aria-labelledby="work-title">
+        <div class="counterportrait-stage" data-counterportrait tabindex="0" role="application" aria-label="A raster counterportrait. Offer two registers, then ask the portrait to answer from a third register." aria-keyshortcuts="0 1 2 3 4 5 Enter Space Delete R">
+          <div id="counterportrait-canvas" aria-hidden="true"></div>
+          <div class="register-hotspots" aria-label="Counterportrait registers">
+            <button type="button" class="register-hotspot" data-register="0" aria-label="Offer register one"><span>01</span></button>
+            <button type="button" class="register-hotspot" data-register="1" aria-label="Offer register two"><span>02</span></button>
+            <button type="button" class="register-hotspot" data-register="2" aria-label="Offer register three"><span>03</span></button>
+            <button type="button" class="register-hotspot" data-register="3" aria-label="Offer register four"><span>04</span></button>
+            <button type="button" class="register-hotspot" data-register="4" aria-label="Offer register five"><span>05</span></button>
+            <button type="button" class="register-hotspot" data-register="5" aria-label="Offer register six"><span>06</span></button>
+          </div>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 counter-readings</span></div>
+          <p class="field-hint" data-hint>offer two registers; the third decides</p>
+          <div class="counter-controls" aria-label="Counterportrait controls">
+            <button type="button" data-action="commit">ask the portrait</button>
+            <button type="button" data-action="lift">lift latest answer</button>
+            <button type="button" data-action="release">release the registers</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v027-counter-reading</span><span>offer &gt; refuse &gt; answer elsewhere</span></figcaption>
+      </figure>
+
+      <section class="v027-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / ENCOUNTER SWITCH / v027</p>
+        <h1 id="work-title">The portrait refuses<br><i>the first answer.</i></h1>
+        <p class="v027-lede">Offer two parts of the image. Code will not answer from either one. Its own third register opens the counter-reading.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">PAIR, THEN ASK</p>
+          <p class="interaction-copy">Touch or focus two numbered apertures, then press Enter, Space, or the button. One aperture alone is refused. Delete lifts the latest answer; R releases the bounded ledger.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The portrait is waiting for two registers.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v027</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v026's scattered witness field and remote absence election. The portrait becomes one raster counterportrait with six internal registers. A solitary offer is refused; a pair opens a negotiation, but an unchosen register becomes the visible answer.</dd></div>
+          <div><dt>visitor action</dt><dd>Offer two different registers by touch, pointer, keyboard focus, or number keys 1–6. Ask with Enter, Space, or the control. Delete lifts the latest counter-reading; R releases memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If a single offer changes geometry, if the chosen pair itself is always the answer, if the counter-reading is only a label or glow, or if the next answer ignores the ledger, the self-decision rule fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v027 if the blind raster reads as a dashboard, face, or generic grid, or if the split body, counter aperture, and residue cannot be found in the pixels without labels, controls, and prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-13/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-14">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=027"></script>
+</body>
+</html>
