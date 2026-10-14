@@ -51,8 +51,22 @@ v031 breaks that invariant in three visible ways:
 - Local readbacks: Journal anchor, Pure SVG current card, canonical work route, raw v031 tableau, and favicon rendered.
 - Captures: `research/qa/proofs/pure-svg-v031-2026-10-14/`.
 
+## Production evidence
+
+- Stable alias: `https://autopoiesis-nine.vercel.app/`
+- Deployment: `dpl_5RrjoKGdogYdTECNT1MxgM3d3UYN` (`READY`)
+- Git SHA pushed before deployment: `8d1914e8ec787342591ffa76eb12bca6d7f2aa8f`; `git ls-remote origin refs/heads/main` matched it.
+- Production HTTP readback: `/studio/data/works.json`, `/studio/data/catalog-public.json`, `/journal/`, `/works/svg-2026-10-14/`, `/studies/pure-svg/v031/?preview=1&interaction=1`, and `/studio/favicon.svg` returned HTTP 200.
+- Deployed works register contained exactly one `svg-2026-10-14` record with raw path `/studies/pure-svg/v031/`.
+- Headless production browser matrix: 20/20 raw/canonical runs passed across the five required viewports in normal and reduced-motion modes.
+- Production overflow: 0 failures; all measured `innerWidth/clientWidth/scrollWidth` values stayed within the viewport.
+- Production diagnostics: 0 console messages, page errors, failed requests, or HTTP 400+ responses.
+- Production interaction and blind preview matched local evidence; all four controls measured `172.6×44px` at `390×844`.
+- Production readbacks: Journal anchor, Pure SVG current card, canonical work title/tableau, raw v031 tableau, and favicon rendered.
+- Captures: `research/qa/proofs/pure-svg-v031-2026-10-14-production/`.
+
 ## Art gate / unresolved doubt
 
-The work remains **candidate / held**. The executable causal rule and responsive/runtime evidence are present. It is not called exhibition-ready because this run does not provide an independent caption-free perceptual judgment of the blind line, and publication/deployment provenance is not yet closed.
+The work remains **candidate / held**. The executable causal rule, responsive/runtime evidence, and production readback are present. It is not called exhibition-ready because this run does not provide an independent caption-free perceptual judgment of the blind line, and the Vercel deployment has not been linked by an explicit provider revision record to the GitHub SHA.
 
 Deletion conditions remain explicit: delete v031 if the blind work reads as a generic graph/interface, if first or adjacent attention writes, if the unoffered witness is not materially carried by the line, if later mishearings forget earlier path order, or if exact lifting fails.
