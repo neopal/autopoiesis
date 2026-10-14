@@ -76,20 +76,29 @@
         "lineage": "portrait-2026-10-13"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed; candidate held pending production matrix, independent caption-free perceptual review, production readback, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "rawPreview": "/studies/self-portrait/v027/?preview=1&interaction=1",
         "blindPreview": "/studies/self-portrait/v027/?preview=1&static=1&blind=1",
         "localViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionViewportMatrix": "20/20 raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "localOverflow": "all 20 local runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
+        "productionOverflow": "all 20 production runs kept innerWidth equal to clientWidth and scrollWidth equal to clientWidth",
         "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the local matrix, interaction, blind preview, and Journal/current/canonical readbacks",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the production matrix, interaction, blind preview, and Journal/current/canonical readbacks",
         "localInteraction": "solitary offer kept the geometry signature exact; a distinct pair committed an unchosen counter-reading; Enter, the ask button, Delete/lift, duplicate-offer refusal, release, and 44px controls all passed",
+        "productionInteraction": "production solitary offer kept the geometry signature exact; a distinct pair committed an unchosen counter-reading; Enter, the ask button, Delete/lift, duplicate-offer refusal, release, and 44px controls all passed",
         "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, hint, and register hotspots without overflow",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the canvas visible while hiding readout, controls, hint, and register hotspots without overflow",
         "localReadbacks": "local Journal anchor, Self portrait current card, canonical work title, and embedded v027 tableau rendered",
+        "productionReadbacks": "production works.json and catalog-public.json returned HTTP 200; Journal anchor, Self portrait current card, canonical work title, embedded v027 tableau, raw tableau, and favicon rendered; exactly one portrait-2026-10-14 record appeared in works.json with 172 total works",
         "proofDir": "research/qa/proofs/portrait-v027-2026-10-14/",
+        "productionProofDir": "research/qa/proofs/portrait-v027-2026-10-14-production/",
         "screenshotCount": 27,
+        "productionScreenshotCount": 27,
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionUnverified": false,
         "unresolved": [
-          "production browser matrix and deployed readback pending",
           "independent caption-free perceptual comparison",
           "provider revision linkage between deployment and GitHub SHA"
         ]

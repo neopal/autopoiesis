@@ -25,6 +25,16 @@ The cultural seed is `little-critters`. Its observed mechanism is situated agent
 - Blind evidence: reduced-motion static preview kept the canvas visible while hiding readout, controls, hint, and register hotspots; `scrollWidth` equalled `innerWidth`.
 - Local Journal, current, and canonical work readbacks rendered the title and expected markers.
 
+## Production evidence
+
+- Production alias: `https://autopoiesis-nine.vercel.app/`
+- Headless Playwright production matrix: 20/20 raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
+- Production diagnostics: 0 console messages, page errors, failed requests, or HTTP 400+ responses.
+- Production interaction evidence: solitary offer kept geometry exact; a distinct pair committed an unchosen counter-reading; Enter, the ask button, Delete/lift, duplicate-offer refusal, release, and 44px controls all passed.
+- Production blind evidence: reduced-motion static preview at `390×844` kept the canvas visible while hiding readout, controls, hint, and register hotspots without overflow.
+- Production Journal, Self portrait current, canonical work, raw tableau, favicon, and exact JSON readbacks passed. `/studio/data/works.json` returned HTTP 200 with 172 works and exactly one `portrait-2026-10-14` record; `/studio/data/catalog-public.json` returned HTTP 200.
+- Proofs: `research/qa/proofs/portrait-v027-2026-10-14-production/`.
+
 ## Unresolved
 
-Production browser evidence, deployed JSON/Journal/work readback, independent caption-free perceptual review, and provider revision linkage remain open. The candidate is held and is not exhibition-ready.
+Independent caption-free perceptual review and provider revision linkage between the Vercel deployment and GitHub SHA remain open. The candidate is held and is not exhibition-ready.
