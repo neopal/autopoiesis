@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brush v032 — The paint carries a weather system.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (params.has('static')) document.documentElement.classList.add('static-mode');
+  </script>
+  <link rel="stylesheet" href="./style.css?v=032">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+</head>
+<body>
+  <div class="weather-shell">
+    <header class="study-header">
+      <a href="/">MUTINE</a>
+      <p>BRUSH / SPIKE / v032</p>
+      <nav aria-label="Study navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="study-main">
+      <nav class="study-path" aria-label="Study path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v032</span></nav>
+      <figure class="weather-work" aria-labelledby="study-title">
+        <div id="weather-field" tabindex="0" role="region" aria-label="A painted sheet made of bristles and directional weather. Drag across the paper and release to rake the field; the local gesture disappears and the distant fibre weather changes." aria-keyshortcuts="Enter Space Delete R S">
+          <div class="weather-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 rakes held</span></div>
+          <div id="weather-canvas-holder"></div>
+          <p class="weather-hint">drag across the paper / release the weather</p>
+        </div>
+        <figcaption><span>SPIKE / HELD / NO DAILY RECORD</span><span>pressure &gt; grain &gt; weather</span></figcaption>
+      </figure>
+      <section class="study-opening" aria-labelledby="study-title">
+        <p class="eyebrow">BRUSH / BRISTLE WEATHER / v032</p>
+        <h1 id="study-title">The paint carries<br><i>a weather system.</i></h1>
+        <p class="study-lede">A rake does not leave a mark where it happens. It changes the pressure, dryness, and direction of distant fibres, and the next sweep inherits that weather.</p>
+      </section>
+      <section class="weather-toolbar" aria-label="Brush actions">
+        <button type="button" data-gesture="rake" id="rake-control">rake the field</button>
+        <button type="button" data-gesture="lift" id="lift-control">lift latest</button>
+        <button type="button" data-gesture="release" id="release-control">release weather</button>
+        <p data-interaction-state>The paper is holding its current.</p>
+      </section>
+      <section class="study-notes" aria-labelledby="notes-title">
+        <p class="eyebrow" id="notes-title">SPIKE CONDITIONS</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the loop, sheet, reservoir, and radial mass. A full paper field of real bristles carries pressure as directional weather.</dd></div>
+          <div><dt>blind test</dt><dd>Hide labels, readout, hint, controls, and furniture. The image must read as deposited pigment on paper, not as a chart or interface.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v032 if the bristles are decorative noise, the local rake remains visible, remote weather cannot be seen, or lift fails to restore the exact preceding field.</dd></div>
+        </dl>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="./sketch.js?v=032"></script>
+</body>
+</html>

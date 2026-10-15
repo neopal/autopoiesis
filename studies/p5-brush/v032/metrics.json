@@ -1,0 +1,23 @@
+{
+  "id": "p5-brush-v032-bristle-weather",
+  "visitorInput": true,
+  "seed": "0x42525532",
+  "stages": 13,
+  "bandCount": 8,
+  "bristleCount": 352,
+  "pointsPerBristle": 56,
+  "memoryWindow": 3,
+  "undoWindow": 12,
+  "minimumRakeMs": 160,
+  "maximumRakeMs": 1000,
+  "minimumTravel": 0.14,
+  "memoryRule": "a bounded rake changes remote bristle shear, drying, wet swelling, and scar scoring in a continuous painted weather field",
+  "interactionRule": "pointerdown arms; pointerup after visible travel and within the duration window commits; weak, still, and over-held rakes refuse; Enter, Space, and the rake control use deterministic events; Delete lifts latest; R releases",
+  "representationRupture": "closed polygon ribbon, folded sheet, radial sediment, and wound reservoir -> full paper sheet of layered bristle paths",
+  "encounterRupture": "offer, pulse, mending, stillness, and drag-to-object -> rake-the-field gesture whose local trace disappears",
+  "temporalRupture": "bounded negative-stroke memory -> drying and directional weather inherited by later bristle deposition",
+  "mediumRupture": "p5.js Canvas 2D with custom fibre deposition, paper grain, under-wash, and pressure-weighted bristles",
+  "replay": true,
+  "renderer": "deterministic p5.js 2D bristle-weather sheet",
+  "promotion": "spike / held pending browser matrix and independent caption-free perceptual review"
+}
