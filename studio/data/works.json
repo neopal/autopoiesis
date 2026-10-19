@@ -16320,7 +16320,7 @@
         "lineage": "naive-2026-10-12"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, shallow refusal, blind preview, Journal/current/work readbacks, responsive, and network checks observed; candidate held pending production browser evidence, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, shallow refusal, blind preview, Journal/current/work readbacks, responsive, network, and favicon checks observed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "rawPreview": "/studies/naive-art/v030/?preview=1&interaction=1",
         "blindPreview": "/studies/naive-art/v030/?preview=1&static=1&blind=1",
         "canonicalShellAndEmbeddedTableauRendered": true,
@@ -16338,10 +16338,22 @@
         "overflowCount": 0,
         "productionReady": false,
         "unresolved": [
-          "production five-viewport browser evidence",
           "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
-          "provider revision linkage between deployment and GitHub SHA"
-        ]
+          "provider revision linkage between the Vercel deployment and GitHub SHA"
+        ],
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "all 20 production raw/canonical runs kept outer scrollWidth within innerWidth; canonical tableau appeared before the generated work heading and neighbouring prose",
+        "productionTouchTargets": "all three production interaction buttons measured 44px high at 390x844",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across the 20 production raw/canonical matrix runs plus interaction, blind, Journal, current, canonical work, and favicon readbacks",
+        "productionInteraction": "production shallow pointer press remained at memory 0 and reported pressure-refused-light; held pointer press committed memory 1, changed 12 boundary points, and routed to remote zone 2; Delete restored the exact baseline; load button and Enter committed; Delete lifted; release returned to memory 0",
+        "productionBlindPreview": "production reduced-motion static blind preview at 390x844 kept the SVG slab visible while hiding readout, controls, and hint; memory remained 0; scrollWidth equaled 390px",
+        "productionReadbacks": "production /studio/data/works.json returned HTTP 200 with 175 works and exactly one naive-2026-10-19 record; rendered Journal anchor/title, Naive current card/title, canonical work title/tableau, raw v030 tableau, and favicon passed",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
+        "productionDeployment": "dpl_CwbVd54rgkf24qhrwCz2FvwUtHuf",
+        "productionProofDir": "research/qa/proofs/naive-v030-2026-10-19-production/",
+        "productionScreenshotCount": 24,
+        "productionDiagnosticCount": 0,
+        "productionOverflowCount": 0
       }
     }
   ]

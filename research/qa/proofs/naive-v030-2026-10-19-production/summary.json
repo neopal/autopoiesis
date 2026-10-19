@@ -1,0 +1,103 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "interaction": {
+    "initial": {
+      "memory": 0
+    },
+    "shallow": {
+      "memory": 0,
+      "interaction": "pressure-refused-light"
+    },
+    "held": {
+      "memory": 1,
+      "interaction": "pressure-committed",
+      "changedBoundaryIds": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "remoteZone": 2,
+      "signatureChanged": true
+    },
+    "lifted": {
+      "memory": 0,
+      "interaction": "pressure-lifted",
+      "exactRestore": true
+    },
+    "button": {
+      "memory": 1,
+      "interaction": "pressure-committed"
+    },
+    "keyboard": {
+      "memory": 2,
+      "interaction": "pressure-committed"
+    },
+    "keyboardLifted": {
+      "memory": 1,
+      "interaction": "pressure-lifted"
+    },
+    "released": {
+      "memory": 0,
+      "interaction": "memory-released"
+    },
+    "touchTargets": [
+      {
+        "text": "press the slab",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release the memory",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blindEvidence": {
+    "svgVisible": true,
+    "readoutDisplay": "none",
+    "controlsDisplay": "none",
+    "hintDisplay": "none",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "memory": 0
+  },
+  "journalEvidence": {
+    "count": 1,
+    "title": "The paper carries weight to the wrong edge.",
+    "canonicalHref": "/works/naive-2026-10-19/#journal",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "currentEvidence": {
+    "header": "Naive art",
+    "targetCount": 1,
+    "targetTitle": "The paper carries weight to the wrong edge.",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "productionAlias": "https://autopoiesis-nine.vercel.app"
+}
