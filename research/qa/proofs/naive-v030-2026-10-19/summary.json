@@ -1,0 +1,492 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "interaction": {
+    "initial": {
+      "memory": 0,
+      "signature": {
+        "closed": true,
+        "boundary": [
+          {
+            "id": 0,
+            "x": 0.16,
+            "y": 0.26
+          },
+          {
+            "id": 1,
+            "x": 0.22,
+            "y": 0.16
+          },
+          {
+            "id": 2,
+            "x": 0.34,
+            "y": 0.19
+          },
+          {
+            "id": 3,
+            "x": 0.43,
+            "y": 0.13
+          },
+          {
+            "id": 4,
+            "x": 0.55,
+            "y": 0.18
+          },
+          {
+            "id": 5,
+            "x": 0.68,
+            "y": 0.14
+          },
+          {
+            "id": 6,
+            "x": 0.8,
+            "y": 0.24
+          },
+          {
+            "id": 7,
+            "x": 0.86,
+            "y": 0.35
+          },
+          {
+            "id": 8,
+            "x": 0.82,
+            "y": 0.47
+          },
+          {
+            "id": 9,
+            "x": 0.88,
+            "y": 0.59
+          },
+          {
+            "id": 10,
+            "x": 0.78,
+            "y": 0.7
+          },
+          {
+            "id": 11,
+            "x": 0.66,
+            "y": 0.76
+          },
+          {
+            "id": 12,
+            "x": 0.54,
+            "y": 0.84
+          },
+          {
+            "id": 13,
+            "x": 0.42,
+            "y": 0.77
+          },
+          {
+            "id": 14,
+            "x": 0.3,
+            "y": 0.83
+          },
+          {
+            "id": 15,
+            "x": 0.19,
+            "y": 0.72
+          },
+          {
+            "id": 16,
+            "x": 0.13,
+            "y": 0.57
+          },
+          {
+            "id": 17,
+            "x": 0.18,
+            "y": 0.41
+          }
+        ],
+        "seams": [
+          {
+            "id": 0,
+            "points": [
+              {
+                "x": 0.18,
+                "y": 0.26,
+                "bend": 0
+              },
+              {
+                "x": 0.235,
+                "y": 0.2729124096361914,
+                "bend": 0
+              },
+              {
+                "x": 0.29,
+                "y": 0.2779923248547471,
+                "bend": 0
+              },
+              {
+                "x": 0.345,
+                "y": 0.2721583372499207,
+                "bend": 0
+              },
+              {
+                "x": 0.4,
+                "y": 0.25894926541830354,
+                "bend": 0
+              },
+              {
+                "x": 0.455,
+                "y": 0.2463775550844573,
+                "bend": 0
+              },
+              {
+                "x": 0.51,
+                "y": 0.2420690370409549,
+                "bend": 0
+              }
+            ],
+            "load": 0
+          },
+          {
+            "id": 1,
+            "points": [
+              {
+                "x": 0.3,
+                "y": 0.3679124096361914,
+                "bend": 0
+              },
+              {
+                "x": 0.355,
+                "y": 0.3729923248547471,
+                "bend": 0
+              },
+              {
+                "x": 0.41,
+                "y": 0.3671583372499207,
+                "bend": 0
+              },
+              {
+                "x": 0.46499999999999997,
+                "y": 0.3539492654183035,
+                "bend": 0
+              },
+              {
+                "x": 0.52,
+                "y": 0.3413775550844573,
+                "bend": 0
+              },
+              {
+                "x": 0.575,
+                "y": 0.33706903704095487,
+                "bend": 0
+              },
+              {
+                "x": 0.63,
+                "y": 0.3436372005182982,
+                "bend": 0
+              }
+            ],
+            "load": 0
+          },
+          {
+            "id": 2,
+            "points": [
+              {
+                "x": 0.43,
+                "y": 0.4679923248547471,
+                "bend": 0
+              },
+              {
+                "x": 0.485,
+                "y": 0.4621583372499207,
+                "bend": 0
+              },
+              {
+                "x": 0.54,
+                "y": 0.44894926541830354,
+                "bend": 0
+              },
+              {
+                "x": 0.595,
+                "y": 0.4363775550844573,
+                "bend": 0
+              },
+              {
+                "x": 0.65,
+                "y": 0.4320690370409549,
+                "bend": 0
+              },
+              {
+                "x": 0.7050000000000001,
+                "y": 0.43863720051829824,
+                "bend": 0
+              },
+              {
+                "x": 0.76,
+                "y": 0.4520978856873089,
+                "bend": 0
+              }
+            ],
+            "load": 0
+          },
+          {
+            "id": 3,
+            "points": [
+              {
+                "x": 0.56,
+                "y": 0.5571583372499207,
+                "bend": 0
+              },
+              {
+                "x": 0.6150000000000001,
+                "y": 0.5439492654183036,
+                "bend": 0
+              },
+              {
+                "x": 0.67,
+                "y": 0.5313775550844574,
+                "bend": 0
+              },
+              {
+                "x": 0.7250000000000001,
+                "y": 0.5270690370409549,
+                "bend": 0
+              },
+              {
+                "x": 0.78,
+                "y": 0.5336372005182982,
+                "bend": 0
+              },
+              {
+                "x": 0.8350000000000001,
+                "y": 0.5470978856873089,
+                "bend": 0
+              },
+              {
+                "x": 0.8900000000000001,
+                "y": 0.5592860215492848,
+                "bend": 0
+              }
+            ],
+            "load": 0
+          },
+          {
+            "id": 4,
+            "points": [
+              {
+                "x": 0.68,
+                "y": 0.6389492654183035,
+                "bend": 0
+              },
+              {
+                "x": 0.7350000000000001,
+                "y": 0.6263775550844574,
+                "bend": 0
+              },
+              {
+                "x": 0.79,
+                "y": 0.6220690370409548,
+                "bend": 0
+              },
+              {
+                "x": 0.8450000000000001,
+                "y": 0.6286372005182982,
+                "bend": 0
+              },
+              {
+                "x": 0.9,
+                "y": 0.6420978856873089,
+                "bend": 0
+              },
+              {
+                "x": 0.9550000000000001,
+                "y": 0.6542860215492847,
+                "bend": 0
+              },
+              {
+                "x": 1.01,
+                "y": 0.6578084484392209,
+                "bend": 0
+              }
+            ],
+            "load": 0
+          }
+        ],
+        "remoteZone": null,
+        "changedBoundaryIds": []
+      }
+    },
+    "shallow": {
+      "memory": 0,
+      "interaction": "pressure-refused-light"
+    },
+    "held": {
+      "memory": 1,
+      "interaction": "pressure-committed",
+      "changedBoundaryIds": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "remoteZone": 2,
+      "signatureChanged": true
+    },
+    "lifted": {
+      "memory": 0,
+      "interaction": "pressure-lifted"
+    },
+    "button": {
+      "memory": 1,
+      "interaction": "pressure-committed"
+    },
+    "keyboard": {
+      "memory": 2,
+      "interaction": "pressure-committed",
+      "changed": true
+    },
+    "keyboardLifted": {
+      "memory": 1,
+      "interaction": "pressure-lifted"
+    },
+    "released": {
+      "memory": 0,
+      "interaction": "memory-released"
+    },
+    "touchTargets": [
+      {
+        "text": "press the slab",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release the memory",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blindEvidence": {
+    "svgVisible": true,
+    "readoutDisplay": "none",
+    "controlsDisplay": "none",
+    "hintDisplay": "none",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "memory": 0
+  },
+  "journalEvidence": {
+    "count": 1,
+    "title": "The paper carries weight to the wrong edge.",
+    "canonicalHref": "/works/naive-2026-10-19/#journal",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "currentEvidence": {
+    "header": "Naive art",
+    "firstTarget": "Naive art2026-10-19\n      \n    \n    \n      Naive artcandidate / held\n      The paper carries weight to the wrong edge.\n      2026-10-196 critiques\n      enter work ↗journal ↗",
+    "targetCount": 1,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "sample": [
+    {
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauTop": 0,
+        "tableauVisible": true,
+        "iframeHeight": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The paper carries weightto the wrong edge."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "tableauTop": 0,
+        "tableauVisible": true,
+        "iframeHeight": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The paper carries weightto the wrong edge."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableauTop": 0,
+        "tableauVisible": true,
+        "iframeHeight": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The paper carries weightto the wrong edge."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    {
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "evidence": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "tableauTop": 0,
+        "tableauVisible": true,
+        "iframeHeight": null,
+        "headingTop": 0,
+        "mountReady": null,
+        "title": "The paper carries weightto the wrong edge."
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    }
+  ]
+}

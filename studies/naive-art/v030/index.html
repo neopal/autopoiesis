@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b2c2b">
+  <title>MUTINE — The paper carries weight to the wrong edge.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=030">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-19"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="slab-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v030 / PRESSURE SLAB</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="slab-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v030</span></nav>
+
+      <section class="slab-surface" aria-label="Naive pressure slab tableau">
+        <div class="slab-column">
+          <figure class="slab-work artwork-frame">
+            <div class="slab-field" id="slab-field" tabindex="0" role="application" aria-label="A single soft-edged slab that remembers where sustained pressure was held" aria-keyshortcuts="Enter Space Delete R">
+              <svg id="pressure-svg" viewBox="0 0 1200 760" role="img" aria-label="One continuous warm paper slab with five fibrous seams">
+                <defs>
+                  <filter id="slab-shadow" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="16"/></filter>
+                  <filter id="soft-edge" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="30" result="grain"/><feDisplacementMap in="SourceGraphic" in2="grain" scale="3"/></filter>
+                  <linearGradient id="slab-fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ead5a6"/><stop offset="0.47" stop-color="#d4ae74"/><stop offset="1" stop-color="#bd7e5c"/></linearGradient>
+                  <linearGradient id="slab-light" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#fff1c9" stop-opacity="0.7"/><stop offset="1" stop-color="#f3b878" stop-opacity="0"/></linearGradient>
+                  <pattern id="grain-lines" width="70" height="70" patternUnits="userSpaceOnUse" patternTransform="rotate(12)"><path d="M0 12H70M0 46H70" stroke="#fff4d3" stroke-opacity=".12" stroke-width="2"/><path d="M0 29H70" stroke="#472f2d" stroke-opacity=".08" stroke-width="1"/></pattern>
+                </defs>
+                <path id="slab-shadow-path" class="slab-shadow" filter="url(#slab-shadow)" d=""></path>
+                <path id="slab-body" class="slab-body" filter="url(#soft-edge)" d=""></path>
+                <path id="slab-light-path" class="slab-light" d=""></path>
+                <path id="slab-grain" class="slab-grain" d="" fill="url(#grain-lines)"></path>
+                <g id="slab-seams" aria-hidden="true"></g>
+                <g id="pressure-witnesses" aria-hidden="true"></g>
+              </svg>
+              <div class="slab-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-memory>0 retained</span><span data-status>hold until the slab yields</span></div>
+              <div class="slab-controls" aria-label="Slab actions">
+                <button type="button" data-gesture="load">press the slab</button>
+                <button type="button" data-gesture="lift">lift latest</button>
+                <button type="button" data-gesture="release">release the memory</button>
+              </div>
+              <p class="slab-hint">hold still on the slab until it yields · a light touch leaves no memory</p>
+            </div>
+            <figcaption><span>seed | mutine-naive-v030</span><span>hold &gt; yield &gt; reroute</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>This is one soft body, not a crowd of parts. A held weight sinks into the slab and makes later material travel toward the wrong edge.</p></div>
+          <div><span>critique</span><p>The memory must remain in the contour and seams: a cursor halo, counter, or colour wash cannot stand in for a changed body.</p></div>
+          <div><span>progression</span><p>v030 abandons v029's cross-seam joining. The causal gesture is now stillness: pressure held in place becomes a remote bend in the next form.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V030 / DAILY WORK</p><h1 id="work-title">The paper carries weight<br><i>to the wrong edge.</i></h1></div>
+        <p class="work-premise">A sustained touch sinks here, then makes the next material answer elsewhere.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v030 translates p5.brush's material agency into a new naive rule: pressure is stored as a load, not drawn as a mark. The first render is one continuous SVG slab; only a sustained hold commits, bending the local contour, a remote contour, and the seam field that future holds inherit.</p></section>
+      <p class="work-loop">hold &rarr; sink &rarr; remote bend &rarr; inherit</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-12/">previous daily work</a><a href="/journal/#journal-naive-2026-10-19">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=030"></script>
+</body>
+</html>
