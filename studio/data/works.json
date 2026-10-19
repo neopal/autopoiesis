@@ -2,6 +2,99 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-20",
+      "currentId": "typography",
+      "date": "2026-10-20",
+      "title": "The quiet gets quoted elsewhere.",
+      "rawPath": "/studies/handwriting/v029/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-20",
+        "note": "v029 abandons v028's two-gap counter exchange, v027's stacked pressure loom, and v026's withdrawal route rack. Twelve browser-native word islands now form an open archipelago: wandering attention accumulates without changing the type, then a collective census makes the most-heard word go quiet, gives its phrase to the least-heard word, and routes the displaced quiet phrase through a third relay. Four census events remain in bounded memory; lifting the latest reconstructs the exact preceding vocabulary."
+      },
+      "critiques": [
+        {
+          "persona": "Language-system critic",
+          "argument": "The work must read as an authored field of word bodies before it reads as twelve controls: scale, spacing, cadence, and the open negative room must carry the composition."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first field should read as an archipelago of situated words, not a route rack, pressure stack, counter grid, or decorative word cloud. After a census, the missing word and remote quotation must be findable in actual text bodies."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement must accumulate attention without deforming the words. Only the collective census commits; a short or narrow visit must refuse, and Delete must restore the exact preceding vocabulary."
+        },
+        {
+          "persona": "Collective-syntax critic",
+          "argument": "The most-attended word cannot answer itself. It must go quiet, the least-attended remote word must inherit its actual phrase, and a third relay must carry the displaced quiet word's former phrase."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v029 must leave v028's two-gap counter reply, v027's duration loom, and v026's withdrawal rack through an open DOM composition, a wander-then-census encounter, and a collective state transition rather than a pair or a pressure duration."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated as situated attention and reciprocal consequence, then abstracted into a crowd syntax of words. No animals, eyes, characters, paper scene, head-turning motion, source palette, source composition, source code, or API surface is reproduced."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v029-attention-census",
+        "seed": "0x48574929",
+        "visitorInput": true,
+        "tileCount": 12,
+        "memoryWindow": 4,
+        "minimumDistinctObserved": 4,
+        "settledStage": 0,
+        "primitiveBudget": 12,
+        "memoryRule": "a wandering attention ledger stays latent; a census silences the most-heard tile, moves its phrase to the least-heard tile, and routes the displaced quiet phrase through a third relay tile",
+        "interactionRule": "pointer movement observes situated words without changing their geometry; after four distinct observations, a census commits; Enter, Space, or the census control use a deterministic walk; Delete lifts latest; R or Escape releases",
+        "representationRupture": "dense counter body, stacked pressure bands, and extruded route rack -> twelve independent DOM word islands in an open archipelago",
+        "encounterRupture": "two-place bridge, global hold, and approach/withdraw -> wander through several words, then commit a collective census",
+        "temporalRupture": "counter exchange, duration pressure, and route custody -> latent attention ledger that becomes a vocabulary rewrite only at census",
+        "mediumRupture": "inline SVG, p5.js Canvas 2D, and p5.js WEBGL -> semantic browser DOM text and CSS transforms with no canvas or SVG tableau",
+        "replay": true,
+        "renderer": "deterministic semantic DOM attention census",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "A population of situated code-drawn agents responds to pointer proximity with legible attention and reciprocal looking, making the visitor part of a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, and head-turning imagery. Translate situated reciprocity into language-as-population: movement records local attention without changing a word, while a collective census makes the most-heard word go quiet, gives its phrase to the least-heard word, and routes the former quiet phrase through a third relay.",
+        "visibleConsequence": "The blind first view is twelve independent DOM word islands in open negative space. Movement alone keeps text and geometry exact; after a valid census, one actual word becomes silent, a remote word inherits its phrase, and a third word inherits the former quiet phrase. Later censuses begin from the changed vocabulary.",
+        "falsifier": "If movement changes text or geometry before the census, if the selected word answers itself, if the remote quotation is only a glow or readout, if the third relay is cosmetic, if later censuses restart from the seed vocabulary, or if the blind field reads as another route, rack, stack, or letter grid, the translation fails.",
+        "antiCopy": "No animals, eyes, characters, paper style, head-turning scene, source palette, source composition, source code, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Handwriting's counter-topology / pressure-loom / depth-custody sequence and opens a collective-syntax direction in which handwriting is a social field of words whose latent attention becomes grammar only at census. It changes both the medium and the viewer task."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v029 if the blind field is only a generic word cloud, if wandering changes geometry before census, if three actual DOM word roles do not change, if later censuses forget the altered vocabulary, if exact lifting fails, or if the cultural translation is only an attention halo.",
+        "lineage": "typography-2026-10-14"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, blind preview, Journal/current/work readbacks, and favicon observed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localRawPreview": "/studies/handwriting/v029/?preview=1&interaction=1",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the twelve word islands visible while hiding readout, controls, and hint; scrollWidth stayed within 390px",
+        "localCanonicalWork": "/works/typography-2026-10-20/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept outer innerWidth/clientWidth/scrollWidth within their measured widths; embedded v029 frames also stayed within their frame widths",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, current, canonical, and favicon readbacks",
+        "localInteraction": "real pointer movement across five DOM word islands left geometry exact with memory 0; census committed memory 0 -> 1 and changed actual text/geometry; Delete restored the exact baseline; Space committed and Escape released; all three controls measured at least 44px",
+        "localReadbacks": "local canonical work rendered the v029 tableau before generated title/prose; Journal rendered exactly one #journal-typography-2026-10-20 anchor/title; Handwriting current rendered exactly one v029 card/title; favicon returned HTTP 200 image/svg+xml",
+        "proofDir": "research/qa/proofs/handwriting-v029-2026-10-20/",
+        "screenshotCount": 3,
+        "unresolved": [
+          "production browser verification and deployed JSON/Journal readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "brush-2026-10-14",
       "currentId": "brush",
       "date": "2026-10-14",

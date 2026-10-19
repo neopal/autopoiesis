@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111020">
+  <title>MUTINE — The quiet gets quoted elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=029">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-20"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="archipelago-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v029 / ATTENTION CENSUS</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="archipelago-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v029</span></nav>
+
+      <figure id="work" class="archipelago-work artwork-frame" aria-labelledby="work-title">
+        <div id="attention-field" class="attention-field" tabindex="0" role="application" aria-label="A field of words that records where attention wanders. Visit at least four words, then take a census to let the quietest word inherit the crowd's phrase." aria-describedby="interaction-state" aria-keyshortcuts="Enter Space Delete R Escape">
+          <div class="field-readout" aria-live="polite"><span data-stage>field / uncounted</span><span data-memory>0 censuses · attention 0</span></div>
+          <div id="word-archipelago" class="word-archipelago" aria-label="Twelve situated words"></div>
+          <div class="field-controls" aria-label="Attention census actions">
+            <button id="take-census" type="button">take census</button>
+            <button id="lift-census" type="button">lift latest</button>
+            <button id="release-census" type="button">release field</button>
+          </div>
+          <p class="field-hint">wander the words · then count who was missed</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v029-attention-census</span><span>wander &gt; count &gt; re-speak</span></figcaption>
+      </figure>
+
+      <section class="archipelago-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / COLLECTIVE SYNTAX / v029</p>
+        <h1 id="work-title">The quiet gets<br><i>quoted elsewhere.</i></h1>
+        <p class="archipelago-lede">A word can be noticed without being allowed to speak for itself. The census answers for the one the crowd forgot.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">WANDER, THEN COUNT</p>
+          <p class="interaction-copy">Move through the word field. Attention accumulates locally but does not deform the type. When four separate words have been visited, take a census: the most-heard word goes quiet, the least-heard word inherits its phrase, and a third word carries the quiet word's old place. Enter, Space, or the button uses a deterministic walk; Delete lifts the latest census; R or Escape releases the bounded ledger.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The words have not been counted.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v029</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the counter body, pressure loom, and depth rack. Twelve situated word islands now carry attention as a latent social state; a census rewrites actual DOM text and placement instead of drawing a reply line.</dd></div>
+          <div><dt>visitor action</dt><dd>Wander across at least four words, then count. Contact is observational. The deterministic census, Enter, and Space use the same collective event; Delete lifts the latest census; R or Escape releases the four-event ledger.</dd></div>
+          <div><dt>falsifier</dt><dd>If hovering or movement changes the words before a census, if the selected word answers itself, if the quietest word does not inherit real text, if the third relay is cosmetic, or if the blind field reads as another route, rack, stack, or letter grid, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v029 if the collective rule is only an attention glow, if a deterministic census cannot change actual word bodies, if later censuses forget the changed vocabulary, or if lifting cannot restore the exact preceding archipelago.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-14/">previous daily work</a><a href="/journal/#journal-typography-2026-10-20">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=029"></script>
+</body>
+</html>
