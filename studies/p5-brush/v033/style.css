@@ -1,0 +1,101 @@
+:root {
+  --seam-ground: #0d1716;
+  --seam-ink: #efe3c9;
+  --seam-muted: #9caaa0;
+  --seam-line: rgba(231, 218, 187, 0.28);
+  --seam-coral: #c67d61;
+  --seam-sage: #7fa590;
+  --seam-gold: #e2b773;
+  --seam-paper: #e7d3aa;
+}
+
+html, body { margin: 0; min-height: 100%; background: var(--seam-ground); color: var(--seam-ink); }
+body { font-family: "Arial Narrow", "Aptos Narrow", Arial, sans-serif; letter-spacing: 0.02em; }
+a { color: inherit; }
+.seam-shell { min-height: 100vh; padding: 22px clamp(16px, 4vw, 64px) 30px; box-sizing: border-box; }
+.studio-header, .studio-footer, .studio-path { max-width: 1180px; margin-inline: auto; }
+.studio-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; border-bottom: 1px solid var(--seam-line); padding-bottom: 15px; text-transform: uppercase; font-size: 10px; letter-spacing: 0.18em; }
+.studio-header p { margin: 0; color: var(--seam-muted); text-align: center; }
+.studio-mark { font-weight: 800; letter-spacing: 0.24em; text-decoration: none; }
+.studio-nav { display: flex; gap: 18px; }
+.studio-nav a, .studio-footer a { text-decoration: none; color: var(--seam-muted); }
+.studio-nav a:hover, .studio-footer a:hover { color: var(--seam-ink); }
+.seam-main { max-width: 1180px; margin: 0 auto; }
+.studio-path { display: flex; gap: 10px; align-items: center; margin-top: 18px; margin-bottom: 22px; color: var(--seam-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+.studio-path a { text-decoration: none; }
+.seam-work { margin: 0; }
+.seam-field { position: relative; overflow: hidden; border: 1px solid var(--seam-line); background: #0b1211; box-shadow: 0 28px 80px rgba(0,0,0,0.25); }
+.seam-canvas { display: block; width: 100%; height: auto; min-height: 460px; background: #0d1716; }
+.field-ground { stroke: rgba(238, 218, 180, 0.20); stroke-width: 2; }
+.field-wash { pointer-events: none; }
+#dynamic-geometry { transform-origin: center; }
+.laminate-shadow { fill: rgba(0, 0, 0, 0.50); filter: url(#soft-shadow); transform: translate(0, 18px); }
+.laminate-edge { fill: none; stroke: rgba(244, 223, 184, 0.30); stroke-width: 3; stroke-linejoin: round; }
+.plate { stroke: rgba(9, 22, 20, 0.75); stroke-width: 4; stroke-linejoin: round; transition: d 380ms cubic-bezier(.22,.8,.22,1), fill 380ms ease; }
+.plate.tone-0 { fill: #ddc69c; }
+.plate.tone-1 { fill: #b66d57; }
+.plate.tone-2 { fill: #769d8b; }
+.plate.tone-3 { fill: #dba96b; }
+.plate.tone-4 { fill: #a6b99c; }
+.plate.state-hinge { filter: saturate(1.18) brightness(1.08); }
+.plate.state-counterweight { filter: saturate(0.82) brightness(0.92); }
+.plate.state-dry-void { fill: #273b35 !important; stroke: #e3c28a; stroke-dasharray: 9 8; }
+.plate-highlight { fill: url(#plate-light); opacity: 0.34; pointer-events: none; }
+.plate-speck { fill: rgba(15, 31, 28, 0.30); pointer-events: none; }
+.dry-seam { fill: none; stroke: #f0d29a; stroke-width: 8; stroke-linecap: round; stroke-linejoin: bevel; opacity: 0.84; filter: drop-shadow(0 0 6px rgba(229, 185, 112, 0.22)); }
+.dry-seam-shadow { fill: none; stroke: #0a1312; stroke-width: 20; stroke-linecap: round; opacity: 0.82; }
+.seam-notch { fill: #101d1a; stroke: rgba(231, 190, 120, 0.56); stroke-width: 2; }
+.seam-readout { position: absolute; top: 17px; left: 19px; z-index: 2; display: flex; gap: 16px; color: var(--seam-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.12em; pointer-events: none; }
+.seam-controls { position: absolute; right: 17px; bottom: 17px; z-index: 2; display: flex; gap: 8px; }
+.seam-controls button { min-height: 44px; padding: 0 13px; border: 1px solid rgba(233, 215, 174, 0.32); border-radius: 999px; color: var(--seam-ink); background: rgba(13, 27, 24, 0.88); font: inherit; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; }
+.seam-controls button:hover, .seam-controls button:focus-visible { background: rgba(199, 125, 97, 0.30); border-color: var(--seam-gold); outline: none; }
+.seam-hint { position: absolute; left: 19px; bottom: 20px; margin: 0; color: rgba(233, 215, 174, 0.78); text-transform: uppercase; font-size: 10px; letter-spacing: 0.16em; pointer-events: none; }
+.seam-work figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 9px; color: var(--seam-muted); text-transform: uppercase; font-size: 9px; letter-spacing: 0.14em; }
+.seam-opening { max-width: 680px; padding: 68px 0 52px; }
+.eyebrow { margin: 0 0 14px; color: var(--seam-coral); text-transform: uppercase; font-size: 10px; letter-spacing: 0.18em; }
+.seam-opening h1 { margin: 0; color: var(--seam-ink); font-family: Georgia, serif; font-size: clamp(44px, 7vw, 94px); font-weight: 400; line-height: 0.92; letter-spacing: -0.055em; }
+.seam-opening h1 i { color: var(--seam-gold); font-weight: 400; }
+.seam-lede { max-width: 570px; margin: 25px 0 0; color: var(--seam-muted); font-size: clamp(16px, 1.9vw, 21px); line-height: 1.42; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 0.55fr); gap: 42px; border-top: 1px solid var(--seam-line); padding: 24px 0 54px; }
+.interaction-copy { max-width: 620px; margin: 0; color: var(--seam-muted); line-height: 1.6; font-size: 15px; }
+.interaction-state { margin: 0; color: var(--seam-gold); line-height: 1.45; font-family: Georgia, serif; font-size: 18px; }
+.annotations { border-top: 1px solid var(--seam-line); padding: 23px 0 70px; }
+.annotations dl { margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; border-bottom: 1px solid rgba(231, 218, 187, 0.12); padding: 14px 0; }
+.annotations dt { color: var(--seam-gold); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+.annotations dd { max-width: 740px; margin: 0; color: var(--seam-muted); line-height: 1.55; font-size: 14px; }
+.studio-footer { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--seam-line); padding-top: 16px; color: var(--seam-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+html.preview-mode body { background: #0b1211; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .seam-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .seam-shell, html.preview-mode .seam-main { max-width: none; padding: 0; margin: 0; }
+html.preview-mode .seam-field { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode .seam-canvas { width: 100vw; min-height: 100vh; height: 100vh; }
+html.preview-mode .seam-work { margin: 0; }
+html.blind-mode .seam-readout, html.blind-mode .seam-controls, html.blind-mode .seam-hint { display: none; }
+html.static-mode .plate { transition: none; }
+@media (prefers-reduced-motion:reduce) {
+  .plate { transition: none; }
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
+@media (max-width:680px) {
+  .seam-shell { padding: 14px 12px 22px; }
+  .studio-header { grid-template-columns: 1fr auto; gap: 10px; }
+  .studio-header p { grid-column: 1 / -1; grid-row: 2; text-align: left; }
+  .studio-nav { gap: 11px; }
+  .studio-path { margin-top: 14px; margin-bottom: 14px; }
+  .seam-canvas { min-height: 0; }
+  .seam-readout { top: 11px; left: 12px; gap: 8px; font-size: 8px; }
+  .seam-hint { left: 12px; bottom: 12px; font-size: 8px; }
+  .seam-controls { left: 12px; right: 12px; bottom: 10px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .seam-controls button { min-height: 44px; padding: 0 5px; font-size: 8px; }
+  .seam-opening { padding: 44px 0 36px; }
+  .seam-opening h1 { font-size: clamp(42px, 15vw, 70px); }
+  .seam-lede { font-size: 16px; }
+  .interaction-panel { display: block; padding-bottom: 38px; }
+  .interaction-state { margin-top: 23px; }
+  .annotations { padding-bottom: 46px; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: 8px; }
+  .studio-footer { display: grid; grid-template-columns: 1fr 1fr; }
+  .studio-footer a:last-child { grid-column: 1 / -1; }
+  html.preview-mode .seam-canvas { min-height: 100vh; }
+}

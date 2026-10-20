@@ -1,0 +1,22 @@
+{
+  "id": "pure-svg-v032-enclosed-facets",
+  "grammar": "enclosed-facets",
+  "visitorInput": true,
+  "seed": "0x53564732",
+  "stages": 13,
+  "facetCount": 12,
+  "primitiveBudget": 12,
+  "memoryWindow": 3,
+  "settledStage": 3,
+  "settledMemory": 3,
+  "memoryRule": "a closed winding over the shared void reorients four facets and quiets a fifth; three enclosures remain liftable",
+  "interactionRule": "pointerdown traces a loop; pointerup commits only when the loop is closed and wide enough; Enter or the enclosure control uses a deterministic loop; Delete lifts latest; Escape or R releases",
+  "representationRupture": "woven bodies, singular negative-space contour, and articulated line -> twelve detached planar cut facets around a shared silence",
+  "encounterRupture": "two separated attentions and press-drag crossing -> draw a closed field whose winding is parsed, then disappears",
+  "temporalRupture": "path-order and cavity-reply memory -> bounded enclosure memory that reorients remote facets and withdraws one quiet facet",
+  "mediumRupture": "stroked and filled SVG paths with shared contour logic -> independent SVG facet paths with role-based cut deformation",
+  "replay": true,
+  "renderer": "deterministic inline SVG enclosed-facet constellation",
+  "measured": true,
+  "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

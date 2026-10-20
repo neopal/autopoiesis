@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101918">
+  <title>MUTINE — The paint sets the wrong seam.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=033">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-20"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="seam-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v033 / DRY-SEAM LAMINATE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="seam-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v033</span></nav>
+
+      <figure class="seam-work artwork-frame" aria-labelledby="work-title">
+        <div id="seam-field" class="seam-field" tabindex="0" role="application" aria-label="A suspended laminate of painted plates around a dry seam. Knock the field three times; the material refuses the touched points and shifts a distant seam." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="seam-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 triplets held</span></div>
+          <svg id="field" class="seam-canvas" viewBox="0 0 1000 700" role="img" aria-label="Nine irregular painted plates suspended around a crooked dry seam" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <linearGradient id="ground-wash" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#162421"></stop>
+                <stop offset="0.52" stop-color="#0d1716"></stop>
+                <stop offset="1" stop-color="#1d211a"></stop>
+              </linearGradient>
+              <linearGradient id="plate-light" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ead8b4" stop-opacity="0.68"></stop>
+                <stop offset="0.54" stop-color="#c18a69" stop-opacity="0.18"></stop>
+                <stop offset="1" stop-color="#253d37" stop-opacity="0.36"></stop>
+              </linearGradient>
+              <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="170%">
+                <feGaussianBlur stdDeviation="15"></feGaussianBlur>
+              </filter>
+              <pattern id="dust" width="28" height="28" patternUnits="userSpaceOnUse">
+                <circle cx="4" cy="8" r="0.8" fill="#f5dfb6" opacity="0.18"></circle>
+                <circle cx="19" cy="21" r="0.55" fill="#91b6a0" opacity="0.18"></circle>
+              </pattern>
+            </defs>
+            <rect class="field-ground" x="0" y="0" width="1000" height="700" rx="28" fill="url(#ground-wash)"></rect>
+            <path class="field-wash" d="M118 270 C218 88 446 54 620 112 C811 175 910 345 817 524 C712 673 418 654 221 579 C104 530 72 393 118 270Z" fill="url(#dust)" opacity="0.72"></path>
+            <g id="dynamic-geometry" aria-hidden="true"></g>
+          </svg>
+          <div class="seam-controls" aria-label="Brush actions">
+            <button id="knock-control" data-gesture="knock" type="button">knock the seam</button>
+            <button id="lift-control" data-gesture="lift" type="button">lift latest</button>
+            <button id="release-control" data-gesture="release" type="button">release laminate</button>
+          </div>
+          <p class="seam-hint">knock / knock / knock · not where you touch</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v033-dry-seam-laminate</span><span>knock &gt; refuse &gt; shift</span></figcaption>
+      </figure>
+
+      <section class="seam-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / DRY-SEAM LAMINATE / v033</p>
+        <h1 id="work-title">The paint sets<br><i>the wrong seam.</i></h1>
+        <p class="seam-lede">Three knocks are offered to the surface. None of them becomes a mark. The laminate chooses a distant hinge, counterweight, and dry void instead.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A TRIPLET, NOT A STROKE</p>
+          <p class="interaction-copy">Tap the field three times without dragging. The first two knocks are only a held rhythm. On the third, material resistance resolves the rhythm elsewhere: a remote plate hinges, another counters it, and a third opens a dry void. Later triplets inherit the moved laminate; Delete reconstructs the exact preceding state.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The seam is refusing the offered points.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v033</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the absorbing painted body, drag, stillness, and pressure pulse. A discrete triplet is parsed as rhythm; the touched points remain empty while three remote plate geometries shift around a crooked seam.</dd></div>
+          <div><dt>visitor action</dt><dd>Tap three times with a quiet hand. Enter, Space, and the knock control use a deterministic triplet. Delete lifts the latest shift. Escape or R releases the bounded laminate memory. S downloads the current SVG.</dd></div>
+          <div><dt>falsifier</dt><dd>If one tap changes geometry, if dragging commits, if the touched plate is always the changed plate, if only a readout or colour moves, or if later triplets restart from the seed laminate, the material rule is absent.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v033 if caption-free viewing cannot show a singular suspended laminate with a consequential dry seam, if three remote plate paths do not change after a triplet, or if lifting the latest triplet fails to restore the exact preceding laminate.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-14/">previous daily work</a><a href="/journal/#journal-brush-2026-10-20">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=033"></script>
+</body>
+</html>

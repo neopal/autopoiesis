@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b121c">
+  <title>MUTINE — The copies watch the wrong place.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=031">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-20"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="orbit-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v031 / COUNTERFEIT ORBIT</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="orbit-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v031</span></nav>
+
+      <section class="orbit-surface" aria-label="Naive counterfeit orbit tableau">
+        <div class="orbit-column">
+          <figure class="orbit-work artwork-frame">
+            <div class="orbit-field" id="orbit-field" tabindex="0" role="application" aria-label="Seven irregular paper witnesses in an orbit; pair two witnesses and hold until the picture misreads itself" aria-keyshortcuts="Enter Space Delete R">
+              <canvas id="witness-canvas" width="1200" height="760" role="img" aria-label="Seven irregular paper witnesses suspended in a dark orbit"></canvas>
+              <div class="orbit-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-memory>0 retained</span><span data-status>choose two witnesses · hold until they misread</span></div>
+              <div class="orbit-controls" aria-label="Orbit actions">
+                <button type="button" data-action="pair">pair the witnesses</button>
+                <button type="button" data-action="lift">lift last misread</button>
+                <button type="button" data-action="release">release the orbit</button>
+              </div>
+              <p class="orbit-hint">select one witness, then another · two touch points can pair at once · selection alone never writes</p>
+            </div>
+            <figcaption><span>seed | mutine-naive-v031</span><span>pair &gt; counterfeit &gt; vacancy</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Seven paper witnesses keep their own wrong orientation. A pair of attention does not clarify them: it makes one copy another and leaves a third without a witness.</p></div>
+          <div><span>critique</span><p>The error must live in the solids. A status line, cursor, or selected outline cannot substitute for the copied mark, turned body, and non-local vacancy.</p></div>
+          <div><span>progression</span><p>v031 abandons v030's single pressure body. The new unit is reciprocal attention: two places make a third place remember the wrong evidence.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V031 / DAILY WORK</p><h1 id="work-title">The copies watch<br><i>the wrong place.</i></h1></div>
+        <p class="work-premise">A pair of witnesses trades its error with a third.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v031 translates little-critters' situated reciprocity into a new naive rule: pair two witnesses and the picture misreads itself. One turns away, one copies the other's defect, and a remote witness opens as a vacancy. The first render is a native-WebGL orbit; no single click or cursor proximity commits memory.</p></section>
+      <p class="work-loop">pair &rarr; avert &rarr; counterfeit &rarr; leave a vacancy</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-19/">previous daily work</a><a href="/journal/#journal-naive-2026-10-20">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=031"></script>
+</body>
+</html>

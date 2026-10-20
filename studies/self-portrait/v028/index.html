@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a12">
+  <title>MUTINE — The portrait changes its grammar.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=028">
+  <script>p5 = window.p5 || undefined;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-20"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v028-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v028 / FOLD GRAMMAR</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v028-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v028</span></nav>
+
+      <figure class="v028-work artwork-frame" aria-labelledby="work-title">
+        <div class="fold-volume-stage" data-fold-volume tabindex="0" role="application" aria-label="A folded grammar volume. Drag a wandering gesture across the volume and release; the portrait interprets the path as a change to its own folding rule." aria-keyshortcuts="Enter Space Delete R Escape">
+          <div id="fold-volume-canvas" aria-hidden="true"></div>
+          <div class="volume-readout" aria-live="polite"><span data-stage>stage 01 / 17</span><span data-memory>0 grammar folds</span><span data-rule>rule fold</span></div>
+          <p class="volume-hint" data-hint>drag a crooked sentence; release to let the grammar answer</p>
+          <div class="gesture-guide" data-gesture-guide aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+          <div class="volume-controls" aria-label="Fold grammar controls">
+            <button type="button" data-action="fold">fold the grammar</button>
+            <button type="button" data-action="lift">lift latest fold</button>
+            <button type="button" data-action="release">release the grammar</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v028-fold-grammar</span><span>gesture &gt; parse &gt; fold elsewhere</span></figcaption>
+      </figure>
+
+      <section class="v028-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / MEDIUM SWITCH / v028</p>
+        <h1 id="work-title">The portrait changes<br><i>its grammar.</i></h1>
+        <p class="v028-lede">Give the volume a crooked sentence. It will not replay the path. It will rewrite the rule that folds its own body.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">DRAG, THEN RELEASE</p>
+          <p class="interaction-copy">Trace three or more points across the volume. The path is read for turns, not location. A hinge folds, a remote counterfold answers, and a relay plate changes the next grammar. Enter, Space, and the button use the same deterministic gesture.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The volume is waiting for a sentence.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v028</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v027's pair negotiation, v026's witness field, and v024's ring rupture. The portrait becomes a suspended WebGL volume of folded plates. A gesture is parsed as grammar; the code selects a non-local hinge, counterfold, and relay, then changes the rule used by the next gesture.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag across at least three distinct points and release. A short path is refused. Enter or Space commits a deterministic path; Delete lifts the latest fold; R or Escape releases the bounded grammar.</dd></div>
+          <div><dt>falsifier</dt><dd>If the pointer location directly selects the visible hinge, if the path is only a drawn trace, if the rule name changes without changing plate geometry, or if later folds restart from the original grammar, the self-decision translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v028 if the blind field reads as a generic 3D demo, a stack of cards, or a decorative animation, or if the hinge, counterfold, relay, and inherited rule cannot be found in the volume without labels, controls, and prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-14/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-20">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=028"></script>
+</body>
+</html>
