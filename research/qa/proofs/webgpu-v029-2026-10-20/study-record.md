@@ -53,6 +53,15 @@ Proof JSON: `results.json`
 - Blind preview: canvas remained visible while editorial/readout furniture was hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
 - Public/catalog readback on the local server: Journal, current, canonical work, source JSON, public catalog, and favicon returned `200`; the named Journal/work target was present.
 
+## Production browser evidence
+
+- Alias: `https://autopoiesis-nine.vercel.app`.
+- Matrix: `20/20` runs passed at the same five viewports in normal and reduced-motion modes across raw preview and canonical routes.
+- Diagnostics: `0` console messages, page errors, failed requests, or HTTP 400+ responses.
+- Interaction and blind preview passed in production, including 44px controls and `390/390/390` width geometry.
+- Production readback: Journal, current, canonical work, `/studio/data/works.json`, `/studio/data/catalog-public.json`, and favicon returned `200`; the `webgpu-2026-10-20` record and Journal target were present.
+- Production proof: `research/qa/proofs/webgpu-v029-2026-10-20-production/results.json`.
+
 ## Review boundary
 
-The candidate remains held. The local runtime gate is complete, but production browser/readback evidence, independent caption-free perceptual comparison, and provider revision linkage are not yet observed. Do not call this exhibition-ready.
+The candidate remains held. Local and production runtime gates are complete, but an independent caption-free perceptual comparison is not observed yet. Provider revision linkage will be rechecked against the final publication commit. Do not call this exhibition-ready.

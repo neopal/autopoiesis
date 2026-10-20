@@ -29,12 +29,16 @@ async function openPage(path, viewport, reducedMotion) {
   const diagnostics = diagnosticsFor(page);
   const response = await page.goto(`${BASE}${path}`, { waitUntil: 'commit', timeout: 15000 });
   await page.waitForTimeout(350);
-  if (path.startsWith('/studies/')) await page.waitForSelector('#pressure-field');
+  if (path.startsWith('/studies/')) {
+    await page.waitForSelector('#pressure-field');
+    await page.waitForFunction(() => window.__mutineReady === true, null, { timeout: 10000 });
+  }
   else {
     await page.waitForSelector('.work-inspect__stage iframe');
     const tableau = page.frames().find((candidate) => candidate.url().includes('/studies/webgpu/v029/'));
     if (!tableau) throw new Error('canonical tableau frame did not attach');
     await tableau.waitForSelector('#pressure-field');
+    await tableau.waitForFunction(() => window.__mutineReady === true, null, { timeout: 10000 });
   }
   return { page, response, diagnostics };
 }
@@ -92,6 +96,7 @@ const interactionDiagnostics = diagnosticsFor(interactionPage);
 await interactionPage.goto(`${BASE}/studies/webgpu/v029/?preview=1&interaction=1`, { waitUntil: 'commit', timeout: 15000 });
   await interactionPage.waitForTimeout(350);
 await interactionPage.waitForSelector('#pressure-field');
+await interactionPage.waitForFunction(() => window.__mutineReady === true, null, { timeout: 10000 });
 const interactionFrame = interactionPage;
 const initial = await interactionFrame.evaluate(() => ({ ...window.__mutineProbe(), memoryText: document.querySelector('[data-memory]').textContent, status: document.querySelector('[data-status]').textContent }));
 const box = await interactionFrame.locator('#pressure-field').boundingBox();
@@ -134,6 +139,7 @@ const blindDiagnostics = diagnosticsFor(blindPage);
 await blindPage.goto(`${BASE}/studies/webgpu/v029/?preview=1&static=1&blind=1`, { waitUntil: 'commit', timeout: 15000 });
   await blindPage.waitForTimeout(350);
 await blindPage.waitForSelector('#pressure-field');
+await blindPage.waitForFunction(() => window.__mutineReady === true, null, { timeout: 10000 });
 const blind = await blindPage.evaluate(() => ({
   canvasVisible: getComputedStyle(document.querySelector('#pressure-field')).display !== 'none',
   readoutDisplay: getComputedStyle(document.querySelector('.pressure-readout')).display,

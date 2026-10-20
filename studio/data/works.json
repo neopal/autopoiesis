@@ -81,7 +81,7 @@
         "lineage": "webgpu-2026-10-13"
       },
       "browserEvidence": {
-        "status": "candidate / held pending independent caption-free perceptual review, production browser matrix, and provider revision linkage",
+        "status": "candidate / held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "local": {
           "status": "passed",
@@ -95,9 +95,22 @@
           "interaction": "short traverse inert; valid traverse commits one redistribution; Delete restores the exact geometry signature; keyboard compression and release paths pass",
           "blindPreview": "canvas visible with editorial/readout furniture hidden; 390/390/390 width probe"
         },
+        "production": {
+          "status": "passed",
+          "alias": "https://autopoiesis-nine.vercel.app",
+          "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+          "modes": ["normal", "reduced-motion"],
+          "routes": ["raw preview", "canonical work"],
+          "matrixRuns": 20,
+          "diagnostics": 0,
+          "screenshots": 22,
+          "interaction": "short traverse inert; valid traverse commits one redistribution; Delete restores the exact geometry signature; keyboard compression, lift, release, and 44px controls pass",
+          "blindPreview": "canvas visible with editorial/readout furniture hidden; 390/390/390 width probe",
+          "readback": "Journal, current, canonical work, source JSON, public catalog, and favicon returned 200; the named work and Journal target were present"
+        },
         "proofPath": "research/qa/proofs/webgpu-v029-2026-10-20/results.json",
+        "productionProofPath": "research/qa/proofs/webgpu-v029-2026-10-20-production/results.json",
         "unresolved": [
-          "production browser matrix and public readback",
           "independent caption-free perceptual comparison with labels, readout, controls, caption, annotations, and prose hidden",
           "provider revision linkage between deployment and GitHub SHA"
         ]

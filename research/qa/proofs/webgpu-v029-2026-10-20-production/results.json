@@ -1,0 +1,173 @@
+{
+  "target": "webgpu v029 / 2026-10-20",
+  "base": "https://autopoiesis-nine.vercel.app",
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "diagnosticCount": 0,
+  "screenshotCount": 22,
+  "interaction": {
+    "initial": {
+      "memory": 0,
+      "signature": "{\"field\":\"{\\\"route\\\":\\\"quiet\\\",\\\"fibers\\\":[[0,0,0,0,0,0],[1,0,0,0,0,0],[2,0,0,0,0,0],[3,0,0,0,0,0],[4,0,0,0,0,0],[5,0,0,0,0,0],[6,0,0,0,0,0],[7,0,0,0,0,0],[8,0,0,0,0,0],[9,0,0,0,0,0],[10,0,0,0,0,0],[11,0,0,0,0,0],[12,0,0,0,0,0],[13,0,0,0,0,0],[14,0,0,0,0,0],[15,0,0,0,0,0],[16,0,0,0,0,0],[17,0,0,0,0,0]]}\",\"fibers\":[{\"id\":0,\"strand\":0,\"step\":0,\"x\":0.11175,\"y\":0.20736,\"phase\":1.45609,\"width\":0.03138,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":1,\"strand\":1,\"step\":0,\"x\":0.08261,\"y\":0.5721,\"phase\":4.82695,\"width\":0.02873,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":2,\"strand\":2,\"step\":0,\"x\":0.11531,\"y\":0.72906,\"phase\":3.93923,\"width\":0.02516,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":3,\"strand\":0,\"step\":1,\"x\":0.26806,\"y\":0.29461,\"phase\":5.60009,\"width\":0.0391,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":4,\"strand\":1,\"step\":1,\"x\":0.27307,\"y\":0.54155,\"phase\":2.57466,\"width\":0.02476,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":5,\"strand\":2,\"step\":1,\"x\":0.25008,\"y\":0.6923,\"phase\":1.65252,\"width\":0.03049,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":6,\"strand\":0,\"step\":2,\"x\":0.42993,\"y\":0.31641,\"phase\":0.40599,\"width\":0.03629,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":7,\"strand\":1,\"step\":2,\"x\":0.43326,\"y\":0.47199,\"phase\":5.27057,\"width\":0.0281,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":8,\"strand\":2,\"step\":2,\"x\":0.41281,\"y\":0.69082,\"phase\":0.26466,\"width\":0.03624,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":9,\"strand\":0,\"step\":3,\"x\":0.58844,\"y\":0.26243,\"phase\":2.26553,\"width\":0.04095,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":10,\"strand\":1,\"step\":3,\"x\":0.566,\"y\":0.40774,\"phase\":4.29161,\"width\":0.02667,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":11,\"strand\":2,\"step\":3,\"x\":0.57321,\"y\":0.71743,\"phase\":1.43015,\"width\":0.03435,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":12,\"strand\":0,\"step\":4,\"x\":0.7242,\"y\":0.19589,\"phase\":4.27262,\"width\":0.02992,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":13,\"strand\":1,\"step\":4,\"x\":0.73726,\"y\":0.41548,\"phase\":5.91805,\"width\":0.03941,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":14,\"strand\":2,\"step\":4,\"x\":0.72847,\"y\":0.78534,\"phase\":0.93307,\"width\":0.03679,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":15,\"strand\":0,\"step\":5,\"x\":0.91558,\"y\":0.15796,\"phase\":3.61303,\"width\":0.02881,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":16,\"strand\":1,\"step\":5,\"x\":0.90257,\"y\":0.45406,\"phase\":2.0672,\"width\":0.04145,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":17,\"strand\":2,\"step\":5,\"x\":0.90901,\"y\":0.85069,\"phase\":5.3791,\"width\":0.03964,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0}]}",
+      "action": "quiet",
+      "memoryText": "0 compressions",
+      "status": "18 fibers · draw a cut across the braid"
+    },
+    "short": {
+      "memory": 0,
+      "signature": "{\"field\":\"{\\\"route\\\":\\\"quiet\\\",\\\"fibers\\\":[[0,0,0,0,0,0],[1,0,0,0,0,0],[2,0,0,0,0,0],[3,0,0,0,0,0],[4,0,0,0,0,0],[5,0,0,0,0,0],[6,0,0,0,0,0],[7,0,0,0,0,0],[8,0,0,0,0,0],[9,0,0,0,0,0],[10,0,0,0,0,0],[11,0,0,0,0,0],[12,0,0,0,0,0],[13,0,0,0,0,0],[14,0,0,0,0,0],[15,0,0,0,0,0],[16,0,0,0,0,0],[17,0,0,0,0,0]]}\",\"fibers\":[{\"id\":0,\"strand\":0,\"step\":0,\"x\":0.11175,\"y\":0.20736,\"phase\":1.45609,\"width\":0.03138,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":1,\"strand\":1,\"step\":0,\"x\":0.08261,\"y\":0.5721,\"phase\":4.82695,\"width\":0.02873,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":2,\"strand\":2,\"step\":0,\"x\":0.11531,\"y\":0.72906,\"phase\":3.93923,\"width\":0.02516,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":3,\"strand\":0,\"step\":1,\"x\":0.26806,\"y\":0.29461,\"phase\":5.60009,\"width\":0.0391,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":4,\"strand\":1,\"step\":1,\"x\":0.27307,\"y\":0.54155,\"phase\":2.57466,\"width\":0.02476,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":5,\"strand\":2,\"step\":1,\"x\":0.25008,\"y\":0.6923,\"phase\":1.65252,\"width\":0.03049,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":6,\"strand\":0,\"step\":2,\"x\":0.42993,\"y\":0.31641,\"phase\":0.40599,\"width\":0.03629,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":7,\"strand\":1,\"step\":2,\"x\":0.43326,\"y\":0.47199,\"phase\":5.27057,\"width\":0.0281,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":8,\"strand\":2,\"step\":2,\"x\":0.41281,\"y\":0.69082,\"phase\":0.26466,\"width\":0.03624,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":9,\"strand\":0,\"step\":3,\"x\":0.58844,\"y\":0.26243,\"phase\":2.26553,\"width\":0.04095,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":10,\"strand\":1,\"step\":3,\"x\":0.566,\"y\":0.40774,\"phase\":4.29161,\"width\":0.02667,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":11,\"strand\":2,\"step\":3,\"x\":0.57321,\"y\":0.71743,\"phase\":1.43015,\"width\":0.03435,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":12,\"strand\":0,\"step\":4,\"x\":0.7242,\"y\":0.19589,\"phase\":4.27262,\"width\":0.02992,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":13,\"strand\":1,\"step\":4,\"x\":0.73726,\"y\":0.41548,\"phase\":5.91805,\"width\":0.03941,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":14,\"strand\":2,\"step\":4,\"x\":0.72847,\"y\":0.78534,\"phase\":0.93307,\"width\":0.03679,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":15,\"strand\":0,\"step\":5,\"x\":0.91558,\"y\":0.15796,\"phase\":3.61303,\"width\":0.02881,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":16,\"strand\":1,\"step\":5,\"x\":0.90257,\"y\":0.45406,\"phase\":2.0672,\"width\":0.04145,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":17,\"strand\":2,\"step\":5,\"x\":0.90901,\"y\":0.85069,\"phase\":5.3791,\"width\":0.03964,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0}]}",
+      "action": "compression-refused-short",
+      "memoryText": "0 compressions",
+      "status": "the field refuses a short cut · no history added"
+    },
+    "committed": {
+      "memory": 1,
+      "signature": "{\"field\":\"{\\\"route\\\":\\\"2>14>12>5>16>0.58\\\",\\\"fibers\\\":[[0,0,0,0,0,0],[1,0,-0.1044,0,0.0812,0],[2,0,0,0,0,0],[3,0,0,0,0,0],[4,0,0,0,0,0],[5,0.3364,-0.522,0,0.1624,-0.2146],[6,0,0,0,0,0],[7,0,0,0,0,0],[8,0,0,0,0,0],[9,0,0,0,0,0],[10,0,0,0,0,0],[11,0,0,0,0,0],[12,0.58,0.4176,0,0.203,0.3016],[13,0,0,0,0,0],[14,0,0,0,0,0],[15,0,0,0,0,0],[16,0,0.116,0.4176,0,0.1392],[17,0,0,0,0,0]]}\",\"fibers\":[{\"id\":0,\"strand\":0,\"step\":0,\"x\":0.11175,\"y\":0.20736,\"phase\":1.45609,\"width\":0.03138,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":1,\"strand\":1,\"step\":0,\"x\":0.08261,\"y\":0.5721,\"phase\":4.82695,\"width\":0.02873,\"pressure\":0,\"slip\":-0.1044,\"gap\":0,\"wake\":0.0812,\"shear\":0},{\"id\":2,\"strand\":2,\"step\":0,\"x\":0.11531,\"y\":0.72906,\"phase\":3.93923,\"width\":0.02516,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":3,\"strand\":0,\"step\":1,\"x\":0.26806,\"y\":0.29461,\"phase\":5.60009,\"width\":0.0391,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":4,\"strand\":1,\"step\":1,\"x\":0.27307,\"y\":0.54155,\"phase\":2.57466,\"width\":0.02476,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":5,\"strand\":2,\"step\":1,\"x\":0.25008,\"y\":0.6923,\"phase\":1.65252,\"width\":0.03049,\"pressure\":0.3364,\"slip\":-0.522,\"gap\":0,\"wake\":0.1624,\"shear\":-0.2146},{\"id\":6,\"strand\":0,\"step\":2,\"x\":0.42993,\"y\":0.31641,\"phase\":0.40599,\"width\":0.03629,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":7,\"strand\":1,\"step\":2,\"x\":0.43326,\"y\":0.47199,\"phase\":5.27057,\"width\":0.0281,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":8,\"strand\":2,\"step\":2,\"x\":0.41281,\"y\":0.69082,\"phase\":0.26466,\"width\":0.03624,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":9,\"strand\":0,\"step\":3,\"x\":0.58844,\"y\":0.26243,\"phase\":2.26553,\"width\":0.04095,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":10,\"strand\":1,\"step\":3,\"x\":0.566,\"y\":0.40774,\"phase\":4.29161,\"width\":0.02667,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":11,\"strand\":2,\"step\":3,\"x\":0.57321,\"y\":0.71743,\"phase\":1.43015,\"width\":0.03435,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":12,\"strand\":0,\"step\":4,\"x\":0.7242,\"y\":0.19589,\"phase\":4.27262,\"width\":0.02992,\"pressure\":0.58,\"slip\":0.4176,\"gap\":0,\"wake\":0.203,\"shear\":0.3016},{\"id\":13,\"strand\":1,\"step\":4,\"x\":0.73726,\"y\":0.41548,\"phase\":5.91805,\"width\":0.03941,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":14,\"strand\":2,\"step\":4,\"x\":0.72847,\"y\":0.78534,\"phase\":0.93307,\"width\":0.03679,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":15,\"strand\":0,\"step\":5,\"x\":0.91558,\"y\":0.15796,\"phase\":3.61303,\"width\":0.02881,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":16,\"strand\":1,\"step\":5,\"x\":0.90257,\"y\":0.45406,\"phase\":2.0672,\"width\":0.04145,\"pressure\":0,\"slip\":0.116,\"gap\":0.4176,\"wake\":0,\"shear\":0.1392},{\"id\":17,\"strand\":2,\"step\":5,\"x\":0.90901,\"y\":0.85069,\"phase\":5.3791,\"width\":0.03964,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0}]}",
+      "action": "compression-committed",
+      "memoryText": "1 compression",
+      "status": "cut released · resistance moved to a remote knot"
+    },
+    "lifted": {
+      "memory": 0,
+      "signature": "{\"field\":\"{\\\"route\\\":\\\"quiet\\\",\\\"fibers\\\":[[0,0,0,0,0,0],[1,0,0,0,0,0],[2,0,0,0,0,0],[3,0,0,0,0,0],[4,0,0,0,0,0],[5,0,0,0,0,0],[6,0,0,0,0,0],[7,0,0,0,0,0],[8,0,0,0,0,0],[9,0,0,0,0,0],[10,0,0,0,0,0],[11,0,0,0,0,0],[12,0,0,0,0,0],[13,0,0,0,0,0],[14,0,0,0,0,0],[15,0,0,0,0,0],[16,0,0,0,0,0],[17,0,0,0,0,0]]}\",\"fibers\":[{\"id\":0,\"strand\":0,\"step\":0,\"x\":0.11175,\"y\":0.20736,\"phase\":1.45609,\"width\":0.03138,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":1,\"strand\":1,\"step\":0,\"x\":0.08261,\"y\":0.5721,\"phase\":4.82695,\"width\":0.02873,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":2,\"strand\":2,\"step\":0,\"x\":0.11531,\"y\":0.72906,\"phase\":3.93923,\"width\":0.02516,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":3,\"strand\":0,\"step\":1,\"x\":0.26806,\"y\":0.29461,\"phase\":5.60009,\"width\":0.0391,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":4,\"strand\":1,\"step\":1,\"x\":0.27307,\"y\":0.54155,\"phase\":2.57466,\"width\":0.02476,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":5,\"strand\":2,\"step\":1,\"x\":0.25008,\"y\":0.6923,\"phase\":1.65252,\"width\":0.03049,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":6,\"strand\":0,\"step\":2,\"x\":0.42993,\"y\":0.31641,\"phase\":0.40599,\"width\":0.03629,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":7,\"strand\":1,\"step\":2,\"x\":0.43326,\"y\":0.47199,\"phase\":5.27057,\"width\":0.0281,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":8,\"strand\":2,\"step\":2,\"x\":0.41281,\"y\":0.69082,\"phase\":0.26466,\"width\":0.03624,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":9,\"strand\":0,\"step\":3,\"x\":0.58844,\"y\":0.26243,\"phase\":2.26553,\"width\":0.04095,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":10,\"strand\":1,\"step\":3,\"x\":0.566,\"y\":0.40774,\"phase\":4.29161,\"width\":0.02667,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":11,\"strand\":2,\"step\":3,\"x\":0.57321,\"y\":0.71743,\"phase\":1.43015,\"width\":0.03435,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":12,\"strand\":0,\"step\":4,\"x\":0.7242,\"y\":0.19589,\"phase\":4.27262,\"width\":0.02992,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":13,\"strand\":1,\"step\":4,\"x\":0.73726,\"y\":0.41548,\"phase\":5.91805,\"width\":0.03941,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":14,\"strand\":2,\"step\":4,\"x\":0.72847,\"y\":0.78534,\"phase\":0.93307,\"width\":0.03679,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":15,\"strand\":0,\"step\":5,\"x\":0.91558,\"y\":0.15796,\"phase\":3.61303,\"width\":0.02881,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":16,\"strand\":1,\"step\":5,\"x\":0.90257,\"y\":0.45406,\"phase\":2.0672,\"width\":0.04145,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0},{\"id\":17,\"strand\":2,\"step\":5,\"x\":0.90901,\"y\":0.85069,\"phase\":5.3791,\"width\":0.03964,\"pressure\":0,\"slip\":0,\"gap\":0,\"wake\":0,\"shear\":0}]}",
+      "action": "compression-lifted",
+      "memoryText": "0 compressions"
+    },
+    "keyboardCommitted": "1 compression",
+    "keyboardLifted": "0 compressions",
+    "touchTargets": [
+      {
+        "text": "compress the field",
+        "width": 136.3125,
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "width": 95.046875,
+        "height": 44
+      },
+      {
+        "text": "release archive",
+        "width": 118.640625,
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "canvasVisible": true,
+      "readoutDisplay": "none",
+      "statusDisplay": "none",
+      "controlsDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "memory": "4 compressions"
+    },
+    "diagnostics": {
+      "console": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "badResponses": []
+    }
+  },
+  "readback": [
+    {
+      "name": "journal",
+      "status": 200,
+      "hasTarget": true,
+      "sourceOmitted": null,
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "badResponses": []
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "current",
+      "status": 200,
+      "hasTarget": true,
+      "sourceOmitted": null,
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "badResponses": []
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "canonical",
+      "status": 200,
+      "hasTarget": true,
+      "sourceOmitted": null,
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "badResponses": []
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "works-json",
+      "status": 200,
+      "hasTarget": true,
+      "sourceOmitted": null,
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "badResponses": []
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "public-json",
+      "status": 200,
+      "hasTarget": true,
+      "sourceOmitted": true,
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "badResponses": []
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "favicon",
+      "status": 200,
+      "hasTarget": false,
+      "sourceOmitted": null,
+      "diagnostics": {
+        "console": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "badResponses": []
+      },
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "status": "passed"
+}
