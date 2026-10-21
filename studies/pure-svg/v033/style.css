@@ -1,0 +1,87 @@
+:root {
+  --ground: #0d1017;
+  --surface: #151821;
+  --ink: #eee6d6;
+  --muted: #aaa8ae;
+  --line: rgba(229, 219, 198, .22);
+  --accent: #e6b27f;
+  --rose: #b98286;
+  --cool: #9bb8c7;
+  --sheet: #d7d5c4;
+}
+
+html, body { background: var(--ground); }
+body.work-page[data-current='svg'] { color: var(--ink); }
+body.work-page[data-current='svg'] .studio-shell { background: radial-gradient(circle at 12% 4%, rgba(154, 111, 119, .14), transparent 32rem), var(--ground); }
+body.work-page[data-current='svg'] .studio-header,
+body.work-page[data-current='svg'] .studio-footer { border-color: var(--line); }
+body.work-page[data-current='svg'] .studio-header p,
+body.work-page[data-current='svg'] .studio-footer,
+body.work-page[data-current='svg'] .studio-path { color: var(--muted); }
+
+.work-surface { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem); gap: 1.5rem; align-items: start; }
+.field-wrap { position: relative; min-width: 0; overflow: hidden; background: #090b10; }
+#field { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 680; background: #090b10; touch-action: none; }
+#field:focus-visible { outline: 2px solid var(--accent); outline-offset: -8px; }
+.field-ground { fill: url(#paper-ground); }
+.sheet-shadow { fill: rgba(0, 0, 0, .6); }
+.sheet { fill: url(#sheet-fill); }
+.sheet-edge { stroke: url(#sheet-edge); stroke-width: 3; opacity: .8; }
+.sheet-grain { stroke: rgba(255, 244, 217, .26); stroke-width: 1.1; opacity: .7; }
+.sheet-seam { fill: none; stroke: rgba(56, 45, 55, .72); stroke-width: 9; stroke-linecap: round; stroke-dasharray: 2 18; opacity: .72; pointer-events: none; }
+.fault { fill: #6f5968; stroke: rgba(40, 34, 45, .72); stroke-width: 2; stroke-linejoin: round; transition: d 360ms cubic-bezier(.2,.8,.2,1), fill 360ms ease, opacity 360ms ease, transform 360ms ease; }
+.fault--quiet { fill: #7f7b86; opacity: .7; }
+.fault--receded { fill: #b98286; opacity: .9; }
+.fault--counterweight { fill: #9bb8c7; opacity: .96; }
+.fault--scarred { fill: #e6b27f; opacity: .96; }
+.fault--remembered { stroke-dasharray: 2 6; }
+.fault--source { stroke: #f3d2a3; stroke-width: 4.2; }
+.fault--counter { stroke: #b6d7df; stroke-width: 3.6; }
+.fault--scar { stroke: #f2c697; stroke-width: 3.2; }
+.memory-mark { fill: none; stroke: rgba(238, 218, 182, .38); stroke-width: 1.4; stroke-dasharray: 1 7; pointer-events: none; }
+.field-labels { fill: rgba(239, 231, 214, .76); font: 11px/1.2 'DM Mono', ui-monospace, monospace; letter-spacing: .08em; }
+.field-readout { position: absolute; inset: auto 1rem 1rem; display: flex; justify-content: space-between; gap: 1rem; color: rgba(238, 232, 213, .82); font: 10px/1.2 'DM Mono', ui-monospace, monospace; letter-spacing: .07em; text-transform: uppercase; pointer-events: none; }
+.field-controls { position: absolute; top: 1rem; right: 1rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; max-width: 72%; }
+.field-controls button { min-height: 44px; padding: .65rem .8rem; border: 1px solid rgba(230, 178, 127, .48); border-radius: 999px; background: rgba(12, 15, 23, .86); color: var(--ink); font: 11px/1 'DM Mono', ui-monospace, monospace; cursor: pointer; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--accent); color: #fff3df; }
+.field-controls button:disabled { opacity: .34; cursor: not-allowed; }
+.work-annotations { display: grid; gap: 1rem; color: var(--muted); }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .7rem; }
+.work-annotations span { display: block; margin-bottom: .45rem; color: var(--accent); font: 10px/1 'DM Mono', ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
+.work-annotations p { margin: 0; font: .83rem/1.45 'DM Mono', ui-monospace, monospace; }
+.work-opening { display: grid; grid-template-columns: minmax(0, .85fr) minmax(14rem, .6fr); gap: 2rem; padding: clamp(2rem, 6vw, 5rem) 0 2rem; align-items: end; }
+.work-opening h1 { max-width: 10ch; margin: .35rem 0 0; color: var(--ink); font: 400 clamp(3.5rem, 8vw, 8rem)/.8 'Instrument Serif', Georgia, serif; letter-spacing: -.06em; }
+.work-opening h1 i { color: #c69ca1; font-style: italic; }
+.work-premise { max-width: 30rem; margin: 0; color: #b9b5b9; font: 1rem/1.5 'DM Mono', ui-monospace, monospace; }
+.work-note { max-width: 48rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1rem 0; color: var(--muted); }
+.work-note p { margin: 0; font: .78rem/1.55 'DM Mono', ui-monospace, monospace; }
+.work-note strong { color: var(--ink); font-weight: 500; }
+
+html.preview-mode .studio-header, html.preview-mode .studio-footer, html.preview-mode .studio-path, html.preview-mode .work-opening, html.preview-mode .work-note, html.preview-mode .work-annotations { display: none; }
+html.preview-mode .studio-main { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .work-surface { display: block; }
+html.preview-mode .field-wrap { border: 0; }
+html.blind-mode .field-readout, html.blind-mode .field-controls, html.blind-mode .work-annotations, html.blind-mode .work-opening, html.blind-mode .work-note { display: none; }
+html.static-mode .field-readout, html.static-mode .field-controls { display: none; }
+
+@media (max-width: 980px) {
+  .work-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, 1fr); }
+  .work-opening { grid-template-columns: 1fr .8fr; }
+}
+
+@media (max-width: 680px) {
+  .work-surface { gap: 1rem; }
+  .field-controls { inset: auto .65rem .65rem; max-width: none; justify-content: stretch; }
+  .field-controls button { flex: 1 1 8rem; padding-inline: .45rem; font-size: 10px; }
+  .field-readout { inset: .65rem .65rem auto; flex-direction: column; gap: .25rem; font-size: 9px; }
+  .work-annotations { grid-template-columns: 1fr; gap: .75rem; }
+  .work-opening { grid-template-columns: 1fr; gap: 1.25rem; padding-top: 2.5rem; }
+  .work-opening h1 { font-size: clamp(3.1rem, 15vw, 5.4rem); }
+  .work-premise { font-size: .82rem; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; }
+  .fault { transition: none; }
+}

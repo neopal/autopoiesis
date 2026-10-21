@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e7e2d6">
+  <title>MUTINE — The sheet refuses the local mark.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=033">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-10-21"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v033</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v033</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 680" role="img" aria-label="A single compound SVG sheet whose pressure redistributes through a receding fault, a remote counterweight, and a scar" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space Delete Escape R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 00 / 16</span><span data-memory>0 pressure events · the sheet is quiet</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="pressure-control" data-gesture="pressure">hold the sheet</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One compound SVG sheet carries a diagonal rift and seven quiet faults. It is a surface with internal resistance, not a field of detachable parts.</p></div>
+          <div><span>changed rule</span><p>A bounded hold does not mark where it lands. Material resistance redistributes the offer into a receding fault, a remote counterweight, and a scar inside the same sheet.</p></div>
+          <div><span>progression</span><p>Press and hold, then release. A short or over-held offer refuses; Enter repeats a measured pressure; Delete lifts latest; Escape or R releases the ledger.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V033 / DAILY WORK</p><h1 id="work-title">The sheet refuses<br><i>the local mark.</i></h1></div>
+        <p class="work-premise">Pressure is offered at one fault but cannot stay there. The compound body answers elsewhere: one place recedes, another gathers weight, and a third keeps the scar.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: weak and over-held offers refuse, a bounded hold changes one compound sheet through three remote roles, memory is bounded, and lifting reconstructs the exact previous geometry. Promotion depends on whether the blind field reads as an authored resistant body rather than a contour, diagram, or interface.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=033"></script>
+</body>
+</html>
