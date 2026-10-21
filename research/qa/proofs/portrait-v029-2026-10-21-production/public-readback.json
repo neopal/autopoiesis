@@ -1,0 +1,43 @@
+{
+  "alias": "https://autopoiesis-nine.vercel.app",
+  "sourceWorks": {
+    "path": "/studio/data/works.json",
+    "status": 200,
+    "matchingRecordCount": 1,
+    "recordId": "portrait-2026-10-21"
+  },
+  "publicCatalog": {
+    "path": "/studio/data/catalog-public.json",
+    "status": 200,
+    "matchingRecordCount": 1,
+    "recordId": "portrait-2026-10-21"
+  },
+  "journal": {
+    "path": "/journal/",
+    "status": 200,
+    "anchor": "journal-portrait-2026-10-21",
+    "titlePresent": true
+  },
+  "current": {
+    "path": "/currents/self-portrait/",
+    "status": 200,
+    "titlePresent": true
+  },
+  "canonicalWork": {
+    "path": "/works/portrait-2026-10-21/",
+    "status": 200,
+    "mountPresent": true,
+    "titlePresent": true
+  },
+  "rawPreview": {
+    "path": "/studies/self-portrait/v029/?preview=1",
+    "status": 200,
+    "tableauPresent": true
+  },
+  "favicon": {
+    "path": "/studio/favicon.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  "diagnostics": 0
+}
