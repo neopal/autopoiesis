@@ -2,6 +2,110 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-21",
+      "currentId": "brush",
+      "date": "2026-10-21",
+      "title": "The paint keeps the unlooked-for.",
+      "rawPath": "/studies/p5-brush/v034/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-21",
+        "note": "v034 abandons v033's three-knock SVG plate rhythm, v031's drag refusal, and v030's pressure pulse. One raster pigment field now records proximity without changing the watched places: five distinct observations form a census, then a remote pool dries into an absence, another rises, and a third carries the counterflow. Four censuses remain liftable; the next census inherits the altered field."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The census must live in actual raster geometry: the five watched pools remain exact while one remote pool dries into a visible aperture, one raises its pigment body, and one carries the counterflow through changed ribbons."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and furniture hidden, the first field must read as one continuous pigment weather, not thirteen buttons, an attention dashboard, or a decorative particle cloud."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Proximity should observe without deforming. Repeated places and empty space must refuse; only five distinct places may commit. Delete must restore the exact previous field."
+        },
+        {
+          "persona": "Reciprocity critic",
+          "argument": "The place approached first cannot answer itself. The unlooked-for pools must carry the visible material consequence, so presence changes what is absent rather than what is touched."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "The attention ledger must feed later censuses. Four events remain bounded and liftable; release returns to the quiet field, while lifting reconstructs the exact preceding geometry."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v034 must leave v033's SVG plate rhythm, v031's drag refusal, and v030's pressure pulse through a raster field, proximity-based collective census, and absence chosen by unobserved material."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v034 if proximity is a disguised hover slider, if watched pools deform directly, if remote roles exist only as readout, if later censuses forget, or if the blind field collapses into controls."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v034-unlooked-pigment",
+        "visitorInput": true,
+        "seed": "0x42525534",
+        "stages": 13,
+        "poolCount": 13,
+        "ribbonCount": 4,
+        "memoryWindow": 4,
+        "quorumSize": 5,
+        "observationRadius": 0.14,
+        "settledStage": 12,
+        "settledMemory": 2,
+        "primitiveBudget": 17,
+        "memoryRule": "a five-place proximity census leaves the watched pools unchanged and relocates material consequence into a remote dry absence, a raised pool, and a counterflow; four censuses remain liftable",
+        "interactionRule": "pointer proximity records distinct pools without changing geometry; the fifth distinct place commits; repeated and empty observations refuse; Enter, Space, and the dry-field control use deterministic censuses; Delete lifts latest; Escape or R releases",
+        "representationRupture": "painted radial mass, pressure folds, negative ribbon, and plate laminate -> one raster pigment field with embedded pools and wet ribbons",
+        "encounterRupture": "stillness, pulse, drag, and three-knock rhythm -> continuous proximity attention whose collective threshold is a census",
+        "temporalRupture": "pressure and triplet memory -> latent attention ledger that turns an unlooked-for place into the next material event",
+        "mediumRupture": "native SVG plate paths and earlier Canvas bodies -> p5.js Canvas 2D field with layered raster pigment, pools, and ribbons",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D unlooked-pigment field",
+        "grammar": "unlooked-pigment",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity with legible attention and reciprocal consequence; the visitor participates in a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, and head-turning. Translate situated reciprocity into a pigment field whose proximity ledger records a collective census, then lets unobserved material—not the watched point—choose the next absence, ridge, and counterflow.",
+        "visibleConsequence": "The watched places remain unchanged before and after commit; a remote dark aperture, raised pool, and counterflow alter actual raster geometry and persist into later censuses.",
+        "falsifier": "If proximity directly deforms a pool, if a repeated pool counts twice, if the watched places answer themselves, if the remote absence is only a label or glow, if later censuses restart from the quiet field, if lifting is inexact, or if the blind field reads as an attention dashboard, the translation fails.",
+        "antiCopy": "No animals, character designs, paper scene, head-turning image, source palette, source composition, source code, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Brush's plate-rhythm / drag-refusal / pressure-pulse sequence and opens a situated-material direction: attention becomes a collective solvent whose visible consequence belongs to the unlooked-for, changing both the medium grammar and the viewer task."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v034 if proximity deforms the watched place, if five observations are not required, if remote roles are not actual geometry, if later censuses forget, or if exact lifting fails.",
+        "lineage": "brush-2026-10-20"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, diagnostics, and structural readbacks passed; candidate held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localRawPreview": "/studies/p5-brush/v034/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/p5-brush/v034/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/brush-2026-10-21/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport; blind 390px probe was 390/390/390",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs",
+        "localInteraction": "five real pointer proximity observations left geometry exact until the fifth; the fifth committed memory 0 -> 1 with dried, ridged, and counterflow counts all non-zero; Delete restored the exact baseline; Enter committed; Escape released",
+        "localTouchTargets": "all three controls measured at least 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the pigment canvas visible while hiding readout, controls, and hint; settled memory was 2 and innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local raw v034 tableau and canonical work route rendered; works.json returned exactly one brush-2026-10-21 record; canonical mount/title and favicon returned",
+        "proofDir": "research/qa/proofs/brush-v034-2026-10-21/",
+        "screenshotCount": 20,
+        "unresolved": [
+          "production browser matrix and public readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "svg-2026-10-21",
       "currentId": "svg",
       "date": "2026-10-21",

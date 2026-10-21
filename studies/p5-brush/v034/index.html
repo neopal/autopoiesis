@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1718">
+  <title>MUTINE — The paint keeps the unlooked-for.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=034">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-21"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="pigment-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v034 / UNLOOKED PIGMENT</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="pigment-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v034</span></nav>
+
+      <figure class="pigment-work artwork-frame" aria-labelledby="work-title">
+        <div id="attention-field" class="attention-field" tabindex="0" role="application" aria-label="A painted field that records where it was watched and opens an absence elsewhere. Move near five pigment places; the watched places remain still." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="attention-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 censuses held</span></div>
+          <div id="attention-canvas" class="attention-canvas"></div>
+          <div class="attention-controls" aria-label="Brush attention actions">
+            <button type="button" data-gesture="census">dry the field</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release attention</button>
+          </div>
+          <p class="attention-hint">move near five places · the watched stay still</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v034-unlooked-pigment</span><span>notice &gt; hold &gt; dry elsewhere</span></figcaption>
+      </figure>
+
+      <section class="pigment-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / UNLOOKED PIGMENT / v034</p>
+        <h1 id="work-title">The paint keeps<br><i>the unlooked-for.</i></h1>
+        <p class="pigment-lede">The places you approach do not answer. Five noticed places become a census; the paint dries a remote pocket, raises another, and sends a counterflow through a third.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ATTENTION WITHOUT A MARK</p>
+          <p class="interaction-copy">Move near five different pigment places. Proximity is recorded but geometry stays still until the fifth place. Then the watched places remain untouched: a remote pocket opens into absence, another swells, and a third carries the counterflow. Enter, Space, and “dry the field” use deterministic censuses. Delete lifts the latest; Escape or R releases the stored attention.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The field is keeping its unlooked-for places.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v034</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the painted plate rhythm, tap threshold, and direct local offer. A proximity ledger records a collective attention census; the five watched places stay geometry-neutral while three remote pigment roles change.</dd></div>
+          <div><dt>visitor action</dt><dd>Move or touch near five distinct pigment places. Enter, Space, and the dry-field control use deterministic censuses. Delete lifts the latest absence. Escape or R releases attention. S downloads a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If proximity directly deforms a place, if a repeated place counts twice, if the watched places answer themselves, if the remote absence is only a label, or if later censuses restart from the quiet field, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v034 if caption-free viewing cannot show one continuous pigment field with a real remote absence, if a five-place census is not geometry-neutral before commit, or if lifting the latest census does not restore the exact preceding field.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-20/">previous daily work</a><a href="/journal/#journal-brush-2026-10-21">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=034"></script>
+</body>
+</html>

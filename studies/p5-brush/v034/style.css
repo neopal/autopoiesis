@@ -1,0 +1,81 @@
+:root {
+  --pigment-ground: #0d1718;
+  --pigment-deep: #091113;
+  --pigment-ink: #eee1c7;
+  --pigment-muted: #9eb0a7;
+  --pigment-line: rgba(205, 226, 205, 0.22);
+  --pigment-clay: #c7775e;
+  --pigment-saffron: #d4a15d;
+  --pigment-sage: #86aa98;
+}
+
+html, body { margin: 0; min-height: 100%; background: var(--pigment-ground); color: var(--pigment-ink); }
+body { font-family: "Arial Narrow", "Aptos Narrow", Arial, sans-serif; letter-spacing: 0.02em; }
+a { color: inherit; }
+.pigment-shell { min-height: 100vh; padding: 22px clamp(16px, 4vw, 64px) 30px; box-sizing: border-box; }
+.studio-header, .studio-footer, .studio-path { max-width: 1180px; margin-inline: auto; }
+.studio-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; border-bottom: 1px solid var(--pigment-line); padding-bottom: 15px; text-transform: uppercase; font-size: 10px; letter-spacing: 0.18em; }
+.studio-header p { margin: 0; color: var(--pigment-muted); text-align: center; }
+.studio-mark { font-weight: 800; letter-spacing: 0.24em; text-decoration: none; }
+.studio-nav { display: flex; gap: 18px; }
+.studio-nav a, .studio-footer a { text-decoration: none; color: var(--pigment-muted); }
+.studio-nav a:hover, .studio-footer a:hover { color: var(--pigment-ink); }
+.pigment-main { max-width: 1180px; margin: 0 auto; }
+.studio-path { display: flex; gap: 10px; align-items: center; margin-top: 18px; margin-bottom: 22px; color: var(--pigment-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+.studio-path a { text-decoration: none; }
+.pigment-work { margin: 0; }
+.attention-field { position: relative; overflow: hidden; border: 1px solid var(--pigment-line); background: var(--pigment-deep); box-shadow: 0 28px 90px rgba(0,0,0,0.26); }
+.attention-canvas, .attention-canvas canvas { display: block; width: 100%; }
+.attention-canvas canvas { height: auto; touch-action: none; }
+.attention-readout { position: absolute; top: 18px; left: 20px; z-index: 2; display: flex; gap: 16px; color: var(--pigment-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.12em; pointer-events: none; }
+.attention-controls { position: absolute; right: 17px; bottom: 17px; z-index: 2; display: flex; gap: 8px; }
+.attention-controls button { min-height: 44px; padding: 0 13px; border: 1px solid rgba(238, 225, 199, 0.34); border-radius: 999px; color: var(--pigment-ink); background: rgba(13, 23, 24, 0.86); font: inherit; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; }
+.attention-controls button:hover, .attention-controls button:focus-visible { background: rgba(199, 119, 94, 0.30); border-color: var(--pigment-saffron); outline: none; }
+.attention-hint { position: absolute; left: 20px; bottom: 21px; margin: 0; color: rgba(238, 225, 199, 0.74); text-transform: uppercase; font-size: 10px; letter-spacing: 0.16em; pointer-events: none; }
+.pigment-work figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 9px; color: var(--pigment-muted); text-transform: uppercase; font-size: 9px; letter-spacing: 0.14em; }
+.pigment-opening { max-width: 720px; padding: 68px 0 52px; }
+.eyebrow { margin: 0 0 14px; color: var(--pigment-clay); text-transform: uppercase; font-size: 10px; letter-spacing: 0.18em; }
+.pigment-opening h1 { margin: 0; color: var(--pigment-ink); font-family: Georgia, serif; font-size: clamp(44px, 7vw, 94px); font-weight: 400; line-height: 0.92; letter-spacing: -0.055em; }
+.pigment-opening h1 i { color: var(--pigment-saffron); font-weight: 400; }
+.pigment-lede { max-width: 610px; margin: 25px 0 0; color: var(--pigment-muted); font-size: clamp(16px, 1.9vw, 21px); line-height: 1.42; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 0.55fr); gap: 42px; border-top: 1px solid var(--pigment-line); padding: 24px 0 54px; }
+.interaction-copy { max-width: 650px; margin: 0; color: var(--pigment-muted); line-height: 1.6; font-size: 15px; }
+.interaction-state { margin: 0; color: var(--pigment-saffron); line-height: 1.45; font-family: Georgia, serif; font-size: 18px; }
+.annotations { border-top: 1px solid var(--pigment-line); padding: 23px 0 70px; }
+.annotations dl { margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; border-bottom: 1px solid rgba(205, 226, 205, 0.12); padding: 14px 0; }
+.annotations dt { color: var(--pigment-saffron); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+.annotations dd { max-width: 740px; margin: 0; color: var(--pigment-muted); line-height: 1.55; font-size: 14px; }
+.studio-footer { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--pigment-line); padding-top: 16px; color: var(--pigment-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+html.preview-mode body { background: var(--pigment-deep); }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .pigment-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .pigment-shell, html.preview-mode .pigment-main { max-width: none; padding: 0; margin: 0; }
+html.preview-mode .attention-field { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode .attention-canvas canvas { min-height: 100vh; }
+html.preview-mode .pigment-work { margin: 0; }
+html.blind-mode .attention-readout, html.blind-mode .attention-controls, html.blind-mode .attention-hint { display: none; }
+html.static-mode .attention-canvas canvas { transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
+@media (max-width: 680px) {
+  .pigment-shell { padding: 14px 12px 22px; }
+  .studio-header { grid-template-columns: 1fr auto; gap: 10px; }
+  .studio-header p { grid-column: 1 / -1; grid-row: 2; text-align: left; }
+  .studio-nav { gap: 11px; }
+  .studio-path { margin-top: 14px; margin-bottom: 14px; }
+  .attention-readout { top: 11px; left: 12px; gap: 8px; font-size: 8px; }
+  .attention-hint { left: 12px; bottom: 12px; font-size: 8px; }
+  .attention-controls { left: 12px; right: 12px; bottom: 10px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .attention-controls button { min-height: 44px; padding: 0 5px; font-size: 8px; }
+  .pigment-opening { padding: 44px 0 36px; }
+  .pigment-opening h1 { font-size: clamp(42px, 15vw, 70px); }
+  .pigment-lede { font-size: 16px; }
+  .interaction-panel { display: block; padding-bottom: 38px; }
+  .interaction-state { margin-top: 23px; }
+  .annotations { padding-bottom: 46px; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: 8px; }
+  .studio-footer { display: grid; grid-template-columns: 1fr 1fr; }
+  .studio-footer a:last-child { grid-column: 1 / -1; }
+  html.preview-mode .attention-canvas canvas { min-height: 100vh; }
+}
