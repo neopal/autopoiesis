@@ -2,6 +2,102 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-10-21",
+      "currentId": "portrait",
+      "date": "2026-10-21",
+      "title": "The portrait gives the edge away.",
+      "rawPath": "/studies/self-portrait/v029/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-10-21",
+        "note": "v029 abandons v028's self-modifying fold volume, v027's pair counter-reading, and v026's remote absence election. One native SVG compound shell now holds a diagonal aperture and a smaller cut: three distinct boundary visits form a quorum, then the most-watched edge contracts, a remote edge swells, and a third station opens an actual cut through the body. Four delegations remain in bounded memory; lifting the latest reconstructs the exact preceding shell."
+      },
+      "critiques": [
+        {
+          "persona": "Compound-form critic",
+          "argument": "The work must read as one continuous authored shell before it reads as five stations: the uneven rim, diagonal aperture, smaller cut, and off-axis weight must hold the composition together."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, caption, and furniture hidden, the first view must read as a singular cut shell rather than a face, icon, card grid, or generic SVG diagram. After a quorum, the donor contraction, remote receiver, and third cut must be findable in the silhouette."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "One or two station visits must remain geometry-neutral. Only three distinct visits followed by Enter, Space, or the quorum control may commit; Delete must restore the exact preceding shell and R must release attention."
+        },
+        {
+          "persona": "Social-topology critic",
+          "argument": "The visited station cannot be the direct answer. Attention must choose a donor from the watched set, a remote receiver from the least-attended boundary, and a third cut as a material consequence in the compound path."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v029 must leave v028's folded volume, v027's raster pair, and v026's scattered witness field through a continuous SVG body, a three-place quorum encounter, and an edge-transfer memory model."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v029 if the shell is only a polished icon, if a single visit changes geometry, if the touched edge always wins, if the cut is only a marker or readout, if later quorums forget attention history, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v029-delegated-edge",
+        "visitorInput": true,
+        "seed": "0x43504659",
+        "stages": 15,
+        "stationCount": 5,
+        "quorumSize": 3,
+        "memoryWindow": 4,
+        "primitiveBudget": 35,
+        "settledStage": 14,
+        "memoryRule": "three distinct boundary visits form a quorum; the most-watched edge contracts, the least-attended remote edge swells, and a third station opens a cut, with later quorums inheriting attention history",
+        "interactionRule": "visit three distinct stations; partial quorums remain geometry-neutral; Enter, Space, or the quorum control commits; Delete lifts latest; R or Escape releases bounded attention",
+        "representationRupture": "scattered semantic witness marks, raster counterportrait, and folded WebGL volume -> one native SVG compound shell with even-odd apertures and an uneven delegated rim",
+        "encounterRupture": "witness-and-release, pair-and-ask, and traverse-and-release -> three-place social quorum whose answer is structurally remote",
+        "temporalRupture": "remote absence, counter-reading, and self-modifying grammar -> bounded edge-delegation ledger in which attention changes which edge can give itself away",
+        "mediumRupture": "semantic DOM, p5.js raster, and p5.js WEBGL -> browser-native SVG compound path with actual topology-bearing cuts",
+        "replay": true,
+        "renderer": "deterministic inline SVG compound delegation shell",
+        "grammar": "delegated-edge-shell",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to proximity with legible attention and reciprocal consequence; the visitor participates in a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, and the look-back scene. Translate situated reciprocity into a continuous self-portrait shell: three boundary visits accumulate a quorum, then attention elects a donor, a remote receiver, and a third cut in the compound body.",
+        "visibleConsequence": "The blind first view is one skewed native SVG shell with a diagonal aperture, a smaller cut, and an uneven rim. After a valid quorum, three actual geometric conditions change: one boundary recedes, a remote boundary swells, and a third aperture opens; later quorums inherit the changed attention field.",
+        "falsifier": "If a single station changes geometry, if the touched station is always the visible answer, if the donor, receiver, or cut is only a marker/readout, if the SVG compound path does not change, if later quorums restart from quiet attention, or if the blind field reads as a generic icon or diagram, the translation fails.",
+        "antiCopy": "No animals, character designs, paper scene, head-turning image, source palette, source composition, source code, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Self portrait's witness-field / counter-reading / folded-volume sequence and opens a social-topology direction: attention becomes an edge-transfer event in one continuous body rather than a mark, pair, or volume."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, station-off, and prose-off comparison; delete v029 if the shell reads as a generic icon, if one or two visits commit, if the touched station directly selects the answer, if the three role changes are not materially visible, if later quorums forget attention, or if exact lifting fails.",
+        "lineage": "portrait-2026-10-20"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical viewport runs passed across five required viewports in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, and diagnostics observed; candidate held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "rawPreview": "/studies/self-portrait/v029/?preview=1&interaction=1",
+        "blindPreview": "/studies/self-portrait/v029/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/portrait-2026-10-21/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport width",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, current, canonical, and favicon readbacks",
+        "localInteraction": "three station visits remained geometry-neutral; a complete quorum committed one donor contraction, one remote receiver swell, and one third cut; Delete restored the exact baseline; Enter committed a second quorum; R released; station buttons measured 52px at 390x844",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the compound SVG visible while hiding readout, controls, hint, and stations; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local Journal anchor/title, Self portrait current card/title, canonical work title/tableau, raw v029 tableau, and favicon rendered",
+        "proofPath": "research/qa/proofs/portrait-v029-2026-10-21/",
+        "screenshotCount": 22,
+        "unresolved": [
+          "production browser matrix and public readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, station markers, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-10-20",
       "currentId": "webgpu",
       "date": "2026-10-20",
@@ -86,9 +182,21 @@
         "local": {
           "status": "passed",
           "server": "local HTTP server on 127.0.0.1:4243",
-          "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-          "modes": ["normal", "reduced-motion"],
-          "routes": ["raw preview", "canonical work"],
+          "viewports": [
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080"
+          ],
+          "modes": [
+            "normal",
+            "reduced-motion"
+          ],
+          "routes": [
+            "raw preview",
+            "canonical work"
+          ],
           "matrixRuns": 20,
           "diagnostics": 0,
           "screenshots": 22,
@@ -98,9 +206,21 @@
         "production": {
           "status": "passed",
           "alias": "https://autopoiesis-nine.vercel.app",
-          "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-          "modes": ["normal", "reduced-motion"],
-          "routes": ["raw preview", "canonical work"],
+          "viewports": [
+            "320x568",
+            "390x844",
+            "768x1024",
+            "1280x800",
+            "1920x1080"
+          ],
+          "modes": [
+            "normal",
+            "reduced-motion"
+          ],
+          "routes": [
+            "raw preview",
+            "canonical work"
+          ],
           "matrixRuns": 20,
           "diagnostics": 0,
           "screenshots": 22,

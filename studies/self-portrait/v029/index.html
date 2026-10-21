@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090f">
+  <title>MUTINE — The portrait gives the edge away.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=029">
+  <link rel="modulepreload" href="./engine.mjs?v=029">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-21"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v029-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v029 / DELEGATED EDGE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v029-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v029</span></nav>
+
+      <figure class="v029-work artwork-frame" aria-labelledby="work-title">
+        <div class="delegation-stage" data-delegation-stage tabindex="0" role="application" aria-label="A compound self-portrait shell. Visit three boundary stations; the most-watched edge will give itself to a remote edge and open a cut elsewhere." aria-keyshortcuts="1 2 3 4 5 Enter Space Delete R Escape">
+          <div id="delegation-svg" aria-hidden="true"></div>
+          <div class="station-controls" aria-label="Boundary stations">
+            <button type="button" class="station-button" data-station="0" aria-label="Visit boundary station one"><span>01</span></button>
+            <button type="button" class="station-button" data-station="1" aria-label="Visit boundary station two"><span>02</span></button>
+            <button type="button" class="station-button" data-station="2" aria-label="Visit boundary station three"><span>03</span></button>
+            <button type="button" class="station-button" data-station="3" aria-label="Visit boundary station four"><span>04</span></button>
+            <button type="button" class="station-button" data-station="4" aria-label="Visit boundary station five"><span>05</span></button>
+          </div>
+          <div class="shell-readout" aria-live="polite"><span data-stage>stage 01 / 15</span><span data-memory>0 delegations held</span></div>
+          <p class="shell-hint" data-hint>visit three boundary stations; the shell will answer elsewhere</p>
+          <div class="delegation-controls" aria-label="Delegated edge controls">
+            <button type="button" data-action="commit">complete the quorum</button>
+            <button type="button" data-action="lift">lift latest edge</button>
+            <button type="button" data-action="release">release attention</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v029-delegated-edge</span><span>notice &gt; quorum &gt; give the edge away</span></figcaption>
+      </figure>
+
+      <section class="v029-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / MEDIUM SWITCH / v029</p>
+        <h1 id="work-title">The portrait gives<br><i>the edge away.</i></h1>
+        <p class="v029-lede">Attention enters at the boundary. The shell does not answer where you touched it; it makes a remote edge carry the consequence.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THREE, THEN RELEASE</p>
+          <p class="interaction-copy">Visit three distinct numbered stations by pointer, touch, or keys 1–5. A partial quorum changes nothing. Enter, Space, or the control completes the same deterministic delegation. Delete lifts the latest edge; R or Escape releases the attention ledger.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The shell is waiting to be noticed.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v029</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v028's self-modifying fold volume, v027's pair counter-reading, and v026's remote absence election. The portrait is now one native SVG compound shell. Three distinct boundary visits form a quorum: the most-watched edge contracts, the least-attended remote edge swells, and a third station opens an actual cut through the shell.</dd></div>
+          <div><dt>visitor action</dt><dd>Visit three boundary stations, then press Enter, Space, or the quorum control. The stations are not direct targets: they only compose the social condition. Delete lifts the latest delegation; R or Escape releases the bounded ledger.</dd></div>
+          <div><dt>falsifier</dt><dd>If a single station changes the body, if the touched station always becomes the visible answer, if the change is only a halo/readout, if the compound path does not change, or if later quorums ignore attention history, the situated-attention translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v029 if the blind field reads as a generic icon, face, card grid, or diagram, or if the donor contraction, remote receiver, and third cut cannot be found in the actual silhouette without labels, controls, and prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-20/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-21">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=029"></script>
+</body>
+</html>
