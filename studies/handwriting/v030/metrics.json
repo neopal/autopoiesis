@@ -1,0 +1,23 @@
+{
+  "id": "handwriting-v030-letter-refusal",
+  "seed": "0x48574930",
+  "visitorInput": true,
+  "baseText": "THE READER OFFERS A LETTER; THE SENTENCE ANSWERS WITH A GAP.",
+  "characterCount": 60,
+  "letterCount": 48,
+  "offerCount": 8,
+  "memoryWindow": 4,
+  "settledStage": 4,
+  "primitiveBudget": 60,
+  "memoryRule": "an offered letter is refused across the entire sentence; every occurrence becomes a structural gap and the remaining glyphs reflow; the latest four refusals are liftable",
+  "interactionRule": "keyboard letters or the letter strip offer one character; repeated or absent letters refuse without changing geometry; Enter and Space offer the next deterministic letter; Delete lifts latest; R or Escape releases",
+  "representationRupture": "twelve DOM word islands, pressure bands, and routed letter bodies -> one typographic sentence-sheet whose missing glyphs are actual gaps",
+  "encounterRupture": "wandering attention, duration hold, and non-local withdrawal -> typed letter offer with immediate sentence-wide refusal",
+  "temporalRupture": "latent census, pressure debt, and route custody -> bounded refusal stack in which later offers operate on the already mutilated sentence",
+  "mediumRupture": "semantic DOM islands and Canvas/WEBGL route bodies -> semantic DOM glyph sheet with actual per-character reflow",
+  "replay": true,
+  "renderer": "deterministic semantic DOM letter-refusal sheet",
+  "grammar": "letter-refusal",
+  "measured": true,
+  "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

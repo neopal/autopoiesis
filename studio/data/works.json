@@ -2,6 +2,99 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-22",
+      "currentId": "typography",
+      "date": "2026-10-22",
+      "title": "The sentence refuses the offered letter.",
+      "rawPath": "/studies/handwriting/v030/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-22",
+        "note": "v030 abandons v029's word-island census, v027's pressure loom, and v026's routed letter bodies. One sentence now occupies a single typographic sheet: a typed letter is never echoed, but refused across the whole body, leaving actual glyph gaps that force the remaining sentence to reflow. Four refusals remain liftable; the next offer inherits the mutilated sentence."
+      },
+      "critiques": [
+        {
+          "persona": "Language-material critic",
+          "argument": "The refusal must be visible in the sentence itself: removed glyphs need actual gaps, subsequent characters must reflow, and the sheet must remain legible as one typographic body rather than a row of buttons."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, caption, and furniture hidden, the first view must read as a single charged sentence-sheet with a cut or fault, not a word cloud, route rack, dashboard, or letter keyboard."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Typing is the causal action, not a cosmetic parameter: a present letter is removed everywhere, a repeated or absent letter is refused, and Delete/R provide exact lift and release paths."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v030 must leave v029's attention population, v027's duration pressure, and v026's routed bodies through a monolithic composition, keyboard encounter, direct glyph absence, and a refusal stack rather than a transfer ledger."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from material drawing instruments into a language-body whose production rule can resist an offer: the sentence removes every occurrence of the offered character and reflows its surviving glyphs. No brush, watercolor, hatching, pressure mark, vector-field, palette, composition, source code, or API is reproduced."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v030 if the offered letter only highlights, if the sentence text does not lose its occurrences, if the page becomes a keyboard-controlled parameter panel, if later refusals restart from the intact sentence, or if the blind sheet needs prose to become a work."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v030-letter-refusal",
+        "seed": "0x48574930",
+        "visitorInput": true,
+        "baseText": "THE READER OFFERS A LETTER; THE SENTENCE ANSWERS WITH A GAP.",
+        "characterCount": 60,
+        "letterCount": 48,
+        "offerCount": 8,
+        "memoryWindow": 4,
+        "settledStage": 4,
+        "primitiveBudget": 60,
+        "memoryRule": "an offered letter is refused across the entire sentence; every occurrence becomes a structural gap and the remaining glyphs reflow; the latest four refusals are liftable",
+        "interactionRule": "keyboard letters or the letter strip offer one character; repeated or absent letters refuse without changing geometry; Enter and Space offer the next deterministic letter; Delete lifts latest; R or Escape releases",
+        "representationRupture": "twelve DOM word islands, pressure bands, and routed letter bodies -> one typographic sentence-sheet whose missing glyphs are actual gaps",
+        "encounterRupture": "wandering attention, duration hold, and non-local withdrawal -> typed letter offer with immediate sentence-wide refusal",
+        "temporalRupture": "latent census, pressure debt, and route custody -> bounded refusal stack in which later offers operate on the already mutilated sentence",
+        "mediumRupture": "semantic DOM islands and Canvas/WEBGL route bodies -> semantic DOM glyph sheet with actual per-character reflow",
+        "replay": true,
+        "renderer": "deterministic semantic DOM letter-refusal sheet",
+        "grammar": "letter-refusal",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools expose pressure, density, grain, directional behavior, and vector fields as a material engine: the instrument changes how a mark is produced rather than merely styling a finished shape.",
+        "translatedRule": "Refuse brush appearance, hatching, watercolor, and the source API. Translate material agency into language-as-matter: an offered letter becomes a resistance event that changes the sentence production rule, removing every matching glyph and forcing the surviving body to reflow.",
+        "visibleConsequence": "The first view is one continuous typographic sheet. A valid offer removes all occurrences of the letter as actual glyph spans, opens structural gaps, and reflows the remaining sentence. Later offers start from the mutilated sentence, not from a seed reset.",
+        "falsifier": "If an offer only highlights a letter, if the actual text body keeps every occurrence, if a repeated letter creates a new event, if later refusals restart from the intact sentence, if lifting is inexact, or if the blind sheet reads as a keyboard panel or word cloud, the translation fails.",
+        "antiCopy": "No brushes, watercolor, hatching, pressure marks, vector-field drawing, source palette, source composition, source code, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Handwriting's counter-topology / pressure-loom / depth-custody / attention-census sequence and opens a material-language direction: the current's unit is now a sentence-wide refusal whose material rule changes the next readable body."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v030 if the blind sheet reads as a typographic poster or keyboard panel, if offers do not remove actual glyphs, if reflow is cosmetic, if later refusals forget the changed sentence, or if exact lifting fails.",
+        "lineage": "typography-2026-10-20"
+      },
+      "browserEvidence": {
+        "status": "candidate / held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "local": {
+          "viewportMatrix": "5 viewports × normal/reduced = 10/10",
+          "overflowFailures": 0,
+          "consoleAndNetworkDiagnostics": 0,
+          "interaction": "keyboard offer, Delete lift, letter-button offer, Escape release, and 44px touch targets passed",
+          "routes": "Journal, current, canonical work, raw blind preview, registry JSON, and favicon passed"
+        },
+        "unresolved": [
+          "production browser matrix",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-10-21",
       "currentId": "webgpu",
       "date": "2026-10-21",

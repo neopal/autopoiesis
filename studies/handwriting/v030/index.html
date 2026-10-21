@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ece5d7">
+  <title>MUTINE — The sentence refuses the offered letter.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=030">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-22"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="refusal-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v030 / LETTER REFUSAL</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="refusal-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v030</span></nav>
+
+      <figure id="work" class="refusal-work artwork-frame" aria-labelledby="work-title">
+        <div id="type-field" class="type-field" tabindex="0" role="application" aria-label="A sentence that refuses offered letters. Type a letter or choose one of the offered letters; the sentence will make a gap wherever that letter occurred." aria-describedby="interaction-state" aria-keyshortcuts="A-Z Enter Space Delete R Escape">
+          <div class="field-stamp" aria-hidden="true"><span>READ / OFFER / REFUSE</span><span>HANDWRITING 030</span></div>
+          <div class="field-readout" aria-live="polite"><span data-stage>sheet / intact</span><span data-memory>0 refusals · 0 gaps</span></div>
+          <div class="sheet-axis" aria-hidden="true"><span>the page is not listening</span><span>01 — 04</span></div>
+          <div id="type-sheet" class="type-sheet" aria-label="The sentence being tested"></div>
+          <div class="sheet-footnote" aria-hidden="true">a letter enters as a request / absence answers as structure</div>
+          <div class="letter-controls" aria-label="Offer a letter">
+            <span class="controls-label">offer</span>
+            <div class="letter-buttons" id="letter-buttons"></div>
+            <button id="lift-refusal" type="button">lift latest</button>
+            <button id="release-refusal" type="button">release sheet</button>
+          </div>
+          <p class="field-hint">type a letter · the sheet will not add it</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v030-letter-refusal</span><span>offer &gt; gap &gt; reflow</span></figcaption>
+      </figure>
+
+      <section class="refusal-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / ANTI-INSTRUMENT / v030</p>
+        <h1 id="work-title">The sentence refuses<br><i>the offered letter.</i></h1>
+        <p class="refusal-lede">You offer a character. The page does not echo it. It removes every place that was ready to receive it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">OFFER A LETTER</p>
+          <p class="interaction-copy">Type any letter, or use the small offering strip in the sheet. A letter that still exists is refused across the whole sentence, leaving a real gap and forcing the remaining text to reflow. Repeated offers are rejected. Delete lifts the latest refusal; R or Escape releases the bounded refusal memory.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The sentence is intact. Nothing has been offered.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v030</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v029's population of word islands, v027's pressure duration, and v026's routed letter bodies. One sentence is now a material sheet: a typed letter is never inserted or echoed; every occurrence is removed, and the remaining glyphs reflow around the gap.</dd></div>
+          <div><dt>visitor action</dt><dd>Offer a letter by keyboard or by the letter strip. Enter and Space offer the next deterministic letter; Delete lifts the latest refusal; R or Escape releases the four-event sheet.</dd></div>
+          <div><dt>falsifier</dt><dd>If the offered letter is merely highlighted, if only a readout changes, if a repeated letter creates a new event, if the actual text body does not lose its occurrences and reflow, or if the blind page still reads as a word cloud or route rack, the direction fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v030 if refusing a letter is only a decorative color swap, if the fifth refusal forgets the changed sentence, if lifting cannot reconstruct the exact preceding sheet, or if the cultural translation collapses into a keyboard-controlled parameter panel.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-20/">previous daily work</a><a href="/journal/#journal-typography-2026-10-22">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=030"></script>
+</body>
+</html>
