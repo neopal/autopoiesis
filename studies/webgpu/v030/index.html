@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071218">
+  <meta name="description" content="An exposure instrument where attention is observational until departure closes the most-watched shutter and opens a remote aperture.">
+  <title>MUTINE — The room keeps what you leave unseen.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=030">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-21"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="exposure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v030 / exposure shutters</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="exposure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v030</span></nav>
+      <section class="exposure-work" aria-label="WebGPU daily work">
+        <figure class="exposure-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <canvas id="exposure-field" role="img" aria-label="A suspended exposure instrument made of translucent shutters and actual apertures" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape R"></canvas>
+          <div class="exposure-readout" role="status" aria-live="polite"><span data-stage>room 01 / 10</span><span data-memory>0 departures</span><span data-renderer>CANVAS / APERTURE</span></div>
+          <div class="exposure-status" data-status>look across three witnesses · leave the room</div>
+          <div class="exposure-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="depart">leave the room</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V030 / DAILY WORK</span><span>look → hold → depart</span></figcaption>
+        </figure>
+        <aside class="exposure-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a braid, body, basin, or register. It is a room of shutters whose apertures are the things attention leaves behind.</p></div>
+          <div><span>changed rule</span><p>Looking only observes. After three distinct witnesses, departure closes the last watched plate, opens a remote aperture, and tilts a third shutter.</p></div>
+          <div><span>progression</span><p>Move through the field, then leave it. Enter, Space, and the departure control use the same deterministic exposure law. Delete lifts the latest cut.</p></div>
+        </aside>
+      </section>
+      <section class="exposure-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V030 / DAILY WORK</p><h1 id="work-title">The room keeps<br><i>what you leave unseen.</i></h1></div>
+        <p class="exposure-premise">Attention is not a touch. The work waits for departure, then makes the unlooked-for aperture wider than the place you watched.</p>
+      </section>
+      <section class="exposure-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: attention stays geometry-neutral, departure requires three distinct witnesses, and a valid leaving reverses exposure across actual shutters. Promotion depends on whether the blind room reads as an authored instrument rather than a decorative panel array.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>look → hold → depart</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=030a"></script>
+</body>
+</html>

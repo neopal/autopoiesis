@@ -2,6 +2,115 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "webgpu-2026-10-21",
+      "currentId": "webgpu",
+      "date": "2026-10-21",
+      "title": "The room keeps what you leave unseen.",
+      "rawPath": "/studies/webgpu/v030/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-10-21",
+        "note": "v030 abandons v029's braided pressure field, v028's negative-space monolith, and v027's watershed volume. Twelve irregular exposure shutters now form one suspended room: attention observes without changing geometry, then departure after three distinct witnesses closes the last watched plate, opens a least-loaded remote aperture, and tilts a third shutter. Four departures remain liftable; the next departure inherits the altered room."
+      },
+      "critiques": [
+        {
+          "persona": "Instrument-form critic",
+          "argument": "The twelve shutters must read as one suspended exposure instrument before they read as twelve plates: the off-axis scale, overlapping apertures, color temperature, and asymmetrical silence must compose one room rather than a panel grid."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, caption, and furniture hidden, the first view must read as an authored room of shutters and apertures, not a dashboard, tile array, cavity object, braid, or generic WebGPU demo. After one departure, the closure and remote opening must be findable in the silhouettes."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Pointer movement must remain geometry-neutral. Only leaving after three distinct witnesses, Enter, Space, or the departure control may commit; Delete must restore the exact preceding room and R must release bounded memory."
+        },
+        {
+          "persona": "Reciprocity critic",
+          "argument": "The place looked at cannot simply answer itself. The most-watched shutter closes while a least-loaded remote shutter opens, so attention becomes a material reversal rather than a cursor-following effect."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "The work must visibly leave the recent braid, monolith, and basin grammars. The new unit is an aperture inside a laminated shutter, and departure—not touch, drag, or focus—is the causal event."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Exposure must live in actual aperture size and plate tilt. Four departures remain bounded and liftable; later departures must reconstruct from the altered room rather than resetting to the quiet plates."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v030 if the room is only a decorative panel array, if pointer movement deforms the image, if a two-witness or still departure commits, if remote apertures are cosmetic, if later departures forget, if lifting is inexact, or if the blind field needs its caption to become an archive."
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v030-exposure-shutters",
+        "visitorInput": true,
+        "seed": "0x57473330",
+        "stages": 10,
+        "witnessCount": 12,
+        "memoryWindow": 4,
+        "primitiveBudget": 46,
+        "minimumWitnesses": 3,
+        "minimumDepartureMs": 120,
+        "maximumDepartureMs": 1600,
+        "settledStage": 9,
+        "settledMemory": 4,
+        "settledClosedShutters": 4,
+        "settledRemoteApertures": 4,
+        "memoryRule": "a departure after three distinct witnesses closes the last watched shutter, opens a least-loaded remote aperture, and tilts a third plate; later departures inherit the exposure room",
+        "interactionRule": "pointer movement observes distinct shutters without changing geometry; leaving after three witnesses commits; Enter, Space, or leave-the-room use the deterministic departure; Delete lifts latest; Escape or R releases",
+        "representationRupture": "braided pressure strands, negative-space monolith, and watershed volume -> a layered exposure instrument of irregular shutters and actual apertures",
+        "encounterRupture": "draw-and-release, focus-and-commit, and traverse-and-departure -> looking is observational and leaving is the causal event",
+        "temporalRupture": "pressure redistribution, cavity memory, and flow wake -> bounded exposure memory in which closure, remote opening, and tilt compound across a room",
+        "mediumRupture": "Canvas lines, cavities, and filled fields -> WebGPU veil over deterministic Canvas 2D apertures and laminated shutters",
+        "replay": true,
+        "renderer": "WebGPU exposure shutters with Canvas 2D fallback",
+        "webgpuReadyCheck": true,
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity with legible attention and reciprocal looking; the visitor participates in a small social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, and head-turning. Translate reciprocal attention into an exposure instrument: looking is only a temporary witness ledger, and departure makes the most-watched plate close while a remote unlooked-for aperture opens.",
+        "visibleConsequence": "Attention leaves geometry unchanged; departure changes actual shutter apertures and tilt, with later departures inheriting those cuts.",
+        "falsifier": "If pointer movement changes geometry, if fewer than three distinct witnesses can commit, if departure does not matter, if the watched plate is always the visible answer, if the remote aperture or tilt exists only in text/readout, if later departures forget prior exposure, if Delete cannot restore the exact preceding room, or if the blind image reads as a decorative panel array or interface, the translation fails.",
+        "antiCopy": "No animals, character designs, paper scene, head-turning image, source palette, source composition, source code, example, or API surface is reproduced.",
+        "directionConsequence": "Closes WebGPU's braid / vacancy / basin sequence and opens a departure-and-exposure direction. The work changes both medium grammar and viewer task: from touching or traversing material to looking, withholding, and leaving."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, and prose-off comparison; delete v030 if the room reads as a decorative panel array, if incomplete departure commits, if the watched plate remains the answer, if remote apertures are not actual geometry, if later departures forget, or if exact lifting fails.",
+        "lineage": "webgpu-2026-10-20"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, diagnostics, and readbacks passed; production pending",
+        "productionReady": false,
+        "localAlias": "http://127.0.0.1:4280",
+        "localRawPreview": "/studies/webgpu/v030/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/webgpu/v030/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/webgpu-2026-10-21/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within measured viewport widths",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs",
+        "localInteraction": "three real pointer witness visits kept the room neutral until pointer departure; departure committed memory 0 -> 1 with closed shutter 2 and remote aperture 7; Delete restored the exact baseline; Enter committed; Escape released; departure control committed",
+        "localTouchTargets": "all three controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the exposure canvas visible while hiding readout, controls, status, and furniture; settled memory was 4 and innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local Journal anchor/title, WebGPU current title, canonical work title/tableau, raw v030 tableau, source works.json record, and favicon returned/rendered",
+        "proofDir": "research/qa/proofs/webgpu-v030-2026-10-21/",
+        "screenshotCount": 26,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production responsive browser matrix and readbacks",
+          "independent caption-free perceptual comparison with labels, readout, controls, caption, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "brush-2026-10-21",
       "currentId": "brush",
       "date": "2026-10-21",
