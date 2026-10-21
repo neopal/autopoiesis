@@ -161,6 +161,7 @@ async function readbacks(context) {
     await page.goto(`${baseUrl}${url}`, { waitUntil: 'domcontentloaded' });
     await waitReady(page);
     if (name === 'canonical') await waitFrameReady(page);
+    await page.waitForTimeout(250);
     entries[name] = { visible: await page.locator(selector).count() > 0, title: await page.title(), innerWidth: await page.evaluate(() => window.innerWidth), clientWidth: await page.evaluate(() => document.documentElement.clientWidth), scrollWidth: await page.evaluate(() => document.documentElement.scrollWidth) };
   }
   const registry = await page.evaluate(async () => {

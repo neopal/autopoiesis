@@ -60,9 +60,11 @@ This is a material direction change, not a palette, title, density, or texture v
 - `Delete` lifts the latest event exactly; `Escape`/`R` releases to the seed sheet
 - Blind mode hides labels, controls, readout, annotations, and prose while retaining the SVG field
 
-The local Playwright probe completed **20/20** raw/canonical runs across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes, with zero overflow failures and zero diagnostics. The interaction run refused weak and over-held pressure, committed one event with the three named geometry roles, lifted to the exact baseline, and released to the exact seed. Blind mode retained the field, sheet, and faults at `390/390/390` width. Touch targets measured at least `44px` high.
+The local and production Playwright probes each completed **20/20** raw/canonical runs across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes, with zero overflow failures and zero diagnostics. The interaction runs refused weak and over-held pressure, committed one event with the three named geometry roles, lifted to the exact baseline, and released to the exact seed. Blind mode retained the field, sheet, and faults at `390/390/390` width. Touch targets measured at least `44px` high.
 
-The production matrix and independent caption-free perceptual review remain pending. The candidate therefore stays held; this record does not call it exhibition-ready.
+Production readback observed the source works registry at HTTP 200 with exactly one `svg-2026-10-21` record, and rendered the Journal anchor/title, Pure SVG current, canonical work, raw tableau, and favicon. The stable production alias is `https://autopoiesis-nine.vercel.app/`; the deployment identifier was `dpl_44EsGHcw3LJHpznPKRzxSPDYtsCq`.
+
+The independent caption-free perceptual review remains pending. The candidate therefore stays held; this record does not call it exhibition-ready.
 
 ## Verification
 
@@ -76,7 +78,6 @@ The production matrix and independent caption-free perceptual review remain pend
 
 ## Pending release truth
 
-- Production deployment and production readback must still be verified separately.
 - A provider revision record explicitly linking the final deployment to the source commit is not yet available.
 - Independent caption-free comparison against Pure SVG v030, v031, and v032 remains unresolved.
 
