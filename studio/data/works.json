@@ -17746,6 +17746,111 @@
           "provider revision linkage between deployment and GitHub SHA"
         ]
       }
+    },
+    {
+      "id": "brush-2026-10-22",
+      "currentId": "brush",
+      "date": "2026-10-22",
+      "title": "The paint remembers which way you left.",
+      "rawPath": "/studies/p5-brush/v035/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-22",
+        "note": "v035 abandons v034's unlooked pigment pools, v033's dry-seam plate rhythm, and v031's negative ribbon. One continuous vertical paint membrane now loads directional tension without moving: three same-way scroll or arrow ticks arm the skin, and only an opposite tick commits a reversal. The reversal shears actual strata, opens a void, and drags a stain elsewhere; four reversal events remain liftable and later reversals inherit the ledger."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The membrane must read as one continuous skin before it reads as 31 slices. The cut, strata, and stain must be actual geometry, not a meter or a set of local marks."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and furniture hidden, the first field must read as a vertical painted membrane with a stored directional tension, not a pool field, plate array, ribbon, line chart, or generic scroll interface. After reversal, the void and shear must be findable in the skin."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "One, two, and three same-direction ticks must remain geometry-neutral. Only an opposite tick after the three-tick load may commit; the cursor location must not choose the scar. Arrow keys, wheel, swipe, Enter, and the reversal control must share the causal rule; Delete must restore the exact preceding membrane."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "The reversal ledger must feed later membrane geometry. Four events remain bounded and liftable; release returns to the quiet seed, while lifting reconstructs the exact preceding skin rather than clearing a counter."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from programmable pressure, density, and directional fields into a reversal-only material law. The source's brush, watercolor, hatching, grain, palette, composition, code, and API vocabulary are refused."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v035 leaves v034's proximity census, v033's three-knock laminate, and v031's drag refusal through a monolithic vertical membrane, a scroll/arrow reversal encounter, and a temporal tension model in which reversal—not contact—changes the material."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v035 if same-direction loading changes geometry, if the work is merely a chart with scroll controls, if reversal changes only colour or readout, if the cursor location selects the void, if later reversals forget, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v035-reversal-membrane",
+        "visitorInput": true,
+        "seed": "0x42523535",
+        "stages": 13,
+        "sliceCount": 31,
+        "strataCount": 5,
+        "memoryWindow": 4,
+        "armStreak": 3,
+        "settledStage": 12,
+        "settledMemory": 4,
+        "primitiveBudget": 36,
+        "memoryRule": "three same-direction ticks load tension without geometry change; an opposite tick shears the continuous membrane, opens a void, and drags a stain; four reversals remain liftable",
+        "interactionRule": "wheel, arrow key, or horizontal swipe ticks a direction; only an opposite tick after a three-tick load commits; Enter, Space, and the reversal control use deterministic sequences; Delete lifts latest; Escape or R releases",
+        "representationRupture": "embedded pools, seam plates, and a closed ribbon -> one continuous vertical membrane with broad interlocking strata, a cut, and a carried stain",
+        "encounterRupture": "proximity census, three-knock rhythm, and drag-and-release -> scroll or arrow direction loading followed by a reversal threshold; the pointer location is causally irrelevant",
+        "temporalRupture": "collective attention, discrete knock memory, and pressure debt -> directional tension ledger whose reversal changes the ontology of the next skin",
+        "mediumRupture": "raster pool field and native SVG laminate -> p5.js Canvas 2D monolithic membrane with derived strata and negative cuts",
+        "replay": true,
+        "renderer": "deterministic p5.js 2D reversal membrane",
+        "grammar": "reversal-membrane",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools expose pressure, density, grain, and directional fields as a material engine: the instrument changes how a mark is produced rather than merely styling a finished shape.",
+        "translatedRule": "Refuse brush appearance, hatching, watercolor, and the source API. Translate directional fields into a reversal membrane: three same-way ticks load material tension without moving the skin, then an opposite tick changes the production rule by shearing strata, opening a void, and carrying a stain elsewhere.",
+        "visibleConsequence": "The blind first view is one continuous vertical painted skin with broad strata. Same-direction ticks leave its geometry exact; reversal changes actual membrane slices, a cut, and a non-local stain, and later reversals inherit the altered skin.",
+        "falsifier": "If a same-direction tick changes geometry, if the pointer location chooses the scar, if reversal changes only colour or readout, if the membrane is a chart or control surface, if later reversals restart from baseline, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No p5.brush brush, watercolor appearance, hatching vocabulary, grain texture, source palette, source composition, source code, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Brush's pool / plate / ribbon family and opens a reversal-membrane direction: material resistance is now a directional tension that only becomes visible when the viewer changes course."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v035 if the blind membrane reads as a generic chart or scroll interface, if same-direction ticks write, if reversal is only cosmetic, if later reversals forget, or if exact lifting fails.",
+        "lineage": "brush-2026-10-21"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; candidate held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localAlias": "http://127.0.0.1:57135",
+        "localRawPreview": "/studies/p5-brush/v035/?preview=1&interaction=1",
+        "localCanonicalWork": "/works/brush-2026-10-22/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport; blind 390px probe was 390/390/390",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs",
+        "localInteraction": "three same-direction ArrowRight ticks kept geometry exact with memory 0 and pending 3; ArrowLeft committed memory 0 -> 1 with shearedCount 13, voidCount 7, and stainedCount 9; Delete restored the exact baseline; Enter committed; Escape released",
+        "localTouchTargets": "all three interaction controls measured at least 44px high at 390x844",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the membrane canvas visible while hiding readout, controls, and hint; settled memory was 4 with voidCount 18; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local Journal anchor/title, Brush current, canonical work title/tableau, raw v035 tableau, source works.json, public catalog, and favicon returned/rendered",
+        "proofPath": "research/qa/proofs/brush-v035-2026-10-22/",
+        "screenshotCount": 20,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix and public readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
     }
   ]
 }

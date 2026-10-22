@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171316">
+  <title>MUTINE — The paint remembers which way you left.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=035">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-22"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="membrane-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v035 / REVERSAL MEMBRANE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="membrane-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v035</span></nav>
+
+      <figure class="membrane-work artwork-frame" aria-labelledby="work-title">
+        <div id="reversal-field" class="reversal-field" tabindex="0" role="application" aria-label="A single painted membrane that stores directional tension. Scroll or use arrow keys three times in one direction, then reverse to shear the membrane." aria-keyshortcuts="ArrowUp ArrowDown ArrowLeft ArrowRight Enter Space Delete Escape R S">
+          <div class="membrane-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 reversals held</span></div>
+          <div id="membrane-canvas" class="membrane-canvas"></div>
+          <div class="membrane-controls" aria-label="Brush membrane actions">
+            <button type="button" data-gesture="reverse">reverse the skin</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release ledger</button>
+          </div>
+          <p class="membrane-hint">scroll three ways · reverse once</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v035-reversal-membrane</span><span>tension &gt; reversal &gt; shear</span></figcaption>
+      </figure>
+
+      <section class="membrane-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / REVERSAL MEMBRANE / v035</p>
+        <h1 id="work-title">The paint remembers<br><i>which way you left.</i></h1>
+        <p class="membrane-lede">Three movements in one direction load the skin without touching it. A reversal does the damage: the continuous membrane shears, opens a pale void, and carries a stain somewhere the cursor never chose.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A REVERSAL IS THE REMOVAL</p>
+          <p class="interaction-copy">Scroll or press an arrow key three times in one direction. Nothing moves yet. Reverse once and the paint commits the stored tension: its strata shear, a void opens, and a stain drifts. The direction of the reversal matters; the pointer's location does not. Enter, Space, and “reverse the skin” use deterministic sequences. Delete lifts the latest reversal; Escape or R releases the ledger.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The skin is quiet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v035</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon pools, plates, ribbons, proximity, and local pressure. A single continuous membrane accumulates directional tension; only an opposite tick after three same-way ticks can alter its actual strata.</dd></div>
+          <div><dt>visitor action</dt><dd>Scroll or use the arrow keys to load a direction, then reverse. Enter, Space, and the reversal control use the same deterministic event. Delete lifts the latest; Escape or R releases. S downloads a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If a same-direction tick changes geometry, if the cursor location chooses the scar, if reversal changes only colour/readout, or if later reversals forget the membrane's ledger, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v035 if caption-free viewing cannot show one continuous skin with a structural cut, if reversal is only a disguised button, or if lifting the latest event does not restore the exact preceding membrane.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-21/">previous daily work</a><a href="/journal/#journal-brush-2026-10-22">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=035"></script>
+</body>
+</html>
