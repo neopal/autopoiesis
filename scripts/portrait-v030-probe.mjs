@@ -4,8 +4,8 @@ import { chromium } from 'playwright';
 
 const root = process.cwd();
 const port = 4280;
-const base = `http://127.0.0.1:${port}`;
-const proofDir = resolve(root, 'research/qa/proofs/portrait-v030-2026-10-22');
+const base = process.env.MUTINE_PROBE_BASE ?? `http://127.0.0.1:${port}`;
+const proofDir = resolve(root, process.env.MUTINE_PROOF_DIR ?? 'research/qa/proofs/portrait-v030-2026-10-22');
 const viewports = [[320, 568], [390, 844], [768, 1024], [1280, 800], [1920, 1080]];
 const routes = {
   raw: '/studies/self-portrait/v030/?preview=1&interaction=1',
