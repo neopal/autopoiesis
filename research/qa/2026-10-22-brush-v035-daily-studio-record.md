@@ -36,10 +36,13 @@ v035 abandons v034's proximity census of pigment pools, v033's three-knock SVG l
 
 ## Publication chain
 
-- Git commit: pending verified commit
-- GitHub SHA: pending push
-- Vercel deployment: pending production verification
+- Git commit before production probe: `1484caa50cb83d71487365ef4682b7ab760cbeea`
+- GitHub SHA before production probe: `1484caa50cb83d71487365ef4682b7ab760cbeea`
+- Vercel deployment: `dpl_8AJzhK4iH4CJunT8198o7dfpmXiF`
+- Stable alias: `https://autopoiesis-nine.vercel.app`
+- Production browser matrix: **20/20 passed** at all five required viewports in normal and reduced-motion modes
+- Production public readback: source/public registries each contained exactly one `brush-2026-10-22` record; Journal, current, canonical work, raw study, and favicon returned/rendered
 
 ## Unresolved doubt
 
-The candidate remains **held**, not exhibition-ready, pending the production matrix, independent caption-free perceptual comparison with all editorial furniture hidden, and explicit provider revision linkage between the GitHub SHA and the Vercel deployment.
+The candidate remains **held**, not exhibition-ready, pending independent caption-free perceptual comparison with all editorial furniture hidden and explicit provider revision linkage between the GitHub SHA and the Vercel deployment.
