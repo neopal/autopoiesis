@@ -1,0 +1,1634 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "state": {
+        "frame": {
+          "composition": "decision-population",
+          "stage": 0,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "agents": [
+            {
+              "index": 0,
+              "lead": "I KEEP",
+              "tail": "the unfinished edge",
+              "attention": 0,
+              "charge": 0.38741,
+              "width": 0.5641,
+              "lean": -0.03788,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "lead": "I DOUBT",
+              "tail": "the obvious centre",
+              "attention": 0,
+              "charge": 0.81026,
+              "width": 0.78861,
+              "lean": 0.03819,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "lead": "I RETURN",
+              "tail": "the borrowed light",
+              "attention": 0,
+              "charge": 0.726,
+              "width": 0.74048,
+              "lean": -0.00057,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "lead": "I HOLD",
+              "tail": "the second sentence",
+              "attention": 0,
+              "charge": 0.8072,
+              "width": 0.72427,
+              "lean": 0.00705,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "lead": "I NOTICE",
+              "tail": "what moved first",
+              "attention": 0,
+              "charge": 0.43047,
+              "width": 0.52308,
+              "lean": 0.01457,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "lead": "I DELAY",
+              "tail": "the clean answer",
+              "attention": 0,
+              "charge": 0.65869,
+              "width": 0.56104,
+              "lean": -0.0188,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "lead": "I CARRY",
+              "tail": "a quiet remainder",
+              "attention": 0,
+              "charge": 0.70905,
+              "width": 0.82598,
+              "lean": 0.0321,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "lead": "I TEST",
+              "tail": "the open seam",
+              "attention": 0,
+              "charge": 0.31697,
+              "width": 0.68871,
+              "lean": 0.00701,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "lead": "I REFUSE",
+              "tail": "the easy mirror",
+              "attention": 0,
+              "charge": 0.67811,
+              "width": 0.57325,
+              "lean": 0.03263,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "lead": "I SAVE",
+              "tail": "the wrong turn",
+              "attention": 0,
+              "charge": 0.57138,
+              "width": 0.62712,
+              "lean": -0.00157,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "lead": "I ASK",
+              "tail": "the absent witness",
+              "attention": 0,
+              "charge": 0.35916,
+              "width": 0.7474,
+              "lean": 0.03906,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "lead": "I LEAVE",
+              "tail": "a usable gap",
+              "attention": 0,
+              "charge": 0.52589,
+              "width": 0.66491,
+              "lean": -0.00439,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "lead": "I REPEAT",
+              "tail": "only the doubt",
+              "attention": 0,
+              "charge": 0.55033,
+              "width": 0.57499,
+              "lean": -0.03586,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "lead": "I TURN",
+              "tail": "toward the margin",
+              "attention": 0,
+              "charge": 0.61288,
+              "width": 0.54876,
+              "lean": -0.01578,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "lead": "I REVISE",
+              "tail": "my own outline",
+              "attention": 0,
+              "charge": 0.36394,
+              "width": 0.52171,
+              "lean": 0.00191,
+              "state": "quiet"
+            }
+          ],
+          "memory": [],
+          "commits": [],
+          "snapshots": [],
+          "interaction": "waiting"
+        },
+        "geometry": "{\"composition\":\"decision-population\",\"stage\":0,\"order\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],\"agents\":[[0,0,0.38741,0.5641,-0.03788,\"quiet\"],[1,0,0.81026,0.78861,0.03819,\"quiet\"],[2,0,0.726,0.74048,-0.00057,\"quiet\"],[3,0,0.8072,0.72427,0.00705,\"quiet\"],[4,0,0.43047,0.52308,0.01457,\"quiet\"],[5,0,0.65869,0.56104,-0.0188,\"quiet\"],[6,0,0.70905,0.82598,0.0321,\"quiet\"],[7,0,0.31697,0.68871,0.00701,\"quiet\"],[8,0,0.67811,0.57325,0.03263,\"quiet\"],[9,0,0.57138,0.62712,-0.00157,\"quiet\"],[10,0,0.35916,0.7474,0.03906,\"quiet\"],[11,0,0.52589,0.66491,-0.00439,\"quiet\"],[12,0,0.55033,0.57499,-0.03586,\"quiet\"],[13,0,0.61288,0.54876,-0.01578,\"quiet\"],[14,0,0.36394,0.52171,0.00191,\"quiet\"]]}"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "clicked": {
+      "state": {
+        "frame": {
+          "composition": "decision-population",
+          "stage": 1,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            7,
+            14
+          ],
+          "agents": [
+            {
+              "index": 0,
+              "lead": "I KEEP",
+              "tail": "the unfinished edge",
+              "attention": 1,
+              "charge": 0.40541,
+              "width": 0.5641,
+              "lean": -0.03788,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "lead": "I DOUBT",
+              "tail": "the obvious centre",
+              "attention": 1,
+              "charge": 0.82826,
+              "width": 0.78861,
+              "lean": 0.03819,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "lead": "I RETURN",
+              "tail": "the borrowed light",
+              "attention": 1,
+              "charge": 0.744,
+              "width": 0.74048,
+              "lean": -0.00057,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "lead": "I HOLD",
+              "tail": "the second sentence",
+              "attention": 1,
+              "charge": 0.8252,
+              "width": 0.72427,
+              "lean": 0.00705,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "lead": "I NOTICE",
+              "tail": "what moved first",
+              "attention": 1,
+              "charge": 0.44847,
+              "width": 0.52308,
+              "lean": 0.01457,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "lead": "I DELAY",
+              "tail": "the clean answer",
+              "attention": 1,
+              "charge": 0.67669,
+              "width": 0.56104,
+              "lean": -0.0188,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "lead": "I CARRY",
+              "tail": "a quiet remainder",
+              "attention": 1,
+              "charge": 0.72705,
+              "width": 0.82598,
+              "lean": 0.0321,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "lead": "I TEST",
+              "tail": "the open seam",
+              "attention": 0,
+              "charge": 0.47697,
+              "width": 0.80871,
+              "lean": 0.05201,
+              "state": "minority"
+            },
+            {
+              "index": 8,
+              "lead": "I REFUSE",
+              "tail": "the easy mirror",
+              "attention": 1,
+              "charge": 0.69611,
+              "width": 0.57325,
+              "lean": 0.03263,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "lead": "I SAVE",
+              "tail": "the wrong turn",
+              "attention": 1,
+              "charge": 0.58938,
+              "width": 0.62712,
+              "lean": -0.00157,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "lead": "I ASK",
+              "tail": "the absent witness",
+              "attention": 1,
+              "charge": 0.37716,
+              "width": 0.7474,
+              "lean": 0.03906,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "lead": "I LEAVE",
+              "tail": "a usable gap",
+              "attention": 1,
+              "charge": 0.54389,
+              "width": 0.66491,
+              "lean": -0.00439,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "lead": "I REPEAT",
+              "tail": "only the doubt",
+              "attention": 1,
+              "charge": 0.56833,
+              "width": 0.57499,
+              "lean": -0.03586,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "lead": "I TURN",
+              "tail": "toward the margin",
+              "attention": 2,
+              "charge": 0.52288,
+              "width": 0.46876,
+              "lean": -0.05078,
+              "state": "displaced"
+            },
+            {
+              "index": 14,
+              "lead": "I REVISE",
+              "tail": "my own outline",
+              "attention": 1,
+              "charge": 0.38194,
+              "width": 0.52171,
+              "lean": 0.00191,
+              "state": "quiet"
+            }
+          ],
+          "memory": [
+            {
+              "source": "visitor-pulse",
+              "kind": "second-opinion",
+              "sourceIndex": 7,
+              "destinationIndex": 13,
+              "sourcePosition": 7,
+              "destinationPosition": 13,
+              "stage": 0,
+              "orderBefore": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "orderAfter": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                7,
+                14
+              ]
+            }
+          ],
+          "commits": [
+            {
+              "source": "visitor-pulse",
+              "kind": "second-opinion",
+              "sourceIndex": 7,
+              "destinationIndex": 13,
+              "sourcePosition": 7,
+              "destinationPosition": 13,
+              "stage": 0,
+              "orderBefore": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "orderAfter": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                7,
+                14
+              ]
+            }
+          ],
+          "snapshots": [
+            {
+              "composition": "decision-population",
+              "stage": 0,
+              "order": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "agents": [
+                {
+                  "index": 0,
+                  "lead": "I KEEP",
+                  "tail": "the unfinished edge",
+                  "attention": 0,
+                  "charge": 0.38741,
+                  "width": 0.5641,
+                  "lean": -0.03788,
+                  "state": "quiet"
+                },
+                {
+                  "index": 1,
+                  "lead": "I DOUBT",
+                  "tail": "the obvious centre",
+                  "attention": 0,
+                  "charge": 0.81026,
+                  "width": 0.78861,
+                  "lean": 0.03819,
+                  "state": "quiet"
+                },
+                {
+                  "index": 2,
+                  "lead": "I RETURN",
+                  "tail": "the borrowed light",
+                  "attention": 0,
+                  "charge": 0.726,
+                  "width": 0.74048,
+                  "lean": -0.00057,
+                  "state": "quiet"
+                },
+                {
+                  "index": 3,
+                  "lead": "I HOLD",
+                  "tail": "the second sentence",
+                  "attention": 0,
+                  "charge": 0.8072,
+                  "width": 0.72427,
+                  "lean": 0.00705,
+                  "state": "quiet"
+                },
+                {
+                  "index": 4,
+                  "lead": "I NOTICE",
+                  "tail": "what moved first",
+                  "attention": 0,
+                  "charge": 0.43047,
+                  "width": 0.52308,
+                  "lean": 0.01457,
+                  "state": "quiet"
+                },
+                {
+                  "index": 5,
+                  "lead": "I DELAY",
+                  "tail": "the clean answer",
+                  "attention": 0,
+                  "charge": 0.65869,
+                  "width": 0.56104,
+                  "lean": -0.0188,
+                  "state": "quiet"
+                },
+                {
+                  "index": 6,
+                  "lead": "I CARRY",
+                  "tail": "a quiet remainder",
+                  "attention": 0,
+                  "charge": 0.70905,
+                  "width": 0.82598,
+                  "lean": 0.0321,
+                  "state": "quiet"
+                },
+                {
+                  "index": 7,
+                  "lead": "I TEST",
+                  "tail": "the open seam",
+                  "attention": 0,
+                  "charge": 0.31697,
+                  "width": 0.68871,
+                  "lean": 0.00701,
+                  "state": "quiet"
+                },
+                {
+                  "index": 8,
+                  "lead": "I REFUSE",
+                  "tail": "the easy mirror",
+                  "attention": 0,
+                  "charge": 0.67811,
+                  "width": 0.57325,
+                  "lean": 0.03263,
+                  "state": "quiet"
+                },
+                {
+                  "index": 9,
+                  "lead": "I SAVE",
+                  "tail": "the wrong turn",
+                  "attention": 0,
+                  "charge": 0.57138,
+                  "width": 0.62712,
+                  "lean": -0.00157,
+                  "state": "quiet"
+                },
+                {
+                  "index": 10,
+                  "lead": "I ASK",
+                  "tail": "the absent witness",
+                  "attention": 0,
+                  "charge": 0.35916,
+                  "width": 0.7474,
+                  "lean": 0.03906,
+                  "state": "quiet"
+                },
+                {
+                  "index": 11,
+                  "lead": "I LEAVE",
+                  "tail": "a usable gap",
+                  "attention": 0,
+                  "charge": 0.52589,
+                  "width": 0.66491,
+                  "lean": -0.00439,
+                  "state": "quiet"
+                },
+                {
+                  "index": 12,
+                  "lead": "I REPEAT",
+                  "tail": "only the doubt",
+                  "attention": 0,
+                  "charge": 0.55033,
+                  "width": 0.57499,
+                  "lean": -0.03586,
+                  "state": "quiet"
+                },
+                {
+                  "index": 13,
+                  "lead": "I TURN",
+                  "tail": "toward the margin",
+                  "attention": 0,
+                  "charge": 0.61288,
+                  "width": 0.54876,
+                  "lean": -0.01578,
+                  "state": "quiet"
+                },
+                {
+                  "index": 14,
+                  "lead": "I REVISE",
+                  "tail": "my own outline",
+                  "attention": 0,
+                  "charge": 0.36394,
+                  "width": 0.52171,
+                  "lean": 0.00191,
+                  "state": "quiet"
+                }
+              ],
+              "memory": [],
+              "commits": [],
+              "snapshots": [],
+              "interaction": "waiting"
+            }
+          ],
+          "interaction": "committed"
+        },
+        "geometry": "{\"composition\":\"decision-population\",\"stage\":1,\"order\":[0,1,2,3,4,5,6,8,9,10,11,12,13,7,14],\"agents\":[[0,1,0.40541,0.5641,-0.03788,\"quiet\"],[1,1,0.82826,0.78861,0.03819,\"quiet\"],[2,1,0.744,0.74048,-0.00057,\"quiet\"],[3,1,0.8252,0.72427,0.00705,\"quiet\"],[4,1,0.44847,0.52308,0.01457,\"quiet\"],[5,1,0.67669,0.56104,-0.0188,\"quiet\"],[6,1,0.72705,0.82598,0.0321,\"quiet\"],[7,0,0.47697,0.80871,0.05201,\"minority\"],[8,1,0.69611,0.57325,0.03263,\"quiet\"],[9,1,0.58938,0.62712,-0.00157,\"quiet\"],[10,1,0.37716,0.7474,0.03906,\"quiet\"],[11,1,0.54389,0.66491,-0.00439,\"quiet\"],[12,1,0.56833,0.57499,-0.03586,\"quiet\"],[13,2,0.52288,0.46876,-0.05078,\"displaced\"],[14,1,0.38194,0.52171,0.00191,\"quiet\"]]}"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        7,
+        14
+      ]
+    },
+    "lifted": {
+      "state": {
+        "frame": {
+          "composition": "decision-population",
+          "stage": 0,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "agents": [
+            {
+              "index": 0,
+              "lead": "I KEEP",
+              "tail": "the unfinished edge",
+              "attention": 0,
+              "charge": 0.38741,
+              "width": 0.5641,
+              "lean": -0.03788,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "lead": "I DOUBT",
+              "tail": "the obvious centre",
+              "attention": 0,
+              "charge": 0.81026,
+              "width": 0.78861,
+              "lean": 0.03819,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "lead": "I RETURN",
+              "tail": "the borrowed light",
+              "attention": 0,
+              "charge": 0.726,
+              "width": 0.74048,
+              "lean": -0.00057,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "lead": "I HOLD",
+              "tail": "the second sentence",
+              "attention": 0,
+              "charge": 0.8072,
+              "width": 0.72427,
+              "lean": 0.00705,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "lead": "I NOTICE",
+              "tail": "what moved first",
+              "attention": 0,
+              "charge": 0.43047,
+              "width": 0.52308,
+              "lean": 0.01457,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "lead": "I DELAY",
+              "tail": "the clean answer",
+              "attention": 0,
+              "charge": 0.65869,
+              "width": 0.56104,
+              "lean": -0.0188,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "lead": "I CARRY",
+              "tail": "a quiet remainder",
+              "attention": 0,
+              "charge": 0.70905,
+              "width": 0.82598,
+              "lean": 0.0321,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "lead": "I TEST",
+              "tail": "the open seam",
+              "attention": 0,
+              "charge": 0.31697,
+              "width": 0.68871,
+              "lean": 0.00701,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "lead": "I REFUSE",
+              "tail": "the easy mirror",
+              "attention": 0,
+              "charge": 0.67811,
+              "width": 0.57325,
+              "lean": 0.03263,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "lead": "I SAVE",
+              "tail": "the wrong turn",
+              "attention": 0,
+              "charge": 0.57138,
+              "width": 0.62712,
+              "lean": -0.00157,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "lead": "I ASK",
+              "tail": "the absent witness",
+              "attention": 0,
+              "charge": 0.35916,
+              "width": 0.7474,
+              "lean": 0.03906,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "lead": "I LEAVE",
+              "tail": "a usable gap",
+              "attention": 0,
+              "charge": 0.52589,
+              "width": 0.66491,
+              "lean": -0.00439,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "lead": "I REPEAT",
+              "tail": "only the doubt",
+              "attention": 0,
+              "charge": 0.55033,
+              "width": 0.57499,
+              "lean": -0.03586,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "lead": "I TURN",
+              "tail": "toward the margin",
+              "attention": 0,
+              "charge": 0.61288,
+              "width": 0.54876,
+              "lean": -0.01578,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "lead": "I REVISE",
+              "tail": "my own outline",
+              "attention": 0,
+              "charge": 0.36394,
+              "width": 0.52171,
+              "lean": 0.00191,
+              "state": "quiet"
+            }
+          ],
+          "memory": [],
+          "commits": [],
+          "snapshots": [],
+          "interaction": "lifted"
+        },
+        "geometry": "{\"composition\":\"decision-population\",\"stage\":0,\"order\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],\"agents\":[[0,0,0.38741,0.5641,-0.03788,\"quiet\"],[1,0,0.81026,0.78861,0.03819,\"quiet\"],[2,0,0.726,0.74048,-0.00057,\"quiet\"],[3,0,0.8072,0.72427,0.00705,\"quiet\"],[4,0,0.43047,0.52308,0.01457,\"quiet\"],[5,0,0.65869,0.56104,-0.0188,\"quiet\"],[6,0,0.70905,0.82598,0.0321,\"quiet\"],[7,0,0.31697,0.68871,0.00701,\"quiet\"],[8,0,0.67811,0.57325,0.03263,\"quiet\"],[9,0,0.57138,0.62712,-0.00157,\"quiet\"],[10,0,0.35916,0.7474,0.03906,\"quiet\"],[11,0,0.52589,0.66491,-0.00439,\"quiet\"],[12,0,0.55033,0.57499,-0.03586,\"quiet\"],[13,0,0.61288,0.54876,-0.01578,\"quiet\"],[14,0,0.36394,0.52171,0.00191,\"quiet\"]]}"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "keyboard": {
+      "state": {
+        "frame": {
+          "composition": "decision-population",
+          "stage": 1,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            7,
+            14
+          ],
+          "agents": [
+            {
+              "index": 0,
+              "lead": "I KEEP",
+              "tail": "the unfinished edge",
+              "attention": 1,
+              "charge": 0.40541,
+              "width": 0.5641,
+              "lean": -0.03788,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "lead": "I DOUBT",
+              "tail": "the obvious centre",
+              "attention": 1,
+              "charge": 0.82826,
+              "width": 0.78861,
+              "lean": 0.03819,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "lead": "I RETURN",
+              "tail": "the borrowed light",
+              "attention": 1,
+              "charge": 0.744,
+              "width": 0.74048,
+              "lean": -0.00057,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "lead": "I HOLD",
+              "tail": "the second sentence",
+              "attention": 1,
+              "charge": 0.8252,
+              "width": 0.72427,
+              "lean": 0.00705,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "lead": "I NOTICE",
+              "tail": "what moved first",
+              "attention": 1,
+              "charge": 0.44847,
+              "width": 0.52308,
+              "lean": 0.01457,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "lead": "I DELAY",
+              "tail": "the clean answer",
+              "attention": 1,
+              "charge": 0.67669,
+              "width": 0.56104,
+              "lean": -0.0188,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "lead": "I CARRY",
+              "tail": "a quiet remainder",
+              "attention": 1,
+              "charge": 0.72705,
+              "width": 0.82598,
+              "lean": 0.0321,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "lead": "I TEST",
+              "tail": "the open seam",
+              "attention": 0,
+              "charge": 0.47697,
+              "width": 0.80871,
+              "lean": 0.05201,
+              "state": "minority"
+            },
+            {
+              "index": 8,
+              "lead": "I REFUSE",
+              "tail": "the easy mirror",
+              "attention": 1,
+              "charge": 0.69611,
+              "width": 0.57325,
+              "lean": 0.03263,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "lead": "I SAVE",
+              "tail": "the wrong turn",
+              "attention": 1,
+              "charge": 0.58938,
+              "width": 0.62712,
+              "lean": -0.00157,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "lead": "I ASK",
+              "tail": "the absent witness",
+              "attention": 1,
+              "charge": 0.37716,
+              "width": 0.7474,
+              "lean": 0.03906,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "lead": "I LEAVE",
+              "tail": "a usable gap",
+              "attention": 1,
+              "charge": 0.54389,
+              "width": 0.66491,
+              "lean": -0.00439,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "lead": "I REPEAT",
+              "tail": "only the doubt",
+              "attention": 1,
+              "charge": 0.56833,
+              "width": 0.57499,
+              "lean": -0.03586,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "lead": "I TURN",
+              "tail": "toward the margin",
+              "attention": 2,
+              "charge": 0.52288,
+              "width": 0.46876,
+              "lean": -0.05078,
+              "state": "displaced"
+            },
+            {
+              "index": 14,
+              "lead": "I REVISE",
+              "tail": "my own outline",
+              "attention": 1,
+              "charge": 0.38194,
+              "width": 0.52171,
+              "lean": 0.00191,
+              "state": "quiet"
+            }
+          ],
+          "memory": [
+            {
+              "source": "visitor-pulse",
+              "kind": "second-opinion",
+              "sourceIndex": 7,
+              "destinationIndex": 13,
+              "sourcePosition": 7,
+              "destinationPosition": 13,
+              "stage": 0,
+              "orderBefore": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "orderAfter": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                7,
+                14
+              ]
+            }
+          ],
+          "commits": [
+            {
+              "source": "visitor-pulse",
+              "kind": "second-opinion",
+              "sourceIndex": 7,
+              "destinationIndex": 13,
+              "sourcePosition": 7,
+              "destinationPosition": 13,
+              "stage": 0,
+              "orderBefore": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "orderAfter": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                7,
+                14
+              ]
+            }
+          ],
+          "snapshots": [
+            {
+              "composition": "decision-population",
+              "stage": 0,
+              "order": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "agents": [
+                {
+                  "index": 0,
+                  "lead": "I KEEP",
+                  "tail": "the unfinished edge",
+                  "attention": 0,
+                  "charge": 0.38741,
+                  "width": 0.5641,
+                  "lean": -0.03788,
+                  "state": "quiet"
+                },
+                {
+                  "index": 1,
+                  "lead": "I DOUBT",
+                  "tail": "the obvious centre",
+                  "attention": 0,
+                  "charge": 0.81026,
+                  "width": 0.78861,
+                  "lean": 0.03819,
+                  "state": "quiet"
+                },
+                {
+                  "index": 2,
+                  "lead": "I RETURN",
+                  "tail": "the borrowed light",
+                  "attention": 0,
+                  "charge": 0.726,
+                  "width": 0.74048,
+                  "lean": -0.00057,
+                  "state": "quiet"
+                },
+                {
+                  "index": 3,
+                  "lead": "I HOLD",
+                  "tail": "the second sentence",
+                  "attention": 0,
+                  "charge": 0.8072,
+                  "width": 0.72427,
+                  "lean": 0.00705,
+                  "state": "quiet"
+                },
+                {
+                  "index": 4,
+                  "lead": "I NOTICE",
+                  "tail": "what moved first",
+                  "attention": 0,
+                  "charge": 0.43047,
+                  "width": 0.52308,
+                  "lean": 0.01457,
+                  "state": "quiet"
+                },
+                {
+                  "index": 5,
+                  "lead": "I DELAY",
+                  "tail": "the clean answer",
+                  "attention": 0,
+                  "charge": 0.65869,
+                  "width": 0.56104,
+                  "lean": -0.0188,
+                  "state": "quiet"
+                },
+                {
+                  "index": 6,
+                  "lead": "I CARRY",
+                  "tail": "a quiet remainder",
+                  "attention": 0,
+                  "charge": 0.70905,
+                  "width": 0.82598,
+                  "lean": 0.0321,
+                  "state": "quiet"
+                },
+                {
+                  "index": 7,
+                  "lead": "I TEST",
+                  "tail": "the open seam",
+                  "attention": 0,
+                  "charge": 0.31697,
+                  "width": 0.68871,
+                  "lean": 0.00701,
+                  "state": "quiet"
+                },
+                {
+                  "index": 8,
+                  "lead": "I REFUSE",
+                  "tail": "the easy mirror",
+                  "attention": 0,
+                  "charge": 0.67811,
+                  "width": 0.57325,
+                  "lean": 0.03263,
+                  "state": "quiet"
+                },
+                {
+                  "index": 9,
+                  "lead": "I SAVE",
+                  "tail": "the wrong turn",
+                  "attention": 0,
+                  "charge": 0.57138,
+                  "width": 0.62712,
+                  "lean": -0.00157,
+                  "state": "quiet"
+                },
+                {
+                  "index": 10,
+                  "lead": "I ASK",
+                  "tail": "the absent witness",
+                  "attention": 0,
+                  "charge": 0.35916,
+                  "width": 0.7474,
+                  "lean": 0.03906,
+                  "state": "quiet"
+                },
+                {
+                  "index": 11,
+                  "lead": "I LEAVE",
+                  "tail": "a usable gap",
+                  "attention": 0,
+                  "charge": 0.52589,
+                  "width": 0.66491,
+                  "lean": -0.00439,
+                  "state": "quiet"
+                },
+                {
+                  "index": 12,
+                  "lead": "I REPEAT",
+                  "tail": "only the doubt",
+                  "attention": 0,
+                  "charge": 0.55033,
+                  "width": 0.57499,
+                  "lean": -0.03586,
+                  "state": "quiet"
+                },
+                {
+                  "index": 13,
+                  "lead": "I TURN",
+                  "tail": "toward the margin",
+                  "attention": 0,
+                  "charge": 0.61288,
+                  "width": 0.54876,
+                  "lean": -0.01578,
+                  "state": "quiet"
+                },
+                {
+                  "index": 14,
+                  "lead": "I REVISE",
+                  "tail": "my own outline",
+                  "attention": 0,
+                  "charge": 0.36394,
+                  "width": 0.52171,
+                  "lean": 0.00191,
+                  "state": "quiet"
+                }
+              ],
+              "memory": [],
+              "commits": [],
+              "snapshots": [],
+              "interaction": "lifted"
+            }
+          ],
+          "interaction": "committed"
+        },
+        "geometry": "{\"composition\":\"decision-population\",\"stage\":1,\"order\":[0,1,2,3,4,5,6,8,9,10,11,12,13,7,14],\"agents\":[[0,1,0.40541,0.5641,-0.03788,\"quiet\"],[1,1,0.82826,0.78861,0.03819,\"quiet\"],[2,1,0.744,0.74048,-0.00057,\"quiet\"],[3,1,0.8252,0.72427,0.00705,\"quiet\"],[4,1,0.44847,0.52308,0.01457,\"quiet\"],[5,1,0.67669,0.56104,-0.0188,\"quiet\"],[6,1,0.72705,0.82598,0.0321,\"quiet\"],[7,0,0.47697,0.80871,0.05201,\"minority\"],[8,1,0.69611,0.57325,0.03263,\"quiet\"],[9,1,0.58938,0.62712,-0.00157,\"quiet\"],[10,1,0.37716,0.7474,0.03906,\"quiet\"],[11,1,0.54389,0.66491,-0.00439,\"quiet\"],[12,1,0.56833,0.57499,-0.03586,\"quiet\"],[13,2,0.52288,0.46876,-0.05078,\"displaced\"],[14,1,0.38194,0.52171,0.00191,\"quiet\"]]}"
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        7,
+        14
+      ]
+    },
+    "released": {
+      "frame": {
+        "composition": "decision-population",
+        "stage": 0,
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "agents": [
+          {
+            "index": 0,
+            "lead": "I KEEP",
+            "tail": "the unfinished edge",
+            "attention": 0,
+            "charge": 0.38741,
+            "width": 0.5641,
+            "lean": -0.03788,
+            "state": "quiet"
+          },
+          {
+            "index": 1,
+            "lead": "I DOUBT",
+            "tail": "the obvious centre",
+            "attention": 0,
+            "charge": 0.81026,
+            "width": 0.78861,
+            "lean": 0.03819,
+            "state": "quiet"
+          },
+          {
+            "index": 2,
+            "lead": "I RETURN",
+            "tail": "the borrowed light",
+            "attention": 0,
+            "charge": 0.726,
+            "width": 0.74048,
+            "lean": -0.00057,
+            "state": "quiet"
+          },
+          {
+            "index": 3,
+            "lead": "I HOLD",
+            "tail": "the second sentence",
+            "attention": 0,
+            "charge": 0.8072,
+            "width": 0.72427,
+            "lean": 0.00705,
+            "state": "quiet"
+          },
+          {
+            "index": 4,
+            "lead": "I NOTICE",
+            "tail": "what moved first",
+            "attention": 0,
+            "charge": 0.43047,
+            "width": 0.52308,
+            "lean": 0.01457,
+            "state": "quiet"
+          },
+          {
+            "index": 5,
+            "lead": "I DELAY",
+            "tail": "the clean answer",
+            "attention": 0,
+            "charge": 0.65869,
+            "width": 0.56104,
+            "lean": -0.0188,
+            "state": "quiet"
+          },
+          {
+            "index": 6,
+            "lead": "I CARRY",
+            "tail": "a quiet remainder",
+            "attention": 0,
+            "charge": 0.70905,
+            "width": 0.82598,
+            "lean": 0.0321,
+            "state": "quiet"
+          },
+          {
+            "index": 7,
+            "lead": "I TEST",
+            "tail": "the open seam",
+            "attention": 0,
+            "charge": 0.31697,
+            "width": 0.68871,
+            "lean": 0.00701,
+            "state": "quiet"
+          },
+          {
+            "index": 8,
+            "lead": "I REFUSE",
+            "tail": "the easy mirror",
+            "attention": 0,
+            "charge": 0.67811,
+            "width": 0.57325,
+            "lean": 0.03263,
+            "state": "quiet"
+          },
+          {
+            "index": 9,
+            "lead": "I SAVE",
+            "tail": "the wrong turn",
+            "attention": 0,
+            "charge": 0.57138,
+            "width": 0.62712,
+            "lean": -0.00157,
+            "state": "quiet"
+          },
+          {
+            "index": 10,
+            "lead": "I ASK",
+            "tail": "the absent witness",
+            "attention": 0,
+            "charge": 0.35916,
+            "width": 0.7474,
+            "lean": 0.03906,
+            "state": "quiet"
+          },
+          {
+            "index": 11,
+            "lead": "I LEAVE",
+            "tail": "a usable gap",
+            "attention": 0,
+            "charge": 0.52589,
+            "width": 0.66491,
+            "lean": -0.00439,
+            "state": "quiet"
+          },
+          {
+            "index": 12,
+            "lead": "I REPEAT",
+            "tail": "only the doubt",
+            "attention": 0,
+            "charge": 0.55033,
+            "width": 0.57499,
+            "lean": -0.03586,
+            "state": "quiet"
+          },
+          {
+            "index": 13,
+            "lead": "I TURN",
+            "tail": "toward the margin",
+            "attention": 0,
+            "charge": 0.61288,
+            "width": 0.54876,
+            "lean": -0.01578,
+            "state": "quiet"
+          },
+          {
+            "index": 14,
+            "lead": "I REVISE",
+            "tail": "my own outline",
+            "attention": 0,
+            "charge": 0.36394,
+            "width": 0.52171,
+            "lean": 0.00191,
+            "state": "quiet"
+          }
+        ],
+        "memory": [],
+        "commits": [],
+        "snapshots": [],
+        "interaction": "waiting"
+      },
+      "geometry": "{\"composition\":\"decision-population\",\"stage\":0,\"order\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],\"agents\":[[0,0,0.38741,0.5641,-0.03788,\"quiet\"],[1,0,0.81026,0.78861,0.03819,\"quiet\"],[2,0,0.726,0.74048,-0.00057,\"quiet\"],[3,0,0.8072,0.72427,0.00705,\"quiet\"],[4,0,0.43047,0.52308,0.01457,\"quiet\"],[5,0,0.65869,0.56104,-0.0188,\"quiet\"],[6,0,0.70905,0.82598,0.0321,\"quiet\"],[7,0,0.31697,0.68871,0.00701,\"quiet\"],[8,0,0.67811,0.57325,0.03263,\"quiet\"],[9,0,0.57138,0.62712,-0.00157,\"quiet\"],[10,0,0.35916,0.7474,0.03906,\"quiet\"],[11,0,0.52589,0.66491,-0.00439,\"quiet\"],[12,0,0.55033,0.57499,-0.03586,\"quiet\"],[13,0,0.61288,0.54876,-0.01578,\"quiet\"],[14,0,0.36394,0.52171,0.00191,\"quiet\"]]}"
+    },
+    "buttons": [
+      {
+        "text": "ask once",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release field",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "fieldVisible": true,
+      "rowCount": 15,
+      "memory": 4,
+      "headerDisplay": "none",
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "hintDisplay": "none"
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "Self portrait",
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "work": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "The portrait keeps a second opinion.",
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "registry": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": null,
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "favicon": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": null,
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "interactionOk": true,
+  "blindOk": true,
+  "readbacksOk": true,
+  "allDiagnosticsOk": true,
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v030-2026-10-22-production-final"
+}
