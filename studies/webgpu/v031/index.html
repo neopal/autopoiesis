@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090711">
+  <meta name="description" content="A pressure-grain archive where release collapses one grain, hollows a remote gap, and lets another grain merge.">
+  <title>MUTINE — The mass remembers the pressure that failed.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=031">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-22"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="grain-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v031 / pressure grains</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="grain-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v031</span></nav>
+      <section class="grain-work" aria-label="WebGPU daily work">
+        <figure class="grain-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <canvas id="grain-field" role="img" aria-label="A suspended crowd of pressure grains with hollows, mergers, and depth echoes" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape R"></canvas>
+          <div class="grain-readout" role="status" aria-live="polite"><span data-stage>mass 01 / 09</span><span data-memory>0 compressions</span><span data-renderer>CANVAS / GRANULAR BODY</span></div>
+          <div class="grain-status" data-status>press a grain · hold · release</div>
+          <div class="grain-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="compress">compress the mass</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V031 / DAILY WORK</span><span>press → hold → release</span></figcaption>
+        </figure>
+        <aside class="grain-notes" aria-label="Work annotations">
+          <div><span>material shift</span><p>The crowd is no longer a room, braid, or cavity body. It is a granular mass: small bodies whose size and absence are changed by pressure.</p></div>
+          <div><span>changed rule</span><p>A hold stays neutral. Release collapses the pressed grain, hollows a remote gap, merges another grain, and kicks a fourth into depth.</p></div>
+          <div><span>progression</span><p>Point at a grain, hold the pressure, then let go. Enter and Space use the same deterministic compression. Delete lifts the last material event.</p></div>
+        </aside>
+      </section>
+      <section class="grain-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V031 / DAILY WORK</p><h1 id="work-title">The mass remembers<br><i>the pressure that failed.</i></h1></div>
+        <p class="grain-premise">Pressure is not a mark. On release, the material keeps a hollow somewhere else, lets one grain swell, and sends another body out of plane.</p>
+      </section>
+      <section class="grain-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a pressure hold is geometry-neutral, release is bounded, and the visible consequences are non-local grains, not a cursor trace. Promotion depends on whether the blind field reads as a singular granular body rather than a particle demo.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>press → hold → release</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=031a"></script>
+</body>
+</html>
