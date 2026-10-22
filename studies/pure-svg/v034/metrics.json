@@ -1,0 +1,23 @@
+{
+  "id": "pure-svg-v034-delayed-score",
+  "seed": "0x53564734",
+  "visitorInput": true,
+  "tokenCount": 9,
+  "memoryWindow": 4,
+  "minimumIntervalMs": 180,
+  "maximumIntervalMs": 840,
+  "commitThreshold": "a second beat between bounded intervals",
+  "settledStage": 4,
+  "primitiveBudget": 9,
+  "memoryRule": "the first tap is inert; a valid second beat rewrites a source mark, a distant echo, and an unoffered witness; later beats inherit the changed score",
+  "interactionRule": "two pointer taps commit by interval; stutter and late answers refuse; Enter, Space, and the beat control use deterministic intervals; Delete lifts latest; Escape or R releases",
+  "representationRupture": "compound sheet, detached facets, and articulated line -> one horizontal SVG temporal score of nine invented marks",
+  "encounterRupture": "pressure duration, closed enclosure, and two-place pointer negotiation -> two-tap interval encounter with an inert first beat",
+  "temporalRupture": "material fault memory, facet reorientation, and path-order memory -> bounded beat ledger whose interval band changes non-local mark roles",
+  "mediumRupture": "filled compound bodies and sparse SVG paths -> a score-like SVG register with path-bearing marks and a causal rail",
+  "replay": true,
+  "renderer": "deterministic inline SVG delayed temporal score",
+  "grammar": "delayed-score",
+  "measured": true,
+  "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}
