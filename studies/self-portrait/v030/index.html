@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1114">
+  <title>MUTINE — The portrait keeps a second opinion.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=030">
+  <link rel="modulepreload" href="./engine.mjs?v=030">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-22"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v030-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v030 / SECOND OPINION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v030-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v030</span></nav>
+
+      <figure class="v030-work artwork-frame" aria-labelledby="work-title">
+        <div class="population-stage" data-decision-population tabindex="0" role="application" aria-label="A semantic population of decisions. Tap once: the least-attended decision crosses the stack and becomes the second opinion." aria-keyshortcuts="Enter Space Delete Backspace R Escape">
+          <div class="stage-index" aria-hidden="true">SELF / DECISION FIELD / 030</div>
+          <div class="stage-axis" aria-hidden="true"></div>
+          <ol class="decision-stack" data-decision-stack aria-label="Decision population"></ol>
+          <div class="stage-readout" aria-live="polite"><span data-stage>quiet field / 00</span><span data-memory>0 opinions held</span></div>
+          <p class="stage-hint" data-hint>one pulse; the least-attended decision crosses the field</p>
+          <div class="population-controls" aria-label="Second opinion controls">
+            <button type="button" data-action="pulse">ask once</button>
+            <button type="button" data-action="lift">lift latest</button>
+            <button type="button" data-action="release">release field</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v030-second-opinion</span><span>population &gt; minority &gt; revision</span></figcaption>
+      </figure>
+
+      <section class="v030-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / DOM MEDIUM SWITCH / v030</p>
+        <h1 id="work-title">The portrait keeps<br><i>a second opinion.</i></h1>
+        <p class="v030-lede">The code does not look back as a face. It keeps a population of decisions, then lets the least-attended one cross the body when you ask once.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE PULSE, NOT A TARGET</p>
+          <p class="interaction-copy">Tap the field, press Enter or Space, or choose <strong>ask once</strong>. The point of contact is not the answer: a deterministic population rule promotes a minority decision and displaces another. Delete lifts the latest opinion; R or Escape releases the bounded memory.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The decisions are quiet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v030</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v029's boundary quorum, v028's self-modifying fold volume, and v027's pair counter-reading. The portrait is now a semantic DOM population. One pulse does not select a local station: the least-attended decision becomes a minority second opinion, crosses the actual document order, and displaces a remote decision.</dd></div>
+          <div><dt>visitor action</dt><dd>Tap once or press Enter/Space. A single pulse is the whole encounter; no drag, dwell, station visit, or pointer target is required. Delete/Backspace lifts the latest reordered population. R/Escape releases it to the deterministic seed.</dd></div>
+          <div><dt>falsifier</dt><dd>If the touched row is always the answer, if the DOM order does not change, if a population-wide consequence is only a colour or readout, or if later pulses forget the changed order, the social-attention translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v030 if the blind field reads as a dashboard, card list, or typographic poster, or if the second opinion cannot be found as an actual crossing and displaced row without labels, controls, annotations, and prose.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-21/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-22">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=030"></script>
+</body>
+</html>

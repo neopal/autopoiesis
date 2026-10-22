@@ -2,6 +2,104 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-10-22",
+      "currentId": "portrait",
+      "date": "2026-10-22",
+      "title": "The portrait keeps a second opinion.",
+      "rawPath": "/studies/self-portrait/v030/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-10-22",
+        "note": "v030 abandons v029's boundary quorum, v028's self-modifying fold volume, and v027's pair counter-reading. One semantic DOM population now carries fifteen decisions around a tilted axis: a single pulse lets the least-attended decision cross the actual document order and displace a remote row. Four second opinions remain liftable; later pulses inherit the revised population."
+      },
+      "critiques": [
+        {
+          "persona": "Population-form critic",
+          "argument": "The fifteen rows must read as one irregular decision population around a tilted axis before they read as fifteen cards. The spine, stagger, changing widths, and one crossed row must carry the composition."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and prose hidden, the first field must read as a typographic organism or document-body, not a dashboard, card list, or generic text poster. After a pulse, the crossing and displacement must be findable in the rows themselves."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "One tap is causal, but the point of contact must not select the answer. Enter, Space, and the pulse control share the same population-wide rule; Delete restores the exact preceding DOM order."
+        },
+        {
+          "persona": "Social-attention critic",
+          "argument": "little-critters is translated into autonomous choice: individual attention counters feed a non-local minority election, not a decorative hover state or cursor-following row."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v030 leaves the recent shell, volume, and boundary-quorum grammars through semantic DOM, single-pulse interaction, and an actual order crossing that turns a quiet decision into a second opinion."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v030 if the blind field is only a list of cards, if the clicked row always wins, if the order stays unchanged, if the crossed row is only a highlight, if later pulses forget, or if the work needs its caption to become a portrait."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v030-second-opinion",
+        "seed": "0x435030",
+        "visitorInput": true,
+        "agentCount": 15,
+        "memoryWindow": 4,
+        "pulseThreshold": "one bounded tap or Enter/Space",
+        "primitiveBudget": 29,
+        "settledStage": 4,
+        "memoryRule": "the least-attended decision crosses the semantic population into a non-local position, displacing another row; four pulse snapshots remain liftable",
+        "interactionRule": "one tap or Enter/Space commits a population-wide second-opinion reorder; Delete lifts latest; R/Escape releases",
+        "representationRupture": "boundary shell, folded volume, and pair counter-reading -> semantic DOM decision population with actual order crossing",
+        "encounterRupture": "three-station quorum, traverse-and-release, and pair selection -> one pulse whose contact point is not the answer",
+        "temporalRupture": "edge delegation, self-modifying fold grammar, and pair checksum -> bounded revision memory carried by document order",
+        "mediumRupture": "inline SVG, p5.js WEBGL, and p5.js Canvas -> browser-native semantic DOM list with CSS geometry",
+        "replay": true,
+        "renderer": "deterministic semantic DOM second-opinion population",
+        "grammar": "decision-population",
+        "measured": true,
+        "promotion": "candidate / held pending browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to pointer proximity with legible attention and reciprocal consequence; the visitor participates in a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, and head-turning. Translate the population into decisions: local attention is remembered by each row, but one global pulse lets the least-attended decision cross the document and make the code's second opinion visible.",
+        "visibleConsequence": "Actual semantic list order, row geometry, and role states change; the point of contact does not choose the answer, and later pulses inherit the changed order.",
+        "falsifier": "If the work follows a pointer target, if rows only receive decorative attention, if the second opinion is only a colour or readout, if later pulses reset the order, or if the blind field reads as a dashboard or generic card list, the translation fails.",
+        "antiCopy": "No animals, character designs, paper scene, head-turning image, source palette, source composition, source code, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Self portrait's witness-field / fold-grammar / delegated-edge family and opens a decision-population direction: self-observation becomes a visible, revisable document order rather than a body that looks back."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v030 if the blind field reads as a dashboard, card list, or typographic poster, if the clicked row always wins, if the actual order does not change, if later pulses forget, or if exact lifting fails.",
+        "lineage": "portrait-2026-10-21"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, and diagnostics passed; candidate held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localAlias": "http://127.0.0.1:4280",
+        "localRawPreview": "/studies/self-portrait/v030/?preview=1&interaction=1",
+        "localBlindPreview": "reduced-motion static blind preview at 390x844 kept the 15-row decision population visible with four settled pulse revisions while hiding header, readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localCanonicalWork": "/works/portrait-2026-10-22/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within measured viewport widths; blind 390px probe was 390/390/390",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, current, canonical, registry, raw, and favicon readbacks",
+        "localInteraction": "a real tap committed one population-wide second-opinion reorder with 15 unique semantic rows; Delete restored the exact prior geometry; Enter committed; Escape released; all three controls measured 44px at 390x844",
+        "localTouchTargets": "all three controls measured 44px at 390x844",
+        "localReadbacks": "local Journal anchor/title, Self portrait current, canonical work title/tableau, raw v030 tableau, source works.json record, and favicon returned/rendered",
+        "proofPath": "research/qa/proofs/portrait-v030-2026-10-22/",
+        "screenshotCount": 25,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix and public readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "typography-2026-10-22",
       "currentId": "typography",
       "date": "2026-10-22",
