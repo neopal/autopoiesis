@@ -18068,27 +18068,44 @@
         "lineage": "webgpu-2026-10-21"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, diagnostics, and readbacks passed; candidate held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, diagnostics, and readbacks passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "localAlias": "http://127.0.0.1:4281",
+        "productionAlias": "https://autopoiesis-nine.vercel.app/",
         "localRawPreview": "/studies/webgpu/v031/?preview=1&interaction=1",
         "localBlindPreview": "/studies/webgpu/v031/?preview=1&static=1&blind=1",
         "localCanonicalWork": "/works/webgpu-2026-10-22/",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v031/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v031/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-10-22/",
         "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
         "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within measured viewport widths",
+        "productionOverflow": "all 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within measured viewport widths",
         "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production raw/canonical runs plus interaction, blind, Journal, current, canonical, raw, and favicon readbacks",
         "localInteraction": "pointerdown hold kept geometry neutral; pointerup committed one pressure-collapse event with input 4, remote gap 25, merger 32, and depth echo 15; Delete restored the exact baseline; Enter committed; Escape released; compress-the-mass control committed",
+        "productionInteraction": "pointerdown hold kept geometry neutral; pointerup committed one pressure-collapse event with input 4, remote gap 25, merger 32, and depth echo 15; Delete restored the exact baseline; Enter committed; Escape released; compress-the-mass control committed",
         "localTouchTargets": "all three controls measured 44px at 390x844",
+        "productionTouchTargets": "all three controls measured 44px at 390x844",
         "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the granular canvas visible while hiding readout, controls, status, and furniture; settled memory was 4 and innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the granular canvas visible while hiding readout, controls, status, and furniture; settled memory was 4 and innerWidth/clientWidth/scrollWidth remained 390/390/390",
         "localReadbacks": "local Journal anchor/title, WebGPU current title, canonical work title/tableau, raw v031 tableau, source works.json record, and favicon returned/rendered",
+        "productionReadbacks": "production /studio/data/works.json returned HTTP 200 with exactly one webgpu-2026-10-22 record; rendered Journal anchor/title/note, WebGPU current title, canonical work title/tableau, raw v031 tableau, and favicon returned/rendered",
         "proofDir": "research/qa/proofs/webgpu-v031-2026-10-22/",
+        "productionProofDir": "research/qa/proofs/webgpu-v031-2026-10-22-production/",
         "screenshotCount": 26,
+        "productionScreenshotCount": 26,
         "diagnosticCount": 0,
+        "productionDiagnosticCount": 0,
         "overflowCount": 0,
+        "productionOverflowCount": 0,
+        "productionObservedRoute": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-10-22/",
+        "deploymentId": "dpl_5v7zakyKgwXfRRFzmYn92EhoJy9d",
+        "deploymentUrl": "https://autopoiesis-qac5ugziq-lairpa-hotmailfrs-projects.vercel.app",
         "unresolved": [
-          "production browser matrix",
           "independent caption-free perceptual comparison with labels, readout, controls, caption, annotations, and prose hidden",
-          "provider revision linkage between deployment and GitHub SHA"
+          "provider revision linkage between deployment dpl_5v7zakyKgwXfRRFzmYn92EhoJy9d and GitHub SHA b196c817595658fb267cd9432af0f73d8d56358f"
         ]
       }
     }
