@@ -123,6 +123,15 @@ test('handwriting v031 exposes the route tableau before explanation', async () =
   assert.match(style, /preview-mode/);
 });
 
+test('handwriting v031 proof summary counts the captured screenshots exactly', async () => {
+  const { readdir } = await import('node:fs/promises');
+  const proofRoot = new URL('../research/qa/proofs/handwriting-v031-2026-10-23/', import.meta.url);
+  const files = await readdir(proofRoot);
+  const summary = JSON.parse(await read('research/qa/proofs/handwriting-v031-2026-10-23/qa-summary.json'));
+
+  assert.equal(summary.screenshotCount, files.filter((file) => file.endsWith('.png')).length);
+});
+
 test('handwriting v031 keeps an explicit art gate and one daily catalogue record', async () => {
   const readme = await read('studies/handwriting/v031/README.md');
   const metrics = JSON.parse(await read('studies/handwriting/v031/metrics.json'));

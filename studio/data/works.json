@@ -79,7 +79,7 @@
         "lineage": "typography-2026-10-22"
       },
       "browserEvidence": {
-        "status": "candidate / held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+        "status": "candidate / held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "localAlias": "headless Playwright local server",
         "localRawPreview": "/studies/handwriting/v031/?preview=1&interaction=1",
@@ -97,10 +97,27 @@
         "diagnosticCount": 0,
         "overflowCount": 0,
         "unresolved": [
-          "production browser matrix",
           "independent caption-free perceptual comparison with labels, readout, controls, legend, annotations, and prose hidden",
           "provider revision linkage between deployment and GitHub SHA"
-        ]
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeploymentId": "dpl_8jpNZ5BMNF2FCLS2GCjqCv24L5LE",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v031/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v031/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/typography-2026-10-23/",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "all 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport; blind 390px probe was 390/390/390",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production raw/canonical runs plus interaction, blind, Journal, current, canonical, raw, registry, and favicon readbacks",
+        "productionInteraction": "a real production pointer drag through stations 1 and 6 left geometry exact; a complete drag through stations 1, 6, and 9 committed one route with changed source/relay/hinge stations; Delete restored the exact baseline; Enter committed; R released; all three controls measured 44px at 390x844",
+        "productionTouchTargets": "all three production controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the SVG route field visible with 11 stations and four settled routes while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production Journal anchor/title, Handwriting current, canonical work title/tableau, raw v031 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/handwriting-v031-2026-10-23-production/",
+        "productionScreenshotCount": 2,
+        "productionDiagnosticCount": 0,
+        "productionOverflowCount": 0,
+        "productionRegistryMatches": 1,
+        "productionFaviconStatus": 200
       }
     },
     {
