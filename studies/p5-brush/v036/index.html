@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101719">
+  <title>MUTINE — The paint opens where you leave it.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=036">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-23"></script>
+  <!-- p5.WEBGL is the medium: the paint has front, back, and an actual shallow depth. -->
+</head>
+<body class="work-page" data-current="brush">
+  <div class="eclipse-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v036 / ECLIPSE SLAB</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="eclipse-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v036</span></nav>
+
+      <figure class="eclipse-work artwork-frame" aria-labelledby="work-title">
+        <div id="eclipse-field" class="eclipse-field" tabindex="0" role="application" aria-label="A shallow painted slab. Press a fault, cross a distant vent, then leave the slab to open an eclipse somewhere else." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="eclipse-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>0 eclipses held</span></div>
+          <div id="eclipse-canvas" class="eclipse-canvas"></div>
+          <div class="eclipse-controls" aria-label="Brush eclipse actions">
+            <button type="button" data-gesture="eclipse">make an eclipse</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release slab</button>
+          </div>
+          <p class="eclipse-hint">press a fault · cross a vent · leave</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v036-eclipse-slab</span><span>fault &gt; vent &gt; exit</span></figcaption>
+      </figure>
+
+      <section class="eclipse-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / ECLIPSE SLAB / v036</p>
+        <h1 id="work-title">The paint opens<br><i>where you leave it.</i></h1>
+        <p class="eclipse-lede">A press is only a fault. Cross a remote vent and leave the slab: the material answers somewhere else, with a real cut through its depth and an underside that sheds.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THE EXIT MAKES THE CUT</p>
+          <p class="interaction-copy">Press one of the quiet fault marks, cross a distant vent, then release outside the slab's marked places. The first two acts are geometry-neutral. Only the exit commits an eclipse: one remote rib lifts, another sheds its underside, and a third carries the route. Enter or “make an eclipse” uses a deterministic route. Delete lifts the latest; Escape or R releases the slab.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The slab is unbroken.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v036</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon pools, plates, scroll tension, and local pressure. A single shallow 3D slab accepts a three-part route; the completed exit changes remote depth, aperture, and underside geometry.</dd></div>
+          <div><dt>visitor action</dt><dd>Press a fault, cross a vent, and leave. Enter, Space, and the eclipse control use deterministic routes. Delete lifts the latest eclipse. Escape or R releases the bounded ledger. S downloads a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If a press writes, if the local fault or vent becomes the answer, if the exit changes only colour or readout, if later eclipses restart from the quiet slab, or if lifting is inexact, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v036 if caption-free viewing cannot show one sculptural slab with a real negative aperture and underside change, or if the route is only a disguised button.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-22/">previous daily work</a><a href="/journal/#journal-brush-2026-10-23">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=036"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+:root {
+  --eclipse-ground: #101719;
+  --eclipse-deep: #091012;
+  --eclipse-ink: #eadfc5;
+  --eclipse-muted: #9faeaa;
+  --eclipse-line: rgba(234, 223, 197, 0.22);
+  --eclipse-coral: #ed7c63;
+  --eclipse-acid: #c8d46b;
+  --eclipse-blue: #88a4b0;
+  --eclipse-violet: #62556e;
+  --eclipse-slab: #b6a88d;
+}
+
+html, body { margin: 0; min-height: 100%; background: var(--eclipse-ground); color: var(--eclipse-ink); }
+body { font-family: "Arial Narrow", "Aptos Narrow", Arial, sans-serif; letter-spacing: 0.02em; }
+a { color: inherit; }
+.eclipse-shell { min-height: 100vh; padding: 22px clamp(16px, 4vw, 64px) 30px; box-sizing: border-box; }
+.studio-header, .studio-footer, .studio-path { max-width: 1180px; margin-inline: auto; }
+.studio-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; border-bottom: 1px solid var(--eclipse-line); padding-bottom: 15px; text-transform: uppercase; font-size: 10px; letter-spacing: 0.18em; }
+.studio-header p { margin: 0; color: var(--eclipse-muted); text-align: center; }
+.studio-mark { font-weight: 800; letter-spacing: 0.24em; text-decoration: none; }
+.studio-nav { display: flex; gap: 18px; }
+.studio-nav a, .studio-footer a { text-decoration: none; color: var(--eclipse-muted); }
+.studio-nav a:hover, .studio-footer a:hover { color: var(--eclipse-ink); }
+.eclipse-main { max-width: 1180px; margin: 0 auto; }
+.studio-path { display: flex; gap: 10px; align-items: center; margin-top: 18px; margin-bottom: 22px; color: var(--eclipse-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+.studio-path a { text-decoration: none; }
+.eclipse-work { margin: 0; }
+.eclipse-field { position: relative; overflow: clip; border: 1px solid var(--eclipse-line); background: var(--eclipse-deep); box-shadow: 0 28px 90px rgba(0,0,0,0.34); }
+.eclipse-canvas, .eclipse-canvas canvas { display: block; width: 100%; }
+.eclipse-canvas canvas { height: auto; touch-action: none; }
+.eclipse-readout { position: absolute; top: 18px; left: 20px; z-index: 2; display: flex; gap: 16px; color: var(--eclipse-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.12em; pointer-events: none; }
+.eclipse-controls { position: absolute; right: 17px; bottom: 17px; z-index: 2; display: flex; gap: 8px; }
+.eclipse-controls button { min-height: 44px; padding: 0 13px; border: 1px solid rgba(234, 223, 197, 0.34); border-radius: 999px; color: var(--eclipse-ink); background: rgba(9, 16, 18, 0.90); font: inherit; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; }
+.eclipse-controls button:hover, .eclipse-controls button:focus-visible { background: rgba(237, 124, 99, 0.25); border-color: var(--eclipse-acid); outline: none; }
+.eclipse-hint { position: absolute; left: 20px; bottom: 21px; margin: 0; color: rgba(234, 223, 197, 0.74); text-transform: uppercase; font-size: 10px; letter-spacing: 0.16em; pointer-events: none; }
+.eclipse-work figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 9px; color: var(--eclipse-muted); text-transform: uppercase; font-size: 9px; letter-spacing: 0.14em; }
+.eclipse-opening { max-width: 760px; padding: 68px 0 52px; }
+.eyebrow { margin: 0 0 14px; color: var(--eclipse-coral); text-transform: uppercase; font-size: 10px; letter-spacing: 0.18em; }
+.eclipse-opening h1 { margin: 0; color: var(--eclipse-ink); font-family: Georgia, serif; font-size: clamp(44px, 7vw, 94px); font-weight: 400; line-height: 0.92; letter-spacing: -0.055em; }
+.eclipse-opening h1 i { color: var(--eclipse-acid); font-weight: 400; }
+.eclipse-lede { max-width: 650px; margin: 25px 0 0; color: var(--eclipse-muted); font-size: clamp(16px, 1.9vw, 21px); line-height: 1.42; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 0.55fr); gap: 42px; border-top: 1px solid var(--eclipse-line); padding: 24px 0 54px; }
+.interaction-copy { max-width: 650px; margin: 0; color: var(--eclipse-muted); line-height: 1.6; font-size: 15px; }
+.interaction-state { margin: 0; color: var(--eclipse-acid); line-height: 1.45; font-family: Georgia, serif; font-size: 18px; }
+.annotations { border-top: 1px solid var(--eclipse-line); padding: 23px 0 70px; }
+.annotations dl { margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; border-bottom: 1px solid rgba(234, 223, 197, 0.12); padding: 14px 0; }
+.annotations dt { color: var(--eclipse-acid); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+.annotations dd { max-width: 740px; margin: 0; color: var(--eclipse-muted); line-height: 1.55; font-size: 14px; }
+.studio-footer { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--eclipse-line); padding-top: 16px; color: var(--eclipse-muted); text-transform: uppercase; font-size: 10px; letter-spacing: 0.14em; }
+html.preview-mode body { background: var(--eclipse-deep); }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .eclipse-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .eclipse-shell, html.preview-mode .eclipse-main { max-width: none; padding: 0; margin: 0; }
+html.preview-mode .eclipse-field { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode .eclipse-canvas canvas { min-height: 100vh; }
+html.preview-mode .eclipse-work { margin: 0; }
+html.blind-mode .eclipse-readout, html.blind-mode .eclipse-controls, html.blind-mode .eclipse-hint { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
+@media (max-width: 680px) {
+  .eclipse-shell { padding: 14px 12px 22px; }
+  .studio-header { grid-template-columns: 1fr auto; gap: 10px; }
+  .studio-header p { grid-column: 1 / -1; grid-row: 2; text-align: left; }
+  .studio-nav { gap: 11px; }
+  .studio-path { margin-top: 14px; margin-bottom: 14px; }
+  .eclipse-readout { top: 11px; left: 12px; gap: 8px; font-size: 8px; }
+  .eclipse-hint { left: 12px; bottom: 12px; font-size: 8px; }
+  .eclipse-controls { left: 12px; right: 12px; bottom: 10px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .eclipse-controls button { min-height: 44px; padding: 0 5px; font-size: 8px; }
+  .eclipse-opening { padding: 44px 0 36px; }
+  .eclipse-opening h1 { font-size: clamp(42px, 15vw, 70px); }
+  .eclipse-lede { font-size: 16px; }
+  .interaction-panel { display: block; padding-bottom: 38px; }
+  .interaction-state { margin-top: 23px; }
+  .annotations { padding-bottom: 46px; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: 8px; }
+  .studio-footer { display: grid; grid-template-columns: 1fr 1fr; }
+  .studio-footer a:last-child { grid-column: 1 / -1; }
+  html.preview-mode .eclipse-canvas canvas { min-height: 100vh; }
+}

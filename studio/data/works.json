@@ -2,6 +2,116 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-23",
+      "currentId": "brush",
+      "date": "2026-10-23",
+      "title": "The paint opens where you leave it.",
+      "rawPath": "/studies/p5-brush/v036/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-23",
+        "note": "v036 abandons v035's reversal membrane, v034's proximity pools, and v033's dry-seam plates. One shallow WebGL paint slab now accepts a three-part route: press a fault, cross a distant vent, and leave the marked places. Only the exit commits an eclipse elsewhere, changing actual rib depth, a negative aperture, and an underside; four eclipses remain liftable and later routes inherit the ledger."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The slab must read as one continuous painted object before it reads as 17 ribs. Front faces, underside, depth offset, and the negative aperture must be actual geometry, not a status overlay."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, annotations, and furniture hidden, the first field must break from v035's vertical membrane, v034's pool field, and v033's plate rhythm. It must read as one shallow object with an absent bite."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Press and vent crossing must remain geometry-neutral. Only a release outside the marked zones may commit; the local contact must not answer itself. Delete must restore the exact preceding slab."
+        },
+        {
+          "persona": "Depth critic",
+          "argument": "The route must alter depth-bearing values: a remote rib lifts, another sheds its underside, and a third carries the route. A hole must have a front rim and an inner dark depth, not only a colour change."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "The eclipse ledger must feed later slab geometry. Four events remain bounded and liftable; release returns to the quiet seed, while lifting reconstructs the exact preceding object."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v036 changes medium, representation, viewer task, and memory: it leaves the 2D membrane, pool census, and SVG knock grammars for a WebGL object and a remote press–cross–exit route."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v036 if the slab is only a decorative 3D chart, if the route is a disguised button, if contact changes local geometry, if the aperture is cosmetic, if later eclipses forget, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v036-eclipse-slab",
+        "visitorInput": true,
+        "seed": "0x42523636",
+        "stages": 13,
+        "ribCount": 17,
+        "apertureCount": 7,
+        "faultCount": 5,
+        "ventCount": 5,
+        "memoryWindow": 4,
+        "settledStage": 12,
+        "settledMemory": 4,
+        "primitiveBudget": 31,
+        "memoryRule": "a fault press and remote vent crossing remain geometry-neutral; an exit outside both commits a remote eclipse that changes rib depth, aperture depth, and underside geometry; four events remain liftable",
+        "interactionRule": "pointerdown arms a fault, pointermove crosses a distant vent, pointerup outside commits; Enter, Space, and the eclipse control use deterministic routes; Delete lifts latest; Escape or R releases",
+        "representationRupture": "2D reversal membrane, proximity pools, and SVG seam plates -> one shallow WebGL slab with front/underside depth and negative apertures",
+        "encounterRupture": "scroll reversal, proximity census, and three knocks -> press–cross–exit route whose commit is remote from both contacts",
+        "temporalRupture": "directional tension, attention census, and discrete knock memory -> bounded eclipse ledger that rebuilds accumulated depth and void geometry",
+        "mediumRupture": "p5.js Canvas 2D and inline SVG -> p5.js WEBGL object with extruded ribs and apertures",
+        "replay": true,
+        "renderer": "deterministic p5.js WEBGL eclipse slab",
+        "grammar": "eclipse-slab",
+        "changedRule": "A fault press and remote vent crossing are only a route; leaving the marked places commits a remote eclipse that changes depth, cut, and underside geometry.",
+        "visibleConsequence": "The press and crossing leave the slab exact; a completed exit changes actual remote rib depth, tilt, shed, underside, and aperture depth. Later routes inherit prior eclipses.",
+        "falsifier": "Delete if a press changes geometry, if a local fault or vent becomes the answer, if exit changes only colour or readout, if later eclipses restart from the quiet slab, or if lifting is inexact.",
+        "deletionCondition": "Delete v036 if caption-free viewing cannot show one sculptural slab with a real negative aperture and underside change, or if the route is only a disguised button.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools expose pressure, density, grain, and directional fields as a material engine: the instrument changes how a mark is produced rather than merely styling a finished shape.",
+        "translatedRule": "Refuse brush appearance, watercolor, hatching, grain, and the source API. Translate material agency into route-dependent subtraction: a completed fault–vent–exit route changes remote depth and negative space, while the local contact points remain causally refused.",
+        "visibleConsequence": "The blind first view is one shallow 3D slab with front, back, and negative aperture geometry. A valid exit changes remote ribs and an actual aperture; weak or incomplete routes remain geometrically still.",
+        "falsifier": "If a press writes, if the local fault or vent becomes the answer, if exit changes only colour or readout, if the blind object reads as a generic chart or control surface, if later eclipses restart from the quiet slab, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No brush, watercolor, hatching, grain, vector-field drawing, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "This closes Brush's pool / plate / reversal-membrane family and opens a subtraction-as-route direction: paint remembers where the viewer left, not where they first touched."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v036 if the blind object reads as a generic chart or control surface, if contact changes geometry, if the aperture is cosmetic, if later eclipses forget, or if exact lifting fails.",
+        "lineage": "brush-2026-10-22"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; production verification pending; candidate held pending independent caption-free perceptual review and provider revision linkage",
+        "productionReady": false,
+        "localAlias": "http://127.0.0.1:57190",
+        "localRawPreview": "/studies/p5-brush/v036/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/p5-brush/v036/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/brush-2026-10-23/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport; blind 390px probe was 390/390/390",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, canonical, registry, and favicon readbacks",
+        "localInteraction": "a real pointer route armed a fault, crossed a distant vent, and kept geometry exact until exit; exit committed memory 0 -> 1; Delete restored the exact baseline; Enter committed; Escape released; all three controls measured 44px at 390x844",
+        "localTouchTargets": "all three interaction controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the WebGL slab visible with 7 apertures and four settled eclipses while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local rendered Journal anchor/title, Brush canonical work title/tableau, raw v036 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "proofPath": "research/qa/proofs/brush-v036-2026-10-23/",
+        "screenshotCount": 20,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix and deployed readback",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "portrait-2026-10-23",
       "currentId": "portrait",
       "date": "2026-10-23",
