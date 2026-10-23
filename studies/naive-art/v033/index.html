@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1321">
+  <title>MUTINE — The proof misheard itself.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=033">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-23"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="proof-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v033 / MISHEARD PROOF</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="proof-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v033</span></nav>
+
+      <section class="proof-surface" aria-label="Naive misheard proof tableau">
+        <div class="proof-column">
+          <figure class="proof-work artwork-frame">
+            <div class="proof-field" id="proof-sheet" tabindex="0" role="application" aria-label="A single proof line of invented glyphs. Type three different witnesses, then press Enter to let the proof mishear itself." aria-keyshortcuts="1-6 Enter Space Delete Escape">
+              <div id="proof-canvas-wrap" aria-hidden="true"></div>
+              <div class="proof-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-pending>listening: —</span><span data-status>the proof is quiet</span></div>
+            </div>
+            <div class="proof-controls" aria-label="Proof actions">
+              <div class="token-keys" aria-label="Witness keys">
+                <button type="button" data-token="0" aria-label="Witness 1">1</button>
+                <button type="button" data-token="1" aria-label="Witness 2">2</button>
+                <button type="button" data-token="2" aria-label="Witness 3">3</button>
+                <button type="button" data-token="3" aria-label="Witness 4">4</button>
+                <button type="button" data-token="4" aria-label="Witness 5">5</button>
+                <button type="button" data-token="5" aria-label="Witness 6">6</button>
+              </div>
+              <button type="button" data-action="witness">mishear the proof</button>
+              <button type="button" data-action="lift">lift last error</button>
+              <button type="button" data-action="release">release the proof</button>
+            </div>
+            <p class="proof-hint">type three different witnesses · Enter commits · Delete lifts · Escape releases</p>
+            <figcaption><span>seed | mutine-naive-v033</span><span>witness &gt; misread &gt; blank</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single oversized proof line is made from invented glyphs. It is not a sentence, chart, or alphabet: it is a page trying to agree with itself.</p></div>
+          <div><span>critique</span><p>The typed sequence must remain absent from the image. Only the distant misheard form, transferred glyph, and opened blank can carry the error.</p></div>
+          <div><span>progression</span><p>v033 abandons v032's branch organism and pointer route. The new unit is a typographic witness: attention arrives as keys, and the page answers elsewhere.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V033 / DAILY WORK</p><h1 id="work-title">The proof<br><i>misheard itself.</i></h1></div>
+        <p class="work-premise">A page can remember the wrong witness.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v033 translates little-critters' reciprocal attention into a keyboard proof: the visitor offers three distinct witnesses without writing the answer, and only a complete witness makes a distant glyph mishear its shape, transfers that form, and opens a real blank. The first two tokens remain geometrically silent.</p></section>
+      <p class="work-loop">listen &rarr; mishear &rarr; transfer &rarr; leave a blank</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-22/">previous daily work</a><a href="/journal/#journal-naive-2026-10-23">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=033"></script>
+</body>
+</html>
