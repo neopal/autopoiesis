@@ -34,16 +34,18 @@ v033 abandons v032's wrong-family tree, v031's counterfeit orbit, and v030's pre
 - JavaScript syntax checks: passed for engine, sketch, and probe
 - `git diff --check`: passed
 - Local browser matrix: **20/20 passed**
+- Production browser matrix: **20/20 passed**
 - Viewports: `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`
-- Normal and reduced-motion modes: passed
+- Normal and reduced-motion modes: passed locally and on `https://autopoiesis-nine.vercel.app`
 - Keyboard route: first two witnesses geometry-neutral; third + Enter committed 4 glyph changes and a baseline interruption; Delete restored exact geometry; Escape released
 - Pointer route: three real canvas clicks armed `[2,4,6]` without geometry change; Enter committed one structural misread
-- Blind static preview: Canvas proof sheet visible, four settled events, readout/controls/hint hidden
+- Blind static preview: Canvas proof sheet visible, four settled events, readout/controls/hint hidden locally and in production
 - Touch targets: minimum **44px**
-- Overflow failures: **0**
-- Console/page/request/HTTP diagnostics: **0**
-- Local registry/public catalog readbacks: exactly one `naive-2026-10-23` record in each
+- Overflow failures: **0** locally and in production
+- Console/page/request/HTTP diagnostics: **0** locally and in production
+- Local and production registry/public catalog readbacks: exactly one `naive-2026-10-23` record in each
+- Production deployment: `dpl_Do3bxZbEdtZhBp9HFXvEZwTyHcEP`
 
 ## Unresolved doubt
 
-The typographic proof is structurally and responsively exercised locally, but its artistic success is still held pending production browser evidence and an independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden. Provider revision linkage is also unresolved.
+The typographic proof is structurally and responsively exercised locally and in production, but its artistic success remains held pending an independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden. Provider revision linkage is also unresolved.
