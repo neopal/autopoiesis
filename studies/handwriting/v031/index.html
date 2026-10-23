@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e4e0d3">
+  <title>MUTINE — The route keeps the letter at a distance.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=031">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-23"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="route-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v031 / ROUTE STATIONS</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="route-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v031</span></nav>
+
+      <figure id="work" class="route-work artwork-frame" aria-labelledby="work-title">
+        <div id="route-field" class="route-field" tabindex="0" role="application" aria-label="A typographic route field. Drag through three distinct letter stations to make a route; the first two stations are inert and the completed route changes distant station geometry." aria-describedby="interaction-state" aria-keyshortcuts="Enter Space Delete R Escape">
+          <div class="field-chrome field-stamp" aria-hidden="true"><span>TRACE / HINGE / REWRITE</span><span>HANDWRITING 031</span></div>
+          <div class="field-chrome field-readout" aria-live="polite"><span data-stage>field / quiet</span><span data-memory>0 routes · 0 load</span></div>
+          <div class="field-axis" aria-hidden="true"><span>letters are stations</span><span>01 — 11</span></div>
+          <svg id="route-svg" viewBox="0 0 1 1" role="img" aria-label="Eleven letter stations connected by a thin route field" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="route-wash" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#be4d39" stop-opacity=".82"/><stop offset=".48" stop-color="#263e55" stop-opacity=".55"/><stop offset="1" stop-color="#d2a73a" stop-opacity=".72"/></linearGradient>
+              <filter id="route-soften" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation=".0025"/></filter>
+            </defs>
+            <rect class="route-ground" x="0" y="0" width="1" height="1"></rect>
+            <g class="route-grid" aria-hidden="true"></g>
+            <g id="route-links" aria-hidden="true"></g>
+            <path id="route-preview" class="route-preview" aria-hidden="true"></path>
+            <g id="route-stations"></g>
+          </svg>
+          <div class="field-chrome route-legend" aria-hidden="true"><span>01 / crossing</span><span>02 / distance</span><span>03 / hinge</span></div>
+          <div class="field-controls" aria-label="Route actions">
+            <button id="trace-route" type="button">trace route</button>
+            <button id="lift-route" type="button">lift latest</button>
+            <button id="release-route" type="button">release field</button>
+          </div>
+          <p class="field-hint">drag through three stations · release to let the route answer elsewhere</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v031-route-stations</span><span>trace &gt; hinge &gt; rewrite</span></figcaption>
+      </figure>
+
+      <section class="route-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MATERIAL ROUTING / v031</p>
+        <h1 id="work-title">The route keeps<br><i>the letter at a distance.</i></h1>
+        <p class="route-lede">A letter is not what sits at a station. It is what the station makes possible for the next crossing.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">TRACE, THEN RELEASE</p>
+          <p class="interaction-copy">Drag one uninterrupted path through three different stations. The first two crossings only arm the route. On the third, the source opens, a distant station inherits its contour, and a hinge station bends the field. Enter or Space uses the deterministic route; Delete lifts the latest route; R or Escape releases the bounded memory.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The route is quiet. No station has been crossed.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v031</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v030's sentence-wide glyph refusal, v029's attention census, and v027's pressure loom. Eleven letter-stations now form one route organism; a completed three-station route rewrites distant geometry rather than the touched letter.</dd></div>
+          <div><dt>visitor action</dt><dd>Trace through three distinct stations with one drag. The deterministic route, Enter, and Space use the same event; Delete lifts the latest route; R or Escape releases the four-route memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If one crossing commits, if the touched station is always the visible answer, if the source/relay/hinge roles exist only in color or readout, if later routes reset, or if the blind field reads as a generic node diagram, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v031 if the route is merely a decorative line over glyphs, if a station does not carry actual path geometry, if the distant rewrite is cosmetic, or if lifting cannot reconstruct the exact preceding field.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-22/">previous daily work</a><a href="/journal/#journal-typography-2026-10-23">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=031"></script>
+</body>
+</html>

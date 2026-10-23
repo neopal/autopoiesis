@@ -2,6 +2,108 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-23",
+      "currentId": "typography",
+      "date": "2026-10-23",
+      "title": "The route keeps the letter at a distance.",
+      "rawPath": "/studies/handwriting/v031/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-23",
+        "note": "v031 abandons v030's sentence-wide glyph refusal, v029's attention census, and v027's pressure loom. Eleven irregular letter-stations now form one route organism: the first two crossings only arm a route, and a complete three-station drag opens the source, gives a distant station its contour, and bends a third hinge station. Four route revisions remain liftable; later routes inherit the altered station field."
+      },
+      "critiques": [
+        {
+          "persona": "Route-form critic",
+          "argument": "The eleven stations must read as one authored route organism before they read as a set of letter tokens. The uneven field, long diagonals, restrained path weight, and off-axis glyph sizes must carry the composition."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, legend, annotations, and prose hidden, the first view must break from v030's sentence sheet, v029's word archipelago, and v027's pressure loom. It must read as a typographic route field, not a generic node map or keyboard."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "One or two crossings must remain geometry-neutral. Only a single route through three distinct stations may commit; the route control and Enter must be deterministic equivalents; Delete must restore the exact preceding station field."
+        },
+        {
+          "persona": "Material critic",
+          "argument": "The p5.brush translation must live in production geometry, not texture: the source station must open, the distant relay must inherit an actual contour and glyph, and the hinge must move. A line glow or status label cannot substitute for those changes."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v031 changes representation, medium, viewer task, and memory: it leaves sentence/word/pressure grammars for an SVG station route, replaces typing/wandering/holding with one continuous drag, and carries source/relay/hinge load across four liftable route events."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v031 if the field is only a decorative graph, if the touched station always answers, if route load is cosmetic, if later routes reset, if a partial path writes, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v031-route-stations",
+        "visitorInput": true,
+        "seed": "0x48574931",
+        "stationCount": 11,
+        "routeLength": 3,
+        "memoryWindow": 4,
+        "settledRoutes": 4,
+        "primitiveBudget": 11,
+        "memoryRule": "a complete three-station route opens its source, transfers its contour to a distant relay, and bends a third hinge station; later routes inherit the altered station field",
+        "interactionRule": "drag through three distinct stations; the first two crossings remain geometry-neutral; release commits; Enter, Space, and the trace control use a deterministic route; Delete lifts latest; R or Escape releases",
+        "representationRupture": "sentence sheet, word archipelago, and pressure loom -> sparse SVG route organism of eleven letter-stations",
+        "encounterRupture": "typed glyph offer, wandering census, and duration hold -> one uninterrupted three-station drag with release as the causal event",
+        "temporalRupture": "sentence refusal, latent attention, and pressure debt -> bounded route memory whose source/relay/hinge rewrite compounds across distance",
+        "mediumRupture": "semantic DOM sentence and Canvas pressure field -> inline SVG station paths with actual route geometry",
+        "replay": true,
+        "renderer": "deterministic inline SVG typographic route field",
+        "grammar": "route-stations",
+        "changedRule": "A completed route changes three distant letter-stations rather than marking the touched letter.",
+        "visibleConsequence": "Actual station paths, positions, contours, glyph inheritance, roles, and connecting routes change after a valid three-station route; the first two crossings remain exact.",
+        "falsifier": "Delete if one crossing commits, if the touched station is always the answer, if remote roles are only UI, if later routes reset, or if lifting is inexact.",
+        "deletionCondition": "Delete v031 if the blind field reads as a generic node diagram, keyboard, or decorative SVG map instead of a typographic route organism.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools expose pressure, density, grain, and directional fields as a material engine: the instrument changes how a mark is produced rather than merely styling a finished shape.",
+        "translatedRule": "Refuse brush appearance, watercolor, hatching, grain, and the source API. Translate material agency into route production: accumulated route load changes how later letter-stations are generated, while the visitor’s local crossing is not itself the answer.",
+        "visibleConsequence": "The blind first view is a sparse SVG route organism of eleven oversized letter-stations. A valid route changes three actual station paths and the connecting field: the source opens, a distant relay inherits its contour and glyph, and a hinge moves.",
+        "falsifier": "If one crossing commits, if the touched station is always the visible answer, if source/relay/hinge roles exist only in color or readout, if later routes reset, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No brush, watercolor, hatching, pressure mark, vector-field drawing, source palette, source composition, source code, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "This closes Handwriting’s sentence / word-field / pressure sequence and opens a route-as-language direction: the next letter is determined by a distant relation rather than by a typed character or a local mark."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, legend-off, annotations-off, and prose-off comparison; delete v031 if the blind field reads as a generic node diagram, keyboard, or decorative SVG map, if one crossing commits, if the touched station remains the answer, if later routes forget, or if exact lifting fails.",
+        "lineage": "typography-2026-10-22"
+      },
+      "browserEvidence": {
+        "status": "candidate / held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "localAlias": "headless Playwright local server",
+        "localRawPreview": "/studies/handwriting/v031/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/handwriting/v031/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/typography-2026-10-23/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport; blind 390px probe was 390/390/390",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, current, canonical, raw, registry, and favicon readbacks",
+        "localInteraction": "a real pointer drag through stations 1 and 6 left geometry exact; a complete drag through stations 1, 6, and 9 committed one route with changed source/relay/hinge stations; Delete restored the exact baseline; Enter committed; Escape released; all three controls measured 44px at 390x844",
+        "localTouchTargets": "all three controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the SVG route field visible with 11 stations and four settled routes while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local Journal anchor/title, Handwriting current, canonical work title/tableau, raw v031 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "proofPath": "research/qa/proofs/handwriting-v031-2026-10-23/",
+        "screenshotCount": 3,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix",
+          "independent caption-free perceptual comparison with labels, readout, controls, legend, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "naive-2026-10-22",
       "currentId": "naive",
       "date": "2026-10-22",

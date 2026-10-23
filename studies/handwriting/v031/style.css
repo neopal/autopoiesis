@@ -1,0 +1,131 @@
+:root {
+  --route-ground: #e4e0d3;
+  --route-paper: #f0ede3;
+  --route-ink: #18202a;
+  --route-muted: #68706c;
+  --route-rule: rgba(24, 32, 42, .2);
+  --route-red: #be4d39;
+  --route-blue: #263e55;
+  --route-gold: #c29b36;
+  --route-ui: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --route-display: 'Arial Narrow', 'Avenir Next Condensed', Impact, Haettenschweiler, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(190, 77, 57, .13), transparent 26rem),
+    radial-gradient(circle at 88% 80%, rgba(38, 62, 85, .12), transparent 30rem),
+    var(--route-ground);
+  color: var(--route-ink);
+  font-family: var(--route-ui);
+}
+a { color: inherit; }
+.route-shell { width: min(1440px, 100%); min-height: 100vh; margin: 0 auto; padding: 0 clamp(18px, 4.5vw, 72px); }
+.studio-header { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 20px; min-height: 72px; border-bottom: 1px solid var(--route-rule); color: var(--route-muted); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.studio-header p { min-width: 0; margin: 0; overflow-wrap: anywhere; }
+.studio-mark { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; color: var(--route-red); font-size: 13px; letter-spacing: .16em; text-decoration: none; }
+.studio-nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 16px; }
+.studio-nav a, .studio-footer a, .studio-path a { min-height: 44px; display: inline-flex; align-items: center; color: var(--route-muted); text-decoration: none; }
+.studio-nav a:hover, .studio-nav a:focus-visible, .studio-footer a:hover, .studio-footer a:focus-visible, .studio-path a:hover, .studio-path a:focus-visible { color: var(--route-red); }
+.route-main { padding: 20px 0 56px; }
+.studio-path { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 10px; margin: 0 0 18px; color: var(--route-muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.studio-path span { color: var(--route-red); }
+.route-work { margin: 0; }
+.route-field { position: relative; min-width: 0; overflow: hidden; aspect-ratio: 1.58 / 1; isolation: isolate; background: var(--route-paper); border: 1px solid rgba(24, 32, 42, .23); box-shadow: 17px 23px 0 rgba(24, 32, 42, .06), 0 34px 75px rgba(24, 32, 42, .15); cursor: crosshair; touch-action: none; }
+.route-field::before, .route-field::after { position: absolute; z-index: 0; content: ''; pointer-events: none; }
+.route-field::before { inset: 8% 5%; border: 1px solid rgba(24, 32, 42, .13); clip-path: polygon(1% 7%, 98% 0, 100% 91%, 4% 100%); transform: rotate(-1deg); }
+.route-field::after { top: 0; bottom: 0; left: 42%; width: 1px; background: linear-gradient(transparent, rgba(190, 77, 57, .42) 25%, rgba(190, 77, 57, .04) 78%, transparent); transform: rotate(9deg); }
+.route-field:focus-visible { outline: 3px solid var(--route-blue); outline-offset: -10px; }
+.field-chrome, .field-axis, .route-legend, .field-hint, .field-controls { position: absolute; z-index: 5; pointer-events: none; }
+.field-stamp { top: 18px; right: 20px; left: 20px; display: flex; justify-content: space-between; gap: 12px; color: var(--route-muted); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; }
+.field-stamp span:last-child { color: var(--route-red); }
+.field-readout { top: 48px; right: 20px; left: 20px; display: flex; justify-content: space-between; gap: 12px; color: var(--route-muted); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.field-readout span:last-child { color: var(--route-blue); text-align: right; }
+.field-axis { top: 26%; bottom: 28%; left: 20px; display: flex; flex-direction: column; justify-content: space-between; color: rgba(24, 32, 42, .42); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; writing-mode: vertical-rl; }
+.field-axis span:last-child { color: var(--route-red); }
+#route-svg { position: absolute; z-index: 1; inset: 7% 6% 13%; width: 88%; height: 80%; overflow: visible; }
+.route-ground { fill: transparent; }
+.route-grid line { stroke: rgba(24, 32, 42, .11); stroke-width: .0014; stroke-dasharray: .005 .012; }
+.route-link { fill: none; stroke: url(#route-wash); stroke-width: .0034; stroke-linecap: round; opacity: .47; transition: d 420ms cubic-bezier(.2, .8, .2, 1), opacity 260ms ease; }
+.route-link:nth-child(3n) { stroke-width: .0018; opacity: .34; }
+.route-preview { fill: none; stroke: var(--route-red); stroke-width: .008; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: .014 .009; opacity: 0; filter: url(#route-soften); transition: opacity 180ms ease; }
+.route-preview.is-visible { opacity: .92; }
+.station { cursor: crosshair; transform-box: fill-box; transform-origin: center; }
+.station-pin { fill: var(--route-paper); stroke: var(--route-blue); stroke-width: .0035; transition: r 260ms ease, fill 260ms ease, stroke 260ms ease; }
+.station-thread { fill: none; stroke: var(--route-ink); stroke-width: .0052; stroke-linecap: round; opacity: .7; transition: d 420ms cubic-bezier(.2, .8, .2, 1), stroke 260ms ease; }
+.station-glyph { fill: var(--route-ink); font-family: var(--route-display); font-size: .13px; font-weight: 600; letter-spacing: -.02em; paint-order: stroke; stroke: var(--route-paper); stroke-width: .0024; user-select: none; transition: fill 260ms ease, opacity 260ms ease; }
+.station-index { fill: var(--route-muted); font: .022px var(--route-ui); letter-spacing: .02em; user-select: none; }
+.station[data-role='source'] .station-pin { fill: rgba(190, 77, 57, .16); stroke: var(--route-red); }
+.station[data-role='source'] .station-thread { stroke: var(--route-red); }
+.station[data-role='relay'] .station-pin { fill: rgba(194, 155, 54, .24); stroke: var(--route-gold); }
+.station[data-role='relay'] .station-thread { stroke: var(--route-gold); }
+.station[data-role='hinge'] .station-pin { fill: rgba(38, 62, 85, .2); stroke: var(--route-blue); }
+.station[data-role='hinge'] .station-thread { stroke: var(--route-blue); }
+.station.is-traced .station-pin { r: .022; fill: var(--route-red); stroke: var(--route-red); }
+.route-legend { right: 20px; bottom: 104px; display: grid; gap: 5px; color: rgba(24, 32, 42, .52); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
+.route-legend span:nth-child(1) { color: var(--route-red); }
+.route-legend span:nth-child(3) { color: var(--route-blue); }
+.field-controls { right: 16px; bottom: 16px; left: 16px; display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 7px; pointer-events: none; }
+.field-controls button { min-width: 44px; min-height: 44px; border: 1px solid rgba(24, 32, 42, .45); border-radius: 0; padding: 8px 10px; background: rgba(240, 237, 227, .94); color: var(--route-ink); font: 10px/1.2 var(--route-ui); letter-spacing: .07em; text-transform: uppercase; cursor: pointer; pointer-events: auto; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--route-red); color: var(--route-red); }
+.field-controls button:disabled { border-color: rgba(24, 32, 42, .16); color: rgba(24, 32, 42, .3); cursor: not-allowed; }
+.field-hint { bottom: 25px; left: 20px; margin: 0; color: rgba(24, 32, 42, .55); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.route-work figcaption { display: flex; justify-content: space-between; gap: 18px; padding: 10px 2px 0; color: var(--route-muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.route-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(230px, .42fr); gap: 20px 56px; align-items: end; padding: clamp(52px, 8vw, 110px) 0 clamp(36px, 5vw, 66px); border-bottom: 1px solid var(--route-rule); }
+.eyebrow { grid-column: 1; margin: 0 0 12px; color: var(--route-red); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; }
+.route-opening h1 { grid-column: 1; margin: 0; color: var(--route-ink); font: 400 clamp(48px, 8.2vw, 118px)/.84 var(--route-display); letter-spacing: -.062em; }
+.route-opening h1 i { color: var(--route-blue); font-style: normal; }
+.route-lede { grid-column: 2; grid-row: 2 / span 2; max-width: 330px; margin: 0 0 5px; color: var(--route-muted); font-size: 14px; line-height: 1.5; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(230px, .42fr); gap: 20px 56px; align-items: end; padding: 24px 0; border-bottom: 1px solid var(--route-rule); }
+.interaction-panel .eyebrow { margin: 0; }
+.interaction-copy, .interaction-state { max-width: 430px; margin: 8px 0 0; color: var(--route-muted); font-size: 12px; line-height: 1.55; }
+.interaction-state { grid-column: 2; grid-row: 1; margin: 0; color: var(--route-blue); }
+.annotations { display: grid; grid-template-columns: minmax(150px, .36fr) minmax(0, 1fr); gap: 28px 56px; padding: 28px 0 0; color: var(--route-muted); font-size: 11px; line-height: 1.62; }
+.annotations > .eyebrow { grid-column: 1; }
+.annotations dl { display: grid; gap: 0; margin: 0; }
+.annotations dl div { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 18px; padding: 0 0 16px; }
+.annotations dt { color: var(--route-red); font-size: 10px; letter-spacing: .07em; text-transform: uppercase; }
+.annotations dd { margin: 0; }
+.studio-footer { display: flex; justify-content: space-between; gap: 16px; min-height: 66px; padding: 18px 0; border-top: 1px solid var(--route-rule); color: var(--route-muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+
+html.preview-mode, html.preview-mode body, html.preview-mode .route-shell { min-height: 100%; height: 100%; }
+html.preview-mode body { overflow: hidden; background: var(--route-paper); }
+html.preview-mode .route-shell { width: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .route-work figcaption, html.preview-mode .route-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .route-main { width: 100%; height: 100%; padding: 0; }
+html.preview-mode .route-work { width: 100%; height: 100%; }
+html.preview-mode .route-field { width: 100%; height: 100%; aspect-ratio: auto; border: 0; box-shadow: none; }
+html.preview-mode #route-svg { inset: 6% 4% 9%; width: 92%; height: 85%; }
+html.preview-mode:not(.interactive-preview) .field-controls, html.preview-mode:not(.interactive-preview) .field-readout, html.preview-mode:not(.interactive-preview) .field-hint, html.preview-mode:not(.interactive-preview) .field-stamp, html.preview-mode:not(.interactive-preview) .field-axis, html.preview-mode:not(.interactive-preview) .route-legend { display: none; }
+html.preview-mode.static-mode .field-controls, html.preview-mode.static-mode .field-readout, html.preview-mode.static-mode .field-hint, html.preview-mode.blind-mode .field-controls, html.preview-mode.blind-mode .field-readout, html.preview-mode.blind-mode .field-hint, html.preview-mode.blind-mode .field-stamp, html.preview-mode.blind-mode .field-axis, html.preview-mode.blind-mode .route-legend { display: none; }
+
+@media (max-width: 700px) {
+  .studio-header { grid-template-columns: auto minmax(0, 1fr); gap: 8px 14px; padding: 8px 0; }
+  .studio-header p { font-size: 9px; }
+  .studio-nav { grid-column: 2; justify-content: flex-start; }
+  .studio-nav a { min-height: 38px; }
+  .route-field { aspect-ratio: .76 / 1; }
+  .field-stamp { top: 12px; right: 12px; left: 12px; font-size: 8px; }
+  .field-readout { top: 36px; right: 12px; left: 12px; font-size: 8px; }
+  .field-axis { left: 12px; font-size: 8px; }
+  #route-svg { inset: 12% 8% 27%; width: 84%; height: 61%; }
+  .station-glyph { font-size: .12px; }
+  .route-legend { right: 12px; bottom: 156px; font-size: 8px; }
+  .field-controls { right: 10px; bottom: 10px; left: 10px; justify-content: flex-start; gap: 4px; }
+  .field-controls button { min-width: 42px; min-height: 44px; padding: 8px; }
+  .field-hint { bottom: 132px; left: 12px; max-width: 250px; font-size: 8px; }
+  .route-work figcaption { flex-direction: column; gap: 4px; }
+  .route-opening, .interaction-panel, .annotations { display: block; }
+  .route-opening h1 { margin-bottom: 24px; font-size: clamp(48px, 15vw, 84px); }
+  .route-lede { max-width: 30rem; }
+  .interaction-state { margin-top: 20px; }
+  .annotations > .eyebrow { margin-bottom: 20px; }
+  .annotations dl div { grid-template-columns: 1fr; gap: 4px; }
+  .studio-footer { flex-wrap: wrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-link, .station-thread, .station-pin, .station-glyph { transition: none; }
+}
