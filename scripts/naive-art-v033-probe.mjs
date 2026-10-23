@@ -165,8 +165,12 @@ async function readbacks(page) {
   const result = {};
   for (const route of paths) {
     const response = await page.goto(`${base}${route}`, { waitUntil: 'networkidle' });
+    if (route.startsWith('/studies/')) await page.waitForFunction(() => Boolean(window.__mutineNaiveV033));
     const body = route.endsWith('favicon.svg') ? '' : await page.locator('body').innerText().catch(() => '');
-    result[route] = { status: response.status(), hasTarget: body.includes('The proof misheard itself.') || body.includes('naive-2026-10-23') || route.endsWith('favicon.svg') };
+    result[route] = {
+      status: response.status(),
+      hasTarget: route.startsWith('/studies/') ? Boolean(await page.evaluate(() => window.__mutineNaiveV033)) : body.includes('The proof misheard itself.') || body.includes('naive-2026-10-23') || route.endsWith('favicon.svg')
+    };
   }
   const source = await page.evaluate(async () => (await fetch('/studio/data/works.json')).json());
   const publicCatalog = await page.evaluate(async () => (await fetch('/studio/data/catalog-public.json')).json());
