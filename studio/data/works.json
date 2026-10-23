@@ -79,7 +79,7 @@
         "lineage": "portrait-2026-10-22"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, and diagnostics passed; candidate held pending production matrix, independent caption-free perceptual review, deployed publication readback, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, and diagnostics passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "localAlias": "http://127.0.0.1:57180",
         "localRawPreview": "/studies/self-portrait/v031/?preview=1&interaction=1",
@@ -96,8 +96,25 @@
         "screenshotCount": 25,
         "diagnosticCount": 0,
         "overflowCount": 0,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v031/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v031/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/portrait-2026-10-23/",
+        "productionViewportMatrix": "20/20 production raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "productionOverflow": "all 20 production raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport; blind 390px probe was 390/390/390",
+        "productionDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 production raw/canonical runs plus interaction, blind, Journal, current, canonical, raw, registry, and favicon readbacks",
+        "productionInteraction": "a real 80ms pointer hold refused with exact geometry; a real 260ms pointer hold committed one revision with opened, inherited, and shed remote bands; Delete restored the exact baseline; Enter committed a deterministic probe; Escape released; all three controls measured at least 44px at 390x844",
+        "productionTouchTargets": "all three controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the Canvas membrane visible with 13 bands and four settled revisions while hiding stage index, readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production Journal anchor/title, Self portrait current, canonical work title/tableau, raw v031 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/portrait-v031-2026-10-23-production/",
+        "productionScreenshotCount": 25,
+        "productionDiagnosticCount": 0,
+        "productionOverflowCount": 0,
+        "productionRegistryMatches": 1,
+        "productionFaviconStatus": 200,
+        "productionDeploymentId": "dpl_3iyqYvK3CvuzKLT4h5isC2h6qfy1",
         "unresolved": [
-          "production browser matrix and public readback",
           "independent caption-free perceptual comparison with labels, readout, controls, hint, annotations, and prose hidden",
           "provider revision linkage between deployment and GitHub SHA"
         ]
