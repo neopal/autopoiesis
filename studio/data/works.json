@@ -2,6 +2,129 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-24",
+      "currentId": "svg",
+      "date": "2026-10-24",
+      "title": "The unobserved side opens.",
+      "rawPath": "/studies/pure-svg/v035/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-24",
+        "note": "v035 abandons v034's horizontal delayed score, v033's resistant compound sheet, and v032's enclosed facet field. Eight thresholds are embedded in one irregular SVG body with a central void: a bounded dwell near one threshold marks it as watched, but the least-observed threshold becomes a remote opening. Four topology revisions remain liftable and later dwells inherit earlier cuts."
+      },
+      "critiques": [
+        {"persona": "Topology critic", "argument": "The changed connectivity must be carried by the even-odd body path and aperture opening, not by a coloured halo or explanatory label."},
+        {"persona": "Perceptual critic", "argument": "With furniture hidden, the first view should read as one suspended topology rather than a score, ring of icons, flower, or interface; after attention, the remote opening must be findable in the body itself."},
+        {"persona": "Interaction critic", "argument": "The point of attention may identify a local threshold, but it must not directly select the answer: the least-attended threshold must become the visible opening, and lifting must restore the exact prior path."},
+        {"persona": "Social-attention critic", "argument": "little-critters is translated into reciprocal consequence without animals, eyes, characters, or cursor-following: being near one threshold changes the topology of the one left alone."},
+        {"persona": "Radical progression critic", "argument": "v035 must leave v034's score, v033's compound sheet, and v032's facet field through an integrated body, a dwell gesture, and a connectivity change rather than another mark redistribution."},
+        {"persona": "Cynic", "argument": "Delete v035 if the blind body reads as a decorative loop, if the remote opening is only a highlight, if the point of contact always wins, if accumulated cuts do not persist, or if the prose does more work than the SVG."}
+      ],
+      "metrics": {
+        "id": "pure-svg-v035-attention-topology",
+        "seed": "0x53564735",
+        "visitorInput": true,
+        "portCount": 8,
+        "memoryWindow": 4,
+        "minimumDwellMs": 240,
+        "maximumDwellMs": 1320,
+        "commitThreshold": "bounded dwell that reroutes an unobserved opening",
+        "settledStage": 4,
+        "primitiveBudget": 8,
+        "memoryRule": "a local attention offer marks one watched threshold, but the least-observed threshold opens as a non-local cut in the same body",
+        "interactionRule": "pointer dwell commits attention topology; flicker and over-held offers refuse; Enter, Space, and the attention control use deterministic dwells; Delete lifts latest; Escape or R releases",
+        "representationRupture": "horizontal score of marks -> one closed SVG body whose connectivity changes through an opening",
+        "encounterRupture": "two-tap interval -> pointer dwell near a threshold with a remote unobserved consequence",
+        "temporalRupture": "delayed beat ledger -> bounded topology ledger whose accumulated cuts persist in one body",
+        "mediumRupture": "token score -> even-odd SVG path topology with integrated apertures and channels",
+        "replay": true,
+        "renderer": "deterministic inline SVG attention topology",
+        "grammar": "attention-topology",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "A situated population of code-drawn agents responds to proximity with legible attention and reciprocal consequence; the visitor participates in a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, head-turning, and pointer-following. Translate reciprocal attention into Pure SVG topology: a dwell near one threshold marks it as watched, but the least-observed threshold opens as a non-local cut in the same body.",
+        "visibleConsequence": "The blind first view is one irregular SVG body with a central void, not a spatial population. A valid dwell changes the even-odd body path, compresses the watched aperture, opens a remote threshold, and accumulates a visible channel; later dwells inherit earlier cuts.",
+        "falsifier": "If the point of contact directly selects the opening, if flicker or over-held attention commits, if only colour or readout changes, if the remote opening is decorative, if later revisions restart from seed, or if exact lifting fails, the translation fails.",
+        "antiCopy": "No animals, eyes, character designs, paper scene, head-turning image, source palette, source composition, source code, example, or API surface is reproduced.",
+        "directionConsequence": "Closes Pure SVG's score / compound-sheet / facet family and opens topology-and-attention: relation is carried by connectivity inside one body rather than by a row of marks or a local stroke."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v035 if the blind body reads as a generic loop, flower, gear, ring, diagram, or interface, if the remote opening is only a highlight, if the touched threshold always opens, if accumulated cuts do not persist, or if exact lifting fails.",
+        "lineage": "svg-2026-10-22"
+      },
+      "browserEvidence":       {
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "matrixRuns": 20,
+        "matrixDiagnostics": 0,
+        "overflowFailures": 0,
+        "interactionDiagnostics": 0,
+        "blindDiagnostics": 0,
+        "readbackDiagnostics": 0,
+        "touchTargetMinimumPx": 44,
+        "blind": {
+          "viewport": "390x844",
+          "field": true,
+          "portCount": 8,
+          "memory": 4,
+          "openings": 4,
+          "readout": "none",
+          "controls": "none",
+          "annotations": "none",
+          "scrollWidth": 390,
+          "innerWidth": 390
+        },
+        "interaction": {
+          "dwellCommitted": true,
+          "geometryChanged": true,
+          "remoteRolesVisible": true,
+          "openingsAfterDwell": 1,
+          "liftRestoredPriorFrame": true,
+          "keyboardPath": true,
+          "escapeRelease": true,
+          "flickerRefused": true,
+          "overheldRefused": true,
+          "controls": [
+            "offer attention",
+            "lift latest",
+            "release"
+          ]
+        },
+        "readbacks": {
+          "journalTitle": true,
+          "currentTitle": true,
+          "canonicalTitle": true,
+          "rawTableau": true,
+          "registryStatus": 200,
+          "registryMatches": 1,
+          "faviconStatus": 200
+        },
+        "proof": "research/qa/proofs/pure-svg-v035-2026-10-24/qa-summary.json",
+        "unresolved": [
+          "production browser matrix",
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "portrait-2026-10-24",
       "currentId": "portrait",
       "date": "2026-10-24",

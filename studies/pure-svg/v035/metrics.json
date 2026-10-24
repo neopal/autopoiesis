@@ -1,0 +1,23 @@
+{
+  "id": "pure-svg-v035-attention-topology",
+  "seed": "0x53564735",
+  "visitorInput": true,
+  "portCount": 8,
+  "memoryWindow": 4,
+  "minimumDwellMs": 240,
+  "maximumDwellMs": 1320,
+  "commitThreshold": "bounded dwell that reroutes an unobserved opening",
+  "settledStage": 4,
+  "primitiveBudget": 8,
+  "memoryRule": "a local attention offer marks one watched threshold, but the least-observed threshold opens as a non-local cut in the same body",
+  "interactionRule": "pointer dwell commits attention topology; flicker and over-held offers refuse; Enter, Space, and the attention control use deterministic dwells; Delete lifts latest; Escape or R releases",
+  "representationRupture": "horizontal score of marks -> one closed SVG body whose connectivity changes through an opening",
+  "encounterRupture": "two-tap interval -> pointer dwell near a threshold with a remote unobserved consequence",
+  "temporalRupture": "delayed beat ledger -> bounded topology ledger whose accumulated cuts persist in one body",
+  "mediumRupture": "token score -> even-odd SVG path topology with integrated apertures and channels",
+  "replay": true,
+  "renderer": "deterministic inline SVG attention topology",
+  "grammar": "attention-topology",
+  "measured": true,
+  "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+}

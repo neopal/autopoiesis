@@ -1,0 +1,83 @@
+:root {
+  --ground: #0b0c12;
+  --surface: #12151d;
+  --ink: #eee8dc;
+  --muted: #aaa9b2;
+  --line: rgba(226, 220, 203, .2);
+  --accent: #c7e2c9;
+  --warm: #e4b891;
+  --violet: #b7a7cf;
+  --cold: #9db9bf;
+}
+
+html, body { background: var(--ground); }
+body.work-page[data-current='svg'] { color: var(--ink); }
+body.work-page[data-current='svg'] .studio-shell { background: radial-gradient(circle at 80% 8%, rgba(151, 164, 183, .16), transparent 31rem), var(--ground); }
+body.work-page[data-current='svg'] .studio-header,
+body.work-page[data-current='svg'] .studio-footer { border-color: var(--line); }
+body.work-page[data-current='svg'] .studio-header p,
+body.work-page[data-current='svg'] .studio-footer,
+body.work-page[data-current='svg'] .studio-path { color: var(--muted); }
+
+.work-surface { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem); gap: 1.5rem; align-items: start; }
+.field-wrap { position: relative; min-width: 0; overflow: hidden; background: #07080d; }
+#field { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 760; background: #07080d; touch-action: none; cursor: crosshair; }
+#field:focus-visible { outline: 2px solid var(--accent); outline-offset: -8px; }
+.topology-ground { fill: url(#topology-ground); }
+.topology-haze { fill: url(#topology-haze); opacity: .72; }
+.topology-body { fill: url(#topology-body); stroke: rgba(238, 233, 218, .64); stroke-width: 2.2; stroke-linejoin: round; transition: d 500ms cubic-bezier(.2,.8,.2,1), fill 500ms ease; }
+.topology-edge { fill: none; stroke: rgba(246, 228, 198, .32); stroke-width: 1.1; stroke-linejoin: round; pointer-events: none; }
+.topology-void { fill: none; stroke: rgba(7, 8, 13, .8); stroke-width: 3.2; }
+.topology-port { fill: none; stroke: rgba(235, 229, 211, .26); stroke-width: 1.5; transition: d 500ms cubic-bezier(.2,.8,.2,1), stroke 500ms ease, stroke-width 500ms ease; }
+.topology-port--watched { stroke: var(--warm); stroke-width: 4.4; }
+.topology-port--unobserved { stroke: var(--accent); stroke-width: 5; }
+.topology-port--seam { stroke: var(--violet); stroke-width: 3.5; }
+.topology-port--remembered { stroke-dasharray: 2 7; }
+.topology-thread { fill: none; stroke: rgba(196, 219, 207, .18); stroke-width: 1; stroke-dasharray: 1 12; }
+.topology-cut { fill: none; stroke: rgba(197, 226, 201, .5); stroke-width: 1.3; stroke-dasharray: 1 9; pointer-events: none; }
+.field-labels { fill: rgba(238, 232, 220, .74); font: 11px/1.2 'DM Mono', ui-monospace, monospace; letter-spacing: .08em; }
+.field-readout { position: absolute; inset: auto 1rem 1rem; display: flex; justify-content: space-between; gap: 1rem; color: rgba(238, 232, 220, .82); font: 10px/1.2 'DM Mono', ui-monospace, monospace; letter-spacing: .07em; text-transform: uppercase; pointer-events: none; }
+.field-controls { position: absolute; top: 1rem; right: 1rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; max-width: 72%; }
+.field-controls button { min-height: 44px; padding: .65rem .8rem; border: 1px solid rgba(199, 226, 201, .48); border-radius: 999px; background: rgba(10, 12, 18, .86); color: var(--ink); font: 11px/1 'DM Mono', ui-monospace, monospace; cursor: pointer; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--accent); color: #f5fff1; }
+.field-controls button:disabled { opacity: .34; cursor: not-allowed; }
+.work-annotations { display: grid; gap: 1rem; color: var(--muted); }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .7rem; }
+.work-annotations span { display: block; margin-bottom: .45rem; color: var(--accent); font: 10px/1 'DM Mono', ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
+.work-annotations p { margin: 0; font: .83rem/1.45 'DM Mono', ui-monospace, monospace; }
+.work-opening { display: grid; grid-template-columns: minmax(0, .85fr) minmax(14rem, .6fr); gap: 2rem; padding: clamp(2rem, 6vw, 5rem) 0 2rem; align-items: end; }
+.work-opening h1 { max-width: 10ch; margin: .35rem 0 0; color: var(--ink); font: 400 clamp(3.5rem, 8vw, 8rem)/.8 'Instrument Serif', Georgia, serif; letter-spacing: -.06em; }
+.work-opening h1 i { color: #b7d0c2; font-style: italic; }
+.work-premise { max-width: 30rem; margin: 0; color: #b9b8bf; font: 1rem/1.5 'DM Mono', ui-monospace, monospace; }
+.work-note { max-width: 48rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1rem 0; color: var(--muted); }
+.work-note p { margin: 0; font: .78rem/1.55 'DM Mono', ui-monospace, monospace; }
+.work-note strong { color: var(--ink); font-weight: 500; }
+
+html.preview-mode .studio-header, html.preview-mode .studio-footer, html.preview-mode .studio-path, html.preview-mode .work-opening, html.preview-mode .work-note, html.preview-mode .work-annotations { display: none; }
+html.preview-mode .studio-main { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .work-surface { display: block; }
+html.preview-mode .field-wrap { border: 0; }
+html.blind-mode .field-readout, html.blind-mode .field-controls, html.blind-mode .work-annotations, html.blind-mode .work-opening, html.blind-mode .work-note { display: none; }
+html.static-mode .field-readout, html.static-mode .field-controls { display: none; }
+
+@media (max-width: 980px) {
+  .work-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, 1fr); }
+  .work-opening { grid-template-columns: 1fr .8fr; }
+}
+
+@media (max-width: 680px) {
+  .work-surface { gap: 1rem; }
+  .field-controls { inset: auto .65rem .65rem; max-width: none; justify-content: stretch; }
+  .field-controls button { flex: 1 1 8rem; padding-inline: .45rem; font-size: 10px; }
+  .field-readout { inset: .65rem .65rem auto; flex-direction: column; gap: .25rem; font-size: 9px; }
+  .work-annotations { grid-template-columns: 1fr; gap: .75rem; }
+  .work-opening { grid-template-columns: 1fr; gap: 1.25rem; padding-top: 2.5rem; }
+  .work-opening h1 { font-size: clamp(3.1rem, 15vw, 5.4rem); }
+  .work-premise { font-size: .82rem; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; }
+  .topology-body, .topology-port { transition: none; }
+}
