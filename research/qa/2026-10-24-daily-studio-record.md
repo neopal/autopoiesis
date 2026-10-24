@@ -46,6 +46,14 @@ Runner: headless system Chrome through Playwright. The bundled Playwright Chromi
 - `node --check studies/self-portrait/v032/engine.mjs`: passed.
 - `git diff --check`: passed.
 
+## Production verification
+
+- **Deployment:** `https://autopoiesis-nine.vercel.app` (Vercel deployment `dpl_GYk2F2ckn42juawuvb7XjR5KErJT`).
+- Stable alias returned HTTP `200` for the raw tableau, canonical work, Journal, and favicon.
+- Deployed `studio/data/works.json` contains exactly one `portrait-2026-10-24` record with the expected title, date, current, raw path, and Journal anchor.
+- Headless production Chrome matrix: **20/20** runs; matrix, interaction, blind, readback, and overflow failures all **0**.
+- Production proof: `research/qa/proofs/portrait-v032-2026-10-24-production/results.json` and its 22 PNG captures.
+
 ## Unresolved
 
-Production deployment/readback and independent caption-free perceptual review remain open. The candidate stays **held** until the deployed route, Journal, and public register are verified and the blind object is judged as a refusal object rather than a generic 3D ornament.
+An independent human caption-free perceptual review remains open. The candidate stays **held** honestly: the executable object and production gates are verified, but the blind object still needs a separate perceptual judgment that it reads as a refusal object rather than a generic 3D ornament.

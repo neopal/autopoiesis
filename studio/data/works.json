@@ -109,7 +109,24 @@
           "journalDiagnostics": 0,
           "currentDiagnostics": 0
         },
-        "proof": "research/qa/proofs/portrait-v032-2026-10-24/results.json"
+        "proof": "research/qa/proofs/portrait-v032-2026-10-24/results.json",
+        "production": {
+          "base": "https://autopoiesis-nine.vercel.app",
+          "matrixRuns": 20,
+          "matrixDiagnostics": 0,
+          "overflowFailures": 0,
+          "interactionDiagnostics": 0,
+          "blindDiagnostics": 0,
+          "readbackDiagnostics": 0,
+          "journalTitle": true,
+          "currentTitle": true,
+          "recordCount": 1,
+          "rawHttp": 200,
+          "canonicalHttp": 200,
+          "journalHttp": 200,
+          "faviconHttp": 200,
+          "proof": "research/qa/proofs/portrait-v032-2026-10-24-production/results.json"
+        }
       }
     },
     {
