@@ -158,4 +158,17 @@ Runner: headless system Chrome through Playwright; no headed browser, CUA, CDP, 
 
 ### Unresolved
 
-Production deployment and remote readback remain to be completed. Independent caption-free perceptual review remains open; the candidate stays **held** until a separate observer confirms that the blind sheet reads as a local material body rather than a generic line drawing or control surface.
+Independent caption-free perceptual review remains open; the candidate stays **held** until a separate observer confirms that the blind sheet reads as a local material body rather than a generic line drawing or control surface.
+
+### Production verification — 2026-10-24
+
+- **Deployment:** `dpl_1grnnqaKLiotGDt81YqxadGYRSM3`; stable alias `https://autopoiesis-nine.vercel.app`; deployment URL `https://autopoiesis-ddr6fov11-lairpa-hotmailfrs-projects.vercel.app`.
+- **Git provenance:** the production deploy was run from `6cdee7186cf8e966b2bfa3acf4ae88c51962c4ac`; `origin/main` matched that SHA at verification time. GitHub synchronization and Vercel publication are recorded separately; this was a manual production deploy.
+- Production matrix: **20/20 passed** across the five required viewports and normal/reduced-motion raw/canonical routes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses.
+- Production interaction: preview remained geometry-neutral; real pointer release committed one local crease; Delete restored the exact baseline; Enter committed; Escape released; controls measured 44px.
+- Production blind preview: Canvas visible, readout/controls/hint hidden, four remembered creases and 18 opened chambers visible; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
+- Production rendered readbacks: registry, public catalog, canonical work, raw tableau, Journal anchor/title, current title, and favicon all returned/rendered; HTTP `200`.
+- Proof: `research/qa/proofs/brush-v037-2026-10-24-production/qa-summary.json` plus 20 production screenshots.
+
+Independent caption-free perceptual review remains unresolved; the candidate stays **held** honestly despite the green local and production technical gates.
