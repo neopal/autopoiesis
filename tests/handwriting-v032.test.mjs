@@ -138,11 +138,15 @@ test('handwriting v032 QA proof summary counts the captured screenshots exactly'
   const files = await readdir(proofRoot);
   const summary = JSON.parse(await (await import('node:fs/promises')).readFile(new URL('qa-summary.json', proofRoot), 'utf8'));
 
-  assert.equal(summary.screenshotCount, files.filter((file) => file.endsWith('.png')).length);
+  assert.equal(summary.screenshotCount, files.filter((file) => file.endsWith('.png') && !file.startsWith('production-')).length);
   assert.equal(summary.localViewportRuns, 20);
   assert.equal(summary.canonicalViewportRuns, 10);
+  assert.equal(summary.productionViewportRuns, 20);
   assert.equal(summary.diagnosticCount, 0);
   assert.equal(summary.overflowCount, 0);
+  assert.equal(summary.production.diagnosticCount, 0);
+  assert.equal(summary.production.overflowCount, 0);
+  assert.equal(summary.production.canonicalTableauFirst, true);
   assert.equal(summary.interaction.memoryAfterCommit, 1);
   assert.equal(summary.interaction.memoryAfterLift, 0);
   assert.equal(summary.blind.memory, 4);
