@@ -48,7 +48,7 @@ Runner: headless system Chrome through Playwright. The bundled Playwright Chromi
 
 ## Production verification
 
-- **Deployment:** `https://autopoiesis-nine.vercel.app` (Vercel deployment `dpl_GYk2F2ckn42juawuvb7XjR5KErJT`).
+- **Deployment:** `https://autopoiesis-nine.vercel.app` (final Vercel deployment `dpl_6dvmUWZgRvBr8FpS1BaLc9QmwLxj`).
 - Stable alias returned HTTP `200` for the raw tableau, canonical work, Journal, and favicon.
 - Deployed `studio/data/works.json` contains exactly one `portrait-2026-10-24` record with the expected title, date, current, raw path, and Journal anchor.
 - Headless production Chrome matrix: **20/20** runs; matrix, interaction, blind, readback, and overflow failures all **0**.
