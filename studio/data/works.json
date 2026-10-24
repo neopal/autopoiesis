@@ -116,9 +116,26 @@
           "registryMatches": 1,
           "faviconStatus": 200
         },
-        "proof": "research/qa/proofs/pure-svg-v035-2026-10-24/qa-summary.json",
+        "localProof": "research/qa/proofs/pure-svg-v035-2026-10-24/qa-summary.json",
+        "production": {
+          "base": "https://autopoiesis-nine.vercel.app",
+          "deployment": "dpl_6YgDA6sr5cNEykAhyRC23yjdj8EG",
+          "matrixRuns": 20,
+          "matrixDiagnostics": 0,
+          "overflowFailures": 0,
+          "interactionDiagnostics": 0,
+          "blindDiagnostics": 0,
+          "readbackDiagnostics": 0,
+          "registryStatus": 200,
+          "registryMatches": 1,
+          "journalTitle": true,
+          "currentTitle": true,
+          "canonicalTitle": true,
+          "rawTableau": true,
+          "faviconStatus": 200,
+          "proof": "research/qa/proofs/pure-svg-v035-2026-10-24-production-final/qa-summary.json"
+        },
         "unresolved": [
-          "production browser matrix",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]

@@ -3,7 +3,7 @@
 - **Target:** `svg` / `2026-10-24`
 - **Work:** *The unobserved side opens.*
 - **Status:** **candidate / held**
-- **Production-ready:** `false` pending production matrix and independent perceptual review
+- **Production-ready:** `false` pending independent perceptual review
 
 ## Hypothesis and changed rule
 
@@ -31,6 +31,15 @@ The primary rupture is **representation and encounter**: token score → one top
 - **Blind:** at `390×844`, field visible with `8` ports and `4` inherited openings; readout, controls, annotations hidden; `innerWidth/clientWidth/scrollWidth=390/390/390`.
 - **Routes/readbacks:** Journal anchor, Pure SVG current, canonical work, raw tableau, registry (`HTTP 200`, exactly one `svg-2026-10-24` record), and favicon (`HTTP 200`) verified.
 - **Proof:** `research/qa/proofs/pure-svg-v035-2026-10-24/qa-summary.json` plus three screenshots.
+
+## Production evidence
+
+- **Deployment:** `dpl_6YgDA6sr5cNEykAhyRC23yjdj8EG` → [https://autopoiesis-nine.vercel.app](https://autopoiesis-nine.vercel.app)
+- **Production browser:** `20/20` raw/canonical runs across `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced-motion.
+- **Production diagnostics:** `0`; overflow failures `0`; real dwell, Delete lift, Enter, `R`, flicker refusal, over-held refusal, blind mode, and 44px controls all passed.
+- **Production readbacks:** `/studio/data/works.json` returned `HTTP 200` with exactly one `svg-2026-10-24` record; Journal anchor/title, Pure SVG current, canonical work, raw tableau, and favicon all returned/rendered.
+- **Production proof:** `research/qa/proofs/pure-svg-v035-2026-10-24-production-final/qa-summary.json` plus three screenshots.
+- **Provenance:** Git commit `3d2df80` was pushed to `origin/main` before this manual Vercel deployment. Git and Vercel provenance remain separate; the provider-side revision linkage is not asserted.
 
 ## Critique and hold
 
