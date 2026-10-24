@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111513">
+  <title>MUTINE — The paint hardens at the touch.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=037">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-24"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="crease-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v037 / CREASE SHEET</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="crease-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v037</span></nav>
+
+      <figure class="crease-work artwork-frame" aria-labelledby="work-title">
+        <div id="crease-field" class="crease-field" tabindex="0" role="application" aria-label="A wet material sheet. Draw one continuous crease across it; the pigment hardens locally along your stroke." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="crease-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>wet sheet · 0 creases</span></div>
+          <div id="crease-canvas" class="crease-canvas"></div>
+          <div class="crease-controls" aria-label="Brush crease actions">
+            <button type="button" data-gesture="crease">make a crease</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release sheet</button>
+          </div>
+          <p class="crease-hint">draw one continuous pressure line</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v037-crease-sheet</span><span>pressure &gt; incision &gt; drying</span></figcaption>
+      </figure>
+
+      <section class="crease-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / CREASE SHEET / v037</p>
+        <h1 id="work-title">The paint hardens<br><i>at the touch.</i></h1>
+        <p class="crease-lede">A continuous stroke does not choose a remote answer. It removes the wet layer exactly where the hand passed, and the sheet dries around that incision.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">PRESSURE BECOMES A BODY</p>
+          <p class="interaction-copy">Draw across the sheet and release. A short or over-held gesture is refused. A complete stroke opens a local crease, changes nearby chambers, and carries its dried pressure into the next stroke. Enter or “make a crease” uses a deterministic line. Delete lifts the latest; Escape, R, or “release sheet” returns to wet.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The sheet is still wet.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v037</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Invert the recent remote-consequence grammar. A continuous local pressure stroke is the event: it removes pigment along its own path and dries the neighbouring material around it.</dd></div>
+          <div><dt>visitor action</dt><dd>Draw one continuous line. Preview remains geometry-neutral; release commits only a stroke long enough to become an incision. Enter, Space, and the crease control use deterministic pressure. Delete lifts the latest. Escape or R releases the sheet. S downloads a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If the stroke only changes a halo or readout, if the answer appears remotely instead of along the contact, if drying does not feed the next stroke, or if lifting is inexact, the material translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v037 if caption-free viewing cannot show one continuous sheet with a local cut and drying boundary, or if the gesture reads as a disguised button or generic line drawing.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-23/">previous daily work</a><a href="/journal/#journal-brush-2026-10-24">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=037"></script>
+</body>
+</html>

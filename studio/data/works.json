@@ -2,6 +2,116 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-24",
+      "currentId": "brush",
+      "date": "2026-10-24",
+      "title": "The paint hardens at the touch.",
+      "rawPath": "/studies/p5-brush/v037/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-24",
+        "note": "v037 inverts v036's remote eclipse, v034's proximity census, and v033's dry-seam plates. One continuous pressure stroke now cuts its own path in a single Canvas 2D material sheet: nearby chambers dent and open, the drying frontier persists, and the next stroke inherits the dried incision. Four local creases remain liftable."
+      },
+      "critiques": [
+        {"persona": "Material critic", "argument": "The sheet must read as one continuous body before it reads as chambers; the local stroke must cut its own path and alter nearby material geometry."},
+        {"persona": "Perceptual critic", "argument": "With furniture hidden, the first view must break from v036's slab, v034's pool field, and v033's plates; it must read as a fused sheet with latent crease grammar."},
+        {"persona": "Interaction critic", "argument": "Pointer movement previews without changing geometry. Release commits only a bounded continuous stroke; buttons and keyboard are deterministic equivalents."},
+        {"persona": "Locality critic", "argument": "The contact is the cause: incision, chamber deformation, and drying boundary must follow the drawn path, not a remote role or readout."},
+        {"persona": "Memory critic", "argument": "The next stroke inherits the dried state of the previous incision; four events remain liftable and Delete reconstructs the exact preceding sheet."},
+        {"persona": "Radical progression critic", "argument": "v037 inverts the last three Brush works through accepted local pressure, continuous drawing, Canvas 2D, and drying as future material state."},
+        {"persona": "Cynic", "argument": "Delete v037 if the blind sheet reads as a generic line drawing or UI, if the local cut is only a halo, if the next stroke ignores dried pressure, or if lifting is inexact."}
+      ],
+      "metrics": {
+        "id": "p5-brush-v037-crease-sheet",
+        "seed": "0x42523737",
+        "visitorInput": true,
+        "stages": 13,
+        "memoryWindow": 4,
+        "minimumStrokePoints": 3,
+        "minimumStrokeLength": 0.18,
+        "maximumStrokeDurationMs": 1600,
+        "chamberCount": 18,
+        "bodyVertexCount": 32,
+        "primitiveBudget": 28,
+        "memoryRule": "a completed local pressure stroke opens a crease along its own path; dried pressure changes nearby chambers and is inherited by the next local stroke; four events remain liftable",
+        "interactionRule": "pointerdown and pointermove preview a geometry-neutral pressure line; pointerup commits only a bounded continuous stroke; Enter, Space, and the crease control use deterministic strokes; Delete lifts latest; Escape or R releases",
+        "representationRupture": "shallow WebGL slab, raster pool field, and SVG plates -> one p5.js Canvas 2D material sheet with local incisions and drying chambers",
+        "encounterRupture": "fault–vent–exit route, proximity census, and discrete knocks -> continuous hand-drawn pressure stroke whose own path becomes the cause",
+        "temporalRupture": "remote eclipse ledger and latent attention -> drying phase that carries local incision pressure into the next stroke",
+        "mediumRupture": "p5.js WEBGL sculptural object -> p5.js Canvas 2D continuous material sheet",
+        "replay": true,
+        "renderer": "deterministic p5.js Canvas 2D crease sheet",
+        "grammar": "crease-sheet",
+        "measured": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools make pressure, density, and directional fields part of the production engine; the instrument changes how geometry is produced, not merely how a finished mark is styled.",
+        "translatedRule": "Accept pressure as a causal relation but refuse brush appearance, watercolor, hatching, grain, vector fields, and the source API. A continuous stroke is a local incision in a fused sheet; drying changes adjacent production and is inherited by the next stroke.",
+        "visibleConsequence": "The blind first view is one Canvas 2D material sheet. A completed stroke changes actual local chamber geometry, body fold, negative incision, and drying frontier along its own path; later strokes inherit the altered sheet.",
+        "falsifier": "If the stroke only changes a halo or readout, if the consequence is remote rather than local, if drying does not affect the next stroke, if the gesture is only a disguised button, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No brush appearance, watercolor, hatching, grain, vector-field drawing, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Brush's remote eclipse / proximity pool / dry-seam family and opens locality-and-drying: matter accepts the incision, then changes its own future."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v037 if the blind sheet reads as a generic line drawing or UI, if the local cut is cosmetic, if the next stroke forgets drying, or if exact lifting fails.",
+        "lineage": "brush-2026-10-23"
+      },
+      "browserEvidence": {
+        "runner": "headless system Chrome via Playwright",
+        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+        "modes": ["normal", "reduced-motion"],
+        "matrixRuns": 20,
+        "matrixDiagnostics": 0,
+        "overflowFailures": 0,
+        "interactionDiagnostics": 0,
+        "blindDiagnostics": 0,
+        "readbackDiagnostics": 0,
+        "touchTargetMinimumPx": 44,
+        "blind": {
+          "viewport": "390x844",
+          "field": true,
+          "canvas": true,
+          "memory": 4,
+          "openingCount": 18,
+          "readout": "none",
+          "controls": "none",
+          "hint": "none",
+          "scrollWidth": 390,
+          "innerWidth": 390
+        },
+        "interaction": {
+          "previewGeometryUnchanged": true,
+          "committedMemory": 1,
+          "committedChangedGeometry": true,
+          "localEvent": true,
+          "liftRestoredPriorFrame": true,
+          "keyboardPath": true,
+          "escapeRelease": true,
+          "controls": ["make a crease", "lift latest", "release sheet"]
+        },
+        "readbacks": {
+          "journalTitle": true,
+          "currentTitle": true,
+          "canonicalTitle": true,
+          "rawTableau": true,
+          "registryStatus": 200,
+          "registryMatches": 1,
+          "faviconStatus": 200
+        },
+        "localProof": "research/qa/proofs/brush-v037-2026-10-24/qa-summary.json",
+        "localAlias": "http://127.0.0.1:53113",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical viewport runs plus interaction, blind, Journal, current, canonical, registry, raw tableau, and favicon readbacks",
+        "localInteraction": "a real pointer stroke preview kept the geometry signature exact; release committed one local crease and changed geometry; Delete restored the exact baseline; Enter committed; Escape released; all three controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the Canvas 2D crease sheet visible with four settled local incisions and 18 opened chambers while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+      }
+    },
+    {
       "id": "svg-2026-10-24",
       "currentId": "svg",
       "date": "2026-10-24",
