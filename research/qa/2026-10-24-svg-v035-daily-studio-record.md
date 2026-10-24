@@ -34,12 +34,12 @@ The primary rupture is **representation and encounter**: token score → one top
 
 ## Production evidence
 
-- **Deployment:** `dpl_6YgDA6sr5cNEykAhyRC23yjdj8EG` → [https://autopoiesis-nine.vercel.app](https://autopoiesis-nine.vercel.app)
+- **Deployment:** `dpl_8QAEFMWEHUqw7z4ckJy2bc4cjLRy` → [https://autopoiesis-nine.vercel.app](https://autopoiesis-nine.vercel.app)
 - **Production browser:** `20/20` raw/canonical runs across `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced-motion.
 - **Production diagnostics:** `0`; overflow failures `0`; real dwell, Delete lift, Enter, `R`, flicker refusal, over-held refusal, blind mode, and 44px controls all passed.
 - **Production readbacks:** `/studio/data/works.json` returned `HTTP 200` with exactly one `svg-2026-10-24` record; Journal anchor/title, Pure SVG current, canonical work, raw tableau, and favicon all returned/rendered.
 - **Production proof:** `research/qa/proofs/pure-svg-v035-2026-10-24-production-final/qa-summary.json` plus three screenshots.
-- **Provenance:** Git commit `3d2df80` was pushed to `origin/main` before this manual Vercel deployment. Git and Vercel provenance remain separate; the provider-side revision linkage is not asserted.
+- **Provenance:** Git commit `1855058` was pushed to `origin/main` before this manual Vercel deployment. Git and Vercel provenance remain separate; the provider-side revision linkage is not asserted.
 
 ## Critique and hold
 

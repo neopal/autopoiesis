@@ -24,6 +24,7 @@ async function waitReady(page) {
 }
 
 async function waitFrameReady(page) {
+  await page.waitForFunction(() => Array.from(window.frames).some((frame) => frame.location.href.includes('/studies/pure-svg/v035/')), null, { timeout: 10000 });
   const frame = page.frames().find((candidate) => candidate.url().includes('/studies/pure-svg/v035/'));
   if (!frame) throw new Error('canonical page did not mount the v035 raw frame');
   await frame.waitForFunction(() => window._mutineReady === true, null, { timeout: 10000 });
