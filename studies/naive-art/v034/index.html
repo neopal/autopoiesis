@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171713">
+  <title>MUTINE — The model fills the missing side.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=034">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-24"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="relief-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v034 / FALSE RECONSTRUCTION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="relief-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v034</span></nav>
+
+      <section class="relief-surface" aria-label="Naive false reconstruction relief tableau">
+        <div class="relief-column">
+          <figure class="relief-work artwork-frame">
+            <div class="relief-field" id="relief-field" tabindex="0" role="application" aria-label="A single relief model. Hold one facet long enough for the model to reconstruct the least-watched side incorrectly." aria-keyshortcuts="1-9 Enter Space Delete Escape">
+              <div id="relief-canvas-wrap" aria-hidden="true"></div>
+              <div class="relief-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-memory>0 retained</span><span data-status>choose a facet · hold to look</span></div>
+            </div>
+            <div class="relief-controls" aria-label="Relief actions">
+              <div class="facet-keys" aria-label="Relief facets">
+                <button type="button" data-facet="0" aria-label="Look at facet 1">1</button>
+                <button type="button" data-facet="1" aria-label="Look at facet 2">2</button>
+                <button type="button" data-facet="2" aria-label="Look at facet 3">3</button>
+                <button type="button" data-facet="3" aria-label="Look at facet 4">4</button>
+                <button type="button" data-facet="4" aria-label="Look at facet 5">5</button>
+                <button type="button" data-facet="5" aria-label="Look at facet 6">6</button>
+                <button type="button" data-facet="6" aria-label="Look at facet 7">7</button>
+                <button type="button" data-facet="7" aria-label="Look at facet 8">8</button>
+                <button type="button" data-facet="8" aria-label="Look at facet 9">9</button>
+              </div>
+              <button type="button" data-action="observe">let it fill the gap</button>
+              <button type="button" data-action="lift">lift last reconstruction</button>
+              <button type="button" data-action="release">release the model</button>
+            </div>
+            <p class="relief-hint">hold a facet, then release · the least-watched side is the one it gets wrong · Delete lifts</p>
+            <figcaption><span>seed | mutine-naive-v034</span><span>look &gt; invent &gt; omit</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single low relief is made from nine uneven facets. It is not a crowd, diagram, or alphabet: it is a model that can only reconstruct from where it has been looked at.</p></div>
+          <div><span>critique</span><p>The error must live in the solids. A held gaze cannot merely light its target; the least-watched side must actually inherit a false height while another side becomes absent.</p></div>
+          <div><span>progression</span><p>v034 leaves v033's typographic proof and v032's branch organism. The new unit is a failed reconstruction: attention is a local observation, but the mistake is a remote body.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V034 / DAILY WORK</p><h1 id="work-title">The model fills<br><i>the missing side.</i></h1></div>
+        <p class="work-premise">A careful look makes the wrong surface solid.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v034 translates little-critters' situated reciprocity into a bas-relief error: the visitor holds one facet in attention, but the model reconstructs the least-watched side from false evidence. The observed facet sinks, a remote facet copies its relief, a third becomes an actual absence, and the next look inherits the damage.</p></section>
+      <p class="work-loop">look &rarr; reconstruct &rarr; copy the wrong side &rarr; omit</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-23/">previous daily work</a><a href="/journal/#journal-naive-2026-10-24">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=034"></script>
+</body>
+</html>
