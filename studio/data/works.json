@@ -2,6 +2,117 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "portrait-2026-10-24",
+      "currentId": "portrait",
+      "date": "2026-10-24",
+      "title": "The portrait refuses to be continuous.",
+      "rawPath": "/studies/self-portrait/v032/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-portrait-2026-10-24",
+        "note": "v032 inverts the p5.brush translation and abandons v031's pressure membrane, v030's decision population, and v029's delegated shell. The first directional proposal is held in silence; a repeated proposal is refused; only an incompatible second proposal folds a suspended WebGL body through a new axis, facet relief, and negative seam. Four contradictions remain liftable and later bodies inherit the changed hinge."
+      },
+      "critiques": [
+        {
+          "persona": "Object critic",
+          "argument": "The two planes must read as one authored suspended body before they read as a 3D primitive demo; the seam and asymmetrical facet rhythm must carry the composition."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "One offer must stay silent, repetition must refuse, and only an incompatible pair may fold the body. Pointer, keyboard, and buttons must be deterministic equivalents."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and prose hidden, the first view must break from v031's membrane, v030's population, and v029's shell."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "Axis, facet relief, and void scale must change in the rendered object, not only in metadata; exact lifting must restore the prior body."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v032 if it reads as a generic 3D ornament, if contradiction is a disguised button, if the pointer location becomes the answer, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "portrait-v032-hinge-of-refusal",
+        "visitorInput": true,
+        "seed": "0x435032",
+        "composition": "hinge-of-refusal",
+        "renderer": "deterministic p5.js WebGL 3D hinge",
+        "facetCount": 18,
+        "memoryWindow": 4,
+        "proposalCount": 2,
+        "primitiveBudget": 44,
+        "memoryRule": "the first directional proposal is held without geometry; a duplicate is refused; a different second proposal changes the 3D hinge and remains liftable",
+        "interactionRule": "pointer, four direction buttons, arrow keys, and 1–4 propose a direction; only an incompatible pair commits; Enter/Space repeats the selected direction; Delete lifts latest; R/Escape releases",
+        "representationRupture": "continuous Canvas 2D membrane, semantic DOM decision population, and SVG shell -> one suspended WebGL refusal object made of two asymmetrical planes and a negative seam",
+        "encounterRupture": "bounded pressure hold, single pulse, and three-station quorum -> propose a direction, then create an incompatible counterproposal",
+        "temporalRupture": "pressure load, document order, and attention ledger -> a two-step contradiction gate where refusal precedes geometry",
+        "mediumRupture": "p5.js Canvas 2D, semantic DOM/CSS, and inline SVG -> p5.js WebGL 3D object",
+        "replay": true,
+        "changedRule": "Pressure and surface are refused as causes: only a contradiction between two different directional proposals can fold the self-portrait.",
+        "visibleConsequence": "A committed contradiction changes actual WebGL fold angle, hinge axis, facet relief/cuts, and central void scale; the first proposal and a repeated proposal leave the rendered body exact.",
+        "falsifier": "Delete if a single proposal changes geometry, repetition commits, the pointer location is the answer, contradiction changes only UI, later revisions reset, or exact lifting fails.",
+        "deletionCondition": "Delete v032 if caption-free viewing cannot show one suspended refusal object with a materially changed fold and negative seam, or if it reads as a generic 3D ornament.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, and directional fields participate in producing geometry rather than decorating finished geometry.",
+        "translatedRule": "Invert the material-agency mechanism. Refuse brushes, watercolor, hatching, grain, source palette, composition, code, and API surface: pressure and surface are not allowed to produce the portrait. Only two incompatible directional proposals may fold the object, changing its axis, facet relief, and central void.",
+        "visibleConsequence": "The first proposal leaves the suspended two-plane hinge exact; a different second proposal changes actual 3D fold, axis, facet lift/cut, and negative seam, with later contradictions inheriting the changed body.",
+        "falsifier": "If a single proposal changes geometry, repetition commits, the pointer location becomes the answer, or contradiction exists only in colour/readout, the inversion fails.",
+        "antiCopy": "No brush appearance, watercolor, hatching, grain, source palette, source composition, source code, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "This explicitly inverts the previous p5.brush resistance-as-calibration direction, closes Self portrait's pressure / population / delegated-edge family, and opens a refusal-object direction whose material is disagreement."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v032 if the blind object reads as a generic 3D ornament, if one or repeated proposals mutate, if the pointer location becomes the answer, if fold/axis/void changes are cosmetic, if later contradictions forget, or if exact lifting fails.",
+        "lineage": "portrait-2026-10-23"
+      },
+      "browserEvidence": {
+        "runner": "headless system Chrome via Playwright",
+        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+        "modes": ["normal", "reduced-motion"],
+        "matrixRuns": 20,
+        "matrixDiagnostics": 0,
+        "overflowFailures": 0,
+        "interactionDiagnostics": 0,
+        "blindDiagnostics": 0,
+        "readbackDiagnostics": 0,
+        "touchTargetMinimumPx": 44,
+        "blind": {
+          "viewport": "390x844",
+          "canvas": true,
+          "stageIndex": "none",
+          "readout": "none",
+          "hint": "none",
+          "controls": "none",
+          "scrollWidth": 390,
+          "innerWidth": 390
+        },
+        "interaction": {
+          "firstProposalGeometryUnchanged": true,
+          "repeatProposalGeometryUnchanged": true,
+          "contradictionChangedGeometry": true,
+          "liftRestoredPriorFrame": true,
+          "keyboardPath": true,
+          "escapeRelease": true,
+          "controls": ["↑", "→", "↓", "←", "lift last contradiction", "release the refusal"]
+        },
+        "readbacks": {
+          "journalTitle": true,
+          "currentTitle": true,
+          "journalDiagnostics": 0,
+          "currentDiagnostics": 0
+        },
+        "proof": "research/qa/proofs/portrait-v032-2026-10-24/results.json"
+      }
+    },
+    {
       "id": "typography-2026-10-24",
       "currentId": "typography",
       "date": "2026-10-24",

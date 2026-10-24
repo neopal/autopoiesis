@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d16">
+  <title>MUTINE — The portrait refuses to be continuous.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=032">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js" onload="p5.disableFriendlyErrors = true"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-24"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v032-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v032 / HINGE OF REFUSAL</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v032-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v032</span></nav>
+
+      <figure class="v032-work artwork-frame" aria-labelledby="work-title">
+        <div class="hinge-stage" data-hinge-of-refusal tabindex="0" role="application" aria-label="A suspended three-dimensional hinge. Propose two different directions; only their contradiction changes the body." aria-keyshortcuts="ArrowUp ArrowRight ArrowDown ArrowLeft Enter Space Delete Backspace R Escape">
+          <div class="stage-index" aria-hidden="true">SELF / REFUSAL OBJECT / 032</div>
+          <div id="hinge-canvas" aria-hidden="true"></div>
+          <div class="hinge-readout" aria-live="polite"><span data-stage>quiet hinge / 00</span><span data-memory>0 contradictions held</span><span data-state>the body is continuous</span></div>
+          <p class="hinge-hint" data-hint>propose a direction, then contradict it</p>
+          <div class="hinge-controls" aria-label="Hinge controls">
+            <div class="direction-control" aria-label="Directional proposals">
+              <button type="button" data-action="propose" data-direction="0" aria-label="Propose north">↑</button>
+              <button type="button" data-action="propose" data-direction="1" aria-label="Propose east">→</button>
+              <button type="button" data-action="propose" data-direction="2" aria-label="Propose south">↓</button>
+              <button type="button" data-action="propose" data-direction="3" aria-label="Propose west">←</button>
+            </div>
+            <button type="button" data-action="lift">lift last contradiction</button>
+            <button type="button" data-action="release">release the refusal</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v032-hinge-of-refusal</span><span>offer &gt; contradict &gt; fold</span></figcaption>
+      </figure>
+
+      <section class="v032-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / WEBGL MEDIUM SWITCH / v032</p>
+        <h1 id="work-title">The portrait refuses<br><i>to be continuous.</i></h1>
+        <p class="v032-lede">It holds one answer in silence, then makes the body hinge only when its next answer disagrees.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A CONTRADICTION IS THE MATERIAL</p>
+          <p class="interaction-copy">Point, tap, or use the four arrows to offer a direction. The first offer is withheld. Repeating it is refused. A different second offer folds the object through a new axis, opens its central void, and leaves the incompatible decision in the body.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The hinge is waiting for a first proposal.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v032</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v031's pressure membrane, v030's decision population, and v029's delegated shell. The portrait becomes a three-dimensional refusal object. Surface pressure and proximity do nothing by themselves; only two different directional proposals may create a hinge revision.</dd></div>
+          <div><dt>visitor action</dt><dd>Offer one direction by pointer or key, then offer a different one. Repeat is refused. Delete lifts the latest contradiction; R or Escape releases the body to its quiet seed. The four arrow buttons are equivalent to the pointer and keyboard paths.</dd></div>
+          <div><dt>falsifier</dt><dd>If a single proposal changes the body, a repeated proposal commits, the touched location becomes the answer, or a contradiction changes only colour/readout, the inversion fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v032 if the caption-free first view reads as a generic 3D ornament, or if the incompatible proposals cannot be found as actual fold, axis, facet, and void changes without the furniture.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-23/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-24">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=032"></script>
+</body>
+</html>

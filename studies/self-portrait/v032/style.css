@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+:root {
+  --v032-ground: #090d16;
+  --v032-ink: #e4e9f2;
+  --v032-muted: #8994a8;
+  --v032-dim: #4b566b;
+  --v032-copper: #d58b67;
+  --v032-ice: #a9d7d5;
+  --v032-violet: #8472c7;
+  --v032-line: rgba(191, 207, 228, .16);
+  --v032-surface: rgba(13, 19, 31, .86);
+}
+
+html, body { background: var(--v032-ground); }
+body.work-page[data-current="portrait"] { color: var(--v032-ink); font-family: 'Space Grotesk', system-ui, sans-serif; }
+.v032-shell { min-height: 100vh; background: radial-gradient(circle at 50% 28%, rgba(73, 83, 137, .18), transparent 34rem), var(--v032-ground); }
+.v032-main { max-width: 1240px; margin: 0 auto; padding: 1.1rem 2.2rem 5rem; }
+.studio-header, .studio-footer, .studio-path { font-family: 'DM Mono', monospace; }
+.studio-header { border-bottom: 1px solid var(--v032-line); }
+.studio-header p { color: var(--v032-muted); letter-spacing: .11em; }
+.studio-mark { color: var(--v032-ice); }
+.studio-nav a, .studio-path a, .studio-footer a { color: var(--v032-muted); }
+.studio-nav a:hover, .studio-path a:hover, .studio-footer a:hover { color: var(--v032-ice); }
+.studio-path { margin: 2rem 0 .8rem; color: var(--v032-dim); }
+.studio-path span[aria-current="page"] { color: var(--v032-ice); }
+
+.v032-work { margin: 0; }
+.hinge-stage { position: relative; min-height: min(70vh, 760px); overflow: hidden; border: 1px solid rgba(169, 215, 213, .24); background: radial-gradient(circle at 50% 48%, rgba(36, 45, 81, .62), transparent 45%), #080c15; box-shadow: 0 24px 80px rgba(0, 0, 0, .34), inset 0 0 0 1px rgba(213, 139, 103, .09); isolation: isolate; }
+.hinge-stage::before { content: ''; position: absolute; inset: 14px; border: 1px solid rgba(228, 233, 242, .08); pointer-events: none; z-index: 2; }
+#hinge-canvas, #hinge-canvas canvas { display: block; width: 100%; height: 100%; }
+#hinge-canvas { position: absolute; inset: 0; z-index: 0; }
+.stage-index { position: absolute; top: 30px; left: 34px; z-index: 3; color: rgba(169, 215, 213, .72); font: 500 10px/1 'DM Mono', monospace; letter-spacing: .12em; }
+.hinge-readout { position: absolute; top: 30px; right: 34px; z-index: 3; display: flex; gap: 1.2rem; color: rgba(228, 233, 242, .6); font: 10px/1.2 'DM Mono', monospace; letter-spacing: .06em; text-align: right; }
+.hinge-readout span:last-child { color: var(--v032-copper); }
+.hinge-hint { position: absolute; left: 34px; bottom: 28px; z-index: 3; margin: 0; color: rgba(228, 233, 242, .52); font: 11px/1.2 'DM Mono', monospace; letter-spacing: .05em; }
+.hinge-controls { position: absolute; right: 34px; bottom: 25px; z-index: 3; display: flex; align-items: center; gap: .55rem; }
+.direction-control { display: grid; grid-template-columns: repeat(4, 44px); gap: 4px; }
+.hinge-controls button { min-width: 44px; min-height: 44px; border: 1px solid rgba(169, 215, 213, .34); border-radius: 0; background: rgba(9, 13, 22, .82); color: var(--v032-ice); font: 11px/1 'DM Mono', monospace; cursor: pointer; transition: border-color .2s, background .2s, color .2s; }
+.hinge-controls button:hover, .hinge-controls button:focus-visible { border-color: var(--v032-copper); background: rgba(213, 139, 103, .14); color: #fff; outline: none; }
+.hinge-controls > button { padding: 0 .8rem; color: var(--v032-muted); }
+figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .8rem .2rem 0; color: var(--v032-dim); font: 10px/1.3 'DM Mono', monospace; letter-spacing: .05em; }
+
+.v032-opening { max-width: 760px; padding: 4.8rem 0 3.2rem; }
+.eyebrow { margin: 0 0 .8rem; color: var(--v032-copper); font: 500 10px/1.2 'DM Mono', monospace; letter-spacing: .13em; }
+.v032-opening h1 { margin: 0; color: var(--v032-ink); font-size: clamp(2.8rem, 7vw, 6.8rem); font-weight: 500; letter-spacing: -.07em; line-height: .9; }
+.v032-opening h1 i { color: var(--v032-ice); font-style: normal; }
+.v032-lede { max-width: 32rem; margin: 1.5rem 0 0; color: var(--v032-muted); font-size: clamp(1rem, 1.7vw, 1.25rem); line-height: 1.45; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, .6fr); gap: 3rem; padding: 1.4rem 0; border-top: 1px solid var(--v032-line); border-bottom: 1px solid var(--v032-line); }
+.interaction-copy, .interaction-state { margin: 0; color: var(--v032-muted); line-height: 1.55; }
+.interaction-state { align-self: end; color: var(--v032-ice); font: 12px/1.45 'DM Mono', monospace; }
+.annotations { max-width: 900px; padding: 3.5rem 0 1rem; }
+.annotations dl { margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 1.5rem; padding: 1rem 0; border-top: 1px solid var(--v032-line); }
+.annotations dt { color: var(--v032-ice); font: 11px/1.4 'DM Mono', monospace; text-transform: uppercase; }
+.annotations dd { margin: 0; color: var(--v032-muted); line-height: 1.55; }
+.studio-footer { border-top-color: var(--v032-line); }
+
+.preview-mode .v032-main { max-width: none; padding: 0; }
+.preview-mode .v032-work { min-height: 100vh; }
+.preview-mode .hinge-stage { min-height: 100vh; border: 0; }
+.preview-mode .studio-header, .preview-mode .studio-path, .preview-mode .v032-opening, .preview-mode .interaction-panel, .preview-mode .annotations, .preview-mode .studio-footer, .preview-mode figcaption { display: none; }
+.preview-mode .hinge-stage::before { inset: 1.2rem; }
+.blind-mode .stage-index, .blind-mode .hinge-readout, .blind-mode .hinge-hint, .blind-mode .hinge-controls { display: none; }
+.blind-mode .hinge-stage::before { inset: 18px; }
+
+@media (max-width: 700px) {
+  .v032-main { padding: .8rem 1rem 4rem; }
+  .studio-header p { max-width: 12rem; font-size: 9px; line-height: 1.45; }
+  .hinge-stage { min-height: 76vh; }
+  .stage-index { top: 24px; left: 24px; }
+  .hinge-readout { top: 24px; right: 24px; display: grid; gap: .3rem; font-size: 9px; }
+  .hinge-hint { left: 24px; bottom: 118px; max-width: 12rem; }
+  .hinge-controls { right: 24px; bottom: 22px; left: 24px; display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; }
+  .direction-control { grid-column: 1 / -1; grid-template-columns: repeat(4, 1fr); }
+  .hinge-controls > button { width: 100%; padding: 0 .35rem; }
+  figcaption { display: grid; gap: .25rem; }
+  .v032-opening { padding: 3.4rem 0 2.5rem; }
+  .v032-opening h1 { font-size: clamp(3rem, 15vw, 5.6rem); }
+  .interaction-panel { grid-template-columns: 1fr; gap: 1rem; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: .5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hinge-controls button { transition: none; }
+}
