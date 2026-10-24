@@ -1,0 +1,68 @@
+:root {
+  --prop-ground: #071114;
+  --prop-deep: #03090c;
+  --prop-ink: #dceee5;
+  --prop-muted: #91aaa2;
+  --prop-coral: #f4876f;
+  --prop-mint: #73d9c3;
+  --prop-gold: #e7bf71;
+  --prop-frame: rgba(220, 238, 229, .22);
+}
+
+* { box-sizing: border-box; }
+html, body { background: var(--prop-ground); color: var(--prop-ink); }
+body.work-page { min-height: 100vh; }
+.propagation-shell { min-height: 100vh; background: radial-gradient(circle at 82% 12%, rgba(115, 217, 195, .12), transparent 30%), radial-gradient(circle at 16% 86%, rgba(244, 135, 111, .08), transparent 32%), var(--prop-ground); }
+.propagation-main { width: min(1500px, calc(100% - 48px)); margin: 0 auto; padding: 12px 0 64px; }
+.propagation-work { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .28fr); gap: 20px; align-items: start; }
+.propagation-frame { position: relative; margin: 0; min-height: clamp(500px, 67vw, 800px); overflow: hidden; border: 1px solid var(--prop-frame); background: var(--prop-deep); box-shadow: 0 30px 90px rgba(0, 0, 0, .54); }
+.propagation-frame::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(220, 238, 229, .1); pointer-events: none; }
+#gpu-veil, #propagation-field { position: absolute; inset: 0; display: block; width: 100%; height: 100%; min-height: clamp(500px, 67vw, 800px); }
+#gpu-veil { z-index: 0; opacity: .44; }
+#propagation-field { z-index: 1; touch-action: none; outline: none; cursor: crosshair; }
+#propagation-field:focus-visible { box-shadow: inset 0 0 0 2px var(--prop-coral); }
+.propagation-readout { position: absolute; z-index: 3; top: 18px; left: 20px; right: 20px; display: flex; justify-content: space-between; gap: 12px; color: rgba(220, 238, 229, .73); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; text-transform: uppercase; pointer-events: none; }
+.propagation-status { position: absolute; z-index: 3; top: 49px; left: 20px; color: rgba(220, 238, 229, .72); font: 11px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .06em; pointer-events: none; }
+.propagation-controls { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 44px; display: flex; flex-wrap: wrap; gap: 8px; }
+.propagation-controls button { min-width: 44px; min-height: 44px; padding: 0 14px; border: 1px solid rgba(220, 238, 229, .34); border-radius: 999px; background: rgba(3, 9, 12, .88); color: var(--prop-ink); font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em; cursor: pointer; }
+.propagation-controls button:first-child { border-color: rgba(244, 135, 111, .82); color: #ffb19c; }
+.propagation-controls button:hover, .propagation-controls button:focus-visible { border-color: var(--prop-ink); color: #fff; }
+.propagation-frame figcaption { position: absolute; z-index: 3; left: 20px; right: 20px; bottom: 14px; display: flex; justify-content: space-between; gap: 16px; color: rgba(220, 238, 229, .62); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; pointer-events: none; }
+.propagation-notes { display: grid; gap: 14px; padding-top: 24px; }
+.propagation-notes > div { padding: 14px 0; border-top: 1px solid rgba(220, 238, 229, .14); }
+.propagation-notes span { color: var(--prop-coral); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.propagation-notes p, .propagation-premise, .propagation-note p { margin: 8px 0 0; color: var(--prop-muted); font-size: 14px; line-height: 1.55; }
+.propagation-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .42fr); gap: 32px; padding: 44px 0 0; }
+.propagation-opening h1 { margin: 8px 0 0; max-width: 920px; font-size: clamp(44px, 7vw, 108px); line-height: .88; letter-spacing: -.06em; font-weight: 500; }
+.propagation-opening h1 i { color: var(--prop-coral); font-family: Georgia, serif; font-weight: 400; }
+.propagation-premise { align-self: end; max-width: 420px; font-size: 17px; }
+.propagation-note { max-width: 800px; padding: 22px 0 0; }
+.propagation-note strong { color: var(--prop-ink); font-weight: 500; }
+html.preview-mode .propagation-shell { background: var(--prop-deep); }
+html.preview-mode .propagation-main { width: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .propagation-notes, html.preview-mode .propagation-opening, html.preview-mode .propagation-note, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .propagation-frame { min-height: 100vh; border: 0; box-shadow: none; }
+html.preview-mode #gpu-veil, html.preview-mode #propagation-field { min-height: 100vh; }
+html.blind-mode .propagation-readout, html.blind-mode .propagation-status, html.blind-mode .propagation-controls, html.blind-mode .propagation-frame figcaption, html.blind-mode .studio-header, html.blind-mode .studio-path, html.blind-mode .propagation-notes, html.blind-mode .propagation-opening, html.blind-mode .propagation-note, html.blind-mode .studio-footer { display: none; }
+html.blind-mode .propagation-frame::after { display: none; }
+html.blind-mode .propagation-frame { min-height: 100vh; border: 0; }
+html.blind-mode #gpu-veil, html.blind-mode #propagation-field { min-height: 100vh; }
+
+@media (prefers-reduced-motion: reduce) {
+  .propagation-frame, .propagation-controls button { transition: none; }
+}
+
+@media (max-width: 680px) {
+  .propagation-main { width: min(100% - 24px, 520px); padding-bottom: 40px; }
+  .propagation-work, .propagation-opening { grid-template-columns: 1fr; gap: 20px; }
+  .propagation-frame, #gpu-veil, #propagation-field { min-height: min(132vw, 640px); }
+  .propagation-readout { top: 14px; left: 14px; right: 14px; gap: 7px; font-size: 8px; letter-spacing: .07em; }
+  .propagation-status { top: 41px; left: 14px; max-width: 82%; }
+  .propagation-controls { left: 14px; right: 14px; bottom: 42px; gap: 6px; }
+  .propagation-controls button { flex: 1 1 auto; padding: 0 10px; font-size: 10px; }
+  .propagation-frame figcaption { left: 14px; right: 14px; bottom: 12px; font-size: 8px; }
+  .propagation-notes { padding-top: 0; }
+  .propagation-opening { padding-top: 26px; }
+  .propagation-opening h1 { font-size: clamp(50px, 16vw, 78px); }
+  .propagation-premise { font-size: 15px; }
+}
