@@ -1,0 +1,36 @@
+{
+  "workId": "typography-2026-10-24",
+  "version": "v032",
+  "status": "local technical gate passed; production and independent caption-free perceptual review pending",
+  "screenshotCount": 24,
+  "localViewportRuns": 20,
+  "canonicalViewportRuns": 10,
+  "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+  "modes": ["normal", "reduced"],
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "touchTargetMinimum": 44,
+  "routeReadbacks": {
+    "journalAnchorMatches": 1,
+    "currentLatestWorkMatches": true,
+    "canonicalTableauFirst": true
+  },
+  "interaction": {
+    "firstTwoBeatsGeometryNeutral": true,
+    "remoteChangedGlyphCount": 3,
+    "memoryAfterCommit": 1,
+    "memoryAfterLift": 0,
+    "memoryAfterEnter": 1,
+    "memoryAfterEscape": 0,
+    "threePointerBeats": [1, 7, 10],
+    "changedGlyphIds": [3, 6, 0]
+  },
+  "blind": {
+    "memory": 4,
+    "furnitureHidden": true,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "evidence": ["qa-results.json", "route-results.json"]
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ebe5d7">
+  <title>MUTINE — The sentence arrives after the mark.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=032">
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-24"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="cadence-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v032 / CADENCE SCORE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="cadence-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v032</span></nav>
+
+      <figure class="cadence-work artwork-frame" aria-labelledby="work-title">
+        <div id="cadence-field" class="cadence-field" tabindex="0" role="application" aria-label="A typographic cadence score. Tap three different letters in a short rhythm; the first two beats stay exact and the completed cadence changes three distant letters." aria-describedby="interaction-state" aria-keyshortcuts="Enter Space Delete R Escape">
+          <div class="field-stamp" aria-hidden="true"><span>LISTEN / WAIT / ANSWER</span><span>HANDWRITING 032</span></div>
+          <div class="field-readout" aria-live="polite"><span data-stage>score / quiet</span><span data-memory>0 cadences · 12 letters</span></div>
+          <div class="score-axis" aria-hidden="true"><span>one body / three times</span><span>01 — 12</span></div>
+          <div id="canvas-mount" aria-hidden="true"></div>
+          <div class="score-legend" aria-hidden="true"><span>tap / tap / tap</span><span>the mark is not the answer</span></div>
+          <div class="field-controls" aria-label="Cadence actions">
+            <button id="commit-cadence" type="button">play cadence</button>
+            <button id="lift-cadence" type="button">lift latest</button>
+            <button id="release-cadence" type="button">release score</button>
+          </div>
+          <p class="field-hint">tap three different letters in one short rhythm · the answer arrives elsewhere</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v032-cadence-score</span><span>tap &gt; listen &gt; elsewhere</span></figcaption>
+      </figure>
+
+      <section class="cadence-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / TEMPORAL SYNTAX / v032</p>
+        <h1 id="work-title">The sentence arrives<br><i>after the mark.</i></h1>
+        <p class="cadence-lede">A letter is not the place you touch. It is the delay that lets another letter answer.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">MAKE A CADENCE</p>
+          <p class="interaction-copy">Tap three different letters within one short rhythm. The first two beats only enter the score; the third commits a tempo-shaped rewrite at a distance. The touched letters stay themselves. Enter or Space plays a deterministic cadence; Delete lifts the latest one; R or Escape releases the bounded memory.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The score is quiet. No beat has been heard.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v032</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v031's spatial route, v030's sentence-wide refusal, and v029's wandering census. Twelve letters now form a three-column typographic score: time, not path, selects the event. A completed cadence changes an echo, a silence, and an afterbeat elsewhere.</dd></div>
+          <div><dt>visitor action</dt><dd>Tap three distinct glyphs inside 1400ms. Even, rising, and falling gaps route the rewrite differently. Enter, Space, and the cadence control use deterministic cadences; Delete lifts the latest event; R or Escape releases four-event memory.</dd></div>
+          <div><dt>falsifier</dt><dd>If a single tap changes the score, if the tapped letters answer themselves, if tempo only changes a label, if the blank is cosmetic, if later cadences forget, or if the first view reads as a route map or sentence poster, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v032 if the canvas is only a type specimen with buttons, if the remote echo, real silence, or baseline displacement cannot be seen without prose, or if lifting cannot reconstruct the exact preceding score.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-23/">previous daily work</a><a href="/journal/#journal-typography-2026-10-24">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=032"></script>
+</body>
+</html>

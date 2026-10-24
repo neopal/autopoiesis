@@ -2,6 +2,117 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-24",
+      "currentId": "typography",
+      "date": "2026-10-24",
+      "title": "The sentence arrives after the mark.",
+      "rawPath": "/studies/handwriting/v032/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-24",
+        "note": "v032 abandons v031's spatial route, v030's sentence-wide refusal, and v029's wandering census. Twelve letters now form a three-column canvas score: the first two beats remain exact, and a completed short cadence spends its tempo on a remote echo, a real silence, and an afterbeat. Four cadence events remain liftable; later beats inherit the changed score."
+      },
+      "critiques": [
+        {
+          "persona": "Temporal-form critic",
+          "argument": "The field must read as one authored score before it reads as twelve letter targets. The three staggered columns, negative room, shared baseline ticks, and restrained type scale must establish a temporal body without paths or a sentence block."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, annotations, and prose hidden, the first view must break from v031's route organism, v030's sentence sheet, and v029's word archipelago. It must read as a typographic score rather than a decorated type specimen or keyboard."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "The first two taps must leave geometry exact. A duplicate or slow beat must refuse. Only the third distinct beat inside the temporal window may commit; the keyboard and control paths must be deterministic equivalents."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The tapped letters cannot be the whole answer. A remote glyph must inherit an actual form, a separate glyph must become a real negative counterform, and another must move its baseline. Color, rings, or readout cannot substitute for geometry."
+        },
+        {
+          "persona": "Tempo critic",
+          "argument": "Even, rising, and falling gaps must route the rewrite differently in the engine and in the canvas. If tempo only changes a label or if a slow cadence commits like a quick one, the temporal translation is false."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four cadence events remain bounded and liftable. Later beats must replay from the changed score rather than a reset seed; Delete must reconstruct the exact preceding geometry and release must return to quiet."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v032 changes representation, medium, viewer task, and temporal grammar: SVG route, DOM refusal, and DOM census become a p5.js Canvas 2D score with interval-sensitive taps and a remote rewrite."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v032 if the cadence is a disguised button, if the canvas is only a type specimen, if the blank is decoration, if the tapped letters answer themselves, if interval differences do not matter, if later events forget, or if lifting is inexact."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v032-cadence-score",
+        "visitorInput": true,
+        "seed": "0x48574932",
+        "glyphCount": 12,
+        "cadenceLength": 3,
+        "maxCadenceSpanMs": 1400,
+        "memoryWindow": 4,
+        "settledMemory": 4,
+        "primitiveBudget": 12,
+        "memoryRule": "three distinct beats inside 1400ms classify a cadence; the tempo routes a remote echo, a real silence, and an afterbeat; the latest four events remain liftable",
+        "interactionRule": "tap three distinct glyphs; the first two taps remain geometry-neutral; a valid third beat commits; Enter, Space, and play cadence use deterministic timing; Delete lifts latest; R or Escape releases",
+        "representationRupture": "SVG route stations, DOM sentence refusal, and DOM word census -> p5.js Canvas 2D typographic score with three temporal columns and no connecting paths",
+        "encounterRupture": "drag through stations, type letters, and wander across words -> compose a short three-beat cadence by tapping distinct glyphs",
+        "temporalRupture": "spatial route memory, sentence-wide deletion, and latent attention -> interval-sensitive tempo memory that redirects a remote typographic rewrite",
+        "mediumRupture": "inline SVG and semantic DOM typography -> p5.js Canvas 2D score with deterministic offscreen paper and ink layers",
+        "replay": true,
+        "renderer": "deterministic p5.js Canvas 2D cadence score",
+        "grammar": "cadence-score",
+        "changedRule": "Time, not path, selects the event: three distinct beats classify a tempo and spend it on three remote typographic roles while the tapped letters remain themselves.",
+        "visibleConsequence": "The first view is a sparse three-column typographic score. A valid cadence leaves the tapped glyphs intact while a remote glyph echoes the source, another becomes an actual blank counterform, and a third shifts its baseline; later cadences inherit those changes.",
+        "falsifier": "Delete if a single or duplicate beat changes geometry, if the tapped glyphs answer themselves, if tempo only changes metadata, if the blank is cosmetic, if later cadences forget, or if exact lifting fails.",
+        "deletionCondition": "Delete v032 if caption-free viewing cannot show a temporal score with remote echo, silence, and afterbeat, or if the work reads as a type specimen with controls.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents answer pointer proximity with legible reciprocal attention; local behavior makes the visitor part of a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, paper, and head-turning. Translate reciprocal attention into temporal syntax: the visitor's three short beats become a collective cadence, but the touched letters do not answer themselves. Their timing is spent on an echo, a real silence, and an afterbeat at a distance.",
+        "visibleConsequence": "A valid cadence changes three actual remote glyph states and classifies its tempo; the first two beats do not deform the score. Later cadences inherit the changed field.",
+        "falsifier": "If one tap changes geometry, duplicate letters can beat twice, the tapped glyphs are the only answer, tempo changes only a label, the silence is decorative, later cadences restart from the seed, or exact lifting fails, the translation fails.",
+        "antiCopy": "No animals, character designs, paper scene, head-turning image, source palette, source composition, source code, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "This closes Handwriting's route / refusal / attention sequence and opens a temporal-syntax direction: the current's unit is now a cadence, not a glyph location."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v032 if the blind canvas reads as a decorated type specimen, if one or duplicate beats mutate, if tapped letters answer themselves, if tempo is cosmetic, if the blank is cosmetic, if later cadences forget, or if exact lifting fails.",
+        "lineage": "typography-2026-10-23"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, overflow, touch targets, and diagnostics passed; production matrix and independent caption-free perceptual review pending",
+        "productionReady": false,
+        "localAlias": "http://127.0.0.1:4282",
+        "localRawPreview": "/studies/handwriting/v032/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/handwriting/v032/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/typography-2026-10-24/",
+        "localViewportMatrix": "20/20 local raw/canonical runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes",
+        "localOverflow": "all 20 local raw/canonical runs kept innerWidth equal to clientWidth and scrollWidth within the measured viewport; blind 390px probe was 390/390/390",
+        "localDiagnostics": "0 console messages, page errors, failed requests, or HTTP 400+ responses across 20 local raw/canonical runs plus interaction, blind, Journal, current, and canonical readbacks",
+        "localInteraction": "real pointer taps on glyphs 1, 7, and 10 kept geometry exact through the first two beats and committed one remote cadence on the third; Delete restored the exact baseline; Enter committed; Escape released; all three controls measured 44px high at 390x844",
+        "localTouchTargets": "all three interaction controls measured 44px high at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the settled Canvas 2D score visible with four cadence events while hiding readout, controls, hint, stamp, axis, and legend; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local raw v032 tableau, pointer interaction state, keyboard paths, blind furniture state, Journal anchor/title, Handwriting current/latest card, canonical work title/tableau, and favicon were exercised",
+        "proofPath": "research/qa/proofs/handwriting-v032-2026-10-24/",
+        "screenshotCount": 24,
+        "diagnosticCount": 0,
+        "overflowCount": 0,
+        "unresolved": [
+          "production browser matrix",
+          "independent caption-free perceptual comparison with labels, readout, controls, hint, axis, legend, annotations, and prose hidden",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-10-23",
       "currentId": "webgpu",
       "date": "2026-10-23",
