@@ -54,6 +54,16 @@ The falsifier is not a caption: if the blind view reads as a generic linefield, 
 - Blind static preview: plate remained visible with four settled errors while readout, controls, and hint were hidden.
 - Local source/public registry readbacks: exactly one `naive-2026-10-25` record in each.
 
+## Production verification
+
+- Production deploy: `dpl_43EAfVU9A9hxDPKn1PFHt1p33Pdh`, stable alias [https://autopoiesis-nine.vercel.app](https://autopoiesis-nine.vercel.app).
+- Production browser matrix: **20/20 passed** across the same five viewports and normal/reduced-motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses; overflow **0**; minimum touch target **44px**.
+- Real production pointer path: four sampled preview points remained geometry-neutral; release committed one pressure-misread event; Delete restored the exact baseline. Enter committed; Escape released.
+- Production blind static preview: plate visible with four settled errors; readout, controls, and hint hidden; `390/390/390` width evidence.
+- Production readbacks: Journal, Naive current, canonical work, raw tableau, `/studio/data/works.json`, `/studio/data/catalog-public.json`, and favicon all returned/rendered; source and public catalogs each contained exactly one `naive-2026-10-25` record.
+- Production proof path: `research/qa/proofs/naive-v035-2026-10-25-production/`.
+
 ## Unresolved doubt
 
-Production verification, independent caption-free perceptual review, and provider revision linkage remain open. The candidate is intentionally held; no claim of exhibition readiness is made.
+The candidate remains held for an independent caption-free perceptual review. The blind question is whether the singular plate reads as a materially misrecognised absence rather than a generic abstract contour. Vercel's provider revision linkage to GitHub SHA is not exposed; the deployment was a manual production deploy from the local worktree.
