@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080818">
+  <meta name="description" content="An orbital chorus where situated attention is answered by a remote exchange of distance, phase, and orbit.">
+  <title>MUTINE — The crowd rehearses its distance.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=034">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-25"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="chorus-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v034 / orbital chorus</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="chorus-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v034</span></nav>
+      <section class="chorus-work" aria-label="WebGPU daily work">
+        <figure class="chorus-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <canvas id="chorus-field" role="img" aria-label="An orbital chorus of resonant blades exchanging distance around a dark central absence" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape R ArrowLeft ArrowRight"></canvas>
+          <div class="chorus-readout" role="status" aria-live="polite"><span data-stage>rehearsal 01 / 09</span><span data-memory>0 relays</span><span data-renderer>CANVAS / ORBITAL CHORUS</span></div>
+          <div class="chorus-status" data-status>trace an arc · release the answer elsewhere</div>
+          <div class="chorus-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="relay">send a relay</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release chorus</button>
+          </div>
+          <figcaption><span>WEBGPU / V034 / DAILY WORK</span><span>listen → answer → orbit</span></figcaption>
+        </figure>
+        <aside class="chorus-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The crowd is no longer a terrain, membrane, or set of grains. Eighteen resonant blades keep an unstable orbit around an absence; the scene is a chorus before it is a diagram.</p></div>
+          <div><span>changed rule</span><p>A listening arc stays exact while held. Release makes the attended member contract and a remote member widen; all other members inherit a changed phase from their antipode.</p></div>
+          <div><span>progression</span><p>Drag across the orbit and release. Enter, Space, or the relay control runs the next deterministic exchange. Delete rewinds one relay; Escape releases the chorus.</p></div>
+        </aside>
+      </section>
+      <section class="chorus-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V034 / DAILY WORK</p><h1 id="work-title">The crowd rehearses<br><i>its distance.</i></h1></div>
+        <p class="chorus-premise">Attention is not a spotlight. It is a temporary relation, answered by a body you did not touch.</p>
+      </section>
+      <section class="chorus-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: listening and movement stay geometry-neutral, bounded release commits a reciprocal relay, and four exchanges remain liftable. Promotion depends on whether the blind view reads as a singular orbital chorus rather than a decorative particle ring.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>attention → reply → distance</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=034a"></script>
+</body>
+</html>
