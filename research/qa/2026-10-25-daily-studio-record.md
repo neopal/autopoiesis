@@ -4,7 +4,7 @@
 
 **Audit time:** 2026-10-25 09:03:59 local (`+0100`).
 
-**Status: CANDIDATES HELD — today has three held candidate works; all recorded work links/checks pass except seven historical records that still omit `lifecycle`. Pure SVG v036 has passed its local browser matrix; production and independent caption-free perceptual review remain open.**
+**Status: CANDIDATES HELD — today has three held candidate works; all recorded work links/checks pass except seven historical records that still omit `lifecycle`. Pure SVG v036 has passed both local and production browser matrices; independent caption-free perceptual review and provider revision linkage remain open.**
 
 ### Scope and source boundary
 
@@ -43,6 +43,7 @@ There are **no duplicate current/date slots** anywhere in the 204-record registe
 - Local headless Playwright matrix: **20/20 passed**, covering raw and canonical routes at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
 - Local diagnostics: **0** console/page/request diagnostics; **0** overflow failures; **3** screenshots written under `research/qa/proofs/pure-svg-v036-2026-10-25/`.
 - Interaction: real pointer path observed (`pointerdown=1`, `pointermove=4`, `pointerup=1`, `pointercancel=0`); committed growth, Delete lift, keyboard path, release, weak refusal, sprawling refusal, blind preview, and canonical route readback all passed.
+- Production headless Playwright matrix: **20/20 passed** at `https://autopoiesis-nine.vercel.app`, with **0** diagnostics, **0** overflow failures, **3** screenshots, and registry/catalog/favicon readbacks `200`, `1`, `200`, `1`, `200`.
 
 ### Verification
 
@@ -59,4 +60,4 @@ There are **no duplicate current/date slots** anywhere in the 204-record registe
 2. Keep Brush, Naive art, and WebGPU held/empty for 2026-10-25 until real work is registered; do not fabricate catalogue records.
 3. Re-run the complete-work mutation guard when a work is explicitly marked `complete`; it is currently untestable because the complete set is empty.
 
-This record reports repository and local browser evidence; production deployment and independent caption-free perceptual review remain unverified.
+This record reports repository plus local/production browser evidence; independent caption-free perceptual review and provider revision linkage remain unverified.
