@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101315">
+  <title>MUTINE — The model mistakes the hole.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=035">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-25"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="plate-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v035 / PRESSURE MISREAD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="plate-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v035</span></nav>
+
+      <section class="plate-surface" aria-label="Naive pressure misread tableau">
+        <div class="plate-column">
+          <figure class="plate-work artwork-frame">
+            <div class="plate-field" id="plate-field" tabindex="0" role="application" aria-label="One memory plate. Draw a bounded pressure stroke; the model will refuse the stroke and misplace its contour elsewhere." aria-keyshortcuts="Enter Space Delete Escape R">
+              <div id="plate-canvas-wrap" aria-hidden="true"></div>
+              <div class="plate-readout" aria-live="polite"><span data-stage>stage 00 / 04</span><span data-memory>0 retained</span><span data-status>draw a bounded pressure stroke</span></div>
+            </div>
+            <div class="plate-controls" aria-label="Plate actions">
+              <button type="button" data-action="misread">let the model misread</button>
+              <button type="button" data-action="lift">lift last error</button>
+              <button type="button" data-action="release">release the plate</button>
+            </div>
+            <p class="plate-hint">draw a short bounded stroke · the line is refused · its pressure returns as a wrong contour</p>
+            <figcaption><span>seed | mutine-naive-v035</span><span>press &gt; misread &gt; omit</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One continuous plate carries a hole that has not decided whether it is missing or merely unrecognised. There are no tiles, letters, witnesses, or model parts to address.</p></div>
+          <div><span>critique</span><p>The gesture must disappear. Its pressure should make a remote contour too certain while a different place loses its body; the error must remain in the plate, not in the readout.</p></div>
+          <div><span>progression</span><p>v035 leaves v034's faceted relief, v033's proof sheet, and v032's inheritance tree. The new unit is a continuous negative field and a pressure gesture that teaches the model the wrong absence.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V035 / DAILY WORK</p><h1 id="work-title">The model<br><i>mistakes the hole.</i></h1></div>
+        <p class="work-premise">A pressure stroke returns as a contour that was never there.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v035 translates p5.brush's material agency into naive art: pressure changes the model's production rule, but the model makes the wrong inference. A bounded stroke is not drawn; the source compresses, a remote contour becomes too certain, a third place opens as absence, and a fourth ridge remembers the mistake.</p></section>
+      <p class="work-loop">press &rarr; misread &rarr; invent the remote edge &rarr; leave a hole</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-24/">previous daily work</a><a href="/journal/#journal-naive-2026-10-25">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=035"></script>
+</body>
+</html>

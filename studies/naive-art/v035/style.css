@@ -1,0 +1,135 @@
+:root {
+  --ground: #101315;
+  --ground-deep: #080b0c;
+  --plate: #d7d0ba;
+  --plate-light: #eee7d0;
+  --plate-shadow: #7e8275;
+  --ink: #1b2425;
+  --muted: #9aa29b;
+  --coral: #d98268;
+  --cyan: #8fbdb9;
+  --yellow: #e0c36d;
+  --line: rgba(215, 208, 186, 0.25);
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  color: var(--plate-light);
+  background:
+    radial-gradient(circle at 12% 14%, rgba(224, 195, 109, 0.11), transparent 24rem),
+    radial-gradient(circle at 86% 77%, rgba(143, 189, 185, 0.1), transparent 28rem),
+    linear-gradient(140deg, var(--ground-deep), var(--ground) 52%, #293032);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.plate-shell { min-height: 100vh; padding: 0 3vw; }
+.plate-main { max-width: 1480px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: var(--plate-light); }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(215, 208, 186, 0.62); }
+.studio-path a { color: var(--plate-light); }
+.plate-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.28fr);
+  gap: clamp(1rem, 3vw, 3.6rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.plate-column { min-width: 0; }
+.plate-work {
+  margin: 0;
+  padding: clamp(0.45rem, 1.2vw, 1.15rem);
+  color: var(--ink);
+  background: #aeb0a0;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.36);
+}
+.plate-field {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  outline: none;
+  aspect-ratio: 1400 / 820;
+  min-height: 280px;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 50% 42%, rgba(238, 231, 208, 0.09), transparent 48%),
+    linear-gradient(140deg, #20282a, #0c1112 62%, #2b302e);
+  cursor: crosshair;
+  touch-action: none;
+}
+.plate-field:focus-visible { box-shadow: 0 0 0 4px var(--coral); }
+#plate-canvas-wrap, #plate-canvas-wrap canvas { display: block; width: 100%; height: 100%; }
+#plate-canvas-wrap canvas { cursor: crosshair; }
+.plate-readout {
+  position: absolute;
+  z-index: 4;
+  left: 1.05rem;
+  top: 0.86rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  color: rgba(238, 231, 208, 0.83);
+  font-size: 0.67rem;
+  pointer-events: none;
+}
+.plate-readout span::before { content: '— '; color: var(--coral); }
+.plate-controls { position: relative; z-index: 5; display: flex; flex-wrap: wrap; gap: 0.45rem; padding: 0.75rem 0.15rem 0.05rem; }
+.plate-controls button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid rgba(27, 36, 37, 0.62);
+  border-radius: 0;
+  padding: 0.6rem 0.8rem;
+  color: var(--ink);
+  background: transparent;
+  font: 500 0.7rem/1.1 ui-monospace, monospace;
+  cursor: pointer;
+}
+.plate-controls button:hover, .plate-controls button:focus-visible { color: var(--plate-light); background: var(--ink); outline: none; }
+.plate-hint { margin: 0.5rem 0 0.1rem; color: rgba(27, 36, 37, 0.7); font-size: 0.63rem; line-height: 1.4; }
+.plate-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: 0.65rem 0.1rem 0; color: rgba(27, 36, 37, 0.72); font-size: 0.64rem; line-height: 1.3; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: 0.5rem; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: 0.65rem; }
+.work-annotations span, .studio-kicker { color: var(--coral); font: 500 0.66rem/1.2 ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; }
+.work-annotations p { margin: 0.5rem 0 0; color: rgba(215, 208, 186, 0.77); font: 0.92rem/1.55 system-ui, sans-serif; }
+.work-opening { border-top-color: var(--line); }
+.work-opening h1 { color: var(--plate-light); }
+.work-premise { color: rgba(215, 208, 186, 0.73); }
+.work-note { border-color: var(--line); color: rgba(215, 208, 186, 0.73); }
+.work-loop { color: var(--coral); }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .plate-work figcaption { display: none; }
+html.preview-mode .plate-main { max-width: 100vw; padding: 0; }
+html.preview-mode .plate-surface { display: block; margin: 0; }
+html.preview-mode .plate-work { padding: 0; box-shadow: none; }
+html.blind-mode .plate-readout,
+html.blind-mode .plate-controls,
+html.blind-mode .plate-hint { display: none; }
+html.blind-mode .plate-field { cursor: default; }
+
+@media (max-width: 860px) {
+  .plate-shell { padding: 0 1rem; }
+  .plate-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; }
+}
+@media (max-width: 560px) {
+  .plate-shell { padding: 0 0.55rem; }
+  .plate-surface { margin-top: 0.5rem; }
+  .plate-work { padding: 0.35rem; }
+  .plate-field { min-height: 0; }
+  .plate-readout { left: 0.6rem; top: 0.55rem; font-size: 0.57rem; }
+  .plate-controls { gap: 0.3rem; }
+  .plate-controls > button { flex: 1 1 8rem; padding: 0.55rem 0.5rem; }
+  .plate-hint { font-size: 0.57rem; }
+  .plate-work figcaption { display: grid; gap: 0.25rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: 0.8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plate-controls button { transition: none; }
+}
