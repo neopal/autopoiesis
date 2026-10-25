@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17111e">
+  <title>MUTINE — The portrait answers after you leave.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=033">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-25"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v033-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v033 / RECIPROCAL ABSENCE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v033-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v033</span></nav>
+
+      <figure class="v033-work artwork-frame" aria-labelledby="work-title">
+        <div class="reciprocal-stage" data-reciprocal-absence tabindex="0" role="application" aria-label="A single split portrait that answers after attention withdraws. Enter one zone, then leave it; the remote body decides what changes." aria-keyshortcuts="ArrowUp ArrowRight ArrowDown ArrowLeft Enter Space Delete Backspace R Escape">
+          <div class="stage-stamp" aria-hidden="true">SELF / RECIPROCAL FIELD / 033</div>
+          <svg id="reciprocal-field" viewBox="0 0 1000 720" role="img" aria-labelledby="field-title field-desc" preserveAspectRatio="xMidYMid meet">
+            <title id="field-title">A split portrait with a dark seam</title>
+            <desc id="field-desc">Eight quiet apertures form one pale asymmetric body. A withdrawn attention opens a remote aperture instead of changing the place that was watched.</desc>
+            <defs>
+              <linearGradient id="field-wash" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#27203b"/>
+                <stop offset="0.52" stop-color="#17111e"/>
+                <stop offset="1" stop-color="#0e0b14"/>
+              </linearGradient>
+              <linearGradient id="body-ink" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f4d5a1"/>
+                <stop offset="0.48" stop-color="#dd9f9a"/>
+                <stop offset="1" stop-color="#a99bdf"/>
+              </linearGradient>
+              <linearGradient id="answer-ink" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#f7dfb2"/>
+                <stop offset="1" stop-color="#f08a78"/>
+              </linearGradient>
+              <filter id="soft-grain" x="-20%" y="-20%" width="140%" height="140%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="2" seed="33" result="noise"/>
+                <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+                <feComponentTransfer in="mono" result="faded"><feFuncA type="table" tableValues="0 0.11"/></feComponentTransfer>
+                <feBlend in="SourceGraphic" in2="faded" mode="screen"/>
+              </filter>
+              <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="18"/>
+              </filter>
+            </defs>
+            <rect class="field-ground" x="0" y="0" width="1000" height="720" fill="url(#field-wash)"/>
+            <path class="field-shadow" d="M183 74 C295 36 438 69 500 104 C565 61 728 40 829 88 L882 618 C765 683 623 651 500 608 C382 663 215 678 112 603 Z" filter="url(#shadow)"/>
+            <path id="body-rim" class="body-rim" d="M185 82 C292 47 414 69 500 112 C588 65 714 45 817 91 L852 602 C742 655 625 643 500 601 C378 654 250 668 139 603 Z"/>
+            <g id="body-zones" filter="url(#soft-grain)">
+              <path class="zone zone-hit" data-zone="0" tabindex="-1" d="M0 0" aria-label="Attention zone 1"/>
+              <path class="zone zone-hit" data-zone="1" tabindex="-1" d="M0 0" aria-label="Attention zone 2"/>
+              <path class="zone zone-hit" data-zone="2" tabindex="-1" d="M0 0" aria-label="Attention zone 3"/>
+              <path class="zone zone-hit" data-zone="3" tabindex="-1" d="M0 0" aria-label="Attention zone 4"/>
+              <path class="zone zone-hit" data-zone="4" tabindex="-1" d="M0 0" aria-label="Attention zone 5"/>
+              <path class="zone zone-hit" data-zone="5" tabindex="-1" d="M0 0" aria-label="Attention zone 6"/>
+              <path class="zone zone-hit" data-zone="6" tabindex="-1" d="M0 0" aria-label="Attention zone 7"/>
+              <path class="zone zone-hit" data-zone="7" tabindex="-1" d="M0 0" aria-label="Attention zone 8"/>
+            </g>
+            <path id="seam-shadow" class="seam-shadow" d="M500 106 C481 196 522 274 497 362 C475 442 523 516 500 610"/>
+            <path id="seam" class="seam" d="M500 111 C489 195 515 277 500 358 C484 442 515 526 500 602"/>
+            <g class="field-threads" aria-hidden="true"><path d="M202 142 C310 175 384 150 458 176"/><path d="M546 174 C637 147 723 173 799 141"/><path d="M190 561 C291 535 381 556 457 531"/><path d="M544 534 C648 560 724 535 807 565"/></g>
+            <g id="event-markers" aria-hidden="true"></g>
+          </svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>quiet field / 00</span><span data-memory>0 withdrawals held</span><span data-state>the portrait is waiting</span></div>
+          <p class="field-hint" data-hint>enter a zone, then leave it</p>
+          <div class="field-controls" aria-label="Reciprocal field controls">
+            <div class="zone-control" aria-label="Attention zones">
+              <button type="button" data-zone-control="0" aria-label="Attend zone 1">01</button>
+              <button type="button" data-zone-control="1" aria-label="Attend zone 2">02</button>
+              <button type="button" data-zone-control="2" aria-label="Attend zone 3">03</button>
+              <button type="button" data-zone-control="3" aria-label="Attend zone 4">04</button>
+              <button type="button" data-zone-control="4" aria-label="Attend zone 5">05</button>
+              <button type="button" data-zone-control="5" aria-label="Attend zone 6">06</button>
+              <button type="button" data-zone-control="6" aria-label="Attend zone 7">07</button>
+              <button type="button" data-zone-control="7" aria-label="Attend zone 8">08</button>
+            </div>
+            <button type="button" data-action="withdraw">withdraw attention</button>
+            <button type="button" data-action="lift">lift last answer</button>
+            <button type="button" data-action="release">release the field</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v033-reciprocal-absence</span><span>attend &gt; withdraw &gt; answer</span></figcaption>
+      </figure>
+
+      <section class="v033-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / SVG MEDIUM SWITCH / v033</p>
+        <h1 id="work-title">The portrait answers<br><i>after you leave.</i></h1>
+        <p class="v033-lede">Attention is held locally, but the body decides elsewhere. What the code remembers is not where you looked, but what it refused to do there.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A LOOK IS NOT AN ANSWER</p>
+          <p class="interaction-copy">Enter a numbered zone by pointer, focus, or button. The body stays exact while attention is held. Leave the zone, press withdraw, or use Space: a remote aperture answers and a second remote contour carries the echo. Later withdrawals inherit that distributed attention.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The portrait is waiting for a witness.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v033</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v032's proposal-and-contradiction hinge, v031's bounded pressure membrane, and v030's population pulse. Attention now arms one local zone but cannot change it; withdrawal makes the code answer in a least-attended remote zone and pass an echo to another remote contour.</dd></div>
+          <div><dt>visitor action</dt><dd>Enter, focus, or select one zone. Leave it, press withdraw, or use Space to commit the reciprocal answer. Delete lifts the latest answer; R or Escape releases the field. Buttons, pointer, focus, and arrows remain deterministic equivalents.</dd></div>
+          <div><dt>falsifier</dt><dd>If the watched zone changes during attention, if the local zone becomes the answer, if the response is only a glow or readout, if later withdrawals forget attention, or if lifting is inexact, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v033 if the caption-free first view reads as a generic split icon, if the remote aperture is not visible as geometry, or if leaving is merely a disguised click rather than the causal event.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-24/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-25">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=033"></script>
+</body>
+</html>
