@@ -33,8 +33,17 @@
 - Blind preview: reduced-motion static 390×844 showed 18 agents and four settled relays with furniture hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
 - Local proof directory: `research/qa/proofs/webgpu-v034-2026-10-25/` (`25` screenshots).
 
-## Pending
+## Production evidence
 
-- Production browser matrix and deployed readbacks.
+- Production deployment: `dpl_D4zipcPA5U7iVe77mjXow2wy4Wae` at `https://autopoiesis-nine.vercel.app`.
+- Production browser matrix: `20/20` raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
+- Production diagnostics: `0`; overflow failures: `0`; minimum touch target: `44px`.
+- Production interaction: real pointer listen/move stayed geometry-neutral; release committed one reciprocal relay; Delete lifted the exact baseline; Enter committed; Escape released; relay control committed.
+- Production blind preview: reduced-motion static 390×844 showed 18 agents and four settled relays with furniture hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
+- Production readbacks: `/studio/data/works.json` and `/studio/data/catalog-public.json` each returned one `webgpu-2026-10-25` record; Journal anchor/title, WebGPU current, canonical work, raw v034, and favicon rendered/returned successfully.
+- Production proof directory: `research/qa/proofs/webgpu-v034-2026-10-25-production/` (`25` screenshots).
+
+## Unresolved doubt
+
 - Independent caption-free perceptual review: does the blind image read as an orbital chorus rather than a generic particle halo?
-- Vercel provider revision linkage to the GitHub SHA.
+- Vercel provider revision linkage to the GitHub SHA remains unavailable.
