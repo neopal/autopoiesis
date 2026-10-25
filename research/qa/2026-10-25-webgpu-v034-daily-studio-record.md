@@ -35,7 +35,7 @@
 
 ## Production evidence
 
-- Production deployment: `dpl_D4zipcPA5U7iVe77mjXow2wy4Wae` at `https://autopoiesis-nine.vercel.app`.
+- Production deployment: `dpl_FnU8bGwzAmUmmtjnqpt6tcEH16es` at `https://autopoiesis-nine.vercel.app` (deployment URL: `https://autopoiesis-oh8ffxcvr-lairpa-hotmailfrs-projects.vercel.app`).
 - Production browser matrix: `20/20` raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
 - Production diagnostics: `0`; overflow failures: `0`; minimum touch target: `44px`.
 - Production interaction: real pointer listen/move stayed geometry-neutral; release committed one reciprocal relay; Delete lifted the exact baseline; Enter committed; Escape released; relay control committed.
