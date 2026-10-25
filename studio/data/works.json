@@ -224,7 +224,7 @@
         "lineage": "portrait-2026-10-24"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; production matrix and public readback pending deployment, candidate held pending independent caption-free perceptual review and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -250,10 +250,21 @@
         "localReadbacks": "local Journal anchor, Self portrait current marker, canonical work marker, source registry, public catalog, and favicon returned/rendered",
         "localProofPath": "research/qa/proofs/portrait-v033-2026-10-25/",
         "unresolved": [
-          "production matrix and public readback pending deployment",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
-        ]
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeploymentId": "dpl_DZuBZEF4Zn8jkh3JUU1ymBKQTByX",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v033/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v033/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/portrait-2026-10-25/",
+        "productionViewportRuns": 20,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionInteraction": "real production pointer hover on zone 3 held geometry exact; pointer departure committed one remote answer and one remote echo; Delete restored the exact quiet body; ArrowRight plus Space committed a second withdrawal; Escape released; all 11 controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the SVG reciprocal body visible with 8 zones and four settled withdrawals while hiding stamp, readout, hint, and controls; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production Journal anchor/title, Self portrait current marker/card, canonical work title/tableau, raw v033 tableau, deployed works.json record, deployed public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/portrait-v033-2026-10-25-production/"
       }
     },
     {

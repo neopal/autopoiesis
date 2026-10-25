@@ -1,0 +1,1444 @@
+{
+  "matrixRuns": 20,
+  "matrixFailures": [],
+  "interaction": {
+    "initial": {
+      "composition": "reciprocal-absence",
+      "stage": 0,
+      "revision": 0,
+      "mirror": {
+        "seam": 0.5,
+        "tension": 0.18,
+        "offset": 0,
+        "opening": 0.12
+      },
+      "zones": [
+        {
+          "index": 0,
+          "side": "left",
+          "local": 0,
+          "y": 0.10402,
+          "width": 0.28441,
+          "height": 0.13668,
+          "slant": 0.12997,
+          "gap": 0.03546,
+          "aperture": 0.0945,
+          "drift": 0.01209,
+          "rotation": -0.0016,
+          "state": "quiet"
+        },
+        {
+          "index": 1,
+          "side": "left",
+          "local": 1,
+          "y": 0.31304,
+          "width": 0.31047,
+          "height": 0.13573,
+          "slant": -0.04582,
+          "gap": 0.02662,
+          "aperture": 0.05017,
+          "drift": -0.03711,
+          "rotation": 0.02631,
+          "state": "quiet"
+        },
+        {
+          "index": 2,
+          "side": "left",
+          "local": 2,
+          "y": 0.53056,
+          "width": 0.29831,
+          "height": 0.18762,
+          "slant": 0.15204,
+          "gap": 0.06009,
+          "aperture": 0.0832,
+          "drift": 0.00827,
+          "rotation": -0.05622,
+          "state": "quiet"
+        },
+        {
+          "index": 3,
+          "side": "left",
+          "local": 3,
+          "y": 0.74696,
+          "width": 0.24944,
+          "height": 0.16912,
+          "slant": 0.02398,
+          "gap": 0.048,
+          "aperture": 0.09465,
+          "drift": 0.03817,
+          "rotation": -0.04835,
+          "state": "quiet"
+        },
+        {
+          "index": 4,
+          "side": "right",
+          "local": 0,
+          "y": 0.11144,
+          "width": 0.32952,
+          "height": 0.15007,
+          "slant": 0.15578,
+          "gap": 0.05399,
+          "aperture": 0.07895,
+          "drift": 0.0318,
+          "rotation": -0.03175,
+          "state": "quiet"
+        },
+        {
+          "index": 5,
+          "side": "right",
+          "local": 1,
+          "y": 0.31436,
+          "width": 0.32166,
+          "height": 0.16824,
+          "slant": 0.15905,
+          "gap": 0.03167,
+          "aperture": 0.06051,
+          "drift": -0.01179,
+          "rotation": 0.03847,
+          "state": "quiet"
+        },
+        {
+          "index": 6,
+          "side": "right",
+          "local": 2,
+          "y": 0.53775,
+          "width": 0.33807,
+          "height": 0.18099,
+          "slant": -0.05947,
+          "gap": 0.04244,
+          "aperture": 0.09051,
+          "drift": -0.0197,
+          "rotation": -0.02326,
+          "state": "quiet"
+        },
+        {
+          "index": 7,
+          "side": "right",
+          "local": 3,
+          "y": 0.72831,
+          "width": 0.26311,
+          "height": 0.14204,
+          "slant": 0.01205,
+          "gap": 0.06012,
+          "aperture": 0.09877,
+          "drift": -0.01529,
+          "rotation": -0.02282,
+          "state": "quiet"
+        }
+      ],
+      "attention": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "armedZone": null,
+      "memory": [],
+      "snapshots": [],
+      "interaction": "waiting"
+    },
+    "held": {
+      "composition": "reciprocal-absence",
+      "stage": 0,
+      "revision": 0,
+      "mirror": {
+        "seam": 0.5,
+        "tension": 0.18,
+        "offset": 0,
+        "opening": 0.12
+      },
+      "zones": [
+        {
+          "index": 0,
+          "side": "left",
+          "local": 0,
+          "y": 0.10402,
+          "width": 0.28441,
+          "height": 0.13668,
+          "slant": 0.12997,
+          "gap": 0.03546,
+          "aperture": 0.0945,
+          "drift": 0.01209,
+          "rotation": -0.0016,
+          "state": "quiet"
+        },
+        {
+          "index": 1,
+          "side": "left",
+          "local": 1,
+          "y": 0.31304,
+          "width": 0.31047,
+          "height": 0.13573,
+          "slant": -0.04582,
+          "gap": 0.02662,
+          "aperture": 0.05017,
+          "drift": -0.03711,
+          "rotation": 0.02631,
+          "state": "quiet"
+        },
+        {
+          "index": 2,
+          "side": "left",
+          "local": 2,
+          "y": 0.53056,
+          "width": 0.29831,
+          "height": 0.18762,
+          "slant": 0.15204,
+          "gap": 0.06009,
+          "aperture": 0.0832,
+          "drift": 0.00827,
+          "rotation": -0.05622,
+          "state": "quiet"
+        },
+        {
+          "index": 3,
+          "side": "left",
+          "local": 3,
+          "y": 0.74696,
+          "width": 0.24944,
+          "height": 0.16912,
+          "slant": 0.02398,
+          "gap": 0.048,
+          "aperture": 0.09465,
+          "drift": 0.03817,
+          "rotation": -0.04835,
+          "state": "quiet"
+        },
+        {
+          "index": 4,
+          "side": "right",
+          "local": 0,
+          "y": 0.11144,
+          "width": 0.32952,
+          "height": 0.15007,
+          "slant": 0.15578,
+          "gap": 0.05399,
+          "aperture": 0.07895,
+          "drift": 0.0318,
+          "rotation": -0.03175,
+          "state": "quiet"
+        },
+        {
+          "index": 5,
+          "side": "right",
+          "local": 1,
+          "y": 0.31436,
+          "width": 0.32166,
+          "height": 0.16824,
+          "slant": 0.15905,
+          "gap": 0.03167,
+          "aperture": 0.06051,
+          "drift": -0.01179,
+          "rotation": 0.03847,
+          "state": "quiet"
+        },
+        {
+          "index": 6,
+          "side": "right",
+          "local": 2,
+          "y": 0.53775,
+          "width": 0.33807,
+          "height": 0.18099,
+          "slant": -0.05947,
+          "gap": 0.04244,
+          "aperture": 0.09051,
+          "drift": -0.0197,
+          "rotation": -0.02326,
+          "state": "quiet"
+        },
+        {
+          "index": 7,
+          "side": "right",
+          "local": 3,
+          "y": 0.72831,
+          "width": 0.26311,
+          "height": 0.14204,
+          "slant": 0.01205,
+          "gap": 0.06012,
+          "aperture": 0.09877,
+          "drift": -0.01529,
+          "rotation": -0.02282,
+          "state": "quiet"
+        }
+      ],
+      "attention": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "armedZone": 2,
+      "memory": [],
+      "snapshots": [],
+      "interaction": "attending"
+    },
+    "withdrawn": {
+      "composition": "reciprocal-absence",
+      "stage": 1,
+      "revision": 1,
+      "mirror": {
+        "seam": 0.478,
+        "tension": 0.27,
+        "offset": 0.075,
+        "opening": 0.19
+      },
+      "zones": [
+        {
+          "index": 0,
+          "side": "left",
+          "local": 0,
+          "y": 0.10402,
+          "width": 0.28441,
+          "height": 0.13668,
+          "slant": 0.12997,
+          "gap": 0.03546,
+          "aperture": 0.0945,
+          "drift": 0.00409,
+          "rotation": -0.0016,
+          "state": "quiet"
+        },
+        {
+          "index": 1,
+          "side": "left",
+          "local": 1,
+          "y": 0.31304,
+          "width": 0.37947,
+          "height": 0.15973,
+          "slant": -0.14082,
+          "gap": 0.02662,
+          "aperture": 0.15517,
+          "drift": 0.00289,
+          "rotation": 0.02631,
+          "state": "answer"
+        },
+        {
+          "index": 2,
+          "side": "left",
+          "local": 2,
+          "y": 0.53056,
+          "width": 0.29831,
+          "height": 0.18762,
+          "slant": 0.15204,
+          "gap": 0.06009,
+          "aperture": 0.0832,
+          "drift": 0.00827,
+          "rotation": -0.05622,
+          "state": "witnessed"
+        },
+        {
+          "index": 3,
+          "side": "left",
+          "local": 3,
+          "y": 0.74696,
+          "width": 0.24944,
+          "height": 0.16912,
+          "slant": 0.02398,
+          "gap": 0.048,
+          "aperture": 0.09465,
+          "drift": 0.04617,
+          "rotation": -0.04835,
+          "state": "quiet"
+        },
+        {
+          "index": 4,
+          "side": "right",
+          "local": 0,
+          "y": 0.14644,
+          "width": 0.30152,
+          "height": 0.15007,
+          "slant": 0.15578,
+          "gap": 0.07599,
+          "aperture": 0.07895,
+          "drift": 0.0318,
+          "rotation": -0.11175,
+          "state": "echo"
+        },
+        {
+          "index": 5,
+          "side": "right",
+          "local": 1,
+          "y": 0.31436,
+          "width": 0.32166,
+          "height": 0.16824,
+          "slant": 0.15905,
+          "gap": 0.03167,
+          "aperture": 0.06051,
+          "drift": -0.00379,
+          "rotation": 0.03847,
+          "state": "quiet"
+        },
+        {
+          "index": 6,
+          "side": "right",
+          "local": 2,
+          "y": 0.53775,
+          "width": 0.33807,
+          "height": 0.18099,
+          "slant": -0.05947,
+          "gap": 0.04244,
+          "aperture": 0.09051,
+          "drift": -0.0277,
+          "rotation": -0.02326,
+          "state": "quiet"
+        },
+        {
+          "index": 7,
+          "side": "right",
+          "local": 3,
+          "y": 0.72831,
+          "width": 0.26311,
+          "height": 0.14204,
+          "slant": 0.01205,
+          "gap": 0.06012,
+          "aperture": 0.09877,
+          "drift": -0.00729,
+          "rotation": -0.02282,
+          "state": "quiet"
+        }
+      ],
+      "attention": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "armedZone": null,
+      "memory": [
+        {
+          "kind": "reciprocal-absence",
+          "seenIndex": 2,
+          "receiverIndex": 1,
+          "echoIndex": 4,
+          "revision": 1,
+          "attention": 1
+        }
+      ],
+      "snapshots": [
+        {
+          "composition": "reciprocal-absence",
+          "stage": 0,
+          "revision": 0,
+          "mirror": {
+            "seam": 0.5,
+            "tension": 0.18,
+            "offset": 0,
+            "opening": 0.12
+          },
+          "zones": [
+            {
+              "index": 0,
+              "side": "left",
+              "local": 0,
+              "y": 0.10402,
+              "width": 0.28441,
+              "height": 0.13668,
+              "slant": 0.12997,
+              "gap": 0.03546,
+              "aperture": 0.0945,
+              "drift": 0.01209,
+              "rotation": -0.0016,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "side": "left",
+              "local": 1,
+              "y": 0.31304,
+              "width": 0.31047,
+              "height": 0.13573,
+              "slant": -0.04582,
+              "gap": 0.02662,
+              "aperture": 0.05017,
+              "drift": -0.03711,
+              "rotation": 0.02631,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "side": "left",
+              "local": 2,
+              "y": 0.53056,
+              "width": 0.29831,
+              "height": 0.18762,
+              "slant": 0.15204,
+              "gap": 0.06009,
+              "aperture": 0.0832,
+              "drift": 0.00827,
+              "rotation": -0.05622,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "side": "left",
+              "local": 3,
+              "y": 0.74696,
+              "width": 0.24944,
+              "height": 0.16912,
+              "slant": 0.02398,
+              "gap": 0.048,
+              "aperture": 0.09465,
+              "drift": 0.03817,
+              "rotation": -0.04835,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "side": "right",
+              "local": 0,
+              "y": 0.11144,
+              "width": 0.32952,
+              "height": 0.15007,
+              "slant": 0.15578,
+              "gap": 0.05399,
+              "aperture": 0.07895,
+              "drift": 0.0318,
+              "rotation": -0.03175,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "side": "right",
+              "local": 1,
+              "y": 0.31436,
+              "width": 0.32166,
+              "height": 0.16824,
+              "slant": 0.15905,
+              "gap": 0.03167,
+              "aperture": 0.06051,
+              "drift": -0.01179,
+              "rotation": 0.03847,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "side": "right",
+              "local": 2,
+              "y": 0.53775,
+              "width": 0.33807,
+              "height": 0.18099,
+              "slant": -0.05947,
+              "gap": 0.04244,
+              "aperture": 0.09051,
+              "drift": -0.0197,
+              "rotation": -0.02326,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "side": "right",
+              "local": 3,
+              "y": 0.72831,
+              "width": 0.26311,
+              "height": 0.14204,
+              "slant": 0.01205,
+              "gap": 0.06012,
+              "aperture": 0.09877,
+              "drift": -0.01529,
+              "rotation": -0.02282,
+              "state": "quiet"
+            }
+          ],
+          "attention": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "armedZone": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "waiting"
+        }
+      ],
+      "interaction": "withdrawn"
+    },
+    "lifted": {
+      "composition": "reciprocal-absence",
+      "stage": 0,
+      "revision": 0,
+      "mirror": {
+        "seam": 0.5,
+        "tension": 0.18,
+        "offset": 0,
+        "opening": 0.12
+      },
+      "zones": [
+        {
+          "index": 0,
+          "side": "left",
+          "local": 0,
+          "y": 0.10402,
+          "width": 0.28441,
+          "height": 0.13668,
+          "slant": 0.12997,
+          "gap": 0.03546,
+          "aperture": 0.0945,
+          "drift": 0.01209,
+          "rotation": -0.0016,
+          "state": "quiet"
+        },
+        {
+          "index": 1,
+          "side": "left",
+          "local": 1,
+          "y": 0.31304,
+          "width": 0.31047,
+          "height": 0.13573,
+          "slant": -0.04582,
+          "gap": 0.02662,
+          "aperture": 0.05017,
+          "drift": -0.03711,
+          "rotation": 0.02631,
+          "state": "quiet"
+        },
+        {
+          "index": 2,
+          "side": "left",
+          "local": 2,
+          "y": 0.53056,
+          "width": 0.29831,
+          "height": 0.18762,
+          "slant": 0.15204,
+          "gap": 0.06009,
+          "aperture": 0.0832,
+          "drift": 0.00827,
+          "rotation": -0.05622,
+          "state": "quiet"
+        },
+        {
+          "index": 3,
+          "side": "left",
+          "local": 3,
+          "y": 0.74696,
+          "width": 0.24944,
+          "height": 0.16912,
+          "slant": 0.02398,
+          "gap": 0.048,
+          "aperture": 0.09465,
+          "drift": 0.03817,
+          "rotation": -0.04835,
+          "state": "quiet"
+        },
+        {
+          "index": 4,
+          "side": "right",
+          "local": 0,
+          "y": 0.11144,
+          "width": 0.32952,
+          "height": 0.15007,
+          "slant": 0.15578,
+          "gap": 0.05399,
+          "aperture": 0.07895,
+          "drift": 0.0318,
+          "rotation": -0.03175,
+          "state": "quiet"
+        },
+        {
+          "index": 5,
+          "side": "right",
+          "local": 1,
+          "y": 0.31436,
+          "width": 0.32166,
+          "height": 0.16824,
+          "slant": 0.15905,
+          "gap": 0.03167,
+          "aperture": 0.06051,
+          "drift": -0.01179,
+          "rotation": 0.03847,
+          "state": "quiet"
+        },
+        {
+          "index": 6,
+          "side": "right",
+          "local": 2,
+          "y": 0.53775,
+          "width": 0.33807,
+          "height": 0.18099,
+          "slant": -0.05947,
+          "gap": 0.04244,
+          "aperture": 0.09051,
+          "drift": -0.0197,
+          "rotation": -0.02326,
+          "state": "quiet"
+        },
+        {
+          "index": 7,
+          "side": "right",
+          "local": 3,
+          "y": 0.72831,
+          "width": 0.26311,
+          "height": 0.14204,
+          "slant": 0.01205,
+          "gap": 0.06012,
+          "aperture": 0.09877,
+          "drift": -0.01529,
+          "rotation": -0.02282,
+          "state": "quiet"
+        }
+      ],
+      "attention": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "armedZone": null,
+      "memory": [],
+      "snapshots": [],
+      "interaction": "lifted"
+    },
+    "keyboardHeld": {
+      "composition": "reciprocal-absence",
+      "stage": 0,
+      "revision": 0,
+      "mirror": {
+        "seam": 0.5,
+        "tension": 0.18,
+        "offset": 0,
+        "opening": 0.12
+      },
+      "zones": [
+        {
+          "index": 0,
+          "side": "left",
+          "local": 0,
+          "y": 0.10402,
+          "width": 0.28441,
+          "height": 0.13668,
+          "slant": 0.12997,
+          "gap": 0.03546,
+          "aperture": 0.0945,
+          "drift": 0.01209,
+          "rotation": -0.0016,
+          "state": "quiet"
+        },
+        {
+          "index": 1,
+          "side": "left",
+          "local": 1,
+          "y": 0.31304,
+          "width": 0.31047,
+          "height": 0.13573,
+          "slant": -0.04582,
+          "gap": 0.02662,
+          "aperture": 0.05017,
+          "drift": -0.03711,
+          "rotation": 0.02631,
+          "state": "quiet"
+        },
+        {
+          "index": 2,
+          "side": "left",
+          "local": 2,
+          "y": 0.53056,
+          "width": 0.29831,
+          "height": 0.18762,
+          "slant": 0.15204,
+          "gap": 0.06009,
+          "aperture": 0.0832,
+          "drift": 0.00827,
+          "rotation": -0.05622,
+          "state": "quiet"
+        },
+        {
+          "index": 3,
+          "side": "left",
+          "local": 3,
+          "y": 0.74696,
+          "width": 0.24944,
+          "height": 0.16912,
+          "slant": 0.02398,
+          "gap": 0.048,
+          "aperture": 0.09465,
+          "drift": 0.03817,
+          "rotation": -0.04835,
+          "state": "quiet"
+        },
+        {
+          "index": 4,
+          "side": "right",
+          "local": 0,
+          "y": 0.11144,
+          "width": 0.32952,
+          "height": 0.15007,
+          "slant": 0.15578,
+          "gap": 0.05399,
+          "aperture": 0.07895,
+          "drift": 0.0318,
+          "rotation": -0.03175,
+          "state": "quiet"
+        },
+        {
+          "index": 5,
+          "side": "right",
+          "local": 1,
+          "y": 0.31436,
+          "width": 0.32166,
+          "height": 0.16824,
+          "slant": 0.15905,
+          "gap": 0.03167,
+          "aperture": 0.06051,
+          "drift": -0.01179,
+          "rotation": 0.03847,
+          "state": "quiet"
+        },
+        {
+          "index": 6,
+          "side": "right",
+          "local": 2,
+          "y": 0.53775,
+          "width": 0.33807,
+          "height": 0.18099,
+          "slant": -0.05947,
+          "gap": 0.04244,
+          "aperture": 0.09051,
+          "drift": -0.0197,
+          "rotation": -0.02326,
+          "state": "quiet"
+        },
+        {
+          "index": 7,
+          "side": "right",
+          "local": 3,
+          "y": 0.72831,
+          "width": 0.26311,
+          "height": 0.14204,
+          "slant": 0.01205,
+          "gap": 0.06012,
+          "aperture": 0.09877,
+          "drift": -0.01529,
+          "rotation": -0.02282,
+          "state": "quiet"
+        }
+      ],
+      "attention": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "armedZone": 3,
+      "memory": [],
+      "snapshots": [],
+      "interaction": "attending"
+    },
+    "keyboardWithdrawn": {
+      "composition": "reciprocal-absence",
+      "stage": 1,
+      "revision": 1,
+      "mirror": {
+        "seam": 0.478,
+        "tension": 0.27,
+        "offset": 0.075,
+        "opening": 0.19
+      },
+      "zones": [
+        {
+          "index": 0,
+          "side": "left",
+          "local": 0,
+          "y": 0.10402,
+          "width": 0.28441,
+          "height": 0.13668,
+          "slant": 0.12997,
+          "gap": 0.03546,
+          "aperture": 0.0945,
+          "drift": 0.00409,
+          "rotation": -0.0016,
+          "state": "quiet"
+        },
+        {
+          "index": 1,
+          "side": "left",
+          "local": 1,
+          "y": 0.31304,
+          "width": 0.31047,
+          "height": 0.13573,
+          "slant": -0.04582,
+          "gap": 0.02662,
+          "aperture": 0.05017,
+          "drift": -0.02911,
+          "rotation": 0.02631,
+          "state": "quiet"
+        },
+        {
+          "index": 2,
+          "side": "left",
+          "local": 2,
+          "y": 0.53056,
+          "width": 0.36731,
+          "height": 0.21162,
+          "slant": 0.05704,
+          "gap": 0.06009,
+          "aperture": 0.1882,
+          "drift": 0.04827,
+          "rotation": -0.05622,
+          "state": "answer"
+        },
+        {
+          "index": 3,
+          "side": "left",
+          "local": 3,
+          "y": 0.74696,
+          "width": 0.24944,
+          "height": 0.16912,
+          "slant": 0.02398,
+          "gap": 0.048,
+          "aperture": 0.09465,
+          "drift": 0.03817,
+          "rotation": -0.04835,
+          "state": "witnessed"
+        },
+        {
+          "index": 4,
+          "side": "right",
+          "local": 0,
+          "y": 0.11144,
+          "width": 0.32952,
+          "height": 0.15007,
+          "slant": 0.15578,
+          "gap": 0.05399,
+          "aperture": 0.07895,
+          "drift": 0.0238,
+          "rotation": -0.03175,
+          "state": "quiet"
+        },
+        {
+          "index": 5,
+          "side": "right",
+          "local": 1,
+          "y": 0.34936,
+          "width": 0.29366,
+          "height": 0.16824,
+          "slant": 0.15905,
+          "gap": 0.05367,
+          "aperture": 0.06051,
+          "drift": -0.01179,
+          "rotation": -0.04153,
+          "state": "echo"
+        },
+        {
+          "index": 6,
+          "side": "right",
+          "local": 2,
+          "y": 0.53775,
+          "width": 0.33807,
+          "height": 0.18099,
+          "slant": -0.05947,
+          "gap": 0.04244,
+          "aperture": 0.09051,
+          "drift": -0.0277,
+          "rotation": -0.02326,
+          "state": "quiet"
+        },
+        {
+          "index": 7,
+          "side": "right",
+          "local": 3,
+          "y": 0.72831,
+          "width": 0.26311,
+          "height": 0.14204,
+          "slant": 0.01205,
+          "gap": 0.06012,
+          "aperture": 0.09877,
+          "drift": -0.00729,
+          "rotation": -0.02282,
+          "state": "quiet"
+        }
+      ],
+      "attention": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "armedZone": null,
+      "memory": [
+        {
+          "kind": "reciprocal-absence",
+          "seenIndex": 3,
+          "receiverIndex": 2,
+          "echoIndex": 5,
+          "revision": 1,
+          "attention": 1
+        }
+      ],
+      "snapshots": [
+        {
+          "composition": "reciprocal-absence",
+          "stage": 0,
+          "revision": 0,
+          "mirror": {
+            "seam": 0.5,
+            "tension": 0.18,
+            "offset": 0,
+            "opening": 0.12
+          },
+          "zones": [
+            {
+              "index": 0,
+              "side": "left",
+              "local": 0,
+              "y": 0.10402,
+              "width": 0.28441,
+              "height": 0.13668,
+              "slant": 0.12997,
+              "gap": 0.03546,
+              "aperture": 0.0945,
+              "drift": 0.01209,
+              "rotation": -0.0016,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "side": "left",
+              "local": 1,
+              "y": 0.31304,
+              "width": 0.31047,
+              "height": 0.13573,
+              "slant": -0.04582,
+              "gap": 0.02662,
+              "aperture": 0.05017,
+              "drift": -0.03711,
+              "rotation": 0.02631,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "side": "left",
+              "local": 2,
+              "y": 0.53056,
+              "width": 0.29831,
+              "height": 0.18762,
+              "slant": 0.15204,
+              "gap": 0.06009,
+              "aperture": 0.0832,
+              "drift": 0.00827,
+              "rotation": -0.05622,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "side": "left",
+              "local": 3,
+              "y": 0.74696,
+              "width": 0.24944,
+              "height": 0.16912,
+              "slant": 0.02398,
+              "gap": 0.048,
+              "aperture": 0.09465,
+              "drift": 0.03817,
+              "rotation": -0.04835,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "side": "right",
+              "local": 0,
+              "y": 0.11144,
+              "width": 0.32952,
+              "height": 0.15007,
+              "slant": 0.15578,
+              "gap": 0.05399,
+              "aperture": 0.07895,
+              "drift": 0.0318,
+              "rotation": -0.03175,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "side": "right",
+              "local": 1,
+              "y": 0.31436,
+              "width": 0.32166,
+              "height": 0.16824,
+              "slant": 0.15905,
+              "gap": 0.03167,
+              "aperture": 0.06051,
+              "drift": -0.01179,
+              "rotation": 0.03847,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "side": "right",
+              "local": 2,
+              "y": 0.53775,
+              "width": 0.33807,
+              "height": 0.18099,
+              "slant": -0.05947,
+              "gap": 0.04244,
+              "aperture": 0.09051,
+              "drift": -0.0197,
+              "rotation": -0.02326,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "side": "right",
+              "local": 3,
+              "y": 0.72831,
+              "width": 0.26311,
+              "height": 0.14204,
+              "slant": 0.01205,
+              "gap": 0.06012,
+              "aperture": 0.09877,
+              "drift": -0.01529,
+              "rotation": -0.02282,
+              "state": "quiet"
+            }
+          ],
+          "attention": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "armedZone": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "waiting"
+        }
+      ],
+      "interaction": "withdrawn"
+    },
+    "released": {
+      "composition": "reciprocal-absence",
+      "stage": 0,
+      "revision": 0,
+      "mirror": {
+        "seam": 0.5,
+        "tension": 0.18,
+        "offset": 0,
+        "opening": 0.12
+      },
+      "zones": [
+        {
+          "index": 0,
+          "side": "left",
+          "local": 0,
+          "y": 0.10402,
+          "width": 0.28441,
+          "height": 0.13668,
+          "slant": 0.12997,
+          "gap": 0.03546,
+          "aperture": 0.0945,
+          "drift": 0.01209,
+          "rotation": -0.0016,
+          "state": "quiet"
+        },
+        {
+          "index": 1,
+          "side": "left",
+          "local": 1,
+          "y": 0.31304,
+          "width": 0.31047,
+          "height": 0.13573,
+          "slant": -0.04582,
+          "gap": 0.02662,
+          "aperture": 0.05017,
+          "drift": -0.03711,
+          "rotation": 0.02631,
+          "state": "quiet"
+        },
+        {
+          "index": 2,
+          "side": "left",
+          "local": 2,
+          "y": 0.53056,
+          "width": 0.29831,
+          "height": 0.18762,
+          "slant": 0.15204,
+          "gap": 0.06009,
+          "aperture": 0.0832,
+          "drift": 0.00827,
+          "rotation": -0.05622,
+          "state": "quiet"
+        },
+        {
+          "index": 3,
+          "side": "left",
+          "local": 3,
+          "y": 0.74696,
+          "width": 0.24944,
+          "height": 0.16912,
+          "slant": 0.02398,
+          "gap": 0.048,
+          "aperture": 0.09465,
+          "drift": 0.03817,
+          "rotation": -0.04835,
+          "state": "quiet"
+        },
+        {
+          "index": 4,
+          "side": "right",
+          "local": 0,
+          "y": 0.11144,
+          "width": 0.32952,
+          "height": 0.15007,
+          "slant": 0.15578,
+          "gap": 0.05399,
+          "aperture": 0.07895,
+          "drift": 0.0318,
+          "rotation": -0.03175,
+          "state": "quiet"
+        },
+        {
+          "index": 5,
+          "side": "right",
+          "local": 1,
+          "y": 0.31436,
+          "width": 0.32166,
+          "height": 0.16824,
+          "slant": 0.15905,
+          "gap": 0.03167,
+          "aperture": 0.06051,
+          "drift": -0.01179,
+          "rotation": 0.03847,
+          "state": "quiet"
+        },
+        {
+          "index": 6,
+          "side": "right",
+          "local": 2,
+          "y": 0.53775,
+          "width": 0.33807,
+          "height": 0.18099,
+          "slant": -0.05947,
+          "gap": 0.04244,
+          "aperture": 0.09051,
+          "drift": -0.0197,
+          "rotation": -0.02326,
+          "state": "quiet"
+        },
+        {
+          "index": 7,
+          "side": "right",
+          "local": 3,
+          "y": 0.72831,
+          "width": 0.26311,
+          "height": 0.14204,
+          "slant": 0.01205,
+          "gap": 0.06012,
+          "aperture": 0.09877,
+          "drift": -0.01529,
+          "rotation": -0.02282,
+          "state": "quiet"
+        }
+      ],
+      "attention": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "armedZone": null,
+      "memory": [],
+      "snapshots": [],
+      "interaction": "waiting"
+    },
+    "buttons": [
+      {
+        "text": "01",
+        "height": 44
+      },
+      {
+        "text": "02",
+        "height": 44
+      },
+      {
+        "text": "03",
+        "height": 44
+      },
+      {
+        "text": "04",
+        "height": 44
+      },
+      {
+        "text": "05",
+        "height": 44
+      },
+      {
+        "text": "06",
+        "height": 44
+      },
+      {
+        "text": "07",
+        "height": 44
+      },
+      {
+        "text": "08",
+        "height": 44
+      },
+      {
+        "text": "withdraw attention",
+        "height": 44
+      },
+      {
+        "text": "lift last answer",
+        "height": 44
+      },
+      {
+        "text": "release the field",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "fieldVisible": true,
+      "zoneCount": 8,
+      "memory": 4,
+      "stampDisplay": "none",
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "hintDisplay": "none"
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "Self portrait",
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "work": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "The portrait answers after you leave.",
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "registry": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": null,
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "catalog": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": null,
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "favicon": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": null,
+      "marker": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    }
+  },
+  "interactionOk": true,
+  "blindOk": true,
+  "readbacksOk": true,
+  "allDiagnosticsOk": true,
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v033-2026-10-25-production"
+}
