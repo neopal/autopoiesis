@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101316">
+  <title>MUTINE — The stroke becomes an organ.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=036">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-10-25"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v036</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v036</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="An open SVG filament organism whose remote strands grow from a drawn path" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="Enter Space Delete Escape R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>stage 00 / 16</span><span data-memory>0 growths · the filament is quiet</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="stroke-control" data-gesture="stroke">feed a stroke</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release growth</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Seven open filaments share one oblique spine. Nothing is a closed emblem; each strand is a possible organ with a different reach.</p></div>
+          <div><span>changed rule</span><p>A drawn path is refused as a trace. Its turn and direction become a material field that grows a remote strand while another unthreads.</p></div>
+          <div><span>progression</span><p>Draw across the field, then release. Enter feeds deterministic strokes; Delete lifts the latest growth; Escape or R releases the bounded body.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V036 / DAILY WORK</p><h1 id="work-title">The stroke<br><i>becomes an organ.</i></h1></div>
+        <p class="work-premise">A gesture is not remembered as a line. It changes which strand can grow, which one must loosen, and how the open organism makes its next contour.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: bounded drawn paths alter the open spine and three filament geometries without copying the gesture; memory is deterministic and lifting reconstructs the exact prior organism. Promotion depends on whether the blind field reads as a new open vector grammar rather than a decorated route or control panel.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=036"></script>
+</body>
+</html>

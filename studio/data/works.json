@@ -2,6 +2,57 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-10-25",
+      "currentId": "svg",
+      "date": "2026-10-25",
+      "title": "The stroke becomes an organ.",
+      "rawPath": "/studies/pure-svg/v036/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-25",
+        "note": "v036 abandons v035's closed attention topology, v034's horizontal delayed score, and v033's compound pressure sheet. One off-axis open SVG spine now carries seven unequal filaments: a bounded drawn path is refused as a trace, its turn becomes a material field, a remote filament grows, and a counter-filament unthreads. Four growths remain liftable and later strokes inherit the altered organism."
+      },
+      "critiques": [
+        {"persona":"Filament-form critic","argument":"The open spine and seven strands must read as one authored vector organism before they read as a set of lines; unequal reach, knots, off-axis balance, and the shared shadow must carry the composition."},
+        {"persona":"Perceptual critic","argument":"With furniture hidden, the first view must leave v033's slab, v034's score, and v035's closed topology. It must read as an open growth system rather than a route, waveform, flower, or interface."},
+        {"persona":"Interaction critic","argument":"A drawn path is preview only until release. Short and sprawling paths must refuse. Pointer, keyboard, and controls must remain deterministic equivalents, and the pointer trace must not become the artwork."},
+        {"persona":"Material-agency critic","argument":"Direction and turning must be visible in produced path geometry: source absorption, remote growth, counter-filament unthreading, spine curl, and inherited reach. Color cannot substitute for the rule."},
+        {"persona":"Non-locality critic","argument":"The starting strand cannot be the whole answer. A remote filament must visibly grow and a third filament must loosen, with actual SVG d changes away from the gesture's origin."},
+        {"persona":"Memory critic","argument":"Four growths remain bounded and liftable. Later strokes must rebuild from the altered spine and filament state; Delete must reconstruct the exact preceding organism and release must restore quiet."},
+        {"persona":"Radical progression critic","argument":"v036 changes representation, composition, shape vocabulary, viewer task, and temporal grammar: it leaves the closed body, row score, and slab for open stroke geometry and a continuous drawn-field encounter."},
+        {"persona":"Cultural critic","argument":"p5.brush is translated as material production, not brush appearance. No watercolor, hatching, grain, vector-field drawing, palette, composition, code, API, or surface vocabulary is reproduced."},
+        {"persona":"Cynic","argument":"Delete v036 if the blind organism reads as a generic route or waveform, if the stroke is copied, if the local strand alone answers, if remote growth is cosmetic, if later strokes reset, or if exact lifting fails."}
+      ],
+      "metrics": {
+        "id":"pure-svg-v036-field-grown-filament","visitorInput":true,"seed":"0x53564736","referenceId":"p5-brush","filamentCount":7,"memoryWindow":4,"minimumStrokePoints":3,"minimumStrokeLength":0.12,"maximumStrokeLength":0.78,"settledStage":4,"primitiveBudget":9,
+        "memoryRule":"a drawn path becomes a material field; the source filament absorbs, a remote filament grows, and a counter-filament unthreads; later strokes inherit the changed spine",
+        "interactionRule":"pointerdown and pointermove preview a geometry-neutral path; pointerup commits a bounded stroke; Enter, Space, and feed a stroke use deterministic paths; Delete lifts latest; Escape or R releases",
+        "representationRupture":"closed attention body, horizontal temporal score, and compound pressure sheet -> one open SVG spine with seven unequal filaments",
+        "compositionRupture":"central body, row, and slab -> off-axis open organism with distributed strands and no enclosing contour",
+        "encounterRupture":"dwell, timed second beat, and pressure hold -> continuous drawn path whose trace is refused and whose field acts remotely",
+        "temporalRupture":"attention ledger, interval score, and pressure events -> four inherited growth states where the next contour is produced from the changed organism",
+        "mediumRupture":"even-odd filled bodies and token paths -> open stroke-based SVG geometry with actual path production",
+        "replay":true,"renderer":"deterministic inline SVG field-grown filament","grammar":"field-grown-filament",
+        "changedRule":"A bounded drawn path is refused as a trace; its direction and turning become a material field that changes the open spine, grows a remote filament, and unthreads a counter-filament.",
+        "visibleConsequence":"The blind view is one off-axis open vector organism. A valid stroke changes actual spine and filament paths away from the gesture, while the gesture itself disappears; later growth inherits reach and curl.",
+        "falsifier":"Delete if the gesture is copied as a trail, only color or readout changes, the nearest filament is always the answer, later strokes restart from seed, or exact lifting fails.",
+        "deletionCondition":"Delete v036 if caption-free viewing cannot distinguish the open filament organism from a route, waveform, diagram, or control panel, or if the drawn field is not causally visible in produced SVG paths.",
+        "promotion":"candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId":"p5-brush","title":"p5.brush","url":"https://github.com/acamposuribe/p5.brush",
+        "observedMechanism":"Programmable pressure, density, directional behavior, and vector fields participate in producing geometry rather than merely styling a finished mark.",
+        "translatedRule":"Refuse brushes, watercolor, hatching, grain, palette, composition, code, examples, and API surface. Translate material agency into Pure SVG: a bounded drawn path becomes a field that changes how an open spine and remote filaments are produced, while the gesture itself disappears.",
+        "visibleConsequence":"The open spine bends; the source filament absorbs and shortens; a remote filament grows; and a counter-filament unthreads. Those path changes persist into the next stroke.",
+        "falsifier":"If the stroke survives as a copied trail, if pressure only changes color or readout, if the nearest strand alone answers, if later growth resets, or if lifting is inexact, the translation fails.",
+        "antiCopy":"No brush appearance, watercolor, hatching, grain, vector-field drawing, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence":"Closes Pure SVG's attention / score / compound-sheet sequence and opens field-grown-filament: SVG economy now tests open path production and remote material consequence rather than a closed body or temporal mark exchange."
+      },
+      "decision": {"nextMutation":"Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v036 if the blind organism reads as a generic route or waveform, if the stroke is copied, if remote growth is cosmetic, if later strokes reset, or if exact lifting fails.","lineage":"svg-2026-10-24"},
+      "browserEvidence": {"status":"local browser matrix passed; production matrix pending","productionReady":false,"runner":"headless system Chrome via Playwright","viewports":["320x568","390x844","768x1024","1280x800","1920x1080"],"modes":["normal","reduced-motion"],"localMatrix":{"runs":20,"failures":0,"diagnostics":0,"overflowFailures":0,"screenshots":3,"rawAndCanonicalRoutes":true,"pointerCounts":{"pointerdown":1,"pointermove":4,"pointerup":1,"pointercancel":0},"interaction":{"committed":true,"lifted":true,"keyboard":true,"released":true,"weakRefused":true,"sprawlingRefused":true},"blindPreview":true},"unresolved":["production browser matrix","independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]}
+    },
+    {
       "id": "typography-2026-10-25",
       "currentId": "typography",
       "date": "2026-10-25",
