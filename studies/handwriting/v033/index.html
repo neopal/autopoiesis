@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171d20">
+  <title>MUTINE — The blank bends the sentence.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=033">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-25"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="material-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v033 / MATERIAL ALPHABET</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="material-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v033</span></nav>
+
+      <figure class="material-work artwork-frame" aria-labelledby="work-title">
+        <div id="material-field" class="material-field" tabindex="0" role="application" aria-label="A material alphabet. Choose two non-adjacent negative wells. The blank between them exerts pressure on the sentence and bends distant letters." aria-describedby="interaction-state" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete R Escape">
+          <div class="field-stamp" aria-hidden="true"><span>WEIGHT / SHIFT / RETURN</span><span>HANDWRITING 033</span></div>
+          <div class="field-readout" aria-live="polite"><span data-stage>material / quiet</span><span data-memory>0 folds · 5 wells</span></div>
+          <svg id="material-svg" viewBox="0 0 1000 620" role="img" aria-label="A folded typographic plate reading WEIGHT SHIFT">
+            <defs>
+              <linearGradient id="paper-gradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3ecdc"/><stop offset=".55" stop-color="#e4d8c3"/><stop offset="1" stop-color="#cbbda8"/></linearGradient>
+              <linearGradient id="crease-gradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9f493d" stop-opacity="0"/><stop offset=".5" stop-color="#9f493d" stop-opacity=".72"/><stop offset="1" stop-color="#345b68" stop-opacity="0"/></linearGradient>
+              <filter id="paper-shadow" x="-20%" y="-20%" width="150%" height="160%"><feDropShadow dx="18" dy="22" stdDeviation="18" flood-color="#000" flood-opacity=".4"/></filter>
+              <clipPath id="paper-clip"><path d="M78 126 C190 93 299 108 419 96 C548 83 690 114 916 91 L952 486 C794 516 650 490 507 514 C347 541 206 493 64 511 Z"/></clipPath>
+            </defs>
+            <path class="paper-shadow" d="M78 126 C190 93 299 108 419 96 C548 83 690 114 916 91 L952 486 C794 516 650 490 507 514 C347 541 206 493 64 511 Z" filter="url(#paper-shadow)"/>
+            <path class="paper-plane" d="M78 126 C190 93 299 108 419 96 C548 83 690 114 916 91 L952 486 C794 516 650 490 507 514 C347 541 206 493 64 511 Z"/>
+            <g clip-path="url(#paper-clip)">
+              <path class="paper-grain" d="M80 198 C265 164 410 189 585 166 C715 150 815 164 938 145 M70 437 C274 398 431 428 605 402 C748 380 842 404 955 382"/>
+              <g id="crease-layer"></g>
+              <g id="glyph-layer"></g>
+              <g id="well-layer"></g>
+            </g>
+            <path class="paper-edge" d="M78 126 C190 93 299 108 419 96 C548 83 690 114 916 91 M952 486 C794 516 650 490 507 514 C347 541 206 493 64 511"/>
+          </svg>
+          <div class="well-buttons" aria-label="Negative wells">
+            <button class="well-button" data-well="0" type="button" aria-label="Load negative well 1">01</button>
+            <button class="well-button" data-well="1" type="button" aria-label="Load negative well 2">02</button>
+            <button class="well-button" data-well="2" type="button" aria-label="Load negative well 3">03</button>
+            <button class="well-button" data-well="3" type="button" aria-label="Load negative well 4">04</button>
+            <button class="well-button" data-well="4" type="button" aria-label="Load negative well 5">05</button>
+          </div>
+          <div class="field-controls" aria-label="Material actions">
+            <button id="span-control" type="button">make a fold</button>
+            <button id="lift-span" type="button">lift latest</button>
+            <button id="release-span" type="button">release plate</button>
+          </div>
+          <p class="field-hint">choose two non-adjacent gaps · pressure lives between them</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v033-material-alphabet</span><span>blank &gt; pressure &gt; letter</span></figcaption>
+      </figure>
+
+      <section class="material-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MATERIAL SYNTAX / v033</p>
+        <h1 id="work-title">The blank bends<br><i>the sentence.</i></h1>
+        <p class="material-lede">A gap is not the absence of a letter. It is the pressure that makes the next letter take shape.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">LOAD THE NEGATIVE SPACE</p>
+          <p class="interaction-copy">Choose two non-adjacent wells along the plate. The first selection only loads the blank. The second creates a material span: the sentence bends at a distance, a copied form appears, and another glyph opens into a counterform. The wells themselves stay exact. Arrow keys move focus; Enter and Space perform a deterministic fold.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The plate is quiet. No blank is carrying pressure.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v033</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v032's cadence, v031's route, and v030's sentence-wide refusal. The work is one typographic plate with five negative wells. A non-adjacent gap span changes how the whole alphabet is produced: the pressure folds remote letters rather than decorating the selected blank.</dd></div>
+          <div><dt>visitor action</dt><dd>Load two non-adjacent negative wells. Arrow keys move the well focus; Enter or Space loads it. Delete lifts the latest material fold; R or Escape releases the plate. Four folds remain liftable and later folds replay from the changed material.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if a single well changes geometry, if adjacent wells commit, if selected wells become the answer, if pressure exists only as colour or labels, if later folds restart from the quiet plate, or if the counterform is not an actual glyph absence.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v033 if caption-free viewing reads as a decorated word or route diagram instead of a material typographic plate whose blank spaces visibly produce later forms.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-24/">previous daily work</a><a href="/journal/#journal-typography-2026-10-25">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=033"></script>
+</body>
+</html>
