@@ -91,7 +91,7 @@
         "lineage": "typography-2026-10-25"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, canonical readback, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, canonical readback, favicon, overflow, touch targets, and diagnostics passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -120,8 +120,24 @@
         "localReadbacks": "local canonical work route rendered the daily title and detail marker; raw tableau, catalog source, favicon, overflow, and diagnostics returned cleanly",
         "localProofPath": "research/qa/proofs/handwriting-v034-2026-10-26/",
         "localScreenshotCount": 21,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeploymentId": "dpl_128mwTDtTRrkMLYxidKxzKCFxFnX",
+        "productionDeploymentUrl": "https://autopoiesis-lr1hgkf6r-lairpa-hotmailfrs-projects.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v034/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v034/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/typography-2026-10-26/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "real production pointer presence kept the exact geometry signature; leaving committed one remote answer and changed actual geometry; Delete restored the exact baseline; Enter committed a deterministic departure; all three controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept 14 browser-native fragments and four settled remote departures visible while hiding readout, controls, hint, and register labels; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production canonical work route rendered the daily title and detail marker; raw tableau, deployed public catalog, Journal route, favicon, overflow, and diagnostics returned cleanly",
+        "productionProofPath": "research/qa/proofs/handwriting-v034-2026-10-26-production/",
+        "productionScreenshotCount": 21,
         "unresolved": [
-          "production browser verification",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]

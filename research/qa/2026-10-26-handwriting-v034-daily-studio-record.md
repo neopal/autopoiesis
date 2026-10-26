@@ -23,6 +23,16 @@ The cultural field reference is [little-critters](https://github.com/GordenSun/l
 - Blind preview: 14 fragments and four settled departures remained visible at `390×844`; controls/readout/hint/labels hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
 - Local proof: `research/qa/proofs/handwriting-v034-2026-10-26/`.
 
+## Publication evidence
+
+- **Git commit:** `470c64d067fe71e4c21794236ce519f0278ab777`
+- **Remote SHA:** matched `origin/main` before deployment.
+- **Production deployment:** `dpl_128mwTDtTRrkMLYxidKxzKCFxFnX` at `https://autopoiesis-lr1hgkf6r-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+- Headless Chrome via Playwright: **20/20 production raw + canonical viewport runs passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced motion.
+- Production diagnostics: `0`; overflow failures: `0`; minimum controls: `44px`.
+- Production pointer path, keyboard path, Delete lift, blind preview, canonical work, and 14-fragment/four-departure readback passed.
+- Production proof: `research/qa/proofs/handwriting-v034-2026-10-26-production/`.
+
 ## Unresolved
 
-Production verification, independent caption-free perceptual review, and provider revision linkage remain open. Candidate remains held until those gates are observed.
+Independent caption-free perceptual review and provider revision linkage remain open. Candidate remains held; the deployment is technically verified but not called exhibition-ready.
