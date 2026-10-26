@@ -89,7 +89,7 @@
         "lineage": "brush-2026-10-24"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local seam interaction, keyboard paths, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -117,10 +117,21 @@
         "localProofPath": "research/qa/proofs/brush-v038-2026-10-26/",
         "localScreenshotCount": 21,
         "unresolved": [
-          "production browser matrix and production readback",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
-        ]
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionUrl": "https://autopoiesis-fh4vn2j1m-lairpa-hotmailfrs-projects.vercel.app",
+        "productionDeployment": "dpl_C9c5j43vk5tDhuyGx5tMADuEz2qn",
+        "productionRunner": "headless system Chrome via Playwright",
+        "productionViewportRuns": 20,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionJournalReadback": "rendered /journal/ contained journal-brush-2026-10-26 and The paint opens between layers.",
+        "productionRecordMatches": 1,
+        "productionCatalogMatches": 1,
+        "productionProofPath": "research/qa/proofs/brush-v038-2026-10-26-production/",
+        "productionScreenshotCount": 21
       }
     },
     {
