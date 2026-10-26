@@ -1,0 +1,922 @@
+{
+  "generatedAt": "2026-10-26T13:32:32.296Z",
+  "base": "http://127.0.0.1:4290",
+  "target": "brush-2026-10-26",
+  "rawPath": "/studies/p5-brush/v038/?preview=1&interaction=1",
+  "canonicalPath": "/works/brush-2026-10-26/",
+  "blindPath": "/studies/p5-brush/v038/?preview=1&static=1&blind=1",
+  "viewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "matrix": [
+    {
+      "label": "raw-320x568-normal",
+      "width": 320,
+      "height": 568,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-320x568-normal",
+      "width": 320,
+      "height": 568,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeCount": 1,
+        "stage": {
+          "x": 18,
+          "y": 195.5,
+          "width": 284,
+          "height": 1185.578125
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-390x844-normal",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-390x844-normal",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeCount": 1,
+        "stage": {
+          "x": 18,
+          "y": 182.5,
+          "width": 354,
+          "height": 1100.359375
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-768x1024-normal",
+      "width": 768,
+      "height": 1024,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-768x1024-normal",
+      "width": 768,
+      "height": 1024,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeCount": 1,
+        "stage": {
+          "x": 18,
+          "y": 182.5,
+          "width": 732,
+          "height": 1138.4375
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-1280x800-normal",
+      "width": 1280,
+      "height": 800,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-1280x800-normal",
+      "width": 1280,
+      "height": 800,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeCount": 1,
+        "stage": {
+          "x": 56,
+          "y": 160,
+          "width": 736.546875,
+          "height": 1295.875
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-1920x1080-normal",
+      "width": 1920,
+      "height": 1080,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-1920x1080-normal",
+      "width": 1920,
+      "height": 1080,
+      "reduced": false,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeCount": 1,
+        "stage": {
+          "x": 376,
+          "y": 160,
+          "width": 723.59375,
+          "height": 1321.4375
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-320x568-reduced",
+      "width": 320,
+      "height": 568,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-320x568-reduced",
+      "width": 320,
+      "height": 568,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeCount": 1,
+        "stage": {
+          "x": 18,
+          "y": 195.5,
+          "width": 284,
+          "height": 1185.578125
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-390x844-reduced",
+      "width": 390,
+      "height": 844,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-390x844-reduced",
+      "width": 390,
+      "height": 844,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeCount": 1,
+        "stage": {
+          "x": 18,
+          "y": 182.5,
+          "width": 354,
+          "height": 1100.359375
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-768x1024-reduced",
+      "width": 768,
+      "height": 1024,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-768x1024-reduced",
+      "width": 768,
+      "height": 1024,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeCount": 1,
+        "stage": {
+          "x": 18,
+          "y": 182.5,
+          "width": 732,
+          "height": 1138.4375
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-1280x800-reduced",
+      "width": 1280,
+      "height": 800,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-1280x800-reduced",
+      "width": 1280,
+      "height": 800,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeCount": 1,
+        "stage": {
+          "x": 56,
+          "y": 160,
+          "width": 736.546875,
+          "height": 1295.875
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "raw-1920x1080-reduced",
+      "width": 1920,
+      "height": 1080,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeCount": 0,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    },
+    {
+      "label": "canonical-1920x1080-reduced",
+      "width": 1920,
+      "height": 1080,
+      "reduced": true,
+      "status": 200,
+      "measurements": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeCount": 1,
+        "stage": {
+          "x": 376,
+          "y": 160,
+          "width": 723.59375,
+          "height": 1321.4375
+        }
+      },
+      "artworkMeasurements": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "layerCount": 9,
+        "canvasCount": 0,
+        "stack": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720
+        },
+        "ready": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "httpErrors": []
+      }
+    }
+  ],
+  "interaction": {
+    "baseline": "{\"skins\":[{\"id\":0,\"x\":0.28452,\"y\":0.50317,\"width\":0.34855,\"height\":0.52584,\"angle\":-18.83167,\"depth\":0.14,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.09235,\"y\":0.16183},{\"x\":0.32342,\"y\":0.05511},{\"x\":0.64788,\"y\":0.07965},{\"x\":0.92971,\"y\":0.29237},{\"x\":0.8762,\"y\":0.57719},{\"x\":0.96564,\"y\":0.81997},{\"x\":0.64314,\"y\":0.963},{\"x\":0.26365,\"y\":0.96697},{\"x\":0.05175,\"y\":0.81784},{\"x\":0.14296,\"y\":0.41491}]},{\"id\":1,\"x\":0.33083,\"y\":0.53293,\"width\":0.33543,\"height\":0.50958,\"angle\":-17.44068,\"depth\":0.168,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08376,\"y\":0.19229},{\"x\":0.3229,\"y\":0.05883},{\"x\":0.71834,\"y\":0.1056},{\"x\":0.91685,\"y\":0.20823},{\"x\":0.87471,\"y\":0.49841},{\"x\":0.95042,\"y\":0.78104},{\"x\":0.56469,\"y\":0.93907},{\"x\":0.27917,\"y\":0.95105},{\"x\":0.03174,\"y\":0.80929},{\"x\":0.11516,\"y\":0.40971}]},{\"id\":2,\"x\":0.39897,\"y\":0.53688,\"width\":0.34195,\"height\":0.53557,\"angle\":-9.32443,\"depth\":0.196,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.1144,\"y\":0.15907},{\"x\":0.28772,\"y\":0.03201},{\"x\":0.67456,\"y\":0.06123},{\"x\":0.9097,\"y\":0.20127},{\"x\":0.86363,\"y\":0.50356},{\"x\":0.94619,\"y\":0.80382},{\"x\":0.63855,\"y\":0.92852},{\"x\":0.26814,\"y\":0.96824},{\"x\":0.06048,\"y\":0.74827},{\"x\":0.10809,\"y\":0.47384}]},{\"id\":3,\"x\":0.4367,\"y\":0.51812,\"width\":0.33376,\"height\":0.52024,\"angle\":-7.82274,\"depth\":0.224,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.09685,\"y\":0.19616},{\"x\":0.29312,\"y\":0.06305},{\"x\":0.65068,\"y\":0.06966},{\"x\":0.90215,\"y\":0.20117},{\"x\":0.85364,\"y\":0.54867},{\"x\":0.92524,\"y\":0.79419},{\"x\":0.62346,\"y\":0.91972},{\"x\":0.24558,\"y\":0.9844},{\"x\":0.05639,\"y\":0.7909},{\"x\":0.10253,\"y\":0.41029}]},{\"id\":4,\"x\":0.50253,\"y\":0.50354,\"width\":0.35508,\"height\":0.49944,\"angle\":0.22256,\"depth\":0.252,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.06761,\"y\":0.13508},{\"x\":0.2789,\"y\":0.0335},{\"x\":0.66717,\"y\":0.06215},{\"x\":0.90533,\"y\":0.28379},{\"x\":0.89286,\"y\":0.5598},{\"x\":0.94062,\"y\":0.76461},{\"x\":0.58506,\"y\":0.96161},{\"x\":0.25328,\"y\":0.9806},{\"x\":0.06961,\"y\":0.79758},{\"x\":0.11374,\"y\":0.46283}]},{\"id\":5,\"x\":0.55943,\"y\":0.47262,\"width\":0.34767,\"height\":0.54126,\"angle\":1.07874,\"depth\":0.28,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":4,\"path\":[{\"x\":0.07613,\"y\":0.17762},{\"x\":0.33809,\"y\":0.02553},{\"x\":0.66278,\"y\":0.09189},{\"x\":0.90745,\"y\":0.289},{\"x\":0.87823,\"y\":0.53345},{\"x\":0.93904,\"y\":0.79355},{\"x\":0.56921,\"y\":0.93312},{\"x\":0.27339,\"y\":0.95749},{\"x\":0.05429,\"y\":0.79955},{\"x\":0.09618,\"y\":0.39685}]},{\"id\":6,\"x\":0.61695,\"y\":0.45661,\"width\":0.34845,\"height\":0.51899,\"angle\":8.89916,\"depth\":0.308,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08853,\"y\":0.18367},{\"x\":0.28652,\"y\":0.078},{\"x\":0.68825,\"y\":0.09233},{\"x\":0.90788,\"y\":0.29624},{\"x\":0.83897,\"y\":0.51888},{\"x\":0.9574,\"y\":0.79743},{\"x\":0.59401,\"y\":0.94924},{\"x\":0.23922,\"y\":0.97696},{\"x\":0.05066,\"y\":0.78265},{\"x\":0.12925,\"y\":0.44233}]},{\"id\":7,\"x\":0.65883,\"y\":0.47496,\"width\":0.33864,\"height\":0.51953,\"angle\":17.44227,\"depth\":0.336,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.10443,\"y\":0.12451},{\"x\":0.27179,\"y\":0.0533},{\"x\":0.64541,\"y\":0.09162},{\"x\":0.92655,\"y\":0.21906},{\"x\":0.87061,\"y\":0.53592},{\"x\":0.94889,\"y\":0.77276},{\"x\":0.55915,\"y\":0.9154},{\"x\":0.22808,\"y\":0.98803},{\"x\":0.04603,\"y\":0.74776},{\"x\":0.1285,\"y\":0.42858}]},{\"id\":8,\"x\":0.7144,\"y\":0.5047,\"width\":0.32512,\"height\":0.51638,\"angle\":14.26534,\"depth\":0.364,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.06891,\"y\":0.16355},{\"x\":0.28188,\"y\":0.02969},{\"x\":0.71782,\"y\":0.0944},{\"x\":0.93391,\"y\":0.25771},{\"x\":0.85491,\"y\":0.50628},{\"x\":0.97356,\"y\":0.76206},{\"x\":0.62895,\"y\":0.92263},{\"x\":0.27449,\"y\":0.95933},{\"x\":0.06372,\"y\":0.81933},{\"x\":0.11585,\"y\":0.41791}]}],\"seams\":[{\"id\":0,\"x\":0.17,\"y\":0.2,\"angle\":-18,\"pressure\":0,\"open\":0},{\"id\":1,\"x\":0.31,\"y\":0.13,\"angle\":-4,\"pressure\":0,\"open\":0},{\"id\":2,\"x\":0.49,\"y\":0.11,\"angle\":10,\"pressure\":0,\"open\":0},{\"id\":3,\"x\":0.68,\"y\":0.16,\"angle\":24,\"pressure\":0,\"open\":0},{\"id\":4,\"x\":0.82,\"y\":0.31,\"angle\":70,\"pressure\":0,\"open\":0},{\"id\":5,\"x\":0.84,\"y\":0.57,\"angle\":106,\"pressure\":0,\"open\":0},{\"id\":6,\"x\":0.69,\"y\":0.79,\"angle\":164,\"pressure\":0,\"open\":0},{\"id\":7,\"x\":0.37,\"y\":0.84,\"angle\":204,\"pressure\":0,\"open\":0}]}",
+    "baselineMemory": 0,
+    "afterFirst": {
+      "signature": "{\"skins\":[{\"id\":0,\"x\":0.28452,\"y\":0.50317,\"width\":0.34855,\"height\":0.52584,\"angle\":-18.83167,\"depth\":0.14,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.09235,\"y\":0.16183},{\"x\":0.32342,\"y\":0.05511},{\"x\":0.64788,\"y\":0.07965},{\"x\":0.92971,\"y\":0.29237},{\"x\":0.8762,\"y\":0.57719},{\"x\":0.96564,\"y\":0.81997},{\"x\":0.64314,\"y\":0.963},{\"x\":0.26365,\"y\":0.96697},{\"x\":0.05175,\"y\":0.81784},{\"x\":0.14296,\"y\":0.41491}]},{\"id\":1,\"x\":0.33083,\"y\":0.53293,\"width\":0.33543,\"height\":0.50958,\"angle\":-17.44068,\"depth\":0.168,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08376,\"y\":0.19229},{\"x\":0.3229,\"y\":0.05883},{\"x\":0.71834,\"y\":0.1056},{\"x\":0.91685,\"y\":0.20823},{\"x\":0.87471,\"y\":0.49841},{\"x\":0.95042,\"y\":0.78104},{\"x\":0.56469,\"y\":0.93907},{\"x\":0.27917,\"y\":0.95105},{\"x\":0.03174,\"y\":0.80929},{\"x\":0.11516,\"y\":0.40971}]},{\"id\":2,\"x\":0.39897,\"y\":0.53688,\"width\":0.34195,\"height\":0.53557,\"angle\":-9.32443,\"depth\":0.196,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.1144,\"y\":0.15907},{\"x\":0.28772,\"y\":0.03201},{\"x\":0.67456,\"y\":0.06123},{\"x\":0.9097,\"y\":0.20127},{\"x\":0.86363,\"y\":0.50356},{\"x\":0.94619,\"y\":0.80382},{\"x\":0.63855,\"y\":0.92852},{\"x\":0.26814,\"y\":0.96824},{\"x\":0.06048,\"y\":0.74827},{\"x\":0.10809,\"y\":0.47384}]},{\"id\":3,\"x\":0.4367,\"y\":0.51812,\"width\":0.33376,\"height\":0.52024,\"angle\":-7.82274,\"depth\":0.224,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.09685,\"y\":0.19616},{\"x\":0.29312,\"y\":0.06305},{\"x\":0.65068,\"y\":0.06966},{\"x\":0.90215,\"y\":0.20117},{\"x\":0.85364,\"y\":0.54867},{\"x\":0.92524,\"y\":0.79419},{\"x\":0.62346,\"y\":0.91972},{\"x\":0.24558,\"y\":0.9844},{\"x\":0.05639,\"y\":0.7909},{\"x\":0.10253,\"y\":0.41029}]},{\"id\":4,\"x\":0.50253,\"y\":0.50354,\"width\":0.35508,\"height\":0.49944,\"angle\":0.22256,\"depth\":0.252,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.06761,\"y\":0.13508},{\"x\":0.2789,\"y\":0.0335},{\"x\":0.66717,\"y\":0.06215},{\"x\":0.90533,\"y\":0.28379},{\"x\":0.89286,\"y\":0.5598},{\"x\":0.94062,\"y\":0.76461},{\"x\":0.58506,\"y\":0.96161},{\"x\":0.25328,\"y\":0.9806},{\"x\":0.06961,\"y\":0.79758},{\"x\":0.11374,\"y\":0.46283}]},{\"id\":5,\"x\":0.55943,\"y\":0.47262,\"width\":0.34767,\"height\":0.54126,\"angle\":1.07874,\"depth\":0.28,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":4,\"path\":[{\"x\":0.07613,\"y\":0.17762},{\"x\":0.33809,\"y\":0.02553},{\"x\":0.66278,\"y\":0.09189},{\"x\":0.90745,\"y\":0.289},{\"x\":0.87823,\"y\":0.53345},{\"x\":0.93904,\"y\":0.79355},{\"x\":0.56921,\"y\":0.93312},{\"x\":0.27339,\"y\":0.95749},{\"x\":0.05429,\"y\":0.79955},{\"x\":0.09618,\"y\":0.39685}]},{\"id\":6,\"x\":0.61695,\"y\":0.45661,\"width\":0.34845,\"height\":0.51899,\"angle\":8.89916,\"depth\":0.308,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08853,\"y\":0.18367},{\"x\":0.28652,\"y\":0.078},{\"x\":0.68825,\"y\":0.09233},{\"x\":0.90788,\"y\":0.29624},{\"x\":0.83897,\"y\":0.51888},{\"x\":0.9574,\"y\":0.79743},{\"x\":0.59401,\"y\":0.94924},{\"x\":0.23922,\"y\":0.97696},{\"x\":0.05066,\"y\":0.78265},{\"x\":0.12925,\"y\":0.44233}]},{\"id\":7,\"x\":0.65883,\"y\":0.47496,\"width\":0.33864,\"height\":0.51953,\"angle\":17.44227,\"depth\":0.336,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.10443,\"y\":0.12451},{\"x\":0.27179,\"y\":0.0533},{\"x\":0.64541,\"y\":0.09162},{\"x\":0.92655,\"y\":0.21906},{\"x\":0.87061,\"y\":0.53592},{\"x\":0.94889,\"y\":0.77276},{\"x\":0.55915,\"y\":0.9154},{\"x\":0.22808,\"y\":0.98803},{\"x\":0.04603,\"y\":0.74776},{\"x\":0.1285,\"y\":0.42858}]},{\"id\":8,\"x\":0.7144,\"y\":0.5047,\"width\":0.32512,\"height\":0.51638,\"angle\":14.26534,\"depth\":0.364,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.06891,\"y\":0.16355},{\"x\":0.28188,\"y\":0.02969},{\"x\":0.71782,\"y\":0.0944},{\"x\":0.93391,\"y\":0.25771},{\"x\":0.85491,\"y\":0.50628},{\"x\":0.97356,\"y\":0.76206},{\"x\":0.62895,\"y\":0.92263},{\"x\":0.27449,\"y\":0.95933},{\"x\":0.06372,\"y\":0.81933},{\"x\":0.11585,\"y\":0.41791}]}],\"seams\":[{\"id\":0,\"x\":0.17,\"y\":0.2,\"angle\":-18,\"pressure\":0,\"open\":0},{\"id\":1,\"x\":0.31,\"y\":0.13,\"angle\":-4,\"pressure\":0,\"open\":0},{\"id\":2,\"x\":0.49,\"y\":0.11,\"angle\":10,\"pressure\":0,\"open\":0},{\"id\":3,\"x\":0.68,\"y\":0.16,\"angle\":24,\"pressure\":0,\"open\":0},{\"id\":4,\"x\":0.82,\"y\":0.31,\"angle\":70,\"pressure\":0,\"open\":0},{\"id\":5,\"x\":0.84,\"y\":0.57,\"angle\":106,\"pressure\":0,\"open\":0},{\"id\":6,\"x\":0.69,\"y\":0.79,\"angle\":164,\"pressure\":0,\"open\":0},{\"id\":7,\"x\":0.37,\"y\":0.84,\"angle\":204,\"pressure\":0,\"open\":0}]}",
+      "pending": [
+        1
+      ],
+      "memory": 0,
+      "interaction": "seam-selected"
+    },
+    "afterCommit": {
+      "signature": "{\"skins\":[{\"id\":0,\"x\":0.28452,\"y\":0.50317,\"width\":0.34855,\"height\":0.52584,\"angle\":-18.83167,\"depth\":0.14,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.09235,\"y\":0.16183},{\"x\":0.32342,\"y\":0.05511},{\"x\":0.64788,\"y\":0.07965},{\"x\":0.92971,\"y\":0.29237},{\"x\":0.8762,\"y\":0.57719},{\"x\":0.96564,\"y\":0.81997},{\"x\":0.64314,\"y\":0.963},{\"x\":0.26365,\"y\":0.96697},{\"x\":0.05175,\"y\":0.81784},{\"x\":0.14296,\"y\":0.41491}]},{\"id\":1,\"x\":0.34883,\"y\":0.50493,\"width\":0.33543,\"height\":0.50958,\"angle\":-3.24068,\"depth\":0.268,\"fold\":0.5696,\"opening\":0.4272,\"peel\":0.844,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.09751,\"y\":0.2042},{\"x\":0.31603,\"y\":0.06386},{\"x\":0.72151,\"y\":0.10693},{\"x\":0.90584,\"y\":0.2174},{\"x\":0.8874,\"y\":0.50926},{\"x\":0.946,\"y\":0.78362},{\"x\":0.56956,\"y\":0.9421},{\"x\":0.26615,\"y\":0.96223},{\"x\":0.04221,\"y\":0.81792},{\"x\":0.11219,\"y\":0.41084}]},{\"id\":2,\"x\":0.39897,\"y\":0.53688,\"width\":0.34195,\"height\":0.53557,\"angle\":-9.32443,\"depth\":0.196,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.1144,\"y\":0.15907},{\"x\":0.28772,\"y\":0.03201},{\"x\":0.67456,\"y\":0.06123},{\"x\":0.9097,\"y\":0.20127},{\"x\":0.86363,\"y\":0.50356},{\"x\":0.94619,\"y\":0.80382},{\"x\":0.63855,\"y\":0.92852},{\"x\":0.26814,\"y\":0.96824},{\"x\":0.06048,\"y\":0.74827},{\"x\":0.10809,\"y\":0.47384}]},{\"id\":3,\"x\":0.4127,\"y\":0.55012,\"width\":0.33376,\"height\":0.52024,\"angle\":-4.82274,\"depth\":0.199,\"fold\":0.12,\"opening\":0.5848,\"peel\":0,\"sealed\":0,\"shed\":1.02,\"tone\":3,\"path\":[{\"x\":0.1106,\"y\":0.18425},{\"x\":0.28625,\"y\":0.05802},{\"x\":0.65385,\"y\":0.06833},{\"x\":0.89114,\"y\":0.192},{\"x\":0.86633,\"y\":0.53782},{\"x\":0.92082,\"y\":0.79161},{\"x\":0.62833,\"y\":0.91669},{\"x\":0.23256,\"y\":0.97322},{\"x\":0.06686,\"y\":0.78227},{\"x\":0.09956,\"y\":0.40916}]},{\"id\":4,\"x\":0.50253,\"y\":0.50354,\"width\":0.35508,\"height\":0.49944,\"angle\":0.22256,\"depth\":0.252,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.06761,\"y\":0.13508},{\"x\":0.2789,\"y\":0.0335},{\"x\":0.66717,\"y\":0.06215},{\"x\":0.90533,\"y\":0.28379},{\"x\":0.89286,\"y\":0.5598},{\"x\":0.94062,\"y\":0.76461},{\"x\":0.58506,\"y\":0.96161},{\"x\":0.25328,\"y\":0.9806},{\"x\":0.06961,\"y\":0.79758},{\"x\":0.11374,\"y\":0.46283}]},{\"id\":5,\"x\":0.55943,\"y\":0.47262,\"width\":0.34767,\"height\":0.54126,\"angle\":1.07874,\"depth\":0.28,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":4,\"path\":[{\"x\":0.07613,\"y\":0.17762},{\"x\":0.33809,\"y\":0.02553},{\"x\":0.66278,\"y\":0.09189},{\"x\":0.90745,\"y\":0.289},{\"x\":0.87823,\"y\":0.53345},{\"x\":0.93904,\"y\":0.79355},{\"x\":0.56921,\"y\":0.93312},{\"x\":0.27339,\"y\":0.95749},{\"x\":0.05429,\"y\":0.79955},{\"x\":0.09618,\"y\":0.39685}]},{\"id\":6,\"x\":0.61695,\"y\":0.45661,\"width\":0.34845,\"height\":0.51899,\"angle\":8.89916,\"depth\":0.308,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08853,\"y\":0.18367},{\"x\":0.28652,\"y\":0.078},{\"x\":0.68825,\"y\":0.09233},{\"x\":0.90788,\"y\":0.29624},{\"x\":0.83897,\"y\":0.51888},{\"x\":0.9574,\"y\":0.79743},{\"x\":0.59401,\"y\":0.94924},{\"x\":0.23922,\"y\":0.97696},{\"x\":0.05066,\"y\":0.78265},{\"x\":0.12925,\"y\":0.44233}]},{\"id\":7,\"x\":0.64683,\"y\":0.49296,\"width\":0.33864,\"height\":0.51953,\"angle\":12.94227,\"depth\":0.336,\"fold\":-0.22,\"opening\":0,\"peel\":0,\"sealed\":0.8632,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.09068,\"y\":0.13642},{\"x\":0.27866,\"y\":0.05833},{\"x\":0.64224,\"y\":0.09295},{\"x\":0.93756,\"y\":0.22823},{\"x\":0.85792,\"y\":0.54677},{\"x\":0.95331,\"y\":0.77534},{\"x\":0.55428,\"y\":0.91843},{\"x\":0.2411,\"y\":0.98},{\"x\":0.03556,\"y\":0.75639},{\"x\":0.13147,\"y\":0.42971}]},{\"id\":8,\"x\":0.7144,\"y\":0.5047,\"width\":0.32512,\"height\":0.51638,\"angle\":14.26534,\"depth\":0.364,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.06891,\"y\":0.16355},{\"x\":0.28188,\"y\":0.02969},{\"x\":0.71782,\"y\":0.0944},{\"x\":0.93391,\"y\":0.25771},{\"x\":0.85491,\"y\":0.50628},{\"x\":0.97356,\"y\":0.76206},{\"x\":0.62895,\"y\":0.92263},{\"x\":0.27449,\"y\":0.95933},{\"x\":0.06372,\"y\":0.81933},{\"x\":0.11585,\"y\":0.41791}]}],\"seams\":[{\"id\":0,\"x\":0.17,\"y\":0.2,\"angle\":-18,\"pressure\":0,\"open\":0},{\"id\":1,\"x\":0.31,\"y\":0.13,\"angle\":-4,\"pressure\":0.84,\"open\":0.28},{\"id\":2,\"x\":0.49,\"y\":0.11,\"angle\":10,\"pressure\":0.84,\"open\":0.1},{\"id\":3,\"x\":0.68,\"y\":0.16,\"angle\":24,\"pressure\":0.84,\"open\":0.1},{\"id\":4,\"x\":0.82,\"y\":0.31,\"angle\":70,\"pressure\":0.84,\"open\":0.1},{\"id\":5,\"x\":0.84,\"y\":0.57,\"angle\":106,\"pressure\":0.84,\"open\":0.28},{\"id\":6,\"x\":0.69,\"y\":0.79,\"angle\":164,\"pressure\":0,\"open\":0},{\"id\":7,\"x\":0.37,\"y\":0.84,\"angle\":204,\"pressure\":0,\"open\":0}]}",
+      "memory": 1,
+      "interaction": "pinch-committed",
+      "event": {
+        "source": "visitor-pinch",
+        "a": 1,
+        "b": 5,
+        "span": 4,
+        "pressure": 1.04,
+        "field": 3477450065,
+        "type": "pressure-span",
+        "committed": true,
+        "index": 0,
+        "peelSkin": 1,
+        "sealSkin": 7,
+        "shedSkin": 3
+      }
+    },
+    "afterLift": {
+      "signature": "{\"skins\":[{\"id\":0,\"x\":0.28452,\"y\":0.50317,\"width\":0.34855,\"height\":0.52584,\"angle\":-18.83167,\"depth\":0.14,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.09235,\"y\":0.16183},{\"x\":0.32342,\"y\":0.05511},{\"x\":0.64788,\"y\":0.07965},{\"x\":0.92971,\"y\":0.29237},{\"x\":0.8762,\"y\":0.57719},{\"x\":0.96564,\"y\":0.81997},{\"x\":0.64314,\"y\":0.963},{\"x\":0.26365,\"y\":0.96697},{\"x\":0.05175,\"y\":0.81784},{\"x\":0.14296,\"y\":0.41491}]},{\"id\":1,\"x\":0.33083,\"y\":0.53293,\"width\":0.33543,\"height\":0.50958,\"angle\":-17.44068,\"depth\":0.168,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08376,\"y\":0.19229},{\"x\":0.3229,\"y\":0.05883},{\"x\":0.71834,\"y\":0.1056},{\"x\":0.91685,\"y\":0.20823},{\"x\":0.87471,\"y\":0.49841},{\"x\":0.95042,\"y\":0.78104},{\"x\":0.56469,\"y\":0.93907},{\"x\":0.27917,\"y\":0.95105},{\"x\":0.03174,\"y\":0.80929},{\"x\":0.11516,\"y\":0.40971}]},{\"id\":2,\"x\":0.39897,\"y\":0.53688,\"width\":0.34195,\"height\":0.53557,\"angle\":-9.32443,\"depth\":0.196,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.1144,\"y\":0.15907},{\"x\":0.28772,\"y\":0.03201},{\"x\":0.67456,\"y\":0.06123},{\"x\":0.9097,\"y\":0.20127},{\"x\":0.86363,\"y\":0.50356},{\"x\":0.94619,\"y\":0.80382},{\"x\":0.63855,\"y\":0.92852},{\"x\":0.26814,\"y\":0.96824},{\"x\":0.06048,\"y\":0.74827},{\"x\":0.10809,\"y\":0.47384}]},{\"id\":3,\"x\":0.4367,\"y\":0.51812,\"width\":0.33376,\"height\":0.52024,\"angle\":-7.82274,\"depth\":0.224,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.09685,\"y\":0.19616},{\"x\":0.29312,\"y\":0.06305},{\"x\":0.65068,\"y\":0.06966},{\"x\":0.90215,\"y\":0.20117},{\"x\":0.85364,\"y\":0.54867},{\"x\":0.92524,\"y\":0.79419},{\"x\":0.62346,\"y\":0.91972},{\"x\":0.24558,\"y\":0.9844},{\"x\":0.05639,\"y\":0.7909},{\"x\":0.10253,\"y\":0.41029}]},{\"id\":4,\"x\":0.50253,\"y\":0.50354,\"width\":0.35508,\"height\":0.49944,\"angle\":0.22256,\"depth\":0.252,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.06761,\"y\":0.13508},{\"x\":0.2789,\"y\":0.0335},{\"x\":0.66717,\"y\":0.06215},{\"x\":0.90533,\"y\":0.28379},{\"x\":0.89286,\"y\":0.5598},{\"x\":0.94062,\"y\":0.76461},{\"x\":0.58506,\"y\":0.96161},{\"x\":0.25328,\"y\":0.9806},{\"x\":0.06961,\"y\":0.79758},{\"x\":0.11374,\"y\":0.46283}]},{\"id\":5,\"x\":0.55943,\"y\":0.47262,\"width\":0.34767,\"height\":0.54126,\"angle\":1.07874,\"depth\":0.28,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":4,\"path\":[{\"x\":0.07613,\"y\":0.17762},{\"x\":0.33809,\"y\":0.02553},{\"x\":0.66278,\"y\":0.09189},{\"x\":0.90745,\"y\":0.289},{\"x\":0.87823,\"y\":0.53345},{\"x\":0.93904,\"y\":0.79355},{\"x\":0.56921,\"y\":0.93312},{\"x\":0.27339,\"y\":0.95749},{\"x\":0.05429,\"y\":0.79955},{\"x\":0.09618,\"y\":0.39685}]},{\"id\":6,\"x\":0.61695,\"y\":0.45661,\"width\":0.34845,\"height\":0.51899,\"angle\":8.89916,\"depth\":0.308,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08853,\"y\":0.18367},{\"x\":0.28652,\"y\":0.078},{\"x\":0.68825,\"y\":0.09233},{\"x\":0.90788,\"y\":0.29624},{\"x\":0.83897,\"y\":0.51888},{\"x\":0.9574,\"y\":0.79743},{\"x\":0.59401,\"y\":0.94924},{\"x\":0.23922,\"y\":0.97696},{\"x\":0.05066,\"y\":0.78265},{\"x\":0.12925,\"y\":0.44233}]},{\"id\":7,\"x\":0.65883,\"y\":0.47496,\"width\":0.33864,\"height\":0.51953,\"angle\":17.44227,\"depth\":0.336,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.10443,\"y\":0.12451},{\"x\":0.27179,\"y\":0.0533},{\"x\":0.64541,\"y\":0.09162},{\"x\":0.92655,\"y\":0.21906},{\"x\":0.87061,\"y\":0.53592},{\"x\":0.94889,\"y\":0.77276},{\"x\":0.55915,\"y\":0.9154},{\"x\":0.22808,\"y\":0.98803},{\"x\":0.04603,\"y\":0.74776},{\"x\":0.1285,\"y\":0.42858}]},{\"id\":8,\"x\":0.7144,\"y\":0.5047,\"width\":0.32512,\"height\":0.51638,\"angle\":14.26534,\"depth\":0.364,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.06891,\"y\":0.16355},{\"x\":0.28188,\"y\":0.02969},{\"x\":0.71782,\"y\":0.0944},{\"x\":0.93391,\"y\":0.25771},{\"x\":0.85491,\"y\":0.50628},{\"x\":0.97356,\"y\":0.76206},{\"x\":0.62895,\"y\":0.92263},{\"x\":0.27449,\"y\":0.95933},{\"x\":0.06372,\"y\":0.81933},{\"x\":0.11585,\"y\":0.41791}]}],\"seams\":[{\"id\":0,\"x\":0.17,\"y\":0.2,\"angle\":-18,\"pressure\":0,\"open\":0},{\"id\":1,\"x\":0.31,\"y\":0.13,\"angle\":-4,\"pressure\":0,\"open\":0},{\"id\":2,\"x\":0.49,\"y\":0.11,\"angle\":10,\"pressure\":0,\"open\":0},{\"id\":3,\"x\":0.68,\"y\":0.16,\"angle\":24,\"pressure\":0,\"open\":0},{\"id\":4,\"x\":0.82,\"y\":0.31,\"angle\":70,\"pressure\":0,\"open\":0},{\"id\":5,\"x\":0.84,\"y\":0.57,\"angle\":106,\"pressure\":0,\"open\":0},{\"id\":6,\"x\":0.69,\"y\":0.79,\"angle\":164,\"pressure\":0,\"open\":0},{\"id\":7,\"x\":0.37,\"y\":0.84,\"angle\":204,\"pressure\":0,\"open\":0}]}",
+      "memory": 0,
+      "interaction": "lifted"
+    },
+    "adjacent": {
+      "signature": "{\"skins\":[{\"id\":0,\"x\":0.28452,\"y\":0.50317,\"width\":0.34855,\"height\":0.52584,\"angle\":-18.83167,\"depth\":0.14,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.09235,\"y\":0.16183},{\"x\":0.32342,\"y\":0.05511},{\"x\":0.64788,\"y\":0.07965},{\"x\":0.92971,\"y\":0.29237},{\"x\":0.8762,\"y\":0.57719},{\"x\":0.96564,\"y\":0.81997},{\"x\":0.64314,\"y\":0.963},{\"x\":0.26365,\"y\":0.96697},{\"x\":0.05175,\"y\":0.81784},{\"x\":0.14296,\"y\":0.41491}]},{\"id\":1,\"x\":0.33083,\"y\":0.53293,\"width\":0.33543,\"height\":0.50958,\"angle\":-17.44068,\"depth\":0.168,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08376,\"y\":0.19229},{\"x\":0.3229,\"y\":0.05883},{\"x\":0.71834,\"y\":0.1056},{\"x\":0.91685,\"y\":0.20823},{\"x\":0.87471,\"y\":0.49841},{\"x\":0.95042,\"y\":0.78104},{\"x\":0.56469,\"y\":0.93907},{\"x\":0.27917,\"y\":0.95105},{\"x\":0.03174,\"y\":0.80929},{\"x\":0.11516,\"y\":0.40971}]},{\"id\":2,\"x\":0.39897,\"y\":0.53688,\"width\":0.34195,\"height\":0.53557,\"angle\":-9.32443,\"depth\":0.196,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.1144,\"y\":0.15907},{\"x\":0.28772,\"y\":0.03201},{\"x\":0.67456,\"y\":0.06123},{\"x\":0.9097,\"y\":0.20127},{\"x\":0.86363,\"y\":0.50356},{\"x\":0.94619,\"y\":0.80382},{\"x\":0.63855,\"y\":0.92852},{\"x\":0.26814,\"y\":0.96824},{\"x\":0.06048,\"y\":0.74827},{\"x\":0.10809,\"y\":0.47384}]},{\"id\":3,\"x\":0.4367,\"y\":0.51812,\"width\":0.33376,\"height\":0.52024,\"angle\":-7.82274,\"depth\":0.224,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.09685,\"y\":0.19616},{\"x\":0.29312,\"y\":0.06305},{\"x\":0.65068,\"y\":0.06966},{\"x\":0.90215,\"y\":0.20117},{\"x\":0.85364,\"y\":0.54867},{\"x\":0.92524,\"y\":0.79419},{\"x\":0.62346,\"y\":0.91972},{\"x\":0.24558,\"y\":0.9844},{\"x\":0.05639,\"y\":0.7909},{\"x\":0.10253,\"y\":0.41029}]},{\"id\":4,\"x\":0.50253,\"y\":0.50354,\"width\":0.35508,\"height\":0.49944,\"angle\":0.22256,\"depth\":0.252,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.06761,\"y\":0.13508},{\"x\":0.2789,\"y\":0.0335},{\"x\":0.66717,\"y\":0.06215},{\"x\":0.90533,\"y\":0.28379},{\"x\":0.89286,\"y\":0.5598},{\"x\":0.94062,\"y\":0.76461},{\"x\":0.58506,\"y\":0.96161},{\"x\":0.25328,\"y\":0.9806},{\"x\":0.06961,\"y\":0.79758},{\"x\":0.11374,\"y\":0.46283}]},{\"id\":5,\"x\":0.55943,\"y\":0.47262,\"width\":0.34767,\"height\":0.54126,\"angle\":1.07874,\"depth\":0.28,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":4,\"path\":[{\"x\":0.07613,\"y\":0.17762},{\"x\":0.33809,\"y\":0.02553},{\"x\":0.66278,\"y\":0.09189},{\"x\":0.90745,\"y\":0.289},{\"x\":0.87823,\"y\":0.53345},{\"x\":0.93904,\"y\":0.79355},{\"x\":0.56921,\"y\":0.93312},{\"x\":0.27339,\"y\":0.95749},{\"x\":0.05429,\"y\":0.79955},{\"x\":0.09618,\"y\":0.39685}]},{\"id\":6,\"x\":0.61695,\"y\":0.45661,\"width\":0.34845,\"height\":0.51899,\"angle\":8.89916,\"depth\":0.308,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08853,\"y\":0.18367},{\"x\":0.28652,\"y\":0.078},{\"x\":0.68825,\"y\":0.09233},{\"x\":0.90788,\"y\":0.29624},{\"x\":0.83897,\"y\":0.51888},{\"x\":0.9574,\"y\":0.79743},{\"x\":0.59401,\"y\":0.94924},{\"x\":0.23922,\"y\":0.97696},{\"x\":0.05066,\"y\":0.78265},{\"x\":0.12925,\"y\":0.44233}]},{\"id\":7,\"x\":0.65883,\"y\":0.47496,\"width\":0.33864,\"height\":0.51953,\"angle\":17.44227,\"depth\":0.336,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.10443,\"y\":0.12451},{\"x\":0.27179,\"y\":0.0533},{\"x\":0.64541,\"y\":0.09162},{\"x\":0.92655,\"y\":0.21906},{\"x\":0.87061,\"y\":0.53592},{\"x\":0.94889,\"y\":0.77276},{\"x\":0.55915,\"y\":0.9154},{\"x\":0.22808,\"y\":0.98803},{\"x\":0.04603,\"y\":0.74776},{\"x\":0.1285,\"y\":0.42858}]},{\"id\":8,\"x\":0.7144,\"y\":0.5047,\"width\":0.32512,\"height\":0.51638,\"angle\":14.26534,\"depth\":0.364,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.06891,\"y\":0.16355},{\"x\":0.28188,\"y\":0.02969},{\"x\":0.71782,\"y\":0.0944},{\"x\":0.93391,\"y\":0.25771},{\"x\":0.85491,\"y\":0.50628},{\"x\":0.97356,\"y\":0.76206},{\"x\":0.62895,\"y\":0.92263},{\"x\":0.27449,\"y\":0.95933},{\"x\":0.06372,\"y\":0.81933},{\"x\":0.11585,\"y\":0.41791}]}],\"seams\":[{\"id\":0,\"x\":0.17,\"y\":0.2,\"angle\":-18,\"pressure\":0,\"open\":0},{\"id\":1,\"x\":0.31,\"y\":0.13,\"angle\":-4,\"pressure\":0,\"open\":0},{\"id\":2,\"x\":0.49,\"y\":0.11,\"angle\":10,\"pressure\":0,\"open\":0},{\"id\":3,\"x\":0.68,\"y\":0.16,\"angle\":24,\"pressure\":0,\"open\":0},{\"id\":4,\"x\":0.82,\"y\":0.31,\"angle\":70,\"pressure\":0,\"open\":0},{\"id\":5,\"x\":0.84,\"y\":0.57,\"angle\":106,\"pressure\":0,\"open\":0},{\"id\":6,\"x\":0.69,\"y\":0.79,\"angle\":164,\"pressure\":0,\"open\":0},{\"id\":7,\"x\":0.37,\"y\":0.84,\"angle\":204,\"pressure\":0,\"open\":0}]}",
+      "baseline": "{\"skins\":[{\"id\":0,\"x\":0.28452,\"y\":0.50317,\"width\":0.34855,\"height\":0.52584,\"angle\":-18.83167,\"depth\":0.14,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.09235,\"y\":0.16183},{\"x\":0.32342,\"y\":0.05511},{\"x\":0.64788,\"y\":0.07965},{\"x\":0.92971,\"y\":0.29237},{\"x\":0.8762,\"y\":0.57719},{\"x\":0.96564,\"y\":0.81997},{\"x\":0.64314,\"y\":0.963},{\"x\":0.26365,\"y\":0.96697},{\"x\":0.05175,\"y\":0.81784},{\"x\":0.14296,\"y\":0.41491}]},{\"id\":1,\"x\":0.33083,\"y\":0.53293,\"width\":0.33543,\"height\":0.50958,\"angle\":-17.44068,\"depth\":0.168,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08376,\"y\":0.19229},{\"x\":0.3229,\"y\":0.05883},{\"x\":0.71834,\"y\":0.1056},{\"x\":0.91685,\"y\":0.20823},{\"x\":0.87471,\"y\":0.49841},{\"x\":0.95042,\"y\":0.78104},{\"x\":0.56469,\"y\":0.93907},{\"x\":0.27917,\"y\":0.95105},{\"x\":0.03174,\"y\":0.80929},{\"x\":0.11516,\"y\":0.40971}]},{\"id\":2,\"x\":0.39897,\"y\":0.53688,\"width\":0.34195,\"height\":0.53557,\"angle\":-9.32443,\"depth\":0.196,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.1144,\"y\":0.15907},{\"x\":0.28772,\"y\":0.03201},{\"x\":0.67456,\"y\":0.06123},{\"x\":0.9097,\"y\":0.20127},{\"x\":0.86363,\"y\":0.50356},{\"x\":0.94619,\"y\":0.80382},{\"x\":0.63855,\"y\":0.92852},{\"x\":0.26814,\"y\":0.96824},{\"x\":0.06048,\"y\":0.74827},{\"x\":0.10809,\"y\":0.47384}]},{\"id\":3,\"x\":0.4367,\"y\":0.51812,\"width\":0.33376,\"height\":0.52024,\"angle\":-7.82274,\"depth\":0.224,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.09685,\"y\":0.19616},{\"x\":0.29312,\"y\":0.06305},{\"x\":0.65068,\"y\":0.06966},{\"x\":0.90215,\"y\":0.20117},{\"x\":0.85364,\"y\":0.54867},{\"x\":0.92524,\"y\":0.79419},{\"x\":0.62346,\"y\":0.91972},{\"x\":0.24558,\"y\":0.9844},{\"x\":0.05639,\"y\":0.7909},{\"x\":0.10253,\"y\":0.41029}]},{\"id\":4,\"x\":0.50253,\"y\":0.50354,\"width\":0.35508,\"height\":0.49944,\"angle\":0.22256,\"depth\":0.252,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":0,\"path\":[{\"x\":0.06761,\"y\":0.13508},{\"x\":0.2789,\"y\":0.0335},{\"x\":0.66717,\"y\":0.06215},{\"x\":0.90533,\"y\":0.28379},{\"x\":0.89286,\"y\":0.5598},{\"x\":0.94062,\"y\":0.76461},{\"x\":0.58506,\"y\":0.96161},{\"x\":0.25328,\"y\":0.9806},{\"x\":0.06961,\"y\":0.79758},{\"x\":0.11374,\"y\":0.46283}]},{\"id\":5,\"x\":0.55943,\"y\":0.47262,\"width\":0.34767,\"height\":0.54126,\"angle\":1.07874,\"depth\":0.28,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":4,\"path\":[{\"x\":0.07613,\"y\":0.17762},{\"x\":0.33809,\"y\":0.02553},{\"x\":0.66278,\"y\":0.09189},{\"x\":0.90745,\"y\":0.289},{\"x\":0.87823,\"y\":0.53345},{\"x\":0.93904,\"y\":0.79355},{\"x\":0.56921,\"y\":0.93312},{\"x\":0.27339,\"y\":0.95749},{\"x\":0.05429,\"y\":0.79955},{\"x\":0.09618,\"y\":0.39685}]},{\"id\":6,\"x\":0.61695,\"y\":0.45661,\"width\":0.34845,\"height\":0.51899,\"angle\":8.89916,\"depth\":0.308,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":2,\"path\":[{\"x\":0.08853,\"y\":0.18367},{\"x\":0.28652,\"y\":0.078},{\"x\":0.68825,\"y\":0.09233},{\"x\":0.90788,\"y\":0.29624},{\"x\":0.83897,\"y\":0.51888},{\"x\":0.9574,\"y\":0.79743},{\"x\":0.59401,\"y\":0.94924},{\"x\":0.23922,\"y\":0.97696},{\"x\":0.05066,\"y\":0.78265},{\"x\":0.12925,\"y\":0.44233}]},{\"id\":7,\"x\":0.65883,\"y\":0.47496,\"width\":0.33864,\"height\":0.51953,\"angle\":17.44227,\"depth\":0.336,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":1,\"path\":[{\"x\":0.10443,\"y\":0.12451},{\"x\":0.27179,\"y\":0.0533},{\"x\":0.64541,\"y\":0.09162},{\"x\":0.92655,\"y\":0.21906},{\"x\":0.87061,\"y\":0.53592},{\"x\":0.94889,\"y\":0.77276},{\"x\":0.55915,\"y\":0.9154},{\"x\":0.22808,\"y\":0.98803},{\"x\":0.04603,\"y\":0.74776},{\"x\":0.1285,\"y\":0.42858}]},{\"id\":8,\"x\":0.7144,\"y\":0.5047,\"width\":0.32512,\"height\":0.51638,\"angle\":14.26534,\"depth\":0.364,\"fold\":0,\"opening\":0,\"peel\":0,\"sealed\":0,\"shed\":0,\"tone\":3,\"path\":[{\"x\":0.06891,\"y\":0.16355},{\"x\":0.28188,\"y\":0.02969},{\"x\":0.71782,\"y\":0.0944},{\"x\":0.93391,\"y\":0.25771},{\"x\":0.85491,\"y\":0.50628},{\"x\":0.97356,\"y\":0.76206},{\"x\":0.62895,\"y\":0.92263},{\"x\":0.27449,\"y\":0.95933},{\"x\":0.06372,\"y\":0.81933},{\"x\":0.11585,\"y\":0.41791}]}],\"seams\":[{\"id\":0,\"x\":0.17,\"y\":0.2,\"angle\":-18,\"pressure\":0,\"open\":0},{\"id\":1,\"x\":0.31,\"y\":0.13,\"angle\":-4,\"pressure\":0,\"open\":0},{\"id\":2,\"x\":0.49,\"y\":0.11,\"angle\":10,\"pressure\":0,\"open\":0},{\"id\":3,\"x\":0.68,\"y\":0.16,\"angle\":24,\"pressure\":0,\"open\":0},{\"id\":4,\"x\":0.82,\"y\":0.31,\"angle\":70,\"pressure\":0,\"open\":0},{\"id\":5,\"x\":0.84,\"y\":0.57,\"angle\":106,\"pressure\":0,\"open\":0},{\"id\":6,\"x\":0.69,\"y\":0.79,\"angle\":164,\"pressure\":0,\"open\":0},{\"id\":7,\"x\":0.37,\"y\":0.84,\"angle\":204,\"pressure\":0,\"open\":0}]}",
+      "memory": 0,
+      "interaction": "pinch-refused-adjacent"
+    },
+    "afterControl": {
+      "memory": 1,
+      "interaction": "pinch-committed"
+    },
+    "afterRelease": {
+      "memory": 0,
+      "interaction": "released"
+    },
+    "firstSelectionGeometryUnchanged": true,
+    "committedChanged": true,
+    "liftExact": true,
+    "adjacentRefused": true,
+    "touchTargets": [
+      60,
+      51,
+      56,
+      63,
+      62,
+      59,
+      59,
+      63,
+      44,
+      44,
+      44
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": []
+    },
+    "readback": {
+      "/studio/data/works.json": {
+        "status": 200,
+        "hasWork": true,
+        "hasJournal": true,
+        "hasTitle": true
+      },
+      "/studio/data/catalog-public.json": {
+        "status": 200,
+        "hasWork": true,
+        "hasJournal": true,
+        "hasTitle": true
+      },
+      "/works/brush-2026-10-26/": {
+        "status": 200,
+        "hasWork": true,
+        "hasJournal": true,
+        "hasTitle": true
+      },
+      "/studies/p5-brush/v038/?preview=1&static=1&blind=1": {
+        "status": 200,
+        "hasWork": true,
+        "hasJournal": true,
+        "hasTitle": true
+      },
+      "/studio/favicon.svg": {
+        "status": 200,
+        "hasWork": false,
+        "hasJournal": false,
+        "hasTitle": false
+      }
+    }
+  },
+  "blind": {
+    "layerCount": 9,
+    "stackVisible": true,
+    "seamNodesHidden": true,
+    "readoutHidden": true,
+    "controlsHidden": true,
+    "hintHidden": true,
+    "memory": 4,
+    "peelCount": 3,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "journal": {
+    "status": 200,
+    "hasAnchor": true,
+    "hasTitle": true
+  },
+  "diagnostics": [],
+  "pass": true
+}

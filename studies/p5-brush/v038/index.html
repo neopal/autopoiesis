@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101115">
+  <title>MUTINE — The paint opens between layers.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=038">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-26"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="lamina-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v038 / LAMINA STACK</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="lamina-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v038</span></nav>
+
+      <figure class="lamina-work artwork-frame" aria-labelledby="work-title">
+        <div id="lamina-field" class="lamina-field" tabindex="0" role="application" aria-label="A layered material stack. Choose two non-adjacent seams to pinch the interval between them; the pressure peels one layer and seals another." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="lamina-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>wet stack · 0 pressure spans</span></div>
+          <div id="lamina-stack" class="lamina-stack" aria-hidden="true"></div>
+          <div id="seam-nodes" class="seam-nodes" aria-label="Material seam choices"></div>
+          <div class="lamina-controls" aria-label="Brush lamina actions">
+            <button type="button" data-gesture="pinch">pinch interval</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release layers</button>
+          </div>
+          <p class="lamina-hint">choose two seams to pinch the interval</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v038-lamina-stack</span><span>pressure &gt; peel &gt; re-layer</span></figcaption>
+      </figure>
+
+      <section class="lamina-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / LAMINA STACK / v038</p>
+        <h1 id="work-title">The paint opens<br><i>between layers.</i></h1>
+        <p class="lamina-lede">Pressure is not a mark. Choose the seam where it enters and the seam where it leaves; the interval becomes a material event.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THE GAP IS THE INSTRUMENT</p>
+          <p class="interaction-copy">Choose two non-adjacent seams around the stack. The first choice stays still. The second makes a pressure span: one lamina peels, another seals, and a third sheds its underside. Enter or “pinch interval” uses the deterministic pair. Delete lifts the latest; Escape, R, or “release layers” returns to the quiet stack.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The layers are held together.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v038</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Switch from a drawn pressure trace to a paired seam interval. Pressure acts between two chosen boundaries and changes the stack's layer order rather than copying the gesture.</dd></div>
+          <div><dt>visitor action</dt><dd>Choose two non-adjacent seams. The first choice is geometrically neutral; the second commits a peel, seal, and shed. Enter, Space, and the pinch control use a deterministic interval. Delete lifts the latest. Escape or R releases the layers.</dd></div>
+          <div><dt>falsifier</dt><dd>If a single seam commits, if the touched seams become the only answer, if only colour or labels change, if the layer roles do not persist, or if lifting is inexact, the material translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v038 if caption-free viewing cannot show a stack of separate material skins with a real interval opening, or if it reads as a decorated menu, generic card grid, or reskinned crease sheet.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-24/">previous daily work</a><a href="/journal/#journal-brush-2026-10-26">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=038"></script>
+</body>
+</html>

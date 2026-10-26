@@ -1,0 +1,99 @@
+:root {
+  --lamina-ground: #121417;
+  --lamina-deep: #090b10;
+  --lamina-ink: #ece5d7;
+  --lamina-muted: #a4a49c;
+  --lamina-line: rgba(236, 229, 215, .22);
+  --lamina-coral: #ed7658;
+  --lamina-moss: #afc47e;
+  --lamina-bone: #c5b99a;
+  --lamina-oxide: #9f574c;
+  --lamina-reed: #697d63;
+  --lamina-blue: #6f858c;
+}
+
+html, body { margin: 0; min-height: 100%; background: var(--lamina-ground); color: var(--lamina-ink); }
+body { font-family: "Arial Narrow", "Aptos Narrow", Arial, sans-serif; letter-spacing: .02em; }
+a { color: inherit; }
+.lamina-shell { min-height: 100vh; padding: 22px clamp(16px, 4vw, 64px) 30px; box-sizing: border-box; }
+.studio-header, .studio-footer, .studio-path { max-width: 1180px; margin-inline: auto; }
+.studio-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; border-bottom: 1px solid var(--lamina-line); padding-bottom: 15px; text-transform: uppercase; font-size: 10px; letter-spacing: .18em; }
+.studio-header p { margin: 0; color: var(--lamina-muted); text-align: center; }
+.studio-mark { font-weight: 800; letter-spacing: .24em; text-decoration: none; }
+.studio-nav { display: flex; gap: 18px; }
+.studio-nav a, .studio-footer a { color: var(--lamina-muted); text-decoration: none; }
+.studio-nav a:hover, .studio-nav a:focus-visible, .studio-footer a:hover, .studio-footer a:focus-visible { color: var(--lamina-coral); }
+.lamina-main { max-width: 1180px; margin: 0 auto; }
+.studio-path { display: flex; gap: 10px; align-items: center; margin-top: 18px; margin-bottom: 22px; color: var(--lamina-muted); text-transform: uppercase; font-size: 10px; letter-spacing: .14em; }
+.studio-path a { text-decoration: none; }
+.lamina-work { margin: 0; }
+.lamina-field { position: relative; min-height: min(74vh, 780px); aspect-ratio: 1.58 / 1; overflow: clip; border: 1px solid var(--lamina-line); background: var(--lamina-deep); box-shadow: 0 30px 100px rgba(0, 0, 0, .42); isolation: isolate; }
+.lamina-field::before { position: absolute; inset: 0; z-index: 0; background: radial-gradient(ellipse at 49% 50%, rgba(175, 196, 126, .10), transparent 44%), repeating-linear-gradient(112deg, transparent 0 23px, rgba(236, 229, 215, .028) 23px 24px), linear-gradient(132deg, #07090d 0%, #131a1a 49%, #0b0e14 100%); content: ''; }
+.lamina-field::after { position: absolute; inset: 8% 10%; z-index: 0; border: 1px solid rgba(236, 229, 215, .08); border-radius: 49% 51% 43% 57%; transform: rotate(-8deg); content: ''; pointer-events: none; }
+.lamina-readout { position: absolute; top: 18px; left: 20px; z-index: 20; display: flex; gap: 16px; color: var(--lamina-muted); text-transform: uppercase; font-size: 10px; letter-spacing: .12em; pointer-events: none; }
+.lamina-stack { position: absolute; inset: 0; z-index: 2; }
+.lamina { position: absolute; left: var(--x); top: var(--y); width: var(--w); height: var(--h); overflow: hidden; transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--peel) * -16px)); transform-origin: 50% 50%; transition: transform 460ms cubic-bezier(.2, .8, .2, 1), clip-path 460ms cubic-bezier(.2, .8, .2, 1), filter 460ms ease; filter: drop-shadow(calc(var(--depth) * .8) calc(var(--depth) * .9) calc(var(--depth) * 1.8) rgba(0, 0, 0, .35)); }
+.lamina::before { position: absolute; inset: 0; background: linear-gradient(108deg, rgba(255, 255, 255, .17), transparent 22% 70%, rgba(0, 0, 0, .18)), repeating-linear-gradient(76deg, transparent 0 12px, rgba(255, 255, 255, .055) 12px 13px); content: ''; mix-blend-mode: screen; opacity: .68; }
+.lamina--bone { background: linear-gradient(124deg, #8e856f, var(--lamina-bone) 41%, #756953); }
+.lamina--oxide { background: linear-gradient(124deg, #704039, var(--lamina-oxide) 43%, #3d2b31); }
+.lamina--reed { background: linear-gradient(124deg, #3e5149, var(--lamina-reed) 45%, #263536); }
+.lamina--ink { background: linear-gradient(124deg, #313b49, var(--lamina-blue) 45%, #19232e); }
+.lamina--chalk { background: linear-gradient(124deg, #a99e8c, #d4c7aa 46%, #817966); }
+.lamina-edge { position: absolute; inset: 4px; border: 1px solid rgba(246, 236, 211, .26); border-radius: 48% 52% 59% 41%; content: ''; pointer-events: none; }
+.lamina-hole { position: absolute; left: 51%; top: 48%; width: var(--hole-width); height: var(--hole-height); border: 1px solid rgba(8, 11, 16, .7); border-radius: 50% 45% 56% 42%; background: radial-gradient(ellipse at 38% 32%, rgba(175, 196, 126, .14), transparent 42%), var(--lamina-deep); opacity: var(--hole-open); transform: translate(-50%, -50%) rotate(var(--hole-rotate)); transition: width 460ms ease, height 460ms ease, opacity 460ms ease; }
+.lamina-grain { position: absolute; left: 16%; right: 10%; top: 14%; bottom: 12%; border: 1px solid rgba(236, 229, 215, .12); border-radius: 57% 43% 49% 51%; background: repeating-radial-gradient(ellipse at 48% 42%, transparent 0 3px, rgba(236, 229, 215, .055) 3px 4px, transparent 4px 8px); opacity: .56; mix-blend-mode: screen; }
+.seam-nodes { position: absolute; inset: 0; z-index: 24; }
+.seam-node { position: absolute; left: var(--x); top: var(--y); width: 48px; min-width: 48px; height: 48px; min-height: 48px; padding: 0; border: 0; border-radius: 50%; background: transparent; cursor: crosshair; transform: translate(-50%, -50%) rotate(var(--angle)); }
+.seam-node span { display: block; width: 13px; height: 13px; margin: auto; border: 1px solid rgba(236, 229, 215, .68); border-radius: 44% 56% 52% 48%; background: rgba(9, 11, 16, .72); box-shadow: 0 0 0 7px rgba(236, 229, 215, .05), 0 0 calc(14px + var(--pressure) * 18px) rgba(175, 196, 126, .34); transition: transform 220ms ease, background 220ms ease, border-color 220ms ease; }
+.seam-node:hover span, .seam-node:focus-visible span { border-color: var(--lamina-moss); background: var(--lamina-coral); outline: none; transform: scale(1.18); }
+.seam-node.is-selected span { border-color: var(--lamina-coral); background: var(--lamina-coral); box-shadow: 0 0 0 8px rgba(237, 118, 88, .14), 0 0 24px rgba(237, 118, 88, .6); transform: scale(1.22); }
+.lamina-controls { position: absolute; right: 17px; bottom: 17px; z-index: 25; display: flex; gap: 8px; }
+.lamina-controls button { min-height: 44px; padding: 0 13px; border: 1px solid rgba(236, 229, 215, .34); border-radius: 999px; color: var(--lamina-ink); background: rgba(9, 11, 16, .88); font: inherit; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; }
+.lamina-controls button:hover, .lamina-controls button:focus-visible { border-color: var(--lamina-moss); background: rgba(175, 196, 126, .16); outline: none; }
+.lamina-hint { position: absolute; left: 20px; bottom: 21px; z-index: 25; margin: 0; color: rgba(236, 229, 215, .76); text-transform: uppercase; font-size: 10px; letter-spacing: .16em; pointer-events: none; }
+.lamina-work figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 9px; color: var(--lamina-muted); text-transform: uppercase; font-size: 9px; letter-spacing: .14em; }
+.lamina-opening { max-width: 760px; padding: 68px 0 52px; }
+.eyebrow { margin: 0 0 14px; color: var(--lamina-coral); text-transform: uppercase; font-size: 10px; letter-spacing: .18em; }
+.lamina-opening h1 { margin: 0; color: var(--lamina-ink); font-family: Georgia, serif; font-size: clamp(44px, 7vw, 94px); font-weight: 400; line-height: .92; letter-spacing: -.055em; }
+.lamina-opening h1 i { color: var(--lamina-moss); font-weight: 400; }
+.lamina-lede { max-width: 650px; margin: 25px 0 0; color: var(--lamina-muted); font-size: clamp(16px, 1.9vw, 21px); line-height: 1.42; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .55fr); gap: 42px; border-top: 1px solid var(--lamina-line); padding: 24px 0 54px; }
+.interaction-copy { max-width: 650px; margin: 0; color: var(--lamina-muted); line-height: 1.6; font-size: 15px; }
+.interaction-state { margin: 0; color: var(--lamina-moss); line-height: 1.45; font-family: Georgia, serif; font-size: 18px; }
+.annotations { border-top: 1px solid var(--lamina-line); padding: 23px 0 70px; }
+.annotations dl { margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; border-bottom: 1px solid rgba(236, 229, 215, .12); padding: 14px 0; }
+.annotations dt { color: var(--lamina-moss); text-transform: uppercase; font-size: 10px; letter-spacing: .14em; }
+.annotations dd { max-width: 740px; margin: 0; color: var(--lamina-muted); line-height: 1.55; font-size: 14px; }
+.studio-footer { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--lamina-line); padding-top: 16px; color: var(--lamina-muted); text-transform: uppercase; font-size: 10px; letter-spacing: .14em; }
+html.preview-mode body { background: var(--lamina-deep); }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .lamina-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .lamina-shell, html.preview-mode .lamina-main { max-width: none; padding: 0; margin: 0; }
+html.preview-mode .lamina-field { min-height: 100vh; aspect-ratio: auto; border: 0; box-shadow: none; }
+html.preview-mode .lamina-work { margin: 0; }
+html.blind-mode .lamina-readout, html.blind-mode .lamina-controls, html.blind-mode .lamina-hint, html.blind-mode .seam-nodes { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+@media (max-width: 680px) {
+  .lamina-shell { padding: 14px 12px 22px; }
+  .studio-header { grid-template-columns: 1fr auto; gap: 10px; }
+  .studio-header p { grid-column: 1 / -1; grid-row: 2; text-align: left; }
+  .studio-nav { gap: 11px; }
+  .studio-path { margin-top: 14px; margin-bottom: 14px; }
+  .lamina-field { min-height: 575px; aspect-ratio: auto; }
+  .lamina-readout { top: 11px; left: 12px; gap: 8px; font-size: 8px; }
+  .lamina-hint { left: 12px; bottom: 76px; font-size: 8px; }
+  .lamina-controls { left: 12px; right: 12px; bottom: 10px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .lamina-controls button { padding: 0 5px; font-size: 8px; }
+  .lamina-opening { padding: 44px 0 36px; }
+  .lamina-opening h1 { font-size: clamp(42px, 15vw, 70px); }
+  .lamina-lede { font-size: 16px; }
+  .interaction-panel { display: block; padding-bottom: 38px; }
+  .interaction-state { margin-top: 23px; }
+  .annotations { padding-bottom: 46px; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: 8px; }
+  .studio-footer { display: grid; grid-template-columns: 1fr 1fr; }
+  .studio-footer a:last-child { grid-column: 1 / -1; }
+  html.preview-mode .lamina-field { min-height: 100vh; }
+}

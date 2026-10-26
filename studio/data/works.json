@@ -2,6 +2,128 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-26",
+      "currentId": "brush",
+      "date": "2026-10-26",
+      "title": "The paint opens between layers.",
+      "rawPath": "/studies/p5-brush/v038/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-26",
+        "note": "v038 leaves v037's local Canvas incision and drying, v036's WebGL fault-vent-exit, and v035's directional reversal membrane. Nine irregular browser-native laminae now overlap around an open interior: the first seam choice stays still, a second non-adjacent seam creates a pressure interval, and the stack peels one skin, seals another, and sheds a third. Four pressure spans remain liftable and later spans inherit the changed layer order."
+      },
+      "critiques": [
+        {
+          "persona": "Material critic",
+          "argument": "The stack must read as one authored layered surface before it reads as nine cards. The skins, overlaps, cuts, and open interior must be real DOM/CSS geometry, not a readout translated into colour."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, seam nodes, readout, controls, hint, annotations, and prose hidden, the first view must break from v037's crease sheet, v036's slab, and v035's membrane. It must read as an unstable stack of skins with an interval held inside it."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The viewer must perform a paired boundary choice rather than draw, route, or reverse. The first seam is an offer and must remain geometrically exact; only the second non-adjacent seam may commit."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "A committed span must produce three actual material roles: one lamina peels and opens, one seals, and a third sheds its underside. The chosen seams cannot be the only answer, and a line or glow cannot substitute for the interval."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four pressure spans must compound in the layer stack. Later choices must rebuild from the changed order, while Delete reconstructs the exact preceding stack and release returns to the quiet seed."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from programmable pressure and directional production into interval pressure, not into brushes, watercolor, hatching, grain, flow fields, palette, composition, code, examples, or API surface."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v038 changes representation, composition, encounter, temporal grammar, and medium: a Canvas incision, WebGL route, and directional skin become a browser-native stack whose material event is a paired seam interval."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v038 if the blind stack reads as a generic card grid or menu, if one seam commits, if the pair is copied as a line, if peel/seal/shed are cosmetic, if later spans forget, or if lifting is inexact."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v038-lamina-stack",
+        "visitorInput": true,
+        "seed": "0x42523838",
+        "stages": 13,
+        "memoryWindow": 4,
+        "skinCount": 9,
+        "seamCount": 8,
+        "minimumSeamSpan": 2,
+        "primitiveBudget": 27,
+        "memoryRule": "the first seam stays geometrically neutral; a non-adjacent second seam creates a pressure span that peels one lamina, seals another, and sheds a third; four spans remain liftable",
+        "interactionRule": "click or focus two non-adjacent seam nodes; the first selection stays still and the second commits; Enter, Space, and the pinch control use a deterministic pair; Delete lifts latest; Escape or R releases",
+        "representationRupture": "Canvas 2D crease sheet, WebGL eclipse slab, and directional membrane -> nine browser-native DOM/CSS laminae with independent clip paths",
+        "compositionRupture": "single sheet, shallow object, and monolithic skin -> overlapping diagonal stack around an open interior",
+        "encounterRupture": "draw a stroke, trace a route, or reverse a direction -> choose two material boundaries and create an interval between them",
+        "temporalRupture": "drying frontier, remote eclipse ledger, and directional tension -> layer-order memory where peel, seal, and shed roles compound",
+        "mediumRupture": "p5.js Canvas 2D and WebGL -> semantic DOM nodes and CSS clip-path/transform geometry with no canvas or SVG renderer",
+        "changedRule": "Pressure is an interval between two non-adjacent seams. The first boundary is neutral; the second commits a structural peel, seal, and shed across the layered surface.",
+        "visibleConsequence": "A blind stack of nine independent skins becomes visibly re-layered after a valid pair: one skin lifts and opens, one closes, and a third sheds its underside; four changes persist in later spans.",
+        "falsifier": "Delete if one seam commits, if the pair becomes a copied line, if peel/seal/shed are only colour or readout, if the stack reads as a control grid, if later spans reset, or if exact lifting fails.",
+        "deletionCondition": "Delete v038 if caption-free viewing cannot distinguish the lamina stack from the preceding crease sheet, slab, or membrane grammar, or if the pressure interval is not materially visible.",
+        "grammar": "lamina-stack",
+        "renderer": "deterministic browser-native DOM/CSS lamina stack",
+        "replay": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools make pressure, density, and directional behavior part of the production engine; the instrument changes how geometry is produced, rather than merely styling a finished mark.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, grain, vector-field marks, and the source API. Translate the production logic into a paired seam interval: pressure exists between two boundaries and changes the future order of a DOM/CSS lamina stack.",
+        "visibleConsequence": "The first encounter is a layered cut surface. A committed pair changes actual clip paths, layer positions, rotations, openings, and seals; the chosen pair itself is not rendered as a trace.",
+        "falsifier": "If one seam commits, if a seam is copied as a line, if only colour or labels change, if the layer roles do not persist, if the field reads as a control grid, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No brush appearance, watercolor, hatching, grain, vector-field drawing, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "This closes Brush's crease-sheet / eclipse-slab / reversal-membrane sequence and opens interval-pressure: erasure becomes a relation between boundaries, and the browser's DOM/CSS geometry becomes the material medium."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, seam-nodes-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v038 if the blind stack reads as a generic card grid or menu, if one seam commits, if the pair is copied as a line, if peel/seal/shed are cosmetic, if later spans forget, or if exact lifting fails.",
+        "lineage": "brush-2026-10-24"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local seam interaction, keyboard paths, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:4290",
+        "localRawPreview": "/studies/p5-brush/v038/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/p5-brush/v038/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/brush-2026-10-26/",
+        "localViewportRuns": 20,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "first seam selection kept geometry exact; a real second non-adjacent seam committed a peel/seal/shed event; adjacent seams refused; Delete restored the exact baseline; Enter committed the deterministic pair; Escape released; all eight seam nodes and three controls measured at least 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept nine DOM/CSS laminae and four settled pressure spans visible while hiding seam nodes, readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local Journal anchor/title, Brush current title/card, canonical work title/tableau, raw v038 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "localProofPath": "research/qa/proofs/brush-v038-2026-10-26/",
+        "localScreenshotCount": 21,
+        "unresolved": [
+          "production browser matrix and production readback",
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "svg-2026-10-26",
       "currentId": "svg",
       "date": "2026-10-26",
