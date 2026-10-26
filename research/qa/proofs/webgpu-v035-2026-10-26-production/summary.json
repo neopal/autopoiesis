@@ -1,0 +1,5869 @@
+{
+  "production": true,
+  "matrixCount": 20,
+  "matrixPassed": true,
+  "interactionPassed": true,
+  "blindPassed": true,
+  "readbacksPassed": true,
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "registryStatus": 200,
+  "publicCatalogStatus": 200,
+  "faviconStatus": 200,
+  "recordMatches": 1,
+  "catalogMatches": 1,
+  "matrix": [
+    {
+      "routeName": "raw",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "fieldVisible": true,
+        "field": {
+          "width": 320,
+          "height": 568
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-normal-320x568.png",
+      "screenshotBytes": 90302
+    },
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "fieldVisible": true,
+        "field": {
+          "width": 390,
+          "height": 844
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-normal-390x844.png",
+      "screenshotBytes": 128688
+    },
+    {
+      "routeName": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "fieldVisible": true,
+        "field": {
+          "width": 528,
+          "height": 1024
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-normal-768x1024.png",
+      "screenshotBytes": 202049
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "fieldVisible": true,
+        "field": {
+          "width": 984.38,
+          "height": 800
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-normal-1280x800.png",
+      "screenshotBytes": 337680
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "fieldVisible": true,
+        "field": {
+          "width": 1484.38,
+          "height": 1080
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-normal-1920x1080.png",
+      "screenshotBytes": 606496
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": 196.5,
+        "headingTop": 626.890625,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "fieldVisible": true,
+        "field": {
+          "width": 282,
+          "height": 358
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-normal-320x568.png",
+      "screenshotBytes": 235718
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "fieldVisible": true,
+        "field": {
+          "width": 352,
+          "height": 437
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-normal-390x844.png",
+      "screenshotBytes": 270079
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": 183.5,
+        "headingTop": 885.25,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "fieldVisible": true,
+        "field": {
+          "width": 490,
+          "height": 630
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-normal-768x1024.png",
+      "screenshotBytes": 359836
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "fieldVisible": true,
+        "field": {
+          "width": 495,
+          "height": 720
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-normal-1280x800.png",
+      "screenshotBytes": 439252
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "fieldVisible": true,
+        "field": {
+          "width": 482,
+          "height": 720
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "pressure": null,
+          "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.08301,
+              "x": -0.25399,
+              "y": 0.03826,
+              "yaw": -0.08841,
+              "pitch": 0.00376,
+              "aperture": 0.31959,
+              "slip": 0,
+              "tension": 0.67999,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.15204,
+              "x": -0.22138,
+              "y": 0.06019,
+              "yaw": 0.08424,
+              "pitch": 0.01167,
+              "aperture": 0.33681,
+              "slip": 0,
+              "tension": 0.8038,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.23043,
+              "x": -0.17004,
+              "y": 0.03789,
+              "yaw": 0.04189,
+              "pitch": 0.0179,
+              "aperture": 0.40608,
+              "slip": 0,
+              "tension": 0.83322,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.29511,
+              "x": -0.14614,
+              "y": 0.06155,
+              "yaw": 0.03486,
+              "pitch": 0.00195,
+              "aperture": 0.32981,
+              "slip": 0,
+              "tension": 0.37326,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.39279,
+              "x": -0.05624,
+              "y": -0.07776,
+              "yaw": 0.07496,
+              "pitch": 0.00046,
+              "aperture": 0.31653,
+              "slip": 0,
+              "tension": 0.42604,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.45667,
+              "x": -0.03393,
+              "y": -0.06228,
+              "yaw": 0.00339,
+              "pitch": 0.04029,
+              "aperture": 0.44826,
+              "slip": 0,
+              "tension": 0.57879,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.55224,
+              "x": 0.05175,
+              "y": -0.08748,
+              "yaw": 0.00729,
+              "pitch": 0.02875,
+              "aperture": 0.34492,
+              "slip": 0,
+              "tension": 0.70037,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.63072,
+              "x": 0.10326,
+              "y": 0.00517,
+              "yaw": 0.05342,
+              "pitch": -0.0509,
+              "aperture": 0.31521,
+              "slip": 0,
+              "tension": 0.38973,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.68429,
+              "x": 0.10494,
+              "y": -0.03878,
+              "yaw": -0.01456,
+              "pitch": -0.00339,
+              "aperture": 0.35627,
+              "slip": 0,
+              "tension": 0.79906,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.76697,
+              "x": 0.16486,
+              "y": -0.04455,
+              "yaw": -0.04237,
+              "pitch": 0.02409,
+              "aperture": 0.397,
+              "slip": 0,
+              "tension": 0.5475,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84134,
+              "x": 0.20814,
+              "y": -0.06549,
+              "yaw": 0.03008,
+              "pitch": -0.04083,
+              "aperture": 0.41694,
+              "slip": 0,
+              "tension": 0.49925,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.93565,
+              "x": 0.2913,
+              "y": -0.03181,
+              "yaw": -0.07054,
+              "pitch": 0.04333,
+              "aperture": 0.46976,
+              "slip": 0,
+              "tension": 0.83962,
+              "shade": 0.42476
+            }
+          ],
+          "event": null,
+          "lastAction": "quiet",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-normal-1920x1080.png",
+      "screenshotBytes": 460665
+    },
+    {
+      "routeName": "raw",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "fieldVisible": true,
+        "field": {
+          "width": 320,
+          "height": 568
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-reduced-320x568.png",
+      "screenshotBytes": 92926
+    },
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "fieldVisible": true,
+        "field": {
+          "width": 390,
+          "height": 844
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-reduced-390x844.png",
+      "screenshotBytes": 132565
+    },
+    {
+      "routeName": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "fieldVisible": true,
+        "field": {
+          "width": 528,
+          "height": 1024
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-reduced-768x1024.png",
+      "screenshotBytes": 207678
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "fieldVisible": true,
+        "field": {
+          "width": 984.38,
+          "height": 800
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-reduced-1280x800.png",
+      "screenshotBytes": 350966
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "fieldVisible": true,
+        "field": {
+          "width": 1484.38,
+          "height": 1080
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-raw-reduced-1920x1080.png",
+      "screenshotBytes": 624138
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": 196.5,
+        "headingTop": 626.890625,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "fieldVisible": true,
+        "field": {
+          "width": 282,
+          "height": 358
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-reduced-320x568.png",
+      "screenshotBytes": 237852
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "fieldVisible": true,
+        "field": {
+          "width": 352,
+          "height": 437
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-reduced-390x844.png",
+      "screenshotBytes": 272696
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": 183.5,
+        "headingTop": 885.25,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "fieldVisible": true,
+        "field": {
+          "width": 490,
+          "height": 630
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-reduced-768x1024.png",
+      "screenshotBytes": 364186
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "fieldVisible": true,
+        "field": {
+          "width": 495,
+          "height": 720
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-reduced-1280x800.png",
+      "screenshotBytes": 444161
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "fieldVisible": true,
+        "field": {
+          "width": 482,
+          "height": 720
+        },
+        "state": {
+          "stage": 8,
+          "memory": 4,
+          "pressure": null,
+          "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+          "panels": [
+            {
+              "id": 0,
+              "depth": 0.09168,
+              "x": -0.254,
+              "y": 0.04041,
+              "yaw": -0.09649,
+              "pitch": 0.00375,
+              "aperture": 0.3196,
+              "slip": 0.0223,
+              "tension": 0.68898,
+              "shade": 0.49308
+            },
+            {
+              "id": 1,
+              "depth": 0.05575,
+              "x": -0.27505,
+              "y": 0.06272,
+              "yaw": 0.0785,
+              "pitch": -0.10319,
+              "aperture": 0.44348,
+              "slip": 0.2102,
+              "tension": 0.81436,
+              "shade": 0.58563
+            },
+            {
+              "id": 2,
+              "depth": 0.11153,
+              "x": -0.21176,
+              "y": 0.03999,
+              "yaw": 0.04459,
+              "pitch": 0.0104,
+              "aperture": 0.371,
+              "slip": 0.11577,
+              "tension": 0.84195,
+              "shade": 0.53929
+            },
+            {
+              "id": 3,
+              "depth": 0.19353,
+              "x": -0.19739,
+              "y": 0.06139,
+              "yaw": 0.04598,
+              "pitch": -0.1243,
+              "aperture": 0.44856,
+              "slip": 0.22287,
+              "tension": 0.37261,
+              "shade": 0.77037
+            },
+            {
+              "id": 4,
+              "depth": 0.81717,
+              "x": 0.04689,
+              "y": -0.13474,
+              "yaw": 0.26538,
+              "pitch": -0.00704,
+              "aperture": 0.81591,
+              "slip": 0.39524,
+              "tension": 0.54201,
+              "shade": 0.27119
+            },
+            {
+              "id": 5,
+              "depth": 0.299,
+              "x": -0.08881,
+              "y": -0.06407,
+              "yaw": 0.01218,
+              "pitch": 0.03879,
+              "aperture": 0.39107,
+              "slip": 0.14068,
+              "tension": 0.57137,
+              "shade": 0.36942
+            },
+            {
+              "id": 6,
+              "depth": 0.81222,
+              "x": 0.11942,
+              "y": -0.12964,
+              "yaw": 0.14631,
+              "pitch": 0.02876,
+              "aperture": 0.71225,
+              "slip": 0.28555,
+              "tension": 0.81138,
+              "shade": 0.46223
+            },
+            {
+              "id": 7,
+              "depth": 0.95239,
+              "x": 0.17615,
+              "y": -0.06135,
+              "yaw": 0.19947,
+              "pitch": -0.04823,
+              "aperture": 0.69932,
+              "slip": 0.31001,
+              "tension": 0.49917,
+              "shade": 0.67983
+            },
+            {
+              "id": 8,
+              "depth": 0.45726,
+              "x": 0.03306,
+              "y": -0.04088,
+              "yaw": -0.01726,
+              "pitch": 0.00411,
+              "aperture": 0.26783,
+              "slip": 0.15719,
+              "tension": 0.79033,
+              "shade": 0.54387
+            },
+            {
+              "id": 9,
+              "depth": 0.54791,
+              "x": 0.27111,
+              "y": -0.04439,
+              "yaw": -0.0535,
+              "pitch": -0.20872,
+              "aperture": 0.57825,
+              "slip": 0.42775,
+              "tension": 0.54815,
+              "shade": 0.38602
+            },
+            {
+              "id": 10,
+              "depth": 0.84328,
+              "x": 0.20439,
+              "y": -0.06451,
+              "yaw": 0.01591,
+              "pitch": -0.03333,
+              "aperture": 0.39819,
+              "slip": 0.03293,
+              "tension": 0.50328,
+              "shade": 0.2979
+            },
+            {
+              "id": 11,
+              "depth": 0.79122,
+              "x": 0.32227,
+              "y": -0.07803,
+              "yaw": 0.07191,
+              "pitch": 0.04483,
+              "aperture": 0.82703,
+              "slip": 0.44072,
+              "tension": 0.96704,
+              "shade": 0.42476
+            }
+          ],
+          "event": {
+            "id": "pressure-3",
+            "mode": "double-tap-pressure",
+            "interval": 380,
+            "pressure": 0.20313,
+            "sourcePanel": 11,
+            "responsePanel": 7,
+            "splitPanel": 1,
+            "serial": 3
+          },
+          "lastAction": "settled-preview",
+          "renderer": "WEBGPU / VAULT VEIL"
+        },
+        "controls": [
+          {
+            "text": "compress vault",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release vault",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-canonical-reduced-1920x1080.png",
+      "screenshotBytes": 465486
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "pressure": null,
+      "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0.08301,-0.25399,0.03826,-0.08841,0.00376,0.31959,0,0.67999],[1,0.15204,-0.22138,0.06019,0.08424,0.01167,0.33681,0,0.8038],[2,0.23043,-0.17004,0.03789,0.04189,0.0179,0.40608,0,0.83322],[3,0.29511,-0.14614,0.06155,0.03486,0.00195,0.32981,0,0.37326],[4,0.39279,-0.05624,-0.07776,0.07496,0.00046,0.31653,0,0.42604],[5,0.45667,-0.03393,-0.06228,0.00339,0.04029,0.44826,0,0.57879],[6,0.55224,0.05175,-0.08748,0.00729,0.02875,0.34492,0,0.70037],[7,0.63072,0.10326,0.00517,0.05342,-0.0509,0.31521,0,0.38973],[8,0.68429,0.10494,-0.03878,-0.01456,-0.00339,0.35627,0,0.79906],[9,0.76697,0.16486,-0.04455,-0.04237,0.02409,0.397,0,0.5475],[10,0.84134,0.20814,-0.06549,0.03008,-0.04083,0.41694,0,0.49925],[11,0.93565,0.2913,-0.03181,-0.07054,0.04333,0.46976,0,0.83962]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08301,
+          "x": -0.25399,
+          "y": 0.03826,
+          "yaw": -0.08841,
+          "pitch": 0.00376,
+          "aperture": 0.31959,
+          "slip": 0,
+          "tension": 0.67999,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.15204,
+          "x": -0.22138,
+          "y": 0.06019,
+          "yaw": 0.08424,
+          "pitch": 0.01167,
+          "aperture": 0.33681,
+          "slip": 0,
+          "tension": 0.8038,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.23043,
+          "x": -0.17004,
+          "y": 0.03789,
+          "yaw": 0.04189,
+          "pitch": 0.0179,
+          "aperture": 0.40608,
+          "slip": 0,
+          "tension": 0.83322,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29511,
+          "x": -0.14614,
+          "y": 0.06155,
+          "yaw": 0.03486,
+          "pitch": 0.00195,
+          "aperture": 0.32981,
+          "slip": 0,
+          "tension": 0.37326,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39279,
+          "x": -0.05624,
+          "y": -0.07776,
+          "yaw": 0.07496,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0,
+          "tension": 0.42604,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45667,
+          "x": -0.03393,
+          "y": -0.06228,
+          "yaw": 0.00339,
+          "pitch": 0.04029,
+          "aperture": 0.44826,
+          "slip": 0,
+          "tension": 0.57879,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.55224,
+          "x": 0.05175,
+          "y": -0.08748,
+          "yaw": 0.00729,
+          "pitch": 0.02875,
+          "aperture": 0.34492,
+          "slip": 0,
+          "tension": 0.70037,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63072,
+          "x": 0.10326,
+          "y": 0.00517,
+          "yaw": 0.05342,
+          "pitch": -0.0509,
+          "aperture": 0.31521,
+          "slip": 0,
+          "tension": 0.38973,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.68429,
+          "x": 0.10494,
+          "y": -0.03878,
+          "yaw": -0.01456,
+          "pitch": -0.00339,
+          "aperture": 0.35627,
+          "slip": 0,
+          "tension": 0.79906,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.76697,
+          "x": 0.16486,
+          "y": -0.04455,
+          "yaw": -0.04237,
+          "pitch": 0.02409,
+          "aperture": 0.397,
+          "slip": 0,
+          "tension": 0.5475,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84134,
+          "x": 0.20814,
+          "y": -0.06549,
+          "yaw": 0.03008,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0,
+          "tension": 0.49925,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93565,
+          "x": 0.2913,
+          "y": -0.03181,
+          "yaw": -0.07054,
+          "pitch": 0.04333,
+          "aperture": 0.46976,
+          "slip": 0,
+          "tension": 0.83962,
+          "shade": 0.42476
+        }
+      ],
+      "event": null,
+      "lastAction": "quiet",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "primed": {
+      "stage": 0,
+      "memory": 0,
+      "pressure": {
+        "armedAt": 995.6000003814697,
+        "currentAt": 995.6000003814697
+      },
+      "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0.08301,-0.25399,0.03826,-0.08841,0.00376,0.31959,0,0.67999],[1,0.15204,-0.22138,0.06019,0.08424,0.01167,0.33681,0,0.8038],[2,0.23043,-0.17004,0.03789,0.04189,0.0179,0.40608,0,0.83322],[3,0.29511,-0.14614,0.06155,0.03486,0.00195,0.32981,0,0.37326],[4,0.39279,-0.05624,-0.07776,0.07496,0.00046,0.31653,0,0.42604],[5,0.45667,-0.03393,-0.06228,0.00339,0.04029,0.44826,0,0.57879],[6,0.55224,0.05175,-0.08748,0.00729,0.02875,0.34492,0,0.70037],[7,0.63072,0.10326,0.00517,0.05342,-0.0509,0.31521,0,0.38973],[8,0.68429,0.10494,-0.03878,-0.01456,-0.00339,0.35627,0,0.79906],[9,0.76697,0.16486,-0.04455,-0.04237,0.02409,0.397,0,0.5475],[10,0.84134,0.20814,-0.06549,0.03008,-0.04083,0.41694,0,0.49925],[11,0.93565,0.2913,-0.03181,-0.07054,0.04333,0.46976,0,0.83962]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08301,
+          "x": -0.25399,
+          "y": 0.03826,
+          "yaw": -0.08841,
+          "pitch": 0.00376,
+          "aperture": 0.31959,
+          "slip": 0,
+          "tension": 0.67999,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.15204,
+          "x": -0.22138,
+          "y": 0.06019,
+          "yaw": 0.08424,
+          "pitch": 0.01167,
+          "aperture": 0.33681,
+          "slip": 0,
+          "tension": 0.8038,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.23043,
+          "x": -0.17004,
+          "y": 0.03789,
+          "yaw": 0.04189,
+          "pitch": 0.0179,
+          "aperture": 0.40608,
+          "slip": 0,
+          "tension": 0.83322,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29511,
+          "x": -0.14614,
+          "y": 0.06155,
+          "yaw": 0.03486,
+          "pitch": 0.00195,
+          "aperture": 0.32981,
+          "slip": 0,
+          "tension": 0.37326,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39279,
+          "x": -0.05624,
+          "y": -0.07776,
+          "yaw": 0.07496,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0,
+          "tension": 0.42604,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45667,
+          "x": -0.03393,
+          "y": -0.06228,
+          "yaw": 0.00339,
+          "pitch": 0.04029,
+          "aperture": 0.44826,
+          "slip": 0,
+          "tension": 0.57879,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.55224,
+          "x": 0.05175,
+          "y": -0.08748,
+          "yaw": 0.00729,
+          "pitch": 0.02875,
+          "aperture": 0.34492,
+          "slip": 0,
+          "tension": 0.70037,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63072,
+          "x": 0.10326,
+          "y": 0.00517,
+          "yaw": 0.05342,
+          "pitch": -0.0509,
+          "aperture": 0.31521,
+          "slip": 0,
+          "tension": 0.38973,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.68429,
+          "x": 0.10494,
+          "y": -0.03878,
+          "yaw": -0.01456,
+          "pitch": -0.00339,
+          "aperture": 0.35627,
+          "slip": 0,
+          "tension": 0.79906,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.76697,
+          "x": 0.16486,
+          "y": -0.04455,
+          "yaw": -0.04237,
+          "pitch": 0.02409,
+          "aperture": 0.397,
+          "slip": 0,
+          "tension": 0.5475,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84134,
+          "x": 0.20814,
+          "y": -0.06549,
+          "yaw": 0.03008,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0,
+          "tension": 0.49925,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93565,
+          "x": 0.2913,
+          "y": -0.03181,
+          "yaw": -0.07054,
+          "pitch": 0.04333,
+          "aperture": 0.46976,
+          "slip": 0,
+          "tension": 0.83962,
+          "shade": 0.42476
+        }
+      ],
+      "event": null,
+      "lastAction": "pressure-armed",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "waiting": {
+      "stage": 0,
+      "memory": 0,
+      "pressure": {
+        "armedAt": 995.6000003814697,
+        "currentAt": 995.6000003814697
+      },
+      "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0.08301,-0.25399,0.03826,-0.08841,0.00376,0.31959,0,0.67999],[1,0.15204,-0.22138,0.06019,0.08424,0.01167,0.33681,0,0.8038],[2,0.23043,-0.17004,0.03789,0.04189,0.0179,0.40608,0,0.83322],[3,0.29511,-0.14614,0.06155,0.03486,0.00195,0.32981,0,0.37326],[4,0.39279,-0.05624,-0.07776,0.07496,0.00046,0.31653,0,0.42604],[5,0.45667,-0.03393,-0.06228,0.00339,0.04029,0.44826,0,0.57879],[6,0.55224,0.05175,-0.08748,0.00729,0.02875,0.34492,0,0.70037],[7,0.63072,0.10326,0.00517,0.05342,-0.0509,0.31521,0,0.38973],[8,0.68429,0.10494,-0.03878,-0.01456,-0.00339,0.35627,0,0.79906],[9,0.76697,0.16486,-0.04455,-0.04237,0.02409,0.397,0,0.5475],[10,0.84134,0.20814,-0.06549,0.03008,-0.04083,0.41694,0,0.49925],[11,0.93565,0.2913,-0.03181,-0.07054,0.04333,0.46976,0,0.83962]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08301,
+          "x": -0.25399,
+          "y": 0.03826,
+          "yaw": -0.08841,
+          "pitch": 0.00376,
+          "aperture": 0.31959,
+          "slip": 0,
+          "tension": 0.67999,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.15204,
+          "x": -0.22138,
+          "y": 0.06019,
+          "yaw": 0.08424,
+          "pitch": 0.01167,
+          "aperture": 0.33681,
+          "slip": 0,
+          "tension": 0.8038,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.23043,
+          "x": -0.17004,
+          "y": 0.03789,
+          "yaw": 0.04189,
+          "pitch": 0.0179,
+          "aperture": 0.40608,
+          "slip": 0,
+          "tension": 0.83322,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29511,
+          "x": -0.14614,
+          "y": 0.06155,
+          "yaw": 0.03486,
+          "pitch": 0.00195,
+          "aperture": 0.32981,
+          "slip": 0,
+          "tension": 0.37326,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39279,
+          "x": -0.05624,
+          "y": -0.07776,
+          "yaw": 0.07496,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0,
+          "tension": 0.42604,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45667,
+          "x": -0.03393,
+          "y": -0.06228,
+          "yaw": 0.00339,
+          "pitch": 0.04029,
+          "aperture": 0.44826,
+          "slip": 0,
+          "tension": 0.57879,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.55224,
+          "x": 0.05175,
+          "y": -0.08748,
+          "yaw": 0.00729,
+          "pitch": 0.02875,
+          "aperture": 0.34492,
+          "slip": 0,
+          "tension": 0.70037,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63072,
+          "x": 0.10326,
+          "y": 0.00517,
+          "yaw": 0.05342,
+          "pitch": -0.0509,
+          "aperture": 0.31521,
+          "slip": 0,
+          "tension": 0.38973,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.68429,
+          "x": 0.10494,
+          "y": -0.03878,
+          "yaw": -0.01456,
+          "pitch": -0.00339,
+          "aperture": 0.35627,
+          "slip": 0,
+          "tension": 0.79906,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.76697,
+          "x": 0.16486,
+          "y": -0.04455,
+          "yaw": -0.04237,
+          "pitch": 0.02409,
+          "aperture": 0.397,
+          "slip": 0,
+          "tension": 0.5475,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84134,
+          "x": 0.20814,
+          "y": -0.06549,
+          "yaw": 0.03008,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0,
+          "tension": 0.49925,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93565,
+          "x": 0.2913,
+          "y": -0.03181,
+          "yaw": -0.07054,
+          "pitch": 0.04333,
+          "aperture": 0.46976,
+          "slip": 0,
+          "tension": 0.83962,
+          "shade": 0.42476
+        }
+      ],
+      "event": null,
+      "lastAction": "pressure-armed",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "committed": {
+      "stage": 1,
+      "memory": 1,
+      "pressure": null,
+      "signature": "{\"ledger\":\"2>6>9:200.7\",\"panels\":[[0,0.08311,-0.25466,0.03813,-0.08983,0.00511,0.31623,0.00204,0.67946],[1,0.14731,-0.22205,0.05981,0.08377,0.01302,0.33345,0.00198,0.80222],[2,0.09029,-0.21386,0.03726,0.04236,0.01925,0.35051,0.08758,0.83059],[3,0.29169,-0.14648,0.06092,0.03628,0.00262,0.32813,0.00092,0.37063],[4,0.39503,-0.05624,-0.07814,0.07638,0.00046,0.31653,0.00006,0.42446],[5,0.45559,-0.03359,-0.06241,0.00481,0.03962,0.44994,0.00105,0.57826],[6,0.81874,0.11683,-0.12735,0.13501,0.0274,0.70404,0.25591,0.8209],[7,0.63029,0.10393,0.00555,0.05389,-0.05225,0.31857,0.0021,0.39131],[8,0.6895,0.10561,-0.03815,-0.01503,-0.00474,0.35963,0.00216,0.80169],[9,0.68145,0.2202,-0.04392,-0.04379,-0.08036,0.49868,0.16887,0.55013],[10,0.84464,0.20814,-0.06511,0.02866,-0.04083,0.41694,0.00032,0.50083],[11,0.93119,0.29096,-0.03168,-0.07196,0.044,0.46808,0.00118,0.84015]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08311,
+          "x": -0.25466,
+          "y": 0.03813,
+          "yaw": -0.08983,
+          "pitch": 0.00511,
+          "aperture": 0.31623,
+          "slip": 0.00204,
+          "tension": 0.67946,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.14731,
+          "x": -0.22205,
+          "y": 0.05981,
+          "yaw": 0.08377,
+          "pitch": 0.01302,
+          "aperture": 0.33345,
+          "slip": 0.00198,
+          "tension": 0.80222,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.09029,
+          "x": -0.21386,
+          "y": 0.03726,
+          "yaw": 0.04236,
+          "pitch": 0.01925,
+          "aperture": 0.35051,
+          "slip": 0.08758,
+          "tension": 0.83059,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29169,
+          "x": -0.14648,
+          "y": 0.06092,
+          "yaw": 0.03628,
+          "pitch": 0.00262,
+          "aperture": 0.32813,
+          "slip": 0.00092,
+          "tension": 0.37063,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39503,
+          "x": -0.05624,
+          "y": -0.07814,
+          "yaw": 0.07638,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0.00006,
+          "tension": 0.42446,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45559,
+          "x": -0.03359,
+          "y": -0.06241,
+          "yaw": 0.00481,
+          "pitch": 0.03962,
+          "aperture": 0.44994,
+          "slip": 0.00105,
+          "tension": 0.57826,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.81874,
+          "x": 0.11683,
+          "y": -0.12735,
+          "yaw": 0.13501,
+          "pitch": 0.0274,
+          "aperture": 0.70404,
+          "slip": 0.25591,
+          "tension": 0.8209,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63029,
+          "x": 0.10393,
+          "y": 0.00555,
+          "yaw": 0.05389,
+          "pitch": -0.05225,
+          "aperture": 0.31857,
+          "slip": 0.0021,
+          "tension": 0.39131,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.6895,
+          "x": 0.10561,
+          "y": -0.03815,
+          "yaw": -0.01503,
+          "pitch": -0.00474,
+          "aperture": 0.35963,
+          "slip": 0.00216,
+          "tension": 0.80169,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.68145,
+          "x": 0.2202,
+          "y": -0.04392,
+          "yaw": -0.04379,
+          "pitch": -0.08036,
+          "aperture": 0.49868,
+          "slip": 0.16887,
+          "tension": 0.55013,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84464,
+          "x": 0.20814,
+          "y": -0.06511,
+          "yaw": 0.02866,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0.00032,
+          "tension": 0.50083,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93119,
+          "x": 0.29096,
+          "y": -0.03168,
+          "yaw": -0.07196,
+          "pitch": 0.044,
+          "aperture": 0.46808,
+          "slip": 0.00118,
+          "tension": 0.84015,
+          "shade": 0.42476
+        }
+      ],
+      "event": {
+        "id": "pressure-0",
+        "mode": "double-tap-pressure",
+        "interval": 200.7,
+        "pressure": 0.06305,
+        "sourcePanel": 2,
+        "responsePanel": 6,
+        "splitPanel": 9,
+        "serial": 0
+      },
+      "lastAction": "pressure-committed",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "lifted": {
+      "stage": 0,
+      "memory": 0,
+      "pressure": null,
+      "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0.08301,-0.25399,0.03826,-0.08841,0.00376,0.31959,0,0.67999],[1,0.15204,-0.22138,0.06019,0.08424,0.01167,0.33681,0,0.8038],[2,0.23043,-0.17004,0.03789,0.04189,0.0179,0.40608,0,0.83322],[3,0.29511,-0.14614,0.06155,0.03486,0.00195,0.32981,0,0.37326],[4,0.39279,-0.05624,-0.07776,0.07496,0.00046,0.31653,0,0.42604],[5,0.45667,-0.03393,-0.06228,0.00339,0.04029,0.44826,0,0.57879],[6,0.55224,0.05175,-0.08748,0.00729,0.02875,0.34492,0,0.70037],[7,0.63072,0.10326,0.00517,0.05342,-0.0509,0.31521,0,0.38973],[8,0.68429,0.10494,-0.03878,-0.01456,-0.00339,0.35627,0,0.79906],[9,0.76697,0.16486,-0.04455,-0.04237,0.02409,0.397,0,0.5475],[10,0.84134,0.20814,-0.06549,0.03008,-0.04083,0.41694,0,0.49925],[11,0.93565,0.2913,-0.03181,-0.07054,0.04333,0.46976,0,0.83962]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08301,
+          "x": -0.25399,
+          "y": 0.03826,
+          "yaw": -0.08841,
+          "pitch": 0.00376,
+          "aperture": 0.31959,
+          "slip": 0,
+          "tension": 0.67999,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.15204,
+          "x": -0.22138,
+          "y": 0.06019,
+          "yaw": 0.08424,
+          "pitch": 0.01167,
+          "aperture": 0.33681,
+          "slip": 0,
+          "tension": 0.8038,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.23043,
+          "x": -0.17004,
+          "y": 0.03789,
+          "yaw": 0.04189,
+          "pitch": 0.0179,
+          "aperture": 0.40608,
+          "slip": 0,
+          "tension": 0.83322,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29511,
+          "x": -0.14614,
+          "y": 0.06155,
+          "yaw": 0.03486,
+          "pitch": 0.00195,
+          "aperture": 0.32981,
+          "slip": 0,
+          "tension": 0.37326,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39279,
+          "x": -0.05624,
+          "y": -0.07776,
+          "yaw": 0.07496,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0,
+          "tension": 0.42604,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45667,
+          "x": -0.03393,
+          "y": -0.06228,
+          "yaw": 0.00339,
+          "pitch": 0.04029,
+          "aperture": 0.44826,
+          "slip": 0,
+          "tension": 0.57879,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.55224,
+          "x": 0.05175,
+          "y": -0.08748,
+          "yaw": 0.00729,
+          "pitch": 0.02875,
+          "aperture": 0.34492,
+          "slip": 0,
+          "tension": 0.70037,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63072,
+          "x": 0.10326,
+          "y": 0.00517,
+          "yaw": 0.05342,
+          "pitch": -0.0509,
+          "aperture": 0.31521,
+          "slip": 0,
+          "tension": 0.38973,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.68429,
+          "x": 0.10494,
+          "y": -0.03878,
+          "yaw": -0.01456,
+          "pitch": -0.00339,
+          "aperture": 0.35627,
+          "slip": 0,
+          "tension": 0.79906,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.76697,
+          "x": 0.16486,
+          "y": -0.04455,
+          "yaw": -0.04237,
+          "pitch": 0.02409,
+          "aperture": 0.397,
+          "slip": 0,
+          "tension": 0.5475,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84134,
+          "x": 0.20814,
+          "y": -0.06549,
+          "yaw": 0.03008,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0,
+          "tension": 0.49925,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93565,
+          "x": 0.2913,
+          "y": -0.03181,
+          "yaw": -0.07054,
+          "pitch": 0.04333,
+          "aperture": 0.46976,
+          "slip": 0,
+          "tension": 0.83962,
+          "shade": 0.42476
+        }
+      ],
+      "event": null,
+      "lastAction": "pressure-lifted",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "keyboardPrimed": {
+      "stage": 0,
+      "memory": 0,
+      "pressure": {
+        "armedAt": 1237,
+        "currentAt": 1237
+      },
+      "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0.08301,-0.25399,0.03826,-0.08841,0.00376,0.31959,0,0.67999],[1,0.15204,-0.22138,0.06019,0.08424,0.01167,0.33681,0,0.8038],[2,0.23043,-0.17004,0.03789,0.04189,0.0179,0.40608,0,0.83322],[3,0.29511,-0.14614,0.06155,0.03486,0.00195,0.32981,0,0.37326],[4,0.39279,-0.05624,-0.07776,0.07496,0.00046,0.31653,0,0.42604],[5,0.45667,-0.03393,-0.06228,0.00339,0.04029,0.44826,0,0.57879],[6,0.55224,0.05175,-0.08748,0.00729,0.02875,0.34492,0,0.70037],[7,0.63072,0.10326,0.00517,0.05342,-0.0509,0.31521,0,0.38973],[8,0.68429,0.10494,-0.03878,-0.01456,-0.00339,0.35627,0,0.79906],[9,0.76697,0.16486,-0.04455,-0.04237,0.02409,0.397,0,0.5475],[10,0.84134,0.20814,-0.06549,0.03008,-0.04083,0.41694,0,0.49925],[11,0.93565,0.2913,-0.03181,-0.07054,0.04333,0.46976,0,0.83962]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08301,
+          "x": -0.25399,
+          "y": 0.03826,
+          "yaw": -0.08841,
+          "pitch": 0.00376,
+          "aperture": 0.31959,
+          "slip": 0,
+          "tension": 0.67999,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.15204,
+          "x": -0.22138,
+          "y": 0.06019,
+          "yaw": 0.08424,
+          "pitch": 0.01167,
+          "aperture": 0.33681,
+          "slip": 0,
+          "tension": 0.8038,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.23043,
+          "x": -0.17004,
+          "y": 0.03789,
+          "yaw": 0.04189,
+          "pitch": 0.0179,
+          "aperture": 0.40608,
+          "slip": 0,
+          "tension": 0.83322,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29511,
+          "x": -0.14614,
+          "y": 0.06155,
+          "yaw": 0.03486,
+          "pitch": 0.00195,
+          "aperture": 0.32981,
+          "slip": 0,
+          "tension": 0.37326,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39279,
+          "x": -0.05624,
+          "y": -0.07776,
+          "yaw": 0.07496,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0,
+          "tension": 0.42604,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45667,
+          "x": -0.03393,
+          "y": -0.06228,
+          "yaw": 0.00339,
+          "pitch": 0.04029,
+          "aperture": 0.44826,
+          "slip": 0,
+          "tension": 0.57879,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.55224,
+          "x": 0.05175,
+          "y": -0.08748,
+          "yaw": 0.00729,
+          "pitch": 0.02875,
+          "aperture": 0.34492,
+          "slip": 0,
+          "tension": 0.70037,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63072,
+          "x": 0.10326,
+          "y": 0.00517,
+          "yaw": 0.05342,
+          "pitch": -0.0509,
+          "aperture": 0.31521,
+          "slip": 0,
+          "tension": 0.38973,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.68429,
+          "x": 0.10494,
+          "y": -0.03878,
+          "yaw": -0.01456,
+          "pitch": -0.00339,
+          "aperture": 0.35627,
+          "slip": 0,
+          "tension": 0.79906,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.76697,
+          "x": 0.16486,
+          "y": -0.04455,
+          "yaw": -0.04237,
+          "pitch": 0.02409,
+          "aperture": 0.397,
+          "slip": 0,
+          "tension": 0.5475,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84134,
+          "x": 0.20814,
+          "y": -0.06549,
+          "yaw": 0.03008,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0,
+          "tension": 0.49925,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93565,
+          "x": 0.2913,
+          "y": -0.03181,
+          "yaw": -0.07054,
+          "pitch": 0.04333,
+          "aperture": 0.46976,
+          "slip": 0,
+          "tension": 0.83962,
+          "shade": 0.42476
+        }
+      ],
+      "event": null,
+      "lastAction": "pressure-armed",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "keyboardCommitted": {
+      "stage": 1,
+      "memory": 1,
+      "pressure": null,
+      "signature": "{\"ledger\":\"2>6>9:204.9\",\"panels\":[[0,0.08299,-0.2547,0.03813,-0.0899,0.00518,0.31605,0.00214,0.67944],[1,0.14719,-0.22209,0.05979,0.08374,0.01309,0.33327,0.00208,0.80214],[2,0.08965,-0.21407,0.03723,0.04239,0.01932,0.35022,0.08798,0.83046],[3,0.29163,-0.14649,0.06089,0.03635,0.00266,0.32804,0.00097,0.3705],[4,0.39503,-0.05624,-0.07816,0.07645,0.00046,0.31653,0.00007,0.42438],[5,0.45565,-0.03358,-0.06241,0.00488,0.03958,0.45003,0.00111,0.57824],[6,0.81997,0.1171,-0.12735,0.13541,0.02733,0.70504,0.25673,0.82092],[7,0.63041,0.10397,0.00557,0.05392,-0.05232,0.31875,0.00221,0.39139],[8,0.68962,0.10565,-0.03812,-0.01506,-0.00481,0.35981,0.00228,0.80182],[9,0.68131,0.22021,-0.04389,-0.04386,-0.0806,0.49877,0.16933,0.55026],[10,0.84464,0.20814,-0.06509,0.02859,-0.04083,0.41694,0.00033,0.50091],[11,0.93113,0.29095,-0.03168,-0.07203,0.04404,0.46799,0.00124,0.84017]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08299,
+          "x": -0.2547,
+          "y": 0.03813,
+          "yaw": -0.0899,
+          "pitch": 0.00518,
+          "aperture": 0.31605,
+          "slip": 0.00214,
+          "tension": 0.67944,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.14719,
+          "x": -0.22209,
+          "y": 0.05979,
+          "yaw": 0.08374,
+          "pitch": 0.01309,
+          "aperture": 0.33327,
+          "slip": 0.00208,
+          "tension": 0.80214,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.08965,
+          "x": -0.21407,
+          "y": 0.03723,
+          "yaw": 0.04239,
+          "pitch": 0.01932,
+          "aperture": 0.35022,
+          "slip": 0.08798,
+          "tension": 0.83046,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29163,
+          "x": -0.14649,
+          "y": 0.06089,
+          "yaw": 0.03635,
+          "pitch": 0.00266,
+          "aperture": 0.32804,
+          "slip": 0.00097,
+          "tension": 0.3705,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39503,
+          "x": -0.05624,
+          "y": -0.07816,
+          "yaw": 0.07645,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0.00007,
+          "tension": 0.42438,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45565,
+          "x": -0.03358,
+          "y": -0.06241,
+          "yaw": 0.00488,
+          "pitch": 0.03958,
+          "aperture": 0.45003,
+          "slip": 0.00111,
+          "tension": 0.57824,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.81997,
+          "x": 0.1171,
+          "y": -0.12735,
+          "yaw": 0.13541,
+          "pitch": 0.02733,
+          "aperture": 0.70504,
+          "slip": 0.25673,
+          "tension": 0.82092,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63041,
+          "x": 0.10397,
+          "y": 0.00557,
+          "yaw": 0.05392,
+          "pitch": -0.05232,
+          "aperture": 0.31875,
+          "slip": 0.00221,
+          "tension": 0.39139,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.68962,
+          "x": 0.10565,
+          "y": -0.03812,
+          "yaw": -0.01506,
+          "pitch": -0.00481,
+          "aperture": 0.35981,
+          "slip": 0.00228,
+          "tension": 0.80182,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.68131,
+          "x": 0.22021,
+          "y": -0.04389,
+          "yaw": -0.04386,
+          "pitch": -0.0806,
+          "aperture": 0.49877,
+          "slip": 0.16933,
+          "tension": 0.55026,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84464,
+          "x": 0.20814,
+          "y": -0.06509,
+          "yaw": 0.02859,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0.00033,
+          "tension": 0.50091,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93113,
+          "x": 0.29095,
+          "y": -0.03168,
+          "yaw": -0.07203,
+          "pitch": 0.04404,
+          "aperture": 0.46799,
+          "slip": 0.00124,
+          "tension": 0.84017,
+          "shade": 0.42476
+        }
+      ],
+      "event": {
+        "id": "pressure-0",
+        "mode": "double-tap-pressure",
+        "interval": 204.9,
+        "pressure": 0.06633,
+        "sourcePanel": 2,
+        "responsePanel": 6,
+        "splitPanel": 9,
+        "serial": 0
+      },
+      "lastAction": "pressure-committed",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "pressure": null,
+      "signature": "{\"ledger\":\"quiet\",\"panels\":[[0,0.08301,-0.25399,0.03826,-0.08841,0.00376,0.31959,0,0.67999],[1,0.15204,-0.22138,0.06019,0.08424,0.01167,0.33681,0,0.8038],[2,0.23043,-0.17004,0.03789,0.04189,0.0179,0.40608,0,0.83322],[3,0.29511,-0.14614,0.06155,0.03486,0.00195,0.32981,0,0.37326],[4,0.39279,-0.05624,-0.07776,0.07496,0.00046,0.31653,0,0.42604],[5,0.45667,-0.03393,-0.06228,0.00339,0.04029,0.44826,0,0.57879],[6,0.55224,0.05175,-0.08748,0.00729,0.02875,0.34492,0,0.70037],[7,0.63072,0.10326,0.00517,0.05342,-0.0509,0.31521,0,0.38973],[8,0.68429,0.10494,-0.03878,-0.01456,-0.00339,0.35627,0,0.79906],[9,0.76697,0.16486,-0.04455,-0.04237,0.02409,0.397,0,0.5475],[10,0.84134,0.20814,-0.06549,0.03008,-0.04083,0.41694,0,0.49925],[11,0.93565,0.2913,-0.03181,-0.07054,0.04333,0.46976,0,0.83962]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08301,
+          "x": -0.25399,
+          "y": 0.03826,
+          "yaw": -0.08841,
+          "pitch": 0.00376,
+          "aperture": 0.31959,
+          "slip": 0,
+          "tension": 0.67999,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.15204,
+          "x": -0.22138,
+          "y": 0.06019,
+          "yaw": 0.08424,
+          "pitch": 0.01167,
+          "aperture": 0.33681,
+          "slip": 0,
+          "tension": 0.8038,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.23043,
+          "x": -0.17004,
+          "y": 0.03789,
+          "yaw": 0.04189,
+          "pitch": 0.0179,
+          "aperture": 0.40608,
+          "slip": 0,
+          "tension": 0.83322,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29511,
+          "x": -0.14614,
+          "y": 0.06155,
+          "yaw": 0.03486,
+          "pitch": 0.00195,
+          "aperture": 0.32981,
+          "slip": 0,
+          "tension": 0.37326,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39279,
+          "x": -0.05624,
+          "y": -0.07776,
+          "yaw": 0.07496,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0,
+          "tension": 0.42604,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45667,
+          "x": -0.03393,
+          "y": -0.06228,
+          "yaw": 0.00339,
+          "pitch": 0.04029,
+          "aperture": 0.44826,
+          "slip": 0,
+          "tension": 0.57879,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.55224,
+          "x": 0.05175,
+          "y": -0.08748,
+          "yaw": 0.00729,
+          "pitch": 0.02875,
+          "aperture": 0.34492,
+          "slip": 0,
+          "tension": 0.70037,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63072,
+          "x": 0.10326,
+          "y": 0.00517,
+          "yaw": 0.05342,
+          "pitch": -0.0509,
+          "aperture": 0.31521,
+          "slip": 0,
+          "tension": 0.38973,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.68429,
+          "x": 0.10494,
+          "y": -0.03878,
+          "yaw": -0.01456,
+          "pitch": -0.00339,
+          "aperture": 0.35627,
+          "slip": 0,
+          "tension": 0.79906,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.76697,
+          "x": 0.16486,
+          "y": -0.04455,
+          "yaw": -0.04237,
+          "pitch": 0.02409,
+          "aperture": 0.397,
+          "slip": 0,
+          "tension": 0.5475,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84134,
+          "x": 0.20814,
+          "y": -0.06549,
+          "yaw": 0.03008,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0,
+          "tension": 0.49925,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93565,
+          "x": 0.2913,
+          "y": -0.03181,
+          "yaw": -0.07054,
+          "pitch": 0.04333,
+          "aperture": 0.46976,
+          "slip": 0,
+          "tension": 0.83962,
+          "shade": 0.42476
+        }
+      ],
+      "event": null,
+      "lastAction": "archive-released",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "button": {
+      "stage": 1,
+      "memory": 1,
+      "pressure": null,
+      "signature": "{\"ledger\":\"2>6>9:260.0\",\"panels\":[[0,0.08142,-0.25516,0.03804,-0.09087,0.00609,0.31376,0.00354,0.67908],[1,0.14561,-0.22255,0.05953,0.08342,0.014,0.33098,0.00343,0.80107],[2,0.08118,-0.21668,0.0368,0.04271,0.02023,0.34642,0.09316,0.82866],[3,0.29084,-0.14672,0.06046,0.03732,0.00312,0.32689,0.0016,0.3687],[4,0.39503,-0.05624,-0.07842,0.07742,0.00046,0.31653,0.00011,0.42331],[5,0.45644,-0.03335,-0.0625,0.00585,0.03912,0.45118,0.00182,0.57788],[6,0.83619,0.12058,-0.12726,0.14069,0.02642,0.71809,0.2676,0.82128],[7,0.63198,0.10443,0.00583,0.05424,-0.05323,0.32104,0.00365,0.39246],[8,0.69119,0.10611,-0.03769,-0.01538,-0.00572,0.3621,0.00376,0.80362],[9,0.67952,0.22044,-0.04346,-0.04483,-0.08364,0.49992,0.17539,0.55206],[10,0.84464,0.20814,-0.06483,0.02762,-0.04083,0.41694,0.00055,0.50198],[11,0.93034,0.29072,-0.03159,-0.073,0.0445,0.46684,0.00204,0.84053]]}",
+      "panels": [
+        {
+          "id": 0,
+          "depth": 0.08142,
+          "x": -0.25516,
+          "y": 0.03804,
+          "yaw": -0.09087,
+          "pitch": 0.00609,
+          "aperture": 0.31376,
+          "slip": 0.00354,
+          "tension": 0.67908,
+          "shade": 0.49308
+        },
+        {
+          "id": 1,
+          "depth": 0.14561,
+          "x": -0.22255,
+          "y": 0.05953,
+          "yaw": 0.08342,
+          "pitch": 0.014,
+          "aperture": 0.33098,
+          "slip": 0.00343,
+          "tension": 0.80107,
+          "shade": 0.58563
+        },
+        {
+          "id": 2,
+          "depth": 0.08118,
+          "x": -0.21668,
+          "y": 0.0368,
+          "yaw": 0.04271,
+          "pitch": 0.02023,
+          "aperture": 0.34642,
+          "slip": 0.09316,
+          "tension": 0.82866,
+          "shade": 0.53929
+        },
+        {
+          "id": 3,
+          "depth": 0.29084,
+          "x": -0.14672,
+          "y": 0.06046,
+          "yaw": 0.03732,
+          "pitch": 0.00312,
+          "aperture": 0.32689,
+          "slip": 0.0016,
+          "tension": 0.3687,
+          "shade": 0.77037
+        },
+        {
+          "id": 4,
+          "depth": 0.39503,
+          "x": -0.05624,
+          "y": -0.07842,
+          "yaw": 0.07742,
+          "pitch": 0.00046,
+          "aperture": 0.31653,
+          "slip": 0.00011,
+          "tension": 0.42331,
+          "shade": 0.27119
+        },
+        {
+          "id": 5,
+          "depth": 0.45644,
+          "x": -0.03335,
+          "y": -0.0625,
+          "yaw": 0.00585,
+          "pitch": 0.03912,
+          "aperture": 0.45118,
+          "slip": 0.00182,
+          "tension": 0.57788,
+          "shade": 0.36942
+        },
+        {
+          "id": 6,
+          "depth": 0.83619,
+          "x": 0.12058,
+          "y": -0.12726,
+          "yaw": 0.14069,
+          "pitch": 0.02642,
+          "aperture": 0.71809,
+          "slip": 0.2676,
+          "tension": 0.82128,
+          "shade": 0.46223
+        },
+        {
+          "id": 7,
+          "depth": 0.63198,
+          "x": 0.10443,
+          "y": 0.00583,
+          "yaw": 0.05424,
+          "pitch": -0.05323,
+          "aperture": 0.32104,
+          "slip": 0.00365,
+          "tension": 0.39246,
+          "shade": 0.67983
+        },
+        {
+          "id": 8,
+          "depth": 0.69119,
+          "x": 0.10611,
+          "y": -0.03769,
+          "yaw": -0.01538,
+          "pitch": -0.00572,
+          "aperture": 0.3621,
+          "slip": 0.00376,
+          "tension": 0.80362,
+          "shade": 0.54387
+        },
+        {
+          "id": 9,
+          "depth": 0.67952,
+          "x": 0.22044,
+          "y": -0.04346,
+          "yaw": -0.04483,
+          "pitch": -0.08364,
+          "aperture": 0.49992,
+          "slip": 0.17539,
+          "tension": 0.55206,
+          "shade": 0.38602
+        },
+        {
+          "id": 10,
+          "depth": 0.84464,
+          "x": 0.20814,
+          "y": -0.06483,
+          "yaw": 0.02762,
+          "pitch": -0.04083,
+          "aperture": 0.41694,
+          "slip": 0.00055,
+          "tension": 0.50198,
+          "shade": 0.2979
+        },
+        {
+          "id": 11,
+          "depth": 0.93034,
+          "x": 0.29072,
+          "y": -0.03159,
+          "yaw": -0.073,
+          "pitch": 0.0445,
+          "aperture": 0.46684,
+          "slip": 0.00204,
+          "tension": 0.84053,
+          "shade": 0.42476
+        }
+      ],
+      "event": {
+        "id": "pressure-0",
+        "mode": "double-tap-pressure",
+        "interval": 260,
+        "pressure": 0.10938,
+        "sourcePanel": 2,
+        "responsePanel": 6,
+        "splitPanel": 9,
+        "serial": 0
+      },
+      "lastAction": "pressure-committed",
+      "renderer": "WEBGPU / VAULT VEIL"
+    },
+    "baseline": "{\"ledger\":\"quiet\",\"panels\":[[0,0.08301,-0.25399,0.03826,-0.08841,0.00376,0.31959,0,0.67999],[1,0.15204,-0.22138,0.06019,0.08424,0.01167,0.33681,0,0.8038],[2,0.23043,-0.17004,0.03789,0.04189,0.0179,0.40608,0,0.83322],[3,0.29511,-0.14614,0.06155,0.03486,0.00195,0.32981,0,0.37326],[4,0.39279,-0.05624,-0.07776,0.07496,0.00046,0.31653,0,0.42604],[5,0.45667,-0.03393,-0.06228,0.00339,0.04029,0.44826,0,0.57879],[6,0.55224,0.05175,-0.08748,0.00729,0.02875,0.34492,0,0.70037],[7,0.63072,0.10326,0.00517,0.05342,-0.0509,0.31521,0,0.38973],[8,0.68429,0.10494,-0.03878,-0.01456,-0.00339,0.35627,0,0.79906],[9,0.76697,0.16486,-0.04455,-0.04237,0.02409,0.397,0,0.5475],[10,0.84134,0.20814,-0.06549,0.03008,-0.04083,0.41694,0,0.49925],[11,0.93565,0.2913,-0.03181,-0.07054,0.04333,0.46976,0,0.83962]]}",
+    "buttons": [
+      {
+        "text": "compress vault",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release vault",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-interaction-390x844.png"
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "state": {
+        "stage": 8,
+        "memory": 4,
+        "pressure": null,
+        "signature": "{\"ledger\":\"2>6>9:260.0|5>11>3:52",
+        "panels": [
+          {
+            "id": 0,
+            "depth": 0.09168,
+            "x": -0.254,
+            "y": 0.04041,
+            "yaw": -0.09649,
+            "pitch": 0.00375,
+            "aperture": 0.3196,
+            "slip": 0.0223,
+            "tension": 0.68898,
+            "shade": 0.49308
+          },
+          {
+            "id": 1,
+            "depth": 0.05575,
+            "x": -0.27505,
+            "y": 0.06272,
+            "yaw": 0.0785,
+            "pitch": -0.10319,
+            "aperture": 0.44348,
+            "slip": 0.2102,
+            "tension": 0.81436,
+            "shade": 0.58563
+          },
+          {
+            "id": 2,
+            "depth": 0.11153,
+            "x": -0.21176,
+            "y": 0.03999,
+            "yaw": 0.04459,
+            "pitch": 0.0104,
+            "aperture": 0.371,
+            "slip": 0.11577,
+            "tension": 0.84195,
+            "shade": 0.53929
+          },
+          {
+            "id": 3,
+            "depth": 0.19353,
+            "x": -0.19739,
+            "y": 0.06139,
+            "yaw": 0.04598,
+            "pitch": -0.1243,
+            "aperture": 0.44856,
+            "slip": 0.22287,
+            "tension": 0.37261,
+            "shade": 0.77037
+          },
+          {
+            "id": 4,
+            "depth": 0.81717,
+            "x": 0.04689,
+            "y": -0.13474,
+            "yaw": 0.26538,
+            "pitch": -0.00704,
+            "aperture": 0.81591,
+            "slip": 0.39524,
+            "tension": 0.54201,
+            "shade": 0.27119
+          },
+          {
+            "id": 5,
+            "depth": 0.299,
+            "x": -0.08881,
+            "y": -0.06407,
+            "yaw": 0.01218,
+            "pitch": 0.03879,
+            "aperture": 0.39107,
+            "slip": 0.14068,
+            "tension": 0.57137,
+            "shade": 0.36942
+          },
+          {
+            "id": 6,
+            "depth": 0.81222,
+            "x": 0.11942,
+            "y": -0.12964,
+            "yaw": 0.14631,
+            "pitch": 0.02876,
+            "aperture": 0.71225,
+            "slip": 0.28555,
+            "tension": 0.81138,
+            "shade": 0.46223
+          },
+          {
+            "id": 7,
+            "depth": 0.95239,
+            "x": 0.17615,
+            "y": -0.06135,
+            "yaw": 0.19947,
+            "pitch": -0.04823,
+            "aperture": 0.69932,
+            "slip": 0.31001,
+            "tension": 0.49917,
+            "shade": 0.67983
+          },
+          {
+            "id": 8,
+            "depth": 0.45726,
+            "x": 0.03306,
+            "y": -0.04088,
+            "yaw": -0.01726,
+            "pitch": 0.00411,
+            "aperture": 0.26783,
+            "slip": 0.15719,
+            "tension": 0.79033,
+            "shade": 0.54387
+          },
+          {
+            "id": 9,
+            "depth": 0.54791,
+            "x": 0.27111,
+            "y": -0.04439,
+            "yaw": -0.0535,
+            "pitch": -0.20872,
+            "aperture": 0.57825,
+            "slip": 0.42775,
+            "tension": 0.54815,
+            "shade": 0.38602
+          },
+          {
+            "id": 10,
+            "depth": 0.84328,
+            "x": 0.20439,
+            "y": -0.06451,
+            "yaw": 0.01591,
+            "pitch": -0.03333,
+            "aperture": 0.39819,
+            "slip": 0.03293,
+            "tension": 0.50328,
+            "shade": 0.2979
+          },
+          {
+            "id": 11,
+            "depth": 0.79122,
+            "x": 0.32227,
+            "y": -0.07803,
+            "yaw": 0.07191,
+            "pitch": 0.04483,
+            "aperture": 0.82703,
+            "slip": 0.44072,
+            "tension": 0.96704,
+            "shade": 0.42476
+          }
+        ],
+        "event": {
+          "id": "pressure-3",
+          "mode": "double-tap-pressure",
+          "interval": 380,
+          "pressure": 0.20313,
+          "sourcePanel": 11,
+          "responsePanel": 7,
+          "splitPanel": 1,
+          "serial": 3
+        },
+        "lastAction": "settled-preview",
+        "renderer": "WEBGPU / VAULT VEIL"
+      },
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "statusDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-blind-390x844.png"
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not."
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-journal-390x844.png"
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "WebGPU"
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-current-390x844.png"
+  },
+  "work": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "The pressure enters elsewhere."
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v035-2026-10-26-production\\production-work-390x844.png"
+  }
+}
