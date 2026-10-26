@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120f">
+  <meta name="description" content="A pressure vault where the next panel changes elsewhere in depth, aperture, and slip.">
+  <title>MUTINE — The pressure enters elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=035">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-26"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="vault-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v035 / pressure vault</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="vault-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v035</span></nav>
+      <section class="vault-work" aria-label="WebGPU daily work">
+        <figure class="vault-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <canvas id="vault-field" role="img" aria-label="A deep pressure vault made from twelve displaced panels with apertures and material slips" tabindex="0" aria-keyshortcuts="Enter Space Delete Backspace Escape R">
+          </canvas>
+          <div class="vault-readout" role="status" aria-live="polite"><span data-stage>pressure 01 / 09</span><span data-memory>0 slips</span><span data-renderer>CANVAS / PRESSURE VAULT</span></div>
+          <div class="vault-status" data-status>tap twice · the delay becomes pressure elsewhere</div>
+          <div class="vault-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="pressure">compress vault</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release vault</button>
+          </div>
+          <figcaption><span>WEBGPU / V035 / DAILY WORK</span><span>press → wait → slip</span></figcaption>
+        </figure>
+        <aside class="vault-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The crowd is gone. Twelve vertical panels recede through a dark architectural depth; apertures, side planes, and uneven slips make a vault that reads as one body before it reads as parts.</p></div>
+          <div><span>changed rule</span><p>A first tap is only a pressure sample. A second tap closes the interval: the delay changes a remote panel's depth, aperture, and slip while the tapped surface remains absent from the answer.</p></div>
+          <div><span>progression</span><p>Tap the field twice with a pause between taps. Enter or Space offers the deterministic pressure. Delete reconstructs the prior vault; Escape releases it to quiet.</p></div>
+        </aside>
+      </section>
+      <section class="vault-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V035 / DAILY WORK</p><h1 id="work-title">The pressure enters<br><i>elsewhere.</i></h1></div>
+        <p class="vault-premise">A material sample does not mark the place it touched. It changes the depth of a future panel.</p>
+      </section>
+      <section class="vault-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: the first beat stays geometry-neutral, a bounded second beat commits a remote pressure slip, and four decisions remain liftable. Promotion depends on whether the blind view reads as a singular vault rather than a decorative stack or control grid.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>pressure → depth → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=035a"></script>
+</body>
+</html>
