@@ -36,8 +36,9 @@ async function serveFile(request, response) {
   }
 }
 
-const server = createServer((request, response) => { void serveFile(request, response); });
-await new Promise((resolve) => server.listen(new URL(base).port, '127.0.0.1', resolve));
+const isLocal = base.startsWith('http://127.0.0.1:');
+const server = isLocal ? createServer((request, response) => { void serveFile(request, response); }) : null;
+if (server) await new Promise((resolve) => server.listen(new URL(base).port, '127.0.0.1', resolve));
 await mkdir(output, { recursive: true });
 const browser = await chromium.launch({
   headless: true,
@@ -248,6 +249,6 @@ const summary = {
 };
 await writeFile(path.join(output, 'qa-summary.json'), `${JSON.stringify(summary, null, 2)}\n`, 'utf8');
 await browser.close();
-await new Promise((resolve) => server.close(resolve));
+if (server) await new Promise((resolve) => server.close(resolve));
 process.stdout.write(`${JSON.stringify({ pass: summary.pass, matrix: matrix.length, diagnostics: diagnostics.length, interaction: { shallowRefused: interaction.shallowRefused, wheelCommitted: interaction.wheelCommitted, baselineRestored: interaction.baselineRestored, swipeCommitted: interaction.swipeCommitted, arrowCommitted: interaction.arrowCommitted, controlCommitted: interaction.controlCommitted, touchTargets: interaction.touchTargets }, blind, journal, readback: localReadback }, null, 2)}\n`);
 if (!summary.pass) process.exitCode = 1;

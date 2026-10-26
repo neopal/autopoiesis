@@ -66,7 +66,7 @@
         "lineage":"naive-2026-10-25"
       },
       "browserEvidence": {
-        "status":"20/20 local browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending production evidence, independent caption-free perceptual review, and provider revision linkage",
+        "status":"20/20 local and 20/20 production browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady":false,
         "runner":"headless system Chrome via Playwright",
         "viewports":["320x568","390x844","768x1024","1280x800","1920x1080"],
@@ -84,7 +84,22 @@
         "localReadbacks":"local Journal anchor/title, Naive current, canonical work title/tableau, raw v036 tableau, source works.json record, public catalog record, and favicon returned/rendered",
         "localProofPath":"research/qa/proofs/naive-art-v036-2026-10-26/",
         "localScreenshotCount":21,
-        "unresolved":["production browser matrix","independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
+        "productionAlias":"https://autopoiesis-nine.vercel.app",
+        "productionDeploymentUrl":"https://autopoiesis-hzid19073-lairpa-hotmailfrs-projects.vercel.app",
+        "productionDeployment":"dpl_8cmHwgWHrp1bQCXbrYUL2k6fsqjZ",
+        "productionRawPreview":"https://autopoiesis-nine.vercel.app/studies/naive-art/v036/?preview=1&interaction=1",
+        "productionBlindPreview":"https://autopoiesis-nine.vercel.app/studies/naive-art/v036/?preview=1&static=1&blind=1",
+        "productionCanonicalWork":"https://autopoiesis-nine.vercel.app/works/naive-2026-10-26/",
+        "productionViewportRuns":20,
+        "productionDiagnostics":0,
+        "productionOverflow":0,
+        "productionMinTouchTarget":44,
+        "productionInteraction":"production shallow wheel refused; full wheel committed the non-local shut/open/echo event; Delete restored exact baseline; swipe, ArrowRight, Enter/control, and Escape paths passed",
+        "productionBlindPreviewEvidence":"production reduced-motion static blind preview at 390x844 kept eleven DOM/CSS folds and four settled false page turns visible while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks":"production Journal anchor/title, Naive current, canonical work title/tableau, raw v036 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath":"research/qa/proofs/naive-art-v036-2026-10-26-production/",
+        "productionScreenshotCount":21,
+        "unresolved":["independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
       }
     },
     {
