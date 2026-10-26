@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d6c3a2">
+  <title>MUTINE — The page reads the wrong fold.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=036">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-26"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="fold-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v036 / FALSE ACCORDION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="fold-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v036</span></nav>
+
+      <section class="fold-surface" aria-label="Naive false accordion tableau">
+        <div class="fold-column">
+          <figure class="fold-work artwork-frame">
+            <div class="fold-field" id="fold-field" tabindex="0" role="application" aria-label="A crooked paper page. Scroll or use the arrow keys to turn it; the page will misread an unseen fold." aria-keyshortcuts="ArrowUp ArrowDown ArrowLeft ArrowRight Delete Escape R">
+              <div class="fold-paper" id="fold-paper" aria-hidden="true"></div>
+              <div class="fold-void" aria-hidden="true"></div>
+              <div class="fold-readout" aria-live="polite"><span data-stage>turn 00 / 04</span><span data-memory>0 retained</span><span data-status>scroll to turn the page</span></div>
+            </div>
+            <div class="fold-controls" aria-label="Page actions">
+              <button type="button" data-action="turn">turn the page</button>
+              <button type="button" data-action="lift">lift last mistake</button>
+              <button type="button" data-action="release">release the page</button>
+            </div>
+            <p class="fold-hint">scroll or swipe across the page · the read fold shuts · an unseen fold invents an opening</p>
+            <figcaption><span>seed | mutine-naive-v036</span><span>turn &gt; misread &gt; invent</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A crooked accordion page occupies the room as one interrupted reading surface. Its leaves overlap too far to behave like a catalogue of objects.</p></div>
+          <div><span>critique</span><p>The page must mistake the fold it can see. A closed leaf should cause an unseen leaf to open, while a third leaf repeats the crease in the wrong direction.</p></div>
+          <div><span>progression</span><p>v036 leaves v035's pressure plate, v034's relief, and v033's proof sheet. The new unit is a browser-native page turn and a false pagination that remembers itself.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V036 / DAILY WORK</p><h1 id="work-title">The page<br><i>reads the wrong fold.</i></h1></div>
+        <p class="work-premise">A turn closes what is seen and opens what was never read.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v036 translates little-critters' situated reciprocal attention into a false accordion: the reader's page turn is treated as evidence, but the page answers with an unseen fold. The visible leaf shuts, a remote leaf invents an opening, and a third leaf echoes the crease. Four errors remain liftable and later turns inherit the wrong pagination.</p></section>
+      <p class="work-loop">turn &rarr; shut the witness &rarr; invent the unread fold &rarr; remember the wrong page</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-25/">previous daily work</a><a href="/journal/#journal-naive-2026-10-26">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=036"></script>
+</body>
+</html>

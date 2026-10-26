@@ -1,0 +1,204 @@
+:root {
+  --ground: #d6c3a2;
+  --ground-deep: #b49b77;
+  --paper: #e7d7b7;
+  --paper-light: #f1e6ca;
+  --paper-shadow: #69564b;
+  --ink: #1d2425;
+  --muted: #5f6259;
+  --rust: #b75c45;
+  --petrol: #28535a;
+  --ochre: #c39139;
+  --line: rgba(29, 36, 37, 0.3);
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 16% 14%, rgba(241, 230, 202, 0.62), transparent 24rem),
+    radial-gradient(circle at 86% 82%, rgba(40, 83, 90, 0.12), transparent 28rem),
+    repeating-linear-gradient(114deg, rgba(29, 36, 37, 0.035) 0 1px, transparent 1px 13px),
+    linear-gradient(132deg, var(--ground), #c9b28d 46%, #e0ceb0);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.fold-shell { min-height: 100vh; padding: 0 3vw; }
+.fold-main { max-width: 1480px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: var(--ink); }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(29, 36, 37, 0.62); }
+.studio-path a { color: var(--ink); }
+.fold-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.28fr);
+  gap: clamp(1rem, 3vw, 3.6rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.fold-column { min-width: 0; }
+.fold-work {
+  margin: 0;
+  padding: clamp(0.45rem, 1.2vw, 1.15rem);
+  color: var(--ink);
+  background: #a98d6e;
+  box-shadow: 0 2rem 4rem rgba(38, 29, 22, 0.28);
+}
+.fold-field {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  outline: none;
+  aspect-ratio: 1.48 / 0.86;
+  min-height: 330px;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 49% 47%, rgba(241, 230, 202, 0.35), transparent 30%),
+    radial-gradient(ellipse at 84% 76%, rgba(183, 92, 69, 0.18), transparent 32%),
+    linear-gradient(126deg, #415458, #1e3336 52%, #172326);
+  cursor: e-resize;
+  touch-action: none;
+}
+.fold-field:focus-visible { box-shadow: 0 0 0 4px var(--rust); }
+.fold-paper { position: absolute; inset: 0; overflow: hidden; }
+.fold-void {
+  position: absolute;
+  z-index: 0;
+  left: 43%;
+  top: 20%;
+  width: 25%;
+  height: 58%;
+  border-radius: 50% 46% 55% 40%;
+  border: 1px solid rgba(241, 230, 202, 0.24);
+  background: radial-gradient(ellipse, rgba(10, 24, 27, 0.86), rgba(10, 24, 27, 0.05) 70%);
+  transform: rotate(-17deg);
+  box-shadow: 0 0 4rem rgba(10, 24, 27, 0.36) inset;
+}
+.fold {
+  position: absolute;
+  z-index: var(--fold-depth);
+  left: var(--fold-x);
+  top: var(--fold-y);
+  width: var(--fold-width);
+  height: var(--fold-height);
+  transform: translate(-50%, -50%) rotate(var(--fold-rotation));
+  transform-origin: 48% 52%;
+  border: 1px solid rgba(29, 36, 37, 0.64);
+  box-shadow: 0.55rem 0.8rem 1rem rgba(8, 17, 18, 0.28), -0.2rem -0.1rem 0 rgba(241, 230, 202, 0.28) inset;
+  clip-path: polygon(5% 4%, 89% 0, 97% 13%, 91% 42%, 100% 93%, 66% 99%, 38% 94%, 2% 100%, 8% 57%, 0 18%);
+  transition: left 420ms cubic-bezier(.2,.72,.2,1), top 420ms cubic-bezier(.2,.72,.2,1), width 420ms cubic-bezier(.2,.72,.2,1), height 420ms cubic-bezier(.2,.72,.2,1), transform 420ms cubic-bezier(.2,.72,.2,1), background-color 420ms ease;
+  background-color: var(--paper);
+  background-image:
+    repeating-linear-gradient(102deg, rgba(29, 36, 37, 0.06) 0 1px, transparent 1px 9px),
+    linear-gradient(132deg, rgba(241, 230, 202, 0.68), transparent 42%, rgba(40, 83, 90, 0.12));
+}
+.fold::before {
+  content: '';
+  position: absolute;
+  left: 13%;
+  top: 7%;
+  width: 76%;
+  height: 1px;
+  background: rgba(29, 36, 37, calc(0.18 + var(--fold-crease) * 0.52));
+  transform: rotate(27deg);
+  transform-origin: left center;
+  box-shadow: 0 0.45rem 0 rgba(29, 36, 37, 0.1);
+}
+.fold::after {
+  content: '';
+  position: absolute;
+  right: 6%;
+  bottom: 8%;
+  width: 38%;
+  height: 19%;
+  border-left: 2px solid rgba(183, 92, 69, 0.48);
+  border-top: 1px solid rgba(183, 92, 69, 0.35);
+  transform: rotate(-12deg);
+  opacity: calc(0.38 + var(--fold-crease) * 0.44);
+}
+.fold--invented-open { background-color: #c0d0c3; }
+.fold--invented-open::after { border-color: rgba(40, 83, 90, 0.82); }
+.fold--shut { background-color: #b86a54; }
+.fold--shut::before { background: rgba(29, 36, 37, 0.76); }
+.fold--echo-fold { background-color: #d0af66; }
+.fold--echo-fold::after { border-color: rgba(40, 83, 90, 0.86); }
+.fold-shape-2 { clip-path: polygon(0 9%, 84% 0, 100% 21%, 92% 67%, 99% 100%, 57% 95%, 22% 100%, 7% 74%, 11% 44%); }
+.fold-shape-3 { clip-path: polygon(7% 0, 96% 8%, 91% 35%, 100% 83%, 72% 100%, 30% 92%, 0 97%, 8% 57%, 1% 22%); }
+.fold-shape-4 { clip-path: polygon(3% 13%, 67% 0, 100% 18%, 88% 52%, 96% 96%, 44% 91%, 8% 100%, 0 66%); }
+.fold-shape-5 { clip-path: polygon(12% 2%, 93% 12%, 100% 55%, 82% 94%, 45% 100%, 4% 91%, 8% 49%, 0 20%); }
+.fold-readout {
+  position: absolute;
+  z-index: 100;
+  left: 1.05rem;
+  top: 0.86rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  color: rgba(241, 230, 202, 0.88);
+  font-size: 0.67rem;
+  pointer-events: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.34);
+}
+.fold-readout span::before { content: '— '; color: var(--rust); }
+.fold-controls { position: relative; z-index: 110; display: flex; flex-wrap: wrap; gap: 0.45rem; padding: 0.75rem 0.15rem 0.05rem; }
+.fold-controls button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid rgba(29, 36, 37, 0.62);
+  border-radius: 0;
+  padding: 0.6rem 0.8rem;
+  color: var(--ink);
+  background: transparent;
+  font: 500 0.7rem/1.1 ui-monospace, monospace;
+  cursor: pointer;
+}
+.fold-controls button:hover, .fold-controls button:focus-visible { color: var(--paper-light); background: var(--ink); outline: none; }
+.fold-hint { margin: 0.5rem 0 0.1rem; color: rgba(29, 36, 37, 0.7); font-size: 0.63rem; line-height: 1.4; }
+.fold-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: 0.65rem 0.1rem 0; color: rgba(29, 36, 37, 0.72); font-size: 0.64rem; line-height: 1.3; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: 0.5rem; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: 0.65rem; }
+.work-annotations span, .studio-kicker { color: var(--rust); font: 500 0.66rem/1.2 ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; }
+.work-annotations p { margin: 0.5rem 0 0; color: rgba(29, 36, 37, 0.77); font: 0.92rem/1.55 system-ui, sans-serif; }
+.work-opening { border-top-color: var(--line); }
+.work-opening h1 { color: var(--ink); }
+.work-premise { color: rgba(29, 36, 37, 0.73); }
+.work-note { border-color: var(--line); color: rgba(29, 36, 37, 0.73); }
+.work-loop { color: var(--rust); }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .fold-work figcaption { display: none; }
+html.preview-mode .fold-main { max-width: 100vw; padding: 0; }
+html.preview-mode .fold-surface { display: block; margin: 0; }
+html.preview-mode .fold-work { padding: 0; box-shadow: none; }
+html.blind-mode .fold-readout,
+html.blind-mode .fold-controls,
+html.blind-mode .fold-hint { display: none; }
+html.blind-mode .fold-field { cursor: default; }
+
+@media (max-width: 860px) {
+  .fold-shell { padding: 0 1rem; }
+  .fold-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; }
+}
+@media (max-width: 560px) {
+  .fold-shell { padding: 0 0.55rem; }
+  .fold-surface { margin-top: 0.5rem; }
+  .fold-work { padding: 0.35rem; }
+  .fold-field { min-height: 0; aspect-ratio: 0.88 / 1; }
+  .fold-void { left: 39%; top: 29%; width: 31%; height: 43%; }
+  .fold-readout { left: 0.6rem; top: 0.55rem; font-size: 0.57rem; }
+  .fold-controls { gap: 0.3rem; }
+  .fold-controls > button { flex: 1 1 8rem; padding: 0.55rem 0.5rem; }
+  .fold-hint { font-size: 0.57rem; }
+  .fold-work figcaption { display: grid; gap: 0.25rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: 0.8rem; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .fold { transition: none; }
+  .fold-controls button { transition: none; }
+}
