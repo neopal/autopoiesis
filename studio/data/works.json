@@ -2,6 +2,132 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-26",
+      "currentId": "typography",
+      "date": "2026-10-26",
+      "title": "The gap keeps an elsewhere.",
+      "rawPath": "/studies/handwriting/v034/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-26",
+        "note": "v034 abandons v033's material SVG plate, v032's cadence score, and v031's route organism. Fourteen browser-native fragments now occupy two asymmetrical registers divided by a tilted absence: attention stays geometrically quiet, then departure makes a least-witnessed remote fragment answer while a second fragment loosens into an echo. Four departures remain liftable and later witnesses inherit the altered register."
+      },
+      "critiques": [
+        {
+          "persona": "Register-form critic",
+          "argument": "The two registers must read as one authored typographic field before they read as a word collage. The tilted absence, unequal fragment scales, and staggered depth of the two registers must carry the composition."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, annotations, and prose hidden, the first view must leave v033's plate, v032's score, and v031's route. It should read as situated language in suspension, not a grid, route, or interface."
+        },
+        {
+          "persona": "Interaction critic",
+          "argument": "Approach and focus must be geometry-neutral. Only leaving the witnessed fragment, or its deterministic equivalent, may commit. Essential operation must remain available through keyboard and controls."
+        },
+        {
+          "persona": "Reciprocity critic",
+          "argument": "The watched fragment cannot answer itself. A least-witnessed fragment in the opposite register must change actual position, scale, angle, and weight, while a second fragment carries an echo."
+        },
+        {
+          "persona": "Temporal critic",
+          "argument": "Four departure memories must compound in the fragment field rather than merely recolour it. Later witnesses must choose from the altered attention ledger and Delete must reconstruct the exact prior register."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "The work must visibly leave inline SVG and Canvas. DOM text and CSS transforms are not a wrapper; the semantic fragments are the produced geometry and the browser is the medium."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated as situated reciprocity and local attention, not as animals, eyes, characters, paper, head-turning, palette, composition, code, or API surface. The source mechanism becomes a remote typographic answer after departure."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v034 changes medium, composition, shape vocabulary, viewer task, and temporal grammar: plate/score/route become browser-native situated fragments, and selecting becomes witnessing followed by remote departure."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v034 if the blind field reads as a generic word collage or CSS demo, if attention moves the source, if the source answers itself, if remote change is cosmetic, if later departures forget, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v034-double-register",
+        "seed": "0x48574934",
+        "visitorInput": true,
+        "fragmentCount": 14,
+        "registerCount": 2,
+        "memoryWindow": 4,
+        "primitiveBudget": 14,
+        "memoryRule": "attention is recorded without geometry; departure selects a least-witnessed fragment in the opposite register, changes its actual position/scale/angle/weight, and leaves an echo elsewhere",
+        "interactionRule": "pointer proximity or directional focus witnesses without mutation; leaving commits one remote answer; Enter, Space, or the leave control commits deterministically; Delete lifts latest; R or Escape releases",
+        "representationRupture": "material SVG plate, Canvas cadence score, and route organism -> semantic browser-native text fragments in a double register",
+        "compositionRupture": "folded plate, three-column score, and connected route -> asymmetrical two-register field separated by a tilted absence",
+        "encounterRupture": "load a well, tap a cadence, or drag a route -> approach a fragment, then leave so another register answers",
+        "temporalRupture": "immediate span/cadence/route commitments -> presence without mutation followed by remote departure memory",
+        "mediumRupture": "inline SVG and p5.js Canvas -> DOM text/CSS geometry with no canvas or SVG renderer",
+        "replay": true,
+        "renderer": "deterministic browser-native DOM typography",
+        "grammar": "double-register",
+        "changedRule": "A witnessed fragment stays geometrically exact. Only departure makes a least-witnessed fragment in the other register answer through actual position, scale, angle, and weight changes.",
+        "visibleConsequence": "The blind view is an asymmetrical field of situated text fragments split by a tilted absence. A departure changes a remote fragment and a second echo while the source remains exact; four departures persist and later answers inherit the altered register.",
+        "falsifier": "Delete if attention moves the source, if the source answers itself, if remote response is cosmetic, if the field reads as a route/grid/interface, if later departures reset, or if exact lifting fails.",
+        "deletionCondition": "Delete v034 if caption-free viewing cannot distinguish the double register from a decorated word collage, route diagram, or interface, or if the remote answer is not causally produced by departure.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to proximity with legible reciprocal attention; local behaviour makes the visitor part of a social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, head-turning, source palette, composition, source code, and API surface. Translate proximity into a typographic witness: attention stays geometrically neutral, then departure produces a remote answer in a separate register.",
+        "visibleConsequence": "The attended fragment remains exact while it is witnessed; leaving makes a least-witnessed remote fragment move, strengthen, and become the visible answer, while a second fragment carries a diminished echo.",
+        "falsifier": "If attention moves the watched fragment, if the source answers itself, if the remote answer is only colour or prose, or if the field still reads as a route, score, or plate, the translation fails.",
+        "antiCopy": "No animals, character designs, paper scene, head-turning image, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Handwriting's material plate / cadence score / route organism sequence and opens situated syntax: language is now tested as a field of temporary witnesses whose absence produces a remote answer."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v034 if the blind field reads as a generic word collage, if attention moves the source, if the source answers itself, if remote change is cosmetic, if later departures reset, or if exact lifting fails.",
+        "lineage": "typography-2026-10-25"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, canonical readback, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:60312",
+        "localRawPreview": "/studies/handwriting/v034/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/handwriting/v034/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/typography-2026-10-26/",
+        "localViewportRuns": 20,
+        "localRawViewportRuns": 10,
+        "localCanonicalViewportRuns": 10,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "real pointer presence kept the exact geometry signature; leaving committed one remote answer and changed actual geometry; Delete restored the exact baseline; Enter committed a deterministic departure; all three controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept 14 browser-native fragments and four settled remote departures visible while hiding readout, controls, hint, and register labels; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local canonical work route rendered the daily title and detail marker; raw tableau, catalog source, favicon, overflow, and diagnostics returned cleanly",
+        "localProofPath": "research/qa/proofs/handwriting-v034-2026-10-26/",
+        "localScreenshotCount": 21,
+        "unresolved": [
+          "production browser verification",
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-10-25",
       "currentId": "webgpu",
       "date": "2026-10-25",

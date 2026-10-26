@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1015">
+  <title>MUTINE — The gap keeps an elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=034">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-26"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="register-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v034 / DOUBLE REGISTER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="register-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v034</span></nav>
+
+      <figure class="register-work artwork-frame" aria-labelledby="work-title">
+        <div id="register-field" class="register-field" tabindex="0" role="application" aria-label="A double register of situated letter fragments. Move near a fragment, then leave. Attention stays geometrically quiet; departure makes a remote fragment answer." aria-describedby="interaction-state" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete R Escape">
+          <div class="register-surface" aria-hidden="true">
+            <div class="surface-glow"></div>
+            <div class="surface-axis surface-axis-a"></div>
+            <div class="surface-axis surface-axis-b"></div>
+            <div class="surface-notch"></div>
+            <div id="register-stage" class="register-stage"></div>
+            <div class="register-label register-label-top">NEAR / NOTHING MOVES</div>
+            <div class="register-label register-label-bottom">FAR / SOMETHING ANSWERS</div>
+          </div>
+          <div class="field-stamp" aria-hidden="true"><span>ATTENTION / LEAVE / RETURN</span><span>HANDWRITING 034</span></div>
+          <div class="field-readout" aria-live="polite"><span data-stage>register / quiet</span><span data-memory>0 departures · 14 fragments</span></div>
+          <div class="register-controls" aria-label="Register actions">
+            <button id="withdraw-control" type="button">leave a witness</button>
+            <button id="lift-register" type="button">lift latest</button>
+            <button id="release-register" type="button">release register</button>
+          </div>
+          <p class="field-hint">approach a fragment · leave the field · watch another place answer</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v034-double-register</span><span>attention &gt; absence &gt; elsewhere</span></figcaption>
+      </figure>
+
+      <section class="register-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / SITUATED SYNTAX / v034</p>
+        <h1 id="work-title">The gap keeps<br><i>an elsewhere.</i></h1>
+        <p class="register-lede">A letter can be near you without moving. The sentence changes only after the witness is gone.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">LEAVE THE REGISTER</p>
+          <p class="interaction-copy">Move toward one fragment and let it register your presence. The attended fragment stays exact. Leave the field, or press the action, and the least-witnessed fragment in the other register answers by shifting its actual scale, angle, and position. The source does not answer itself. Arrow keys move the witness; Enter or Space leaves it.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The register is quiet. No fragment is being witnessed.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v034</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v033's material plate, v032's cadence score, and v031's route organism. The sentence is now a browser-native double register of situated fragments. Attention is recorded without geometry; departure makes a remote fragment answer.</dd></div>
+          <div><dt>visitor action</dt><dd>Approach one fragment, then leave. Pointer movement and focus are an offer only. Enter, Space, and the leave control make the same deterministic departure; Delete lifts the newest answer and R or Escape releases the register. Four departures remain liftable.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if attention moves the watched fragment, if the source answers itself, if the remote response is only colour or UI, if the work reads as a route/grid, if later departures forget, or if exact lifting fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v034 if caption-free viewing cannot distinguish the double register from a decorated word collage, route diagram, or interface; the browser-native fragments must carry the relation before the prose does.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-25/">previous daily work</a><a href="/journal/#journal-typography-2026-10-26">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=034"></script>
+</body>
+</html>
