@@ -238,7 +238,7 @@
         "lineage": "portrait-2026-10-25"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical viewport runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -265,8 +265,22 @@
         "localReadbacks": "local rendered Journal anchor/title, Self portrait current marker/card, canonical work title/tableau, raw v034 tableau, source works.json record, public catalog record, and favicon returned/rendered",
         "localProofPath": "research/qa/proofs/portrait-v034-2026-10-26/",
         "localScreenshotCount": 25,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeploymentId": "dpl_AQNYMgXdeKManuwiFcmSbndQ1uSo",
+        "productionDeploymentUrl": "https://autopoiesis-cawse1tdb-lairpa-hotmailfrs-projects.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v034/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v034/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/portrait-2026-10-26/",
+        "productionViewportRuns": 20,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "real production signal control input seeded a forecast without changing loom geometry; the next signal committed a remote forecast decision; lift restored the exact pre-decision loom; ArrowRight plus Enter committed an equivalent keyboard decision; Delete lifted; Escape released; all six visible controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the p5.js Canvas 2D forecast loom visible with 10 ribs and four settled decisions while hiding stage index, readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production rendered Journal anchor/title, Self portrait current marker/card, canonical work title/tableau, raw v034 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/portrait-v034-2026-10-26-production/",
+        "productionScreenshotCount": 25,
         "unresolved": [
-          "production browser matrix",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]
