@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131d">
+  <title>MUTINE — The portrait guesses before you do.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=034">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js" onload="p5.disableFriendlyErrors = true"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-26"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v034-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v034 / FORECAST LOOM</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v034-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v034</span></nav>
+
+      <figure class="v034-work artwork-frame" aria-labelledby="work-title">
+        <div class="forecast-stage" data-forecast-loom tabindex="0" role="application" aria-label="A forecast loom that predicts the next signal. Offer a signal, then confirm or contradict the forecast; the loom changes in a distant rib." aria-keyshortcuts="ArrowUp ArrowRight ArrowDown ArrowLeft Enter Space Delete Backspace R Escape">
+          <div class="stage-index" aria-hidden="true">SELF / PREDICTION MEDIUM / 034</div>
+          <div id="loom-canvas" aria-hidden="true"></div>
+          <div class="loom-readout" aria-live="polite"><span data-stage>quiet loom / 00</span><span data-memory>0 decisions held</span><span data-state>the portrait is not guessing yet</span></div>
+          <p class="loom-hint" data-hint>offer a signal · let the loom guess</p>
+          <div class="loom-controls" aria-label="Forecast loom controls">
+            <div class="signal-control" aria-label="Signals">
+              <button type="button" data-signal="0" aria-label="Offer north signal">north</button>
+              <button type="button" data-signal="1" aria-label="Offer east signal">east</button>
+              <button type="button" data-signal="2" aria-label="Offer south signal">south</button>
+              <button type="button" data-signal="3" aria-label="Offer west signal">west</button>
+            </div>
+            <button type="button" data-action="lift">lift last decision</button>
+            <button type="button" data-action="release">release the forecast</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v034-forecast-loom</span><span>offer &gt; predict &gt; confirm / misread</span></figcaption>
+      </figure>
+
+      <section class="v034-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / P5 CANVAS MEDIUM SWITCH / v034</p>
+        <h1 id="work-title">The portrait guesses<br><i>before you do.</i></h1>
+        <p class="v034-lede">The body is gone. What remains is a prediction that hardens in the wrong place when the next decision refuses its forecast.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THE INSTRUMENT IS A FORECAST</p>
+          <p class="interaction-copy">Offer one signal to seed a forecast. Offer another signal and the loom compares your decision with its guess: agreement hardens a distant rib; mismatch splits a counterfactual rib and leaves the error in the material. The signal itself is never drawn at the point of input.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The loom is waiting for a first signal.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v034</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v033's reciprocal body, v032's contradiction hinge, and v031's pressure membrane. A first signal is withheld as a forecast; the next signal is compared with that forecast, and agreement or error changes a distant rib rather than the input site.</dd></div>
+          <div><dt>visitor action</dt><dd>Offer north, east, south, or west by pointer or arrow key. Enter repeats the current forecast; Delete lifts the latest decision; R or Escape releases the loom to its quiet seed.</dd></div>
+          <div><dt>falsifier</dt><dd>If the first signal changes geometry, if the input site becomes the answer, if confirmation and error are only colour or readout, if the forecast is forgotten, or if lifting is inexact, the predictive medium fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v034 if the blind canvas reads as another body, membrane, hinge, route, or generic linefield, or if the remote hardening and counterfactual split cannot be seen without the furniture.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-25/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-26">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=034"></script>
+</body>
+</html>
