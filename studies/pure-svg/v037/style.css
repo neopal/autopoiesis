@@ -1,0 +1,87 @@
+:root {
+  --ground: #0d0e17;
+  --surface: #141522;
+  --ink: #eee8d8;
+  --muted: #a7a7b5;
+  --line: rgba(230, 224, 207, .2);
+  --accent: #c7ddb7;
+  --warm: #e7b193;
+  --violet: #b9a6d2;
+  --cold: #a8c9d4;
+}
+
+html, body { background: var(--ground); }
+body.work-page[data-current='svg'] { color: var(--ink); }
+body.work-page[data-current='svg'] .studio-shell { background: radial-gradient(circle at 20% 6%, rgba(145, 145, 194, .15), transparent 28rem), radial-gradient(circle at 88% 86%, rgba(180, 127, 123, .11), transparent 32rem), var(--ground); }
+body.work-page[data-current='svg'] .studio-header,
+body.work-page[data-current='svg'] .studio-footer { border-color: var(--line); }
+body.work-page[data-current='svg'] .studio-header p,
+body.work-page[data-current='svg'] .studio-footer,
+body.work-page[data-current='svg'] .studio-path { color: var(--muted); }
+
+.work-surface { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem); gap: 1.5rem; align-items: start; }
+.field-wrap { position: relative; min-width: 0; overflow: hidden; background: #080910; }
+#field { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 760; background: #080910; touch-action: none; cursor: crosshair; }
+#field:focus-visible { outline: 2px solid var(--accent); outline-offset: -8px; }
+.field-ground { fill: url(#field-ground); }
+.field-haze { fill: url(#field-haze); opacity: .84; }
+.field-ghost { fill: none; stroke: rgba(181, 202, 215, .12); stroke-width: 1.2; stroke-dasharray: 1 17; }
+.field-ghost--second { stroke: rgba(213, 175, 191, .1); stroke-dasharray: 1 23; }
+.field-cell-shadow { fill: rgba(0, 0, 0, .56); stroke: none; transform: translate(0 12px); filter: url(#field-shadow); }
+.field-cell { fill: url(#cell-fill); stroke: rgba(241, 237, 221, .24); stroke-width: 1.5; stroke-linejoin: round; transition: d 600ms cubic-bezier(.2,.8,.2,1), fill 480ms ease, opacity 480ms ease; }
+.field-cell--remembered { opacity: .86; }
+.field-cell--witnessed { fill: #e6b096; stroke: rgba(255, 235, 215, .72); stroke-width: 2.4; }
+.field-cell--vacancy { fill: url(#cell-vacancy); stroke: rgba(244, 221, 208, .86); stroke-width: 2.8; }
+.field-cell--relay { fill: #a9cad2; stroke: rgba(226, 247, 240, .72); stroke-width: 2; }
+.field-cell-edge { fill: none; stroke: rgba(248, 240, 219, .32); stroke-width: 1; stroke-linejoin: round; pointer-events: none; transition: d 600ms cubic-bezier(.2,.8,.2,1); }
+.field-mark { fill: #10121d; stroke: rgba(241, 234, 211, .68); stroke-width: 2; transition: cx 600ms cubic-bezier(.2,.8,.2,1), cy 600ms cubic-bezier(.2,.8,.2,1), r 480ms ease; }
+.field-mark--witnessed { fill: var(--warm); stroke: #11121b; }
+.field-mark--vacancy { fill: var(--ink); stroke: var(--warm); stroke-width: 2.6; }
+.field-mark--relay { fill: var(--cold); stroke: #11121b; }
+.field-labels { fill: rgba(238, 232, 216, .74); font: 11px/1.2 'DM Mono', ui-monospace, monospace; letter-spacing: .08em; }
+.tour-offer { fill: none; stroke: rgba(224, 239, 199, .72); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 2 10; pointer-events: none; }
+.field-readout { position: absolute; inset: auto 1rem 1rem; display: flex; justify-content: space-between; gap: 1rem; color: rgba(238, 232, 216, .82); font: 10px/1.2 'DM Mono', ui-monospace, monospace; letter-spacing: .07em; text-transform: uppercase; pointer-events: none; }
+.field-controls { position: absolute; top: 1rem; right: 1rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; max-width: 72%; }
+.field-controls button { min-height: 44px; padding: .65rem .8rem; border: 1px solid rgba(199, 221, 183, .48); border-radius: 999px; background: rgba(11, 12, 19, .86); color: var(--ink); font: 11px/1 'DM Mono', ui-monospace, monospace; cursor: pointer; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--accent); color: #f4ffe9; }
+.field-controls button:disabled { opacity: .34; cursor: not-allowed; }
+.work-annotations { display: grid; gap: 1rem; color: var(--muted); }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .7rem; }
+.work-annotations span { display: block; margin-bottom: .45rem; color: var(--accent); font: 10px/1 'DM Mono', ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
+.work-annotations p { margin: 0; font: .83rem/1.45 'DM Mono', ui-monospace, monospace; }
+.work-opening { display: grid; grid-template-columns: minmax(0, .85fr) minmax(14rem, .6fr); gap: 2rem; padding: clamp(2rem, 6vw, 5rem) 0 2rem; align-items: end; }
+.work-opening h1 { max-width: 10ch; margin: .35rem 0 0; color: var(--ink); font: 400 clamp(3.5rem, 8vw, 8rem)/.8 'Instrument Serif', Georgia, serif; letter-spacing: -.06em; }
+.work-opening h1 i { color: #c7dab9; font-style: italic; }
+.work-premise { max-width: 30rem; margin: 0; color: #b6b6c1; font: 1rem/1.5 'DM Mono', ui-monospace, monospace; }
+.work-note { max-width: 48rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1rem 0; color: var(--muted); }
+.work-note p { margin: 0; font: .78rem/1.55 'DM Mono', ui-monospace, monospace; }
+.work-note strong { color: var(--ink); font-weight: 500; }
+
+html.preview-mode .studio-header, html.preview-mode .studio-footer, html.preview-mode .studio-path, html.preview-mode .work-opening, html.preview-mode .work-note, html.preview-mode .work-annotations { display: none; }
+html.preview-mode .studio-main { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .work-surface { display: block; }
+html.preview-mode .field-wrap { border: 0; }
+html.blind-mode .field-readout, html.blind-mode .field-controls, html.blind-mode .work-annotations, html.blind-mode .work-opening, html.blind-mode .work-note { display: none; }
+html.static-mode .field-readout, html.static-mode .field-controls { display: none; }
+
+@media (max-width: 980px) {
+  .work-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, 1fr); }
+  .work-opening { grid-template-columns: 1fr .8fr; }
+}
+
+@media (max-width: 680px) {
+  .work-surface { gap: 1rem; }
+  .field-controls { inset: auto .65rem .65rem; max-width: none; justify-content: stretch; }
+  .field-controls button { flex: 1 1 8rem; padding-inline: .45rem; font-size: 10px; }
+  .field-readout { inset: .65rem .65rem auto; flex-direction: column; gap: .25rem; font-size: 9px; }
+  .work-annotations { grid-template-columns: 1fr; gap: .75rem; }
+  .work-opening { grid-template-columns: 1fr; gap: 1.25rem; padding-top: 2.5rem; }
+  .work-opening h1 { font-size: clamp(3.1rem, 15vw, 5.4rem); }
+  .work-premise { font-size: .82rem; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; }
+  .field-cell, .field-cell-edge, .field-mark { transition: none; }
+}
