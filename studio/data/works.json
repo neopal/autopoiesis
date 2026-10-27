@@ -64,7 +64,7 @@
         "lineage": "webgpu-2026-10-26"
       },
       "browserEvidence": {
-        "status": "20/20 local raw and canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -84,8 +84,26 @@
         "localReadbacks": "local rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v036 tableau, source works.json record, public catalog record, and favicon returned/rendered",
         "localProofPath": "research/qa/proofs/webgpu-v036-2026-10-27/",
         "localScreenshotCount": 25,
-        "productionViewportRuns": 0,
-        "unresolved": ["production browser matrix", "independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v036/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v036/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-10-27/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "production pointer movement alone kept geometry exact; a bounded press-and-release committed a remote situated-reciprocity opening; Delete restored the exact baseline; Enter plus ArrowRight committed an equivalent deterministic reply; Escape released; the witness/release/lift controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the inline SVG ribbon visible with 15 gates and four settled reciprocal replies while hiding readout, controls, and status; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/webgpu-v036-2026-10-27-production-final/",
+        "productionScreenshotCount": 25,
+        "productionDeploymentId": "dpl_AwwmY3QvyfitTJsBov4HEyXJoZxo",
+        "productionDeploymentUrl": "https://autopoiesis-l83qakr38-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "c3c25ef634388f21d995042c0695d16432613eef",
+        "publicationRemoteSha": "c3c25ef634388f21d995042c0695d16432613eef",
+        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
       }
     },
     {
