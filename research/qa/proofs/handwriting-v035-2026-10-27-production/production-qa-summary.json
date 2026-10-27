@@ -1,0 +1,570 @@
+{
+  "schema": "mutine-qa/v1",
+  "base": "https://autopoiesis-nine.vercel.app",
+  "production": true,
+  "viewportRuns": 20,
+  "rawViewportRuns": 10,
+  "canonicalViewportRuns": 10,
+  "diagnostics": 0,
+  "overflow": 0,
+  "minTouchTarget": 44,
+  "interaction": {
+    "committed": true,
+    "previewGeometryUnchanged": true,
+    "changedGeometry": true,
+    "remoteChange": true,
+    "liftRestored": true,
+    "keyboardCommitted": true,
+    "controls": [
+      {
+        "id": "cast-control",
+        "height": 44
+      },
+      {
+        "id": "lift-cast",
+        "height": 44
+      },
+      {
+        "id": "release-cast",
+        "height": 44
+      }
+    ],
+    "diagnostics": []
+  },
+  "blind": {
+    "viewport": "390x844",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "canvasVisible": true,
+    "blockCount": 12,
+    "memory": 4,
+    "controls": "none",
+    "readout": "none",
+    "hint": "none",
+    "coordinates": "none",
+    "diagnostics": []
+  },
+  "readbacks": {
+    "result": {
+      "works": {
+        "status": 200,
+        "hasWork": true,
+        "hasTitle": true,
+        "hasJournal": false
+      },
+      "publicCatalog": {
+        "status": 200,
+        "hasWork": true,
+        "hasTitle": true,
+        "hasJournal": false
+      },
+      "journal": {
+        "status": 200,
+        "hasWork": false,
+        "hasTitle": true,
+        "hasJournal": true
+      },
+      "current": {
+        "status": 200,
+        "hasWork": true,
+        "hasTitle": true,
+        "hasJournal": false
+      },
+      "canonical": {
+        "status": 200,
+        "hasWork": true,
+        "hasTitle": true,
+        "hasJournal": false
+      },
+      "raw": {
+        "status": 200,
+        "hasWork": true,
+        "hasTitle": false,
+        "hasJournal": false
+      },
+      "favicon": {
+        "status": 200,
+        "hasWork": false,
+        "hasTitle": false,
+        "hasJournal": false
+      }
+    },
+    "diagnostics": []
+  },
+  "matrix": {
+    "runs": [
+      {
+        "route": "raw",
+        "mode": "normal",
+        "viewport": "320x568",
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvasVisible": true,
+        "canvasWidth": 320,
+        "canvasHeight": 568,
+        "fieldWidth": 320,
+        "fieldHeight": 568,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 98.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 86.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 92.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "normal",
+        "viewport": "320x568",
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 196.5,
+        "headingTop": 641.890625
+      },
+      {
+        "route": "raw",
+        "mode": "normal",
+        "viewport": "390x844",
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvasVisible": true,
+        "canvasWidth": 390,
+        "canvasHeight": 844,
+        "fieldWidth": 390,
+        "fieldHeight": 844,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 98.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 86.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 92.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "normal",
+        "viewport": "390x844",
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875
+      },
+      {
+        "route": "raw",
+        "mode": "normal",
+        "viewport": "768x1024",
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvasVisible": true,
+        "canvasWidth": 768,
+        "canvasHeight": 1024,
+        "fieldWidth": 768,
+        "fieldHeight": 1024,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 102.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 90.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 96.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "normal",
+        "viewport": "768x1024",
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 183.5,
+        "headingTop": 885.25
+      },
+      {
+        "route": "raw",
+        "mode": "normal",
+        "viewport": "1280x800",
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvasVisible": true,
+        "canvasWidth": 1280,
+        "canvasHeight": 800,
+        "fieldWidth": 1280,
+        "fieldHeight": 800,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 102.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 90.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 96.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "normal",
+        "viewport": "1280x800",
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 161,
+        "headingTop": 953
+      },
+      {
+        "route": "raw",
+        "mode": "normal",
+        "viewport": "1920x1080",
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvasVisible": true,
+        "canvasWidth": 1920,
+        "canvasHeight": 1080,
+        "fieldWidth": 1920,
+        "fieldHeight": 1080,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 102.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 90.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 96.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "normal",
+        "viewport": "1920x1080",
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 161,
+        "headingTop": 953
+      },
+      {
+        "route": "raw",
+        "mode": "reduced-motion",
+        "viewport": "320x568",
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvasVisible": true,
+        "canvasWidth": 320,
+        "canvasHeight": 568,
+        "fieldWidth": 320,
+        "fieldHeight": 568,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 98.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 86.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 92.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "reduced-motion",
+        "viewport": "320x568",
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 196.5,
+        "headingTop": 641.890625
+      },
+      {
+        "route": "raw",
+        "mode": "reduced-motion",
+        "viewport": "390x844",
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvasVisible": true,
+        "canvasWidth": 390,
+        "canvasHeight": 844,
+        "fieldWidth": 390,
+        "fieldHeight": 844,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 98.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 86.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 92.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "reduced-motion",
+        "viewport": "390x844",
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875
+      },
+      {
+        "route": "raw",
+        "mode": "reduced-motion",
+        "viewport": "768x1024",
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvasVisible": true,
+        "canvasWidth": 768,
+        "canvasHeight": 1024,
+        "fieldWidth": 768,
+        "fieldHeight": 1024,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 102.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 90.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 96.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "reduced-motion",
+        "viewport": "768x1024",
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 183.5,
+        "headingTop": 885.25
+      },
+      {
+        "route": "raw",
+        "mode": "reduced-motion",
+        "viewport": "1280x800",
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvasVisible": true,
+        "canvasWidth": 1280,
+        "canvasHeight": 800,
+        "fieldWidth": 1280,
+        "fieldHeight": 800,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 102.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 90.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 96.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "reduced-motion",
+        "viewport": "1280x800",
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 161,
+        "headingTop": 953
+      },
+      {
+        "route": "raw",
+        "mode": "reduced-motion",
+        "viewport": "1920x1080",
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvasVisible": true,
+        "canvasWidth": 1920,
+        "canvasHeight": 1080,
+        "fieldWidth": 1920,
+        "fieldHeight": 1080,
+        "blockCount": 12,
+        "memory": 0,
+        "controls": [
+          {
+            "id": "cast-control",
+            "width": 102.578125,
+            "height": 44
+          },
+          {
+            "id": "lift-cast",
+            "width": 90.1875,
+            "height": 44
+          },
+          {
+            "id": "release-cast",
+            "width": 96.390625,
+            "height": 44
+          }
+        ],
+        "signature": "[{\"id\":0,\"x\":-0.72,\"y\":-0.52,\"depth\":0.12,\"rotation\":-0.18,\"scale\":0.86,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":1,\"x\":-0.26,\"y\":-0.68,\"depth\":0.34,\"rotation\":0.12,\"scale\":1.08,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":2,\"x\":0.28,\"y\":-0.58,\"depth\":0.04,\"rotation\":-0.1,\"scale\":0.92,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":3,\"x\":0.74,\"y\":-0.38,\"depth\":0.48,\"rotation\":0.22,\"scale\":1.2,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":4,\"x\":-0.58,\"y\":-0.04,\"depth\":0.58,\"rotation\":0.08,\"scale\":1.18,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":5,\"x\":-0.06,\"y\":-0.12,\"depth\":0.2,\"rotation\":-0.16,\"scale\":0.78,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":6,\"x\":0.42,\"y\":-0.02,\"depth\":0.7,\"rotation\":0.18,\"scale\":0.98,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":7,\"x\":0.82,\"y\":0.12,\"depth\":0.3,\"rotation\":-0.08,\"scale\":0.74,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":8,\"x\":-0.8,\"y\":0.44,\"depth\":0.42,\"rotation\":0.14,\"scale\":0.9,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":9,\"x\":-0.28,\"y\":0.58,\"depth\":0.08,\"rotation\":-0.2,\"scale\":1.02,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":10,\"x\":0.3,\"y\":0.5,\"depth\":0.64,\"rotation\":0.1,\"scale\":1.14,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0},{\"id\":11,\"x\":0.74,\"y\":0.68,\"depth\":0.24,\"rotation\":-0.15,\"scale\":0.82,\"skew\":0,\"aperture\":0.74,\"extrusion\":0.16,\"role\":\"mold\",\"pressure\":0,\"cast\":0}]",
+        "renderer": "webgl"
+      },
+      {
+        "route": "canonical",
+        "mode": "reduced-motion",
+        "viewport": "1920x1080",
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "detail": true,
+        "title": true,
+        "tableauFirst": true,
+        "iframeTop": 161,
+        "headingTop": 953
+      }
+    ],
+    "diagnostics": []
+  }
+}
