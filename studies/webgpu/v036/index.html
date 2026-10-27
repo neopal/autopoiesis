@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10140f">
+  <meta name="description" content="A reciprocal ribbon where attention departs one gate and opens another elsewhere.">
+  <title>MUTINE — The least-seen gate opens.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=036">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-27"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="ribbon-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v036 / reciprocal ribbon</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="ribbon-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v036</span></nav>
+      <section class="ribbon-work" aria-label="WebGPU daily work">
+        <figure class="ribbon-frame artwork-frame">
+          <canvas id="gpu-veil" aria-hidden="true"></canvas>
+          <svg id="ribbon-field" viewBox="0 0 1000 760" role="img" aria-label="A single reciprocal ribbon with fifteen situated gates; attention opens a remote gate" tabindex="0" aria-keyshortcuts="Enter Space ArrowRight ArrowLeft Delete Backspace Escape R">
+            <defs>
+              <linearGradient id="ribbon-body" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#d7c49a" />
+                <stop offset=".42" stop-color="#b8c98c" />
+                <stop offset=".72" stop-color="#df936c" />
+                <stop offset="1" stop-color="#7b9b76" />
+              </linearGradient>
+              <linearGradient id="ribbon-edge" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#f4e7c4" stop-opacity=".2" />
+                <stop offset=".5" stop-color="#f4e7c4" stop-opacity=".72" />
+                <stop offset="1" stop-color="#e98265" stop-opacity=".2" />
+              </linearGradient>
+              <radialGradient id="ribbon-glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#e98265" stop-opacity=".35" />
+                <stop offset="1" stop-color="#e98265" stop-opacity="0" />
+              </radialGradient>
+              <filter id="soft-ribbon-glow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="10" />
+              </filter>
+            </defs>
+            <g id="ribbon-art"></g>
+          </svg>
+          <div class="ribbon-readout" role="status" aria-live="polite"><span data-stage>attention 01 / 09</span><span data-memory>0 replies</span><span data-renderer>SVG / RECIPROCAL RIBBON</span></div>
+          <div class="ribbon-status" data-status>approach a gate · leave to open another</div>
+          <div class="ribbon-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="attend">witness a gate</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release attention</button>
+          </div>
+          <figcaption><span>WEBGPU / V036 / DAILY WORK</span><span>approach → attend → depart</span></figcaption>
+        </figure>
+        <aside class="ribbon-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The field is no longer a population, terrain, orbit, or vault. It is one continuous SVG ribbon with a sequence of openings that behave as situated gates.</p></div>
+          <div><span>changed rule</span><p>Proximity and attention do not move the ribbon. When attention departs, the least-seen gate opens elsewhere; the witnessed gate closes and a third gate takes the relay.</p></div>
+          <div><span>progression</span><p>Move near a gate, press and hold, then release. Enter or Space offers the deterministic witness. Delete reconstructs the prior ribbon; Escape releases the archive.</p></div>
+        </aside>
+      </section>
+      <section class="ribbon-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V036 / DAILY WORK</p><h1 id="work-title">The least-seen<br><i>gate opens.</i></h1></div>
+        <p class="ribbon-premise">A visitor can witness one place, but the ribbon answers from the place that has been watched least.</p>
+      </section>
+      <section class="ribbon-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: attention and movement remain geometrically neutral, departure commits a remote opening, and four reciprocal replies remain liftable. Promotion depends on whether the blind view reads as one remembered ribbon rather than a decorative line or node diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>attention → distance → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=036a"></script>
+</body>
+</html>
