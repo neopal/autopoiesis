@@ -5,6 +5,7 @@ import { access, readFile } from 'node:fs/promises';
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 const expectedDailyIds = [
+  'naive-2026-10-27',
   'brush-2026-10-27',
   'portrait-2026-10-27',
   'typography-2026-10-27',

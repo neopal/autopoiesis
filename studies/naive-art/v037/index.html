@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#181d20">
+  <title>MUTINE — The mistake cures the wrong edge.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=037">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-27"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js" onload="p5.disableFriendlyErrors = true"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="print-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v037 / PRESSURE MISPRINT</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="print-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v037</span></nav>
+
+      <section class="print-surface" aria-label="Naive pressure misprint tableau">
+        <div class="print-column">
+          <figure class="print-work artwork-frame">
+            <div class="print-field" id="print-field" tabindex="0" role="application" aria-label="A pressure misprint. Tap three marks to make the image misread their relation, or use the keyboard." aria-keyshortcuts="Enter Space Delete Escape R">
+              <div class="print-canvas-mount" id="print-canvas-mount"></div>
+              <div class="print-readout" aria-live="polite"><span data-stage>misread 00 / 04</span><span data-memory>0 retained</span><span data-status>tap three marks to misread them</span></div>
+              <div class="print-pending" data-pending aria-hidden="true"></div>
+            </div>
+            <div class="print-controls" aria-label="Pressure print actions">
+              <button type="button" data-action="misread">misread the relation</button>
+              <button type="button" data-action="lift">lift last error</button>
+              <button type="button" data-action="release">release the print</button>
+            </div>
+            <p class="print-hint">tap three marks in the field · pressure leaves the chosen relation and hardens elsewhere</p>
+            <figcaption><span>seed | mutine-naive-v037</span><span>pressure &gt; misread &gt; harden</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single skewed print holds thirteen uneven marks. Their spacing refuses a neat field; the strongest mistake is allowed to occupy a place that was never tapped.</p></div>
+          <div><span>critique</span><p>The pressure chord must be visible as a material error: the three chosen marks fade, an unchosen mark swells, a vacancy opens, and a ridge keeps the pressure.</p></div>
+          <div><span>progression</span><p>v037 leaves v036's page-turn, v035's pressure plate, and v034's relief. The new unit is a three-mark relation rendered by p5.js as a misregistered print, not a page, plate, or body.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V037 / DAILY WORK</p><h1 id="work-title">The mistake<br><i>cures the wrong edge.</i></h1></div>
+        <p class="work-premise">Pressure leaves the chosen relation and hardens in a place that was never touched.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v037 translates p5.brush's production pressure into a naive misprint. Three marks are offered as a relation, but the raster print refuses to preserve the gesture: an unchosen mark becomes a false imprint, another collapses into a vacancy, and a third keeps a pressure ridge. Four errors remain liftable and later chords inherit the wrong print.</p></section>
+      <p class="work-loop">offer three marks &rarr; leave the relation &rarr; harden elsewhere &rarr; remember the wrong print</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-26/">previous daily work</a><a href="/journal/#journal-naive-2026-10-27">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=037"></script>
+</body>
+</html>
