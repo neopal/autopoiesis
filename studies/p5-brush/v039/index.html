@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09100f">
+  <title>MUTINE — The stain keeps its holes.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=039">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-27"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="wound-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v039 / CLOSED WOUND FIELD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="wound-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v039</span></nav>
+
+      <figure class="wound-work artwork-frame" aria-labelledby="work-title">
+        <div id="wound-field" class="wound-field" tabindex="0" role="application" aria-label="A continuous topological paint field. Draw a closed loop to remove a chamber from the material; incomplete loops are refused." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="wound-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>intact field · 0 wounds</span></div>
+          <svg id="wound-svg" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid meet" role="img" aria-label="A continuous contour field with remembered topological wounds">
+            <defs>
+              <linearGradient id="surface-gradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#d5d8b4"/>
+                <stop offset="0.44" stop-color="#758f7b"/>
+                <stop offset="0.73" stop-color="#b15d4b"/>
+                <stop offset="1" stop-color="#202f32"/>
+              </linearGradient>
+              <radialGradient id="wound-glow" cx="38%" cy="32%" r="76%">
+                <stop offset="0" stop-color="#e8dfb3" stop-opacity=".62"/>
+                <stop offset=".35" stop-color="#d67558" stop-opacity=".22"/>
+                <stop offset="1" stop-color="#08100e" stop-opacity="0"/>
+              </radialGradient>
+              <filter id="surface-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="10"/>
+              </filter>
+              <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="1.5"/>
+              </filter>
+            </defs>
+            <g id="surface-shadow-layer" aria-hidden="true"></g>
+            <g id="channel-layer" aria-hidden="true"></g>
+            <g id="surface-layer" aria-hidden="true"></g>
+            <g id="contour-layer" aria-hidden="true"></g>
+            <g id="basin-layer" aria-hidden="true"></g>
+            <g id="trace-layer" aria-hidden="true"></g>
+          </svg>
+          <div class="wound-controls" aria-label="Brush wound actions">
+            <button type="button" data-gesture="remove">remove a chamber</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release field</button>
+          </div>
+          <p class="wound-hint">draw one closed loop to excavate the field</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v039-closed-wound-field</span><span>pressure &gt; absence &gt; suture</span></figcaption>
+      </figure>
+
+      <section class="wound-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / CLOSED WOUND FIELD / v039</p>
+        <h1 id="work-title">The stain keeps<br><i>its holes.</i></h1>
+        <p class="wound-lede">A closed pressure loop is not a mark. It removes a chamber from one continuous field, and the surrounding material remembers how to close around the absence.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ABSENCE IS THE MATERIAL</p>
+          <p class="interaction-copy">Draw a loop and return to where you began. An open loop is refused and leaves the contour field exact. A closed loop excavates the nearest chamber as an actual SVG hole; the contours bend and a suture channel thickens. Enter or “remove a chamber” uses a deterministic loop. Delete lifts the latest wound; Escape, R, or “release field” returns to the intact field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The field is intact. Nothing has been removed.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v039</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Switch from a mark, slab, or layer interval to a topological removal. Only a closed pressure loop becomes a wound; the continuous SVG field then rebuilds its contours and channels around the missing chamber.</dd></div>
+          <div><dt>visitor action</dt><dd>Draw and close one loop. Preview remains geometry-neutral. Enter, Space, and the removal control use a deterministic loop. Delete lifts the latest wound. Escape or R releases the field. S downloads the tableau HTML.</dd></div>
+          <div><dt>falsifier</dt><dd>If the trace is merely decorative, if an open loop commits, if removal changes only colour or readout, if the SVG field does not retain its holes, or if later wounds forget prior absences, the material translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v039 if caption-free viewing reads as a generic contour map, if a hole is not a produced absence, or if the closed-loop encounter is only a disguised button.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-26/">previous daily work</a><a href="/journal/#journal-brush-2026-10-27">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=039"></script>
+</body>
+</html>

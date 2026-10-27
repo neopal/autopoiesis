@@ -2,6 +2,130 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-27",
+      "currentId": "brush",
+      "date": "2026-10-27",
+      "title": "The stain keeps its holes.",
+      "rawPath": "/studies/p5-brush/v039/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-27",
+        "note": "v039 leaves v038's lamina stack, v037's local crease sheet, and v036's eclipse slab. One continuous inline SVG contour field now accepts only a closed pressure loop: the loop disappears, a real chamber is removed with an even-odd hole, nearby contours bend, and one channel sutures the absence. Four wounds remain liftable and later removals inherit the missing chambers."
+      },
+      "critiques": [
+        {
+          "persona": "Field-form critic",
+          "argument": "The SVG must read as one continuous authored material field before it reads as a contour diagram. The surface silhouette, uneven contour rhythm, suture channels, and negative chambers must carry the composition without a grid or catalogue of objects."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and prose hidden, the first view must leave v038's skins, v037's incision, and v036's slab. It should read as a continuous topological surface with latent absences, not another stack, route, or local mark."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The viewer must close an enclosure rather than choose a seam, draw an open stroke, or travel a route. Open and undersized loops remain geometrically exact; only closure commits a wound."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "A committed loop must make a true SVG hole, bend actual contour paths, and thicken a channel. A dashed trace, color shift, label, or glow cannot substitute for produced topology."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four wounds must compound in the contour field. Later removals must rebuild around earlier holes, Delete must reconstruct the exact preceding field, and release must restore the intact seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "The work must visibly leave Canvas 2D, WebGL depth, and DOM/CSS laminae. Inline SVG even-odd path topology is the produced medium, not a wrapper around a raster image."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from pressure and field production into a closure threshold and topological subtraction, not into brushes, watercolor, hatching, grain, palette, composition, code, or API surface."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v039 if the blind field reads as a generic contour map, if the loop is only a disguised button, if the hole is cosmetic, if later wounds forget, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v039-closed-wound-field",
+        "visitorInput": true,
+        "seed": "0x42523939",
+        "stages": 13,
+        "basinCount": 8,
+        "contourCount": 16,
+        "channelCount": 6,
+        "memoryWindow": 4,
+        "minimumLoopArea": 0.012,
+        "closureDistance": 0.12,
+        "primitiveBudget": 30,
+        "memoryRule": "an incomplete loop is geometry-neutral; a closed loop removes one chamber as an actual SVG hole, bends surrounding contours, and thickens a suture channel; four wounds remain liftable",
+        "interactionRule": "pointer or touch draws a closed loop; Enter, Space, and the removal control use a deterministic loop; Delete lifts latest; Escape or R releases",
+        "representationRupture": "Canvas crease sheet, WebGL slab, and DOM/CSS lamina stack -> one continuous inline SVG contour field with even-odd topological wounds",
+        "compositionRupture": "local incision, remote pressure object, and layered skins -> one full-field continuous surface with negative chambers and suturing channels",
+        "encounterRupture": "open stroke, route, and paired boundary choice -> enclosure: the viewer must close an absence for the field to accept removal",
+        "temporalRupture": "drying, route memory, and layer order -> wound memory: later contours are rebuilt around prior absences",
+        "mediumRupture": "p5.js Canvas 2D, p5.js WebGL, and browser DOM/CSS -> inline SVG path topology with even-odd fill and produced holes",
+        "grammar": "closed-wound-field",
+        "renderer": "deterministic inline SVG topological wound field",
+        "changedRule": "A closed pressure loop is the only action that can remove a chamber. The absence is rendered as topology and alters the field's future contour and channel geometry.",
+        "visibleConsequence": "A continuous contour field develops actual dark holes, displaced contour paths, and suturing channels after removal; four holes persist in the settled state.",
+        "falsifier": "Delete if open loops commit, if the trace is decorative, if holes are only color/readout, if the blind field reads as a generic map, or if later removals reset.",
+        "deletionCondition": "Delete v039 if caption-free viewing cannot distinguish a topological wound field from a generic contour diagram or if removal is not materially produced.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "replay": true
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Pressure, density, directional behavior, and fields participate in producing geometry; material is an engine rather than a cosmetic layer.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, grain, source palette, source composition, source code, examples, and API surface. Translate pressure into a closure threshold: only a closed loop can subtract a chamber from an SVG contour field, after which the surrounding contours and one suture channel are produced from the remembered absence.",
+        "visibleConsequence": "The blind first view is one continuous mineral-like SVG field, not a stack or collection of layers. A committed loop produces an actual even-odd hole, displaced contour paths, and a thickened suture channel. Four holes persist and later removals inherit them.",
+        "falsifier": "If an open loop commits, if the trace remains as a decorative stroke, if the wound changes only color/readout, or if later removals reset from the intact field, the translation fails.",
+        "antiCopy": "No brush preset, watercolor appearance, hatching vocabulary, grain, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes the Brush sequence of remote slab, local crease, and layer interval; opens a topology-of-removal period in which material agency is tested through enclosure, absence, and field suturing."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v039 if the blind field reads as a generic contour map, if an open loop commits, if the wound is cosmetic, if later removals reset, or if exact lifting fails.",
+        "lineage": "brush-2026-10-26"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw and canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local closed-loop interaction, blind preview, Journal/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:49339",
+        "localRawPreview": "/studies/p5-brush/v039/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/p5-brush/v039/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/brush-2026-10-27/",
+        "localViewportRuns": 20,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "pointer loop preview kept geometry exact; a closed loop produced an SVG wound and changed contours/channels; open loop refused; Delete lifted exactly; deterministic control and Enter committed; Escape released; all three controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the inline SVG field visible with 16 contours and four actual wound holes while hiding readout, controls, hint, and pressure trace; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local rendered canonical work title/tableau, raw v039 tableau, source works.json record, public catalog record, favicon, and Journal route returned/rendered",
+        "localProofPath": "research/qa/proofs/brush-v039-2026-10-27/",
+        "localScreenshotCount": 23,
+        "unresolved": [
+          "production browser verification",
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "portrait-2026-10-27",
       "currentId": "portrait",
       "date": "2026-10-27",
@@ -14,15 +138,42 @@
         "note": "v035 abandons v034's forecast loom, v033's reciprocal body, and v032's refusal hinge. Twelve browser-native CSS polygon shards now orbit a displaced empty centre: proximity records attention without deforming the rim, then an audit of absence opens the least-seen shard, compresses the over-seen shard, and relays the decision through a third shard. Four self-audits remain liftable and later audits inherit the attention ledger."
       },
       "critiques": [
-        {"persona":"Vacancy-form critic","argument":"Twelve tapered shards must read as one authored orbital vacancy field before they read as a radial menu. The displaced elliptical void, uneven radii, layered depth, and broken inner apertures must carry the composition without visible controls."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, hint, controls, and prose hidden, the first view must leave v034's forecast loom, v033's reciprocal body, and v032's refusal hinge. It should read as a new negative-space field, not another body, loom, hinge, or generic ring diagram."},
-        {"persona":"Encounter critic","argument":"The viewer must move through situated shards but cannot select a shard as the answer. The central absence is the only commit surface; pointer movement and arrow keys remain geometry-neutral, and the audit control, Enter, and Space are equivalent."},
-        {"persona":"Causal critic","argument":"A committed audit must make three actual CSS geometry changes away from the centre: the least-seen shard opens, the over-seen shard compresses, and a third relay shard changes angle, depth, and skew. Colour and readout cannot substitute for geometry."},
-        {"persona":"Memory critic","argument":"Four audits must compound in the attention ledger and alter which shards are selected next. Delete must reconstruct the exact preceding field; release must restore the quiet seed."},
-        {"persona":"Medium critic","argument":"The work must visibly leave p5 Canvas, inline SVG, and WebGL. Semantic DOM nodes with CSS polygon geometry are not a wrapper around an image; the browser's layout and clip paths are the produced medium."},
-        {"persona":"Cultural critic","argument":"little-critters is translated from situated proximity and reciprocal attention into an abstract attention ledger and an audit of absence, not animals, eyes, characters, paper, head-turning, palette, composition, code, or API surface."},
-        {"persona":"Radical progression critic","argument":"v035 changes representation, medium, composition, viewer task, and state model: the portrait is no longer a body, hinge, or prediction loom; it is a vacancy field that records proximity without deforming and reallocates its own attention after an absence-triggered audit."},
-        {"persona":"Cynic","argument":"Delete v035 if the blind field reads as a generic radial menu or decorative ring, if proximity moves geometry, if the centre is the answer, if remote roles are cosmetic, if later audits forget, or if exact lifting fails."}
+        {
+          "persona": "Vacancy-form critic",
+          "argument": "Twelve tapered shards must read as one authored orbital vacancy field before they read as a radial menu. The displaced elliptical void, uneven radii, layered depth, and broken inner apertures must carry the composition without visible controls."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, hint, controls, and prose hidden, the first view must leave v034's forecast loom, v033's reciprocal body, and v032's refusal hinge. It should read as a new negative-space field, not another body, loom, hinge, or generic ring diagram."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The viewer must move through situated shards but cannot select a shard as the answer. The central absence is the only commit surface; pointer movement and arrow keys remain geometry-neutral, and the audit control, Enter, and Space are equivalent."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "A committed audit must make three actual CSS geometry changes away from the centre: the least-seen shard opens, the over-seen shard compresses, and a third relay shard changes angle, depth, and skew. Colour and readout cannot substitute for geometry."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four audits must compound in the attention ledger and alter which shards are selected next. Delete must reconstruct the exact preceding field; release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "The work must visibly leave p5 Canvas, inline SVG, and WebGL. Semantic DOM nodes with CSS polygon geometry are not a wrapper around an image; the browser's layout and clip paths are the produced medium."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated proximity and reciprocal attention into an abstract attention ledger and an audit of absence, not animals, eyes, characters, paper, head-turning, palette, composition, code, or API surface."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v035 changes representation, medium, composition, viewer task, and state model: the portrait is no longer a body, hinge, or prediction loom; it is a vacancy field that records proximity without deforming and reallocates its own attention after an absence-triggered audit."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v035 if the blind field reads as a generic radial menu or decorative ring, if proximity moves geometry, if the centre is the answer, if remote roles are cosmetic, if later audits forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
         "id": "portrait-v035-attention-orbit",
@@ -66,8 +217,17 @@
         "status": "13/13 local and 13/13 production screenshot/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, blind preview, canonical readback, favicon, overflow, touch targets, and diagnostics passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
-        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-        "modes": ["normal", "reduced-motion"],
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
         "localAlias": "http://127.0.0.1:49321",
         "localRawPreview": "/studies/self-portrait/v035/?preview=1&interaction=1",
         "localBlindPreview": "/studies/self-portrait/v035/?preview=1&static=1&blind=1",
@@ -97,7 +257,10 @@
         "productionDeploymentId": "dpl_AcxKPR5XriEtE19QdL9mR7AGKRZA",
         "productionDeploymentUrl": "https://autopoiesis-2zr331nn7-lairpa-hotmailfrs-projects.vercel.app",
         "artifactCommit": "63be451ca0cfc9a607501fabeeae009c6675b90c",
-        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       }
     },
     {
@@ -263,16 +426,46 @@
         "note": "v035 abandons v034's orbital chorus, v033's propagation terrain, and v032's cellular quorum membrane. Twelve vertical panels now recede through one architectural pressure vault: the first tap stays geometrically silent, the delay between two taps becomes force, a remote panel advances and opens, the source recedes, and a third panel splits its slip. Four pressure intervals remain liftable and later intervals inherit the changed depth."
       },
       "critiques": [
-        {"persona":"Vault-form critic","argument":"Twelve panels must read as one authored architectural vault before they read as a stack of cards. Receding depth, apertures, side planes, and the broken perspective must carry the composition without a grid or visible control surface."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, and furniture hidden, the first view must leave v034's orbit, v033's terrain, and v032's membrane. It should read as a singular deep object, not a particle field, diagram, or interface."},
-        {"persona":"Encounter critic","argument":"The visitor must make two discrete pressure beats rather than drag, sweep, or witness a location. The first beat must remain exact; only the second bounded beat may commit. Pointer and keyboard must be equivalent meaningful paths."},
-        {"persona":"Material critic","argument":"The elapsed interval must be production force, not a label. The source must recede, a remote panel must advance and open, and a third must split through actual depth, aperture, angle, and slip changes."},
-        {"persona":"Non-locality critic","argument":"The tapped surface cannot be the answer. A remote panel must carry the strongest opening and depth response while the source becomes quieter and a third panel carries the split."},
-        {"persona":"Memory critic","argument":"Four pressure intervals must compound in the vault. Later intervals must rebuild from changed depth and slip, Delete must reconstruct the exact prior object, and release must return to the quiet seed."},
-        {"persona":"Medium critic","argument":"The work must visibly leave the continuous terrain, cellular membrane, and orbital population. The new unit is an architectural panel with an aperture and a depth relation, rendered as authored geometry rather than a sample grid."},
-        {"persona":"Cultural critic","argument":"p5.brush is translated from programmable pressure and geometry production into an interval instrument, not into brushes, watercolor, hatching, grain, vector-field marks, palette, composition, code, or API surface."},
-        {"persona":"Radical progression critic","argument":"v035 changes representation, composition, interaction, temporal grammar, shape vocabulary, and medium: populations and fields become a deep vault, and arc tracing or witness composition becomes a discrete double-tap interval whose force answers remotely."},
-        {"persona":"Cynic","argument":"Delete v035 if the blind vault reads as a generic card stack or control grid, if one tap commits, if waiting deforms, if the remote response is cosmetic, if later intervals forget, or if exact lifting fails."}
+        {
+          "persona": "Vault-form critic",
+          "argument": "Twelve panels must read as one authored architectural vault before they read as a stack of cards. Receding depth, apertures, side planes, and the broken perspective must carry the composition without a grid or visible control surface."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and furniture hidden, the first view must leave v034's orbit, v033's terrain, and v032's membrane. It should read as a singular deep object, not a particle field, diagram, or interface."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must make two discrete pressure beats rather than drag, sweep, or witness a location. The first beat must remain exact; only the second bounded beat may commit. Pointer and keyboard must be equivalent meaningful paths."
+        },
+        {
+          "persona": "Material critic",
+          "argument": "The elapsed interval must be production force, not a label. The source must recede, a remote panel must advance and open, and a third must split through actual depth, aperture, angle, and slip changes."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The tapped surface cannot be the answer. A remote panel must carry the strongest opening and depth response while the source becomes quieter and a third panel carries the split."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four pressure intervals must compound in the vault. Later intervals must rebuild from changed depth and slip, Delete must reconstruct the exact prior object, and release must return to the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "The work must visibly leave the continuous terrain, cellular membrane, and orbital population. The new unit is an architectural panel with an aperture and a depth relation, rendered as authored geometry rather than a sample grid."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from programmable pressure and geometry production into an interval instrument, not into brushes, watercolor, hatching, grain, vector-field marks, palette, composition, code, or API surface."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v035 changes representation, composition, interaction, temporal grammar, shape vocabulary, and medium: populations and fields become a deep vault, and arc tracing or witness composition becomes a discrete double-tap interval whose force answers remotely."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v035 if the blind vault reads as a generic card stack or control grid, if one tap commits, if waiting deforms, if the remote response is cosmetic, if later intervals forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
         "id": "webgpu-v035-pressure-vault",
@@ -321,8 +514,17 @@
         "status": "20/20 local raw and canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending production verification, independent caption-free perceptual review, and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
-        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-        "modes": ["normal", "reduced-motion"],
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
         "localAlias": "http://127.0.0.1:4350",
         "localRawPreview": "/studies/webgpu/v035/?preview=1&interaction=1",
         "localBlindPreview": "/studies/webgpu/v035/?preview=1&static=1&blind=1",
@@ -349,7 +551,10 @@
         "productionReadbacks": "production Journal anchor/title, WebGPU current title/card, canonical work title/tableau, raw v035 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
         "productionProofPath": "research/qa/proofs/webgpu-v035-2026-10-26-production/",
         "productionScreenshotCount": 25,
-        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       }
     },
     {
@@ -365,92 +570,131 @@
         "note": "v036 leaves v035's pressure-misread plate, v034's faceted reconstruction, and v033's typographic proof. Eleven overlapping browser-native leaves now form one crooked accordion page: a completed turn shuts the seen fold, invents an opening in a non-local unread fold, and echoes the crease in a third leaf. Four false page turns remain liftable and later turns inherit the wrong pagination."
       },
       "critiques": [
-        {"persona":"Page-form critic","argument":"Eleven overlapping leaves must read as one crooked accordion page before they read as separate objects. The open interval, diagonal drift, and uneven edges need to carry the composition without a row or catalogue grid."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, annotations, and prose hidden, the first view must leave v035's pressure plate, v034's relief, and v033's proof sheet. It should read as a new page-like object with a false fold latent in its body."},
-        {"persona":"Encounter critic","argument":"The visitor must turn a page rather than draw, dwell, or type a witness. Wheel accumulation, swipe distance, and arrow-key turns must be equivalent meaningful paths; shallow motion must leave the leaves exact."},
-        {"persona":"Causal critic","argument":"A completed turn must change actual fold geometry: the seen leaf narrows, a remote unread leaf opens, and a third leaf inherits a wrong crease. Colour, readout, and status text cannot substitute for DOM/CSS changes."},
-        {"persona":"Non-locality critic","argument":"The reader's focus cannot be the whole answer. The page must answer from an unseen fold, and the third echo must be visibly different from both the focus and the opening."},
-        {"persona":"Memory critic","argument":"Four false page turns must compound in the fold stack. Later turns must rebuild from the altered pagination; Delete must reconstruct the exact preceding page and release must restore the quiet seed."},
-        {"persona":"Cultural critic","argument":"little-critters is translated from situated reciprocal attention into false pagination, not animals, eyes, characters, paper scenes, head-turns, palette, code, or API surface. The page answers with the fold that was not seen."},
-        {"persona":"Radical progression critic","argument":"v036 changes representation, composition, encounter, temporal grammar, shape vocabulary, and medium: Canvas plate, relief, and proof become a browser-native accordion page whose causal action is scroll/swipe page-turning."},
-        {"persona":"Cynic","argument":"Delete v036 if the blind page reads as a card grid, if scroll is decorative, if the seen fold alone changes, if remote opening or echo is cosmetic, if later turns forget, or if exact lifting fails."}
+        {
+          "persona": "Page-form critic",
+          "argument": "Eleven overlapping leaves must read as one crooked accordion page before they read as separate objects. The open interval, diagonal drift, and uneven edges need to carry the composition without a row or catalogue grid."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, annotations, and prose hidden, the first view must leave v035's pressure plate, v034's relief, and v033's proof sheet. It should read as a new page-like object with a false fold latent in its body."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must turn a page rather than draw, dwell, or type a witness. Wheel accumulation, swipe distance, and arrow-key turns must be equivalent meaningful paths; shallow motion must leave the leaves exact."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "A completed turn must change actual fold geometry: the seen leaf narrows, a remote unread leaf opens, and a third leaf inherits a wrong crease. Colour, readout, and status text cannot substitute for DOM/CSS changes."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The reader's focus cannot be the whole answer. The page must answer from an unseen fold, and the third echo must be visibly different from both the focus and the opening."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four false page turns must compound in the fold stack. Later turns must rebuild from the altered pagination; Delete must reconstruct the exact preceding page and release must restore the quiet seed."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated reciprocal attention into false pagination, not animals, eyes, characters, paper scenes, head-turns, palette, code, or API surface. The page answers with the fold that was not seen."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v036 changes representation, composition, encounter, temporal grammar, shape vocabulary, and medium: Canvas plate, relief, and proof become a browser-native accordion page whose causal action is scroll/swipe page-turning."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v036 if the blind page reads as a card grid, if scroll is decorative, if the seen fold alone changes, if remote opening or echo is cosmetic, if later turns forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
-        "id":"naive-art-v036-false-accordion",
-        "visitorInput":true,
-        "seed":"0x4e413336",
-        "foldCount":11,
-        "memoryWindow":4,
-        "minimumTurnDistance":0.24,
-        "maximumTurnDistance":0.86,
-        "settledStage":4,
-        "primitiveBudget":11,
-        "memoryRule":"a completed page turn shuts the seen fold, invents an opening in a non-local unread fold, and echoes the crease in a third fold; later turns inherit the false pagination",
-        "interactionRule":"wheel, swipe, or arrow-key page turns are geometry-neutral while shallow; a full turn commits; Delete lifts latest; Escape or R releases",
-        "representationRupture":"Canvas pressure plate, WebGL relief, and Canvas proof sheet -> one browser-native DOM/CSS accordion page made from overlapping folds",
-        "compositionRupture":"singular negative plate, faceted relief, and typographic register -> a crooked diagonal page with an open interval and overlapping leaves",
-        "encounterRupture":"draw a pressure stroke, hold a look, or compose a witness -> scroll, swipe, or turn a page through an accumulated reading threshold",
-        "temporalRupture":"pressure inference, false reconstruction, and proof mishearing -> false pagination in which the unseen page answers and the wrong crease persists",
-        "mediumRupture":"p5.js Canvas 2D/WebGL and raster geometry -> semantic browser DOM with CSS clip-path, transform, and actual fold geometry; no canvas or SVG renderer",
-        "changedRule":"The reader's completed turn is treated as evidence, but the page misreads it: the visible fold shuts, an unseen fold invents an opening, and a third fold echoes the crease in the wrong direction.",
-        "visibleConsequence":"A blind crooked accordion page becomes materially re-paginated after a full turn: the focused leaf narrows, a remote leaf grows and moves, and a third leaf changes its crease; four errors remain visible.",
-        "falsifier":"Delete if the first view reads as a card grid, if scrolling is decorative, if the seen leaf alone answers, if remote opening or echoed crease is cosmetic, if later turns reset, or if exact lifting fails.",
-        "deletionCondition":"Delete v036 if caption-free viewing cannot distinguish the false accordion from the prior plate, relief, and proof grammars, or if page turns change only colour, labels, or readout.",
-        "grammar":"false-accordion",
-        "renderer":"deterministic browser-native DOM/CSS fold page",
-        "replay":true,
-        "promotion":"candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
+        "id": "naive-art-v036-false-accordion",
+        "visitorInput": true,
+        "seed": "0x4e413336",
+        "foldCount": 11,
+        "memoryWindow": 4,
+        "minimumTurnDistance": 0.24,
+        "maximumTurnDistance": 0.86,
+        "settledStage": 4,
+        "primitiveBudget": 11,
+        "memoryRule": "a completed page turn shuts the seen fold, invents an opening in a non-local unread fold, and echoes the crease in a third fold; later turns inherit the false pagination",
+        "interactionRule": "wheel, swipe, or arrow-key page turns are geometry-neutral while shallow; a full turn commits; Delete lifts latest; Escape or R releases",
+        "representationRupture": "Canvas pressure plate, WebGL relief, and Canvas proof sheet -> one browser-native DOM/CSS accordion page made from overlapping folds",
+        "compositionRupture": "singular negative plate, faceted relief, and typographic register -> a crooked diagonal page with an open interval and overlapping leaves",
+        "encounterRupture": "draw a pressure stroke, hold a look, or compose a witness -> scroll, swipe, or turn a page through an accumulated reading threshold",
+        "temporalRupture": "pressure inference, false reconstruction, and proof mishearing -> false pagination in which the unseen page answers and the wrong crease persists",
+        "mediumRupture": "p5.js Canvas 2D/WebGL and raster geometry -> semantic browser DOM with CSS clip-path, transform, and actual fold geometry; no canvas or SVG renderer",
+        "changedRule": "The reader's completed turn is treated as evidence, but the page misreads it: the visible fold shuts, an unseen fold invents an opening, and a third fold echoes the crease in the wrong direction.",
+        "visibleConsequence": "A blind crooked accordion page becomes materially re-paginated after a full turn: the focused leaf narrows, a remote leaf grows and moves, and a third leaf changes its crease; four errors remain visible.",
+        "falsifier": "Delete if the first view reads as a card grid, if scrolling is decorative, if the seen leaf alone answers, if remote opening or echoed crease is cosmetic, if later turns reset, or if exact lifting fails.",
+        "deletionCondition": "Delete v036 if caption-free viewing cannot distinguish the false accordion from the prior plate, relief, and proof grammars, or if page turns change only colour, labels, or readout.",
+        "grammar": "false-accordion",
+        "renderer": "deterministic browser-native DOM/CSS fold page",
+        "replay": true,
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage"
       },
       "source": {
-        "referenceId":"little-critters",
-        "title":"little-critters",
-        "url":"https://github.com/GordenSun/little-critters",
-        "observedMechanism":"Situated code-drawn agents respond to proximity with legible attention and reciprocal consequence; the visitor participates in a small social field without a dashboard.",
-        "translatedRule":"Refuse animals, eyes, characters, paper scenes, head-turning, source palette, composition, source code, examples, and API surface. Translate situated attention into false pagination: the reader's turn is treated as evidence, but an unseen fold answers; the seen leaf shuts, a remote leaf opens, and a third leaf echoes the wrong crease.",
-        "visibleConsequence":"The blind first view is one crooked browser-native accordion page rather than a population. A full turn changes actual DOM/CSS fold geometry away from the reader: the focused leaf narrows, a remote leaf grows and moves, and a third crease changes; later turns inherit the altered page.",
-        "falsifier":"If scroll or swipe is decorative, if the seen leaf alone answers, if remote opening or echoed crease exists only in colour/readout, if the field reads as a card grid, if later turns reset, or if lifting is inexact, the translation fails.",
-        "antiCopy":"No animals, eyes, character designs, paper scene, head-turning gesture, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
-        "directionConsequence":"Closes Naive art's pressure plate / relief / proof sequence and opens false-accordion: model failure becomes a wrong pagination in a browser-native page, with scroll and swipe replacing stroke, dwell, and witness composition."
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to proximity with legible attention and reciprocal consequence; the visitor participates in a small social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper scenes, head-turning, source palette, composition, source code, examples, and API surface. Translate situated attention into false pagination: the reader's turn is treated as evidence, but an unseen fold answers; the seen leaf shuts, a remote leaf opens, and a third leaf echoes the wrong crease.",
+        "visibleConsequence": "The blind first view is one crooked browser-native accordion page rather than a population. A full turn changes actual DOM/CSS fold geometry away from the reader: the focused leaf narrows, a remote leaf grows and moves, and a third crease changes; later turns inherit the altered page.",
+        "falsifier": "If scroll or swipe is decorative, if the seen leaf alone answers, if remote opening or echoed crease exists only in colour/readout, if the field reads as a card grid, if later turns reset, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No animals, eyes, character designs, paper scene, head-turning gesture, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Naive art's pressure plate / relief / proof sequence and opens false-accordion: model failure becomes a wrong pagination in a browser-native page, with scroll and swipe replacing stroke, dwell, and witness composition."
       },
       "decision": {
-        "nextMutation":"Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v036 if the blind page reads as a generic card grid, if scroll is decorative, if the seen leaf alone answers, if remote opening or echo is cosmetic, if later turns reset, or if exact lifting fails.",
-        "lineage":"naive-2026-10-25"
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v036 if the blind page reads as a generic card grid, if scroll is decorative, if the seen leaf alone answers, if remote opening or echo is cosmetic, if later turns reset, or if exact lifting fails.",
+        "lineage": "naive-2026-10-25"
       },
       "browserEvidence": {
-        "status":"20/20 local and 20/20 production browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
-        "productionReady":false,
-        "runner":"headless system Chrome via Playwright",
-        "viewports":["320x568","390x844","768x1024","1280x800","1920x1080"],
-        "modes":["normal","reduced-motion"],
-        "localAlias":"http://127.0.0.1:4290",
-        "localRawPreview":"/studies/naive-art/v036/?preview=1&interaction=1",
-        "localBlindPreview":"/studies/naive-art/v036/?preview=1&static=1&blind=1",
-        "localCanonicalWork":"/works/naive-2026-10-26/",
-        "localViewportRuns":20,
-        "localDiagnostics":0,
-        "localOverflow":0,
-        "localMinTouchTarget":44,
-        "localInteraction":"shallow wheel refused; full wheel committed the non-local shut/open/echo event; Delete restored exact baseline; swipe, ArrowRight, Enter/control, and Escape paths passed",
-        "localBlindPreviewEvidence":"reduced-motion static blind preview at 390x844 kept eleven DOM/CSS folds and four settled false page turns visible while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
-        "localReadbacks":"local Journal anchor/title, Naive current, canonical work title/tableau, raw v036 tableau, source works.json record, public catalog record, and favicon returned/rendered",
-        "localProofPath":"research/qa/proofs/naive-art-v036-2026-10-26/",
-        "localScreenshotCount":21,
-        "productionAlias":"https://autopoiesis-nine.vercel.app",
-        "productionDeploymentUrl":"https://autopoiesis-hzid19073-lairpa-hotmailfrs-projects.vercel.app",
-        "productionDeployment":"dpl_8cmHwgWHrp1bQCXbrYUL2k6fsqjZ",
-        "productionRawPreview":"https://autopoiesis-nine.vercel.app/studies/naive-art/v036/?preview=1&interaction=1",
-        "productionBlindPreview":"https://autopoiesis-nine.vercel.app/studies/naive-art/v036/?preview=1&static=1&blind=1",
-        "productionCanonicalWork":"https://autopoiesis-nine.vercel.app/works/naive-2026-10-26/",
-        "productionViewportRuns":20,
-        "productionDiagnostics":0,
-        "productionOverflow":0,
-        "productionMinTouchTarget":44,
-        "productionInteraction":"production shallow wheel refused; full wheel committed the non-local shut/open/echo event; Delete restored exact baseline; swipe, ArrowRight, Enter/control, and Escape paths passed",
-        "productionBlindPreviewEvidence":"production reduced-motion static blind preview at 390x844 kept eleven DOM/CSS folds and four settled false page turns visible while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
-        "productionReadbacks":"production Journal anchor/title, Naive current, canonical work title/tableau, raw v036 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
-        "productionProofPath":"research/qa/proofs/naive-art-v036-2026-10-26-production/",
-        "productionScreenshotCount":21,
-        "unresolved":["independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
+        "status": "20/20 local and 20/20 production browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:4290",
+        "localRawPreview": "/studies/naive-art/v036/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/naive-art/v036/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/naive-2026-10-26/",
+        "localViewportRuns": 20,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "shallow wheel refused; full wheel committed the non-local shut/open/echo event; Delete restored exact baseline; swipe, ArrowRight, Enter/control, and Escape paths passed",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept eleven DOM/CSS folds and four settled false page turns visible while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local Journal anchor/title, Naive current, canonical work title/tableau, raw v036 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "localProofPath": "research/qa/proofs/naive-art-v036-2026-10-26/",
+        "localScreenshotCount": 21,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeploymentUrl": "https://autopoiesis-hzid19073-lairpa-hotmailfrs-projects.vercel.app",
+        "productionDeployment": "dpl_8cmHwgWHrp1bQCXbrYUL2k6fsqjZ",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v036/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v036/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/naive-2026-10-26/",
+        "productionViewportRuns": 20,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "production shallow wheel refused; full wheel committed the non-local shut/open/echo event; Delete restored exact baseline; swipe, ArrowRight, Enter/control, and Escape paths passed",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept eleven DOM/CSS folds and four settled false page turns visible while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production Journal anchor/title, Naive current, canonical work title/tableau, raw v036 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/naive-art-v036-2026-10-26-production/",
+        "productionScreenshotCount": 21,
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       }
     },
     {
