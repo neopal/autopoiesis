@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1017">
+  <title>MUTINE — The letter is cast elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=035">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-27"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="casting-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v035 / PRESSURE CASTING RACK</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="casting-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v035</span></nav>
+
+      <figure class="casting-work artwork-frame" aria-labelledby="work-title">
+        <div id="casting-field" class="casting-field" tabindex="0" role="application" aria-label="A three dimensional pressure casting rack of letters. Press and release on a letter block; the source stays exact while a remote mold is produced elsewhere." aria-describedby="interaction-state" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete R Escape">
+          <div class="rack-shadow" aria-hidden="true"></div>
+          <canvas id="cast-canvas" role="img" aria-label="A dark three dimensional rack of twelve pressure-cast letters"></canvas>
+          <div class="rack-axis rack-axis-a" aria-hidden="true"></div>
+          <div class="rack-axis rack-axis-b" aria-hidden="true"></div>
+          <div class="field-stamp" aria-hidden="true"><span>PRESS / HOLD / RELEASE</span><span>HANDWRITING 035</span></div>
+          <div class="field-readout" aria-live="polite"><span data-stage>rack / quiet</span><span data-memory>0 casts · 12 blocks</span></div>
+          <div class="field-coordinates" aria-hidden="true"><span>DEPTH / 00—12</span><span>THE SOURCE IS NOT THE ANSWER</span></div>
+          <div class="casting-controls" aria-label="Pressure casting actions">
+            <button id="cast-control" type="button">cast pressure</button>
+            <button id="lift-cast" type="button">lift latest</button>
+            <button id="release-cast" type="button">release rack</button>
+          </div>
+          <p class="field-hint">press a block · hold the force · release to cast elsewhere</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v035-pressure-casting-rack</span><span>pressure &gt; mold &gt; elsewhere</span></figcaption>
+      </figure>
+
+      <section class="casting-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MATERIAL SYNTAX / v035</p>
+        <h1 id="work-title">The letter is cast<br><i>elsewhere.</i></h1>
+        <p class="casting-lede">Pressure does not bend the letter you touch. It changes the mold that produces another one.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">PRESSURE IS A PRODUCTION RULE</p>
+          <p class="interaction-copy">Press and hold one block, then release. The source remains exact. Elapsed pressure moves a remote receiver through depth, aperture, and extrusion; a second block loosens into an echo and a third becomes a counterform. Arrow keys choose a source, Enter or Space performs a deterministic cast, Delete lifts the newest cast, and R or Escape releases the rack.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The rack is quiet. No pressure has entered the mold.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v035</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v034's double register, v033's negative-space plate, and v032's cadence score. Twelve irregular letter blocks now occupy a perspective rack. Pressure is neutral while held; release changes a remote mold's produced depth and aperture, not the source block.</dd></div>
+          <div><dt>visitor action</dt><dd>Press, hold, and release one block. The duration becomes force. Pointer, Arrow keys, Enter, Space, Delete, R, and Escape remain deterministic equivalents; four casts stay liftable and later casts inherit the altered rack.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if holding deforms geometry, if the source becomes the answer, if depth/aperture/extrusion are only colour or readout, if the first view reads as a flat grid or type specimen, if later casts forget, or if exact lifting fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v035 if caption-free viewing cannot distinguish the pressure rack from a decorative 3D word wall, if the remote mold is not visibly produced by release, or if the rack needs prose to explain its material causality.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-26/">previous daily work</a><a href="/journal/#journal-typography-2026-10-27">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=035"></script>
+</body>
+</html>
