@@ -33,7 +33,7 @@ The last three Naive works repeated a model error as a spatial misreading: v036'
 - `scripts/naive-art-v037-probe.mjs` — headless browser QA runner.
 - `research/qa/proofs/naive-art-v037-2026-10-27/` — local screenshots and `qa-summary.json`.
 
-## Local verification
+## Local and production verification
 
 - TDD RED observed first: the targeted test failed with the expected missing `v037/engine.mjs` and tableau paths.
 - Targeted tests: **3/3 passed**.
@@ -42,11 +42,21 @@ The last three Naive works repeated a model error as a spatial misreading: v036'
 - JSON parsing: passed for works, metrics, and critiques.
 - `git diff --check`: passed.
 - Local headless browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced motion, raw and canonical routes.
-- Local diagnostics: **0**; overflow failures: **0**; minimum button target: **44px**.
-- Interaction evidence: first two pointer taps stayed geometry-neutral; third tap committed a remote false imprint/vacancy/ridge event; Delete restored the exact baseline; Enter committed; Escape released; the control path committed.
-- Blind evidence: 13 stamps and four settled pressure misprints remained visible with readout, controls, hint, and pending marks hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
-- Local Journal anchor/title, canonical route, raw tableau, works JSON, public catalogue, and favicon read back successfully.
+- Production headless browser matrix: **20/20 passed** across the same five viewports and two motion modes, raw and canonical routes.
+- Local and production diagnostics: **0**; overflow failures: **0**; minimum button target: **44px**.
+- Local and production interaction evidence: first two pointer taps stayed geometry-neutral; third tap committed a remote false imprint/vacancy/ridge event; Delete restored the exact baseline; Enter committed an equivalent deterministic chord; Escape released; the control path committed.
+- Local and production blind evidence: 13 stamps and four settled pressure misprints remained visible with readout, controls, hint, and pending marks hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
+- Local and production canonical/raw/tableau/readback evidence: works JSON, public catalogue, canonical work, Journal anchor/title, and favicon returned/rendered with HTTP 200.
+
+## Publication
+
+- Artifact commit: `5b9d0200aaee933cee3748988693c819d751d7c9`.
+- Remote SHA at artifact publication: `5b9d0200aaee933cee3748988693c819d751d7c9`.
+- Production deployment: `dpl_CU95Dq2oiC1uGXee6cYnPT9LrJbr`.
+- Deployment URL: https://autopoiesis-rjvxpiqf0-lairpa-hotmailfrs-projects.vercel.app.
+- Stable URL: https://autopoiesis-nine.vercel.app.
+- The production proof was fetched from the stable alias after deployment; GitHub synchronization and Vercel deployment are recorded separately.
 
 ## Open doubt
 
-Production verification, independent caption-free perceptual review, and provider revision linkage remain open. The candidate is **not exhibition-ready** and remains held.
+Independent caption-free perceptual review and provider revision linkage between the deployment and GitHub SHA remain open. The candidate is **not exhibition-ready** and remains held.
