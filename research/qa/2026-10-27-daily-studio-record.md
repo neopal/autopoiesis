@@ -2,7 +2,7 @@
 
 **Audit scope:** the six-current daily register, with the scheduled slot executed for `brush / 2026-10-27`.
 
-**Status:** brush candidate recorded and locally verified; production publication remains pending.
+**Status:** brush candidate recorded and locally plus production-browser verified; candidate remains held for independent perceptual review and provider revision linkage.
 
 The audit used only `studio/data/studio.json` and `studio/data/works.json` as active catalogue sources. Field tests and stimuli were not merged into the work register.
 
@@ -66,13 +66,14 @@ Complete-work mutation check: **0 complete records**, so there is no complete-wo
 - `git diff --check`: **passed** (exit code 0).
 - The JSON registers were parsed by the audit script without errors.
 - Local browser matrix: **20/20** raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion. Diagnostics: **0**; overflow failures: **0**; minimum control target: **44px**.
+- Production browser matrix: **20/20** raw/canonical runs passed at the same five viewports and two motion modes. Production diagnostics: **0**; overflow failures: **0**; minimum control target: **44px**; deployed Journal anchor/title and all readbacks passed.
 - Interaction evidence: preview kept geometry exact; closed loop changed produced SVG geometry; open loop refused; lift restored the exact baseline; control and Enter committed; Escape released.
 - Blind evidence: SVG stayed visible with 16 contours and 4 actual wound holes; readout, controls, hint, and pressure trace were hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
 - Local readbacks: works JSON, public catalog, canonical work, raw blind preview, favicon, and rendered Journal anchor/title all returned successfully.
 
 ## Evidence limits and next actions
 
-The brush artifact remains **candidate / held** pending production browser verification, independent caption-free perceptual review, and provider revision linkage. No claim of exhibition readiness is made.
+The brush artifact remains **candidate / held** pending independent caption-free perceptual review and provider revision linkage. Production browser verification is complete; no claim of exhibition readiness is made.
 
 Next actions:
 
@@ -80,4 +81,4 @@ Next actions:
 2. Re-run the catalogue audit and lifecycle check after that schema repair.
 3. Keep `typography-2026-10-27`, `portrait-2026-10-27`, and `brush-2026-10-27` held pending independent caption-free perceptual review and provider revision linkage.
 
-Existing unrelated working-tree changes were preserved; production commit, push, and deployment remain pending.
+Existing unrelated working-tree changes were preserved; the artifact commit, GitHub push, and production deployment are complete. The metadata/evidence follow-up commit is pending.
