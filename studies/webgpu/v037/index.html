@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101618">
+  <meta name="description" content="A material prism whose remote layers shear when the viewer turns the mass through a complete sweep.">
+  <title>MUTINE — The mass stores the pause.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=037">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-28"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="mass-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v037 / material prism</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="mass-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v037</span></nav>
+      <section class="mass-work" aria-label="WebGPU daily work">
+        <figure class="mass-frame artwork-frame">
+          <canvas id="mass-field" role="img" aria-label="A three-dimensional sediment prism with fourteen stacked material layers and one internal cut"></canvas>
+          <div class="mass-readout" role="status" aria-live="polite"><span data-stage>turn 01 / 07</span><span data-memory>0 shears</span><span data-renderer>P5.JS / WEBGL / MATERIAL PRISM</span></div>
+          <div class="mass-status" data-status>turn the mass through a complete sweep</div>
+          <div class="mass-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="turn">turn the mass</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release mass</button>
+          </div>
+          <figcaption><span>WEBGPU / V037 / DAILY WORK</span><span>load → turn → remote shear</span></figcaption>
+        </figure>
+        <aside class="mass-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The population, ribbon, vault, terrain, and orbit are gone. One p5.js WEBGL prism carries fourteen strata whose depth, cut, and displacement are rendered as a volume.</p></div>
+          <div><span>changed rule</span><p>A turn is sampled as material load, not camera decoration. The layer under the gesture stays nearly exact; a remote seam shears and the surrounding mass settles into it.</p></div>
+          <div><span>progression</span><p>Drag across the prism and complete a bounded sweep. The preview only turns the view. Release commits a remote shear; Delete reconstructs the prior volume and Escape releases the archive.</p></div>
+        </aside>
+      </section>
+      <section class="mass-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V037 / DAILY WORK</p><h1 id="work-title">The mass stores<br><i>the pause.</i></h1></div>
+        <p class="mass-premise">A material body remembers a turn by changing the layer the hand never touched.</p>
+      </section>
+      <section class="mass-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test asks whether one object can replace the recent population grammar: the preview remains view-only, a complete turn commits a displaced shear, and four remote material memories remain liftable. Promotion depends on whether the blind volume reads as a pressure-bearing object rather than a generic 3D stack.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>turn → material → memory</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=037a"></script>
+</body>
+</html>
