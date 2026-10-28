@@ -32,6 +32,7 @@ This closes the proximity-tour / open-filament / closed-topology family and open
 ## Local verification
 
 - Targeted TDD slice: **5 passed, 0 failed**. RED was observed first with the expected missing `v038/engine.mjs` module error.
+- Full suite: **1144 passed, 0 failed** (`npm run test`).
 - Full daily catalogue test: **7 passed, 0 failed**.
 - JavaScript syntax: `engine.mjs`, `sketch.js`, `tests/pure-svg-v038.test.mjs`, and `scripts/pure-svg-v038-probe.mjs` passed `node --check`.
 - Local browser matrix: **20/20 passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw/canonical, normal/reduced motion.
@@ -39,8 +40,18 @@ This closes the proximity-tour / open-filament / closed-topology family and open
 - Local interaction: pointer accord committed with geometry changed, `12` folds, `1` counterfold, `endpointsExact=true`; Delete restored the exact baseline; Enter committed; R released; weak near pair refused.
 - Local blind preview: visible `12`-fold inline SVG field, memory `4`, counterfolds `4`; readout, controls, annotations hidden; `innerWidth/clientWidth/scrollWidth=390/390/390`.
 - Local readbacks: Journal anchor/title, Pure SVG current/card, canonical work/tableau, raw v038, source register, public catalogue, and favicon all returned/rendered.
-- Proofs: `research/qa/proofs/pure-svg-v038-2026-10-28/` (`qa-summary.json`, three screenshots, README).
+- Production browser matrix: **20/20 passed** at the same five viewports, raw/canonical, normal/reduced motion.
+- Production diagnostics: **0**; overflow failures: **0**; minimum touch target: **44px**.
+- Production interaction: pointer accord committed with geometry changed, endpoints exact, counterfold produced; Delete restored; Enter committed; R released; weak near pair refused.
+- Production blind preview: visible `12`-fold inline SVG field, memory `4`, counterfolds `4`; readout, controls, annotations hidden; `innerWidth/clientWidth/scrollWidth=390/390/390`.
+- Production readbacks: deployed Journal anchor/title, Pure SVG current/card, canonical work/tableau, raw v038, deployed `works.json`, deployed `catalog-public.json`, and favicon all returned/rendered exactly once.
+- Proofs: `research/qa/proofs/pure-svg-v038-2026-10-28/` and `research/qa/proofs/pure-svg-v038-2026-10-28-production/` (each `qa-summary.json`, three screenshots, README).
 
 ## Publication state
 
-Production browser verification has not yet been run. The work remains **candidate / held**. Independent caption-free perceptual review and provider revision linkage are also unresolved.
+- Artifact commit: `5381aa1659dff8f028aae46327a9f940cb2442be`.
+- Remote `main` matched the artifact commit before the evidence update.
+- Production deployment: `dpl_G8fX6hDzfBzyTbRzsnGszi5Uge9x`; stable alias: https://autopoiesis-nine.vercel.app.
+- Deployed record verification: `/studio/data/works.json` returned exactly one `svg-2026-10-28` record with the title and raw path; `/studio/data/catalog-public.json` returned exactly one matching catalogue record.
+- Rendered Journal verification: `/journal/` contained `journal-svg-2026-10-28` and *The field refuses the pair.*; canonical and raw tableau routes rendered the v038 field.
+- The work remains **candidate / held**. Independent caption-free perceptual review and provider revision linkage between the Vercel deployment and GitHub SHA remain unresolved.
