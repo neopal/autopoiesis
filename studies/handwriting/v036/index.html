@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17120f">
+  <title>MUTINE — The sentence answers from its margins.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=036">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-28"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="phoneme-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v036 / PHONEME ECOLOGY</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="phoneme-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v036</span></nav>
+
+      <figure class="phoneme-work artwork-frame" aria-labelledby="work-title">
+        <div id="phoneme-field" class="phoneme-field" tabindex="0" role="application" aria-label="A typographic phoneme ecology. Move across a fragment to attend to it, then type a phrase and press speak; the phrase is redistributed to an unheeded fragment elsewhere." aria-describedby="interaction-state" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete R Escape">
+          <canvas id="phoneme-canvas" role="img" aria-label="A dark typographic field of fifteen uneven sentence fragments"></canvas>
+          <div class="field-mark" aria-hidden="true"><span>LANGUAGE / AS WEATHER</span><span>HANDWRITING 036</span></div>
+          <div class="field-readout" aria-live="polite"><span data-stage>ecology / quiet</span><span data-memory>0 utterances · 15 fragments</span></div>
+          <form class="phoneme-controls" id="speech-form" aria-label="Speak into the phoneme ecology">
+            <label class="speech-label" for="speech-input">offer a phrase</label>
+            <input id="speech-input" name="phrase" type="text" maxlength="16" autocomplete="off" spellcheck="false" placeholder="murmur">
+            <button id="speak-control" type="submit">speak elsewhere</button>
+            <button id="lift-speech" type="button">lift latest</button>
+            <button id="release-speech" type="button">release field</button>
+          </form>
+          <p class="field-hint">attend to a fragment · type a phrase · speak it elsewhere</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v036-phoneme-ecology</span><span>attention &gt; utterance &gt; redistribution</span></figcaption>
+      </figure>
+
+      <section class="phoneme-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / SOCIAL SYNTAX / v036</p>
+        <h1 id="work-title">The sentence answers<br><i>from its margins.</i></h1>
+        <p class="phoneme-lede">A phrase is not inserted where it is offered. The fragments that have heard least become its new mouth.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">SPEECH IS A DISTRIBUTION RULE</p>
+          <p class="interaction-copy">Move over a fragment to give it attention without changing its form. Then type a phrase and submit it. The phrase is refused at the input and redistributed to the least-heard fragment: one receives a new mouth, one falls quiet, and one carries the chorus. Four utterances remain liftable; later speech inherits the altered sentence.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The field is quiet. No phrase has entered the ecology.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v036</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v035's pressure rack, v034's double register, and v033's material plate. Attention increments a private ledger but never deforms a fragment. A complete utterance is redistributed to the least-heard margin as produced text, absence, and chorus.</dd></div>
+          <div><dt>visitor action</dt><dd>Attend with pointer or arrow keys, type a phrase, and press speak. Enter, Space, the speak control, Delete, R, and Escape remain deterministic equivalents; four utterances stay liftable and later utterances inherit the changed ecology.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if attention changes geometry, if the phrase appears at the input, if the least-heard fragment is not changed, if silence is only colour, if the blind field reads as a generic word cloud, or if later speech forgets.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v036 if caption-free viewing cannot distinguish the phoneme ecology from a type specimen, rack, register, or decorative word cloud, or if its redistribution needs prose to be perceived.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-27/">previous daily work</a><a href="/journal/#journal-typography-2026-10-28">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=036"></script>
+</body>
+</html>
