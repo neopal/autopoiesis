@@ -210,7 +210,7 @@
         "directionConsequence": "Closes Self portrait's forecast / reciprocal-body / attention-orbit sequence and opens material self-observation: code portrays its own production rule by letting resistance decide what geometry exists next."
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, canonical readback, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, canonical readback, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -230,7 +230,26 @@
         "localReadbacks": "local rendered canonical work title/tableau, raw v036 tableau, source works.json record, public catalog record, favicon, and Journal route returned/rendered",
         "localProofPath": "research/qa/proofs/portrait-v036-2026-10-28/",
         "localScreenshotCount": 13,
-        "unresolved": ["production verification", "independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v036/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v036/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/portrait-2026-10-28/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "production pointer drag loaded resistance while geometry stayed exact; release cast three remote material roles; Delete restored the exact pre-cast geometry; ArrowRight plus Enter committed an equivalent keyboard cast; R/Escape released; all three controls measured at least 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the Canvas 2D resistance specimen visible with nine strata and four settled casts while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production works.json and catalog-public.json returned the record; rendered Journal anchor/title, canonical work title/tableau, raw v036 tableau, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/portrait-v036-2026-10-28-production/",
+        "productionScreenshotCount": 13,
+        "productionDeploymentId": "dpl_4mSsq7phK224DyNssbJvbqrVHj9Q",
+        "productionDeploymentUrl": "https://autopoiesis-ng7md1eg6-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "f9c479c5d2b4b79c4bd745580921974e886f9c35",
+        "publicationRemoteSha": "f9c479c5d2b4b79c4bd745580921974e886f9c35",
+        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and caption-off comparison; delete v036 if the blind specimen reads as a generic bar chart or decorative stack, if the probe draws itself, if the contact point is the answer, if material roles are cosmetic, if later casts forget, or if exact lifting fails.",
