@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171313">
+  <title>MUTINE — The stain falls through its own absence.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=040">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-28"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="settling-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v040 / SETTLING ARCHIVE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="settling-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v040</span></nav>
+
+      <figure class="settling-work artwork-frame" aria-labelledby="work-title">
+        <div id="settling-field" class="settling-field" tabindex="0" role="application" aria-label="A suspended archive of pigment fragments. Lift one fragment upward and out of the field; the remaining material settles under the remembered absence." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="settling-readout" aria-live="polite"><span data-stage>stage 01 / 13</span><span data-memory>quiet archive · 0 absences</span></div>
+          <div id="settling-canvas" class="settling-canvas"></div>
+          <div class="settling-controls" aria-label="Brush settling actions">
+            <button type="button" data-gesture="lift">lift a fragment</button>
+            <button type="button" data-gesture="latest">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <p class="settling-hint">lift one fragment upward and out</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v040-settling-archive</span><span>absence &gt; weight &gt; settle</span></figcaption>
+      </figure>
+
+      <section class="settling-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / SETTLING ARCHIVE / v040</p>
+        <h1 id="work-title">The stain falls through<br><i>its own absence.</i></h1>
+        <p class="settling-lede">A fragment can be lifted out, but the empty place does not stay empty. The remaining paint carries the loss as weight and settles into a new arrangement.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">REMOVAL BECOMES GRAVITY</p>
+          <p class="interaction-copy">Press a material fragment, drag upward, and release outside the archive. The press is only a lift preview. A valid upward exit removes that fragment and makes the neighbouring mass settle through the missing support. Enter or “lift a fragment” uses the deterministic lift. Delete lifts the latest absence; Escape, R, or “release archive” restores the quiet arrangement.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The fragments are suspended in their quiet weight.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v040</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Switch from a continuous surface, a layer interval, or a closed contour to a suspended archive of discrete material fragments. Only an upward removal commits; the remaining geometry settles under the missing support.</dd></div>
+          <div><dt>visitor action</dt><dd>Press a fragment, drag upward, and release outside the archive. Preview remains geometrically exact. Enter, Space, and the lift control use a deterministic removal. Delete lifts the latest. Escape or R releases the archive. S downloads a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If a press moves material, if a downward gesture commits, if removal changes only colour or readout, if the remaining fragments do not settle as produced geometry, or if later removals forget the altered arrangement, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v040 if caption-free viewing reads as a generic node field, tile grid, or physics demo, or if the absence is not visibly carried by the settling mass.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-27/">previous daily work</a><a href="/journal/#journal-brush-2026-10-28">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=040"></script>
+</body>
+</html>
