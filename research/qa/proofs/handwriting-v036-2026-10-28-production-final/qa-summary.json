@@ -1,0 +1,95 @@
+{
+  "workId": "typography-2026-10-28",
+  "status": "production verified / candidate held",
+  "baseUrl": "https://autopoiesis-nine.vercel.app",
+  "runner": "headless system Chrome via Playwright",
+  "viewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "modes": [
+    "normal",
+    "reduced-motion"
+  ],
+  "productionViewportRuns": 20,
+  "productionRawViewportRuns": 10,
+  "productionCanonicalViewportRuns": 10,
+  "productionDiagnostics": 0,
+  "productionOverflow": 0,
+  "productionMinTouchTarget": 44,
+  "interaction": {
+    "committed": true,
+    "previewGeometryUnchanged": true,
+    "changedGeometry": true,
+    "remoteChange": true,
+    "liftRestored": true,
+    "keyboardCommitted": true,
+    "releaseQuiet": true
+  },
+  "blind": {
+    "viewport": "390x844",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "canvasVisible": true,
+    "slotCount": 15,
+    "memory": 4,
+    "controls": "none",
+    "readout": "none",
+    "hint": "none",
+    "mark": "none"
+  },
+  "readbacks": {
+    "works": {
+      "status": 200,
+      "hasWork": true,
+      "hasTitle": true,
+      "hasJournal": false
+    },
+    "publicCatalog": {
+      "status": 200,
+      "hasWork": true,
+      "hasTitle": true,
+      "hasJournal": false
+    },
+    "journal": {
+      "status": 200,
+      "hasWork": false,
+      "hasTitle": true,
+      "hasJournal": true
+    },
+    "current": {
+      "status": 200,
+      "hasWork": true,
+      "hasTitle": true,
+      "hasJournal": false
+    },
+    "canonical": {
+      "status": 200,
+      "hasWork": true,
+      "hasTitle": true,
+      "hasJournal": false
+    },
+    "raw": {
+      "status": 200,
+      "hasWork": true,
+      "hasTitle": false,
+      "hasJournal": false
+    },
+    "favicon": {
+      "status": 200,
+      "hasWork": false,
+      "hasTitle": false,
+      "hasJournal": false
+    }
+  },
+  "screenshots": 21,
+  "proofPath": "research/qa/proofs/handwriting-v036-2026-10-28-production-final/",
+  "unresolved": [
+    "independent caption-free perceptual review",
+    "provider revision linkage between deployment and GitHub SHA"
+  ]
+}

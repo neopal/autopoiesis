@@ -97,7 +97,7 @@
         "lineage": "typography-2026-10-27"
       },
       "browserEvidence": {
-        "status": "20/20 local raw and canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -111,7 +111,7 @@
           "normal",
           "reduced-motion"
         ],
-        "localAlias": "http://127.0.0.1:49372",
+        "localAlias": "http://127.0.0.1 (ephemeral port assigned by probe)",
         "localRawPreview": "/studies/handwriting/v036/?preview=1&interaction=1",
         "localBlindPreview": "/studies/handwriting/v036/?preview=1&static=1&blind=1",
         "localCanonicalWork": "/works/typography-2026-10-28/",
@@ -129,7 +129,26 @@
         "unresolved": [
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
-        ]
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v036/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v036/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/typography-2026-10-28/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "production pointer attention and Arrow keys left geometry exact; a complete typed phrase changed three remote Canvas slots; Delete restored the exact baseline; Enter and the speak control committed equivalent deterministic speech; R/Escape released; all three controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept the Canvas 2D phoneme ecology visible with 15 fragments and four settled utterances while hiding readout, controls, hint, and mark; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production rendered Journal anchor/title, Handwriting current/card, canonical work title/tableau, raw v036 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/handwriting-v036-2026-10-28-production-final/",
+        "productionScreenshotCount": 21,
+        "productionDeploymentId": "dpl_Ai3PutXNHA6ogELCT1Y1aQZaKBk5",
+        "productionDeploymentUrl": "https://autopoiesis-lq3oeutbl-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "2cdc1d9a676ef9942b225bcac98b2108a18f96c2",
+        "publicationRemoteSha": "2cdc1d9a676ef9942b225bcac98b2108a18f96c2"
       }
     },
     {
