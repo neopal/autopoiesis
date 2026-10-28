@@ -6,8 +6,9 @@ import { chromium } from 'playwright';
 
 const root = resolve('C:/Users/ASUS/autopoiesis');
 const port = 49376;
-const base = `http://127.0.0.1:${port}`;
-const proofDir = resolve('C:/Users/ASUS/autopoiesis/research/qa/proofs/webgpu-v037-2026-10-28');
+const base = process.env.MUTINE_PROBE_BASE ?? `http://127.0.0.1:${port}`;
+const useLocalServer = !process.env.MUTINE_PROBE_BASE;
+const proofDir = resolve(process.env.MUTINE_PROBE_PROOF_DIR ?? 'C:/Users/ASUS/autopoiesis/research/qa/proofs/webgpu-v037-2026-10-28');
 const viewports = [[320, 568], [390, 844], [768, 1024], [1280, 800], [1920, 1080]];
 const routes = {
   raw: '/studies/webgpu/v037/?preview=1&interaction=1',
@@ -158,7 +159,7 @@ const runReadback = async (browser, route, marker, name, expectedText) => {
 
 const main = async () => {
   await mkdir(proofDir, { recursive: true });
-  await new Promise((resolvePromise) => server.listen(port, '127.0.0.1', resolvePromise));
+  if (useLocalServer) await new Promise((resolvePromise) => server.listen(port, '127.0.0.1', resolvePromise));
   const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
   try {
     const matrix = await runMatrix(browser);
@@ -186,7 +187,7 @@ const main = async () => {
     if (!matrixPassed || !interactionPassed || !blindPassed || !readbacksPassed) process.exitCode = 1;
   } finally {
     await browser.close();
-    server.close();
+    if (useLocalServer) server.close();
   }
 };
 await main();

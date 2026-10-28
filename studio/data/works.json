@@ -68,7 +68,7 @@
         "lineage":"webgpu-2026-10-27"
       },
       "browserEvidence": {
-        "status":"25/25 local browser probe runs passed: 20/20 raw/canonical viewport matrix runs across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes, plus interaction, blind preview, and Journal/current/canonical readbacks; production verification, independent caption-free perceptual review, and provider revision linkage remain pending",
+        "status":"25/25 local and 25/25 production browser probe runs passed: each matrix covered raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes, plus interaction, blind preview, and Journal/current/canonical readbacks; independent caption-free perceptual review and provider revision linkage remain pending",
         "productionReady":false,
         "runner":"headless system Chrome via Playwright",
         "viewports":["320x568","390x844","768x1024","1280x800","1920x1080"],
@@ -88,7 +88,26 @@
         "localReadbacks":"local rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v037 tableau, source works.json record, public catalog record, and favicon returned/rendered",
         "localProofPath":"research/qa/proofs/webgpu-v037-2026-10-28/",
         "localScreenshotCount":25,
-        "unresolved":["production browser verification","independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
+        "productionAlias":"https://autopoiesis-nine.vercel.app",
+        "productionRawPreview":"https://autopoiesis-nine.vercel.app/studies/webgpu/v037/?preview=1&interaction=1",
+        "productionBlindPreview":"https://autopoiesis-nine.vercel.app/studies/webgpu/v037/?preview=1&static=1&blind=1",
+        "productionCanonicalWork":"https://autopoiesis-nine.vercel.app/works/webgpu-2026-10-28/",
+        "productionViewportRuns":20,
+        "productionRawViewportRuns":10,
+        "productionCanonicalViewportRuns":10,
+        "productionDiagnostics":0,
+        "productionOverflow":0,
+        "productionMinTouchTarget":44,
+        "productionInteraction":"production pointer drag preview kept the prism signature exact; a bounded sweep committed one remote material shear; Delete restored the exact baseline; ArrowRight plus Enter committed an equivalent deterministic turn; Escape released; turn/lift/release controls measured at least 44px at 390x844",
+        "productionBlindPreviewEvidence":"production reduced-motion static blind preview at 390x844 kept one p5.js WEBGL sediment prism visible with 14 layers and four settled material shears while hiding readout, controls, status, and prose; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks":"stable production rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v037 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath":"research/qa/proofs/webgpu-v037-2026-10-28-production/",
+        "productionScreenshotCount":25,
+        "productionDeploymentId":"dpl_DyHMBAtw7UvAdG4Dh1ET8f6vWFNh",
+        "productionDeploymentUrl":"https://autopoiesis-7xmixh8rp-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit":"57620745844fb50e4e2c7700696e0ca2aff72f4d",
+        "publicationRemoteSha":"57620745844fb50e4e2c7700696e0ca2aff72f4d",
+        "unresolved":["independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
       }
     },
     {

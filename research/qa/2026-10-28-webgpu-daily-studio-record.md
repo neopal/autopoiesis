@@ -39,6 +39,16 @@
 - Minimum control target: **44px**
 - Proofs: `research/qa/proofs/webgpu-v037-2026-10-28/`
 
+## Production evidence
+
+- Production deployment: **READY** at `https://autopoiesis-7xmixh8rp-lairpa-hotmailfrs-projects.vercel.app`
+- Stable alias: `https://autopoiesis-nine.vercel.app`
+- Production browser matrix: **20/20 passed** across the same five viewports, raw/canonical routes, and normal/reduced-motion modes
+- Production interaction and blind preview: passed; diagnostics **0**, overflow failures **0**, minimum touch target **44px**
+- Production readbacks: deployed `works.json`, public catalog, Journal anchor/title, WebGPU current/card, canonical work, raw v037 tableau, and favicon all returned/rendered
+- Proofs: `research/qa/proofs/webgpu-v037-2026-10-28-production/`
+- Deployment ID: `dpl_DyHMBAtw7UvAdG4Dh1ET8f6vWFNh`
+
 ## Release state
 
-This is an honest `candidate / held`: production verification and independent caption-free perceptual review remain outstanding. The structural and local browser gates passed; the unresolved perceptual doubt is whether the blind object reads as a pressure-bearing material volume rather than a generic 3D stack.
+This is an honest `candidate / held`: local and production structural/browser gates passed, but independent caption-free perceptual review remains outstanding. The unresolved doubt is whether the blind object reads as a pressure-bearing material volume rather than a generic 3D stack. Provider revision linkage between the Vercel deployment and GitHub SHA is also not exposed.
