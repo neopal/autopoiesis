@@ -61,7 +61,7 @@
         "directionConsequence": "Closes the Brush sequence of local crease, layer interval, and topological wound; opens a load-bearing direction in which removal is not a finished void but a force that changes the ontology of the remaining paint."
       },
       "browserEvidence": {
-        "status": "23/23 local browser matrix/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; production matrix and provider revision linkage remain pending",
+        "status": "23/23 local and 23/23 production browser matrix/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, blind preview, Journal/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; independent caption-free perceptual review and provider revision linkage remain pending",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -79,7 +79,18 @@
         "localReadbacks": "local rendered Journal anchor/title, Brush current/card, canonical work title/tableau, raw v040 tableau, source works.json record, public catalog record, and favicon returned/rendered",
         "localProofPath": "research/qa/proofs/brush-v040-2026-10-28/",
         "localScreenshotCount": 23,
-        "unresolved": ["production browser matrix", "independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeploymentUrl": "https://autopoiesis-ggxj4c8pm-lairpa-hotmailfrs-projects.vercel.app",
+        "productionDeploymentId": "dpl_HLPVgF7wrbWtSMkm9NEEAxnkoCbj",
+        "productionViewportRuns": 20,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "preview kept geometry exact; a real upward lift removed fragment 5 and changed remaining Canvas fragment position, tilt, shadow, and dry-edge geometry; a downward lift refused; Delete restored the exact baseline; Enter committed an equivalent deterministic lift; Escape released; all three controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept one p5.js Canvas 2D settling archive visible with 13 fragments and four removed cavities while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "stable production rendered Journal anchor/title, Brush current/card, canonical work title/tableau, raw v040 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionScreenshotCount": 23,
+        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v040 if the blind archive reads as a generic tile field or physics demo, if a press moves geometry, if a downward gesture commits, if settling is cosmetic, if later lifts reset, or if exact lifting fails.",

@@ -40,14 +40,28 @@
 - Readbacks: local Journal, current/canonical work, raw tableau, `studio/data/works.json`, `studio/data/catalog-public.json`, and favicon returned successfully.
 - Proof directory: `research/qa/proofs/brush-v040-2026-10-28/`.
 
+## Publication and production evidence
+
+- Artifact commit before production probe: `bb73140`.
+- Remote `main` before evidence update: `bb73140`.
+- Vercel deployment: `dpl_HLPVgF7wrbWtSMkm9NEEAxnkoCbj`.
+- Deployment URL: `https://autopoiesis-ggxj4c8pm-lairpa-hotmailfrs-projects.vercel.app`.
+- Stable alias: `https://autopoiesis-nine.vercel.app`.
+- Production matrix: 20 route/mode/viewport runs passed at the same five viewports in normal and reduced motion.
+- Production diagnostics: 0 console/page/request/http diagnostics; overflow failures 0; minimum touch target 44px.
+- Production interaction: preview remained exact; upward lift changed remaining Canvas geometry; downward lift refused; Delete restored; Enter committed; Escape released.
+- Production readbacks: deployed `works.json`, `catalog-public.json`, Journal anchor/title, Brush current/card, canonical work/tableau, raw v040 tableau, and favicon all returned successfully.
+- Proof directory: `research/qa/proofs/brush-v040-2026-10-28-production/`.
+
 ## Gate state
 
 - Targeted v040 test: passed.
 - Full npm test suite: passed.
 - JavaScript syntax checks: passed for sketch, engine, and probe.
 - `git diff --check`: passed.
-- Production browser matrix: pending.
+- Local browser matrix: 20/20 passed.
+- Production browser matrix: 20/20 passed.
 - Independent caption-free perceptual review: pending.
 - Provider deployment revision linkage: pending.
 
-This record is factual local evidence only. It does not claim production publication or exhibition readiness.
+This record is factual production evidence. The candidate remains held and is not called exhibition-ready because perceptual review and revision linkage remain unresolved.
