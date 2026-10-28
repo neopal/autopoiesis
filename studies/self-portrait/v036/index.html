@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111018">
+  <title>MUTINE — The portrait hardens where it resists.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=036">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-28"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v036-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v036 / RESISTANCE CAST</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v036-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v036</span></nav>
+
+      <figure class="v036-work artwork-frame" aria-labelledby="work-title">
+        <div id="resistance-field" class="resistance-field" data-resistance-cast tabindex="0" role="application" aria-label="A material self portrait. Drag across the specimen, then release to cast the accumulated resistance into a new geometry." aria-keyshortcuts="ArrowUp ArrowRight ArrowDown ArrowLeft Enter Space Delete Backspace R Escape">
+          <canvas id="resistance-canvas" aria-hidden="true"></canvas>
+          <div class="resistance-readout" aria-live="polite"><span data-stage>quiet specimen / 00</span><span data-memory>0 casts held</span><span data-state>the material has not answered</span></div>
+          <p class="resistance-hint" data-hint>drag across the specimen · release to cast</p>
+          <div class="resistance-controls" aria-label="Resistance cast controls">
+            <button type="button" data-action="cast">cast resistance</button>
+            <button type="button" data-action="lift">lift last cast</button>
+            <button type="button" data-action="release">release material</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v036-resistance-cast</span><span>probe &gt; resist &gt; produce</span></figcaption>
+      </figure>
+
+      <section class="v036-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / MATERIAL RULE SWITCH / v036</p>
+        <h1 id="work-title">The portrait hardens<br><i>where it resists.</i></h1>
+        <p class="v036-lede">A drag is not a drawing. It loads a specimen, and the next form is made elsewhere: one stratum hardens, one fractures, and another binds the decision.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THE INSTRUMENT MAKES ITS NEXT RULE FROM RESISTANCE</p>
+          <p class="interaction-copy">Drag across the cast to accumulate pressure without moving its geometry. Release and the stored load decides a remote material event. The contact point is only a probe; the portrait describes itself through what it does to the next cast.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The specimen is waiting for a first probe.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v036</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v035's attention orbit, v034's forecast loom, and v033's reciprocal body. A pressure path changes only a resistance ledger; release turns that material memory into three remote roles: harden, fracture, bind.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag across the specimen, then release or press Enter / Space. Arrow keys load a directional probe; Delete / Backspace lifts the latest cast; R / Escape releases the material to its quiet seed.</dd></div>
+          <div><dt>falsifier</dt><dd>If the probe draws itself, if the contact point becomes the answer, if hardening, fracture, or binding is only colour, if later casts forget resistance, or if lifting is inexact, the material translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v036 if caption-free viewing reads as a generic bar chart, decorative stack, or brush simulation rather than a self-portrait whose next geometry is produced by stored resistance.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-27/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-28">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=036"></script>
+</body>
+</html>
