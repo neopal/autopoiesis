@@ -14,7 +14,7 @@ function diagnosticsFor(page) {
   const diagnostics = { console: [], pageErrors: [], failedRequests: [], badResponses: [] };
   page.on('console', (message) => { if (diagnostics.console.length < 12) diagnostics.console.push(`${message.type()}: ${message.text()}`); });
   page.on('pageerror', (error) => { if (diagnostics.pageErrors.length < 12) diagnostics.pageErrors.push(String(error)); });
-  page.on('requestfailed', (request) => { if (diagnostics.failedRequests.length < 12) diagnostics.failedRequests.push(`${request.method()} ${request.url()} ${request.failure()?.errorText ?? ''}`); });
+  page.on('requestfailed', (request) => { const failure = request.failure()?.errorText ?? ''; if (failure !== 'net::ERR_ABORTED' && diagnostics.failedRequests.length < 12) diagnostics.failedRequests.push(`${request.method()} ${request.url()} ${failure}`); });
   page.on('response', (response) => { if (response.status() >= 400 && diagnostics.badResponses.length < 12) diagnostics.badResponses.push(`${response.status()} ${response.url()}`); });
   return diagnostics;
 }
@@ -32,7 +32,10 @@ async function measure(context, route, url, width, height, reduced) {
   await page.emulateMedia({ reducedMotion: reduced ? 'reduce' : 'no-preference' });
   await page.goto(`${baseUrl}${url}`, { waitUntil: 'domcontentloaded', timeout: 30000 });
   if (route === 'raw') await waitReady(page);
-  else await page.waitForSelector('[data-catalog-work-detail] iframe');
+  else {
+    await page.waitForSelector('[data-catalog-work-detail] iframe');
+    await page.waitForFunction(() => document.querySelector('[data-catalog-work-detail] iframe')?.src.includes('/studies/naive-art/v038/'), null, { timeout: 15000 });
+  }
   const frame = route === 'canonical' ? page.frames().find((candidate) => candidate.url().includes('/studies/naive-art/v038/')) : page.mainFrame();
   if (route === 'canonical') await frame.waitForFunction(() => window._p5Ready === true, null, { timeout: 15000 });
   const metrics = await page.evaluate(() => ({
@@ -122,7 +125,10 @@ async function readbacks(context) {
   ]) {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto(`${baseUrl}${url}`, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    if (name === 'canonical') await page.waitForSelector('[data-catalog-work-detail] iframe');
+    if (name === 'canonical') {
+      await page.waitForSelector('[data-catalog-work-detail] iframe');
+      await page.waitForFunction(() => document.querySelector('[data-catalog-work-detail] iframe')?.src.includes('/studies/naive-art/v038/'), null, { timeout: 15000 });
+    }
     else if (name === 'raw') await waitReady(page);
     else await page.waitForSelector(selector, { timeout: 15000 });
     if (name === 'canonical') {

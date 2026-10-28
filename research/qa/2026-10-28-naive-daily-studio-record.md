@@ -34,20 +34,24 @@ status: candidate / held
 - `tests/naive-v038.test.mjs`
 - `scripts/naive-v038-probe.mjs`
 - `research/qa/proofs/naive-v038-2026-10-28/`
+- `research/qa/proofs/naive-v038-2026-10-28-production-final/`
 
 ## Verification
 
 - Targeted tests: **3/3 passed**.
-- `node --check studies/naive-art/v038/engine.mjs`: passed.
-- `node --check studies/naive-art/v038/sketch.js`: passed.
+- Full suite: **1155/1155 passed**.
+- `node --check` on the engine, sketch, and browser probe: passed.
 - `git diff --check`: passed.
 - Local headless browser matrix: **20/20** raw/canonical runs passed across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced motion.
-- Local diagnostics: **0** console/page-error/request-failure/bad-response events.
-- Local overflow: **0**; minimum control target: **44px**.
-- Interaction: deterministic look changed actual remote scene geometry; Delete restored exact scene; Enter committed; `R` released.
-- Blind preview: one Canvas 2D field visible; four retained absences; readout/controls/hint hidden; `390/390/390` width evidence.
-- Local readbacks: Journal, Naive current, canonical work, raw tableau, source register, public catalog, and favicon verified.
+- Production headless browser matrix: **20/20** raw/canonical runs passed across the same five viewports and two motion modes.
+- Diagnostics: **0 local / 0 production** console, page-error, failed-request, or bad-response events.
+- Overflow: **0 local / 0 production**; minimum control target: **44px**.
+- Interaction: deterministic look changed actual remote scene geometry; Delete restored exact scene; Enter committed; `R` released in both browser environments.
+- Blind preview: one Canvas 2D field visible; four retained absences; readout/controls/hint hidden; `390/390/390` width evidence in both environments.
+- Production readbacks: Journal anchor, Naive current, canonical work, raw tableau, source register, public catalog, and favicon verified at `https://autopoiesis-nine.vercel.app/`.
+- Published record: exactly one `naive-2026-10-28` record with the expected title, raw path, and `candidate / held` status.
+- Deployment: `dpl_BzT4DSkcykL9UDwxP2xkh8xu74oB`, stable alias `https://autopoiesis-nine.vercel.app`, deployment URL `https://autopoiesis-m22mis4nv-lairpa-hotmailfrs-projects.vercel.app`.
 
 ## Unresolved doubt
 
-Production browser verification and independent caption-free perceptual review remain pending. The work is **candidate / held**, not exhibition-ready. Provider revision linkage remains unverified until a deployment is observed.
+Independent caption-free perceptual review remains pending: whether the blind field reads as a cavity-bearing witness field rather than a generic crowd, node constellation, or diagram. Provider revision linkage remains unverified because the Vercel result did not expose an explicit GitHub revision. The work is **candidate / held**, not exhibition-ready.
