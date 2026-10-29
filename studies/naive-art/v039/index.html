@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b0c0b">
+  <title>MUTINE — The model counts the quiet cells.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=039">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js" onload="p5.disableFriendlyErrors = true"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-29"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="miscount-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v039 / CELLULAR MISCOUNT</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="miscount-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v039</span></nav>
+
+      <section class="miscount-surface" aria-label="Naive cellular miscount tableau">
+        <div class="miscount-column">
+          <figure class="miscount-work artwork-frame">
+            <div class="miscount-field" id="miscount-field" tabindex="0" role="application" aria-label="A low-resolution inference plate. Mark one quiet cell, then commit the model's miscount with Enter or the control." aria-keyshortcuts="Enter Space Delete Escape R">
+              <div class="miscount-canvas-mount" id="miscount-canvas-mount"></div>
+              <div class="miscount-readout" aria-live="polite"><span data-stage>miscount 00 / 04</span><span data-memory>0 retained</span><span data-status>mark one quiet cell, then commit</span></div>
+              <div class="miscount-pending" data-pending aria-hidden="true"></div>
+            </div>
+            <div class="miscount-controls" aria-label="Cellular miscount actions">
+              <button type="button" data-action="miscount">miscount the quiet cell</button>
+              <button type="button" data-action="lift">lift last error</button>
+              <button type="button" data-action="release">release the plate</button>
+            </div>
+            <p class="miscount-hint">mark one cell · commit the reading · the wrong patch appears elsewhere</p>
+            <figcaption><span>seed | mutine-naive-v039</span><span>mark &gt; count &gt; misplace</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A low-resolution plate holds a crooked diagonal of weighted cells. It is not a chart or a map; the gaps are the image's uncertain inventory.</p></div>
+          <div><span>critique</span><p>The marked cell must remain quiet. The committed reading produces a wrong patch, a false void, and a remembering edge in other cells, not a cursor trace.</p></div>
+          <div><span>progression</span><p>v039 abandons v038's cut-outs, v037's three-mark print, and v036's page turn for a cellular raster grammar. The visitor no longer leaves a place; they ask a single cell to be counted.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V039 / DAILY WORK</p><h1 id="work-title">The model counts<br><i>the quiet cells.</i></h1></div>
+        <p class="work-premise">A single mark becomes evidence, but the picture spends that evidence in the wrong patch.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v039 translates situated attention into a low-resolution inference error. Marking a cell is geometry-neutral; committing the reading leaves that cell untouched while a remote patch swells, a false void opens, and a third edge stores the cadence. Four cellular errors compound and remain liftable.</p></section>
+      <p class="work-loop">mark a cell &rarr; ask the model &rarr; miscount elsewhere &rarr; remember the wrong plate</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-28/">previous daily work</a><a href="/journal/#journal-naive-2026-10-29">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=039"></script>
+</body>
+</html>

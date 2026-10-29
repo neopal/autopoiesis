@@ -1,0 +1,98 @@
+:root {
+  --ground: #1b0c0b;
+  --ground-2: #2a1310;
+  --ink: #f1e6cf;
+  --muted: #b9a994;
+  --paper: #d4c09a;
+  --paper-2: #9f8b67;
+  --line: rgba(241, 230, 207, .24);
+  --coral: #ff694d;
+  --blue: #83a9c7;
+  --ochre: #e0ae5e;
+  --black: #171115;
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 84% 14%, rgba(255, 105, 77, .17), transparent 24rem),
+    radial-gradient(circle at 13% 82%, rgba(131, 169, 199, .12), transparent 26rem),
+    repeating-linear-gradient(97deg, rgba(241, 230, 207, .035) 0 1px, transparent 1px 23px),
+    linear-gradient(141deg, var(--ground), var(--ground-2) 57%, #100809);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.miscount-shell { min-height: 100vh; padding: 0 3vw; }
+.miscount-main { max-width: 1500px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: var(--ink); }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(241, 230, 207, .62); }
+.studio-path a { color: var(--ink); }
+.miscount-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, .3fr);
+  gap: clamp(1rem, 3vw, 3.6rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.miscount-work { margin: 0; padding: clamp(.45rem, 1.2vw, 1.15rem); color: var(--black); background: rgba(222, 199, 156, .9); box-shadow: 1.2rem 2rem 4rem rgba(0,0,0,.3); }
+.miscount-field { position: relative; isolation: isolate; container-type: inline-size; outline: none; aspect-ratio: 1.38 / .86; min-height: 330px; overflow: hidden; background: var(--paper); cursor: cell; touch-action: none; }
+.miscount-field:focus-visible { box-shadow: 0 0 0 4px var(--coral); }
+.miscount-canvas-mount, .miscount-canvas-mount canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.miscount-canvas-mount canvas { outline: none; }
+.miscount-readout { position: absolute; z-index: 30; left: 1.05rem; top: .86rem; display: flex; flex-wrap: wrap; gap: .45rem 1rem; color: rgba(241,230,207,.9); font-size: .67rem; pointer-events: none; mix-blend-mode: multiply; }
+.miscount-readout span::before { content: '— '; color: var(--coral); }
+.miscount-pending { position: absolute; inset: 0; z-index: 25; pointer-events: none; }
+.pending-mark { position: absolute; width: 14px; height: 14px; border: 2px solid var(--coral); transform: translate(-50%,-50%) rotate(45deg); box-shadow: 0 0 0 5px rgba(255,105,77,.16); }
+.miscount-controls { position: relative; z-index: 40; display: flex; flex-wrap: wrap; gap: .45rem; padding: .75rem .15rem .05rem; }
+.miscount-controls button { min-width: 44px; min-height: 44px; border: 1px solid rgba(27,12,11,.7); border-radius: 0; padding: .6rem .8rem; color: var(--black); background: transparent; font: 600 .7rem/1.1 ui-monospace, monospace; cursor: pointer; }
+.miscount-controls button:hover, .miscount-controls button:focus-visible { color: var(--paper); background: var(--black); outline: none; }
+.miscount-hint { margin: .5rem 0 .1rem; color: rgba(27,12,11,.75); font-size: .63rem; line-height: 1.4; }
+.miscount-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .65rem .1rem 0; color: rgba(27,12,11,.68); font-size: .64rem; line-height: 1.3; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: .5rem; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .65rem; }
+.work-annotations span, .studio-kicker { color: var(--coral); font: 600 .66rem/1.2 ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.work-annotations p { margin: .5rem 0 0; color: rgba(241,230,207,.77); font: .92rem/1.55 system-ui, sans-serif; }
+.work-opening { border-top-color: var(--line); }
+.work-opening h1 { color: var(--ink); }
+.work-premise { color: rgba(241,230,207,.73); }
+.work-note { border-color: var(--line); color: rgba(241,230,207,.73); }
+.work-loop { color: var(--coral); }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .miscount-work figcaption { display: none; }
+html.preview-mode .miscount-main { max-width: 100vw; padding: 0; }
+html.preview-mode .miscount-surface { display: block; margin: 0; }
+html.preview-mode .miscount-work { padding: 0; box-shadow: none; }
+html.blind-mode .miscount-readout,
+html.blind-mode .miscount-controls,
+html.blind-mode .miscount-hint,
+html.blind-mode .miscount-pending { display: none; }
+html.blind-mode .miscount-field { cursor: default; }
+
+@media (max-width: 860px) {
+  .miscount-shell { padding: 0 1rem; }
+  .miscount-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
+}
+@media (max-width: 560px) {
+  .miscount-shell { padding: 0 .55rem; }
+  .miscount-surface { margin-top: .5rem; }
+  .miscount-work { padding: .35rem; }
+  .miscount-field { min-height: 0; aspect-ratio: .88 / 1; }
+  .miscount-readout { left: .6rem; top: .55rem; font-size: .57rem; }
+  .miscount-controls { gap: .3rem; }
+  .miscount-controls > button { flex: 1 1 8rem; padding: .55rem .5rem; }
+  .miscount-hint { font-size: .57rem; }
+  .miscount-work figcaption { display: grid; gap: .25rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: .8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .miscount-controls button { transition: none; }
+}

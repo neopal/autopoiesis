@@ -1,74 +1,63 @@
-# MUTINE daily studio record — Pure SVG — 2026-10-29
+# Mutine daily studio record — naive / 2026-10-29
 
-## Target
+## Work
 
-- Current: `svg` / Pure SVG
-- Daily work: `svg-2026-10-29`
-- Title: *The contour refuses to close.*
-- Status: `candidate / held`
-- Canonical route: `/works/svg-2026-10-29/`
-- Raw tableau: `/studies/pure-svg/v039/`
-- Journal anchor: `#journal-svg-2026-10-29`
+- **Current:** `naive`
+- **Daily work:** `naive-2026-10-29`
+- **Title:** *The model counts the quiet cells.*
+- **Version:** `v039`
+- **Status:** `candidate / held`
+- **Lifecycle:** `active`
+- **Raw tableau:** `/studies/naive-art/v039/`
+- **Canonical work:** `/works/naive-2026-10-29/`
+- **Journal anchor:** `journal-naive-2026-10-29`
 
-## Artistic direction
+## Direction and cultural translation
 
-- Previous three real Pure SVG records: v036 open filament organism, v037 cut-cell vacancy field, v038 split-margin counterfold field.
-- Repeated gesture refused: a visitor offers/tours a local relation and a population of separate SVG forms answers elsewhere through remote role assignment.
-- Primary rupture: **change the representation and encounter**. v039 replaces the distributed population with one even-odd compound SVG path and replaces point/pair/tour interaction with a sampled turned closure attempt.
-- Changed rule: a straight offer is flat and refused; a bounded sweep with a real turn regenerates the one contour with a new winding and gap, while the temporary gesture disappears.
-- Visible consequence: the blind view is one asymmetrical singular contour with a deep interior absence. Release changes the actual `d` of that one path, not merely colour/readout; four changes compound and Delete lifts the latest exactly.
-- Falsifier: delete if the blind object reads as a generic logo/ring, if a straight sweep commits, if the trace survives, if the gap change is cosmetic, if later turns reset, or if exact lifting fails.
-- Deletion condition: do not promote unless caption-free review distinguishes the singular-contour grammar from v036–v038 and the turned closure reads as a causal event rather than a drag affordance.
+The last three naive records repeated a witness/absence grammar: v038 used witness cut-outs, v037 used a three-mark pressure print, and v036 used false browser folds. v039 makes a structural rupture in representation and encounter: one low-resolution 26×18 p5.js Canvas 2D raster plate replaces cut-outs, stamps, and page folds; a pointer mark becomes a pending reading and only a discrete commit can mutate the plate.
 
-## Cultural translation
+- **Changed rule:** marking a cell is geometrically neutral. Commit spends that evidence elsewhere: a remote patch swells to the wrong value, a false void opens, and a neighbouring edge remembers the cadence.
+- **Visible consequence:** the marked cell remains exact while remote cells change actual value, weight, offset, notch, and role. Four miscounts compound in one connected weighted plate.
+- **Reference:** [little-critters](https://github.com/GordenSun/little-critters)
+- **Observed mechanism:** situated code-drawn agents turn proximity into reciprocal attention; a visitor enters a local social field and the field answers without a dashboard.
+- **Mutine translation:** refuse animals, characters, eyes, paper scenes, head-turning, source palette, source composition, source code, examples, and API surface. Translate reciprocal attention into collective miscount: a marked cell is treated as evidence, but the raster spends that evidence in a remote wrong patch and a false void.
+- **Anti-copy:** no source characters, assets, palette, composition, code, examples, API names, or surface vocabulary are reproduced.
+- **Falsifier:** delete if the marked cell mutates, if the selected cell answers directly, if remote roles are only colour/readout, if the blind plate reads as a generic chart or cellular automaton, if later errors reset, or if exact lifting fails.
+- **Deletion condition:** delete v039 if caption-free viewing cannot distinguish the cellular plate from v036–v038 or if the error is not materially produced in the cell geometry.
 
-- Reference: [p5.brush](https://github.com/acamposuribe/p5.brush)
-- Observed mechanism: pressure, direction, density, and fields participate in producing geometry rather than styling a finished mark.
-- Mutine translation: refuse brush appearance and API vocabulary; directional tension is stored as a turned sweep that regenerates one compound SVG contour with a new winding and gap.
-- Anti-copy statement: no brushes, watercolor, hatching, grain, source palette, source composition, source code, examples, API names, or surface vocabulary were reused.
-- Direction consequence: closes Pure SVG's proximity-tour / open-filament / counterfold family and opens singular-contour memory.
+## Artifact files
 
-## Artifact and files
+- `studies/naive-art/v039/index.html`
+- `studies/naive-art/v039/engine.mjs`
+- `studies/naive-art/v039/sketch.js`
+- `studies/naive-art/v039/style.css`
+- `studies/naive-art/v039/README.md`
+- `studies/naive-art/v039/metrics.json`
+- `studies/naive-art/v039/critiques.json`
+- `works/naive-2026-10-29/index.html`
+- `tests/naive-v039.test.mjs`
+- `scripts/naive-v039-probe.mjs`
+- `studio/data/works.json` and regenerated `studio/data/catalog-public.json`
 
-- `studies/pure-svg/v039/index.html`
-- `studies/pure-svg/v039/engine.mjs`
-- `studies/pure-svg/v039/sketch.js`
-- `studies/pure-svg/v039/style.css`
-- `studies/pure-svg/v039/metrics.json`
-- `studies/pure-svg/v039/critiques.json`
-- `studies/pure-svg/v039/README.md`
-- `works/svg-2026-10-29/index.html`
-- `studio/data/works.json`
-- `studio/data/catalog-public.json`
-- `tests/pure-svg-v039.test.mjs`
-- `tests/catalog-architecture.test.mjs`
-- `tests/daily-catalog.test.mjs`
-- `scripts/pure-svg-v039-probe.mjs`
-- Proofs: `research/qa/proofs/pure-svg-v039-2026-10-29/` and `research/qa/proofs/pure-svg-v039-2026-10-29-production/`
+## Verification observed locally
 
-## Verification
+- Targeted test `node --test tests/naive-v039.test.mjs`: **passed**.
+- Full suite `npm test`: **1181 passed, 0 failed**.
+- Changed JavaScript `node --check`: **passed** for `engine.mjs`, `sketch.js`, `naive-v039-probe.mjs`, `naive-v039.test.mjs`, and `daily-catalog.test.mjs`.
+- JSON parse: **passed** for the active registers and v039 metrics/critiques.
+- `git diff --check`: **passed**; Git emitted only existing LF-to-CRLF warnings.
+- Local headless browser matrix: **20/20 runs passed** across raw and canonical routes at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, with normal and reduced motion.
+- Local browser diagnostics: **0** console errors, page errors, failed requests, or bad responses.
+- Local overflow failures: **0**; `scrollWidth ≤ viewport width` on all parent routes and frame documents.
+- Interaction evidence: marking remained geometry-neutral; commit changed remote geometry; marked cell stayed exact; `Delete` restored the baseline; `Enter` committed; `R` released; controls were at least 44px high.
+- Blind settled evidence: one visible Canvas 2D tableau; four retained miscounts; 15 changed cells; editorial readout, controls, and hint hidden; no horizontal overflow.
+- Local route readbacks: Journal anchor, current route, canonical work, raw tableau, registry record, public catalog record, and favicon all returned successfully.
+- Screenshots and machine-readable evidence: `research/qa/proofs/naive-v039-2026-10-29/`.
 
-- TDD RED observed: initial v039 test failed with the expected missing `engine.mjs` module; turned-path test then failed with the expected incomplete-sweep behavior; memory test failed before the timeline was implemented.
-- Targeted tests: **5/5 passed** (`node --test tests/pure-svg-v039.test.mjs`).
-- Full suite: **1170/1170 passed** (`npm test`).
-- JavaScript syntax: `engine.mjs`, `sketch.js`, and the probe passed `node --check`.
-- `git diff --check`: passed.
-- Local headless browser matrix: **20/20** raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced motion.
-- Production headless browser matrix: **20/20** raw/canonical runs passed at the same five viewports and two motion modes.
-- Local and production diagnostics: **0** console/page-error/failed-request/bad-response entries.
-- Local and production overflow: **0**; minimum control target: **44px**.
-- Pointer: turned sweep changed one compound SVG path only on release; temporary trace disappeared; Delete restored exact baseline; flat three-point sweep remained exact and was refused.
-- Keyboard: Enter committed the deterministic turn; `R` released to quiet; controls exposed equivalent paths.
-- Blind reduced-motion preview: one SVG contour, four settled turns, readout/controls/annotations hidden, `innerWidth/clientWidth/scrollWidth = 390/390/390`.
-- Deployed readbacks: stable alias returned the record in `works.json` and `catalog-public.json`; Journal anchor/title, Pure SVG current/card, canonical work/tableau, raw tableau, and favicon returned/rendered with HTTP 200.
+## Publication state
 
-## Publication
+Not yet published at the time of this record. Git commit, GitHub `main`, Vercel deployment, stable-alias readback, and deployed Journal verification remain pending. The candidate must remain **held** pending independent caption-free perceptual review and provider revision linkage even if the technical publication gates pass.
 
-- Production deployment: `https://autopoiesis-7sq3kx2su-lairpa-hotmailfrs-projects.vercel.app`
-- Stable alias: `https://autopoiesis-nine.vercel.app`
-- Deployment ID: `dpl_4Vxw7MUR4muYQPwEzGKRbdoF87yq`
-- Provider revision linkage: not exposed by the available deployment readback.
+## Unresolved doubt
 
-## Critique and status
-
-Accepted structural critique: the new work materially changes representation, composition, viewer task, temporal state, and produced SVG medium relative to the last three Pure SVG records. The unresolved doubt is perceptual: a blind viewer may still read the singular contour as a polished logo, ring, or emblem rather than a remembered failed closure. The work therefore remains **candidate / held**, not exhibition-ready.
+The cellular raster is structurally new and its causal mutation is observed in a local browser, but independent caption-free perceptual review has not established that the blind first view reads as a materially distinct naive-art work rather than a sophisticated chart or cellular automaton. No promotion claim is made.

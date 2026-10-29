@@ -353,6 +353,74 @@
       }
     },
     {
+      "id": "naive-2026-10-29",
+      "currentId": "naive",
+      "date": "2026-10-29",
+      "title": "The model counts the quiet cells.",
+      "rawPath": "/studies/naive-art/v039/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-naive-2026-10-29",
+        "note": "v039 leaves v038's witness cut-outs, v037's pressure misprint, and v036's false accordion. A 26 by 18 low-resolution plate now treats one marked cell as collective evidence: the marked cell stays quiet while a remote patch swells, a false void opens, and a neighbouring edge remembers. Four cellular miscounts compound in the raster."
+      },
+      "critiques": [
+        {"persona":"Plate-form critic","argument":"The 26 by 18 cells must read as one weighted raster plate before they read as a chart. The diagonal mass, irregular gaps, offset blocks, and uneven rhythm must carry the composition without a visible spreadsheet grid."},
+        {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, annotations, and prose hidden, the first view must leave v038's cut-outs, v037's pressure print, and v036's page. It should read as a new low-resolution image grammar, not a chart, automaton, or tile UI."},
+        {"persona":"Encounter critic","argument":"The visitor must mark one cell and then commit a reading. Marking, pointer movement, and a shallow confidence must remain geometry-neutral; Enter, Space, touch, and the action control need equivalent meaningful paths."},
+        {"persona":"Causal critic","argument":"Commit must change actual remote cell geometry: the marked cell stays exact, a wrong patch swells, a false void opens, and a remembering edge changes. Readout, focus, and colour cannot substitute for the produced raster."},
+        {"persona":"Non-locality critic","argument":"The answer must be elsewhere in the plate. The viewer should be able to locate the wrong patch and false void away from the cell that was marked."},
+        {"persona":"Memory critic","argument":"Four miscounts must compound in one raster rule. Later commits must inherit the changed plate, Delete must reconstruct the exact preceding cells, and release must restore the quiet seed."},
+        {"persona":"Medium critic","argument":"p5.js Canvas 2D cell geometry is the produced medium, not a screenshot, CSS mosaic, or explanatory diagram. Values, offsets, notches, and false voids must come from deterministic replay state."},
+        {"persona":"Cultural critic","argument":"little-critters is translated from situated reciprocal attention into collective miscount. No animals, eyes, characters, paper scene, head-turning gesture, source palette, source composition, source code, examples, API, or surface vocabulary is reproduced."},
+        {"persona":"Cynic","argument":"Delete v039 if the blind raster reads as a generic chart or cellular automaton, if marking mutates the plate, if the selected cell answers, if remote roles are cosmetic, if later reads forget, or if exact lifting fails."}
+      ],
+      "metrics": {
+        "id": "naive-art-v039-cellular-miscount",
+        "visitorInput": true,
+        "seed": "0x4e413339",
+        "cols": 26,
+        "rows": 18,
+        "cellCount": 468,
+        "memoryWindow": 4,
+        "minimumConfidence": 0.22,
+        "maximumConfidence": 0.92,
+        "settledStage": 4,
+        "primitiveBudget": 468,
+        "renderer": "deterministic p5.js Canvas 2D low-resolution inference plate",
+        "grammar": "cellular-miscount",
+        "replay": true,
+        "memoryRule": "a marked cell stays geometrically quiet; commit makes a remote patch swell, a false void open, a neighbouring edge remember, and four errors compound",
+        "interactionRule": "pointer or touch marks one cell without mutation; Enter, Space, and the miscount control commit; Delete lifts latest; Escape or R releases",
+        "representationRupture": "cut-out field, pressure stamps, and browser folds -> one low-resolution p5.js cellular raster plate with weighted cells",
+        "compositionRupture": "off-axis aperture, skewed stamp board, and crooked page -> a dense connected diagonal plate whose uncertainty is carried by gaps and weighted cells",
+        "encounterRupture": "hold-and-leave, three-mark chord, and page turn -> mark one cell, then make a discrete keyboard/control commitment",
+        "temporalRupture": "departure absence, pressure misallocation, and false pagination -> generation-like miscount memory that changes the cell rule and persists in four settled stages",
+        "mediumRupture": "p5.js Canvas 2D cut-outs, p5.js raster stamps, and DOM/CSS folds -> p5.js 1.11.3 Canvas 2D cellular raster drawn from replayable state",
+        "changedRule": "A marked cell is geometry-neutral. Commit treats it as evidence but spends that evidence elsewhere: a remote patch swells, a false void opens, and a neighbouring edge remembers.",
+        "visibleConsequence": "The blind view is one low-resolution weighted raster plate. A valid mark-and-commit leaves the marked cell exact while remote cells change actual value, weight, offset, notch, and role; four miscounts persist.",
+        "falsifier": "Delete if marking mutates geometry, if the selected cell is the answer, if remote roles are cosmetic, if the blind plate reads as a generic chart or automaton, if later commits reset, or if exact lifting fails.",
+        "deletionCondition": "Delete v039 if caption-free viewing cannot distinguish the cellular plate from v036-v038 or if the miscount is not visibly produced in the raster geometry.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "little-critters"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents turn proximity into reciprocal attention; a visitor enters a local social field and the field answers without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper scenes, head-turning, source palette, source composition, source code, examples, and API surface. Translate local attention into a cellular inference rule: a marked cell is treated as evidence, but the collective plate spends that evidence in a remote wrong patch and a false void.",
+        "visibleConsequence": "The marked cell stays geometrically quiet while a remote patch changes actual cell value, weight, offset, and notch; another cell becomes a false void and a neighbouring edge stores the cadence. Four errors persist in one raster plate.",
+        "falsifier": "If marking changes geometry, if the selected cell answers directly, if the wrong patch or void exists only in colour/readout, if the plate reads as a generic chart or automaton, if later errors reset, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, head-turning image, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Naive's witness-absence / pressure-misprint / false-accordion sequence and opens cellular miscount: situated attention becomes a low-resolution collective inference rule that can spend local evidence elsewhere."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v039 if the blind plate reads as a generic chart or cellular automaton, if marking mutates geometry, if the selected cell answers, if remote roles are cosmetic, if later reads reset, or if exact lifting fails.",
+        "lineage": "naive-2026-10-28"
+      }
+    },
+    {
       "id": "webgpu-2026-10-28",
       "currentId": "webgpu",
       "date": "2026-10-28",
