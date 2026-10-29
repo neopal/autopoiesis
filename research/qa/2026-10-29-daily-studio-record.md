@@ -56,8 +56,19 @@ The last three naive records repeated a witness/absence grammar: v038 used witne
 
 ## Publication state
 
-Not yet published at the time of this record. Git commit, GitHub `main`, Vercel deployment, stable-alias readback, and deployed Journal verification remain pending. The candidate must remain **held** pending independent caption-free perceptual review and provider revision linkage even if the technical publication gates pass.
+- **Artifact commit deployed:** `0d4ead7d9df831b35675b1009d61d202ca5abbda`
+- **GitHub `main` readback:** matched the artifact commit before deployment.
+- **Vercel deployment:** `dpl_FHkpKqE7ciJozNr3JN6KMTZmvGWh`
+- **Deployment URL:** https://autopoiesis-99kk832kn-lairpa-hotmailfrs-projects.vercel.app
+- **Stable production alias:** https://autopoiesis-nine.vercel.app
+- **Production browser matrix:** **20/20 runs passed** across raw and canonical routes at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, with normal and reduced motion.
+- **Production diagnostics:** **0** console errors, page errors, failed requests, or bad responses.
+- **Production overflow failures:** **0**; `scrollWidth ≤ viewport width` on all parent routes and frame documents.
+- **Deployed readback:** `/studio/data/works.json` returned HTTP 200 with exactly one `naive-2026-10-29` record and raw path `/studies/naive-art/v039/`; `/studio/data/catalog-public.json` returned HTTP 200 with exactly one matching public record; `/journal/` exposed `journal-naive-2026-10-29`; `/works/naive-2026-10-29/` and the raw tableau loaded; `/studio/favicon.svg` returned HTTP 200.
+- **Production evidence:** `research/qa/proofs/naive-v039-2026-10-29-production/`.
+
+The candidate remains **held** pending independent caption-free perceptual review and provider revision linkage. Technical publication is verified; exhibition readiness is not claimed.
 
 ## Unresolved doubt
 
-The cellular raster is structurally new and its causal mutation is observed in a local browser, but independent caption-free perceptual review has not established that the blind first view reads as a materially distinct naive-art work rather than a sophisticated chart or cellular automaton. No promotion claim is made.
+The cellular raster is structurally new and its causal mutation is observed locally and on the stable production alias, but independent caption-free perceptual review has not established that the blind first view reads as a materially distinct naive-art work rather than a sophisticated chart or cellular automaton. No promotion claim is made.
