@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081318">
+  <meta name="description" content="A signal lattice that archives a visitor's attention as a remote consensus rather than a local mark.">
+  <title>MUTINE — The archive wakes after the room empties.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=038">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-29"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="signal-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v038 / signal lattice</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="signal-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v038</span></nav>
+      <section class="signal-work" aria-label="WebGPU daily work">
+        <figure class="signal-frame artwork-frame">
+          <canvas id="signal-field" role="img" aria-label="A dark computational lattice of small cells holding four remote signal memories"></canvas>
+          <div class="signal-readout" role="status" aria-live="polite"><span data-stage>cycle 01 / 05</span><span data-memory>0 signals</span><span data-renderer>P5.JS / CANVAS 2D / SIGNAL LATTICE</span></div>
+          <div class="signal-status" data-status>move near a cell, then release one signal</div>
+          <div class="signal-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="broadcast">release one signal</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">clear archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V038 / DAILY WORK</span><span>attend → release → remote consensus</span></figcaption>
+        </figure>
+        <aside class="signal-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The prism, vault, ribbon, and orbit are gone. A low-resolution signal lattice is rendered as a flat computational plate: cells carry phase, load, gap, and memory.</p></div>
+          <div><span>changed rule</span><p>Attention is a probe, not a mark. The hovered place stays quiet; releasing one signal runs a synchronous consensus step whose strongest change appears in a remote basin.</p></div>
+          <div><span>progression</span><p>Tap or touch the plate to arm a probe. The release commits the archive. Enter or the signal control makes the same deterministic event; Delete lifts one memory and Escape clears the archive.</p></div>
+        </aside>
+      </section>
+      <section class="signal-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V038 / DAILY WORK</p><h1 id="work-title">The archive wakes<br><i>after the room empties.</i></h1></div>
+        <p class="signal-premise">A collective computation stores attention in the cells that were never touched.</p>
+      </section>
+      <section class="signal-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test asks whether a discrete temporal plate can replace the recent object grammars: probe and aim remain view-only, a release runs remote consensus, and four responses remain liftable. Promotion depends on whether the blind plate reads as a lived computational surface rather than a chart or generic cellular automaton.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>attend → relay → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=038a"></script>
+</body>
+</html>
