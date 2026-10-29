@@ -49,8 +49,25 @@
 - Public catalog generation: **passed** (`node scripts/build-public-catalog.mjs`).
 - `git diff --check`: **passed**; Git emitted only existing LF-to-CRLF warnings.
 
+## Production evidence
+
+- Deployment: `https://autopoiesis-hlrlacp69-lairpa-hotmailfrs-projects.vercel.app`.
+- Stable alias: `https://autopoiesis-nine.vercel.app`.
+- Deployment ID: `dpl_29p94XsdcgEVVgoWcHhWN96HbHpJ`.
+- Production matrix: **20/20** raw/canonical route runs passed at the five required viewports in normal and reduced-motion modes.
+- Production interaction: preview remained exact; separated visit changed remote relief; near-self visit refused; `Delete` restored; `Enter` committed; `Escape` released.
+- Production blind preview: one WEBGL canvas, 384 surface samples, four remote backfaces; furniture hidden; `390/390/390` viewport widths.
+- Production diagnostics: **0** console/page/request/http diagnostics; overflow failures 0; minimum touch target 44px.
+- Production readbacks: stable-alias `works.json`, `catalog-public.json`, Journal anchor/title, Brush current/card, canonical work/tableau, raw v041 tableau, and favicon all returned/rendered successfully.
+- Proof directory: `research/qa/proofs/brush-v041-2026-10-29-production/` (**23** screenshots plus `qa-summary.json`).
+
+## Publication provenance
+
+- Artifact commit and first production deployment: `eaed4ce` / `dpl_29p94XsdcgEVVgoWcHhWN96HbHpJ`.
+- The follow-up commit that records production evidence will be pushed after this report update. The deployed public runtime is content-equivalent because the follow-up changes only QA/browser evidence fields and the private daily record; the public catalog strips QA evidence.
+
 ## Gate state
 
-The candidate remains **held**. Production browser verification, independent caption-free perceptual review, and provider revision linkage remain unresolved. This is not called exhibition-ready.
+The candidate remains **held**. Independent caption-free perceptual review and provider revision linkage remain unresolved. This is not called exhibition-ready.
 
 Existing unrelated worktree edits were left untouched.

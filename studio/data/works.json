@@ -62,8 +62,8 @@
         "directionConsequence": "Closes Brush's crease / lamina / wound / settling sequence and opens a reciprocal-material direction: matter can answer at a place not touched, through a continuous 3D relief rather than a removed fragment."
       },
       "browserEvidence": {
-        "status": "23/23 local browser matrix/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, keyboard, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; production verification, independent caption-free perceptual review, and provider revision linkage remain unresolved",
-        "productionReady": false,
+        "status": "46/46 local and production browser matrix/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, keyboard, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; independent caption-free perceptual review and provider revision linkage remain unresolved",
+        "productionReady": true,
         "runner": "headless system Chrome via Playwright",
         "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
         "modes": ["normal", "reduced-motion"],
@@ -82,7 +82,21 @@
         "localReadbacks": "local rendered Journal anchor/title, Brush current/card, canonical work title/tableau, raw v041 tableau, source works.json record, public catalog record, and favicon returned/rendered",
         "localProofPath": "research/qa/proofs/brush-v041-2026-10-29/",
         "localScreenshotCount": 23,
-        "unresolved": ["production browser verification", "independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeploymentUrl": "https://autopoiesis-hlrlacp69-lairpa-hotmailfrs-projects.vercel.app",
+        "productionDeploymentId": "dpl_29p94XsdcgEVVgoWcHhWN96HbHpJ",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "stable-alias preview kept the relief signature exact; a real separated visit changed remote WEBGL surface height/seam/backface after release; a near-self visit refused; Delete restored the exact quiet membrane; Enter committed an equivalent deterministic visit; Escape released; all three controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "stable-alias reduced-motion static blind preview at 390x844 kept one p5.js WEBGL relief membrane visible with 384 surface samples and four remote backfaces while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "stable-alias works.json and public catalog contained the daily record; Journal anchor/title, Brush current/card, canonical work/tableau, raw v041 tableau, and favicon returned/rendered with HTTP 200",
+        "productionProofPath": "research/qa/proofs/brush-v041-2026-10-29-production/",
+        "productionScreenshotCount": 23,
+        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v041 if the blind membrane reads as generic terrain, node field, or ornament, if the pointer site answers directly, if a near visit commits, if remote relief is cosmetic, if later visits reset, or if exact lifting fails.",
