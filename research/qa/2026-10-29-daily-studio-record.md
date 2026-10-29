@@ -64,9 +64,9 @@
 
 ## Publication
 
-- Production deployment: `https://autopoiesis-qb679rnmr-lairpa-hotmailfrs-projects.vercel.app`
+- Production deployment: `https://autopoiesis-7sq3kx2su-lairpa-hotmailfrs-projects.vercel.app`
 - Stable alias: `https://autopoiesis-nine.vercel.app`
-- Deployment ID: `dpl_7BwbvBCDSaGKh9qFoVUjBcLGvAQH`
+- Deployment ID: `dpl_4Vxw7MUR4muYQPwEzGKRbdoF87yq`
 - Provider revision linkage: not exposed by the available deployment readback.
 
 ## Critique and status
