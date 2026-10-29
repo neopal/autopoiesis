@@ -70,6 +70,7 @@
 - Production blind preview: one inline SVG sentence, 32 glyphs, four cuts, controls/readout/note/hint hidden at `390×844`
 - Production readbacks: `works.json`, public catalogue, Journal anchor/title, Handwriting current/card, canonical work/tableau, raw tableau, and favicon returned/rendered with HTTP 200
 - Production proof: `research/qa/proofs/handwriting-v037-2026-10-29-production/`
+- Final stable-alias readback after the evidence/publication redeploy: `https://autopoiesis-nine.vercel.app/studio/data/works.json`, `/journal/`, and `/works/typography-2026-10-29/` returned HTTP 200; the browser-rendered Journal anchor/title and canonical tableau were present; final proof: `research/qa/proofs/handwriting-v037-2026-10-29-production-final/`
 
 ## Honest boundary
 
