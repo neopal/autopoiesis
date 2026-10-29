@@ -97,8 +97,8 @@
         "lineage": "typography-2026-10-28"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser matrix runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local pointer, keyboard, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; production browser verification and independent caption-free perceptual review remain pending",
-        "productionReady": false,
+        "status": "20/20 local and 20/20 production raw/canonical browser matrix runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production pointer, keyboard, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; independent caption-free perceptual review and provider revision linkage remain pending",
+        "productionReady": true,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
           "320x568",
@@ -127,10 +127,28 @@
         "localProofPath": "research/qa/proofs/handwriting-v037-2026-10-29/",
         "localScreenshotCount": 21,
         "unresolved": [
-          "production browser verification",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
-        ]
+        ],
+        "production": {
+          "stableAlias": "https://autopoiesis-nine.vercel.app",
+          "deploymentUrl": "https://autopoiesis-noak9o9gw-lairpa-hotmailfrs-projects.vercel.app",
+          "deploymentId": "dpl_3mpNRd9HuuzoZ2mQAeHs2b4igJaq",
+          "readyState": "READY",
+          "target": "production",
+          "viewportRuns": 20,
+          "rawViewportRuns": 10,
+          "canonicalViewportRuns": 10,
+          "diagnostics": 0,
+          "overflow": 0,
+          "minTouchTarget": 44,
+          "interaction": "Stable-alias pointer sweep stayed geometry-neutral until release; release produced changed glyph geometry; Delete restored the exact quiet sentence; ArrowRight plus Enter committed; release returned to quiet.",
+          "blindPreview": "Stable-alias reduced-motion blind preview at 390x844 rendered one inline SVG sentence with 32 glyphs and four cuts, with controls/readout/note/hint hidden and 390/390/390 viewport widths.",
+          "readbacks": "Stable-alias works.json and public catalog contained the daily record; Journal anchor/title, Handwriting current/card, canonical work/tableau, raw tableau, and favicon returned/rendered with HTTP 200.",
+          "proofPath": "research/qa/proofs/handwriting-v037-2026-10-29-production/",
+          "screenshotCount": 21,
+          "failures": []
+        }
       }
     },
     {

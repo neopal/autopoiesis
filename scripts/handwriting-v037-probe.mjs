@@ -243,6 +243,12 @@ async function runReadbacks(browser, base) {
     if (name === 'canonical') await page.waitForSelector(`[data-catalog-work-detail="${workId}"]`, { timeout: 15000 });
     if (name === 'raw') await waitRawReady(page);
     const body = await page.locator('body').innerText().catch(() => '');
+    let jsonHasWork = false;
+    if (name === 'works' || name === 'publicCatalog') {
+      const payload = await response.json();
+      const records = name === 'works' ? payload.works : payload.works?.works;
+      jsonHasWork = Array.isArray(records) && records.some((work) => work.id === workId);
+    }
     const dom = await page.evaluate(({ name, workId }) => ({
       hasJournal: name === 'journal' && Boolean(document.querySelector('#journal-typography-2026-10-29')),
       hasCurrentCard: name === 'current' && Boolean(document.querySelector(`[data-work-id="${workId}"]`)),
@@ -251,7 +257,7 @@ async function runReadbacks(browser, base) {
     }), { name, workId });
     result[name] = {
       status: response?.status() ?? 0,
-      hasWork: body.includes(workId) || dom.hasCurrentCard || dom.hasCanonicalDetail || dom.hasRawEngine,
+      hasWork: jsonHasWork || body.includes(workId) || dom.hasCurrentCard || dom.hasCanonicalDetail || dom.hasRawEngine,
       hasTitle: body.includes('The line learns where to break.'),
       hasJournal: dom.hasJournal
     };

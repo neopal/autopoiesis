@@ -60,6 +60,17 @@
 - Blind preview: inline SVG sentence visible with 32 glyphs and four settled cuts; controls, readout, note, and hint hidden
 - Readbacks: local works registry, public catalog, Journal anchor/title, Handwriting current/card, canonical work/tableau, raw tableau, and favicon passed
 
+## Production gate
+
+- Deployment: **READY** at `https://autopoiesis-noak9o9gw-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`
+- Deployment ID: `dpl_3mpNRd9HuuzoZ2mQAeHs2b4igJaq`
+- Production browser matrix: **20/20 runs passed** with the same five viewports and two motion modes
+- Production diagnostics: **0**; overflow failures: **0**; minimum touch target: **44px**
+- Production pointer/keyboard/release/lift paths: passed
+- Production blind preview: one inline SVG sentence, 32 glyphs, four cuts, controls/readout/note/hint hidden at `390×844`
+- Production readbacks: `works.json`, public catalogue, Journal anchor/title, Handwriting current/card, canonical work/tableau, raw tableau, and favicon returned/rendered with HTTP 200
+- Production proof: `research/qa/proofs/handwriting-v037-2026-10-29-production/`
+
 ## Honest boundary
 
-The work remains **candidate / held**. Production browser verification, independent caption-free perceptual review, and provider revision linkage are not yet observed. No claim of exhibition readiness is made.
+Production technical gates are observed, but the work remains **candidate / held**. Independent caption-free perceptual review and provider revision linkage are not observed. No claim of exhibition readiness is made.
