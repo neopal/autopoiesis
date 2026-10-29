@@ -58,7 +58,7 @@ The last three naive records repeated a witness/absence grammar: v038 used witne
 
 - **Artifact commit deployed:** `0d4ead7d9df831b35675b1009d61d202ca5abbda`
 - **Evidence archive commit:** `e5e4ed020ae5494b372a9fc3c27f4c1cc586630b`
-- **Final GitHub `main` readback:** `e5e4ed020ae5494b372a9fc3c27f4c1cc586630b`; the evidence-only follow-up commit was pushed after the deployed artifact and does not change the public tableau payload.
+- **Final GitHub `main` readback:** matched the pushed evidence archive after the final provenance commit; the evidence-only follow-up commits were pushed after the deployed artifact and do not change the public tableau payload.
 - **Vercel deployment:** `dpl_FHkpKqE7ciJozNr3JN6KMTZmvGWh`
 - **Deployment URL:** https://autopoiesis-99kk832kn-lairpa-hotmailfrs-projects.vercel.app
 - **Stable production alias:** https://autopoiesis-nine.vercel.app
