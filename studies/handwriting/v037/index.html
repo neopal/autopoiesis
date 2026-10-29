@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a1a">
+  <title>MUTINE — The line learns where to break.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=037">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-10-29"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="seam-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v037 / PRESSURE SEAM</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="seam-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v037</span></nav>
+
+      <figure class="seam-work artwork-frame" aria-labelledby="work-title">
+        <div id="seam-field" class="seam-field" tabindex="0" role="application" aria-label="A sentence assembled as a folded SVG seam. Drag across the field and release to cut the sentence at its material hinge." aria-describedby="interaction-state" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete R Escape">
+          <svg id="sentence-svg" viewBox="0 0 1000 620" role="img" aria-label="A single folded sentence of large letters with a latent seam">
+            <defs>
+              <linearGradient id="seam-ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3432"/><stop offset="0.52" stop-color="#0e1b1c"/><stop offset="1" stop-color="#091012"/></linearGradient>
+              <filter id="seam-shadow" x="-20%" y="-20%" width="140%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
+              <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+            </defs>
+            <rect class="svg-ground" x="0" y="0" width="1000" height="620" fill="url(#seam-ground)"/>
+            <g id="seam-atmosphere" aria-hidden="true"></g>
+            <path id="seam-shadow-path" aria-hidden="true" filter="url(#seam-shadow)"/>
+            <path id="sentence-carrier" aria-hidden="true"/>
+            <g id="seam-cuts" aria-hidden="true"></g>
+            <g id="glyph-layer"></g>
+            <path id="pressure-probe" aria-hidden="true"/>
+            <g class="svg-corner" aria-hidden="true"><path d="M58 80h64M58 80v64M942 540h-64M942 540v-64"/><text x="58" y="62">SENTENCE / PRESSURE SEAM</text><text x="942" y="574" text-anchor="end">37 / HANDWRITING</text></g>
+          </svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>seam / quiet</span><span data-memory>0 cuts · 32 glyphs</span></div>
+          <div class="field-note" aria-hidden="true"><span>direction is stored</span><span>the cut is not</span></div>
+          <div class="seam-controls" aria-label="Sentence seam controls">
+            <button type="button" data-action="press">apply pressure</button>
+            <button type="button" data-action="lift">lift latest</button>
+            <button type="button" data-action="release">release sentence</button>
+          </div>
+          <p class="field-hint">drag through the seam · release to break the line</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v037-pressure-seam</span><span>pressure &gt; hinge &gt; sentence cut</span></figcaption>
+      </figure>
+
+      <section class="seam-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / MATERIAL SYNTAX / v037</p>
+        <h1 id="work-title">The line learns<br><i>where to break.</i></h1>
+        <p class="seam-lede">Pressure does not choose a letter. It makes the sentence discover its own weak hinge.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A SENTENCE IS A LOAD-BEARING FORM</p>
+          <p class="interaction-copy">Drag across the seam and let go. The gesture is geometry-neutral while it is held. On release, the line cuts at the hinge it can no longer carry: one glyph opens, one hollows, and one drifts. Four cuts remain liftable; later pressure inherits the broken sentence.</p>
+        </div>
+        <p id="interaction-state" class="interaction-state" data-interaction-state aria-live="polite">The sentence is quiet. No pressure has entered the seam.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v037</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v036's ecology, v035's casting rack, and v034's double register. Pressure is held as a probe, then a complete sweep cuts the folded sentence at a material hinge: a cut, a hollow, and a drift become produced glyph geometry.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag and release through the seam. Arrow keys, Enter, Space, the pressure control, Delete, R, and Escape are deterministic equivalents. A short or overlong sweep is refused.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if the gesture changes geometry before release, if the input point is merely selected, if the cut is only colour or prose, if the field reads as a type specimen, or if later cuts forget.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v037 if caption-free viewing cannot distinguish this single load-bearing sentence from a word cloud, rack, register, or decorative SVG, or if the weak hinge is not visibly produced.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-28/">previous daily work</a><a href="/journal/#journal-typography-2026-10-29">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=037"></script>
+</body>
+</html>

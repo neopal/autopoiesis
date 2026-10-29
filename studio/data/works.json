@@ -2,6 +2,138 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-10-29",
+      "currentId": "typography",
+      "date": "2026-10-29",
+      "title": "The line learns where to break.",
+      "rawPath": "/studies/handwriting/v037/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-10-29",
+        "note": "v037 abandons v036's phoneme ecology, v035's pressure casting rack, and v034's double register. Thirty-two glyphs now share one folded SVG sentence: a pressure sweep stays geometrically quiet while held, then a complete release cuts the sentence at its own weak hinge. One glyph opens, another hollows, and a third drifts. Four cuts remain liftable and later pressure inherits the broken seam."
+      },
+      "critiques": [
+        {
+          "persona": "Seam-form critic",
+          "argument": "The sentence must read as one folded load-bearing form before it reads as a row of glyphs. The S-bend, carrier seam, uneven scale, and sparse negative field must carry the composition without a diagram or type specimen grid."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, notes, and prose hidden, the first view must leave v036's ecology, v035's mold rack, and v034's double register. It should read as a single sentence under tension, not a word cloud or decorative SVG."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must drag through a seam and release. A short or overlong sweep is refused; holding and movement alone must remain exact. Keyboard, touch, pointer, and controls must provide equivalent meaningful paths."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "Release must produce actual glyph geometry: a hinge opens, a second glyph hollows, and a third drifts. A coral flash, status line, or annotation cannot substitute for the cut."
+        },
+        {
+          "persona": "Material critic",
+          "argument": "The cultural translation must remain an engine rule. Direction and sweep pressure must alter the sentence's geometry, not add brush texture, hatching, grain, or a decorative trail."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four cuts must compound in the sentence. Delete must reconstruct the exact preceding glyph field, release must return to the quiet seed, and later sweeps must inherit the already weakened seam."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "Inline SVG text and path geometry must be the produced medium. The sentence cannot be a screenshot, CSS poster, or HTML word cloud wearing an SVG frame."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from programmable pressure and directional fields participating in geometry production. No brush appearance, watercolor, hatching, grain, palette, composition, source code, examples, API surface, or source vocabulary is reproduced."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v037 changes representation, composition, encounter, and temporal grammar: distributed fragments and spatial molds become one continuous sentence whose local weak hinge is produced by a released pressure sweep rather than a remote receiver."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v037 if the blind object reads as a generic type specimen, if holding changes geometry, if the input point is the answer, if the seam is cosmetic, if later cuts forget, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v037-pressure-seam",
+        "seed": "0x48574937",
+        "visitorInput": true,
+        "replay": true,
+        "renderer": "inline SVG sentence seam with produced glyph geometry",
+        "grammar": "pressure-seam",
+        "glyphCount": 32,
+        "memoryWindow": 4,
+        "minimumSweep": 0.22,
+        "maximumSweep": 0.92,
+        "primitiveBudget": 38,
+        "memoryRule": "a held pressure sweep is geometry-neutral; release cuts the sentence at a material hinge, opens one glyph, hollows another, and drifts a third; later cuts inherit the broken sentence",
+        "interactionRule": "pointer or touch drags across the sentence seam and releases; Arrow keys, Enter, Space, and the pressure control use deterministic sweeps; Delete lifts latest; Escape or R releases",
+        "representationRupture": "Canvas phoneme ecology, WebGL pressure rack, and browser-native double register -> one inline SVG sentence whose glyphs become a load-bearing seam",
+        "compositionRupture": "distributed fragments, depth-staggered molds, and split registers -> one folded continuous sentence with a latent diagonal cut",
+        "encounterRupture": "attend and speak, press and hold, and approach then leave -> drag pressure through a seam and release to produce a break",
+        "temporalRupture": "attention ledger, elapsed pressure, and departure memory -> irreversible-looking sentence cuts with four exact lifts",
+        "mediumRupture": "Canvas 2D text, raw WebGL, and DOM text/CSS -> inline SVG text and path geometry with actual glyph modes",
+        "changedRule": "Pressure is geometry-neutral while held. A complete sweep cuts the folded sentence at a material hinge: one glyph opens, one hollows, and one drifts.",
+        "visibleConsequence": "The blind view is one continuous typographic seam rather than a field of fragments. A valid release produces a visible cut, hollow letter, drift, and seam scar in the sentence; four cuts remain visible and later releases inherit them.",
+        "falsifier": "Delete if preview pressure changes glyph geometry, if the input point is merely selected, if the cut exists only in colour or readout, if the blind field reads as a generic type specimen, or if later cuts reset.",
+        "deletionCondition": "Delete v037 if caption-free viewing cannot distinguish the pressure-seam grammar from the last three handwriting works or if the weak hinge is not materially produced.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "p5-brush"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, and directional fields participate in producing geometry rather than merely styling a finished mark.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, grain, source palette, source composition, source code, examples, and API surface. Translate pressure production into a sentence seam: a held sweep stores force and direction; release makes the line produce a cut, a hollow, and a drift at its own weak hinge.",
+        "visibleConsequence": "The blind first view is one continuous folded SVG sentence. A valid release changes actual glyph positions, rotations, scale, tracking, opacity, and seam scars at a hinge; four cuts remain in the sentence and later releases inherit them.",
+        "falsifier": "If holding changes glyph geometry, if the input point is merely selected, if the cut exists only in colour or readout, if the blind field reads as a generic type specimen, or if later releases restart from the seed, the translation fails.",
+        "antiCopy": "No brush appearance, watercolor fill, hatching vocabulary, grain, vector-field drawing, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Handwriting's ecology / casting-rack / double-register family and opens a sentence-as-material direction: the current tests a local weak hinge where pressure produces a break in the line itself rather than a remote answer."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, note-off, and caption-off comparison; delete v037 if the blind sentence reads as a generic type specimen or decorative SVG, if holding changes geometry, if the input site is merely selected, if the hinge cut is cosmetic, if later cuts reset, or if exact lifting fails.",
+        "lineage": "typography-2026-10-28"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical browser matrix runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local pointer, keyboard, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; production browser verification and independent caption-free perceptual review remain pending",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1 (ephemeral port assigned by probe)",
+        "localRawPreview": "/studies/handwriting/v037/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/handwriting/v037/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/typography-2026-10-29/",
+        "localViewportRuns": 20,
+        "localRawViewportRuns": 10,
+        "localCanonicalViewportRuns": 10,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "A real pointer sweep kept the SVG glyph signature exact while held, then produced a cut/hollow/drift event; Delete restored the exact sentence; ArrowRight plus Enter committed an equivalent deterministic pressure; the release control returned to quiet; all three controls measured 44px at 390x844.",
+        "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 kept one inline SVG sentence seam visible with 32 glyphs and four settled cuts while hiding readout, controls, note, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "localReadbacks": "Local rendered Journal anchor/title, Handwriting current/card, canonical work title/tableau, raw v037 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
+        "localProofPath": "research/qa/proofs/handwriting-v037-2026-10-29/",
+        "localScreenshotCount": 21,
+        "unresolved": [
+          "production browser verification",
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-10-28",
       "currentId": "webgpu",
       "date": "2026-10-28",
@@ -14,100 +146,142 @@
         "note": "v037 leaves v036's reciprocal ribbon, v035's pressure vault, and v034's orbital chorus. One p5.js WEBGL sediment prism now carries fourteen strata as one weighted body: a preview turn is view-only, a complete sweep keeps the touched layer nearly exact, and a remote layer shears, deepens its cut, and pulls neighbouring strata into settlement. Four material turns remain liftable and later turns inherit the changed volume."
       },
       "critiques": [
-        {"persona":"Volume-form critic","argument":"Fourteen strata must read as one weighted body before they read as a stack of boxes. The oblique silhouette, internal cut, unequal depth, and seam rhythm must carry the composition without a diagrammatic grid."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, annotations, and prose hidden, the first view must leave v034's orbit, v035's vault, and v036's ribbon. It should read as a pressure-bearing volume, not a particle halo, card stack, wireframe, or route field."},
-        {"persona":"Encounter critic","argument":"The visitor must rotate one object through a bounded sweep. A short drag, overlong drag, click, or preview movement must not commit. The task is spatial turning, not attending a situated gate."},
-        {"persona":"Causal critic","argument":"The source layer under the gesture must remain almost exact while a remote layer changes offset, shear, depth, cut, and neighbouring settlement. Colour, status text, and camera angle cannot substitute for produced geometry."},
-        {"persona":"Non-locality critic","argument":"The answer must be elsewhere in the solid. A visitor should be able to locate the changed remote seam without confusing it with the layer where the turn began."},
-        {"persona":"Memory critic","argument":"Four turns must compound in the material field. Later turns must inherit settled strata, Delete must reconstruct the exact preceding prism, and release must restore the quiet seed."},
-        {"persona":"Medium critic","argument":"p5.js WEBGL box and seam geometry must be the produced medium, not a CSS poster, SVG fallback, or screenshot. The internal cut and remote shear must come from deterministic state."},
-        {"persona":"Cultural critic","argument":"p5.brush is translated from material production logic, not copied as brushes, watercolor, hatching, grain, palette, composition, code, or API surface. The new rule is a remote shear that changes the next volume."},
-        {"persona":"Radical progression critic","argument":"v037 changes representation, composition, encounter, temporal grammar, and viewer task: field populations become one volume, release becomes spatial turning, and memory becomes material settlement in a layer the visitor did not touch."},
-        {"persona":"Cynic","argument":"Delete v037 if the blind object reads as a generic 3D stack, if preview rotates memory, if the source layer is the answer, if remote roles are cosmetic, if later turns forget, or if exact lifting fails."}
+        {
+          "persona": "Volume-form critic",
+          "argument": "Fourteen strata must read as one weighted body before they read as a stack of boxes. The oblique silhouette, internal cut, unequal depth, and seam rhythm must carry the composition without a diagrammatic grid."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and prose hidden, the first view must leave v034's orbit, v035's vault, and v036's ribbon. It should read as a pressure-bearing volume, not a particle halo, card stack, wireframe, or route field."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must rotate one object through a bounded sweep. A short drag, overlong drag, click, or preview movement must not commit. The task is spatial turning, not attending a situated gate."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "The source layer under the gesture must remain almost exact while a remote layer changes offset, shear, depth, cut, and neighbouring settlement. Colour, status text, and camera angle cannot substitute for produced geometry."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The answer must be elsewhere in the solid. A visitor should be able to locate the changed remote seam without confusing it with the layer where the turn began."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four turns must compound in the material field. Later turns must inherit settled strata, Delete must reconstruct the exact preceding prism, and release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "p5.js WEBGL box and seam geometry must be the produced medium, not a CSS poster, SVG fallback, or screenshot. The internal cut and remote shear must come from deterministic state."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from material production logic, not copied as brushes, watercolor, hatching, grain, palette, composition, code, or API surface. The new rule is a remote shear that changes the next volume."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v037 changes representation, composition, encounter, temporal grammar, and viewer task: field populations become one volume, release becomes spatial turning, and memory becomes material settlement in a layer the visitor did not touch."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v037 if the blind object reads as a generic 3D stack, if preview rotates memory, if the source layer is the answer, if remote roles are cosmetic, if later turns forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
-        "id":"webgpu-v037-material-prism",
-        "visitorInput":true,
-        "seed":"0x57475037",
-        "stages":7,
-        "layerCount":14,
-        "memoryWindow":4,
-        "minimumSweep":0.22,
-        "maximumSweep":0.72,
-        "primitiveBudget":42,
-        "renderer":"p5.js WEBGL sediment prism with WebGPU capability signal",
-        "grammar":"material-prism",
-        "replay":true,
-        "memoryRule":"a bounded turn keeps the touched layer nearly quiet while a remote layer shears, deepens its cut, and pulls neighbouring strata into settlement; four turns remain liftable",
-        "interactionRule":"pointer or touch drags across the prism and releases after a bounded sweep; Arrow keys preview; Enter or Space commits a deterministic turn; Delete lifts latest; Escape or R releases",
-        "representationRupture":"orbital agents, vertical pressure panels, and an SVG ribbon -> one p5.js WEBGL sediment prism rendered as a three-dimensional material volume",
-        "compositionRupture":"central absence, receding vault, and continuous ribbon -> one oblique stacked body with an internal cut and remote layer displacements",
-        "encounterRupture":"listen-and-release, double-tap interval, and pointer departure -> rotate a single object through a complete bounded sweep; release commits only the material consequence",
-        "temporalRupture":"phase exchange, pressure delay, and reciprocal departure -> persistent material settlement in which each turn changes how later strata are produced",
-        "mediumRupture":"inline SVG field grammars -> p5.js 1.11.3 WEBGL canvas geometry with an optional navigator.gpu capability signal",
-        "changedRule":"A preview turn is view-only. A complete turn keeps the touched layer almost exact and makes a remote layer shear, deepen its cut, and settle its neighbours.",
-        "visibleConsequence":"The blind view is one fourteen-layer sediment prism with an oblique silhouette and internal cut. A valid turn changes remote layer offset, shear, depth, cut, and neighbouring settlement; four material memories persist.",
-        "falsifier":"Delete if preview rotation changes geometry, if incomplete or overlong turns commit, if the touched layer is the answer, if remote change is cosmetic, if the object reads as a generic 3D stack, if later turns reset, or if exact lifting fails.",
-        "deletionCondition":"Delete v037 if caption-free viewing cannot distinguish the material-prism grammar from the last three WebGPU population/field works, or if remote shear is not materially produced.",
-        "promotion":"candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
-        "referenceId":"p5-brush"
+        "id": "webgpu-v037-material-prism",
+        "visitorInput": true,
+        "seed": "0x57475037",
+        "stages": 7,
+        "layerCount": 14,
+        "memoryWindow": 4,
+        "minimumSweep": 0.22,
+        "maximumSweep": 0.72,
+        "primitiveBudget": 42,
+        "renderer": "p5.js WEBGL sediment prism with WebGPU capability signal",
+        "grammar": "material-prism",
+        "replay": true,
+        "memoryRule": "a bounded turn keeps the touched layer nearly quiet while a remote layer shears, deepens its cut, and pulls neighbouring strata into settlement; four turns remain liftable",
+        "interactionRule": "pointer or touch drags across the prism and releases after a bounded sweep; Arrow keys preview; Enter or Space commits a deterministic turn; Delete lifts latest; Escape or R releases",
+        "representationRupture": "orbital agents, vertical pressure panels, and an SVG ribbon -> one p5.js WEBGL sediment prism rendered as a three-dimensional material volume",
+        "compositionRupture": "central absence, receding vault, and continuous ribbon -> one oblique stacked body with an internal cut and remote layer displacements",
+        "encounterRupture": "listen-and-release, double-tap interval, and pointer departure -> rotate a single object through a complete bounded sweep; release commits only the material consequence",
+        "temporalRupture": "phase exchange, pressure delay, and reciprocal departure -> persistent material settlement in which each turn changes how later strata are produced",
+        "mediumRupture": "inline SVG field grammars -> p5.js 1.11.3 WEBGL canvas geometry with an optional navigator.gpu capability signal",
+        "changedRule": "A preview turn is view-only. A complete turn keeps the touched layer almost exact and makes a remote layer shear, deepen its cut, and settle its neighbours.",
+        "visibleConsequence": "The blind view is one fourteen-layer sediment prism with an oblique silhouette and internal cut. A valid turn changes remote layer offset, shear, depth, cut, and neighbouring settlement; four material memories persist.",
+        "falsifier": "Delete if preview rotation changes geometry, if incomplete or overlong turns commit, if the touched layer is the answer, if remote change is cosmetic, if the object reads as a generic 3D stack, if later turns reset, or if exact lifting fails.",
+        "deletionCondition": "Delete v037 if caption-free viewing cannot distinguish the material-prism grammar from the last three WebGPU population/field works, or if remote shear is not materially produced.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "p5-brush"
       },
       "source": {
-        "referenceId":"p5-brush",
-        "title":"p5.brush",
-        "url":"https://github.com/acamposuribe/p5.brush",
-        "observedMechanism":"Programmable pressure, density, directional behaviour, and fields participate in producing geometry rather than merely styling a finished mark.",
-        "translatedRule":"Refuse brushes, watercolor, hatching, grain, source palette, source composition, source code, examples, and API surface. Translate material production into a volume rule: a preview turn is view-only, while a complete turn makes a remote layer shear, deepen its cut, and pull neighbouring strata into settlement.",
-        "visibleConsequence":"The blind first view is one p5.js WEBGL sediment prism with fourteen strata and an internal cut. A valid turn keeps the touched layer nearly exact but changes remote layer offset, shear, depth, cut, and neighbouring settlement; later turns inherit the changed volume.",
-        "falsifier":"If preview rotates memory, if an incomplete turn commits, if the touched layer remains the answer, if remote change exists only in colour or readout, if the object reads as a generic 3D stack, or if later turns reset, the translation fails.",
-        "antiCopy":"No brush appearance, watercolor, hatching, grain, vector-field drawing, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.",
-        "directionConsequence":"Closes WebGPU's orbit / vault / terrain / reciprocal-ribbon family and opens a spatial-material direction: the collective is compressed into a volume whose archive is a remote shear in the layer the visitor did not touch."
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable pressure, density, directional behaviour, and fields participate in producing geometry rather than merely styling a finished mark.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, grain, source palette, source composition, source code, examples, and API surface. Translate material production into a volume rule: a preview turn is view-only, while a complete turn makes a remote layer shear, deepen its cut, and pull neighbouring strata into settlement.",
+        "visibleConsequence": "The blind first view is one p5.js WEBGL sediment prism with fourteen strata and an internal cut. A valid turn keeps the touched layer nearly exact but changes remote layer offset, shear, depth, cut, and neighbouring settlement; later turns inherit the changed volume.",
+        "falsifier": "If preview rotates memory, if an incomplete turn commits, if the touched layer remains the answer, if remote change exists only in colour or readout, if the object reads as a generic 3D stack, or if later turns reset, the translation fails.",
+        "antiCopy": "No brush appearance, watercolor, hatching, grain, vector-field drawing, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes WebGPU's orbit / vault / terrain / reciprocal-ribbon family and opens a spatial-material direction: the collective is compressed into a volume whose archive is a remote shear in the layer the visitor did not touch."
       },
       "decision": {
-        "nextMutation":"Run labels-off, readout-off, controls-off, annotations-off, and caption-off comparison; delete v037 if the blind prism reads as a generic 3D stack, if preview rotates memory, if the touched layer is the answer, if remote shear is cosmetic, if later turns reset, or if exact lifting fails.",
-        "lineage":"webgpu-2026-10-27"
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, and caption-off comparison; delete v037 if the blind prism reads as a generic 3D stack, if preview rotates memory, if the touched layer is the answer, if remote shear is cosmetic, if later turns reset, or if exact lifting fails.",
+        "lineage": "webgpu-2026-10-27"
       },
       "browserEvidence": {
-        "status":"25/25 local and 25/25 production browser probe runs passed: each matrix covered raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes, plus interaction, blind preview, and Journal/current/canonical readbacks; independent caption-free perceptual review and provider revision linkage remain pending",
-        "productionReady":false,
-        "runner":"headless system Chrome via Playwright",
-        "viewports":["320x568","390x844","768x1024","1280x800","1920x1080"],
-        "modes":["normal","reduced-motion"],
-        "localAlias":"http://127.0.0.1:49376",
-        "localRawPreview":"/studies/webgpu/v037/?preview=1&interaction=1",
-        "localBlindPreview":"/studies/webgpu/v037/?preview=1&static=1&blind=1",
-        "localCanonicalWork":"/works/webgpu-2026-10-28/",
-        "localViewportRuns":20,
-        "localRawViewportRuns":10,
-        "localCanonicalViewportRuns":10,
-        "localDiagnostics":0,
-        "localOverflow":0,
-        "localMinTouchTarget":44,
-        "localInteraction":"real pointer drag preview kept the prism signature exact; a bounded sweep committed one remote material shear; Delete restored the exact baseline; ArrowRight plus Enter committed an equivalent deterministic turn; Escape released; turn/lift/release controls measured at least 44px at 390x844",
-        "localBlindPreviewEvidence":"reduced-motion static blind preview at 390x844 kept one p5.js WEBGL sediment prism visible with 14 layers and four settled material shears while hiding readout, controls, status, and prose; innerWidth/clientWidth/scrollWidth remained 390/390/390",
-        "localReadbacks":"local rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v037 tableau, source works.json record, public catalog record, and favicon returned/rendered",
-        "localProofPath":"research/qa/proofs/webgpu-v037-2026-10-28/",
-        "localScreenshotCount":25,
-        "productionAlias":"https://autopoiesis-nine.vercel.app",
-        "productionRawPreview":"https://autopoiesis-nine.vercel.app/studies/webgpu/v037/?preview=1&interaction=1",
-        "productionBlindPreview":"https://autopoiesis-nine.vercel.app/studies/webgpu/v037/?preview=1&static=1&blind=1",
-        "productionCanonicalWork":"https://autopoiesis-nine.vercel.app/works/webgpu-2026-10-28/",
-        "productionViewportRuns":20,
-        "productionRawViewportRuns":10,
-        "productionCanonicalViewportRuns":10,
-        "productionDiagnostics":0,
-        "productionOverflow":0,
-        "productionMinTouchTarget":44,
-        "productionInteraction":"production pointer drag preview kept the prism signature exact; a bounded sweep committed one remote material shear; Delete restored the exact baseline; ArrowRight plus Enter committed an equivalent deterministic turn; Escape released; turn/lift/release controls measured at least 44px at 390x844",
-        "productionBlindPreviewEvidence":"production reduced-motion static blind preview at 390x844 kept one p5.js WEBGL sediment prism visible with 14 layers and four settled material shears while hiding readout, controls, status, and prose; innerWidth/clientWidth/scrollWidth remained 390/390/390",
-        "productionReadbacks":"stable production rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v037 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
-        "productionProofPath":"research/qa/proofs/webgpu-v037-2026-10-28-production/",
-        "productionScreenshotCount":25,
-        "productionDeploymentId":"dpl_DyHMBAtw7UvAdG4Dh1ET8f6vWFNh",
-        "productionDeploymentUrl":"https://autopoiesis-7xmixh8rp-lairpa-hotmailfrs-projects.vercel.app",
-        "artifactCommit":"57620745844fb50e4e2c7700696e0ca2aff72f4d",
-        "publicationRemoteSha":"57620745844fb50e4e2c7700696e0ca2aff72f4d",
-        "unresolved":["independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
+        "status": "25/25 local and 25/25 production browser probe runs passed: each matrix covered raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes, plus interaction, blind preview, and Journal/current/canonical readbacks; independent caption-free perceptual review and provider revision linkage remain pending",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:49376",
+        "localRawPreview": "/studies/webgpu/v037/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/webgpu/v037/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/webgpu-2026-10-28/",
+        "localViewportRuns": 20,
+        "localRawViewportRuns": 10,
+        "localCanonicalViewportRuns": 10,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "real pointer drag preview kept the prism signature exact; a bounded sweep committed one remote material shear; Delete restored the exact baseline; ArrowRight plus Enter committed an equivalent deterministic turn; Escape released; turn/lift/release controls measured at least 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept one p5.js WEBGL sediment prism visible with 14 layers and four settled material shears while hiding readout, controls, status, and prose; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v037 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "localProofPath": "research/qa/proofs/webgpu-v037-2026-10-28/",
+        "localScreenshotCount": 25,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v037/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v037/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-10-28/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "production pointer drag preview kept the prism signature exact; a bounded sweep committed one remote material shear; Delete restored the exact baseline; ArrowRight plus Enter committed an equivalent deterministic turn; Escape released; turn/lift/release controls measured at least 44px at 390x844",
+        "productionBlindPreviewEvidence": "production reduced-motion static blind preview at 390x844 kept one p5.js WEBGL sediment prism visible with 14 layers and four settled material shears while hiding readout, controls, status, and prose; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "stable production rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v037 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/webgpu-v037-2026-10-28-production/",
+        "productionScreenshotCount": 25,
+        "productionDeploymentId": "dpl_DyHMBAtw7UvAdG4Dh1ET8f6vWFNh",
+        "productionDeploymentUrl": "https://autopoiesis-7xmixh8rp-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "57620745844fb50e4e2c7700696e0ca2aff72f4d",
+        "publicationRemoteSha": "57620745844fb50e4e2c7700696e0ca2aff72f4d",
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       }
     },
     {
@@ -123,76 +297,116 @@
         "note": "v038 leaves v037's pressure misprint, v036's false accordion, and v035's pressure-misread plate. Nine uneven cut-outs now surround one off-axis aperture: a held place stays geometrically quiet, departure removes a remote witness, another inherits a false reconstruction, and a fourth edge remembers. Four remote absences compound in the cut-out field."
       },
       "critiques": [
-        {"persona":"Cut-out form critic","argument":"Nine uneven forms and one dark aperture must read as one suspended cut-out field before they read as separate icons. Overlap, off-axis balance, nested edge scars, and the quiet centre must carry the composition without a grid."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, annotations, and prose hidden, the first view must leave v037's stamp relation, v036's page, and v035's plate. It should read as a new cavity-bearing field, not a crowd, route, page, or diagram."},
-        {"persona":"Encounter critic","argument":"The visitor must hold near a witness and leave. A short press is refused, a held place remains geometry-neutral, and only departure commits. Keyboard, pointer, touch, and control paths must remain equivalent."},
-        {"persona":"Causal critic","argument":"A committed look must change actual remote Canvas geometry: the approached form stays quiet, a distant cavity opens, another form inherits a false edge, and a fourth carries the memory. Colour and readout cannot substitute for produced shapes."},
-        {"persona":"Non-locality critic","argument":"The answer must be elsewhere. A visitor should be able to locate the missing witness and false reconstruction away from the place where attention was offered."},
-        {"persona":"Memory critic","argument":"Four departures must compound in the cut-out field. Later looks must inherit prior cavities, Delete must reconstruct the exact preceding field, and release must restore the quiet seed."},
-        {"persona":"Medium critic","argument":"The p5.js Canvas 2D geometry is the produced medium, not a screenshot or CSS poster. The aperture, cavities, shifts, and nested edges must all be generated from the deterministic state."},
-        {"persona":"Cultural critic","argument":"little-critters is translated from situated attention and reciprocal consequence into a spatial reconstruction failure. No animals, eyes, characters, paper scene, head-turning gesture, source palette, source composition, code, examples, API, or surface vocabulary is reproduced."},
-        {"persona":"Cynic","argument":"Delete v038 if the blind field reads as a generic crowd or diagram, if a short look commits, if the approached form answers directly, if remote roles are cosmetic, if later looks forget, or if exact lifting fails."}
+        {
+          "persona": "Cut-out form critic",
+          "argument": "Nine uneven forms and one dark aperture must read as one suspended cut-out field before they read as separate icons. Overlap, off-axis balance, nested edge scars, and the quiet centre must carry the composition without a grid."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, annotations, and prose hidden, the first view must leave v037's stamp relation, v036's page, and v035's plate. It should read as a new cavity-bearing field, not a crowd, route, page, or diagram."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must hold near a witness and leave. A short press is refused, a held place remains geometry-neutral, and only departure commits. Keyboard, pointer, touch, and control paths must remain equivalent."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "A committed look must change actual remote Canvas geometry: the approached form stays quiet, a distant cavity opens, another form inherits a false edge, and a fourth carries the memory. Colour and readout cannot substitute for produced shapes."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The answer must be elsewhere. A visitor should be able to locate the missing witness and false reconstruction away from the place where attention was offered."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four departures must compound in the cut-out field. Later looks must inherit prior cavities, Delete must reconstruct the exact preceding field, and release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "The p5.js Canvas 2D geometry is the produced medium, not a screenshot or CSS poster. The aperture, cavities, shifts, and nested edges must all be generated from the deterministic state."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated attention and reciprocal consequence into a spatial reconstruction failure. No animals, eyes, characters, paper scene, head-turning gesture, source palette, source composition, code, examples, API, or surface vocabulary is reproduced."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v038 if the blind field reads as a generic crowd or diagram, if a short look commits, if the approached form answers directly, if remote roles are cosmetic, if later looks forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
-        "id":"naive-art-v038-witness-absence",
-        "visitorInput":true,
-        "seed":"0x4e413338",
-        "witnessCount":9,
-        "memoryWindow":4,
-        "minimumDwell":0.22,
-        "maximumDwell":0.92,
-        "primitiveBudget":36,
-        "renderer":"deterministic p5.js Canvas 2D cut-out field",
-        "grammar":"witness-absence",
-        "replay":true,
-        "memoryRule":"a held look is geometry-neutral; leaving causes a remote witness to become missing, another to inherit a false reconstruction, and a fourth to remember the edge",
-        "interactionRule":"pointer or touch holds near a witness and releases; Enter, Space, and the look control use deterministic looks; Delete lifts latest; Escape or R releases",
-        "representationRupture":"pressure misprint, browser-native accordion, and single pressure plate -> one p5.js Canvas 2D witness cutout field with produced absences",
-        "compositionRupture":"distributed stamps, crooked page, and singular plate -> one off-axis aperture surrounded by uneven planar cut-outs and remote cavities",
-        "encounterRupture":"three-mark chord, scroll turn, and bounded pressure stroke -> situated hold-and-leave gesture whose answer is displaced from the visitor",
-        "temporalRupture":"material misallocation, false pagination, and pressure inference -> departure memory in which the field forgets the watched place and invents the wrong one",
-        "mediumRupture":"p5.js raster print, browser DOM/CSS page, and pressure plate -> p5.js 1.11.3 Canvas 2D cut-out field rendered from state geometry",
-        "changedRule":"A held look does not move the approached form. Leaving it makes a remote witness disappear, makes another inherit a false reconstruction, and gives a fourth edge the memory.",
-        "visibleConsequence":"The blind view is one cut-out field with an off-axis dark aperture. A valid look-and-leave changes actual remote geometry: a cavity opens, a false edge shifts elsewhere, and a remembering edge persists across four events.",
-        "falsifier":"Delete if the approached witness is the answer, if a short press commits, if remote absence is cosmetic, if the field reads as a generic crowd or diagram, if later looks reset, or if exact lifting fails.",
-        "deletionCondition":"Delete v038 if caption-free viewing cannot distinguish the witness-absence field from the last three naive grammars, or if absence is not materially produced.",
-        "promotion":"candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
-        "referenceId":"little-critters"
+        "id": "naive-art-v038-witness-absence",
+        "visitorInput": true,
+        "seed": "0x4e413338",
+        "witnessCount": 9,
+        "memoryWindow": 4,
+        "minimumDwell": 0.22,
+        "maximumDwell": 0.92,
+        "primitiveBudget": 36,
+        "renderer": "deterministic p5.js Canvas 2D cut-out field",
+        "grammar": "witness-absence",
+        "replay": true,
+        "memoryRule": "a held look is geometry-neutral; leaving causes a remote witness to become missing, another to inherit a false reconstruction, and a fourth to remember the edge",
+        "interactionRule": "pointer or touch holds near a witness and releases; Enter, Space, and the look control use deterministic looks; Delete lifts latest; Escape or R releases",
+        "representationRupture": "pressure misprint, browser-native accordion, and single pressure plate -> one p5.js Canvas 2D witness cutout field with produced absences",
+        "compositionRupture": "distributed stamps, crooked page, and singular plate -> one off-axis aperture surrounded by uneven planar cut-outs and remote cavities",
+        "encounterRupture": "three-mark chord, scroll turn, and bounded pressure stroke -> situated hold-and-leave gesture whose answer is displaced from the visitor",
+        "temporalRupture": "material misallocation, false pagination, and pressure inference -> departure memory in which the field forgets the watched place and invents the wrong one",
+        "mediumRupture": "p5.js raster print, browser DOM/CSS page, and pressure plate -> p5.js 1.11.3 Canvas 2D cut-out field rendered from state geometry",
+        "changedRule": "A held look does not move the approached form. Leaving it makes a remote witness disappear, makes another inherit a false reconstruction, and gives a fourth edge the memory.",
+        "visibleConsequence": "The blind view is one cut-out field with an off-axis dark aperture. A valid look-and-leave changes actual remote geometry: a cavity opens, a false edge shifts elsewhere, and a remembering edge persists across four events.",
+        "falsifier": "Delete if the approached witness is the answer, if a short press commits, if remote absence is cosmetic, if the field reads as a generic crowd or diagram, if later looks reset, or if exact lifting fails.",
+        "deletionCondition": "Delete v038 if caption-free viewing cannot distinguish the witness-absence field from the last three naive grammars, or if absence is not materially produced.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "little-critters"
       },
       "source": {
-        "referenceId":"little-critters",
-        "title":"little-critters",
-        "url":"https://github.com/GordenSun/little-critters",
-        "observedMechanism":"Situated code-drawn agents respond to proximity with legible attention and reciprocal consequence; the visitor participates in a small social field without a dashboard.",
-        "translatedRule":"Refuse animals, eyes, characters, paper scenes, head-turning, source palette, source composition, source code, examples, and API surface. Translate situated attention into a naive reconstruction error: the visitor's held place stays still, but departure causes a distant cut-out to disappear and another to inherit the wrong form.",
-        "visibleConsequence":"The blind first view is one dark cut-out field with an off-axis aperture and nine uneven planar forms. After a valid look-and-leave gesture, a remote witness becomes a real cavity, another form shifts and doubles its edge, and a fourth carries the memory.",
-        "falsifier":"If the approached form becomes the answer, if a short press commits, if remote absence or reconstruction exists only in colour/readout, if the field reads as a generic crowd or diagram, if later looks reset, or if exact lifting fails, the translation fails.",
-        "antiCopy":"No animal, character, eye, paper scene, head-turning image, source palette, source composition, source code, example, API name, or surface vocabulary is reproduced.",
-        "directionConsequence":"Closes the Naive pressure-misprint / false-accordion / pressure-misread sequence and opens witness-absence: model failure becomes a spatial reconstruction error caused by departure, with absence as produced geometry."
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents respond to proximity with legible attention and reciprocal consequence; the visitor participates in a small social field without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper scenes, head-turning, source palette, source composition, source code, examples, and API surface. Translate situated attention into a naive reconstruction error: the visitor's held place stays still, but departure causes a distant cut-out to disappear and another to inherit the wrong form.",
+        "visibleConsequence": "The blind first view is one dark cut-out field with an off-axis aperture and nine uneven planar forms. After a valid look-and-leave gesture, a remote witness becomes a real cavity, another form shifts and doubles its edge, and a fourth carries the memory.",
+        "falsifier": "If the approached form becomes the answer, if a short press commits, if remote absence or reconstruction exists only in colour/readout, if the field reads as a generic crowd or diagram, if later looks reset, or if exact lifting fails, the translation fails.",
+        "antiCopy": "No animal, character, eye, paper scene, head-turning image, source palette, source composition, source code, example, API name, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes the Naive pressure-misprint / false-accordion / pressure-misread sequence and opens witness-absence: model failure becomes a spatial reconstruction error caused by departure, with absence as produced geometry."
       },
       "browserEvidence": {
-        "status":"20/20 local browser matrix/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; production browser verification and independent caption-free perceptual review remain pending",
-        "productionReady":false,
-        "runner":"headless system Chrome via Playwright",
-        "viewports":["320x568","390x844","768x1024","1280x800","1920x1080"],
-        "modes":["normal","reduced-motion"],
-        "localRawPreview":"/studies/naive-art/v038/?preview=1&interaction=1",
-        "localBlindPreview":"/studies/naive-art/v038/?preview=1&static=1&blind=1",
-        "localCanonicalWork":"/works/naive-2026-10-28/",
-        "localViewportRuns":20,
-        "localDiagnostics":0,
-        "localOverflow":0,
-        "localMinTouchTarget":44,
-        "localInteraction":"deterministic look committed actual remote Canvas geometry; Delete restored the exact scene; Enter committed; R released; all three controls measured 44px at 390x844",
-        "localBlindPreviewEvidence":"reduced-motion static blind preview at 390x844 kept one p5.js Canvas 2D witness-absence field visible with four retained remote absences while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
-        "localReadbacks":"local rendered Journal anchor/title, Naive current/card, canonical work title/tableau, raw v038 tableau, source works.json record, public catalog record, and favicon returned/rendered",
-        "localProofPath":"research/qa/proofs/naive-v038-2026-10-28/",
-        "localScreenshotCount":3,
-        "unresolved":["production browser verification","independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
+        "status": "20/20 local browser matrix/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; production browser verification and independent caption-free perceptual review remain pending",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localRawPreview": "/studies/naive-art/v038/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/naive-art/v038/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/naive-2026-10-28/",
+        "localViewportRuns": 20,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "deterministic look committed actual remote Canvas geometry; Delete restored the exact scene; Enter committed; R released; all three controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept one p5.js Canvas 2D witness-absence field visible with four retained remote absences while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local rendered Journal anchor/title, Naive current/card, canonical work title/tableau, raw v038 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "localProofPath": "research/qa/proofs/naive-v038-2026-10-28/",
+        "localScreenshotCount": 3,
+        "unresolved": [
+          "production browser verification",
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       },
       "decision": {
-        "nextMutation":"Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v038 if the blind field reads as a generic crowd or diagram, if a short look commits, if the approached witness answers directly, if remote geometry is cosmetic, if later looks reset, or if exact lifting fails.",
-        "lineage":"naive-2026-10-27"
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, annotations-off, and prose-off comparison; delete v038 if the blind field reads as a generic crowd or diagram, if a short look commits, if the approached witness answers directly, if remote geometry is cosmetic, if later looks reset, or if exact lifting fails.",
+        "lineage": "naive-2026-10-27"
       }
     },
     {
@@ -208,14 +422,38 @@
         "note": "v040 leaves v039's closed wound field, v038's lamina interval, and v037's local crease sheet. Thirteen irregular pigment fragments now hang as one offset archive: a press is geometrically neutral, an upward exit lifts one fragment, and the remaining mass settles through the missing support. Four absences remain liftable and later removals inherit the altered weight."
       },
       "critiques": [
-        {"persona":"Archive-form critic","argument":"Thirteen irregular fragments must read as one suspended material archive before they read as tiles. Uneven mass, offset gaps, weighted shadows, and cavity rhythm must carry the composition without a grid or control surface."},
-        {"persona":"Perceptual critic","argument":"With readout, controls, hint, and prose hidden, the first view must leave v037's crease sheet, v038's lamina stack, and v039's wound field. It should read as a load-bearing accumulation, not a node diagram or physics demo."},
-        {"persona":"Encounter critic","argument":"The visitor must lift and remove one fragment through an upward exit. Pressing, holding, moving downward, or releasing inside the archive must not commit."},
-        {"persona":"Material critic","argument":"Removal must alter actual remaining Canvas geometry: neighbouring fragments must settle in position, tilt, shadow depth, and dry edge. Colour, markers, and readout cannot substitute for gravity."},
-        {"persona":"Memory critic","argument":"Four absences must compound in the support field. Later lifts must rebuild from the settled arrangement, Delete must reconstruct the exact preceding archive, and release must restore the quiet seed."},
-        {"persona":"Medium critic","argument":"p5.js Canvas 2D polygonal fragments and their settling geometry must be the produced medium, not a screenshot, CSS tile wall, or decorative overlay."},
-        {"persona":"Cultural critic","argument":"p5.brush is translated from material production logic, not copied as brushes, watercolor, hatching, grain, palette, composition, code, or API surface. The new rule is load-bearing absence and settling memory."},
-        {"persona":"Cynic","argument":"Delete v040 if the blind field reads as a generic tile or node layout, if the lifted fragment does not leave a produced cavity, if remaining mass stays fixed, if later removals forget, or if exact lifting fails."}
+        {
+          "persona": "Archive-form critic",
+          "argument": "Thirteen irregular fragments must read as one suspended material archive before they read as tiles. Uneven mass, offset gaps, weighted shadows, and cavity rhythm must carry the composition without a grid or control surface."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, controls, hint, and prose hidden, the first view must leave v037's crease sheet, v038's lamina stack, and v039's wound field. It should read as a load-bearing accumulation, not a node diagram or physics demo."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must lift and remove one fragment through an upward exit. Pressing, holding, moving downward, or releasing inside the archive must not commit."
+        },
+        {
+          "persona": "Material critic",
+          "argument": "Removal must alter actual remaining Canvas geometry: neighbouring fragments must settle in position, tilt, shadow depth, and dry edge. Colour, markers, and readout cannot substitute for gravity."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four absences must compound in the support field. Later lifts must rebuild from the settled arrangement, Delete must reconstruct the exact preceding archive, and release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "p5.js Canvas 2D polygonal fragments and their settling geometry must be the produced medium, not a screenshot, CSS tile wall, or decorative overlay."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from material production logic, not copied as brushes, watercolor, hatching, grain, palette, composition, code, or API surface. The new rule is load-bearing absence and settling memory."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v040 if the blind field reads as a generic tile or node layout, if the lifted fragment does not leave a produced cavity, if remaining mass stays fixed, if later removals forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
         "id": "p5-brush-v040-settling-archive",
@@ -258,8 +496,17 @@
         "status": "23/23 local and 23/23 production browser matrix/probe runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; interaction, blind preview, Journal/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; independent caption-free perceptual review and provider revision linkage remain pending",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
-        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-        "modes": ["normal", "reduced-motion"],
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
         "localAlias": "http://127.0.0.1:49340",
         "localRawPreview": "/studies/p5-brush/v040/?preview=1&interaction=1",
         "localBlindPreview": "/studies/p5-brush/v040/?preview=1&static=1&blind=1",
@@ -284,7 +531,10 @@
         "productionBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept one p5.js Canvas 2D settling archive visible with 13 fragments and four removed cavities while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
         "productionReadbacks": "stable production rendered Journal anchor/title, Brush current/card, canonical work title/tableau, raw v040 tableau, deployed works.json record, public catalog record, and favicon returned/rendered",
         "productionScreenshotCount": 23,
-        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v040 if the blind archive reads as a generic tile field or physics demo, if a press moves geometry, if a downward gesture commits, if settling is cosmetic, if later lifts reset, or if exact lifting fails.",
@@ -304,16 +554,46 @@
         "note": "v038 closes v037's proximity tour through cut cells, v036's open filament organism, and v035's closed attention topology. Twelve angular folds now sit on split margins around a withheld middle: a two-edge accord is offered but not connected, the endpoints stay exact, and an unoffered counterfold opens while a remote hinge tightens and an echo changes crease. Four refusals remain liftable and later accords inherit the altered fold field."
       },
       "critiques": [
-        {"persona":"Counterfold-form critic","argument":"Twelve angular folds must read as one withheld composition with split margins before they read as a two-column diagram. The quiet middle, asymmetrical scales, cut notches, and crease vocabulary must carry the image without controls or prose."},
-        {"persona":"Perceptual critic","argument":"With labels, readout, controls, and annotations hidden, the first view must leave v035's body, v036's filament, and v037's cut-cell constellation. It should read as a new counterfold field, not a route map, grid, score, or interface."},
-        {"persona":"Encounter critic","argument":"The visitor must offer two separated edges in one bounded gesture. A one-edge offer, near pair, same edge, or sprawling pair must be refused; a valid offer must not become a persistent connecting stroke."},
-        {"persona":"Causal critic","argument":"The offered endpoints must remain geometrically exact while an unoffered counterfold opens, a remote hinge tightens, and an echo changes crease geometry. Colour, markers, and readout cannot substitute for produced paths."},
-        {"persona":"Non-locality critic","argument":"The answer must be visibly elsewhere. A viewer should be able to identify that the changed counterfold was not one of the two offered edges."},
-        {"persona":"Memory critic","argument":"Four refusals must compound in the fold field. Later accords must inherit prior remote roles, Delete must reconstruct the exact prior field, and release must restore the quiet seed."},
-        {"persona":"Medium critic","argument":"Inline SVG path and crease geometry must be the produced medium. No screenshot, raster fallback, or CSS-only fake geometry may carry the work."},
-        {"persona":"Cultural critic","argument":"little-critters is used as an explicit inversion of situated looking: abstract folds turn away from the offered pair. No animals, eyes, characters, paper scene, head-turning gesture, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced."},
-        {"persona":"Radical progression critic","argument":"v038 changes representation, composition, encounter, temporal grammar, and viewer task: independent cells and continuous paths become a split-margin counterfold field, and proximity touring becomes a discrete two-edge offer whose answer is unoffered."},
-        {"persona":"Cynic","argument":"Delete v038 if the blind field reads as a generic two-column diagram, if the pair deforms, if the offer remains, if remote roles are cosmetic, if later accords forget, or if exact lifting fails."}
+        {
+          "persona": "Counterfold-form critic",
+          "argument": "Twelve angular folds must read as one withheld composition with split margins before they read as a two-column diagram. The quiet middle, asymmetrical scales, cut notches, and crease vocabulary must carry the image without controls or prose."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, and annotations hidden, the first view must leave v035's body, v036's filament, and v037's cut-cell constellation. It should read as a new counterfold field, not a route map, grid, score, or interface."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must offer two separated edges in one bounded gesture. A one-edge offer, near pair, same edge, or sprawling pair must be refused; a valid offer must not become a persistent connecting stroke."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "The offered endpoints must remain geometrically exact while an unoffered counterfold opens, a remote hinge tightens, and an echo changes crease geometry. Colour, markers, and readout cannot substitute for produced paths."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The answer must be visibly elsewhere. A viewer should be able to identify that the changed counterfold was not one of the two offered edges."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four refusals must compound in the fold field. Later accords must inherit prior remote roles, Delete must reconstruct the exact prior field, and release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "Inline SVG path and crease geometry must be the produced medium. No screenshot, raster fallback, or CSS-only fake geometry may carry the work."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is used as an explicit inversion of situated looking: abstract folds turn away from the offered pair. No animals, eyes, characters, paper scene, head-turning gesture, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v038 changes representation, composition, encounter, temporal grammar, and viewer task: independent cells and continuous paths become a split-margin counterfold field, and proximity touring becomes a discrete two-edge offer whose answer is unoffered."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v038 if the blind field reads as a generic two-column diagram, if the pair deforms, if the offer remains, if remote roles are cosmetic, if later accords forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
         "id": "pure-svg-v038-counterfold",
@@ -357,8 +637,17 @@
         "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; independent caption-free perceptual review and provider revision linkage remain pending",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
-        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-        "modes": ["normal", "reduced-motion"],
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
         "localAlias": "http://127.0.0.1:53492",
         "productionAlias": "https://autopoiesis-nine.vercel.app",
         "localRawPreview": "/studies/pure-svg/v038/?preview=1&interaction=1",
@@ -389,7 +678,10 @@
         "productionProofPath": "research/qa/proofs/pure-svg-v038-2026-10-28-production/",
         "localScreenshotCount": 3,
         "productionScreenshotCount": 3,
-        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v038 if the blind field reads as a generic two-column diagram, if the pair deforms, if the offer remains, if remote roles are cosmetic, if later accords reset, or if exact lifting fails.",
@@ -559,15 +851,42 @@
         "note": "v036 abandons v035's attention orbit, v034's forecast loom, and v033's reciprocal body. Nine irregular Canvas 2D strata now form one pressure specimen: a drag loads a geometry-neutral resistance ledger, then release makes a remote stratum harden, another fracture, and a third bind. Four casts remain liftable and later material events inherit the altered load."
       },
       "critiques": [
-        {"persona":"Specimen-form critic","argument":"Nine irregular strata must read as one authored cast specimen before they read as bars. The offset edges, internal fault, dark cuts, and diagonal binding scar must carry the composition without labels or controls."},
-        {"persona":"Perceptual critic","argument":"With readout, hint, controls, and prose hidden, the first view must leave v035's vacancy orbit, v034's forecast loom, and v033's reciprocal body. It should read as a material cross-section or pressure fossil, not a chart, stack, brush demo, or generic linefield."},
-        {"persona":"Encounter critic","argument":"A drag is not a drawing and the release point is not an answer. The pointer and Arrow-key paths must load a geometry-neutral probe; release, Enter, and Space must be equivalent casts."},
-        {"persona":"Causal critic","argument":"The cast must change produced geometry away from the contact point: a remote stratum widens and deepens, another gains a notch and split, and a third gains an actual bridge. Colour, glow, and readout cannot substitute."},
-        {"persona":"Memory critic","argument":"Four casts must compound in the resistance ledger and alter later role selection. Delete must reconstruct the exact preceding specimen; release must restore the quiet seed."},
-        {"persona":"Medium critic","argument":"Canvas 2D raster drawing is the produced medium. The strata, cuts, faults, and binding scar must be actual canvas geometry, not a screenshot or HTML bar chart."},
-        {"persona":"Cultural critic","argument":"p5.brush is translated from material production logic, not copied as brushes, watercolor, hatching, grain, palette, composition, code, or API surface. Resistance must decide the next geometry."},
-        {"persona":"Radical progression critic","argument":"v036 changes medium, composition, encounter, temporal rule, and shape vocabulary: the portrait is no longer a field that watches, predicts, or answers after withdrawal; it is a specimen whose stored pressure alters its next cast."},
-        {"persona":"Cynic","argument":"Delete v036 if the blind specimen reads as a generic bar chart or decorative stack, if the probe draws itself, if the contact point is the answer, if material roles are cosmetic, if later casts forget, or if exact lifting fails."}
+        {
+          "persona": "Specimen-form critic",
+          "argument": "Nine irregular strata must read as one authored cast specimen before they read as bars. The offset edges, internal fault, dark cuts, and diagonal binding scar must carry the composition without labels or controls."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, hint, controls, and prose hidden, the first view must leave v035's vacancy orbit, v034's forecast loom, and v033's reciprocal body. It should read as a material cross-section or pressure fossil, not a chart, stack, brush demo, or generic linefield."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "A drag is not a drawing and the release point is not an answer. The pointer and Arrow-key paths must load a geometry-neutral probe; release, Enter, and Space must be equivalent casts."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "The cast must change produced geometry away from the contact point: a remote stratum widens and deepens, another gains a notch and split, and a third gains an actual bridge. Colour, glow, and readout cannot substitute."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four casts must compound in the resistance ledger and alter later role selection. Delete must reconstruct the exact preceding specimen; release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "Canvas 2D raster drawing is the produced medium. The strata, cuts, faults, and binding scar must be actual canvas geometry, not a screenshot or HTML bar chart."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from material production logic, not copied as brushes, watercolor, hatching, grain, palette, composition, code, or API surface. Resistance must decide the next geometry."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v036 changes medium, composition, encounter, temporal rule, and shape vocabulary: the portrait is no longer a field that watches, predicts, or answers after withdrawal; it is a specimen whose stored pressure alters its next cast."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v036 if the blind specimen reads as a generic bar chart or decorative stack, if the probe draws itself, if the contact point is the answer, if material roles are cosmetic, if later casts forget, or if exact lifting fails."
+        }
       ],
       "metrics": {
         "id": "portrait-v036-resistance-cast",
@@ -608,8 +927,17 @@
         "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, canonical readback, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
-        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-        "modes": ["normal", "reduced-motion"],
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
         "localAlias": "http://127.0.0.1:49436",
         "localRawPreview": "/studies/self-portrait/v036/?preview=1&interaction=1",
         "localBlindPreview": "/studies/self-portrait/v036/?preview=1&static=1&blind=1",
@@ -644,7 +972,10 @@
         "productionDeploymentUrl": "https://autopoiesis-ng7md1eg6-lairpa-hotmailfrs-projects.vercel.app",
         "artifactCommit": "f9c479c5d2b4b79c4bd745580921974e886f9c35",
         "publicationRemoteSha": "f9c479c5d2b4b79c4bd745580921974e886f9c35",
-        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and caption-off comparison; delete v036 if the blind specimen reads as a generic bar chart or decorative stack, if the probe draws itself, if the contact point is the answer, if material roles are cosmetic, if later casts forget, or if exact lifting fails.",
