@@ -99,7 +99,7 @@
         "lineage": "webgpu-2026-10-29"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 stable-alias production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -128,8 +128,26 @@
         "localReadbacks": "Local rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v039 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
         "localProofPath": "research/qa/proofs/webgpu-v039-2026-10-30/",
         "localScreenshotCount": 25,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v039/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v039/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-10-30/",
+        "productionDeploymentId": "dpl_4sNwnGN6bbTsEYXKkFvto3TrQMFb",
+        "productionDeploymentUrl": "https://autopoiesis-mxluahlss-lairpa-hotmailfrs-projects.vercel.app",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable-alias pointer path selected two distinct reservoirs without changing the geometry signature; compress pair produced one remote body and shared-void change; Delete restored the exact baseline; Enter committed an equivalent deterministic pair; Escape released; a repeated same-body selection was refused; all three controls measured 44px at 390x844.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept one p5.js Canvas 2D pressure-reservoir body visible with 17 closed bodies and four settled pressure relations while hiding readout, controls, status, and caption; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable-alias works.json and catalog-public.json returned HTTP 200 with exactly one published record each; rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v039 tableau, and favicon returned/rendered.",
+        "productionProofPath": "research/qa/proofs/webgpu-v039-2026-10-30-production/",
+        "productionScreenshotCount": 25,
+        "artifactCommit": "9486787f008f005e6ee6256da236199eeb8f8872",
+        "publicationRemoteSha": "9486787f008f005e6ee6256da236199eeb8f8872",
         "unresolved": [
-          "production browser verification",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]
