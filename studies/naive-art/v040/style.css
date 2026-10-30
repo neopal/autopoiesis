@@ -1,0 +1,98 @@
+:root {
+  --ground: #111814;
+  --ground-2: #1b2b20;
+  --ink: #f0e8d7;
+  --muted: #a6b09d;
+  --paper: #b9c29e;
+  --paper-2: #748067;
+  --line: rgba(240, 232, 215, .23);
+  --coral: #e46b56;
+  --blue: #79b2ae;
+  --ochre: #d7b45e;
+  --black: #111814;
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 76% 12%, rgba(228, 107, 86, .16), transparent 25rem),
+    radial-gradient(circle at 11% 86%, rgba(121, 178, 174, .12), transparent 26rem),
+    repeating-linear-gradient(103deg, rgba(240, 232, 215, .034) 0 1px, transparent 1px 29px),
+    linear-gradient(143deg, var(--ground), var(--ground-2) 58%, #0b100d);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.mould-shell { min-height: 100vh; padding: 0 3vw; }
+.mould-main { max-width: 1500px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: var(--ink); }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(240, 232, 215, .62); }
+.studio-path a { color: var(--ink); }
+.mould-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, .3fr);
+  gap: clamp(1rem, 3vw, 3.6rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.mould-work { margin: 0; padding: clamp(.45rem, 1.2vw, 1.15rem); color: var(--black); background: rgba(188, 198, 161, .92); box-shadow: 1.2rem 2rem 4rem rgba(0,0,0,.32); }
+.mould-field { position: relative; isolation: isolate; container-type: inline-size; outline: none; aspect-ratio: 1.18 / .9; min-height: 330px; overflow: hidden; background: var(--paper); cursor: crosshair; touch-action: none; }
+.mould-field:focus-visible { box-shadow: 0 0 0 4px var(--coral); }
+.mould-canvas-mount, .mould-canvas-mount canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.mould-canvas-mount canvas { outline: none; }
+.mould-readout { position: absolute; z-index: 30; left: 1.05rem; top: .86rem; display: flex; flex-wrap: wrap; gap: .45rem 1rem; color: rgba(240,232,215,.9); font-size: .67rem; pointer-events: none; mix-blend-mode: multiply; }
+.mould-readout span::before { content: '— '; color: var(--coral); }
+.mould-pending { position: absolute; inset: 0; z-index: 25; pointer-events: none; }
+.pending-mark { position: absolute; width: 22px; height: 8px; border: 2px solid var(--coral); transform: translate(-50%,-50%) rotate(-8deg); box-shadow: 0 0 0 5px rgba(228,107,86,.16); }
+.mould-controls { position: relative; z-index: 40; display: flex; flex-wrap: wrap; gap: .45rem; padding: .75rem .15rem .05rem; }
+.mould-controls button { min-width: 44px; min-height: 44px; border: 1px solid rgba(17,24,20,.7); border-radius: 0; padding: .6rem .8rem; color: var(--black); background: transparent; font: 600 .7rem/1.1 ui-monospace, monospace; cursor: pointer; }
+.mould-controls button:hover, .mould-controls button:focus-visible { color: var(--paper); background: var(--black); outline: none; }
+.mould-hint { margin: .5rem 0 .1rem; color: rgba(17,24,20,.75); font-size: .63rem; line-height: 1.4; }
+.mould-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .65rem .1rem 0; color: rgba(17,24,20,.68); font-size: .64rem; line-height: 1.3; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: .5rem; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .65rem; }
+.work-annotations span, .studio-kicker { color: var(--coral); font: 600 .66rem/1.2 ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.work-annotations p { margin: .5rem 0 0; color: rgba(240,232,215,.77); font: .92rem/1.55 system-ui, sans-serif; }
+.work-opening { border-top-color: var(--line); }
+.work-opening h1 { color: var(--ink); }
+.work-premise { color: rgba(240,232,215,.73); }
+.work-note { border-color: var(--line); color: rgba(240,232,215,.73); }
+.work-loop { color: var(--coral); }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .mould-work figcaption { display: none; }
+html.preview-mode .mould-main { max-width: 100vw; padding: 0; }
+html.preview-mode .mould-surface { display: block; margin: 0; }
+html.preview-mode .mould-work { padding: 0; box-shadow: none; }
+html.blind-mode .mould-readout,
+html.blind-mode .mould-controls,
+html.blind-mode .mould-hint,
+html.blind-mode .mould-pending { display: none; }
+html.blind-mode .mould-field { cursor: default; }
+
+@media (max-width: 860px) {
+  .mould-shell { padding: 0 1rem; }
+  .mould-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
+}
+@media (max-width: 560px) {
+  .mould-shell { padding: 0 .55rem; }
+  .mould-surface { margin-top: .5rem; }
+  .mould-work { padding: .35rem; }
+  .mould-field { min-height: 0; aspect-ratio: .83 / 1; }
+  .mould-readout { left: .6rem; top: .55rem; font-size: .57rem; }
+  .mould-controls { gap: .3rem; }
+  .mould-controls > button { flex: 1 1 8rem; padding: .55rem .5rem; }
+  .mould-hint { font-size: .57rem; }
+  .mould-work figcaption { display: grid; gap: .25rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: .8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mould-controls button { transition: none; }
+}

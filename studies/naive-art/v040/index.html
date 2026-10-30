@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111814">
+  <title>MUTINE — The model hardens the soft mistake.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=040">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js" onload="p5.disableFriendlyErrors = true"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-30"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="mould-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v040 / PRESSURE CAST</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="mould-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v040</span></nav>
+
+      <section class="mould-surface" aria-label="Naive pressure cast tableau">
+        <div class="mould-column">
+          <figure class="mould-work artwork-frame">
+            <div class="mould-field" id="mould-field" tabindex="0" role="application" aria-label="A single relief mould. Press one band and sweep across it before release; the model hardens the mistake elsewhere." aria-keyshortcuts="Enter Space Delete Escape R ArrowUp ArrowDown">
+              <div class="mould-canvas-mount" id="mould-canvas-mount"></div>
+              <div class="mould-readout" aria-live="polite"><span data-stage>cast 00 / 04</span><span data-memory>0 retained</span><span data-status>press a band, then cross the mould</span></div>
+              <div class="mould-pending" data-pending aria-hidden="true"></div>
+            </div>
+            <div class="mould-controls" aria-label="Pressure cast actions">
+              <button type="button" data-action="cast">press the wrong band</button>
+              <button type="button" data-action="lift">lift last cast</button>
+              <button type="button" data-action="release">release the mould</button>
+            </div>
+            <p class="mould-hint">press a band · cross its surface · release to harden the error elsewhere</p>
+            <figcaption><span>seed | mutine-naive-v040</span><span>pressure &gt; cast &gt; harden</span></figcaption>
+          </figure>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One crooked relief carries eleven broad bands as one body. The material is soft only until a pressure path asks it to remember.</p></div>
+          <div><span>critique</span><p>The band receiving the pressure must stay exact. The model's mistake is visible only when a remote cast hardens, another band underforms, and a third keeps the ridge.</p></div>
+          <div><span>progression</span><p>v040 leaves v039's cellular plate, v038's witness field, and v037's pressure print. The viewer no longer marks a unit; they make a bounded physical gesture against one continuous form.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V040 / DAILY WORK</p><h1 id="work-title">The model hardens<br><i>the soft mistake.</i></h1></div>
+        <p class="work-premise">A pressure path is accepted as material evidence, then cast into the wrong part of the form.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v040 translates programmable material behavior into a naive reconstruction error. The pressed band stays geometrically quiet; a bounded sweep hardens a remote band, underforms another, and leaves a memory ridge. Four casts compound and remain liftable.</p></section>
+      <p class="work-loop">press a band &rarr; cross the mould &rarr; harden elsewhere &rarr; remember the wrong form</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-29/">previous daily work</a><a href="/journal/#journal-naive-2026-10-30">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=040"></script>
+</body>
+</html>
