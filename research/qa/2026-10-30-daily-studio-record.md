@@ -124,8 +124,8 @@ The earlier audit and SVG addendum above are retained as provenance. This addend
 
 ### Brush verification update
 
-- Targeted v042 test: pass.
-- `npm test`: **1207 passed, 0 failed**.
+- Targeted v042 test: **8/8 passed**.
+- `npm test`: **1213 passed, 0 failed**.
 - JavaScript syntax checks for v042 engine, sketch, and probe: pass.
 - `git diff --check`: pass.
 - Local Playwright probe: **20/20** raw/canonical runs passed at `320x568`, `390x844`, `768x1024`, `1280x800`, and `1920x1080`, normal and reduced motion.
