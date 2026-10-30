@@ -131,15 +131,15 @@
         "productionReadbacks": "stable-alias works.json and catalog-public.json returned HTTP 200 with exactly one published record each; rendered Journal anchor/title, Brush current, canonical work title/tableau, raw v042 tableau, and /studio/favicon.svg returned/rendered",
         "productionProofPath": "research/qa/proofs/brush-v042-2026-10-30-production-recheck/",
         "productionScreenshotCount": 23,
-        "productionDeploymentId": "dpl_9v8T9j5ueGJXuzipiSKCksZ5Am2v",
-        "productionDeploymentUrl": "https://autopoiesis-9m1nukfts-lairpa-hotmailfrs-projects.vercel.app",
-        "productionAliasInspection": "npx vercel inspect confirmed the stable alias resolves to dpl_9v8T9j5ueGJXuzipiSKCksZ5Am2v; inspection did not expose a GitHub revision, so revision linkage remains unasserted",
+        "productionAliasInspection": "Recorded production recheck resolved the stable alias to the evidence deployment dpl_CpqdDkfuibrAb1AKq7GAW4Stwyjy; later metadata-only pushes may create new Vercel deployments, and no GitHub revision linkage is asserted",
         "artifactCommit": "152e1fc",
         "publicationRemoteSha": "449dcd6091ba17372be1c417241ad5238990ba1e",
         "unresolved": [
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
-        ]
+        ],
+        "productionEvidenceDeploymentId": "dpl_9v8T9j5ueGJXuzipiSKCksZ5Am2v",
+        "productionEvidenceDeploymentUrl": "https://autopoiesis-9m1nukfts-lairpa-hotmailfrs-projects.vercel.app"
       }
     },
     {
