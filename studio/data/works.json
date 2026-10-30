@@ -2,6 +2,130 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-10-30",
+      "currentId": "brush",
+      "date": "2026-10-30",
+      "title": "The paint cures around the held breath.",
+      "rawPath": "/studies/p5-brush/v042/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-10-30",
+        "note": "v042 leaves v041's relief membrane, v040's settling archive, and v039's wound contour for one flat raster cure plate. A bounded dwell keeps its held well exact while one remote zone seals, another fractures, and a third bleeds. Four cures compound and remain liftable in the same material field."
+      },
+      "critiques": [
+        {
+          "persona": "Plate-form critic",
+          "argument": "The raster must read as one authored pigment plate before it reads as a grid. The irregular silhouette, dry edge, central seam, and sparse remote phase regions must carry the composition without a visible interface."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, controls, hint, and prose hidden, the first view must leave v039's contour wound, v040's fragment archive, and v041's relief membrane. It should read as a flat phase-changing plate, not a heatmap, terrain, pixel field, or decorative texture."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must sustain stillness inside a bounded dwell window. A passing touch, short hold, overlong hold, or miss must remain geometry-neutral; duration is the task, not a cursor path."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "An accepted dwell must change actual raster cell mass, dryness, fracture, and bleed in three remote roles. A timer ring, colour flash, readout, or prose cannot substitute for produced cells."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The held well must stay quiet enough to prove that pressure is not a stamp. The visitor should find a seal, a fracture, and a bleed elsewhere in the same plate."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four cures must compound in the same raster. Delete must reconstruct the exact preceding cells and release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "p5.js Canvas 2D raster cells are the produced medium. Material fields must be recalculated from deterministic event memory rather than an overlay, CSS texture, SVG fallback, or screenshot."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from pressure and production logic, not copied as brushes, watercolor, hatching, grain, palette, composition, source code, examples, or API surface. Duration must become a new causal material threshold."
+        }
+      ],
+      "metrics": {
+        "id": "p5-brush-v042-dwell-cure-plate",
+        "visitorInput": true,
+        "seed": "0x42523432",
+        "stages": 9,
+        "wellCount": 9,
+        "gridCols": 72,
+        "gridRows": 48,
+        "memoryWindow": 4,
+        "minimumDwellMs": 820,
+        "maximumDwellMs": 2600,
+        "renderer": "deterministic p5.js Canvas 2D raster cure plate",
+        "grammar": "dwell-cure-plate",
+        "replay": true,
+        "memoryRule": "a bounded dwell keeps the held well quiet while a remote zone seals, another fractures, and a third bleeds in the raster plate; four cures compound",
+        "interactionRule": "pointer or touch presses and holds one material well until the bounded time window, then releases; short, overlong, and missed visits refuse; Enter, Space, and the cure control use a deterministic dwell; Delete lifts latest; Escape or R releases",
+        "representationRupture": "continuous WEBGL relief membrane, Canvas fragment archive, and SVG wound field -> one flat p5.js Canvas 2D raster cure plate",
+        "compositionRupture": "oblique surface, suspended fragments, and contour enclosure -> a single irregular pigment plate with a dry edge, central pressure seam, and remote phase zones",
+        "encounterRupture": "separated visit, upward lift, and closed loop -> timed stillness: the visitor must sustain pressure without drawing a path",
+        "temporalRupture": "remote backface relay, settling absence, and wound memory -> bounded dwell threshold with short/overlong refusal and phase memory",
+        "mediumRupture": "p5.js WEBGL relief geometry, p5.js Canvas 2D fragments, and inline SVG topology -> p5.js 1.11.3 Canvas 2D raster cells with material fields",
+        "changedRule": "A bounded dwell is the only accepted material input. The held well remains geometry-neutral; an accepted dwell changes three remote zones through actual raster mass, dryness, fracture, and bleed fields.",
+        "visibleConsequence": "The blind view is one flat irregular pigment plate. A valid dwell produces a remote seal, fracture, and bleed away from the held well; four cures persist and can be lifted exactly.",
+        "falsifier": "Delete if a passing touch changes the plate, if short or overlong dwell commits, if the held well answers itself, if remote roles are only colour/readout, if the blind plate reads as generic terrain or a heatmap, or if later cures reset.",
+        "deletionCondition": "Delete v042 if caption-free viewing reads as a generic heatmap, terrain, pixel field, or decorative texture, or if duration does not materially change the raster plate's production.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "p5-brush"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing tools make pressure, density, and directional behaviour part of the production engine; material changes how geometry is produced rather than merely styling a finished mark.",
+        "translatedRule": "Refuse brushes, watercolor, hatching, grain, vector fields, palette, composition, source code, examples, and API surface. Translate production logic into a bounded dwell threshold: held pressure changes future raster production in three remote material roles.",
+        "visibleConsequence": "The held well stays exact while remote raster cells gain seal mass, fracture, and bleed fields. Four cures compound in one flat plate and can be lifted in reverse order.",
+        "falsifier": "If a passing touch changes the plate, if short or overlong dwell commits, if the held well answers itself, if remote roles are only colour or readout, if the blind view reads as generic terrain or a heatmap, or if later cures reset, the translation fails.",
+        "antiCopy": "No brush appearance, watercolor, hatching, grain, vector-field drawing, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Brush's relief / settling / wound sequence and opens a phase-change direction in which material agency is tested through duration, bounded refusal, and raster memory."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v042 if the blind plate reads as a generic heatmap, terrain, or decorative pixel field, if duration is cosmetic, if the held well changes, if remote roles do not alter cells, if later cures forget, or if exact lifting fails.",
+        "lineage": "brush-2026-10-29"
+      },
+      "browserEvidence": {
+        "status": "20/20 local headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:49142",
+        "localRawPreview": "/studies/p5-brush/v042/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/p5-brush/v042/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/brush-2026-10-30/",
+        "localViewportRuns": 20,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "real pointer dwell committed after 1 second; preview geometry stayed exact; accepted dwell changed remote raster cells; short dwell refused; control and Enter committed; Delete restored the exact quiet plate; Escape released; all three controls measured 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept the raster canvas visible with 3456 cells and four settled cures while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local rendered Journal anchor/title, current, canonical work, raw v042 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "localProofPath": "research/qa/proofs/brush-v042-2026-10-30/",
+        "localScreenshotCount": 23,
+        "unresolved": [
+          "production browser matrix",
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "portrait-2026-10-30",
       "currentId": "portrait",
       "date": "2026-10-30",
@@ -146,7 +270,152 @@
         ]
       }
     },
-    {"id":"svg-2026-10-30","currentId":"svg","date":"2026-10-30","title":"The aperture answers elsewhere.","rawPath":"/studies/pure-svg/v040/","status":"candidate / held","lifecycle":"active","journal":{"anchor":"journal-svg-2026-10-30","note":"v040 breaks v039's one-body winding contour, v038's split-margin counterfold, and v037's cut-cell vacancy. One heavy SVG mass now holds seven unequal apertures: a witnessed opening stays exact, while an explicit answer changes three remote apertures—one admits, one withholds, and one slips. Four answers remain liftable in the same punctured body."},"critiques":[{"persona":"Mass-form critic","argument":"One asymmetrical slab must read as a singular punctured body before it reads as seven windows. Uneven aperture scale, heavy edge, open ground, and diagonal weight must carry the composition."},{"persona":"Perceptual critic","argument":"With labels, readout, controls, annotations, and prose hidden, the first view must leave v037's cut-cell field, v038's counterfold, and v039's contour. It should read as a new mass-and-absence grammar, not a window diagram, logo, or interface."},{"persona":"Encounter critic","argument":"The visitor must choose an aperture and then answer after a pause in causality. Selection and an unarmed answer must remain geometry-neutral; pointer, keyboard, touch, and control paths need equivalent meaningful routes."},{"persona":"Causal critic","argument":"The committed answer must regenerate one actual compound SVG path: a remote aperture expands, another contracts, and a third shifts. A selected ring, status line, colour change, or prose cannot substitute."},{"persona":"Non-locality critic","argument":"The witnessed hole must remain exact enough to prove that the mass replies elsewhere. The visitor should locate three remote consequences without a cursor trail or diagram."},{"persona":"Memory critic","argument":"Four responses must compound in the same mass. Delete must reconstruct the exact preceding path, and release must restore the quiet seed."},{"persona":"Medium critic","argument":"One even-odd inline SVG path is the produced medium. No screenshot, CSS window collection, or seven independent decorative paths may carry the work."},{"persona":"Cultural critic","argument":"little-critters is translated from situated reciprocal attention into a delayed aperture response. No animals, eyes, paper scene, head-turning gesture, source palette, composition, code, examples, API names, or surface vocabulary is reproduced."},{"persona":"Radical progression critic","argument":"v040 changes representation, composition, encounter, temporal grammar, and viewer task: the singular contour becomes a punctured mass, the sweep becomes a discrete witness, and the answer is delayed and remote."},{"persona":"Cynic","argument":"Delete v040 if the blind mass reads as a polished window diagram, if witnessing changes geometry, if the local hole answers, if remote roles are cosmetic, if later responses forget, or if exact lifting fails."}],"metrics":{"id":"pure-svg-v040-reciprocal-aperture","seed":"0x53564740","visitorInput":true,"massCount":1,"portalCount":7,"memoryWindow":4,"primitiveBudget":1,"renderer":"deterministic inline SVG reciprocal aperture mass","grammar":"reciprocal-aperture","replay":true,"commitThreshold":"a witnessed aperture followed by an explicit answer","memoryRule":"a witness stays geometry-neutral; an answer changes three remote apertures in one solid mass and four responses remain liftable","interactionRule":"click an aperture to witness; Enter, Space, and the answer control commit; Delete lifts latest; Escape or R releases","representationRupture":"one winding contour, split-margin folds, and independent cut cells -> one filled even-odd SVG mass with seven apertures","compositionRupture":"centred body, withheld middle, and broken constellation -> heavy asymmetrical slab against open ground","encounterRupture":"turned sweep, two-edge offer, and proximity tour -> click one absence, then explicitly answer after the witness remains exact","temporalRupture":"winding memory, refusal ledger, and vacancy migration -> delayed reciprocal production in a remote aperture with four retained responses","mediumRupture":"compound contour and independent path field -> one compound SVG mass path with holes generated from replay state","changedRule":"A witnessed aperture is geometry-neutral. An explicit answer changes three remote apertures: one opens, one withholds, and one slips its registration.","visibleConsequence":"The blind view is one asymmetrical solid mass pierced by seven unequal apertures. A valid answer changes actual remote path geometry while the witnessed aperture stays exact; four responses persist.","falsifier":"Delete if witnessing changes the mass, if the answer occurs at the witnessed aperture, if remote roles are cosmetic, if the blind mass reads as a generic window diagram, if later answers reset, or if exact lifting fails.","deletionCondition":"Delete v040 if caption-free viewing cannot distinguish the reciprocal-aperture grammar from v037-v039 or if delayed non-local response is not materially produced.","promotion":"candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage","referenceId":"little-critters"},"source":{"referenceId":"little-critters","title":"little-critters","url":"https://github.com/GordenSun/little-critters","observedMechanism":"Situated code-drawn agents make pointer proximity legible as reciprocal attention; the visitor enters a social field and local behaviour answers without a dashboard.","translatedRule":"Refuse animals, eyes, characters, paper, head-turning, source palette, source composition, source code, examples, and API surface. Translate reciprocal attention into Pure SVG: a clicked aperture becomes a geometry-neutral witness, and an explicit answer changes three remote apertures in one solid mass.","visibleConsequence":"The witnessed opening stays exact while a remote opening expands, another withholds itself, and a third slips its registration through actual changes to one compound SVG path. Four responses persist.","falsifier":"If selection changes geometry, if the answer occurs at the witness, if remote changes exist only in colour/readout, if the blind mass reads as a window diagram, if later responses reset, or if lifting is inexact, the translation fails.","antiCopy":"No animals, characters, eyes, paper scene, head-turning gesture, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.","directionConsequence":"Closes Pure SVG's winding-contour / counterfold / witness-vacancy run and opens a solid-mass direction: reciprocal attention is tested as delayed topology in a punctured body rather than a line, field, or remote fold.","selectedBySlot":true},"decision":{"nextMutation":"Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v040 if the blind mass reads as a window diagram, logo, ring, or refined contour, if witnessing changes geometry, if the local hole answers, if remote roles are cosmetic, if later answers reset, or if exact lifting fails.","lineage":"svg-2026-10-29"},"browserEvidence":{"status":"20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; production interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; independent caption-free perceptual review and provider revision linkage remain pending","productionReady":false,"runner":"headless system Chrome via Playwright","viewports":["320x568","390x844","768x1024","1280x800","1920x1080"],"modes":["normal","reduced-motion"],"localAlias":"http://127.0.0.1:62310","localRawPreview":"/studies/pure-svg/v040/?preview=1&interaction=1","localBlindPreview":"/studies/pure-svg/v040/?preview=1&static=1&blind=1","localCanonicalWork":"/works/svg-2026-10-30/","localViewportRuns":20,"localRawViewportRuns":10,"localCanonicalViewportRuns":10,"localDiagnostics":0,"localOverflow":0,"localMinTouchTarget":44,"localInteraction":"pointer click armed a witness while the mass signature and path stayed exact; Enter committed a remote response with one compound path; Delete restored the exact prior mass; a second real pointer click plus Enter committed the keyboard route; R released; an unarmed answer was refused; all three controls measured at least 44px at 390x844","localBlindPreviewEvidence":"reduced-motion static blind preview at 390x844 kept one inline SVG mass with seven apertures and four settled responses while hiding readout, controls, markers, and annotations; innerWidth/clientWidth/scrollWidth remained 390/390/390","localReadbacks":"local rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v040 tableau, source works.json record, public catalog record, and favicon returned/rendered","localProofPath":"research/qa/proofs/pure-svg-v040-2026-10-30/","localScreenshotCount":3,"productionAlias":"https://autopoiesis-nine.vercel.app","productionDeployment":"dpl_AEP2mXcvxzmeRwAAbJmn2qmWsatq","productionDeploymentUrl":"https://autopoiesis-7y1n8tp7t-lairpa-hotmailfrs-projects.vercel.app","productionViewportRuns":20,"productionRawViewportRuns":10,"productionCanonicalViewportRuns":10,"productionDiagnostics":0,"productionOverflow":0,"productionMinTouchTarget":44,"productionInteraction":"pointer click armed a witness while the mass signature and path stayed exact; Enter committed a remote response with one compound path; Delete restored the exact prior mass; a second real pointer click plus Enter committed the keyboard route; R released; an unarmed answer was refused; all three controls measured at least 44px at 390x844","productionBlindPreviewEvidence":"reduced-motion static blind preview at 390x844 kept one inline SVG mass with seven apertures and four settled responses while hiding readout, controls, markers, and annotations; innerWidth/clientWidth/scrollWidth remained 390/390/390","productionReadbacks":"production rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v040 tableau, source works.json record, public catalog record, and favicon returned/rendered","productionProofPath":"research/qa/proofs/pure-svg-v040-2026-10-30-production/","productionScreenshotCount":3,"unresolved":["independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]}},
+    {
+      "id": "svg-2026-10-30",
+      "currentId": "svg",
+      "date": "2026-10-30",
+      "title": "The aperture answers elsewhere.",
+      "rawPath": "/studies/pure-svg/v040/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-10-30",
+        "note": "v040 breaks v039's one-body winding contour, v038's split-margin counterfold, and v037's cut-cell vacancy. One heavy SVG mass now holds seven unequal apertures: a witnessed opening stays exact, while an explicit answer changes three remote apertures—one admits, one withholds, and one slips. Four answers remain liftable in the same punctured body."
+      },
+      "critiques": [
+        {
+          "persona": "Mass-form critic",
+          "argument": "One asymmetrical slab must read as a singular punctured body before it reads as seven windows. Uneven aperture scale, heavy edge, open ground, and diagonal weight must carry the composition."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, annotations, and prose hidden, the first view must leave v037's cut-cell field, v038's counterfold, and v039's contour. It should read as a new mass-and-absence grammar, not a window diagram, logo, or interface."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must choose an aperture and then answer after a pause in causality. Selection and an unarmed answer must remain geometry-neutral; pointer, keyboard, touch, and control paths need equivalent meaningful routes."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "The committed answer must regenerate one actual compound SVG path: a remote aperture expands, another contracts, and a third shifts. A selected ring, status line, colour change, or prose cannot substitute."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The witnessed hole must remain exact enough to prove that the mass replies elsewhere. The visitor should locate three remote consequences without a cursor trail or diagram."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four responses must compound in the same mass. Delete must reconstruct the exact preceding path, and release must restore the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "One even-odd inline SVG path is the produced medium. No screenshot, CSS window collection, or seven independent decorative paths may carry the work."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated reciprocal attention into a delayed aperture response. No animals, eyes, paper scene, head-turning gesture, source palette, composition, code, examples, API names, or surface vocabulary is reproduced."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v040 changes representation, composition, encounter, temporal grammar, and viewer task: the singular contour becomes a punctured mass, the sweep becomes a discrete witness, and the answer is delayed and remote."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v040 if the blind mass reads as a polished window diagram, if witnessing changes geometry, if the local hole answers, if remote roles are cosmetic, if later responses forget, or if exact lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v040-reciprocal-aperture",
+        "seed": "0x53564740",
+        "visitorInput": true,
+        "massCount": 1,
+        "portalCount": 7,
+        "memoryWindow": 4,
+        "primitiveBudget": 1,
+        "renderer": "deterministic inline SVG reciprocal aperture mass",
+        "grammar": "reciprocal-aperture",
+        "replay": true,
+        "commitThreshold": "a witnessed aperture followed by an explicit answer",
+        "memoryRule": "a witness stays geometry-neutral; an answer changes three remote apertures in one solid mass and four responses remain liftable",
+        "interactionRule": "click an aperture to witness; Enter, Space, and the answer control commit; Delete lifts latest; Escape or R releases",
+        "representationRupture": "one winding contour, split-margin folds, and independent cut cells -> one filled even-odd SVG mass with seven apertures",
+        "compositionRupture": "centred body, withheld middle, and broken constellation -> heavy asymmetrical slab against open ground",
+        "encounterRupture": "turned sweep, two-edge offer, and proximity tour -> click one absence, then explicitly answer after the witness remains exact",
+        "temporalRupture": "winding memory, refusal ledger, and vacancy migration -> delayed reciprocal production in a remote aperture with four retained responses",
+        "mediumRupture": "compound contour and independent path field -> one compound SVG mass path with holes generated from replay state",
+        "changedRule": "A witnessed aperture is geometry-neutral. An explicit answer changes three remote apertures: one opens, one withholds, and one slips its registration.",
+        "visibleConsequence": "The blind view is one asymmetrical solid mass pierced by seven unequal apertures. A valid answer changes actual remote path geometry while the witnessed aperture stays exact; four responses persist.",
+        "falsifier": "Delete if witnessing changes the mass, if the answer occurs at the witnessed aperture, if remote roles are cosmetic, if the blind mass reads as a generic window diagram, if later answers reset, or if exact lifting fails.",
+        "deletionCondition": "Delete v040 if caption-free viewing cannot distinguish the reciprocal-aperture grammar from v037-v039 or if delayed non-local response is not materially produced.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "little-critters"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents make pointer proximity legible as reciprocal attention; the visitor enters a social field and local behaviour answers without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper, head-turning, source palette, source composition, source code, examples, and API surface. Translate reciprocal attention into Pure SVG: a clicked aperture becomes a geometry-neutral witness, and an explicit answer changes three remote apertures in one solid mass.",
+        "visibleConsequence": "The witnessed opening stays exact while a remote opening expands, another withholds itself, and a third slips its registration through actual changes to one compound SVG path. Four responses persist.",
+        "falsifier": "If selection changes geometry, if the answer occurs at the witness, if remote changes exist only in colour/readout, if the blind mass reads as a window diagram, if later responses reset, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No animals, characters, eyes, paper scene, head-turning gesture, source palette, source composition, source code, examples, API names, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes Pure SVG's winding-contour / counterfold / witness-vacancy run and opens a solid-mass direction: reciprocal attention is tested as delayed topology in a punctured body rather than a line, field, or remote fold.",
+        "selectedBySlot": true
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v040 if the blind mass reads as a window diagram, logo, ring, or refined contour, if witnessing changes geometry, if the local hole answers, if remote roles are cosmetic, if later answers reset, or if exact lifting fails.",
+        "lineage": "svg-2026-10-29"
+      },
+      "browserEvidence": {
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; production interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; independent caption-free perceptual review and provider revision linkage remain pending",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:62310",
+        "localRawPreview": "/studies/pure-svg/v040/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/pure-svg/v040/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/svg-2026-10-30/",
+        "localViewportRuns": 20,
+        "localRawViewportRuns": 10,
+        "localCanonicalViewportRuns": 10,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "pointer click armed a witness while the mass signature and path stayed exact; Enter committed a remote response with one compound path; Delete restored the exact prior mass; a second real pointer click plus Enter committed the keyboard route; R released; an unarmed answer was refused; all three controls measured at least 44px at 390x844",
+        "localBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept one inline SVG mass with seven apertures and four settled responses while hiding readout, controls, markers, and annotations; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "localReadbacks": "local rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v040 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "localProofPath": "research/qa/proofs/pure-svg-v040-2026-10-30/",
+        "localScreenshotCount": 3,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeployment": "dpl_AEP2mXcvxzmeRwAAbJmn2qmWsatq",
+        "productionDeploymentUrl": "https://autopoiesis-7y1n8tp7t-lairpa-hotmailfrs-projects.vercel.app",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "pointer click armed a witness while the mass signature and path stayed exact; Enter committed a remote response with one compound path; Delete restored the exact prior mass; a second real pointer click plus Enter committed the keyboard route; R released; an unarmed answer was refused; all three controls measured at least 44px at 390x844",
+        "productionBlindPreviewEvidence": "reduced-motion static blind preview at 390x844 kept one inline SVG mass with seven apertures and four settled responses while hiding readout, controls, markers, and annotations; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "production rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v040 tableau, source works.json record, public catalog record, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/pure-svg-v040-2026-10-30-production/",
+        "productionScreenshotCount": 3,
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between deployment and GitHub SHA"
+        ]
+      }
+    },
     {
       "id": "typography-2026-10-30",
       "currentId": "typography",

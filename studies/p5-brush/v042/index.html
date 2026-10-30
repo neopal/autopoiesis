@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120d0a">
+  <title>MUTINE — The paint cures around the held breath.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=042">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-30"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="cure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v042 / DWELL CURE PLATE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="cure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v042</span></nav>
+
+      <figure class="cure-work artwork-frame" aria-labelledby="work-title">
+        <div id="cure-field" class="cure-field" tabindex="0" role="application" aria-label="A raster cure plate. Hold still on one material well until it accepts the dwell; a remote cure changes the plate." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="cure-readout" aria-live="polite"><span data-stage>stage 01 / 09</span><span data-memory>quiet plate · 0 cures</span></div>
+          <div id="cure-canvas" class="cure-canvas"></div>
+          <div class="cure-controls" aria-label="Brush material actions">
+            <button type="button" data-gesture="cure">hold to cure</button>
+            <button type="button" data-gesture="latest">lift latest</button>
+            <button type="button" data-gesture="release">release plate</button>
+          </div>
+          <p class="cure-hint">hold still · let the plate accept the pressure</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v042-dwell-cure-plate</span><span>pressure &gt; duration &gt; phase change</span></figcaption>
+      </figure>
+
+      <section class="cure-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / DWELL CURE PLATE / v042</p>
+        <h1 id="work-title">The paint cures<br><i>around the held breath.</i></h1>
+        <p class="cure-lede">Stillness is not a pause here. Stay long enough at one place and the plate changes elsewhere: a sealed body, a fracture, a bleed. The held place remains quiet.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A DWELL BECOMES MATERIAL TIME</p>
+          <p class="interaction-copy">Press and hold near a material well, then release after the plate has accepted the pressure. A short visit and an overcure are refused. The accepted dwell does not print beneath the pointer; it produces three remote material roles in the raster plate. Enter or “hold to cure” uses a deterministic accepted dwell. Delete lifts the latest cure; Escape, R, or “release plate” returns the quiet surface.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The plate is quiet. It accepts no mark from a passing touch.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v042</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Leave the relief membrane, fragment archive, and wound contour behind. A bounded dwell is the material input: the held place stays exact while one remote zone seals, another fractures, and a third bleeds.</dd></div>
+          <div><dt>visitor action</dt><dd>Press and hold still at one material well. Release after the accepted time window. Preview is geometry-neutral; too short, too long, or a miss refuses. Enter, Space, and the cure control use a deterministic dwell. Delete lifts latest; Escape or R releases. S downloads a PNG.</dd></div>
+          <div><dt>falsifier</dt><dd>If a passing touch changes the plate, if short or overlong dwell commits, if the held place answers itself, if the remote roles are only colour/readout, or if later cures forget earlier phase changes, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v042 if caption-free viewing reads as a generic heatmap, terrain, pixel field, or decorative texture, or if duration does not materially change the raster plate's production.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-29/">previous daily work</a><a href="/journal/#journal-brush-2026-10-30">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=042"></script>
+</body>
+</html>
