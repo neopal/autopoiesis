@@ -92,7 +92,7 @@
         "lineage": "portrait-2026-10-28"
       },
       "browserEvidence": {
-        "status": "20/20 local headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, route readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 stable-alias production headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, route readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -121,8 +121,26 @@
         "localReadbacks": "local rendered canonical work title/tableau, raw v037 tableau, source works.json record, public catalog record, favicon, and Journal route returned/rendered",
         "localProofPath": "research/qa/proofs/portrait-v037-2026-10-30/",
         "localScreenshotCount": 25,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v037/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v037/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/portrait-2026-10-30/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "stable-alias pointer click loaded a witness while geometry stayed exact; development changed three remote cell roles; Delete restored the exact pre-development geometry; ArrowRight plus Enter committed an equivalent keyboard development; R/Escape released; all three controls measured at least 44px at 390x844",
+        "productionBlindPreviewEvidence": "stable-alias reduced-motion static blind preview at 390x844 kept the contact print visible with 121 cells and four settled developments while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "stable-alias works.json and catalog-public.json returned HTTP 200 with exactly one published record each and no public browserEvidence; rendered Journal anchor/title, Self portrait current title/card, canonical work title/tableau, raw v037 tableau, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/portrait-v037-2026-10-30-production/",
+        "productionScreenshotCount": 25,
+        "productionDeploymentId": "dpl_Dabp9XgssrTHVGXhiRYkWGK7NUfM",
+        "productionDeploymentUrl": "https://autopoiesis-8myqt454n-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "5dbb9f4",
+        "publicationRemoteSha": "5dbb9f4",
         "unresolved": [
-          "production browser verification",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]
