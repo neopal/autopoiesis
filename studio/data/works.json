@@ -91,7 +91,7 @@
         "lineage": "brush-2026-10-29"
       },
       "browserEvidence": {
-        "status": "20/20 local headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 stable-alias production headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -118,8 +118,24 @@
         "localReadbacks": "local rendered Journal anchor/title, current, canonical work, raw v042 tableau, source works.json record, public catalog record, and favicon returned/rendered",
         "localProofPath": "research/qa/proofs/brush-v042-2026-10-30/",
         "localScreenshotCount": 23,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v042/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v042/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/brush-2026-10-30/",
+        "productionViewportRuns": 20,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "stable-alias real pointer dwell committed after 1 second; preview geometry stayed exact; accepted dwell changed remote raster cells; short dwell refused; control and Enter committed; Delete restored the exact quiet plate; Escape released; all three controls measured 44px at 390x844",
+        "productionBlindPreviewEvidence": "stable-alias reduced-motion static blind preview at 390x844 kept the raster canvas visible with 3456 cells and four settled cures while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390",
+        "productionReadbacks": "stable-alias works.json and catalog-public.json returned HTTP 200 with exactly one published record each; rendered Journal anchor/title, Brush current, canonical work title/tableau, raw v042 tableau, and favicon returned/rendered",
+        "productionProofPath": "research/qa/proofs/brush-v042-2026-10-30-production/",
+        "productionScreenshotCount": 23,
+        "productionDeploymentId": "dpl_E21XsK1jeZ8ZM63BBWGCb9b1KyMV",
+        "productionDeploymentUrl": "https://autopoiesis-8y0zf4v2o-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "152e1fc",
+        "publicationRemoteSha": "152e1fc7a278c3baf04c1d481837b30b707d48c2",
         "unresolved": [
-          "production browser matrix",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]
