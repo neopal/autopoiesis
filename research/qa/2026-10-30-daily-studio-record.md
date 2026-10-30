@@ -107,3 +107,34 @@ The earlier audit above predates the scheduled `svg` run and is retained as prov
 A vision-capable screenshot review tool was unavailable in this unattended runtime, so capture is evidence of rendering but not independent caption-free perceptual approval. The stable production alias `https://autopoiesis-nine.vercel.app` passed a second **20/20** raw/canonical Playwright matrix at all five viewports and both motion modes, including interaction, blind preview, route readbacks, favicon, overflow, touch targets, and zero diagnostics. The final production deployment was `dpl_EGwjEV6y4JTjj3jAifWVgV8UeujQ`, with deployment URL `https://autopoiesis-ilxl2ku39-lairpa-hotmailfrs-projects.vercel.app`. Provider revision linkage between deployment and GitHub SHA remains open. The candidate remains **candidate / held**; exhibition readiness is not claimed.
 
 The final register contains 232 records and 232 unique IDs, with zero duplicate current/date slots. Today’s records are `portrait-2026-10-30`, `svg-2026-10-30`, and `typography-2026-10-30`. The seven historical null lifecycle anomalies listed above were preserved without inference.
+
+## Post-audit update — Brush v042
+
+The earlier audit and SVG addendum above are retained as provenance. This addendum records the scheduled `brush` run.
+
+- Pre-run slot helper: `current_id=brush`, `existing_work_id=none`, `action=create-and-record`.
+- Work: `brush-2026-10-30`, *The paint cures around the held breath.*, v042, status `candidate / held`, lifecycle `active`.
+- Canonical route: `/works/brush-2026-10-30/`; raw tableau: `/studies/p5-brush/v042/`; Journal anchor: `journal-brush-2026-10-30`.
+- Changed rule: a bounded dwell inside one material well leaves the held location quiet and, only after the accepted duration, applies a remote raster cure: one zone seals, one fractures, and one bleeds.
+- Radical progression: v039's wound contour, v040's fragment archive, and v041's relief membrane are abandoned for one flat deterministic Canvas 2D cure plate with discrete dwell validation and a four-cure reverse-lift memory.
+- Cultural reference: `little-critters`; observed situated attention was translated into delayed non-local material consequence. No animals, characters, eyes, paper scene, source code, assets, palette, composition, API names, or surface vocabulary were copied.
+- Determinism: seed `0x42523432`; grid `72×48` / `3456` cells; nine material wells; memory window four; accepted dwell `820–2600ms`; replay and reverse lift enabled.
+- Falsifier: any held well changes directly, any invalid dwell changes cells, or the effect reads as a timer/readout instead of remote raster mutation.
+- Deletion condition: delete if the blind plate reads as a generic grid/interface or if valid dwell does not read as material consequence without captioning.
+
+### Brush verification update
+
+- Targeted v042 test: pass.
+- `npm test`: **1207 passed, 0 failed**.
+- JavaScript syntax checks for v042 engine, sketch, and probe: pass.
+- `git diff --check`: pass.
+- Local Playwright probe: **20/20** raw/canonical runs passed at `320x568`, `390x844`, `768x1024`, `1280x800`, and `1920x1080`, normal and reduced motion.
+- Stable production alias probe: **20/20** raw/canonical runs passed at the same five viewports and two motion modes.
+- Local and production overflow failures: 0; diagnostics, failed requests, and page errors: 0; minimum touch target: 44px.
+- Exercised real pointer dwell, short/off-well refusal, control and Enter commit, Delete exact lift, Escape release, pointer/touch paths, deterministic geometry/state checks, and blind canvas visibility with furniture hidden.
+- Production readbacks passed for `works.json`, public catalog, Journal anchor/title, current route, canonical work route, raw tableau, and favicon; registry and public catalog each contain exactly one `brush-2026-10-30` record.
+- Proof archives: `research/qa/proofs/brush-v042-2026-10-30/` and `research/qa/proofs/brush-v042-2026-10-30-production/`.
+
+Artifact commit: `152e1fc`. Production evidence commit and remote `main` at verification: `9af8ce87cc358735c5372045881ec4f014fb9cf5`. Manual deployment: `dpl_E21XsK1jeZ8ZM63BBWGCb9b1KyMV`; deployment URL: `https://autopoiesis-8y0zf4v2o-lairpa-hotmailfrs-projects.vercel.app`; stable alias: `https://autopoiesis-nine.vercel.app`. Deployment was manual from the artifact commit before the evidence commit; provider revision linkage is not asserted.
+
+A vision-capable independent caption-free screenshot review was unavailable in this unattended run. Browser evidence proves execution, geometry, routes, and interaction, but does not prove perceptual strength or distinctness without human-looking review. The Brush candidate remains **candidate / held**; exhibition readiness is not claimed.
