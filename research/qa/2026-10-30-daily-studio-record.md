@@ -130,11 +130,12 @@ The earlier audit and SVG addendum above are retained as provenance. This addend
 - `git diff --check`: pass.
 - Local Playwright probe: **20/20** raw/canonical runs passed at `320x568`, `390x844`, `768x1024`, `1280x800`, and `1920x1080`, normal and reduced motion.
 - Stable production alias probe: **20/20** raw/canonical runs passed at the same five viewports and two motion modes.
+- A production recheck after Vercel alias inspection also passed **20/20**, with diagnostics 0, overflow 0, blind canvas visible, Journal anchor/title present, and `/studio/favicon.svg` returning 200.
 - Local and production overflow failures: 0; diagnostics, failed requests, and page errors: 0; minimum touch target: 44px.
 - Exercised real pointer dwell, short/off-well refusal, control and Enter commit, Delete exact lift, Escape release, pointer/touch paths, deterministic geometry/state checks, and blind canvas visibility with furniture hidden.
 - Production readbacks passed for `works.json`, public catalog, Journal anchor/title, current route, canonical work route, raw tableau, and favicon; registry and public catalog each contain exactly one `brush-2026-10-30` record.
-- Proof archives: `research/qa/proofs/brush-v042-2026-10-30/` and `research/qa/proofs/brush-v042-2026-10-30-production/`.
+- Proof archives: `research/qa/proofs/brush-v042-2026-10-30/`, `research/qa/proofs/brush-v042-2026-10-30-production/`, and `research/qa/proofs/brush-v042-2026-10-30-production-recheck/`.
 
-Artifact commit: `152e1fc`. Production evidence commit and remote `main` at verification: `9af8ce87cc358735c5372045881ec4f014fb9cf5`. Manual deployment: `dpl_E21XsK1jeZ8ZM63BBWGCb9b1KyMV`; deployment URL: `https://autopoiesis-8y0zf4v2o-lairpa-hotmailfrs-projects.vercel.app`; stable alias: `https://autopoiesis-nine.vercel.app`. Deployment was manual from the artifact commit before the evidence commit; provider revision linkage is not asserted.
+Artifact commit: `152e1fc`. Production evidence commit and remote `main` at the first evidence verification: `9af8ce87cc358735c5372045881ec4f014fb9cf5`; remote `main` at the final stable-alias recheck: `449dcd6091ba17372be1c417241ad5238990ba1e`. Vercel inspection confirms the stable alias currently resolves to deployment `dpl_CpqdDkfuibrAb1AKq7GAW4Stwyjy`, URL `https://autopoiesis-msqmxdyfp-lairpa-hotmailfrs-projects.vercel.app`, with stable alias `https://autopoiesis-nine.vercel.app`. The deployment was manual/production-authorized and later alias inspection did not expose a GitHub revision, so provider revision linkage is not asserted.
 
 A vision-capable independent caption-free screenshot review was unavailable in this unattended run. Browser evidence proves execution, geometry, routes, and interaction, but does not prove perceptual strength or distinctness without human-looking review. The Brush candidate remains **candidate / held**; exhibition readiness is not claimed.
