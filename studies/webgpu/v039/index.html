@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1016">
+  <meta name="description" content="A pressure pair reorganises a collective body while the selected reservoirs stay exact and the archive opens elsewhere.">
+  <title>MUTINE — The archive keeps the pressure between bodies.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=039">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-30"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="reservoir-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v039 / pressure reservoir</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="reservoir-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v039</span></nav>
+      <section class="reservoir-work" aria-label="WebGPU daily work">
+        <figure class="reservoir-frame artwork-frame">
+          <canvas id="reservoir-field" role="img" aria-label="An asymmetrical collective body of pressure reservoirs around a changing central void"></canvas>
+          <div class="reservoir-readout" role="status" aria-live="polite"><span data-stage>cycle 01 / 05</span><span data-memory>0 compressions</span><span data-renderer>P5.JS / CANVAS 2D / PRESSURE RESERVOIR</span></div>
+          <div class="reservoir-status" data-status>choose two bodies, then compress the pair</div>
+          <div class="reservoir-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="compress">compress pair</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V039 / DAILY WORK</span><span>pair → compress → elsewhere</span></figcaption>
+        </figure>
+        <aside class="reservoir-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The prism, lattice, and ribbon are gone. Seventeen closed reservoirs form one asymmetrical body around a cut-out void; their produced contours are the archive.</p></div>
+          <div><span>changed rule</span><p>Two selected bodies remain geometrically exact. Compression routes their pressure into a displaced reservoir and changes the shared void, so the collective remembers between bodies rather than at a cursor.</p></div>
+          <div><span>progression</span><p>Tap two distinct bodies, then compress. Enter or the control makes the same deterministic pair; Delete lifts one memory and Escape clears the archive.</p></div>
+        </aside>
+      </section>
+      <section class="reservoir-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V039 / DAILY WORK</p><h1 id="work-title">The archive keeps<br><i>the pressure between bodies.</i></h1></div>
+        <p class="reservoir-premise">A collective computation stores contact as a change in the spaces it did not touch.</p>
+      </section>
+      <section class="reservoir-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test asks whether a pressure pair can replace the recent plate, ribbon, and prism grammars: the selected bodies stay exact while a remote body and shared void are materially re-produced. Promotion depends on whether the blind field reads as a singular collective form rather than a node diagram or cellular chart.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>pair → compress → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=039a"></script>
+</body>
+</html>
