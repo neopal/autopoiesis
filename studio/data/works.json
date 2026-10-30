@@ -91,8 +91,8 @@
         "directionConsequence": "Closes Handwriting's pressure casting rack / phoneme ecology / pressure seam family and opens a browser-native social syntax direction: a discrete keyboard token is refused locally and ratified by remote DOM text."
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local keyboard/button interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; production browser verification, caption-free perceptual review, and provider revision linkage remain pending",
-        "productionReady": false,
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and stable-alias keyboard/button interaction, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; caption-free perceptual review and provider revision linkage remain pending",
+        "productionReady": true,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
           "320x568",
@@ -120,8 +120,24 @@
         "localReadbacks": "Local rendered Journal anchor/title, Handwriting current/card, canonical work title/tableau, raw v038 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
         "localProofPath": "research/qa/proofs/handwriting-v038-2026-10-30/",
         "localScreenshotCount": 21,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v038/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v038/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/typography-2026-10-30/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable-alias keyboard path kept the DOM signature exact while two letters were pending, then a three-letter token committed remote text/layout changes; the source slot stayed exact; Delete restored the exact field; the ratify button committed a real mouse path; release returned to quiet; all three controls measured 44px at 390x844.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept seven browser-native typographic slots and four settled remote ratifications visible while hiding readout, controls, note, hint, token chamber, and corners; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable-alias works.json and public catalog contained the daily record; Journal anchor/title, Handwriting current/card, canonical work/tableau, raw v038 tableau, and favicon returned/rendered with HTTP 200.",
+        "productionProofPath": "research/qa/proofs/handwriting-v038-2026-10-30-production/",
+        "productionScreenshotCount": 21,
+        "deploymentId": "dpl_5Am7i3GZjwuMRFAdPfojHz2EhZj7",
+        "deploymentUrl": "https://autopoiesis-p00o8hug3-lairpa-hotmailfrs-projects.vercel.app",
         "unresolved": [
-          "production browser verification",
           "caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]

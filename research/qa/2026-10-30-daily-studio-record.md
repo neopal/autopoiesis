@@ -31,15 +31,24 @@
 - `studio/data/catalog-public.json`
 - `research/qa/proofs/handwriting-v038-2026-10-30/`
 
-## Verification — local
+## Verification — local and production
 
 - Targeted v038 tests: **4/4 passed**.
-- JavaScript syntax checks: **passed**.
+- Full suite after the new dated record and updated catalogue expectations: **1,191/1,191 passed**.
+- JavaScript syntax checks: **passed**; `git diff --check`: **passed**.
 - Local headless browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`; normal and reduced-motion.
-- Local interaction: pending token preserved exact DOM signature; Enter ratified remotely; source slot stayed exact; Delete restored exact state; ratify button committed; release returned to quiet.
-- Local blind preview: seven slots, four settled remote ratifications, controls/readout/note/hint/token chamber hidden.
-- Local viewport evidence: `innerWidth/clientWidth/scrollWidth = 390/390/390` in blind probe; overflow failures **0**; diagnostics **0**; minimum touch target **44px**.
-- Local readbacks: works registry, public catalog, Journal anchor/title, Handwriting current/card, canonical work/tableau, raw tableau, and favicon returned/rendered.
+- Production stable-alias browser matrix: **20/20 passed** across the same five viewports and two motion modes.
+- Local and production interaction: pending token preserved exact DOM signature; Enter ratified remotely; source slot stayed exact; Delete restored exact state; ratify button committed a real mouse path; release returned to quiet.
+- Local and production blind preview: seven slots, four settled remote ratifications, controls/readout/note/hint/token chamber hidden.
+- Local and production viewport evidence: `innerWidth/clientWidth/scrollWidth = 390/390/390` in blind probe; overflow failures **0**; diagnostics **0**; minimum touch target **44px**.
+- Local and production readbacks: works registry, public catalog, Journal anchor/title, Handwriting current/card, canonical work title/tableau, raw tableau, and favicon returned/rendered.
+- Production deployment: `dpl_5Am7i3GZjwuMRFAdPfojHz2EhZj7`, https://autopoiesis-p00o8hug3-lairpa-hotmailfrs-projects.vercel.app, stable alias https://autopoiesis-nine.vercel.app.
+
+## Publication
+
+- Artifact commit: `3feac62`.
+- GitHub `origin/main`: verified separately against the artifact commit before deployment.
+- Production record and Journal anchor/title: verified on the stable alias after deployment.
 
 ## Unresolved doubt
 
