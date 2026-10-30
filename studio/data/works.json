@@ -89,7 +89,26 @@
         "localReadbacks":"Local rendered Journal anchor/title, Naive current/card, canonical work title/tableau, raw v040 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
         "localProofPath":"research/qa/proofs/naive-v040-2026-10-30/",
         "localScreenshotCount":3,
-        "unresolved":["production browser verification","independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
+        "production": {
+          "stableAlias":"https://autopoiesis-nine.vercel.app",
+          "deploymentUrl":"https://autopoiesis-oensgp7xv-lairpa-hotmailfrs-projects.vercel.app",
+          "deploymentId":"dpl_EHcVcyngpNg5p63iCAZWeH2UiDm2",
+          "readyState":"READY",
+          "target":"production",
+          "viewportRuns":20,
+          "rawViewportRuns":10,
+          "canonicalViewportRuns":10,
+          "diagnostics":0,
+          "overflow":0,
+          "minTouchTarget":44,
+          "interaction":"Stable-alias pointer sweep committed one bounded pressure cast; the pressed band remained exact while remote geometry changed; Delete restored the exact baseline; Enter committed an equivalent deterministic cast; R released; a short click was refused; all three controls measured 44px at 390x844.",
+          "blindPreview":"Stable-alias reduced-motion blind preview at 390x844 kept one p5.js Canvas 2D pressure-cast relief visible with eleven bands and four settled casts while hiding readout, controls, hint, and pending mark; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+          "readbacks":"Stable production rendered Journal anchor/title, Naive current/card, canonical work title/tableau, raw v040 tableau, deployed works.json record, public catalog record, and favicon returned/rendered.",
+          "proofPath":"research/qa/proofs/naive-v040-2026-10-30-production/",
+          "screenshotCount":3,
+          "failures":[]
+        },
+        "unresolved":["independent caption-free perceptual review","provider revision linkage between deployment and GitHub SHA"]
       }
     },
     {
