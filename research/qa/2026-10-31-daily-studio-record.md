@@ -33,6 +33,8 @@ The self portrait can portray its own decisions by making a visitor's presence r
 
 Local headless Chrome evidence: **20/20 matrix runs passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes, for raw and canonical routes. Diagnostics: `0`. Overflow failures: `0`. Minimum measured control: `44px`. The probe verified pointer hover pose with geometry-neutral structure, look-away remote closure/opening/echo, exact Delete lift, equivalent ArrowRight + Enter departure, Escape release, four-memory blind preview, 13-agent SVG visibility, route readbacks, and favicon.
 
+Production stable-alias evidence: **20/20 matrix runs passed** with the same viewport/motion matrix; diagnostics: `0`; overflow failures: `0`; minimum measured control: `44px`. The deployed probe verified the same pointer, keyboard, lift, release, blind-preview, Journal/current/work/catalog/registry, and favicon paths. Deployment: `dpl_E93HXzA5Y2RZbRUg6bV6Jgz1MiEK` at `https://autopoiesis-i5nej603q-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+
 ## Critique and hold
 
-Accepted technical critique: the encounter must be visible in path pose and remote path geometry, not in labels. The independent caption-free perceptual review remains unavailable in this unattended run. Production verification and provider revision linkage are also unresolved until publication. Candidate remains held; exhibition readiness is not claimed.
+Accepted technical critique: the encounter must be visible in path pose and remote path geometry, not in labels. The independent caption-free perceptual review remains unavailable in this unattended run, and provider revision linkage remains unasserted. Candidate remains held; exhibition readiness is not claimed.
