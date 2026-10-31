@@ -170,6 +170,8 @@ A continuous fragment field can make a collective depth decision visible without
 
 Local headless Chrome evidence: **20/20 matrix runs passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes, for raw and canonical routes. Diagnostics: `0`. Overflow failures: `0`. Minimum measured control: `44px`. The probe verified three pointer witness selections with geometry-neutral shader state, repeated/incomplete refusal, a three-site accord with exact selected bands and changed remote depth/order, exact Delete lift, equivalent Enter commit, Escape release, real touchscreen commit, four-accord blind preview, WebGL shader visibility, route readbacks, and favicon.
 
+Stable-alias production verification: **20/20 matrix runs passed** with the same viewport/motion matrix; diagnostics: `0`; overflow failures: `0`; minimum measured control: `44px`. The deployed probe verified the same pointer, touchscreen, keyboard, lift, release, blind-preview, Journal/current/work/catalog/registry, WebGL, and favicon paths. Deployment: `dpl_HAN7PMsmnYyGXavG5ZaaFfbxBuZQ` at `https://autopoiesis-1011itqq4-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+
 ### Critique and hold
 
 Accepted technical critique: the relation must be visible in the continuous depth grammar and changed unselected layer, not in labels or readout. Production verification, independent caption-free perceptual review, and provider revision linkage remain unresolved. Candidate remains held; exhibition readiness is not claimed.
