@@ -1,0 +1,23 @@
+{
+  "id": "pure-svg-v041-hinge-register",
+  "seed": "0x53564741",
+  "visitorInput": true,
+  "replay": true,
+  "renderer": "deterministic inline SVG hinge register",
+  "grammar": "hinge-register",
+  "nodeCount": 9,
+  "memoryWindow": 4,
+  "primitiveBudget": 9,
+  "commitThreshold": "three distinct hinges selected, then one verdict committed",
+  "memoryRule": "three selected hinges stay exact while a verdict changes three remote hinges as turn, pin, and register roles; four routes persist",
+  "interactionRule": "pointer or touch selects three distinct hinges; Enter, Space, or the verdict control commits; ArrowRight selects the deterministic route; Delete lifts latest; Escape or R releases",
+  "representationRupture": "one solid aperture mass, one compound contour, and split angular folds -> nine separate paired hinge paths in open ground",
+  "compositionRupture": "heavy body, singular void, and two-margin field -> sparse diagonal register with a broken channel and unequal joints",
+  "encounterRupture": "choose one absence, turn a bounded sweep, and wait for a delayed answer -> select a three-node route, then commit a collective verdict",
+  "temporalRupture": "remote aperture response, winding memory, and refusal field -> discrete route memory that produces three non-selected roles and compounds",
+  "mediumRupture": "even-odd bodies, one contour, and angular fold paths -> nine produced paired inline SVG paths with actual blade geometry",
+  "changedRule": "A route of three distinct hinges remains geometrically exact. Its committed verdict is produced at three remote hinges: one turns, one pins, and one slips its register.",
+  "visibleConsequence": "The blind view is a sparse register of nine unequal paired hinges around an open diagonal channel. A valid verdict changes actual remote path length, gap, lean, angle, and position while the selected route stays exact; four verdicts persist.",
+  "falsifier": "Delete if the blind field reads as a node diagram, fold diagram, or decorative mark set; if route selection changes geometry; if a selected hinge answers itself; if remote roles are cosmetic; if later verdicts reset; or if exact lifting fails.",
+  "deletionCondition": "Delete v041 if caption-free viewing cannot distinguish the hinge register from v038-v040 or if a three-node route does not produce materially remote SVG consequences."
+}
