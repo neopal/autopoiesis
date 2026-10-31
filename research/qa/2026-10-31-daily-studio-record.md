@@ -77,3 +77,99 @@ Local headless Chrome evidence: **20/20 matrix runs passed** across `320×568`, 
 ### Critique and hold
 
 Accepted technical critique: the relation must be visible in the sparse hinge grammar and remote path production, not in labels. Local and production browser verification passed; independent caption-free perceptual review and provider revision linkage remain unresolved. Candidate remains held; exhibition readiness is not claimed.
+
+## 09:00 archive audit — 2026-10-31
+
+The unattended repository audit used only `studio/data/studio.json` and `studio/data/works.json` as active catalogue sources. Field tests and stimuli remained outside the works register. No browser automation, CUA, Chrome, DevTools/CDP, GUI, window launch, or visual interaction run was used.
+
+### Six current/date slots
+
+- **Handwriting / `typography`** — held; no catalogue record for `2026-10-31`.
+- **Self portrait / `portrait`** — real work record: `portrait-2026-10-31`, *The portrait changes its answer when you look away.*, raw tableau `/studies/self-portrait/v038/`, status `candidate / held`, lifecycle `active`.
+- **Pure SVG / `svg`** — real work record: `svg-2026-10-31`, *The hinge keeps two histories apart.*, raw tableau `/studies/pure-svg/v041/`, status `candidate / held`, lifecycle `active`.
+- **Brush / `brush`** — held; no catalogue record for `2026-10-31`.
+- **Naive art / `naive`** — held; no catalogue record for `2026-10-31`.
+- **WebGPU / `webgpu`** — held; no catalogue record for `2026-10-31`; current state is `dormant`.
+
+The registers parsed successfully: `studio.json` has schema `mutine-studio/v2` and 6 currents; `works.json` has schema `mutine-works/v1`, 237 records, and 237 unique work IDs. Duplicate current/date slots: **none**.
+
+### Route, critique, and lifecycle checks
+
+Observed coverage across all 237 recorded works:
+
+- Canonical `works/<id>/index.html`: **237/237**.
+- Raw `rawPath/index.html` tableau under `/studies/`: **237/237**.
+- Journal anchor field equal to `journal-<workId>`: **237/237**.
+- Canonical page contains the exact `/journal/#journal-<workId>` route: **237/237**.
+- At least one critique or an explicit no-critique hold: **237/237**. All 237 records have a non-empty critique list; no explicit no-critique hold was needed.
+- Valid lifecycle (`active` or `complete`): **230/237**.
+
+Seven historical records remain without a valid lifecycle value (`null`):
+
+- `typography-2026-08-28`
+- `brush-2026-08-28`
+- `typography-2026-08-31`
+- `svg-2026-08-31`
+- `portrait-2026-08-31`
+- `naive-2026-08-31`
+- `brush-2026-08-31`
+
+Lifecycle completeness is blocked for these seven records; the affected lifecycle sub-audit stops at this schema/data anomaly, and no value was inferred or backfilled. There are **0** `complete` records, so the complete-work mutation check is vacuous: no complete work was found to mutate. The audit made no catalogue, raw tableau, canonical work page, or JavaScript changes.
+
+### Verification commands
+
+- `npm run test`: **1236 passed, 0 failed** (`node --test tests/*.test.mjs`).
+- JSON register parsing: **passed** for both active catalogue registers.
+- Changed JavaScript files: **none**; no `node --check` targets were required.
+- `git diff --check`: **passed** (exit code 0; Git emitted existing LF-to-CRLF warnings only).
+- Browser/visual/interaction verification: **not performed** under the unattended-run rule. Existing `browserEvidence` or proof artifacts were not treated as fresh evidence by this audit. The two recorded `2026-10-31` candidates therefore remain held pending independent caption-free perceptual review and provider revision linkage.
+
+### Working-tree boundary, gaps, and next actions
+
+Pre-existing working-tree changes were observed in earlier QA records, proof artifacts, and canonical work HTML files; they were preserved. This audit changed only this dated QA record and did not commit, push, deploy, or update catalogue data.
+
+1. Resolve the seven historical lifecycle gaps with explicitly verified `active` or `complete` values; do not infer state from dates or page existence.
+2. Re-run the full catalogue audit after the schema repair.
+3. Keep `portrait-2026-10-31` and `svg-2026-10-31` held pending independent caption-free perceptual review and provider revision linkage.
+4. Keep the four no-record slots held; do not create placeholder works for missing dates.
+
+**Status: BLOCKED FOR LIFECYCLE COMPLETENESS.**
+
+## WebGPU slot — 2026-10-31
+
+- **Target current:** WebGPU (`webgpu`)
+- **Work:** *The crowd agrees on a missing depth.*
+- **Version:** `v040`
+- **Status:** candidate / held
+- **Raw tableau:** `/studies/webgpu/v040/`
+- **Canonical work:** `/works/webgpu-2026-10-31/`
+- **Journal anchor:** `journal-webgpu-2026-10-31`
+
+### Hypothesis and rupture
+
+A continuous fragment field can make a collective depth decision visible without turning the work into another population of objects. v040 abandons v039's pressure reservoirs, v038's signal lattice, and v037's sediment prism. The representation becomes a p5.js WebGL fragment shader; the composition becomes nine spectral depth sheets around a dark missing channel; the viewer task becomes assembling three distinct witness sites; the temporal rule becomes a persistent depth-order mutation produced at an unselected layer.
+
+### Cultural translation
+
+- **Reference:** [little-critters](https://github.com/GordenSun/little-critters)
+- **Observed mechanism:** situated code-drawn agents answer pointer proximity with reciprocal attention inside a local social field.
+- **Mutine translation:** refuse animals, eyes, characters, paper, head-turning, source palette, source composition, source code, examples, and API. Translate reciprocity into a three-site depth accord: the selected witnesses stay exact while collective attention changes an unselected layer.
+- **Visible consequence:** the blind view is a continuous spectral cross-section with a dark missing channel; a valid accord changes remote sheet radius, width, depth, phase, aperture, and order while the three selected witnesses remain exact; four accords persist.
+- **Falsifier:** if selection changes the field, a repeated site commits, fewer than three sites suffice, selected sites answer themselves, the remote change is only colour/readout, the blind field reads as a generic shader or diagram, later accords reset, or lifting is inexact, delete the direction.
+- **Direction consequence:** closes WebGPU's prism / lattice / reservoir sequence and opens a depth-accord grammar in which memory is stored in the ordering of a layer no witness touched.
+
+### Artifact and evidence
+
+- `studies/webgpu/v040/{index.html,engine.mjs,sketch.js,style.css,README.md,metrics.json,critiques.json}`
+- `tests/webgpu-v040.test.mjs`
+- `scripts/webgpu-v040-probe.mjs`
+- `works/webgpu-2026-10-31/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `research/qa/proofs/webgpu-v040-2026-10-31/`
+
+Local headless Chrome evidence: **20/20 matrix runs passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes, for raw and canonical routes. Diagnostics: `0`. Overflow failures: `0`. Minimum measured control: `44px`. The probe verified three pointer witness selections with geometry-neutral shader state, repeated/incomplete refusal, a three-site accord with exact selected bands and changed remote depth/order, exact Delete lift, equivalent Enter commit, Escape release, real touchscreen commit, four-accord blind preview, WebGL shader visibility, route readbacks, and favicon.
+
+### Critique and hold
+
+Accepted technical critique: the relation must be visible in the continuous depth grammar and changed unselected layer, not in labels or readout. Production verification, independent caption-free perceptual review, and provider revision linkage remain unresolved. Candidate remains held; exhibition readiness is not claimed.

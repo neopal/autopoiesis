@@ -1,0 +1,4726 @@
+{
+  "production": false,
+  "matrixCount": 20,
+  "matrixPassed": true,
+  "interactionPassed": true,
+  "blindPassed": true,
+  "readbacksPassed": true,
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "registryStatus": 200,
+  "publicCatalogStatus": 200,
+  "faviconStatus": 200,
+  "recordMatches": 1,
+  "catalogMatches": 1,
+  "matrix": [
+    {
+      "routeName": "raw",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "fieldVisible": true,
+        "field": {
+          "width": 320,
+          "height": 568
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-normal-320x568.png",
+      "screenshotBytes": 46345
+    },
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "fieldVisible": true,
+        "field": {
+          "width": 390,
+          "height": 844
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-normal-390x844.png",
+      "screenshotBytes": 62307
+    },
+    {
+      "routeName": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "fieldVisible": true,
+        "field": {
+          "width": 768,
+          "height": 1024
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-normal-768x1024.png",
+      "screenshotBytes": 154851
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "fieldVisible": true,
+        "field": {
+          "width": 1280,
+          "height": 800
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-normal-1280x800.png",
+      "screenshotBytes": 160704
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "fieldVisible": true,
+        "field": {
+          "width": 1920,
+          "height": 1080
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-normal-1920x1080.png",
+      "screenshotBytes": 236161
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": 196.5,
+        "headingTop": 626.890625,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "fieldVisible": true,
+        "field": {
+          "width": 282,
+          "height": 358
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-normal-320x568.png",
+      "screenshotBytes": 207648
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "fieldVisible": true,
+        "field": {
+          "width": 352,
+          "height": 437
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-normal-390x844.png",
+      "screenshotBytes": 221474
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": 183.5,
+        "headingTop": 885.25,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "fieldVisible": true,
+        "field": {
+          "width": 730,
+          "height": 630
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-normal-768x1024.png",
+      "screenshotBytes": 298105
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "fieldVisible": true,
+        "field": {
+          "width": 735,
+          "height": 720
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-normal-1280x800.png",
+      "screenshotBytes": 378969
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "fieldVisible": true,
+        "field": {
+          "width": 722,
+          "height": 720
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "signature": "{\"relays\":[],\"aperture\":0.58,\"sh",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "quiet",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16566,
+              "width": 0.01865,
+              "depth": 0.2241,
+              "twist": 0.03556,
+              "phase": 1.06878,
+              "aperture": 0.55473,
+              "weight": 0.47767,
+              "tone": 0.00202
+            },
+            {
+              "id": 1,
+              "radius": 0.21882,
+              "width": 0.02494,
+              "depth": 0.25912,
+              "twist": 0.08473,
+              "phase": 1.60896,
+              "aperture": 0.56535,
+              "weight": 0.42442,
+              "tone": 0.70954
+            },
+            {
+              "id": 2,
+              "radius": 0.25739,
+              "width": 0.02567,
+              "depth": 0.35861,
+              "twist": 0.10471,
+              "phase": 5.22705,
+              "aperture": 0.72478,
+              "weight": 0.40275,
+              "tone": 0.05365
+            },
+            {
+              "id": 3,
+              "radius": 0.31497,
+              "width": 0.01326,
+              "depth": 0.40906,
+              "twist": -0.08168,
+              "phase": 4.41057,
+              "aperture": 0.69152,
+              "weight": 0.41804,
+              "tone": 0.1181
+            },
+            {
+              "id": 4,
+              "radius": 0.35148,
+              "width": 0.0217,
+              "depth": 0.46546,
+              "twist": 0.072,
+              "phase": 4.22433,
+              "aperture": 0.7451,
+              "weight": 0.71429,
+              "tone": 0.0039
+            },
+            {
+              "id": 5,
+              "radius": 0.3965,
+              "width": 0.0206,
+              "depth": 0.57173,
+              "twist": 0.16258,
+              "phase": 6.04248,
+              "aperture": 0.80334,
+              "weight": 0.42356,
+              "tone": 0.097
+            },
+            {
+              "id": 6,
+              "radius": 0.44256,
+              "width": 0.01324,
+              "depth": 0.58682,
+              "twist": 0.01621,
+              "phase": 2.93061,
+              "aperture": 0.50504,
+              "weight": 0.70865,
+              "tone": 0.1936
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.31269,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.45268
+            },
+            {
+              "id": 8,
+              "radius": 0.53748,
+              "width": 0.01419,
+              "depth": 0.73753,
+              "twist": 0.09457,
+              "phase": 2.32057,
+              "aperture": 0.6371,
+              "weight": 0.55582,
+              "tone": 0.12289
+            }
+          ],
+          "depthOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "aperture": 0.58,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-normal-1920x1080.png",
+      "screenshotBytes": 402426
+    },
+    {
+      "routeName": "raw",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "fieldVisible": true,
+        "field": {
+          "width": 320,
+          "height": 568
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-reduced-320x568.png",
+      "screenshotBytes": 43463
+    },
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "fieldVisible": true,
+        "field": {
+          "width": 390,
+          "height": 844
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-reduced-390x844.png",
+      "screenshotBytes": 59972
+    },
+    {
+      "routeName": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "fieldVisible": true,
+        "field": {
+          "width": 768,
+          "height": 1024
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-reduced-768x1024.png",
+      "screenshotBytes": 141760
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "fieldVisible": true,
+        "field": {
+          "width": 1280,
+          "height": 800
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-reduced-1280x800.png",
+      "screenshotBytes": 163807
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "fieldVisible": true,
+        "field": {
+          "width": 1920,
+          "height": 1080
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\raw-reduced-1920x1080.png",
+      "screenshotBytes": 238737
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": 196.5,
+        "headingTop": 626.890625,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "fieldVisible": true,
+        "field": {
+          "width": 282,
+          "height": 358
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-reduced-320x568.png",
+      "screenshotBytes": 206092
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "fieldVisible": true,
+        "field": {
+          "width": 352,
+          "height": 437
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-reduced-390x844.png",
+      "screenshotBytes": 218203
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": 183.5,
+        "headingTop": 885.25,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "fieldVisible": true,
+        "field": {
+          "width": 730,
+          "height": 630
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-reduced-768x1024.png",
+      "screenshotBytes": 288093
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "fieldVisible": true,
+        "field": {
+          "width": 735,
+          "height": 720
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-reduced-1280x800.png",
+      "screenshotBytes": 367407
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "fieldVisible": true,
+        "field": {
+          "width": 722,
+          "height": 720
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+          "attention": false,
+          "witnesses": [],
+          "lastAction": "settled-accord",
+          "kind": "depth-accord",
+          "bands": [
+            {
+              "id": 0,
+              "radius": 0.16787,
+              "width": 0.02015,
+              "depth": 0.258,
+              "twist": 0.08,
+              "phase": 1.18054,
+              "aperture": 0.5735,
+              "weight": 0.49338,
+              "tone": 0.04814
+            },
+            {
+              "id": 1,
+              "radius": 0.23477,
+              "width": 0.04615,
+              "depth": 0.55038,
+              "twist": 0.44373,
+              "phase": 2.54777,
+              "aperture": 0.82528,
+              "weight": 0.65451,
+              "tone": 0.99054
+            },
+            {
+              "id": 2,
+              "radius": 0.26014,
+              "width": 0.02854,
+              "depth": 0.40623,
+              "twist": 0.16223,
+              "phase": 5.35858,
+              "aperture": 0.75564,
+              "weight": 0.43757,
+              "tone": 0.12231
+            },
+            {
+              "id": 3,
+              "radius": 0.32211,
+              "width": 0.0264,
+              "depth": 0.56166,
+              "twist": 0.08472,
+              "phase": 4.89344,
+              "aperture": 0.82633,
+              "weight": 0.58418,
+              "tone": 0.28515
+            },
+            {
+              "id": 4,
+              "radius": 0.35153,
+              "width": 0.02188,
+              "depth": 0.46682,
+              "twist": 0.07353,
+              "phase": 4.23089,
+              "aperture": 0.74741,
+              "weight": 0.71623,
+              "tone": 0.02667
+            },
+            {
+              "id": 5,
+              "radius": 0.39484,
+              "width": 0.023,
+              "depth": 0.54382,
+              "twist": 0.12957,
+              "phase": 6.12995,
+              "aperture": 0.79071,
+              "weight": 0.45547,
+              "tone": 0.14067
+            },
+            {
+              "id": 6,
+              "radius": 0.43269,
+              "width": 0.0263,
+              "depth": 0.3944,
+              "twist": -0.19612,
+              "phase": 3.52653,
+              "aperture": 0.37611,
+              "weight": 0.88393,
+              "tone": 0.36168
+            },
+            {
+              "id": 7,
+              "radius": 0.49449,
+              "width": 0.02514,
+              "depth": 0.70231,
+              "twist": -0.00165,
+              "phase": 5.3127,
+              "aperture": 0.73023,
+              "weight": 0.5034,
+              "tone": 0.47206
+            },
+            {
+              "id": 8,
+              "radius": 0.53749,
+              "width": 0.01511,
+              "depth": 0.73272,
+              "twist": 0.09191,
+              "phase": 2.38407,
+              "aperture": 0.62787,
+              "weight": 0.56818,
+              "tone": 0.17557
+            }
+          ],
+          "depthOrder": [
+            8,
+            7,
+            3,
+            1,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          "aperture": 0.7577,
+          "gpuAvailable": true,
+          "witnessCount": 9
+        },
+        "controls": [
+          {
+            "text": "make accord",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\canonical-reduced-1920x1080.png",
+      "screenshotBytes": 391616
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "signature": "{\"relays\":[],\"aperture\":0.58,\"shear\":-0.08,\"horizon\":0.5,\"depthOrder\":[0,1,2,3,4,5,6,7,8],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.21882,\"width\":0.02494,\"depth\":0.25912,\"twist\":0.08473,\"phase\":1.60896,\"aperture\":0.56535,\"weight\":0.42442,\"tone\":0.70954},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31497,\"width\":0.01326,\"depth\":0.40906,\"twist\":-0.08168,\"phase\":4.41057,\"aperture\":0.69152,\"weight\":0.41804,\"tone\":0.1181},{\"id\":4,\"radius\":0.35148,\"width\":0.0217,\"depth\":0.46546,\"twist\":0.072,\"phase\":4.22433,\"aperture\":0.7451,\"weight\":0.71429,\"tone\":0.0039},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1936},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.45268},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.12289}]}",
+      "attention": false,
+      "witnesses": [],
+      "lastAction": "quiet",
+      "kind": "depth-accord",
+      "bands": [
+        {
+          "id": 0,
+          "radius": 0.16566,
+          "width": 0.01865,
+          "depth": 0.2241,
+          "twist": 0.03556,
+          "phase": 1.06878,
+          "aperture": 0.55473,
+          "weight": 0.47767,
+          "tone": 0.00202
+        },
+        {
+          "id": 1,
+          "radius": 0.21882,
+          "width": 0.02494,
+          "depth": 0.25912,
+          "twist": 0.08473,
+          "phase": 1.60896,
+          "aperture": 0.56535,
+          "weight": 0.42442,
+          "tone": 0.70954
+        },
+        {
+          "id": 2,
+          "radius": 0.25739,
+          "width": 0.02567,
+          "depth": 0.35861,
+          "twist": 0.10471,
+          "phase": 5.22705,
+          "aperture": 0.72478,
+          "weight": 0.40275,
+          "tone": 0.05365
+        },
+        {
+          "id": 3,
+          "radius": 0.31497,
+          "width": 0.01326,
+          "depth": 0.40906,
+          "twist": -0.08168,
+          "phase": 4.41057,
+          "aperture": 0.69152,
+          "weight": 0.41804,
+          "tone": 0.1181
+        },
+        {
+          "id": 4,
+          "radius": 0.35148,
+          "width": 0.0217,
+          "depth": 0.46546,
+          "twist": 0.072,
+          "phase": 4.22433,
+          "aperture": 0.7451,
+          "weight": 0.71429,
+          "tone": 0.0039
+        },
+        {
+          "id": 5,
+          "radius": 0.3965,
+          "width": 0.0206,
+          "depth": 0.57173,
+          "twist": 0.16258,
+          "phase": 6.04248,
+          "aperture": 0.80334,
+          "weight": 0.42356,
+          "tone": 0.097
+        },
+        {
+          "id": 6,
+          "radius": 0.44256,
+          "width": 0.01324,
+          "depth": 0.58682,
+          "twist": 0.01621,
+          "phase": 2.93061,
+          "aperture": 0.50504,
+          "weight": 0.70865,
+          "tone": 0.1936
+        },
+        {
+          "id": 7,
+          "radius": 0.49449,
+          "width": 0.02514,
+          "depth": 0.70231,
+          "twist": -0.00165,
+          "phase": 5.31269,
+          "aperture": 0.73023,
+          "weight": 0.5034,
+          "tone": 0.45268
+        },
+        {
+          "id": 8,
+          "radius": 0.53748,
+          "width": 0.01419,
+          "depth": 0.73753,
+          "twist": 0.09457,
+          "phase": 2.32057,
+          "aperture": 0.6371,
+          "weight": 0.55582,
+          "tone": 0.12289
+        }
+      ],
+      "depthOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "aperture": 0.58,
+      "gpuAvailable": true,
+      "witnessCount": 9
+    },
+    "armed": {
+      "stage": 0,
+      "memory": 0,
+      "signature": "{\"relays\":[],\"aperture\":0.58,\"shear\":-0.08,\"horizon\":0.5,\"depthOrder\":[0,1,2,3,4,5,6,7,8],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.21882,\"width\":0.02494,\"depth\":0.25912,\"twist\":0.08473,\"phase\":1.60896,\"aperture\":0.56535,\"weight\":0.42442,\"tone\":0.70954},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31497,\"width\":0.01326,\"depth\":0.40906,\"twist\":-0.08168,\"phase\":4.41057,\"aperture\":0.69152,\"weight\":0.41804,\"tone\":0.1181},{\"id\":4,\"radius\":0.35148,\"width\":0.0217,\"depth\":0.46546,\"twist\":0.072,\"phase\":4.22433,\"aperture\":0.7451,\"weight\":0.71429,\"tone\":0.0039},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1936},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.45268},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.12289}]}",
+      "attention": true,
+      "witnesses": [
+        0,
+        2,
+        5
+      ],
+      "lastAction": "witness-third-held",
+      "kind": "depth-accord",
+      "bands": [
+        {
+          "id": 0,
+          "radius": 0.16566,
+          "width": 0.01865,
+          "depth": 0.2241,
+          "twist": 0.03556,
+          "phase": 1.06878,
+          "aperture": 0.55473,
+          "weight": 0.47767,
+          "tone": 0.00202
+        },
+        {
+          "id": 1,
+          "radius": 0.21882,
+          "width": 0.02494,
+          "depth": 0.25912,
+          "twist": 0.08473,
+          "phase": 1.60896,
+          "aperture": 0.56535,
+          "weight": 0.42442,
+          "tone": 0.70954
+        },
+        {
+          "id": 2,
+          "radius": 0.25739,
+          "width": 0.02567,
+          "depth": 0.35861,
+          "twist": 0.10471,
+          "phase": 5.22705,
+          "aperture": 0.72478,
+          "weight": 0.40275,
+          "tone": 0.05365
+        },
+        {
+          "id": 3,
+          "radius": 0.31497,
+          "width": 0.01326,
+          "depth": 0.40906,
+          "twist": -0.08168,
+          "phase": 4.41057,
+          "aperture": 0.69152,
+          "weight": 0.41804,
+          "tone": 0.1181
+        },
+        {
+          "id": 4,
+          "radius": 0.35148,
+          "width": 0.0217,
+          "depth": 0.46546,
+          "twist": 0.072,
+          "phase": 4.22433,
+          "aperture": 0.7451,
+          "weight": 0.71429,
+          "tone": 0.0039
+        },
+        {
+          "id": 5,
+          "radius": 0.3965,
+          "width": 0.0206,
+          "depth": 0.57173,
+          "twist": 0.16258,
+          "phase": 6.04248,
+          "aperture": 0.80334,
+          "weight": 0.42356,
+          "tone": 0.097
+        },
+        {
+          "id": 6,
+          "radius": 0.44256,
+          "width": 0.01324,
+          "depth": 0.58682,
+          "twist": 0.01621,
+          "phase": 2.93061,
+          "aperture": 0.50504,
+          "weight": 0.70865,
+          "tone": 0.1936
+        },
+        {
+          "id": 7,
+          "radius": 0.49449,
+          "width": 0.02514,
+          "depth": 0.70231,
+          "twist": -0.00165,
+          "phase": 5.31269,
+          "aperture": 0.73023,
+          "weight": 0.5034,
+          "tone": 0.45268
+        },
+        {
+          "id": 8,
+          "radius": 0.53748,
+          "width": 0.01419,
+          "depth": 0.73753,
+          "twist": 0.09457,
+          "phase": 2.32057,
+          "aperture": 0.6371,
+          "weight": 0.55582,
+          "tone": 0.12289
+        }
+      ],
+      "depthOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "aperture": 0.58,
+      "gpuAvailable": true,
+      "witnessCount": 9
+    },
+    "committed": {
+      "stage": 1,
+      "memory": 1,
+      "signature": "{\"relays\":[\"0-2-5>1:0.740:1\"],\"aperture\":0.6783,\"shear\":-0.0149,\"horizon\":0.535,\"depthOrder\":[8,7,6,5,4,3,1,2,0],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.22544,\"width\":0.03686,\"depth\":0.40108,\"twist\":0.24059,\"phase\":1.94757,\"aperture\":0.69535,\"weight\":0.57242,\"tone\":0.84264},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31553,\"width\":0.01361,\"depth\":0.41777,\"twist\":-0.07074,\"phase\":4.43141,\"aperture\":0.69532,\"weight\":0.42236,\"tone\":0.1419},{\"id\":4,\"radius\":0.35152,\"width\":0.02174,\"depth\":0.4661,\"twist\":0.07277,\"phase\":4.22586,\"aperture\":0.74549,\"weight\":0.71474,\"tone\":0.01812},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1943},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.46244},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.142}]}",
+      "attention": false,
+      "witnesses": [],
+      "lastAction": "accord-committed",
+      "kind": "depth-accord",
+      "bands": [
+        {
+          "id": 0,
+          "radius": 0.16566,
+          "width": 0.01865,
+          "depth": 0.2241,
+          "twist": 0.03556,
+          "phase": 1.06878,
+          "aperture": 0.55473,
+          "weight": 0.47767,
+          "tone": 0.00202
+        },
+        {
+          "id": 1,
+          "radius": 0.22544,
+          "width": 0.03686,
+          "depth": 0.40108,
+          "twist": 0.24059,
+          "phase": 1.94757,
+          "aperture": 0.69535,
+          "weight": 0.57242,
+          "tone": 0.84264
+        },
+        {
+          "id": 2,
+          "radius": 0.25739,
+          "width": 0.02567,
+          "depth": 0.35861,
+          "twist": 0.10471,
+          "phase": 5.22705,
+          "aperture": 0.72478,
+          "weight": 0.40275,
+          "tone": 0.05365
+        },
+        {
+          "id": 3,
+          "radius": 0.31553,
+          "width": 0.01361,
+          "depth": 0.41777,
+          "twist": -0.07074,
+          "phase": 4.43141,
+          "aperture": 0.69532,
+          "weight": 0.42236,
+          "tone": 0.1419
+        },
+        {
+          "id": 4,
+          "radius": 0.35152,
+          "width": 0.02174,
+          "depth": 0.4661,
+          "twist": 0.07277,
+          "phase": 4.22586,
+          "aperture": 0.74549,
+          "weight": 0.71474,
+          "tone": 0.01812
+        },
+        {
+          "id": 5,
+          "radius": 0.3965,
+          "width": 0.0206,
+          "depth": 0.57173,
+          "twist": 0.16258,
+          "phase": 6.04248,
+          "aperture": 0.80334,
+          "weight": 0.42356,
+          "tone": 0.097
+        },
+        {
+          "id": 6,
+          "radius": 0.44256,
+          "width": 0.01324,
+          "depth": 0.58682,
+          "twist": 0.01621,
+          "phase": 2.93061,
+          "aperture": 0.50504,
+          "weight": 0.70865,
+          "tone": 0.1943
+        },
+        {
+          "id": 7,
+          "radius": 0.49449,
+          "width": 0.02514,
+          "depth": 0.70231,
+          "twist": -0.00165,
+          "phase": 5.31269,
+          "aperture": 0.73023,
+          "weight": 0.5034,
+          "tone": 0.46244
+        },
+        {
+          "id": 8,
+          "radius": 0.53748,
+          "width": 0.01419,
+          "depth": 0.73753,
+          "twist": 0.09457,
+          "phase": 2.32057,
+          "aperture": 0.6371,
+          "weight": 0.55582,
+          "tone": 0.142
+        }
+      ],
+      "depthOrder": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        1,
+        2,
+        0
+      ],
+      "aperture": 0.6783,
+      "gpuAvailable": true,
+      "witnessCount": 9
+    },
+    "lifted": {
+      "stage": 0,
+      "memory": 0,
+      "signature": "{\"relays\":[],\"aperture\":0.58,\"shear\":-0.08,\"horizon\":0.5,\"depthOrder\":[0,1,2,3,4,5,6,7,8],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.21882,\"width\":0.02494,\"depth\":0.25912,\"twist\":0.08473,\"phase\":1.60896,\"aperture\":0.56535,\"weight\":0.42442,\"tone\":0.70954},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31497,\"width\":0.01326,\"depth\":0.40906,\"twist\":-0.08168,\"phase\":4.41057,\"aperture\":0.69152,\"weight\":0.41804,\"tone\":0.1181},{\"id\":4,\"radius\":0.35148,\"width\":0.0217,\"depth\":0.46546,\"twist\":0.072,\"phase\":4.22433,\"aperture\":0.7451,\"weight\":0.71429,\"tone\":0.0039},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1936},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.45268},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.12289}]}",
+      "attention": false,
+      "witnesses": [],
+      "lastAction": "accord-lifted",
+      "kind": "depth-accord",
+      "bands": [
+        {
+          "id": 0,
+          "radius": 0.16566,
+          "width": 0.01865,
+          "depth": 0.2241,
+          "twist": 0.03556,
+          "phase": 1.06878,
+          "aperture": 0.55473,
+          "weight": 0.47767,
+          "tone": 0.00202
+        },
+        {
+          "id": 1,
+          "radius": 0.21882,
+          "width": 0.02494,
+          "depth": 0.25912,
+          "twist": 0.08473,
+          "phase": 1.60896,
+          "aperture": 0.56535,
+          "weight": 0.42442,
+          "tone": 0.70954
+        },
+        {
+          "id": 2,
+          "radius": 0.25739,
+          "width": 0.02567,
+          "depth": 0.35861,
+          "twist": 0.10471,
+          "phase": 5.22705,
+          "aperture": 0.72478,
+          "weight": 0.40275,
+          "tone": 0.05365
+        },
+        {
+          "id": 3,
+          "radius": 0.31497,
+          "width": 0.01326,
+          "depth": 0.40906,
+          "twist": -0.08168,
+          "phase": 4.41057,
+          "aperture": 0.69152,
+          "weight": 0.41804,
+          "tone": 0.1181
+        },
+        {
+          "id": 4,
+          "radius": 0.35148,
+          "width": 0.0217,
+          "depth": 0.46546,
+          "twist": 0.072,
+          "phase": 4.22433,
+          "aperture": 0.7451,
+          "weight": 0.71429,
+          "tone": 0.0039
+        },
+        {
+          "id": 5,
+          "radius": 0.3965,
+          "width": 0.0206,
+          "depth": 0.57173,
+          "twist": 0.16258,
+          "phase": 6.04248,
+          "aperture": 0.80334,
+          "weight": 0.42356,
+          "tone": 0.097
+        },
+        {
+          "id": 6,
+          "radius": 0.44256,
+          "width": 0.01324,
+          "depth": 0.58682,
+          "twist": 0.01621,
+          "phase": 2.93061,
+          "aperture": 0.50504,
+          "weight": 0.70865,
+          "tone": 0.1936
+        },
+        {
+          "id": 7,
+          "radius": 0.49449,
+          "width": 0.02514,
+          "depth": 0.70231,
+          "twist": -0.00165,
+          "phase": 5.31269,
+          "aperture": 0.73023,
+          "weight": 0.5034,
+          "tone": 0.45268
+        },
+        {
+          "id": 8,
+          "radius": 0.53748,
+          "width": 0.01419,
+          "depth": 0.73753,
+          "twist": 0.09457,
+          "phase": 2.32057,
+          "aperture": 0.6371,
+          "weight": 0.55582,
+          "tone": 0.12289
+        }
+      ],
+      "depthOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "aperture": 0.58,
+      "gpuAvailable": true,
+      "witnessCount": 9
+    },
+    "keyboardCommitted": {
+      "stage": 1,
+      "memory": 1,
+      "signature": "{\"relays\":[\"0-3-6>1:0.620:1\"],\"aperture\":0.6729,\"shear\":-0.0149,\"horizon\":0.535,\"depthOrder\":[8,7,6,5,4,3,1,2,0],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.22491,\"width\":0.0359,\"depth\":0.38479,\"twist\":0.23123,\"phase\":1.93153,\"aperture\":0.69535,\"weight\":0.54842,\"tone\":0.83997},{\"id\":2,\"radius\":0.25817,\"width\":0.02692,\"depth\":0.374,\"twist\":0.1229,\"phase\":5.26639,\"aperture\":0.73963,\"weight\":0.41692,\"tone\":0.07743},{\"id\":3,\"radius\":0.31497,\"width\":0.01326,\"depth\":0.40906,\"twist\":-0.08168,\"phase\":4.41057,\"aperture\":0.69152,\"weight\":0.41804,\"tone\":0.1181},{\"id\":4,\"radius\":0.35153,\"width\":0.02173,\"depth\":0.46624,\"twist\":0.073,\"phase\":4.22627,\"aperture\":0.74549,\"weight\":0.71466,\"tone\":0.02218},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57174,\"twist\":0.1626,\"phase\":6.04252,\"aperture\":0.80336,\"weight\":0.42358,\"tone\":0.10443},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1936},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.45754},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.13878}]}",
+      "attention": false,
+      "witnesses": [],
+      "lastAction": "accord-committed",
+      "kind": "depth-accord",
+      "bands": [
+        {
+          "id": 0,
+          "radius": 0.16566,
+          "width": 0.01865,
+          "depth": 0.2241,
+          "twist": 0.03556,
+          "phase": 1.06878,
+          "aperture": 0.55473,
+          "weight": 0.47767,
+          "tone": 0.00202
+        },
+        {
+          "id": 1,
+          "radius": 0.22491,
+          "width": 0.0359,
+          "depth": 0.38479,
+          "twist": 0.23123,
+          "phase": 1.93153,
+          "aperture": 0.69535,
+          "weight": 0.54842,
+          "tone": 0.83997
+        },
+        {
+          "id": 2,
+          "radius": 0.25817,
+          "width": 0.02692,
+          "depth": 0.374,
+          "twist": 0.1229,
+          "phase": 5.26639,
+          "aperture": 0.73963,
+          "weight": 0.41692,
+          "tone": 0.07743
+        },
+        {
+          "id": 3,
+          "radius": 0.31497,
+          "width": 0.01326,
+          "depth": 0.40906,
+          "twist": -0.08168,
+          "phase": 4.41057,
+          "aperture": 0.69152,
+          "weight": 0.41804,
+          "tone": 0.1181
+        },
+        {
+          "id": 4,
+          "radius": 0.35153,
+          "width": 0.02173,
+          "depth": 0.46624,
+          "twist": 0.073,
+          "phase": 4.22627,
+          "aperture": 0.74549,
+          "weight": 0.71466,
+          "tone": 0.02218
+        },
+        {
+          "id": 5,
+          "radius": 0.3965,
+          "width": 0.0206,
+          "depth": 0.57174,
+          "twist": 0.1626,
+          "phase": 6.04252,
+          "aperture": 0.80336,
+          "weight": 0.42358,
+          "tone": 0.10443
+        },
+        {
+          "id": 6,
+          "radius": 0.44256,
+          "width": 0.01324,
+          "depth": 0.58682,
+          "twist": 0.01621,
+          "phase": 2.93061,
+          "aperture": 0.50504,
+          "weight": 0.70865,
+          "tone": 0.1936
+        },
+        {
+          "id": 7,
+          "radius": 0.49449,
+          "width": 0.02514,
+          "depth": 0.70231,
+          "twist": -0.00165,
+          "phase": 5.31269,
+          "aperture": 0.73023,
+          "weight": 0.5034,
+          "tone": 0.45754
+        },
+        {
+          "id": 8,
+          "radius": 0.53748,
+          "width": 0.01419,
+          "depth": 0.73753,
+          "twist": 0.09457,
+          "phase": 2.32057,
+          "aperture": 0.6371,
+          "weight": 0.55582,
+          "tone": 0.13878
+        }
+      ],
+      "depthOrder": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        1,
+        2,
+        0
+      ],
+      "aperture": 0.6729,
+      "gpuAvailable": true,
+      "witnessCount": 9
+    },
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "signature": "{\"relays\":[],\"aperture\":0.58,\"shear\":-0.08,\"horizon\":0.5,\"depthOrder\":[0,1,2,3,4,5,6,7,8],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.21882,\"width\":0.02494,\"depth\":0.25912,\"twist\":0.08473,\"phase\":1.60896,\"aperture\":0.56535,\"weight\":0.42442,\"tone\":0.70954},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31497,\"width\":0.01326,\"depth\":0.40906,\"twist\":-0.08168,\"phase\":4.41057,\"aperture\":0.69152,\"weight\":0.41804,\"tone\":0.1181},{\"id\":4,\"radius\":0.35148,\"width\":0.0217,\"depth\":0.46546,\"twist\":0.072,\"phase\":4.22433,\"aperture\":0.7451,\"weight\":0.71429,\"tone\":0.0039},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1936},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.45268},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.12289}]}",
+      "attention": false,
+      "witnesses": [],
+      "lastAction": "archive-released",
+      "kind": "depth-accord",
+      "bands": [
+        {
+          "id": 0,
+          "radius": 0.16566,
+          "width": 0.01865,
+          "depth": 0.2241,
+          "twist": 0.03556,
+          "phase": 1.06878,
+          "aperture": 0.55473,
+          "weight": 0.47767,
+          "tone": 0.00202
+        },
+        {
+          "id": 1,
+          "radius": 0.21882,
+          "width": 0.02494,
+          "depth": 0.25912,
+          "twist": 0.08473,
+          "phase": 1.60896,
+          "aperture": 0.56535,
+          "weight": 0.42442,
+          "tone": 0.70954
+        },
+        {
+          "id": 2,
+          "radius": 0.25739,
+          "width": 0.02567,
+          "depth": 0.35861,
+          "twist": 0.10471,
+          "phase": 5.22705,
+          "aperture": 0.72478,
+          "weight": 0.40275,
+          "tone": 0.05365
+        },
+        {
+          "id": 3,
+          "radius": 0.31497,
+          "width": 0.01326,
+          "depth": 0.40906,
+          "twist": -0.08168,
+          "phase": 4.41057,
+          "aperture": 0.69152,
+          "weight": 0.41804,
+          "tone": 0.1181
+        },
+        {
+          "id": 4,
+          "radius": 0.35148,
+          "width": 0.0217,
+          "depth": 0.46546,
+          "twist": 0.072,
+          "phase": 4.22433,
+          "aperture": 0.7451,
+          "weight": 0.71429,
+          "tone": 0.0039
+        },
+        {
+          "id": 5,
+          "radius": 0.3965,
+          "width": 0.0206,
+          "depth": 0.57173,
+          "twist": 0.16258,
+          "phase": 6.04248,
+          "aperture": 0.80334,
+          "weight": 0.42356,
+          "tone": 0.097
+        },
+        {
+          "id": 6,
+          "radius": 0.44256,
+          "width": 0.01324,
+          "depth": 0.58682,
+          "twist": 0.01621,
+          "phase": 2.93061,
+          "aperture": 0.50504,
+          "weight": 0.70865,
+          "tone": 0.1936
+        },
+        {
+          "id": 7,
+          "radius": 0.49449,
+          "width": 0.02514,
+          "depth": 0.70231,
+          "twist": -0.00165,
+          "phase": 5.31269,
+          "aperture": 0.73023,
+          "weight": 0.5034,
+          "tone": 0.45268
+        },
+        {
+          "id": 8,
+          "radius": 0.53748,
+          "width": 0.01419,
+          "depth": 0.73753,
+          "twist": 0.09457,
+          "phase": 2.32057,
+          "aperture": 0.6371,
+          "weight": 0.55582,
+          "tone": 0.12289
+        }
+      ],
+      "depthOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "aperture": 0.58,
+      "gpuAvailable": true,
+      "witnessCount": 9
+    },
+    "refused": {
+      "stage": 0,
+      "memory": 0,
+      "signature": "{\"relays\":[],\"aperture\":0.58,\"shear\":-0.08,\"horizon\":0.5,\"depthOrder\":[0,1,2,3,4,5,6,7,8],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.21882,\"width\":0.02494,\"depth\":0.25912,\"twist\":0.08473,\"phase\":1.60896,\"aperture\":0.56535,\"weight\":0.42442,\"tone\":0.70954},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31497,\"width\":0.01326,\"depth\":0.40906,\"twist\":-0.08168,\"phase\":4.41057,\"aperture\":0.69152,\"weight\":0.41804,\"tone\":0.1181},{\"id\":4,\"radius\":0.35148,\"width\":0.0217,\"depth\":0.46546,\"twist\":0.072,\"phase\":4.22433,\"aperture\":0.7451,\"weight\":0.71429,\"tone\":0.0039},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1936},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.45268},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.12289}]}",
+      "attention": false,
+      "witnesses": [],
+      "lastAction": "accord-refused-incomplete",
+      "kind": "depth-accord",
+      "bands": [
+        {
+          "id": 0,
+          "radius": 0.16566,
+          "width": 0.01865,
+          "depth": 0.2241,
+          "twist": 0.03556,
+          "phase": 1.06878,
+          "aperture": 0.55473,
+          "weight": 0.47767,
+          "tone": 0.00202
+        },
+        {
+          "id": 1,
+          "radius": 0.21882,
+          "width": 0.02494,
+          "depth": 0.25912,
+          "twist": 0.08473,
+          "phase": 1.60896,
+          "aperture": 0.56535,
+          "weight": 0.42442,
+          "tone": 0.70954
+        },
+        {
+          "id": 2,
+          "radius": 0.25739,
+          "width": 0.02567,
+          "depth": 0.35861,
+          "twist": 0.10471,
+          "phase": 5.22705,
+          "aperture": 0.72478,
+          "weight": 0.40275,
+          "tone": 0.05365
+        },
+        {
+          "id": 3,
+          "radius": 0.31497,
+          "width": 0.01326,
+          "depth": 0.40906,
+          "twist": -0.08168,
+          "phase": 4.41057,
+          "aperture": 0.69152,
+          "weight": 0.41804,
+          "tone": 0.1181
+        },
+        {
+          "id": 4,
+          "radius": 0.35148,
+          "width": 0.0217,
+          "depth": 0.46546,
+          "twist": 0.072,
+          "phase": 4.22433,
+          "aperture": 0.7451,
+          "weight": 0.71429,
+          "tone": 0.0039
+        },
+        {
+          "id": 5,
+          "radius": 0.3965,
+          "width": 0.0206,
+          "depth": 0.57173,
+          "twist": 0.16258,
+          "phase": 6.04248,
+          "aperture": 0.80334,
+          "weight": 0.42356,
+          "tone": 0.097
+        },
+        {
+          "id": 6,
+          "radius": 0.44256,
+          "width": 0.01324,
+          "depth": 0.58682,
+          "twist": 0.01621,
+          "phase": 2.93061,
+          "aperture": 0.50504,
+          "weight": 0.70865,
+          "tone": 0.1936
+        },
+        {
+          "id": 7,
+          "radius": 0.49449,
+          "width": 0.02514,
+          "depth": 0.70231,
+          "twist": -0.00165,
+          "phase": 5.31269,
+          "aperture": 0.73023,
+          "weight": 0.5034,
+          "tone": 0.45268
+        },
+        {
+          "id": 8,
+          "radius": 0.53748,
+          "width": 0.01419,
+          "depth": 0.73753,
+          "twist": 0.09457,
+          "phase": 2.32057,
+          "aperture": 0.6371,
+          "weight": 0.55582,
+          "tone": 0.12289
+        }
+      ],
+      "depthOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "aperture": 0.58,
+      "gpuAvailable": true,
+      "witnessCount": 9
+    },
+    "baseline": "{\"relays\":[],\"aperture\":0.58,\"shear\":-0.08,\"horizon\":0.5,\"depthOrder\":[0,1,2,3,4,5,6,7,8],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.21882,\"width\":0.02494,\"depth\":0.25912,\"twist\":0.08473,\"phase\":1.60896,\"aperture\":0.56535,\"weight\":0.42442,\"tone\":0.70954},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31497,\"width\":0.01326,\"depth\":0.40906,\"twist\":-0.08168,\"phase\":4.41057,\"aperture\":0.69152,\"weight\":0.41804,\"tone\":0.1181},{\"id\":4,\"radius\":0.35148,\"width\":0.0217,\"depth\":0.46546,\"twist\":0.072,\"phase\":4.22433,\"aperture\":0.7451,\"weight\":0.71429,\"tone\":0.0039},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1936},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.45268},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.12289}]}",
+    "witnesses": [
+      0,
+      2,
+      5
+    ],
+    "geometryNeutralBeforeCommit": true,
+    "selectedBandsExact": true,
+    "remoteChanged": true,
+    "depthOrderChanged": true,
+    "buttons": [
+      {
+        "text": "make accord",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release archive",
+        "height": 44
+      }
+    ],
+    "touch": {
+      "state": {
+        "stage": 1,
+        "memory": 1,
+        "signature": "{\"relays\":[\"0-2-5>1:0.740:1\"],\"aperture\":0.6783,\"shear\":-0.0149,\"horizon\":0.535,\"depthOrder\":[8,7,6,5,4,3,1,2,0],\"bands\":[{\"id\":0,\"radius\":0.16566,\"width\":0.01865,\"depth\":0.2241,\"twist\":0.03556,\"phase\":1.06878,\"aperture\":0.55473,\"weight\":0.47767,\"tone\":0.00202},{\"id\":1,\"radius\":0.22544,\"width\":0.03686,\"depth\":0.40108,\"twist\":0.24059,\"phase\":1.94757,\"aperture\":0.69535,\"weight\":0.57242,\"tone\":0.84264},{\"id\":2,\"radius\":0.25739,\"width\":0.02567,\"depth\":0.35861,\"twist\":0.10471,\"phase\":5.22705,\"aperture\":0.72478,\"weight\":0.40275,\"tone\":0.05365},{\"id\":3,\"radius\":0.31553,\"width\":0.01361,\"depth\":0.41777,\"twist\":-0.07074,\"phase\":4.43141,\"aperture\":0.69532,\"weight\":0.42236,\"tone\":0.1419},{\"id\":4,\"radius\":0.35152,\"width\":0.02174,\"depth\":0.4661,\"twist\":0.07277,\"phase\":4.22586,\"aperture\":0.74549,\"weight\":0.71474,\"tone\":0.01812},{\"id\":5,\"radius\":0.3965,\"width\":0.0206,\"depth\":0.57173,\"twist\":0.16258,\"phase\":6.04248,\"aperture\":0.80334,\"weight\":0.42356,\"tone\":0.097},{\"id\":6,\"radius\":0.44256,\"width\":0.01324,\"depth\":0.58682,\"twist\":0.01621,\"phase\":2.93061,\"aperture\":0.50504,\"weight\":0.70865,\"tone\":0.1943},{\"id\":7,\"radius\":0.49449,\"width\":0.02514,\"depth\":0.70231,\"twist\":-0.00165,\"phase\":5.31269,\"aperture\":0.73023,\"weight\":0.5034,\"tone\":0.46244},{\"id\":8,\"radius\":0.53748,\"width\":0.01419,\"depth\":0.73753,\"twist\":0.09457,\"phase\":2.32057,\"aperture\":0.6371,\"weight\":0.55582,\"tone\":0.142}]}",
+        "attention": false,
+        "witnesses": [],
+        "lastAction": "accord-committed",
+        "kind": "depth-accord",
+        "bands": [
+          {
+            "id": 0,
+            "radius": 0.16566,
+            "width": 0.01865,
+            "depth": 0.2241,
+            "twist": 0.03556,
+            "phase": 1.06878,
+            "aperture": 0.55473,
+            "weight": 0.47767,
+            "tone": 0.00202
+          },
+          {
+            "id": 1,
+            "radius": 0.22544,
+            "width": 0.03686,
+            "depth": 0.40108,
+            "twist": 0.24059,
+            "phase": 1.94757,
+            "aperture": 0.69535,
+            "weight": 0.57242,
+            "tone": 0.84264
+          },
+          {
+            "id": 2,
+            "radius": 0.25739,
+            "width": 0.02567,
+            "depth": 0.35861,
+            "twist": 0.10471,
+            "phase": 5.22705,
+            "aperture": 0.72478,
+            "weight": 0.40275,
+            "tone": 0.05365
+          },
+          {
+            "id": 3,
+            "radius": 0.31553,
+            "width": 0.01361,
+            "depth": 0.41777,
+            "twist": -0.07074,
+            "phase": 4.43141,
+            "aperture": 0.69532,
+            "weight": 0.42236,
+            "tone": 0.1419
+          },
+          {
+            "id": 4,
+            "radius": 0.35152,
+            "width": 0.02174,
+            "depth": 0.4661,
+            "twist": 0.07277,
+            "phase": 4.22586,
+            "aperture": 0.74549,
+            "weight": 0.71474,
+            "tone": 0.01812
+          },
+          {
+            "id": 5,
+            "radius": 0.3965,
+            "width": 0.0206,
+            "depth": 0.57173,
+            "twist": 0.16258,
+            "phase": 6.04248,
+            "aperture": 0.80334,
+            "weight": 0.42356,
+            "tone": 0.097
+          },
+          {
+            "id": 6,
+            "radius": 0.44256,
+            "width": 0.01324,
+            "depth": 0.58682,
+            "twist": 0.01621,
+            "phase": 2.93061,
+            "aperture": 0.50504,
+            "weight": 0.70865,
+            "tone": 0.1943
+          },
+          {
+            "id": 7,
+            "radius": 0.49449,
+            "width": 0.02514,
+            "depth": 0.70231,
+            "twist": -0.00165,
+            "phase": 5.31269,
+            "aperture": 0.73023,
+            "weight": 0.5034,
+            "tone": 0.46244
+          },
+          {
+            "id": 8,
+            "radius": 0.53748,
+            "width": 0.01419,
+            "depth": 0.73753,
+            "twist": 0.09457,
+            "phase": 2.32057,
+            "aperture": 0.6371,
+            "weight": 0.55582,
+            "tone": 0.142
+          }
+        ],
+        "depthOrder": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          1,
+          2,
+          0
+        ],
+        "aperture": 0.6783,
+        "gpuAvailable": true,
+        "witnessCount": 9
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\interaction-390x844.png"
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "state": {
+        "stage": 4,
+        "memory": 4,
+        "signature": "{\"relays\":[\"0-3-6>1:0.620:1\",\"1-",
+        "attention": false,
+        "witnesses": [],
+        "lastAction": "settled-accord",
+        "kind": "depth-accord",
+        "bands": [
+          {
+            "id": 0,
+            "radius": 0.16787,
+            "width": 0.02015,
+            "depth": 0.258,
+            "twist": 0.08,
+            "phase": 1.18054,
+            "aperture": 0.5735,
+            "weight": 0.49338,
+            "tone": 0.04814
+          },
+          {
+            "id": 1,
+            "radius": 0.23477,
+            "width": 0.04615,
+            "depth": 0.55038,
+            "twist": 0.44373,
+            "phase": 2.54777,
+            "aperture": 0.82528,
+            "weight": 0.65451,
+            "tone": 0.99054
+          },
+          {
+            "id": 2,
+            "radius": 0.26014,
+            "width": 0.02854,
+            "depth": 0.40623,
+            "twist": 0.16223,
+            "phase": 5.35858,
+            "aperture": 0.75564,
+            "weight": 0.43757,
+            "tone": 0.12231
+          },
+          {
+            "id": 3,
+            "radius": 0.32211,
+            "width": 0.0264,
+            "depth": 0.56166,
+            "twist": 0.08472,
+            "phase": 4.89344,
+            "aperture": 0.82633,
+            "weight": 0.58418,
+            "tone": 0.28515
+          },
+          {
+            "id": 4,
+            "radius": 0.35153,
+            "width": 0.02188,
+            "depth": 0.46682,
+            "twist": 0.07353,
+            "phase": 4.23089,
+            "aperture": 0.74741,
+            "weight": 0.71623,
+            "tone": 0.02667
+          },
+          {
+            "id": 5,
+            "radius": 0.39484,
+            "width": 0.023,
+            "depth": 0.54382,
+            "twist": 0.12957,
+            "phase": 6.12995,
+            "aperture": 0.79071,
+            "weight": 0.45547,
+            "tone": 0.14067
+          },
+          {
+            "id": 6,
+            "radius": 0.43269,
+            "width": 0.0263,
+            "depth": 0.3944,
+            "twist": -0.19612,
+            "phase": 3.52653,
+            "aperture": 0.37611,
+            "weight": 0.88393,
+            "tone": 0.36168
+          },
+          {
+            "id": 7,
+            "radius": 0.49449,
+            "width": 0.02514,
+            "depth": 0.70231,
+            "twist": -0.00165,
+            "phase": 5.3127,
+            "aperture": 0.73023,
+            "weight": 0.5034,
+            "tone": 0.47206
+          },
+          {
+            "id": 8,
+            "radius": 0.53749,
+            "width": 0.01511,
+            "depth": 0.73272,
+            "twist": 0.09191,
+            "phase": 2.38407,
+            "aperture": 0.62787,
+            "weight": 0.56818,
+            "tone": 0.17557
+          }
+        ],
+        "depthOrder": [
+          8,
+          7,
+          3,
+          1,
+          5,
+          4,
+          2,
+          6,
+          0
+        ],
+        "aperture": 0.7577,
+        "gpuAvailable": true,
+        "witnessCount": 9
+      },
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "statusDisplay": "none",
+      "captionDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\blind-390x844.png"
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "bodyText": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\journal-390x844.png"
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "WebGPU",
+      "bodyText": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\current-390x844.png"
+  },
+  "work": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "The crowd agrees on a missing depth.",
+      "bodyText": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31\\work-390x844.png"
+  },
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v040-2026-10-31"
+}

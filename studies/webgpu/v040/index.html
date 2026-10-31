@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d18">
+  <meta name="description" content="A fragment-shader depth field stores collective attention as a changed ordering of the layers no witness touched.">
+  <title>MUTINE — The crowd agrees on a missing depth.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=040">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-10-31"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="accord-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v040 / depth accord</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="accord-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v040</span></nav>
+      <section class="accord-work" aria-label="WebGPU daily work">
+        <figure class="accord-frame artwork-frame">
+          <canvas id="accord-field" role="img" aria-label="A luminous depth field with a dark missing channel and layered accord memory"></canvas>
+          <div class="accord-readout" role="status" aria-live="polite"><span data-stage>cycle 01 / 05</span><span data-memory>0 accords</span><span data-renderer>P5.JS / WEBGL / DEPTH ACCORD</span></div>
+          <div class="accord-status" data-status>choose three witnesses, then make an accord</div>
+          <div class="accord-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="accord">make accord</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V040 / DAILY WORK</span><span>witness → accord → depth</span></figcaption>
+        </figure>
+        <aside class="accord-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The prism, lattice, and reservoir are gone. A fragment shader renders nine continuous depth sheets around a dark missing channel; the field is a view, not a collection of bodies.</p></div>
+          <div><span>changed rule</span><p>Three distinct witnesses stay exact. Their accord reorders the depth field and opens a remote layer, so the crowd stores attention in the stack it did not touch.</p></div>
+          <div><span>progression</span><p>Tap three distant sites, then make an accord. Enter or the control makes the same deterministic event; Delete lifts one memory and Escape releases the archive.</p></div>
+        </aside>
+      </section>
+      <section class="accord-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V040 / DAILY WORK</p><h1 id="work-title">The crowd agrees<br><i>on a missing depth.</i></h1></div>
+        <p class="accord-premise">A collective computation keeps its witness sites still, then moves the layer that no one touched.</p>
+      </section>
+      <section class="accord-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test asks whether a continuous shader field can replace the recent prism, lattice, and reservoir grammars: a three-site relation leaves its witnesses exact while a remote depth layer changes order and aperture. Promotion depends on whether the blind field reads as an impossible depth section rather than a generic shader or diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>witness → accord → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=040a"></script>
+</body>
+</html>
