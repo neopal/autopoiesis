@@ -3,8 +3,8 @@
 - **Date/current:** `2026-10-31` / Naive art
 - **Work:** *The model keeps the wrong word.*
 - **Status:** **candidate / held**
-- **Canonical:** `https://autopoiesis-nine.vercel.app/works/naive-2026-10-31/` (pending production verification)
-- **Raw tableau:** `/studies/naive-art/v041/?preview=1&interaction=1`
+- **Canonical:** `https://autopoiesis-nine.vercel.app/works/naive-2026-10-31/`
+- **Raw tableau:** `https://autopoiesis-nine.vercel.app/studies/naive-art/v041/?preview=1&interaction=1`
 
 ## Concept and progression
 
@@ -51,6 +51,11 @@
 - Minimum control height: **44px**
 - Verified latent first word, self-reply refusal, remote substitution/split/echo, exact lift, release, deterministic keyboard/control routes, real touchscreen route, four settled blind inferences, Journal/current/canonical/raw routes, registry, public catalog, and favicon.
 
+- Verified stable-alias deployment: `dpl_2eRAzZnJy6e5SHmurERtNGXSsXPi` at `https://autopoiesis-bnbohguoq-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+- Production matrix: **20/20 passed** with **0 diagnostics**, **0 overflow failures**, and **44px** minimum controls.
+- Production readback: stable-alias `works.json` and `catalog-public.json` returned HTTP 200 with exactly one `naive-2026-10-31` record; rendered Journal/current/canonical/raw routes and favicon passed.
+- Git provenance: artifact commit `bb28d45344e0e034ef887267d897b994dfcf5437`; remote `main` matched after push.
+
 ## Publication boundary
 
-The candidate is not yet published from this run. Production browser verification must follow commit/push/deploy. Independent caption-free perceptual review and provider revision linkage remain unresolved by design; the candidate must stay held until those claims have evidence.
+The candidate is published as an honest Journal record but remains held. Independent caption-free perceptual review and provider revision linkage remain unresolved by design; no exhibition-ready claim is made.

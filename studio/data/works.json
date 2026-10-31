@@ -97,7 +97,7 @@
         "lineage": "naive-2026-10-30"
       },
       "browserEvidence": {
-        "status": "20/20 local headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local pointer, touchscreen, keyboard, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; production verification and independent caption-free perceptual review remain pending",
+        "status": "20/20 local and 20/20 stable-alias production headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production pointer, touchscreen, keyboard, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -117,9 +117,28 @@
         "localReadbacks": "Local rendered Journal anchor/title, Naive current/card, canonical work title/tableau, raw v041 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
         "localProofPath": "research/qa/proofs/naive-v041-2026-10-31/",
         "localScreenshotCount": 3,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v041/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v041/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/naive-2026-10-31/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable alias first-word arming kept the exact geometry signature; self-reply was refused; a different distant pointer word committed one remote substitution, split phrase, and echo while both witnesses stayed exact; Delete restored the baseline; Enter and the inference control committed the deterministic pair; R released; real touchscreen committed; four relations compounded in blind mode.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept 13 DOM text tokens and four settled inferences visible while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable-alias works.json and catalog-public.json returned HTTP 200 with exactly one naive-2026-10-31 record; rendered Journal anchor/title, Naive current/card, canonical work title/tableau, raw v041 tableau, and favicon returned/rendered.",
+        "productionProofPath": "research/qa/proofs/naive-v041-2026-10-31-production/",
+        "productionScreenshotCount": 3,
+        "productionDeploymentId": "dpl_2eRAzZnJy6e5SHmurERtNGXSsXPi",
+        "productionDeploymentUrl": "https://autopoiesis-bnbohguoq-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "bb28d45344e0e034ef887267d897b994dfcf5437",
+        "publicationRemoteSha": "bb28d45344e0e034ef887267d897b994dfcf5437",
         "diagnosticCount": 0,
         "overflowCount": 0,
-        "unresolved": ["production browser verification", "independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
       }
     },
     {
