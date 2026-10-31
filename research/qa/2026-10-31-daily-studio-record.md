@@ -78,7 +78,7 @@ Local headless Chrome evidence: **20/20 matrix runs passed** across `320×568`, 
 
 Accepted technical critique: the relation must be visible in the sparse hinge grammar and remote path production, not in labels. Local and production browser verification passed; independent caption-free perceptual review and provider revision linkage remain unresolved. Candidate remains held; exhibition readiness is not claimed.
 
-## 09:00 archive audit — 2026-10-31
+## 09:00 archive audit (snapshot before the WebGPU slot) — 2026-10-31
 
 The unattended repository audit used only `studio/data/studio.json` and `studio/data/works.json` as active catalogue sources. Field tests and stimuli remained outside the works register. No browser automation, CUA, Chrome, DevTools/CDP, GUI, window launch, or visual interaction run was used.
 
