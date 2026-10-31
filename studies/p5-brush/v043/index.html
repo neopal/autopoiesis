@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e0c0e">
+  <title>MUTINE — The brush asks for a second hand.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=043">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-10-31"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="witness-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v043 / WITNESS CHORD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="witness-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v043</span></nav>
+
+      <figure class="witness-work artwork-frame" aria-labelledby="work-title">
+        <div id="witness-field" class="witness-field" tabindex="0" role="application" aria-label="A monolithic ink body. Touch one edge witness, then another different edge witness; the body closes a fold between the two calls." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="witness-readout" aria-live="polite"><span data-stage>plate 01 / 09</span><span data-memory>sealed body · 0 folds</span></div>
+          <div id="witness-canvas" class="witness-canvas"></div>
+          <div class="witness-controls" aria-label="Brush material actions">
+            <button type="button" data-gesture="call">offer a call</button>
+            <button type="button" data-gesture="latest">lift latest</button>
+            <button type="button" data-gesture="release">release body</button>
+          </div>
+          <p class="witness-hint">touch one edge · answer from another</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v043-witness-chord</span><span>attention &gt; reply &gt; material closure</span></figcaption>
+      </figure>
+
+      <section class="witness-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / WITNESS CHORD / v043</p>
+        <h1 id="work-title">The brush asks<br><i>for a second hand.</i></h1>
+        <p class="witness-lede">One touch is only a call. Touch somewhere else and the body closes a fold inside the relation. The two witnesses stay open; the ink remembers the exchange, not the hand that began it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A BODY NEEDS TWO WITNESSES</p>
+          <p class="interaction-copy">Touch one of the unlabelled edge witnesses, then touch a different one. The first visit arms a latent call and leaves the produced body exact. A second, sufficiently separated visit is the reply: it closes a central material fold through the body. Repeating the exchange compounds four folds. Enter or “offer a call” uses a deterministic exchange; Delete lifts the latest fold; Escape, R, or “release body” returns the sealed seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The body is sealed. It is waiting for a call.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v043</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon wells, timed cure, remote phase zones, relief membrane, and lifted fragments. A first situated touch becomes a latent call; only a different second site can close a produced fold inside the pair.</dd></div>
+          <div><dt>visitor action</dt><dd>Touch one edge witness, then another. A single site, nearby re-touch, or miss refuses without geometry change. Pointer, touch, Enter, Space, Delete, Escape, R, and the controls provide equivalent routes.</dd></div>
+          <div><dt>falsifier</dt><dd>If the first touch changes the body, if the second site is cosmetic, if the fold is a counter or remote marker rather than actual body geometry, if a self-reply commits, or if later exchanges reset, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v043 if caption-free viewing reads as a node diagram, click counter, or decorative seal, or if the second witness does not materially close the body from within the relation.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-30/">previous daily work</a><a href="/journal/#journal-brush-2026-10-31">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=043"></script>
+</body>
+</html>
