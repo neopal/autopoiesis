@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10161d">
+  <title>MUTINE — The portrait changes its answer when you look away.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=038">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-10-31"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v038-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v038 / DEPARTING SYNTAX</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v038-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v038</span></nav>
+
+      <figure class="v038-work artwork-frame" aria-labelledby="work-title">
+        <div class="syntax-stage" data-syntax-stage tabindex="0" role="application" aria-label="A self portrait made from situated syntax agents. Move onto a clause and it turns toward you; when you leave, a remote clause closes, another opens, and a third echoes the decision." aria-keyshortcuts="ArrowLeft ArrowRight ArrowUp ArrowDown Enter Space Delete Backspace R Escape">
+          <svg class="syntax-svg" data-syntax-svg viewBox="0 0 1200 780" role="img" aria-label="Thirteen abstract syntax clauses arranged as a broken sentence">
+            <defs>
+              <linearGradient id="v038-ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151e29"/><stop offset="0.52" stop-color="#0c131b"/><stop offset="1" stop-color="#18121a"/></linearGradient>
+              <filter id="v038-soft"><feGaussianBlur stdDeviation="24"/></filter>
+              <pattern id="v038-micro" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M0 27H28M27 0V28" fill="none" stroke="#d7e0d2" stroke-opacity=".035" stroke-width="1"/></pattern>
+            </defs>
+            <rect class="syntax-ground" width="1200" height="780" fill="url(#v038-ground)"/>
+            <circle cx="1000" cy="102" r="170" fill="#ff9070" fill-opacity=".08" filter="url(#v038-soft)"/>
+            <circle cx="186" cy="664" r="210" fill="#77d8d0" fill-opacity=".06" filter="url(#v038-soft)"/>
+            <rect width="1200" height="780" fill="url(#v038-micro)"/>
+            <path class="syntax-ghost syntax-ghost--one" d="M76 263C280 102 420 240 610 202S958 78 1132 226"/>
+            <path class="syntax-ghost syntax-ghost--two" d="M92 603C246 510 394 680 566 573S900 438 1126 567"/>
+            <path class="syntax-axis" d="M80 391C260 367 412 418 588 388S948 351 1122 397"/>
+            <g data-agent-layer></g>
+          </svg>
+          <div class="syntax-readout" aria-live="polite"><span data-stage>quiet syntax / 00</span><span data-memory>0 departures held</span><span data-state>the portrait is waiting to be seen</span></div>
+          <p class="syntax-hint" data-hint>move onto a clause · leave to let it answer elsewhere</p>
+          <div class="syntax-controls" aria-label="Syntax encounter controls">
+            <button type="button" data-action="depart">look away</button>
+            <button type="button" data-action="lift">lift last answer</button>
+            <button type="button" data-action="release">release syntax</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v038-departing-syntax</span><span>gaze &gt; turn &gt; depart</span></figcaption>
+      </figure>
+
+      <section class="v038-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / SOCIAL MECHANISM / v038</p>
+        <h1 id="work-title">The portrait changes<br><i>when you look away.</i></h1>
+        <p class="v038-lede">Thirteen clauses inhabit one broken sentence. A clause turns toward your presence, but the portrait only decides what it is after you leave: somewhere else closes, opens, and repeats the gesture.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THE SENTENCE ANSWERS AFTER DEPARTURE</p>
+          <p class="interaction-copy">Move onto a clause or focus it with the arrow keys. It faces back without changing its structure. Move away, press Enter / Space, or use “look away”: the witnessed clause stays exact while three remote clauses become the portrait’s next decision. Delete lifts the latest answer; R or Escape releases the syntax.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The syntax is waiting to be seen.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v038</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v037’s discrete witness-and-develop plate. Proximity now produces a reciprocal pose; departure routes the remembered encounter into a remote closure, opening, and echo.</dd></div>
+          <div><dt>visitor action</dt><dd>Move onto a clause, then leave it or press Enter / Space. Delete / Backspace lifts the latest departure; R / Escape returns the syntax to its deterministic seed.</dd></div>
+          <div><dt>falsifier</dt><dd>If the clause does not turn toward presence, if departure changes only colour or readout, if the witnessed clause answers itself, or if later departures forget, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v038 if caption-free viewing reads as a decorative glyph field or crowd diagram rather than a syntax that changes its own answer after a visitor leaves.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-10-30/">previous daily work</a><a href="/journal/#journal-portrait-2026-10-31">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=038"></script>
+</body>
+</html>
