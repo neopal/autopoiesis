@@ -1,0 +1,180 @@
+:root {
+  --night: #0d1020;
+  --night-2: #17182d;
+  --ink: #f5ebd6;
+  --muted: #a8a5b9;
+  --line: rgba(245, 235, 214, .25);
+  --signal: #f07a52;
+  --violet: #8d83ff;
+  --green: #b7d6a2;
+  --black: #090a14;
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 82% 12%, rgba(141, 131, 255, .18), transparent 24rem),
+    radial-gradient(circle at 12% 72%, rgba(240, 122, 82, .12), transparent 22rem),
+    repeating-linear-gradient(117deg, rgba(245, 235, 214, .035) 0 1px, transparent 1px 37px),
+    linear-gradient(142deg, var(--night), var(--night-2) 62%, #090a14);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.misread-shell { min-height: 100vh; padding: 0 3vw; }
+.misread-main { max-width: 1540px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: var(--ink); }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(245, 235, 214, .62); }
+.studio-path a { color: var(--ink); }
+.misread-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, .3fr);
+  gap: clamp(1rem, 3vw, 3.8rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.misread-work { margin: 0; padding: clamp(.45rem, 1.2vw, 1.15rem); color: var(--black); background: rgba(221, 217, 205, .96); box-shadow: 1.3rem 2rem 4.5rem rgba(0, 0, 0, .34); }
+.misread-field {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  outline: none;
+  aspect-ratio: 1.22 / .9;
+  min-height: 340px;
+  overflow: hidden;
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse at 62% 36%, rgba(141, 131, 255, .24), transparent 33%),
+    radial-gradient(ellipse at 17% 78%, rgba(240, 122, 82, .18), transparent 28%),
+    repeating-linear-gradient(0deg, rgba(245, 235, 214, .045) 0 1px, transparent 1px 56px),
+    linear-gradient(118deg, #111429, #1b1931 58%, #101324);
+  cursor: crosshair;
+  touch-action: manipulation;
+}
+.misread-field::before {
+  position: absolute;
+  inset: 8% 7%;
+  z-index: -1;
+  border: 1px solid rgba(245, 235, 214, .2);
+  border-radius: 44% 56% 49% 51% / 17% 22% 78% 83%;
+  content: '';
+  transform: rotate(-4deg);
+  pointer-events: none;
+}
+.misread-field::after {
+  position: absolute;
+  right: 10%;
+  bottom: 13%;
+  width: 25%;
+  height: 1px;
+  background: var(--signal);
+  box-shadow: -8rem 0 0 rgba(240, 122, 82, .26), 3rem 1.1rem 0 rgba(183, 214, 162, .5);
+  content: '';
+  transform: rotate(-8deg);
+  pointer-events: none;
+}
+.misread-mount { position: absolute; inset: 0; }
+.sentence-token {
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: .08em;
+  padding: .14em .18em;
+  border: 0;
+  color: hsl(calc(36 + var(--tone) * 52), 62%, 91%);
+  background: transparent;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.2rem, calc(var(--size) * 36vw), 10rem);
+  font-style: normal;
+  font-weight: var(--weight);
+  letter-spacing: var(--tracking);
+  line-height: .82;
+  opacity: var(--opacity);
+  text-shadow: .03em .05em 0 rgba(0, 0, 0, .35);
+  transform: translate(-50%, -50%) rotate(var(--rotate));
+  transform-origin: center;
+  cursor: pointer;
+  transition: color 180ms ease, opacity 180ms ease, text-shadow 180ms ease;
+}
+.sentence-token::before {
+  position: absolute;
+  right: 7%;
+  bottom: 4%;
+  left: 7%;
+  height: 2px;
+  background: color-mix(in srgb, var(--signal) 74%, transparent);
+  content: '';
+  opacity: .45;
+  transform: rotate(-2deg);
+}
+.sentence-token--misheard { color: #ffb27e; text-decoration: line-through; text-decoration-color: var(--signal); text-decoration-thickness: .06em; }
+.sentence-token--split { color: var(--green); }
+.sentence-token--echo { color: #c5b9ff; }
+.sentence-token--misheard .token-part,
+.sentence-token--split .token-part,
+.sentence-token--echo .token-part { position: relative; z-index: 1; }
+.token-part--1 { color: var(--signal); font-size: .48em; align-self: flex-end; transform: translateY(.25em); }
+.token-part--2 { color: rgba(245, 235, 214, .5); font-size: .72em; align-self: flex-start; transform: translateY(-.14em); }
+.token-echo { position: absolute; z-index: -1; top: .28em; left: .25em; color: var(--signal); font-size: .42em; letter-spacing: .06em; opacity: .58; transform: rotate(5deg); }
+.sentence-token:hover, .sentence-token:focus-visible { color: #fff8e9; outline: none; text-shadow: .08em .08em 0 rgba(240, 122, 82, .64); }
+.sentence-token.is-pending { color: var(--signal); text-shadow: 0 0 0 rgba(0, 0, 0, 0), .08em .08em 0 var(--violet); }
+.sentence-token:focus-visible { box-shadow: 0 0 0 3px var(--signal); }
+.misread-readout { position: absolute; z-index: 30; left: 1rem; top: .8rem; display: flex; flex-wrap: wrap; gap: .45rem 1rem; color: rgba(245, 235, 214, .88); font-size: .67rem; pointer-events: none; }
+.misread-readout span::before { content: '— '; color: var(--signal); }
+.misread-controls { position: relative; z-index: 40; display: flex; flex-wrap: wrap; gap: .45rem; padding: .75rem .15rem .05rem; }
+.misread-controls button { min-width: 44px; min-height: 44px; border: 1px solid rgba(9, 10, 20, .7); border-radius: 0; padding: .6rem .8rem; color: var(--black); background: transparent; font: 600 .7rem/1.1 ui-monospace, monospace; cursor: pointer; }
+.misread-controls button:hover, .misread-controls button:focus-visible { color: #ddd9cd; background: var(--black); outline: none; }
+.misread-hint { margin: .5rem 0 .1rem; color: rgba(9, 10, 20, .75); font-size: .63rem; line-height: 1.4; }
+.misread-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .65rem .1rem 0; color: rgba(9, 10, 20, .68); font-size: .64rem; line-height: 1.3; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: .5rem; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .65rem; }
+.work-annotations span, .studio-kicker { color: var(--signal); font: 600 .66rem/1.2 ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.work-annotations p { margin: .5rem 0 0; color: rgba(245, 235, 214, .77); font: .92rem/1.55 system-ui, sans-serif; }
+.work-opening { border-top-color: var(--line); }
+.work-opening h1 { color: var(--ink); }
+.work-premise { color: rgba(245, 235, 214, .73); }
+.work-note { border-color: var(--line); color: rgba(245, 235, 214, .73); }
+.work-loop { color: var(--signal); }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .misread-work figcaption { display: none; }
+html.preview-mode .misread-main { max-width: 100vw; padding: 0; }
+html.preview-mode .misread-surface { display: block; margin: 0; }
+html.preview-mode .misread-work { padding: 0; box-shadow: none; }
+html.blind-mode .misread-readout,
+html.blind-mode .misread-controls,
+html.blind-mode .misread-hint { display: none; }
+html.blind-mode .misread-field { cursor: default; }
+
+@media (max-width: 860px) {
+  .misread-shell { padding: 0 1rem; }
+  .misread-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
+}
+@media (max-width: 560px) {
+  .misread-shell { padding: 0 .55rem; }
+  .misread-surface { margin-top: .5rem; }
+  .misread-work { padding: .35rem; }
+  .misread-field { min-height: 0; aspect-ratio: .78 / 1; }
+  .sentence-token { font-size: clamp(1.05rem, calc(var(--size) * 51vw), 5.2rem); }
+  .misread-readout { left: .6rem; top: .55rem; font-size: .57rem; }
+  .misread-controls { gap: .3rem; }
+  .misread-controls > button { flex: 1 1 8rem; padding: .55rem .5rem; }
+  .misread-hint { font-size: .57rem; }
+  .misread-work figcaption { display: grid; gap: .25rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: .8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sentence-token, .misread-controls button { transition: none; }
+}

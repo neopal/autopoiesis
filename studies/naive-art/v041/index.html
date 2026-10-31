@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1020">
+  <title>MUTINE — The model keeps the wrong word.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=041">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-10-31"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="misread-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v041 / MISHEARD SENTENCE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="misread-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v041</span></nav>
+
+      <section class="misread-surface" aria-label="Naive misheard sentence tableau">
+        <figure class="misread-work artwork-frame">
+          <div class="misread-field" id="misread-field" tabindex="0" role="application" aria-label="A sentence made from separate words. Touch one word, then a different distant word; the model will mishear the relation elsewhere." aria-keyshortcuts="Enter Space Delete Escape R ArrowLeft ArrowRight">
+            <div class="misread-mount" id="sentence-mount"></div>
+            <div class="misread-rift" aria-hidden="true"></div>
+            <div class="misread-readout" aria-live="polite"><span data-stage>inference 00 / 04</span><span data-memory>0 retained</span><span data-status>touch one word, then another</span></div>
+          </div>
+          <div class="misread-controls" aria-label="Misheard sentence actions">
+            <button type="button" data-action="infer">make the wrong inference</button>
+            <button type="button" data-action="lift">lift last inference</button>
+            <button type="button" data-action="release">release the sentence</button>
+          </div>
+          <p class="misread-hint">touch one word · answer with another · the mistake appears elsewhere</p>
+          <figcaption><span>seed | mutine-naive-v041</span><span>witness &gt; reply &gt; mishear</span></figcaption>
+        </figure>
+
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A sentence is held as a scattered typographic object. Its words are not a diagram of agents; they are the model's small inventory of what it thinks it heard.</p></div>
+          <div><span>critique</span><p>The first word must remain geometrically exact. Only a different reply can make the sentence mishear elsewhere as a changed word, a split phrase, and a fading echo.</p></div>
+          <div><span>progression</span><p>v041 abandons v040's relief, v039's raster plate, and v038's cut-out field. The viewer no longer presses, marks, or leaves a surface; they make a two-word relation inside an actual sentence.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V041 / DAILY WORK</p><h1 id="work-title">The model keeps<br><i>the wrong word.</i></h1></div>
+        <p class="work-premise">Two words meet. The sentence remembers a third one incorrectly.</p>
+      </section>
+
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v041 translates situated attention into a browser-native language error. The first word is only latent evidence; a different reply causes a distant word to be replaced, another to split, and another to echo. Four mishearings compound and remain liftable.</p></section>
+      <p class="work-loop">touch a word &rarr; answer elsewhere &rarr; mishear the sentence &rarr; keep the error</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-10-30/">previous daily work</a><a href="/journal/#journal-naive-2026-10-31">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=041"></script>
+</body>
+</html>
