@@ -45,7 +45,9 @@ The technical gate is observed. Independent caption-free perceptual review is un
 
 ## Publication
 
-- Artifact commit: pending.
-- Evidence commit: pending.
-- Production stable-alias matrix: pending.
-- Deployment URL: pending.
+- Artifact commit: `feb7f12595f17cb0f55853c82fcdeccbeb9e8474`.
+- Remote `main` matched the artifact commit before deployment.
+- Production stable-alias matrix: **20/20** raw/canonical runs passed at the same five viewports and two motion modes; diagnostics `0`; overflow failures `0`; minimum controls `44px`.
+- Production readback: `/studio/data/works.json` HTTP `200` with exactly one `brush-2026-10-31` record; public catalog, rendered Journal anchor/title, Brush current, canonical work, raw v043 tableau, and favicon all verified.
+- Deployment: `dpl_cKtnUms21aiwR9WM4U49RwmMntBa` at `https://autopoiesis-h6062389j-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+- Evidence commit: pending; provider revision linkage is not exposed.
