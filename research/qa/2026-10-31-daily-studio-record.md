@@ -76,4 +76,4 @@ Local headless Chrome evidence: **20/20 matrix runs passed** across `320×568`, 
 
 ### Critique and hold
 
-Accepted technical critique: the relation must be visible in the sparse hinge grammar and remote path production, not in labels. Production browser verification, independent caption-free perceptual review, and provider revision linkage remain unresolved. Candidate remains held; exhibition readiness is not claimed.
+Accepted technical critique: the relation must be visible in the sparse hinge grammar and remote path production, not in labels. Local and production browser verification passed; independent caption-free perceptual review and provider revision linkage remain unresolved. Candidate remains held; exhibition readiness is not claimed.

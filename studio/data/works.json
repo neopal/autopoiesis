@@ -96,7 +96,7 @@
         "lineage": "svg-2026-10-30"
       },
       "browserEvidence": {
-        "status": "20/20 local headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local pointer, keyboard, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; production verification and independent caption-free perceptual review remain pending",
+        "status": "20/20 local and 20/20 production raw/canonical browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production pointer, keyboard, blind preview, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, and diagnostics passed; candidate held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -125,8 +125,24 @@
         "localReadbacks": "Local rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v041 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
         "localProofPath": "research/qa/proofs/pure-svg-v041-2026-10-31/",
         "localScreenshotCount": 3,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v041/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v041/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/svg-2026-10-31/",
+        "productionViewportRuns": 20,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Production pointer selections kept all nine path geometries exact; Enter committed a route and changed three remote SVG hinges; Delete restored the exact register; ArrowRight ×3 plus Enter committed the equivalent keyboard route; R released; an incomplete route was refused; all three controls measured 44px at 390x844.",
+        "productionBlindPreviewEvidence": "Production reduced-motion static blind preview at 390x844 kept nine inline SVG hinge paths and four settled verdicts visible while hiding readout, controls, markers, annotations, and prose; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Production rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v041 tableau, deployed works.json record, public catalog record, and favicon returned/rendered.",
+        "productionProofPath": "research/qa/proofs/pure-svg-v041-2026-10-31-production/",
+        "productionScreenshotCount": 3,
+        "productionDeploymentId": "dpl_2NpEgS3PfY34Urhnr1LAEUVsu3jG",
+        "productionDeploymentUrl": "https://autopoiesis-jy2kowkgt-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "0080c775abec4ad325231765d0d67f5c4a06ec50",
+        "publicationRemoteSha": "0080c775abec4ad325231765d0d67f5c4a06ec50",
         "unresolved": [
-          "production browser matrix",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ]
