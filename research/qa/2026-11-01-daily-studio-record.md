@@ -105,4 +105,4 @@ The scheduled slot helper then selected `brush` for `2026-11-01` with cultural r
 - Production proof archive: `research/qa/proofs/brush-v044-2026-11-01-production/` (`23` screenshots plus `qa-summary.json`).
 - Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved; the final stable-alias readback and GitHub remote comparison passed.
 
-**Brush v044 status: stable-alias production gate passed; evidence commit/deployment follow-up pending.**
+**Brush v044 status: stable-alias production gate passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage.**
