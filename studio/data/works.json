@@ -98,7 +98,7 @@
         "lineage": "webgpu-2026-10-31"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending stable-alias production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -132,10 +132,25 @@
         "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v041/?preview=1&static=1&blind=1",
         "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-11-01/",
         "unresolved": [
-          "stable-alias production browser matrix",
           "independent caption-free perceptual review",
           "provider revision linkage between final Vercel deployment and GitHub SHA"
-        ]
+        ],
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable-alias real pointer hold stayed geometry-neutral until release; a 640ms+ release hardened a remote aperture while the source stayed exact; Delete restored the exact quiet fossil; Enter committed an equivalent deterministic hold; Escape released; a short hold was refused; a touch-context harden control committed; all three controls measured 44px at 390x844.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept one raster fossil, thirteen apertures, and four settled hardenings visible while hiding readout, controls, status, and caption; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable alias works.json and catalog-public.json returned HTTP 200 with exactly one webgpu-2026-11-01 record; rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v041 tableau, and favicon returned/rendered.",
+        "productionProofPath": "research/qa/proofs/webgpu-v041-2026-11-01-production/",
+        "productionScreenshotCount": 25,
+        "productionGpuAvailable": true,
+        "productionDeploymentId": "dpl_Ge4s78PJuhC1XfsBdd1LPRgbuBvP",
+        "productionDeploymentUrl": "https://autopoiesis-g7w4oapq7-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "69d81dc27b13d1d3abc1f4b4a2212c777b0a5170",
+        "publicationRemoteSha": "69d81dc27b13d1d3abc1f4b4a2212c777b0a5170"
       }
     },
     {

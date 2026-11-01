@@ -121,3 +121,16 @@ The scheduled slot helper selected `webgpu` for `2026-11-01` with cultural refer
 - Production deployment and stable-alias verification: pending.
 
 **WebGPU v041 status: candidate remains held pending stable-alias production gate, independent caption-free perceptual review, and provider revision linkage.**
+
+## WebGPU v041 production follow-up
+
+- Artifact commit: `69d81dc27b13d1d3abc1f4b4a2212c777b0a5170`; remote `main` matched before deployment.
+- Production deployment: `dpl_Ge4s78PJuhC1XfsBdd1LPRgbuBvP` at `https://autopoiesis-g7w4oapq7-lairpa-hotmailfrs-projects.vercel.app`.
+- Stable alias: `https://autopoiesis-nine.vercel.app`.
+- Stable-alias browser evidence: **20/20 raw/canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; diagnostics `0`, overflow `0`, minimum control target `44px`; pointer hold, short-hold refusal, touch-context harden control, keyboard, release, exact lift, blind preview, Journal/current/canonical/raw/catalog/favicon readbacks passed.
+- Production proof archive: `research/qa/proofs/webgpu-v041-2026-11-01-production/` (`25` screenshots plus `summary.json`).
+- Deployed registry readback: exactly one `webgpu-2026-11-01` record with the expected title, date, current, raw path, and `candidate / held` status; rendered Journal anchor/title and canonical work tableau passed.
+- Publication remote SHA: `69d81dc27b13d1d3abc1f4b4a2212c777b0a5170`.
+- Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved.
+
+**WebGPU v041 status: stable-alias production gate passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage.**
