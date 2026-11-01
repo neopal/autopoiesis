@@ -97,7 +97,7 @@
         "lineage": "typography-2026-10-30"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, touchscreen, keyboard, blind preview, canonical tableau-first order, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, Canvas rendering, and diagnostics passed; production verification remains pending",
+        "status": "20/20 local and 20/20 stable-alias production raw/canonical headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, touchscreen, keyboard, blind preview, canonical tableau-first order, Journal/current/canonical/raw readbacks, favicon, overflow, touch targets, Canvas rendering, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -126,10 +126,28 @@
         "localProofPath": "research/qa/proofs/handwriting-v039-2026-11-01/",
         "localScreenshotCount": 21,
         "unresolved": [
-          "production browser matrix and readbacks",
           "independent caption-free perceptual review",
-          "provider revision linkage between deployment and GitHub SHA"
-        ]
+          "provider revision linkage between final Vercel deployment and GitHub SHA"
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v039/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/handwriting/v039/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/typography-2026-11-01/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable-alias pointer junction clicks kept the route geometry exact while pending; commitment changed three unselected junctions and surrounding edges while all four selected junctions stayed exact; Delete restored the exact baseline; ArrowRight plus Enter committed the equivalent route; the rewire control committed without arming a junction; Escape released; real touchscreen committed; four routes compounded in blind mode.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept the Canvas route sheet visible with 12 junctions and four settled rewirings while hiding readout, controls, hint, and corner labels; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable alias /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with exactly one typography-2026-11-01 record; rendered Journal anchor/title, Handwriting current/card, canonical work title/tableau, raw v039 tableau, and favicon returned/rendered.",
+        "productionProofPath": "research/qa/proofs/handwriting-v039-2026-11-01-production/",
+        "productionScreenshotCount": 21,
+        "productionDeploymentId": "dpl_BwMJia8mqnxucFURiaDfsWTLkKPC",
+        "productionDeploymentUrl": "https://autopoiesis-17yvctvdv-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "40ac186db60409973fd52a35b88eb234e37d98a6",
+        "publicationRemoteSha": "40ac186db60409973fd52a35b88eb234e37d98a6"
       }
     },
     {
