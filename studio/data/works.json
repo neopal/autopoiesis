@@ -240,7 +240,7 @@
         "lineage": "portrait-2026-10-31"
       },
       "browserEvidence": {
-        "status": "20/20 local headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local interaction, blind preview, route readbacks, favicon, overflow, touch targets, WebGL availability, and diagnostics passed; production verification and independent caption-free perceptual review remain pending",
+        "status": "20/20 local and 20/20 stable-alias production headless browser runs passed across raw/canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production interaction, blind preview, route readbacks, favicon, overflow, touch targets, WebGL availability, and diagnostics passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -255,7 +255,6 @@
           "reduced-motion"
         ],
         "unresolved": [
-          "production browser matrix",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
         ],
@@ -274,7 +273,27 @@
         "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 kept the WebGL volume visible with 22 ribbons and four settled productions while hiding readout, axes, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
         "localReadbacks": "Local /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with exactly one portrait-2026-11-01 record; rendered Journal anchor/title, Self portrait current/card, canonical work title/tableau, raw v039 tableau, and favicon returned/rendered.",
         "localProofPath": "research/qa/proofs/portrait-v039-2026-11-01/",
-        "localScreenshotCount": 25
+        "localScreenshotCount": 25,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v039/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v039/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/portrait-2026-11-01/",
+        "productionDeploymentId": "dpl_EC2r7oDMkwLPUVsNhZTiP3Rrt4SJ",
+        "productionDeploymentUrl": "https://autopoiesis-efmzwz72v-lairpa-hotmailfrs-projects.vercel.app",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionGpuAvailable": true,
+        "productionInteraction": "Stable-alias pointer clicks armed left and right without changing geometry; produce changed every ribbon and the global volume parameters; Delete restored the exact paired offer; ArrowLeft + ArrowRight + Enter committed an equivalent keyboard pair; Escape released; a one-sided production was refused; real touchscreen committed; all five controls measured at least 44px at 390x844.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept the WebGL volume visible with 22 ribbons and four settled productions while hiding readout, axes, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable alias /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with exactly one portrait-2026-11-01 record; rendered Journal anchor/title, Self portrait current/card, canonical work title/tableau, raw v039 tableau, and favicon returned/rendered.",
+        "productionProofPath": "research/qa/proofs/portrait-v039-2026-11-01-production/",
+        "productionScreenshotCount": 25,
+        "artifactCommit": "b9d307b59f053666b6b3f879988157b29dab9a3e",
+        "publicationRemoteSha": "b9d307b59f053666b6b3f879988157b29dab9a3e"
       }
     },
     {

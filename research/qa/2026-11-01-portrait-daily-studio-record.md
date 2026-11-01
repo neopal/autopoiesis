@@ -50,16 +50,18 @@ The last three Self portrait records repeated a local offer followed by a delaye
 
 ## Publication
 
-- **Artifact commit:** pending
-- **Remote `main`:** pending
-- **Deployment:** pending production publication
+- **Artifact commit:** `b9d307b59f053666b6b3f879988157b29dab9a3e` — `[verified] record Self portrait v039 daily work`
+- **Remote `main`:** matched artifact SHA `b9d307b59f053666b6b3f879988157b29dab9a3e`
+- **Deployment:** `dpl_EC2r7oDMkwLPUVsNhZTiP3Rrt4SJ` — https://autopoiesis-efmzwz72v-lairpa-hotmailfrs-projects.vercel.app
 - **Stable production alias:** https://autopoiesis-nine.vercel.app
+- **Stable-alias readback:** `/studio/data/works.json`, `/studio/data/catalog-public.json`, `/journal/`, `/currents/self-portrait/`, `/works/portrait-2026-11-01/`, raw v039 preview, and `/studio/favicon.svg` all returned/rendered successfully. Each JSON register contained exactly one `portrait-2026-11-01` record.
 
 ## Accepted critique / unresolved doubt
 
 Accepted: the implementation proves a deterministic two-sided counterfield in actual WebGL triangle geometry, with geometry-neutral offers, global production, exact four-step lifting, and equivalent pointer/touch/keyboard paths. The cultural translation is visible as a changed production rule rather than a copied brush surface.
 
-Unresolved: production browser verification and independent caption-free perceptual review are pending. Provider revision linkage between the final Vercel deployment and GitHub SHA remains unasserted.
+- Production browser matrix: **20/20 passed** on the stable alias with **0 diagnostics**, **0 overflow failures**, WebGL available, and **44px** minimum controls; production interaction, blind preview, readbacks, and favicon passed.
+- Independent caption-free perceptual review has not been available in this unattended run. Provider revision linkage between the final Vercel deployment and GitHub SHA remains unasserted.
 
 **Candidate remains held; exhibition readiness is not claimed.**
 
