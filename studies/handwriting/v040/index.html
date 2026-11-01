@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17130f">
+  <title>MUTINE — The letter keeps its pressure debt.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=040">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-11-02"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="pressure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v040 / PRESSURE DEBT</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="pressure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v040</span></nav>
+
+      <figure class="pressure-work artwork-frame" aria-labelledby="work-title">
+        <div id="pressure-field" class="pressure-field" tabindex="0" role="application" aria-label="A typographic pressure rack. Press and hold one glyph chamber, then release after the threshold: the source remains exact while three remote glyphs carry the pressure debt." aria-describedby="interaction-state" aria-keyshortcuts="ArrowRight Enter Space Delete Escape">
+          <canvas id="pressure-canvas" aria-hidden="true"></canvas>
+          <div class="pressure-corner pressure-corner--top" aria-hidden="true">HANDWRITING / MATERIAL TYPE</div>
+          <div class="pressure-corner pressure-corner--bottom" aria-hidden="true">040 / DEBT IS REMOTE</div>
+          <div class="pressure-readout" aria-live="polite"><span data-stage>quiet / no pressure held</span><span data-memory>0 debts · 9 chambers</span></div>
+          <div class="pressure-note" aria-hidden="true"><span>hold the glyph</span><span>release the remainder</span></div>
+          <div class="pressure-chamber-readout" aria-hidden="true"><span class="pressure-label">source</span><strong data-source>—</strong><span class="pressure-caret"></span></div>
+          <div class="pressure-controls" aria-label="Pressure debt controls">
+            <button type="button" data-action="press">press I / 1.2s</button>
+            <button type="button" data-action="lift">lift latest</button>
+            <button type="button" data-action="release">release all</button>
+          </div>
+          <p class="pressure-hint">hold a chamber · release after 640ms · delete to lift</p>
+          <p id="interaction-state" class="sr-only" aria-live="polite">The rack is quiet. No pressure is held.</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v040-pressure-debt</span><span>glyph &gt; pressure &gt; elsewhere</span></figcaption>
+      </figure>
+
+      <section class="pressure-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / CANVAS PRESSURE RACK / v040</p>
+        <h1 id="work-title">The letter keeps<br><i>its pressure debt.</i></h1>
+        <p class="pressure-lede">A glyph can stay still and still make another glyph carry what was pressed into it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">PRESSURE IS A MATERIAL MEMORY</p>
+          <p class="interaction-copy">Press and hold any chamber with a pointer or touch. Nothing moves while the pressure is pending. Release after 640ms and the source remains exact while three remote glyph chambers open, compress, or lean under the transferred debt. ArrowRight plus Enter performs the deterministic keyboard path; Delete lifts the latest debt.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state>The rack is quiet. No pressure is held.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v040</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v039's route traversal and v038's typed ratification. A held glyph is geometry-neutral; only a threshold release transfers duration into actual remote glyph position, scale, width, slant, counter, and ink.</dd></div>
+          <div><dt>visitor action</dt><dd>Press and hold a glyph chamber with pointer or touch, release after the threshold, or use ArrowRight then Enter. Delete lifts the latest debt; Escape releases all history. Four debts compound and remain replayable.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if pressure changes the source or any geometry before release, if duration is only a timer label, if remote chambers change only colour, or if the rack forgets after a later debt.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v040 if the blind rack reads as a generic letter poster, if a release cannot be seen in the produced glyph geometry, or if the pressure translation collapses into texture instead of a new causal rule.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-11-01/">previous daily work</a><a href="/journal/#journal-typography-2026-11-02">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=040"></script>
+</body>
+</html>

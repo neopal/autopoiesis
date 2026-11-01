@@ -2,6 +2,141 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "typography-2026-11-02",
+      "currentId": "typography",
+      "date": "2026-11-02",
+      "title": "The letter keeps its pressure debt.",
+      "rawPath": "/studies/handwriting/v040/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-typography-2026-11-02",
+        "note": "v040 abandons v039's route traversal, v038's typed ratification, and v037's pressure seam. Nine oversized glyph chambers now form one asymmetric pressure rack: holding is geometry-neutral until 640ms, then release transfers elapsed pressure into three remote glyph bodies while the source stays exact. Four pressure debts compound and remain liftable."
+      },
+      "critiques": [
+        {
+          "persona": "Glyph-form critic",
+          "argument": "The nine chambers must read as one typographic apparatus before they read as scattered letters. Counter-spaces, shared baseline tensions, and the asymmetric central opening must carry the composition without interface chrome."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and prose hidden, the first view must leave v039's route topology, v038's word agents, and v037's sentence seam. It should read as a pressure rack, not a poster or dashboard."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must press one chamber and release after a real threshold. A short hold, pointer miss, touch cancellation, or focus change must remain geometry-neutral; pointer, touch, and keyboard must offer equivalent meaningful paths."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "A committed pressure event must change actual remote glyph position, scale, width, slant, counter, and ink. A timer, halo, colour, readout, or caption cannot substitute for produced letter geometry."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The source glyph must remain exact. The debt must be found at three other chambers, where the next letters visibly open, compress, and lean away from the pressure that caused them."
+        },
+        {
+          "persona": "Duration critic",
+          "argument": "A threshold hold and a longer hold must produce materially different geometry. If all releases look alike, elapsed pressure is only metadata and the direction fails."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four pressure debts must compound in one rack. Delete must reconstruct the exact preceding apparatus and Escape must return to the deterministic quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "Canvas text, transformed glyph bodies, counter rings, and persistent chamber state are the produced medium. The type must arise from deterministic engine state, not a screenshot or CSS poster."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from pressure and material behavior into remote typographic debt. No brush preset, watercolor, hatching, grain, palette, composition, source code, API surface, or source imagery is reproduced."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v040 changes representation, composition, encounter, temporal behavior, shape vocabulary, and viewer task: an unlabelled apparatus of glyph chambers replaces route traversal, typed tokens, and sentence cutting; the visitor now holds material pressure until it migrates."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v040 if the blind rack is only a polished letter poster, if holding changes geometry early, if short releases commit, if duration is cosmetic, if the source answers itself, if remote roles are decorative, if later debts reset, or if lifting fails."
+        }
+      ],
+      "metrics": {
+        "id": "handwriting-v040-pressure-debt",
+        "seed": "0x485740",
+        "visitorInput": true,
+        "replay": true,
+        "renderer": "deterministic Canvas 2D typographic pressure rack",
+        "grammar": "pressure-debt",
+        "chamberCount": 9,
+        "holdThreshold": 640,
+        "memoryWindow": 4,
+        "primitiveBudget": 9,
+        "memoryRule": "a threshold release transfers duration into three remote glyph chambers while the source stays exact; four pressure debts persist and can be lifted",
+        "interactionRule": "press and hold a chamber with pointer or touch, release after 640ms, use ArrowRight plus Enter, Delete to lift latest, Escape to release all",
+        "representationRupture": "Canvas route topology, browser-native word agents, and folded SVG sentence -> one asymmetric rack of actual rendered glyph chambers",
+        "compositionRupture": "braided route sheet, distributed word field, and folded sentence -> central typographic apparatus with nine counter-spaces and remote pressure halos",
+        "encounterRupture": "traversal then commit, typed token then ratification, and pressure sweep -> hold one chamber and release a material debt elsewhere",
+        "temporalRupture": "route memory, token memory, and seam memory -> elapsed duration changes remote glyph geometry and remains liftable",
+        "mediumRupture": "Canvas topology and browser DOM/SVG language -> Canvas 2D text rendering with produced glyph transforms and counters",
+        "changedRule": "Holding is geometry-neutral until 640ms; release transfers duration into position, scale, width, slant, counter, and ink at three remote glyph chambers while the source remains exact.",
+        "visibleConsequence": "A warm blind rack of nine glyph chambers becomes visibly opened, compressed, and leaned at three remote sites after release; longer holds produce stronger geometry and four debts compound.",
+        "falsifier": "Delete if holding changes geometry early, short release commits, duration is cosmetic, the source answers itself, remote change is only colour/readout, or later debts reset.",
+        "deletionCondition": "Delete v040 if the blind rack is only a generic letter poster or if the pressure translation reads as texture rather than causal typographic memory.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "p5-brush"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "Programmable drawing instruments make pressure, density, directional behavior, and material state participate in producing geometry rather than sit on top of it as a skin.",
+        "translatedRule": "Refuse brush marks, watercolor, hatching, and grain. Make elapsed pressure a debt that migrates into remote glyph chambers; the material rule changes the next letter's geometry and remains in the rack.",
+        "visibleConsequence": "The blind view is a warm asymmetric rack of nine actual rendered glyphs. A threshold release leaves the source exact while three remote chambers visibly open, compress, or lean; longer holds produce stronger geometry and four debts persist.",
+        "falsifier": "If holding changes geometry before release, if a short release commits, if duration is cosmetic, if the source answers itself, if remote change is only colour/readout, or if later pressure resets, the translation fails.",
+        "antiCopy": "No brush preset, watercolor appearance, hatching vocabulary, grain, palette, composition, source code, API surface, or source imagery is reproduced.",
+        "directionConsequence": "Closes Handwriting's route / token / seam sequence and opens material type: the current's question moves from a letter as route into a letter as a chamber that can carry another event's pressure.",
+        "selectedBySlot": true
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v040 if holding changes geometry early, short release commits, duration is cosmetic, the source answers itself, remote roles are decorative, later debts reset, or lifting fails.",
+        "lineage": "typography-2026-11-01"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical headless browser runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, short-threshold refusal, duration-dependent geometry, remote transfer, source exactness, lift, keyboard, button, touch, blind preview, tableau-first canonical route, Journal/current/catalog readbacks, favicon, overflow, touch targets, Canvas rendering, and diagnostics passed; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage.",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localRawPreview": "/studies/handwriting/v040/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/handwriting/v040/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/typography-2026-11-02/",
+        "localViewportRuns": 20,
+        "localRawViewportRuns": 10,
+        "localCanonicalViewportRuns": 10,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "A short pointer hold refused without geometry change; a threshold pointer hold transferred pressure to exactly three remote chambers while the source stayed exact; Delete restored the quiet signature; ArrowRight plus Enter, the press button, and a synthetic touch path committed; release returned to quiet.",
+        "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 kept the Canvas pressure rack visible with 9 chambers and 4 debts while hiding readout, controls, note, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "localReadbacks": "Local /studio/data/works.json and /studio/data/catalog-public.json returned HTTP 200 with exactly one typography-2026-11-02 record; rendered Journal anchor/title, Handwriting current/card, canonical work title/tableau, raw v040 tableau, and favicon returned/rendered.",
+        "localProofPath": "research/qa/proofs/handwriting-v040-2026-11-02/",
+        "localScreenshotCount": 21,
+        "unresolved": [
+          "production browser matrix",
+          "independent caption-free perceptual review",
+          "provider revision linkage between final Vercel deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "webgpu-2026-11-01",
       "currentId": "webgpu",
       "date": "2026-11-01",
