@@ -1,0 +1,71 @@
+:root {
+  --fossil-ground: #0b1015;
+  --fossil-ink: #e6ddc8;
+  --fossil-muted: #9aa0a1;
+  --fossil-copper: #d47f55;
+  --fossil-mint: #9ac6b8;
+  --fossil-ochre: #b99a61;
+  --fossil-frame: rgba(212, 127, 85, 0.38);
+  --fossil-surface: #11191d;
+}
+
+html, body { margin: 0; min-width: 0; background: var(--fossil-ground); color: var(--fossil-ink); }
+body.work-page {
+  background:
+    radial-gradient(circle at 16% 20%, rgba(154, 198, 184, 0.09), transparent 24rem),
+    radial-gradient(circle at 84% 78%, rgba(212, 127, 85, 0.11), transparent 30rem),
+    #0b1015;
+}
+.fossil-shell { width: min(100%, 1540px); margin: 0 auto; padding: clamp(14px, 2vw, 28px) clamp(14px, 4vw, 64px) 34px; box-sizing: border-box; }
+.fossil-shell .studio-header { min-height: 38px; border-bottom-color: rgba(212, 127, 85, 0.22); }
+.fossil-shell .studio-header p, .fossil-shell .studio-nav a, .fossil-shell .studio-path, .fossil-shell figcaption, .fossil-shell .studio-footer { color: var(--fossil-muted); }
+.fossil-main { min-width: 0; }
+.fossil-main .studio-path { margin: clamp(16px, 3vw, 30px) 0 12px; }
+.fossil-work { display: grid; grid-template-columns: minmax(0, 1fr) minmax(190px, 0.27fr); gap: clamp(14px, 2vw, 30px); align-items: start; }
+.fossil-frame { position: relative; isolation: isolate; min-width: 0; margin: 0; aspect-ratio: 5 / 6; overflow: hidden; background: var(--fossil-surface); border: 1px solid var(--fossil-frame); box-shadow: 0 28px 110px rgba(0, 0, 0, 0.48), inset 0 0 0 1px rgba(230, 221, 200, 0.05); }
+.fossil-frame::before { content: ""; position: absolute; inset: 14px; z-index: 2; border: 1px solid rgba(154, 198, 184, 0.12); pointer-events: none; }
+#fossil-field { display: block; width: 100%; height: 100%; outline: none; background: var(--fossil-surface); cursor: crosshair; }
+.fossil-readout, .fossil-status, .fossil-controls, .fossil-frame figcaption { position: absolute; z-index: 3; }
+.fossil-readout { top: 22px; left: 24px; display: flex; gap: 14px; flex-wrap: wrap; max-width: calc(100% - 48px); color: rgba(230, 221, 200, 0.72); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.08em; text-transform: uppercase; }
+.fossil-readout span + span::before { content: "·"; margin-right: 14px; color: var(--fossil-copper); }
+.fossil-status { bottom: 58px; left: 24px; max-width: 58%; color: rgba(230, 221, 200, 0.72); font: 12px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.fossil-controls { right: 22px; bottom: 51px; display: flex; gap: 7px; justify-content: flex-end; flex-wrap: wrap; max-width: 54%; }
+.fossil-controls button { min-height: 44px; padding: 0 12px; border: 1px solid rgba(154, 198, 184, 0.42); border-radius: 2px; background: rgba(11, 16, 21, 0.84); color: var(--fossil-ink); font: 10px/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; }
+.fossil-controls button:hover, .fossil-controls button:focus-visible { border-color: var(--fossil-mint); background: rgba(154, 198, 184, 0.12); outline: 2px solid rgba(154, 198, 184, 0.28); outline-offset: 2px; }
+.fossil-frame figcaption { right: 22px; bottom: 16px; left: 22px; display: flex; justify-content: space-between; gap: 14px; font: 9px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.12em; text-transform: uppercase; }
+.fossil-notes { display: grid; gap: 16px; padding-top: 4px; }
+.fossil-notes > div { padding-top: 11px; border-top: 1px solid rgba(212, 127, 85, 0.24); }
+.fossil-notes span, .fossil-note strong { color: var(--fossil-mint); font: 10px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.1em; text-transform: uppercase; }
+.fossil-notes p, .fossil-note p { margin: 8px 0 0; color: rgba(230, 221, 200, 0.74); font-size: 13px; line-height: 1.45; }
+.fossil-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 0.38fr); gap: 30px; align-items: end; padding: clamp(28px, 7vw, 82px) 0 clamp(22px, 4vw, 44px); border-bottom: 1px solid rgba(212, 127, 85, 0.2); }
+.fossil-opening h1 { max-width: 820px; margin: 10px 0 0; color: var(--fossil-ink); font-size: clamp(40px, 7vw, 106px); font-weight: 500; letter-spacing: -0.06em; line-height: 0.88; }
+.fossil-opening h1 i { color: var(--fossil-copper); font-family: Georgia, serif; font-weight: 400; }
+.fossil-premise { max-width: 300px; margin: 0 0 3px; color: rgba(230, 221, 200, 0.7); font-size: 16px; line-height: 1.25; }
+.fossil-note { max-width: 680px; margin: 20px 0 0 auto; padding: 15px 0 0; border-top: 1px solid rgba(212, 127, 85, 0.18); }
+.fossil-note p { margin-top: 0; }
+.fossil-shell .studio-footer { margin-top: 30px; border-top-color: rgba(212, 127, 85, 0.22); }
+html.preview-mode .fossil-shell { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .fossil-shell .studio-header, html.preview-mode .fossil-main > .studio-path, html.preview-mode .fossil-notes, html.preview-mode .fossil-opening, html.preview-mode .fossil-note, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .fossil-work { display: block; }
+html.preview-mode .fossil-frame { width: 100vw; height: 100vh; min-height: 100vh; aspect-ratio: auto; border: 0; box-shadow: none; }
+html.preview-mode .fossil-frame::before, html.blind-mode .fossil-frame::before { display: none; }
+html.blind-mode .fossil-readout, html.blind-mode .fossil-status, html.blind-mode .fossil-controls, html.blind-mode .fossil-frame figcaption { display: none; }
+@media (prefers-reduced-motion: reduce) { #fossil-field { cursor: default; } }
+@media (max-width: 920px) { .fossil-work { grid-template-columns: 1fr; } .fossil-notes { grid-template-columns: repeat(3, minmax(0, 1fr)); } .fossil-opening { grid-template-columns: 1fr minmax(180px, 0.4fr); } }
+@media (max-width: 680px) {
+  .fossil-shell { padding-right: 12px; padding-left: 12px; }
+  .fossil-shell .studio-header p { display: none; }
+  .fossil-frame { aspect-ratio: 4 / 5; }
+  .fossil-readout { top: 18px; left: 18px; right: 18px; gap: 6px 10px; max-width: none; font-size: 9px; }
+  .fossil-readout span + span::before { margin-right: 10px; }
+  .fossil-status { right: 18px; bottom: 122px; left: 18px; max-width: none; font-size: 10px; }
+  .fossil-controls { right: 18px; bottom: 56px; left: 18px; max-width: none; justify-content: stretch; }
+  .fossil-controls button { flex: 1 1 30%; padding: 0 7px; font-size: 9px; }
+  .fossil-frame figcaption { right: 18px; bottom: 16px; left: 18px; font-size: 8px; }
+  .fossil-frame figcaption span:last-child { display: none; }
+  .fossil-notes { grid-template-columns: 1fr; gap: 12px; }
+  .fossil-opening { display: block; padding-top: 42px; }
+  .fossil-opening h1 { font-size: clamp(42px, 15vw, 72px); }
+  .fossil-premise { margin-top: 24px; }
+}
+@media (max-width: 390px) { .fossil-shell .studio-nav { gap: 10px; } .fossil-shell .studio-nav a { font-size: 10px; } .fossil-frame { aspect-ratio: 4 / 5.4; } .fossil-controls button { letter-spacing: 0; } }

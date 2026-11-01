@@ -106,3 +106,18 @@ The scheduled slot helper then selected `brush` for `2026-11-01` with cultural r
 - Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved; the final stable-alias readback and GitHub remote comparison passed.
 
 **Brush v044 status: stable-alias production gate passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage.**
+
+## Follow-up WebGPU slot run — 2026-11-01
+
+The scheduled slot helper selected `webgpu` for `2026-11-01` with cultural reference `p5-brush`; the slot was genuinely empty at selection time and a new artifact was produced afterward.
+
+- Work: `webgpu-2026-11-01` — *The crowd gives weight to waiting.* — `candidate / held`.
+- Raw tableau: `/studies/webgpu/v041/`; canonical page: `/works/webgpu-2026-11-01/`.
+- Changed rule: the pointer never paints and no site is selected; only a press-and-hold crossing `640ms`, then release, hardens a remote aperture and central seam in one singular raster fossil; elapsed duration changes material hardness; four events compound and lift exactly.
+- Cultural translation: p5.brush's pressure/material production logic became a temporal hold and remote raster cut. Brush presets, watercolor, hatching, grain, palette, source code, API surface, and composition are explicitly refused.
+- Local headless browser evidence: **20/20 raw/canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; diagnostics `0`, overflow `0`, minimum control target `44px`; pointer hold, short-hold refusal, touch-context harden control, keyboard, release, exact lift, blind preview, raw/canonical/current/Journal readbacks, public catalog, and favicon passed.
+- Targeted tests: **5/5 passed**; full suite: **1281/1281 passed**; JavaScript syntax, JSON parsing, and `git diff --check` passed.
+- Local proof archive: `research/qa/proofs/webgpu-v041-2026-11-01/`.
+- Production deployment and stable-alias verification: pending.
+
+**WebGPU v041 status: candidate remains held pending stable-alias production gate, independent caption-free perceptual review, and provider revision linkage.**

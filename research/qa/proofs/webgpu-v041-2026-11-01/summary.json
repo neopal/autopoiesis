@@ -1,0 +1,6293 @@
+{
+  "production": false,
+  "matrixCount": 20,
+  "matrixPassed": true,
+  "interactionPassed": true,
+  "blindPassed": true,
+  "readbacksPassed": true,
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "registryStatus": 200,
+  "publicCatalogStatus": 200,
+  "faviconStatus": 200,
+  "recordMatches": 1,
+  "catalogMatches": 1,
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01",
+  "matrix": [
+    {
+      "routeName": "raw",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "fieldVisible": true,
+        "field": {
+          "width": 320,
+          "height": 568
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-normal-320x568.png",
+      "screenshotBytes": 50483
+    },
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "fieldVisible": true,
+        "field": {
+          "width": 390,
+          "height": 844
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-normal-390x844.png",
+      "screenshotBytes": 66540
+    },
+    {
+      "routeName": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "fieldVisible": true,
+        "field": {
+          "width": 768,
+          "height": 1024
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-normal-768x1024.png",
+      "screenshotBytes": 98935
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "fieldVisible": true,
+        "field": {
+          "width": 1280,
+          "height": 800
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-normal-1280x800.png",
+      "screenshotBytes": 110862
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "fieldVisible": true,
+        "field": {
+          "width": 1920,
+          "height": 1080
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-normal-1920x1080.png",
+      "screenshotBytes": 156523
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": 196.5,
+        "headingTop": 626.890625,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "fieldVisible": true,
+        "field": {
+          "width": 282,
+          "height": 358
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-normal-320x568.png",
+      "screenshotBytes": 206491
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "fieldVisible": true,
+        "field": {
+          "width": 352,
+          "height": 437
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-normal-390x844.png",
+      "screenshotBytes": 216055
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": 183.5,
+        "headingTop": 885.25,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "fieldVisible": true,
+        "field": {
+          "width": 730,
+          "height": 630
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-normal-768x1024.png",
+      "screenshotBytes": 263456
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "fieldVisible": true,
+        "field": {
+          "width": 735,
+          "height": 720
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-normal-1280x800.png",
+      "screenshotBytes": 328626
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "fieldVisible": true,
+        "field": {
+          "width": 722,
+          "height": 720
+        },
+        "state": {
+          "stage": 0,
+          "memory": 0,
+          "events": [],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "quiet",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.41279,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10504,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.58694,
+              "edge": 0.80683,
+              "density": 0.75838
+            },
+            {
+              "id": 4,
+              "x": 0.79,
+              "y": 0.46,
+              "width": 0.08246,
+              "height": 0.1554,
+              "tilt": -0.27003,
+              "notch": 0.58761,
+              "edge": 0.36427,
+              "density": 0.503
+            },
+            {
+              "id": 5,
+              "x": 0.84,
+              "y": 0.72,
+              "width": 0.128,
+              "height": 0.11137,
+              "tilt": 0.24797,
+              "notch": 0.24834,
+              "edge": 0.77418,
+              "density": 0.3515
+            },
+            {
+              "id": 6,
+              "x": 0.62,
+              "y": 0.85,
+              "width": 0.12091,
+              "height": 0.1444,
+              "tilt": -0.12464,
+              "notch": 0.30515,
+              "edge": 0.7789,
+              "density": 0.5669
+            },
+            {
+              "id": 7,
+              "x": 0.4,
+              "y": 0.9,
+              "width": 0.118,
+              "height": 0.11149,
+              "tilt": 0.15464,
+              "notch": 0.29727,
+              "edge": 0.55959,
+              "density": 0.67524
+            },
+            {
+              "id": 8,
+              "x": 0.18,
+              "y": 0.8,
+              "width": 0.12218,
+              "height": 0.10388,
+              "tilt": 0.16228,
+              "notch": 0.31096,
+              "edge": 0.38405,
+              "density": 0.74079
+            },
+            {
+              "id": 9,
+              "x": 0.13,
+              "y": 0.58,
+              "width": 0.10189,
+              "height": 0.1334,
+              "tilt": -0.23057,
+              "notch": 0.33712,
+              "edge": 0.70614,
+              "density": 0.64852
+            },
+            {
+              "id": 10,
+              "x": 0.2,
+              "y": 0.38,
+              "width": 0.10777,
+              "height": 0.12104,
+              "tilt": 0.04393,
+              "notch": 0.45151,
+              "edge": 0.8173,
+              "density": 0.76346
+            },
+            {
+              "id": 11,
+              "x": 0.47,
+              "y": 0.3,
+              "width": 0.11039,
+              "height": 0.1228,
+              "tilt": -0.29883,
+              "notch": 0.49715,
+              "edge": 0.6998,
+              "density": 0.84859
+            },
+            {
+              "id": 12,
+              "x": 0.55,
+              "y": 0.66,
+              "width": 0.09485,
+              "height": 0.10136,
+              "tilt": -0.31931,
+              "notch": 0.29773,
+              "edge": 0.61222,
+              "density": 0.57543
+            }
+          ],
+          "remoteIndex": null,
+          "spine": {
+            "x": 0.5,
+            "width": 0.034,
+            "tension": 0
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-normal-1920x1080.png",
+      "screenshotBytes": 352366
+    },
+    {
+      "routeName": "raw",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "fieldVisible": true,
+        "field": {
+          "width": 320,
+          "height": 568
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-reduced-320x568.png",
+      "screenshotBytes": 53737
+    },
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "fieldVisible": true,
+        "field": {
+          "width": 390,
+          "height": 844
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-reduced-390x844.png",
+      "screenshotBytes": 71420
+    },
+    {
+      "routeName": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "fieldVisible": true,
+        "field": {
+          "width": 768,
+          "height": 1024
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-reduced-768x1024.png",
+      "screenshotBytes": 106396
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "fieldVisible": true,
+        "field": {
+          "width": 1280,
+          "height": 800
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-reduced-1280x800.png",
+      "screenshotBytes": 119592
+    },
+    {
+      "routeName": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "fieldVisible": true,
+        "field": {
+          "width": 1920,
+          "height": 1080
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\raw-reduced-1920x1080.png",
+      "screenshotBytes": 169264
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "iframeTop": 196.5,
+        "headingTop": 626.890625,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "fieldVisible": true,
+        "field": {
+          "width": 282,
+          "height": 358
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-reduced-320x568.png",
+      "screenshotBytes": 208589
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": 183.5,
+        "headingTop": 692.296875,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "fieldVisible": true,
+        "field": {
+          "width": 352,
+          "height": 437
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-reduced-390x844.png",
+      "screenshotBytes": 218890
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "iframeTop": 183.5,
+        "headingTop": 885.25,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "fieldVisible": true,
+        "field": {
+          "width": 730,
+          "height": 630
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-reduced-768x1024.png",
+      "screenshotBytes": 268711
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "fieldVisible": true,
+        "field": {
+          "width": 735,
+          "height": 720
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-reduced-1280x800.png",
+      "screenshotBytes": 334866
+    },
+    {
+      "routeName": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "iframeTop": 161,
+        "headingTop": 953,
+        "tableauFirst": true,
+        "ready": "true"
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "fieldVisible": true,
+        "field": {
+          "width": 722,
+          "height": 720
+        },
+        "state": {
+          "stage": 4,
+          "memory": 4,
+          "events": [
+            {
+              "id": "fossil-hardening-1",
+              "mode": "fossil-hardening",
+              "sourceIndex": 0,
+              "receiverIndex": 7,
+              "durationMs": 820,
+              "hardness": 0.15517,
+              "serial": 0
+            },
+            {
+              "id": "fossil-hardening-2",
+              "mode": "fossil-hardening",
+              "sourceIndex": 4,
+              "receiverIndex": 8,
+              "durationMs": 1100,
+              "hardness": 0.39655,
+              "serial": 1
+            },
+            {
+              "id": "fossil-hardening-3",
+              "mode": "fossil-hardening",
+              "sourceIndex": 7,
+              "receiverIndex": 9,
+              "durationMs": 1360,
+              "hardness": 0.62069,
+              "serial": 2
+            },
+            {
+              "id": "fossil-hardening-4",
+              "mode": "fossil-hardening",
+              "sourceIndex": 12,
+              "receiverIndex": 11,
+              "durationMs": 1560,
+              "hardness": 0.7931,
+              "serial": 3
+            }
+          ],
+          "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+          "gesture": null,
+          "lastAction": "settled-fossil",
+          "kind": "pressure-fossil",
+          "apertures": [
+            {
+              "id": 0,
+              "x": 0.18,
+              "y": 0.16,
+              "width": 0.07743,
+              "height": 0.12027,
+              "tilt": -0.24631,
+              "notch": 0.47986,
+              "edge": 0.40365,
+              "density": 0.66692
+            },
+            {
+              "id": 1,
+              "x": 0.39,
+              "y": 0.12,
+              "width": 0.12404,
+              "height": 0.12665,
+              "tilt": 0.0321,
+              "notch": 0.48116,
+              "edge": 0.51165,
+              "density": 0.39286
+            },
+            {
+              "id": 2,
+              "x": 0.61,
+              "y": 0.15,
+              "width": 0.11397,
+              "height": 0.1394,
+              "tilt": -0.08449,
+              "notch": 0.4128,
+              "edge": 0.30228,
+              "density": 0.40128
+            },
+            {
+              "id": 3,
+              "x": 0.82,
+              "y": 0.24,
+              "width": 0.10506,
+              "height": 0.11859,
+              "tilt": -0.06791,
+              "notch": 0.5871,
+              "edge": 0.80688,
+              "density": 0.75846
+            },
+            {
+              "id": 4,
+              "x": 0.79001,
+              "y": 0.46003,
+              "width": 0.08255,
+              "height": 0.15544,
+              "tilt": -0.26994,
+              "notch": 0.58844,
+              "edge": 0.36456,
+              "density": 0.50344
+            },
+            {
+              "id": 5,
+              "x": 0.8399,
+              "y": 0.72007,
+              "width": 0.12873,
+              "height": 0.11172,
+              "tilt": 0.24717,
+              "notch": 0.25573,
+              "edge": 0.77652,
+              "density": 0.3552
+            },
+            {
+              "id": 6,
+              "x": 0.61951,
+              "y": 0.8502,
+              "width": 0.12329,
+              "height": 0.14553,
+              "tilt": -0.12857,
+              "notch": 0.32688,
+              "edge": 0.7864,
+              "density": 0.57877
+            },
+            {
+              "id": 7,
+              "x": 0.40182,
+              "y": 0.90165,
+              "width": 0.12617,
+              "height": 0.12187,
+              "tilt": 0.16898,
+              "notch": 0.36732,
+              "edge": 0.58536,
+              "density": 0.71605
+            },
+            {
+              "id": 8,
+              "x": 0.1707,
+              "y": 0.79563,
+              "width": 0.14218,
+              "height": 0.13,
+              "tilt": 0.08877,
+              "notch": 0.51388,
+              "edge": 0.44722,
+              "density": 0.8408
+            },
+            {
+              "id": 9,
+              "x": 0.11614,
+              "y": 0.58841,
+              "width": 0.13018,
+              "height": 0.17287,
+              "tilt": -0.34009,
+              "notch": 0.5326,
+              "edge": 0.79546,
+              "density": 0.78995
+            },
+            {
+              "id": 10,
+              "x": 0.19595,
+              "y": 0.37948,
+              "width": 0.11597,
+              "height": 0.12492,
+              "tilt": 0.01199,
+              "notch": 0.51356,
+              "edge": 0.84321,
+              "density": 0.80448
+            },
+            {
+              "id": 11,
+              "x": 0.45392,
+              "y": 0.28954,
+              "width": 0.14257,
+              "height": 0.17135,
+              "tilt": -0.42578,
+              "notch": 0.91951,
+              "edge": 0.8014,
+              "density": 1
+            },
+            {
+              "id": 12,
+              "x": 0.54964,
+              "y": 0.66026,
+              "width": 0.09557,
+              "height": 0.10171,
+              "tilt": -0.32216,
+              "notch": 0.3053,
+              "edge": 0.6145,
+              "density": 0.57904
+            }
+          ],
+          "remoteIndex": 11,
+          "spine": {
+            "x": 0.50869,
+            "width": 0.0517,
+            "tension": -0.07034
+          },
+          "gpuAvailable": true,
+          "apertureCount": 13,
+          "holdThresholdMs": 640
+        },
+        "controls": [
+          {
+            "text": "harden pause",
+            "height": 44
+          },
+          {
+            "text": "lift latest",
+            "height": 44
+          },
+          {
+            "text": "release archive",
+            "height": 44
+          }
+        ],
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex",
+        "statusDisplay": "block",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\canonical-reduced-1920x1080.png",
+      "screenshotBytes": 358675
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "stage": 0,
+      "memory": 0,
+      "events": [],
+      "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.5,\"width\":0.034,\"tension\":0},\"remoteIndex\":null,\"hardening\":0,\"strata\":[],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10504,\"height\":0.11859,\"tilt\":-0.06791,\"notch\":0.58694,\"edge\":0.80683,\"density\":0.75838},{\"id\":4,\"x\":0.79,\"y\":0.46,\"width\":0.08246,\"height\":0.1554,\"tilt\":-0.27003,\"notch\":0.58761,\"edge\":0.36427,\"density\":0.503},{\"id\":5,\"x\":0.84,\"y\":0.72,\"width\":0.128,\"height\":0.11137,\"tilt\":0.24797,\"notch\":0.24834,\"edge\":0.77418,\"density\":0.3515},{\"id\":6,\"x\":0.62,\"y\":0.85,\"width\":0.12091,\"height\":0.1444,\"tilt\":-0.12464,\"notch\":0.30515,\"edge\":0.7789,\"density\":0.5669},{\"id\":7,\"x\":0.4,\"y\":0.9,\"width\":0.118,\"height\":0.11149,\"tilt\":0.15464,\"notch\":0.29727,\"edge\":0.55959,\"density\":0.67524},{\"id\":8,\"x\":0.18,\"y\":0.8,\"width\":0.12218,\"height\":0.10388,\"tilt\":0.16228,\"notch\":0.31096,\"edge\":0.38405,\"density\":0.74079},{\"id\":9,\"x\":0.13,\"y\":0.58,\"width\":0.10189,\"height\":0.1334,\"tilt\":-0.23057,\"notch\":0.33712,\"edge\":0.70614,\"density\":0.64852},{\"id\":10,\"x\":0.2,\"y\":0.38,\"width\":0.10777,\"height\":0.12104,\"tilt\":0.04393,\"notch\":0.45151,\"edge\":0.8173,\"density\":0.76346},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.11039,\"height\":0.1228,\"tilt\":-0.29883,\"notch\":0.49715,\"edge\":0.6998,\"density\":0.84859},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+      "gesture": null,
+      "lastAction": "quiet",
+      "kind": "pressure-fossil",
+      "apertures": [
+        {
+          "id": 0,
+          "x": 0.18,
+          "y": 0.16,
+          "width": 0.07743,
+          "height": 0.12027,
+          "tilt": -0.24631,
+          "notch": 0.47986,
+          "edge": 0.40365,
+          "density": 0.66692
+        },
+        {
+          "id": 1,
+          "x": 0.39,
+          "y": 0.12,
+          "width": 0.12404,
+          "height": 0.12665,
+          "tilt": 0.0321,
+          "notch": 0.48116,
+          "edge": 0.51165,
+          "density": 0.39286
+        },
+        {
+          "id": 2,
+          "x": 0.61,
+          "y": 0.15,
+          "width": 0.11397,
+          "height": 0.1394,
+          "tilt": -0.08449,
+          "notch": 0.41279,
+          "edge": 0.30228,
+          "density": 0.40128
+        },
+        {
+          "id": 3,
+          "x": 0.82,
+          "y": 0.24,
+          "width": 0.10504,
+          "height": 0.11859,
+          "tilt": -0.06791,
+          "notch": 0.58694,
+          "edge": 0.80683,
+          "density": 0.75838
+        },
+        {
+          "id": 4,
+          "x": 0.79,
+          "y": 0.46,
+          "width": 0.08246,
+          "height": 0.1554,
+          "tilt": -0.27003,
+          "notch": 0.58761,
+          "edge": 0.36427,
+          "density": 0.503
+        },
+        {
+          "id": 5,
+          "x": 0.84,
+          "y": 0.72,
+          "width": 0.128,
+          "height": 0.11137,
+          "tilt": 0.24797,
+          "notch": 0.24834,
+          "edge": 0.77418,
+          "density": 0.3515
+        },
+        {
+          "id": 6,
+          "x": 0.62,
+          "y": 0.85,
+          "width": 0.12091,
+          "height": 0.1444,
+          "tilt": -0.12464,
+          "notch": 0.30515,
+          "edge": 0.7789,
+          "density": 0.5669
+        },
+        {
+          "id": 7,
+          "x": 0.4,
+          "y": 0.9,
+          "width": 0.118,
+          "height": 0.11149,
+          "tilt": 0.15464,
+          "notch": 0.29727,
+          "edge": 0.55959,
+          "density": 0.67524
+        },
+        {
+          "id": 8,
+          "x": 0.18,
+          "y": 0.8,
+          "width": 0.12218,
+          "height": 0.10388,
+          "tilt": 0.16228,
+          "notch": 0.31096,
+          "edge": 0.38405,
+          "density": 0.74079
+        },
+        {
+          "id": 9,
+          "x": 0.13,
+          "y": 0.58,
+          "width": 0.10189,
+          "height": 0.1334,
+          "tilt": -0.23057,
+          "notch": 0.33712,
+          "edge": 0.70614,
+          "density": 0.64852
+        },
+        {
+          "id": 10,
+          "x": 0.2,
+          "y": 0.38,
+          "width": 0.10777,
+          "height": 0.12104,
+          "tilt": 0.04393,
+          "notch": 0.45151,
+          "edge": 0.8173,
+          "density": 0.76346
+        },
+        {
+          "id": 11,
+          "x": 0.47,
+          "y": 0.3,
+          "width": 0.11039,
+          "height": 0.1228,
+          "tilt": -0.29883,
+          "notch": 0.49715,
+          "edge": 0.6998,
+          "density": 0.84859
+        },
+        {
+          "id": 12,
+          "x": 0.55,
+          "y": 0.66,
+          "width": 0.09485,
+          "height": 0.10136,
+          "tilt": -0.31931,
+          "notch": 0.29773,
+          "edge": 0.61222,
+          "density": 0.57543
+        }
+      ],
+      "remoteIndex": null,
+      "spine": {
+        "x": 0.5,
+        "width": 0.034,
+        "tension": 0
+      },
+      "gpuAvailable": true,
+      "apertureCount": 13,
+      "holdThresholdMs": 640
+    },
+    "armed": {
+      "stage": 0,
+      "memory": 0,
+      "events": [],
+      "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.5,\"width\":0.034,\"tension\":0},\"remoteIndex\":null,\"hardening\":0,\"strata\":[],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10504,\"height\":0.11859,\"tilt\":-0.06791,\"notch\":0.58694,\"edge\":0.80683,\"density\":0.75838},{\"id\":4,\"x\":0.79,\"y\":0.46,\"width\":0.08246,\"height\":0.1554,\"tilt\":-0.27003,\"notch\":0.58761,\"edge\":0.36427,\"density\":0.503},{\"id\":5,\"x\":0.84,\"y\":0.72,\"width\":0.128,\"height\":0.11137,\"tilt\":0.24797,\"notch\":0.24834,\"edge\":0.77418,\"density\":0.3515},{\"id\":6,\"x\":0.62,\"y\":0.85,\"width\":0.12091,\"height\":0.1444,\"tilt\":-0.12464,\"notch\":0.30515,\"edge\":0.7789,\"density\":0.5669},{\"id\":7,\"x\":0.4,\"y\":0.9,\"width\":0.118,\"height\":0.11149,\"tilt\":0.15464,\"notch\":0.29727,\"edge\":0.55959,\"density\":0.67524},{\"id\":8,\"x\":0.18,\"y\":0.8,\"width\":0.12218,\"height\":0.10388,\"tilt\":0.16228,\"notch\":0.31096,\"edge\":0.38405,\"density\":0.74079},{\"id\":9,\"x\":0.13,\"y\":0.58,\"width\":0.10189,\"height\":0.1334,\"tilt\":-0.23057,\"notch\":0.33712,\"edge\":0.70614,\"density\":0.64852},{\"id\":10,\"x\":0.2,\"y\":0.38,\"width\":0.10777,\"height\":0.12104,\"tilt\":0.04393,\"notch\":0.45151,\"edge\":0.8173,\"density\":0.76346},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.11039,\"height\":0.1228,\"tilt\":-0.29883,\"notch\":0.49715,\"edge\":0.6998,\"density\":0.84859},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+      "gesture": {
+        "x": 0.25384615384615383,
+        "y": 0.38981042654028436,
+        "sourceIndex": 10,
+        "startedAt": 649.5,
+        "elapsedMs": 794
+      },
+      "lastAction": "hold-armed",
+      "kind": "pressure-fossil",
+      "apertures": [
+        {
+          "id": 0,
+          "x": 0.18,
+          "y": 0.16,
+          "width": 0.07743,
+          "height": 0.12027,
+          "tilt": -0.24631,
+          "notch": 0.47986,
+          "edge": 0.40365,
+          "density": 0.66692
+        },
+        {
+          "id": 1,
+          "x": 0.39,
+          "y": 0.12,
+          "width": 0.12404,
+          "height": 0.12665,
+          "tilt": 0.0321,
+          "notch": 0.48116,
+          "edge": 0.51165,
+          "density": 0.39286
+        },
+        {
+          "id": 2,
+          "x": 0.61,
+          "y": 0.15,
+          "width": 0.11397,
+          "height": 0.1394,
+          "tilt": -0.08449,
+          "notch": 0.41279,
+          "edge": 0.30228,
+          "density": 0.40128
+        },
+        {
+          "id": 3,
+          "x": 0.82,
+          "y": 0.24,
+          "width": 0.10504,
+          "height": 0.11859,
+          "tilt": -0.06791,
+          "notch": 0.58694,
+          "edge": 0.80683,
+          "density": 0.75838
+        },
+        {
+          "id": 4,
+          "x": 0.79,
+          "y": 0.46,
+          "width": 0.08246,
+          "height": 0.1554,
+          "tilt": -0.27003,
+          "notch": 0.58761,
+          "edge": 0.36427,
+          "density": 0.503
+        },
+        {
+          "id": 5,
+          "x": 0.84,
+          "y": 0.72,
+          "width": 0.128,
+          "height": 0.11137,
+          "tilt": 0.24797,
+          "notch": 0.24834,
+          "edge": 0.77418,
+          "density": 0.3515
+        },
+        {
+          "id": 6,
+          "x": 0.62,
+          "y": 0.85,
+          "width": 0.12091,
+          "height": 0.1444,
+          "tilt": -0.12464,
+          "notch": 0.30515,
+          "edge": 0.7789,
+          "density": 0.5669
+        },
+        {
+          "id": 7,
+          "x": 0.4,
+          "y": 0.9,
+          "width": 0.118,
+          "height": 0.11149,
+          "tilt": 0.15464,
+          "notch": 0.29727,
+          "edge": 0.55959,
+          "density": 0.67524
+        },
+        {
+          "id": 8,
+          "x": 0.18,
+          "y": 0.8,
+          "width": 0.12218,
+          "height": 0.10388,
+          "tilt": 0.16228,
+          "notch": 0.31096,
+          "edge": 0.38405,
+          "density": 0.74079
+        },
+        {
+          "id": 9,
+          "x": 0.13,
+          "y": 0.58,
+          "width": 0.10189,
+          "height": 0.1334,
+          "tilt": -0.23057,
+          "notch": 0.33712,
+          "edge": 0.70614,
+          "density": 0.64852
+        },
+        {
+          "id": 10,
+          "x": 0.2,
+          "y": 0.38,
+          "width": 0.10777,
+          "height": 0.12104,
+          "tilt": 0.04393,
+          "notch": 0.45151,
+          "edge": 0.8173,
+          "density": 0.76346
+        },
+        {
+          "id": 11,
+          "x": 0.47,
+          "y": 0.3,
+          "width": 0.11039,
+          "height": 0.1228,
+          "tilt": -0.29883,
+          "notch": 0.49715,
+          "edge": 0.6998,
+          "density": 0.84859
+        },
+        {
+          "id": 12,
+          "x": 0.55,
+          "y": 0.66,
+          "width": 0.09485,
+          "height": 0.10136,
+          "tilt": -0.31931,
+          "notch": 0.29773,
+          "edge": 0.61222,
+          "density": 0.57543
+        }
+      ],
+      "remoteIndex": null,
+      "spine": {
+        "x": 0.5,
+        "width": 0.034,
+        "tension": 0
+      },
+      "gpuAvailable": true,
+      "apertureCount": 13,
+      "holdThresholdMs": 640
+    },
+    "committed": {
+      "stage": 1,
+      "memory": 1,
+      "events": [
+        {
+          "id": "fossil-hardening-1",
+          "mode": "fossil-hardening",
+          "sourceIndex": 10,
+          "receiverIndex": 5,
+          "durationMs": 810,
+          "hardness": 0.14655,
+          "serial": 0
+        }
+      ],
+      "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.50176,\"width\":0.03532,\"tension\":0.02491},\"remoteIndex\":5,\"hardening\":0.14655,\"strata\":[\"10>5:810:0.147\"],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12405,\"height\":0.12665,\"tilt\":0.03212,\"notch\":0.48124,\"edge\":0.51167,\"density\":0.39289},{\"id\":2,\"x\":0.61003,\"y\":0.15002,\"width\":0.11402,\"height\":0.13943,\"tilt\":-0.08428,\"notch\":0.41317,\"edge\":0.30245,\"density\":0.40155},{\"id\":3,\"x\":0.82013,\"y\":0.24011,\"width\":0.1053,\"height\":0.11871,\"tilt\":-0.0669,\"notch\":0.58966,\"edge\":0.80764,\"density\":0.75966},{\"id\":4,\"x\":0.79033,\"y\":0.46027,\"width\":0.08311,\"height\":0.15571,\"tilt\":-0.26746,\"notch\":0.59274,\"edge\":0.36633,\"density\":0.50626},{\"id\":5,\"x\":0.84278,\"y\":0.72234,\"width\":0.13357,\"height\":0.12016,\"tilt\":0.26995,\"notch\":0.29123,\"edge\":0.79177,\"density\":0.37934},{\"id\":6,\"x\":0.62033,\"y\":0.85027,\"width\":0.12156,\"height\":0.14471,\"tilt\":-0.12207,\"notch\":0.31226,\"edge\":0.78096,\"density\":0.57016},{\"id\":7,\"x\":0.40013,\"y\":0.90011,\"width\":0.11826,\"height\":0.11161,\"tilt\":0.15565,\"notch\":0.29934,\"edge\":0.5604,\"density\":0.67652},{\"id\":8,\"x\":0.18003,\"y\":0.80002,\"width\":0.12223,\"height\":0.10391,\"tilt\":0.16249,\"notch\":0.3115,\"edge\":0.38422,\"density\":0.74106},{\"id\":9,\"x\":0.13,\"y\":0.58,\"width\":0.1019,\"height\":0.1334,\"tilt\":-0.23055,\"notch\":0.33717,\"edge\":0.70616,\"density\":0.64855},{\"id\":10,\"x\":0.2,\"y\":0.38,\"width\":0.10777,\"height\":0.12104,\"tilt\":0.04393,\"notch\":0.45151,\"edge\":0.8173,\"density\":0.76346},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.11039,\"height\":0.1228,\"tilt\":-0.29883,\"notch\":0.49715,\"edge\":0.6998,\"density\":0.84859},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+      "gesture": null,
+      "lastAction": "hold-committed",
+      "kind": "pressure-fossil",
+      "apertures": [
+        {
+          "id": 0,
+          "x": 0.18,
+          "y": 0.16,
+          "width": 0.07743,
+          "height": 0.12027,
+          "tilt": -0.24631,
+          "notch": 0.47986,
+          "edge": 0.40365,
+          "density": 0.66692
+        },
+        {
+          "id": 1,
+          "x": 0.39,
+          "y": 0.12,
+          "width": 0.12405,
+          "height": 0.12665,
+          "tilt": 0.03212,
+          "notch": 0.48124,
+          "edge": 0.51167,
+          "density": 0.39289
+        },
+        {
+          "id": 2,
+          "x": 0.61003,
+          "y": 0.15002,
+          "width": 0.11402,
+          "height": 0.13943,
+          "tilt": -0.08428,
+          "notch": 0.41317,
+          "edge": 0.30245,
+          "density": 0.40155
+        },
+        {
+          "id": 3,
+          "x": 0.82013,
+          "y": 0.24011,
+          "width": 0.1053,
+          "height": 0.11871,
+          "tilt": -0.0669,
+          "notch": 0.58966,
+          "edge": 0.80764,
+          "density": 0.75966
+        },
+        {
+          "id": 4,
+          "x": 0.79033,
+          "y": 0.46027,
+          "width": 0.08311,
+          "height": 0.15571,
+          "tilt": -0.26746,
+          "notch": 0.59274,
+          "edge": 0.36633,
+          "density": 0.50626
+        },
+        {
+          "id": 5,
+          "x": 0.84278,
+          "y": 0.72234,
+          "width": 0.13357,
+          "height": 0.12016,
+          "tilt": 0.26995,
+          "notch": 0.29123,
+          "edge": 0.79177,
+          "density": 0.37934
+        },
+        {
+          "id": 6,
+          "x": 0.62033,
+          "y": 0.85027,
+          "width": 0.12156,
+          "height": 0.14471,
+          "tilt": -0.12207,
+          "notch": 0.31226,
+          "edge": 0.78096,
+          "density": 0.57016
+        },
+        {
+          "id": 7,
+          "x": 0.40013,
+          "y": 0.90011,
+          "width": 0.11826,
+          "height": 0.11161,
+          "tilt": 0.15565,
+          "notch": 0.29934,
+          "edge": 0.5604,
+          "density": 0.67652
+        },
+        {
+          "id": 8,
+          "x": 0.18003,
+          "y": 0.80002,
+          "width": 0.12223,
+          "height": 0.10391,
+          "tilt": 0.16249,
+          "notch": 0.3115,
+          "edge": 0.38422,
+          "density": 0.74106
+        },
+        {
+          "id": 9,
+          "x": 0.13,
+          "y": 0.58,
+          "width": 0.1019,
+          "height": 0.1334,
+          "tilt": -0.23055,
+          "notch": 0.33717,
+          "edge": 0.70616,
+          "density": 0.64855
+        },
+        {
+          "id": 10,
+          "x": 0.2,
+          "y": 0.38,
+          "width": 0.10777,
+          "height": 0.12104,
+          "tilt": 0.04393,
+          "notch": 0.45151,
+          "edge": 0.8173,
+          "density": 0.76346
+        },
+        {
+          "id": 11,
+          "x": 0.47,
+          "y": 0.3,
+          "width": 0.11039,
+          "height": 0.1228,
+          "tilt": -0.29883,
+          "notch": 0.49715,
+          "edge": 0.6998,
+          "density": 0.84859
+        },
+        {
+          "id": 12,
+          "x": 0.55,
+          "y": 0.66,
+          "width": 0.09485,
+          "height": 0.10136,
+          "tilt": -0.31931,
+          "notch": 0.29773,
+          "edge": 0.61222,
+          "density": 0.57543
+        }
+      ],
+      "remoteIndex": 5,
+      "spine": {
+        "x": 0.50176,
+        "width": 0.03532,
+        "tension": 0.02491
+      },
+      "gpuAvailable": true,
+      "apertureCount": 13,
+      "holdThresholdMs": 640
+    },
+    "lifted": {
+      "stage": 0,
+      "memory": 0,
+      "events": [],
+      "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.5,\"width\":0.034,\"tension\":0},\"remoteIndex\":null,\"hardening\":0,\"strata\":[],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10504,\"height\":0.11859,\"tilt\":-0.06791,\"notch\":0.58694,\"edge\":0.80683,\"density\":0.75838},{\"id\":4,\"x\":0.79,\"y\":0.46,\"width\":0.08246,\"height\":0.1554,\"tilt\":-0.27003,\"notch\":0.58761,\"edge\":0.36427,\"density\":0.503},{\"id\":5,\"x\":0.84,\"y\":0.72,\"width\":0.128,\"height\":0.11137,\"tilt\":0.24797,\"notch\":0.24834,\"edge\":0.77418,\"density\":0.3515},{\"id\":6,\"x\":0.62,\"y\":0.85,\"width\":0.12091,\"height\":0.1444,\"tilt\":-0.12464,\"notch\":0.30515,\"edge\":0.7789,\"density\":0.5669},{\"id\":7,\"x\":0.4,\"y\":0.9,\"width\":0.118,\"height\":0.11149,\"tilt\":0.15464,\"notch\":0.29727,\"edge\":0.55959,\"density\":0.67524},{\"id\":8,\"x\":0.18,\"y\":0.8,\"width\":0.12218,\"height\":0.10388,\"tilt\":0.16228,\"notch\":0.31096,\"edge\":0.38405,\"density\":0.74079},{\"id\":9,\"x\":0.13,\"y\":0.58,\"width\":0.10189,\"height\":0.1334,\"tilt\":-0.23057,\"notch\":0.33712,\"edge\":0.70614,\"density\":0.64852},{\"id\":10,\"x\":0.2,\"y\":0.38,\"width\":0.10777,\"height\":0.12104,\"tilt\":0.04393,\"notch\":0.45151,\"edge\":0.8173,\"density\":0.76346},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.11039,\"height\":0.1228,\"tilt\":-0.29883,\"notch\":0.49715,\"edge\":0.6998,\"density\":0.84859},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+      "gesture": null,
+      "lastAction": "hold-lifted",
+      "kind": "pressure-fossil",
+      "apertures": [
+        {
+          "id": 0,
+          "x": 0.18,
+          "y": 0.16,
+          "width": 0.07743,
+          "height": 0.12027,
+          "tilt": -0.24631,
+          "notch": 0.47986,
+          "edge": 0.40365,
+          "density": 0.66692
+        },
+        {
+          "id": 1,
+          "x": 0.39,
+          "y": 0.12,
+          "width": 0.12404,
+          "height": 0.12665,
+          "tilt": 0.0321,
+          "notch": 0.48116,
+          "edge": 0.51165,
+          "density": 0.39286
+        },
+        {
+          "id": 2,
+          "x": 0.61,
+          "y": 0.15,
+          "width": 0.11397,
+          "height": 0.1394,
+          "tilt": -0.08449,
+          "notch": 0.41279,
+          "edge": 0.30228,
+          "density": 0.40128
+        },
+        {
+          "id": 3,
+          "x": 0.82,
+          "y": 0.24,
+          "width": 0.10504,
+          "height": 0.11859,
+          "tilt": -0.06791,
+          "notch": 0.58694,
+          "edge": 0.80683,
+          "density": 0.75838
+        },
+        {
+          "id": 4,
+          "x": 0.79,
+          "y": 0.46,
+          "width": 0.08246,
+          "height": 0.1554,
+          "tilt": -0.27003,
+          "notch": 0.58761,
+          "edge": 0.36427,
+          "density": 0.503
+        },
+        {
+          "id": 5,
+          "x": 0.84,
+          "y": 0.72,
+          "width": 0.128,
+          "height": 0.11137,
+          "tilt": 0.24797,
+          "notch": 0.24834,
+          "edge": 0.77418,
+          "density": 0.3515
+        },
+        {
+          "id": 6,
+          "x": 0.62,
+          "y": 0.85,
+          "width": 0.12091,
+          "height": 0.1444,
+          "tilt": -0.12464,
+          "notch": 0.30515,
+          "edge": 0.7789,
+          "density": 0.5669
+        },
+        {
+          "id": 7,
+          "x": 0.4,
+          "y": 0.9,
+          "width": 0.118,
+          "height": 0.11149,
+          "tilt": 0.15464,
+          "notch": 0.29727,
+          "edge": 0.55959,
+          "density": 0.67524
+        },
+        {
+          "id": 8,
+          "x": 0.18,
+          "y": 0.8,
+          "width": 0.12218,
+          "height": 0.10388,
+          "tilt": 0.16228,
+          "notch": 0.31096,
+          "edge": 0.38405,
+          "density": 0.74079
+        },
+        {
+          "id": 9,
+          "x": 0.13,
+          "y": 0.58,
+          "width": 0.10189,
+          "height": 0.1334,
+          "tilt": -0.23057,
+          "notch": 0.33712,
+          "edge": 0.70614,
+          "density": 0.64852
+        },
+        {
+          "id": 10,
+          "x": 0.2,
+          "y": 0.38,
+          "width": 0.10777,
+          "height": 0.12104,
+          "tilt": 0.04393,
+          "notch": 0.45151,
+          "edge": 0.8173,
+          "density": 0.76346
+        },
+        {
+          "id": 11,
+          "x": 0.47,
+          "y": 0.3,
+          "width": 0.11039,
+          "height": 0.1228,
+          "tilt": -0.29883,
+          "notch": 0.49715,
+          "edge": 0.6998,
+          "density": 0.84859
+        },
+        {
+          "id": 12,
+          "x": 0.55,
+          "y": 0.66,
+          "width": 0.09485,
+          "height": 0.10136,
+          "tilt": -0.31931,
+          "notch": 0.29773,
+          "edge": 0.61222,
+          "density": 0.57543
+        }
+      ],
+      "remoteIndex": null,
+      "spine": {
+        "x": 0.5,
+        "width": 0.034,
+        "tension": 0
+      },
+      "gpuAvailable": true,
+      "apertureCount": 13,
+      "holdThresholdMs": 640
+    },
+    "keyboardCommitted": {
+      "stage": 1,
+      "memory": 1,
+      "events": [
+        {
+          "id": "fossil-hardening-1",
+          "mode": "fossil-hardening",
+          "sourceIndex": 0,
+          "receiverIndex": 7,
+          "durationMs": 820,
+          "hardness": 0.15517,
+          "serial": 0
+        }
+      ],
+      "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.50186,\"width\":0.0354,\"tension\":0.02638},\"remoteIndex\":7,\"hardening\":0.15517,\"strata\":[\"0>7:820:0.155\"],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10505,\"height\":0.11859,\"tilt\":-0.06788,\"notch\":0.58701,\"edge\":0.80685,\"density\":0.75841},{\"id\":4,\"x\":0.79003,\"y\":0.46002,\"width\":0.08252,\"height\":0.15543,\"tilt\":-0.26981,\"notch\":0.58806,\"edge\":0.36445,\"density\":0.50328},{\"id\":5,\"x\":0.84014,\"y\":0.72011,\"width\":0.12827,\"height\":0.1115,\"tilt\":0.24904,\"notch\":0.25042,\"edge\":0.77503,\"density\":0.35285},{\"id\":6,\"x\":0.62035,\"y\":0.85029,\"width\":0.1216,\"height\":0.14473,\"tilt\":-0.12192,\"notch\":0.31268,\"edge\":0.78108,\"density\":0.57035},{\"id\":7,\"x\":0.40295,\"y\":0.90248,\"width\":0.1239,\"height\":0.1208,\"tilt\":0.17792,\"notch\":0.34499,\"edge\":0.57821,\"density\":0.70472},{\"id\":8,\"x\":0.18035,\"y\":0.80029,\"width\":0.12287,\"height\":0.10421,\"tilt\":0.165,\"notch\":0.31794,\"edge\":0.38623,\"density\":0.74424},{\"id\":9,\"x\":0.13014,\"y\":0.58011,\"width\":0.10216,\"height\":0.13353,\"tilt\":-0.2295,\"notch\":0.33936,\"edge\":0.70699,\"density\":0.64987},{\"id\":10,\"x\":0.20003,\"y\":0.38002,\"width\":0.10783,\"height\":0.12107,\"tilt\":0.04415,\"notch\":0.45196,\"edge\":0.81748,\"density\":0.76374},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.1104,\"height\":0.1228,\"tilt\":-0.2988,\"notch\":0.49719,\"edge\":0.69982,\"density\":0.84862},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+      "gesture": null,
+      "lastAction": "hold-committed",
+      "kind": "pressure-fossil",
+      "apertures": [
+        {
+          "id": 0,
+          "x": 0.18,
+          "y": 0.16,
+          "width": 0.07743,
+          "height": 0.12027,
+          "tilt": -0.24631,
+          "notch": 0.47986,
+          "edge": 0.40365,
+          "density": 0.66692
+        },
+        {
+          "id": 1,
+          "x": 0.39,
+          "y": 0.12,
+          "width": 0.12404,
+          "height": 0.12665,
+          "tilt": 0.0321,
+          "notch": 0.48116,
+          "edge": 0.51165,
+          "density": 0.39286
+        },
+        {
+          "id": 2,
+          "x": 0.61,
+          "y": 0.15,
+          "width": 0.11397,
+          "height": 0.1394,
+          "tilt": -0.08449,
+          "notch": 0.41279,
+          "edge": 0.30228,
+          "density": 0.40128
+        },
+        {
+          "id": 3,
+          "x": 0.82,
+          "y": 0.24,
+          "width": 0.10505,
+          "height": 0.11859,
+          "tilt": -0.06788,
+          "notch": 0.58701,
+          "edge": 0.80685,
+          "density": 0.75841
+        },
+        {
+          "id": 4,
+          "x": 0.79003,
+          "y": 0.46002,
+          "width": 0.08252,
+          "height": 0.15543,
+          "tilt": -0.26981,
+          "notch": 0.58806,
+          "edge": 0.36445,
+          "density": 0.50328
+        },
+        {
+          "id": 5,
+          "x": 0.84014,
+          "y": 0.72011,
+          "width": 0.12827,
+          "height": 0.1115,
+          "tilt": 0.24904,
+          "notch": 0.25042,
+          "edge": 0.77503,
+          "density": 0.35285
+        },
+        {
+          "id": 6,
+          "x": 0.62035,
+          "y": 0.85029,
+          "width": 0.1216,
+          "height": 0.14473,
+          "tilt": -0.12192,
+          "notch": 0.31268,
+          "edge": 0.78108,
+          "density": 0.57035
+        },
+        {
+          "id": 7,
+          "x": 0.40295,
+          "y": 0.90248,
+          "width": 0.1239,
+          "height": 0.1208,
+          "tilt": 0.17792,
+          "notch": 0.34499,
+          "edge": 0.57821,
+          "density": 0.70472
+        },
+        {
+          "id": 8,
+          "x": 0.18035,
+          "y": 0.80029,
+          "width": 0.12287,
+          "height": 0.10421,
+          "tilt": 0.165,
+          "notch": 0.31794,
+          "edge": 0.38623,
+          "density": 0.74424
+        },
+        {
+          "id": 9,
+          "x": 0.13014,
+          "y": 0.58011,
+          "width": 0.10216,
+          "height": 0.13353,
+          "tilt": -0.2295,
+          "notch": 0.33936,
+          "edge": 0.70699,
+          "density": 0.64987
+        },
+        {
+          "id": 10,
+          "x": 0.20003,
+          "y": 0.38002,
+          "width": 0.10783,
+          "height": 0.12107,
+          "tilt": 0.04415,
+          "notch": 0.45196,
+          "edge": 0.81748,
+          "density": 0.76374
+        },
+        {
+          "id": 11,
+          "x": 0.47,
+          "y": 0.3,
+          "width": 0.1104,
+          "height": 0.1228,
+          "tilt": -0.2988,
+          "notch": 0.49719,
+          "edge": 0.69982,
+          "density": 0.84862
+        },
+        {
+          "id": 12,
+          "x": 0.55,
+          "y": 0.66,
+          "width": 0.09485,
+          "height": 0.10136,
+          "tilt": -0.31931,
+          "notch": 0.29773,
+          "edge": 0.61222,
+          "density": 0.57543
+        }
+      ],
+      "remoteIndex": 7,
+      "spine": {
+        "x": 0.50186,
+        "width": 0.0354,
+        "tension": 0.02638
+      },
+      "gpuAvailable": true,
+      "apertureCount": 13,
+      "holdThresholdMs": 640
+    },
+    "released": {
+      "stage": 0,
+      "memory": 0,
+      "events": [],
+      "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.5,\"width\":0.034,\"tension\":0},\"remoteIndex\":null,\"hardening\":0,\"strata\":[],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10504,\"height\":0.11859,\"tilt\":-0.06791,\"notch\":0.58694,\"edge\":0.80683,\"density\":0.75838},{\"id\":4,\"x\":0.79,\"y\":0.46,\"width\":0.08246,\"height\":0.1554,\"tilt\":-0.27003,\"notch\":0.58761,\"edge\":0.36427,\"density\":0.503},{\"id\":5,\"x\":0.84,\"y\":0.72,\"width\":0.128,\"height\":0.11137,\"tilt\":0.24797,\"notch\":0.24834,\"edge\":0.77418,\"density\":0.3515},{\"id\":6,\"x\":0.62,\"y\":0.85,\"width\":0.12091,\"height\":0.1444,\"tilt\":-0.12464,\"notch\":0.30515,\"edge\":0.7789,\"density\":0.5669},{\"id\":7,\"x\":0.4,\"y\":0.9,\"width\":0.118,\"height\":0.11149,\"tilt\":0.15464,\"notch\":0.29727,\"edge\":0.55959,\"density\":0.67524},{\"id\":8,\"x\":0.18,\"y\":0.8,\"width\":0.12218,\"height\":0.10388,\"tilt\":0.16228,\"notch\":0.31096,\"edge\":0.38405,\"density\":0.74079},{\"id\":9,\"x\":0.13,\"y\":0.58,\"width\":0.10189,\"height\":0.1334,\"tilt\":-0.23057,\"notch\":0.33712,\"edge\":0.70614,\"density\":0.64852},{\"id\":10,\"x\":0.2,\"y\":0.38,\"width\":0.10777,\"height\":0.12104,\"tilt\":0.04393,\"notch\":0.45151,\"edge\":0.8173,\"density\":0.76346},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.11039,\"height\":0.1228,\"tilt\":-0.29883,\"notch\":0.49715,\"edge\":0.6998,\"density\":0.84859},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+      "gesture": null,
+      "lastAction": "archive-released",
+      "kind": "pressure-fossil",
+      "apertures": [
+        {
+          "id": 0,
+          "x": 0.18,
+          "y": 0.16,
+          "width": 0.07743,
+          "height": 0.12027,
+          "tilt": -0.24631,
+          "notch": 0.47986,
+          "edge": 0.40365,
+          "density": 0.66692
+        },
+        {
+          "id": 1,
+          "x": 0.39,
+          "y": 0.12,
+          "width": 0.12404,
+          "height": 0.12665,
+          "tilt": 0.0321,
+          "notch": 0.48116,
+          "edge": 0.51165,
+          "density": 0.39286
+        },
+        {
+          "id": 2,
+          "x": 0.61,
+          "y": 0.15,
+          "width": 0.11397,
+          "height": 0.1394,
+          "tilt": -0.08449,
+          "notch": 0.41279,
+          "edge": 0.30228,
+          "density": 0.40128
+        },
+        {
+          "id": 3,
+          "x": 0.82,
+          "y": 0.24,
+          "width": 0.10504,
+          "height": 0.11859,
+          "tilt": -0.06791,
+          "notch": 0.58694,
+          "edge": 0.80683,
+          "density": 0.75838
+        },
+        {
+          "id": 4,
+          "x": 0.79,
+          "y": 0.46,
+          "width": 0.08246,
+          "height": 0.1554,
+          "tilt": -0.27003,
+          "notch": 0.58761,
+          "edge": 0.36427,
+          "density": 0.503
+        },
+        {
+          "id": 5,
+          "x": 0.84,
+          "y": 0.72,
+          "width": 0.128,
+          "height": 0.11137,
+          "tilt": 0.24797,
+          "notch": 0.24834,
+          "edge": 0.77418,
+          "density": 0.3515
+        },
+        {
+          "id": 6,
+          "x": 0.62,
+          "y": 0.85,
+          "width": 0.12091,
+          "height": 0.1444,
+          "tilt": -0.12464,
+          "notch": 0.30515,
+          "edge": 0.7789,
+          "density": 0.5669
+        },
+        {
+          "id": 7,
+          "x": 0.4,
+          "y": 0.9,
+          "width": 0.118,
+          "height": 0.11149,
+          "tilt": 0.15464,
+          "notch": 0.29727,
+          "edge": 0.55959,
+          "density": 0.67524
+        },
+        {
+          "id": 8,
+          "x": 0.18,
+          "y": 0.8,
+          "width": 0.12218,
+          "height": 0.10388,
+          "tilt": 0.16228,
+          "notch": 0.31096,
+          "edge": 0.38405,
+          "density": 0.74079
+        },
+        {
+          "id": 9,
+          "x": 0.13,
+          "y": 0.58,
+          "width": 0.10189,
+          "height": 0.1334,
+          "tilt": -0.23057,
+          "notch": 0.33712,
+          "edge": 0.70614,
+          "density": 0.64852
+        },
+        {
+          "id": 10,
+          "x": 0.2,
+          "y": 0.38,
+          "width": 0.10777,
+          "height": 0.12104,
+          "tilt": 0.04393,
+          "notch": 0.45151,
+          "edge": 0.8173,
+          "density": 0.76346
+        },
+        {
+          "id": 11,
+          "x": 0.47,
+          "y": 0.3,
+          "width": 0.11039,
+          "height": 0.1228,
+          "tilt": -0.29883,
+          "notch": 0.49715,
+          "edge": 0.6998,
+          "density": 0.84859
+        },
+        {
+          "id": 12,
+          "x": 0.55,
+          "y": 0.66,
+          "width": 0.09485,
+          "height": 0.10136,
+          "tilt": -0.31931,
+          "notch": 0.29773,
+          "edge": 0.61222,
+          "density": 0.57543
+        }
+      ],
+      "remoteIndex": null,
+      "spine": {
+        "x": 0.5,
+        "width": 0.034,
+        "tension": 0
+      },
+      "gpuAvailable": true,
+      "apertureCount": 13,
+      "holdThresholdMs": 640
+    },
+    "refused": {
+      "stage": 0,
+      "memory": 0,
+      "events": [],
+      "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.5,\"width\":0.034,\"tension\":0},\"remoteIndex\":null,\"hardening\":0,\"strata\":[],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10504,\"height\":0.11859,\"tilt\":-0.06791,\"notch\":0.58694,\"edge\":0.80683,\"density\":0.75838},{\"id\":4,\"x\":0.79,\"y\":0.46,\"width\":0.08246,\"height\":0.1554,\"tilt\":-0.27003,\"notch\":0.58761,\"edge\":0.36427,\"density\":0.503},{\"id\":5,\"x\":0.84,\"y\":0.72,\"width\":0.128,\"height\":0.11137,\"tilt\":0.24797,\"notch\":0.24834,\"edge\":0.77418,\"density\":0.3515},{\"id\":6,\"x\":0.62,\"y\":0.85,\"width\":0.12091,\"height\":0.1444,\"tilt\":-0.12464,\"notch\":0.30515,\"edge\":0.7789,\"density\":0.5669},{\"id\":7,\"x\":0.4,\"y\":0.9,\"width\":0.118,\"height\":0.11149,\"tilt\":0.15464,\"notch\":0.29727,\"edge\":0.55959,\"density\":0.67524},{\"id\":8,\"x\":0.18,\"y\":0.8,\"width\":0.12218,\"height\":0.10388,\"tilt\":0.16228,\"notch\":0.31096,\"edge\":0.38405,\"density\":0.74079},{\"id\":9,\"x\":0.13,\"y\":0.58,\"width\":0.10189,\"height\":0.1334,\"tilt\":-0.23057,\"notch\":0.33712,\"edge\":0.70614,\"density\":0.64852},{\"id\":10,\"x\":0.2,\"y\":0.38,\"width\":0.10777,\"height\":0.12104,\"tilt\":0.04393,\"notch\":0.45151,\"edge\":0.8173,\"density\":0.76346},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.11039,\"height\":0.1228,\"tilt\":-0.29883,\"notch\":0.49715,\"edge\":0.6998,\"density\":0.84859},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+      "gesture": null,
+      "lastAction": "hold-refused-short",
+      "kind": "pressure-fossil",
+      "apertures": [
+        {
+          "id": 0,
+          "x": 0.18,
+          "y": 0.16,
+          "width": 0.07743,
+          "height": 0.12027,
+          "tilt": -0.24631,
+          "notch": 0.47986,
+          "edge": 0.40365,
+          "density": 0.66692
+        },
+        {
+          "id": 1,
+          "x": 0.39,
+          "y": 0.12,
+          "width": 0.12404,
+          "height": 0.12665,
+          "tilt": 0.0321,
+          "notch": 0.48116,
+          "edge": 0.51165,
+          "density": 0.39286
+        },
+        {
+          "id": 2,
+          "x": 0.61,
+          "y": 0.15,
+          "width": 0.11397,
+          "height": 0.1394,
+          "tilt": -0.08449,
+          "notch": 0.41279,
+          "edge": 0.30228,
+          "density": 0.40128
+        },
+        {
+          "id": 3,
+          "x": 0.82,
+          "y": 0.24,
+          "width": 0.10504,
+          "height": 0.11859,
+          "tilt": -0.06791,
+          "notch": 0.58694,
+          "edge": 0.80683,
+          "density": 0.75838
+        },
+        {
+          "id": 4,
+          "x": 0.79,
+          "y": 0.46,
+          "width": 0.08246,
+          "height": 0.1554,
+          "tilt": -0.27003,
+          "notch": 0.58761,
+          "edge": 0.36427,
+          "density": 0.503
+        },
+        {
+          "id": 5,
+          "x": 0.84,
+          "y": 0.72,
+          "width": 0.128,
+          "height": 0.11137,
+          "tilt": 0.24797,
+          "notch": 0.24834,
+          "edge": 0.77418,
+          "density": 0.3515
+        },
+        {
+          "id": 6,
+          "x": 0.62,
+          "y": 0.85,
+          "width": 0.12091,
+          "height": 0.1444,
+          "tilt": -0.12464,
+          "notch": 0.30515,
+          "edge": 0.7789,
+          "density": 0.5669
+        },
+        {
+          "id": 7,
+          "x": 0.4,
+          "y": 0.9,
+          "width": 0.118,
+          "height": 0.11149,
+          "tilt": 0.15464,
+          "notch": 0.29727,
+          "edge": 0.55959,
+          "density": 0.67524
+        },
+        {
+          "id": 8,
+          "x": 0.18,
+          "y": 0.8,
+          "width": 0.12218,
+          "height": 0.10388,
+          "tilt": 0.16228,
+          "notch": 0.31096,
+          "edge": 0.38405,
+          "density": 0.74079
+        },
+        {
+          "id": 9,
+          "x": 0.13,
+          "y": 0.58,
+          "width": 0.10189,
+          "height": 0.1334,
+          "tilt": -0.23057,
+          "notch": 0.33712,
+          "edge": 0.70614,
+          "density": 0.64852
+        },
+        {
+          "id": 10,
+          "x": 0.2,
+          "y": 0.38,
+          "width": 0.10777,
+          "height": 0.12104,
+          "tilt": 0.04393,
+          "notch": 0.45151,
+          "edge": 0.8173,
+          "density": 0.76346
+        },
+        {
+          "id": 11,
+          "x": 0.47,
+          "y": 0.3,
+          "width": 0.11039,
+          "height": 0.1228,
+          "tilt": -0.29883,
+          "notch": 0.49715,
+          "edge": 0.6998,
+          "density": 0.84859
+        },
+        {
+          "id": 12,
+          "x": 0.55,
+          "y": 0.66,
+          "width": 0.09485,
+          "height": 0.10136,
+          "tilt": -0.31931,
+          "notch": 0.29773,
+          "edge": 0.61222,
+          "density": 0.57543
+        }
+      ],
+      "remoteIndex": null,
+      "spine": {
+        "x": 0.5,
+        "width": 0.034,
+        "tension": 0
+      },
+      "gpuAvailable": true,
+      "apertureCount": 13,
+      "holdThresholdMs": 640
+    },
+    "baseline": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.5,\"width\":0.034,\"tension\":0},\"remoteIndex\":null,\"hardening\":0,\"strata\":[],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10504,\"height\":0.11859,\"tilt\":-0.06791,\"notch\":0.58694,\"edge\":0.80683,\"density\":0.75838},{\"id\":4,\"x\":0.79,\"y\":0.46,\"width\":0.08246,\"height\":0.1554,\"tilt\":-0.27003,\"notch\":0.58761,\"edge\":0.36427,\"density\":0.503},{\"id\":5,\"x\":0.84,\"y\":0.72,\"width\":0.128,\"height\":0.11137,\"tilt\":0.24797,\"notch\":0.24834,\"edge\":0.77418,\"density\":0.3515},{\"id\":6,\"x\":0.62,\"y\":0.85,\"width\":0.12091,\"height\":0.1444,\"tilt\":-0.12464,\"notch\":0.30515,\"edge\":0.7789,\"density\":0.5669},{\"id\":7,\"x\":0.4,\"y\":0.9,\"width\":0.118,\"height\":0.11149,\"tilt\":0.15464,\"notch\":0.29727,\"edge\":0.55959,\"density\":0.67524},{\"id\":8,\"x\":0.18,\"y\":0.8,\"width\":0.12218,\"height\":0.10388,\"tilt\":0.16228,\"notch\":0.31096,\"edge\":0.38405,\"density\":0.74079},{\"id\":9,\"x\":0.13,\"y\":0.58,\"width\":0.10189,\"height\":0.1334,\"tilt\":-0.23057,\"notch\":0.33712,\"edge\":0.70614,\"density\":0.64852},{\"id\":10,\"x\":0.2,\"y\":0.38,\"width\":0.10777,\"height\":0.12104,\"tilt\":0.04393,\"notch\":0.45151,\"edge\":0.8173,\"density\":0.76346},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.11039,\"height\":0.1228,\"tilt\":-0.29883,\"notch\":0.49715,\"edge\":0.6998,\"density\":0.84859},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+    "sourceIndex": 10,
+    "remoteIndex": 5,
+    "geometryNeutralBeforeCommit": true,
+    "sourceExact": true,
+    "remoteChanged": true,
+    "durationRecorded": true,
+    "buttons": [
+      {
+        "text": "harden pause",
+        "height": 44
+      },
+      {
+        "text": "lift latest",
+        "height": 44
+      },
+      {
+        "text": "release archive",
+        "height": 44
+      }
+    ],
+    "touch": {
+      "state": {
+        "stage": 1,
+        "memory": 1,
+        "events": [
+          {
+            "id": "fossil-hardening-1",
+            "mode": "fossil-hardening",
+            "sourceIndex": 0,
+            "receiverIndex": 7,
+            "durationMs": 820,
+            "hardness": 0.15517,
+            "serial": 0
+          }
+        ],
+        "signature": "{\"kind\":\"pressure-fossil\",\"spine\":{\"x\":0.50186,\"width\":0.0354,\"tension\":0.02638},\"remoteIndex\":7,\"hardening\":0.15517,\"strata\":[\"0>7:820:0.155\"],\"apertures\":[{\"id\":0,\"x\":0.18,\"y\":0.16,\"width\":0.07743,\"height\":0.12027,\"tilt\":-0.24631,\"notch\":0.47986,\"edge\":0.40365,\"density\":0.66692},{\"id\":1,\"x\":0.39,\"y\":0.12,\"width\":0.12404,\"height\":0.12665,\"tilt\":0.0321,\"notch\":0.48116,\"edge\":0.51165,\"density\":0.39286},{\"id\":2,\"x\":0.61,\"y\":0.15,\"width\":0.11397,\"height\":0.1394,\"tilt\":-0.08449,\"notch\":0.41279,\"edge\":0.30228,\"density\":0.40128},{\"id\":3,\"x\":0.82,\"y\":0.24,\"width\":0.10505,\"height\":0.11859,\"tilt\":-0.06788,\"notch\":0.58701,\"edge\":0.80685,\"density\":0.75841},{\"id\":4,\"x\":0.79003,\"y\":0.46002,\"width\":0.08252,\"height\":0.15543,\"tilt\":-0.26981,\"notch\":0.58806,\"edge\":0.36445,\"density\":0.50328},{\"id\":5,\"x\":0.84014,\"y\":0.72011,\"width\":0.12827,\"height\":0.1115,\"tilt\":0.24904,\"notch\":0.25042,\"edge\":0.77503,\"density\":0.35285},{\"id\":6,\"x\":0.62035,\"y\":0.85029,\"width\":0.1216,\"height\":0.14473,\"tilt\":-0.12192,\"notch\":0.31268,\"edge\":0.78108,\"density\":0.57035},{\"id\":7,\"x\":0.40295,\"y\":0.90248,\"width\":0.1239,\"height\":0.1208,\"tilt\":0.17792,\"notch\":0.34499,\"edge\":0.57821,\"density\":0.70472},{\"id\":8,\"x\":0.18035,\"y\":0.80029,\"width\":0.12287,\"height\":0.10421,\"tilt\":0.165,\"notch\":0.31794,\"edge\":0.38623,\"density\":0.74424},{\"id\":9,\"x\":0.13014,\"y\":0.58011,\"width\":0.10216,\"height\":0.13353,\"tilt\":-0.2295,\"notch\":0.33936,\"edge\":0.70699,\"density\":0.64987},{\"id\":10,\"x\":0.20003,\"y\":0.38002,\"width\":0.10783,\"height\":0.12107,\"tilt\":0.04415,\"notch\":0.45196,\"edge\":0.81748,\"density\":0.76374},{\"id\":11,\"x\":0.47,\"y\":0.3,\"width\":0.1104,\"height\":0.1228,\"tilt\":-0.2988,\"notch\":0.49719,\"edge\":0.69982,\"density\":0.84862},{\"id\":12,\"x\":0.55,\"y\":0.66,\"width\":0.09485,\"height\":0.10136,\"tilt\":-0.31931,\"notch\":0.29773,\"edge\":0.61222,\"density\":0.57543}]}",
+        "gesture": null,
+        "lastAction": "hold-committed",
+        "kind": "pressure-fossil",
+        "apertures": [
+          {
+            "id": 0,
+            "x": 0.18,
+            "y": 0.16,
+            "width": 0.07743,
+            "height": 0.12027,
+            "tilt": -0.24631,
+            "notch": 0.47986,
+            "edge": 0.40365,
+            "density": 0.66692
+          },
+          {
+            "id": 1,
+            "x": 0.39,
+            "y": 0.12,
+            "width": 0.12404,
+            "height": 0.12665,
+            "tilt": 0.0321,
+            "notch": 0.48116,
+            "edge": 0.51165,
+            "density": 0.39286
+          },
+          {
+            "id": 2,
+            "x": 0.61,
+            "y": 0.15,
+            "width": 0.11397,
+            "height": 0.1394,
+            "tilt": -0.08449,
+            "notch": 0.41279,
+            "edge": 0.30228,
+            "density": 0.40128
+          },
+          {
+            "id": 3,
+            "x": 0.82,
+            "y": 0.24,
+            "width": 0.10505,
+            "height": 0.11859,
+            "tilt": -0.06788,
+            "notch": 0.58701,
+            "edge": 0.80685,
+            "density": 0.75841
+          },
+          {
+            "id": 4,
+            "x": 0.79003,
+            "y": 0.46002,
+            "width": 0.08252,
+            "height": 0.15543,
+            "tilt": -0.26981,
+            "notch": 0.58806,
+            "edge": 0.36445,
+            "density": 0.50328
+          },
+          {
+            "id": 5,
+            "x": 0.84014,
+            "y": 0.72011,
+            "width": 0.12827,
+            "height": 0.1115,
+            "tilt": 0.24904,
+            "notch": 0.25042,
+            "edge": 0.77503,
+            "density": 0.35285
+          },
+          {
+            "id": 6,
+            "x": 0.62035,
+            "y": 0.85029,
+            "width": 0.1216,
+            "height": 0.14473,
+            "tilt": -0.12192,
+            "notch": 0.31268,
+            "edge": 0.78108,
+            "density": 0.57035
+          },
+          {
+            "id": 7,
+            "x": 0.40295,
+            "y": 0.90248,
+            "width": 0.1239,
+            "height": 0.1208,
+            "tilt": 0.17792,
+            "notch": 0.34499,
+            "edge": 0.57821,
+            "density": 0.70472
+          },
+          {
+            "id": 8,
+            "x": 0.18035,
+            "y": 0.80029,
+            "width": 0.12287,
+            "height": 0.10421,
+            "tilt": 0.165,
+            "notch": 0.31794,
+            "edge": 0.38623,
+            "density": 0.74424
+          },
+          {
+            "id": 9,
+            "x": 0.13014,
+            "y": 0.58011,
+            "width": 0.10216,
+            "height": 0.13353,
+            "tilt": -0.2295,
+            "notch": 0.33936,
+            "edge": 0.70699,
+            "density": 0.64987
+          },
+          {
+            "id": 10,
+            "x": 0.20003,
+            "y": 0.38002,
+            "width": 0.10783,
+            "height": 0.12107,
+            "tilt": 0.04415,
+            "notch": 0.45196,
+            "edge": 0.81748,
+            "density": 0.76374
+          },
+          {
+            "id": 11,
+            "x": 0.47,
+            "y": 0.3,
+            "width": 0.1104,
+            "height": 0.1228,
+            "tilt": -0.2988,
+            "notch": 0.49719,
+            "edge": 0.69982,
+            "density": 0.84862
+          },
+          {
+            "id": 12,
+            "x": 0.55,
+            "y": 0.66,
+            "width": 0.09485,
+            "height": 0.10136,
+            "tilt": -0.31931,
+            "notch": 0.29773,
+            "edge": 0.61222,
+            "density": 0.57543
+          }
+        ],
+        "remoteIndex": 7,
+        "spine": {
+          "x": 0.50186,
+          "width": 0.0354,
+          "tension": 0.02638
+        },
+        "gpuAvailable": true,
+        "apertureCount": 13,
+        "holdThresholdMs": 640
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      }
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\interaction-390x844.png"
+  },
+  "blind": {
+    "evidence": {
+      "fieldVisible": true,
+      "state": {
+        "stage": 4,
+        "memory": 4,
+        "events": [
+          {
+            "id": "fossil-hardening-1",
+            "mode": "fossil-hardening",
+            "sourceIndex": 0,
+            "receiverIndex": 7,
+            "durationMs": 820,
+            "hardness": 0.15517,
+            "serial": 0
+          },
+          {
+            "id": "fossil-hardening-2",
+            "mode": "fossil-hardening",
+            "sourceIndex": 4,
+            "receiverIndex": 8,
+            "durationMs": 1100,
+            "hardness": 0.39655,
+            "serial": 1
+          },
+          {
+            "id": "fossil-hardening-3",
+            "mode": "fossil-hardening",
+            "sourceIndex": 7,
+            "receiverIndex": 9,
+            "durationMs": 1360,
+            "hardness": 0.62069,
+            "serial": 2
+          },
+          {
+            "id": "fossil-hardening-4",
+            "mode": "fossil-hardening",
+            "sourceIndex": 12,
+            "receiverIndex": 11,
+            "durationMs": 1560,
+            "hardness": 0.7931,
+            "serial": 3
+          }
+        ],
+        "signature": "{\"kind\":\"pressure-fossil\",\"spine",
+        "gesture": null,
+        "lastAction": "settled-fossil",
+        "kind": "pressure-fossil",
+        "apertures": [
+          {
+            "id": 0,
+            "x": 0.18,
+            "y": 0.16,
+            "width": 0.07743,
+            "height": 0.12027,
+            "tilt": -0.24631,
+            "notch": 0.47986,
+            "edge": 0.40365,
+            "density": 0.66692
+          },
+          {
+            "id": 1,
+            "x": 0.39,
+            "y": 0.12,
+            "width": 0.12404,
+            "height": 0.12665,
+            "tilt": 0.0321,
+            "notch": 0.48116,
+            "edge": 0.51165,
+            "density": 0.39286
+          },
+          {
+            "id": 2,
+            "x": 0.61,
+            "y": 0.15,
+            "width": 0.11397,
+            "height": 0.1394,
+            "tilt": -0.08449,
+            "notch": 0.4128,
+            "edge": 0.30228,
+            "density": 0.40128
+          },
+          {
+            "id": 3,
+            "x": 0.82,
+            "y": 0.24,
+            "width": 0.10506,
+            "height": 0.11859,
+            "tilt": -0.06791,
+            "notch": 0.5871,
+            "edge": 0.80688,
+            "density": 0.75846
+          },
+          {
+            "id": 4,
+            "x": 0.79001,
+            "y": 0.46003,
+            "width": 0.08255,
+            "height": 0.15544,
+            "tilt": -0.26994,
+            "notch": 0.58844,
+            "edge": 0.36456,
+            "density": 0.50344
+          },
+          {
+            "id": 5,
+            "x": 0.8399,
+            "y": 0.72007,
+            "width": 0.12873,
+            "height": 0.11172,
+            "tilt": 0.24717,
+            "notch": 0.25573,
+            "edge": 0.77652,
+            "density": 0.3552
+          },
+          {
+            "id": 6,
+            "x": 0.61951,
+            "y": 0.8502,
+            "width": 0.12329,
+            "height": 0.14553,
+            "tilt": -0.12857,
+            "notch": 0.32688,
+            "edge": 0.7864,
+            "density": 0.57877
+          },
+          {
+            "id": 7,
+            "x": 0.40182,
+            "y": 0.90165,
+            "width": 0.12617,
+            "height": 0.12187,
+            "tilt": 0.16898,
+            "notch": 0.36732,
+            "edge": 0.58536,
+            "density": 0.71605
+          },
+          {
+            "id": 8,
+            "x": 0.1707,
+            "y": 0.79563,
+            "width": 0.14218,
+            "height": 0.13,
+            "tilt": 0.08877,
+            "notch": 0.51388,
+            "edge": 0.44722,
+            "density": 0.8408
+          },
+          {
+            "id": 9,
+            "x": 0.11614,
+            "y": 0.58841,
+            "width": 0.13018,
+            "height": 0.17287,
+            "tilt": -0.34009,
+            "notch": 0.5326,
+            "edge": 0.79546,
+            "density": 0.78995
+          },
+          {
+            "id": 10,
+            "x": 0.19595,
+            "y": 0.37948,
+            "width": 0.11597,
+            "height": 0.12492,
+            "tilt": 0.01199,
+            "notch": 0.51356,
+            "edge": 0.84321,
+            "density": 0.80448
+          },
+          {
+            "id": 11,
+            "x": 0.45392,
+            "y": 0.28954,
+            "width": 0.14257,
+            "height": 0.17135,
+            "tilt": -0.42578,
+            "notch": 0.91951,
+            "edge": 0.8014,
+            "density": 1
+          },
+          {
+            "id": 12,
+            "x": 0.54964,
+            "y": 0.66026,
+            "width": 0.09557,
+            "height": 0.10171,
+            "tilt": -0.32216,
+            "notch": 0.3053,
+            "edge": 0.6145,
+            "density": 0.57904
+          }
+        ],
+        "remoteIndex": 11,
+        "spine": {
+          "x": 0.50869,
+          "width": 0.0517,
+          "tension": -0.07034
+        },
+        "gpuAvailable": true,
+        "apertureCount": 13,
+        "holdThresholdMs": 640
+      },
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "statusDisplay": "none",
+      "captionDisplay": "none",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\blind-390x844.png"
+  },
+  "journal": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "bodyText": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\journal-390x844.png"
+  },
+  "current": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "WebGPU",
+      "bodyText": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\current-390x844.png"
+  },
+  "work": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "The crowd gives weight to waiting.",
+      "bodyText": true
+    },
+    "diagnostics": {
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "badResponses": []
+    },
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\webgpu-v041-2026-11-01\\work-390x844.png"
+  }
+}
