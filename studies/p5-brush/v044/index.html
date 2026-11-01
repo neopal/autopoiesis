@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0d0c">
+  <title>MUTINE — The brush keeps what the field cannot carry.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=044">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-01"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="counterfield-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v044 / COUNTERFIELD ETCH</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="counterfield-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v044</span></nav>
+
+      <figure class="counterfield-work artwork-frame" aria-labelledby="work-title">
+        <div id="counterfield-field" class="counterfield-field" tabindex="0" role="application" aria-label="A layered pigment field. Begin at the left edge, scrape across the pressure threshold, and leave through the right edge." aria-keyshortcuts="Enter Space Delete Escape R S">
+          <div class="counterfield-readout" aria-live="polite"><span data-stage>field 01 / 09</span><span data-memory>quiet strata · 0 etches</span></div>
+          <div id="counterfield-canvas" class="counterfield-canvas"></div>
+          <div class="counterfield-controls" aria-label="Brush material actions">
+            <button type="button" data-gesture="traverse">make a traverse</button>
+            <button type="button" data-gesture="latest">lift last</button>
+            <button type="button" data-gesture="release">release field</button>
+          </div>
+          <p class="counterfield-hint">enter from the left · leave through the right</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v044-counterfield-etch</span><span>pressure &gt; threshold &gt; material answer</span></figcaption>
+      </figure>
+
+      <section class="counterfield-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / COUNTERFIELD ETCH / v044</p>
+        <h1 id="work-title">The brush keeps<br><i>what the field cannot carry.</i></h1>
+        <p class="counterfield-lede">The hand is not painted. Cross the pressure field and the strata decide whether to shear or powderize elsewhere. The threshold is an antagonist: the field remembers the force that crossed it, not the path that was drawn.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">PRESSURE HAS A ONE-WAY COST</p>
+          <p class="interaction-copy">Begin near the left edge and scrape across the layered field. While the gesture is moving, the produced strata stay exact. Only a complete left-to-right traverse that crosses the central pressure threshold commits. The field classifies the gesture as shear or powder, then changes distant strata through actual cuts and deposits. Enter or “make a traverse” uses a deterministic traverse; Delete lifts the latest etch; Escape, R, or “release field” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The strata are quiet. The field is waiting at the left edge.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v044</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the monolithic body, timed stillness, remote membrane, and two-site call. The visitor must cross a visible pressure threshold from left to right; only release commits a field-classified shear or powder event in other strata.</dd></div>
+          <div><dt>visitor action</dt><dd>Press near the left edge, cross the pressure bands, and release beyond the right edge. A short scrape, interior start, reversed crossing, or threshold miss refuses without geometry change. Pointer, touch, Enter, Space, Delete, Escape, R, and the controls provide equivalent routes.</dd></div>
+          <div><dt>falsifier</dt><dd>If the hand path is painted, if geometry changes before release, if a short or reversed scrape commits, if the threshold is only an annotation, or if shear and powder are cosmetic labels rather than produced strata, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v044 if caption-free viewing reads as a generic striped landscape, if the field has no visible antagonist, or if a committed traverse cannot be distinguished from a cursor trail or colour flash.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-10-31/">previous daily work</a><a href="/journal/#journal-brush-2026-11-01">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=044"></script>
+</body>
+</html>

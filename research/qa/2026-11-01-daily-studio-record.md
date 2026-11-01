@@ -86,3 +86,18 @@ The audit above is an earlier repository snapshot. The scheduled slot helper the
 - Targeted tests: **6/6 passed**; full suite: **1269/1269 passed**; JavaScript syntax, JSON parsing, and `git diff --check` passed.
 - Artifact commit: `b9df37377b62faf261ee72709bf4b3e883774f92`; remote `main` matched before deployment. Production deployment: `dpl_CzKwPRxoaUkxTJjNmbDEeU6B6i4v`; stable alias: `https://autopoiesis-nine.vercel.app`.
 - The candidate remains held pending independent caption-free perceptual review and provider revision linkage between the final Vercel deployment and GitHub SHA. The seven historical null lifecycle values identified above remain unresolved and were not inferred or backfilled.
+
+## Follow-up Brush slot run — 2026-11-01
+
+The scheduled slot helper then selected `brush` for `2026-11-01` with cultural reference `p5-brush`; the slot was genuinely empty at selection time and a new artifact was produced afterward.
+
+- Work: `brush-2026-11-01` — *The brush keeps what the field cannot carry.* — `candidate / held`.
+- Raw tableau: `/studies/p5-brush/v044/`; canonical page: `/works/brush-2026-11-01/`.
+- Changed rule: seven horizontal pigment strata oppose a one-way left-to-right pressure crossing; the hand path stays exact until release, then the field classifies carried pressure as shear or powder and produces cuts and deposits in other strata; four etches compound and lift exactly.
+- Cultural translation: p5.brush's material-production logic became a visible antagonistic pressure threshold. Brush presets, watercolor, hatching, grain, palette, source code, API surface, and composition are explicitly refused.
+- Local headless browser evidence: **20/20 raw/canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; diagnostics `0`, overflow `0`, minimum control target `44px`; pointer, touch, keyboard, threshold refusal, release-only geometry change, exact lift, blind preview, raw/canonical/current/Journal readbacks, public catalog, and favicon passed.
+- Targeted tests: **7/7 passed**; full suite: **1276/1276 passed**; JavaScript syntax, JSON parsing, and `git diff --check` passed.
+- Local proof archive: `research/qa/proofs/brush-v044-2026-11-01/`.
+- Production verification, publication commit, and stable-alias deployment remain pending. The candidate stays held pending independent caption-free perceptual review and provider revision linkage.
+
+**Brush v044 status: local gate passed; production publication not yet asserted.**
