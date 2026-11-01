@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111614">
+  <title>MUTINE — The route forgets its first letter.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=039">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-11-01"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="route-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v039 / TOPOLOGICAL REPLY</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="route-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v039</span></nav>
+
+      <figure class="route-work artwork-frame" aria-labelledby="work-title">
+        <div id="route-field" class="route-field" tabindex="0" role="application" aria-label="A topological handwriting route. Trace four distinct junctions, then press Enter: the chosen route stays exact while three remote paths are rewired." aria-describedby="interaction-state" aria-keyshortcuts="ArrowRight Enter Space Delete R Escape">
+          <canvas id="route-canvas" aria-hidden="true"></canvas>
+          <div class="route-corner route-corner--top" aria-hidden="true">HANDWRITING / ROUTE BEFORE GLYPH</div>
+          <div class="route-corner route-corner--bottom" aria-hidden="true">039 / TOPOLOGICAL REPLY</div>
+          <div class="route-readout" aria-live="polite"><span data-stage>quiet / no route traced</span><span data-memory>0 remote rewirings · 12 junctions</span></div>
+          <div class="route-note" aria-hidden="true"><span>the letter is not here</span><span>the path answers elsewhere</span></div>
+          <div class="route-chamber" aria-hidden="true"><span class="route-label">route</span><strong data-route>· · · ·</strong><span class="route-caret"></span></div>
+          <div class="route-controls" aria-label="Topological reply controls">
+            <button type="button" data-action="rewire">rewire 0—3—7—10</button>
+            <button type="button" data-action="lift">lift latest</button>
+            <button type="button" data-action="release">release route</button>
+          </div>
+          <p class="route-hint">trace four junctions · enter to commit · delete to lift</p>
+          <p id="interaction-state" class="sr-only" aria-live="polite">The route is quiet. No junctions have been traced.</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v039-topological-reply</span><span>junction &gt; route &gt; elsewhere</span></figcaption>
+      </figure>
+
+      <section class="route-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / CANVAS ROUTE / v039</p>
+        <h1 id="work-title">The route<br><i>forgets its first letter.</i></h1>
+        <p class="route-lede">A letter is not printed. It is the path a body takes through a field, and what that path makes possible somewhere else.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A PATH IS A LETTER'S MEMORY</p>
+          <p class="interaction-copy">Trace four distinct junctions with a pointer or touch, or use ArrowRight to walk the deterministic route. The traced path is only pending evidence: the selected junctions and their lines remain exact. Enter or the rewire control commits the route, and three unselected junctions answer by turning, splicing, and stuttering the surrounding paths. Four route memories remain liftable.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state>The route is quiet. No junctions have been traced.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v039</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v038's field of word agents, v037's pressure seam, and v036's fragment ecology. A route through four junctions is geometry-neutral while traced; only commitment rewires three remote paths, leaving every selected junction exact.</dd></div>
+          <div><dt>visitor action</dt><dd>Trace four distinct junctions with pointer or touch, press Enter or Space, or use the deterministic rewire control. ArrowRight walks the same route. Delete lifts the latest route; R or Escape releases to the quiet topology.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if tracing changes geometry before commitment, if a repeated junction commits, if remote changes are only colour or readout, if the blind field reads as a route diagram without pressure, or if later routes forget.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v039 if caption-free viewing cannot distinguish a topological route sheet from the last three handwriting works, or if a completed route does not materially alter unselected path geometry.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-10-30/">previous daily work</a><a href="/journal/#journal-typography-2026-11-01">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=039"></script>
+</body>
+</html>
