@@ -52,7 +52,8 @@ The last three Self portrait records repeated a local offer followed by a delaye
 
 - **Artifact commit:** `b9d307b59f053666b6b3f879988157b29dab9a3e` — `[verified] record Self portrait v039 daily work`
 - **Remote `main`:** matched artifact SHA `b9d307b59f053666b6b3f879988157b29dab9a3e`
-- **Deployment:** `dpl_EC2r7oDMkwLPUVsNhZTiP3Rrt4SJ` — https://autopoiesis-efmzwz72v-lairpa-hotmailfrs-projects.vercel.app
+- **Evidence deployment:** `dpl_EC2r7oDMkwLPUVsNhZTiP3Rrt4SJ` — https://autopoiesis-efmzwz72v-lairpa-hotmailfrs-projects.vercel.app
+- **Final production deployment:** `dpl_GxXjQmdgcNUWXowfmQmvZYiaLSSu` — https://autopoiesis-je8z9c0ih-lairpa-hotmailfrs-projects.vercel.app
 - **Stable production alias:** https://autopoiesis-nine.vercel.app
 - **Stable-alias readback:** `/studio/data/works.json`, `/studio/data/catalog-public.json`, `/journal/`, `/currents/self-portrait/`, `/works/portrait-2026-11-01/`, raw v039 preview, and `/studio/favicon.svg` all returned/rendered successfully. Each JSON register contained exactly one `portrait-2026-11-01` record.
 
