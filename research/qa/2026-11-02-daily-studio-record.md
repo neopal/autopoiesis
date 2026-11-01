@@ -41,7 +41,15 @@ The last three handwriting works tested a folded SVG sentence with a pressure cu
 - Local canonical/readbacks: works JSON, public catalog JSON, Journal anchor/title, Handwriting current/card, canonical tableau, raw tableau, and favicon returned/rendered; diagnostics `0`, overflow `0`, minimum touch target `44px`.
 - Stable-alias production headless browser matrix: **20/20 passed** across the same five viewports and two motion modes; interaction, blind preview, canonical tableau-first route, diagnostics `0`, overflow `0`, and minimum touch target `44px` were read back from `https://autopoiesis-nine.vercel.app`.
 - Stable-alias production readbacks: exactly one `typography-2026-11-02` record in deployed works/public catalogue JSON; Journal anchor/title, Handwriting current/card, canonical tableau, raw tableau, and favicon returned/rendered.
-- Proof archives: `research/qa/proofs/handwriting-v040-2026-11-02/` and `research/qa/proofs/handwriting-v040-2026-11-02-production/`.
+- Proof archives: `research/qa/proofs/handwriting-v040-2026-11-02/`, `research/qa/proofs/handwriting-v040-2026-11-02-production/`, and the final deployment readback at `research/qa/proofs/handwriting-v040-2026-11-02-production-final/`.
+
+## Publication
+
+- Artifact commit: `fbc660319b8a49bc530519f7094d1d0808f5b936`.
+- Evidence commit: `033f71ece15fe8ab0747ca9556cff2927a06c4c4`.
+- Remote `main`: matched `033f71ece15fe8ab0747ca9556cff2927a06c4c4`.
+- Final production deployment: `dpl_4LjKQyhmUrbwh4Cjps6PEonHXnrP`, deployment URL `https://autopoiesis-la0q4hcke-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`.
+- The final stable-alias probe re-read the deployed works/public catalogue JSON, Journal anchor/title, Handwriting current/card, canonical tableau, raw tableau, and favicon; all returned/rendered as recorded above.
 
 ## Unresolved doubt
 

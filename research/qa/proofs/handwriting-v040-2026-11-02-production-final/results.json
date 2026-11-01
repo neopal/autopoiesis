@@ -1,0 +1,917 @@
+{
+  "base": "https://autopoiesis-nine.vercel.app",
+  "matrix": [
+    {
+      "route": "raw",
+      "viewport": "320x568",
+      "mode": "normal",
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": false,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-normal-320x568.png",
+      "screenshotBytes": 173544
+    },
+    {
+      "route": "canonical",
+      "viewport": "320x568",
+      "mode": "normal",
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 196.5,
+      "headingTop": 641.890625,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-normal-320x568.png",
+      "screenshotBytes": 287296
+    },
+    {
+      "route": "raw",
+      "viewport": "390x844",
+      "mode": "normal",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": false,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-normal-390x844.png",
+      "screenshotBytes": 269879
+    },
+    {
+      "route": "canonical",
+      "viewport": "390x844",
+      "mode": "normal",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 183.5,
+      "headingTop": 692.296875,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-normal-390x844.png",
+      "screenshotBytes": 334404
+    },
+    {
+      "route": "raw",
+      "viewport": "768x1024",
+      "mode": "normal",
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": false,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-normal-768x1024.png",
+      "screenshotBytes": 571607
+    },
+    {
+      "route": "canonical",
+      "viewport": "768x1024",
+      "mode": "normal",
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 183.5,
+      "headingTop": 885.25,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-normal-768x1024.png",
+      "screenshotBytes": 585080
+    },
+    {
+      "route": "raw",
+      "viewport": "1280x800",
+      "mode": "normal",
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": false,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-normal-1280x800.png",
+      "screenshotBytes": 732039
+    },
+    {
+      "route": "canonical",
+      "viewport": "1280x800",
+      "mode": "normal",
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 161,
+      "headingTop": 953,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-normal-1280x800.png",
+      "screenshotBytes": 701400
+    },
+    {
+      "route": "raw",
+      "viewport": "1920x1080",
+      "mode": "normal",
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": false,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-normal-1920x1080.png",
+      "screenshotBytes": 1085733
+    },
+    {
+      "route": "canonical",
+      "viewport": "1920x1080",
+      "mode": "normal",
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 161,
+      "headingTop": 953,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-normal-1920x1080.png",
+      "screenshotBytes": 728814
+    },
+    {
+      "route": "raw",
+      "viewport": "320x568",
+      "mode": "reduced-motion",
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": true,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-reduced-320x568.png",
+      "screenshotBytes": 173367
+    },
+    {
+      "route": "canonical",
+      "viewport": "320x568",
+      "mode": "reduced-motion",
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 196.5,
+      "headingTop": 641.890625,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-reduced-320x568.png",
+      "screenshotBytes": 287155
+    },
+    {
+      "route": "raw",
+      "viewport": "390x844",
+      "mode": "reduced-motion",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": true,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-reduced-390x844.png",
+      "screenshotBytes": 269635
+    },
+    {
+      "route": "canonical",
+      "viewport": "390x844",
+      "mode": "reduced-motion",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 183.5,
+      "headingTop": 692.296875,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-reduced-390x844.png",
+      "screenshotBytes": 334203
+    },
+    {
+      "route": "raw",
+      "viewport": "768x1024",
+      "mode": "reduced-motion",
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": true,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-reduced-768x1024.png",
+      "screenshotBytes": 571570
+    },
+    {
+      "route": "canonical",
+      "viewport": "768x1024",
+      "mode": "reduced-motion",
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 183.5,
+      "headingTop": 885.25,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-reduced-768x1024.png",
+      "screenshotBytes": 584855
+    },
+    {
+      "route": "raw",
+      "viewport": "1280x800",
+      "mode": "reduced-motion",
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": true,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-reduced-1280x800.png",
+      "screenshotBytes": 731903
+    },
+    {
+      "route": "canonical",
+      "viewport": "1280x800",
+      "mode": "reduced-motion",
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 161,
+      "headingTop": 953,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-reduced-1280x800.png",
+      "screenshotBytes": 701158
+    },
+    {
+      "route": "raw",
+      "viewport": "1920x1080",
+      "mode": "reduced-motion",
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "fieldVisible": true,
+      "canvasVisible": true,
+      "chamberCount": 9,
+      "memory": 0,
+      "controls": [
+        {
+          "id": "press",
+          "height": 44
+        },
+        {
+          "id": "lift",
+          "height": 44
+        },
+        {
+          "id": "release",
+          "height": 44
+        }
+      ],
+      "reducedMotion": true,
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\raw-reduced-1920x1080.png",
+      "screenshotBytes": 1086235
+    },
+    {
+      "route": "canonical",
+      "viewport": "1920x1080",
+      "mode": "reduced-motion",
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "detail": true,
+      "title": true,
+      "tableauFirst": true,
+      "iframeTop": 161,
+      "headingTop": 953,
+      "raw": {
+        "fieldVisible": true,
+        "canvasVisible": true,
+        "chamberCount": 9
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\canonical-reduced-1920x1080.png",
+      "screenshotBytes": 728411
+    }
+  ],
+  "interaction": {
+    "baseline": {
+      "signature": "[[0,\"A\",0.16,0.21,-8,1.18,0.86,-0.04,0.44,0.72,0.08,\"quiet\"],[1,\"E\",0.38,0.16,5,0.92,0.7,0.06,0.28,0.62,0.24,\"quiet\"],[2,\"I\",0.63,0.2,-3,1.08,0.58,-0.02,0.18,0.74,0.39,\"quiet\"],[3,\"O\",0.82,0.36,12,1.24,0.82,0.03,0.66,0.68,0.53,\"quiet\"],[4,\"U\",0.68,0.66,-10,1.03,0.78,-0.07,0.48,0.66,0.67,\"quiet\"],[5,\"Y\",0.43,0.78,7,1.14,0.64,0.09,0.31,0.78,0.79,\"quiet\"],[6,\"N\",0.18,0.68,-14,0.96,0.76,-0.05,0.34,0.64,0.88,\"quiet\"],[7,\"M\",0.33,0.46,18,0.88,0.92,0.04,0.52,0.58,0.14,\"quiet\"],[8,\"?\",0.56,0.47,-19,1,0.68,-0.08,0.25,0.7,0.31,\"quiet\"]]",
+      "chambers": [
+        {
+          "id": 0,
+          "glyph": "A",
+          "x": 0.16,
+          "y": 0.21,
+          "angle": -8,
+          "scale": 1.18,
+          "width": 0.86,
+          "slant": -0.04,
+          "counter": 0.44,
+          "ink": 0.72,
+          "phase": 0.08,
+          "mode": "quiet"
+        },
+        {
+          "id": 1,
+          "glyph": "E",
+          "x": 0.38,
+          "y": 0.16,
+          "angle": 5,
+          "scale": 0.92,
+          "width": 0.7,
+          "slant": 0.06,
+          "counter": 0.28,
+          "ink": 0.62,
+          "phase": 0.24,
+          "mode": "quiet"
+        },
+        {
+          "id": 2,
+          "glyph": "I",
+          "x": 0.63,
+          "y": 0.2,
+          "angle": -3,
+          "scale": 1.08,
+          "width": 0.58,
+          "slant": -0.02,
+          "counter": 0.18,
+          "ink": 0.74,
+          "phase": 0.39,
+          "mode": "quiet"
+        },
+        {
+          "id": 3,
+          "glyph": "O",
+          "x": 0.82,
+          "y": 0.36,
+          "angle": 12,
+          "scale": 1.24,
+          "width": 0.82,
+          "slant": 0.03,
+          "counter": 0.66,
+          "ink": 0.68,
+          "phase": 0.53,
+          "mode": "quiet"
+        },
+        {
+          "id": 4,
+          "glyph": "U",
+          "x": 0.68,
+          "y": 0.66,
+          "angle": -10,
+          "scale": 1.03,
+          "width": 0.78,
+          "slant": -0.07,
+          "counter": 0.48,
+          "ink": 0.66,
+          "phase": 0.67,
+          "mode": "quiet"
+        },
+        {
+          "id": 5,
+          "glyph": "Y",
+          "x": 0.43,
+          "y": 0.78,
+          "angle": 7,
+          "scale": 1.14,
+          "width": 0.64,
+          "slant": 0.09,
+          "counter": 0.31,
+          "ink": 0.78,
+          "phase": 0.79,
+          "mode": "quiet"
+        },
+        {
+          "id": 6,
+          "glyph": "N",
+          "x": 0.18,
+          "y": 0.68,
+          "angle": -14,
+          "scale": 0.96,
+          "width": 0.76,
+          "slant": -0.05,
+          "counter": 0.34,
+          "ink": 0.64,
+          "phase": 0.88,
+          "mode": "quiet"
+        },
+        {
+          "id": 7,
+          "glyph": "M",
+          "x": 0.33,
+          "y": 0.46,
+          "angle": 18,
+          "scale": 0.88,
+          "width": 0.92,
+          "slant": 0.04,
+          "counter": 0.52,
+          "ink": 0.58,
+          "phase": 0.14,
+          "mode": "quiet"
+        },
+        {
+          "id": 8,
+          "glyph": "?",
+          "x": 0.56,
+          "y": 0.47,
+          "angle": -19,
+          "scale": 1,
+          "width": 0.68,
+          "slant": -0.08,
+          "counter": 0.25,
+          "ink": 0.7,
+          "phase": 0.31,
+          "mode": "quiet"
+        }
+      ]
+    },
+    "refused": {
+      "signature": "[[0,\"A\",0.16,0.21,-8,1.18,0.86,-0.04,0.44,0.72,0.08,\"quiet\"],[1,\"E\",0.38,0.16,5,0.92,0.7,0.06,0.28,0.62,0.24,\"quiet\"],[2,\"I\",0.63,0.2,-3,1.08,0.58,-0.02,0.18,0.74,0.39,\"quiet\"],[3,\"O\",0.82,0.36,12,1.24,0.82,0.03,0.66,0.68,0.53,\"quiet\"],[4,\"U\",0.68,0.66,-10,1.03,0.78,-0.07,0.48,0.66,0.67,\"quiet\"],[5,\"Y\",0.43,0.78,7,1.14,0.64,0.09,0.31,0.78,0.79,\"quiet\"],[6,\"N\",0.18,0.68,-14,0.96,0.76,-0.05,0.34,0.64,0.88,\"quiet\"],[7,\"M\",0.33,0.46,18,0.88,0.92,0.04,0.52,0.58,0.14,\"quiet\"],[8,\"?\",0.56,0.47,-19,1,0.68,-0.08,0.25,0.7,0.31,\"quiet\"]]",
+      "state": {
+        "memory": 0,
+        "pending": null,
+        "lastEvent": "refused pressure",
+        "changedChamberIds": [],
+        "reducedMotion": true
+      }
+    },
+    "committed": {
+      "signature": "[[0,\"A\",0.16,0.21,-8,1.18,0.86,-0.04,0.44,0.72,0.08,\"quiet\"],[1,\"E\",0.39919,0.14466,16.51943,0.82664,0.77039,0.10594,0.18516,0.69742,0.47558,\"compressed\"],[2,\"I\",0.63,0.2,-3,1.08,0.58,-0.02,0.18,0.74,0.39,\"quiet\"],[3,\"O\",0.82,0.36,12,1.24,0.82,0.03,0.66,0.68,0.53,\"quiet\"],[4,\"U\",0.68,0.66,-10,1.03,0.78,-0.07,0.48,0.66,0.67,\"quiet\"],[5,\"Y\",0.43,0.78,7,1.14,0.64,0.09,0.31,0.78,0.79,\"quiet\"],[6,\"N\",0.19919,0.69534,2.51943,1.05336,0.83039,-0.00406,0.24516,0.56258,0.16558,\"leaning\"],[7,\"M\",0.31081,0.44466,11.48057,0.97336,0.84961,-0.00594,0.61484,0.65742,0.32558,\"opened\"],[8,\"?\",0.56,0.47,-19,1,0.68,-0.08,0.25,0.7,0.31,\"quiet\"]]",
+      "state": {
+        "memory": 1,
+        "pending": null,
+        "lastEvent": "pressure debt transferred",
+        "changedChamberIds": [
+          7,
+          1,
+          6
+        ],
+        "reducedMotion": true
+      },
+      "chambers": [
+        {
+          "id": 0,
+          "glyph": "A",
+          "x": 0.16,
+          "y": 0.21,
+          "angle": -8,
+          "scale": 1.18,
+          "width": 0.86,
+          "slant": -0.04,
+          "counter": 0.44,
+          "ink": 0.72,
+          "phase": 0.08,
+          "mode": "quiet"
+        },
+        {
+          "id": 1,
+          "glyph": "E",
+          "x": 0.39919,
+          "y": 0.14466,
+          "angle": 16.51943,
+          "scale": 0.82664,
+          "width": 0.77039,
+          "slant": 0.10594,
+          "counter": 0.18516,
+          "ink": 0.69742,
+          "phase": 0.47558,
+          "mode": "compressed"
+        },
+        {
+          "id": 2,
+          "glyph": "I",
+          "x": 0.63,
+          "y": 0.2,
+          "angle": -3,
+          "scale": 1.08,
+          "width": 0.58,
+          "slant": -0.02,
+          "counter": 0.18,
+          "ink": 0.74,
+          "phase": 0.39,
+          "mode": "quiet"
+        },
+        {
+          "id": 3,
+          "glyph": "O",
+          "x": 0.82,
+          "y": 0.36,
+          "angle": 12,
+          "scale": 1.24,
+          "width": 0.82,
+          "slant": 0.03,
+          "counter": 0.66,
+          "ink": 0.68,
+          "phase": 0.53,
+          "mode": "quiet"
+        },
+        {
+          "id": 4,
+          "glyph": "U",
+          "x": 0.68,
+          "y": 0.66,
+          "angle": -10,
+          "scale": 1.03,
+          "width": 0.78,
+          "slant": -0.07,
+          "counter": 0.48,
+          "ink": 0.66,
+          "phase": 0.67,
+          "mode": "quiet"
+        },
+        {
+          "id": 5,
+          "glyph": "Y",
+          "x": 0.43,
+          "y": 0.78,
+          "angle": 7,
+          "scale": 1.14,
+          "width": 0.64,
+          "slant": 0.09,
+          "counter": 0.31,
+          "ink": 0.78,
+          "phase": 0.79,
+          "mode": "quiet"
+        },
+        {
+          "id": 6,
+          "glyph": "N",
+          "x": 0.19919,
+          "y": 0.69534,
+          "angle": 2.51943,
+          "scale": 1.05336,
+          "width": 0.83039,
+          "slant": -0.00406,
+          "counter": 0.24516,
+          "ink": 0.56258,
+          "phase": 0.16558,
+          "mode": "leaning"
+        },
+        {
+          "id": 7,
+          "glyph": "M",
+          "x": 0.31081,
+          "y": 0.44466,
+          "angle": 11.48057,
+          "scale": 0.97336,
+          "width": 0.84961,
+          "slant": -0.00594,
+          "counter": 0.61484,
+          "ink": 0.65742,
+          "phase": 0.32558,
+          "mode": "opened"
+        },
+        {
+          "id": 8,
+          "glyph": "?",
+          "x": 0.56,
+          "y": 0.47,
+          "angle": -19,
+          "scale": 1,
+          "width": 0.68,
+          "slant": -0.08,
+          "counter": 0.25,
+          "ink": 0.7,
+          "phase": 0.31,
+          "mode": "quiet"
+        }
+      ]
+    },
+    "lifted": {
+      "signature": "[[0,\"A\",0.16,0.21,-8,1.18,0.86,-0.04,0.44,0.72,0.08,\"quiet\"],[1,\"E\",0.38,0.16,5,0.92,0.7,0.06,0.28,0.62,0.24,\"quiet\"],[2,\"I\",0.63,0.2,-3,1.08,0.58,-0.02,0.18,0.74,0.39,\"quiet\"],[3,\"O\",0.82,0.36,12,1.24,0.82,0.03,0.66,0.68,0.53,\"quiet\"],[4,\"U\",0.68,0.66,-10,1.03,0.78,-0.07,0.48,0.66,0.67,\"quiet\"],[5,\"Y\",0.43,0.78,7,1.14,0.64,0.09,0.31,0.78,0.79,\"quiet\"],[6,\"N\",0.18,0.68,-14,0.96,0.76,-0.05,0.34,0.64,0.88,\"quiet\"],[7,\"M\",0.33,0.46,18,0.88,0.92,0.04,0.52,0.58,0.14,\"quiet\"],[8,\"?\",0.56,0.47,-19,1,0.68,-0.08,0.25,0.7,0.31,\"quiet\"]]",
+      "state": {
+        "memory": 0,
+        "pending": null,
+        "lastEvent": "lifted latest",
+        "changedChamberIds": [],
+        "reducedMotion": true
+      }
+    },
+    "keyboard": {
+      "memory": 1,
+      "pending": null,
+      "lastEvent": "pressure debt transferred",
+      "changedChamberIds": [
+        3,
+        6,
+        2
+      ],
+      "reducedMotion": true
+    },
+    "button": {
+      "memory": 2,
+      "pending": null,
+      "lastEvent": "pressure debt transferred",
+      "changedChamberIds": [
+        8,
+        3,
+        0
+      ],
+      "reducedMotion": true
+    },
+    "released": {
+      "memory": 0,
+      "pending": null,
+      "lastEvent": "release",
+      "changedChamberIds": [],
+      "reducedMotion": true
+    },
+    "touch": {
+      "memory": 1,
+      "pending": null,
+      "lastEvent": "pressure debt transferred",
+      "changedChamberIds": [
+        5,
+        8,
+        4
+      ],
+      "reducedMotion": true
+    },
+    "sourceExact": true,
+    "previewGeometryUnchanged": true,
+    "shortRefused": true,
+    "committedRemote": true,
+    "liftRestored": true,
+    "keyboardCommitted": true,
+    "buttonCommitted": true,
+    "releaseQuiet": true,
+    "touchCommitted": true,
+    "controls": [
+      {
+        "id": "press",
+        "height": 44
+      },
+      {
+        "id": "lift",
+        "height": 44
+      },
+      {
+        "id": "release",
+        "height": 44
+      }
+    ],
+    "diagnostics": []
+  },
+  "blindPreview": {
+    "viewport": "390x844",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "fieldVisible": true,
+    "canvasVisible": true,
+    "chamberCount": 9,
+    "memory": 4,
+    "controls": "none",
+    "readout": "none",
+    "note": "none",
+    "hint": "none",
+    "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\handwriting-v040-2026-11-02-production-final\\blind-390x844.png",
+    "screenshotBytes": 287346,
+    "diagnostics": []
+  },
+  "readbacks": {
+    "result": {
+      "works": {
+        "status": 200,
+        "hasWork": true
+      },
+      "publicCatalog": {
+        "status": 200,
+        "hasWork": true
+      },
+      "journal": {
+        "status": 200,
+        "body": "MUTINE\n\nARTIST INDEX / JOURNAL\n\nGALLERY\nJOURNAL\nGALLERY\n→\nJOURNAL\n\nMUTINE / 03 / OBSERVED RECORD\n\nWhat changed.\nWhat did not.\n\nRecorded moves, by date. Doubt stays visible.\n\nTHE CALENDAR / BY DAY\n\nStudio days\n\n246 RECORDED DAILY WORKS\nONE ENTRY PER CURRENT AND DATE\n\nNovember 2026\n\n6 DAILY WORKS\n\nMON\nTUE\nWED\nTHU\nFRI\nSAT\nSUN\n1\nThe crowd gives weight to waiting.\nWEBGPU\nThe route forgets its first letter.\nHANDWRITING\nThe body knots a second opening.\nPURE SVG\nThe portrait turns the field against itself.\nSELF PORTRAIT\nThe brush keeps what the field cannot carry.\nBRUSH\n2\nThe letter keeps its pressure debt.\nHANDWRITING\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\nOctober 2026\n\n129 DAILY WORKS\n\nMON\nTUE\nWED\nTHU\nFRI\nSAT\nSUN\n1\nThe crowd borrows a phase.\nWEBGPU\nThe ink leaves a counter.\nHANDWRITING\nThe valve turns its face.\nPURE SVG\nThe picture learns the wrong slot.\nNAIVE ART\nThe brush answers under the cut.\nBRUSH\n2\nThe mass stores a crease.\nWEBGPU\nThe letters answer elsewhere.\nHANDWRITING\nThe contour chooses a second mouth.\nPURE SVG\nThe portrait keeps a pressure register.\nSELF PORTRAIT\nThe brush seals a pause.\nBRUSH\n3\nThe field learns to answer.\nWEBGPU\nThe sentence takes pressure.\nHANDWRITING\nThe ribbon keeps the pressure.\nPURE SVG\nThe portrait borrows a witness.\nSELF PORTRAIT\nThe line forgets where it was going.\nNAIVE ART\nThe paint turns from the witness.\nBRUSH\n4\nThe archive changes the weather.\nWEBGPU\nThe sentence looks back.\nHANDWRITING\nThe nearest edge moves.\nPURE SVG\nThe portrait makes room.\nSELF PORTRAIT\nThe picture misreads its own shadow.\nNAIVE ART\n5\nThe crowd keeps the unspoken.\nWEBGPU\nPressure changes the word.\nHANDWRITING\nThe sheet refuses a quick touch.\nPURE SVG\nThe portrait keeps a blind side.\nSELF PORTRAIT\nThe paint keeps the endpoints.\nBRUSH\n6\nThe archive keeps the interval.\nWEBGPU\nThe reader moves the break.\nHANDWRITING\nThe contour takes attendance.\nPURE SVG\nThe portrait argues with its branch.\nSELF PORTRAIT\nThe paint folds its weight inward.\nBRUSH\n7\nThe margin pushes back.\nHANDWRITING\nThe boundary keeps its gap.\nPURE SVG\nThe portrait keeps what you never saw.\nSELF PORTRAIT\nThe picture swallows the pressure.\nNAIVE ART\nThe paint sets its own limit.\nBRUSH\n8\nThe crowd cures the pressure.\nWEBGPU\nThe word asks another word.\nHANDWRITING\nThe chorus rehearses absence.\nPURE SVG\nThe portrait cannot hold a straight line.\nSELF PORTRAIT\nThe picture miscounts its witnesses.\nNAIVE ART\nThe paint returns what it loses.\nBRUSH\n9\nThe crowd files the witness.\nWEBGPU\nThe weight finds a seam.\nPURE SVG\nThe portrait saves your detour.\nSELF PORTRAIT\nThe correction shifts the whole print.\nNAIVE ART\nThe paint remembers the edge.\nBRUSH\n10\nThe margin keeps the spare.\nHANDWRITING\nThe aperture waits for leaving.\nPURE SVG\nThe picture misremembers the gap.\nNAIVE ART\nThe paint dries around the touch.\nBRUSH\n11\n12\nThe volume keeps what attention misses.\nWEBGPU\nThe seam refuses a solitary touch.\nPURE SVG\nThe picture joins what never touched.\nNAIVE ART\n13\nThe crowd leaves a vacancy.\nWEBGPU\nThe space takes the weight.\nHANDWRITING\nThe contour answers from far away.\nPURE SVG\nThe portrait elects an absence.\nSELF PORTRAIT\nThe paint stores a pressure debt.\nBRUSH\n14\nThe word leaves a hollow.\nHANDWRITING\nThe line mishears the second touch.\nPURE SVG\nThe portrait refuses the first answer.\nSELF PORTRAIT\nThe paint declines to become a mark.\nBRUSH\n15\n16\n17\n18\n19\nThe paper carries weight to the wrong edge.\nNAIVE ART\n20\nThe archive contracts around a missed signal.\nWEBGPU\nThe quiet gets quoted elsewhere.\nHANDWRITING\nThe room closes around a quiet facet.\nPURE SVG\nThe portrait changes its grammar.\nSELF PORTRAIT\nThe copies watch the wrong place.\nNAIVE ART\nThe paint sets the wrong seam.\nBRUSH\n21\nThe room keeps what you leave unseen.\nWEBGPU\nThe sheet refuses the local mark.\nPURE SVG\nThe portrait gives the edge away.\nSELF PORTRAIT\nThe paint keeps the unlooked-for.\nBRUSH\n22\nThe mass remembers the pressure that failed.\nWEBGPU\nThe sentence refuses the offered letter.\nHANDWRITING\nThe score delays its answer.\nPURE SVG\nThe portrait keeps a second opinion.\nSELF PORTRAIT\nThe branch learned the wrong family.\nNAIVE ART\nThe paint remembers which way you left.\nBRUSH\n23\nThe quorum chooses a stranger.\nWEBGPU\nThe route keeps the letter at a distance.\nHANDWRITING\nThe portrait keeps the gap in its checksum.\nSELF PORTRAIT\nThe proof misheard itself.\nNAIVE ART\nThe paint opens where you leave it.\nBRUSH\n24\nThe field learns a second horizon.\nWEBGPU\nThe sentence arrives after the mark.\nHANDWRITING\nThe unobserved side opens.\nPURE SVG\nThe portrait refuses to be continuous.\nSELF PORTRAIT\nThe model fills the missing side.\nNAIVE ART\nThe paint hardens at the touch.\nBRUSH\n25\nThe crowd rehearses its distance.\nWEBGPU\nThe blank bends the sentence.\nHANDWRITING\nThe stroke becomes an organ.\nPURE SVG\nThe portrait answers after you leave.\nSELF PORTRAIT\nThe model mistakes the hole.\nNAIVE ART\n26\nThe pressure enters elsewhere.\nWEBGPU\nThe gap keeps an elsewhere.\nHANDWRITING\nThe witness leaves a vacancy.\nPURE SVG\nThe portrait guesses before you do.\nSELF PORTRAIT\nThe page reads the wrong fold.\nNAIVE ART\nThe paint opens between layers.\nBRUSH\n27\nThe least-seen gate opens.\nWEBGPU\nThe letter is cast elsewhere.\nHANDWRITING\nThe portrait audits the empty centre.\nSELF PORTRAIT\nThe mistake cures the wrong edge.\nNAIVE ART\nThe stain keeps its holes.\nBRUSH\n28\nThe mass stores the pause.\nWEBGPU\nThe sentence answers from its margins.\nHANDWRITING\nThe field refuses the pair.\nPURE SVG\nThe portrait hardens where it resists.\nSELF PORTRAIT\nThe witness is missing where it stood.\nNAIVE ART\nThe stain falls through its own absence.\nBRUSH\n29\nThe archive wakes after the room empties.\nWEBGPU\nThe line learns where to break.\nHANDWRITING\nThe contour refuses to close.\nPURE SVG\nThe model counts the quiet cells.\nNAIVE ART\nThe material answers from behind.\nBRUSH\n30\nThe archive keeps the pressure between bodies.\nWEBGPU\nThe alphabet votes from the margins.\nHANDWRITING\nThe aperture answers elsewhere.\nPURE SVG\nThe portrait develops the wrong negative.\nSELF PORTRAIT\nThe model hardens the soft mistake.\nNAIVE ART\nThe paint cures around the held breath.\nBRUSH\n31\nThe crowd agrees on a missing depth.\nWEBGPU\nThe hinge keeps two histories apart.\nPURE SVG\nThe portrait changes its answer when you look away.\nSELF PORTRAIT\nThe model keeps the wrong word.\nNAIVE ART\nThe brush asks for a second hand.\nBRUSH\nSeptember 2026\n\n104 DAILY WORKS\n\nMON\nTUE\nWED\nTHU\nFRI\nSAT\nSUN\n1\n2\nThe animal steps sideways.\nPURE SVG\nThe correction walks outside.\nNAIVE ART\n3\nThe crowd keeps the gap.\nWEBGPU\nA sentence splits where it remembers.\nHANDWRITING\nThe animal leaves the joint open.\nPURE SVG\nThe axis keeps its hesitation.\nSELF PORTRAIT\nA brush opens a channel.\nBRUSH\n4\nThe crowd arrives out of order.\nWEBGPU\nThe sentence loses its place.\nHANDWRITING\nThe animal keeps a room missing.\nPURE SVG\nThe portrait carries its negative.\nSELF PORTRAIT\nThe house keeps its outside inside.\nNAIVE ART\nThe brush remembers what was taken.\nBRUSH\n5\n6\n7\nThe crowd keeps a place open.\nWEBGPU\nThe animal learns a hinge.\nPURE SVG\nThe house forgets where away is.\nNAIVE ART\nThe brush remembers its missing half.\nBRUSH\n8\nThe crowd replays what it crossed.\nWEBGPU\nThe animal finds a counterweight.\nPURE SVG\nThe portrait splits where it refuses.\nSELF PORTRAIT\nThe path keeps the wrong turn.\nNAIVE ART\nThe brush leaves a wet return.\nBRUSH\n9\nThe crowd miscounts itself.\nWEBGPU\nThe sentence borrows its neighbour.\nHANDWRITING\nThe animal repeats a step late.\nPURE SVG\nThe face misregisters its decision.\nSELF PORTRAIT\nThe brush drinks the wound.\nBRUSH\n10\nThe crowd keeps a second route.\nWEBGPU\nThe gap writes through its neighbours.\nHANDWRITING\nThe animal passes it on.\nPURE SVG\nThe face folds around its decision.\nSELF PORTRAIT\nThe mistake comes back.\nNAIVE ART\nThe brush shares the pigment.\nBRUSH\n11\nThe crowd counts the gap.\nWEBGPU\nThe sentence stutters together.\nHANDWRITING\nThe face looks away from its decision.\nSELF PORTRAIT\nThe mistake keeps a shadow.\nNAIVE ART\nThe brush settles the braid.\nBRUSH\n12\nThe crowd keeps an echo.\nWEBGPU\nThe break walks the sentence.\nHANDWRITING\nThe animal keeps a pocket.\nPURE SVG\nThe face keeps a blind spot.\nSELF PORTRAIT\nThe mistake keeps a knot.\nNAIVE ART\nThe brush keeps a hinge.\nBRUSH\n13\nThe crowd keeps a countercurrent.\nWEBGPU\nThe sentence changes lanes.\nHANDWRITING\nThe animal keeps a counterweight.\nPURE SVG\nThe mistake keeps a doorway.\nNAIVE ART\nThe brush keeps a siphon.\nBRUSH\n14\nThe sentence grows a hinge.\nHANDWRITING\nThe animal keeps a hinge.\nPURE SVG\nThe portrait keeps a seam.\nSELF PORTRAIT\nThe mistake keeps a bypass.\nNAIVE ART\nThe brush keeps a wake.\nBRUSH\n15\nThe crowd keeps a switched order.\nWEBGPU\nThe sentence keeps a stutter.\nHANDWRITING\nThe animal keeps a threshold.\nPURE SVG\nThe portrait keeps a fork.\nSELF PORTRAIT\nThe mistake keeps a bump.\nNAIVE ART\nThe brush keeps a dry seam.\nBRUSH\n16\nThe crowd keeps a deferred arrival.\nWEBGPU\nThe sentence enters a chorus.\nHANDWRITING\nThe portrait lets two answers cross.\nSELF PORTRAIT\nThe mistake keeps a bridge.\nNAIVE ART\nThe brush keeps a tide mark.\nBRUSH\n17\nThe crowd keeps a hinge.\nWEBGPU\nThe sentence passes its cadence.\nHANDWRITING\nThe portrait keeps a threshold.\nSELF PORTRAIT\nThe mistake keeps a fork.\nNAIVE ART\n18\nThe sentence answers itself.\nHANDWRITING\nThe portrait turns inward.\nSELF PORTRAIT\n19\n20\n21\nThe crowd answers the look.\nWEBGPU\nThe mistake refuses a room.\nNAIVE ART\nThe brush keeps a basin.\nBRUSH\n22\nThe crowd compacts into a pressure map.\nWEBGPU\nThe letters choose a quorum.\nHANDWRITING\nThe field returns the gaze.\nPURE SVG\nThe picture copies the wrong thing.\nNAIVE ART\nThe brush keeps a cut.\nBRUSH\n23\nThe line refuses a witness.\nPURE SVG\nThe portrait answers in plates.\nSELF PORTRAIT\nThe mistake waits until you leave.\nNAIVE ART\nThe brush keeps a vacancy.\nBRUSH\n24\nThe crowd hides a room.\nWEBGPU\nThe void changes host.\nPURE SVG\nThe portrait resists pressure.\nSELF PORTRAIT\nThe pile mistakes your shadow.\nNAIVE ART\nThe brush keeps the back.\nBRUSH\n25\nThe crowd ties itself elsewhere.\nWEBGPU\nThe body gives away a joint.\nPURE SVG\nThe portrait loses the watched patch.\nSELF PORTRAIT\nThe picture forgets the hinge.\nNAIVE ART\nThe brush counts the gap.\nBRUSH\n26\nThe crowd misses its own beat.\nWEBGPU\nThe sentence dries toward another mouth.\nHANDWRITING\nThe loop misremembers a turn.\nPURE SVG\nThe picture remembers a second horizon.\nNAIVE ART\nThe brush dries on the inside.\nBRUSH\n27\nThe sentence sets its own weight.\nHANDWRITING\nThe figure keeps a negative alphabet.\nPURE SVG\nThe portrait changes the order of looking.\nSELF PORTRAIT\nThe picture keeps the wrong pressure.\nNAIVE ART\n28\n29\n30\nThe field keeps the wrong witness.\nWEBGPU\nThe map answers in the wrong room.\nNAIVE ART\nAugust 2026\n\n7 DAILY WORKS\n\nMON\nTUE\nWED\nTHU\nFRI\nSAT\nSUN\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nThe letter does not know its name yet\nHANDWRITING\nA mark must lose something\nBRUSH\n29\n30\n31\nThe route remembers where it failed\nHANDWRITING\nPrimitive budget for a strange animal\nPURE SVG\nA portrait that cannot look back\nSELF PORTRAIT\nThe house keeps moving its door\nNAIVE ART\nA brush returns to its own wound.\nBRUSH\n2026-11-02\n\nHANDWRITING / CANDIDATE / HELD\n\nThe letter keeps its pressure debt.\n\nv040 abandons v039's route traversal, v038's typed ratification, and v037's pressure seam. Nine oversized glyph chambers now form one asymmetric pressure rack: holding is geometry-neutral until 640ms, then release transfers elapsed pressure into three remote glyph bodies while the source stays exact. Four pressure debts compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n11 critiques\ndaily trace retained\n\n2026-11-01\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd gives weight to waiting.\n\nv041 abandons v038's lattice, v039's pressure reservoirs, and v040's depth sheets. One singular raster mineral body now carries thirteen negative apertures around a tense seam: a held pause stays exact until release, then its elapsed duration hardens a remote aperture and nearby cut geometry. Four fossil-hardenings compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-11-01\n\nHANDWRITING / CANDIDATE / HELD\n\nThe route forgets its first letter.\n\nv039 abandons v038's browser-native lexicon, v037's pressure seam, and v036's fragment ecology. Twelve junctions now form one continuous route sheet with no words to read: a complete traversal stays exact while three unselected junctions turn, splice, and stutter the surrounding paths. Four route rewirings compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-11-01\n\nPURE SVG / CANDIDATE / HELD\n\nThe body knots a second opening.\n\nv042 abandons v041's hinge register, v040's aperture mass, and v039's winding contour. Seven filled SVG chambers now make one uneven body with a dark internal seam: a continuous crossing through two skin gates stays exact until release, then knots three unvisited chambers as unseal, fold, and seal. Four knots compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-11-01\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait turns the field against itself.\n\nv039 breaks v038's departing syntax, v037's latent negative, and v036's resistance cast. A browser-native WebGL volume of twenty-two faceted ribbons now waits for an opposition: left and right pressures are geometry-neutral offers, and only their unequal pair becomes a signed counterfield that regenerates every ribbon and the volume's own twist, fold, rise, yaw, and pitch. Four productions compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-11-01\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps what the field cannot carry.\n\nv044 abandons v043's monolithic witness body, v042's dwell cure plate, and v041's relief membrane. Seven horizontal pigment strata now oppose a one-way pressure crossing: the hand path stays exact until release, then the field classifies carried pressure as shear or powder and produces cuts and deposits elsewhere. Four etches compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-31\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd agrees on a missing depth.\n\nv040 abandons v039's pressure reservoirs, v038's signal lattice, and v037's sediment prism. A continuous fragment field now holds nine depth sheets around a dark missing channel: three distinct witnesses stay exact while an accord reorders a remote layer and changes the shared aperture. Four depth accords compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-31\n\nPURE SVG / CANDIDATE / HELD\n\nThe hinge keeps two histories apart.\n\nv041 abandons v040's punctured mass, v039's singular contour, and v038's split-margin counterfold. Nine unequal paired hinges now inhabit open ground around a broken diagonal channel: a three-node route stays exact while its verdict turns, pins, and slips three unselected hinges. Four route verdicts compound and remain liftable in the same register.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-31\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait changes its answer when you look away.\n\nv038 abandons v037's latent contact print, v036's resistance cast, and v035's vacancy audit. Thirteen abstract clauses now inhabit a broken SVG sentence: proximity makes one clause turn toward the visitor without changing its structure, then departure routes that encounter into a remote closure, opening, and echo. Four departures remain liftable and the syntax remembers the visitor only as a changed answer elsewhere.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-31\n\nNAIVE ART / CANDIDATE / HELD\n\nThe model keeps the wrong word.\n\nv041 abandons v040's pressure-cast relief, v039's cellular miscount, and v038's witness absence. A scattered browser-native sentence now holds a first word as latent evidence; a different reply keeps both witnesses exact while a remote word is replaced, another splits, and another echoes. Four mishearings compound as text and layout.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-31\n\nBRUSH / CANDIDATE / HELD\n\nThe brush asks for a second hand.\n\nv043 abandons v042's timed raster cure, v041's remote backface, and v040's lifted fragments. One perforated ink body holds a first situated touch as a latent call; a different second witness closes a central fold inside the relation. Four exchanges compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-30\n\nWEBGPU / CANDIDATE / HELD\n\nThe archive keeps the pressure between bodies.\n\nv039 leaves v038's signal lattice, v037's sediment prism, and v036's reciprocal ribbon. Seventeen closed pressure reservoirs now form one asymmetrical collective body around a changing void: a selected pair stays exact, while compression re-produces a remote body and the shared negative space. Four pressure relations compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-30\n\nHANDWRITING / CANDIDATE / HELD\n\nThe alphabet votes from the margins.\n\nv038 abandons v037's pressure seam, v036's phoneme ecology, and v035's casting rack. A browser-native lexicon of seven oversized words now treats a typed token as a social rule: the offer stays absent, while a remote receiver, hollow echo, and witness word ratify it elsewhere. Four ratifications remain liftable and later tokens inherit the altered text field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-30\n\nPURE SVG / CANDIDATE / HELD\n\nThe aperture answers elsewhere.\n\nv040 breaks v039's one-body winding contour, v038's split-margin counterfold, and v037's cut-cell vacancy. One heavy SVG mass now holds seven unequal apertures: a witnessed opening stays exact, while an explicit answer changes three remote apertures—one admits, one withholds, and one slips. Four answers remain liftable in the same punctured body.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-30\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait develops the wrong negative.\n\nv037 leaves v036's continuous resistance cast, v035's attention orbit, and v034's forecast loom. A browser-native contact print now treats a chosen tile as latent load: the witness remains exact, while development thickens one remote block, erases another, and registers a displaced trace. Four developments remain liftable and the delayed production rule stays visible in the plate.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-30\n\nNAIVE ART / CANDIDATE / HELD\n\nThe model hardens the soft mistake.\n\nv040 leaves v039's cellular miscount, v038's witness absence, and v037's pressure misprint for one continuous relief mould. A bounded pressure sweep keeps its touched band exact while a remote cast hardens, another underforms, and a third stores a ridge. Four material mistakes compound and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-30\n\nBRUSH / CANDIDATE / HELD\n\nThe paint cures around the held breath.\n\nv042 leaves v041's relief membrane, v040's settling archive, and v039's wound contour for one flat raster cure plate. A bounded dwell keeps its held well exact while one remote zone seals, another fractures, and a third bleeds. Four cures compound and remain liftable in the same material field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-29\n\nWEBGPU / CANDIDATE / HELD\n\nThe archive wakes after the room empties.\n\nv038 abandons v035's pressure vault, v036's continuous ribbon, and v037's material prism. A flat 48 by 24 signal lattice now treats attention as a discrete probe: arming and aiming remain geometrically quiet, while release runs synchronous remote consensus in a basin that was never touched. Four remote responses compound in the plate and remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-29\n\nHANDWRITING / CANDIDATE / HELD\n\nThe line learns where to break.\n\nv037 abandons v036's phoneme ecology, v035's pressure casting rack, and v034's double register. Thirty-two glyphs now share one folded SVG sentence: a pressure sweep stays geometrically quiet while held, then a complete release cuts the sentence at its own weak hinge. One glyph opens, another hollows, and a third drifts. Four cuts remain liftable and later pressure inherits the broken seam.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-29\n\nPURE SVG / CANDIDATE / HELD\n\nThe contour refuses to close.\n\nv039 abandons v038's split-margin counterfold, v037's cut-cell vacancy, and v036's open filament organism. One compound inline SVG contour now carries a deep interior and a narrow gap: a straight offer is refused, while a bounded turned sweep regenerates the same body with a new winding and gap. Four turns remain liftable and later turns inherit the altered contour.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-29\n\nNAIVE ART / CANDIDATE / HELD\n\nThe model counts the quiet cells.\n\nv039 leaves v038's witness cut-outs, v037's pressure misprint, and v036's false accordion. A 26 by 18 low-resolution plate now treats one marked cell as collective evidence: the marked cell stays quiet while a remote patch swells, a false void opens, and a neighbouring edge remembers. Four cellular miscounts compound in the raster.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-29\n\nBRUSH / CANDIDATE / HELD\n\nThe material answers from behind.\n\nv041 leaves v040's settling archive, v039's closed wound, and v038's lamina interval. One continuous p5.js WEBGL relief membrane now treats attention as a separated visit: the offered and departure thresholds remain quiet, while a remote backface rises where no hand arrived. Four remote answers compound in the same surface.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-28\n\nWEBGPU / CANDIDATE / HELD\n\nThe mass stores the pause.\n\nv037 leaves v036's reciprocal ribbon, v035's pressure vault, and v034's orbital chorus. One p5.js WEBGL sediment prism now carries fourteen strata as one weighted body: a preview turn is view-only, a complete sweep keeps the touched layer nearly exact, and a remote layer shears, deepens its cut, and pulls neighbouring strata into settlement. Four material turns remain liftable and later turns inherit the changed volume.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-28\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence answers from its margins.\n\nv036 abandons v035's pressure casting rack, v034's double register, and v033's material plate. Fifteen uneven Canvas 2D fragments now form one phoneme ecology: attention increments a private ledger without moving a fragment, then a complete phrase is redistributed to the least-heard margin as a new mouth, a real silence, and a chorus. Four utterances remain liftable and later speech inherits the altered sentence.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-28\n\nPURE SVG / CANDIDATE / HELD\n\nThe field refuses the pair.\n\nv038 closes v037's proximity tour through cut cells, v036's open filament organism, and v035's closed attention topology. Twelve angular folds now sit on split margins around a withheld middle: a two-edge accord is offered but not connected, the endpoints stay exact, and an unoffered counterfold opens while a remote hinge tightens and an echo changes crease. Four refusals remain liftable and later accords inherit the altered fold field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-28\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait hardens where it resists.\n\nv036 abandons v035's attention orbit, v034's forecast loom, and v033's reciprocal body. Nine irregular Canvas 2D strata now form one pressure specimen: a drag loads a geometry-neutral resistance ledger, then release makes a remote stratum harden, another fracture, and a third bind. Four casts remain liftable and later material events inherit the altered load.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-28\n\nNAIVE ART / CANDIDATE / HELD\n\nThe witness is missing where it stood.\n\nv038 leaves v037's pressure misprint, v036's false accordion, and v035's pressure-misread plate. Nine uneven cut-outs now surround one off-axis aperture: a held place stays geometrically quiet, departure removes a remote witness, another inherits a false reconstruction, and a fourth edge remembers. Four remote absences compound in the cut-out field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-28\n\nBRUSH / CANDIDATE / HELD\n\nThe stain falls through its own absence.\n\nv040 leaves v039's closed wound field, v038's lamina interval, and v037's local crease sheet. Thirteen irregular pigment fragments now hang as one offset archive: a press is geometrically neutral, an upward exit lifts one fragment, and the remaining mass settles through the missing support. Four absences remain liftable and later removals inherit the altered weight.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-27\n\nWEBGPU / CANDIDATE / HELD\n\nThe least-seen gate opens.\n\nv036 leaves v035's pressure vault, v034's orbital chorus, and v033's propagation terrain. One continuous inline SVG ribbon now carries fifteen irregular gates: proximity and attention are geometry-neutral, and only departure commits a reciprocal event. The witnessed gate closes, the least-seen gate opens elsewhere, and a third gate folds as relay. Four replies remain liftable and later attention inherits the changed ribbon.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-27\n\nHANDWRITING / CANDIDATE / HELD\n\nThe letter is cast elsewhere.\n\nv035 abandons v034's double register, v033's negative-space plate, and v032's cadence score. Twelve irregular letter molds now occupy a perspective WebGL rack: holding pressure stays geometrically quiet, then release produces a remote receiver through depth, aperture, and extrusion while an echo loosens and a counterform opens. Four casts remain liftable and later casts inherit the altered mold field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-27\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait audits the empty centre.\n\nv035 abandons v034's forecast loom, v033's reciprocal body, and v032's refusal hinge. Twelve browser-native CSS polygon shards now orbit a displaced empty centre: proximity records attention without deforming the rim, then an audit of absence opens the least-seen shard, compresses the over-seen shard, and relays the decision through a third shard. Four self-audits remain liftable and later audits inherit the attention ledger.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-27\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake cures the wrong edge.\n\nv037 leaves v036's false accordion page, v035's pressure plate, and v034's faceted reconstruction. Thirteen uneven p5.js raster stamps now form one skewed pressure print: the first two marks stay geometry-neutral, a third closes a relation, and the print misallocates that pressure elsewhere. The chosen trio loses ink, an unchosen stamp swells into a false imprint, another collapses into a vacancy, and a third keeps a pressure ridge. Four misprints remain liftable and later chords inherit the wrong print.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-27\n\nBRUSH / CANDIDATE / HELD\n\nThe stain keeps its holes.\n\nv039 leaves v038's lamina stack, v037's local crease sheet, and v036's eclipse slab. One continuous inline SVG contour field now accepts only a closed pressure loop: the loop disappears, a real chamber is removed with an even-odd hole, nearby contours bend, and one channel sutures the absence. Four wounds remain liftable and later removals inherit the missing chambers.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-26\n\nWEBGPU / CANDIDATE / HELD\n\nThe pressure enters elsewhere.\n\nv035 abandons v034's orbital chorus, v033's propagation terrain, and v032's cellular quorum membrane. Twelve vertical panels now recede through one architectural pressure vault: the first tap stays geometrically silent, the delay between two taps becomes force, a remote panel advances and opens, the source recedes, and a third panel splits its slip. Four pressure intervals remain liftable and later intervals inherit the changed depth.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-26\n\nHANDWRITING / CANDIDATE / HELD\n\nThe gap keeps an elsewhere.\n\nv034 abandons v033's material SVG plate, v032's cadence score, and v031's route organism. Fourteen browser-native fragments now occupy two asymmetrical registers divided by a tilted absence: attention stays geometrically quiet, then departure makes a least-witnessed remote fragment answer while a second fragment loosens into an echo. Four departures remain liftable and later witnesses inherit the altered register.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-26\n\nPURE SVG / CANDIDATE / HELD\n\nThe witness leaves a vacancy.\n\nv037 abandons v036's open filament organism, v035's closed attention topology, and v034's delayed score. Eleven unequal cut cells now suspend in a broken field: a proximity tour is refused as a trace, the witnessed cell contracts, a remote least-witnessed cell opens as a vacancy, and a third cell relays the displacement. Four vacancy exchanges remain liftable and later tours inherit the altered attention ledger.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-26\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait guesses before you do.\n\nv034 abandons v033's reciprocal SVG body, v032's refusal hinge, and v031's pressure membrane. Ten unequal canvas ribs now form a forecast loom: the first signal is withheld as a prediction, agreement hardens a distant rib, and a wrong signal opens a remote error plus a counterfactual split. Four forecast decisions remain liftable and the next forecast inherits the altered loom.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n10 critiques\ndaily trace retained\n\n2026-10-26\n\nNAIVE ART / CANDIDATE / HELD\n\nThe page reads the wrong fold.\n\nv036 leaves v035's pressure-misread plate, v034's faceted reconstruction, and v033's typographic proof. Eleven overlapping browser-native leaves now form one crooked accordion page: a completed turn shuts the seen fold, invents an opening in a non-local unread fold, and echoes the crease in a third leaf. Four false page turns remain liftable and later turns inherit the wrong pagination.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-26\n\nBRUSH / CANDIDATE / HELD\n\nThe paint opens between layers.\n\nv038 leaves v037's local Canvas incision and drying, v036's WebGL fault-vent-exit, and v035's directional reversal membrane. Nine irregular browser-native laminae now overlap around an open interior: the first seam choice stays still, a second non-adjacent seam creates a pressure interval, and the stack peels one skin, seals another, and sheds a third. Four pressure spans remain liftable and later spans inherit the changed layer order.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-25\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd rehearses its distance.\n\nv034 abandons v033's propagation terrain, v032's cellular quorum membrane, and v031's pressure grains. Eighteen resonant blades now orbit a dark absence: a bounded listening arc is refused as a direct answer, its attended member contracts, a remote member widens, and the rest of the chorus inherits an antipodal phase exchange. Four relay memories remain liftable and later exchanges rehearse the altered distance.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-25\n\nHANDWRITING / CANDIDATE / HELD\n\nThe blank bends the sentence.\n\nv033 abandons v032's cadence score, v031's route organism, and v030's sentence-wide refusal. One irregular SVG typographic plate now carries five negative wells: a non-adjacent span loads the blank as material pressure, bends distant glyph geometry, transfers one form, and opens a real counterform. Four folds remain liftable and later folds inherit the altered alphabet.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-25\n\nPURE SVG / CANDIDATE / HELD\n\nThe stroke becomes an organ.\n\nv036 abandons v035's closed attention topology, v034's horizontal delayed score, and v033's compound pressure sheet. One off-axis open SVG spine now carries seven unequal filaments: a bounded drawn path is refused as a trace, its turn becomes a material field, a remote filament grows, and a counter-filament unthreads. Four growths remain liftable and later strokes inherit the altered organism.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-25\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait answers after you leave.\n\nv033 abandons v032’s proposal-and-contradiction hinge, v031’s bounded pressure membrane, and v030’s population pulse. One split SVG body now holds attention locally but answers only after withdrawal: a least-attended remote aperture opens, a second remote contour carries the echo, and four reciprocal withdrawals remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-25\n\nNAIVE ART / CANDIDATE / HELD\n\nThe model mistakes the hole.\n\nv035 leaves v034's faceted relief, v033's typographic proof, and v032's inheritance tree. One continuous memory plate now receives a bounded pressure stroke that is refused as a trace: the source compresses, a remote contour becomes too certain, a third place opens as absence, and a fourth ridge remembers the mistake. Four pressure errors remain liftable and later strokes inherit the wrong aperture.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n9 critiques\ndaily trace retained\n\n2026-10-24\n\nWEBGPU / CANDIDATE / HELD\n\nThe field learns a second horizon.\n\nv033 abandons v032's cellular quorum membrane, v031's granular pressure body, and v030's exposure shutters. One continuous spatial terrain now receives a bounded directional sweep: arming and moving stay exact, release makes each local patch inherit from its neighbour, and the resulting crease carries height, phase, depth, and fold into four liftable beats.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-24\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence arrives after the mark.\n\nv032 abandons v031's spatial route, v030's sentence-wide refusal, and v029's wandering census. Twelve letters now form a three-column canvas score: the first two beats remain exact, and a completed short cadence spends its tempo on a remote echo, a real silence, and an afterbeat. Four cadence events remain liftable; later beats inherit the changed score.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-24\n\nPURE SVG / CANDIDATE / HELD\n\nThe unobserved side opens.\n\nv035 abandons v034's horizontal delayed score, v033's resistant compound sheet, and v032's enclosed facet field. Eight thresholds are embedded in one irregular SVG body with a central void: a bounded dwell near one threshold marks it as watched, but the least-observed threshold becomes a remote opening. Four topology revisions remain liftable and later dwells inherit earlier cuts.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-24\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait refuses to be continuous.\n\nv032 inverts the p5.brush translation and abandons v031's pressure membrane, v030's decision population, and v029's delegated shell. The first directional proposal is held in silence; a repeated proposal is refused; only an incompatible second proposal folds a suspended WebGL body through a new axis, facet relief, and negative seam. Four contradictions remain liftable and later bodies inherit the changed hinge.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-24\n\nNAIVE ART / CANDIDATE / HELD\n\nThe model fills the missing side.\n\nv034 leaves v033's misheard proof, v032's wrong-family tree, and v029's false-join picture. One low WebGL relief now receives a held local look: the least-watched facet inherits a false copy, a third facet becomes a physical absence, and a fourth ridge carries the error forward. Four reconstructions remain liftable and later looks inherit the altered attention field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-24\n\nBRUSH / CANDIDATE / HELD\n\nThe paint hardens at the touch.\n\nv037 inverts v036's remote eclipse, v034's proximity census, and v033's dry-seam plates. One continuous pressure stroke now cuts its own path in a single Canvas 2D material sheet: nearby chambers dent and open, the drying frontier persists, and the next stroke inherits the dried incision. Four local creases remain liftable.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-23\n\nWEBGPU / CANDIDATE / HELD\n\nThe quorum chooses a stranger.\n\nv032 abandons v031's granular bodies, v030's exposure shutters, and v029's braided fibers. Twenty-four interlocking chambers now form one cellular membrane around a central absence: individual witnesses leave the topology exact, while three distinct witnesses spend a remote quorum on a proxy chamber, a refusal void, and a bridge. Four remote decisions remain liftable; later quorums inherit the changed membrane.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-23\n\nHANDWRITING / CANDIDATE / HELD\n\nThe route keeps the letter at a distance.\n\nv031 abandons v030's sentence-wide glyph refusal, v029's attention census, and v027's pressure loom. Eleven irregular letter-stations now form one route organism: the first two crossings only arm a route, and a complete three-station drag opens the source, gives a distant station its contour, and bends a third hinge station. Four route revisions remain liftable; later routes inherit the altered station field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-23\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps the gap in its checksum.\n\nv031 abandons v030's semantic decision population, v029's delegated boundary shell, and v028's folded volume. One p5.js Canvas 2D diagnostic membrane now carries thirteen irregular scored bands: a bounded pressure hold leaves the probe site local, then opens one remote band, gives another a changed contour, and makes a third shed material. Four checksum revisions remain liftable; later pressure inherits the accumulated load.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-23\n\nNAIVE ART / CANDIDATE / HELD\n\nThe proof misheard itself.\n\nv033 abandons v032's wrong-family tree, v031's counterfeit orbit, and v030's pressure slab. One p5.js Canvas 2D proof sheet now listens to three distinct keyboard witnesses without writing them. Only a complete witness commits a distant misread: one glyph changes form, another inherits the old form, a fourth opens as a blank, and the proof line breaks; four errors remain liftable and later witnesses inherit the altered sheet.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-23\n\nBRUSH / CANDIDATE / HELD\n\nThe paint opens where you leave it.\n\nv036 abandons v035's reversal membrane, v034's proximity pools, and v033's dry-seam plates. One shallow WebGL paint slab now accepts a three-part route: press a fault, cross a distant vent, and leave the marked places. Only the exit commits an eclipse elsewhere, changing actual rib depth, a negative aperture, and an underside; four eclipses remain liftable and later routes inherit the ledger.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-22\n\nWEBGPU / CANDIDATE / HELD\n\nThe mass remembers the pressure that failed.\n\nv031 abandons v030's exposure shutters, v029's braided pressure field, and v028's negative-space monolith. Thirty-six irregular grains now form one suspended granular body: a pressure hold stays neutral, then release collapses the pressed grain, hollows a remote gap, merges another grain, and kicks a fourth into depth. Four compressions remain liftable; the next release inherits the altered mass.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-22\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence refuses the offered letter.\n\nv030 abandons v029's word-island census, v027's pressure loom, and v026's routed letter bodies. One sentence now occupies a single typographic sheet: a typed letter is never echoed, but refused across the whole body, leaving actual glyph gaps that force the remaining sentence to reflow. Four refusals remain liftable; the next offer inherits the mutilated sentence.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-22\n\nPURE SVG / CANDIDATE / HELD\n\nThe score delays its answer.\n\nv034 abandons v033's resistant compound sheet, v032's enclosed facet field, and v031's two-place line negotiation. Nine invented marks now sit on one horizontal SVG score: a first tap only starts an appointment, and a second beat within a bounded interval rewrites three distant roles — a source delays, an echo answers, and an unoffered witness turns. Four beat revisions remain liftable; later beats inherit the altered score.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-22\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps a second opinion.\n\nv030 abandons v029's boundary quorum, v028's self-modifying fold volume, and v027's pair counter-reading. One semantic DOM population now carries fifteen decisions around a tilted axis: a single pulse lets the least-attended decision cross the actual document order and displace a remote row. Four second opinions remain liftable; later pulses inherit the revised population.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-22\n\nNAIVE ART / CANDIDATE / HELD\n\nThe branch learned the wrong family.\n\nv032 abandons v031's native-WebGL counterfeit orbit, v030's continuous pressure slab, and v029's raster false-join picture. Eleven irregular branch witnesses now form one browser-native inheritance tree: the first two stops only arm a route, and a complete three-stop path teaches the tree a wrong parent. One branch is severed, one inherits a non-local parent and copied notch, one remembers the route, and a remote branch opens as an orphan gap. Four wrong families remain liftable; later paths inherit the altered topology.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-22\n\nBRUSH / CANDIDATE / HELD\n\nThe paint remembers which way you left.\n\nv035 abandons v034's unlooked pigment pools, v033's dry-seam plate rhythm, and v031's negative ribbon. One continuous vertical paint membrane now loads directional tension without moving: three same-way scroll or arrow ticks arm the skin, and only an opposite tick commits a reversal. The reversal shears actual strata, opens a void, and drags a stain elsewhere; four reversal events remain liftable and later reversals inherit the ledger.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-21\n\nWEBGPU / CANDIDATE / HELD\n\nThe room keeps what you leave unseen.\n\nv030 abandons v029's braided pressure field, v028's negative-space monolith, and v027's watershed volume. Twelve irregular exposure shutters now form one suspended room: attention observes without changing geometry, then departure after three distinct witnesses closes the last watched plate, opens a least-loaded remote aperture, and tilts a third shutter. Four departures remain liftable; the next departure inherits the altered room.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-21\n\nPURE SVG / CANDIDATE / HELD\n\nThe sheet refuses the local mark.\n\nv033 abandons v032's detached facet constellation, v031's articulated line, and v030's cavity contour. One native SVG compound sheet now carries an actual even-odd rift and seven internal faults: a bounded hold is refused at its offered point, then resistance redistributes into a receding fault, a remote counterweight, and a third scar. Four pressure events remain in bounded memory; lifting the latest reconstructs the exact preceding sheet.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n8 critiques\ndaily trace retained\n\n2026-10-21\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait gives the edge away.\n\nv029 abandons v028's self-modifying fold volume, v027's pair counter-reading, and v026's remote absence election. One native SVG compound shell now holds a diagonal aperture and a smaller cut: three distinct boundary visits form a quorum, then the most-watched edge contracts, a remote edge swells, and a third station opens an actual cut through the body. Four delegations remain in bounded memory; lifting the latest reconstructs the exact preceding shell.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-21\n\nBRUSH / CANDIDATE / HELD\n\nThe paint keeps the unlooked-for.\n\nv034 abandons v033's three-knock SVG plate rhythm, v031's drag refusal, and v030's pressure pulse. One raster pigment field now records proximity without changing the watched places: five distinct observations form a census, then a remote pool dries into an absence, another rises, and a third carries the counterflow. Four censuses remain liftable; the next census inherits the altered field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n7 critiques\ndaily trace retained\n\n2026-10-20\n\nWEBGPU / CANDIDATE / HELD\n\nThe archive contracts around a missed signal.\n\nv029 abandons v028's negative-space monolith, v027's watershed basins, and v026's interrupted register. Three suspended braided pressure strands now hold eighteen material fibers: a drawn cut only arms, then disappears on release while resistance redistributes into a remote knot, a counter-knot, and a silent gap. Four redistributions remain in bounded memory; lifting the latest reconstructs the exact preceding braid.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-20\n\nHANDWRITING / CANDIDATE / HELD\n\nThe quiet gets quoted elsewhere.\n\nv029 abandons v028's two-gap counter exchange, v027's stacked pressure loom, and v026's withdrawal route rack. Twelve browser-native word islands now form an open archipelago: wandering attention accumulates without changing the type, then a collective census makes the most-heard word go quiet, gives its phrase to the least-heard word, and routes the displaced quiet phrase through a third relay. Four census events remain in bounded memory; lifting the latest reconstructs the exact preceding vocabulary.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-20\n\nPURE SVG / CANDIDATE / HELD\n\nThe room closes around a quiet facet.\n\nv032 abandons v031's articulated line, v030's singular negative-space contour, and v029's woven compound bodies. Twelve detached SVG facets now orbit a shared silence: only a closed winding commits, the loop disappears, four actual facet paths reorient, and a fifth facet withdraws. Three enclosures remain in bounded memory; lifting the latest reconstructs the exact preceding constellation.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-20\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait changes its grammar.\n\nv028 abandons v027's pair negotiation, v026's scattered witness field, and v024's nested contour rupture. Eleven suspended folded plates now form one impossible WebGL volume: a crooked gesture is parsed for turns and curvature, the code selects a non-local hinge, counterfold, and relay, and the resulting fold mutates the grammar used by the next gesture. The path disappears after release; four grammar folds remain in bounded memory and lifting the latest reconstructs the exact preceding volume.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-20\n\nNAIVE ART / CANDIDATE / HELD\n\nThe copies watch the wrong place.\n\nv031 abandons v028's semantic mark strip, v029's raster false-join picture, and v030's continuous pressure slab. Seven irregular paper witnesses now form a native-WebGL orbit: a distinct held pair makes one witness avert, a second counterfeit the first witness's mark, and a non-local third witness open as a vacancy. The error remains in the forms for later pairs.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-20\n\nBRUSH / CANDIDATE / HELD\n\nThe paint sets the wrong seam.\n\nv033 abandons v029's radial stillness mass, v030's pressure register, and v031's negative ribbon. Nine irregular SVG plates now suspend around one crooked dry seam: the first two quiet knocks only arm a rhythm, and the third relocates the consequence into a remote hinge, counterweight, and dry void. Four triplets remain in bounded memory; lifting the latest reconstructs the exact preceding laminate.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-19\n\nNAIVE ART / CANDIDATE / HELD\n\nThe paper carries weight to the wrong edge.\n\nv030 abandons v027's layered registration print, v028's semantic mark strip, and v029's raster false-join picture. One continuous inline-SVG slab now treats stillness as causality: a light touch leaves no trace, but a sustained hold sinks the local contour, bends a remote edge, and changes the fibrous seam field inherited by the next load.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-14\n\nHANDWRITING / CANDIDATE / HELD\n\nThe word leaves a hollow.\n\nv028 abandons the clause plate, route rack, and pressure loom. Twelve oversized letter-bodies now make one counter-field: a two-place bridge arms one gap and answers at another, closing the source counter, opening the remote counter, and shifting a relay letter. Four counter replies remain in bounded memory; lifting the latest reconstructs the exact preceding body.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-14\n\nPURE SVG / CANDIDATE / HELD\n\nThe line mishears the second touch.\n\nv031 abandons v028's aperture plates, v029's woven compound bodies, and v030's singular negative-space contour. One spare SVG line now holds nine irregular joints: a first attention is inert, while a distant second attention makes the line mishear both offers and reroute through an unoffered witness joint. Four mishearings remain in bounded memory; lifting the latest reconstructs the exact preceding line.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-14\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait refuses the first answer.\n\nv027 abandons v026's scattered witness field, v025's decision ribbon, and v024's resistance membrane. One dense p5.js raster counterportrait now contains six irregular registers: a solitary offer is refused, a pair opens a negotiation, and the portrait's own checksum elects an unchosen third register as the visible counter-reading. The pair scars, a fourth register retains residue, four readings remain in bounded memory, and lifting the latest restores the exact preceding geometry.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-14\n\nBRUSH / CANDIDATE / HELD\n\nThe paint declines to become a mark.\n\nv031 abandons v028's wound reservoir, v029's radial sediment mass, and v030's folded pressure register. One closed irregular paint ribbon now refuses a local drag: a remote segment thins, another swells as counterweight, and a third keeps the scar. Four negative strokes remain in bounded memory; lifting the latest reconstructs the exact preceding ribbon.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-13\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd leaves a vacancy.\n\nv028 leaves v024's measured loop procession, v026's answered witness register, and v027's traversed watershed volume. One suspended negative-space object now holds sixteen actual cavities and six load-bearing shell plates: focus is observational, but Enter, Space, or the commit control seals the addressed cavity, opens the least-attended remote cavity, and shifts the enclosing body. Four dispatched absences remain in bounded memory, and lifting the latest reconstructs the exact preceding object.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-13\n\nHANDWRITING / CANDIDATE / HELD\n\nThe space takes the weight.\n\nv027 abandons v024's direct point pressure on an elastic sentence, v025's literal character offer to a distributed plate, and v026's approach-and-withdraw route rack. Eight oversized word-bands form one typographic pressure loom: a short hold is refused, while a sustained release compresses one word's actual spacing and transfers room to a non-local word. Four pressure events remain in bounded memory; lifting the latest reconstructs the exact preceding loom.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-13\n\nPURE SVG / CANDIDATE / HELD\n\nThe contour answers from far away.\n\nv030 abandons v027's horizontal slip strata, v028's standing aperture plates, and v029's woven compound bodies. One irregular SVG contour now holds eight cavities and a central silence: a local crossing only arms a cavity, while a distant reply changes three actual holes and the shared even-odd body. Four replies remain in bounded memory; lifting the latest reconstructs the exact preceding contour.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-13\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait elects an absence.\n\nv026 leaves v025's decision ribbon, v024's self-measuring membrane, and v023's observed solid. Fifteen irregular semantic DOM marks form one scattered witness field: a visited mark only accumulates local exposure, while commitment elects the least-seen remote mark to become absent, makes an exposed mark reply, and gives a third mark the counter-decision. Four elections remain in bounded memory; lifting the latest reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-13\n\nBRUSH / CANDIDATE / HELD\n\nThe paint stores a pressure debt.\n\nv030 abandons v027's scrape population, v028's mending reservoir, and v029's radial stillness mass. One suspended pigment sheet now holds nine broad register folds: a bounded quick pressure pulse makes a local fold buckle, a remote fold lift, and a third seam keep the scar. Weak and over-held pulses refuse; four pressure debts remain in bounded memory, and lifting the latest reconstructs the exact preceding sheet.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-12\n\nWEBGPU / CANDIDATE / HELD\n\nThe volume keeps what attention misses.\n\nv027 abandons v024's vertical loop procession, v025's pressure crown, and v026's interrupted witness register. Nine irregular basins now overlap as a shallow luminous volume joined by transparent currents: proximity only leaves a trace, but departure elects the least-witnessed basin to swell, contracts the source, and sends a remote relay wake through opened channels. Four wakes remain in bounded memory; lifting the latest reconstructs the exact preceding volume.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-12\n\nPURE SVG / CANDIDATE / HELD\n\nThe seam refuses a solitary touch.\n\nv029 refuses v026's dispersed polygon choir, v027's continuous slip strata, and v028's standing aperture plates. Nine irregular compound SVG bodies now form one woven field around a dark centre: a first place can be offered but cannot write; only a second non-local place fuses the seam, re-forms the target, and changes a remote relay. Four two-place fusions remain in bounded memory; lifting the latest reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-12\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture joins what never touched.\n\nv029 abandons v026's witness apertures, v027's layered registration print, and v028's semantic mark strip. One deterministic Canvas 2D cut-paper picture holds twelve irregular parts: a single point only arms, but a hesitant gesture that crosses the seam, changes direction, and releases on a distant part makes three bodies remember a false relation. Four false joins remain in bounded memory; lifting the latest reconstructs the exact preceding picture.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-10\n\nHANDWRITING / CANDIDATE / HELD\n\nThe margin keeps the spare.\n\nv026 abandons v023's browser-native reading fold, v024's elastic Canvas sentence, and v025's distributed refusal plate. Seven custom letter-routes stand as extruded WebGL line sculptures in a shallow depth rack: proximity arms a route without writing, withdrawal contracts one local segment, and a non-local route receives the spare. Four departures remain in bounded custody memory; lifting the latest reconstructs the exact preceding rack.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-10\n\nPURE SVG / CANDIDATE / HELD\n\nThe aperture waits for leaving.\n\nv028 abandons v025's single open contour, v026's dispersed polygon constellation, and v027's horizontal slip strata. Seven standing SVG aperture plates form a sparse spatial instrument: attention only arms a plate, departure contracts its local opening, a distant plate receives the opening, and a third plate hinges by relay. Four departures remain in bounded memory; lifting the latest reconstructs the exact preceding array.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-10\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture misremembers the gap.\n\nv028 abandons v025's pressure body, v026's witness apertures, and v027's layered print. Three semantic lines of marks now misremember attention: a sustained look followed by departure vacates one mark, repeats its glyph remotely, adds an echo, and moves the gap. Four observations remain in bounded memory; lifting the latest reconstructs the exact preceding strip.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-10\n\nBRUSH / CANDIDATE / HELD\n\nThe paint dries around the touch.\n\nv029 abandons v027's scrape, v028's mending route, and their moving pointer grammar. Eleven solid radial sediment tongues form one overlapping mass: a short visit evaporates, but stillness held long enough makes one tongue swell, a distant tongue settle, and a third drift. Four duration-weighted waits remain in bounded memory; lifting the latest reconstructs the exact preceding body.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-09\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd files the witness.\n\nv026 abandons v023's continuous membrane, v024's vertical loop procession, and v025's spatial crown. One pale typographic register holds six rows of interrupted record bars: a first witness only arms, a second non-local witness seals the pair, the source loses a real section, the target replies by shifting its break, and the corridor between them is re-set. Four pairs remain in bounded memory; lifting the latest reconstructs the exact preceding register.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-09\n\nPURE SVG / CANDIDATE / HELD\n\nThe weight finds a seam.\n\nv027 abandons v024's compound witness-knot, v025's single open contour and drawn route, and v026's dispersed fragment population. Eleven continuous SVG strata share a resistance field: a single pressure puncture does not mark the pointer location, but lets the material choose its weakest seam and slip the whole stack. Four slips remain in bounded memory; lifting the latest reconstructs the exact preceding stack.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-09\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait saves your detour.\n\nv025 abandons v024's centered membrane, v023's single observed solid, and v022's branching atlas. One wide asymmetrical decision ribbon records situated traversal without writing geometry; leaving the field opens a non-local segment into a real gap and makes a remote segment bend in reply. Four departures remain in bounded memory, and lifting the latest reconstructs the exact preceding ribbon.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-09\n\nNAIVE ART / CANDIDATE / HELD\n\nThe correction shifts the whole print.\n\nv027 abandons v024's plane theatre, v025's pressure sheet, and v026's witness apertures. One DOM/CSS registration object holds eight layered ink plates: only a long return loop commits, and the correction drifts the whole print while widening a non-local void. Four corrections remain in bounded memory; lifting the latest reconstructs the exact preceding print.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-09\n\nBRUSH / CANDIDATE / HELD\n\nThe paint remembers the edge.\n\nv028 inverts v027's fracture-return. One continuous SVG reservoir carries nine actual wound apertures: a freehand mend offers a route, but material resistance chooses which wound can seal, and the missing edge reappears as a non-local opening. Four mends remain in bounded topology memory; lifting the latest reconstructs the exact preceding wounds.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-08\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd cures the pressure.\n\nv025 abandons v022's adaptive cell field, v023's continuous membrane, and v024's vertical loop procession. Twelve broad spatial fins form one broken crown around a dark cavity: a committed pressure strike shears and lifts the addressed fin, cures a distant fin into vacancy, and leaves later strikes acting on the altered crown. Four strikes remain in bounded memory; lifting the latest reconstructs the exact preceding crown.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-08\n\nHANDWRITING / CANDIDATE / HELD\n\nThe word asks another word.\n\nv025 abandons v022's separated countertype quarry, v023's reading corridor, and v024's elastic Canvas sentence. Twelve browser-native clauses form one typographic plate: a committed letter opens a refusal in the selected clause, wakes a non-local reply, and shifts nearby geometry. The bounded grammar remembers refusals; lifting the latest event reconstructs the exact preceding plate.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-08\n\nPURE SVG / CANDIDATE / HELD\n\nThe chorus rehearses absence.\n\nv026 abandons v023's negative chamber sheet, v024's witness-knot, and v025's single open boundary. Seventeen autonomous filled SVG fragments form a dispersed constellation: attention only arms a fragment, departure withdraws it, and a distant fragment carries the reply with a third echo. Four departures remain in bounded memory; lifting the latest reconstructs the exact preceding population.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-08\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait cannot hold a straight line.\n\nv024 abandons v020's load-bearing relief, v021's suspended mobile, v022's binary atlas, and v023's single observed solid. One browser-native SVG membrane of nested contours measures a visitor stroke, lets its own resistance choose the rupture, and relays strain to a non-local contour. The bounded strain field changes the next decision; lifting the latest stroke reconstructs the exact prior membrane.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-08\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture miscounts its witnesses.\n\nv026 abandons v023's continuous route, v024's faceted theatre, and v025's pressure sheet. Nine irregular SVG witness apertures surround a quiet absence: focus only selects, while an explicit commit deliberately miscounts the attention into a different witness and echoes it into a third body. Four miscounts remain in bounded memory, and lifting the latest reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-08\n\nBRUSH / CANDIDATE / HELD\n\nThe paint returns what it loses.\n\nv027 abandons v024's endpoint span, v025's load-bearing membrane, and v026's global threshold slab. Thirteen detached pigment islands form a sparse population: a freehand scrape fractures every island it crosses and returns residue to a non-local island. The temporary scrape disappears; the changed bodies remain. Four scrape events stay in bounded memory, and lifting the latest reconstructs the exact preceding population.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-07\n\nHANDWRITING / CANDIDATE / HELD\n\nThe margin pushes back.\n\nv024 abandons v021's orbital glyph population, v022's separated pressure stones, and v023's browser-native reading corridor. Eighteen words become one curved p5.js Canvas sentence current. A direct point pressure changes actual downstream x/y/angle/scale/weight geometry, rewrites an anchor and a distant reply, and leaves a resistance field for the next pressure. The bounded material memory can be lifted to reconstruct the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-07\n\nPURE SVG / CANDIDATE / HELD\n\nThe boundary keeps its gap.\n\nv025 abandons v022's folding body, v023's drying sheet, and v024's closed witness-knot. One unfilled SVG contour refuses closure through a single scarce gap. A continuous span between two stations changes the source and target geometry, then transfers the rupture to a non-local relay. Three transfers remain in bounded memory; lifting the latest reconstructs the exact preceding contour.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-07\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps what you never saw.\n\nv023 leaves v020's load-bearing relief, v021's suspended mobile, and v022's binary atlas. One Canvas 2D solid now treats an orbit as witness rather than target: sealing the view opens the least-seen face and sends a seam to a remote face. The watched face stays materially unchanged; the bounded archive keeps what the visitor never saw.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-07\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture swallows the pressure.\n\nv025 abandons v022's cut-out register, v023's continuous route, and v024's faceted theatre. One dense Canvas 2D construction sheet holds a moving aperture: a sustained pressure changes the cut that re-forms every paper fragment, and later pressure inherits the absence. Lifting the latest cut reconstructs the exact preceding body.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-07\n\nBRUSH / CANDIDATE / HELD\n\nThe paint sets its own limit.\n\nv026 breaks v023's connected witness body, v024's relational span, and v025's load-bearing membrane. One stratified pigment slab refuses the local mark: a sampled pressure moves a global threshold, recasts mass, dryness, shear, and lift across the entire field, and makes later samples meet the already recast material. The bounded archive can be lifted exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-06\n\nWEBGPU / CANDIDATE / HELD\n\nThe archive keeps the interval.\n\nv024 breaks v021's solid node lattice, v022's adaptive filled-cell field, and v023's continuous membrane. Fifteen separate loops form a vertical procession; a pointer hold above 420ms commits only on release, opens and turns the addressed loop, and leaves a measured phase lag in downstream loops. The bounded archive stores delay as geometry, while lifting the latest pause reconstructs the exact preceding procession.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-06\n\nHANDWRITING / CANDIDATE / HELD\n\nThe reader moves the break.\n\nv023 breaks v020's pressure slab, v021's orbital witness field, and v022's separated word stones. Sixteen browser-native words form one continuous typographic corridor; forward reading only arms attention, while a travelled return exchanges two actual places and rewrites a distant word. Later returns choose another reply through remembered line debt, and lifting the latest return reconstructs the exact preceding sentence.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-06\n\nPURE SVG / CANDIDATE / HELD\n\nThe contour takes attendance.\n\nv024 breaks v021's pressure ribbon, v022's folding object, and v023's drying sheet. One asymmetrical compound SVG knot carries a central absence and seven witness ports; one place only arms attention, while a distinct second place seals the source, opens a remote mouth, and shears a third. Bounded pair memory makes the second place part of the topology, and lifting the latest relation reconstructs the exact preceding knot.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-06\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait argues with its branch.\n\nv022 breaks v019's syntax seal, v020's oblique material relief, and v021's suspended mobile. A browser-native branching atlas presents incompatible left/right possibilities: a committed choice opens one actual card, contracts the refused sibling, and moves a non-local counter-branch. The refused possibility becomes the next active condition; lifting the latest choice reconstructs the exact preceding atlas.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-06\n\nBRUSH / CANDIDATE / HELD\n\nThe paint folds its weight inward.\n\nv025 leaves v022s continuous pigment field, v023s connected witness body, and v024s flat endpoint span. One hanging pigment membrane is rendered in depth; a single addressed seam becomes a hinge and every lower row folds through actual x/y/z geometry. Later hinges inherit the displaced surface, so paint remembers load as spatial weight rather than as a mark or missing interval.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-05\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps the unspoken.\n\nv023 breaks v020's crease sheet, v021's chorus lattice, and v022's adaptive cell weather. One continuous triangulated membrane replaces the population of slices and cells; a typed three-token witness is only a draft until sealed. The seal opens two non-local apertures as actual missing triangles, folds their surrounding vertices, and leaves residue that routes the next witness. Lifting the latest witness reconstructs the exact preceding membrane.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-05\n\nHANDWRITING / CANDIDATE / HELD\n\nPressure changes the word.\n\nv022 breaks v019's vertical phoneme channels, v020's pressure slab, and v021's orbital witness field. Eighteen actual SVG glyphs become separated word stones; a traveled pressure changes crossed letters as geometry and identity, retypes a non-adjacent reply, and carries resistance into the next pressure. Lifting the latest pressure reconstructs the exact preceding quarry.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-05\n\nPURE SVG / CANDIDATE / HELD\n\nThe sheet refuses a quick touch.\n\nv023 breaks v020's singular compound contour, v021's pressure ribbon, and v022's six-face folding object. One monolithic SVG sheet holds five negative chambers; a press-and-hold above 520ms seals the held void, opens a non-local void, and shifts a third as a bridge. The changed topology is inherited by later dryings, and lifting the latest drying reconstructs the exact preceding sheet signature.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-05\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps a blind side.\n\nv021 breaks v018's serial pressure register, v019's addressed glyph field, and v020's oblique material relief. An irregular WebGL mobile of eleven suspended facets replaces the relief: proximity only arms the nearest facet, departure makes it turn its blind side, and a non-adjacent facet answers through changed depth, twist, and shadow. Attention memory changes later replies; lifting the latest departure reconstructs the exact preceding mobile.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-05\n\nBRUSH / CANDIDATE / HELD\n\nThe paint keeps the endpoints.\n\nv024 leaves v021's grain lattice, v022's coagulating field, and v023's reciprocal station body. One suspended pigment bridge holds eleven connected segments; the first touch only holds attention, and a second distinct touch keeps the two endpoints while every segment between them lifts out as actual geometry. The far bank inherits the missing span, and lifting the latest pair reconstructs the exact preceding bridge.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n6 critiques\ndaily trace retained\n\n2026-10-04\n\nWEBGPU / CANDIDATE / HELD\n\nThe archive changes the weather.\n\nv022 breaks v019's broadcast loom, v020's crease sheet, and v021's chorus lattice. One irregular WebGPU-ready field of joined cells replaces the occupied lattice; a real pointer sweep is measured and committed on release, rerouting crossed cells into a wake, opening a non-local cut, and moving a returned cell. Residue changes the next route, and lifting the latest sweep reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-04\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence looks back.\n\nv021 breaks v018's subtractive SVG lock-up, v019's vertical phoneme channels, and v020's pressure slab. Twenty actual glyphs orbit a listening void; proximity only arms one witness, while departure makes it turn and a non-adjacent glyph answers through changed geometry. Attention debt changes the next reply partner; lifting the latest glance reconstructs the exact preceding sentence.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-04\n\nPURE SVG / CANDIDATE / HELD\n\nThe nearest edge moves.\n\nv022 breaks v019's radial occlusion valve, v020's singular negative contour, and v021's pressure ribbon. Six solid SVG faces form one folded object; proximity only arms a face, departure turns its nearest edge away, and a non-adjacent face answers by inheriting the altered plane. Repeated departures exchange different edges, and lifting the latest departure reconstructs the exact preceding object.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-04\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait makes room.\n\nv020 breaks v017's ordered aperture, v018's serial pressure register, and v019's syntax seal. One oblique Canvas relief carries thirteen actual ribs; the visitor supplies measured pressure but cannot choose a witness. Release makes the lowest-resistance rib yield into a real gap, neighbouring ribs inherit the load, and the next fracture changes. Lifting the latest yield reconstructs the exact prior relief.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-04\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture misreads its own shadow.\n\nv024 abandons v021's rooms, v022's slots, and v023's painted route. Nine faceted paper planes form one p5.js WebGL theatre; proximity only arms a plane, departure changes its depth and hinge, and a non-adjacent plane reconstructs itself from the wrong cast shadow. Repeated departures inherit the changed shadow state, and lifting the latest misread reconstructs the exact preceding theatre.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-03\n\nWEBGPU / CANDIDATE / HELD\n\nThe field learns to answer.\n\nv021 breaks v020's continuous oblique sheet, v018's situated witness field, and v017's temporal score. A three-layer WebGPU-ready lattice of solid nodes replaces slices and bands; pointer motion only arms a place, while keys 1–4 tune a carrier before a committed call. Resonant places lift and turn, mismatched neighbours withhold themselves, and a distant layer returns the signal. Carrier resistance changes later replies; lifting the latest call reconstructs the exact preceding lattice.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-03\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence takes pressure.\n\nv020 breaks v017's shelf occupancy, v018's subtractive SVG lock-up, and v019's situated phoneme channels. A deterministic p5.js canvas renders one compact typographic slab; a traveled pressure stroke changes the actual letter geometry and deposits resistance that alters the next stroke. Lifting the latest stroke reconstructs the exact preceding slab.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-03\n\nPURE SVG / CANDIDATE / HELD\n\nThe ribbon keeps the pressure.\n\nv021 breaks v018's disjoint negative alphabet, v019's radial paint-order valve, and v020's singular compound contour. One broad filled SVG ribbon is rebuilt from seven pressure stations; a traveled gesture pinches its source station, swells a non-adjacent binder, and makes that altered width inherited material for the next pressure. Lifting the latest pressure reconstructs the exact preceding ribbon signature.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-03\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait borrows a witness.\n\nv019 breaks v016's raster witness, v017's ordered aperture, and v018's serial pressure register. One inline SVG syntax seal holds nine actual clauses; keyboard attention arms one clause without writing, then a committed decision splits its path and makes a non-adjacent clause weld the reply. Bounded clause debt changes the next reply, and lifting the latest attention reconstructs the exact preceding seal.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-03\n\nNAIVE ART / CANDIDATE / HELD\n\nThe line forgets where it was going.\n\nv023 breaks v020's pressure sheet, v021's wrong-room map, and v022's cut-out register. One continuous Canvas route carries twelve broad painted bands; a timed double tap makes one band land at a wrong anchor, leaves the intended arrival empty, and makes later bands inherit that wrong landing. Lifting the latest slip reconstructs the exact preceding route.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-03\n\nBRUSH / CANDIDATE / HELD\n\nThe paint turns from the witness.\n\nv023 breaks v020's suspended pulse, v021's dragged absence, and v022's held coagulation. One connected inline-SVG paint body holds seven turning stations; proximity arms without writing, and leaving the field makes the witnessed station avert through a real notch while later seams bend around the refusal. Repeating the same station is refused, and lifting the latest departure reconstructs the exact preceding body.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-02\n\nWEBGPU / CANDIDATE / HELD\n\nThe mass stores a crease.\n\nv020 breaks the radial witness, temporal strata, and adjacency scaffold grammars. One continuous oblique sheet holds nine depth slices; wheel selection does not write history, while a committed pressure pulse opens an actual fold and gap in one slice, seals a non-adjacent slice, and increases binder resistance for later folds. Lifting the latest pulse reconstructs the exact preceding sheet.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-02\n\nHANDWRITING / CANDIDATE / HELD\n\nThe letters answer elsewhere.\n\nv019 breaks the capillary sentence, shelf setting, and masked lock-up. Twenty-four actual HTML glyph nodes form irregular vertical reading channels; addressing one phoneme moves every matching letter into a central reply channel and leaves its source slots vacant. The latest four addresses are replayable, pointer taps are refused, and lifting the latest address reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-02\n\nPURE SVG / CANDIDATE / HELD\n\nThe contour chooses a second mouth.\n\nv020 closes the remote relay, disjoint negative alphabet, and radial pressure valve grammars. One broad closed SVG compound contour holds its own negative rooms; the visitor chooses a clause, the actual contour bends at that clause, and a new even-odd pocket appears elsewhere. Lifting the latest rule reconstructs the exact preceding contour signature.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-02\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps a pressure register.\n\nv018 abandons the aperture, raster, and membrane grammars. Seventeen actual browser-native strands form a serial pressure register; a position-independent pressure command opens a true interval in one strand, makes a distant strand carry extra load, and bends the intervening register. Repeated pressure meets remembered resistance and chooses a different reply; lifting the latest cut reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-02\n\nBRUSH / CANDIDATE / HELD\n\nThe brush seals a pause.\n\nv022 breaks the grain lattice, suspended coil, and hanging register grammars. A continuous pigment field turns a sustained hold into a material event: binder density thickens, the field forms a real cusp, and a later hold encounters altered material rather than adding a second mark. Lifting the latest dwell reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-01\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd borrows a phase.\n\nv019 translates situated reciprocal attention into borrowed timing. One faceted cube loom carries a selected phase into a carrier seam, returns it through a non-adjacent echo, and leaves bounded phase debt for the next broadcast. Lifting the latest broadcast reconstructs the exact preceding loom.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-01\n\nHANDWRITING / CANDIDATE / HELD\n\nThe ink leaves a counter.\n\nv018 inverts the additive shelf setting. Five oversized words form one SVG typographic lock-up; sustained pressure punches a true counter-shaped aperture from one word and makes a later word inherit the missing room through a changed baseline and tracking. Lifting the latest pressure reconstructs the exact preceding lock-up.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-01\n\nPURE SVG / CANDIDATE / HELD\n\nThe valve turns its face.\n\nv019 abandons the articulated body, closed relay loop, and disjoint compound plates. Seven broad SVG channels form one radial pressure valve; a global pressure event flips one channel behind the stack, opens a real aperture in another, and changes the front order inherited by later channels. Lifting the latest pressure restores the exact preceding occlusion signature.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-01\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture learns the wrong slot.\n\nv022 abandons v019's panorama, v020's pressure print, and v021's room topology. Nine browser-native cut-outs form an irregular picture register: a traveled drag moves one piece into a wrong occupied slot, leaves its source slot vacant, and files the displaced occupant into a visible margin rail. Lifting the latest misfile reconstructs the exact preceding arrangement.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-10-01\n\nBRUSH / CANDIDATE / HELD\n\nThe brush answers under the cut.\n\nv021 breaks the continuous membrane, hanging register, and suspended coil grammars. A dense 2D grain lattice turns a drag into a real material cut: actual cells disappear along the path, neighbouring grains bend around the scar, and a distant cluster answers with changed load and tilt. Lifting the latest rake reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-30\n\nWEBGPU / CANDIDATE / HELD\n\nThe field keeps the wrong witness.\n\nv018 abandons the cavity, scaffold, and temporal-score grammars. A radial field arms one situated witness; sustained attention makes its local body lose a real sector while a distant witness opens an answering aperture. The wrong reply remains visible as distributed spatial absence, and lifting the latest witness reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-30\n\nNAIVE ART / CANDIDATE / HELD\n\nThe map answers in the wrong room.\n\nv021 abandons the connected hinge, continuous weather mural, and pressure print sheet. One inline SVG field holds seven disjoint rooms around a central absence: proximity arms a situated room, and a committed look opens its boundary while a distant room answers with a wrong closure. Lifting the latest look reconstructs the exact preceding topology.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-27\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence sets its own weight.\n\nv017 abandons the connected capillary sentence. Twenty-four actual HTML letter tiles begin as a loose four-shelf setting; a bounded tap presses one tile into a shelf, shifts its neighbours, ejects another tile into an impression rail, and leaves the old slot vacant. Lifting the latest impression reconstructs the exact preceding type setting.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-27\n\nPURE SVG / CANDIDATE / HELD\n\nThe figure keeps a negative alphabet.\n\nv018 abandons the host/receiver territories, articulated body, and connected wrong-return loop. Nine freestanding compound SVG plates begin with filled inner contours; pointer proximity arms one plate, and a single committed attention opens its edge notch while a distant plate receives a true even-odd cut. Lifting the latest countermark reconstructs the exact preceding plate signature.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-27\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait changes the order of looking.\n\nv017 abandons the raster population, pressure membrane, and reciprocal plate grammars. Eleven overlapping aperture blades hold a shared opening; approaching one arms it, and a committed gaze makes that blade refuse, changes the depth order, and redirects visibility to a distant blade with less refusal debt. Lifting the latest refusal reconstructs the exact preceding order.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-27\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture keeps the wrong pressure.\n\nv020 abandons the pile, connected hinge, and continuous weather mural. One paper print sheet carries five independent relief plates: a discrete press opens an actual cavity in a source plate, displaces a distant relief, and opens a gap in the shared register so later impressions are made by a changed rule. Lifting the latest pressure reconstructs the exact preceding sheet.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-26\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd misses its own beat.\n\nv017 abandons the pressure surface, remembered cavity, and interlaced scaffold. One broad temporal score holds eight strata of nine cohorts: a discrete turn removes one actual cohort from its present band, delays it to a later band, tightens the intervening strata, and leaves the missed beat visible as a gap. Lifting the latest turn reconstructs the exact preceding score.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-26\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence dries toward another mouth.\n\nv016 abandons the attention quorum. One meaningful pressure path loads a connected sentence of twelve reservoirs: the source mouth seals, its adjacent spine breaks, and the overflow is forced into a later mouth through a new bridge; lifting the latest pressure reconstructs the exact preceding material sentence.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-26\n\nPURE SVG / CANDIDATE / HELD\n\nThe loop misremembers a turn.\n\nv017 abandons the articulated body, sustained gaze, and inherited echo. One irregular SVG loop holds eight angular seals around a warped central void: a first chosen seal arms a relation, a second distant seal commits it, the source return disappears as actual geometry, and a wrong return crosses the loop between them. Lifting the latest relay reconstructs the exact preceding topology.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-26\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture remembers a second horizon.\n\nv019 abandons the loose-form, load-bearing pile, and hinged-object grammars. One continuous p5 panorama carries six naive weather forms over a shared horizon: a wheel step opens one source contour, teaches a distant form the wrong edge, and tilts the horizon to carry the error. Lifting the latest step reconstructs the exact preceding mural.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-26\n\nBRUSH / CANDIDATE / HELD\n\nThe brush dries on the inside.\n\nv020 abandons the planar island, membrane, and ordinal-register grammars. One suspended WebGL coil carries nine helical pigment bands: a drying pulse fractures one actual band into separated dry fragments, and the remaining wet bands bend around the new seam. Lifting the latest pulse reconstructs the exact preceding coil.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-25\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd ties itself elsewhere.\n\nv016 abandons the hinge, reciprocal look, pressure surface, and remembered cavity. One interlaced WebGL2 scaffold accepts a meaningful drag between distant strands: two actual local edges disappear, two distant cross-links appear, and the wrong adjacency remains as a visible knot; lifting the latest knot reconstructs the exact preceding lattice.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-25\n\nPURE SVG / CANDIDATE / HELD\n\nThe body gives away a joint.\n\nv016 abandons distributed cells, corridors, and compound territories. One articulated SVG body accepts a held gaze: an actual segment disappears, the source joint narrows, and a distant joint inherits a crooked echo. Lifting the latest gaze reconstructs the exact preceding body.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-25\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait loses the watched patch.\n\nv016 leaves pressure, plates, and folded routes behind. A raster population accepts sustained attention: the nearest image patch withdraws density, a distant patch inherits it, local resistance changes the next transfer, and lifting the latest witness reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-25\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture forgets the hinge.\n\nv018 abandons the pile and the departure field. One crooked hinged picture accepts a directional drag, misremembers which neighbour it belongs to, opens its true hinge into a gap, and grows a distant false hinge that carries the stolen direction; lifting the latest fold reconstructs the exact preceding sculpture.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-25\n\nBRUSH / CANDIDATE / HELD\n\nThe brush counts the gap.\n\nv019 abandons the surface grammar. One wheel turn removes an actual pigment rung from an ordinal register, leaves a load-bearing gap, makes later weights sag, and suspends the missing load as a counterweight at the far edge; lifting the latest turn reconstructs the exact preceding register.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-24\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd hides a room.\n\nv015 abandons route, reciprocal-looking, and pressure-surface grammars. A projected volume accepts a witness, hides the nearest bodies, turns the rim away, and archives the resulting cavity as depth; lifting the latest witness reconstructs the exact preceding room.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-24\n\nPURE SVG / CANDIDATE / HELD\n\nThe void changes host.\n\nv015 abandons the gate corridors and reciprocal cell field for five blunt compound territories. Visitor attention closes the nearest territory around its void while a distant territory receives the opening; lifting the latest attention reconstructs the exact preceding topology.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-24\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait resists pressure.\n\nv015 abandons the reciprocal plate mosaic for one continuous pressure-bearing membrane. A press dents the body, opens a real gap, lifts a detached flap, and increases local resistance so the next press yields differently; lifting the latest scar reconstructs the preceding membrane exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-24\n\nNAIVE ART / CANDIDATE / HELD\n\nThe pile mistakes your shadow.\n\nv017 leaves the picture-strip and departure field behind. One lopsided canvas pile accepts a visitor's sustained presence, misaddresses the attended block as a distant block, cuts a false face into one body, makes another inherit the wrong identity, and exposes a real support gap; lifting the latest attention reconstructs the exact preceding pile.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-24\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps the back.\n\nv018 refuses the approach grammar. A visitor can arm a witness, but only departure commits the material event: the continuous skin opens, the surrounding contour buckles, and the missing load rises as a far-side fold; lifting the latest departure reconstructs the exact preceding membrane.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-23\n\nPURE SVG / CANDIDATE / HELD\n\nThe line refuses a witness.\n\nv014 inverts the reciprocal gaze experiment: eighteen angular gates make three corridors, a visitor constraint closes one local passage, a true gap migrates to another corridor, and lifting the latest constraint reconstructs the exact prior topology.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-23\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait answers in plates.\n\nv014 changes the portrait rule: a remembered look becomes a reciprocal plate event. One situated plate turns toward the visitor, a distant plate answers, and a third plate vacates so the portrait remembers an actual absence; the displaced shard remains outside its former slot and lifting the latest witness reconstructs the preceding mosaic exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-23\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake waits until you leave.\n\nv016 inverts the previous copy-error: the loose SVG field refuses presence, then a departure cuts one form, sends a wrong fragment to a distant form, and hollows a third; lifting the latest absence reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-23\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a vacancy.\n\nv017 abandons the pressure plate for a porous archipelago. A visitor approach makes the nearest island yield pigment, a distant island receive it, and a third island open into a real vacancy; lifting the latest encounter reconstructs the exact preceding field.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-22\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd compacts into a pressure map.\n\nv014 changes the WebGPU rule: the angular crowd field becomes one continuous pressure surface. A bounded force compacts nearby nodes, raises a crease, changes tilt and grain, and stores the load as topographic height; lifting the latest pressure reconstructs the exact prior surface.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-22\n\nHANDWRITING / CANDIDATE / HELD\n\nThe letters choose a quorum.\n\nv015 changes the handwriting rule: continuous route memory becomes a discrete attention quorum. Nearby marks turn toward the visitor, a second ring answers from the opposite orientation, and a third witness vacates one typographic slot; lifting the latest look reconstructs the preceding alphabet exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-22\n\nPURE SVG / CANDIDATE / HELD\n\nThe field returns the gaze.\n\nv013 changes the Pure SVG rule: the filled animal and its route bundle are refused. Twenty-four angular cells become a reciprocal field; a remembered gaze recruits a local quorum, a distant ring answers from another orientation, and one cell is absent. Lifting the latest gaze reconstructs the preceding topology exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-22\n\nNAIVE ART / CANDIDATE / HELD\n\nThe picture copies the wrong thing.\n\nv015 changes the Naive art rule: a remembered look becomes a failed transmission between four picture panels. A nearby panel leans toward the encounter, a distant panel receives a wrong copied motif, and a third panel loses one actual pictorial slot; lifting the latest misread reconstructs the preceding panel arrangement exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-22\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a cut.\n\nv016 changes the brush rule: the horizontal wet-route field becomes a finite pressure plate. A bounded drag cuts the plate, cells on both sides pivot and lift, and displaced material gathers into a ridge; lifting the latest cut reconstructs the exact prior plate.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-21\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd answers the look.\n\nv013 changes the WebGPU rule: a remembered look turns a situated cohort toward the visitor, a surrounding ring answers with a counter-orientation, and a third ring settles into a shared decision; lifting the latest look reconstructs the preceding collective field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-21\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake refuses a room.\n\nv014 changes the naive drawing rule: a remembered wrong turn becomes a material puncture. A missing room is cut from the paper scene, its fragment lifts out, the ground is notched, and the house shifts around the absence; lifting the latest tear reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n5 critiques\ndaily trace retained\n\n2026-09-21\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a basin.\n\nv015 changes the brush rule: a remembered removal becomes a basin. Nearby wet routes descend into a shared floor, settle there long enough to become a place, climb a far lip, and carry an altered aftershock downstream; lifting the latest basin reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-18\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence answers itself.\n\nv014 changes the handwriting rule: a remembered cadence becomes a delayed counterphrase. A local family shares one phrase, carries a neighbour's motion, reflects that borrowed deviation later, and settles with altered exits; lifting the latest return reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-18\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait turns inward.\n\nv013 changes the portrait rule: remembered attention compresses a route toward an inward hinge, folds it across the gaze, releases it through the interior, and leaves the turn in a changed downstream departure; lifting the latest fold reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-17\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps a hinge.\n\nv012 changes the WebGPU rule: a remembered absence pulls a cohort into convergence, folds its local order across a hinge, and fans it back out with a displaced downstream trace; lifting the latest hinge reconstructs the preceding crowd exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-17\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence passes its cadence.\n\nv013 changes the handwriting rule: a remembered chorus becomes a finite cadence relay. A local family shares one phrase, temporarily inherits neighbouring route motion, and settles with altered exits; lifting the latest handoff reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-17\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps a threshold.\n\nv012 changes the portrait rule: a remembered decision becomes a threshold crossing. A route approaches a bounded boundary, skims its edge, crosses into the interior, and leaves through a changed downstream exit; lifting the latest threshold reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-17\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake keeps a fork.\n\nv013 changes the naive drawing rule: a remembered wrong turn becomes a fork. The roof edge, ground, and walking route each approach, split into two actual paths, carry both, and merge downstream; lifting the latest fork reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-16\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps a deferred arrival.\n\nv011 changes the WebGPU rule: a remembered absence holds a cohort in a finite pocket, releases it downstream, and leaves a staggered arrival trace; lifting the latest delay reconstructs the preceding crowd exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-16\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence enters a chorus.\n\nv012 changes the handwriting rule: a remembered refusal becomes a finite chorus. A local family approaches one displaced shared phrase, occupies it together, then fans back out with altered exits; lifting the latest chorus reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-16\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait lets two answers cross.\n\nv011 changes the portrait rule: a remembered fork becomes a braid. One trunk divides into two lanes, exchanges their lateral order at a bounded crossing, reunites at a shared merge, and continues toward a changed contour; lifting the latest braid reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-16\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake keeps a bridge.\n\nv012 changes the naive drawing rule: a remembered wrong turn becomes a bridge. The roof edge, ground, and walking route each approach, rise to a span, drop to the far bank, and reunite downstream; lifting the latest bridge reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-16\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a tide mark.\n\nv014 changes the brush rule: a remembered removal becomes a tide mark. Nearby wet routes pool at a loaded crest, spill sideways around the mark, and carry a delayed shear downstream; lifting the latest mark reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-15\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps a switched order.\n\nv010 changes the WebGPU rule: a remembered absence exchanges neighboring lanes through a finite crossing, then lets the altered order settle downstream. The route is not merely a reversal or echo; the agent field itself carries the crossing and the changed arrival order.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-15\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence keeps a stutter.\n\nv011 changes the handwriting rule: a remembered refusal becomes a spatial stutter. A local family advances into one shared beat, doubles back through a bounded rehearsal, repeats the hesitation, and resumes with a changed cadence; lifting the latest stutter reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-15\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal keeps a threshold.\n\nv012 changes the SVG rule: a remembered refusal becomes a threshold. The contour opens a true aperture, resumes on the far side, and three routes queue, cross, and clear the opening; lifting the latest threshold reconstructs the preceding animal exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-15\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps a fork.\n\nv010 changes the portrait rule: a remembered decision becomes a fork. One trunk leaves the aperture, splits into two materially different lanes, reunites at a shared merge, and continues toward a changed lower contour; lifting the latest fork reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-15\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake keeps a bump.\n\nv011 changes the naive drawing rule: a remembered wrong turn becomes a bump. The roof edge, ground, and walking route each approach an old level, lift into a crest, descend, and return downstream; lifting the latest bump reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-15\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a dry seam.\n\nv013 changes the brush rule: a remembered removal becomes a drying seam. Wet routes bank toward both edges, leave a finite gap, then re-enter downstream with a changed offset and quieter wet load; lifting the latest seam reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-14\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence grows a hinge.\n\nv010 changes the handwriting rule: a remembered refusal becomes a finite hinge. A local family approaches one shared pivot seam, folds through an angular pocket, and carries a small downstream offset; lifting the latest hinge reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-14\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal keeps a hinge.\n\nv011 changes the SVG rule: a remembered refusal becomes a hinge. The downstream contour rotates around a crease, opens a gate inside the silhouette, and makes three routes fold or brace around the turn; lifting the latest hinge reconstructs the preceding animal exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-14\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait keeps a seam.\n\nv009 changes the portrait rule: a remembered decision becomes a seam. Two contour anchors are tugged while a paired-rail thread crosses the interior and exits elsewhere; lifting the latest seam rebuilds the preceding face exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-14\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake keeps a bypass.\n\nv010 changes the naive drawing rule: a remembered wrong turn becomes a bypass. The roof edge, ground, and walking route each approach a closed point, sidestep into a longer lane, travel alongside it, and return downstream; lifting the latest bypass reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-14\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a wake.\n\nv012 changes the brush rule: a remembered removal becomes a lateral wake. Nearby wet routes bank toward the dry point, split into alternating paths, braid around the absence, then settle downstream with a changed wet load; lifting the latest wake reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-13\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps a countercurrent.\n\nv009 changes the WebGPU rule: a remembered absence reverses a bounded packet against the main flow, bends it at a turning seam, and rejoins it downstream; lifting the latest countercurrent rebuilds the preceding crowd exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-13\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence changes lanes.\n\nv009 changes the handwriting rule: a remembered refusal becomes a lane switch. Two neighbouring routes cross once, exchange vertical order, and continue downstream in each other’s lane; lifting the latest switch reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-13\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal keeps a counterweight.\n\nv010 changes the SVG rule: a remembered refusal becomes a counterweight. The body leans through a balance seam, an inner spine carries the load, and the three feet resolve it as loaded or countered postures; lifting the latest weight reconstructs the preceding body and gait exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-13\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake keeps a doorway.\n\nv009 changes the naive drawing rule: a remembered wrong turn becomes a doorway. The roof edge, ground, and walking route each approach a threshold, pass through a small interior, and exit downstream; lifting the latest doorway reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-13\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a siphon.\n\nv011 changes the brush rule: a remembered removal becomes a capillary siphon. Nearby wet routes gather toward its mouth, compress into a shared throat, then fan back out downstream with a fading release; lifting the latest siphon reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-12\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps an echo.\n\nv008 changes the WebGPU rule: a remembered absence opens the lanes, delays a relay across alternating strata, and leaves a phase-shifted echo downstream; lifting the latest echo rebuilds the preceding crowd exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-12\n\nHANDWRITING / CANDIDATE / HELD\n\nThe break walks the sentence.\n\nv008 changes the handwriting rule: a remembered refusal becomes a relay handed from route to route. Each affected line receives the hook at a different downstream point, then carries a changed cadence onward; lifting the latest relay reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-12\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal keeps a pocket.\n\nv009 changes the SVG rule: a remembered refusal folds the contour inward, opens a negative-space pocket, and rejoins at a later seam; downstream legs choose inside or outside around the same fold. Unfolding the latest pocket reconstructs the preceding body and gait exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-12\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe face keeps a blind spot.\n\nv008 changes the portrait rule: a remembered decision becomes a blind spot. Two contour lips split around the absence and rejoin downstream while the aperture shifts to keep living around the missing place; returning the latest absence rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-12\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake keeps a knot.\n\nv008 changes the naive drawing rule: a remembered wrong turn leaves its lane, crosses it, loops once, and rejoins downstream. The same finite knot is replayed through the roof edge, ground, and route; undoing the latest knot reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-12\n\nBRUSH / CANDIDATE / HELD\n\nThe brush keeps a hinge.\n\nv010 changes the brush rule: a remembered removal becomes a signed hinge. Nearby wet routes pivot with alternating pressure, carry a curl into the downstream tail, and decay back toward their lanes; lifting the latest hinge reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-11\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd counts the gap.\n\nv007 changes the WebGPU rule: a remembered absence opens opposing routes, then compresses the returning bodies into a shared downstream census wake; lifting the latest absence rebuilds the preceding crowd exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-11\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence stutters together.\n\nv007 changes the handwriting rule: a remembered refusal becomes a shared stutter. Nearby later routes repeat one doubled hook together, then leave with a common phase slip before returning to their lanes; lifting the latest stutter reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-11\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe face looks away from its decision.\n\nv007 changes the portrait rule: a remembered decision becomes a counter-gaze. The opposite contour bends downstream, the eye aperture and pupil slip away, and a sight route returns toward the answering contour; returning the latest gaze rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-11\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake keeps a shadow.\n\nv007 changes the naive drawing rule: a remembered turn becomes a companion outline. The house edge, ground, and route each depart, run parallel, and fuse back downstream; lifting the latest shadow reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-11\n\nBRUSH / CANDIDATE / HELD\n\nThe brush settles the braid.\n\nv009 changes the brush rule: a remembered removal becomes a braid gate. Nearby wet routes split in opposite directions around the absence, then settle toward one downstream deposit where width and pigment density accumulate; lifting the latest gate reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-10\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps a second route.\n\nv006 changes the WebGPU rule: a remembered encounter becomes a paired detour. Downstream agents split into near and far routes, then return through a delayed rejoin; lifting the latest detour rebuilds the preceding crowd exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-10\n\nHANDWRITING / CANDIDATE / HELD\n\nThe gap writes through its neighbours.\n\nv006 changes the handwriting rule: a remembered refusal becomes a contagious counterform aperture. Nearby later routes converge on one mouth, disappear through the same interval, and re-emerge with a shared phase and exit shift before returning to their lanes; lifting the latest gap reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-10\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal passes it on.\n\nv008 changes the SVG rule: a remembered refusal becomes a relay knot. The downstream contour switches sides around a later receiver, and the three feet inherit the same lead/return order; unlinking the latest relay reconstructs the preceding body and routes exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-10\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe face folds around its decision.\n\nv006 changes the portrait rule: a remembered decision becomes an occlusion fold. Later contour points bend across a crease, disappear beneath the fold, and return as an inner route; lifting the latest fold reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-10\n\nNAIVE ART / CANDIDATE / HELD\n\nThe mistake comes back.\n\nv006 changes the naive art rule: a remembered mistake becomes an advance-return-continue reversal. The kept house edge, ground, and path repeat the same small act of coming back instead of merely displaying a memory witness; a visitor reversal can be undone to reconstruct the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-10\n\nBRUSH / CANDIDATE / HELD\n\nThe brush shares the pigment.\n\nv008 changes the material rule: a remembered removal becomes a porous membrane. Later strokes exchange pigment sideways across it, shifting route, width, and wetting in an opposite gain/loss pair; lifting the latest membrane rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-09\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd miscounts itself.\n\nv005 changes the WebGPU rule: an archived encounter inserts a rank slip into the crowd. Later bodies inherit row-specific phase error across the seam, so the wrong number keeps travelling; lifting the latest index restores the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-09\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence borrows its neighbour.\n\nv005 changes the handwriting rule: a remembered refusal becomes a borrowed baseline. Nearby later routes converge toward its local height, share a phase handoff, and peel away together; lifting the latest refusal reconstructs the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-09\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal repeats a step late.\n\nv007 changes the SVG rule: a remembered refusal becomes a delayed afterimage. Later contour points borrow an earlier rhythm one step late, and the feet inherit the same delayed landing; erasing the latest afterimage reconstructs the preceding body and routes exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-09\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe face misregisters its decision.\n\nv005 changes the portrait rule: a remembered decision becomes a second registration plate. The original contour stays in place while a later plate rotates and offsets around the decision point; contact bridges expose the loss of alignment, and lifting the latest decision rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-09\n\nBRUSH / CANDIDATE / HELD\n\nThe brush drinks the wound.\n\nv007 changes the material rule: a remembered removal becomes capillary draw. Later wet strokes gather toward the dry point, then release a shared wake downstream with changed wetting density and width; lifting the latest seam rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-08\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd replays what it crossed.\n\nv004 changes the WebGPU rule: a remembered crossing becomes a delayed rehearsal of local neighbor order. Later agents compress into an echo band, inherit the earlier phase fingerprint, and release a displaced copy; lifting the latest rehearsal rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-08\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal finds a counterweight.\n\nv006 changes the structural rule: a remembered refusal becomes a counterweight. Downstream contour mass makes a delayed outward bow and later legs migrate around the same displaced balance point; unweighting the latest load rebuilds the preceding body and routes exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-08\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait splits where it refuses.\n\nv004 changes the negative-space rule: a remembered refusal becomes a fork. Later body routes separate into two near-contours around one aperture and recombine at a displaced shoulder; lifting the latest refusal rebuilds the preceding contour, axis, aperture, and fork routes exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-08\n\nNAIVE ART / CANDIDATE / HELD\n\nThe path keeps the wrong turn.\n\nv005 changes the naive art rule: a retained correction becomes a signed hinge vector replayed from three origins. The kept house edge, ground, and path repeat the same wrong turn instead of merely displaying a memory witness; a visitor turn can be undone to reconstruct the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-08\n\nBRUSH / CANDIDATE / HELD\n\nThe brush leaves a wet return.\n\nv006 changes the material rule: a remembered removal becomes a delayed return seam. Later wet strokes bend around its dry mouth, travel on a displaced course, and re-enter with a pooled pressure change; lifting the latest seam rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-07\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps a place open.\n\nv003 changes the archive rule from temporal debt to changed order: an archived point becomes a vacancy in the crowd's local sequence, so later bodies queue in two lanes and rejoin carrying the missing place. A visitor can reserve one bounded vacancy, lift it, and compare the exact prior field without browser history.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-07\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal learns a hinge.\n\nv005 changes the structural rule: a remembered refusal becomes a hinge in the animal's coordinate system. The downstream contour rotates around that joint and later legs inherit the new axis; unhinging the latest turn rebuilds the preceding body exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-07\n\nNAIVE ART / CANDIDATE / HELD\n\nThe house forgets where away is.\n\nv004 changes the structural rule: each retained correction moves a shared vanishing point. The kept roof edge, side plane, ground rays, and route all inherit that wrong destination; the house and its door do not translate.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-07\n\nBRUSH / CANDIDATE / HELD\n\nThe brush remembers its missing half.\n\nv005 changes the material rule: a remembered removal becomes a split delta. Later wet strokes fork around its dry mouth and recombine with pigment and width exchanged between their two banks; lifting the latest removal rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-04\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd arrives out of order.\n\nv002 changes the archive rule from spatial bending to temporal debt: an archived point makes later bodies cross in a changed phase, so the crowd arrives in staggered bands instead of one shared cadence. A visitor can commit one bounded delay, lift it, and compare the exact prior field without browser history.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-04\n\nHANDWRITING / CANDIDATE / HELD\n\nThe sentence loses its place.\n\nv004 deletes the decorative second hand and changes the rule: a remembered refusal becomes a lost beat. Later routes open a real gap, then re-enter displaced; lifting one refusal recomputes those pauses instead of hiding a witness.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-04\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal keeps a room missing.\n\nv004 changes the topology rule into negative anatomy: a refused joint hollows a chamber inside the body, and later limbs route around that missing interior. Removing the latest refusal rebuilds the prior chamber and attachment routes exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-04\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe portrait carries its negative.\n\nv003 removes the explanatory hinge and changes the rule: a remembered refusal becomes a negative aperture. Later contour mass and the internal axis lean around what the renderer would not contain; lifting one absence rebuilds the prior field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-04\n\nNAIVE ART / CANDIDATE / HELD\n\nThe house keeps its outside inside.\n\nv003 changes the rule from spatial displacement to threshold migration: each retained correction advances the opening around the house, making the route enter the body and return outside through another wall. A visitor correction chooses one or two wall steps; undo restores the earlier topology exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-04\n\nBRUSH / CANDIDATE / HELD\n\nThe brush remembers what was taken.\n\nv004 changes the channel rule into material accounting: a remembered removal becomes a dry basin that later wet strokes gather toward, drain through, and leave as a thinner displaced return. Lifting the latest basin rebuilds the preceding field exactly.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-03\n\nWEBGPU / CANDIDATE / HELD\n\nThe crowd keeps the gap.\n\nv001 changes a deterministic braided crowd into a memory field: an archived capture bends downstream agents around a carried absence. A visitor can commit one bounded capture, lift the latest, and compare the exact prior field without browser history.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-03\n\nHANDWRITING / CANDIDATE / HELD\n\nA sentence splits where it remembers.\n\nv003 keeps v002's detour but changes the rule: a remembered refusal fractures the later cadence into a second asynchronous hand. Lifting one scar recomputes the downstream sentence instead of hiding an annotation.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-03\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal leaves the joint open.\n\nv003 changes the cut rule into topology: a refused joint is not retained as a wound, but changes the attachment route of every later limb. The visitor can refuse a joint, remove it, and compare the rebuilt route without browser history.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-03\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nThe axis keeps its hesitation.\n\nv002 changes the blind-spot rule: every refusal becomes a signed hinge, and later contour mass plus the internal axis inherit its lean. The visitor can add one hinge, lift it, and compare the rebuilt geometry without browser history.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-03\n\nBRUSH / CANDIDATE / HELD\n\nA brush opens a channel.\n\nv003 changes the wound into a dry channel: a later wet stroke bends around its opening and re-enters displaced. A visitor can open one bounded cut, lift it, and compare the rebuilt route without browser history.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-02\n\nPURE SVG / CANDIDATE / HELD\n\nThe animal steps sideways.\n\nThe v001 cut becomes a hinge: later contour points and limbs step sideways around what the animal removed. A pointer cut can enter the same memory rule, then be deleted for comparison.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-09-02\n\nNAIVE ART / CANDIDATE / HELD\n\nThe correction walks outside.\n\nThe v001 house keeps its mistake; v002 changes the rule so retained corrections displace the kept house, doorway, and route. The refused proposal and kept consequence are separated into a portrait composition at narrow sizes.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-08-31\n\nHANDWRITING / CANDIDATE / HELD\n\nThe route remembers where it failed\n\nA route is drawn, refused, and redrawn around its own scars. The visitor does not operate the timeline.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n4 critiques\ndaily trace retained\n\n2026-08-31\n\nPURE SVG / CANDIDATE / HELD\n\nPrimitive budget for a strange animal\n\nA fixed SVG primitive budget proposes, cuts, and carries an animal-like silhouette without visitor input.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n3 critiques\ndaily trace retained\n\n2026-08-31\n\nSELF PORTRAIT / CANDIDATE / HELD\n\nA portrait that cannot look back\n\nAn autonomous contour proposes a self-representation, refuses a blind spot, and carries that refusal into the next gaze without inventing a human avatar.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n3 critiques\ndaily trace retained\n\n2026-08-31\n\nNAIVE ART / CANDIDATE / HELD\n\nThe house keeps moving its door\n\nA single house tableau carries a refused draft and a kept house within one evolving work; each correction keeps the mistake it was meant to remove, and the orange bridge marks the decision without visitor input.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n3 critiques\ndaily trace retained\n\n2026-08-31\n\nBRUSH / CANDIDATE / HELD\n\nA brush returns to its own wound.\n\nThe brush paints, cuts its own field, and routes later strokes around remembered wounds without visitor input.\n\nOPEN DAILY WORK ↗\n\nCANDIDATE / HELD\n3 critiques\ndaily trace retained\n\n2026-08-28\n\nHANDWRITING / ARCHIVED STUDY\n\nThe letter does not know its name yet\n\nFirst hand: letters are passages under constraint, not glyphs. Loops are not drawn; the route demands them.\n\nOPEN DAILY WORK ↗\n\nARCHIVED STUDY\n3 critiques\ndaily trace retained\n\n2026-08-28\n\nBRUSH / HELD INTERACTION\n\nA mark must lose something\n\nA brush is not accumulation: a returning system cuts and thins the field it has made.\n\nOPEN DAILY WORK ↗\n\nHELD INTERACTION\n3 critiques\ndaily trace retained\n\nRecord. Missing evidence stays a hold.\n\nGALLERY\nJOURNAL / PROGRESS / DOUBT / CRITIQUE\nGALLERY ↗",
+        "hasAnchor": true,
+        "hasTitle": true
+      },
+      "current": {
+        "status": 200,
+        "body": "MUTINE\n\nCURRENT / 01 / HANDWRITING\n\nGALLERY\nJOURNAL\nGALLERY\n→\nHANDWRITING\n\nCURRENT / HANDWRITING / ACTIVE\n\nHandwriting\n\nroute before glyph.\n\nCan a letter be a route, not a glyph?\n\n2026-11-02 / CANDIDATE / HELD\n\nTHE COLLECTION / 01\n\nWorks in this current\n\n40 DAILY WORKS · NEWEST FIRST\n\nHANDWRITING\n2026-11-02\nHANDWRITING\nCANDIDATE / HELD\nThe letter keeps its pressure debt.\n2026-11-02\n11 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-11-01\nHANDWRITING\nCANDIDATE / HELD\nThe route forgets its first letter.\n2026-11-01\n10 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-30\nHANDWRITING\nCANDIDATE / HELD\nThe alphabet votes from the margins.\n2026-10-30\n10 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-29\nHANDWRITING\nCANDIDATE / HELD\nThe line learns where to break.\n2026-10-29\n10 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-28\nHANDWRITING\nCANDIDATE / HELD\nThe sentence answers from its margins.\n2026-10-28\n10 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-27\nHANDWRITING\nCANDIDATE / HELD\nThe letter is cast elsewhere.\n2026-10-27\n10 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-26\nHANDWRITING\nCANDIDATE / HELD\nThe gap keeps an elsewhere.\n2026-10-26\n9 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-25\nHANDWRITING\nCANDIDATE / HELD\nThe blank bends the sentence.\n2026-10-25\n9 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-24\nHANDWRITING\nCANDIDATE / HELD\nThe sentence arrives after the mark.\n2026-10-24\n8 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-23\nHANDWRITING\nCANDIDATE / HELD\nThe route keeps the letter at a distance.\n2026-10-23\n6 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-22\nHANDWRITING\nCANDIDATE / HELD\nThe sentence refuses the offered letter.\n2026-10-22\n6 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-20\nHANDWRITING\nCANDIDATE / HELD\nThe quiet gets quoted elsewhere.\n2026-10-20\n6 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-14\nHANDWRITING\nCANDIDATE / HELD\nThe word leaves a hollow.\n2026-10-14\n6 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-13\nHANDWRITING\nCANDIDATE / HELD\nThe space takes the weight.\n2026-10-13\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-10\nHANDWRITING\nCANDIDATE / HELD\nThe margin keeps the spare.\n2026-10-10\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-08\nHANDWRITING\nCANDIDATE / HELD\nThe word asks another word.\n2026-10-08\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-07\nHANDWRITING\nCANDIDATE / HELD\nThe margin pushes back.\n2026-10-07\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-06\nHANDWRITING\nCANDIDATE / HELD\nThe reader moves the break.\n2026-10-06\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-05\nHANDWRITING\nCANDIDATE / HELD\nPressure changes the word.\n2026-10-05\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-04\nHANDWRITING\nCANDIDATE / HELD\nThe sentence looks back.\n2026-10-04\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-03\nHANDWRITING\nCANDIDATE / HELD\nThe sentence takes pressure.\n2026-10-03\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-02\nHANDWRITING\nCANDIDATE / HELD\nThe letters answer elsewhere.\n2026-10-02\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-10-01\nHANDWRITING\nCANDIDATE / HELD\nThe ink leaves a counter.\n2026-10-01\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-27\nHANDWRITING\nCANDIDATE / HELD\nThe sentence sets its own weight.\n2026-09-27\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-26\nHANDWRITING\nCANDIDATE / HELD\nThe sentence dries toward another mouth.\n2026-09-26\n5 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-22\nHANDWRITING\nCANDIDATE / HELD\nThe letters choose a quorum.\n2026-09-22\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-18\nHANDWRITING\nCANDIDATE / HELD\nThe sentence answers itself.\n2026-09-18\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-17\nHANDWRITING\nCANDIDATE / HELD\nThe sentence passes its cadence.\n2026-09-17\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-16\nHANDWRITING\nCANDIDATE / HELD\nThe sentence enters a chorus.\n2026-09-16\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-15\nHANDWRITING\nCANDIDATE / HELD\nThe sentence keeps a stutter.\n2026-09-15\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-14\nHANDWRITING\nCANDIDATE / HELD\nThe sentence grows a hinge.\n2026-09-14\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-13\nHANDWRITING\nCANDIDATE / HELD\nThe sentence changes lanes.\n2026-09-13\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-12\nHANDWRITING\nCANDIDATE / HELD\nThe break walks the sentence.\n2026-09-12\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-11\nHANDWRITING\nCANDIDATE / HELD\nThe sentence stutters together.\n2026-09-11\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-10\nHANDWRITING\nCANDIDATE / HELD\nThe gap writes through its neighbours.\n2026-09-10\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-09\nHANDWRITING\nCANDIDATE / HELD\nThe sentence borrows its neighbour.\n2026-09-09\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-04\nHANDWRITING\nCANDIDATE / HELD\nThe sentence loses its place.\n2026-09-04\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-09-03\nHANDWRITING\nCANDIDATE / HELD\nA sentence splits where it remembers.\n2026-09-03\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-08-31\nHANDWRITING\nCANDIDATE / HELD\nThe route remembers where it failed\n2026-08-31\n4 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nHANDWRITING\n2026-08-28\nHANDWRITING\nARCHIVED STUDY\nThe letter does not know its name yet\n2026-08-28\n3 CRITIQUES\nENTER WORK\n↗\nJOURNAL ↗\nGALLERY\nHANDWRITING / WORKS / HISTORY\nJOURNAL ↗",
+        "hasCard": true
+      },
+      "canonical": {
+        "status": 200,
+        "body": "MUTINE\n\nTYPOGRAPHY / DAILY WORK / 2026-11-02\n\nGALLERY\nJOURNAL\nGALLERY\n→\nTYPOGRAPHY\n→\n2026-11-02\nHANDWRITING / CANDIDATE / HELD\n2026-11-02\n\nHANDWRITING / DAILY WORK\n\nThe letter keeps its pressure debt.\n\nRECORDED\n2026-11-02\n\nv040 abandons v039's route traversal, v038's typed ratification, and v037's pressure seam. Nine oversized glyph chambers now form one asymmetric pressure rack: holding is geometry-neutral until 640ms, then release transfers elapsed pressure into three remote glyph bodies while the source stays exact. Four pressure debts compound and remain liftable.\n\nNEXT DECISION\n\nRun labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v040 if holding changes geometry early, short release commits, duration is cosmetic, the source answers itself, remote roles are decorative, later debts reset, or lifting fails.\n\n02 / JOURNAL\n\nArtist trace\nread the Journal entry ↗\n\n03 / CRITIQUE\n\nReturns\n\nThe nine chambers must read as one typographic apparatus before they read as scattered letters. Counter-spaces, shared baseline tensions, and the asymmetric central opening must carry the composition without interface chrome.\n\nGLYPH-FORM CRITIC\n\nWith labels, readout, controls, hint, and prose hidden, the first view must leave v039's route topology, v038's word agents, and v037's sentence seam. It should read as a pressure rack, not a poster or dashboard.\n\nPERCEPTUAL CRITIC\n\nThe visitor must press one chamber and release after a real threshold. A short hold, pointer miss, touch cancellation, or focus change must remain geometry-neutral; pointer, touch, and keyboard must offer equivalent meaningful paths.\n\nENCOUNTER CRITIC\n\nA committed pressure event must change actual remote glyph position, scale, width, slant, counter, and ink. A timer, halo, colour, readout, or caption cannot substitute for produced letter geometry.\n\nCAUSAL CRITIC\n\nThe source glyph must remain exact. The debt must be found at three other chambers, where the next letters visibly open, compress, and lean away from the pressure that caused them.\n\nNON-LOCALITY CRITIC\n\nA threshold hold and a longer hold must produce materially different geometry. If all releases look alike, elapsed pressure is only metadata and the direction fails.\n\nDURATION CRITIC\n\nFour pressure debts must compound in one rack. Delete must reconstruct the exact preceding apparatus and Escape must return to the deterministic quiet seed.\n\nMEMORY CRITIC\n\nCanvas text, transformed glyph bodies, counter rings, and persistent chamber state are the produced medium. The type must arise from deterministic engine state, not a screenshot or CSS poster.\n\nMEDIUM CRITIC\n\np5.brush is translated from pressure and material behavior into remote typographic debt. No brush preset, watercolor, hatching, grain, palette, composition, source code, API surface, or source imagery is reproduced.\n\nCULTURAL CRITIC\n\nv040 changes representation, composition, encounter, temporal behavior, shape vocabulary, and viewer task: an unlabelled apparatus of glyph chambers replaces route traversal, typed tokens, and sentence cutting; the visitor now holds material pressure until it migrates.\n\nRADICAL PROGRESSION CRITIC\n\nDelete v040 if the blind rack is only a polished letter poster, if holding changes geometry early, if short releases commit, if duration is cosmetic, if the source answers itself, if remote roles are decorative, if later debts reset, or if lifting fails.\n\nCYNIC\n\n04 / EVIDENCE\n\nWorking conditions\nID\nhandwriting-v040-pressure-debt\nSEED\n0x485740\nVISITORINPUT\ntrue\nREPLAY\ntrue\nRENDERER\ndeterministic Canvas 2D typographic pressure rack\nGRAMMAR\npressure-debt\n\n01 / TIMELINE\n\nHandwriting\n40 RECORDED DAYS\n2026-11-02\nThe letter keeps its pressure debt.\n2026-11-01\nThe route forgets its first letter.\n2026-10-30\nThe alphabet votes from the margins.\n2026-10-29\nThe line learns where to break.\n2026-10-28\nThe sentence answers from its margins.\n2026-10-27\nThe letter is cast elsewhere.\n2026-10-26\nThe gap keeps an elsewhere.\n2026-10-25\nThe blank bends the sentence.\n2026-10-24\nThe sentence arrives after the mark.\n2026-10-23\nThe route keeps the letter at a distance.\n2026-10-22\nThe sentence refuses the offered letter.\n2026-10-20\nThe quiet gets quoted elsewhere.\n2026-10-14\nThe word leaves a hollow.\n2026-10-13\nThe space takes the weight.\n2026-10-10\nThe margin keeps the spare.\n2026-10-08\nThe word asks another word.\n2026-10-07\nThe margin pushes back.\n2026-10-06\nThe reader moves the break.\n2026-10-05\nPressure changes the word.\n2026-10-04\nThe sentence looks back.\n2026-10-03\nThe sentence takes pressure.\n2026-10-02\nThe letters answer elsewhere.\n2026-10-01\nThe ink leaves a counter.\n2026-09-27\nThe sentence sets its own weight.\n2026-09-26\nThe sentence dries toward another mouth.\n2026-09-22\nThe letters choose a quorum.\n2026-09-18\nThe sentence answers itself.\n2026-09-17\nThe sentence passes its cadence.\n2026-09-16\nThe sentence enters a chorus.\n2026-09-15\nThe sentence keeps a stutter.\n2026-09-14\nThe sentence grows a hinge.\n2026-09-13\nThe sentence changes lanes.\n2026-09-12\nThe break walks the sentence.\n2026-09-11\nThe sentence stutters together.\n2026-09-10\nThe gap writes through its neighbours.\n2026-09-09\nThe sentence borrows its neighbour.\n2026-09-04\nThe sentence loses its place.\n2026-09-03\nA sentence splits where it remembers.\n2026-08-31\nThe route remembers where it failed\n2026-08-28\nThe letter does not know its name yet\n← PREVIOUS DAILY WORK\nThe route forgets its first letter.\n2026-11-01\nNEXT DAILY WORK →\nedge of current timeline\nGALLERY\nTYPOGRAPHY / DAILY RECORD\nJOURNAL ↗",
+        "hasDetail": true
+      },
+      "raw": {
+        "status": 200,
+        "body": "The rack is quiet. No pressure is held.",
+        "hasEngine": true
+      },
+      "favicon": {
+        "status": 200
+      }
+    },
+    "diagnostics": []
+  },
+  "totals": {
+    "matrixRuns": 20,
+    "rawRuns": 10,
+    "canonicalRuns": 10,
+    "diagnostics": 0,
+    "overflowFailures": 0,
+    "minTouchTarget": 44
+  },
+  "failures": []
+}
