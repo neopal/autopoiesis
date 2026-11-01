@@ -98,11 +98,11 @@ The scheduled slot helper then selected `brush` for `2026-11-01` with cultural r
 - Local headless browser evidence: **20/20 raw/canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; diagnostics `0`, overflow `0`, minimum control target `44px`; pointer, touch, keyboard, threshold refusal, release-only geometry change, exact lift, blind preview, raw/canonical/current/Journal readbacks, public catalog, and favicon passed.
 - Targeted tests: **7/7 passed**; full suite: **1276/1276 passed**; JavaScript syntax, JSON parsing, and `git diff --check` passed.
 - Local proof archive: `research/qa/proofs/brush-v044-2026-11-01/`.
-- Production stable alias: `https://autopoiesis-nine.vercel.app`.
-- Production deployment: `dpl_A8WtpnSzzdbQDDFbx74MJe1F7WTz` at `https://autopoiesis-oy9o739as-lairpa-hotmailfrs-projects.vercel.app`; production alias was updated and returned the new record.
+- Production deployment 1 (artifact): `dpl_A8WtpnSzzdbQDDFbx74MJe1F7WTz` at `https://autopoiesis-oy9o739as-lairpa-hotmailfrs-projects.vercel.app`.
+- Production deployment 2 (evidence register): `dpl_518mtmH5XrNFPHrPgjAj42FsZbnt` at `https://autopoiesis-8jbvw0q6m-lairpa-hotmailfrs-projects.vercel.app`; the stable alias was updated again with the final source register.
 - Stable-alias headless browser evidence: **20/20 raw/canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; diagnostics `0`, overflow `0`, minimum control target `44px`; pointer, touch, keyboard, blind preview, Journal, canonical/raw/current/catalog/favicon readbacks passed.
-- Remote SHA matched local artifact commit: `aaeaf38bcf1c8bd3a6fc4ac7d7452bfdd3f5c9eb`.
+- Artifact commit: `aaeaf38bcf1c8bd3a6fc4ac7d7452bfdd3f5c9eb`; final evidence commit and remote SHA: `690958c20ea6529a68f4dbe48d40f7453f6f49c9`.
 - Production proof archive: `research/qa/proofs/brush-v044-2026-11-01-production/` (`23` screenshots plus `qa-summary.json`).
-- Follow-up production evidence must still be committed and deployed because the source register now carries deployment proof. The candidate remains held pending independent caption-free perceptual review and provider revision linkage.
+- Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved; the final stable-alias readback and GitHub remote comparison passed.
 
 **Brush v044 status: stable-alias production gate passed; evidence commit/deployment follow-up pending.**
