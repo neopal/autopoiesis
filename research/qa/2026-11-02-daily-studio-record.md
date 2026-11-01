@@ -39,11 +39,12 @@ The last three handwriting works tested a folded SVG sentence with a pressure cu
 - Local interaction: short pointer hold refused without geometry change; threshold pointer hold transferred to exactly three remote chambers while the source stayed exact; duration was structural; Delete lifted; keyboard, button, and touch paths committed; release returned to quiet.
 - Local blind preview: `390×844`, Canvas visible, 9 chambers, 4 debts, controls/readout/note/hint hidden, `innerWidth/clientWidth/scrollWidth=390/390/390`.
 - Local canonical/readbacks: works JSON, public catalog JSON, Journal anchor/title, Handwriting current/card, canonical tableau, raw tableau, and favicon returned/rendered; diagnostics `0`, overflow `0`, minimum touch target `44px`.
-- Proof archive: `research/qa/proofs/handwriting-v040-2026-11-02/`.
+- Stable-alias production headless browser matrix: **20/20 passed** across the same five viewports and two motion modes; interaction, blind preview, canonical tableau-first route, diagnostics `0`, overflow `0`, and minimum touch target `44px` were read back from `https://autopoiesis-nine.vercel.app`.
+- Stable-alias production readbacks: exactly one `typography-2026-11-02` record in deployed works/public catalogue JSON; Journal anchor/title, Handwriting current/card, canonical tableau, raw tableau, and favicon returned/rendered.
+- Proof archives: `research/qa/proofs/handwriting-v040-2026-11-02/` and `research/qa/proofs/handwriting-v040-2026-11-02-production/`.
 
 ## Unresolved doubt
 
-- Production browser matrix and production readbacks are not yet observed.
 - Independent caption-free perceptual review is unavailable in this unattended run.
 - Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved.
 
