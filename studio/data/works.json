@@ -2,6 +2,125 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "svg-2026-11-01",
+      "currentId": "svg",
+      "date": "2026-11-01",
+      "title": "The body knots a second opening.",
+      "rawPath": "/studies/pure-svg/v042/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-svg-2026-11-01",
+        "note": "v042 abandons v041's hinge register, v040's aperture mass, and v039's winding contour. Seven filled SVG chambers now make one uneven body with a dark internal seam: a continuous crossing through two skin gates stays exact until release, then knots three unvisited chambers as unseal, fold, and seal. Four knots compound and remain liftable."
+      },
+      "critiques": [
+        {
+          "persona": "Body-form critic",
+          "argument": "Seven filled chambers must read as one strange body with an internal seam before they read as separate panels. The uneven mass, bevels, cuts, and open ground must carry the composition without interface chrome."
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, gate marks, and prose hidden, the first view must leave v039's winding contour, v040's aperture slab, and v041's hinge register. It should read as a faceted SVG organism, not a panel diagram, route map, or icon sheet."
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must make one continuous crossing through two distinct skin gates. A single gate, repeated gate, pointer miss, or focus change must remain geometry-neutral; pointer, touch, keyboard, and control paths need equivalent meaningful crossings."
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "Only release after the second gate may change geometry. Three unvisited chamber polygons must change actual size, position, notch, and rotation; colour, markers, readout, and prose cannot substitute."
+        },
+        {
+          "persona": "Non-locality critic",
+          "argument": "The crossed gates must stay exact enough to prove that the body answers elsewhere. The visitor should locate the unseal, fold, and seal away from the two gates that formed the crossing."
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four chamber knots must compound in one body. Later knots inherit earlier polygon changes, Delete reconstructs the exact previous body, and release restores the quiet seed."
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "Generated SVG polygons, chamber cuts, and the generated body rib are the produced medium. No screenshot, CSS poster, imported asset, or static fallback may carry the work."
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated proximity and reciprocal attention into a continuous crossing and remote chamber answer. Animals, eyes, characters, paper, head-turning, source palette, composition, code, examples, API names, and surface vocabulary are refused."
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v042 changes representation, composition, encounter, temporal behaviour, medium, and viewer task: paths and selected joints become a filled chamber body; three-click route selection becomes one crossing gesture whose consequence arrives only on release."
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v042 if crossing changes geometry early, a repeated gate commits, crossed chambers answer themselves, remote roles are cosmetic, the blind body reads as a panel diagram, or later knots reset."
+        }
+      ],
+      "metrics": {
+        "id": "pure-svg-v042-chamber-knot",
+        "seed": "0x53564742",
+        "visitorInput": true,
+        "replay": true,
+        "renderer": "deterministic inline SVG chamber body",
+        "grammar": "chamber-body",
+        "chamberCount": 7,
+        "gateCount": 6,
+        "memoryWindow": 4,
+        "primitiveBudget": "7 generated polygon chambers, one generated body rib, six transient gates",
+        "commitThreshold": "one continuous sweep crossing two distinct gates, then one chamber knot committed",
+        "memoryRule": "the crossing stays exact; release knots three remote chambers as unseal, fold, and seal roles; four knots persist",
+        "interactionRule": "pointer or touch drags through two distinct gates; ArrowRight arms the deterministic crossing and Enter commits; Delete lifts latest; Escape or R releases",
+        "representationRupture": "paired hinge paths, compound contour, and aperture mass -> seven filled polygon chambers making one faceted SVG body",
+        "compositionRupture": "sparse diagonal register, heavy slab, and singular contour -> dense off-axis body with a dark internal seam and six skin gates",
+        "encounterRupture": "three-click route, absence selection, and delayed answer -> one continuous crossing through two gates followed by release",
+        "temporalRupture": "route verdict, remote aperture, and winding memory -> transient crossing followed by a discrete chamber knot with four retained events",
+        "mediumRupture": "paired SVG paths and compound even-odd paths -> generated SVG polygons, generated rib path, and produced chamber cuts",
+        "changedRule": "A single continuous crossing is geometry-neutral. Only release after two distinct gates knots three unvisited chamber polygons, while the crossed gates stay exact.",
+        "visibleConsequence": "The blind view is a seven-chamber faceted body, not a path register. A valid crossing changes remote polygon size, position, notch, and rotation; four knots remain visible and liftable.",
+        "falsifier": "Delete if a gate changes geometry before release, if a repeated gate commits, if only colour or readout changes, if crossed chambers answer themselves, if the blind field reads as a panel diagram, or if later knots reset.",
+        "deletionCondition": "Delete v042 if caption-free viewing cannot distinguish the chamber body from v039-v041 or if the remote polygon changes are not materially visible.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "little-critters"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "Situated code-drawn agents make pointer proximity legible as reciprocal attention; the visitor enters a small social field and local behaviour answers without a dashboard.",
+        "translatedRule": "Refuse animals, eyes, characters, paper scenes, head-turning, source palette, source composition, source code, examples, and API surface. Translate situated reciprocity into a single faceted SVG body: a continuous crossing through two skin gates is remembered only when released, and the answer is produced in three unvisited chambers.",
+        "visibleConsequence": "The blind view is seven filled polygon chambers around a dark internal seam. A crossing is geometry-neutral. A valid release changes remote chamber size, position, notch, and rotation while the crossed gates' chambers stay exact; four knots persist.",
+        "falsifier": "If a gate changes geometry before release, if a repeated gate commits, if remote changes exist only in colour or readout, if crossed chambers answer themselves, if the blind field reads as a panel diagram, or if later knots reset, the translation fails.",
+        "antiCopy": "No animals, eyes, head-turning scene, character design, paper style, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+        "directionConsequence": "Closes the Pure SVG mass / contour / hinge-register sequence and opens chamber-body: reciprocal attention becomes a continuous crossing whose consequence is a remote reconfiguration of filled SVG facets.",
+        "selectedBySlot": true
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, gate-marks-off, and prose-off comparison; delete v042 if crossing changes geometry early, if a repeated gate commits, if crossed chambers answer themselves, if remote roles are cosmetic, if the blind body reads as a panel diagram, or if later knots reset.",
+        "lineage": "svg-2026-10-31"
+      },
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, keyboard, incomplete-sweep refusal, lift, release, blind preview, raw/canonical readbacks, overflow, touch targets, SVG rendering, favicon, and diagnostics passed; production verification and independent caption-free perceptual review remain pending",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+        "modes": ["normal", "reduced-motion"],
+        "localRawPreview": "/studies/pure-svg/v042/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/pure-svg/v042/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/svg-2026-11-01/",
+        "localViewportRuns": 20,
+        "localRawViewportRuns": 10,
+        "localCanonicalViewportRuns": 10,
+        "localDiagnostics": 0,
+        "localOverflow": 0,
+        "localMinTouchTarget": 44,
+        "localInteraction": "Real pointer drag through two distinct gates kept the initial body exact until release; release changed three remote chamber polygons; Delete restored the exact quiet body; ArrowRight plus Enter committed the equivalent keyboard crossing; R released; an incomplete/repeated gate did not commit; all three controls measured 44px at 390x844.",
+        "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 kept seven SVG chamber polygons and four settled knots visible while hiding readout, controls, annotations, gate marks, and key shortcuts; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "localReadbacks": "Local rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v042 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
+        "localProofPath": "research/qa/proofs/pure-svg-v042-2026-11-01/",
+        "localScreenshotCount": 3,
+        "unresolved": ["production browser matrix and deployed readback", "independent caption-free perceptual review", "provider revision linkage between deployment and GitHub SHA"]
+      }
+    },
+    {
       "id": "typography-2026-11-01",
       "currentId": "typography",
       "date": "2026-11-01",

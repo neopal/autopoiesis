@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11161a">
+  <title>MUTINE — The body knots a second opening.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction';
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=042">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-11-01"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v042</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v042</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="A faceted SVG chamber body whose remote openings change after a continuous crossing" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="ArrowRight Enter Space Delete Escape R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>quiet body / 00</span><span data-memory>0 knots · no chamber has answered</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="cross-control" data-gesture="cross">cross two gates</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release body</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Seven filled chambers make one uneven body. Six small gates sit in its skin; they are openings, not nodes in a map.</p></div>
+          <div><span>changed rule</span><p>A single continuous crossing stays geometry-neutral. Only crossing two distinct gates and releasing knots three unvisited chambers.</p></div>
+          <div><span>progression</span><p>Drag through two gates, or use ArrowRight then Enter. Delete lifts one knot; Escape or R releases the body.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V042 / DAILY WORK</p><h1 id="work-title">The body knots<br><i>a second opening.</i></h1></div>
+        <p class="work-premise">The hand crosses the skin once. The body does not answer at the crossing; it changes three chambers elsewhere, as if its own openings had been listening.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a continuous two-gate sweep is neutral, a release changes three remote chamber polygons, four knots compound deterministically, and lifting restores the exact prior body. Promotion depends on whether the filled chamber grammar reads as a strange SVG animal rather than a panel diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=042"></script>
+</body>
+</html>

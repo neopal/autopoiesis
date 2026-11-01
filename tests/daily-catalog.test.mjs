@@ -5,6 +5,7 @@ import { access, readFile } from 'node:fs/promises';
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
 
 const expectedDailyIds = [
+  'svg-2026-11-01',
   'typography-2026-11-01',
   'portrait-2026-11-01',
   'webgpu-2026-10-31',
@@ -379,6 +380,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'typography-2026-08-28'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'svg').works.map((work) => work.id), [
+    'svg-2026-11-01',
     'svg-2026-10-31',
     'svg-2026-10-30',
     'svg-2026-10-29',
