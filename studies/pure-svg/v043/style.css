@@ -1,0 +1,86 @@
+:root {
+  --ground: #121113;
+  --surface: #1c191b;
+  --ink: #f4ead5;
+  --muted: #abb0aa;
+  --line: rgba(244, 234, 213, .18);
+  --accent: #f2c96d;
+  --coral: #e99079;
+  --blue: #8fc7c2;
+  --plum: #a89ac1;
+}
+
+html, body { background: var(--ground); }
+body.work-page[data-current='svg'] { color: var(--ink); }
+body.work-page[data-current='svg'] .studio-shell {
+  background: radial-gradient(circle at 10% 12%, rgba(242, 201, 109, .11), transparent 25rem),
+    radial-gradient(circle at 88% 76%, rgba(143, 199, 194, .12), transparent 30rem), var(--ground);
+}
+body.work-page[data-current='svg'] .studio-header,
+body.work-page[data-current='svg'] .studio-footer { border-color: var(--line); }
+body.work-page[data-current='svg'] .studio-header p,
+body.work-page[data-current='svg'] .studio-footer,
+body.work-page[data-current='svg'] .studio-path { color: var(--muted); }
+
+.work-surface { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem); gap: 1.5rem; align-items: start; }
+.field-wrap { position: relative; min-width: 0; overflow: hidden; background: #0e0d10; }
+#field { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 760; background: #0e0d10; touch-action: none; cursor: crosshair; }
+#field:focus-visible { outline: 2px solid var(--accent); outline-offset: -8px; }
+.field-ground { fill: url(#loom-ground); }
+.field-glow { fill: url(#loom-glow); pointer-events: none; }
+.loom-edge { fill: none; stroke: rgba(244, 234, 213, .18); stroke-width: 2; stroke-dasharray: 2 17; pointer-events: none; }
+.pressure-zone { fill: none; stroke: rgba(242, 201, 109, .48); stroke-width: 2; stroke-dasharray: 1 10; pointer-events: none; }
+.pressure-zone.is-pending { stroke: var(--accent); stroke-width: 4; stroke-dasharray: 3 7; }
+.strand-shadow { fill: rgba(0, 0, 0, .62); transform: translate(0 14px); filter: url(#loom-shadow); pointer-events: none; transition: d 720ms cubic-bezier(.2,.8,.2,1); }
+.strand { stroke: rgba(244, 234, 213, .72); stroke-width: 2.2; stroke-linejoin: bevel; transition: d 720ms cubic-bezier(.2,.8,.2,1), fill 720ms ease; }
+.strand[data-tone='gold'] { fill: url(#strand-gold); }
+.strand[data-tone='coral'] { fill: url(#strand-coral); }
+.strand[data-tone='blue'] { fill: url(#strand-blue); }
+.strand[data-tone='plum'] { fill: url(#strand-plum); }
+.strand-edge { fill: none; stroke: rgba(255, 248, 226, .55); stroke-width: 1.1; stroke-linejoin: bevel; pointer-events: none; transition: d 720ms cubic-bezier(.2,.8,.2,1); }
+.strand-core { fill: none; stroke: rgba(14, 13, 16, .58); stroke-width: 5; stroke-linecap: round; pointer-events: none; transition: d 720ms cubic-bezier(.2,.8,.2,1); }
+.material-notch { fill: none; stroke: rgba(13, 12, 15, .84); stroke-width: 7; stroke-linecap: round; pointer-events: none; }
+.field-readout { position: absolute; inset: auto 1rem 1rem; display: flex; justify-content: space-between; gap: 1rem; color: rgba(244, 234, 213, .82); font: 10px/1.2 'DM Mono', ui-monospace, monospace; letter-spacing: .07em; text-transform: uppercase; pointer-events: none; }
+.field-controls { position: absolute; top: 1rem; right: 1rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; max-width: 74%; }
+.field-controls button { min-height: 44px; padding: .65rem .8rem; border: 1px solid rgba(242, 201, 109, .55); border-radius: 999px; background: rgba(14, 13, 16, .9); color: var(--ink); font: 11px/1 'DM Mono', ui-monospace, monospace; cursor: pointer; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--accent); color: #fff3cf; }
+.work-annotations { display: grid; gap: 1rem; color: var(--muted); }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .7rem; }
+.work-annotations span { display: block; margin-bottom: .45rem; color: var(--accent); font: 10px/1 'DM Mono', ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
+.work-annotations p { margin: 0; font: .83rem/1.45 'DM Mono', ui-monospace, monospace; }
+.work-opening { display: grid; grid-template-columns: minmax(0, .85fr) minmax(14rem, .6fr); gap: 2rem; padding: clamp(2rem, 6vw, 5rem) 0 2rem; align-items: end; }
+.work-opening h1 { max-width: 11ch; margin: .35rem 0 0; color: var(--ink); font: 400 clamp(3.2rem, 7.6vw, 7.6rem)/.82 'Instrument Serif', Georgia, serif; letter-spacing: -.06em; }
+.work-opening h1 i { color: #edbf9a; font-style: italic; }
+.work-premise { max-width: 30rem; margin: 0; color: #bcc2b9; font: 1rem/1.5 'DM Mono', ui-monospace, monospace; }
+.work-note { max-width: 48rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1rem 0; color: var(--muted); }
+.work-note p { margin: 0; font: .78rem/1.55 'DM Mono', ui-monospace, monospace; }
+.work-note strong { color: var(--ink); font-weight: 500; }
+
+html.preview-mode .studio-header, html.preview-mode .studio-footer, html.preview-mode .studio-path, html.preview-mode .work-opening, html.preview-mode .work-note, html.preview-mode .work-annotations { display: none; }
+html.preview-mode .studio-main { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .work-surface { display: block; }
+html.preview-mode .field-wrap { border: 0; }
+html.blind-mode .field-readout, html.blind-mode .field-controls, html.blind-mode .work-annotations, html.blind-mode .work-opening, html.blind-mode .work-note { display: none; }
+html.static-mode .field-readout, html.static-mode .field-controls, html.static-mode .pressure-zones { display: none; }
+
+@media (max-width: 980px) {
+  .work-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, 1fr); }
+  .work-opening { grid-template-columns: 1fr .8fr; }
+}
+
+@media (max-width: 680px) {
+  .work-surface { gap: 1rem; }
+  .field-controls { inset: auto .65rem .65rem; max-width: none; justify-content: stretch; }
+  .field-controls button { flex: 1 1 8rem; padding-inline: .45rem; font-size: 10px; }
+  .field-readout { inset: .65rem .65rem auto; flex-direction: column; gap: .25rem; font-size: 9px; }
+  .work-annotations { grid-template-columns: 1fr; gap: .75rem; }
+  .work-opening { grid-template-columns: 1fr; gap: 1.25rem; padding-top: 2.5rem; }
+  .work-opening h1 { font-size: clamp(3rem, 14vw, 5.2rem); }
+  .work-premise { font-size: .82rem; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; }
+  .strand, .strand-edge, .strand-shadow, .strand-core { transition: none; }
+}
