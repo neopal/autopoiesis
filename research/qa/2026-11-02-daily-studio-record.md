@@ -237,7 +237,7 @@ The last three Naive works were v041's browser-native sentence of wrong words, v
 ### Publication state
 
 - Artifact commit: `ae2b188005ecd81ae6d51a22f007554f49479124`.
-- Remote `main`: `e39ee2602b7502d104aa699b6ee63b90d98d9bf9`.
+- Deployment source remote SHA: `e39ee2602b7502d104aa699b6ee63b90d98d9bf9`.
 - Production deployment: `dpl_HgPRRGRybRUmkuHPUHHJC6AGVdAS`, deployment URL `https://autopoiesis-l8nqewh2z-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app/`, state `READY`.
 - Candidate remains held pending independent caption-free perceptual review and provider revision linkage between the Vercel deployment and GitHub SHA.
 
