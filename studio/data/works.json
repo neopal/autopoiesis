@@ -254,7 +254,7 @@
         "lineage": "portrait-2026-11-01"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending stable-alias production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -284,10 +284,22 @@
         "localProofPath": "research/qa/proofs/portrait-v040-2026-11-02/",
         "localScreenshotCount": 25,
         "unresolved": [
-          "stable-alias production browser matrix",
           "independent caption-free perceptual review",
           "provider revision linkage between deployment and GitHub SHA"
-        ]
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "/studies/self-portrait/v040/?preview=1&interaction=1",
+        "productionBlindPreview": "/studies/self-portrait/v040/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "/works/portrait-2026-11-02/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable-alias pointer clicks kept the first two pulses geometry-neutral; a returned third pulse plus seal recut three remote apertures while both visited cuts stayed exact; Delete restored the exact prior mask; ArrowLeft + ArrowRight + ArrowLeft + Enter committed an equivalent keyboard return; Escape released; a non-return sequence was refused; synthetic touchscreen clicks committed; all four controls measured 44px at 390x844.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept one Canvas 2D return-mask with 12 apertures and four settled returns visible while hiding readout, controls, hint, labels, and caption; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable-alias rendered Journal anchor/title, Self portrait current/card, canonical work title/tableau, raw v040 tableau, source works.json record, public catalog record, and favicon returned/rendered."
       }
     },
     {
