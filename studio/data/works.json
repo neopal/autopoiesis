@@ -94,7 +94,7 @@
         "lineage": "brush-2026-11-01"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending stable-alias production matrix, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -123,6 +123,25 @@
         "localReadbacks": "Local rendered Journal anchor/title, Brush current/card, canonical work title/tableau, raw v045 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
         "localProofPath": "research/qa/proofs/brush-v045-2026-11-02/",
         "localScreenshotCount": 23,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v045/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/p5-brush/v045/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/brush-2026-11-02/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionOverflow": 0,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable-alias real pointer traversal compressed the left jaw and then the right jaw; one-sided pressure stayed geometry-neutral; opposed release changed remote panel, seam, opening, and crease geometry; Delete restored the exact quiet clasp; the compression control, ArrowLeft plus ArrowRight, and synthetic touchscreen traversal committed equivalent events; Escape released; all three controls measured 44px at 390x844.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept one Canvas opposing-jaw clasp visible with 9 generated panels, 4 openings, and four settled creases while hiding readout, controls, guides, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable alias rendered Journal anchor/title, Brush current/card, canonical work title/tableau, raw v045 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
+        "productionProofPath": "research/qa/proofs/brush-v045-2026-11-02-production/",
+        "productionScreenshotCount": 23,
+        "productionDeploymentId": "dpl_9zrWC6D3mRWRo2JkMQVMyG1e7MT4",
+        "productionDeploymentUrl": "https://autopoiesis-qzfpslib2-lairpa-hotmailfrs-projects.vercel.app",
+        "artifactCommit": "6423354ab20d9da479fe242e91583cb456b86dc3",
+        "publicationRemoteSha": "6423354ab20d9da479fe242e91583cb456b86dc3",
         "unresolved": [
           "independent caption-free perceptual review",
           "provider revision linkage between final Vercel deployment and GitHub SHA"

@@ -177,6 +177,17 @@ v045 abandons v044's one-way horizontal pressure strata, v043's sequential witne
 - Local canonical/readbacks: source works JSON, public catalog JSON, rendered Journal anchor/title, Brush current/card, canonical tableau, raw tableau, and favicon returned/rendered; diagnostics `0`, overflow `0`.
 - Local proof archive: `research/qa/proofs/brush-v045-2026-11-02/` with 23 screenshots and `qa-summary.json`.
 
-### Publication boundary
+### Publication
 
-Production stable-alias verification, GitHub SHA synchronization, and Vercel deployment evidence are not yet recorded in this section. Candidate remains held; exhibition readiness is not claimed.
+- Artifact commit: `6423354ab20d9da479fe242e91583cb456b86dc3`.
+- Remote `main`: matched `6423354ab20d9da479fe242e91583cb456b86dc3` before production deployment.
+- First production deployment: `dpl_9zrWC6D3mRWRo2JkMQVMyG1e7MT4`, deployment URL `https://autopoiesis-qzfpslib2-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, state `READY`.
+- Stable-alias production headless browser matrix: **20/20 passed** across the same five viewports and two motion modes; pointer, keyboard, touch, blind preview, overflow, touch targets, diagnostics, canonical route, Journal anchor/title, registry readbacks, and favicon all passed.
+- Production proof archive: `research/qa/proofs/brush-v045-2026-11-02-production/` with 23 screenshots and `qa-summary.json`.
+
+### Unresolved doubt
+
+- Independent caption-free perceptual review remains unavailable in this unattended run.
+- Provider revision linkage between the Vercel deployment and GitHub SHA remains unresolved.
+
+Candidate remains held; exhibition readiness is not claimed.
