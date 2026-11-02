@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d18">
+  <meta name="description" content="A kinetic witness field turns a closed circuit into a remote shadow quorum; the unobserved agents carry the archive.">
+  <title>MUTINE — The crowd leaves an unobserved shadow.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=042">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-11-02"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="shadow-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v042 / shadow quorum</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="shadow-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v042</span></nav>
+      <section class="shadow-work" aria-label="WebGPU daily work">
+        <figure class="shadow-frame artwork-frame">
+          <canvas id="shadow-field" role="img" aria-label="Eighteen drifting witness shards with remote shadows in a dark kinetic field"></canvas>
+          <div class="shadow-readout" role="status" aria-live="polite"><span data-stage>circuit 01 / 05</span><span data-memory>0 shadows</span><span data-renderer>P5.JS / CANVAS 2D / SHADOW QUORUM</span></div>
+          <div class="shadow-status" data-status>close the circuit, then return to its beginning</div>
+          <div class="shadow-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="circuit">close circuit</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V042 / DAILY WORK</span><span>circle → return → remote shadow</span></figcaption>
+        </figure>
+        <aside class="shadow-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The fossil, depth sheets, and lattice are gone. Eighteen kinetic witness shards now move through one broken current; their after-images are the material.</p></div>
+          <div><span>changed rule</span><p>A circuit is geometry-neutral while it is open. Only a closed return creates a shadow quorum in the unobserved part of the field, and its direction changes the remote cast.</p></div>
+          <div><span>progression</span><p>Drag a loop around the field and return near your beginning. Enter closes the next deterministic circuit; Delete lifts one shadow; Escape releases the archive.</p></div>
+        </aside>
+      </section>
+      <section class="shadow-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V042 / DAILY WORK</p><h1 id="work-title">The crowd leaves<br><i>an unobserved shadow.</i></h1></div>
+        <p class="shadow-premise">A crowd becomes an archive when the witness is not where the consequence appears.</p>
+      </section>
+      <section class="shadow-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> v042 abandons v039's pressure reservoirs, v040's depth accord, and v041's waiting fossil: the work is now a continuously moving witness field whose only committing gesture is a closed circuit. Promotion depends on whether the blind field reads as a kinetic archive rather than a particle demo or decorative trail.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>circuit → shadow → archive</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=042a"></script>
+</body>
+</html>
