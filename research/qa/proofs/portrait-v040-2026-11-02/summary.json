@@ -1,0 +1,145 @@
+{
+  "production": false,
+  "matrixCount": 2,
+  "matrixPassed": true,
+  "interactionPassed": true,
+  "blindPassed": true,
+  "readbacksPassed": true,
+  "diagnosticCount": 0,
+  "overflowCount": 0,
+  "registryStatus": 200,
+  "publicCatalogStatus": 200,
+  "faviconStatus": 200,
+  "recordMatches": 1,
+  "catalogMatches": 1,
+  "matrix": [
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvasVisible": true,
+        "canvas": {
+          "width": 390,
+          "height": 844,
+          "canvas2d": true
+        },
+        "state": {
+          "revision": 0,
+          "memory": 0,
+          "apertures": 12,
+          "interaction": "quiet"
+        },
+        "controls": [
+          {
+            "text": "send pulse",
+            "height": 44
+          },
+          {
+            "text": "seal cadence",
+            "height": 44
+          },
+          {
+            "text": "lift last cut",
+            "height": 44
+          },
+          {
+            "text": "release mask",
+            "height": 44
+          }
+        ],
+        "readoutVisibility": "visible",
+        "controlsVisibility": "visible",
+        "hintVisibility": "visible",
+        "reducedMotion": false
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v040-2026-11-02\\raw-normal-390x844.png",
+      "screenshotBytes": 228844
+    },
+    {
+      "routeName": "raw",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "shell": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "iframeTop": null,
+        "headingTop": null,
+        "tableauFirst": true,
+        "ready": null
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvasVisible": true,
+        "canvas": {
+          "width": 390,
+          "height": 844,
+          "canvas2d": true
+        },
+        "state": {
+          "revision": 0,
+          "memory": 0,
+          "apertures": 12,
+          "interaction": "quiet"
+        },
+        "controls": [
+          {
+            "text": "send pulse",
+            "height": 44
+          },
+          {
+            "text": "seal cadence",
+            "height": 44
+          },
+          {
+            "text": "lift last cut",
+            "height": 44
+          },
+          {
+            "text": "release mask",
+            "height": 44
+          }
+        ],
+        "readoutVisibility": "visible",
+        "controlsVisibility": "visible",
+        "hintVisibility": "visible",
+        "reducedMotion": true
+      },
+      "diagnostics": {
+        "consoleMessages": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "badResponses": []
+      },
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v040-2026-11-02\\raw-reduced-390x844.png",
+      "screenshotBytes": 192470
+    }
+  ],
+  "interaction": null,
+  "blind": null,
+  "journal": null,
+  "current": null,
+  "work": null,
+  "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v040-2026-11-02"
+}

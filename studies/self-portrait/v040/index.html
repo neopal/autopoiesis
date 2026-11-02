@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1018">
+  <title>MUTINE — The portrait remembers your returns.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=040">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-11-02"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v040-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v040 / RETURN MASK</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v040-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v040</span></nav>
+
+      <figure class="v040-work artwork-frame" aria-labelledby="work-title">
+        <div class="return-stage" data-return-stage tabindex="0" role="application" aria-label="A planar self portrait with twelve cut apertures. Send three pulses by returning to the first aperture through another aperture, then seal the cadence to recut the mask elsewhere." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Backspace R Escape">
+          <canvas class="return-canvas" data-return-canvas aria-label="A single planar mask with twelve generated cut apertures"></canvas>
+          <div class="return-label return-label--top" aria-hidden="true">A RETURN IS NOT A REPEAT</div>
+          <div class="return-label return-label--side" aria-hidden="true">12 / CUTS</div>
+          <div class="return-readout" aria-live="polite"><span data-stage>quiet mask / 00</span><span data-memory>0 returns held</span><span data-state>the mask is waiting for a return</span></div>
+          <p class="return-hint" data-hint>pulse a cut · visit another · return · seal</p>
+          <div class="return-controls" aria-label="Return cadence encounter controls">
+            <button type="button" data-action="pulse">send pulse</button>
+            <button type="button" data-action="seal">seal cadence</button>
+            <button type="button" data-action="lift">lift last cut</button>
+            <button type="button" data-action="release">release mask</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v040-return-mask</span><span>pulse &gt; leave &gt; return</span></figcaption>
+      </figure>
+
+      <section class="v040-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / RECIPROCAL MEMORY / v040</p>
+        <h1 id="work-title">The portrait remembers<br><i>your returns.</i></h1>
+        <p class="v040-lede">A flat mask gives the visitor no face to select. Three pulses become meaningful only as a return: the first cut, a different cut, then the first again. Sealing that cadence recuts three distant apertures and bends the mask's own seam.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THE MASK NEEDS A RETURN, NOT A CHOICE</p>
+          <p class="interaction-copy">Tap or click an aperture three times, with the first and third at the same site and the middle at another site. The pulses stay geometry-neutral. Seal the cadence and the mask cuts itself elsewhere. ArrowLeft / ArrowRight send a deterministic return sequence; Enter / Space seals it. Delete lifts the latest cut; R / Escape releases the seed.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The mask is waiting for a return.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v040</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v039's opposing pair and global volume. Local attention is recorded as a three-beat return; only a sealed return cuts three remote apertures and shifts the single planar mask.</dd></div>
+          <div><dt>visitor action</dt><dd>Pulse one cut, pulse another, return to the first, then seal by pointer, touch, button, or keyboard. Delete / Backspace lifts the latest recut; R / Escape returns to the deterministic seed.</dd></div>
+          <div><dt>falsifier</dt><dd>If a pulse changes geometry, if a non-return sequence seals, if the returned cuts answer themselves, if cadence is only readout, or if later returns forget, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v040 if caption-free viewing reads as a generic perforated poster or if the visitor's return is not materially visible in the mask's remote cuts and seam.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-11-01/">previous daily work</a><a href="/journal/#journal-portrait-2026-11-02">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=040"></script>
+</body>
+</html>
