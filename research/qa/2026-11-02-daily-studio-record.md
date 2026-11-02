@@ -57,3 +57,126 @@ The last three handwriting works tested a folded SVG sentence with a pressure cu
 - Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved.
 
 Candidate remains held; exhibition readiness is not claimed.
+
+---
+
+## 09:00 daily catalogue audit — 2026-11-02
+
+The production note above is retained for continuity and was not treated as fresh browser or visual evidence in this audit.
+
+### Audit boundary
+
+- Audit snapshot: `2026-11-02 09:00:43` local, from the repository working tree.
+- Active catalogue sources used for this audit: `studio/data/studio.json` and `studio/data/works.json` only.
+- Field tests and stimuli were not counted as works.
+- No browser automation, CUA, Chrome, DevTools/CDP, GUI, window launch, or visual interaction run was used.
+- Existing browser/proof claims were not treated as fresh evidence for this audit.
+
+### Six current/date slots
+
+- **Handwriting / `typography`** — real work: `typography-2026-11-02`, *The letter keeps its pressure debt.*, status `candidate / held`, lifecycle `active`, raw tableau `/studies/handwriting/v040/`.
+- **Self portrait / `portrait`** — real work: `portrait-2026-11-02`, *The portrait remembers your returns.*, status `candidate / held`, lifecycle `active`, raw tableau `/studies/self-portrait/v040/`.
+- **Pure SVG / `svg`** — held; no catalogue record for `2026-11-02`.
+- **Brush / `brush`** — held; no catalogue record for `2026-11-02`.
+- **Naive art / `naive`** — held; no catalogue record for `2026-11-02`.
+- **WebGPU / `webgpu`** — held; no catalogue record for `2026-11-02`; current state is `dormant`.
+
+The two recorded slots are explicitly held. The four empty slots remain held; no placeholder works were created.
+
+### Register and duplicate checks
+
+- `studio.json`: parsed successfully; schema `mutine-studio/v2`; **6 currents**.
+- `works.json`: parsed successfully; schema `mutine-works/v1`; **247 records**, **247 unique work IDs**.
+- Duplicate work IDs: **none**.
+- Duplicate current/date slots across the full register: **none**.
+- Duplicate `2026-11-02` slots: **none**.
+
+### Recorded-work route and lifecycle checks
+
+Across all 247 records:
+
+- Canonical `works/<id>/index.html`: **247/247**.
+- Existing raw `rawPath/index.html` tableau under `/studies/`: **247/247**.
+- Journal anchor field equal to `journal-<workId>`: **247/247**.
+- Canonical page contains `/journal/#journal-<workId>`: **247/247**.
+- At least one critique or an explicit no-critique hold: **247/247**.
+- Lifecycle equal to `active` or `complete`: **240/247**.
+
+The lifecycle audit encountered a data anomaly and stops for the affected records. These seven historical records have `lifecycle: null` rather than `active` or `complete`:
+
+- `typography-2026-08-28`
+- `brush-2026-08-28`
+- `typography-2026-08-31`
+- `svg-2026-08-31`
+- `portrait-2026-08-31`
+- `naive-2026-08-31`
+- `brush-2026-08-31`
+
+No lifecycle value was inferred or backfilled. There are **0** records with lifecycle `complete`; therefore the complete-work mutation check is vacuous. No complete work was found to mutate.
+
+No missing tableau, route mismatch, authentication issue, throttling, or challenge was observed in this repository audit.
+
+### Verification commands
+
+- `npm run test`: **1292 passed, 0 failed** (`node --test tests/*.test.mjs`; exit code 0).
+- JSON register parsing: **passed** for both active catalogue registers.
+- Changed JavaScript files: **none**; no `node --check` target was required.
+- `git diff --check`: **passed** (exit code 0; Git reported existing LF-to-CRLF warnings only).
+- Browser/visual/interaction gate: **blocked/not performed** under the unattended-run rule; no fresh visual readiness claim is made.
+
+### Working-tree boundary, gaps, and next actions
+
+- Pre-existing working-tree changes were preserved.
+- No catalogue source, tableau, canonical work page, commit, push, or deployment was changed by this audit.
+- The seven null lifecycle values are the blocking schema/data gap.
+- Fresh browser or visual evidence is unavailable by policy, so the two recorded candidates remain held.
+
+1. Repair the seven historical lifecycle values with explicitly verified `active` or `complete` states; do not infer them from dates or page existence.
+2. Re-run the complete catalogue audit after that data repair.
+3. Keep the four empty `2026-11-02` slots held and do not create placeholder records.
+4. Do not claim exhibition or interaction readiness without evidence collected through an allowed verification path.
+
+**Status: BLOCKED FOR LIFECYCLE COMPLETENESS.**
+
+---
+
+## Brush daily work — 2026-11-02
+
+### Slot and concept
+
+- Target slot from the pre-run helper: `current_id=brush`, `current_index=4/6`, `culture_reference_id=p5-brush`, `existing_work_id=none`, `action=create-and-record`.
+- Work: `brush-2026-11-02` — *The brush makes absence load-bearing.*
+- Raw tableau: `/studies/p5-brush/v045/`
+- Canonical route: `/works/brush-2026-11-02/`
+- Status: `candidate / held`
+- Lifecycle: `active`
+- Lineage: `brush-2026-11-01`
+
+### Changed rule and progression
+
+v045 abandons v044's one-way horizontal pressure strata, v043's sequential witness-body exchange, and v042's timed raster cure. The first view is an asymmetric nine-panel pigment clasp around a dark absence. A single jaw remains geometry-neutral; only opposing compression from both outer jaws can spend pressure as a remote crease, seam bend, opening change, and panel deformation. The new viewer task is a two-stage opposition rather than dwell, reply, or traverse. Four compressions compound and can be lifted exactly.
+
+### Cultural translation
+
+- **Observed mechanism:** p5.brush treats pressure, density, directional behavior, and field logic as geometry-production rules, not decoration applied after the mark.
+- **Mutine translation:** refuse brush presets, watercolor, hatching, grain, palette, composition, source code, examples, and API surface; invert the prior one-way scrape into an opposing material law in which pressure exists only when two jaws close.
+- **Visible consequence:** the blind view is a generated clasp around a load-bearing absence; valid opposed closure changes remote panel vertices, seams, an existing opening, and crease geometry while leaving both jaw sites unpainted.
+- **Falsifier:** delete if one-sided pressure commits, if the hand paints, if the handles answer themselves, if remote change is only cosmetic, if the blind form reads as radial ornament, or if later compressions reset.
+- **Anti-copy:** no p5.brush preset, brush appearance, watercolor, hatching vocabulary, grain, palette, composition, source code, examples, API surface, or source imagery was reproduced.
+- **Direction consequence:** closes Brush's one-way threshold / witness-body / dwell sequence and opens opposing material logic: matter remembers the absence that lets two pressures become one load.
+
+### Evidence
+
+- TDD targeted slice: **7/7 passed**. The first run failed with the expected missing-module error before `v045/engine.mjs` existed; later RED runs observed the expected missing timeline and missing tableau/registration failures before each implementation slice.
+- Full suite: **1305/1305 passed** via `npm run test`.
+- JavaScript syntax checks: passed for `engine.mjs`, `sketch.js`, `scripts/brush-v045-probe.mjs`, and `scripts/build-public-catalog.mjs`.
+- JSON validation: passed for source register, public catalogue, metrics, critiques, and browser evidence.
+- Local headless browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
+- Local interaction: one-sided jaw compression remained geometry-neutral; opposed pointer compression changed the remote material; control, keyboard, pointer, and synthetic touch paths committed; Delete restored the exact quiet clasp; Escape released; three controls measured `44px` at `390×844`.
+- Local blind preview: `390×844`, one Canvas visible, 9 panels, 4 openings, 4 settled creases, readout/controls/guides/hint hidden, `innerWidth/clientWidth/scrollWidth=390/390/390`.
+- Local canonical/readbacks: source works JSON, public catalog JSON, rendered Journal anchor/title, Brush current/card, canonical tableau, raw tableau, and favicon returned/rendered; diagnostics `0`, overflow `0`.
+- Local proof archive: `research/qa/proofs/brush-v045-2026-11-02/` with 23 screenshots and `qa-summary.json`.
+
+### Publication boundary
+
+Production stable-alias verification, GitHub SHA synchronization, and Vercel deployment evidence are not yet recorded in this section. Candidate remains held; exhibition readiness is not claimed.

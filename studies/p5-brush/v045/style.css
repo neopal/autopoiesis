@@ -1,0 +1,322 @@
+html, body {
+  background: #110f13;
+  color: #e6d9c0;
+}
+
+.clasp-shell {
+  --ground: #110f13;
+  --panel: #17141a;
+  --ink: #e6d9c0;
+  --muted: #9a9289;
+  --line: rgba(230, 217, 192, 0.22);
+  --accent: #d78262;
+  --cool: #83a0a0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(84, 58, 74, 0.22), transparent 34rem),
+    radial-gradient(circle at 16% 82%, rgba(38, 76, 73, 0.14), transparent 30rem),
+    var(--ground);
+}
+
+.clasp-main {
+  width: min(1320px, calc(100% - 56px));
+  margin: 0 auto;
+  padding: 24px 0 56px;
+}
+
+.studio-header,
+.studio-footer,
+.studio-path {
+  color: var(--muted);
+}
+
+.clasp-work {
+  margin: 16px 0 0;
+}
+
+.clasp-field {
+  position: relative;
+  min-height: clamp(500px, 68vw, 820px);
+  overflow: hidden;
+  border: 1px solid rgba(230, 217, 192, 0.2);
+  background:
+    linear-gradient(120deg, rgba(230, 217, 192, 0.025), transparent 36%),
+    #0b0b0e;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.56), 0 22px 80px rgba(0, 0, 0, 0.28);
+  touch-action: none;
+}
+
+.clasp-field:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+
+.clasp-canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.clasp-canvas canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.clasp-readout {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: rgba(230, 217, 192, 0.7);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.clasp-controls {
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  bottom: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.clasp-controls button {
+  min-height: 44px;
+  padding: 10px 13px;
+  border: 1px solid rgba(230, 217, 192, 0.34);
+  border-radius: 999px;
+  background: rgba(17, 15, 19, 0.82);
+  color: var(--ink);
+  font: 11px/1.1 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+}
+
+.clasp-controls button:hover,
+.clasp-controls button:focus-visible {
+  border-color: var(--accent);
+  color: #fff1d9;
+}
+
+.clasp-hint {
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  bottom: 23px;
+  margin: 0;
+  color: rgba(230, 217, 192, 0.54);
+  font: 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+}
+
+.clasp-work figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 2px 0;
+  color: var(--muted);
+  font: 10px/1.35 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.clasp-opening {
+  max-width: 760px;
+  margin: 72px 0 44px;
+}
+
+.clasp-opening h1 {
+  max-width: 720px;
+  margin: 12px 0 22px;
+  color: var(--ink);
+  font-size: clamp(38px, 7vw, 92px);
+  line-height: 0.91;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+}
+
+.clasp-opening h1 i {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+.clasp-lede,
+.interaction-copy,
+.interaction-state,
+.annotations dd {
+  max-width: 660px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.interaction-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.8fr);
+  gap: 40px;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.interaction-state {
+  align-self: end;
+  margin: 0;
+  color: var(--ink);
+}
+
+.annotations {
+  max-width: 900px;
+  padding: 28px 0 12px;
+}
+
+.annotations dl {
+  margin: 24px 0 0;
+}
+
+.annotations dl > div {
+  display: grid;
+  grid-template-columns: 145px 1fr;
+  gap: 20px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(230, 217, 192, 0.11);
+}
+
+.annotations dt {
+  color: var(--accent);
+  font: 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.annotations dd {
+  margin: 0;
+}
+
+.preview-mode .clasp-main {
+  width: 100%;
+  padding: 0;
+}
+
+.preview-mode .clasp-work {
+  margin: 0;
+}
+
+.preview-mode .clasp-field {
+  min-height: 100vh;
+  border: 0;
+  box-shadow: none;
+}
+
+.preview-mode .studio-header,
+.preview-mode .studio-path,
+.preview-mode .clasp-work figcaption,
+.preview-mode .clasp-opening,
+.preview-mode .interaction-panel,
+.preview-mode .annotations,
+.preview-mode .studio-footer {
+  display: none;
+}
+
+.blind-mode .clasp-readout,
+.blind-mode .clasp-controls,
+.blind-mode .clasp-hint {
+  display: none;
+}
+
+.static-mode .clasp-field {
+  cursor: default;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clasp-controls button {
+    transition: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .clasp-main {
+    width: min(100% - 28px, 1320px);
+    padding-top: 16px;
+  }
+
+  .clasp-field {
+    min-height: min(640px, 145vw);
+  }
+
+  .clasp-readout {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    font-size: 9px;
+  }
+
+  .clasp-readout span:last-child {
+    max-width: 48%;
+    text-align: right;
+  }
+
+  .clasp-controls {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    justify-content: stretch;
+  }
+
+  .clasp-controls button {
+    flex: 1 1 30%;
+    padding-inline: 8px;
+    font-size: 10px;
+  }
+
+  .clasp-hint {
+    right: 12px;
+    bottom: 78px;
+    left: 12px;
+    font-size: 10px;
+  }
+
+  .clasp-work figcaption {
+    display: block;
+  }
+
+  .clasp-work figcaption span {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .clasp-opening {
+    margin-top: 48px;
+  }
+
+  .clasp-opening h1 {
+    font-size: clamp(42px, 14vw, 70px);
+  }
+
+  .interaction-panel {
+    display: block;
+  }
+
+  .interaction-state {
+    margin-top: 24px;
+  }
+
+  .annotations dl > div {
+    display: block;
+  }
+
+  .annotations dt {
+    margin-bottom: 7px;
+  }
+}

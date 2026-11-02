@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#110f13">
+  <title>MUTINE — The brush makes absence load-bearing.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=045">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-02"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="clasp-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v045 / OPPOSING JAW CLASP</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="clasp-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v045</span></nav>
+
+      <figure class="clasp-work artwork-frame" aria-labelledby="work-title">
+        <div id="clasp-field" class="clasp-field" tabindex="0" role="application" aria-label="A compressed pigment clasp. Drag the left and right jaws inward in turn, then release to make the material crease elsewhere." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R S">
+          <div class="clasp-readout" aria-live="polite"><span data-stage>clasp 01 / 09</span><span data-memory>quiet material · 0 compressions</span></div>
+          <div id="clasp-canvas" class="clasp-canvas"></div>
+          <div class="clasp-controls" aria-label="Brush material actions">
+            <button type="button" data-gesture="compress">close opposing jaws</button>
+            <button type="button" data-gesture="latest">lift last</button>
+            <button type="button" data-gesture="release">release clasp</button>
+          </div>
+          <p class="clasp-hint">draw both sides inward · the answer forms elsewhere</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v045-opposing-jaw-clasp</span><span>opposition &gt; compression &gt; remote crease</span></figcaption>
+      </figure>
+
+      <section class="clasp-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / OPPOSING JAW CLASP / v045</p>
+        <h1 id="work-title">The brush makes<br><i>absence load-bearing.</i></h1>
+        <p class="clasp-lede">The material is not a surface waiting for a mark. Compress its two jaws in turn and the clasp spends that pressure on a crease elsewhere, opening an old absence while the hands remain unpainted.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">PRESSURE NEEDS AN OPPOSITE</p>
+          <p class="interaction-copy">Begin at either outer jaw and draw inward until it reaches the inner band. Release, then do the same from the other side. The produced clasp stays exact while one jaw moves; only the opposed closure commits. The material changes remote panel geometry, seam tension, and an existing opening. ArrowLeft then ArrowRight plus Enter, or “close opposing jaws”, uses an equivalent deterministic compression. Delete lifts the latest crease; Escape, R, or “release clasp” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The clasp is quiet. Pressure needs an opposite.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v045</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the horizontal strata, the monolithic witness body, and the timed cure plate. A single jaw remains geometry-neutral. Only opposed compression from both sides can spend pressure as a remote crease and opening.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag the left or right jaw inward, release, then compress the opposite jaw. An interior start, incomplete motion, wrong order, or a single side refuses without changing the produced clasp. Pointer, touch, ArrowLeft, ArrowRight, Enter, Space, Delete, Escape, R, and the controls provide equivalent routes.</dd></div>
+          <div><dt>falsifier</dt><dd>If a jaw paints its path, if one-sided pressure changes geometry, if the two sides answer at the handles, or if the remote crease is only colour, status, or readout, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v045 if caption-free viewing reads as a radial ornament, if opposition is cosmetic, if the body does not materially change away from the jaws, or if later compressions forget earlier openings.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-01/">previous daily work</a><a href="/journal/#journal-brush-2026-11-02">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=045"></script>
+</body>
+</html>
