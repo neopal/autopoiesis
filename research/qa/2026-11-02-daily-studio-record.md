@@ -248,3 +248,62 @@ The last three Naive works were v041's browser-native sentence of wrong words, v
 - Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved.
 
 Candidate remains held; exhibition readiness is not claimed.
+
+---
+
+## WebGPU daily work — 2026-11-02
+
+### Slot and concept
+
+- Target slot: `current_id=webgpu`, `current_index=6/6`, `existing_work_id=none`, `action=create-and-record`.
+- Work: `webgpu-2026-11-02` — *The crowd leaves an unobserved shadow.*
+- Raw tableau: `/studies/webgpu/v042/`
+- Canonical route: `/works/webgpu-2026-11-02/`
+- Status: `candidate / held`
+- Lifecycle: `active`
+- Lineage: `webgpu-2026-11-01`
+
+### Changed rule and progression
+
+v042 abandons v039's pressure reservoirs, v040's depth accord, and v041's waiting fossil. Eighteen deterministic witness shards drift through a broken current. An open circuit is geometry-neutral; only a closed return to the beginning commits a `shadow-quorum` event. Its direction casts a remote shadow into an unobserved witness while the source remains exact. Four quorums compound and can be lifted in reverse order.
+
+The rupture is visible in code, interaction, and composition: stationary bodies become a continuously moving field; selection/hold becomes a closed circuit; local pressure becomes a remote directional cast; the archive is carried by the witness that was not where the visitor acted.
+
+### Cultural translation
+
+- **Reference:** [little-critters](https://github.com/GordenSun/little-critters)
+- **Observed mechanism:** situated code-drawn agents make proximity legible as reciprocal attention and remember the visitor without a dashboard.
+- **Mutine translation:** refuse animals, eyes, characters, paper scenes, head-turning, source palette, composition, source code, examples, and API surface; translate reciprocity into a closed circuit whose returned attention becomes a directional shadow in an unobserved witness.
+- **Visible consequence:** open/incomplete circuits leave the field exact; a valid clockwise or counter-clockwise return leaves its source exact while a remote witness changes position, angle, scale, phase, opacity, and wake.
+- **Falsifier:** delete if open circuits commit, the local witness answers, direction is cosmetic, the remote cast is only a trail/readout, the blind field reads as a generic particle demo, later quorums reset, or lifting is inexact.
+- **Anti-copy:** no animals, eyes, head-turning scene, character design, paper style, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.
+- **Direction consequence:** closes the pressure-reservoir / depth-accord / waiting-fossil sequence and opens a social-circuit archive direction.
+
+### Evidence
+
+- TDD targeted slice: **5/5 passed**. The first run was observed red with the expected missing-module/missing-artifact/empty-record failures before v042 implementation.
+- Full suite after the new daily registration: **1313/1313 passed** via `npm test`.
+- JavaScript syntax checks: passed for `studies/webgpu/v042/sketch.js`, `engine.mjs`, and `scripts/webgpu-v042-probe.mjs`.
+- JSON validation: passed for source register, public catalogue, metrics, and critiques.
+- Local headless browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
+- Local interaction: closed pointer return committed; open circuit stayed geometry-neutral; committed remote witness changed while the source stayed exact; Delete restored the exact quiet field; Enter committed an equivalent deterministic circuit; Escape released; incomplete circuit refused; control and synthetic touch paths committed; three controls measured `44px` at `390×844`.
+- Local blind preview: `390×844`, one Canvas kinetic witness field visible with 18 generated shards and four settled shadow quorums; readout/controls/status/caption hidden; `innerWidth/clientWidth/scrollWidth=390/390/390`.
+- Local canonical/readbacks: source works JSON, public catalog JSON, rendered Journal anchor/title, WebGPU current/card, canonical tableau, raw tableau, and favicon returned/rendered; diagnostics `0`, overflow `0`.
+- Stable-alias production headless browser matrix: **20/20 passed** at `https://autopoiesis-nine.vercel.app/` across the same five viewports and both motion modes; diagnostics `0`, overflow `0`, minimum touch target `44px`.
+- Stable-alias production interaction/readbacks: pointer, keyboard, touch, control, lift, release, blind preview, Journal/current/catalog/canonical/raw tableau, registry uniqueness, and favicon passed; deployed source/public catalogs each contained exactly one `webgpu-2026-11-02` record.
+- Proof archives: `research/qa/proofs/webgpu-v042-2026-11-02/` and `research/qa/proofs/webgpu-v042-2026-11-02-production/`.
+
+### Publication
+
+- Artifact commit: `9b1757b` (`[verified] add webgpu shadow quorum daily work`).
+- First production deployment: `dpl_HfL1HKvFkWVttVRvxdHNHRsHUMV6`, deployment URL `https://autopoiesis-fgkqeq4ig-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, state `READY`.
+- GitHub push: completed to `origin/main`.
+
+### Unresolved doubt
+
+- Independent caption-free perceptual review was unavailable in this unattended run; the candidate remains held.
+- The kinetic witness field may still read as an elegant particle/flow study rather than a sufficiently strange archive; no caption can repair that if true.
+- Provider revision linkage between the Vercel deployment and GitHub SHA remains unresolved.
+- Existing unrelated worktree modifications were left untouched.
+
+Candidate remains held; exhibition readiness is not claimed.
