@@ -296,7 +296,9 @@ The rupture is visible in code, interaction, and composition: stationary bodies 
 ### Publication
 
 - Artifact commit: `9b1757b` (`[verified] add webgpu shadow quorum daily work`).
-- First production deployment: `dpl_HfL1HKvFkWVttVRvxdHNHRsHUMV6`, deployment URL `https://autopoiesis-fgkqeq4ig-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, state `READY`.
+- Initial production deployment: `dpl_HfL1HKvFkWVttVRvxdHNHRsHUMV6`, deployment URL `https://autopoiesis-fgkqeq4ig-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, state `READY`.
+- Final QA deployment: `dpl_FxV6DP1cVyAP4KHHqeVwFcXHqUj3`, deployment URL `https://autopoiesis-dy6xmbmv3-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, state `READY`.
+- Final QA deployment was published after GitHub commit `9e00daf077551122463a9902fbc2cf67e0f9c8e9` and verified against the stable alias.
 - GitHub push: completed to `origin/main`.
 
 ### Unresolved doubt
