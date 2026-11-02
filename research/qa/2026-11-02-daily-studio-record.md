@@ -231,11 +231,15 @@ The last three Naive works were v041's browser-native sentence of wrong words, v
 - Local blind preview: `390×844`, one WebGL volume visible with 9 generated solids, a dark absent core, and 4 settled depth errors; readout/controls/hint hidden; `innerWidth/clientWidth/scrollWidth=390/390/390`.
 - Local canonical/readbacks: source works JSON, public catalog JSON, rendered Journal anchor/title, Naive current/card, canonical tableau, raw tableau, and favicon returned/rendered; diagnostics `0`, overflow `0`.
 - Local proof archive: `research/qa/proofs/naive-v042-2026-11-02/` with 3 screenshots and `qa-summary.json`.
+- Stable-alias production headless browser matrix: **20/20 passed** at `https://autopoiesis-nine.vercel.app/` across the same five viewports and both motion modes; diagnostics `0`, overflow `0`, minimum touch target `44px`, pointer/touch/keyboard/control/lift/release/blind paths passed.
+- Stable-alias deployed readbacks: `/studio/data/works.json` returned exactly one `naive-2026-11-02` record; `/journal/` rendered `journal-naive-2026-11-02` and the title; the Naive current, canonical work route, raw tableau, public catalog, and favicon returned/rendered. Production proof archive: `research/qa/proofs/naive-v042-2026-11-02-production/` with 3 screenshots and `qa-summary.json`.
 
 ### Publication state
 
-- Local artifact and evidence are prepared; no commit, push, or production deployment has been made yet in this section.
-- Candidate remains held pending stable-alias production evidence, independent caption-free perceptual review, and provider revision linkage.
+- Artifact commit: `ae2b188005ecd81ae6d51a22f007554f49479124`.
+- Remote `main`: `ae2b188005ecd81ae6d51a22f007554f49479124`.
+- Production deployment: `dpl_2rBziYCfsUB5RjUtkT4htu1HSiPW`, deployment URL `https://autopoiesis-dnyqhhv2v-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app/`, state `READY`.
+- Candidate remains held pending independent caption-free perceptual review and provider revision linkage between the Vercel deployment and GitHub SHA.
 
 ### Unresolved doubt
 
