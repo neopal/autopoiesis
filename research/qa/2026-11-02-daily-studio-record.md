@@ -192,3 +192,55 @@ v045 abandons v044's one-way horizontal pressure strata, v043's sequential witne
 - Provider revision linkage between the Vercel deployment and GitHub SHA remains unresolved.
 
 Candidate remains held; exhibition readiness is not claimed.
+
+---
+
+## Naive art daily work — 2026-11-02
+
+### Slot and concept
+
+- Target slot from the pre-run helper: `current_id=naive`, `current_index=5/6`, `culture_reference_id=p5-brush`, `existing_work_id=none`, `action=create-and-record`.
+- Work: `naive-2026-11-02` — *The model turns the answer into the wrong volume.*
+- Raw tableau: `/studies/naive-art/v042/`
+- Canonical route: `/works/naive-2026-11-02/`
+- Status: `candidate / held`
+- Lifecycle: `active`
+- Lineage: `naive-2026-10-31`
+
+### Radical progression
+
+The last three Naive works were v041's browser-native sentence of wrong words, v040's continuous pressure-cast relief, and v039's cellular inference plate. Their repeated gesture was local evidence offered to a surface and then displaced into remote geometry. v042 makes a material rupture: text, cells, and relief become a p5.js WebGL volume of nine solid blocks around an absent core. The viewer no longer touches words, presses bands, or marks cells; they scan in one direction and reverse. The source solid stays exact while three remote solids misregister in depth, shear, and hollowness. The rupture is visible in code, interaction, and rendered consequence.
+
+### Cultural translation
+
+- **Observed mechanism:** p5.brush makes pressure, density, directional behavior, and field logic participate in producing geometry rather than decorate a finished mark.
+- **Mutine translation:** refuse brush marks, watercolor, hatching, grain, palette, composition, source code, examples, and API surface; translate directional material agency into a wrong-volume law: a scan stays latent until reversal, then its pressure is spent in remote depth rather than at the viewed solid.
+- **Visible consequence:** the blind view is an oblique cluster of nine solids around a dark absent core. Reversal leaves the observed solid exact while a remote block shifts depth and rotates, another shears and narrows, and another hollows and fades; four errors persist.
+- **Falsifier:** delete if one-way scanning changes geometry, reversal is only readout, the source answers itself, the work reads as a flat stack or generic 3D demo, later errors reset, or lifting is inexact.
+- **Anti-copy:** no p5.brush preset, brush appearance, watercolor, hatching vocabulary, grain treatment, palette, composition, source code, API surface, or source imagery was reproduced.
+- **Direction consequence:** closes Naive's sentence / relief / cellular evidence sequence and opens wrong-volume reconstruction: model failure becomes an error of depth and viewpoint rather than another displaced mark on a planar field.
+
+### Evidence
+
+- TDD targeted slice: **3/3 passed**; the first run was observed red with the expected missing-module error before `v042/engine.mjs` existed.
+- Full suite: **1308/1308 passed** via `npm test`.
+- JavaScript syntax checks: passed for `engine.mjs`, `sketch.js`, and `scripts/naive-v042-probe.mjs`.
+- JSON validation: passed for source register, public catalogue, metrics, and critiques.
+- Local headless browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
+- Local interaction: one-way pointer drag was refused without geometry change; a reversed pointer drag changed remote depth geometry while the source stayed exact; Delete restored the exact quiet volume; ArrowDown twice plus ArrowUp plus Enter committed an equivalent keyboard reversal; the reverse control committed; Escape released; synthetic touch traversal committed; three controls measured `44px` at `390×844`.
+- Local blind preview: `390×844`, one WebGL volume visible with 9 generated solids, a dark absent core, and 4 settled depth errors; readout/controls/hint hidden; `innerWidth/clientWidth/scrollWidth=390/390/390`.
+- Local canonical/readbacks: source works JSON, public catalog JSON, rendered Journal anchor/title, Naive current/card, canonical tableau, raw tableau, and favicon returned/rendered; diagnostics `0`, overflow `0`.
+- Local proof archive: `research/qa/proofs/naive-v042-2026-11-02/` with 3 screenshots and `qa-summary.json`.
+
+### Publication state
+
+- Local artifact and evidence are prepared; no commit, push, or production deployment has been made yet in this section.
+- Candidate remains held pending stable-alias production evidence, independent caption-free perceptual review, and provider revision linkage.
+
+### Unresolved doubt
+
+- Independent caption-free perceptual review remains unavailable in this unattended run.
+- The WebGL block cluster may still read as an elegant 3D construction rather than a sufficiently strange reconstruction failure; the blind production comparison is the next falsifier.
+- Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved.
+
+Candidate remains held; exhibition readiness is not claimed.
