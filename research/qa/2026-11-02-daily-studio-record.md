@@ -180,10 +180,11 @@ v045 abandons v044's one-way horizontal pressure strata, v043's sequential witne
 ### Publication
 
 - Artifact commit: `6423354ab20d9da479fe242e91583cb456b86dc3`.
-- Remote `main`: matched `6423354ab20d9da479fe242e91583cb456b86dc3` before production deployment.
+- Evidence commit: `2d0bda2ed65d0eafb09f7a29fe42dfe6c0640d60`; remote `main` matched this SHA before the final production deployment.
 - First production deployment: `dpl_9zrWC6D3mRWRo2JkMQVMyG1e7MT4`, deployment URL `https://autopoiesis-qzfpslib2-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, state `READY`.
-- Stable-alias production headless browser matrix: **20/20 passed** across the same five viewports and two motion modes; pointer, keyboard, touch, blind preview, overflow, touch targets, diagnostics, canonical route, Journal anchor/title, registry readbacks, and favicon all passed.
-- Production proof archive: `research/qa/proofs/brush-v045-2026-11-02-production/` with 23 screenshots and `qa-summary.json`.
+- Final production deployment: `dpl_GNVApTbjcsLmn8AJediPMk9bZYRk`, deployment URL `https://autopoiesis-ha5bk84gw-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, state `READY`.
+- Final stable-alias headless browser matrix: **20/20 passed** across the same five viewports and two motion modes; pointer, keyboard, touch, blind preview, overflow, touch targets, diagnostics, canonical route, Journal anchor/title, registry readbacks, and favicon all passed.
+- Final production probe output: `research/qa/proofs/brush-v045-2026-11-02-production-final/` with 23 files including 20 viewport screenshots, interaction/blind/Journal captures, and `qa-summary.json`.
 
 ### Unresolved doubt
 
