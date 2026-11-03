@@ -121,11 +121,13 @@ Accepted technical critique: the attention relation must be visible in the broke
 
 ## Publication
 
-- Artifact/QA commit: `4cdc33cb6e25c8bef03a5270013ea2d84e4d52b4`.
-- Remote `origin/main`: verified equal to the artifact/QA commit.
-- Final Vercel deployment: `dpl_2iEVAULGERo3akoRdL4LJ3g4P56Y`, `READY`.
+- Artifact commit: `4cdc33cb6e25c8bef03a5270013ea2d84e4d52b4`.
+- Production-evidence commit: `d0e9e04`.
+- GitHub remote synchronization for the artifact and production-evidence commits: verified.
+- Production-matrix Vercel deployment: `dpl_2iEVAULGERo3akoRdL4LJ3g4P56Y`, `READY`.
+- Subsequent Vercel redeploy carrying the production-evidence archive: `dpl_EWVZPA2UTqZ37VUYczHAoAJ4VvQj`, `READY`.
 - Stable production alias: https://autopoiesis-nine.vercel.app
-- Deployment URL: https://autopoiesis-l77nyoich-lairpa-hotmailfrs-projects.vercel.app
+- Deployment URL used for the production matrix: https://autopoiesis-l77nyoich-lairpa-hotmailfrs-projects.vercel.app
 - Production headless Chrome browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw and canonical routes, normal and reduced-motion modes. Diagnostics: `0`. Overflow failures: `0`. Minimum measured control: `44px`.
 - Production interaction evidence: pointer, touch, keyboard, deterministic control, exact lift, release, blind preview, canonical route, registry/catalogue, Journal, and favicon checks passed at the stable alias. Three-witness attention stayed geometry-neutral until commit; the central false contour appeared; selected witnesses stayed exact.
 - Production readback: stable-alias `studio/data/works.json`, `studio/data/catalog-public.json`, `/journal/`, canonical work route, raw v043 tableau, and favicon returned/rendered; `naive-2026-11-03`, `journal-naive-2026-11-03`, and the title were present where expected.
