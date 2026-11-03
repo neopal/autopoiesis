@@ -1,0 +1,86 @@
+:root {
+  --negative-ground: #10151b;
+  --negative-ink: #f2ead7;
+  --negative-muted: #8a9b9d;
+  --negative-accent: #f47f6d;
+  --negative-cool: #8db9b4;
+  --negative-line: rgba(205, 225, 219, 0.28);
+  --negative-faint: rgba(205, 225, 219, 0.1);
+}
+
+.negative-shell { background: #0b0f14; color: var(--negative-ink); min-height: 100vh; }
+.negative-main { max-width: 1460px; margin: 0 auto; padding: 0 3vw 5rem; }
+.negative-work { margin: 0; }
+.negative-field {
+  position: relative;
+  min-height: clamp(480px, 62vw, 820px);
+  overflow: hidden;
+  background: var(--negative-ground);
+  isolation: isolate;
+  cursor: crosshair;
+  touch-action: none;
+}
+.negative-field:focus-visible { outline: 2px solid var(--negative-accent); outline-offset: -5px; }
+#negative-svg { display: block; width: 100%; height: 100%; min-height: inherit; }
+.svg-ground { fill: var(--negative-ground); }
+.svg-void-glow { opacity: .9; }
+.syntax-arc, .syntax-slit { vector-effect: non-scaling-stroke; stroke-linecap: round; }
+.syntax-arc { stroke: var(--negative-line); stroke-width: 1.2; stroke-dasharray: 2 16; }
+.syntax-arc--two { stroke: rgba(244, 127, 109, .38); stroke-dasharray: 1 24; }
+.syntax-slit { stroke: rgba(242, 234, 215, .5); stroke-width: 1; stroke-dasharray: 1 10; }
+.svg-register { fill: rgba(205, 225, 219, .62); font: 11px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .22em; }
+.svg-cursor { display: none; fill: none; stroke: var(--negative-accent); stroke-width: 1; opacity: .8; }
+.glyph { fill: url(#ink-gradient); font-family: Georgia, 'Times New Roman', serif; font-weight: 500; paint-order: stroke; stroke: rgba(242, 234, 215, .08); stroke-width: 1; transform-box: fill-box; transform-origin: center; }
+.glyph--recruited { fill: var(--negative-ink); stroke: var(--negative-accent); stroke-width: 2; }
+.glyph--hollowed { fill: var(--negative-ground); stroke: var(--negative-cool); stroke-width: 2.4; }
+.glyph--tilted { fill: var(--negative-accent); stroke: var(--negative-ink); stroke-width: 1.4; }
+.glyph-mark { fill: none; stroke: currentColor; stroke-width: 1.2; opacity: .65; vector-effect: non-scaling-stroke; }
+.gap { fill: var(--negative-ground); stroke: rgba(242, 234, 215, .5); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.gap::after { content: ''; }
+.gap--visited { stroke: var(--negative-accent); stroke-dasharray: 2 5; }
+.negative-readout, .negative-note, .negative-hint, .negative-controls { position: absolute; z-index: 2; }
+.negative-readout { top: 1.5rem; right: 1.75rem; display: grid; gap: .35rem; text-align: right; color: var(--negative-muted); font: 10px/1.25 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.negative-readout span:first-child { color: var(--negative-ink); }
+.negative-note { left: 1.75rem; bottom: 4.3rem; display: grid; gap: .28rem; color: rgba(242, 234, 215, .62); font: italic clamp(16px, 2vw, 25px)/1.1 Georgia, serif; }
+.negative-note span:last-child { color: var(--negative-accent); transform: translateX(1.2em); }
+.negative-controls { right: 1.5rem; bottom: 1.35rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; }
+.negative-controls button { min-height: 44px; border: 1px solid rgba(242, 234, 215, .36); border-radius: 0; padding: .55rem .8rem; background: rgba(16, 21, 27, .86); color: var(--negative-ink); font: 10px/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .09em; text-transform: uppercase; cursor: pointer; }
+.negative-controls button:hover, .negative-controls button:focus-visible { border-color: var(--negative-accent); color: var(--negative-accent); }
+.negative-hint { left: 1.75rem; bottom: 1.55rem; margin: 0; color: rgba(205, 225, 219, .58); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.negative-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .7fr); gap: 2rem; align-items: end; padding: clamp(2.6rem, 5vw, 6rem) 0 3rem; }
+.negative-opening .eyebrow { grid-column: 1 / -1; }
+.negative-opening h1 { margin: 0; color: var(--negative-ink); font: 500 clamp(3rem, 8vw, 8.2rem)/.82 Georgia, serif; letter-spacing: -.065em; }
+.negative-opening h1 i { color: var(--negative-accent); font-weight: 400; }
+.negative-lede { max-width: 20ch; margin: 0 0 .4rem; color: var(--negative-muted); font: 400 clamp(1rem, 1.8vw, 1.45rem)/1.12 Georgia, serif; }
+.annotations { border-top: 1px solid var(--negative-faint); padding-top: 1.5rem; }
+.annotations dl { display: grid; gap: 0; margin: 1.5rem 0 0; }
+.annotations dl > div { display: grid; grid-template-columns: minmax(120px, .25fr) 1fr; gap: 1rem; border-top: 1px solid var(--negative-faint); padding: 1rem 0; }
+.annotations dt { color: var(--negative-accent); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.annotations dd { max-width: 70ch; margin: 0; color: var(--negative-muted); font: 15px/1.45 ui-monospace, SFMono-Regular, Consolas, monospace; }
+
+html.preview-mode .negative-main { max-width: none; padding: 0; }
+html.preview-mode .negative-work { border: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .negative-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .negative-field { min-height: 100vh; }
+html.blind-mode .negative-readout, html.blind-mode .negative-note, html.blind-mode .negative-controls, html.blind-mode .negative-hint, html.blind-mode .svg-register { display: none; }
+html.static-mode .negative-field { cursor: default; }
+
+@media (prefers-reduced-motion: reduce) {
+  .negative-field *, .negative-field *::before, .negative-field *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+}
+
+@media (max-width: 680px) {
+  .negative-main { padding: 0 4vw 3rem; }
+  .negative-field { min-height: min(760px, 128vw); }
+  .negative-readout { top: .8rem; right: .8rem; font-size: 8px; }
+  .negative-note { left: .8rem; bottom: 5.9rem; font-size: 17px; }
+  .negative-controls { left: .8rem; right: .8rem; bottom: .8rem; justify-content: stretch; }
+  .negative-controls button { flex: 1 1 0; padding: .55rem .35rem; font-size: 8px; }
+  .negative-hint { display: none; }
+  .negative-opening { display: block; padding: 3rem 0 2rem; }
+  .negative-opening h1 { font-size: clamp(3.2rem, 16vw, 6rem); }
+  .negative-lede { margin-top: 1.5rem; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: .6rem; }
+  .annotations dd { font-size: 12px; }
+  .svg-register { font-size: 9px; }
+}

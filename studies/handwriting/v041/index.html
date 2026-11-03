@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10151b">
+  <title>MUTINE — The missing letter makes the word.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=041">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-11-03"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="negative-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v041 / NEGATIVE SYNTAX</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="negative-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v041</span></nav>
+
+      <figure class="negative-work artwork-frame" aria-labelledby="work-title">
+        <div id="negative-field" class="negative-field" tabindex="0" role="application" aria-label="An SVG negative syntax field. Visit three empty gaps in sequence: the gaps stay empty while three remote glyphs are recruited elsewhere." aria-describedby="interaction-state" aria-keyshortcuts="ArrowRight Enter Space Delete Escape">
+          <svg id="negative-svg" viewBox="0 0 1000 760" role="img" aria-label="A sparse constellation of oversized letters around a diagonal absence">
+            <defs>
+              <linearGradient id="ink-gradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2ead7"/><stop offset="0.62" stop-color="#c9d7d4"/><stop offset="1" stop-color="#f47f6d"/></linearGradient>
+              <radialGradient id="void-gradient"><stop offset="0" stop-color="#273a41" stop-opacity="0.22"/><stop offset="0.72" stop-color="#10151b" stop-opacity="0"/></radialGradient>
+              <filter id="soft-glow"><feGaussianBlur stdDeviation="9"/></filter>
+            </defs>
+            <rect class="svg-ground" x="0" y="0" width="1000" height="760" fill="#10151b"/>
+            <ellipse class="svg-void-glow" cx="510" cy="385" rx="350" ry="250" fill="url(#void-gradient)"/>
+            <path class="syntax-arc syntax-arc--one" d="M 112 612 C 290 710 728 692 894 168" fill="none"/>
+            <path class="syntax-arc syntax-arc--two" d="M 82 172 C 340 18 726 42 920 572" fill="none"/>
+            <path class="syntax-slit" d="M 188 642 L 836 112" fill="none"/>
+            <g id="glyph-layer" aria-hidden="true"></g>
+            <g id="gap-layer" aria-hidden="true"></g>
+            <g class="svg-register" aria-hidden="true"><text x="44" y="56">NEGATIVE SYNTAX / 041</text><text x="956" y="710" text-anchor="end">THE WORD IS THE GAP</text></g>
+            <g class="svg-cursor" aria-hidden="true"><circle cx="510" cy="380" r="8"></circle><circle cx="510" cy="380" r="22"></circle></g>
+          </svg>
+          <div class="negative-readout" aria-live="polite"><span data-stage>quiet / no gaps visited</span><span data-memory>0 recruitments · 12 glyphs</span></div>
+          <div class="negative-note" aria-hidden="true"><span>do not touch the letter</span><span>read the absence</span></div>
+          <div class="negative-controls" aria-label="Negative syntax controls">
+            <button type="button" data-action="read">read 1—4—7</button>
+            <button type="button" data-action="lift">lift latest</button>
+            <button type="button" data-action="release">release field</button>
+          </div>
+          <p class="negative-hint">visit three empty gaps · enter to read · delete to lift</p>
+          <p id="interaction-state" class="sr-only" aria-live="polite">The field is quiet. No gaps have been visited.</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v041-negative-syntax</span><span>absence &gt; syntax &gt; elsewhere</span></figcaption>
+      </figure>
+
+      <section class="negative-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / INLINE SVG / v041</p>
+        <h1 id="work-title">The missing letter<br><i>makes the word.</i></h1>
+        <p class="negative-lede">A word can be altered by the space it refuses to fill.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ABSENCE IS A WRITING ACTION</p>
+          <p class="interaction-copy">Visit three empty gaps with a pointer or touch. The gaps remain empty while the sequence is pending. Complete the sequence and three untouched glyphs are recruited elsewhere: one thickens, one hollows, and one tilts. The read control, ArrowRight plus Enter, and pointer path use the same deterministic grammar; Delete lifts the latest reading.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state>The field is quiet. No gaps have been visited.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v041</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v040's pressure rack, v039's route traversal, and v038's typed offer. A sequence of three absences is geometry-neutral while visited; only its completion recruits three untouched glyphs as actual SVG geometry elsewhere.</dd></div>
+          <div><dt>visitor action</dt><dd>Visit three empty gaps in order, or use ArrowRight then Enter. The visited gaps stay open. Delete lifts the latest recruitment; Escape or R releases to the deterministic quiet field. Four readings compound.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if a glyph is altered at the visited gap, if an incomplete or repeated absence commits, if remote changes are only colour or readout, or if the first view reads as a decorative type specimen.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v041 if caption-free viewing cannot distinguish negative syntax from v038–v040, if the absence sequence is only a control label, or if remote glyph geometry does not carry the reading.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-11-02/">previous daily work</a><a href="/journal/#journal-typography-2026-11-03">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=041"></script>
+</body>
+</html>
