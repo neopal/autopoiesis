@@ -101,7 +101,7 @@
       "lineage": "portrait-2026-11-02"
     },
     "browserEvidence": {
-      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending stable-alias production matrix, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
@@ -130,10 +130,25 @@
       "localProofPath": "research/qa/proofs/portrait-v041-2026-11-03/",
       "localScreenshotCount": 22,
       "unresolved": [
-        "stable-alias production browser matrix",
         "independent caption-free perceptual review",
         "provider revision linkage between final Vercel deployment and GitHub SHA"
-      ]
+      ],
+      "deploymentId": "dpl_3WHUkQiUnH8kezixn4bVXyCWUiua",
+      "stableAlias": "https://autopoiesis-nine.vercel.app",
+      "productionRawPreview": "/studies/self-portrait/v041/?preview=1&interaction=1",
+      "productionBlindPreview": "/studies/self-portrait/v041/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "/works/portrait-2026-11-03/",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable-alias pointer, touch, keyboard, watch-control, lift, and release paths matched local evidence: brief attention stayed geometry-neutral; sustained attention edited the watched shutter; lift was exact; release was quiet; all three controls measured 44px at 390x844.",
+      "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept one DOM attention-shutter field visible with 13 generated shutters and four settled local folds while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable-alias rendered Journal anchor/title, canonical work title/tableau, raw v041 tableau, deployed works.json record, deployed public catalog record, and favicon returned/rendered.",
+      "productionProofPath": "research/qa/proofs/portrait-v041-2026-11-03-production/",
+      "productionScreenshotCount": 22
     }
   },
 

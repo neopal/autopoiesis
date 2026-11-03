@@ -1,0 +1,579 @@
+{
+  "run": "production",
+  "base": "https://autopoiesis-nine.vercel.app",
+  "runner": "headless system Chrome via Playwright",
+  "stableAlias": "https://autopoiesis-nine.vercel.app",
+  "viewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "modes": [
+    "normal",
+    "reduced-motion"
+  ],
+  "matrixRuns": 20,
+  "matrixClean": true,
+  "overflowRuns": [],
+  "matrix": [
+    {
+      "route": "raw",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "tableauScrollWidth": 320,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-normal-320x568.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "tableauScrollWidth": 390,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-normal-390x844.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "tableauScrollWidth": 768,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-normal-768x1024.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "tableauScrollWidth": 1280,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-normal-1280x800.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "tableauScrollWidth": 1920,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-normal-1920x1080.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": false,
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "tableauScrollWidth": 282,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-normal-320x568.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": false,
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "tableauScrollWidth": 352,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-normal-390x844.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": false,
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "tableauScrollWidth": 730,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-normal-768x1024.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": false,
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "tableauScrollWidth": 735,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-normal-1280x800.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": false,
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "tableauScrollWidth": 722,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-normal-1920x1080.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "tableauScrollWidth": 320,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-reduced-320x568.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "tableauScrollWidth": 390,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-reduced-390x844.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "tableauScrollWidth": 768,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-reduced-768x1024.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "tableauScrollWidth": 1280,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-reduced-1280x800.png"
+    },
+    {
+      "route": "raw",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "tableauScrollWidth": 1920,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-raw-reduced-1920x1080.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "320x568",
+      "reducedMotion": true,
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "tableauScrollWidth": 282,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-reduced-320x568.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "390x844",
+      "reducedMotion": true,
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "tableauScrollWidth": 352,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-reduced-390x844.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "768x1024",
+      "reducedMotion": true,
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "tableauScrollWidth": 730,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-reduced-768x1024.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "1280x800",
+      "reducedMotion": true,
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "tableauScrollWidth": 735,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-reduced-1280x800.png"
+    },
+    {
+      "route": "canonical",
+      "viewport": "1920x1080",
+      "reducedMotion": true,
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "scrollWidth": 1920,
+      "tableauScrollWidth": 722,
+      "plateCount": 13,
+      "controls": [
+        {
+          "text": "watch selected",
+          "height": 44
+        },
+        {
+          "text": "lift last fold",
+          "height": 44
+        },
+        {
+          "text": "release field",
+          "height": 44
+        }
+      ],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\portrait-v041-2026-11-03-production\\production-canonical-reduced-1920x1080.png"
+    }
+  ],
+  "interaction": {
+    "briefGeometryNeutral": true,
+    "committedGeometryChanged": true,
+    "localSelfEdited": true,
+    "liftedExact": true,
+    "releaseQuiet": true,
+    "keyboardProduced": true,
+    "keyboardReleaseQuiet": true,
+    "touchAcceptedByWatchControl": true
+  },
+  "blind": {
+    "planeVisible": true,
+    "plateCount": 13,
+    "readoutVisibility": "hidden",
+    "controlsVisibility": "hidden",
+    "hintVisibility": "hidden",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "readbacks": [
+    {
+      "route": "/studio/data/works.json",
+      "status": 200,
+      "hasRecord": true,
+      "hasTitle": true,
+      "hasJournalAnchor": true
+    },
+    {
+      "route": "/studio/data/catalog-public.json",
+      "status": 200,
+      "hasRecord": true,
+      "hasTitle": true,
+      "hasJournalAnchor": true
+    },
+    {
+      "route": "/journal/",
+      "status": 200,
+      "hasRecord": true,
+      "hasTitle": true,
+      "hasJournalAnchor": true
+    },
+    {
+      "route": "/works/portrait-2026-11-03/",
+      "status": 200,
+      "hasRecord": true,
+      "hasTitle": true,
+      "hasJournalAnchor": true
+    },
+    {
+      "route": "/studio/favicon.svg",
+      "status": 200,
+      "hasRecord": false,
+      "hasTitle": false,
+      "hasJournalAnchor": false
+    }
+  ]
+}
