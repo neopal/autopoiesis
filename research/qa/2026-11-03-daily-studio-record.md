@@ -40,11 +40,13 @@ The last three Brush records were v043 witness exchange, v044 one-way edge trave
 
 ## Publication
 
-- Artifact commit: `6a8280f561222469caf77d6df14e883fefbbd72f`.
-- Remote `origin/main`: verified equal to the artifact commit before deployment.
-- Vercel deployment: `dpl_Dg5CDv6UEi5ohrEoyqSoeRvGJHYs`, `READY`.
+- Artifact code commit: `6a8280f561222469caf77d6df14e883fefbbd72f`.
+- QA/archive commit: `b823b4dfd86a8051ed22c8e814059351d72f0784`.
+- Remote `origin/main`: verified equal to the QA/archive commit before the final redeploy.
+- Initial Vercel deployment used for the production artifact matrix: `dpl_Dg5CDv6UEi5ohrEoyqSoeRvGJHYs`, `READY`.
+- Final verified Vercel redeploy carrying the QA/archive record: `dpl_BpAXgNsjJZyfcpGrnftwiPwGVsvG`, `READY`.
 - Stable production alias: https://autopoiesis-nine.vercel.app
-- Deployment URL: https://autopoiesis-kc5xyaehl-lairpa-hotmailfrs-projects.vercel.app
+- Deployment URL: https://autopoiesis-db0hdhklz-lairpa-hotmailfrs-projects.vercel.app
 - Production headless Playwright / system Chrome: **20/20 runs passed** across `320x568`, `390x844`, `768x1024`, `1280x800`, `1920x1080`, normal and reduced-motion.
 - Production diagnostics: `0`; overflow failures: `0`; minimum measured touch target: `44px`.
 - Production interaction: preview inert, through-void commit structural, exact lift, Delete, Escape, keyboard, pointer, touch, cut control, blind route, canonical route, and favicon checks passed.
