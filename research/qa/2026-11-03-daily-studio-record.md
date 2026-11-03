@@ -138,3 +138,109 @@ The Vercel deployment was performed manually from the verified local artifact. G
 ## Unresolved doubt
 
 A caption-free independent human perceptual review is unavailable. The executable, responsive, and production gates are green, but the false centre may still read as an elegant generic contour constellation rather than a sufficiently strange stored hallucination. If review shows that the void is decorative, delete v043 rather than polish it. The candidate remains **held**; exhibition readiness is not claimed.
+
+---
+
+# Mutine daily studio record — WebGPU — 2026-11-03
+
+## Slot
+
+- Current: `webgpu`
+- Daily record: `webgpu-2026-11-03`
+- Work: *The material changes where it resists.*
+- Version: `v043`
+- Status: `candidate / held`
+- Lineage: `webgpu-2026-11-02`
+- Canonical route: `/works/webgpu-2026-11-03/`
+- Raw tableau: `/studies/webgpu/v043/`
+
+## Hypothesis and changed rule
+
+If material behaviour is treated as a production rule rather than a surface,
+then a grain-aligned trace can spend resistance in a remote facet. The trace
+stays geometrically quiet while incomplete or misaligned; a valid passage
+leaves its touched cell exact and changes how an untouched cell is made.
+
+The viewer does not select a witness, wait on a site, or close a circuit. A
+pointer/touch trace is inert until its span crosses `0.58` and its local grain
+alignment crosses `0.62`. Only then does a `resistance-transfer` event commit.
+The touched cell remains exact; an untouched remote cell gains actual
+triangulation, depth, warp, and ridge geometry. Four transfers compound and can
+be lifted in reverse order.
+
+## Radical progression
+
+The last three WebGPU works were v040's three-witness depth accord, v041's
+duration-threshold waiting fossil, and v042's closed-circuit moving shadow.
+Their repeated gesture was selecting, holding, or closing a relation in a field
+of bodies. v043 changes the representation to p5.js WEBGL custom facets, the
+composition to one suspended membrane, the viewer task to finding a viable
+grain passage, and the memory model to remote re-production of facet topology.
+The rupture is visible in engine state, interaction, and rendered geometry.
+
+## Cultural translation
+
+- Reference: `p5-brush` — https://github.com/acamposuribe/p5.brush
+- Observed mechanism: a programmable material engine treats pressure, density,
+  directional behaviour, and vector fields as production rules that alter how
+  geometry is generated rather than decorating a finished mark.
+- Mutine translation: refuse brush presets, watercolor appearance, hatching,
+  grain treatment, palette, composition, source code, examples, and API
+  surface; translate material agency into a resistance membrane where a
+  grain-aligned passage re-forms an untouched remote facet.
+- Visible consequence: a blind 3D membrane of twelve unequal facets stays
+  unchanged under an incomplete or misaligned trace; a valid passage leaves
+  the source exact and adds triangulation, depth, warp, and a ridge remotely.
+- Falsifier: if resistance is only colour/readout, if the source changes, if
+  incomplete traces commit, if every receiver is identical, or if lifting is
+  inexact, the translation fails.
+- Anti-copy: no source brush, material preset, watercolor, hatching, grain,
+  palette, composition, code, examples, API, or source imagery is reproduced.
+- Direction consequence: closes the witness-accord / waiting-fossil /
+  moving-shadow sequence and opens spatial material computation: one body
+  stores pressure by changing a place the visitor did not touch.
+
+## Artifact and evidence
+
+- `studies/webgpu/v043/{index.html,engine.mjs,sketch.js,style.css,README.md,metrics.json,critiques.json}`
+- `tests/webgpu-v043.test.mjs`
+- `scripts/webgpu-v043-probe.mjs`
+- `works/webgpu-2026-11-03/index.html`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `research/qa/proofs/webgpu-v043-2026-11-03/`
+
+TDD RED was observed: the targeted test failed because `v043/engine.mjs` and
+the tableau were absent. GREEN was observed after the engine and artifact were
+implemented.
+
+- Targeted v043 tests: **5 passed, 0 failed**.
+- Full suite: **1342 passed, 0 failed**.
+- JavaScript syntax checks: passed for `sketch.js` and the probe.
+- JSON validation: passed for source and public catalog.
+- `git diff --check`: passed before QA metadata.
+- Local headless browser matrix: **20/20 passed** across `320×568`, `390×844`,
+  `768×1024`, `1280×800`, and `1920×1080`, raw/canonical routes, normal and
+  reduced-motion modes.
+- Local diagnostics: **0**; overflow failures: **0**; minimum control: **44px**.
+- Local interaction: provisional trace geometry-neutral; valid pointer trace
+  committed a remote facet transfer while the source stayed exact; remote
+  facet count increased; Delete was exact; Enter committed equivalently;
+  Escape released; a vertical resistance miss was refused; touch trace control
+  committed; all controls met 44px.
+- Local blind preview: reduced-motion static preview retained four settled
+  transfers and twelve cells while readout, controls, status, and caption were
+  hidden; `innerWidth/clientWidth/scrollWidth` stayed `390/390/390`.
+- Local readbacks: Journal anchor/title, WebGPU current, canonical work, source
+  registry, public catalog, raw tableau, and favicon returned/rendered.
+
+## Critique and hold
+
+Accepted technical critique: the causal rule is embodied in deterministic
+engine state and produced WEBGL facet geometry, not only in text or status.
+The work remains **held** because independent caption-free human perceptual
+review is unavailable. The remaining doubt is whether the first-render
+membrane reads as a singular material computation or as a polished generic 3D
+tile sculpture. If the blind image fails that distinction, delete v043 rather
+than polish it. Provider revision linkage between GitHub and a manual Vercel
+deployment is unresolved until separately observed.
