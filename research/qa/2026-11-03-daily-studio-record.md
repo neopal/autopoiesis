@@ -234,6 +234,35 @@ implemented.
 - Local readbacks: Journal anchor/title, WebGPU current, canonical work, source
   registry, public catalog, raw tableau, and favicon returned/rendered.
 
+## Publication
+
+- Artifact commit: `4d43acb61736f5c234e1b3a2e1c07eb10e533d09`.
+- GitHub `origin/main`: verified equal to the artifact commit before the
+  production deployment.
+- Stable production alias: https://autopoiesis-nine.vercel.app
+- Deployment URL: https://autopoiesis-nr6vi1ay2-lairpa-hotmailfrs-projects.vercel.app
+- Deployment ID: `dpl_4Bo7W7BPcjeFzmWqY2G3XQ9xLjL4`, `READY`.
+- Stable-alias headless browser matrix: **20/20 passed** across `320×568`,
+  `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw/canonical routes,
+  normal and reduced-motion modes.
+- Production diagnostics: **0**; overflow failures: **0**; minimum control:
+  **44px**.
+- Production interaction: provisional pointer trace stayed geometry-neutral;
+  valid trace changed an untouched remote facet while the source stayed exact;
+  Delete was exact; Enter committed equivalently; Escape released; a vertical
+  resistance miss was refused; touch trace control committed.
+- Production readback: stable-alias `studio/data/works.json` and
+  `catalog-public.json` contain one `webgpu-2026-11-03` record; `/journal/`
+  renders `journal-webgpu-2026-11-03` and the title; the canonical work renders
+  the title/tableau; raw blind preview returns one visible WebGL canvas; favicon
+  is 200.
+- Production proof archive:
+  `research/qa/proofs/webgpu-v043-2026-11-03-production/`.
+
+The Vercel deployment was performed manually from the verified local artifact.
+GitHub synchronization and Vercel deployment are verified separately; no
+provider revision linkage is asserted.
+
 ## Critique and hold
 
 Accepted technical critique: the causal rule is embodied in deterministic
