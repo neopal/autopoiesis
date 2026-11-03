@@ -88,7 +88,22 @@
       "localReadbacks": "Local rendered Journal anchor/title, canonical work title/tableau, raw v046 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
       "localProofPath": "research/qa/proofs/brush-v046-2026-11-03/",
       "localScreenshotCount": 23,
-      "unresolved": ["production browser matrix", "independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+      "production": {
+        "alias": "https://autopoiesis-nine.vercel.app",
+        "deploymentId": "dpl_Dg5CDv6UEi5ohrEoyqSoeRvGJHYs",
+        "deploymentUrl": "https://autopoiesis-kc5xyaehl-lairpa-hotmailfrs-projects.vercel.app",
+        "readyState": "READY",
+        "viewportRuns": 20,
+        "rawViewportRuns": 10,
+        "canonicalViewportRuns": 10,
+        "diagnostics": 0,
+        "overflow": 0,
+        "minTouchTarget": 44,
+        "proofPath": "research/qa/proofs/brush-v046-2026-11-03-production/",
+        "readbacks": "Deployed works.json contains brush-2026-11-03, the canonical work route renders the title and tableau, /journal/ renders journal-brush-2026-11-03 and the title, raw blind preview is 200 with one WebGL canvas, and /studio/favicon.svg is 200.",
+        "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from the GitHub SHA"
+      },
+      "unresolved": ["independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
     }
   },
   {

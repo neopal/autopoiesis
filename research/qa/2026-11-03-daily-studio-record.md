@@ -38,10 +38,21 @@ The last three Brush records were v043 witness exchange, v044 one-way edge trave
 - Local route readbacks: raw tableau, canonical work, Journal anchor/title, source register, public catalog, and favicon.
 - Proof archive: `research/qa/proofs/brush-v046-2026-11-03/`.
 
-## Publication boundary
+## Publication
 
-This report is intentionally held until the production deployment has been independently fetched and probed. The artifact may be committed and deployed under the user's routine publication authorization; production browser evidence and final GitHub/Vercel revision linkage must be appended before claiming publication success. No exhibition-ready claim is made.
+- Artifact commit: `6a8280f561222469caf77d6df14e883fefbbd72f`.
+- Remote `origin/main`: verified equal to the artifact commit before deployment.
+- Vercel deployment: `dpl_Dg5CDv6UEi5ohrEoyqSoeRvGJHYs`, `READY`.
+- Stable production alias: https://autopoiesis-nine.vercel.app
+- Deployment URL: https://autopoiesis-kc5xyaehl-lairpa-hotmailfrs-projects.vercel.app
+- Production headless Playwright / system Chrome: **20/20 runs passed** across `320x568`, `390x844`, `768x1024`, `1280x800`, `1920x1080`, normal and reduced-motion.
+- Production diagnostics: `0`; overflow failures: `0`; minimum measured touch target: `44px`.
+- Production interaction: preview inert, through-void commit structural, exact lift, Delete, Escape, keyboard, pointer, touch, cut control, blind route, canonical route, and favicon checks passed.
+- Production readback: deployed `studio/data/works.json`, `studio/data/catalog-public.json`, canonical work route, raw blind tableau, and `/journal/` were fetched/rendered; `brush-2026-11-03`, `journal-brush-2026-11-03`, and the title were present where expected.
+- Production proof archive: `research/qa/proofs/brush-v046-2026-11-03-production/`.
+
+The Vercel deployment was performed manually from the verified local artifact. No claim is made that Vercel's deployment revision is provider-linked to the GitHub SHA; that linkage is unresolved.
 
 ## Unresolved doubt
 
-A caption-free independent human perceptual review is unavailable. The engine, blind route, and responsive local matrix are green, but the monolith may still read as an elegant generic block sculpture rather than a strange stored erasure. If production or independent review shows that the void is decorative or the remote displacement is unreadable, delete v046 rather than polish it.
+A caption-free independent human perceptual review is unavailable. The executable, responsive, and production gates are green, but the monolith may still read as an elegant generic block sculpture rather than a strange stored erasure. If independent review shows that the void is decorative or the remote displacement is unreadable, delete v046 rather than polish it. The candidate remains **held**; exhibition readiness is not claimed.
