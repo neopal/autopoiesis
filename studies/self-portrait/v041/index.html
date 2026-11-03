@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ece7dc">
+  <title>MUTINE — The portrait edits the witness.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=041">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-11-03"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v041-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v041 / ATTENTION SHUTTERS</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v041-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v041</span></nav>
+
+      <figure class="v041-work artwork-frame" aria-labelledby="work-title">
+        <div class="attention-stage" data-attention-stage tabindex="0" role="application" aria-label="A field of thirteen self-editing attention shutters. Watch one continuously beyond its threshold and it folds its own internal rule; brief attention is refused." aria-keyshortcuts="ArrowUp ArrowDown Enter Space Delete Backspace R Escape">
+          <div class="attention-plane" data-attention-plane aria-label="Thirteen generated attention shutters"></div>
+          <div class="attention-readout" aria-live="polite"><span data-stage>quiet field / 00</span><span data-memory>0 edits held</span><span data-state>the shutters are not yet watching back</span></div>
+          <p class="attention-hint" data-hint>watch one shutter · stay past the threshold</p>
+          <div class="attention-controls" aria-label="Attention encounter controls">
+            <button type="button" data-action="watch">watch selected</button>
+            <button type="button" data-action="lift">lift last fold</button>
+            <button type="button" data-action="release">release field</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v041-attention-shutters</span><span>watch &gt; wait &gt; self-edit</span></figcaption>
+      </figure>
+
+      <section class="v041-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / LOCAL MEMORY / v041</p>
+        <h1 id="work-title">The portrait edits<br><i>the witness.</i></h1>
+        <p class="v041-lede">Thirteen shutters hold their own rules. Attention is latent while it is brief. Stay with one long enough and that shutter changes its internal geometry, not as a response elsewhere but as a local revision of what it is.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A GLANCE IS NOT YET AN EVENT</p>
+          <p class="interaction-copy">Press and hold a shutter, then release after its threshold. The shutter you watched folds its own geometry and adds a new internal segment. ArrowUp / ArrowDown chooses a shutter; Enter / Space watches it for a deterministic duration. Delete lifts the latest fold; R / Escape releases the field.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The shutters are waiting for sustained attention.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v041</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Attention is geometry-neutral before the dwell threshold. A completed watch edits the watched shutter itself: its fold, dimensions, angle, offset, and internal segment grammar change locally.</dd></div>
+          <div><dt>visitor action</dt><dd>Press and hold one shutter by pointer or touch, or choose one and use the watch control / Enter. Brief attention is refused. Delete / Backspace lifts the latest local fold; R / Escape releases the deterministic seed.</dd></div>
+          <div><dt>falsifier</dt><dd>If waiting only changes colour, if a brief look folds, if the watched shutter stays exact, if every shutter edits identically, or if later edits reset, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v041 if caption-free viewing reads as a generic accordion or if sustained attention is only a timer wrapped around decoration rather than a visible self-editing rule.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-11-02/">previous daily work</a><a href="/journal/#journal-portrait-2026-11-03">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=041"></script>
+</body>
+</html>
