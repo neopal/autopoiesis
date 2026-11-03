@@ -117,8 +117,22 @@ Local readbacks: Journal/current/canonical/raw routes, source works registry, pu
 
 ## Critique and hold
 
-Accepted technical critique: the attention relation must be visible in the broken contour orbit and the produced central geometry, not in labels, selection rings, or readout. Independent caption-free perceptual review is unavailable in this unattended run. Provider revision linkage is unresolved until publication. Candidate remains held; exhibition readiness is not claimed.
+Accepted technical critique: the attention relation must be visible in the broken contour orbit and the produced central geometry, not in labels, selection rings, or readout. Independent caption-free perceptual review is unavailable in this unattended run. Candidate remains held; exhibition readiness is not claimed.
 
 ## Publication
 
-Pending final full-suite verification, scoped commit, push, production deployment, and stable-alias readback.
+- Artifact/QA commit: `4cdc33cb6e25c8bef03a5270013ea2d84e4d52b4`.
+- Remote `origin/main`: verified equal to the artifact/QA commit.
+- Final Vercel deployment: `dpl_2iEVAULGERo3akoRdL4LJ3g4P56Y`, `READY`.
+- Stable production alias: https://autopoiesis-nine.vercel.app
+- Deployment URL: https://autopoiesis-l77nyoich-lairpa-hotmailfrs-projects.vercel.app
+- Production headless Chrome browser matrix: **20/20 passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, raw and canonical routes, normal and reduced-motion modes. Diagnostics: `0`. Overflow failures: `0`. Minimum measured control: `44px`.
+- Production interaction evidence: pointer, touch, keyboard, deterministic control, exact lift, release, blind preview, canonical route, registry/catalogue, Journal, and favicon checks passed at the stable alias. Three-witness attention stayed geometry-neutral until commit; the central false contour appeared; selected witnesses stayed exact.
+- Production readback: stable-alias `studio/data/works.json`, `studio/data/catalog-public.json`, `/journal/`, canonical work route, raw v043 tableau, and favicon returned/rendered; `naive-2026-11-03`, `journal-naive-2026-11-03`, and the title were present where expected.
+- Production proof archive: `research/qa/proofs/naive-v043-2026-11-03-production/`.
+
+The Vercel deployment was performed manually from the verified local artifact. GitHub synchronization and Vercel deployment are verified separately; no provider revision linkage is asserted.
+
+## Unresolved doubt
+
+A caption-free independent human perceptual review is unavailable. The executable, responsive, and production gates are green, but the false centre may still read as an elegant generic contour constellation rather than a sufficiently strange stored hallucination. If review shows that the void is decorative, delete v043 rather than polish it. The candidate remains **held**; exhibition readiness is not claimed.
