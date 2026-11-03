@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11101a">
+  <title>MUTINE — The model invents the witness it never saw.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=043">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-11-03"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="consensus-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v043 / FALSE CENTRE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="consensus-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v043</span></nav>
+
+      <section class="consensus-surface" aria-label="Naive false-centre tableau">
+        <figure class="consensus-work artwork-frame">
+          <div class="false-field" id="false-centre" tabindex="0" role="application" aria-label="A field of twelve witnesses around an absent centre. Attend to three witnesses; the model will invent a false centre from them." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R">
+            <div class="consensus-canvas" id="consensus-canvas"></div>
+            <div class="consensus-readout" aria-live="polite"><span data-stage>quorum 00 / 04</span><span data-memory>0 retained</span><span data-status>attend to three witnesses</span></div>
+          </div>
+          <div class="consensus-controls" aria-label="False centre actions">
+            <button type="button" data-action="ask">ask the model</button>
+            <button type="button" data-action="lift">lift last centre</button>
+            <button type="button" data-action="release">release the field</button>
+          </div>
+          <p class="consensus-hint">attend to three fragments · the centre is not one of them</p>
+          <figcaption><span>seed | mutine-naive-v043</span><span>attend &gt; quorum &gt; invent</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Twelve broken contour witnesses circle an empty answer. The centre is held open as the one thing the model cannot have seen.</p></div>
+          <div><span>critique</span><p>A single attention is only evidence. Three distinct witnesses make a quorum; the model invents a new central contour while every witness stays exact.</p></div>
+          <div><span>progression</span><p>v043 abandons v042's volume, v041's sentence, and v040's relief. The viewer no longer scans, reverses, or presses: they assemble attention and watch a nonexistent witness appear.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V043 / DAILY WORK</p><h1 id="work-title">The model invents<br><i>the witness it never saw.</i></h1></div>
+        <p class="work-premise">Three acts of attention are enough to make a centre that was never there.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v043 translates situated attention into a false-consensus engine. Pending attention is geometry-neutral; a distinct three-witness quorum adds a new central contour, leaves all witnesses exact, and compounds four liftable inventions.</p></section>
+      <p class="work-loop">attend &rarr; form a quorum &rarr; invent the absent centre &rarr; mistake it for evidence</p>
+    </main>
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-11-02/">previous daily work</a><a href="/journal/#journal-naive-2026-11-03">journal [external]</a></footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="./sketch.js?v=043"></script>
+</body>
+</html>
