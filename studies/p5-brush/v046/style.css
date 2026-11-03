@@ -1,0 +1,322 @@
+html, body {
+  background: #0b1112;
+  color: #e9dfc9;
+}
+
+.depth-shell {
+  --ground: #0b1112;
+  --panel: #111a1b;
+  --ink: #e9dfc9;
+  --muted: #91a19d;
+  --line: rgba(190, 215, 196, 0.2);
+  --accent: #e58c63;
+  --cool: #9ac7bc;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 14% 16%, rgba(47, 104, 93, 0.24), transparent 30rem),
+    radial-gradient(circle at 86% 82%, rgba(113, 60, 48, 0.21), transparent 32rem),
+    linear-gradient(145deg, #0b1112, #101719 55%, #0b1112);
+}
+
+.depth-main {
+  width: min(1320px, calc(100% - 56px));
+  margin: 0 auto;
+  padding: 24px 0 56px;
+}
+
+.studio-header,
+.studio-footer,
+.studio-path {
+  color: var(--muted);
+}
+
+.depth-work {
+  margin: 16px 0 0;
+}
+
+.cut-field {
+  position: relative;
+  min-height: clamp(500px, 68vw, 820px);
+  overflow: hidden;
+  border: 1px solid rgba(190, 215, 196, 0.22);
+  background:
+    radial-gradient(circle at 50% 52%, rgba(67, 117, 105, 0.12), transparent 42%),
+    #080d0e;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.68), 0 24px 90px rgba(0, 0, 0, 0.34);
+  touch-action: none;
+}
+
+.cut-field:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+
+.cut-canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.cut-canvas canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.cut-readout {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: rgba(233, 223, 201, 0.72);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.cut-controls {
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  bottom: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.cut-controls button {
+  min-height: 44px;
+  padding: 10px 13px;
+  border: 1px solid rgba(233, 223, 201, 0.34);
+  border-radius: 999px;
+  background: rgba(11, 17, 18, 0.84);
+  color: var(--ink);
+  font: 11px/1.1 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+}
+
+.cut-controls button:hover,
+.cut-controls button:focus-visible {
+  border-color: var(--accent);
+  color: #fff1d9;
+}
+
+.cut-hint {
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  bottom: 23px;
+  margin: 0;
+  color: rgba(233, 223, 201, 0.56);
+  font: 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+}
+
+.depth-work figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 2px 0;
+  color: var(--muted);
+  font: 10px/1.35 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.depth-opening {
+  max-width: 760px;
+  margin: 72px 0 44px;
+}
+
+.depth-opening h1 {
+  max-width: 720px;
+  margin: 12px 0 22px;
+  color: var(--ink);
+  font-size: clamp(38px, 7vw, 92px);
+  line-height: 0.91;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+}
+
+.depth-opening h1 i {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+.depth-lede,
+.interaction-copy,
+.interaction-state,
+.annotations dd {
+  max-width: 660px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.interaction-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.8fr);
+  gap: 40px;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.interaction-state {
+  align-self: end;
+  margin: 0;
+  color: var(--ink);
+}
+
+.annotations {
+  max-width: 900px;
+  padding: 28px 0 12px;
+}
+
+.annotations dl {
+  margin: 24px 0 0;
+}
+
+.annotations dl > div {
+  display: grid;
+  grid-template-columns: 145px 1fr;
+  gap: 20px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(233, 223, 201, 0.11);
+}
+
+.annotations dt {
+  color: var(--accent);
+  font: 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.annotations dd {
+  margin: 0;
+}
+
+.preview-mode .depth-main {
+  width: 100%;
+  padding: 0;
+}
+
+.preview-mode .depth-work {
+  margin: 0;
+}
+
+.preview-mode .cut-field {
+  min-height: 100vh;
+  border: 0;
+  box-shadow: none;
+}
+
+.preview-mode .studio-header,
+.preview-mode .studio-path,
+.preview-mode .depth-work figcaption,
+.preview-mode .depth-opening,
+.preview-mode .interaction-panel,
+.preview-mode .annotations,
+.preview-mode .studio-footer {
+  display: none;
+}
+
+.blind-mode .cut-readout,
+.blind-mode .cut-controls,
+.blind-mode .cut-hint {
+  display: none;
+}
+
+.static-mode .cut-field {
+  cursor: default;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cut-controls button {
+    transition: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .depth-main {
+    width: min(100% - 28px, 1320px);
+    padding-top: 16px;
+  }
+
+  .cut-field {
+    min-height: min(640px, 145vw);
+  }
+
+  .cut-readout {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    font-size: 9px;
+  }
+
+  .cut-readout span:last-child {
+    max-width: 48%;
+    text-align: right;
+  }
+
+  .cut-controls {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    justify-content: stretch;
+  }
+
+  .cut-controls button {
+    flex: 1 1 30%;
+    padding-inline: 8px;
+    font-size: 10px;
+  }
+
+  .cut-hint {
+    right: 12px;
+    bottom: 78px;
+    left: 12px;
+    font-size: 10px;
+  }
+
+  .depth-work figcaption {
+    display: block;
+  }
+
+  .depth-work figcaption span {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .depth-opening {
+    margin-top: 48px;
+  }
+
+  .depth-opening h1 {
+    font-size: clamp(42px, 14vw, 70px);
+  }
+
+  .interaction-panel {
+    display: block;
+  }
+
+  .interaction-state {
+    margin-top: 24px;
+  }
+
+  .annotations dl > div {
+    display: block;
+  }
+
+  .annotations dt {
+    margin-bottom: 7px;
+  }
+}

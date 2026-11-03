@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1112">
+  <title>MUTINE — The brush stores its cuts in depth.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=046">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-03"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="depth-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v046 / DEPTH-CUT MONOLITH</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="depth-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v046</span></nav>
+
+      <figure class="depth-work artwork-frame" aria-labelledby="work-title">
+        <div id="cut-field" class="cut-field" tabindex="0" role="application" aria-label="A three-dimensional painted monolith with a central void. Draw from an outer bank through the void to the opposite bank to store a cut in depth." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R S">
+          <div class="cut-readout" aria-live="polite"><span data-stage>depth 01 / 09</span><span data-memory>quiet mass · 0 cuts</span></div>
+          <div id="cut-canvas" class="cut-canvas"></div>
+          <div class="cut-controls" aria-label="Depth-cut material actions">
+            <button type="button" data-gesture="cut">draw through the void</button>
+            <button type="button" data-gesture="latest">lift last cut</button>
+            <button type="button" data-gesture="release">release the mass</button>
+          </div>
+          <p class="cut-hint">enter the dark opening · exit on the far bank</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v046-depth-cut-monolith</span><span>absence &gt; passage &gt; remote depth</span></figcaption>
+      </figure>
+
+      <section class="depth-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / DEPTH-CUT MONOLITH / v046</p>
+        <h1 id="work-title">The brush stores<br><i>its cuts in depth.</i></h1>
+        <p class="depth-lede">The surface does not keep the gesture. Draw a cut through the existing dark opening and out the far bank; the mass remembers it elsewhere, by shifting a remote volume and deepening a different void.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A CUT MUST PASS THROUGH ABSENCE</p>
+          <p class="interaction-copy">Begin at an outer bank and draw through the central dark opening to the opposite bank. The mass stays exact during the passage. Only a complete through-cut commits: a remote piece moves in depth, another opening widens, and the seam field tightens. Pointer, touch, ArrowLeft then ArrowRight plus Enter, or “draw through the void” offer equivalent routes. Delete lifts the latest cut; Escape, R, or “release the mass” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The mass is quiet. A cut must pass through absence.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v046</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the planar clasp, the edge traverse, and the witness exchange. A passage is geometry-neutral until it enters the central void and exits the opposite bank. Only then does the monolith spend the cut as remote depth and a widened opening.</dd></div>
+          <div><dt>visitor action</dt><dd>Start at any outer bank, pass through the dark centre, and leave at the opposite bank. Interior starts, same-bank exits, and bypasses refuse without changing the mass. Pointer, touch, keyboard, and the cut control provide equivalent routes.</dd></div>
+          <div><dt>falsifier</dt><dd>If the path becomes a painted trace, if a bypass commits, if the entry or exit bank answers itself, or if remote displacement is only colour, status, or readout, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v046 if caption-free viewing reads as a generic 3D block cluster, if absence is only a hole-shaped decoration, if later cuts reset, or if the through-void rule is not visible in the geometry.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-02/">previous daily work</a><a href="/journal/#journal-brush-2026-11-03">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=046"></script>
+</body>
+</html>
