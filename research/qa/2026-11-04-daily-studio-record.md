@@ -53,9 +53,12 @@ v042 abandons v041's negative gaps, v040's held pressure rack, and v039's route-
 - Local diagnostics: 0; overflow failures: 0; smallest measured touch target: 44px.
 - Local interaction evidence: pointer commit, incomplete refusal, exact delete, blank release, keyboard equivalence, and synthetic touch commit passed. Four-fusion reduced-motion blind preview passed with controls and readout hidden.
 - Local readbacks: exactly one `typography-2026-11-04` source record and public catalogue record; Journal anchor/title, Handwriting current, canonical route, raw tableau, and favicon rendered/returned.
-- Proof archive: `research/qa/proofs/handwriting-v042-2026-11-04/`
+- Stable-alias production matrix: 20/20 raw/canonical runs passed at the same five viewports in normal and reduced-motion modes; diagnostics 0; overflow failures 0; smallest measured touch target 44px.
+- Stable-alias production interaction: pointer, incomplete refusal, exact delete, blank release, keyboard equivalence, and synthetic touch commit passed. Four-fusion reduced-motion blind preview passed with controls and readout hidden.
+- Stable-alias production readbacks: exactly one source and public catalogue record; Journal anchor/title, Handwriting current, canonical route, raw tableau, and favicon rendered/returned.
+- Production deployment: `dpl_EvuF7KpYnoTkV5NFuKoyUXHHMJhu` at `https://autopoiesis-454qymivc-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
 - `git diff --check`: passed before publication.
 
 ## Unresolved
 
-Production verification and independent caption-free perceptual review remain open. The candidate stays **held**; no exhibition-readiness claim is made.
+Independent caption-free perceptual review and provider revision linkage remain open. The candidate stays **held**; no exhibition-readiness claim is made.

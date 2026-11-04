@@ -45,8 +45,12 @@ async function rawEvidence(page, targetViewport, reducedMotion) {
 }
 
 async function canonicalEvidence(page, targetViewport, reducedMotion) {
-  await page.waitForSelector('[data-catalog-work-detail="typography-2026-11-04"][data-ready="true"]', { timeout: 10000 });
-  const tableau = page.frames().find((frame) => frame.url().includes('/studies/handwriting/v042/'));
+  await page.waitForSelector('[data-catalog-work-detail="typography-2026-11-04"]', { timeout: 10000 });
+  let tableau = null;
+  for (let attempt = 0; attempt < 100 && !tableau; attempt += 1) {
+    tableau = page.frames().find((frame) => frame.url().includes('/studies/handwriting/v042/')) ?? null;
+    if (!tableau) await page.waitForTimeout(100);
+  }
   if (!tableau) throw new Error('canonical tableau iframe not found');
   await waitReady(tableau);
   const evidence = await rawEvidence(tableau, targetViewport, reducedMotion);
