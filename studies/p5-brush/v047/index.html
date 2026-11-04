@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee7d7">
+  <title>MUTINE — The stain answers from elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=047">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-04"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="dry-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v047 / RECIPROCAL DRYING FIELD</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="dry-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v047</span></nav>
+
+      <figure class="dry-work artwork-frame" aria-labelledby="work-title">
+        <div id="drying-field" class="drying-field" tabindex="0" role="application" aria-label="A field of abstract pigment islands. Move near an island, then click or tap it: the island stays exact while an unvisited respondent dries elsewhere." aria-keyshortcuts="ArrowRight Enter Space Delete Escape R S">
+          <div class="dry-readout" aria-live="polite"><span data-stage>DRY 01 / 05</span><span data-memory>quiet field · 0 responses</span></div>
+          <div id="dry-canvas" class="dry-canvas"></div>
+          <div class="dry-controls" aria-label="Reciprocal drying material actions">
+            <button type="button" data-gesture="attend">attend to a patch</button>
+            <button type="button" data-gesture="latest">lift last response</button>
+            <button type="button" data-gesture="release">release the field</button>
+          </div>
+          <p class="dry-hint">approach a patch · tap to let another one answer</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v047-reciprocal-drying-field</span><span>proximity &gt; attention &gt; remote dry edge</span></figcaption>
+      </figure>
+
+      <section class="dry-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / RECIPROCAL DRYING FIELD / v047</p>
+        <h1 id="work-title">The stain answers<br><i>from elsewhere.</i></h1>
+        <p class="dry-lede">The patch you approach does not take the mark. It stays exact. Only an untouched respondent elsewhere dries a new edge, as if pigment had remembered the attention without keeping the hand.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ATTENTION IS A MATERIAL FORCE</p>
+          <p class="interaction-copy">Move close to one patch and tap or click it. The visited patch remains unchanged; an unvisited patch answers by gaining a real dry notch and closing a seam in the field. Pointer, touch, ArrowRight then Enter, or “attend to a patch” offer equivalent paths. Delete lifts the latest response; Escape, R, or “release the field” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The field is quiet. Attention must find a patch.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v047</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the path, jaw, and pressure-crossing grammars. Proximity is only a preview. A completed attention leaves the approached patch exact and spends the event as a dry notch in an untouched respondent elsewhere.</dd></div>
+          <div><dt>visitor action</dt><dd>Approach a pigment patch, then click, tap, or use the keyboard to attend. Empty ground refuses. The source patch does not answer itself; a deterministic respondent gains actual edge, mass, and seam geometry.</dd></div>
+          <div><dt>falsifier</dt><dd>If proximity paints a scar, if the source patch changes, if the answer is only a halo or readout, if every source maps to the same respondent, or if later responses forget earlier ones, the translation fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v047 if caption-free viewing reads as a generic node field, if the patches become characters or eyes, if reciprocal attention is only a button label, or if exact lifting fails.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-03/">previous daily work</a><a href="/journal/#journal-brush-2026-11-04">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=047"></script>
+</body>
+</html>

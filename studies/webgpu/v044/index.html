@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0b15">
+  <meta name="description" content="A field of apertures stores reciprocal attention in an unvisited portal while the approached pair stays exact.">
+  <title>MUTINE — The field answers elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=044">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-11-04"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="orbit-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v044 / reciprocal orbit</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="orbit-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v044</span></nav>
+      <section class="orbit-work" aria-label="WebGPU daily work">
+        <figure class="orbit-frame artwork-frame">
+          <canvas id="relay-field" tabindex="0" role="img" aria-label="A reciprocal orbit field of apertures that stores attention in an unvisited portal"></canvas>
+          <div class="orbit-readout" role="status" aria-live="polite"><span data-stage>relay 01 / 05</span><span data-memory>0 openings</span><span data-renderer>P5.JS / WEBGL / RECIPROCAL ORBIT</span></div>
+          <div class="orbit-status" data-status>approach one aperture, then hand attention to another</div>
+          <div class="orbit-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="relay">relay attention</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release field</button>
+          </div>
+          <figcaption><span>WEBGPU / V044 / DAILY WORK</span><span>approach → handoff → elsewhere</span></figcaption>
+        </figure>
+        <aside class="orbit-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The shards, fossil, and membrane are gone. Eleven apertures orbit a single negative centre; the image is made from openings, not bodies.</p></div>
+          <div><span>changed rule</span><p>An approach stays inert. When attention is handed from one aperture to another, a third unvisited portal changes its topology while the approached pair remains exact.</p></div>
+          <div><span>progression</span><p>Drag from one opening to another, or use Enter. Delete lifts one opening; Escape releases the archive. The field remembers four relays.</p></div>
+        </aside>
+      </section>
+      <section class="orbit-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V044 / DAILY WORK</p><h1 id="work-title">The field answers<br><i>elsewhere.</i></h1></div>
+        <p class="orbit-premise">A collective computation can remember being seen without making the seen place perform.</p>
+      </section>
+      <section class="orbit-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> v044 changes the encounter again: a discrete handoff between two apertures opens a third portal elsewhere. The visual grammar switches from body, shard, and facet to a field of negative apertures around one void; promotion depends on whether the blind field reads as a collective topology rather than an orbit diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>approach → handoff → elsewhere</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=044a"></script>
+</body>
+</html>
