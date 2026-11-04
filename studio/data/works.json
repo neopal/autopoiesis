@@ -2,6 +2,142 @@
   "schema": "mutine-works/v1",
   "works": [
   {
+    "id": "portrait-2026-11-04",
+    "currentId": "portrait",
+    "date": "2026-11-04",
+    "title": "The portrait leaves the room.",
+    "rawPath": "/studies/self-portrait/v042/",
+    "status": "candidate / held",
+    "lifecycle": "active",
+    "journal": {
+      "anchor": "journal-portrait-2026-11-04",
+      "note": "v042 inverts v041's local sustained gaze, v040's return cadence, and v039's opposing pressure. Seventeen decision kernels hold the visitor without committing geometry; only departure beyond a movement threshold opens an untouched remote kernel. Four absences compound and remain liftable."
+    },
+    "critiques": [
+      {
+        "persona": "Ledger-form critic",
+        "argument": "Seventeen open kernels must read as one off-axis absence ledger before they read as a node map. The vertical blind column, unequal scale, restrained arcs, and large quiet ground must carry the work without interface chrome."
+      },
+      {
+        "persona": "Perceptual critic",
+        "argument": "With labels, readout, controls, hint, and prose hidden, the first view must leave v039's volume, v040's mask, and v041's shutters. It should read as a field that records leaving, not as a face, constellation, dashboard, or generic particle system."
+      },
+      {
+        "persona": "Encounter critic",
+        "argument": "The visitor must enter, move, and leave. Pointer, touch, keyboard, and the leave control must offer the same meaningful path; no hover-only or click-only action may stand in for absence."
+      },
+      {
+        "persona": "Causal critic",
+        "argument": "Presence must remain geometry-neutral in the engine. A departure beyond threshold must change actual remote node position, scale, angle, void size, and notch; cursor motion, colour, status, and prose cannot substitute for the produced hollow."
+      },
+      {
+        "persona": "Non-locality critic",
+        "argument": "The approached source node must remain exact. The answer must arrive at a receiver chosen elsewhere, proving that the portrait remembers the visitor's departure rather than copying the contact point."
+      },
+      {
+        "persona": "Threshold critic",
+        "argument": "An incomplete passage must stay inert. A deterministic full departure must be visibly stronger than a refusal, and different sources must not collapse onto one identical receiver or shape."
+      },
+      {
+        "persona": "Memory critic",
+        "argument": "Four remote absences must compound in one ledger. Delete must reconstruct the exact preceding field and release must restore the deterministic quiet seed."
+      },
+      {
+        "persona": "Medium critic",
+        "argument": "p5.js Canvas 2D, generated open arcs, layered background, absence curves, and seeded node geometry are the medium. No screenshot, imported face, external font, or DOM geometry may carry the work."
+      },
+      {
+        "persona": "Cultural critic",
+        "argument": "little-critters is translated from situated agents and reciprocal attention into an inverted absence rule. Animals, eyes, head-turning, characters, paper scene, source palette, source composition, source code, examples, and API surface are refused."
+      },
+      {
+        "persona": "Radical progression critic",
+        "argument": "v042 changes representation, composition, encounter, temporal behaviour, shape vocabulary, and viewer task: DOM shutters and local dwell become a full Canvas field where presence is inert and leaving edits an untouched remote kernel."
+      },
+      {
+        "persona": "Cynic",
+        "argument": "Delete v042 if the blind field is a generic node map, if presence edits geometry, if a brief passage commits, if the receiver is cosmetic, if all departures coincide, if later absences reset, or if exact lifting fails."
+      }
+    ],
+    "metrics": {
+      "id": "portrait-v042-absence-ledger",
+      "seed": "0x503042",
+      "visitorInput": true,
+      "replay": true,
+      "renderer": "p5.js 1.11.3 deterministic Canvas 2D absence ledger",
+      "grammar": "absence-ledger",
+      "nodeCount": 17,
+      "departureThreshold": 0.62,
+      "memoryWindow": 4,
+      "primitiveBudget": "17 generated open decision kernels, one blind column, layered field texture, remote departure curves, and four liftable hollows",
+      "memoryRule": "presence updates only a transient ledger; a departure above 0.62 keeps its source exact and opens a remote receiver; four absences persist",
+      "interactionRule": "pointer or touch enters and moves through the field, then leaves; leave control and Enter / Space commit an equivalent deterministic departure; Delete lifts latest; R or Escape releases",
+      "representationRupture": "browser-native DOM shutters, Canvas negative mask, and WebGL pressure volume -> p5.js Canvas 2D field of open decision kernels",
+      "compositionRupture": "oblique shutter stack, centered mask, and faceted body -> sparse vertical absence ledger with a blind column and remote hollows",
+      "encounterRupture": "sustained local gaze, return cadence, and two-sided pressure -> enter, traverse, and leave; absence is the causal action",
+      "temporalRupture": "dwell threshold, sealed return, and simultaneous offer -> transient presence budget spent at boundary exit; remote memory compounds after the visitor is gone",
+      "mediumRupture": "DOM nodes/CSS, Canvas mask, and WebGL triangles -> p5.js Canvas 2D open arcs, seeded background layers, and produced absence curves",
+      "changedRule": "Presence is geometry-neutral. Only a departure beyond the movement threshold spends the event, opening a hollow in an untouched remote kernel while the approached source remains exact.",
+      "visibleConsequence": "The blind view is a sparse field of seventeen unequal open kernels around a quiet vertical absence. A valid departure leaves the approached kernel exact while a remote kernel shifts, opens, enlarges its void, and receives a visible departure curve; four absences remain.",
+      "falsifier": "Delete if presence edits a local kernel, if a brief or incomplete passage commits, if the receiver is only colour or readout, if all departures coincide, if later absences reset, or if exact lifting fails.",
+      "deletionCondition": "Delete v042 if caption-free viewing cannot distinguish the absence ledger from v039-v041 or if leaving is only explanatory prose attached to a button.",
+      "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+      "referenceId": "little-critters"
+    },
+    "source": {
+      "referenceId": "little-critters",
+      "title": "little-critters",
+      "url": "https://github.com/GordenSun/little-critters",
+      "observedMechanism": "A population of situated code-drawn agents makes pointer proximity legible as reciprocal attention; local behaviour remembers the visitor without a dashboard.",
+      "translatedRule": "Refuse animals, eyes, head-turning, characters, paper, source palette, source composition, source code, examples, and API surface. Invert reciprocal attention into an absence ledger: movement through a field is held without geometry, and only leaving beyond threshold opens an untouched remote kernel while the approached source stays exact.",
+      "visibleConsequence": "The blind view is a sparse p5.js Canvas field of seventeen unequal open kernels and a quiet vertical absence. An incomplete passage stays inert; a valid departure shifts and hollows a remote kernel, then four remote absences remain visible after the visitor is gone.",
+      "falsifier": "If pointer presence edits geometry, if a brief passage commits, if the source changes, if the receiver is cosmetic, if every departure coincides, or if later hollows reset, the inverted translation fails.",
+      "antiCopy": "No animals, eyes, head-turning scene, character design, paper style, source palette, source composition, source code, examples, API surface, or surface vocabulary is reproduced.",
+      "directionConsequence": "Closes Self portrait's return-mask / counterfield-volume / attention-shutter sequence and opens absence as self-observation: code portrays its own decisions by withholding the answer until the visitor is no longer present.",
+      "selectedBySlot": true
+    },
+    "browserEvidence": {
+      "status": "20/20 local headless browser runs passed across raw and canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+    "productionReady": false,
+    "runner": "headless system Chrome via Playwright",
+    "viewports": [
+      "320x568",
+      "390x844",
+      "768x1024",
+      "1280x800",
+      "1920x1080"
+    ],
+    "modes": [
+      "normal",
+      "reduced-motion"
+    ],
+    "localAlias": "http://127.0.0.1:4399",
+    "localRawPreview": "/studies/self-portrait/v042/?preview=1&interaction=1",
+    "localBlindPreview": "/studies/self-portrait/v042/?preview=1&static=1&blind=1",
+    "localCanonicalWork": "/works/portrait-2026-11-04/",
+    "localViewportRuns": 20,
+    "localRawViewportRuns": 10,
+    "localCanonicalViewportRuns": 10,
+    "localDiagnostics": 0,
+    "localOverflow": 0,
+    "localMinTouchTarget": 44,
+    "localInteraction": "Real pointer path refused an incomplete passage, then committed a remote hollow after a full traverse; source node stayed exact and receiver gained state hollow. Synthetic touch path committed on 390x844; leave control, Enter, Delete, and Escape paths also passed.",
+    "localBlindPreviewEvidence": "Static reduced-motion blind previews were captured for all five viewports; readout, hint, controls, and exhibition labels were hidden while the Canvas field remained visible.",
+    "localReadbacks": "Local canonical work route rendered the tableau iframe before its heading, with title The portrait leaves the room.; raw route returned the p5 canvas and exact interaction state.",
+    "localProofPath": "research/qa/proofs/portrait-v042-2026-11-04-local/",
+    "localScreenshotCount": 21,
+    "unresolved": [
+      "production browser matrix",
+      "independent caption-free perceptual review",
+      "provider revision linkage between final Vercel deployment and GitHub SHA"
+    ]
+  },
+  "decision": {
+      "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v042 if the blind field reads as a generic node map, if presence edits geometry, if a brief passage commits, if remote hollowing is cosmetic, if all receivers coincide, if later absences reset, or if exact lifting fails.",
+      "lineage": "portrait-2026-11-03"
+    }
+  },
+  {
     "id": "typography-2026-11-04",
     "currentId": "typography",
     "date": "2026-11-04",

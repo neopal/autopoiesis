@@ -62,3 +62,68 @@ v042 abandons v041's negative gaps, v040's held pressure rack, and v039's route-
 ## Unresolved
 
 Independent caption-free perceptual review and provider revision linkage remain open. The candidate stays **held**; no exhibition-readiness claim is made.
+
+---
+
+# Daily studio record — 2026-11-04 — Portrait
+
+## Work
+
+- **ID:** `portrait-2026-11-04`
+- **Title:** *The portrait leaves the room.*
+- **Version:** `self-portrait/v042`
+- **Status:** `candidate / held`
+- **Raw tableau:** `/studies/self-portrait/v042/`
+- **Canonical route:** `/works/portrait-2026-11-04/`
+- **Journal anchor:** `journal-portrait-2026-11-04`
+
+## Hypothesis and changed rule
+
+The last three portrait works made visitor presence alter a face-like object or its receiving part: v039's global WebGL counterfield, v040's return cadence, and v041's local dwell fold. v042 breaks that invariant. It changes the medium to a p5.js Canvas 2D field of open decision kernels and makes the viewer's exit, not selection, return, or sustained gaze, the causal action.
+
+Presence is geometry-neutral. Only a departure beyond `0.62` movement load spends the event. The approached source kernel stays exact; a deterministic remote receiver shifts, enlarges its void, changes angle and notch, and becomes hollow. Four departures compound and can be lifted exactly.
+
+- **Deterministic state:** seed `0x503042`; 17 kernels; departure threshold `0.62`; memory window 4.
+- **Visible consequence:** the blind view is a sparse field of unequal open kernels around a quiet vertical absence; a valid departure produces a remote hollow and departure curve.
+- **Interaction:** enter, traverse, and leave by pointer/touch; the leave control and `Enter`/`Space` commit an equivalent deterministic departure; `Delete` lifts; `Escape`/`R` releases.
+- **Falsifier:** reject if presence edits geometry, a brief passage commits, the source changes, the receiver is cosmetic, all departures coincide, later hollows reset, or lifting fails.
+- **Deletion condition:** delete v042 if caption-free viewing reads as a generic node map or if leaving is only explanatory prose attached to a button.
+
+## Cultural translation
+
+- **Reference:** [little-critters](https://github.com/GordenSun/little-critters) (`little-critters`)
+- **Observed mechanism:** a population of situated code-drawn agents makes pointer proximity reciprocal attention; local behaviour remembers the visitor without a dashboard.
+- **Mutine translation:** invert that reciprocity into an absence ledger. Movement through a field is held without geometry; only leaving beyond threshold opens an untouched remote kernel while the approached source stays exact.
+- **Anti-copy:** no animals, eyes, head-turning, characters, paper scene, source palette, source composition, source code, examples, API surface, or source imagery is reproduced.
+- **Direction consequence:** closes the return-mask / counterfield-volume / attention-shutter sequence and opens absence as self-observation: code portrays its own decisions by withholding the answer until the visitor is gone.
+
+## Artifact
+
+- `studies/self-portrait/v042/engine.mjs`
+- `studies/self-portrait/v042/index.html`
+- `studies/self-portrait/v042/sketch.js`
+- `studies/self-portrait/v042/style.css`
+- `studies/self-portrait/v042/README.md`
+- `studies/self-portrait/v042/metrics.json`
+- `studies/self-portrait/v042/critiques.json`
+- `works/portrait-2026-11-04/index.html`
+- `tests/portrait-v042.test.mjs`
+- `studio/data/works.json`
+- `studio/data/catalog-public.json`
+- `research/qa/proofs/portrait-v042-2026-11-04-local/`
+
+## Verification
+
+- TDD RED was observed for the missing v042 engine/tableau, and a second RED cycle caught the browser rendering regression before the `nodePosition` fix; targeted tests then passed.
+- Targeted suite: `node --test tests/portrait-v042.test.mjs` — **6 passed, 0 failed**.
+- `node --check studies/self-portrait/v042/sketch.js` — passed.
+- Local headless Chrome matrix: **20/20** raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
+- Local diagnostics: **0**; overflow failures: **0**; smallest measured touch target: **44px**.
+- Local interaction evidence: real pointer refusal for an incomplete passage, real pointer commit after a full traverse, source node exactness, remote receiver hollowing, synthetic touch commit at `390×844`, leave control, keyboard Enter, Delete, and Escape.
+- Local blind evidence: reduced-motion static previews hid readout, hint, controls, and labels while retaining the Canvas field.
+- Local canonical readback: tableau iframe appeared before the heading; title was *The portrait leaves the room.*; raw route loaded p5 Canvas and exact interaction state.
+- `git diff --check`: pending final staging.
+
+## Unresolved
+
+Independent caption-free perceptual review, production browser matrix, and provider revision linkage remain open. The candidate stays **held**; no exhibition-readiness claim is made.
