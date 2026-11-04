@@ -2,6 +2,144 @@
   "schema": "mutine-works/v1",
   "works": [
   {
+    "id": "typography-2026-11-04",
+    "currentId": "typography",
+    "date": "2026-11-04",
+    "title": "The mouth becomes a hinge.",
+    "rawPath": "/studies/handwriting/v042/",
+    "status": "candidate / held",
+    "lifecycle": "active",
+    "journal": {
+      "anchor": "journal-typography-2026-11-04",
+      "note": "v042 abandons v041's negative gaps, v040's held pressure rack, and v039's route-reading sheet. Eight open SVG routes now form one interlocked typographic body: a temporary mouth-to-mouth join stays geometry-neutral, then completion fuses two untouched remote routes into a thicker, kinked hinge ligature. Four fusions compound and remain liftable."
+    },
+    "critiques": [
+      {
+        "persona": "Body-form critic",
+        "argument": "Eight open routes must read as one interlocked typographic body before they read as separate decorative loops. The dark throat, oblique rim, unequal scales, and mouth hierarchy must carry the image without interface chrome."
+      },
+      {
+        "persona": "Perceptual critic",
+        "argument": "With readout, controls, note, hint, register, and prose hidden, the first view must leave v039's route sheet, v040's pressure rack, and v041's negative syntax. It should read as a joined body with load-bearing openings, not a type specimen or route diagram."
+      },
+      {
+        "persona": "Encounter critic",
+        "argument": "The visitor must connect two structural mouths, not click a glyph or wait at a chamber. Pointer, touch, keyboard, and the bind control must expose the same meaningful relation without a hover-only requirement."
+      },
+      {
+        "persona": "Causal critic",
+        "argument": "A pending connection must remain geometry-neutral. Completion must produce actual remote path structure, width, bend, angle, and hinge notch; cursor trails, colour, status, and prose cannot substitute for the geometry."
+      },
+      {
+        "persona": "Non-locality critic",
+        "argument": "Both touched mouths and their owning routes must stay exact. The consequence must arrive at two untouched routes, proving that the join is displaced rather than painted at the hand."
+      },
+      {
+        "persona": "Direction critic",
+        "argument": "Reversing the mouth order must change the polarity of the produced fusion. If direction only changes a label or hue, the hinge rule is false."
+      },
+      {
+        "persona": "Memory critic",
+        "argument": "Four remote fusions must compound in one body. Delete must reconstruct the exact preceding path field and release must restore the deterministic quiet seed."
+      },
+      {
+        "persona": "Medium critic",
+        "argument": "Generated SVG Bézier routes, secondary fusion paths, structural mouths, and persistent route state are the medium. No screenshot, imported type specimen, external font, or CSS poster may carry the work."
+      },
+      {
+        "persona": "Cultural critic",
+        "argument": "p5.brush is translated from material behaviour that participates in geometry production into a non-local join law. Brush presets, watercolor, hatching, grain, palette, composition, source code, examples, and API surface are refused."
+      },
+      {
+        "persona": "Radical progression critic",
+        "argument": "v042 changes representation, composition, encounter, temporal behaviour, shape vocabulary, and viewer task: negative gaps, held chambers, and junction reading become a monolithic SVG body whose ephemeral join alters untouched route topology."
+      },
+      {
+        "persona": "Cynic",
+        "argument": "Delete v042 if the blind body is a generic loop diagram, if an incomplete or repeated pair commits, if touched mouths deform, if remote fusion is cosmetic, if all pairings coincide, if later fusions reset, or if lifting is inexact."
+      }
+    ],
+    "metrics": {
+      "id": "handwriting-v042-hinge-ligature",
+      "seed": "0x485742",
+      "visitorInput": true,
+      "replay": true,
+      "renderer": "deterministic inline SVG hinge ligature body",
+      "grammar": "hinge-ligature",
+      "strokeCount": 8,
+      "portCount": 8,
+      "ligatureLength": 2,
+      "memoryWindow": 4,
+      "primitiveBudget": "8 generated open SVG route strokes, 8 structural mouths, one throat body rim, produced remote fusion paths, and four liftable ligatures",
+      "commitThreshold": "a complete connection between two distinct open mouths",
+      "memoryRule": "a pending mouth connection remains geometry-neutral; release fuses two untouched remote routes into a new path, notch, bend, and width; four fusions persist",
+      "interactionRule": "pointer or touch drags between two distinct mouths; ArrowRight chooses the pair and Enter or Space commits; bind control is equivalent; Delete lifts latest; Escape or R releases",
+      "representationRupture": "SVG negative gap constellation, Canvas pressure rack, and Canvas route sheet -> one inline SVG interlocked body of generated open stroke paths",
+      "compositionRupture": "sparse absence field, chamber rack, and route diagram -> one dark oblique body with a load-bearing throat and eight mouths",
+      "encounterRupture": "attend to emptiness, hold pressure, and select junctions -> connect two structural openings while the connection itself is refused",
+      "temporalRupture": "pending silence, elapsed debt, and route rewiring -> ephemeral join whose remote fusion compounds in a persistent body",
+      "mediumRupture": "SVG text and gap targets, Canvas text chambers, and Canvas junctions -> generated SVG Bézier stroke routes with actual produced secondary paths",
+      "changedRule": "A mouth-to-mouth connection is inert while pending. Only a complete pair spends the event by fusing two untouched remote routes; the visited mouths and temporary path do not persist.",
+      "visibleConsequence": "The blind view is one dark interlocked typographic body. A valid bind leaves the touched mouths exact and makes a remote pair visibly fuse, kink, thicken, and notch; four fusions remain visible.",
+      "falsifier": "Delete if a temporary connection paints the body, if an incomplete or repeated pair commits, if a touched mouth changes, if remote fusion is cosmetic, if all pairs coincide, if later fusions reset, or if exact lifting fails.",
+      "deletionCondition": "Delete v042 if caption-free viewing cannot distinguish hinge ligature from v039–v041 or if the mouth-to-mouth rule is only explanatory prose.",
+      "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+      "referenceId": "p5-brush"
+    },
+    "source": {
+      "referenceId": "p5-brush",
+      "title": "p5.brush",
+      "url": "https://github.com/acamposuribe/p5.brush",
+      "observedMechanism": "A programmable material engine treats pressure, density, directional behaviour, and field logic as production rules that alter how geometry is generated rather than decorating a finished mark.",
+      "translatedRule": "Refuse brush presets, watercolor appearance, hatching vocabulary, grain treatment, palette, composition, source code, examples, and API surface. Invert material agency into a non-local hinge law: a complete mouth-to-mouth join is discarded at the hand and fuses two untouched remote SVG routes with new path geometry, bend, width, and notch while the touched mouths remain exact.",
+      "visibleConsequence": "The blind view is one dark interlocked body of eight open stroke routes. An incomplete or repeated pair stays inert; a valid pair leaves its mouths exact while two untouched remote routes fuse, kink, thicken, and notch. Four fusions persist.",
+      "falsifier": "If a temporary connection paints the body, if an incomplete or repeated pair commits, if a touched mouth changes, if remote fusion is only colour or readout, if all pairings coincide, or if later fusions reset, the translation fails.",
+      "antiCopy": "No p5.brush preset, brush appearance, watercolor, hatching vocabulary, grain treatment, palette, composition, source code, examples, API surface, or source imagery is reproduced.",
+      "directionConsequence": "Closes Handwriting's route / pressure / negative-syntax sequence and opens displaced joining: the current's question moves from a letter as mark or absence into a body whose openings can alter the topology of an unvisited route.",
+      "selectedBySlot": true
+    },
+    "decision": {
+      "nextMutation": "Run labels-off, readout-off, controls-off, note-off, register-off, and prose-off comparison; delete v042 if the blind body reads as a generic loop or route diagram, if an incomplete or repeated pair commits, if touched mouths deform, if remote fusion is cosmetic, if all pairings coincide, if later fusions reset, or if exact lifting fails.",
+      "lineage": "typography-2026-11-03"
+    },
+    "browserEvidence": {
+      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending production matrix and independent caption-free perceptual review",
+      "productionReady": false,
+      "runner": "headless system Chrome via Playwright",
+      "viewports": [
+        "320x568",
+        "390x844",
+        "768x1024",
+        "1280x800",
+        "1920x1080"
+      ],
+      "modes": [
+        "normal",
+        "reduced-motion"
+      ],
+      "localAlias": "http://127.0.0.1:4177",
+      "localRawPreview": "/studies/handwriting/v042/?preview=1&interaction=1",
+      "localBlindPreview": "/studies/handwriting/v042/?preview=1&static=1&blind=1",
+      "localCanonicalWork": "/works/typography-2026-11-04/",
+      "localViewportRuns": 20,
+      "localRawViewportRuns": 10,
+      "localCanonicalViewportRuns": 10,
+      "localDiagnostics": 0,
+      "localOverflow": 0,
+      "localMinTouchTarget": 44,
+      "localInteraction": "Real pointer drag committed a remote fusion while the two touched mouths stayed exact; Delete restored the exact quiet signature; a blank release stayed geometry-neutral; ArrowRight plus Enter committed an equivalent keyboard pair; a synthetic touch path committed; pointer capture exceptions were guarded and diagnostics stayed empty.",
+      "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 kept one inline SVG hinge-ligature body visible with eight generated routes and four settled remote fusions while hiding readout, controls, hint, register, and mouths; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "localReadbacks": "Local works.json and public catalog returned HTTP 200 with exactly one typography-2026-11-04 record; rendered Journal anchor/title, Handwriting current/header, canonical work tableau, raw v042 tableau, and favicon returned/rendered.",
+      "localProofPath": "research/qa/proofs/handwriting-v042-2026-11-04/",
+      "localScreenshotCount": 22,
+      "unresolved": [
+        "production browser matrix",
+        "independent caption-free perceptual review",
+        "provider revision linkage between final Vercel deployment and GitHub SHA"
+      ]
+    }
+  },
+  {
     "id": "webgpu-2026-11-03",
     "currentId": "webgpu",
     "date": "2026-11-03",
