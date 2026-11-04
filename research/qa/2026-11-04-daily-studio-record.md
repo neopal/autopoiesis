@@ -2,7 +2,7 @@
 
 ## Scope and audit time
 
-- Audit time: `2026-11-04 09:00:48` from the local system clock.
+- Audit time: `2026-11-04 11:47:15` from the local system clock.
 - Active catalogue sources read: `studio/data/studio.json` and `studio/data/works.json`.
 - Field tests and stimuli were not treated as works.
 - Browser verification used headless system Chrome through Playwright only; no GUI, headed Chrome, CDP, or remote debugging was used.
@@ -39,20 +39,30 @@ Observed from the parsed local registers:
   - `brush-2026-08-31`
 - Complete-work mutation check: **0 complete works**; therefore the mutation check is vacuous and no complete-work mutation was observed.
 
-No missing tableau, current/date duplicate, catalogue/page mismatch, or schema parse anomaly was observed. No authentication, throttling, or challenge state was encountered; the browser evidence is local only and no production deployment check has yet been made.
+No missing tableau, current/date duplicate, catalogue/page mismatch, or schema parse anomaly was observed. No authentication, throttling, or challenge state was encountered. The stable production alias was fetched and rendered successfully after deployment.
 
 ## Verification commands
 
 - Targeted `pure-svg-v044` suite: **6 passed, 0 failed**.
+- Full suite: **1359 passed, 0 failed** (`npm test`).
 - Local headless browser matrix: **20/20 raw/canonical runs passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; diagnostics `0`, overflow failures `0`, minimum touch target `44px`.
-- Interaction evidence: pointer and synthetic touch committed a remote split while the source aperture stayed exact; incomplete and re-entry paths were refused; Delete, Escape, keyboard, and controls passed.
+- Stable production-alias headless browser matrix: **20/20 raw/canonical runs passed** across the same five viewports and two motion modes; diagnostics `0`, overflow failures `0`, minimum touch target `44px`.
+- Interaction evidence, locally and on the stable alias: pointer and synthetic touch committed a remote split while the source aperture stayed exact; incomplete and re-entry paths were refused; Delete, Escape, keyboard, and controls passed.
+- Blind preview evidence, locally and on the stable alias: reduced-motion static mode retained one compound SVG skin, six apertures, and four secondary split paths while hiding readout, controls, rim markers, annotations, and chrome.
 - Changed JavaScript syntax: `node --check studies/pure-svg/v044/sketch.js` passed; the new Playwright probe also parsed and ran.
 - `git diff --check`: passed. Git emitted existing LF-to-CRLF working-copy warnings only; no whitespace error was reported.
 
-## Blockers and next actions
+## Publication
+
+- Artifact commit: `dc10b10ba4382880d63e991a0b5dc40cabfe486b`.
+- `origin/main`: `dc10b10ba4382880d63e991a0b5dc40cabfe486b` (matches local `HEAD`).
+- Production deployment: `dpl_CzygwzH5mcvrbotmV5TmcjHh8zQw` at `https://autopoiesis-1q27u5khy-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+- Stable-alias readback: HTTP 200 and rendered visibility for `/studio/data/works.json`, `/studio/data/catalog-public.json`, `/journal/`, `/currents/pure-svg/`, `/works/svg-2026-11-04/`, `/studies/pure-svg/v044/`, and `/studio/favicon.svg`; exactly one `svg-2026-11-04` record in both registers; Journal anchor/title and canonical tableau rendered.
+
+## Open follow-ups
 
 1. Repair the seven historical records with invalid/null lifecycle values, then rerun the full catalogue audit.
 2. Keep the three uncovered 2026-11-04 currents held; do not fabricate catalogue records for missing work.
-3. Run the production alias matrix after the authorized deployment. Independent caption-free perceptual review remains unavailable; the candidate stays held and no exhibition-readiness claim is made.
+3. Independent caption-free perceptual review and provider revision linkage remain unavailable; the SVG candidate stays held and no exhibition-readiness claim is made.
 
-**Status: TECHNICALLY VERIFIED LOCALLY; TODAY'S COVERAGE IS 3/6 REAL WORK RECORDS. SVG V044 REMAINS CANDIDATE / HELD.**
+**Status: TECHNICALLY VERIFIED LOCALLY AND ON THE STABLE ALIAS; TODAY'S COVERAGE IS 3/6 REAL WORK RECORDS. SVG V044 REMAINS CANDIDATE / HELD.**

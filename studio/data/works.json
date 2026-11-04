@@ -64,7 +64,7 @@
       "selectedBySlot": true
       },
       "browserEvidence": {
-      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -84,7 +84,21 @@
       "localReadbacks": "Local rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v044 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
       "localProofPath": "research/qa/proofs/svg-v044-2026-11-04-local/",
       "localScreenshotCount": 3,
-      "unresolved": ["production matrix", "independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionDeployment": "dpl_CzygwzH5mcvrbotmV5TmcjHh8zQw",
+      "productionDeploymentUrl": "https://autopoiesis-1q27u5khy-lairpa-hotmailfrs-projects.vercel.app",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable-alias pointer drag, Delete, ArrowRight twice plus Enter, Escape, incomplete click, re-entry, synthetic touch, and 44px control checks passed; the source aperture stayed exact while one remote split committed and lifting/release restored the seed.",
+      "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 retained one compound SVG skin, six apertures, and four secondary split paths while hiding readout, controls, rim markers, annotations, and chrome; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable-alias HTTP 200 and rendered visibility for Journal anchor/title, Pure SVG current/card, canonical work/tableau, raw v044 tableau, source works.json record, public catalog record, and favicon; each register contained exactly one svg-2026-11-04 match.",
+      "productionProofPath": "research/qa/proofs/svg-v044-2026-11-04-production/",
+      "productionScreenshotCount": 3,
+      "unresolved": ["independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
       },
       "decision": {
       "nextMutation": "Run labels-off, readout-off, controls-off, rim-markers-off, and prose-off comparison; delete v044 if the blind skin reads as an undifferentiated blob, if an interior move or re-entry commits, if the source changes, if the split is cosmetic, if later cuts reset, or if exact lifting fails.",
