@@ -97,7 +97,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local headless browser runs passed across raw and canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-alias production headless browser runs passed across raw and canonical routes at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
     "productionReady": false,
     "runner": "headless system Chrome via Playwright",
     "viewports": [
@@ -126,8 +126,25 @@
     "localReadbacks": "Local canonical work route rendered the tableau iframe before its heading, with title The portrait leaves the room.; raw route returned the p5 canvas and exact interaction state.",
     "localProofPath": "research/qa/proofs/portrait-v042-2026-11-04-local/",
     "localScreenshotCount": 21,
+    "productionAlias": "https://autopoiesis-nine.vercel.app",
+    "productionRawPreview": "/studies/self-portrait/v042/?preview=1&interaction=1",
+    "productionBlindPreview": "/studies/self-portrait/v042/?preview=1&static=1&blind=1",
+    "productionCanonicalWork": "/works/portrait-2026-11-04/",
+    "productionViewportRuns": 20,
+    "productionRawViewportRuns": 10,
+    "productionCanonicalViewportRuns": 10,
+    "productionDiagnostics": 0,
+    "productionOverflow": 0,
+    "productionMinTouchTarget": 44,
+    "productionInteraction": "Stable-alias leave control, keyboard Enter, Delete, Escape, and synthetic touch paths passed at the five viewport sizes; the raw preview committed a remote hollow while preserving its source state.",
+    "productionBlindPreviewEvidence": "Stable-alias static reduced-motion blind previews were captured for all five viewports; readout, hint, controls, and exhibition labels were hidden while the Canvas field remained visible.",
+    "productionReadbacks": "Stable-alias source register and public catalogue returned HTTP 200 with exactly one portrait-2026-11-04 record each; rendered Journal anchor/title, canonical work tableau, raw v042 tableau, and favicon returned.",
+    "productionProofPath": "research/qa/proofs/portrait-v042-2026-11-04-production/",
+    "productionScreenshotCount": 20,
+    "productionDeploymentId": "dpl_6GixJQmtVB1wcqjQ67pkJvcB3tJn",
+    "productionDeploymentUrl": "https://autopoiesis-518zh3a0t-lairpa-hotmailfrs-projects.vercel.app",
+    "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from the GitHub SHA",
     "unresolved": [
-      "production browser matrix",
       "independent caption-free perceptual review",
       "provider revision linkage between final Vercel deployment and GitHub SHA"
     ]

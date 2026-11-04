@@ -122,8 +122,13 @@ Presence is geometry-neutral. Only a departure beyond `0.62` movement load spend
 - Local interaction evidence: real pointer refusal for an incomplete passage, real pointer commit after a full traverse, source node exactness, remote receiver hollowing, synthetic touch commit at `390×844`, leave control, keyboard Enter, Delete, and Escape.
 - Local blind evidence: reduced-motion static previews hid readout, hint, controls, and labels while retaining the Canvas field.
 - Local canonical readback: tableau iframe appeared before the heading; title was *The portrait leaves the room.*; raw route loaded p5 Canvas and exact interaction state.
-- `git diff --check`: pending final staging.
+- Stable-alias production headless Chrome matrix: **20/20** raw/canonical runs passed at the same five viewports in normal and reduced-motion modes.
+- Stable-alias production diagnostics: **0**; overflow failures: **0**; smallest measured touch target: **44px**.
+- Stable-alias production interaction: leave control, keyboard Enter, Delete, Escape, and synthetic touch paths passed; raw preview committed a remote hollow while preserving its source state.
+- Stable-alias production readbacks: HTTP 200 for source register, public catalogue, canonical work, raw blind tableau, and favicon; exactly one `portrait-2026-11-04` record in both registers; rendered Journal anchor/title and canonical work title matched.
+- Production deployment: `dpl_6GixJQmtVB1wcqjQ67pkJvcB3tJn` at `https://autopoiesis-518zh3a0t-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
+- `git diff --check`: passed after the initial verified commit; final evidence-only commit remains to be staged.
 
 ## Unresolved
 
-Independent caption-free perceptual review, production browser matrix, and provider revision linkage remain open. The candidate stays **held**; no exhibition-readiness claim is made.
+Independent caption-free perceptual review and provider revision linkage remain open. The candidate stays **held**; no exhibition-readiness claim is made.

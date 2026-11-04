@@ -1,0 +1,6068 @@
+{
+  "base": "https://autopoiesis-nine.vercel.app",
+  "results": [
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "mode": "normal",
+      "initial": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 16,
+            "y": 452.8125,
+            "width": 140.40625,
+            "height": 44,
+            "top": 452.8125,
+            "right": 156.40625,
+            "bottom": 496.8125,
+            "left": 16
+          },
+          {
+            "x": 163.59375,
+            "y": 452.8125,
+            "width": 140.40625,
+            "height": 44,
+            "top": 452.8125,
+            "right": 304,
+            "bottom": 496.8125,
+            "left": 163.59375
+          },
+          {
+            "x": 16,
+            "y": 504,
+            "width": 140.40625,
+            "height": 44,
+            "top": 504,
+            "right": 156.40625,
+            "bottom": 548,
+            "left": 16
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 15,
+          "receiver": 11,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 15,
+          "x": -0.404595,
+          "y": 0.4033,
+          "width": 0.135034,
+          "height": 0.101999,
+          "angle": -0.178991,
+          "voidScale": 0.543002,
+          "notch": 0.4798,
+          "tone": 3,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 11,
+          "x": -0.721114,
+          "y": 0.013176,
+          "width": 0.132015,
+          "height": 0.158861,
+          "angle": -0.658767,
+          "voidScale": 0.870581,
+          "notch": 0.40192,
+          "tone": 3,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "mode": "normal",
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "tableau": {
+          "x": 18,
+          "y": 195.5,
+          "width": 284,
+          "height": 1073.953125,
+          "top": 195.5,
+          "right": 302,
+          "bottom": 1269.453125,
+          "left": 18
+        },
+        "heading": {
+          "x": 18,
+          "y": 641.890625,
+          "width": 284,
+          "height": 127.875,
+          "top": 641.890625,
+          "right": 302,
+          "bottom": 769.765625,
+          "left": 18
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 19,
+          "y": 196.5,
+          "width": 282,
+          "height": 358.390625,
+          "top": 196.5,
+          "right": 301,
+          "bottom": 554.890625,
+          "left": 19
+        }
+      },
+      "inner": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358,
+          "top": 0,
+          "right": 282,
+          "bottom": 358,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mode": "normal",
+      "initial": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 16,
+            "y": 728.8125,
+            "width": 175.40625,
+            "height": 44,
+            "top": 728.8125,
+            "right": 191.40625,
+            "bottom": 772.8125,
+            "left": 16
+          },
+          {
+            "x": 198.59375,
+            "y": 728.8125,
+            "width": 175.40625,
+            "height": 44,
+            "top": 728.8125,
+            "right": 374,
+            "bottom": 772.8125,
+            "left": 198.59375
+          },
+          {
+            "x": 16,
+            "y": 780,
+            "width": 175.40625,
+            "height": 44,
+            "top": 780,
+            "right": 191.40625,
+            "bottom": 824,
+            "left": 16
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 15,
+          "receiver": 11,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 15,
+          "x": -0.404595,
+          "y": 0.4033,
+          "width": 0.135034,
+          "height": 0.101999,
+          "angle": -0.178991,
+          "voidScale": 0.543002,
+          "notch": 0.4798,
+          "tone": 3,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 11,
+          "x": -0.721114,
+          "y": 0.013176,
+          "width": 0.132015,
+          "height": 0.158861,
+          "angle": -0.658767,
+          "voidScale": 0.870581,
+          "notch": 0.40192,
+          "tone": 3,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": {
+        "revision": 1,
+        "interaction": "left / remote"
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mode": "normal",
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableau": {
+          "x": 18,
+          "y": 182.5,
+          "width": 354,
+          "height": 1016.359375,
+          "top": 182.5,
+          "right": 372,
+          "bottom": 1198.859375,
+          "left": 18
+        },
+        "heading": {
+          "x": 18,
+          "y": 692.296875,
+          "width": 354,
+          "height": 85.25,
+          "top": 692.296875,
+          "right": 372,
+          "bottom": 777.546875,
+          "left": 18
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 352,
+          "height": 436.796875,
+          "top": 183.5,
+          "right": 371,
+          "bottom": 620.296875,
+          "left": 19
+        }
+      },
+      "inner": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "mode": "normal",
+      "initial": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 369.5,
+            "y": 957,
+            "width": 116.078125,
+            "height": 44,
+            "top": 957,
+            "right": 485.578125,
+            "bottom": 1001,
+            "left": 369.5
+          },
+          {
+            "x": 492.765625,
+            "y": 957,
+            "width": 127.875,
+            "height": 44,
+            "top": 957,
+            "right": 620.640625,
+            "bottom": 1001,
+            "left": 492.765625
+          },
+          {
+            "x": 627.828125,
+            "y": 957,
+            "width": 110.171875,
+            "height": 44,
+            "top": 957,
+            "right": 738,
+            "bottom": 1001,
+            "left": 627.828125
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 16,
+          "receiver": 1,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 16,
+          "x": 0.231844,
+          "y": 0.456613,
+          "width": 0.102804,
+          "height": 0.149362,
+          "angle": 0.379958,
+          "voidScale": 0.584758,
+          "notch": 0.581953,
+          "tone": 0,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 1,
+          "x": -0.234672,
+          "y": -0.80043,
+          "width": 0.166205,
+          "height": 0.091506,
+          "angle": 0.025712,
+          "voidScale": 0.737819,
+          "notch": 0.605407,
+          "tone": 1,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "mode": "normal",
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "tableau": {
+          "x": 18,
+          "y": 182.5,
+          "width": 732,
+          "height": 1046.0625,
+          "top": 182.5,
+          "right": 750,
+          "bottom": 1228.5625,
+          "left": 18
+        },
+        "heading": {
+          "x": 18,
+          "y": 885.25,
+          "width": 732,
+          "height": 50.375,
+          "top": 885.25,
+          "right": 750,
+          "bottom": 935.625,
+          "left": 18
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 730,
+          "height": 629.75,
+          "top": 183.5,
+          "right": 749,
+          "bottom": 813.25,
+          "left": 19
+        }
+      },
+      "inner": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "mode": "normal",
+      "initial": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 881.5,
+            "y": 733,
+            "width": 116.078125,
+            "height": 44,
+            "top": 733,
+            "right": 997.578125,
+            "bottom": 777,
+            "left": 881.5
+          },
+          {
+            "x": 1004.765625,
+            "y": 733,
+            "width": 127.875,
+            "height": 44,
+            "top": 733,
+            "right": 1132.640625,
+            "bottom": 777,
+            "left": 1004.765625
+          },
+          {
+            "x": 1139.828125,
+            "y": 733,
+            "width": 110.171875,
+            "height": 44,
+            "top": 733,
+            "right": 1250,
+            "bottom": 777,
+            "left": 1139.828125
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 16,
+          "receiver": 1,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 16,
+          "x": 0.231844,
+          "y": 0.456613,
+          "width": 0.102804,
+          "height": 0.149362,
+          "angle": 0.379958,
+          "voidScale": 0.584758,
+          "notch": 0.581953,
+          "tone": 0,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 1,
+          "x": -0.234672,
+          "y": -0.80043,
+          "width": 0.166205,
+          "height": 0.091506,
+          "angle": 0.025712,
+          "voidScale": 0.737819,
+          "notch": 0.605407,
+          "tone": 1,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "mode": "normal",
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "tableau": {
+          "x": 56,
+          "y": 160,
+          "width": 736.546875,
+          "height": 1253.875,
+          "top": 160,
+          "right": 792.546875,
+          "bottom": 1413.875,
+          "left": 56
+        },
+        "heading": {
+          "x": 56,
+          "y": 953,
+          "width": 736.546875,
+          "height": 167.9375,
+          "top": 953,
+          "right": 792.546875,
+          "bottom": 1120.9375,
+          "left": 56
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 57,
+          "y": 161,
+          "width": 734.546875,
+          "height": 720,
+          "top": 161,
+          "right": 791.546875,
+          "bottom": 881,
+          "left": 57
+        }
+      },
+      "inner": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "mode": "normal",
+      "initial": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 1521.5,
+            "y": 1013,
+            "width": 116.078125,
+            "height": 44,
+            "top": 1013,
+            "right": 1637.578125,
+            "bottom": 1057,
+            "left": 1521.5
+          },
+          {
+            "x": 1644.765625,
+            "y": 1013,
+            "width": 127.875,
+            "height": 44,
+            "top": 1013,
+            "right": 1772.640625,
+            "bottom": 1057,
+            "left": 1644.765625
+          },
+          {
+            "x": 1779.828125,
+            "y": 1013,
+            "width": 110.171875,
+            "height": 44,
+            "top": 1013,
+            "right": 1890,
+            "bottom": 1057,
+            "left": 1779.828125
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 14,
+          "receiver": 4,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 14,
+          "x": 0.526517,
+          "y": 0.102614,
+          "width": 0.143957,
+          "height": 0.099489,
+          "angle": 0.349626,
+          "voidScale": 0.570364,
+          "notch": 0.51208,
+          "tone": 2,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 4,
+          "x": -0.394378,
+          "y": -0.499588,
+          "width": 0.119568,
+          "height": 0.143818,
+          "angle": -0.376852,
+          "voidScale": 0.68921,
+          "notch": 0.585183,
+          "tone": 0,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "mode": "normal",
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "tableau": {
+          "x": 376,
+          "y": 160,
+          "width": 723.59375,
+          "height": 1376.1875,
+          "top": 160,
+          "right": 1099.59375,
+          "bottom": 1536.1875,
+          "left": 376
+        },
+        "heading": {
+          "x": 376,
+          "y": 953,
+          "width": 723.59375,
+          "height": 290.25,
+          "top": 953,
+          "right": 1099.59375,
+          "bottom": 1243.25,
+          "left": 376
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 377,
+          "y": 161,
+          "width": 721.59375,
+          "height": 720,
+          "top": 161,
+          "right": 1098.59375,
+          "bottom": 881,
+          "left": 377
+        }
+      },
+      "inner": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "mode": "reduced",
+      "initial": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 16,
+            "y": 452.8125,
+            "width": 140.40625,
+            "height": 44,
+            "top": 452.8125,
+            "right": 156.40625,
+            "bottom": 496.8125,
+            "left": 16
+          },
+          {
+            "x": 163.59375,
+            "y": 452.8125,
+            "width": 140.40625,
+            "height": 44,
+            "top": 452.8125,
+            "right": 304,
+            "bottom": 496.8125,
+            "left": 163.59375
+          },
+          {
+            "x": 16,
+            "y": 504,
+            "width": 140.40625,
+            "height": 44,
+            "top": 504,
+            "right": 156.40625,
+            "bottom": 548,
+            "left": 16
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 15,
+          "receiver": 11,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 15,
+          "x": -0.404595,
+          "y": 0.4033,
+          "width": 0.135034,
+          "height": 0.101999,
+          "angle": -0.178991,
+          "voidScale": 0.543002,
+          "notch": 0.4798,
+          "tone": 3,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 11,
+          "x": -0.721114,
+          "y": 0.013176,
+          "width": 0.132015,
+          "height": 0.158861,
+          "angle": -0.658767,
+          "voidScale": 0.870581,
+          "notch": 0.40192,
+          "tone": 3,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "mode": "reduced",
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "tableau": {
+          "x": 18,
+          "y": 195.5,
+          "width": 284,
+          "height": 1073.953125,
+          "top": 195.5,
+          "right": 302,
+          "bottom": 1269.453125,
+          "left": 18
+        },
+        "heading": {
+          "x": 18,
+          "y": 641.890625,
+          "width": 284,
+          "height": 127.875,
+          "top": 641.890625,
+          "right": 302,
+          "bottom": 769.765625,
+          "left": 18
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 19,
+          "y": 196.5,
+          "width": 282,
+          "height": 358.390625,
+          "top": 196.5,
+          "right": 301,
+          "bottom": 554.890625,
+          "left": 19
+        }
+      },
+      "inner": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358,
+          "top": 0,
+          "right": 282,
+          "bottom": 358,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mode": "reduced",
+      "initial": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 16,
+            "y": 728.8125,
+            "width": 175.40625,
+            "height": 44,
+            "top": 728.8125,
+            "right": 191.40625,
+            "bottom": 772.8125,
+            "left": 16
+          },
+          {
+            "x": 198.59375,
+            "y": 728.8125,
+            "width": 175.40625,
+            "height": 44,
+            "top": 728.8125,
+            "right": 374,
+            "bottom": 772.8125,
+            "left": 198.59375
+          },
+          {
+            "x": 16,
+            "y": 780,
+            "width": 175.40625,
+            "height": 44,
+            "top": 780,
+            "right": 191.40625,
+            "bottom": 824,
+            "left": 16
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 15,
+          "receiver": 11,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 15,
+          "x": -0.404595,
+          "y": 0.4033,
+          "width": 0.135034,
+          "height": 0.101999,
+          "angle": -0.178991,
+          "voidScale": 0.543002,
+          "notch": 0.4798,
+          "tone": 3,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 11,
+          "x": -0.721114,
+          "y": 0.013176,
+          "width": 0.132015,
+          "height": 0.158861,
+          "angle": -0.658767,
+          "voidScale": 0.870581,
+          "notch": 0.40192,
+          "tone": 3,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mode": "reduced",
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "tableau": {
+          "x": 18,
+          "y": 182.5,
+          "width": 354,
+          "height": 1016.359375,
+          "top": 182.5,
+          "right": 372,
+          "bottom": 1198.859375,
+          "left": 18
+        },
+        "heading": {
+          "x": 18,
+          "y": 692.296875,
+          "width": 354,
+          "height": 85.25,
+          "top": 692.296875,
+          "right": 372,
+          "bottom": 777.546875,
+          "left": 18
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 352,
+          "height": 436.796875,
+          "top": 183.5,
+          "right": 371,
+          "bottom": 620.296875,
+          "left": 19
+        }
+      },
+      "inner": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "mode": "reduced",
+      "initial": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 369.5,
+            "y": 957,
+            "width": 116.078125,
+            "height": 44,
+            "top": 957,
+            "right": 485.578125,
+            "bottom": 1001,
+            "left": 369.5
+          },
+          {
+            "x": 492.765625,
+            "y": 957,
+            "width": 127.875,
+            "height": 44,
+            "top": 957,
+            "right": 620.640625,
+            "bottom": 1001,
+            "left": 492.765625
+          },
+          {
+            "x": 627.828125,
+            "y": 957,
+            "width": 110.171875,
+            "height": 44,
+            "top": 957,
+            "right": 738,
+            "bottom": 1001,
+            "left": 627.828125
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 16,
+          "receiver": 1,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 16,
+          "x": 0.231844,
+          "y": 0.456613,
+          "width": 0.102804,
+          "height": 0.149362,
+          "angle": 0.379958,
+          "voidScale": 0.584758,
+          "notch": 0.581953,
+          "tone": 0,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 1,
+          "x": -0.234672,
+          "y": -0.80043,
+          "width": 0.166205,
+          "height": 0.091506,
+          "angle": 0.025712,
+          "voidScale": 0.737819,
+          "notch": 0.605407,
+          "tone": 1,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "mode": "reduced",
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "tableau": {
+          "x": 18,
+          "y": 182.5,
+          "width": 732,
+          "height": 1046.0625,
+          "top": 182.5,
+          "right": 750,
+          "bottom": 1228.5625,
+          "left": 18
+        },
+        "heading": {
+          "x": 18,
+          "y": 885.25,
+          "width": 732,
+          "height": 50.375,
+          "top": 885.25,
+          "right": 750,
+          "bottom": 935.625,
+          "left": 18
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 19,
+          "y": 183.5,
+          "width": 730,
+          "height": 629.75,
+          "top": 183.5,
+          "right": 749,
+          "bottom": 813.25,
+          "left": 19
+        }
+      },
+      "inner": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "mode": "reduced",
+      "initial": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 881.5,
+            "y": 733,
+            "width": 116.078125,
+            "height": 44,
+            "top": 733,
+            "right": 997.578125,
+            "bottom": 777,
+            "left": 881.5
+          },
+          {
+            "x": 1004.765625,
+            "y": 733,
+            "width": 127.875,
+            "height": 44,
+            "top": 733,
+            "right": 1132.640625,
+            "bottom": 777,
+            "left": 1004.765625
+          },
+          {
+            "x": 1139.828125,
+            "y": 733,
+            "width": 110.171875,
+            "height": 44,
+            "top": 733,
+            "right": 1250,
+            "bottom": 777,
+            "left": 1139.828125
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 16,
+          "receiver": 1,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 16,
+          "x": 0.231844,
+          "y": 0.456613,
+          "width": 0.102804,
+          "height": 0.149362,
+          "angle": 0.379958,
+          "voidScale": 0.584758,
+          "notch": 0.581953,
+          "tone": 0,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 1,
+          "x": -0.234672,
+          "y": -0.80043,
+          "width": 0.166205,
+          "height": 0.091506,
+          "angle": 0.025712,
+          "voidScale": 0.737819,
+          "notch": 0.605407,
+          "tone": 1,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "mode": "reduced",
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "tableau": {
+          "x": 56,
+          "y": 160,
+          "width": 736.546875,
+          "height": 1253.875,
+          "top": 160,
+          "right": 792.546875,
+          "bottom": 1413.875,
+          "left": 56
+        },
+        "heading": {
+          "x": 56,
+          "y": 953,
+          "width": 736.546875,
+          "height": 167.9375,
+          "top": 953,
+          "right": 792.546875,
+          "bottom": 1120.9375,
+          "left": 56
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 57,
+          "y": 161,
+          "width": 734.546875,
+          "height": 720,
+          "top": 161,
+          "right": 791.546875,
+          "bottom": 881,
+          "left": 57
+        }
+      },
+      "inner": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    },
+    {
+      "surface": "raw",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "mode": "reduced",
+      "initial": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 1521.5,
+            "y": 1013,
+            "width": 116.078125,
+            "height": 44,
+            "top": 1013,
+            "right": 1637.578125,
+            "bottom": 1057,
+            "left": 1521.5
+          },
+          {
+            "x": 1644.765625,
+            "y": 1013,
+            "width": 127.875,
+            "height": 44,
+            "top": 1013,
+            "right": 1772.640625,
+            "bottom": 1057,
+            "left": 1644.765625
+          },
+          {
+            "x": 1779.828125,
+            "y": 1013,
+            "width": 110.171875,
+            "height": 44,
+            "top": 1013,
+            "right": 1890,
+            "bottom": 1057,
+            "left": 1779.828125
+          }
+        ],
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "committed": {
+        "revision": 1,
+        "memoryLength": 1,
+        "event": {
+          "kind": "departure-recomposition",
+          "relation": "absence-remembers-remotely",
+          "source": 14,
+          "receiver": 4,
+          "load": 0.8,
+          "revision": 1
+        },
+        "sourceNode": {
+          "index": 14,
+          "x": 0.526517,
+          "y": 0.102614,
+          "width": 0.143957,
+          "height": 0.099489,
+          "angle": 0.349626,
+          "voidScale": 0.570364,
+          "notch": 0.51208,
+          "tone": 2,
+          "state": "quiet"
+        },
+        "receiverNode": {
+          "index": 4,
+          "x": -0.394378,
+          "y": -0.499588,
+          "width": 0.119568,
+          "height": 0.143818,
+          "angle": -0.376852,
+          "voidScale": 0.68921,
+          "notch": 0.585183,
+          "tone": 0,
+          "state": "hollow"
+        },
+        "status": "the departure opened a place you did not touch"
+      },
+      "lifted": {
+        "revision": 0,
+        "memoryLength": 0,
+        "interaction": "lifted / exact"
+      },
+      "keyboard": {
+        "revision": 1
+      },
+      "released": {
+        "revision": 0,
+        "interaction": "quiet field"
+      },
+      "touch": null,
+      "diagnostics": []
+    },
+    {
+      "surface": "canonical",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "mode": "reduced",
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "tableau": {
+          "x": 376,
+          "y": 160,
+          "width": 723.59375,
+          "height": 1376.1875,
+          "top": 160,
+          "right": 1099.59375,
+          "bottom": 1536.1875,
+          "left": 376
+        },
+        "heading": {
+          "x": 376,
+          "y": 953,
+          "width": 723.59375,
+          "height": 290.25,
+          "top": 953,
+          "right": 1099.59375,
+          "bottom": 1243.25,
+          "left": 376
+        },
+        "title": "The portrait leaves the room.",
+        "iframe": {
+          "x": 377,
+          "y": 161,
+          "width": 721.59375,
+          "height": 720,
+          "top": 161,
+          "right": 1098.59375,
+          "bottom": 881,
+          "left": 377
+        }
+      },
+      "inner": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "state": {
+          "composition": "absence-ledger",
+          "renderer": "p5-canvas",
+          "revision": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "x": -0.563593,
+              "y": -0.857916,
+              "width": 0.108686,
+              "height": 0.155105,
+              "angle": -0.490076,
+              "voidScale": 0.50872,
+              "notch": 0.724361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 1,
+              "x": -0.187883,
+              "y": -0.784325,
+              "width": 0.14631,
+              "height": 0.101927,
+              "angle": 0.306765,
+              "voidScale": 0.445187,
+              "notch": 0.761196,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 2,
+              "x": 0.256452,
+              "y": -0.848998,
+              "width": 0.119321,
+              "height": 0.143363,
+              "angle": -0.189603,
+              "voidScale": 0.471459,
+              "notch": 0.214263,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 3,
+              "x": -0.699385,
+              "y": -0.601176,
+              "width": 0.133542,
+              "height": 0.090122,
+              "angle": 0.38398,
+              "voidScale": 0.497101,
+              "notch": 0.480342,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 4,
+              "x": -0.347589,
+              "y": -0.483483,
+              "width": 0.099673,
+              "height": 0.154239,
+              "angle": -0.095799,
+              "voidScale": 0.396578,
+              "notch": 0.740972,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 5,
+              "x": 0.078124,
+              "y": -0.564595,
+              "width": 0.140156,
+              "height": 0.099025,
+              "angle": 0.39431,
+              "voidScale": 0.554777,
+              "notch": 0.668006,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 6,
+              "x": 0.528494,
+              "y": -0.498156,
+              "width": 0.105416,
+              "height": 0.149532,
+              "angle": -0.394409,
+              "voidScale": 0.516884,
+              "notch": 0.779355,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 7,
+              "x": -0.58244,
+              "y": -0.278883,
+              "width": 0.115286,
+              "height": 0.138859,
+              "angle": 0.137822,
+              "voidScale": 0.485808,
+              "notch": 0.557701,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 8,
+              "x": -0.150311,
+              "y": -0.22737,
+              "width": 0.142153,
+              "height": 0.097853,
+              "angle": -0.394878,
+              "voidScale": 0.492031,
+              "notch": 0.233047,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 9,
+              "x": 0.24434,
+              "y": -0.291733,
+              "width": 0.101065,
+              "height": 0.150578,
+              "angle": 0.193692,
+              "voidScale": 0.497977,
+              "notch": 0.222081,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 10,
+              "x": 0.642084,
+              "y": -0.208741,
+              "width": 0.126023,
+              "height": 0.109826,
+              "angle": -0.208887,
+              "voidScale": 0.564135,
+              "notch": 0.259216,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 11,
+              "x": -0.674325,
+              "y": 0.029281,
+              "width": 0.11212,
+              "height": 0.169282,
+              "angle": -0.377714,
+              "voidScale": 0.577949,
+              "notch": 0.557709,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 12,
+              "x": -0.288998,
+              "y": 0.112241,
+              "width": 0.133806,
+              "height": 0.103563,
+              "angle": 0.230747,
+              "voidScale": 0.372849,
+              "notch": 0.222361,
+              "tone": 0,
+              "state": "quiet"
+            },
+            {
+              "index": 13,
+              "x": 0.118824,
+              "y": 0.035917,
+              "width": 0.099135,
+              "height": 0.149214,
+              "angle": -0.161474,
+              "voidScale": 0.472628,
+              "notch": 0.210001,
+              "tone": 1,
+              "state": "quiet"
+            },
+            {
+              "index": 14,
+              "x": 0.526517,
+              "y": 0.102614,
+              "width": 0.143957,
+              "height": 0.099489,
+              "angle": 0.349626,
+              "voidScale": 0.570364,
+              "notch": 0.51208,
+              "tone": 2,
+              "state": "quiet"
+            },
+            {
+              "index": 15,
+              "x": -0.404595,
+              "y": 0.4033,
+              "width": 0.135034,
+              "height": 0.101999,
+              "angle": -0.178991,
+              "voidScale": 0.543002,
+              "notch": 0.4798,
+              "tone": 3,
+              "state": "quiet"
+            },
+            {
+              "index": 16,
+              "x": 0.231844,
+              "y": 0.456613,
+              "width": 0.102804,
+              "height": 0.149362,
+              "angle": 0.379958,
+              "voidScale": 0.584758,
+              "notch": 0.581953,
+              "tone": 0,
+              "state": "quiet"
+            }
+          ],
+          "presence": null,
+          "memory": [],
+          "snapshots": [],
+          "interaction": "quiet field"
+        }
+      },
+      "diagnostics": []
+    }
+  ]
+}
