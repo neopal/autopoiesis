@@ -1,134 +1,58 @@
-# Daily studio record — 2026-11-04 — Typography
+# Mutine daily studio record — 2026-11-04
 
-## Work
+## Scope and audit time
 
-- **ID:** `typography-2026-11-04`
-- **Title:** *The mouth becomes a hinge.*
-- **Version:** `handwriting/v042`
-- **Status:** `candidate / held`
-- **Raw tableau:** `/studies/handwriting/v042/`
-- **Canonical route:** `/works/typography-2026-11-04/`
-- **Journal anchor:** `journal-typography-2026-11-04`
+- Audit time: `2026-11-04 09:00:48` from the local system clock.
+- Active catalogue sources read: `studio/data/studio.json` and `studio/data/works.json`.
+- Field tests and stimuli were not treated as works.
+- Browser verification used headless system Chrome through Playwright only; no GUI, headed Chrome, CDP, or remote debugging was used.
 
-## Hypothesis and changed rule
+## Today's coverage
 
-v042 abandons v041's negative gaps, v040's held pressure rack, and v039's route-reading sheet. Eight generated open SVG routes now form one interlocked typographic body. A temporary connection between two structural mouths remains geometry-neutral. Completing two distinct mouths spends the event by fusing two untouched remote routes into a new path with a bend, notch, and changed width. The visited mouths remain exact. Four fusions compound and remain liftable.
+The studio register declares six currents and one daily slot per current. The observed 2026-11-04 slots are:
 
-- **Deterministic state:** seed `0x485742`; 8 routes; 8 mouths; ligature length 2; memory window 4.
-- **Visible consequence:** the blind view is one dark interlocked body; a valid connection produces a remote hinge ligature rather than painting the hand's path.
-- **Interaction:** pointer/touch connect two mouths; `ArrowRight` chooses a pair; `Enter`/`Space` commits; `Delete` lifts the latest fusion; `Escape`/`R` releases. The bind control follows the same rule.
-- **Falsifier:** reject if pending geometry changes, incomplete/repeated pairs commit, visited mouths deform, remote fusion is cosmetic, receivers coincide, later fusions reset, or exact lifting fails.
-- **Deletion condition:** delete v042 if caption-free viewing cannot distinguish the hinge ligature from v039–v041 or if the mouth-to-mouth rule is only explanatory prose.
+- **Handwriting / `typography`: real work** — `typography-2026-11-04`, *The mouth becomes a hinge.*, `candidate / held`, lifecycle `active`, raw `/studies/handwriting/v042/`.
+- **Self portrait / `portrait`: real work** — `portrait-2026-11-04`, *The portrait leaves the room.*, `candidate / held`, lifecycle `active`, raw `/studies/self-portrait/v042/`.
+- **Pure SVG / `svg`: real work** — `svg-2026-11-04`, *The cut changes its elsewhere.*, `candidate / held`, lifecycle `active`, raw `/studies/pure-svg/v044/`.
+- **Brush / `brush`: held** — no 2026-11-04 catalogue record.
+- **Naive art / `naive`: held** — no 2026-11-04 catalogue record.
+- **WebGPU / `webgpu`: held** — no 2026-11-04 catalogue record; the current is declared `dormant` in `studio.json`.
 
-## Cultural translation
+There is no more-than-one-record collision for any current/date slot. Work IDs are also unique: **259 records, 259 unique IDs**.
 
-- **Reference:** [p5.brush](https://github.com/acamposuribe/p5.brush) (`p5-brush`)
-- **Observed mechanism:** programmable material, pressure, directional behaviour, and field logic alter how geometry is generated rather than decorating a finished mark.
-- **Mutine translation:** refuse brush presets and their surface vocabulary; translate material agency into a non-local hinge law. A completed mouth connection is discarded at the hand and re-produces two untouched SVG routes with actual path geometry, bend, width, and notch while the touched mouths stay exact.
-- **Anti-copy:** no p5.brush presets, watercolor appearance, hatching, grain, palette, composition, source code, examples, API surface, or source imagery is reproduced.
-- **Direction consequence:** closes the route / pressure / negative-syntax sequence and opens displaced joining: typography's body remembers a visitor by altering an unvisited route.
+## Catalogue integrity
 
-## Artifact
+Observed from the parsed local registers:
 
-- `studies/handwriting/v042/engine.mjs`
-- `studies/handwriting/v042/index.html`
-- `studies/handwriting/v042/sketch.js`
-- `studies/handwriting/v042/style.css`
-- `studies/handwriting/v042/README.md`
-- `studies/handwriting/v042/metrics.json`
-- `studies/handwriting/v042/critiques.json`
-- `works/typography-2026-11-04/index.html`
-- `tests/handwriting-v042.test.mjs`
-- `scripts/handwriting-v042-probe.mjs`
-- `studio/data/works.json`
-- `studio/data/catalog-public.json`
+- JSON parsing: passed for `studio/data/studio.json` (`mutine-studio/v2`), `works.json` (`mutine-works/v1`), `catalog-public.json` (`mutine-public-catalog/v1`), `stimuli.json` (`mutine-stimuli/v1`), `cultural-field.json` (`mutine-cultural-field/v1`), and `artist.json` (`mutine-artist/v1`).
+- Canonical pages: **259/259** recorded works have `works/<id>/index.html`.
+- Raw tableaux: **259/259** `rawPath` values are safe `/studies/` routes with an existing `index.html` tableau.
+- Journal anchors: **259/259** have the expected `journal-<workId>` field and a matching `/journal/#journal-<workId>` link in the canonical page. The journal renderer's `journalHref` helper is present.
+- Critique or explicit no-critique hold: **259/259**. All recorded works currently carry critique data; no explicit no-critique fallback was needed.
+- Lifecycle: **252/259 valid** (`active` or `complete`). Seven historical records still have a null/invalid lifecycle:
+  - `typography-2026-08-28`
+  - `brush-2026-08-28`
+  - `typography-2026-08-31`
+  - `svg-2026-08-31`
+  - `portrait-2026-08-31`
+  - `naive-2026-08-31`
+  - `brush-2026-08-31`
+- Complete-work mutation check: **0 complete works**; therefore the mutation check is vacuous and no complete-work mutation was observed.
 
-## Verification
+No missing tableau, current/date duplicate, catalogue/page mismatch, or schema parse anomaly was observed. No authentication, throttling, or challenge state was encountered; the browser evidence is local only and no production deployment check has yet been made.
 
-- TDD RED was observed for the missing v042 engine/tableau and later for the catalog registration; targeted tests then passed after minimal implementation/fixture changes.
-- Targeted suite: `node --test tests/handwriting-v042.test.mjs` — passed.
-- Full suite: `npm test` — passed.
-- JavaScript syntax checks: passed for the v042 engine, sketch, and probe.
-- Local headless Chrome matrix: 20/20 raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
-- Local diagnostics: 0; overflow failures: 0; smallest measured touch target: 44px.
-- Local interaction evidence: pointer commit, incomplete refusal, exact delete, blank release, keyboard equivalence, and synthetic touch commit passed. Four-fusion reduced-motion blind preview passed with controls and readout hidden.
-- Local readbacks: exactly one `typography-2026-11-04` source record and public catalogue record; Journal anchor/title, Handwriting current, canonical route, raw tableau, and favicon rendered/returned.
-- Stable-alias production matrix: 20/20 raw/canonical runs passed at the same five viewports in normal and reduced-motion modes; diagnostics 0; overflow failures 0; smallest measured touch target 44px.
-- Stable-alias production interaction: pointer, incomplete refusal, exact delete, blank release, keyboard equivalence, and synthetic touch commit passed. Four-fusion reduced-motion blind preview passed with controls and readout hidden.
-- Stable-alias production readbacks: exactly one source and public catalogue record; Journal anchor/title, Handwriting current, canonical route, raw tableau, and favicon rendered/returned.
-- Production deployment: `dpl_EvuF7KpYnoTkV5NFuKoyUXHHMJhu` at `https://autopoiesis-454qymivc-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
-- `git diff --check`: passed before publication.
+## Verification commands
 
-## Unresolved
+- Targeted `pure-svg-v044` suite: **6 passed, 0 failed**.
+- Local headless browser matrix: **20/20 raw/canonical runs passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080` in normal and reduced-motion modes; diagnostics `0`, overflow failures `0`, minimum touch target `44px`.
+- Interaction evidence: pointer and synthetic touch committed a remote split while the source aperture stayed exact; incomplete and re-entry paths were refused; Delete, Escape, keyboard, and controls passed.
+- Changed JavaScript syntax: `node --check studies/pure-svg/v044/sketch.js` passed; the new Playwright probe also parsed and ran.
+- `git diff --check`: passed. Git emitted existing LF-to-CRLF working-copy warnings only; no whitespace error was reported.
 
-Independent caption-free perceptual review and provider revision linkage remain open. The candidate stays **held**; no exhibition-readiness claim is made.
+## Blockers and next actions
 
----
+1. Repair the seven historical records with invalid/null lifecycle values, then rerun the full catalogue audit.
+2. Keep the three uncovered 2026-11-04 currents held; do not fabricate catalogue records for missing work.
+3. Run the production alias matrix after the authorized deployment. Independent caption-free perceptual review remains unavailable; the candidate stays held and no exhibition-readiness claim is made.
 
-# Daily studio record — 2026-11-04 — Portrait
-
-## Work
-
-- **ID:** `portrait-2026-11-04`
-- **Title:** *The portrait leaves the room.*
-- **Version:** `self-portrait/v042`
-- **Status:** `candidate / held`
-- **Raw tableau:** `/studies/self-portrait/v042/`
-- **Canonical route:** `/works/portrait-2026-11-04/`
-- **Journal anchor:** `journal-portrait-2026-11-04`
-
-## Hypothesis and changed rule
-
-The last three portrait works made visitor presence alter a face-like object or its receiving part: v039's global WebGL counterfield, v040's return cadence, and v041's local dwell fold. v042 breaks that invariant. It changes the medium to a p5.js Canvas 2D field of open decision kernels and makes the viewer's exit, not selection, return, or sustained gaze, the causal action.
-
-Presence is geometry-neutral. Only a departure beyond `0.62` movement load spends the event. The approached source kernel stays exact; a deterministic remote receiver shifts, enlarges its void, changes angle and notch, and becomes hollow. Four departures compound and can be lifted exactly.
-
-- **Deterministic state:** seed `0x503042`; 17 kernels; departure threshold `0.62`; memory window 4.
-- **Visible consequence:** the blind view is a sparse field of unequal open kernels around a quiet vertical absence; a valid departure produces a remote hollow and departure curve.
-- **Interaction:** enter, traverse, and leave by pointer/touch; the leave control and `Enter`/`Space` commit an equivalent deterministic departure; `Delete` lifts; `Escape`/`R` releases.
-- **Falsifier:** reject if presence edits geometry, a brief passage commits, the source changes, the receiver is cosmetic, all departures coincide, later hollows reset, or lifting fails.
-- **Deletion condition:** delete v042 if caption-free viewing reads as a generic node map or if leaving is only explanatory prose attached to a button.
-
-## Cultural translation
-
-- **Reference:** [little-critters](https://github.com/GordenSun/little-critters) (`little-critters`)
-- **Observed mechanism:** a population of situated code-drawn agents makes pointer proximity reciprocal attention; local behaviour remembers the visitor without a dashboard.
-- **Mutine translation:** invert that reciprocity into an absence ledger. Movement through a field is held without geometry; only leaving beyond threshold opens an untouched remote kernel while the approached source stays exact.
-- **Anti-copy:** no animals, eyes, head-turning, characters, paper scene, source palette, source composition, source code, examples, API surface, or source imagery is reproduced.
-- **Direction consequence:** closes the return-mask / counterfield-volume / attention-shutter sequence and opens absence as self-observation: code portrays its own decisions by withholding the answer until the visitor is gone.
-
-## Artifact
-
-- `studies/self-portrait/v042/engine.mjs`
-- `studies/self-portrait/v042/index.html`
-- `studies/self-portrait/v042/sketch.js`
-- `studies/self-portrait/v042/style.css`
-- `studies/self-portrait/v042/README.md`
-- `studies/self-portrait/v042/metrics.json`
-- `studies/self-portrait/v042/critiques.json`
-- `works/portrait-2026-11-04/index.html`
-- `tests/portrait-v042.test.mjs`
-- `studio/data/works.json`
-- `studio/data/catalog-public.json`
-- `research/qa/proofs/portrait-v042-2026-11-04-local/`
-
-## Verification
-
-- TDD RED was observed for the missing v042 engine/tableau, and a second RED cycle caught the browser rendering regression before the `nodePosition` fix; targeted tests then passed.
-- Targeted suite: `node --test tests/portrait-v042.test.mjs` — **6 passed, 0 failed**.
-- `node --check studies/self-portrait/v042/sketch.js` — passed.
-- Local headless Chrome matrix: **20/20** raw/canonical runs passed at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, in normal and reduced-motion modes.
-- Local diagnostics: **0**; overflow failures: **0**; smallest measured touch target: **44px**.
-- Local interaction evidence: real pointer refusal for an incomplete passage, real pointer commit after a full traverse, source node exactness, remote receiver hollowing, synthetic touch commit at `390×844`, leave control, keyboard Enter, Delete, and Escape.
-- Local blind evidence: reduced-motion static previews hid readout, hint, controls, and labels while retaining the Canvas field.
-- Local canonical readback: tableau iframe appeared before the heading; title was *The portrait leaves the room.*; raw route loaded p5 Canvas and exact interaction state.
-- Stable-alias production headless Chrome matrix: **20/20** raw/canonical runs passed at the same five viewports in normal and reduced-motion modes.
-- Stable-alias production diagnostics: **0**; overflow failures: **0**; smallest measured touch target: **44px**.
-- Stable-alias production interaction: leave control, keyboard Enter, Delete, Escape, and synthetic touch paths passed; raw preview committed a remote hollow while preserving its source state.
-- Stable-alias production readbacks: HTTP 200 for source register, public catalogue, canonical work, raw blind tableau, and favicon; exactly one `portrait-2026-11-04` record in both registers; rendered Journal anchor/title and canonical work title matched.
-- Production deployment: `dpl_6GixJQmtVB1wcqjQ67pkJvcB3tJn` at `https://autopoiesis-518zh3a0t-lairpa-hotmailfrs-projects.vercel.app`, aliased to `https://autopoiesis-nine.vercel.app`.
-- `git diff --check`: passed after the initial verified commit; final evidence-only commit remains to be staged.
-
-## Unresolved
-
-Independent caption-free perceptual review and provider revision linkage remain open. The candidate stays **held**; no exhibition-readiness claim is made.
+**Status: TECHNICALLY VERIFIED LOCALLY; TODAY'S COVERAGE IS 3/6 REAL WORK RECORDS. SVG V044 REMAINS CANDIDATE / HELD.**
