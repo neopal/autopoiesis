@@ -3,7 +3,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const baseUrl = process.env.PORTRAIT_V043_BASE_URL ?? 'http://127.0.0.1:4177';
-const proofDir = path.resolve('research/qa/proofs/portrait-v043-2026-11-05-local');
+const proofDir = path.resolve(process.env.PORTRAIT_V043_PROOF_DIR ?? 'research/qa/proofs/portrait-v043-2026-11-05-local');
 const viewports = [
   { width: 320, height: 568, label: '320x568' },
   { width: 390, height: 844, label: '390x844' },

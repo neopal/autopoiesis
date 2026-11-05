@@ -27743,7 +27743,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; overflow 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; overflow 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
@@ -27772,14 +27772,30 @@
       "localReadbacks": "Local rendered Journal anchor/title, canonical work title/tableau, raw v043 tableau, source works.json record, public catalog record, and favicon returned/rendered; all fetched routes were HTTP 200.",
       "localProofPath": "research/qa/proofs/portrait-v043-2026-11-05-local/",
       "localScreenshotCount": 4,
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionDeploymentId": "dpl_4JXwSDFV89Mt4cstzKAaiWmVvdzC",
+      "productionDeploymentUrl": "https://autopoiesis-8fvphd7ms-lairpa-hotmailfrs-projects.vercel.app",
+      "productionRawPreview": "/studies/self-portrait/v043/?preview=1&interaction=1",
+      "productionBlindPreview": "/studies/self-portrait/v043/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "/works/portrait-2026-11-05/",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable-alias pointer drag committed one remote recast while the contacted channel stayed exact; Delete restored the exact quiet signature; the press control, ArrowRight plus Enter, and synthetic touch path committed equivalent events; Escape released; control pointer events stayed outside the pressure stroke.",
+      "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept one contiguous Canvas slab and four settled remote recasts visible while hiding readout, controls, hint, labels, and exhibition chrome; outer innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable-alias HTTP 200 and rendered visibility for Journal anchor/title, canonical work/tableau, raw v043 tableau, source works.json record, public catalog record, and favicon; the deployed record and Journal each matched exactly once.",
+      "productionProofPath": "research/qa/proofs/portrait-v043-2026-11-05-production/",
+      "productionScreenshotCount": 4,
       "unresolved": [
-        "production browser matrix",
         "independent caption-free perceptual review",
         "provider revision linkage between final Vercel deployment and GitHub SHA"
       ]
     },
     "decision": {
-      "nextMutation": "Run stable-alias production matrix and labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v043 if the blind slab reads as a generic ribbon field, if a short or misaligned drag commits, if the source changes, if remote recasting is cosmetic, if later events reset, or if exact lifting fails.",
+      "nextMutation": "Run an independent labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v043 if the blind slab reads as a generic ribbon field, if a short or misaligned drag commits, if the source changes, if remote recasting is cosmetic, if later events reset, or if exact lifting fails.",
       "lineage": "portrait-2026-11-04"
     }
   }
