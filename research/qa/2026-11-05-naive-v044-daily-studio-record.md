@@ -38,9 +38,20 @@ v044 makes a material rupture: contours, solids, and words become a Canvas 2D wa
 - Local diagnostics: `0`; overflow: `0`; local proof archive: `research/qa/proofs/naive-v044-2026-11-05-local/` with `qa-summary.json` and two screenshots.
 - Local rendered readbacks: source registry, public catalog, Journal anchor/title, Naive current/card, canonical tableau, raw tableau, and favicon returned/rendered; exactly one `naive-2026-11-05` record in each JSON catalog.
 
-## Publication state at local record time
+## Publication
 
-- Artifact is ready for the authorized GitHub/Vercel publication chain, but production evidence is not yet recorded in this document.
-- Candidate remains held pending production matrix/readback, independent caption-free perceptual review, and provider revision linkage between the final Vercel deployment and GitHub SHA.
+- Artifact commit: `d8f3a644aba866674cc1f596a02929d623629bbf`.
+- GitHub push: `origin/main` now matches `d8f3a644aba866674cc1f596a02929d623629bbf`.
+- Production deployment: `dpl_AkEcLdW7kDEU8gyqPjoBB7tSyTCo`, deployment URL `https://autopoiesis-1fm0qrh9w-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app/`, state `READY`.
+- Stable-alias production headless browser matrix: **20/20 passed** across the same five viewports and both motion modes; diagnostics `0`, overflow `0`, minimum touch target `44px`.
+- Stable-alias production interaction: incomplete one-shutter departure refused; three pointer visits committed one remote absence while visited shutters stayed exact; Delete restored the exact baseline; keyboard Enter committed equivalently; deterministic control committed; synthetic touch committed.
+- Stable-alias deployed readbacks: `/studio/data/works.json` and `/studio/data/catalog-public.json` contained exactly one `naive-2026-11-05` record; `/journal/`, `/currents/naive-art/`, `/works/naive-2026-11-05/`, raw v044, and `/studio/favicon.svg` returned/rendered successfully.
+- Production proof archive: `research/qa/proofs/naive-v044-2026-11-05-production/` with `qa-summary.json` and two screenshots.
+
+## Unresolved doubt
+
+- Independent caption-free perceptual review remains unavailable in this unattended run; the candidate remains held.
+- The wall-and-shutter grammar may still be read as a polished tile/door composition rather than a sufficiently strange departure inference; no caption can repair that if true.
+- Provider revision linkage between the final Vercel deployment and GitHub SHA remains unresolved. The manual deployment was verified independently from the remote SHA.
 
 Candidate remains held; exhibition readiness is not claimed.
