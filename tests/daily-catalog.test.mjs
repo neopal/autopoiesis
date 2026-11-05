@@ -266,7 +266,8 @@ const expectedDailyIds = [
   'naive-2026-10-20',
   'brush-2026-10-22',
   'webgpu-2026-10-22',
-  'typography-2026-11-05'
+  'typography-2026-11-05',
+  'portrait-2026-11-05'
 ];
 test('daily work register preserves the recorded dates without inventing history', async () => {
   const data = JSON.parse(await read('studio/data/works.json'));
@@ -497,6 +498,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'brush-2026-08-28'
   ]);
   assert.deepEqual(catalog.currents.find((current) => current.id === 'portrait').works.map((work) => work.id), [
+    'portrait-2026-11-05',
     'portrait-2026-11-04',
     'portrait-2026-11-03',
     'portrait-2026-11-02',
