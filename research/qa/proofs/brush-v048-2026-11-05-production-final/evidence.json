@@ -1,0 +1,628 @@
+{
+  "summary": {
+    "rawViewportRuns": 10,
+    "canonicalViewportRuns": 10,
+    "passedRawViewportRuns": 10,
+    "passedCanonicalViewportRuns": 10,
+    "passedViewportRuns": 20,
+    "diagnostics": 0,
+    "minTouchTarget": 44,
+    "pointerCommit": true,
+    "keyboardCommit": true,
+    "liftExact": true,
+    "wrongOrderRefused": true,
+    "touchCommit": true
+  },
+  "before": {
+    "signature": "{\"bands\":[{\"id\":0,\"path\":[{\"x\":0.09725,\"y\":0.17785},{\"x\":0.20846,\"y\":0.20304},{\"x\":0.36337,\"y\":0.20647},{\"x\":0.50183,\"y\":0.21466},{\"x\":0.62363,\"y\":0.15217},{\"x\":0.76201,\"y\":0.14268},{\"x\":0.90445,\"y\":0.14355}],\"weight\":0.77796,\"spread\":0.08939,\"tone\":0,\"opacity\":0.5579},{\"id\":1,\"path\":[{\"x\":0.06846,\"y\":0.27157},{\"x\":0.22337,\"y\":0.28301},{\"x\":0.36183,\"y\":0.298},{\"x\":0.48363,\"y\":0.23573},{\"x\":0.62201,\"y\":0.21971},{\"x\":0.76445,\"y\":0.21245},{\"x\":0.92525,\"y\":0.25806}],\"weight\":0.65933,\"spread\":0.10707,\"tone\":1,\"opacity\":0.54184},{\"id\":2,\"path\":[{\"x\":0.08337,\"y\":0.35758},{\"x\":0.22183,\"y\":0.38023},{\"x\":0.34363,\"y\":0.31993},{\"x\":0.48201,\"y\":0.29862},{\"x\":0.62445,\"y\":0.28299},{\"x\":0.78525,\"y\":0.32374},{\"x\":0.92374,\"y\":0.36627}],\"weight\":0.5935,\"spread\":0.08157,\"tone\":2,\"opacity\":0.61354},{\"id\":3,\"path\":[{\"x\":0.08183,\"y\":0.46105},{\"x\":0.20363,\"y\":0.40436},{\"x\":0.34201,\"y\":0.37923},{\"x\":0.48445,\"y\":0.35536},{\"x\":0.64525,\"y\":0.38994},{\"x\":0.78374,\"y\":0.43323},{\"x\":0.91474,\"y\":0.45603}],\"weight\":0.87275,\"spread\":0.09327,\"tone\":0,\"opacity\":0.75554},{\"id\":4,\"path\":[{\"x\":0.06363,\"y\":0.48861},{\"x\":0.20201,\"y\":0.4613},{\"x\":0.34445,\"y\":0.42968},{\"x\":0.50525,\"y\":0.45704},{\"x\":0.64374,\"y\":0.49935},{\"x\":0.77474,\"y\":0.52816},{\"x\":0.93567,\"y\":0.5274}],\"weight\":0.5185,\"spread\":0.08158,\"tone\":1,\"opacity\":0.4699},{\"id\":5,\"path\":[{\"x\":0.06201,\"y\":0.54452},{\"x\":0.20445,\"y\":0.50597},{\"x\":0.36525,\"y\":0.52539},{\"x\":0.50374,\"y\":0.565},{\"x\":0.63474,\"y\":0.59848},{\"x\":0.79567,\"y\":0.60608},{\"x\":0.91952,\"y\":0.58198}],\"weight\":0.78173,\"spread\":0.11053,\"tone\":2,\"opacity\":0.54437},{\"id\":6,\"path\":[{\"x\":0.06445,\"y\":0.58418},{\"x\":0.22525,\"y\":0.59528},{\"x\":0.36374,\"y\":0.63059},{\"x\":0.49474,\"y\":0.6672},{\"x\":0.65567,\"y\":0.68287},{\"x\":0.77952,\"y\":0.66543},{\"x\":0.93615,\"y\":0.62776}],\"weight\":0.75247,\"spread\":0.10931,\"tone\":0,\"opacity\":0.75368},{\"id\":7,\"path\":[{\"x\":0.08525,\"y\":0.66693},{\"x\":0.22374,\"y\":0.69655},{\"x\":0.35474,\"y\":0.73459},{\"x\":0.51567,\"y\":0.7577},{\"x\":0.63952,\"y\":0.74783},{\"x\":0.79615,\"y\":0.7119},{\"x\":0.93089,\"y\":0.66692}],\"weight\":0.70786,\"spread\":0.06893,\"tone\":1,\"opacity\":0.51298},{\"id\":8,\"path\":[{\"x\":0.08374,\"y\":0.76326},{\"x\":0.21474,\"y\":0.80098},{\"x\":0.37567,\"y\":0.83055},{\"x\":0.49952,\"y\":0.82884},{\"x\":0.65615,\"y\":0.79632},{\"x\":0.79089,\"y\":0.74733},{\"x\":0.89994,\"y\":0.72208}],\"weight\":0.60343,\"spread\":0.10326,\"tone\":2,\"opacity\":0.64269}],\"gates\":[{\"id\":0,\"x\":0.18,\"y\":0.61,\"radius\":0.085},{\"id\":1,\"x\":0.48,\"y\":0.35,\"radius\":0.082},{\"id\":2,\"x\":0.77,\"y\":0.63,\"radius\":0.08}],\"blooms\":[{\"id\":0,\"x\":0.11779,\"y\":0.24567,\"rx\":0.06925,\"ry\":0.11079,\"tilt\":-0.21237,\"fold\":0.24566,\"edge\":0.20444,\"bloomCount\":0,\"seed\":0.70798},{\"id\":1,\"x\":0.39603,\"y\":0.19797,\"rx\":0.09867,\"ry\":0.09029,\"tilt\":-0.09891,\"fold\":0.47907,\"edge\":0.48028,\"bloomCount\":0,\"seed\":0.50453},{\"id\":2,\"x\":0.60922,\"y\":0.23279,\"rx\":0.08527,\"ry\":0.09811,\"tilt\":0.1109,\"fold\":0.79112,\"edge\":0.44964,\"bloomCount\":0,\"seed\":0.04533},{\"id\":3,\"x\":0.87156,\"y\":0.19593,\"rx\":0.09381,\"ry\":0.11134,\"tilt\":-0.18834,\"fold\":0.63475,\"edge\":0.85065,\"bloomCount\":0,\"seed\":0.74837},{\"id\":4,\"x\":0.11606,\"y\":0.74716,\"rx\":0.09142,\"ry\":0.10694,\"tilt\":-0.15299,\"fold\":0.69192,\"edge\":0.43285,\"bloomCount\":0,\"seed\":0.12574},{\"id\":5,\"x\":0.3915,\"y\":0.73839,\"rx\":0.08769,\"ry\":0.11093,\"tilt\":-0.02976,\"fold\":0.49607,\"edge\":0.83677,\"bloomCount\":0,\"seed\":0.42928},{\"id\":6,\"x\":0.60662,\"y\":0.72819,\"rx\":0.07694,\"ry\":0.09447,\"tilt\":0.04746,\"fold\":0.43366,\"edge\":0.56572,\"bloomCount\":0,\"seed\":0.67887},{\"id\":7,\"x\":0.86905,\"y\":0.70851,\"rx\":0.07208,\"ry\":0.09491,\"tilt\":0.1295,\"fold\":0.29235,\"edge\":0.51575,\"bloomCount\":0,\"seed\":0.86437}],\"grains\":[{\"x\":0.43672,\"y\":0.28907,\"length\":0.01764,\"angle\":0.68323},{\"x\":0.68424,\"y\":0.19074,\"length\":0.01863,\"angle\":0.67115},{\"x\":0.92138,\"y\":0.86457,\"length\":0.01245,\"angle\":2.20346},{\"x\":0.08746,\"y\":0.88226,\"length\":0.02484,\"angle\":1.53008},{\"x\":0.29184,\"y\":0.12654,\"length\":0.01766,\"angle\":1.4781},{\"x\":0.68181,\"y\":0.00048,\"length\":0.01937,\"angle\":2.03147},{\"x\":0.23062,\"y\":0.21501,\"length\":0.01637,\"angle\":0.67406},{\"x\":0.98273,\"y\":0.16403,\"length\":0.0165,\"angle\":1.13539},{\"x\":0.1841,\"y\":0.86327,\"length\":0.02404,\"angle\":1.69273},{\"x\":0.45413,\"y\":0.21265,\"length\":0.02764,\"angle\":1.26094},{\"x\":0.74227,\"y\":0.37344,\"length\":0.02251,\"angle\":2.91869},{\"x\":0.72753,\"y\":0.531,\"length\":0.0217,\"angle\":2.84161},{\"x\":0.66424,\"y\":0.41354,\"length\":0.01888,\"angle\":2.29083},{\"x\":0.00751,\"y\":0.44692,\"length\":0.02105,\"angle\":0.89702},{\"x\":0.79262,\"y\":0.59018,\"length\":0.01037,\"angle\":0.22467},{\"x\":0.45107,\"y\":0.85384,\"length\":0.01373,\"angle\":1.21513},{\"x\":0.57968,\"y\":0.83527,\"length\":0.02196,\"angle\":2.22803},{\"x\":0.45331,\"y\":0.12209,\"length\":0.02207,\"angle\":0.15076},{\"x\":0.10527,\"y\":0.65635,\"length\":0.01629,\"angle\":2.50849},{\"x\":0.84977,\"y\":0.00496,\"length\":0.01494,\"angle\":0.13939},{\"x\":0.63451,\"y\":0.3561,\"length\":0.02632,\"angle\":0.01058},{\"x\":0.16737,\"y\":0.65488,\"length\":0.01172,\"angle\":1.93996},{\"x\":0.57372,\"y\":0.35144,\"length\":0.01153,\"angle\":1.94474},{\"x\":0.81837,\"y\":0.54037,\"length\":0.01445,\"angle\":0.4225},{\"x\":0.87414,\"y\":0.81478,\"length\":0.00939,\"angle\":1.26044},{\"x\":0.83831,\"y\":0.78295,\"length\":0.02043,\"angle\":2.27727},{\"x\":0.88236,\"y\":0.25697,\"length\":0.02766,\"angle\":1.72743},{\"x\":0.56719,\"y\":0.6603,\"length\":0.01557,\"angle\":2.90671},{\"x\":0.01316,\"y\":0.64759,\"length\":0.01743,\"angle\":1.81235},{\"x\":0.11771,\"y\":0.4834,\"length\":0.02257,\"angle\":2.21672},{\"x\":0.10282,\"y\":0.67904,\"length\":0.02662,\"angle\":1.54516},{\"x\":0.25407,\"y\":0.94445,\"length\":0.02257,\"angle\":2.23001},{\"x\":0.20688,\"y\":0.37381,\"length\":0.0202,\"angle\":1.71914},{\"x\":0.62068,\"y\":0.83175,\"length\":0.01938,\"angle\":0.46294}]}",
+    "state": {
+      "memory": 0,
+      "pending": {
+        "active": false,
+        "order": [],
+        "points": [],
+        "lastPoint": null,
+        "wrongOrder": false
+      },
+      "interaction": "quiet"
+    },
+    "gates": [
+      {
+        "x": 0.18,
+        "y": 0.61
+      },
+      {
+        "x": 0.48,
+        "y": 0.35
+      },
+      {
+        "x": 0.77,
+        "y": 0.63
+      }
+    ]
+  },
+  "pointer": {
+    "signature": "{\"bands\":[{\"id\":0,\"path\":[{\"x\":0.09725,\"y\":0.17785},{\"x\":0.20846,\"y\":0.20304},{\"x\":0.36337,\"y\":0.20647},{\"x\":0.50183,\"y\":0.21466},{\"x\":0.62363,\"y\":0.15217},{\"x\":0.76201,\"y\":0.14268},{\"x\":0.90445,\"y\":0.14355}],\"weight\":0.77796,\"spread\":0.08939,\"tone\":0,\"opacity\":0.5579},{\"id\":1,\"path\":[{\"x\":0.06846,\"y\":0.27157},{\"x\":0.22337,\"y\":0.28301},{\"x\":0.36183,\"y\":0.298},{\"x\":0.48363,\"y\":0.23573},{\"x\":0.62201,\"y\":0.21971},{\"x\":0.76445,\"y\":0.21245},{\"x\":0.92525,\"y\":0.25806}],\"weight\":0.65933,\"spread\":0.10707,\"tone\":1,\"opacity\":0.54184},{\"id\":2,\"path\":[{\"x\":0.08337,\"y\":0.35758},{\"x\":0.22183,\"y\":0.38023},{\"x\":0.34363,\"y\":0.31993},{\"x\":0.48201,\"y\":0.29862},{\"x\":0.62445,\"y\":0.28299},{\"x\":0.78525,\"y\":0.32374},{\"x\":0.92374,\"y\":0.36627}],\"weight\":0.5935,\"spread\":0.08157,\"tone\":2,\"opacity\":0.61354},{\"id\":3,\"path\":[{\"x\":0.08183,\"y\":0.46105},{\"x\":0.20363,\"y\":0.40436},{\"x\":0.34201,\"y\":0.37923},{\"x\":0.48445,\"y\":0.35536},{\"x\":0.64525,\"y\":0.38994},{\"x\":0.78374,\"y\":0.43323},{\"x\":0.91474,\"y\":0.45603}],\"weight\":0.87275,\"spread\":0.09327,\"tone\":0,\"opacity\":0.75554},{\"id\":4,\"path\":[{\"x\":0.06363,\"y\":0.48861},{\"x\":0.20201,\"y\":0.4613},{\"x\":0.34445,\"y\":0.42968},{\"x\":0.50525,\"y\":0.45704},{\"x\":0.64374,\"y\":0.49935},{\"x\":0.77474,\"y\":0.52816},{\"x\":0.93567,\"y\":0.5274}],\"weight\":0.5185,\"spread\":0.08158,\"tone\":1,\"opacity\":0.4699},{\"id\":5,\"path\":[{\"x\":0.06201,\"y\":0.54452},{\"x\":0.20445,\"y\":0.50597},{\"x\":0.36525,\"y\":0.52539},{\"x\":0.50374,\"y\":0.565},{\"x\":0.63474,\"y\":0.59848},{\"x\":0.79567,\"y\":0.60608},{\"x\":0.91952,\"y\":0.58198}],\"weight\":0.78173,\"spread\":0.11053,\"tone\":2,\"opacity\":0.54437},{\"id\":6,\"path\":[{\"x\":0.06445,\"y\":0.58418},{\"x\":0.22525,\"y\":0.59528},{\"x\":0.36374,\"y\":0.63059},{\"x\":0.49474,\"y\":0.6672},{\"x\":0.65567,\"y\":0.68287},{\"x\":0.77952,\"y\":0.66543},{\"x\":0.93615,\"y\":0.62776}],\"weight\":0.75247,\"spread\":0.10931,\"tone\":0,\"opacity\":0.75368},{\"id\":7,\"path\":[{\"x\":0.08525,\"y\":0.66693},{\"x\":0.22374,\"y\":0.69655},{\"x\":0.35474,\"y\":0.73459},{\"x\":0.51567,\"y\":0.7577},{\"x\":0.63952,\"y\":0.74783},{\"x\":0.79615,\"y\":0.7119},{\"x\":0.93089,\"y\":0.66692}],\"weight\":0.70786,\"spread\":0.06893,\"tone\":1,\"opacity\":0.51298},{\"id\":8,\"path\":[{\"x\":0.08374,\"y\":0.76326},{\"x\":0.21474,\"y\":0.80098},{\"x\":0.37567,\"y\":0.83055},{\"x\":0.49952,\"y\":0.82884},{\"x\":0.65615,\"y\":0.79632},{\"x\":0.79089,\"y\":0.74733},{\"x\":0.89994,\"y\":0.72208}],\"weight\":0.60343,\"spread\":0.10326,\"tone\":2,\"opacity\":0.64269}],\"gates\":[{\"id\":0,\"x\":0.18,\"y\":0.61,\"radius\":0.085},{\"id\":1,\"x\":0.48,\"y\":0.35,\"radius\":0.082},{\"id\":2,\"x\":0.77,\"y\":0.63,\"radius\":0.08}],\"blooms\":[{\"id\":0,\"x\":0.11779,\"y\":0.24567,\"rx\":0.06925,\"ry\":0.11079,\"tilt\":-0.21237,\"fold\":0.24566,\"edge\":0.20444,\"bloomCount\":0,\"seed\":0.70798},{\"id\":1,\"x\":0.39603,\"y\":0.19797,\"rx\":0.09867,\"ry\":0.09029,\"tilt\":-0.09891,\"fold\":0.47907,\"edge\":0.48028,\"bloomCount\":0,\"seed\":0.50453},{\"id\":2,\"x\":0.60922,\"y\":0.23279,\"rx\":0.10635,\"ry\":0.11485,\"tilt\":0.1853,\"fold\":0.98332,\"edge\":0.58604,\"bloomCount\":1,\"seed\":0.04533},{\"id\":3,\"x\":0.87156,\"y\":0.19593,\"rx\":0.09381,\"ry\":0.11134,\"tilt\":-0.18834,\"fold\":0.63475,\"edge\":0.85065,\"bloomCount\":0,\"seed\":0.74837},{\"id\":4,\"x\":0.11606,\"y\":0.74716,\"rx\":0.09142,\"ry\":0.10694,\"tilt\":-0.15299,\"fold\":0.69192,\"edge\":0.43285,\"bloomCount\":0,\"seed\":0.12574},{\"id\":5,\"x\":0.3915,\"y\":0.73839,\"rx\":0.08769,\"ry\":0.11093,\"tilt\":-0.02976,\"fold\":0.49607,\"edge\":0.83677,\"bloomCount\":0,\"seed\":0.42928},{\"id\":6,\"x\":0.60662,\"y\":0.72819,\"rx\":0.07694,\"ry\":0.09447,\"tilt\":0.04746,\"fold\":0.43366,\"edge\":0.56572,\"bloomCount\":0,\"seed\":0.67887},{\"id\":7,\"x\":0.86905,\"y\":0.70851,\"rx\":0.07208,\"ry\":0.09491,\"tilt\":0.1295,\"fold\":0.29235,\"edge\":0.51575,\"bloomCount\":0,\"seed\":0.86437}],\"grains\":[{\"x\":0.43672,\"y\":0.28907,\"length\":0.01764,\"angle\":0.68323},{\"x\":0.68424,\"y\":0.19074,\"length\":0.01863,\"angle\":0.67115},{\"x\":0.92138,\"y\":0.86457,\"length\":0.01245,\"angle\":2.20346},{\"x\":0.08746,\"y\":0.88226,\"length\":0.02484,\"angle\":1.53008},{\"x\":0.29184,\"y\":0.12654,\"length\":0.01766,\"angle\":1.4781},{\"x\":0.68181,\"y\":0.00048,\"length\":0.01937,\"angle\":2.03147},{\"x\":0.23062,\"y\":0.21501,\"length\":0.01637,\"angle\":0.67406},{\"x\":0.98273,\"y\":0.16403,\"length\":0.0165,\"angle\":1.13539},{\"x\":0.1841,\"y\":0.86327,\"length\":0.02404,\"angle\":1.69273},{\"x\":0.45413,\"y\":0.21265,\"length\":0.02764,\"angle\":1.26094},{\"x\":0.74227,\"y\":0.37344,\"length\":0.02251,\"angle\":2.91869},{\"x\":0.72753,\"y\":0.531,\"length\":0.0217,\"angle\":2.84161},{\"x\":0.66424,\"y\":0.41354,\"length\":0.01888,\"angle\":2.29083},{\"x\":0.00751,\"y\":0.44692,\"length\":0.02105,\"angle\":0.89702},{\"x\":0.79262,\"y\":0.59018,\"length\":0.01037,\"angle\":0.22467},{\"x\":0.45107,\"y\":0.85384,\"length\":0.01373,\"angle\":1.21513},{\"x\":0.57968,\"y\":0.83527,\"length\":0.02196,\"angle\":2.22803},{\"x\":0.45331,\"y\":0.12209,\"length\":0.02207,\"angle\":0.15076},{\"x\":0.10527,\"y\":0.65635,\"length\":0.01629,\"angle\":2.50849},{\"x\":0.84977,\"y\":0.00496,\"length\":0.01494,\"angle\":0.13939},{\"x\":0.63451,\"y\":0.3561,\"length\":0.02632,\"angle\":0.01058},{\"x\":0.16737,\"y\":0.65488,\"length\":0.01172,\"angle\":1.93996},{\"x\":0.57372,\"y\":0.35144,\"length\":0.01153,\"angle\":1.94474},{\"x\":0.81837,\"y\":0.54037,\"length\":0.01445,\"angle\":0.4225},{\"x\":0.87414,\"y\":0.81478,\"length\":0.00939,\"angle\":1.26044},{\"x\":0.83831,\"y\":0.78295,\"length\":0.02043,\"angle\":2.27727},{\"x\":0.88236,\"y\":0.25697,\"length\":0.02766,\"angle\":1.72743},{\"x\":0.56719,\"y\":0.6603,\"length\":0.01557,\"angle\":2.90671},{\"x\":0.01316,\"y\":0.64759,\"length\":0.01743,\"angle\":1.81235},{\"x\":0.11771,\"y\":0.4834,\"length\":0.02257,\"angle\":2.21672},{\"x\":0.10282,\"y\":0.67904,\"length\":0.02662,\"angle\":1.54516},{\"x\":0.25407,\"y\":0.94445,\"length\":0.02257,\"angle\":2.23001},{\"x\":0.20688,\"y\":0.37381,\"length\":0.0202,\"angle\":1.71914},{\"x\":0.62068,\"y\":0.83175,\"length\":0.01938,\"angle\":0.46294}]}",
+    "state": {
+      "memory": 1,
+      "pending": {
+        "active": false,
+        "order": [],
+        "points": [],
+        "lastPoint": null,
+        "wrongOrder": false
+      },
+      "interaction": "stroke-committed"
+    }
+  },
+  "keyboard": {
+    "memory": 1,
+    "pending": {
+      "active": false,
+      "order": [],
+      "points": [],
+      "lastPoint": null,
+      "wrongOrder": false
+    },
+    "interaction": "stroke-committed"
+  },
+  "lifted": {
+    "memory": 0,
+    "pending": {
+      "active": false,
+      "order": [],
+      "points": [],
+      "lastPoint": null,
+      "wrongOrder": false
+    },
+    "interaction": "lifted"
+  },
+  "wrongOrder": {
+    "memory": 0,
+    "pending": {
+      "active": false,
+      "order": [
+        0
+      ],
+      "points": [
+        {
+          "x": 0.18,
+          "y": 0.61948
+        },
+        {
+          "x": 0.25375,
+          "y": 0.62198
+        },
+        {
+          "x": 0.3275,
+          "y": 0.62448
+        },
+        {
+          "x": 0.40125,
+          "y": 0.62698
+        },
+        {
+          "x": 0.475,
+          "y": 0.62948
+        },
+        {
+          "x": 0.54875,
+          "y": 0.63198
+        },
+        {
+          "x": 0.6225,
+          "y": 0.63448
+        },
+        {
+          "x": 0.69625,
+          "y": 0.63698
+        },
+        {
+          "x": 0.77,
+          "y": 0.63948
+        },
+        {
+          "x": 0.79125,
+          "y": 0.62323
+        },
+        {
+          "x": 0.8125,
+          "y": 0.60698
+        },
+        {
+          "x": 0.83375,
+          "y": 0.59073
+        },
+        {
+          "x": 0.855,
+          "y": 0.57448
+        },
+        {
+          "x": 0.87625,
+          "y": 0.55823
+        },
+        {
+          "x": 0.8975,
+          "y": 0.54198
+        },
+        {
+          "x": 0.91875,
+          "y": 0.52573
+        },
+        {
+          "x": 0.94,
+          "y": 0.50948
+        }
+      ],
+      "lastPoint": {
+        "x": 0.94,
+        "y": 0.50948
+      },
+      "wrongOrder": true
+    },
+    "interaction": "stroke-refused-order"
+  },
+  "touch": {
+    "memory": 1,
+    "pending": {
+      "active": false,
+      "order": [],
+      "points": [],
+      "lastPoint": null,
+      "wrongOrder": false
+    },
+    "interaction": "stroke-committed"
+  },
+  "results": [
+    {
+      "mode": "normal",
+      "viewport": "320x568",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": true,
+        "canvasRect": {
+          "width": 304,
+          "height": 568
+        },
+        "fieldRect": {
+          "width": 304,
+          "height": 568
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 44,
+        "state": {
+          "memory": 0,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "quiet"
+        }
+      },
+      "canonical": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "normal",
+      "viewport": "390x844",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": true,
+        "canvasRect": {
+          "width": 374,
+          "height": 844
+        },
+        "fieldRect": {
+          "width": 374,
+          "height": 844
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 44,
+        "state": {
+          "memory": 0,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "quiet"
+        }
+      },
+      "canonical": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "normal",
+      "viewport": "768x1024",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": true,
+        "canvasRect": {
+          "width": 752,
+          "height": 1024
+        },
+        "fieldRect": {
+          "width": 752,
+          "height": 1024
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 44,
+        "state": {
+          "memory": 0,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "quiet"
+        }
+      },
+      "canonical": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "normal",
+      "viewport": "1280x800",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": true,
+        "canvasRect": {
+          "width": 1264,
+          "height": 800
+        },
+        "fieldRect": {
+          "width": 1264,
+          "height": 800
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 44,
+        "state": {
+          "memory": 0,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "quiet"
+        }
+      },
+      "canonical": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "normal",
+      "viewport": "1920x1080",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": true,
+        "canvasRect": {
+          "width": 1904,
+          "height": 1080
+        },
+        "fieldRect": {
+          "width": 1904,
+          "height": 1080
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 44,
+        "state": {
+          "memory": 0,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "quiet"
+        }
+      },
+      "canonical": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "reduced-motion",
+      "viewport": "320x568",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": true,
+        "canvasRect": {
+          "width": 304,
+          "height": 568
+        },
+        "fieldRect": {
+          "width": 304,
+          "height": 568
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 0,
+        "state": {
+          "memory": 4,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "stroke-committed"
+        }
+      },
+      "canonical": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "reduced-motion",
+      "viewport": "390x844",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": true,
+        "canvasRect": {
+          "width": 374,
+          "height": 844
+        },
+        "fieldRect": {
+          "width": 374,
+          "height": 844
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 0,
+        "state": {
+          "memory": 4,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "stroke-committed"
+        }
+      },
+      "canonical": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "reduced-motion",
+      "viewport": "768x1024",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": true,
+        "canvasRect": {
+          "width": 752,
+          "height": 1024
+        },
+        "fieldRect": {
+          "width": 752,
+          "height": 1024
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 0,
+        "state": {
+          "memory": 4,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "stroke-committed"
+        }
+      },
+      "canonical": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "reduced-motion",
+      "viewport": "1280x800",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": true,
+        "canvasRect": {
+          "width": 1264,
+          "height": 800
+        },
+        "fieldRect": {
+          "width": 1264,
+          "height": 800
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 0,
+        "state": {
+          "memory": 4,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "stroke-committed"
+        }
+      },
+      "canonical": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "mode": "reduced-motion",
+      "viewport": "1920x1080",
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": true,
+        "canvasRect": {
+          "width": 1904,
+          "height": 1080
+        },
+        "fieldRect": {
+          "width": 1904,
+          "height": 1080
+        },
+        "controlsVisible": true,
+        "minTouchTarget": 0,
+        "state": {
+          "memory": 4,
+          "pending": {
+            "active": false,
+            "order": [],
+            "points": [],
+            "lastPoint": null,
+            "wrongOrder": false
+          },
+          "interaction": "stroke-committed"
+        }
+      },
+      "canonical": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "title": "The wash grows where it was not touched.",
+        "iframe": true,
+        "tableau": true
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    }
+  ]
+}
