@@ -97,7 +97,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
@@ -112,7 +112,6 @@
         "reduced-motion"
       ],
       "unresolved": [
-        "production browser matrix",
         "independent caption-free perceptual review",
         "provider revision linkage between final Vercel deployment and GitHub SHA"
       ],
@@ -130,7 +129,25 @@
       "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 retained fourteen generated tiles and four settled remote fracture paths while hiding readout, controls, annotations, opening, and key shortcuts; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
       "localReadbacks": "Local rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v045 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
       "localProofPath": "research/qa/proofs/svg-v045-2026-11-05-local/",
-      "localScreenshotCount": 3
+      "localScreenshotCount": 3,
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionRawPreview": "/studies/pure-svg/v045/?preview=1&interaction=1",
+      "productionBlindPreview": "/studies/pure-svg/v045/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "/works/svg-2026-11-05/",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable-alias real pointer clicks held the first site without geometry change, a distinct second site committed one remote opening while source and observer paths stayed exact, Delete restored the seed, ArrowRight twice plus Enter committed equivalently, Escape released, incomplete and repeated attention stayed neutral, synthetic touch committed, and all controls measured 44px or more.",
+      "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 retained fourteen generated tiles and four settled remote fracture paths while hiding readout, controls, annotations, opening, and key shortcuts; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable-alias HTTP 200 and rendered visibility for Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v045 tableau, source works.json record, public catalog record, and favicon; the deployed record and Journal each matched exactly once.",
+      "productionProofPath": "research/qa/proofs/svg-v045-2026-11-05-production/",
+      "productionScreenshotCount": 3,
+      "productionDeploymentId": "dpl_HaQ3f1P4Ej76cq9fdiB9bw1rTNDm",
+      "productionDeploymentUrl": "https://autopoiesis-6yqxo987a-lairpa-hotmailfrs-projects.vercel.app",
+      "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from the GitHub SHA"
     },
     "decision": {
       "nextMutation": "Run labels-off, readout-off, controls-off, annotations-off, and prose-off comparison; delete v045 if the blind register reads as a generic tile grid, if one click commits, if touched tiles deform, if remote opening is cosmetic, if different pairs collapse onto one receiver, if later openings reset, or if exact lifting fails.",
