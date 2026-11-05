@@ -27589,7 +27589,7 @@
     "lineage": "typography-2026-11-04"
   },
   "browserEvidence": {
-    "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+    "status": "20/20 local raw/canonical and 20/20 stable-alias production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local and production diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
     "productionReady": false,
     "runner": "headless system Chrome via Playwright",
     "viewports": [
@@ -27618,8 +27618,26 @@
     "localReadbacks": "Local works.json and public catalog returned HTTP 200 with exactly one typography-2026-11-05 record; rendered Journal anchor/title, Handwriting current/header, canonical work tableau, raw v043 tableau, and favicon returned/rendered.",
     "localProofPath": "research/qa/proofs/handwriting-v043-2026-11-05/",
     "localScreenshotCount": 22,
+    "stableAlias": "https://autopoiesis-nine.vercel.app",
+    "productionAlias": "https://autopoiesis-nine.vercel.app",
+    "productionRawPreview": "/studies/handwriting/v043/?preview=1&interaction=1",
+    "productionBlindPreview": "/studies/handwriting/v043/?preview=1&static=1&blind=1",
+    "productionCanonicalWork": "/works/typography-2026-11-05/",
+    "productionViewportRuns": 20,
+    "productionRawViewportRuns": 10,
+    "productionCanonicalViewportRuns": 10,
+    "productionDiagnostics": 0,
+    "productionOverflow": 0,
+    "productionMinTouchTarget": 44,
+    "productionInteraction": "Stable-alias real pointer dwell committed one remote reflow while the attended panel stayed exact; Delete restored the exact quiet signature; pending dwell remained geometry-neutral; ArrowRight plus Enter committed an equivalent keyboard event; a synthetic touch tap committed; remote layout IDs changed; diagnostics stayed empty.",
+    "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 kept nine DOM text panels visible with four settled remote reflows while hiding readout, controls, notation, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+    "productionReadbacks": "Stable-alias works.json and public catalog returned HTTP 200 with exactly one typography-2026-11-05 record; rendered Journal anchor/title, Handwriting current/header, canonical work tableau, raw v043 tableau, and favicon returned/rendered.",
+    "productionProofPath": "research/qa/proofs/handwriting-v043-2026-11-05-production/",
+    "productionScreenshotCount": 22,
+    "productionDeploymentId": "dpl_HQHCpHXjGFFE3xAgBiWvvPNmjAvK",
+    "productionDeploymentUrl": "https://autopoiesis-3yr0vmikc-lairpa-hotmailfrs-projects.vercel.app",
+    "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from the GitHub SHA",
     "unresolved": [
-      "production browser matrix",
       "independent caption-free perceptual review",
       "provider revision linkage between final Vercel deployment and GitHub SHA"
     ]
