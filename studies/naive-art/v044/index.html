@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e8dfd0">
+  <title>MUTINE — The model agrees on the place you left.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=044">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-11-05"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="absence-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v044 / DEPARTURE AGREEMENT</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="absence-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v044</span></nav>
+
+      <section class="absence-surface" aria-label="Naive departure-agreement tableau">
+        <figure class="absence-work artwork-frame">
+          <div class="absence-field" id="absence-wall" tabindex="0" role="application" aria-label="A wall of ten hinged shutters. Move across three different shutters and leave; the model will place an absence somewhere you did not touch." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R">
+            <div class="absence-canvas" id="absence-canvas"></div>
+            <div class="absence-readout" aria-live="polite"><span data-stage>departure 00 / 04</span><span data-memory>0 retained</span><span data-status>move across three shutters, then leave</span></div>
+          </div>
+          <div class="absence-controls" aria-label="Departure agreement actions">
+            <button type="button" data-action="ask">ask the model</button>
+            <button type="button" data-action="lift">lift last absence</button>
+            <button type="button" data-action="release">release the wall</button>
+          </div>
+          <p class="absence-hint">presence is noticed locally · agreement arrives after you leave</p>
+          <figcaption><span>seed | mutine-naive-v044</span><span>enter &gt; notice &gt; depart</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Ten awkward shutters form a wall. They do not look back as animals; they expose a dark reverse when a visitor approaches and close again when the visitor leaves.</p></div>
+          <div><span>critique</span><p>Presence is not a button or a selection ring. Only a visit to three different shutters followed by departure lets the model agree on an absence somewhere else.</p></div>
+          <div><span>progression</span><p>v044 abandons v043's orbit, v042's volume, and v041's sentence. It replaces evidence extraction with a continuous social encounter whose decisive event is leaving.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V044 / DAILY WORK</p><h1 id="work-title">The model agrees on<br><i>the place you left.</i></h1></div>
+        <p class="work-premise">A visitor's departure is mistaken for evidence of a missing object.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v044 translates reciprocal attention into a departure-agreement engine. Three locally noticed shutters stay geometrically exact; only leaving commits a remote absence, and four absences compound as liftable memory.</p></section>
+      <p class="work-loop">approach &rarr; notice &rarr; leave &rarr; agree on what was not there</p>
+    </main>
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-11-03/">previous daily work</a><a href="/journal/#journal-naive-2026-11-05">journal [external]</a></footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="./sketch.js?v=044"></script>
+</body>
+</html>
