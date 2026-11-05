@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172736">
+  <title>MUTINE — The wash grows where it was not touched.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=048">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-05"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="wash-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v048 / REMOTE REGROWTH WASH</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="wash-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v048</span></nav>
+
+      <figure class="wash-work artwork-frame" aria-labelledby="work-title">
+        <div id="wash-field" class="wash-field" tabindex="0" role="application" aria-label="A procedural wash. Press through three faint pressure gates and leave the sheet: the gesture vanishes while an untouched bloom regrows elsewhere." aria-keyshortcuts="ArrowRight Enter Space Delete Escape R S">
+          <div class="wash-readout" aria-live="polite"><span data-stage>WASH 01 / 05</span><span data-memory>quiet sheet · 0 regrowths</span></div>
+          <div id="wash-canvas" class="wash-canvas"></div>
+          <div class="wash-controls" aria-label="Remote regrowth material actions">
+            <button type="button" data-gesture="press">press through the wash</button>
+            <button type="button" data-gesture="latest">lift last regrowth</button>
+            <button type="button" data-gesture="release">release the sheet</button>
+          </div>
+          <p class="wash-hint">enter at the first gate · pass three pressure bands · leave the wash</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v048-remote-regrowth-wash</span><span>pressure &gt; disappearance &gt; elsewhere</span></figcaption>
+      </figure>
+
+      <section class="wash-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / REMOTE REGROWTH WASH / v048</p>
+        <h1 id="work-title">The wash grows<br><i>where it was not touched.</i></h1>
+        <p class="wash-lede">A pressure stroke enters the sheet, passes three hidden thresholds, and leaves no scar. The removed force is re-made as a new bloom at a place the hand never reached.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">THE GESTURE IS NOT THE MARK</p>
+          <p class="interaction-copy">Press near the first gate and drag through the next two, then leave the wash. The provisional route is only a test: on release it disappears. A remote bloom gains actual width, fold, and edge geometry. Pointer, touch, ArrowRight three times then Enter, or “press through the wash” offer equivalent paths. Delete lifts the latest regrowth; Escape, R, or “release the sheet” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The sheet is quiet. Pressure must enter at the first gate.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v048</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon islands, clasp, and through-void passage. A stroke is only a pressure probe. If it crosses three gates in order and exits, the route vanishes and an untouched bloom regrows elsewhere.</dd></div>
+          <div><dt>visitor action</dt><dd>Enter at the first gate, cross the middle gate, cross the last gate, then leave the sheet. Empty ground, wrong order, and incomplete pressure refuse to spend material.</dd></div>
+          <div><dt>falsifier</dt><dd>If the gesture leaves a local scar, if a gate changes, if the response is only a halo or readout, if every stroke regrows the same bloom, or if later regrowths forget earlier ones, the rule fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v048 if the blind wash reads as another field of islands or a route diagram, if the pressure sequence is only a button label, or if exact lifting fails.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-04/">previous daily work</a><a href="/journal/#journal-brush-2026-11-05">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=048"></script>
+</body>
+</html>
