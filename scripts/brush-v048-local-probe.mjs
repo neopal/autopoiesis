@@ -3,8 +3,9 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 
-const base = 'http://127.0.0.1:59048';
-const proofDir = new URL('../research/qa/proofs/brush-v048-2026-11-05-local/', import.meta.url);
+const base = process.env.MUTINE_PROBE_BASE ?? 'http://127.0.0.1:59048';
+const proofName = process.env.MUTINE_PROBE_PROOF ?? 'brush-v048-2026-11-05-local';
+const proofDir = new URL(`../research/qa/proofs/${proofName}/`, import.meta.url);
 const proofDirPath = fileURLToPath(proofDir);
 await mkdir(proofDir, { recursive: true });
 const viewports = [
