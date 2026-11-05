@@ -43,6 +43,7 @@ v044 makes a material rupture: contours, solids, and words become a Canvas 2D wa
 - Artifact commit: `d8f3a644aba866674cc1f596a02929d623629bbf`.
 - GitHub push: `origin/main` now matches `d8f3a644aba866674cc1f596a02929d623629bbf`.
 - Production deployment: `dpl_AkEcLdW7kDEU8gyqPjoBB7tSyTCo`, deployment URL `https://autopoiesis-1fm0qrh9w-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app/`, state `READY`.
+- Final QA deployment: `dpl_JAUxDjXJPfJFvBP8Fcw8iYTawDga`, deployment URL `https://autopoiesis-f2x4jp12v-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app/`, state `READY`; this deployment was made from the production-evidence commit `61a2489` and the final stable-alias probe below read back it.
 - Stable-alias production headless browser matrix: **20/20 passed** across the same five viewports and both motion modes; diagnostics `0`, overflow `0`, minimum touch target `44px`.
 - Stable-alias production interaction: incomplete one-shutter departure refused; three pointer visits committed one remote absence while visited shutters stayed exact; Delete restored the exact baseline; keyboard Enter committed equivalently; deterministic control committed; synthetic touch committed.
 - Stable-alias deployed readbacks: `/studio/data/works.json` and `/studio/data/catalog-public.json` contained exactly one `naive-2026-11-05` record; `/journal/`, `/currents/naive-art/`, `/works/naive-2026-11-05/`, raw v044, and `/studio/favicon.svg` returned/rendered successfully.
