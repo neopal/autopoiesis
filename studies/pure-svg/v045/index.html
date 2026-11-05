@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9e4d6">
+  <title>MUTINE — The witness is absent elsewhere.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=045">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-11-05"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v045</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v045</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="A sparse register of fourteen SVG tiles that opens a remote counterform when attention is handed between two tiles" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="ArrowRight Enter Space Delete Escape R">
+            <title>The witness is absent elsewhere.</title>
+          </svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>quiet register / 00</span><span data-memory>0 handoffs · no absence spent</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="attend-control" data-gesture="attend">hand attention</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release register</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Fourteen unequal SVG tiles keep a quiet counterform. The register is a field of absences, not a grid of icons.</p></div>
+          <div><span>changed rule</span><p>Attention is held between two tiles. Only a completed handoff opens a third tile that was never touched.</p></div>
+          <div><span>progression</span><p>Tap one tile, then another, or press ArrowRight then Enter. Delete lifts one absence; Escape or R releases the seed.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V045 / DAILY WORK</p><h1 id="work-title">The witness is<br><i>absent elsewhere.</i></h1></div>
+        <p class="work-premise">A look is not stored where it arrives. Two situated attentions hand their event to an untouched tile, where the missing shape becomes structural.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The causal engine is deterministic: a two-site handoff remains neutral until commit, source and observer stay exact, and a remote tile gains an actual counterform, corner drift, and fracture. Four handoffs compound and lift exactly. Promotion depends on whether the blind register reads as a strange field of withheld witnesses rather than a decorative tile map.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=045"></script>
+</body>
+</html>
