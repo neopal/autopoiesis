@@ -99,7 +99,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-alias production headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
@@ -128,8 +128,25 @@
       "localReadbacks": "Local rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v045 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
       "localProofPath": "research/qa/proofs/webgpu-v045-2026-11-06-local/",
       "localScreenshotCount": 25,
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v045/?preview=1&interaction=1",
+      "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v045/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-11-06/",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable-alias pointer hold stayed geometry-neutral while the load built; release after 720ms committed one sediment load; the source cell stayed exact while untouched cells changed; Delete restored the quiet signature; Enter committed an equivalent default load; Escape released; a short tap was refused; the deposit-weight touch path committed; all visible controls measured at least 44px.",
+      "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 retained one WEBGL sediment-strata mass with 72 generated cells and four settled loads while hiding readout, controls, status, and caption; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable alias works.json and catalog-public.json each contain exactly one webgpu-2026-11-06 record; /journal/ renders journal-webgpu-2026-11-06 and the title, the WebGPU current/card renders the title, the canonical work renders the title and tableau, the raw v045 tableau returns, and the favicon is 200.",
+      "productionProofPath": "research/qa/proofs/webgpu-v045-2026-11-06-production/",
+      "productionScreenshotCount": 25,
+      "productionDeploymentId": "dpl_8iZrHLubHjhnRRxPNfnWiHgmYev2",
+      "productionDeploymentUrl": "https://autopoiesis-5pnha8si4-lairpa-hotmailfrs-projects.vercel.app",
+      "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from the GitHub SHA",
       "unresolved": [
-        "production browser matrix",
         "independent caption-free perceptual review",
         "provider revision linkage between final Vercel deployment and GitHub SHA"
       ]
