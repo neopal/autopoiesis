@@ -9,6 +9,7 @@ const expectedDailyIds = [
   'svg-2026-11-06',
   'portrait-2026-11-06',
   'naive-2026-11-05',
+  'naive-2026-11-06',
   'brush-2026-11-05',
   'svg-2026-11-05',
   'brush-2026-11-04',

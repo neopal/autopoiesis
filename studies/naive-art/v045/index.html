@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d9d0bc">
+  <title>MUTINE — The model fills the hole you did not make.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=045">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-11-06"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="membrane-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v045 / PRESSURE MEMBRANE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="membrane-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v045</span></nav>
+
+      <section class="membrane-surface" aria-label="Naive pressure-membrane tableau">
+        <figure class="membrane-work artwork-frame">
+          <div class="membrane-field" id="pressure-membrane" tabindex="0" role="application" aria-label="A single hollow slab with six apertures. Press inside an aperture, push through it, return across it, and release; the model will seal a different aperture." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R">
+            <div class="membrane-canvas" id="membrane-canvas"></div>
+            <div class="membrane-readout" aria-live="polite"><span data-stage>membrane 00 / 04</span><span data-memory>0 retained</span><span data-status>press, return, release</span></div>
+          </div>
+          <div class="membrane-controls" aria-label="Pressure membrane actions">
+            <button type="button" data-action="ask">press the model</button>
+            <button type="button" data-action="lift">lift last membrane</button>
+            <button type="button" data-action="release">release the slab</button>
+          </div>
+          <p class="membrane-hint">pressure enters one aperture · the model seals another</p>
+          <figcaption><span>seed | mutine-naive-v045</span><span>press &gt; return &gt; release</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One wrong slab holds six apertures. Pressure is not a mark laid on top: it is the evidence the model uses to grow a membrane in the wrong chamber.</p></div>
+          <div><span>critique</span><p>The source aperture remains exact. Only a strong dwell followed by a return can make the model close a different opening, so the error is visible as material geometry.</p></div>
+          <div><span>progression</span><p>v045 abandons v044's wall and departure, v043's quorum, and v042's volume. A continuous pressure gesture replaces selection, scanning, and leaving.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V045 / DAILY WORK</p><h1 id="work-title">The model fills<br><i>the hole you did not make.</i></h1></div>
+        <p class="work-premise">A pressure trace at one aperture is reconstructed as a seal in another.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v045 translates material agency into a wrong reconstruction: a strong pressure dwell that returns before release leaves its source cavity exact while a membrane grows in a different cavity. Four false seals compound as liftable memory.</p></section>
+      <p class="work-loop">enter &rarr; dwell &rarr; return &rarr; seal the wrong chamber</p>
+    </main>
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-11-05/">previous daily work</a><a href="/journal/#journal-naive-2026-11-06">journal [external]</a></footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="./sketch.js?v=045"></script>
+</body>
+</html>
