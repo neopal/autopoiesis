@@ -1,0 +1,92 @@
+:root {
+  --v044-ground: #151927;
+  --v044-ink: #ece4d1;
+  --v044-paper: #20243a;
+  --v044-dim: #9da4bc;
+  --v044-copper: #e58d63;
+  --v044-lilac: #b8a8e8;
+  --v044-acid: #d7d66c;
+  --v044-line: rgba(236, 228, 209, .18);
+}
+
+html, body { margin: 0; background: var(--v044-ground); }
+body.work-page[data-current="portrait"] { color: var(--v044-ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.v044-shell { min-height: 100vh; background: radial-gradient(circle at 14% 18%, rgba(184, 168, 232, .13), transparent 25rem), radial-gradient(circle at 88% 72%, rgba(229, 141, 99, .11), transparent 30rem), var(--v044-ground); }
+.v044-main { max-width: 1240px; margin: 0 auto; padding: 1.1rem 2.2rem 5rem; }
+.studio-header, .studio-footer, .studio-path { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.studio-header { border-bottom-color: var(--v044-line); }
+.studio-header p { color: var(--v044-dim); letter-spacing: .11em; }
+.studio-mark { color: var(--v044-copper); }
+.studio-nav a, .studio-path a, .studio-footer a { color: var(--v044-dim); }
+.studio-nav a:hover, .studio-path a:hover, .studio-footer a:hover { color: var(--v044-acid); }
+.studio-path { margin: 2rem 0 .8rem; color: rgba(236, 228, 209, .46); }
+.studio-path span[aria-current="page"] { color: var(--v044-copper); }
+
+.v044-work { margin: 0; }
+.refusal-stage { position: relative; height: min(77vh, 840px); min-height: 600px; overflow: hidden; border: 1px solid rgba(236, 228, 209, .3); background: var(--v044-paper); box-shadow: 0 28px 86px rgba(0, 0, 0, .4), inset 0 0 0 1px rgba(255,255,255,.035); isolation: isolate; touch-action: none; }
+.refusal-stage:focus-visible { outline: 2px solid var(--v044-copper); outline-offset: 5px; }
+.refusal-canvas-host { position: absolute; inset: 0; z-index: 1; }
+.refusal-canvas-host canvas { display: block; width: 100% !important; height: 100% !important; }
+.refusal-label { position: absolute; z-index: 3; color: rgba(236, 228, 209, .4); font: 10px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .18em; pointer-events: none; }
+.refusal-label--top { top: 27px; left: 30px; }
+.refusal-label--side { right: 30px; bottom: 28px; writing-mode: vertical-rl; }
+.refusal-readout { position: absolute; top: 27px; right: 30px; z-index: 3; display: grid; gap: .35rem; color: rgba(236, 228, 209, .62); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .06em; text-align: right; pointer-events: none; }
+.refusal-readout span:last-child { color: var(--v044-copper); }
+.refusal-hint { position: absolute; left: 30px; bottom: 29px; z-index: 3; max-width: 24rem; margin: 0; color: rgba(236, 228, 209, .62); font: 11px/1.35 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .05em; pointer-events: none; }
+.refusal-controls { position: absolute; right: 30px; bottom: 22px; z-index: 4; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .45rem; max-width: 42rem; }
+.refusal-controls button { min-width: 44px; min-height: 44px; padding: 0 .75rem; border: 1px solid rgba(236, 228, 209, .52); border-radius: 0; background: rgba(32, 36, 58, .92); color: var(--v044-ink); font: 10px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .035em; cursor: pointer; transition: border-color .2s, background .2s, color .2s; }
+.refusal-controls button:hover, .refusal-controls button:focus-visible { border-color: var(--v044-copper); background: var(--v044-ink); color: var(--v044-ground); outline: none; }
+figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .8rem .2rem 0; color: rgba(236, 228, 209, .5); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .05em; }
+
+.v044-opening { max-width: 920px; padding: 4.8rem 0 3.2rem; }
+.eyebrow { margin: 0 0 .8rem; color: var(--v044-copper); font: 500 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; }
+.v044-opening h1 { margin: 0; color: var(--v044-ink); font-size: clamp(2.9rem, 7vw, 6.7rem); font-weight: 500; letter-spacing: -.075em; line-height: .9; }
+.v044-opening h1 i { color: var(--v044-lilac); font-style: normal; }
+.v044-lede { max-width: 44rem; margin: 1.5rem 0 0; color: var(--v044-dim); font-size: clamp(1rem, 1.7vw, 1.25rem); line-height: 1.45; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, .6fr); gap: 3rem; padding: 1.4rem 0; border-top: 1px solid var(--v044-line); border-bottom: 1px solid var(--v044-line); }
+.interaction-copy, .interaction-state { margin: 0; color: var(--v044-dim); line-height: 1.55; }
+.interaction-state { align-self: end; color: var(--v044-copper); font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.annotations { max-width: 940px; padding: 3.5rem 0 1rem; }
+.annotations dl { margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 1.5rem; padding: 1rem 0; border-top: 1px solid var(--v044-line); }
+.annotations dt { color: var(--v044-copper); font: 11px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; }
+.annotations dd { margin: 0; color: var(--v044-dim); line-height: 1.55; }
+.studio-footer { border-top-color: var(--v044-line); }
+
+.preview-mode .v044-main { max-width: none; padding: 0; }
+.preview-mode .v044-work { min-height: 100vh; }
+.preview-mode .refusal-stage { height: 100vh; min-height: 100vh; border: 0; }
+.preview-mode .studio-header, .preview-mode .studio-path, .preview-mode .v044-opening, .preview-mode .interaction-panel, .preview-mode .annotations, .preview-mode .studio-footer, .preview-mode figcaption { display: none; }
+.blind-mode .refusal-readout, .blind-mode .refusal-hint, .blind-mode .refusal-controls, .blind-mode .refusal-label { visibility: hidden; }
+
+@media (max-width: 760px) {
+  .v044-main { padding: .8rem 1rem 4rem; }
+  .studio-header p { max-width: 13rem; font-size: 9px; line-height: 1.45; }
+  .refusal-stage { height: 74vh; min-height: 610px; }
+  .refusal-label--top { top: 20px; left: 20px; font-size: 9px; }
+  .refusal-label--side { right: 20px; bottom: 206px; }
+  .refusal-readout { top: 22px; right: 20px; gap: .3rem; font-size: 9px; }
+  .refusal-hint { left: 20px; bottom: 151px; max-width: 15rem; }
+  .refusal-controls { right: 20px; bottom: 18px; left: 20px; display: grid; grid-template-columns: repeat(2, 1fr); gap: .45rem; max-width: none; }
+  .refusal-controls button { width: 100%; padding: 0 .2rem; }
+  figcaption { display: grid; gap: .25rem; }
+  .v044-opening { padding: 3.4rem 0 2.5rem; }
+  .v044-opening h1 { font-size: clamp(3rem, 15vw, 5.6rem); }
+  .interaction-panel { grid-template-columns: 1fr; gap: 1rem; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: .5rem; }
+}
+
+@media (max-width: 390px) {
+  .refusal-controls { left: 14px; right: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .refusal-controls button { font-size: 8px; }
+  .refusal-readout { right: 16px; }
+  .refusal-label--top { max-width: 8rem; line-height: 1.2; }
+}
+
+@media (max-width: 760px) and (min-height: 700px) {
+  .preview-mode .refusal-stage { min-height: 100vh; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .refusal-controls button { transition: none; }
+}
