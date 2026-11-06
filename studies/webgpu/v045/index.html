@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091014">
+  <meta name="description" content="A charged cell stays exact while a stratigraphic mass compacts around it and remembers the release.">
+  <title>MUTINE — The weight arrives after you leave.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=045">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-11-06"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="strata-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v045 / sediment strata</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="strata-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v045</span></nav>
+      <section class="strata-work" aria-label="WebGPU daily work">
+        <figure class="strata-frame artwork-frame">
+          <canvas id="strata-field" tabindex="0" role="img" aria-label="A stratigraphic mass of stacked cells that compacts when a sustained charge is released"></canvas>
+          <div class="strata-readout" role="status" aria-live="polite"><span data-stage>load 01 / 05</span><span data-memory>0 strata</span><span data-renderer>WEBGPU SIGNAL / WEBGL FALLBACK / SEDIMENT STRATA</span></div>
+          <div class="strata-status" data-status>hold one cell until the mass accepts your weight</div>
+          <div class="strata-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="charge">deposit weight</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release strata</button>
+          </div>
+          <figcaption><span>WEBGPU / V045 / DAILY WORK</span><span>hold → release → compact</span></figcaption>
+        </figure>
+        <aside class="strata-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The apertures and membrane are gone. A broad cross-section of stacked cells now carries the image; depth is accumulated in layers, not arranged as a field.</p></div>
+          <div><span>changed rule</span><p>A short touch leaves no mark. A sustained charge changes how the next stratum is compacted around an exact, untouched source cell. Reverse the release and the mass folds the other way.</p></div>
+          <div><span>progression</span><p>Hold a cell and release after the load builds, or use Enter. Delete lifts one layer of memory; Escape releases the quiet seed. Four loads compound.</p></div>
+        </aside>
+      </section>
+      <section class="strata-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V045 / DAILY WORK</p><h1 id="work-title">The weight arrives<br><i>after you leave.</i></h1></div>
+        <p class="strata-premise">Material is not the surface of an event. It is the rule that decides what can settle next.</p>
+      </section>
+      <section class="strata-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> v045 leaves the orbit of witnesses and the single membrane behind. The visitor's task is now sustained presence: a charge must outlast a tap, then its load changes the stacked geometry around a source that stays exact. Promotion depends on whether the blind mass reads as a temporal material computation rather than a 3D grid demo.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>hold → release → compact</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=045a"></script>
+</body>
+</html>
