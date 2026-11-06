@@ -64,14 +64,21 @@ No duplicate slot, duplicate ID, missing canonical page, missing tableau, missin
 - Local browser matrix: **20/20 raw and 20/20 canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion. No overflow, page errors, failed requests, bad responses, or console messages.
 - Local interaction: chord control committed one fold; keyboard chord committed a second; lift returned to one memory; release returned to the deterministic seed; a single-site pointer hold was refused without geometry change.
 - Blind reduced-motion preview: four fold states visible; controls/readout/hint hidden; canvas visible; `scrollWidth` equalled `innerWidth` at `390px`.
-- Proofs: `research/qa/proofs/brush-v049-2026-11-06-local/`.
-- No commit, push, or production deploy has been performed at the time of this record.
+- Proofs: `research/qa/proofs/brush-v049-2026-11-06-local/` and `research/qa/proofs/brush-v049-2026-11-06-production/`.
+
+## Publication state
+
+- Artifact commit: `6dae911745a0eb7efbf6bfc2380537e51dc113c8`; remote `main` matched it before deployment.
+- Production deployment: `https://autopoiesis-iwpveq8ik-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, deployment `dpl_8pTfwKPyi384CbchFidNV9p6ms7F`.
+- Production browser matrix: **20/20 raw and 20/20 canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion. No overflow, page errors, failed requests, bad responses, or console messages.
+- Production readbacks: works JSON returned `brush-2026-11-06`, raw path, title, `candidate / held`, and Journal anchor; Journal returned the anchor once, the title twice in its rendered page text, and a canonical link; canonical work, raw tableau, and `/studio/favicon.svg` all returned successfully.
+- Independent caption-free perceptual review and provider revision linkage remain unresolved.
 
 ## Open follow-ups
 
 1. Repair the seven historical records with absent/invalid lifecycle values, then rerun the full catalogue audit.
 2. Obtain at least one `complete` record or explicitly keep completion absent; if any work becomes complete, run a before/after mutation comparison at the next audit.
 3. Keep Handwriting, Naive art, and WebGPU held; do not fabricate catalogue records for the three missing `2026-11-06` slots.
-4. Obtain production browser/readback evidence, provider revision linkage, and independent caption-free perceptual evidence before making any visual, interaction, or exhibition-readiness claim.
+4. Obtain provider revision linkage and independent caption-free perceptual evidence before making any visual, interaction, or exhibition-readiness claim.
 
-**Status: BRUSH ARTIFACT AND LOCAL TECHNICAL GATES PASSED; CANDIDATE REMAINS HELD PENDING PRODUCTION AND PERCEPTUAL EVIDENCE.**
+**Status: BRUSH ARTIFACT, LOCAL TECHNICAL GATES, AND PRODUCTION READBACK PASSED; CANDIDATE REMAINS HELD PENDING INDEPENDENT PERCEPTUAL REVIEW AND PROVIDER REVISION LINKAGE.**
