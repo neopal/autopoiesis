@@ -1,0 +1,3917 @@
+{
+  "summary": {
+    "rawViewportRuns": 10,
+    "canonicalViewportRuns": 10,
+    "passedRuns": 20,
+    "matrixFailures": [],
+    "diagnostics": 0,
+    "interactionOk": true,
+    "blindOk": true,
+    "readbacksOk": true,
+    "readbacks": {
+      "journal": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "What changed.What did not.",
+        "hasAnchor": true
+      },
+      "current": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "Naive art",
+        "hasAnchor": true
+      },
+      "work": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "The model fills the hole you did not make.",
+        "hasAnchor": true
+      }
+    },
+    "proofDir": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v045-2026-11-06-production\\"
+  },
+  "results": [
+    {
+      "width": 320,
+      "height": 568,
+      "reducedMotion": false,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": true,
+        "field": {
+          "width": 302.40625,
+          "height": 387.6875
+        },
+        "canvasRect": {
+          "width": 302.40625,
+          "height": 387.6875
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "reducedMotion": true,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "canvas": true,
+        "field": {
+          "width": 302.40625,
+          "height": 387.6875
+        },
+        "canvasRect": {
+          "width": 302.40625,
+          "height": 387.6875
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": false,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": true,
+        "field": {
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "canvasRect": {
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": true,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "canvas": true,
+        "field": {
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "canvasRect": {
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": false,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": true,
+        "field": {
+          "width": 736,
+          "height": 561.34375
+        },
+        "canvasRect": {
+          "width": 736,
+          "height": 561.34375
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": true,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "canvas": true,
+        "field": {
+          "width": 736,
+          "height": 561.34375
+        },
+        "canvasRect": {
+          "width": 736,
+          "height": 561.34375
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "reducedMotion": false,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": true,
+        "field": {
+          "width": 1203.21875,
+          "height": 917.703125
+        },
+        "canvasRect": {
+          "width": 1203.21875,
+          "height": 917.703125
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "reducedMotion": true,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "canvas": true,
+        "field": {
+          "width": 1203.21875,
+          "height": 917.703125
+        },
+        "canvasRect": {
+          "width": 1203.21875,
+          "height": 917.703125
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "reducedMotion": false,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": true,
+        "field": {
+          "width": 1804.8125,
+          "height": 1376.546875
+        },
+        "canvasRect": {
+          "width": 1804.8125,
+          "height": 1376.546875
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "reducedMotion": true,
+      "rawStatus": 200,
+      "canonicalStatus": 200,
+      "raw": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "canvas": true,
+        "field": {
+          "width": 1804.8125,
+          "height": 1376.546875
+        },
+        "canvasRect": {
+          "width": 1804.8125,
+          "height": 1376.546875
+        },
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "minTouchTarget": 44
+      },
+      "canonical": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "title": "The model fills the hole you did not make.",
+        "iframe": true,
+        "tableau": true,
+        "tableauFirst": true
+      },
+      "frame": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "state": {
+          "seed": "0x4e413435",
+          "grammar": "pressure-membrane-slab",
+          "surface": "canvas-single-object",
+          "stage": 0,
+          "memory": [],
+          "gesture": null,
+          "focus": 0,
+          "interaction": "idle",
+          "scene": {
+            "shell": [
+              {
+                "x": -0.78,
+                "y": -0.64
+              },
+              {
+                "x": -0.2,
+                "y": -0.78
+              },
+              {
+                "x": 0.45,
+                "y": -0.68
+              },
+              {
+                "x": 0.78,
+                "y": -0.22
+              },
+              {
+                "x": 0.69,
+                "y": 0.43
+              },
+              {
+                "x": 0.17,
+                "y": 0.72
+              },
+              {
+                "x": -0.47,
+                "y": 0.64
+              },
+              {
+                "x": -0.8,
+                "y": 0.23
+              }
+            ],
+            "cavities": [
+              {
+                "id": 0,
+                "x": -0.43,
+                "y": -0.47,
+                "width": 0.19,
+                "height": 0.14,
+                "rotation": -12,
+                "kind": "pinched",
+                "role": "cavity"
+              },
+              {
+                "id": 1,
+                "x": 0.08,
+                "y": -0.5,
+                "width": 0.18,
+                "height": 0.2,
+                "rotation": 9,
+                "kind": "tall",
+                "role": "cavity"
+              },
+              {
+                "id": 2,
+                "x": 0.47,
+                "y": -0.16,
+                "width": 0.2,
+                "height": 0.15,
+                "rotation": 24,
+                "kind": "side-cut",
+                "role": "cavity"
+              },
+              {
+                "id": 3,
+                "x": 0.12,
+                "y": 0.28,
+                "width": 0.24,
+                "height": 0.16,
+                "rotation": -8,
+                "kind": "low",
+                "role": "cavity"
+              },
+              {
+                "id": 4,
+                "x": -0.36,
+                "y": 0.32,
+                "width": 0.2,
+                "height": 0.2,
+                "rotation": 14,
+                "kind": "deep",
+                "role": "cavity"
+              },
+              {
+                "id": 5,
+                "x": -0.57,
+                "y": -0.04,
+                "width": 0.16,
+                "height": 0.17,
+                "rotation": -25,
+                "kind": "narrow",
+                "role": "cavity"
+              }
+            ],
+            "membranes": [],
+            "trace": {
+              "memoryCount": 0,
+              "membraneCount": 0,
+              "changedCavityCount": 0,
+              "lastSourceSite": null,
+              "lastTargetSite": null
+            },
+            "cavityCount": 6
+          }
+        },
+        "canvas": true,
+        "readoutDisplay": "flex",
+        "controlsDisplay": "flex"
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "requestFailures": []
+      }
+    }
+  ],
+  "interaction": {
+    "initial": {
+      "seed": "0x4e413435",
+      "grammar": "pressure-membrane-slab",
+      "surface": "canvas-single-object",
+      "stage": 0,
+      "memory": [],
+      "gesture": null,
+      "focus": 0,
+      "interaction": "idle",
+      "scene": {
+        "shell": [
+          {
+            "x": -0.78,
+            "y": -0.64
+          },
+          {
+            "x": -0.2,
+            "y": -0.78
+          },
+          {
+            "x": 0.45,
+            "y": -0.68
+          },
+          {
+            "x": 0.78,
+            "y": -0.22
+          },
+          {
+            "x": 0.69,
+            "y": 0.43
+          },
+          {
+            "x": 0.17,
+            "y": 0.72
+          },
+          {
+            "x": -0.47,
+            "y": 0.64
+          },
+          {
+            "x": -0.8,
+            "y": 0.23
+          }
+        ],
+        "cavities": [
+          {
+            "id": 0,
+            "x": -0.43,
+            "y": -0.47,
+            "width": 0.19,
+            "height": 0.14,
+            "rotation": -12,
+            "kind": "pinched",
+            "role": "cavity"
+          },
+          {
+            "id": 1,
+            "x": 0.08,
+            "y": -0.5,
+            "width": 0.18,
+            "height": 0.2,
+            "rotation": 9,
+            "kind": "tall",
+            "role": "cavity"
+          },
+          {
+            "id": 2,
+            "x": 0.47,
+            "y": -0.16,
+            "width": 0.2,
+            "height": 0.15,
+            "rotation": 24,
+            "kind": "side-cut",
+            "role": "cavity"
+          },
+          {
+            "id": 3,
+            "x": 0.12,
+            "y": 0.28,
+            "width": 0.24,
+            "height": 0.16,
+            "rotation": -8,
+            "kind": "low",
+            "role": "cavity"
+          },
+          {
+            "id": 4,
+            "x": -0.36,
+            "y": 0.32,
+            "width": 0.2,
+            "height": 0.2,
+            "rotation": 14,
+            "kind": "deep",
+            "role": "cavity"
+          },
+          {
+            "id": 5,
+            "x": -0.57,
+            "y": -0.04,
+            "width": 0.16,
+            "height": 0.17,
+            "rotation": -25,
+            "kind": "narrow",
+            "role": "cavity"
+          }
+        ],
+        "membranes": [],
+        "trace": {
+          "memoryCount": 0,
+          "membraneCount": 0,
+          "changedCavityCount": 0,
+          "lastSourceSite": null,
+          "lastTargetSite": null
+        },
+        "cavityCount": 6
+      }
+    },
+    "keyboard": {
+      "seed": "0x4e413435",
+      "grammar": "pressure-membrane-slab",
+      "surface": "canvas-single-object",
+      "stage": 1,
+      "memory": [
+        {
+          "kind": "false-membrane",
+          "sourceSite": 0,
+          "targetSite": 2,
+          "memoryIndex": 0,
+          "pressure": 0.74,
+          "returnAngle": 2.8555,
+          "bias": "sealed",
+          "seed": 74
+        }
+      ],
+      "gesture": null,
+      "focus": 0,
+      "interaction": "pressure-committed",
+      "scene": {
+        "shell": [
+          {
+            "x": -0.78,
+            "y": -0.64
+          },
+          {
+            "x": -0.2,
+            "y": -0.78
+          },
+          {
+            "x": 0.45,
+            "y": -0.68
+          },
+          {
+            "x": 0.78,
+            "y": -0.22
+          },
+          {
+            "x": 0.69,
+            "y": 0.43
+          },
+          {
+            "x": 0.17,
+            "y": 0.72
+          },
+          {
+            "x": -0.47,
+            "y": 0.64
+          },
+          {
+            "x": -0.8,
+            "y": 0.23
+          }
+        ],
+        "cavities": [
+          {
+            "id": 0,
+            "x": -0.43,
+            "y": -0.47,
+            "width": 0.19,
+            "height": 0.14,
+            "rotation": -12,
+            "kind": "pinched",
+            "role": "cavity"
+          },
+          {
+            "id": 1,
+            "x": 0.08,
+            "y": -0.5,
+            "width": 0.18,
+            "height": 0.2,
+            "rotation": 9,
+            "kind": "tall",
+            "role": "cavity"
+          },
+          {
+            "id": 2,
+            "x": 0.47,
+            "y": -0.16,
+            "width": 0.2,
+            "height": 0.15,
+            "rotation": 24,
+            "kind": "side-cut",
+            "role": "cavity"
+          },
+          {
+            "id": 3,
+            "x": 0.12,
+            "y": 0.28,
+            "width": 0.24,
+            "height": 0.16,
+            "rotation": -8,
+            "kind": "low",
+            "role": "cavity"
+          },
+          {
+            "id": 4,
+            "x": -0.36,
+            "y": 0.32,
+            "width": 0.2,
+            "height": 0.2,
+            "rotation": 14,
+            "kind": "deep",
+            "role": "cavity"
+          },
+          {
+            "id": 5,
+            "x": -0.57,
+            "y": -0.04,
+            "width": 0.16,
+            "height": 0.17,
+            "rotation": -25,
+            "kind": "narrow",
+            "role": "cavity"
+          }
+        ],
+        "membranes": [
+          {
+            "kind": "false-membrane",
+            "sourceSite": 0,
+            "targetSite": 2,
+            "memoryIndex": 0,
+            "pressure": 0.74,
+            "returnAngle": 2.8555,
+            "bias": "sealed",
+            "seed": 74,
+            "points": [
+              {
+                "x": 0.5725,
+                "y": -0.1085
+              },
+              {
+                "x": 0.4712,
+                "y": -0.0891
+              },
+              {
+                "x": 0.3634,
+                "y": -0.1041
+              },
+              {
+                "x": 0.3627,
+                "y": -0.175
+              },
+              {
+                "x": 0.412,
+                "y": -0.2354
+              },
+              {
+                "x": 0.5218,
+                "y": -0.2311
+              },
+              {
+                "x": 0.5831,
+                "y": -0.1774
+              }
+            ]
+          }
+        ],
+        "trace": {
+          "memoryCount": 1,
+          "membraneCount": 1,
+          "changedCavityCount": 0,
+          "lastSourceSite": 0,
+          "lastTargetSite": 2
+        },
+        "cavityCount": 6
+      }
+    },
+    "lifted": {
+      "seed": "0x4e413435",
+      "grammar": "pressure-membrane-slab",
+      "surface": "canvas-single-object",
+      "stage": 0,
+      "memory": [],
+      "gesture": null,
+      "focus": 0,
+      "interaction": "pressure-lifted",
+      "scene": {
+        "shell": [
+          {
+            "x": -0.78,
+            "y": -0.64
+          },
+          {
+            "x": -0.2,
+            "y": -0.78
+          },
+          {
+            "x": 0.45,
+            "y": -0.68
+          },
+          {
+            "x": 0.78,
+            "y": -0.22
+          },
+          {
+            "x": 0.69,
+            "y": 0.43
+          },
+          {
+            "x": 0.17,
+            "y": 0.72
+          },
+          {
+            "x": -0.47,
+            "y": 0.64
+          },
+          {
+            "x": -0.8,
+            "y": 0.23
+          }
+        ],
+        "cavities": [
+          {
+            "id": 0,
+            "x": -0.43,
+            "y": -0.47,
+            "width": 0.19,
+            "height": 0.14,
+            "rotation": -12,
+            "kind": "pinched",
+            "role": "cavity"
+          },
+          {
+            "id": 1,
+            "x": 0.08,
+            "y": -0.5,
+            "width": 0.18,
+            "height": 0.2,
+            "rotation": 9,
+            "kind": "tall",
+            "role": "cavity"
+          },
+          {
+            "id": 2,
+            "x": 0.47,
+            "y": -0.16,
+            "width": 0.2,
+            "height": 0.15,
+            "rotation": 24,
+            "kind": "side-cut",
+            "role": "cavity"
+          },
+          {
+            "id": 3,
+            "x": 0.12,
+            "y": 0.28,
+            "width": 0.24,
+            "height": 0.16,
+            "rotation": -8,
+            "kind": "low",
+            "role": "cavity"
+          },
+          {
+            "id": 4,
+            "x": -0.36,
+            "y": 0.32,
+            "width": 0.2,
+            "height": 0.2,
+            "rotation": 14,
+            "kind": "deep",
+            "role": "cavity"
+          },
+          {
+            "id": 5,
+            "x": -0.57,
+            "y": -0.04,
+            "width": 0.16,
+            "height": 0.17,
+            "rotation": -25,
+            "kind": "narrow",
+            "role": "cavity"
+          }
+        ],
+        "membranes": [],
+        "trace": {
+          "memoryCount": 0,
+          "membraneCount": 0,
+          "changedCavityCount": 0,
+          "lastSourceSite": null,
+          "lastTargetSite": null
+        },
+        "cavityCount": 6
+      }
+    },
+    "pointer": {
+      "seed": "0x4e413435",
+      "grammar": "pressure-membrane-slab",
+      "surface": "canvas-single-object",
+      "stage": 1,
+      "memory": [
+        {
+          "kind": "false-membrane",
+          "sourceSite": 0,
+          "targetSite": 2,
+          "memoryIndex": 0,
+          "pressure": 0.7766,
+          "returnAngle": 2.9105,
+          "bias": "sealed",
+          "seed": 78
+        }
+      ],
+      "gesture": null,
+      "focus": 0,
+      "interaction": "pressure-committed",
+      "scene": {
+        "shell": [
+          {
+            "x": -0.78,
+            "y": -0.64
+          },
+          {
+            "x": -0.2,
+            "y": -0.78
+          },
+          {
+            "x": 0.45,
+            "y": -0.68
+          },
+          {
+            "x": 0.78,
+            "y": -0.22
+          },
+          {
+            "x": 0.69,
+            "y": 0.43
+          },
+          {
+            "x": 0.17,
+            "y": 0.72
+          },
+          {
+            "x": -0.47,
+            "y": 0.64
+          },
+          {
+            "x": -0.8,
+            "y": 0.23
+          }
+        ],
+        "cavities": [
+          {
+            "id": 0,
+            "x": -0.43,
+            "y": -0.47,
+            "width": 0.19,
+            "height": 0.14,
+            "rotation": -12,
+            "kind": "pinched",
+            "role": "cavity"
+          },
+          {
+            "id": 1,
+            "x": 0.08,
+            "y": -0.5,
+            "width": 0.18,
+            "height": 0.2,
+            "rotation": 9,
+            "kind": "tall",
+            "role": "cavity"
+          },
+          {
+            "id": 2,
+            "x": 0.47,
+            "y": -0.16,
+            "width": 0.2,
+            "height": 0.15,
+            "rotation": 24,
+            "kind": "side-cut",
+            "role": "cavity"
+          },
+          {
+            "id": 3,
+            "x": 0.12,
+            "y": 0.28,
+            "width": 0.24,
+            "height": 0.16,
+            "rotation": -8,
+            "kind": "low",
+            "role": "cavity"
+          },
+          {
+            "id": 4,
+            "x": -0.36,
+            "y": 0.32,
+            "width": 0.2,
+            "height": 0.2,
+            "rotation": 14,
+            "kind": "deep",
+            "role": "cavity"
+          },
+          {
+            "id": 5,
+            "x": -0.57,
+            "y": -0.04,
+            "width": 0.16,
+            "height": 0.17,
+            "rotation": -25,
+            "kind": "narrow",
+            "role": "cavity"
+          }
+        ],
+        "membranes": [
+          {
+            "kind": "false-membrane",
+            "sourceSite": 0,
+            "targetSite": 2,
+            "memoryIndex": 0,
+            "pressure": 0.7766,
+            "returnAngle": 2.9105,
+            "bias": "sealed",
+            "seed": 78,
+            "points": [
+              {
+                "x": 0.5854,
+                "y": -0.126
+              },
+              {
+                "x": 0.4998,
+                "y": -0.0829
+              },
+              {
+                "x": 0.3915,
+                "y": -0.094
+              },
+              {
+                "x": 0.3487,
+                "y": -0.1585
+              },
+              {
+                "x": 0.3862,
+                "y": -0.225
+              },
+              {
+                "x": 0.4943,
+                "y": -0.2351
+              },
+              {
+                "x": 0.589,
+                "y": -0.1987
+              }
+            ]
+          }
+        ],
+        "trace": {
+          "memoryCount": 1,
+          "membraneCount": 1,
+          "changedCavityCount": 0,
+          "lastSourceSite": 0,
+          "lastTargetSite": 2
+        },
+        "cavityCount": 6
+      }
+    },
+    "released": {
+      "seed": "0x4e413435",
+      "grammar": "pressure-membrane-slab",
+      "surface": "canvas-single-object",
+      "stage": 0,
+      "memory": [],
+      "gesture": null,
+      "focus": 0,
+      "interaction": "memory-released",
+      "scene": {
+        "shell": [
+          {
+            "x": -0.78,
+            "y": -0.64
+          },
+          {
+            "x": -0.2,
+            "y": -0.78
+          },
+          {
+            "x": 0.45,
+            "y": -0.68
+          },
+          {
+            "x": 0.78,
+            "y": -0.22
+          },
+          {
+            "x": 0.69,
+            "y": 0.43
+          },
+          {
+            "x": 0.17,
+            "y": 0.72
+          },
+          {
+            "x": -0.47,
+            "y": 0.64
+          },
+          {
+            "x": -0.8,
+            "y": 0.23
+          }
+        ],
+        "cavities": [
+          {
+            "id": 0,
+            "x": -0.43,
+            "y": -0.47,
+            "width": 0.19,
+            "height": 0.14,
+            "rotation": -12,
+            "kind": "pinched",
+            "role": "cavity"
+          },
+          {
+            "id": 1,
+            "x": 0.08,
+            "y": -0.5,
+            "width": 0.18,
+            "height": 0.2,
+            "rotation": 9,
+            "kind": "tall",
+            "role": "cavity"
+          },
+          {
+            "id": 2,
+            "x": 0.47,
+            "y": -0.16,
+            "width": 0.2,
+            "height": 0.15,
+            "rotation": 24,
+            "kind": "side-cut",
+            "role": "cavity"
+          },
+          {
+            "id": 3,
+            "x": 0.12,
+            "y": 0.28,
+            "width": 0.24,
+            "height": 0.16,
+            "rotation": -8,
+            "kind": "low",
+            "role": "cavity"
+          },
+          {
+            "id": 4,
+            "x": -0.36,
+            "y": 0.32,
+            "width": 0.2,
+            "height": 0.2,
+            "rotation": 14,
+            "kind": "deep",
+            "role": "cavity"
+          },
+          {
+            "id": 5,
+            "x": -0.57,
+            "y": -0.04,
+            "width": 0.16,
+            "height": 0.17,
+            "rotation": -25,
+            "kind": "narrow",
+            "role": "cavity"
+          }
+        ],
+        "membranes": [],
+        "trace": {
+          "memoryCount": 0,
+          "membraneCount": 0,
+          "changedCavityCount": 0,
+          "lastSourceSite": null,
+          "lastTargetSite": null
+        },
+        "cavityCount": 6
+      }
+    },
+    "buttons": [
+      {
+        "text": "press the model",
+        "height": 44
+      },
+      {
+        "text": "lift last membrane",
+        "height": 44
+      },
+      {
+        "text": "release the slab",
+        "height": 44
+      }
+    ],
+    "diagnostics": {
+      "consoleErrors": [],
+      "requestFailures": []
+    }
+  },
+  "blind": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "state": {
+        "seed": "0x4e413435",
+        "grammar": "pressure-membrane-slab",
+        "surface": "canvas-single-object",
+        "stage": 4,
+        "memory": [
+          {
+            "kind": "false-membrane",
+            "sourceSite": 0,
+            "targetSite": 2,
+            "memoryIndex": 0,
+            "pressure": 0.74,
+            "returnAngle": 2.8555,
+            "bias": "sealed",
+            "seed": 74
+          },
+          {
+            "kind": "false-membrane",
+            "sourceSite": 2,
+            "targetSite": 0,
+            "memoryIndex": 1,
+            "pressure": 0.83,
+            "returnAngle": 2.9229,
+            "bias": "slipped",
+            "seed": 198
+          },
+          {
+            "kind": "false-membrane",
+            "sourceSite": 4,
+            "targetSite": 5,
+            "memoryIndex": 2,
+            "pressure": 0.72,
+            "returnAngle": 2.4669,
+            "bias": "hollowed",
+            "seed": 302
+          },
+          {
+            "kind": "false-membrane",
+            "sourceSite": 1,
+            "targetSite": 3,
+            "memoryIndex": 3,
+            "pressure": 0.91,
+            "returnAngle": 2.7611,
+            "bias": "borrowed",
+            "seed": 281
+          }
+        ],
+        "gesture": null,
+        "focus": 1,
+        "interaction": "pressure-committed",
+        "scene": {
+          "shell": [
+            {
+              "x": -0.78,
+              "y": -0.64
+            },
+            {
+              "x": -0.2,
+              "y": -0.78
+            },
+            {
+              "x": 0.45,
+              "y": -0.68
+            },
+            {
+              "x": 0.78,
+              "y": -0.22
+            },
+            {
+              "x": 0.69,
+              "y": 0.43
+            },
+            {
+              "x": 0.17,
+              "y": 0.72
+            },
+            {
+              "x": -0.47,
+              "y": 0.64
+            },
+            {
+              "x": -0.8,
+              "y": 0.23
+            }
+          ],
+          "cavities": [
+            {
+              "id": 0,
+              "x": -0.43,
+              "y": -0.47,
+              "width": 0.19,
+              "height": 0.14,
+              "rotation": -12,
+              "kind": "pinched",
+              "role": "cavity"
+            },
+            {
+              "id": 1,
+              "x": 0.08,
+              "y": -0.5,
+              "width": 0.18,
+              "height": 0.2,
+              "rotation": 9,
+              "kind": "tall",
+              "role": "cavity"
+            },
+            {
+              "id": 2,
+              "x": 0.47,
+              "y": -0.16,
+              "width": 0.2,
+              "height": 0.15,
+              "rotation": 24,
+              "kind": "side-cut",
+              "role": "cavity"
+            },
+            {
+              "id": 3,
+              "x": 0.12,
+              "y": 0.28,
+              "width": 0.24,
+              "height": 0.16,
+              "rotation": -8,
+              "kind": "low",
+              "role": "cavity"
+            },
+            {
+              "id": 4,
+              "x": -0.36,
+              "y": 0.32,
+              "width": 0.2,
+              "height": 0.2,
+              "rotation": 14,
+              "kind": "deep",
+              "role": "cavity"
+            },
+            {
+              "id": 5,
+              "x": -0.57,
+              "y": -0.04,
+              "width": 0.16,
+              "height": 0.17,
+              "rotation": -25,
+              "kind": "narrow",
+              "role": "cavity"
+            }
+          ],
+          "membranes": [
+            {
+              "kind": "false-membrane",
+              "sourceSite": 0,
+              "targetSite": 2,
+              "memoryIndex": 0,
+              "pressure": 0.74,
+              "returnAngle": 2.8555,
+              "bias": "sealed",
+              "seed": 74,
+              "points": [
+                {
+                  "x": 0.5725,
+                  "y": -0.1085
+                },
+                {
+                  "x": 0.4712,
+                  "y": -0.0891
+                },
+                {
+                  "x": 0.3634,
+                  "y": -0.1041
+                },
+                {
+                  "x": 0.3627,
+                  "y": -0.175
+                },
+                {
+                  "x": 0.412,
+                  "y": -0.2354
+                },
+                {
+                  "x": 0.5218,
+                  "y": -0.2311
+                },
+                {
+                  "x": 0.5831,
+                  "y": -0.1774
+                }
+              ]
+            },
+            {
+              "kind": "false-membrane",
+              "sourceSite": 2,
+              "targetSite": 0,
+              "memoryIndex": 1,
+              "pressure": 0.83,
+              "returnAngle": 2.9229,
+              "bias": "slipped",
+              "seed": 198,
+              "points": [
+                {
+                  "x": -0.3081,
+                  "y": -0.4282
+                },
+                {
+                  "x": -0.3836,
+                  "y": -0.3693
+                },
+                {
+                  "x": -0.4933,
+                  "y": -0.4009
+                },
+                {
+                  "x": -0.5923,
+                  "y": -0.442
+                },
+                {
+                  "x": -0.5555,
+                  "y": -0.513
+                },
+                {
+                  "x": -0.4698,
+                  "y": -0.5564
+                },
+                {
+                  "x": -0.3485,
+                  "y": -0.5589
+                },
+                {
+                  "x": -0.3048,
+                  "y": -0.4916
+                }
+              ]
+            },
+            {
+              "kind": "false-membrane",
+              "sourceSite": 4,
+              "targetSite": 5,
+              "memoryIndex": 2,
+              "pressure": 0.72,
+              "returnAngle": 2.4669,
+              "bias": "hollowed",
+              "seed": 302,
+              "points": [
+                {
+                  "x": -0.4032,
+                  "y": -0.0016
+                },
+                {
+                  "x": -0.5038,
+                  "y": 0.0312
+                },
+                {
+                  "x": -0.6084,
+                  "y": 0.0696
+                },
+                {
+                  "x": -0.6819,
+                  "y": 0.0118
+                },
+                {
+                  "x": -0.7426,
+                  "y": -0.0427
+                },
+                {
+                  "x": -0.6984,
+                  "y": -0.1063
+                },
+                {
+                  "x": -0.5911,
+                  "y": -0.1228
+                },
+                {
+                  "x": -0.4696,
+                  "y": -0.1353
+                },
+                {
+                  "x": -0.4386,
+                  "y": -0.0656
+                }
+              ]
+            },
+            {
+              "kind": "false-membrane",
+              "sourceSite": 1,
+              "targetSite": 3,
+              "memoryIndex": 3,
+              "pressure": 0.91,
+              "returnAngle": 2.7611,
+              "bias": "borrowed",
+              "seed": 281,
+              "points": [
+                {
+                  "x": 0.2721,
+                  "y": 0.3169
+                },
+                {
+                  "x": 0.2078,
+                  "y": 0.3632
+                },
+                {
+                  "x": 0.1026,
+                  "y": 0.3796
+                },
+                {
+                  "x": -0.0025,
+                  "y": 0.3569
+                },
+                {
+                  "x": -0.0633,
+                  "y": 0.3025
+                },
+                {
+                  "x": -0.0529,
+                  "y": 0.238
+                },
+                {
+                  "x": 0.025,
+                  "y": 0.1901
+                },
+                {
+                  "x": 0.1379,
+                  "y": 0.178
+                },
+                {
+                  "x": 0.2389,
+                  "y": 0.2054
+                },
+                {
+                  "x": 0.2886,
+                  "y": 0.2593
+                }
+              ]
+            }
+          ],
+          "trace": {
+            "memoryCount": 4,
+            "membraneCount": 4,
+            "changedCavityCount": 0,
+            "lastSourceSite": 1,
+            "lastTargetSite": 3
+          },
+          "cavityCount": 6
+        }
+      },
+      "canvas": true,
+      "readoutDisplay": "none",
+      "controlsDisplay": "none",
+      "hintDisplay": "none"
+    },
+    "diagnostics": {
+      "consoleErrors": [],
+      "requestFailures": []
+    }
+  },
+  "journal": {
+    "path": "/journal/",
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "What changed.What did not.",
+      "hasAnchor": true
+    },
+    "diagnostics": {
+      "consoleErrors": [],
+      "requestFailures": []
+    }
+  },
+  "current": {
+    "path": "/currents/naive-art/",
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "Naive art",
+      "hasAnchor": true
+    },
+    "diagnostics": {
+      "consoleErrors": [],
+      "requestFailures": []
+    }
+  },
+  "work": {
+    "path": "/works/naive-2026-11-06/",
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "title": "The model fills the hole you did not make.",
+      "hasAnchor": true
+    },
+    "diagnostics": {
+      "consoleErrors": [],
+      "requestFailures": []
+    }
+  }
+}
