@@ -68,8 +68,8 @@ No duplicate slot, duplicate ID, missing canonical page, missing tableau, missin
 
 ## Publication state
 
-- Artifact commit: `6dae911745a0eb7efbf6bfc2380537e51dc113c8`; remote `main` matched it before deployment.
-- Production deployment: `https://autopoiesis-iwpveq8ik-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, deployment `dpl_8pTfwKPyi384CbchFidNV9p6ms7F`.
+- Artifact commit: `b25b0e33b825f15d9d702a9f617dbda1e90bd97d`; remote `main` matched it before deployment.
+- Production deployment: `https://autopoiesis-ja74g60fd-lairpa-hotmailfrs-projects.vercel.app`, stable alias `https://autopoiesis-nine.vercel.app`, deployment `dpl_FR9quph8cjr5bEMoNMXPwd8ocwuK`.
 - Production browser matrix: **20/20 raw and 20/20 canonical runs passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion. No overflow, page errors, failed requests, bad responses, or console messages.
 - Production readbacks: works JSON returned `brush-2026-11-06`, raw path, title, `candidate / held`, and Journal anchor; Journal returned the anchor once, the title twice in its rendered page text, and a canonical link; canonical work, raw tableau, and `/studio/favicon.svg` all returned successfully.
 - Independent caption-free perceptual review and provider revision linkage remain unresolved.
