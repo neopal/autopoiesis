@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151a20">
+  <title>MUTINE — The weight is made by waiting.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=046">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-11-06"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v046</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v046</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1000 760" role="img" aria-label="A singular pressure block with two fixed banks; alternating held pressure changes the block's internal SVG geometry" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="ArrowLeft ArrowRight Space Enter Delete Escape R">
+            <title>The weight is made by waiting.</title>
+          </svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>quiet block / 00</span><span data-memory>0 loads · material unspent</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="press-control" data-gesture="press">hold the material</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest load</button>
+            <button type="button" id="release-control" data-gesture="release">release the block</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A single SVG weight sits between two fixed banks. Its inner cut and six produced strata are the image; no route is drawn for the hand.</p></div>
+          <div><span>changed rule</span><p>Pressure is accepted only as a held pulse. The next pulse must come from the opposite bank; each accepted alternation produces a new cross-section of the block.</p></div>
+          <div><span>progression</span><p>Press and hold either bank, then release. A short pulse or same-side repeat is refused. Arrow keys, Space, and the control offer the same path.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V046 / DAILY WORK</p><h1 id="work-title">The weight is<br><i>made by waiting.</i></h1></div>
+        <p class="work-premise">A material does not remember the hand as a mark. It changes the shape that can be produced next, but only when pressure alternates and stays long enough to pass through resistance.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> v046 abandons the recent field of tiles, skins, and traversed bands. A singular SVG block receives an alternating held pulse: the fixed banks remain exact while its body, void, and internal layers become a new material cross-section. Four loads compound and lift exactly. Promotion depends on whether the blind block reads as a changed object rather than a pressure-control diagram.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=046"></script>
+</body>
+</html>
