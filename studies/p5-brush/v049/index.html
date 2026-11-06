@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111c2a">
+  <title>MUTINE — The sheet holds a pressure chord.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=049">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-06"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="fold-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v049 / HELD-CHORD FOLD SHEET</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="fold-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v049</span></nav>
+
+      <figure class="fold-work artwork-frame" aria-labelledby="work-title">
+        <div id="fold-field" class="fold-field" tabindex="0" role="application" aria-label="A folded material sheet. Hold both pressure sites together long enough, then release: the sheet opens a new internal fault. The next chord must alternate its lead side." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R S">
+          <div class="fold-readout" aria-live="polite"><span data-stage>SHEET 01 / 05</span><span data-memory>quiet sheet · 0 folds opened</span></div>
+          <div id="fold-canvas" class="fold-canvas"></div>
+          <div class="fold-controls" aria-label="Held chord material actions">
+            <button type="button" data-gesture="chord">hold the chord</button>
+            <button type="button" data-gesture="latest">lift last fold</button>
+            <button type="button" data-gesture="release">release the sheet</button>
+          </div>
+          <p class="fold-hint">press both edge sites · hold · release · alternate the lead</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v049-held-chord-fold-sheet</span><span>pressure &gt; duration &gt; fault</span></figcaption>
+      </figure>
+
+      <section class="fold-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / HELD-CHORD FOLD SHEET / v049</p>
+        <h1 id="work-title">The sheet holds<br><i>a pressure chord.</i></h1>
+        <p class="fold-lede">One-sided pressure is refused. When both edges hold together, duration opens a new fold inside the sheet; the next chord must begin from the other side.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">MATERIAL DOES NOT KEEP A SINGLE HAND</p>
+          <p class="interaction-copy">Press the left and right edge sites together, hold beyond the quiet threshold, and release. A short hold, a single side, or the same lead twice is refused. Pointer, touch, ArrowLeft plus ArrowRight, or “hold the chord” offer equivalent paths. Delete lifts the latest fold; Escape, R, or “release the sheet” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The sheet is quiet. Two edges must hold together.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v049</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the wash, island, and through-void passage. A single hand is inert. A long alternating two-site chord changes the next internal fold, while the pressure sites remain exact.</dd></div>
+          <div><dt>visitor action</dt><dd>Press both edge sites, wait beyond the material threshold, and release. The next accepted chord must lead from the opposite side; four fold states compound and remain liftable.</dd></div>
+          <div><dt>falsifier</dt><dd>If one-sided pressure commits, if a short hold commits, if the edge sites deform, if a fold changes only by colour or readout, or if the second chord ignores the alternating lead, the rule fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v049 if the blind sheet reads as another field, monolith, or route diagram, if duration is only a button label, or if lifting cannot reconstruct the exact prior fold.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-05/">previous daily work</a><a href="/journal/#journal-brush-2026-11-06">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=049"></script>
+</body>
+</html>

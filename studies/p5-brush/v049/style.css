@@ -1,0 +1,318 @@
+html,
+body {
+  background: #111c2a;
+  color: #e6dcc6;
+}
+
+.fold-shell {
+  --night: #111c2a;
+  --night-deep: #08111b;
+  --paper: #e6dcc6;
+  --paper-muted: #9da9a8;
+  --line: rgba(230, 220, 198, 0.22);
+  --ember: #e27652;
+  --mint: #9ac8b4;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 76% 12%, rgba(83, 143, 142, 0.23), transparent 27rem),
+    radial-gradient(circle at 18% 84%, rgba(204, 91, 61, 0.14), transparent 31rem),
+    linear-gradient(135deg, #111c2a 0%, #192d3a 53%, #0b1722 100%);
+}
+
+.fold-main {
+  width: min(1320px, calc(100% - 56px));
+  margin: 0 auto;
+  padding: 24px 0 56px;
+}
+
+.studio-header,
+.studio-footer,
+.studio-path {
+  color: var(--paper-muted);
+}
+
+.fold-work {
+  margin: 16px 0 0;
+}
+
+.fold-field {
+  position: relative;
+  min-height: clamp(500px, 68vw, 820px);
+  overflow: hidden;
+  border: 1px solid rgba(230, 220, 198, 0.3);
+  background: #0b1520;
+  box-shadow: inset 0 0 0 1px rgba(230, 220, 198, 0.08), 0 24px 90px rgba(0, 0, 0, 0.25);
+  touch-action: none;
+}
+
+.fold-field:focus-visible {
+  outline: 2px solid var(--ember);
+  outline-offset: 5px;
+}
+
+.fold-canvas,
+.fold-canvas canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.fold-readout {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: rgba(230, 220, 198, 0.58);
+  font: 10px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.fold-controls {
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  bottom: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.fold-controls button {
+  min-height: 44px;
+  padding: 10px 13px;
+  border: 1px solid rgba(230, 220, 198, 0.42);
+  border-radius: 999px;
+  background: rgba(11, 21, 32, 0.84);
+  color: var(--paper);
+  font: 11px/1.1 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+
+.fold-controls button:hover,
+.fold-controls button:focus-visible {
+  border-color: var(--ember);
+  color: #ffb28d;
+}
+
+.fold-hint {
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  bottom: 23px;
+  margin: 0;
+  color: rgba(230, 220, 198, 0.55);
+  font: 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+}
+
+.fold-work figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 2px 0;
+  color: var(--paper-muted);
+  font: 10px/1.35 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.fold-opening {
+  max-width: 820px;
+  margin: 72px 0 44px;
+}
+
+.fold-opening h1 {
+  max-width: 820px;
+  margin: 12px 0 22px;
+  color: var(--paper);
+  font-size: clamp(38px, 7vw, 92px);
+  line-height: 0.91;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+}
+
+.fold-opening h1 i {
+  color: var(--ember);
+  font-weight: 400;
+}
+
+.fold-lede,
+.interaction-copy,
+.interaction-state,
+.annotations dd {
+  max-width: 680px;
+  color: var(--paper-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.interaction-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.8fr);
+  gap: 40px;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.interaction-state {
+  align-self: end;
+  margin: 0;
+  color: var(--paper);
+}
+
+.annotations {
+  max-width: 920px;
+  padding: 28px 0 12px;
+}
+
+.annotations dl {
+  margin: 24px 0 0;
+}
+
+.annotations dl > div {
+  display: grid;
+  grid-template-columns: 145px 1fr;
+  gap: 20px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(230, 220, 198, 0.14);
+}
+
+.annotations dt {
+  color: var(--ember);
+  font: 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.annotations dd {
+  margin: 0;
+}
+
+.preview-mode .fold-main {
+  width: 100%;
+  padding: 0;
+}
+
+.preview-mode .fold-work {
+  margin: 0;
+}
+
+.preview-mode .fold-field {
+  min-height: 100vh;
+  border: 0;
+  box-shadow: none;
+}
+
+.preview-mode .studio-header,
+.preview-mode .studio-path,
+.preview-mode .fold-work figcaption,
+.preview-mode .fold-opening,
+.preview-mode .interaction-panel,
+.preview-mode .annotations,
+.preview-mode .studio-footer {
+  display: none;
+}
+
+.blind-mode .fold-readout,
+.blind-mode .fold-controls,
+.blind-mode .fold-hint {
+  display: none;
+}
+
+.static-mode .fold-field {
+  cursor: default;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .fold-main {
+    width: min(100% - 28px, 1320px);
+    padding-top: 14px;
+  }
+
+  .fold-field {
+    min-height: min(680px, 154vw);
+  }
+
+  .fold-readout {
+    top: 13px;
+    left: 14px;
+    right: 14px;
+    font-size: 9px;
+  }
+
+  .fold-hint {
+    left: 14px;
+    right: 14px;
+    bottom: 78px;
+    font-size: 9px;
+  }
+
+  .fold-controls {
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    justify-content: flex-start;
+  }
+
+  .fold-controls button {
+    flex: 1 1 auto;
+    padding-inline: 10px;
+    font-size: 10px;
+  }
+
+  .fold-work figcaption {
+    display: block;
+    font-size: 9px;
+  }
+
+  .fold-work figcaption span {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .fold-opening {
+    margin: 48px 0 34px;
+  }
+
+  .fold-opening h1 {
+    font-size: clamp(39px, 13vw, 66px);
+  }
+
+  .interaction-panel {
+    display: block;
+  }
+
+  .interaction-state {
+    margin-top: 24px;
+  }
+
+  .annotations dl > div {
+    display: block;
+  }
+
+  .annotations dt {
+    margin-bottom: 7px;
+  }
+}

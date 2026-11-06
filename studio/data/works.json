@@ -2,6 +2,81 @@
   "schema": "mutine-works/v1",
   "works": [
   {
+    "id": "brush-2026-11-06",
+    "currentId": "brush",
+    "date": "2026-11-06",
+    "title": "The sheet holds a pressure chord.",
+    "rawPath": "/studies/p5-brush/v049/",
+    "status": "candidate / held",
+    "lifecycle": "active",
+    "journal": {
+      "anchor": "journal-brush-2026-11-06",
+      "note": "v049 breaks v046's through-void mass, v047's answering islands, and v048's remote regrowth wash. One upright sheet of eight irregular folds now refuses a single hand: only a long two-site pressure chord opens the next internal fault, and the lead side must alternate. Four fold states compound and remain liftable."
+    },
+    "critiques": [
+      {"persona":"Sheet-form critic","argument":"Eight unequal folds must read as one held sheet before they read as a parts inventory. Silhouette, staggered seams, negative gaps, and a restrained central spine must carry the composition without interface chrome."},
+      {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, and prose hidden, the first view must leave v046's monolith, v047's islands, and v048's wash. It should read as a folded material object, not a route map, node field, or pressure gauge."},
+      {"persona":"Encounter critic","argument":"The visitor must hold two sides together and wait. Pointer, touch, keyboard, and the deterministic chord control must offer equivalent meaningful paths; no hover-only action may carry the work."},
+      {"persona":"Causal critic","argument":"A single site and a short chord must remain geometry-neutral. A valid release must change actual fold outline, opening, crease, notch, and seam geometry; status, glow, and prose cannot substitute for produced form."},
+      {"persona":"Resistance critic","argument":"The pressure sites must stay exact while the sheet changes inside. If the work simply deforms the contacted edge, it repeats local pressure and the translation fails."},
+      {"persona":"Alternation critic","argument":"The first chord must lead from the left and the next from the right, with the rule visible as a different fold direction. Same-lead repetition must refuse rather than become a cosmetic mode switch."},
+      {"persona":"Memory critic","argument":"Four internal faults must compound in one sheet. Lift must reconstruct the exact preceding geometry and release must return to the deterministic quiet seed."},
+      {"persona":"Medium critic","argument":"Generated p5.js Canvas 2D folds, seams, gaps, fault arcs, and fixed pressure sites are the medium. No screenshot, imported illustration, external font, or decorative particle system may carry the work."},
+      {"persona":"Cultural critic","argument":"p5.brush is translated from pressure and directional field logic into a timed relational chord, then refused as surface vocabulary. No brush preset, watercolor, hatching, grain, source palette, source composition, source code, examples, or API surface is reproduced."},
+      {"persona":"Cynic","argument":"Delete v049 if one-sided or short pressure commits, the edge sites deform, fold change is only colour or readout, same-lead repetition commits, later folds reset, the blind sheet reads as another field or monolith, or exact lifting fails."}
+    ],
+    "metrics": {
+      "id": "p5-brush-v049-held-chord-fold-sheet",
+      "seed": "0x42523439",
+      "visitorInput": true,
+      "replay": true,
+      "renderer": "deterministic p5.js 1.11.3 Canvas 2D held-chord fold sheet",
+      "grammar": "held-chord-fold-sheet",
+      "foldCount": 8,
+      "memoryWindow": 4,
+      "holdThresholdMs": 720,
+      "primitiveBudget": "one upright folded sheet, eight generated folds, seven seams, two fixed pressure sites, internal fault arcs, and four liftable fold states",
+      "commitThreshold": "both fixed pressure sites held together for at least 720ms, released, with alternating lead side",
+      "memoryRule": "the pressure sites stay exact while the next fold changes position, opening, crease, notch, and seam; later chords lead from the opposite side",
+      "interactionRule": "pointer or touch holds both edge sites; ArrowLeft plus ArrowRight or the chord control uses the same deterministic event; Delete lifts latest; Escape or R releases",
+      "representationRupture": "Canvas wash bands, pigment islands, and WebGL depth mass -> one portrait-oriented folded sheet with internal fault geometry",
+      "compositionRupture": "full-field wash, loose island ecology, and central monolith -> a single upright sheet with eight staggered folds",
+      "encounterRupture": "ordered route, attention click, and gate passage -> simultaneous two-site pressure held through a duration threshold",
+      "temporalRupture": "transient passage followed by remote response -> duration opens a local fold and constrains the next lead",
+      "mediumRupture": "raster wash, island silhouettes, and WebGL volume -> p5.js Canvas 2D fold planes, seams, and fault arcs",
+      "changedRule": "A single hand is inert. A long chord between two fixed edges changes the next internal fold, and the lead side must alternate for material to accept the next event.",
+      "visibleConsequence": "The blind view is one dark upright sheet of eight irregular folds. Four accepted chords change actual fold outlines, creases, openings, notches, and seams while the pressure sites remain exact.",
+      "falsifier": "Delete if one-sided or short pressure commits, if the pressure sites deform, if fold change is cosmetic, if alternating lead is ignored, if later folds reset, or if lifting is inexact.",
+      "deletionCondition": "Delete v049 if caption-free viewing cannot distinguish the held-chord fold sheet from v046-v048 or if duration is only explanatory prose.",
+      "promotion": "candidate / held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+      "referenceId": "p5-brush"
+    },
+    "source": {
+      "referenceId": "p5-brush",
+      "title": "p5.brush",
+      "url": "https://github.com/acamposuribe/p5.brush",
+      "observedMechanism": "A programmable material engine treats pressure, density, directional behaviour, and vector fields as production rules that alter how geometry is generated rather than decorating a finished mark.",
+      "translatedRule": "Refuse brush presets, watercolor appearance, hatching vocabulary, grain treatment, source palette, source composition, source code, examples, and API surface. Translate pressure into a timed relational chord: both fixed sites must be held together, then released, to alter the next internal fold; the lead side alternates.",
+      "visibleConsequence": "The blind view is one dark upright sheet of eight irregular folds. A valid chord changes a real internal fold outline, opening, crease, notch, and seam while the two pressure sites remain exact; four fold states compound.",
+      "falsifier": "If one-sided or short pressure commits, if the pressure sites deform, if fold change is only colour or readout, if the alternating lead is ignored, if later folds reset, or if lifting is inexact, the translation fails.",
+      "antiCopy": "No p5.brush preset, brush appearance, watercolor, hatching vocabulary, grain treatment, source palette, source composition, source code, examples, API surface, or source imagery is reproduced.",
+      "directionConsequence": "Closes Brush's remote-answer sequence and opens internal material resistance: pressure is no longer a route to elsewhere but a timed agreement that changes what the sheet can fold next.",
+      "selectedBySlot": true
+    },
+    "browserEvidence": {
+      "status": "pending local and production browser matrices; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
+      "productionReady": false,
+      "runner": "headless system Chrome via Playwright",
+      "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+      "modes": ["normal", "reduced-motion"],
+      "unresolved": ["local browser matrix", "production browser matrix", "independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+    },
+    "decision": {
+      "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v049 if the blind sheet reads as another field, monolith, or route diagram, if one-sided or short pressure commits, if the pressure sites deform, if the alternating lead is ignored, if later folds reset, or if exact lifting fails.",
+      "lineage": "brush-2026-11-05"
+    }
+  },
+  {
     "id": "svg-2026-11-06",
     "currentId": "svg",
     "date": "2026-11-06",
