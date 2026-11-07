@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151414">
+  <title>MUTINE — The pigment forgets its missing edge.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=050">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-07"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="relief-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v050 / SUBTRACTIVE CLOSURE RELIEF</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="relief-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v050</span></nav>
+
+      <figure class="relief-work artwork-frame" aria-labelledby="work-title">
+        <div id="relief-field" class="relief-field" tabindex="0" role="application" aria-label="A subtractive material relief. Lift one of three upper edges, drag inward, return toward the edge, then release. The returned stroke cuts a real opening; a short one-way stroke is refused." aria-keyshortcuts="ArrowLeft ArrowUp ArrowRight Enter Space Delete Escape R S">
+          <div class="relief-readout" aria-live="polite"><span data-stage>RELIEF 01 / 05</span><span data-memory>closed relief · 0 cuts retained</span></div>
+          <div id="relief-canvas" class="relief-canvas"></div>
+          <div class="relief-controls" aria-label="Subtractive material actions">
+            <button type="button" data-gesture="erase">lift an edge</button>
+            <button type="button" data-gesture="latest">lift last cut</button>
+            <button type="button" data-gesture="release">release the relief</button>
+          </div>
+          <p class="relief-hint">lift inward · return · release · leave the cut</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v050-subtractive-closure-relief</span><span>lift &gt; return &gt; absence</span></figcaption>
+      </figure>
+
+      <section class="relief-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / SUBTRACTIVE CLOSURE RELIEF / v050</p>
+        <h1 id="work-title">The pigment<br><i>forgets its missing edge.</i></h1>
+        <p class="relief-lede">Pressure cannot add a stroke. Lift an edge, move into the relief, reverse, and leave it: only a returned gesture removes material. The neighbouring ribs close around what is no longer there.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">MATERIAL KEEPS THE ABSENCE, NOT THE HAND</p>
+          <p class="interaction-copy">Choose one of the three upper lift sites. Pointer or touch: press an edge, drag inward, reverse toward the edge, and release. A short or one-way stroke is refused. ArrowLeft, ArrowUp, or ArrowRight selects a site; Enter or Space makes the same deterministic reversible lift. Delete lifts the latest cut; Escape, R, or “release the relief” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The relief is closed. Lift an edge, move inward, return, and release.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v050</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon remote response, wash, and folded-sheet grammars. A stroke is accepted only when it reverses: the completed lift removes a real cutout and shifts neighbouring ribs around the absence.</dd></div>
+          <div><dt>visitor action</dt><dd>Lift one fixed edge, drag inward, return toward the same edge, and release. Four subtractive cuts compound in one relief and remain exactly liftable.</dd></div>
+          <div><dt>falsifier</dt><dd>If a short or one-way stroke commits, if the lifted edge deforms, if the cut is only colour or readout, if later removals reset earlier ones, or if the prior relief cannot be reconstructed, the rule fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v050 if caption-free viewing reads as another sheet, field, route, or generic cutout poster; if reversal is only explanatory prose; or if the first view cannot carry subtractive material memory.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-06/">previous daily work</a><a href="/journal/#journal-brush-2026-11-07">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=050"></script>
+</body>
+</html>

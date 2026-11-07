@@ -1,0 +1,1754 @@
+{
+  "base": "http://127.0.0.1:41750",
+  "viewports": [
+    "320x568",
+    "390x844",
+    "768x1024",
+    "1280x800",
+    "1920x1080"
+  ],
+  "matrixRuns": 20,
+  "diagnostics": 0,
+  "firstPartyFailures": [],
+  "overflows": 0,
+  "targetWidthsValid": true,
+  "blind": [
+    {
+      "reduced": false,
+      "state": {
+        "memory": 4,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "readout": "none",
+        "controls": "none",
+        "hint": "none",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        }
+      },
+      "screenshot": "blind-390x844-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "reduced": true,
+      "state": {
+        "memory": 4,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "readout": "none",
+        "controls": "none",
+        "hint": "none",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        }
+      },
+      "screenshot": "blind-390x844-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    }
+  ],
+  "interaction": {
+    "diagnostics": [],
+    "pointer": {
+      "memory": 1,
+      "interaction": "erase-committed",
+      "geometryChanged": true
+    },
+    "keyboard": {
+      "memory": 2,
+      "interaction": "erase-committed"
+    },
+    "lifted": {
+      "memory": 1,
+      "interaction": "lifted"
+    },
+    "released": {
+      "memory": 0,
+      "interaction": "released",
+      "signatureMatchesQuiet": true
+    },
+    "fourCuts": {
+      "memory": 4,
+      "interaction": "erase-committed"
+    }
+  },
+  "results": [
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 138.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 145.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 292,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-0-320x568-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 173.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 180.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 362,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-1-390x844-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-2-768x1024-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-3-1280x800-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-4-1920x1080-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 138.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 145.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 292,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-5-320x568-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 173.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 180.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 362,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-6-390x844-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-7-768x1024-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-8-1280x800-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigmentforgets its missing edge.",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "tableauRect": null,
+        "headingRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-raw-9-1920x1080-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 19,
+          "y": 196.5,
+          "width": 282,
+          "height": 358.390625,
+          "top": 196.5,
+          "right": 301,
+          "bottom": 554.890625,
+          "left": 19
+        },
+        "headingRect": {
+          "x": 18,
+          "y": 626.890625,
+          "width": 284,
+          "height": 127.875,
+          "top": 626.890625,
+          "right": 302,
+          "bottom": 754.765625,
+          "left": 18
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358,
+          "top": 0,
+          "right": 282,
+          "bottom": 358,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 119.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 126.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 254,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-10-320x568-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 19,
+          "y": 183.5,
+          "width": 352,
+          "height": 436.796875,
+          "top": 183.5,
+          "right": 371,
+          "bottom": 620.296875,
+          "left": 19
+        },
+        "headingRect": {
+          "x": 18,
+          "y": 692.296875,
+          "width": 354,
+          "height": 127.875,
+          "top": 692.296875,
+          "right": 372,
+          "bottom": 820.171875,
+          "left": 18
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 154.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 161.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 324,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-11-390x844-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 19,
+          "y": 183.5,
+          "width": 730,
+          "height": 629.75,
+          "top": 183.5,
+          "right": 749,
+          "bottom": 813.25,
+          "left": 19
+        },
+        "headingRect": {
+          "x": 18,
+          "y": 885.25,
+          "width": 732,
+          "height": 100.75,
+          "top": 885.25,
+          "right": 750,
+          "bottom": 986,
+          "left": 18
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-12-768x1024-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 57,
+          "y": 161,
+          "width": 734.546875,
+          "height": 720,
+          "top": 161,
+          "right": 791.546875,
+          "bottom": 881,
+          "left": 57
+        },
+        "headingRect": {
+          "x": 56,
+          "y": 953,
+          "width": 736.546875,
+          "height": 251.90625,
+          "top": 953,
+          "right": 792.546875,
+          "bottom": 1204.90625,
+          "left": 56
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-13-1280x800-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 377,
+          "y": 161,
+          "width": 721.59375,
+          "height": 720,
+          "top": 161,
+          "right": 1098.59375,
+          "bottom": 881,
+          "left": 377
+        },
+        "headingRect": {
+          "x": 376,
+          "y": 953,
+          "width": 723.59375,
+          "height": 290.25,
+          "top": 953,
+          "right": 1099.59375,
+          "bottom": 1243.25,
+          "left": 376
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-14-1920x1080-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 19,
+          "y": 196.5,
+          "width": 282,
+          "height": 358.390625,
+          "top": 196.5,
+          "right": 301,
+          "bottom": 554.890625,
+          "left": 19
+        },
+        "headingRect": {
+          "x": 18,
+          "y": 626.890625,
+          "width": 284,
+          "height": 127.875,
+          "top": 626.890625,
+          "right": 302,
+          "bottom": 754.765625,
+          "left": 18
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358,
+          "top": 0,
+          "right": 282,
+          "bottom": 358,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 119.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 126.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 254,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-15-320x568-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 19,
+          "y": 183.5,
+          "width": 352,
+          "height": 436.796875,
+          "top": 183.5,
+          "right": 371,
+          "bottom": 620.296875,
+          "left": 19
+        },
+        "headingRect": {
+          "x": 18,
+          "y": 692.296875,
+          "width": 354,
+          "height": 127.875,
+          "top": 692.296875,
+          "right": 372,
+          "bottom": 820.171875,
+          "left": 18
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 154.859375,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 161.140625,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 324,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-16-390x844-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 19,
+          "y": 183.5,
+          "width": 730,
+          "height": 629.75,
+          "top": 183.5,
+          "right": 749,
+          "bottom": 813.25,
+          "left": 19
+        },
+        "headingRect": {
+          "x": 18,
+          "y": 885.25,
+          "width": 732,
+          "height": 100.75,
+          "top": 885.25,
+          "right": 750,
+          "bottom": 986,
+          "left": 18
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-17-768x1024-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 57,
+          "y": 161,
+          "width": 734.546875,
+          "height": 720,
+          "top": 161,
+          "right": 791.546875,
+          "bottom": 881,
+          "left": 57
+        },
+        "headingRect": {
+          "x": 56,
+          "y": 953,
+          "width": 736.546875,
+          "height": 251.90625,
+          "top": 953,
+          "right": 792.546875,
+          "bottom": 1204.90625,
+          "left": 56
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-18-1280x800-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "title": "MUTINE — The pigment forgets its missing edge.",
+        "heading": "The pigment forgets its missing edge.",
+        "fieldRect": null,
+        "tableauRect": {
+          "x": 377,
+          "y": 161,
+          "width": 721.59375,
+          "height": 720,
+          "top": 161,
+          "right": 1098.59375,
+          "bottom": 881,
+          "left": 377
+        },
+        "headingRect": {
+          "x": 376,
+          "y": 953,
+          "width": 723.59375,
+          "height": 290.25,
+          "top": 953,
+          "right": 1099.59375,
+          "bottom": 1243.25,
+          "left": 376
+        }
+      },
+      "tableau": {
+        "ready": true,
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "memory": 4,
+        "interaction": "erase-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "lift an edge",
+            "width": 103.21875,
+            "height": 44
+          },
+          {
+            "label": "lift last cut",
+            "width": 109.484375,
+            "height": 44
+          },
+          {
+            "label": "release the relief",
+            "width": 140.828125,
+            "height": 44
+          }
+        ],
+        "h1Rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "screenshot": "matrix-canonical-19-1920x1080-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    }
+  ]
+}
