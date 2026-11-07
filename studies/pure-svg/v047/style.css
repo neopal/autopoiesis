@@ -1,0 +1,85 @@
+:root {
+  --ground: #11131b;
+  --surface: #191d29;
+  --ink: #ece8dc;
+  --muted: #a6a9b3;
+  --line: rgba(236, 232, 220, .2);
+  --violet: #8a7fc4;
+  --coral: #e47b67;
+  --amber: #e5b76d;
+  --blue: #72a7bc;
+  --shadow: rgba(0, 0, 0, .62);
+}
+
+html, body { background: var(--ground); }
+body.work-page[data-current='svg'] { color: var(--ink); }
+body.work-page[data-current='svg'] .studio-shell {
+  background:
+    radial-gradient(circle at 82% 8%, rgba(138, 127, 196, .18), transparent 27rem),
+    radial-gradient(circle at 12% 92%, rgba(228, 123, 103, .12), transparent 28rem),
+    linear-gradient(135deg, rgba(255,255,255,.035), transparent 46%), var(--ground);
+}
+body.work-page[data-current='svg'] .studio-header,
+body.work-page[data-current='svg'] .studio-footer { border-color: var(--line); }
+body.work-page[data-current='svg'] .studio-header p,
+body.work-page[data-current='svg'] .studio-footer,
+body.work-page[data-current='svg'] .studio-path { color: var(--muted); }
+
+.work-surface { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem); gap: 1.5rem; align-items: start; }
+.field-wrap { position: relative; min-width: 0; overflow: hidden; background: #0b0d13; }
+#field { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 760; background: #0b0d13; touch-action: none; cursor: crosshair; }
+#field:focus-visible { outline: 2px solid var(--amber); outline-offset: -8px; }
+.glyph-ground { fill: url(#glyph-ground); }
+.glyph-haze { fill: url(#glyph-haze); pointer-events: none; }
+.glyph-axis { fill: none; stroke: rgba(236, 232, 220, .11); stroke-width: 1; stroke-dasharray: 2 20; pointer-events: none; }
+.glyph-shadow { fill: none; stroke: var(--shadow); stroke-width: 24; stroke-linecap: round; stroke-linejoin: round; transform: translate(0 18px); filter: url(#glyph-shadow); pointer-events: none; transition: d 720ms cubic-bezier(.2,.8,.2,1); }
+.glyph-echo { fill: none; stroke: rgba(228, 123, 103, .34); stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; transition: d 720ms cubic-bezier(.2,.8,.2,1); }
+.glyph-spine { fill: none; stroke: var(--ink); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; transition: d 720ms cubic-bezier(.2,.8,.2,1); }
+.glyph-port { fill: none; stroke: var(--blue); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; transition: d 720ms cubic-bezier(.2,.8,.2,1), stroke 720ms ease; }
+.glyph-port[data-state='replying'] { stroke: var(--coral); stroke-width: 7; }
+.glyph-pending { fill: none; stroke: var(--amber); stroke-width: 4; stroke-dasharray: 3 12; stroke-linecap: round; pointer-events: none; }
+.glyph-threshold { fill: none; stroke: rgba(229, 183, 109, .32); stroke-width: 1.5; stroke-dasharray: 1 14; pointer-events: none; }
+.field-readout { position: absolute; inset: auto 1rem 1rem; display: flex; justify-content: space-between; gap: 1rem; color: rgba(236, 232, 220, .76); font: 10px/1.2 ui-monospace, monospace; letter-spacing: .07em; text-transform: uppercase; pointer-events: none; }
+.field-controls { position: absolute; top: 1rem; right: 1rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; max-width: 80%; }
+.field-controls button { min-height: 44px; padding: .65rem .8rem; border: 1px solid rgba(236, 232, 220, .54); border-radius: 999px; background: rgba(17, 19, 27, .86); color: var(--ink); font: 11px/1 ui-monospace, monospace; cursor: pointer; }
+.field-controls button:hover, .field-controls button:focus-visible { border-color: var(--amber); color: #f4d395; }
+.work-annotations { display: grid; gap: 1rem; color: var(--muted); }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .7rem; }
+.work-annotations span { display: block; margin-bottom: .45rem; color: var(--amber); font: 10px/1 ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
+.work-annotations p { margin: 0; font: .83rem/1.45 ui-monospace, monospace; }
+.work-opening { display: grid; grid-template-columns: minmax(0, .85fr) minmax(14rem, .6fr); gap: 2rem; padding: clamp(2rem, 6vw, 5rem) 0 2rem; align-items: end; }
+.work-opening h1 { max-width: 12ch; margin: .35rem 0 0; color: var(--ink); font: 400 clamp(3.2rem, 7.6vw, 7.6rem)/.82 Georgia, serif; letter-spacing: -.06em; }
+.work-opening h1 i { color: var(--coral); font-style: italic; }
+.work-premise { max-width: 31rem; margin: 0; color: #c4c5cc; font: 1rem/1.5 ui-monospace, monospace; }
+.work-note { max-width: 48rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1rem 0; color: var(--muted); }
+.work-note p { margin: 0; font: .78rem/1.55 ui-monospace, monospace; }
+.work-note strong { color: var(--ink); font-weight: 500; }
+
+html.preview-mode .studio-header, html.preview-mode .studio-footer, html.preview-mode .studio-path, html.preview-mode .work-opening, html.preview-mode .work-note, html.preview-mode .work-annotations { display: none; }
+html.preview-mode .studio-main { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .work-surface { display: block; }
+html.preview-mode .field-wrap { border: 0; }
+html.blind-mode .field-readout, html.blind-mode .field-controls, html.blind-mode .work-annotations, html.blind-mode .work-opening, html.blind-mode .work-note { display: none; }
+html.static-mode .field-readout, html.static-mode .field-controls, html.static-mode .glyph-pending { display: none; }
+
+@media (max-width: 980px) {
+  .work-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, 1fr); }
+  .work-opening { grid-template-columns: 1fr .8fr; }
+}
+
+@media (max-width: 680px) {
+  .work-surface { gap: 1rem; }
+  .field-controls { inset: auto .65rem .65rem; max-width: none; justify-content: stretch; }
+  .field-controls button { flex: 1 1 8rem; padding-inline: .45rem; font-size: 10px; }
+  .field-readout { inset: .65rem .65rem auto; flex-direction: column; gap: .25rem; font-size: 9px; }
+  .work-annotations { grid-template-columns: 1fr; gap: .75rem; }
+  .work-opening { grid-template-columns: 1fr; gap: 1.25rem; padding-top: 2.5rem; }
+  .work-opening h1 { font-size: clamp(3rem, 14vw, 5.2rem); }
+  .work-premise { font-size: .82rem; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; }
+  .glyph-shadow, .glyph-echo, .glyph-spine, .glyph-port { transition: none; }
+}

@@ -1,0 +1,75 @@
+{
+  "base": "http://127.0.0.1:4387",
+  "proofDir": "research/qa/proofs/pure-svg-v047-2026-11-07-local",
+  "matrixRuns": 20,
+  "rawRuns": 10,
+  "canonicalRuns": 10,
+  "matrixFailures": [],
+  "canonicalFailures": [],
+  "diagnostics": [],
+  "interactionEvidence": {
+    "quickGlanceMemory": "0",
+    "pointerMemory": "1",
+    "keyboardMemory": "2",
+    "afterLiftMemory": "0",
+    "afterReleaseInteraction": "quiet",
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "targetRect": {
+        "x": 8,
+        "y": 8,
+        "width": 374,
+        "height": 236.859375
+      },
+      "visibleControlCount": 3,
+      "minVisibleControlHeight": 44,
+      "fieldReady": true,
+      "memory": "0"
+    }
+  },
+  "blindEvidence": {
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "targetRect": {
+        "x": 8,
+        "y": 8,
+        "width": 374,
+        "height": 236.859375
+      },
+      "visibleControlCount": 0,
+      "minVisibleControlHeight": null,
+      "fieldReady": true,
+      "memory": "4"
+    },
+    "memory": "4",
+    "readoutVisible": false,
+    "controlsVisible": false,
+    "annotationsVisible": false
+  },
+  "journalEvidence": {
+    "status": 200,
+    "anchorCount": 1,
+    "titlePresent": true,
+    "evidence": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "targetRect": {
+        "x": 19.5,
+        "y": 9219.421875,
+        "width": 351,
+        "height": 397.875
+      },
+      "visibleControlCount": 825,
+      "minVisibleControlHeight": 22.5,
+      "fieldReady": false,
+      "memory": null
+    }
+  },
+  "allDiagnosticsOk": true,
+  "allReadbacksOk": true
+}
