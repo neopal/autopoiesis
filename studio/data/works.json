@@ -582,7 +582,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-alias production headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; rendered Journal and interaction readbacks passed; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -602,6 +602,20 @@
       "localReadbacks": "Local rendered Journal anchor/title, WebGPU current/card, canonical work title/tableau, raw v046 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
       "localProofPath": "research/qa/proofs/webgpu-v046-2026-11-07-local/",
       "localScreenshotCount": 25,
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v046/?preview=1&interaction=1",
+      "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v046/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-11-07/",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable-alias pointer taps kept the first two beats geometry-neutral, committed one uneven three-beat cadence across the folded chorus, Delete restored the quiet signature, Enter committed an equivalent default cadence, and Escape released; diagnostics remained 0.",
+      "productionBlindPreviewEvidence": "Stable-alias reduced-motion raw preview at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 retained the settled four-crease folded chorus with 27 voices; normal preview retained the quiet seed; control targets measured 44px and no overflow occurred.",
+      "productionReadbacks": "Stable alias HTTP reads returned 200 for works.json, catalog-public.json, Journal, WebGPU current, canonical work, raw v046, and favicon; rendered Journal anchor/title and canonical tableau/title were verified; source and public catalogs each contained exactly one webgpu-2026-11-07 record.",
+      "productionDeploymentMode": "manual Vercel production deployment; stable alias verified independently from GitHub SHA",
       "unresolved": ["independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
     },
     "decision": {
