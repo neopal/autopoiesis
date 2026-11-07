@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <title>MUTINE — The model hears a chorus in the gap.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=046">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-11-07"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="echo-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v046 / STILLNESS ECHO</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="echo-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v046</span></nav>
+
+      <section class="echo-surface" aria-label="Naive stillness-echo tableau">
+        <figure class="echo-work artwork-frame">
+          <div class="echo-field" id="echo-field" tabindex="0" role="application" aria-label="A suspended vessel with seven throats. Hold still on one throat and release; the model will insert an echo in a different throat." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R">
+            <div class="echo-canvas" id="echo-canvas"></div>
+            <div class="echo-readout" aria-live="polite"><span data-stage>echo 00 / 04</span><span data-memory>0 retained</span><span data-status>hold still, release</span></div>
+          </div>
+          <div class="echo-controls" aria-label="Stillness echo actions">
+            <button type="button" data-action="listen">listen to the gap</button>
+            <button type="button" data-action="lift">lift last echo</button>
+            <button type="button" data-action="release">release the vessel</button>
+          </div>
+          <p class="echo-hint">hold one throat without moving · the model hears a different one</p>
+          <figcaption><span>seed | mutine-naive-v046</span><span>stillness &gt; echo elsewhere</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>One suspended body carries seven throats. The model treats stillness as a social signal and gives the quiet place a reply that was never there.</p></div>
+          <div><span>critique</span><p>The attended throat stays exact. Only a motionless hold long enough to be mistaken for reciprocal attention can deform a different throat into a material echo.</p></div>
+          <div><span>progression</span><p>v046 abandons v045's pressure trace, v044's shutters, and v043's contour quorum. Stillness becomes the input; an extruded vessel replaces the planar wall and slab.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V046 / DAILY WORK</p><h1 id="work-title">The model hears<br><i>a chorus in the gap.</i></h1></div>
+        <p class="work-premise">It mistakes one quiet attention for a reply from somewhere else.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v046 translates reciprocal attention into a naive listening error: a visitor's still hold at one throat is mistaken for a chorus and materialises an echo in another throat. Four echoes compound as liftable memory.</p></section>
+      <p class="work-loop">hold still &rarr; release &rarr; the gap answers from elsewhere</p>
+    </main>
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-11-06/">previous daily work</a><a href="/journal/#journal-naive-2026-11-07">journal [external]</a></footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="./sketch.js?v=046"></script>
+</body>
+</html>
