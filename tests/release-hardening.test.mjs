@@ -57,6 +57,7 @@ test('active surfaces do not depend on remote font imports', async () => {
   }
 });
 
-test('the root route has a favicon for direct data and document probes', async () => {
+test('the root route has SVG and ICO favicons for direct data and document probes', async () => {
   await access(new URL('../favicon.ico', import.meta.url));
+  await access(new URL('../favicon.svg', import.meta.url));
 });
