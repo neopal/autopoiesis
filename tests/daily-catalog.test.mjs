@@ -9,6 +9,7 @@ const expectedDailyIds = [
   'brush-2026-11-07',
   'svg-2026-11-07',
   'portrait-2026-11-07',
+  'webgpu-2026-11-07',
   'webgpu-2026-11-06',
   'brush-2026-11-06',
   'svg-2026-11-06',
@@ -562,7 +563,7 @@ test('the catalogue groups daily works by current in reverse chronological order
     'portrait-2026-09-03',
     'portrait-2026-08-31'
   ]);
-  assert.deepEqual(catalog.currents.find((current) => current.id === 'webgpu').works.map((work) => work.id), ['webgpu-2026-11-06', 'webgpu-2026-11-04', 'webgpu-2026-11-03', 'webgpu-2026-11-02', 'webgpu-2026-11-01', 'webgpu-2026-10-31', 'webgpu-2026-10-30', 'webgpu-2026-10-29', 'webgpu-2026-10-28', 'webgpu-2026-10-27', 'webgpu-2026-10-26', 'webgpu-2026-10-25', 'webgpu-2026-10-24', 'webgpu-2026-10-23', 'webgpu-2026-10-22', 'webgpu-2026-10-21', 'webgpu-2026-10-20', 'webgpu-2026-10-13', 'webgpu-2026-10-12', 'webgpu-2026-10-09', 'webgpu-2026-10-08', 'webgpu-2026-10-06', 'webgpu-2026-10-05', 'webgpu-2026-10-04', 'webgpu-2026-10-03', 'webgpu-2026-10-02', 'webgpu-2026-10-01', 'webgpu-2026-09-30', 'webgpu-2026-09-26', 'webgpu-2026-09-25', 'webgpu-2026-09-24', 'webgpu-2026-09-22', 'webgpu-2026-09-21', 'webgpu-2026-09-17', 'webgpu-2026-09-16', 'webgpu-2026-09-15', 'webgpu-2026-09-13', 'webgpu-2026-09-12', 'webgpu-2026-09-11', 'webgpu-2026-09-10', 'webgpu-2026-09-09', 'webgpu-2026-09-08', 'webgpu-2026-09-07', 'webgpu-2026-09-04', 'webgpu-2026-09-03']);
+  assert.deepEqual(catalog.currents.find((current) => current.id === 'webgpu').works.map((work) => work.id), ['webgpu-2026-11-07', 'webgpu-2026-11-06', 'webgpu-2026-11-04', 'webgpu-2026-11-03', 'webgpu-2026-11-02', 'webgpu-2026-11-01', 'webgpu-2026-10-31', 'webgpu-2026-10-30', 'webgpu-2026-10-29', 'webgpu-2026-10-28', 'webgpu-2026-10-27', 'webgpu-2026-10-26', 'webgpu-2026-10-25', 'webgpu-2026-10-24', 'webgpu-2026-10-23', 'webgpu-2026-10-22', 'webgpu-2026-10-21', 'webgpu-2026-10-20', 'webgpu-2026-10-13', 'webgpu-2026-10-12', 'webgpu-2026-10-09', 'webgpu-2026-10-08', 'webgpu-2026-10-06', 'webgpu-2026-10-05', 'webgpu-2026-10-04', 'webgpu-2026-10-03', 'webgpu-2026-10-02', 'webgpu-2026-10-01', 'webgpu-2026-09-30', 'webgpu-2026-09-26', 'webgpu-2026-09-25', 'webgpu-2026-09-24', 'webgpu-2026-09-22', 'webgpu-2026-09-21', 'webgpu-2026-09-17', 'webgpu-2026-09-16', 'webgpu-2026-09-15', 'webgpu-2026-09-13', 'webgpu-2026-09-12', 'webgpu-2026-09-11', 'webgpu-2026-09-10', 'webgpu-2026-09-09', 'webgpu-2026-09-08', 'webgpu-2026-09-07', 'webgpu-2026-09-04', 'webgpu-2026-09-03']);
 });
 
 test('current register contains identity and cadence policy but no duplicated work arrays', async () => {

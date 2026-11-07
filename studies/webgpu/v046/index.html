@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0818">
+  <meta name="description" content="A folded chorus keeps the wrong rhythm: only an uneven three-beat release creases the whole archive.">
+  <title>MUTINE — The crowd remembers the wrong rhythm.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    const interactive = params.has('interaction') || location.hash === '#interaction' || location.search.includes('interaction=1');
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('blind')) document.documentElement.classList.add('blind-mode');
+    if (interactive) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.search.includes('static=1') || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=046">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-11-07"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="fold-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WebGPU current / v046 / folded chorus</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="fold-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v046</span></nav>
+      <section class="fold-work" aria-label="WebGPU daily work">
+        <figure class="fold-frame artwork-frame">
+          <canvas id="chorus-field" tabindex="0" role="img" aria-label="A diagonal chorus of folded planes that re-creases when an uneven three-beat cadence is released"></canvas>
+          <div class="fold-readout" role="status" aria-live="polite"><span data-stage>crease 01 / 05</span><span data-memory>0 creases</span><span data-renderer>WEBGPU SIGNAL / WEBGL FALLBACK / FOLDED CHORUS</span></div>
+          <div class="fold-status" data-status>tap an uneven three-beat phrase into the ledger</div>
+          <div class="fold-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="cadence">mark cadence</button>
+            <button type="button" data-gesture="lift">lift latest</button>
+            <button type="button" data-gesture="release">release archive</button>
+          </div>
+          <figcaption><span>WEBGPU / V046 / DAILY WORK</span><span>tap · tap · break</span></figcaption>
+        </figure>
+        <aside class="fold-notes" aria-label="Work annotations">
+          <div><span>medium shift</span><p>The cross-section, membrane, and aperture field are gone. Twenty-seven folded planes now share one diagonal ledger; depth is articulated by hinges and gaps, not stacked mass.</p></div>
+          <div><span>changed rule</span><p>Pressure is refused. A regular three-beat chorus does nothing; only an uneven release folds the whole crowd around a missing interval. No tapped voice gets to remain the source.</p></div>
+          <div><span>progression</span><p>Tap the canvas three times with a broken rhythm, or use Enter for the deterministic phrase. Delete lifts one crease; Escape releases the archive. Four wrong rhythms compound.</p></div>
+        </aside>
+      </section>
+      <section class="fold-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V046 / DAILY WORK</p><h1 id="work-title">The crowd remembers<br><i>the wrong rhythm.</i></h1></div>
+        <p class="fold-premise">An archive is not a pile of pressure. It is the shape left by a missing beat.</p>
+      </section>
+      <section class="fold-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> v046 inverts v045’s sustained material load: duration no longer accumulates. The visitor must make an uneven three-beat phrase; when the phrase breaks, every folded voice re-creases as one body and the cadence becomes a visible hinge pattern. Promotion depends on whether the blind ledger reads as an archive of collective timing rather than a decorative fan or generic WebGL geometry.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>tap · tap · break</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=046a"></script>
+</body>
+</html>
