@@ -3,7 +3,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const base = process.env.BASE_URL || 'http://127.0.0.1:41760';
-const proofRoot = path.resolve('research/qa/proofs/naive-v046-2026-11-07-local');
+const proofRoot = path.resolve(process.env.PROOF_ROOT || 'research/qa/proofs/naive-v046-2026-11-07-local');
 const viewports = [
   [320, 568],
   [390, 844],

@@ -95,7 +95,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; 2/2 local blind runs at 390x844 passed; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
+      "status": "20/20 local raw/canonical and 20/20 stable-alias production headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; 2/2 local and 2/2 stable-alias production blind runs at 390x844 passed; diagnostics 0; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
@@ -128,20 +128,24 @@
       "productionRawPreview": "/studies/naive-art/v046/?preview=1&interaction=1",
       "productionBlindPreview": "/studies/naive-art/v046/?preview=1&static=1&blind=1",
       "productionCanonicalWork": "/works/naive-2026-11-07/",
-      "productionViewportRuns": 0,
-      "productionRawViewportRuns": 0,
-      "productionCanonicalViewportRuns": 0,
-      "productionDiagnostics": null,
-      "productionOverflow": null,
-      "productionMinTouchTarget": null,
-      "productionReadbacks": "pending production deployment",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionReadbacks": "Stable alias returned HTTP 200 for works.json, catalog-public.json, Journal, Naive current, canonical work, raw v046, studio/favicon.svg, and root favicon; works.json and catalog-public.json each contained exactly one naive-2026-11-07 record; rendered Journal anchor/title and canonical tableau/title were visible; canonical tableau preceded explanation; no diagnostics or first-party response failures.",
       "productionProofPath": "research/qa/proofs/naive-v046-2026-11-07-production/",
-      "providerRevisionLinkage": "not available; manual Vercel deployment will be verified independently from GitHub SHA",
+      "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from GitHub SHA",
       "unresolved": [
-        "production browser matrix",
         "independent caption-free perceptual review",
         "provider revision linkage between final Vercel deployment and GitHub SHA"
-      ]
+      ],
+      "productionInteraction": "Stable-alias real pointer hold on one throat for 820ms committed one stillness echo; ArrowRight plus Enter committed a second; Delete lifted to one; Escape released to quiet; controls measured 44px.",
+      "productionBlindPreviewEvidence": "Stable-alias normal and reduced-motion static blind previews at 390x844 retained four echoes while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionScreenshotCount": 23,
+      "productionDeploymentId": "dpl_3ru5aMfrqygsYAjdXJwyYfj6dHkB",
+      "productionDeploymentUrl": "https://autopoiesis-d8p6l7bsp-lairpa-hotmailfrs-projects.vercel.app"
     },
     "decision": {
       "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v046 if movement or a short hold commits, if the attended source changes, if the echo is cosmetic, if every event coincides, if later memory resets, if exact lifting fails, or if the blind vessel reads as another planar field, wall, slab, contour orbit, or generic 3D demo.",

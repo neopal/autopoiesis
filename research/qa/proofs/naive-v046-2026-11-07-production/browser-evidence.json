@@ -1,0 +1,726 @@
+{
+  "routeRuns": 22,
+  "diagnostics": 0,
+  "responseFailures": 0,
+  "overflow": 0,
+  "invalidWidths": 0,
+  "minTouchTarget": 44,
+  "results": [
+    {
+      "route": "raw",
+      "mode": "normal",
+      "viewport": "320x568",
+      "metrics": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "field": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 302.40625,
+          "height": 387.6875
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 320,
+          "height": 388
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 146.40625
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 146.421875
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 297.625
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-320x568-normal.png"
+    },
+    {
+      "route": "raw",
+      "mode": "normal",
+      "viewport": "390x844",
+      "metrics": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "field": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 372,
+          "height": 477
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 181.40625
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 181.421875
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 367.625
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": {
+        "pointer": {
+          "memory": 1,
+          "interaction": "stillness-committed"
+        },
+        "keyboard": {
+          "memory": 2,
+          "interaction": "stillness-committed"
+        },
+        "lift": {
+          "memory": 1,
+          "interaction": "stillness-lifted"
+        },
+        "release": {
+          "memory": 0,
+          "interaction": "memory-released"
+        },
+        "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-390x844-normal-interaction.png"
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-390x844-normal.png"
+    },
+    {
+      "route": "raw",
+      "mode": "normal",
+      "viewport": "768x1024",
+      "metrics": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "field": {
+          "x": 16,
+          "y": 0,
+          "width": 736,
+          "height": 561.34375
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 736,
+          "height": 561
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 132.28125
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 113.8125
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 138.4375
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-768x1024-normal.png"
+    },
+    {
+      "route": "raw",
+      "mode": "normal",
+      "viewport": "1280x800",
+      "metrics": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "field": {
+          "x": 38.390625,
+          "y": 0,
+          "width": 1203.21875,
+          "height": 917.703125
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 1203,
+          "height": 918
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 132.28125
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 113.8125
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 138.4375
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-1280x800-normal.png"
+    },
+    {
+      "route": "raw",
+      "mode": "normal",
+      "viewport": "1920x1080",
+      "metrics": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "field": {
+          "x": 57.59375,
+          "y": 0,
+          "width": 1804.8125,
+          "height": 1376.546875
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 1805,
+          "height": 1377
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 132.28125
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 113.8125
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 138.4375
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-1920x1080-normal.png"
+    },
+    {
+      "route": "raw",
+      "mode": "reduced-motion",
+      "viewport": "320x568",
+      "metrics": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "field": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 302.40625,
+          "height": 387.6875
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 320,
+          "height": 388
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 146.40625
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 146.421875
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 297.625
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-320x568-reduced-motion.png"
+    },
+    {
+      "route": "raw",
+      "mode": "reduced-motion",
+      "viewport": "390x844",
+      "metrics": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "field": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 372,
+          "height": 477
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 181.40625
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 181.421875
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 367.625
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-390x844-reduced-motion.png"
+    },
+    {
+      "route": "raw",
+      "mode": "reduced-motion",
+      "viewport": "768x1024",
+      "metrics": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "field": {
+          "x": 16,
+          "y": 0,
+          "width": 736,
+          "height": 561.34375
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 736,
+          "height": 561
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 132.28125
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 113.8125
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 138.4375
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-768x1024-reduced-motion.png"
+    },
+    {
+      "route": "raw",
+      "mode": "reduced-motion",
+      "viewport": "1280x800",
+      "metrics": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "field": {
+          "x": 38.390625,
+          "y": 0,
+          "width": 1203.21875,
+          "height": 917.703125
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 1203,
+          "height": 918
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 132.28125
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 113.8125
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 138.4375
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-1280x800-reduced-motion.png"
+    },
+    {
+      "route": "raw",
+      "mode": "reduced-motion",
+      "viewport": "1920x1080",
+      "metrics": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "field": {
+          "x": 57.59375,
+          "y": 0,
+          "width": 1804.8125,
+          "height": 1376.546875
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 1805,
+          "height": 1377
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 44,
+            "width": 132.28125
+          },
+          {
+            "label": "lift last echo",
+            "height": 44,
+            "width": 113.8125
+          },
+          {
+            "label": "release the vessel",
+            "height": 44,
+            "width": 138.4375
+          }
+        ],
+        "ready": true,
+        "memory": 0,
+        "grammar": "stillness-echo-vessel"
+      },
+      "interaction": null,
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\raw-1920x1080-reduced-motion.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "normal",
+      "viewport": "320x568",
+      "metrics": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 195.5,
+        "frameTop": 196.5
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-320x568-normal.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "normal",
+      "viewport": "390x844",
+      "metrics": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 182.5,
+        "frameTop": 183.5
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-390x844-normal.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "normal",
+      "viewport": "768x1024",
+      "metrics": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 182.5,
+        "frameTop": 183.5
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-768x1024-normal.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "normal",
+      "viewport": "1280x800",
+      "metrics": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 160,
+        "frameTop": 161
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-1280x800-normal.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "normal",
+      "viewport": "1920x1080",
+      "metrics": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 160,
+        "frameTop": 161
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-1920x1080-normal.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "reduced-motion",
+      "viewport": "320x568",
+      "metrics": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 195.5,
+        "frameTop": 196.5
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-320x568-reduced-motion.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "reduced-motion",
+      "viewport": "390x844",
+      "metrics": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 182.5,
+        "frameTop": 183.5
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-390x844-reduced-motion.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "reduced-motion",
+      "viewport": "768x1024",
+      "metrics": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 182.5,
+        "frameTop": 183.5
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-768x1024-reduced-motion.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "reduced-motion",
+      "viewport": "1280x800",
+      "metrics": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 160,
+        "frameTop": 161
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-1280x800-reduced-motion.png"
+    },
+    {
+      "route": "canonical",
+      "mode": "reduced-motion",
+      "viewport": "1920x1080",
+      "metrics": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "title": "The model hears a chorus in the gap.",
+        "tableauTop": 160,
+        "frameTop": 161
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\canonical-1920x1080-reduced-motion.png"
+    },
+    {
+      "route": "blind",
+      "mode": "normal",
+      "viewport": "390x844",
+      "metrics": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "field": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 372,
+          "height": 477
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 0,
+            "width": 0
+          },
+          {
+            "label": "lift last echo",
+            "height": 0,
+            "width": 0
+          },
+          {
+            "label": "release the vessel",
+            "height": 0,
+            "width": 0
+          }
+        ],
+        "ready": true,
+        "memory": 4,
+        "grammar": "stillness-echo-vessel"
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\blind-390x844-normal.png"
+    },
+    {
+      "route": "blind",
+      "mode": "reduced-motion",
+      "viewport": "390x844",
+      "metrics": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "field": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 477.4375
+        },
+        "canvas": true,
+        "canvasSize": {
+          "width": 372,
+          "height": 477
+        },
+        "controls": [
+          {
+            "label": "listen to the gap",
+            "height": 0,
+            "width": 0
+          },
+          {
+            "label": "lift last echo",
+            "height": 0,
+            "width": 0
+          },
+          {
+            "label": "release the vessel",
+            "height": 0,
+            "width": 0
+          }
+        ],
+        "ready": true,
+        "memory": 4,
+        "grammar": "stillness-echo-vessel"
+      },
+      "diagnostics": [],
+      "responses": [],
+      "screenshot": "C:\\Users\\ASUS\\autopoiesis\\research\\qa\\proofs\\naive-v046-2026-11-07-production\\blind-390x844-reduced-motion.png"
+    }
+  ]
+}
