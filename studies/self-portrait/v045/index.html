@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1018">
+  <title>MUTINE — The portrait edits the rule that made it.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=045">
+  <script>
+    window.p5 = window.p5 || {};
+    window.p5.disableFriendlyErrors = true;
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-11-07"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v045-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v045 / LOOP COMPILER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v045-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v045</span></nav>
+
+      <figure class="v045-work artwork-frame" aria-labelledby="work-title">
+        <div class="loop-stage" data-loop-stage data-renderer="WEBGL" tabindex="0" role="application" aria-label="A generated three-dimensional loop compiler. Draw one closed loop around the form; an accepted loop rewrites the form that produced it." aria-keyshortcuts="Enter Space Delete Backspace Escape">
+          <div class="loop-canvas-host" data-loop-canvas aria-label="A generated loop compiler form"></div>
+          <div class="loop-label loop-label--top" aria-hidden="true">THE RULE IS INSIDE THE LOOP</div>
+          <div class="loop-label loop-label--side" aria-hidden="true">36 / COMPILE</div>
+          <div class="loop-readout" aria-live="polite"><span data-stage>quiet compiler / 00</span><span data-memory>0 compilations held</span><span data-state>the form is running its quiet rule</span></div>
+          <p class="loop-hint" data-hint>draw one closed loop · release to compile</p>
+          <div class="compiler-controls" aria-label="Loop compiler encounter controls">
+            <button type="button" data-action="compile">compile loop</button>
+            <button type="button" data-action="lift">lift last compile</button>
+            <button type="button" data-action="release">release compiler</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v045-loop-compiler</span><span>enclose &gt; release &gt; compile</span></figcaption>
+      </figure>
+
+      <section class="v045-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / SELF-MODIFYING MATERIAL / v045</p>
+        <h1 id="work-title">The portrait edits<br><i>the rule that made it.</i></h1>
+        <p class="v045-lede">A single faceted loop is its own production rule. Draw a closed loop around the form and release: the trace is not painted onto the object; it compiles a new twist, aperture, depth, and facet grammar into the object that made the trace possible.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A TRACE MUST CLOSE ITSELF</p>
+          <p class="interaction-copy">Pointer or touch: draw one closed loop around the form, then release. An open or cancelled trace is refused. Enter / Space performs a deterministic closed loop; Delete / Backspace lifts the latest compile; Escape releases the compiler. Every accepted loop changes the produced form and four compilations remain liftable.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The form is running its quiet rule.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v045</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Pressure becomes compilation. Only a closed trace can rewrite the loop's own production grammar; open or cancelled traces leave the geometry exact.</dd></div>
+          <div><dt>visitor action</dt><dd>Enclose the generated form with one continuous loop. Pointer, touch, deterministic control, and keyboard share the same closure test; Delete lifts the last compiled state; Escape releases.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if an open trace commits, if the trace only paints a scar, if winding does not alter structure, if later compilations reset, or if lifting is inexact.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v045 if caption-free viewing reads as a generic torus or if closure is only explanatory language attached to a button.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-11-06/">previous daily work</a><a href="/journal/#journal-portrait-2026-11-07">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=045"></script>
+</body>
+</html>
