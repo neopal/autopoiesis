@@ -29704,6 +29704,99 @@
       "nextMutation": "Run an independent labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v043 if the blind slab reads as a generic ribbon field, if a short or misaligned drag commits, if the source changes, if remote recasting is cosmetic, if later events reset, or if exact lifting fails.",
       "lineage": "portrait-2026-11-04"
     }
+  },
+  {
+    "id": "naive-2026-11-08",
+    "currentId": "naive",
+    "date": "2026-11-08",
+    "title": "The model keeps the wrong correction.",
+    "rawPath": "/studies/naive-art/v047/",
+    "status": "candidate / held",
+    "lifecycle": "active",
+    "journal": {
+      "anchor": "journal-naive-2026-11-08",
+      "note": "v047 abandons v046's suspended vessel and stillness, v045's pressure membrane, and v044's shutter departure. A long proof strip now treats correction as material memory: only a drag that crosses the ledger with enough pressure can become a real misprint in another slot while the source remains exact. Four wrong placements compound and remain liftable."
+    },
+    "critiques": [
+      {"persona":"Ledger-form critic","argument":"Nine fragments must read as one continuous proof strip before they read as nine targets. Register lines, shared baseline, uneven spacing, and horizontal tension must carry the composition without chrome."},
+      {"persona":"Perceptual critic","argument":"With labels, readout, controls, hint, and prose hidden, the first view must leave v044's wall, v045's slab, and v046's vessel. It should read as a misregistered print run, not a bar chart, card row, or decorative barcode."},
+      {"persona":"Encounter critic","argument":"The visitor must cross the strip and release. Pointer, touch, keyboard, and deterministic controls must offer equivalent meaningful routes; no hover-only action may carry the work."},
+      {"persona":"Causal critic","argument":"The moving correction remains geometry-neutral. Only a travelled release with sufficient pressure may alter a different fragment; a short or weak trace leaves the ledger exact."},
+      {"persona":"Source critic","argument":"The source fragment stays exactly unchanged while the wrong target answers. If the source dents, shifts, or merely receives a halo, the copy-error translation fails."},
+      {"persona":"Material critic","argument":"Travel and pressure alter the target's phase, scale, angle, and registration scar. An opacity change or cursor trail is not material memory."},
+      {"persona":"Sequence critic","argument":"Press without crossing, short drag, weak drag, and cancelled release remain geometry-neutral. Release after the threshold is the only commit condition."},
+      {"persona":"Memory critic","argument":"Four wrong placements compound in one ledger. Lift reconstructs the exact preceding strip and release returns to the deterministic seed."},
+      {"persona":"Medium critic","argument":"Generated Canvas 2D register bands, proof fragments, phase bars, and overprints are the medium. No screenshot, imported illustration, external font, or particle system carries the work."},
+      {"persona":"Cultural critic","argument":"p5.brush is translated from material production into copy-error memory. Brushes, watercolor, hatching, grain, source palette, composition, code, examples, and API surface are refused."}
+    ],
+    "metrics": {
+      "id": "naive-art-v047-misprint-ledger",
+      "seed": "0x4e413437",
+      "visitorInput": true,
+      "replay": true,
+      "renderer": "deterministic p5.js 1.11.3 Canvas 2D proof ledger",
+      "grammar": "misprint-ledger",
+      "slotCount": 9,
+      "memoryWindow": 4,
+      "travelThreshold": 0.68,
+      "pressureThreshold": 0.45,
+      "primitiveBudget": "one continuous register strip, nine generated proof fragments, four liftable material misprints, and no imported imagery",
+      "commitThreshold": "drag across 68% of the proof strip with pressure at least 0.45, then release",
+      "memoryRule": "the source fragment remains exact while a different slot gains offset, phase, scale, angle, and registration scar; four misprints persist",
+      "interactionRule": "pointer or touch drags across the strip; ArrowLeft/ArrowRight selects; Enter/Space performs the deterministic trace; Delete lifts; Escape or R releases",
+      "representationRupture": "shutter wall, pressure slab, and WEBGL suspended vessel -> Canvas 2D continuous proof strip with nine abstract fragments",
+      "compositionRupture": "staggered wall, single object, and deep vessel -> horizontal register sequence with no privileged centre or aperture",
+      "encounterRupture": "proximity visit, pressure return, and stillness hold -> correction drag across the strip and release",
+      "temporalRupture": "remote absence, false membrane, and social echo -> wrong placement remembered as a persistent material overprint",
+      "mediumRupture": "Canvas planes and WEBGL depth -> 2D proof marks, register line, phase bars, and generated misregistration",
+      "changedRule": "A travelled correction does not stay at its source: release makes a real misprint in a different slot while the source remains exact.",
+      "visibleConsequence": "The blind view is a dark warm register strip with nine irregular fragments. A valid correction makes a different fragment offset, widened, re-phased, and overprinted; four misprints compound and remain liftable.",
+      "falsifier": "Delete if short or weak drags commit, if the source changes, if the misprint is only colour or readout, if every release targets the same slot, if later memory resets, if lifting is inexact, or if the image reads as another Naive object grammar.",
+      "deletionCondition": "Delete v047 if caption-free viewing cannot distinguish copy-error memory from v044-v046 or if crossing and release do not produce visible structural change.",
+      "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+      "referenceId": "p5-brush"
+    },
+    "source": {
+      "referenceId": "p5-brush",
+      "title": "p5.brush",
+      "url": "https://github.com/acamposuribe/p5.brush",
+      "observedMechanism": "Programmable pressure, density, direction, and fields participate in producing geometry rather than merely styling a finished mark; material is a rendering and field engine.",
+      "translatedRule": "Refuse brush presets, watercolor, hatching, grain, source palette, source composition, source code, examples, and API surface. Translate material production into a naive copy error: pressure and travel are prerequisites for a correction to become geometry, but release prints that geometry in a different proof slot while the source stays exact.",
+      "visibleConsequence": "The blind view is a dark warm register strip with nine irregular fragments. A valid drag leaves its source fragment exact and makes another fragment visibly offset, re-phased, widened, and misregistered; four misprints compound and remain liftable.",
+      "falsifier": "Delete if a short or weak drag commits, if the source changes, if the misprint is only colour or readout, if every release targets the same slot, if later memory resets, if lifting is inexact, or if the strip reads as v044-v046's wall, slab, or vessel.",
+      "antiCopy": "No brush presets, watercolor appearance, hatching vocabulary, grain treatment, source palette, source composition, source code, examples, API surface, or source imagery is reproduced.",
+      "directionConsequence": "Closes Naive's stillness / pressure / departure sequence and opens copy-error as material memory: model failure is now a wrong print placement on a proof ledger, with crossing and release as the new viewer task.",
+      "selectedBySlot": true
+    },
+    "browserEvidence": {
+      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; overflow 0; candidate remains held pending production matrix, independent caption-free perceptual review, and provider revision linkage",
+      "productionReady": false,
+      "runner": "headless system Chrome via Playwright",
+      "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
+      "modes": ["normal", "reduced-motion"],
+      "localRawPreview": "/studies/naive-art/v047/?preview=1&interaction=1",
+      "localBlindPreview": "/studies/naive-art/v047/?preview=1&static=1&blind=1",
+      "localCanonicalWork": "/works/naive-2026-11-08/",
+      "localViewportRuns": 20,
+      "localRawViewportRuns": 10,
+      "localCanonicalViewportRuns": 10,
+      "localDiagnostics": 0,
+      "localOverflow": 0,
+      "localMinTouchTarget": 44,
+      "localInteraction": "Local pointer drag committed one misprint while the source stayed exact; ArrowRight plus Enter committed a second; Delete lifted to one; Escape released to quiet; a short drag was refused; four control corrections compounded.",
+      "localBlindPreviewEvidence": "Normal and reduced-motion static blind previews at 390x844 retained four misprints while hiding readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "localProofPath": "research/qa/proofs/naive-art-v047-2026-11-08-local/",
+      "localScreenshotCount": 23,
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionRawPreview": "/studies/naive-art/v047/?preview=1&interaction=1",
+      "productionBlindPreview": "/studies/naive-art/v047/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "/works/naive-2026-11-08/",
+      "unresolved": ["browser matrix", "independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+    },
+    "decision": {
+      "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v047 if the blind strip reads as a generic bar or barcode row, if a short or weak drag commits, if the source changes, if the overprint is cosmetic, if later memory resets, or if exact lifting fails.",
+      "lineage": "naive-2026-11-07"
+    }
   }
   ]
 }

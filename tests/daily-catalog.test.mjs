@@ -283,7 +283,8 @@ const expectedDailyIds = [
   'brush-2026-10-22',
   'webgpu-2026-10-22',
   'typography-2026-11-05',
-  'portrait-2026-11-05'
+  'portrait-2026-11-05',
+  'naive-2026-11-08'
 ];
 test('daily work register preserves the recorded dates without inventing history', async () => {
   const data = JSON.parse(await read('studio/data/works.json'));

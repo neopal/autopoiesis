@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17151b">
+  <title>MUTINE — The model keeps the wrong correction.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=047">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-11-08"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="proof-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v047 / MISPRINT LEDGER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="proof-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v047</span></nav>
+
+      <section class="proof-surface" aria-label="Naive misprint ledger tableau">
+        <figure class="proof-work artwork-frame">
+          <div class="proof-field" id="proof-field" tabindex="0" role="application" aria-label="A long proof strip with nine abstract fragments. Drag a correction across the strip and release; the model will print it into a different fragment." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R">
+            <div class="proof-canvas" id="proof-canvas"></div>
+            <div class="proof-readout" aria-live="polite"><span data-stage>misprint 00 / 04</span><span data-memory>0 retained</span><span data-status>drag the correction across, then release</span></div>
+          </div>
+          <div class="proof-controls" aria-label="Misprint ledger actions">
+            <button type="button" data-action="correct">send a correction</button>
+            <button type="button" data-action="lift">lift last misprint</button>
+            <button type="button" data-action="release">release the ledger</button>
+          </div>
+          <p class="proof-hint">drag across the proof · the correction will be printed somewhere else</p>
+          <figcaption><span>seed | mutine-naive-v047</span><span>correction &gt; misprint elsewhere</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>A long proof strip carries nine fragments. The model treats a correction as material, then remembers the wrong place to put it.</p></div>
+          <div><span>critique</span><p>The source fragment stays exact. Only a correction that travels across the strip and carries enough pressure can become a visible misprint in another fragment.</p></div>
+          <div><span>progression</span><p>v047 abandons v046's suspended vessel and stillness. A horizontal proof ledger replaces the object; dragging and release replace listening.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V047 / DAILY WORK</p><h1 id="work-title">The model keeps<br><i>the wrong correction.</i></h1></div>
+        <p class="work-premise">It carries a material answer forward, but remembers the place that never received it.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v047 translates material production into a false copy: a correction must travel across one proof strip and carry pressure before release prints a real offset fragment elsewhere. Four misprints compound as liftable memory.</p></section>
+      <p class="work-loop">drag across &rarr; release &rarr; the wrong fragment receives the answer</p>
+    </main>
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-11-07/">previous daily work</a><a href="/journal/#journal-naive-2026-11-08">journal [external]</a></footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="./sketch.js?v=047"></script>
+</body>
+</html>

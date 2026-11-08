@@ -1,0 +1,1270 @@
+{
+  "base": "http://127.0.0.1:53204",
+  "matrixRuns": 20,
+  "diagnostics": 0,
+  "firstPartyFailures": [],
+  "overflows": 0,
+  "targetWidthsValid": true,
+  "minTouchTarget": 44,
+  "blind": [
+    {
+      "reduced": false,
+      "state": {
+        "memory": 4,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "readout": "none",
+        "controls": "none",
+        "hint": "none",
+        "canvas": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 423.1875,
+          "top": 0,
+          "right": 381.203125,
+          "bottom": 423.1875,
+          "left": 8.796875
+        }
+      },
+      "screenshot": "blind-390x844-normal.png",
+      "diagnostics": []
+    },
+    {
+      "reduced": true,
+      "state": {
+        "memory": 4,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "readout": "none",
+        "controls": "none",
+        "hint": "none",
+        "canvas": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 423.1875,
+          "top": 0,
+          "right": 381.203125,
+          "bottom": 423.1875,
+          "left": 8.796875
+        }
+      },
+      "screenshot": "blind-390x844-reduced.png",
+      "diagnostics": []
+    }
+  ],
+  "interaction": {
+    "diagnostics": [],
+    "pointer": {
+      "memory": 1,
+      "interaction": "correction-committed",
+      "geometryChanged": true
+    },
+    "keyboard": {
+      "memory": 2,
+      "interaction": "correction-committed"
+    },
+    "lifted": {
+      "memory": 1,
+      "interaction": "correction-lifted"
+    },
+    "released": {
+      "memory": 0,
+      "interaction": "memory-released",
+      "signatureMatchesQuiet": true
+    },
+    "short": {
+      "memory": 0,
+      "interaction": "correction-refused-short"
+    },
+    "fourMisprints": {
+      "memory": 4,
+      "interaction": "correction-committed"
+    }
+  },
+  "results": [
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 302.40625,
+          "height": 343.640625,
+          "top": 0,
+          "right": 311.203125,
+          "bottom": 343.640625,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 302.40625,
+          "height": 343.640625,
+          "top": 0,
+          "right": 311.203125,
+          "bottom": 343.640625,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 146.40625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 146.421875,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 297.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-0-320x568-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 423.1875,
+          "top": 0,
+          "right": 381.203125,
+          "bottom": 423.1875,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 423.1875,
+          "top": 0,
+          "right": 381.203125,
+          "bottom": 423.1875,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 181.40625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 181.421875,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 367.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-1-390x844-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 736,
+          "height": 515.1875,
+          "top": 0,
+          "right": 752,
+          "bottom": 515.1875,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 736,
+          "height": 515.1875,
+          "top": 0,
+          "right": 752,
+          "bottom": 515.1875,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-2-768x1024-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 38.390625,
+          "y": 0,
+          "width": 1203.21875,
+          "height": 842.25,
+          "top": 0,
+          "right": 1241.609375,
+          "bottom": 842.25,
+          "left": 38.390625
+        },
+        "canvasRect": {
+          "x": 38.390625,
+          "y": 0,
+          "width": 1203.21875,
+          "height": 842.25,
+          "top": 0,
+          "right": 1241.609375,
+          "bottom": 842.25,
+          "left": 38.390625
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-3-1280x800-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 57.59375,
+          "y": 0,
+          "width": 1804.8125,
+          "height": 1263.359375,
+          "top": 0,
+          "right": 1862.40625,
+          "bottom": 1263.359375,
+          "left": 57.59375
+        },
+        "canvasRect": {
+          "x": 57.59375,
+          "y": 0,
+          "width": 1804.8125,
+          "height": 1263.359375,
+          "top": 0,
+          "right": 1862.40625,
+          "bottom": 1263.359375,
+          "left": 57.59375
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-4-1920x1080-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 302.40625,
+          "height": 343.640625,
+          "top": 0,
+          "right": 311.203125,
+          "bottom": 343.640625,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 302.40625,
+          "height": 343.640625,
+          "top": 0,
+          "right": 311.203125,
+          "bottom": 343.640625,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 146.40625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 146.421875,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 297.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-5-320x568-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 423.1875,
+          "top": 0,
+          "right": 381.203125,
+          "bottom": 423.1875,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 372.40625,
+          "height": 423.1875,
+          "top": 0,
+          "right": 381.203125,
+          "bottom": 423.1875,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 181.40625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 181.421875,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 367.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-6-390x844-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 736,
+          "height": 515.1875,
+          "top": 0,
+          "right": 752,
+          "bottom": 515.1875,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 736,
+          "height": 515.1875,
+          "top": 0,
+          "right": 752,
+          "bottom": 515.1875,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-7-768x1024-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 38.390625,
+          "y": 0,
+          "width": 1203.21875,
+          "height": 842.25,
+          "top": 0,
+          "right": 1241.609375,
+          "bottom": 842.25,
+          "left": 38.390625
+        },
+        "canvasRect": {
+          "x": 38.390625,
+          "y": 0,
+          "width": 1203.21875,
+          "height": 842.25,
+          "top": 0,
+          "right": 1241.609375,
+          "bottom": 842.25,
+          "left": 38.390625
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-8-1280x800-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The model keepsthe wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 57.59375,
+          "y": 0,
+          "width": 1804.8125,
+          "height": 1263.359375,
+          "top": 0,
+          "right": 1862.40625,
+          "bottom": 1263.359375,
+          "left": 57.59375
+        },
+        "canvasRect": {
+          "x": 57.59375,
+          "y": 0,
+          "width": 1804.8125,
+          "height": 1263.359375,
+          "top": 0,
+          "right": 1862.40625,
+          "bottom": 1263.359375,
+          "left": 57.59375
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-9-1920x1080-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 264.40625,
+          "height": 300.453125,
+          "top": 0,
+          "right": 273.203125,
+          "bottom": 300.453125,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 264.40625,
+          "height": 300.453125,
+          "top": 0,
+          "right": 273.203125,
+          "bottom": 300.453125,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 259.625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 259.625,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 259.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-10-320x568-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 334.40625,
+          "height": 380,
+          "top": 0,
+          "right": 343.203125,
+          "bottom": 380,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 334.40625,
+          "height": 380,
+          "top": 0,
+          "right": 343.203125,
+          "bottom": 380,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 162.40625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 162.421875,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 329.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-11-390x844-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 698,
+          "height": 488.59375,
+          "top": 0,
+          "right": 714,
+          "bottom": 488.59375,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 698,
+          "height": 488.59375,
+          "top": 0,
+          "right": 714,
+          "bottom": 488.59375,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-12-768x1024-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 703,
+          "height": 492.09375,
+          "top": 0,
+          "right": 719,
+          "bottom": 492.09375,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 703,
+          "height": 492.09375,
+          "top": 0,
+          "right": 719,
+          "bottom": 492.09375,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-13-1280x800-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 690,
+          "height": 483,
+          "top": 0,
+          "right": 706,
+          "bottom": 483,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 690,
+          "height": 483,
+          "top": 0,
+          "right": 706,
+          "bottom": 483,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-14-1920x1080-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 264.40625,
+          "height": 300.453125,
+          "top": 0,
+          "right": 273.203125,
+          "bottom": 300.453125,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 264.40625,
+          "height": 300.453125,
+          "top": 0,
+          "right": 273.203125,
+          "bottom": 300.453125,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 259.625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 259.625,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 259.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-15-320x568-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 334.40625,
+          "height": 380,
+          "top": 0,
+          "right": 343.203125,
+          "bottom": 380,
+          "left": 8.796875
+        },
+        "canvasRect": {
+          "x": 8.796875,
+          "y": 0,
+          "width": 334.40625,
+          "height": 380,
+          "top": 0,
+          "right": 343.203125,
+          "bottom": 380,
+          "left": 8.796875
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 162.40625,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 162.421875,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 329.625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-16-390x844-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 698,
+          "height": 488.59375,
+          "top": 0,
+          "right": 714,
+          "bottom": 488.59375,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 698,
+          "height": 488.59375,
+          "top": 0,
+          "right": 714,
+          "bottom": 488.59375,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-17-768x1024-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 703,
+          "height": 492.09375,
+          "top": 0,
+          "right": 719,
+          "bottom": 492.09375,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 703,
+          "height": 492.09375,
+          "top": 0,
+          "right": 719,
+          "bottom": 492.09375,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-18-1280x800-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The model keeps the wrong correction."
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "memory": 0,
+        "interaction": "idle",
+        "fieldRect": {
+          "x": 16,
+          "y": 0,
+          "width": 690,
+          "height": 483,
+          "top": 0,
+          "right": 706,
+          "bottom": 483,
+          "left": 16
+        },
+        "canvasRect": {
+          "x": 16,
+          "y": 0,
+          "width": 690,
+          "height": 483,
+          "top": 0,
+          "right": 706,
+          "bottom": 483,
+          "left": 16
+        },
+        "buttons": [
+          {
+            "label": "send a correction",
+            "width": 132.28125,
+            "height": 44
+          },
+          {
+            "label": "lift last misprint",
+            "width": 138.4375,
+            "height": 44
+          },
+          {
+            "label": "release the ledger",
+            "width": 138.4375,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-19-1920x1080-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    }
+  ]
+}
