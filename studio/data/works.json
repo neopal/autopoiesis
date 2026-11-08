@@ -105,8 +105,8 @@
       "lineage": "typography-2026-11-05"
     },
     "browserEvidence": {
-      "status": "20/20 local raw/canonical headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local diagnostics 0; horizontal overflow 0; candidate remains held pending production matrix and independent caption-free perceptual review",
-      "productionReady": false,
+      "status": "20/20 local and 20/20 stable-production raw/canonical headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; horizontal overflow 0; candidate remains held pending independent caption-free perceptual review",
+      "productionReady": true,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
         "320x568",
@@ -135,10 +135,20 @@
       "localProofPath": "research/qa/proofs/handwriting-v044-2026-11-08-local/",
       "localScreenshotCount": 22,
       "unresolved": [
-        "production browser matrix and public readbacks",
         "independent caption-free perceptual review",
         "provider revision linkage between final Vercel deployment and GitHub SHA"
-      ]
+      ],
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionDeploymentUrl": "https://autopoiesis-5n8b86ayg-lairpa-hotmailfrs-projects.vercel.app",
+      "productionDeploymentId": "dpl_FvpBru727QMtJAvztDmsZq5u46uX",
+      "productionMatrixCount": 20,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable alias pointer drag committed one material cast; ArrowRight plus Enter committed a second deterministic cast; Delete lifted the latest cast; Escape returned to the quiet seed; diagnostics stayed empty.",
+      "productionBlindPreviewEvidence": "Stable alias reduced-motion static blind preview at 390x844 kept the Canvas carrier visible while hiding notation, readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable alias source and public catalogs returned HTTP 200 with exactly one typography-2026-11-08 record each; rendered Journal returned HTTP 200 with anchor journal-typography-2026-11-08 and title The load makes the line.; canonical and raw routes plus both favicon routes returned HTTP 200.",
+      "productionProofPath": "research/qa/proofs/handwriting-v044-2026-11-08-production/"
     }
   },
   {

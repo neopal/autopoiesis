@@ -3,8 +3,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
 const base = process.env.MUTINE_BASE ?? 'http://127.0.0.1:4177';
-const root = new URL('../', import.meta.url);
-const proofDir = new URL('../research/qa/proofs/handwriting-v044-2026-11-08-local/', import.meta.url);
+const proofDir = new URL(process.env.MUTINE_PROOF_DIR ?? '../research/qa/proofs/handwriting-v044-2026-11-08-local/', import.meta.url);
 const viewports = [[320, 568], [390, 844], [768, 1024], [1280, 800], [1920, 1080]];
 const modes = ['normal', 'reduced'];
 const routes = {
