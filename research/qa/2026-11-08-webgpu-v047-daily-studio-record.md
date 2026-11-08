@@ -43,9 +43,9 @@
 
 - Commit published before deploy: `a01449215415df2f87794c50e64979439dd297fa`
 - Remote `origin/main`: `a01449215415df2f87794c50e64979439dd297fa` (matches local HEAD)
-- Vercel deployment: `https://autopoiesis-kq2htq74k-lairpa-hotmailfrs-projects.vercel.app`
+- Vercel deployment: `https://autopoiesis-i23euy4m6-lairpa-hotmailfrs-projects.vercel.app`
 - Stable production alias: `https://autopoiesis-nine.vercel.app`
-- Deployment id: `dpl_DXAgKhxKM9QvyuASWSvPjCswcjrN`
+- Deployment id: `dpl_Fp4STJX5v6jYzL6WNYNCtRx3rzSt`
 - Production matrix: 20/20 passed across raw preview and canonical work at all five required viewports, normal and reduced-motion.
 - Production diagnostics: 0 console messages, page errors, failed requests, or bad responses.
 - Production horizontal overflow: 0; all target widths valid; tested control target 44px.
