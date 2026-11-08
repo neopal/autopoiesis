@@ -1,0 +1,16 @@
+{
+  "schema": "mutine-critique/v1",
+  "work": "svg-2026-11-08",
+  "hypothesis": "A continuous clockwise cross-seal draw can make SVG winding behave as material memory: a real aperture becomes mass because contour orientation changes how the compound path is produced.",
+  "changedRule": "A valid gate-to-gate crossing flips the next aperture's winding and creases the enclosing contour; short, same-gate, and counter-clockwise gestures are refused.",
+  "visibleConsequence": "The blind view is one dark angular compound seal with three apertures. Accepted crossings change the actual hole/mass topology and outer silhouette.",
+  "falsifier": "Any cosmetic-only response, invalid gesture commit, unchanged compound path, reset of earlier inversions, or generic blind reading falsifies the direction.",
+  "deletionCondition": "Delete if the caption-free object reads as a logo, pressure diagram, or route map rather than a changed topology, or if exact lifting fails.",
+  "critiques": [
+    {"persona":"Seal-form critic","argument":"The silhouette and three apertures must carry the work before the viewer reads controls.","status":"accepted"},
+    {"persona":"Causal critic","argument":"Only a real cross-seal clockwise draw may change path data; invalid paths must remain geometry-neutral.","status":"accepted"},
+    {"persona":"Topology critic","argument":"Winding must produce mass/absence, not a colour-coded state.","status":"accepted"},
+    {"persona":"Perceptual critic","argument":"The blind seal still needs independent caption-free review against v045-v047.","status":"unresolved"},
+    {"persona":"Cynic","argument":"Delete if the object is a generic mark or the gesture is a button in disguise.","status":"gate"}
+  ]
+}

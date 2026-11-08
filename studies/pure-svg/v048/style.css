@@ -1,0 +1,87 @@
+:root {
+  --paper: #eee4d2;
+  --paper-deep: #d8cdb9;
+  --ink: #172833;
+  --ink-soft: #284553;
+  --muted: #68716f;
+  --line: rgba(23, 40, 51, .22);
+  --red: #bf5c46;
+  --yellow: #d8a84f;
+  --blue: #47758a;
+  --shadow: rgba(23, 40, 51, .24);
+}
+
+html, body { background: var(--paper); }
+body.work-page[data-current='svg'] { color: var(--ink); }
+body.work-page[data-current='svg'] .studio-shell {
+  background:
+    radial-gradient(circle at 86% 12%, rgba(191, 92, 70, .12), transparent 25rem),
+    radial-gradient(circle at 8% 88%, rgba(71, 117, 138, .13), transparent 28rem),
+    linear-gradient(135deg, rgba(255,255,255,.36), transparent 44%), var(--paper);
+}
+body.work-page[data-current='svg'] .studio-header,
+body.work-page[data-current='svg'] .studio-footer { border-color: var(--line); }
+body.work-page[data-current='svg'] .studio-header p,
+body.work-page[data-current='svg'] .studio-footer,
+body.work-page[data-current='svg'] .studio-path { color: var(--muted); }
+
+.work-surface { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 18rem); gap: 1.5rem; align-items: start; }
+.seal-wrap { position: relative; min-width: 0; overflow: hidden; background: var(--paper-deep); }
+#seal { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 760; background: var(--paper-deep); touch-action: none; cursor: crosshair; }
+#seal:focus-visible { outline: 2px solid var(--red); outline-offset: -8px; }
+.seal-ground { fill: url(#seal-ground); }
+.seal-wash { fill: url(#seal-wash); pointer-events: none; }
+.seal-shadow { fill: var(--shadow); transform: translate(0 17px); filter: url(#seal-blur); pointer-events: none; }
+.seal-body { fill: var(--ink); fill-rule: nonzero; stroke: var(--ink); stroke-width: 5; stroke-linejoin: bevel; transition: d 560ms cubic-bezier(.2,.8,.2,1); }
+.seal-outline { fill: none; stroke: #f7eddc; stroke-width: 3; stroke-linejoin: bevel; opacity: .88; pointer-events: none; transition: d 560ms cubic-bezier(.2,.8,.2,1); }
+.aperture-outline { fill: none; stroke: var(--yellow); stroke-width: 4; stroke-linejoin: bevel; opacity: .74; pointer-events: none; transition: d 560ms cubic-bezier(.2,.8,.2,1), opacity 560ms ease; }
+.aperture-outline[data-winding='1'] { stroke: var(--red); opacity: .96; }
+.seal-crease { fill: none; stroke: rgba(238, 228, 210, .42); stroke-width: 2; stroke-dasharray: 1 16; pointer-events: none; }
+.gate-mark { fill: var(--paper); stroke: var(--blue); stroke-width: 4; opacity: .96; pointer-events: none; }
+.gate-mark[data-selected='true'] { fill: var(--yellow); stroke: var(--ink); }
+.draw-pending { fill: none; stroke: var(--red); stroke-width: 5; stroke-dasharray: 3 14; stroke-linecap: round; pointer-events: none; }
+.seal-readout { position: absolute; inset: auto 1rem 1rem; display: flex; justify-content: space-between; gap: 1rem; color: rgba(23, 40, 51, .74); font: 10px/1.2 ui-monospace, monospace; letter-spacing: .07em; text-transform: uppercase; pointer-events: none; }
+.seal-controls { position: absolute; top: 1rem; right: 1rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; max-width: 80%; }
+.seal-controls button { min-height: 44px; padding: .65rem .8rem; border: 1px solid rgba(23, 40, 51, .64); border-radius: 999px; background: rgba(238, 228, 210, .9); color: var(--ink); font: 11px/1 ui-monospace, monospace; cursor: pointer; }
+.seal-controls button:hover, .seal-controls button:focus-visible { border-color: var(--red); color: var(--red); }
+.work-annotations { display: grid; gap: 1rem; color: var(--muted); }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .7rem; }
+.work-annotations span { display: block; margin-bottom: .45rem; color: var(--red); font: 10px/1 ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
+.work-annotations p { margin: 0; font: .83rem/1.45 ui-monospace, monospace; }
+.work-opening { display: grid; grid-template-columns: minmax(0, .85fr) minmax(14rem, .6fr); gap: 2rem; padding: clamp(2rem, 6vw, 5rem) 0 2rem; align-items: end; }
+.work-opening h1 { max-width: 12ch; margin: .35rem 0 0; color: var(--ink); font: 400 clamp(3.2rem, 7.6vw, 7.6rem)/.82 Georgia, serif; letter-spacing: -.06em; }
+.work-opening h1 i { color: var(--red); font-style: italic; }
+.work-premise { max-width: 31rem; margin: 0; color: #495c61; font: 1rem/1.5 ui-monospace, monospace; }
+.work-note { max-width: 48rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1rem 0; color: var(--muted); }
+.work-note p { margin: 0; font: .78rem/1.55 ui-monospace, monospace; }
+.work-note strong { color: var(--ink); font-weight: 500; }
+
+html.preview-mode .studio-header, html.preview-mode .studio-footer, html.preview-mode .studio-path, html.preview-mode .work-opening, html.preview-mode .work-note, html.preview-mode .work-annotations { display: none; }
+html.preview-mode .studio-main { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .work-surface { display: block; }
+html.preview-mode .seal-wrap { border: 0; }
+html.blind-mode .seal-readout, html.blind-mode .seal-controls, html.blind-mode .work-annotations, html.blind-mode .work-opening, html.blind-mode .work-note { display: none; }
+html.static-mode .seal-readout, html.static-mode .seal-controls, html.static-mode .draw-pending { display: none; }
+html.blind-mode .gate-mark { opacity: .22; }
+
+@media (max-width: 980px) {
+  .work-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, 1fr); }
+  .work-opening { grid-template-columns: 1fr .8fr; }
+}
+
+@media (max-width: 680px) {
+  .work-surface { gap: 1rem; }
+  .seal-controls { position: static; display: grid; grid-template-columns: 1fr; gap: .5rem; max-width: none; padding: .65rem; }
+  .seal-controls button { width: 100%; padding-inline: .45rem; font-size: 10px; }
+  .seal-readout { inset: .65rem .65rem auto; flex-direction: column; gap: .25rem; font-size: 9px; }
+  .work-annotations { grid-template-columns: 1fr; gap: .75rem; }
+  .work-opening { grid-template-columns: 1fr; gap: 1.25rem; padding-top: 2.5rem; }
+  .work-opening h1 { font-size: clamp(3rem, 14vw, 5.2rem); }
+  .work-premise { font-size: .82rem; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .001ms !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; }
+  .seal-body, .seal-outline, .aperture-outline { transition: none; }
+}
