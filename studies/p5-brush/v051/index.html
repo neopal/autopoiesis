@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171111">
+  <title>MUTINE — The ring forgets its pressure.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.get('interaction') === '1') document.documentElement.classList.add('interaction-mode');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=051">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-08"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="phase-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v051 / PHASE-LOCKED MATERIAL RING</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="phase-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v051</span></nav>
+
+      <figure class="phase-work artwork-frame" aria-labelledby="work-title">
+        <div id="phase-field" class="phase-field" tabindex="0" role="application" aria-label="A phase-locked material ring. Press a rim site, wait for the quiet pulse window, and release. Mistimed pressure is refused." aria-keyshortcuts="ArrowLeft ArrowUp ArrowRight ArrowDown Enter Space Delete Escape R S">
+          <div class="phase-readout" aria-live="polite"><span data-stage>PULSE 01 / 05</span><span data-memory>quiet ring · 0 slips retained</span></div>
+          <div id="phase-canvas" class="phase-canvas"></div>
+          <div class="phase-sites" aria-label="Select a pulse site">
+            <button type="button" data-gesture="select" data-site="0" aria-label="Select top pulse site">top</button>
+            <button type="button" data-gesture="select" data-site="1" aria-label="Select right pulse site">right</button>
+            <button type="button" data-gesture="select" data-site="2" aria-label="Select bottom pulse site">bottom</button>
+            <button type="button" data-gesture="select" data-site="3" aria-label="Select left pulse site">left</button>
+          </div>
+          <div class="phase-controls" aria-label="Material actions">
+            <button type="button" data-gesture="pulse">pulse the ring</button>
+            <button type="button" data-gesture="lift">lift last slip</button>
+            <button type="button" data-gesture="release">release the ring</button>
+          </div>
+          <p class="phase-hint">press a rim site · wait · release inside the quiet window</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v051-phase-locked-material-ring</span><span>pressure &gt; phase &gt; re-production</span></figcaption>
+      </figure>
+
+      <section class="phase-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / PHASE-LOCKED MATERIAL RING / v051</p>
+        <h1 id="work-title">The ring<br><i>forgets its pressure.</i></h1>
+        <p class="phase-lede">The hand does not draw. Hold one rim site until the material reaches its quiet interval, then release: only a phase-locked pulse can re-produce the ring’s segments and enlarge its central aperture. A mistimed pressure leaves the body exact.</p>
+      </section>
+
+      <section class="phase-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">MATERIAL DOES NOT OBEY THE HAND</p>
+          <p class="phase-copy">Pointer or touch: press near one of the four rim sites, wait roughly 420ms, and release. The release window is narrow; a short or mistimed pulse is refused. Arrow keys select a site; Enter or Space performs the same deterministic pulse. Delete lifts the latest slip; Escape, R, or “release the ring” returns the quiet seed. S downloads a PNG.</p>
+        </div>
+        <p class="phase-state" data-interaction-state aria-live="polite">The ring is quiet. Press a rim site and wait for the material to open.</p>
+      </section>
+
+      <section class="phase-annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v051</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Pressure is not a stroke and not a subtraction. A release only spends material when it lands inside a deterministic phase window; the accepted pulse re-produces actual segment geometry.</dd></div>
+          <div><dt>visitor action</dt><dd>Press one rim site, wait, and release. Four phase slips compound in one radial body and remain exactly liftable.</dd></div>
+          <div><dt>falsifier</dt><dd>If a short or mistimed pressure changes the ring, if only colour or readout moves, or if the segment body and aperture do not change, the phase rule fails.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v051 if caption-free viewing reads as a generic radial diagram, if timing is only explanatory prose, or if the ring is merely a recoloured version of the recent relief/sheet/wash grammar.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-07/">previous daily work</a><a href="/journal/#journal-brush-2026-11-08">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=051"></script>
+</body>
+</html>

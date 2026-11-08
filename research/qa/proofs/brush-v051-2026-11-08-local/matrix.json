@@ -1,0 +1,1669 @@
+{
+  "base": "http://127.0.0.1:61711",
+  "matrixRuns": 20,
+  "diagnostics": 0,
+  "firstPartyFailures": [],
+  "overflows": 0,
+  "targetWidthsValid": true,
+  "blind": [
+    {
+      "reduced": false,
+      "state": {
+        "memory": 4,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "readout": "none",
+        "controls": "none",
+        "hint": "none",
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        }
+      },
+      "screenshot": "blind-390x844-normal.png",
+      "diagnostics": []
+    },
+    {
+      "reduced": true,
+      "state": {
+        "memory": 4,
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "readout": "none",
+        "controls": "none",
+        "hint": "none",
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        }
+      },
+      "screenshot": "blind-390x844-reduced.png",
+      "diagnostics": []
+    }
+  ],
+  "interaction": {
+    "diagnostics": [],
+    "pointer": {
+      "memory": 1,
+      "interaction": "pulse-committed",
+      "geometryChanged": true
+    },
+    "keyboard": {
+      "memory": 2,
+      "interaction": "pulse-committed"
+    },
+    "lifted": {
+      "memory": 1,
+      "interaction": "lifted"
+    },
+    "released": {
+      "memory": 0,
+      "interaction": "quiet",
+      "signatureMatchesQuiet": true
+    },
+    "mistimed": {
+      "memory": 0,
+      "interaction": "pulse-refused-phase"
+    },
+    "fourSlips": {
+      "memory": 4,
+      "interaction": "pulse-committed"
+    }
+  },
+  "results": [
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 92.671875,
+            "height": 48
+          },
+          {
+            "label": "lift last slip",
+            "width": 92.65625,
+            "height": 48
+          },
+          {
+            "label": "release the ring",
+            "width": 92.671875,
+            "height": 48
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-0-320x568-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 116,
+            "height": 48
+          },
+          {
+            "label": "lift last slip",
+            "width": 116,
+            "height": 48
+          },
+          {
+            "label": "release the ring",
+            "width": 116,
+            "height": 48
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-1-390x844-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-2-768x1024-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-3-1280x800-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-4-1920x1080-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "320x568",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 92.671875,
+            "height": 48
+          },
+          {
+            "label": "lift last slip",
+            "width": 92.65625,
+            "height": 48
+          },
+          {
+            "label": "release the ring",
+            "width": 92.671875,
+            "height": 48
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-5-320x568-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "390x844",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 116,
+            "height": 48
+          },
+          {
+            "label": "lift last slip",
+            "width": 116,
+            "height": 48
+          },
+          {
+            "label": "release the ring",
+            "width": 116,
+            "height": 48
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-6-390x844-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "768x1024",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-7-768x1024-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1280x800",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800,
+          "top": 0,
+          "right": 1280,
+          "bottom": 800,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-8-1280x800-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "raw",
+      "viewport": "1920x1080",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The ringforgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-raw-9-1920x1080-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358,
+          "top": 0,
+          "right": 282,
+          "bottom": 358,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 420,
+          "top": 0,
+          "right": 320,
+          "bottom": 420,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 80,
+            "height": 61
+          },
+          {
+            "label": "lift last slip",
+            "width": 80,
+            "height": 61
+          },
+          {
+            "label": "release the ring",
+            "width": 80,
+            "height": 61
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-10-320x568-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 103.34375,
+            "height": 48
+          },
+          {
+            "label": "lift last slip",
+            "width": 103.328125,
+            "height": 48
+          },
+          {
+            "label": "release the ring",
+            "width": 103.328125,
+            "height": 48
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-11-390x844-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-12-768x1024-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-13-1280x800-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "reduced": false,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "memory": 0,
+        "interaction": "quiet",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-14-1920x1080-normal.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "320x568",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 282,
+        "clientWidth": 282,
+        "scrollWidth": 282,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 282,
+          "height": 358,
+          "top": 0,
+          "right": 282,
+          "bottom": 358,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 420,
+          "top": 0,
+          "right": 320,
+          "bottom": 420,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 80,
+            "height": 61
+          },
+          {
+            "label": "lift last slip",
+            "width": 80,
+            "height": 61
+          },
+          {
+            "label": "release the ring",
+            "width": 80,
+            "height": 61
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-15-320x568-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "390x844",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 352,
+        "clientWidth": 352,
+        "scrollWidth": 352,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 352,
+          "height": 437,
+          "top": 0,
+          "right": 352,
+          "bottom": 437,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 50.5,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 48,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 103.34375,
+            "height": 48
+          },
+          {
+            "label": "lift last slip",
+            "width": 103.328125,
+            "height": 48
+          },
+          {
+            "label": "release the ring",
+            "width": 103.328125,
+            "height": 48
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-16-390x844-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "768x1024",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 768,
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 730,
+        "clientWidth": 730,
+        "scrollWidth": 730,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 730,
+          "height": 630,
+          "top": 0,
+          "right": 730,
+          "bottom": 630,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-17-768x1024-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1280x800",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1280,
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "bodyScrollWidth": 1280,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 735,
+        "clientWidth": 735,
+        "scrollWidth": 735,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 735,
+          "height": 720,
+          "top": 0,
+          "right": 735,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-18-1280x800-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    },
+    {
+      "kind": "canonical",
+      "viewport": "1920x1080",
+      "reduced": true,
+      "outer": {
+        "innerWidth": 1920,
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "heading": "The ring forgets its pressure."
+      },
+      "tableau": {
+        "innerWidth": 722,
+        "clientWidth": 722,
+        "scrollWidth": 722,
+        "memory": 4,
+        "interaction": "pulse-committed",
+        "fieldRect": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 722,
+          "height": 720,
+          "top": 0,
+          "right": 722,
+          "bottom": 720,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "label": "top",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "right",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "bottom",
+            "width": 57,
+            "height": 44
+          },
+          {
+            "label": "left",
+            "width": 52,
+            "height": 44
+          },
+          {
+            "label": "pulse the ring",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "lift last slip",
+            "width": 114.671875,
+            "height": 44
+          },
+          {
+            "label": "release the ring",
+            "width": 126.765625,
+            "height": 44
+          }
+        ]
+      },
+      "screenshot": "matrix-canonical-19-1920x1080-reduced.png",
+      "diagnostics": [],
+      "firstPartyFailures": []
+    }
+  ]
+}
