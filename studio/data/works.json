@@ -65,7 +65,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; horizontal overflow 0; candidate remains held pending production browser matrix, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; horizontal overflow 0; production readback passed; candidate remains held only for independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -85,7 +85,24 @@
       "localReadbacks": "Local rendered Journal anchor/title, Pure SVG current/card, canonical work title/tableau, raw v048 tableau, source works.json record, public catalog record, and favicon returned/rendered.",
       "localProofPath": "research/qa/proofs/svg-v048-2026-11-08-local/",
       "localScreenshotCount": 3,
-      "unresolved": ["production browser matrix", "independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+      "productionDeploymentId": "dpl_2f4E8XVwttkwqSAe7HGTns6vMfWP",
+      "productionDeploymentUrl": "https://autopoiesis-gu7nhqp6p-lairpa-hotmailfrs-projects.vercel.app",
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v048/?preview=1&interaction=1",
+      "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/pure-svg/v048/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/svg-2026-11-08/",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionOverflow": 0,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable production pointer, keyboard, delete/lift, escape/release, wrong-order refusal, and touch paths all passed; interaction geometry changed only on valid gate 0 to gate 1 crossing.",
+      "productionBlindPreviewEvidence": "Stable production reduced-motion static blind preview at 390x844 retained one compound SVG seal with three apertures and four inversions while hiding readout, controls, annotations, opening, and keyboard shortcuts; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable production rendered Journal exposed #journal-svg-2026-11-08 with the exact title; works.json and catalog-public.json each returned one matching record; canonical work, raw tableau, studio/favicon.svg, /favicon.svg, and /favicon.ico returned HTTP 200.",
+      "productionProofPath": "research/qa/proofs/svg-v048-2026-11-08-production/",
+      "productionScreenshotCount": 3,
+      "unresolved": ["independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
     },
     "decision": {
       "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v048 if short or counter-clockwise draws commit, if the compound path stays unchanged, if aperture inversion is cosmetic, if later parity resets, if the blind seal reads as a generic logo or route diagram, or if exact lifting fails.",
