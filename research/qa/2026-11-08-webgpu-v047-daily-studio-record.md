@@ -39,8 +39,22 @@
 - Readbacks: local Journal, current, canonical work, raw tableau, source register, public catalog, and favicon returned/rendered.
 - Proof bundle: `research/qa/proofs/webgpu-v047-2026-11-08-local/`
 
+## Publication verification
+
+- Commit published before deploy: `a01449215415df2f87794c50e64979439dd297fa`
+- Remote `origin/main`: `a01449215415df2f87794c50e64979439dd297fa` (matches local HEAD)
+- Vercel deployment: `https://autopoiesis-kq2htq74k-lairpa-hotmailfrs-projects.vercel.app`
+- Stable production alias: `https://autopoiesis-nine.vercel.app`
+- Deployment id: `dpl_DXAgKhxKM9QvyuASWSvPjCswcjrN`
+- Production matrix: 20/20 passed across raw preview and canonical work at all five required viewports, normal and reduced-motion.
+- Production diagnostics: 0 console messages, page errors, failed requests, or bad responses.
+- Production horizontal overflow: 0; all target widths valid; tested control target 44px.
+- Production interaction: pointer, keyboard, touch, refusal, lift, reset, and four-absence paths passed.
+- Production readback: exact one `webgpu-2026-11-08` record in deployed `studio/data/works.json` and `studio/data/catalog-public.json`; rendered Journal anchor/title, current/card, canonical work/tableau, raw v047 tableau, and favicon returned successfully.
+- Production proof bundle: `research/qa/proofs/webgpu-v047-2026-11-08-production/`
+
 ## Held evidence
 
-The candidate remains held until the production alias has been verified and an independent caption-free perceptual review confirms that the blind arch reads as a materially remembered social absence rather than a generic gate or barcode. Provider-side linkage between the final Vercel deployment and GitHub SHA is also unresolved.
+The candidate remains held despite complete local and production structural/runtime evidence. An independent caption-free perceptual review is still unresolved: the blind arch must read as a materially remembered social absence rather than a generic gate or barcode. Provider-side linkage between the Vercel deployment and GitHub SHA is also unresolved; local HEAD and `origin/main` do match.
 
 The pre-existing untracked `research/qa/2026-11-08-daily-studio-record.md` was not modified.
