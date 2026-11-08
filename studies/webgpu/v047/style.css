@@ -1,0 +1,71 @@
+:root {
+  --absence-ground: #090b14;
+  --absence-void: #0f1422;
+  --absence-ink: #eee6d2;
+  --absence-muted: #9ea5b5;
+  --absence-mint: #9be0c6;
+  --absence-copper: #dc8363;
+  --absence-paper: #ddc69c;
+  --absence-blue: #7897aa;
+  --absence-violet: #a99bcf;
+  --absence-frame: rgba(155, 224, 198, .38);
+}
+
+html, body { margin: 0; min-width: 0; background: var(--absence-ground); color: var(--absence-ink); }
+body.work-page[data-current='webgpu'] {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(120, 151, 170, .14), transparent 24rem),
+    radial-gradient(circle at 84% 72%, rgba(220, 131, 99, .11), transparent 30rem),
+    var(--absence-ground);
+}
+.absence-shell { width: min(100%, 1640px); margin: 0 auto; padding: clamp(14px, 2vw, 28px) clamp(14px, 4vw, 64px) 34px; box-sizing: border-box; }
+.absence-shell .studio-header { min-height: 38px; border-bottom-color: rgba(155, 224, 198, .23); }
+.absence-shell .studio-header p, .absence-shell .studio-nav a, .absence-shell .studio-path, .absence-shell figcaption, .absence-shell .studio-footer { color: var(--absence-muted); }
+.absence-main { min-width: 0; }
+.absence-main .studio-path { margin: clamp(16px, 3vw, 30px) 0 12px; }
+.absence-work { margin: 0; }
+.absence-frame { position: relative; isolation: isolate; min-width: 0; aspect-ratio: 16 / 10; overflow: hidden; background: var(--absence-void); border: 1px solid var(--absence-frame); box-shadow: 0 28px 110px rgba(0, 0, 0, .65), inset 0 0 0 1px rgba(238, 230, 210, .05); }
+.absence-frame::before { content: ''; position: absolute; inset: 14px; z-index: 2; border: 1px solid rgba(220, 131, 99, .18); pointer-events: none; }
+#absence-field { display: block; width: 100%; height: 100%; outline: none; cursor: crosshair; touch-action: manipulation; }
+.absence-readout, .absence-status, .absence-controls, .absence-hint, .absence-frame figcaption { position: absolute; z-index: 3; }
+.absence-readout { top: 22px; left: 24px; display: flex; gap: 14px; flex-wrap: wrap; max-width: calc(100% - 48px); color: rgba(238, 230, 210, .72); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.absence-readout span + span::before { content: '·'; margin-right: 14px; color: var(--absence-copper); }
+.absence-status { bottom: 58px; left: 24px; max-width: 52%; color: rgba(238, 230, 210, .78); font: 12px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.absence-controls { right: 22px; bottom: 50px; display: flex; gap: 7px; justify-content: flex-end; flex-wrap: wrap; max-width: 55%; }
+.absence-controls button { min-height: 44px; padding: 0 12px; border: 1px solid rgba(155, 224, 198, .44); border-radius: 2px; background: rgba(9, 11, 20, .86); color: var(--absence-ink); font: 10px/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }
+.absence-controls button:hover, .absence-controls button:focus-visible { border-color: var(--absence-mint); background: rgba(155, 224, 198, .12); outline: 2px solid rgba(155, 224, 198, .26); outline-offset: 2px; }
+.absence-hint { left: 24px; bottom: 17px; color: rgba(158, 165, 181, .72); font: 9px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.absence-frame figcaption { right: 22px; bottom: 16px; left: 22px; display: flex; justify-content: space-between; gap: 14px; color: var(--absence-muted); font: 9px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.absence-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .36fr); gap: 30px; align-items: end; padding: clamp(28px, 7vw, 82px) 0 clamp(22px, 4vw, 44px); border-bottom: 1px solid rgba(155, 224, 198, .2); }
+.absence-opening h1 { max-width: 920px; margin: 10px 0 0; color: var(--absence-ink); font-size: clamp(40px, 7vw, 112px); font-weight: 500; letter-spacing: -.06em; line-height: .88; }
+.absence-opening h1 i { color: var(--absence-mint); font-family: Georgia, serif; font-weight: 400; }
+.absence-premise { max-width: 300px; margin: 0 0 3px; color: rgba(238, 230, 210, .7); font-size: 16px; line-height: 1.25; }
+.absence-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; padding-top: 22px; }
+.absence-notes > div { padding-top: 11px; border-top: 1px solid rgba(155, 224, 198, .24); }
+.absence-notes span { color: var(--absence-mint); font: 10px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .1em; text-transform: uppercase; }
+.absence-notes p { margin: 8px 0 0; color: rgba(238, 230, 210, .74); font-size: 13px; line-height: 1.45; }
+.absence-shell .studio-footer { margin-top: 30px; border-top-color: rgba(155, 224, 198, .22); }
+html.preview-mode .absence-shell { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .absence-shell .studio-header, html.preview-mode .absence-main > .studio-path, html.preview-mode .absence-opening, html.preview-mode .absence-notes, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .absence-frame { width: 100vw; height: 100vh; min-height: 100vh; aspect-ratio: auto; border: 0; box-shadow: none; }
+html.preview-mode .absence-frame::before, html.blind-mode .absence-frame::before { display: none; }
+html.blind-mode .absence-readout, html.blind-mode .absence-status, html.blind-mode .absence-controls, html.blind-mode .absence-hint, html.blind-mode .absence-frame figcaption { display: none; }
+@media (prefers-reduced-motion: reduce) { #absence-field { cursor: default; } }
+@media (max-width: 920px) { .absence-notes { grid-template-columns: 1fr; gap: 12px; } .absence-opening { grid-template-columns: 1fr minmax(180px, .4fr); } }
+@media (max-width: 680px) {
+  .absence-shell { padding-right: 12px; padding-left: 12px; }
+  .absence-shell .studio-header p { display: none; }
+  .absence-frame { aspect-ratio: 4 / 3; }
+  .absence-readout { top: 18px; left: 18px; right: 18px; gap: 6px 10px; max-width: none; font-size: 9px; }
+  .absence-readout span + span::before { margin-right: 10px; }
+  .absence-status { right: 18px; bottom: 122px; left: 18px; max-width: none; font-size: 10px; }
+  .absence-controls { right: 18px; bottom: 55px; left: 18px; max-width: none; justify-content: stretch; }
+  .absence-controls button { flex: 1 1 30%; padding: 0 7px; font-size: 9px; }
+  .absence-hint { right: 18px; bottom: 17px; left: 18px; font-size: 8px; }
+  .absence-frame figcaption { right: 18px; bottom: 16px; left: 18px; font-size: 8px; }
+  .absence-frame figcaption span:last-child { display: none; }
+  .absence-opening { display: block; padding-top: 42px; }
+  .absence-opening h1 { font-size: clamp(42px, 15vw, 76px); }
+  .absence-premise { margin-top: 24px; }
+}
+@media (max-width: 390px) { .absence-shell .studio-nav { gap: 10px; } .absence-shell .studio-nav a { font-size: 10px; } .absence-frame { aspect-ratio: 4 / 3.1; } .absence-controls button { letter-spacing: 0; } }

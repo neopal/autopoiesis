@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d16">
+  <meta name="description" content="A crowd remembers being watched by leaving a real absence in its arch.">
+  <title>MUTINE — The crowd keeps an empty seat.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interaction-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=047">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-11-08"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="absence-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WEBGPU CURRENT / v047 / ABSENCE ARCH</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="absence-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v047</span></nav>
+      <figure class="absence-work artwork-frame" aria-labelledby="work-title">
+        <div id="absence-frame" class="absence-frame">
+          <canvas id="absence-field" tabindex="0" role="img" aria-label="An irregular arch of situated witnesses. Look at three different witnesses to make a remote one leave a real absence." aria-keyshortcuts="Enter Space Delete Escape R S">
+            The WebGPU absence arch tableau.
+          </canvas>
+          <div class="absence-readout" role="status" aria-live="polite"><span data-stage>ROOM 01 / 05</span><span data-memory>quiet arch · 0 absences</span><span data-renderer>WEBGPU SIGNAL / CANVAS 2D / ABSENCE ARCH</span></div>
+          <p class="absence-status" data-status>look at three different witnesses · the absent one is elsewhere</p>
+          <div class="absence-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="gaze">look at three</button>
+            <button type="button" data-gesture="lift">lift last absence</button>
+            <button type="button" data-gesture="release">release the room</button>
+          </div>
+          <p class="absence-hint">three distinct looks · a remote seat disappears</p>
+          <figcaption><span>WEBGPU / V047 / DAILY WORK</span><span>attention → absence</span></figcaption>
+        </div>
+      </figure>
+      <section class="absence-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V047 / DAILY WORK</p><h1 id="work-title">The crowd keeps<br><i>an empty seat.</i></h1></div>
+        <p class="absence-premise">The arch does not answer the gaze. It stores it as a missing body somewhere else.</p>
+      </section>
+      <aside class="absence-notes" aria-label="Work annotations">
+        <div><span>changed rule</span><p>Three distinct looks make a remote witness leave. The attended witnesses turn, the untouched arch reorients, and the remote geometry becomes an actual gap.</p></div>
+        <div><span>cultural translation</span><p>Situated agents and reciprocal attention become a social refusal: being seen is remembered as defection, not as a decorative cursor or a local reply.</p></div>
+        <div><span>falsifier / deletion</span><p>Delete v047 if repeated or incomplete looks commit, if the attended site changes alone, if a gap is only colour, or if the blind arch reads as a generic gate or diagram.</p></div>
+      </aside>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>look · look · elsewhere</span><a href="/journal/#journal-webgpu-2026-11-08">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=047a"></script>
+</body>
+</html>
