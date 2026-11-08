@@ -2,6 +2,146 @@
   "schema": "mutine-works/v1",
   "works": [
   {
+    "id": "typography-2026-11-08",
+    "currentId": "typography",
+    "date": "2026-11-08",
+    "title": "The load makes the line.",
+    "rawPath": "/studies/handwriting/v044/",
+    "status": "candidate / held",
+    "lifecycle": "active",
+    "journal": {
+      "anchor": "journal-typography-2026-11-08",
+      "note": "v044 abandons v043's social room, v042's hinge ligature, and v041's negative-gap reading. A single Canvas typographic carrier carries MATTER / ROUTE; three ordered load wells stay geometry-neutral while pending, then cast a changed baseline, carrier tension, and twelve re-formed token geometries. Four casts compound and remain liftable."
+    },
+    "critiques": [
+      {
+        "persona": "Material critic",
+        "argument": "The selected p5.brush mechanism is material production, not a surface. Keep the translation in the carrier rule and refuse brush texture.",
+        "status": "accepted"
+      },
+      {
+        "persona": "Carrier critic",
+        "argument": "The first view must read as one load-bearing typographic body, not twelve unrelated characters or a control rail.",
+        "status": "accepted"
+      },
+      {
+        "persona": "Perceptual critic",
+        "argument": "With labels, readout, controls, and prose hidden, the beam must still visibly depart from v041's gap, v042's route body, and v043's social room.",
+        "status": "unresolved"
+      },
+      {
+        "persona": "Causal critic",
+        "argument": "Pending loads must leave all token and carrier geometry exact; release must change actual baseline, tension, and token geometry.",
+        "status": "accepted"
+      },
+      {
+        "persona": "Encounter critic",
+        "argument": "Pointer drag, touch taps, ArrowRight plus Enter, and the center control must share one meaningful load/cast grammar, with no hover-only requirement.",
+        "status": "accepted"
+      },
+      {
+        "persona": "Memory critic",
+        "argument": "Four casts must compound from the changed carrier and Delete must replay the preceding state exactly.",
+        "status": "accepted"
+      },
+      {
+        "persona": "Responsive critic",
+        "argument": "The load rail, canvas, controls, and reading path must remain reachable at 320px and 390px without horizontal overflow.",
+        "status": "unresolved"
+      },
+      {
+        "persona": "Medium critic",
+        "argument": "Canvas 2D is the carrier medium; imported images, external fonts, SVG routes, and decorative brush simulations are not allowed to carry the work.",
+        "status": "accepted"
+      },
+      {
+        "persona": "Radical progression critic",
+        "argument": "v044 changes representation, composition, encounter, and temporal memory: a single carrier is re-produced by accumulated material load instead of remote layout reply.",
+        "status": "accepted"
+      },
+      {
+        "persona": "Deletion critic",
+        "argument": "Delete v044 if the blind image is a styled word poster, load order is cosmetic, the wells answer themselves, later casts reset, or exact lifting fails.",
+        "status": "gate"
+      }
+    ],
+    "metrics": {
+      "id": "handwriting-v044-material-carrier",
+      "seed": "mutine-handwriting-v044-material-carrier",
+      "visitorInput": true,
+      "replay": true,
+      "renderer": "deterministic browser Canvas 2D",
+      "grammar": "material-carrier",
+      "tokenCount": 12,
+      "materialBinCount": 5,
+      "memoryWindow": 4,
+      "memoryRule": "three ordered material loads cast a carrier that re-forms every token; four casts replay and lift exactly",
+      "interactionRule": "pointer/touch drag through three wells plus ArrowRight/Enter equivalent; Delete lifts; Escape/R releases",
+      "representationRupture": "DOM text room, SVG routes, and negative gaps -> Canvas 2D tokens on one material carrier",
+      "compositionRupture": "distributed social room and route body -> one load-bearing beam with a subordinate material rail",
+      "encounterRupture": "attention, joining, and gap reading -> ordered material drag and release",
+      "temporalRupture": "remote answer -> accumulated carrier re-production",
+      "changedRule": "Three distinct pending wells are geometry-neutral; their order becomes a mold that re-forms the carrier and all twelve tokens on release.",
+      "visibleConsequence": "The blind view shows MATTER / ROUTE on one carrier; a cast visibly bends and re-forms the beam and every token.",
+      "falsifier": "Delete if pending input moves geometry, load order is cosmetic, only labels change, later casts restart, or exact lifting fails.",
+      "deletionCondition": "Delete if the blind tableau reads as a styled word poster or control surface rather than a produced carrier.",
+      "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+      "referenceId": "p5-brush"
+    },
+    "source": {
+      "referenceId": "p5-brush",
+      "title": "p5.brush",
+      "url": "https://github.com/acamposuribe/p5.brush",
+      "observedMechanism": "Programmable brushes treat pressure, density, directional behaviour, and vector fields as a material engine that changes how geometry is produced rather than decorating a finished mark.",
+      "translatedRule": "Refuse brushes, watercolor, hatching, grain, source palette, source composition, source code, examples, and API surface. Translate material agency into a typographic carrier: an ordered three-well load becomes a mold that changes how the next baseline and every letter are produced.",
+      "visibleConsequence": "Pending load leaves MATTER / ROUTE exact; a committed load bends the carrier and changes actual position, angle, scale, width, counter, and tension across the twelve tokens.",
+      "falsifier": "If pending input moves geometry, if load order changes only a label, if wells answer themselves, or if later casts restart from the seed, the translation fails.",
+      "antiCopy": "No brush preset, watercolor appearance, hatching vocabulary, grain, palette, composition, source code, examples, API surface, or source imagery is reproduced.",
+      "directionConsequence": "Closes social typography and opens carrier manufacture: language is formed by accumulated material load rather than by selecting, attending to, or joining a pre-existing letter.",
+      "selectedBySlot": true
+    },
+    "decision": {
+      "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v044 if the blind beam reads as a decorative word poster, if load order is cosmetic, if pending geometry moves, if later casts reset, or if exact lifting fails.",
+      "lineage": "typography-2026-11-05"
+    },
+    "browserEvidence": {
+      "status": "20/20 local raw/canonical headless runs passed at 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; local diagnostics 0; horizontal overflow 0; candidate remains held pending production matrix and independent caption-free perceptual review",
+      "productionReady": false,
+      "runner": "headless system Chrome via Playwright",
+      "viewports": [
+        "320x568",
+        "390x844",
+        "768x1024",
+        "1280x800",
+        "1920x1080"
+      ],
+      "modes": [
+        "normal",
+        "reduced-motion"
+      ],
+      "localAlias": "http://127.0.0.1:4877",
+      "localRawPreview": "/studies/handwriting/v044/?preview=1&interaction=1",
+      "localBlindPreview": "/studies/handwriting/v044/?preview=1&static=1&blind=1",
+      "localCanonicalWork": "/works/typography-2026-11-08/",
+      "localViewportRuns": 20,
+      "localRawViewportRuns": 10,
+      "localCanonicalViewportRuns": 10,
+      "localDiagnostics": 0,
+      "localOverflow": 0,
+      "localMinTouchTarget": 44,
+      "localInteraction": "Real pointer drag through three wells committed one material cast; ArrowRight plus Enter committed an equivalent deterministic cast; Delete lifted the latest cast; Escape returned to the quiet seed; diagnostics stayed empty.",
+      "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 kept the Canvas carrier visible while hiding notation, readout, controls, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "localReadbacks": "Local source and public catalog each returned exactly one typography-2026-11-08 record; Journal rendered the anchor and title; canonical and raw routes plus both favicon routes returned HTTP 200.",
+      "localProofPath": "research/qa/proofs/handwriting-v044-2026-11-08-local/",
+      "localScreenshotCount": 22,
+      "unresolved": [
+        "production browser matrix and public readbacks",
+        "independent caption-free perceptual review",
+        "provider revision linkage between final Vercel deployment and GitHub SHA"
+      ]
+    }
+  },
+  {
     "id": "naive-2026-11-07",
     "currentId": "naive",
     "date": "2026-11-07",

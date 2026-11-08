@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111315">
+  <title>MUTINE — The load makes the line.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=044">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-11-08"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="carrier-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v044 / MATERIAL CARRIER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="carrier-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v044</span></nav>
+
+      <figure class="carrier-work artwork-frame" aria-labelledby="work-title">
+        <div id="carrier-field" class="carrier-field" tabindex="0" role="application" aria-label="A typographic material carrier. Drag across three load wells, then release to cast the line." aria-describedby="interaction-state" aria-keyshortcuts="ArrowRight Enter Space Delete Escape">
+          <canvas id="carrier-canvas" aria-hidden="true"></canvas>
+          <div class="carrier-notation" aria-hidden="true"><span>HANDWRITING / 044</span><span>MATTER MAKES THE ROUTE</span></div>
+          <div class="carrier-readout" aria-live="polite"><span data-stage>quiet / carrier holding</span><span data-memory>0 casts · 12 tokens</span></div>
+          <div class="carrier-controls" aria-label="Material carrier controls">
+            <button type="button" data-action="cast" data-gesture="cast">cast center</button>
+            <button type="button" data-action="lift" data-gesture="lift">lift latest</button>
+            <button type="button" data-action="release" data-gesture="release">release archive</button>
+          </div>
+          <p class="carrier-hint" data-gesture="load">drag through three wells · release to cast</p>
+          <p id="interaction-state" class="sr-only" aria-live="polite">The carrier is quiet. Three load wells are empty.</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v044-material-carrier</span><span>load &gt; cast &gt; inherit</span></figcaption>
+      </figure>
+
+      <section class="carrier-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / CANVAS TYPOGRAPHY / v044</p>
+        <h1 id="work-title">The load<br><i>makes the line.</i></h1>
+        <p class="carrier-lede">A letter is not placed. It is produced by what the carrier has endured.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">MATERIAL BECOMES THE NEXT FORM</p>
+          <p class="interaction-copy">Drag across three distinct load wells along the lower rail. The phrase remains geometrically exact while the load is pending; release casts the ordered load into one carrier, re-forming the baseline and every letter. ArrowRight plus Enter, the center control, and the touch path use the same deterministic grammar. Delete lifts the latest cast.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state>The carrier is quiet. Three load wells are empty.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v044</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon v043's social room and remote layout reply. Three distinct material wells are geometry-neutral while pending; their order becomes a mold that re-forms one continuous typographic carrier and all twelve token geometries on release.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag through three wells, or use ArrowRight and Enter. The center control performs the deterministic middle load. Delete lifts the latest cast; Escape or R releases the archive. Four casts compound.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if a pending load moves the carrier, if the source wells answer themselves, if load order changes only a label, if the carrier and letters do not materially change, or if later casts restart from the seed.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v044 if caption-free viewing reads as a decorative word poster or control surface rather than a single typographic carrier visibly re-formed by accumulated load.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-11-05/">previous daily work</a><a href="/journal/#journal-typography-2026-11-08">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=044"></script>
+</body>
+</html>
