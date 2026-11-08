@@ -67,7 +67,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local raw and canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; horizontal overflow 0; min touch target 44px; candidate remains held pending production verification, independent caption-free perceptual review, and provider revision linkage",
+      "status": "20/20 local and 20/20 stable-production raw and canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; diagnostics 0; first-party failures 0; horizontal overflow 0; target widths valid; min touch target 44px; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -87,7 +87,24 @@
       "localReadbacks": "Local raw v051 and canonical work rendered at every target viewport; source works.json contains one brush-2026-11-08 record; canonical route exposes the tableau mount and Journal anchor.",
       "localProofPath": "research/qa/proofs/brush-v051-2026-11-08-local/",
       "localScreenshotCount": 23,
-      "unresolved": ["production browser matrix and readback", "independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionRawPreview": "/studies/p5-brush/v051/?preview=1&interaction=1",
+      "productionCanonicalWork": "/works/brush-2026-11-08/",
+      "productionJournal": "/journal/#journal-brush-2026-11-08",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionFirstPartyFailures": 0,
+      "productionOverflow": 0,
+      "productionTargetWidthsValid": true,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable-production pointer press-and-release committed one phase slip and changed geometry; ArrowRight plus Enter committed a second; Delete lifted the latest; Escape returned to the quiet signature; a 760ms release was refused; deterministic pulse control compounded four slips.",
+      "productionBlindPreviewEvidence": "Stable-production normal and reduced-motion static blind previews at 390x844 retained four phase slips while hiding readout, controls, site marks, and hint; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable production works.json contains one brush-2026-11-08 record; rendered /journal/ exposes journal-brush-2026-11-08 and the exact title; canonical work and raw tableau returned HTTP 200; favicon routes returned HTTP 200.",
+      "productionProofPath": "research/qa/proofs/brush-v051-2026-11-08-production/",
+      "productionScreenshotCount": 23,
+      "unresolved": ["independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
     },
     "decision": {
       "nextMutation": "Run labels-off, readout-off, controls-off, site-mark-off, hint-off, and prose-off comparison; delete v051 if short or mistimed pressure commits, if the ring only recolours, if segment/aperture geometry stays exact, if later slips reset, if lifting is inexact, or if the blind form reads as a generic radial diagram.",
