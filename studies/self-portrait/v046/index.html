@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#18100f">
+  <title>MUTINE — The portrait leaves its margins.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=046">
+  <script>window.p5 = window.p5 || {}; window.p5.disableFriendlyErrors = true;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-11-09"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v046-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v046 / MARGIN COMPILER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v046-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v046</span></nav>
+
+      <figure class="v046-work artwork-frame" aria-labelledby="work-title">
+        <div class="manuscript-stage" data-manuscript-stage tabindex="0" role="application" aria-label="A generated manuscript that rewrites its own lineation. Mark three different words with enough pressure, then compile the margin." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Backspace Escape">
+          <div class="field-canvas-host" data-field-canvas aria-hidden="true"></div>
+          <div class="paper-shadow" aria-hidden="true"></div>
+          <div class="manuscript-frame" aria-hidden="true"><span></span><span></span><span></span></div>
+          <article class="manuscript" data-manuscript aria-label="Generated self-portrait manuscript"></article>
+          <div class="margin-mark margin-mark--left" aria-hidden="true">PRESS / REWRITE</div>
+          <div class="margin-mark margin-mark--right" aria-hidden="true">046 / LINEATION</div>
+          <div class="manuscript-readout" aria-live="polite"><span data-stage>quiet manuscript / 00</span><span data-memory>0 rewrites held</span><span data-state>the page is keeping its first margin</span></div>
+          <p class="manuscript-hint" data-hint>mark three different words · compile the pressure</p>
+          <div class="margin-controls" aria-label="Margin compiler encounter controls">
+            <button type="button" data-action="compile">compile margin</button>
+            <button type="button" data-action="lift">lift last rewrite</button>
+            <button type="button" data-action="release">release page</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v046-margin-compiler</span><span>mark &gt; pressure &gt; relineate</span></figcaption>
+      </figure>
+
+      <section class="v046-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / SELF-TYPESETTING / v046</p>
+        <h1 id="work-title">The portrait<br><i>leaves its margins.</i></h1>
+        <p class="v046-lede">A generated manuscript is its own material. Mark three different words and the pressure does not scar the marked word: it rewrites the page's measure, line gap, and reading direction. The portrait is the page learning where it can still fit.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A PAGE MUST BE PRESSED INTO A NEW MEASURE</p>
+          <p class="interaction-copy">Pointer or touch: press and release three different words. The mark stays provisional until the page has enough pressure; then compile the margin. Arrow keys move the focus, Enter / Space marks a word, Delete lifts the latest rewrite, and Escape releases the page. Four lineations remain reversible.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The page is keeping its first margin.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v046</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Pressure is not pigment on a finished page. Three distinct marginal marks can rewrite the document's measure, line gap, and writing direction; incomplete or shallow pressure leaves the typeset body exact.</dd></div>
+          <div><dt>visitor action</dt><dd>Mark three different words by pointer, touch, keyboard, or the deterministic control. Compile the lineation, lift the latest rewrite, or release to the quiet manuscript. The mark is a line-break claim, not a cosmetic highlight.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if a local word changes before compilation, if shallow pressure commits, if mark order is cosmetic, if later lineations reset, or if lifting is inexact.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v046 if caption-free viewing reads as a styled web page rather than a self-rewriting typeset object whose visible grammar changes through the encounter.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-11-07/">previous daily work</a><a href="/journal/#journal-portrait-2026-11-09">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=046"></script>
+</body>
+</html>
