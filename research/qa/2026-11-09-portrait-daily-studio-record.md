@@ -36,11 +36,19 @@ v046 is a declared medium and encounter switch from the last three real portrait
 - Local diagnostics: **0** console errors, page errors, failed requests, or bad responses.
 - Local horizontal overflow: **0**; every target width valid; manuscript and p5 field visible; minimum tested control target `44px`.
 - Interaction: three distinct word marks held without changing geometry; repeated mark refused; compile changed the document; Delete lifted exactly; keyboard marking committed an equivalent rewrite; Escape released; four deterministic rewrites compounded.
-- Blind preview: reduced-motion static preview retained four lineation rewrites at `390x844` while hiding readout, controls, hint, and margin furniture; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
-- Proof bundle: `research/qa/proofs/portrait-v046-2026-11-09-local/`
+- Local blind preview: reduced-motion static preview retained four lineation rewrites at `390x844` while hiding readout, controls, hint, and margin furniture; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
+- Local proof bundle: `research/qa/proofs/portrait-v046-2026-11-09-local/`
+- Production matrix: **20/20 passed** on `https://autopoiesis-nine.vercel.app` across raw preview and canonical work at `320x568`, `390x844`, `768x1024`, `1280x800`, and `1920x1080`, normal and reduced-motion.
+- Production diagnostics: **0** console errors, page errors, failed requests, or bad responses.
+- Production horizontal overflow: **0**; every target width valid; manuscript and p5 field visible; minimum tested control target `44px`.
+- Production interaction: stable alias passed pointer marks, repeat refusal, compile, Delete lift, keyboard commit, Escape release, and four-compound rewrite.
+- Production blind preview: stable alias retained four lineation rewrites at `390x844` while hiding readout, controls, hint, and margin furniture.
+- Production readback: `works.json`, `catalog-public.json`, canonical work, raw tableau, Journal anchor/title, and favicon returned `200`; the rendered Journal entry was visible.
+- Deployment: `https://autopoiesis-nljeyqds9-lairpa-hotmailfrs-projects.vercel.app`, ID `dpl_9gAqikUDGuVt2b8jFYs2TGjTKmZ9`.
+- Production proof bundle: `research/qa/proofs/portrait-v046-2026-11-09-production/`
 
 ## Held evidence
 
-The candidate remains held pending the production matrix/public readback, an independent caption-free perceptual review, and provider-side linkage between the final Vercel deployment and GitHub SHA. The unresolved perceptual question is whether the blind page reads as a self-rewriting typesetting object rather than a styled web page or poster.
+The candidate remains held pending an independent caption-free perceptual review and provider-side linkage between the final Vercel deployment and GitHub SHA. The unresolved perceptual question is whether the blind page reads as a self-rewriting typesetting object rather than a styled web page or poster.
 
 The pre-existing untracked `research/qa/2026-11-08-daily-studio-record.md` was not modified.
