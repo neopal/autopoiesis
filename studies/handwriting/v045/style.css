@@ -1,0 +1,88 @@
+:root {
+  --attendance-night: #10121a;
+  --attendance-ink: #eee5d5;
+  --attendance-muted: #a7a8b6;
+  --attendance-coral: #f07463;
+  --attendance-cyan: #7fd1c1;
+  --attendance-violet: #9b8cff;
+  --attendance-line: rgba(238, 229, 213, .2);
+  --attendance-faint: rgba(238, 229, 213, .08);
+}
+
+.attendance-shell { min-height: 100vh; background: var(--attendance-night); color: var(--attendance-ink); }
+.attendance-main { max-width: 1480px; margin: 0 auto; padding: 0 3vw 5rem; }
+.attendance-work { margin: 0; }
+.attendance-field {
+  position: relative;
+  min-height: clamp(540px, 67vw, 900px);
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 18% 26%, rgba(155, 140, 255, .12), transparent 23%),
+    radial-gradient(circle at 82% 76%, rgba(240, 116, 99, .13), transparent 28%),
+    linear-gradient(135deg, #191b28 0%, #10121a 52%, #0b0d13 100%);
+  touch-action: none;
+  cursor: crosshair;
+}
+.attendance-field::before {
+  content: '';
+  position: absolute;
+  inset: 4.5% 5% 6%;
+  border: 1px solid var(--attendance-line);
+  pointer-events: none;
+}
+.attendance-field::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .26;
+  background-image: repeating-linear-gradient(90deg, transparent 0 71px, rgba(238, 229, 213, .035) 72px, transparent 73px);
+  mix-blend-mode: screen;
+}
+#attendance-canvas { position: absolute; inset: 0; z-index: 1; display: block; width: 100%; height: 100%; }
+.attendance-notation, .attendance-readout, .attendance-controls, .attendance-hint { position: absolute; z-index: 3; }
+.attendance-notation { inset: 1.2rem 1.6rem auto; display: flex; justify-content: space-between; color: rgba(238, 229, 213, .56); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.attendance-readout { top: 3.25rem; right: 1.6rem; display: grid; gap: .35rem; text-align: right; color: var(--attendance-muted); font: 10px/1.25 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .11em; text-transform: uppercase; }
+.attendance-readout span:first-child { color: var(--attendance-ink); }
+.attendance-controls { right: 1.4rem; bottom: 1.2rem; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .5rem; }
+.attendance-controls button { min-height: 44px; border: 1px solid rgba(238, 229, 213, .42); border-radius: 0; padding: .55rem .8rem; background: rgba(16, 18, 26, .8); color: var(--attendance-ink); font: 10px/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .09em; text-transform: uppercase; cursor: pointer; }
+.attendance-controls button:hover, .attendance-controls button:focus-visible { border-color: var(--attendance-coral); color: var(--attendance-coral); }
+.attendance-hint { left: 1.7rem; bottom: 1.55rem; margin: 0; color: rgba(238, 229, 213, .62); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.attendance-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .7fr); gap: 2rem; align-items: end; padding: clamp(2.6rem, 5vw, 6rem) 0 3rem; }
+.attendance-opening .eyebrow { grid-column: 1 / -1; }
+.attendance-opening h1 { margin: 0; color: var(--attendance-ink); font: 500 clamp(3rem, 8vw, 8.2rem)/.82 Georgia, serif; letter-spacing: -.065em; }
+.attendance-opening h1 i { color: var(--attendance-coral); font-weight: 400; }
+.attendance-lede { max-width: 24ch; margin: 0 0 .4rem; color: var(--attendance-muted); font: 400 clamp(1rem, 1.8vw, 1.45rem)/1.12 Georgia, serif; }
+.annotations { border-top: 1px solid var(--attendance-faint); padding-top: 1.5rem; }
+.annotations dl { display: grid; gap: 0; margin: 1.5rem 0 0; }
+.annotations dl > div { display: grid; grid-template-columns: minmax(120px, .25fr) 1fr; gap: 1rem; border-top: 1px solid var(--attendance-faint); padding: 1rem 0; }
+.annotations dt { color: var(--attendance-coral); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.annotations dd { max-width: 70ch; margin: 0; color: var(--attendance-muted); font: 15px/1.45 ui-monospace, SFMono-Regular, Consolas, monospace; }
+
+html.preview-mode .attendance-main { max-width: none; padding: 0; }
+html.preview-mode .attendance-work { border: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .attendance-opening, html.preview-mode .interaction-panel, html.preview-mode .annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .attendance-field { min-height: 100vh; }
+html.blind-mode .attendance-notation, html.blind-mode .attendance-readout, html.blind-mode .attendance-controls, html.blind-mode .attendance-hint { display: none; }
+html.static-mode .attendance-field { cursor: default; }
+
+@media (prefers-reduced-motion: reduce) {
+  .attendance-field *, .attendance-field *::before, .attendance-field *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+}
+
+@media (max-width: 680px) {
+  .attendance-main { padding: 0 4vw 3rem; }
+  .attendance-field { min-height: min(720px, 140vw); }
+  .attendance-notation { inset: .8rem .8rem auto; font-size: 8px; }
+  .attendance-notation span:last-child { display: none; }
+  .attendance-readout { top: 2.55rem; right: .8rem; font-size: 8px; }
+  .attendance-controls { left: .8rem; right: .8rem; bottom: .8rem; justify-content: stretch; }
+  .attendance-controls button { flex: 1 1 0; padding: .55rem .35rem; font-size: 8px; }
+  .attendance-hint { display: none; }
+  .attendance-opening { display: block; padding: 3rem 0 2rem; }
+  .attendance-opening h1 { font-size: clamp(3.2rem, 16vw, 6rem); }
+  .attendance-lede { margin-top: 1.5rem; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: .6rem; }
+  .annotations dd { font-size: 12px; }
+}

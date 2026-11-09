@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10121a">
+  <title>MUTINE — The word takes attendance.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=045">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-11-09"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="attendance-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v045 / COLLECTIVE READING AXIS</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="attendance-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v045</span></nav>
+
+      <figure class="attendance-work artwork-frame" aria-labelledby="work-title">
+        <div id="attendance-field" class="attendance-field" tabindex="0" role="application" aria-label="A typographic attendance field. Look at three distinct letters to re-order the phrase." aria-describedby="interaction-state" aria-keyshortcuts="ArrowRight ArrowLeft Enter Space Delete Escape">
+          <canvas id="attendance-canvas" aria-hidden="true"></canvas>
+          <div class="attendance-notation" aria-hidden="true"><span>HANDWRITING / 045</span><span>THE PHRASE IS A FIELD</span></div>
+          <div class="attendance-readout" aria-live="polite"><span data-stage>quiet / phrase waiting</span><span data-memory>0 assemblies · 16 letters</span></div>
+          <div class="attendance-controls" aria-label="Attendance field controls">
+            <button type="button" data-action="assemble" data-gesture="assemble">assemble witnesses</button>
+            <button type="button" data-action="lift" data-gesture="lift">lift latest</button>
+            <button type="button" data-action="release" data-gesture="release">release archive</button>
+          </div>
+          <p class="attendance-hint" data-gesture="attend">look at three letters · the phrase changes its reading axis</p>
+          <p id="interaction-state" class="sr-only" aria-live="polite">The phrase is quiet. Look at three distinct letters.</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v045-collective-reading-axis</span><span>attend &gt; assemble &gt; re-read</span></figcaption>
+      </figure>
+
+      <section class="attendance-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / CANVAS TYPOGRAPHY / v045</p>
+        <h1 id="work-title">The word<br><i>takes attendance.</i></h1>
+        <p class="attendance-lede">A letter is not alone. Three looks can change who comes first.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ATTENTION BECOMES READING ORDER</p>
+          <p class="interaction-copy">Look at three distinct letters in the field. While attention is pending, the phrase stays geometrically exact. When the third witness is present, the collective bearing re-orders the phrase along a new axis. Pointer taps, touch taps, ArrowLeft / ArrowRight plus Enter, and the deterministic control share the same grammar. Delete lifts the latest assembly.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state>The phrase is quiet. Look at three distinct letters.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v045</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the carrier and social-room grammars. Three distinct attended letters are geometry-neutral while pending; their ordered bearing becomes a collective reading axis that re-forms every letter and changes the phrase's actual route.</dd></div>
+          <div><dt>visitor action</dt><dd>Tap or touch three letters, or use the field with ArrowLeft / ArrowRight and Enter. The deterministic control performs the same witness assembly. Delete lifts the latest assembly; Escape or R releases the archive. Four assemblies compound.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if a repeated or incomplete look commits, if a letter only glows, if witness order changes only a label, if the phrase remains a finished poster, or if later assemblies forget earlier reading axes.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v045 if caption-free viewing cannot distinguish a collective typographic re-reading from v041–v044's gaps, routes, social room, or carrier beam.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-11-08/">previous daily work</a><a href="/journal/#journal-typography-2026-11-09">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=045"></script>
+</body>
+</html>
