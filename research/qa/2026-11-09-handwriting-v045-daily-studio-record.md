@@ -44,7 +44,7 @@
 - TDD RED observed before `studies/handwriting/v045/` existed: 6 targeted tests failed with expected missing-engine/artifact/record errors.
 - Targeted tests after implementation: **6 passed, 0 failed**.
 - Catalog regression tests: **11 passed, 0 failed**.
-- Full suite before production metadata update: **1,483 passed, 0 failed**.
+- Full suite: **1,483 passed, 0 failed**.
 - JavaScript syntax checks: passed for engine, sketch, and probe.
 - `git diff --check`: passed.
 - Dangerous-execution static scan: no findings.
@@ -59,10 +59,10 @@
 
 ## Publication
 
-- **Commit at first deployment:** `bad5d73e8ee255a16578386862c9a97c8b0d2244`
-- **First deployment:** `https://autopoiesis-509wafobr-lairpa-hotmailfrs-projects.vercel.app`
+- **Verified source commit for final deployment:** `be53fe793b96066ab3b69573dc5a095780962243`
+- **Final deployment:** `https://autopoiesis-4t56yur0n-lairpa-hotmailfrs-projects.vercel.app`
 - **Stable production alias:** `https://autopoiesis-nine.vercel.app`
-- **Production deployment id:** `dpl_2DtR1aMamUbsWj7YGwQjRjyVDt8C`
-- **GitHub synchronization after first deployment:** verified before final metadata update; this final evidence update requires a subsequent commit/push and redeploy.
+- **Production deployment id:** `dpl_4fmxmKNhD2cFWVpZFDsRRwcysCHz`
+- **GitHub synchronization:** local and `origin/main` matched `be53fe793b96066ab3b69573dc5a095780962243` before the final deployment.
 
 The candidate remains held honestly. Automated, interaction, responsive, route, and publication evidence does not substitute for independent caption-free perceptual approval. Provider-side revision linkage also remains unresolved.
