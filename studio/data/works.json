@@ -115,7 +115,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local raw and canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, touch, keyboard, wrong-exit refusal, route handoff, lift, release, blind preview, Journal, current, canonical work, catalog, and favicon checks passed; diagnostics 0; first-party bad responses 0; horizontal overflow 0; minimum tested control target 44px; candidate remains held pending independent caption-free perceptual review, production browser matrix, and provider revision linkage",
+      "status": "20/20 local and 20/20 production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, touch, keyboard, wrong-exit refusal, route handoff, lift, release, blind preview, Journal, current, canonical work, catalog, and favicon checks passed; diagnostics 0; first-party bad responses 0; horizontal overflow 0; minimum tested control target 44px; candidate remains held for perceptual reasons",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
@@ -148,9 +148,26 @@
       "localScreenshotCount": 25,
       "unresolved": [
         "independent caption-free perceptual review",
-        "production browser matrix",
-        "provider revision linkage between final Vercel deployment and GitHub SHA"
-      ]
+        "explicit provider revision linkage between final Vercel deployment and GitHub SHA"
+      ],
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "productionDeployment": "Final production alias to be re-deployed after attaching this evidence; the current pre-evidence production probe passed on dpl_4ME8HgiSx1U9T4QAQHxJEzeRXAwE.",
+      "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v048/?preview=1&interaction=1",
+      "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/webgpu/v048/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/webgpu-2026-11-09/",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionBadResponses": 0,
+      "productionOverflow": 0,
+      "productionTargetWidthsValid": true,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "The stable production alias reproduced pointer wrong-exit refusal, valid route geometry change, source handoff, Delete lift, Enter route, Escape release, and mobile touch route.",
+      "productionBlindPreviewEvidence": "The stable production alias retained one pressure shell, four cumulative route seams, five ports, and 360 generated surface vertices at 390x844 while hiding readout, controls, status, hint, and caption furniture; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "The stable production alias returned 200 for works.json, catalog-public.json, Journal, WebGPU current, canonical work, raw tableau, and favicon; each rendered/JSON readback contained exactly one webgpu-2026-11-09 record with the expected title/raw path and Journal anchor/title.",
+      "productionProofPath": "research/qa/proofs/webgpu-v048-2026-11-09-production/",
+      "productionScreenshotCount": 25
     },
     "decision": {
       "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v048 if a route is cosmetic, any port can start the next event, wrong exits commit, the shell does not globally re-produce, later routes reset, exact lifting fails, or the blind surface reads as a generic mesh.",
