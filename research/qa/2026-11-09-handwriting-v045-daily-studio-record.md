@@ -29,32 +29,40 @@
 
 - `studies/handwriting/v045/` — executable engine, Canvas tableau, styles, metrics, README, critiques
 - `works/typography-2026-11-09/index.html` — canonical navigable work shell
-- `studio/data/works.json` — one dated record
+- `studio/data/works.json` — one dated record and local/production evidence
 - `studio/data/catalog-public.json` — generated public register
 - `tests/handwriting-v045.test.mjs` — engine, art-gate, and record tests
 - `tests/catalog-architecture.test.mjs` — updated Handwriting timeline expectation
 - `tests/daily-catalog.test.mjs` — updated dated register expectation
 - `scripts/handwriting-v045-probe.mjs` — bounded headless browser matrix and interaction probe
+- `research/qa/2026-11-09-handwriting-v045-daily-studio-record.md` — this record
 - `research/qa/proofs/handwriting-v045-2026-11-09-local-run2/` — local screenshots and report
+- `research/qa/proofs/handwriting-v045-2026-11-09-production/` — production screenshots and report
 
-## Verification observed locally
+## Verification observed
 
 - TDD RED observed before `studies/handwriting/v045/` existed: 6 targeted tests failed with expected missing-engine/artifact/record errors.
 - Targeted tests after implementation: **6 passed, 0 failed**.
 - Catalog regression tests: **11 passed, 0 failed**.
-- Full suite: **1,483 passed, 0 failed**.
+- Full suite before production metadata update: **1,483 passed, 0 failed**.
 - JavaScript syntax checks: passed for engine, sketch, and probe.
 - `git diff --check`: passed.
 - Dangerous-execution static scan: no findings.
 - Local browser matrix: **20/20 passed** at `320×568`, `390×844`, `768×1024`, `1280×800`, and `1920×1080`, normal and reduced-motion.
-- Local diagnostics: `0`; first-party bad responses/request failures: `0`; horizontal overflow: `0`; target widths valid; minimum tested control target: `44px`.
-- Interaction: real touch taps committed one assembly; pending geometry stayed unchanged; repeated witness was refused; keyboard attention committed; Delete lifted; Escape released; four deterministic assemblies compounded.
-- Blind preview: four collective-axis assemblies remained at `390×844` while readout, controls, and hint were hidden; Canvas visible; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
+- Production browser matrix: **20/20 passed** at the same five viewports and two motion modes.
+- Local and production diagnostics: `0`; first-party bad responses/request failures: `0`; horizontal overflow: `0`; target widths valid; minimum tested control target: `44px`.
+- Interaction: production touch taps committed one assembly; pending geometry stayed unchanged; repeated witness was refused; keyboard attention committed; Delete lifted; Escape released; four deterministic assemblies compounded.
+- Blind preview: production reduced-motion static blind preview retained four collective-axis assemblies at `390×844` while readout, controls, and hint were hidden; Canvas visible; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
+- Production readback: `/studio/data/works.json` and `/studio/data/catalog-public.json` returned `200` with exactly one `typography-2026-11-09` record and the exact title.
+- Rendered Journal readback: `/journal/` returned `200`, became ready, contained `#journal-typography-2026-11-09`, contained the exact title, and exposed 3 links to the canonical work.
+- Route/favicon readback: canonical work, raw tableau, `/studio/favicon.svg`, `/favicon.svg`, and `/favicon.ico` each returned `200`.
 
-## Publication state
+## Publication
 
-- Production deployment and stable-alias readback: **not yet run at this record stage**.
-- Provider revision linkage: unresolved.
-- Independent caption-free perceptual review: unresolved.
+- **Commit at first deployment:** `bad5d73e8ee255a16578386862c9a97c8b0d2244`
+- **First deployment:** `https://autopoiesis-509wafobr-lairpa-hotmailfrs-projects.vercel.app`
+- **Stable production alias:** `https://autopoiesis-nine.vercel.app`
+- **Production deployment id:** `dpl_2DtR1aMamUbsWj7YGwQjRjyVDt8C`
+- **GitHub synchronization after first deployment:** verified before final metadata update; this final evidence update requires a subsequent commit/push and redeploy.
 
-The candidate remains held honestly. No perceptual approval is inferred from passing structural or browser tests.
+The candidate remains held honestly. Automated, interaction, responsive, route, and publication evidence does not substitute for independent caption-free perceptual approval. Provider-side revision linkage also remains unresolved.
