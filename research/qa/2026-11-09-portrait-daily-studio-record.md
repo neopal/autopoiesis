@@ -44,7 +44,7 @@ v046 is a declared medium and encounter switch from the last three real portrait
 - Production interaction: stable alias passed pointer marks, repeat refusal, compile, Delete lift, keyboard commit, Escape release, and four-compound rewrite.
 - Production blind preview: stable alias retained four lineation rewrites at `390x844` while hiding readout, controls, hint, and margin furniture.
 - Production readback: `works.json`, `catalog-public.json`, canonical work, raw tableau, Journal anchor/title, and favicon returned `200`; the rendered Journal entry was visible.
-- Deployment: `https://autopoiesis-nljeyqds9-lairpa-hotmailfrs-projects.vercel.app`, ID `dpl_9gAqikUDGuVt2b8jFYs2TGjTKmZ9`.
+- Deployment: `https://autopoiesis-gl36gh2ao-lairpa-hotmailfrs-projects.vercel.app`, ID `dpl_5MhGE1frWtmeZAKozdm8jDZd1MAW`, source commit `17bea4a`.
 - Production proof bundle: `research/qa/proofs/portrait-v046-2026-11-09-production/`
 
 ## Held evidence
