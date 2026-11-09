@@ -67,4 +67,16 @@ The pre-existing untracked reports `research/qa/2026-11-08-daily-studio-record.m
 
 ## Publication state
 
-Production browser evidence, commit SHA, remote SHA, deployment URL, and stable-alias readback are intentionally not claimed yet in this record. The candidate remains held pending production verification, independent caption-free perceptual review, and provider-side revision linkage.
+- Initial source commit: `0ddc292ef42f9bb11247f50923b8a5ffb3a1e6ca`.
+- Initial push: `origin/main` accepted `0ddc292`.
+- Matrix-tested production deployment: `https://autopoiesis-lk8bpawzm-lairpa-hotmailfrs-projects.vercel.app` (`dpl_Fj6VjiPhZQrKjFjMeBpiFNxyo8Z9`).
+- Stable alias: `https://autopoiesis-nine.vercel.app`.
+- Production browser matrix: **20/20 passed**, with **0 diagnostics**, **0 horizontal-overflow failures**, and minimum tested control target **44px**.
+- Production interaction: pointer cut, repeat refusal, three-cut compounding, Delete lift, Escape release, keyboard cut, and touch cut-control path passed.
+- Production blind preview: four real vacancies and 31 present plates remained at `390×844` in reduced-motion static blind mode while readout, controls, selection, hint, and caption were hidden.
+- Production readbacks: `/studio/data/works.json` and `/studio/data/catalog-public.json` each contained exactly one `brush-2026-11-09` record; `/journal/` rendered `journal-brush-2026-11-09` and the exact title; canonical work, raw tableau, and `/studio/favicon.svg` returned `200`.
+
+The candidate remains held pending:
+
+1. independent caption-free perceptual review of the blind tableau;
+2. provider-side revision linkage between the Vercel deployment and GitHub SHA.
