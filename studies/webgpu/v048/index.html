@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a12">
+  <meta name="description" content="A pressure route rewrites the shell and hands its next source to the place where it exits.">
+  <title>MUTINE — The surface chooses the next mouth.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interaction-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <script>p5 = { disableFriendlyErrors: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=048">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-11-09"></script>
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="pressure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WEBGPU CURRENT / v048 / PRESSURE SHELL</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="pressure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v048</span></nav>
+      <figure class="pressure-work artwork-frame" aria-labelledby="work-title">
+        <div id="pressure-frame" class="pressure-frame">
+          <canvas id="pressure-field" tabindex="0" role="img" aria-label="A continuous faceted pressure shell. Press the lit source port and release at the next material port to rewrite the whole surface." >
+            The WebGPU pressure shell tableau.
+          </canvas>
+          <div class="pressure-readout" role="status" aria-live="polite"><span data-stage>SHELL 01 / 05</span><span data-memory>quiet material · 0 routes</span><span data-renderer>WEBGPU SIGNAL / WEBGL SURFACE / PRESSURE SHELL</span></div>
+          <p class="pressure-status" data-status>press the lit source · release at its chosen exit</p>
+          <div class="pressure-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="route">route pressure</button>
+            <button type="button" data-gesture="lift">lift last route</button>
+            <button type="button" data-gesture="release">release material</button>
+          </div>
+          <p class="pressure-hint">a route changes the next place pressure may begin</p>
+          <figcaption><span>WEBGPU / V048 / DAILY WORK</span><span>pressure → production</span></figcaption>
+        </div>
+      </figure>
+      <section class="pressure-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V048 / DAILY WORK</p><h1 id="work-title">The surface chooses<br><i>the next mouth.</i></h1></div>
+        <p class="pressure-premise">Pressure is not a mark on the shell. It changes how the shell can be made next.</p>
+      </section>
+      <aside class="pressure-notes" aria-label="Work annotations">
+        <div><span>changed rule</span><p>Pressure must travel from the lit source to its material exit. The whole continuous shell is re-produced, and the exit becomes the only valid source for the next route.</p></div>
+        <div><span>cultural translation</span><p>Programmable material and vector fields become a remembered pressure topology. The work refuses brush appearance and keeps only the production rule: matter redirects later geometry.</p></div>
+        <div><span>falsifier / deletion</span><p>Delete v048 if a route only adds a line, any port can start the next event, wrong exits commit, memory resets, or the blind surface reads as a generic mesh demo.</p></div>
+      </aside>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>press · travel · re-produce</span><a href="/journal/#journal-webgpu-2026-11-09">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=048a"></script>
+</body>
+</html>
