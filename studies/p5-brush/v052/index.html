@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1520">
+  <title>MUTINE — The paint re-counts the room.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.get('interaction') === '1') document.documentElement.classList.add('interaction-mode');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=052">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-09"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="register-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v052 / VACANCY REGISTER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="register-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v052</span></nav>
+
+      <figure class="register-work artwork-frame" aria-labelledby="work-title">
+        <div id="register-field" class="register-field" tabindex="0" role="application" aria-label="A vacancy register made of occupied plates. Select one plate and cut it; the remaining material re-packs around the absence. Repeated cuts are refused." aria-keyshortcuts="ArrowLeft ArrowUp ArrowRight ArrowDown Enter Space Delete Escape R S">
+          <div class="register-readout" aria-live="polite"><span data-register-stage>CUT 00 / 04</span><span data-register-memory>quiet substrate · 0 vacancies retained</span></div>
+          <div id="register-canvas" class="register-canvas" data-register-canvas></div>
+          <div class="register-selection" data-selection aria-live="polite">cell 08 / occupied</div>
+          <div class="register-controls" aria-label="Material actions">
+            <button type="button" data-gesture="cut">cut selected cell</button>
+            <button type="button" data-gesture="lift">lift last vacancy</button>
+            <button type="button" data-gesture="release">release register</button>
+          </div>
+          <p class="register-hint">select one occupied plate · cut it once · watch the rest re-pack</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v052-vacancy-register</span><span>occupy &gt; withdraw &gt; re-pack</span></figcaption>
+      </figure>
+
+      <section class="register-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / VACANCY REGISTER / v052</p>
+        <h1 id="work-title">The paint<br><i>re-counts the room.</i></h1>
+        <p class="register-lede">A plate is not a mark to drag. Select one occupied unit and cut it: the missing place stays empty while every surviving unit re-packs around the vacancy. The order of absences becomes a new material grammar.</p>
+      </section>
+
+      <section class="register-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE CUT, NO LOCAL SCAR</p>
+          <p class="register-copy">Pointer or touch: press and release one occupied plate. The cut is discrete; no hover action carries the work. Arrow keys select a plate and Enter or Space cuts it. Delete lifts the latest vacancy; Escape, R, or “release the register” restores the quiet substrate. S downloads a PNG.</p>
+        </div>
+        <p class="register-state" data-interaction-state aria-live="polite">The substrate is quiet. Choose one occupied plate.</p>
+      </section>
+
+      <section class="register-annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v052</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Material is a count of occupied plates. One cut removes a real unit and makes the surviving field re-pack around its empty coordinate; the order of cuts changes the re-pack.</dd></div>
+          <div><dt>visitor action</dt><dd>Select one occupied plate, then cut it. Four vacancies compound in one register and can be lifted exactly in reverse order.</dd></div>
+          <div><dt>falsifier</dt><dd>If a cut only hides a tile, changes a local colour, leaves the neighbours fixed, or can be repeated without refusal, the material rule is false.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v052 if the blind field reads as a generic grid, if cut order is cosmetic, if later vacancies reset earlier ones, or if the empty place is only a dark overlay.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-08/">previous daily work</a><a href="/journal/#journal-brush-2026-11-09">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=052"></script>
+</body>
+</html>

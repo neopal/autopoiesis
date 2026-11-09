@@ -1,0 +1,77 @@
+:root {
+  --register-night: #0d1520;
+  --register-ink: #e7eadf;
+  --register-muted: #9ca9a5;
+  --register-line: rgba(231, 234, 223, .18);
+  --register-coral: #e27b61;
+  --register-acid: #cad873;
+  --register-cyan: #7cc7bb;
+  --register-surface: #111e29;
+}
+
+html, body { margin: 0; min-height: 100%; }
+body.work-page {
+  background: radial-gradient(ellipse at 50% 34%, #1a3240 0, var(--register-night) 59%, #070b11 100%);
+  color: var(--register-ink);
+  font-family: var(--exh-ui, ui-monospace, monospace);
+}
+.register-shell { width: min(1320px, 100%); min-height: 100vh; margin: 0 auto; padding: 0 clamp(18px, 4.5vw, 56px); box-sizing: border-box; }
+.studio-header { border-color: var(--register-line); color: var(--register-muted); }
+.studio-mark, .eyebrow, .studio-path [aria-current="page"] { color: var(--register-coral); }
+.studio-header p, .studio-nav a, .studio-path, .studio-path a, .studio-footer, .studio-footer a { color: var(--register-muted); }
+.studio-nav a:hover, .studio-nav a:focus-visible, .studio-path a:hover, .studio-path a:focus-visible, .studio-footer a:hover, .studio-footer a:focus-visible { color: var(--register-acid); }
+.register-main { padding: 22px 0 66px; }
+.studio-path { margin: 0 0 22px; }
+.register-work { margin: 0; background: var(--register-surface); }
+.register-field { position: relative; min-height: 520px; height: clamp(520px, 68vw, 760px); overflow: hidden; background: #0d1520; }
+.register-canvas, .register-canvas canvas { width: 100%; height: 100%; display: block; }
+.register-readout { position: absolute; z-index: 3; top: 18px; left: 22px; right: 22px; display: flex; justify-content: space-between; gap: 18px; pointer-events: none; color: var(--register-muted); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+.register-selection { position: absolute; z-index: 3; top: 48px; left: 22px; color: rgba(231, 234, 223, .58); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; pointer-events: none; }
+.register-controls { position: absolute; z-index: 4; left: 22px; right: 22px; bottom: 18px; display: flex; justify-content: center; gap: 8px; }
+.register-controls button { min-height: 44px; padding: 10px 14px; border: 1px solid rgba(231, 234, 223, .28); background: rgba(13, 21, 32, .76); color: var(--register-ink); font: 11px var(--exh-ui, monospace); cursor: pointer; }
+.register-controls button:hover, .register-controls button:focus-visible { border-color: var(--register-coral); color: var(--register-acid); outline: 2px solid rgba(226, 123, 97, .25); outline-offset: 2px; }
+.register-hint { position: absolute; z-index: 3; bottom: 78px; left: 22px; color: rgba(231, 234, 223, .56); font-size: 10px; letter-spacing: .09em; text-transform: uppercase; pointer-events: none; }
+.register-work figcaption { display: flex; justify-content: space-between; gap: 14px; padding: 12px 14px; border-top: 1px solid var(--register-line); color: var(--register-muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.register-opening { max-width: 850px; padding: clamp(44px, 7vw, 92px) 0 clamp(28px, 5vw, 62px); }
+.register-opening h1 { margin: 14px 0 18px; color: var(--register-ink); font-family: var(--exh-display, Georgia, serif); font-size: clamp(3.2rem, 8vw, 7rem); font-weight: 400; line-height: .92; letter-spacing: -.055em; }
+.register-opening h1 i { color: var(--register-coral); font-weight: 400; }
+.register-lede, .register-copy, .register-state { max-width: 720px; color: var(--register-muted); font-size: 14px; line-height: 1.65; }
+.register-panel { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr); gap: 28px; padding: 24px 0; border-top: 1px solid var(--register-line); border-bottom: 1px solid var(--register-line); }
+.register-state { margin: 0; align-self: end; color: var(--register-acid); }
+.register-annotations { padding: 38px 0 0; }
+.register-annotations dl { margin: 18px 0 0; border-top: 1px solid var(--register-line); }
+.register-annotations dl > div { display: grid; grid-template-columns: minmax(120px, .3fr) minmax(0, 1fr); gap: 18px; padding: 16px 0; border-bottom: 1px solid var(--register-line); }
+.register-annotations dt { color: var(--register-coral); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.register-annotations dd { margin: 0; color: var(--register-muted); font-size: 13px; line-height: 1.6; }
+.studio-footer { border-color: var(--register-line); }
+
+html.preview-mode, html.preview-mode body { width: 100%; height: 100%; overflow: hidden; }
+html.preview-mode body { background: #0d1520; }
+html.preview-mode .register-shell { width: 100%; min-height: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .register-opening, html.preview-mode .register-panel, html.preview-mode .register-annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .register-main { width: 100%; height: 100%; padding: 0; }
+html.preview-mode .register-work { width: 100%; height: 100%; border: 0; box-shadow: none; }
+html.preview-mode .register-field { width: 100%; height: 100vh; min-height: 0; }
+html.preview-mode .register-readout, html.preview-mode .register-controls, html.preview-mode .register-selection, html.preview-mode .register-hint { display: none; }
+html.preview-mode.interaction-mode .register-readout, html.preview-mode.interaction-mode .register-controls, html.preview-mode.interaction-mode .register-selection, html.preview-mode.interaction-mode .register-hint { display: flex; }
+html.preview-mode.interaction-mode .register-hint, html.preview-mode.interaction-mode .register-selection { display: block; }
+html.blind-mode .register-readout, html.blind-mode .register-controls, html.blind-mode .register-selection, html.blind-mode .register-hint { display: none; }
+html.blind-mode .register-field { cursor: default; }
+
+@media (prefers-reduced-motion: reduce) {
+  .register-controls button { transition: none; }
+}
+@media (max-width: 680px) {
+  .register-shell { padding-inline: 14px; }
+  .register-main { padding-top: 14px; }
+  .register-field { height: min(620px, 148vw); min-height: 500px; }
+  .register-readout { top: 13px; left: 13px; right: 13px; font-size: 9px; }
+  .register-selection { top: 40px; left: 13px; }
+  .register-controls { left: 13px; right: 13px; bottom: 12px; display: grid; grid-template-columns: 1fr; }
+  .register-controls button { width: 100%; }
+  .register-hint { left: 13px; bottom: 174px; max-width: 240px; line-height: 1.5; }
+  .register-work figcaption { display: block; line-height: 1.7; }
+  .register-work figcaption span { display: block; }
+  .register-panel { grid-template-columns: 1fr; gap: 8px; }
+  .register-annotations dl > div { grid-template-columns: 1fr; gap: 7px; }
+}
