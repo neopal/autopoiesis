@@ -80,3 +80,10 @@ The candidate remains held pending:
 
 1. independent caption-free perceptual review of the blind tableau;
 2. provider-side revision linkage between the Vercel deployment and GitHub SHA.
+
+## Final deployment recheck
+
+- Runtime source commit used for the final recheck: `2326b5476d1c0adb7e68f28231d2da55dcd846b6`.
+- The stable alias was deployed again after the production-evidence record was committed; the final deployment URL and ID are reported in the cron release report, while this QA file preserves both the matrix-tested deployment and the final recheck proof bundle.
+- Final recheck proof: `research/qa/proofs/brush-v052-2026-11-09-production-final/`.
+- Final recheck: **20/20 matrix**, interaction, blind preview, readbacks, diagnostics, and overflow gates passed again.
