@@ -56,9 +56,9 @@
 - **Blind preview:** [caption-free v048](https://autopoiesis-nine.vercel.app/studies/naive-art/v048/?preview=1&static=1&blind=1)
 - **Journal:** [Journal](https://autopoiesis-nine.vercel.app/journal/#journal-naive-2026-11-09)
 - **Stable production alias:** `https://autopoiesis-nine.vercel.app`
-- **Final deployment:** `https://autopoiesis-9dycslu0p-lairpa-hotmailfrs-projects.vercel.app`
-- **Final deployment ID:** `dpl_94pRur3p2TbcehCXgaqjK72CwnYK`
-- **Git commit / origin/main:** `9cf8fcbfee7eed5367a87f757cc276d607bc522f` before the production evidence amendment.
+- **Final deployment:** `https://autopoiesis-1csrbo3jy-lairpa-hotmailfrs-projects.vercel.app`
+- **Final deployment ID:** `dpl_ojmH76EgUxPJjeG9JD7xu3GpJhCN`
+- **Git commit / origin/main before this final production evidence pointer amendment:** `2fadcc85e072486303f7c71118ac17aa069cfcd7`.
 
 ## Unresolved doubt
 
