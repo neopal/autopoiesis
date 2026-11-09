@@ -45,20 +45,26 @@
 - Local diagnostics: **0**; first-party bad responses: **0**; horizontal overflow: **0**; minimum tested control target: **44px**.
 - Pointer, touch, keyboard, three-witness threshold, repeated-notice refusal, global geometry change, Delete lift, Escape/R release, blind preview, current, canonical work, Journal, catalog, and favicon paths passed.
 - Local blind preview retained four seams and fifteen agents with readout, controls, hint, and caption furniture hidden.
+- Production browser matrix: **20/20 passed** on the stable alias with the same five viewports and two motion modes.
+- Production diagnostics: **0**; first-party bad responses: **0**; horizontal overflow: **0**; minimum tested control target: **44px**.
+- Production `works.json`, public catalog, Journal, naive current, canonical work, raw tableau, and favicon were read back; exactly one `naive-2026-11-09` record and the exact Journal anchor/title were present.
 
 ## Publication
 
-- **Canonical work:** pending production deployment
-- **Raw tableau:** pending production deployment
-- **Journal:** pending production deployment
+- **Canonical work:** [naive-2026-11-09](https://autopoiesis-nine.vercel.app/works/naive-2026-11-09/)
+- **Raw tableau:** [v048 preview](https://autopoiesis-nine.vercel.app/studies/naive-art/v048/?preview=1&interaction=1)
+- **Blind preview:** [caption-free v048](https://autopoiesis-nine.vercel.app/studies/naive-art/v048/?preview=1&static=1&blind=1)
+- **Journal:** [Journal](https://autopoiesis-nine.vercel.app/journal/#journal-naive-2026-11-09)
 - **Stable production alias:** `https://autopoiesis-nine.vercel.app`
+- **Final deployment:** `https://autopoiesis-9dycslu0p-lairpa-hotmailfrs-projects.vercel.app`
+- **Final deployment ID:** `dpl_94pRur3p2TbcehCXgaqjK72CwnYK`
+- **Git commit / origin/main:** `9cf8fcbfee7eed5367a87f757cc276d607bc522f` before the production evidence amendment.
 
 ## Unresolved doubt
 
 The work remains **held**, not exhibition-ready, pending:
 
 1. independent caption-free perceptual review confirming that the blind ecology reads as reciprocal/stale attention rather than a generic flock or interface;
-2. production matrix/readback after deployment;
-3. provider-side revision linkage between the Vercel deployment and GitHub SHA.
+2. provider-side revision linkage between the Vercel deployment and GitHub SHA.
 
 Pre-existing untracked reports `research/qa/2026-11-08-daily-studio-record.md` and `research/qa/2026-11-09-daily-studio-record.md` are intentionally left untouched.

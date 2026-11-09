@@ -95,7 +95,7 @@
       "selectedBySlot": true
     },
     "browserEvidence": {
-      "status": "20/20 local raw and canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, touch, keyboard, blind preview, Journal, current, canonical, raw, catalog, and favicon checks passed; diagnostics 0; first-party bad responses 0; horizontal overflow 0; minimum tested control target 44px; production pending",
+      "status": "20/20 local and 20/20 stable-production raw and canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, touch, keyboard, blind preview, Journal, current, canonical, raw, catalog, works, and favicon checks passed; diagnostics 0; first-party bad responses 0; horizontal overflow 0; minimum tested control target 44px; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
       "productionReady": false,
       "runner": "headless system Chrome via Playwright",
       "viewports": [
@@ -128,15 +128,35 @@
       "localScreenshotCount": 22,
       "unresolved": [
         "independent caption-free perceptual review",
-        "production browser matrix and deployed record/Journal verification",
         "provider revision linkage between final Vercel deployment and GitHub SHA"
-      ]
+      ],
+      "productionAlias": "https://autopoiesis-nine.vercel.app",
+      "deploymentURL": "https://autopoiesis-9dycslu0p-lairpa-hotmailfrs-projects.vercel.app",
+      "deploymentId": "dpl_94pRur3p2TbcehCXgaqjK72CwnYK",
+      "productionRawPreview": "/studies/naive-art/v048/?preview=1&interaction=1",
+      "productionBlindPreview": "/studies/naive-art/v048/?preview=1&static=1&blind=1",
+      "productionCanonicalWork": "/works/naive-2026-11-09/",
+      "productionJournal": "/journal/#journal-naive-2026-11-09",
+      "productionViewportRuns": 20,
+      "productionRawViewportRuns": 10,
+      "productionCanonicalViewportRuns": 10,
+      "productionDiagnostics": 0,
+      "productionBadResponses": 0,
+      "productionOverflow": 0,
+      "productionTargetWidthsValid": true,
+      "productionMinTouchTarget": 44,
+      "productionInteraction": "Stable production passed pointer proximity across three witnesses, one global look-back, global agent geometry change, Delete lift, R release, keyboard Enter, and touch look-back paths.",
+      "productionBlindPreviewEvidence": "Stable production reduced-motion static blind preview at 390x844 retained four backcast seams and fifteen directional witnesses while hiding readout, controls, hint, and caption furniture; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+      "productionReadbacks": "Stable production works.json and catalog-public.json each returned exactly one naive-2026-11-09 record with the exact title and rawPath; rendered Journal exposed journal-naive-2026-11-09 and the exact title; canonical work, raw v048 tableau, and studio favicon returned 200.",
+      "productionProofPath": "research/qa/proofs/naive-v048-2026-11-09-production/",
+      "productionScreenshotCount": 22
     },
     "decision": {
       "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v048 if proximity is only a cursor effect, fewer than three distinct witnesses commit, the stale direction is cosmetic, visited witnesses do not change, later backcasts reset, exact lifting fails, or the blind ecology reads as a generic flock or interface.",
       "lineage": "naive-2026-11-08"
     }
   },
+
   {
     "id": "brush-2026-11-09",
     "currentId": "brush",
