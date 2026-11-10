@@ -48,11 +48,12 @@ The previous three WebGPU works (v046 folded chorus, v047 absence arch, v048 pre
 - Targeted TDD test: **7/7 passed**.
 - JavaScript syntax: `node --check studies/webgpu/v049/sketch.js` passed.
 - Local headless browser matrix: **20/20 route/viewport-mode runs passed** across `320×568`, `390×844`, `768×1024`, `1280×800`, `1920×1080`, normal and reduced-motion, raw and canonical routes.
-- Browser diagnostics: **0** console errors, **0** first-party bad responses, **0** horizontal overflow; target widths matched; tested control minimum **44px**.
-- Interaction evidence: wrong witness refused; pointer hold stayed provisional; pointer withdrawal committed a global rewrite; Delete restored the quiet signature; Enter compounded four returns; Escape released memory.
-- Blind evidence: reduced-motion static raw previews retained four absence sites while hiding readout, controls, status, hint, and caption furniture.
-- Screenshots: 20 local proof captures in `research/qa/proofs/webgpu-v049-2026-11-10-local/`.
+- Browser diagnostics: **0** console errors, **0** first-party bad responses, **0** horizontal overflow; target widths matched; tested control minimum **44px**, locally and on the stable production alias.
+- Interaction evidence: wrong witness refused; pointer hold stayed provisional; pointer withdrawal committed a global rewrite; Delete restored the quiet signature; Enter compounded four returns; Escape released memory, locally and on production.
+- Blind evidence: reduced-motion static raw previews retained four absence sites while hiding readout, controls, status, hint, and caption furniture, locally and on production.
+- Screenshots: 20 local proof captures and 20 stable-alias production proof captures in `research/qa/proofs/webgpu-v049-2026-11-10-local/` and `research/qa/proofs/webgpu-v049-2026-11-10-production/`.
+- Production readback: `https://autopoiesis-nine.vercel.app/` returned the expected record in `/studio/data/works.json` and `/studio/data/catalog-public.json`; the rendered Journal exposed `journal-webgpu-2026-11-10` and the exact title; canonical work, raw tableau, and favicon returned 200.
 
 ## Critique and release state
 
-The structural critic accepts the medium and encounter rupture. The perceptual critic remains unresolved until an independent caption-free review confirms that the blind field reads as reciprocal absence rather than a decorative constellation. This is therefore honestly held, not exhibition-ready. Production verification and provider revision linkage remain pending.
+The structural critic accepts the medium and encounter rupture. The perceptual critic remains unresolved until an independent caption-free review confirms that the blind field reads as reciprocal absence rather than a decorative constellation. This is therefore honestly held, not exhibition-ready. Production content is verified on the stable alias; provider revision linkage remains unresolved because deployment was manual rather than explicitly Git-linked.
