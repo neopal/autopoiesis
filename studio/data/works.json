@@ -137,8 +137,17 @@
         "status": "30/30 local headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; raw pointer, keyboard, lift, release, blind preview, canonical route, diagnostics, favicon, and first-party response checks passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage; production readback passed via the stable Vercel alias",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
-        "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
-        "modes": ["normal", "reduced-motion"],
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
         "localAlias": "http://127.0.0.1:41749",
         "localRawPreview": "/studies/naive-art/v049/?preview=1&interaction=1",
         "localBlindPreview": "/studies/naive-art/v049/?preview=1&static=1&blind=1",
@@ -157,13 +166,17 @@
         "localReadbacks": "Local raw v049 and canonical work rendered at all target viewports; source works.json and catalog-public.json contain one naive-2026-11-10 record; canonical tableau, raw tableau, Journal mount, and favicon returned.",
         "localProofPath": "research/qa/proofs/naive-v049-2026-11-10-local/",
         "localScreenshotCount": 10,
-        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+        "unresolved": [
+          "independent caption-free perceptual review",
+          "provider revision linkage between final Vercel deployment and GitHub SHA"
+        ]
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v049 if a refused gesture commits, only a local cell changes, the join is cosmetic, fold order is cosmetic, later folds reset, exact lifting fails, or the blind body reads as a generic mosaic or interface.",
         "lineage": "naive-2026-11-09"
       }
-    },    {
+    },
+    {
       "id": "portrait-2026-11-10",
       "currentId": "portrait",
       "date": "2026-11-10",
@@ -709,6 +722,156 @@
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, selection-off, hint-off, and prose-off comparison; delete v053 if global contour/seam movement is absent, if pressure settling is cosmetic, if order is cosmetic, if lift is inexact, or if the blind membrane reads as a decorated field.",
         "lineage": "brush-2026-11-09"
+      }
+    },
+    {
+      "id": "webgpu-2026-11-10",
+      "currentId": "webgpu",
+      "date": "2026-11-10",
+      "title": "The archive closes around the gaze.",
+      "rawPath": "/studies/webgpu/v049/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-webgpu-2026-11-10",
+        "note": "v049 abandons v046's folded cadence, v047's social absence arch, and v048's pressure shell. A flat field of twenty-four listening apertures now stores reciprocal looking as negative space: attention is provisional until withdrawal returns it, then the watched witness closes into an absence and the whole field re-produces. Four returns compound and remain liftable."
+      },
+      "critiques": [
+        {
+          "persona": "Form critic",
+          "argument": "The first view must read as one negative-space field before it reads as twenty-four sites. Unequal aperture scale, central quiet, and asymmetric return axes must carry the composition without interface chrome.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With labels, readout, controls, hint, and prose hidden, the field must leave v046's folded cadence, v047's absence arch, and v048's pressure shell. It should read as stored attention in openings, not a particle demo.",
+          "status": "unresolved"
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must attend to the lit witness and withdraw toward a different returned witness. Pointer, touch, keyboard, and the return control must provide equivalent meaningful paths; no hover-only action may carry the work.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "An incomplete hold, repeated witness, wrong witness, and wrong reply must leave every aperture exact. Only a valid return may alter the field.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Absence critic",
+          "argument": "The watched entry must become an actual absence in the field, not a label or halo. The next witness must move to the returned site as a consequence of the same event.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Collective critic",
+          "argument": "A returned attention must re-produce the whole arrangement. A local hole or cursor response is insufficient; most sites must change in their opening, echo, or attention state.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four returns must compound in one field. Lift must reconstruct the exact prior state, and release must return to the deterministic quiet field.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Responsive critic",
+          "argument": "The field, witness readout, controls, and keyboard path must remain visible and reachable at 320px and 390px without horizontal overflow or hover dependency.",
+          "status": "unresolved"
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "Native Canvas 2D apertures, counter-axis, deterministic state, and the capability boundary are the medium. No imported model, image, font, or p5 library may carry the work.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "little-critters is translated from situated proximity and reciprocal looking into collective negative-space memory. Animals, faces, paper style, head-turning, source composition, source code, and surface vocabulary are refused.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v049 changes representation, composition, encounter, temporal memory, shape vocabulary, and medium: flat apertures and withdrawal replace the mesh, route shell, and discrete social arch.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v049 if attention is cursor decoration, only one aperture changes, return order is cosmetic, memory resets, lift is inexact, or the blind field reads as a generic constellation.",
+          "status": "gate"
+        }
+      ],
+      "metrics": {
+        "id": "webgpu-v049-reciprocal-absence",
+        "seed": "0x57473049",
+        "visitorInput": true,
+        "replay": true,
+        "renderer": "deterministic Canvas 2D attention field with WebGPU capability signal",
+        "grammar": "reciprocal-absence",
+        "siteCount": 24,
+        "memoryWindow": 4,
+        "primitiveBudget": "one flat negative field, twenty-four angular listening apertures, one returned attention axis, and four liftable absence changes",
+        "commitThreshold": "attention must begin at the lit witness and withdraw at its deterministic returned witness; wrong witnesses, repeats, incomplete holds, and wrong replies remain geometry-neutral",
+        "memoryRule": "a valid returned attention changes every aperture, turns the watched entry into an absence, and makes the reply the only next witness; four returns compound and remain liftable",
+        "interactionRule": "pointer or touch attends to the lit witness and withdraws at its return; Enter or Space performs the deterministic return; Delete lifts latest; Escape or R releases",
+        "representationRupture": "WEBGL pressure shell, folded cadence, and absence arch -> flat Canvas 2D negative-space field",
+        "compositionRupture": "continuous body and rail -> deep central quiet surrounded by unequal listening apertures",
+        "encounterRupture": "source-to-exit pressure travel -> attend, withdraw, and let the watched site disappear",
+        "temporalRupture": "route memory on a surface -> discrete absence history carried by global aperture production",
+        "mediumRupture": "WEBGL mesh and p5 rendering -> native Canvas 2D drawing with WebGPU only as a reported capability",
+        "changedRule": "Attention is provisional while held. Only withdrawal toward the field's returned witness can rewrite every aperture, and the watched witness becomes the next absence.",
+        "visibleConsequence": "The blind view is a flat constellation of angular apertures around a deep quiet. A valid return changes every opening, lays a counter-axis, closes the watched site into absence, and leaves four absence sites after four returns.",
+        "falsifier": "Delete if attention only moves a cursor, one aperture alone changes, return order is cosmetic, later returns reset the field, lifting is inexact, or the blind image reads as a decorative constellation or generic particle demo.",
+        "deletionCondition": "Delete v049 if caption-free viewing cannot distinguish reciprocal absence from v046-v048 or if the returned-attention rule is not visible without labels and prose.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "little-critters"
+      },
+      "source": {
+        "referenceId": "little-critters",
+        "title": "little-critters",
+        "url": "https://github.com/GordenSun/little-critters",
+        "observedMechanism": "A situated population uses local proximity to make attention legible: agents turn toward the visitor and reciprocal looking changes the encounter without a dashboard.",
+        "translatedRule": "Refuse animals, faces, paper style, head-turning, source composition, source code, examples, and surface vocabulary. Translate reciprocal attention into a negative-space memory: attention remains provisional while held, and withdrawal toward a returned witness rewrites every aperture while the watched witness becomes an absence.",
+        "visibleConsequence": "The blind view is a flat constellation of angular apertures around a deep quiet. A valid return changes every opening, lays a counter-axis, closes the watched site into an absence, and leaves four absence sites after four returns.",
+        "falsifier": "If attention only moves a cursor, if one aperture alone changes, if return order is cosmetic, if later returns reset the field, if lifting is inexact, or if the blind field reads as a decorative constellation or generic particle demo, the translation fails.",
+        "antiCopy": "No animals, faces, paper style, head-turning scene, source composition, source code, examples, API surface, or source imagery from little-critters is reproduced.",
+        "directionConsequence": "Closes WebGPU's material-topology sequence and opens negative-space memory: the crowd question is tested without a crowd, through a flat field that stores being seen as changed openings and absences.",
+        "selectedBySlot": true
+      },
+      "browserEvidence": {
+        "status": "local browser matrix pending; candidate held pending perceptual review and provider revision linkage",
+        "productionReady": false,
+        "runner": "pending",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localRawPreview": "/studies/webgpu/v049/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/webgpu/v049/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/webgpu-2026-11-10/",
+        "localDiagnostics": null,
+        "localBadResponses": null,
+        "localOverflow": null,
+        "localTargetWidthsValid": null,
+        "localMinTouchTarget": 44,
+        "localInteraction": "pending",
+        "localBlindPreviewEvidence": "pending",
+        "localReadbacks": "pending",
+        "localProofPath": "research/qa/proofs/webgpu-v049-2026-11-10-local/",
+        "localScreenshotCount": 0,
+        "unresolved": [
+          "local and production browser evidence",
+          "independent caption-free perceptual review",
+          "provider revision linkage between final Vercel deployment and GitHub SHA"
+        ]
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v049 if attention is cursor decoration, only one aperture changes, return order is cosmetic, later returns reset, exact lifting fails, or the blind field reads as a generic constellation.",
+        "lineage": "webgpu-2026-11-09"
       }
     },
     {

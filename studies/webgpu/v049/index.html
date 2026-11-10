@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c13">
+  <meta name="description" content="A field remembers being watched by closing the gaze into a new absence.">
+  <title>MUTINE — The archive closes around the gaze.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interaction-mode');
+    window.__mutineWebGPUAvailable = Boolean(navigator.gpu);
+  </script>
+  <link rel="stylesheet" href="/studio/studio.css">
+  <link rel="stylesheet" href="/studio/catalog.css?v=004">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=049">
+</head>
+<body class="work-page" data-current="webgpu">
+  <div class="attention-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/">MUTINE</a>
+      <p>WEBGPU CURRENT / v049 / RECIPROCAL ABSENCE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="attention-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/webgpu/">webgpu</a><span aria-hidden="true">→</span><span aria-current="page">v049</span></nav>
+      <figure class="attention-work artwork-frame" aria-labelledby="work-title">
+        <div id="attention-frame" class="attention-frame">
+          <canvas id="attention-field" tabindex="0" role="img" aria-label="A flat field of listening apertures. Attend to the lit witness, then withdraw toward its returned witness to alter the whole field.">The WebGPU reciprocal absence tableau.</canvas>
+          <div class="attention-readout" role="status" aria-live="polite"><span data-stage>FIELD 01 / 05</span><span data-memory>quiet field · 0 returns</span><span data-renderer>WEBGPU SIGNAL / CANVAS 2D / RECIPROCAL ABSENCE</span></div>
+          <p class="attention-status" data-status>attend to the lit witness · withdraw toward its return</p>
+          <div class="attention-controls" aria-label="Work gestures">
+            <button type="button" data-gesture="attend">return attention</button>
+            <button type="button" data-gesture="lift">lift last return</button>
+            <button type="button" data-gesture="release">release absence</button>
+          </div>
+          <p class="attention-hint">what is watched becomes the place the field cannot keep</p>
+          <figcaption><span>WEBGPU / V049 / DAILY WORK</span><span>watch → withdraw → absence</span></figcaption>
+        </div>
+      </figure>
+      <section class="attention-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">WEBGPU / V049 / DAILY WORK</p><h1 id="work-title">The archive closes<br><i>around the gaze.</i></h1></div>
+        <p class="attention-premise">A field does not answer attention where it was received. It returns the attention as an absence elsewhere in the whole arrangement.</p>
+      </section>
+      <aside class="attention-notes" aria-label="Work annotations">
+        <div><span>changed rule</span><p>Attention remains provisional while it is held. Only withdrawal toward the deterministic returned witness can rewrite every aperture, and the watched site becomes the next absence.</p></div>
+        <div><span>cultural translation</span><p>Situated agents and reciprocal looking become a field memory without animals or faces: the work stores the relation of being watched as a collective change in negative space.</p></div>
+        <div><span>falsifier / deletion</span><p>Delete v049 if the gesture only moves a cursor, if a local aperture alone changes, if return order is cosmetic, if memory resets, or if the blind field reads as a decorative constellation.</p></div>
+      </aside>
+    </main>
+    <footer class="studio-footer"><a href="/currents/webgpu/">webgpu current</a><span>watch · withdraw · disappear</span><a href="/journal/#journal-webgpu-2026-11-10">journal ↗</a></footer>
+  </div>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="webgpu-2026-11-10"></script>
+  <script type="module" src="./sketch.js?v=049a"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+:root {
+  --absence-ground: #0b0c13;
+  --absence-void: #11141f;
+  --absence-ink: #eee7d7;
+  --absence-muted: #9aa0ae;
+  --absence-sulfur: #d7d18c;
+  --absence-coral: #e18e72;
+  --absence-sky: #86b8bf;
+  --absence-violet: #8d84b7;
+  --absence-frame: rgba(215, 209, 140, .42);
+}
+
+html, body { margin: 0; min-width: 0; background: var(--absence-ground); color: var(--absence-ink); }
+body.work-page[data-current='webgpu'] {
+  background:
+    radial-gradient(circle at 14% 18%, rgba(134, 184, 191, .13), transparent 27rem),
+    radial-gradient(circle at 88% 76%, rgba(225, 142, 114, .11), transparent 31rem),
+    var(--absence-ground);
+}
+.attention-shell { width: min(100%, 1640px); margin: 0 auto; padding: clamp(14px, 2vw, 28px) clamp(14px, 4vw, 64px) 34px; box-sizing: border-box; }
+.attention-shell .studio-header { min-height: 38px; border-bottom-color: rgba(215, 209, 140, .24); }
+.attention-shell .studio-header p, .attention-shell .studio-nav a, .attention-shell .studio-path, .attention-shell figcaption, .attention-shell .studio-footer { color: var(--absence-muted); }
+.attention-main { min-width: 0; }
+.attention-main .studio-path { margin: clamp(16px, 3vw, 30px) 0 12px; }
+.attention-work { margin: 0; }
+.attention-frame { position: relative; isolation: isolate; min-width: 0; aspect-ratio: 16 / 10; overflow: hidden; background: var(--absence-void); border: 1px solid var(--absence-frame); box-shadow: 0 28px 110px rgba(0, 0, 0, .68), inset 0 0 0 1px rgba(238, 231, 215, .06); }
+.attention-frame::before { content: ''; position: absolute; inset: 14px; z-index: 2; border: 1px solid rgba(225, 142, 114, .2); pointer-events: none; }
+#attention-field { display: block; width: 100%; height: 100%; outline: none; cursor: crosshair; touch-action: none; }
+.attention-readout, .attention-status, .attention-controls, .attention-hint, .attention-frame figcaption { position: absolute; z-index: 3; }
+.attention-readout { top: 22px; left: 24px; display: flex; gap: 14px; flex-wrap: wrap; max-width: calc(100% - 48px); color: rgba(238, 231, 215, .74); font: 10px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.attention-readout span + span::before { content: '·'; margin-right: 14px; color: var(--absence-coral); }
+.attention-status { bottom: 58px; left: 24px; max-width: 52%; color: rgba(238, 231, 215, .8); font: 12px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.attention-controls { right: 22px; bottom: 50px; display: flex; gap: 7px; justify-content: flex-end; flex-wrap: wrap; max-width: 55%; }
+.attention-controls button { min-height: 44px; padding: 0 12px; border: 1px solid rgba(215, 209, 140, .48); border-radius: 2px; background: rgba(11, 12, 19, .88); color: var(--absence-ink); font: 10px/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }
+.attention-controls button:hover, .attention-controls button:focus-visible { border-color: var(--absence-sulfur); background: rgba(215, 209, 140, .12); outline: 2px solid rgba(215, 209, 140, .24); outline-offset: 2px; }
+.attention-hint { left: 24px; bottom: 17px; color: rgba(154, 160, 174, .78); font: 9px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.attention-frame figcaption { right: 22px; bottom: 16px; left: 22px; display: flex; justify-content: space-between; gap: 14px; color: var(--absence-muted); font: 9px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
+.attention-opening { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .36fr); gap: 30px; align-items: end; padding: clamp(28px, 7vw, 82px) 0 clamp(22px, 4vw, 44px); border-bottom: 1px solid rgba(215, 209, 140, .2); }
+.attention-opening h1 { max-width: 920px; margin: 10px 0 0; color: var(--absence-ink); font-size: clamp(40px, 7vw, 112px); font-weight: 500; letter-spacing: -.06em; line-height: .88; }
+.attention-opening h1 i { color: var(--absence-sulfur); font-family: Georgia, serif; font-weight: 400; }
+.attention-premise { max-width: 300px; margin: 0 0 3px; color: rgba(238, 231, 215, .72); font-size: 16px; line-height: 1.25; }
+.attention-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; padding-top: 22px; }
+.attention-notes > div { padding-top: 11px; border-top: 1px solid rgba(215, 209, 140, .24); }
+.attention-notes span { color: var(--absence-sulfur); font: 10px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .1em; text-transform: uppercase; }
+.attention-notes p { margin: 8px 0 0; color: rgba(238, 231, 215, .74); font-size: 13px; line-height: 1.45; }
+.attention-shell .studio-footer { margin-top: 30px; border-top-color: rgba(215, 209, 140, .22); }
+html.preview-mode .attention-shell { width: 100%; max-width: none; padding: 0; }
+html.preview-mode .attention-shell .studio-header, html.preview-mode .attention-main > .studio-path, html.preview-mode .attention-opening, html.preview-mode .attention-notes, html.preview-mode .studio-footer { display: none; }
+html.preview-mode .attention-frame { width: 100vw; height: 100vh; min-height: 100vh; aspect-ratio: auto; border: 0; box-shadow: none; }
+html.preview-mode .attention-frame::before, html.blind-mode .attention-frame::before { display: none; }
+html.blind-mode .attention-readout, html.blind-mode .attention-status, html.blind-mode .attention-controls, html.blind-mode .attention-hint, html.blind-mode .attention-frame figcaption { display: none; }
+@media (prefers-reduced-motion: reduce) { #attention-field { cursor: default; } }
+@media (max-width: 920px) { .attention-notes { grid-template-columns: 1fr; gap: 12px; } .attention-opening { grid-template-columns: 1fr minmax(180px, .4fr); } }
+@media (max-width: 680px) {
+  .attention-shell { padding-right: 12px; padding-left: 12px; }
+  .attention-shell .studio-header p { display: none; }
+  .attention-frame { aspect-ratio: 4 / 3; }
+  .attention-readout { top: 18px; left: 18px; right: 18px; gap: 6px 10px; max-width: none; font-size: 9px; }
+  .attention-readout span + span::before { margin-right: 10px; }
+  .attention-status { right: 18px; bottom: 122px; left: 18px; max-width: none; font-size: 10px; }
+  .attention-controls { right: 18px; bottom: 55px; left: 18px; max-width: none; justify-content: stretch; }
+  .attention-controls button { flex: 1 1 30%; padding: 0 7px; font-size: 9px; }
+  .attention-hint { right: 18px; bottom: 17px; left: 18px; font-size: 8px; }
+  .attention-frame figcaption { right: 18px; bottom: 16px; left: 18px; font-size: 8px; }
+  .attention-frame figcaption span:last-child { display: none; }
+  .attention-opening { display: block; padding-top: 42px; }
+  .attention-opening h1 { font-size: clamp(42px, 15vw, 76px); }
+  .attention-premise { margin-top: 24px; }
+}
+@media (max-width: 390px) { .attention-shell .studio-nav { gap: 10px; } .attention-shell .studio-nav a { font-size: 10px; } .attention-frame { aspect-ratio: 4 / 3.1; } .attention-controls button { letter-spacing: 0; } }
