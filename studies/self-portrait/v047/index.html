@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081315">
+  <title>MUTINE — The portrait cannot keep a straight answer.</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=047">
+  <script>window.p5 = window.p5 || {}; window.p5.disableFriendlyErrors = true;</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="portrait-2026-11-10"></script>
+</head>
+<body class="work-page" data-current="portrait">
+  <div class="v047-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>SELF PORTRAIT / v047 / COUNTERPRESSURE PROFILE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="v047-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/self-portrait/">self portrait</a><span aria-hidden="true">&gt;</span><span aria-current="page">v047</span></nav>
+
+      <figure class="v047-work artwork-frame" aria-labelledby="work-title">
+        <div class="profile-stage" data-profile-stage tabindex="0" role="application" aria-label="A self-portrait profile that rewrites itself when a counterstroke reverses direction three times. Draw a zigzag across the field and release it." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Backspace Escape">
+          <div class="field-canvas-host" data-field-canvas aria-hidden="true"></div>
+          <svg class="profile-svg" data-profile-svg viewBox="0 0 1000 760" role="img" aria-label="Generated counterpressure profile">
+            <defs>
+              <linearGradient id="profile-ink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8eee1"/><stop offset=".52" stop-color="#73c8c2"/><stop offset="1" stop-color="#e2a374"/></linearGradient>
+              <linearGradient id="profile-echo" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e2a374" stop-opacity="0"/><stop offset=".5" stop-color="#e2a374" stop-opacity=".7"/><stop offset="1" stop-color="#e2a374" stop-opacity="0"/></linearGradient>
+              <filter id="profile-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <path class="profile-shadow" data-profile-shadow d="" aria-hidden="true"></path>
+            <path class="profile-spine" data-profile-spine d="" aria-hidden="true"></path>
+            <g data-profile-echoes aria-hidden="true"></g>
+            <g data-profile-ribs></g>
+            <path class="profile-slit" data-profile-slit d="" aria-hidden="true"></path>
+            <circle class="profile-nucleus" data-profile-nucleus cx="500" cy="380" r="4" aria-hidden="true"></circle>
+          </svg>
+          <div class="profile-coordinate" aria-hidden="true">x / reverse / release</div>
+          <div class="profile-readout" aria-live="polite"><span data-stage>quiet profile / 00</span><span data-memory>0 rewrites held</span><span data-state>the portrait is keeping its first contour</span></div>
+          <p class="profile-hint" data-hint>draw a counterstroke · reverse direction three times · release</p>
+          <div class="counterpressure-controls" aria-label="Counterpressure encounter controls">
+            <button type="button" data-action="counterstroke">release counterstroke</button>
+            <button type="button" data-action="lift">lift last profile</button>
+            <button type="button" data-action="release">release memory</button>
+          </div>
+        </div>
+        <figcaption><span>seed | mutine-self-portrait-v047-counterpressure-profile</span><span>reverse &gt; resist &gt; re-produce</span></figcaption>
+      </figure>
+
+      <section class="v047-opening" aria-labelledby="work-title">
+        <p class="eyebrow">SELF PORTRAIT / COUNTERPRESSURE / v047</p>
+        <h1 id="work-title">The portrait<br><i>cannot keep a straight answer.</i></h1>
+        <p class="v047-lede">The profile is not a line waiting for a brush. It is a field that notices when pressure changes direction. A counterstroke released through the empty margin turns its reversals into a new contour; the whole portrait moves, not the place that was touched.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A STRAIGHT STROKE IS NOT AN ANSWER</p>
+          <p class="interaction-copy">Pointer or touch: draw across the field and reverse direction three times before releasing. A straight or short stroke is refused. Arrow keys build the same reversal grammar; Enter / Space releases it, Delete lifts the latest rewrite, and Escape releases the memory. Four counterprofiles remain reversible.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state aria-live="polite">The portrait is keeping its first contour.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v047</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Pressure is inverted: holding or drawing does not paint the profile. Only a released stroke that reverses direction three times can rewrite the whole SVG lattice.</dd></div>
+          <div><dt>visitor action</dt><dd>Draw across the negative field, reverse three times, and release. The counterstroke is a relation, not a selected object; the portrait re-produces every rib and keeps the stroke only as memory.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if a straight stroke commits, if the touched region alone changes, if reversal order is cosmetic, if later profiles reset, or if lifting is inexact.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v047 if caption-free viewing reads as a decorative line lattice rather than a self-portrait whose contour is rewritten by counterpressure.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/portrait-2026-11-09/">previous daily work</a><a href="/journal/#journal-portrait-2026-11-10">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=047"></script>
+</body>
+</html>

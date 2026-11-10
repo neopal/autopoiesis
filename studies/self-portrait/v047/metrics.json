@@ -1,0 +1,18 @@
+{
+  "id": "portrait-v047-counterpressure-profile",
+  "seed": "0x503047",
+  "renderer": "deterministic browser SVG lattice with p5.js ambient field",
+  "grammar": "counterpressure-profile",
+  "nodeCount": 28,
+  "reversalLimit": 3,
+  "memoryWindow": 4,
+  "commitThreshold": "at least six samples, total path length >= 0.9, and three horizontal direction reversals",
+  "memoryRule": "pending samples remain geometry-neutral; release after three reversals re-produces every rib, echo, spine, slit, and handedness",
+  "representationRupture": "WEBGL loop object, DOM manuscript, and Canvas register -> generated SVG rib lattice",
+  "compositionRupture": "single loop, typeset page, and upright register -> off-centre vertical profile around an open slit",
+  "encounterRupture": "closed enclosure, selected words, and contradictory panels -> continuous negative-space counterstroke",
+  "temporalRupture": "closure compilation and marked-word compilation -> reversal-based release",
+  "mediumRupture": "WEBGL facets, DOM tokens, and Canvas leaves -> SVG paths with deterministic document memory",
+  "interactionRule": "pointer/touch draws and releases; ArrowLeft/ArrowRight plus Enter/Space; Delete; Escape",
+  "replay": true
+}

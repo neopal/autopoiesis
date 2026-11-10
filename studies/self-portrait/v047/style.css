@@ -1,0 +1,93 @@
+:root {
+  --v047-ground: #081315;
+  --v047-ground-deep: #050a0b;
+  --v047-ink: #d8eee1;
+  --v047-dim: #8aa9a4;
+  --v047-faint: rgba(216, 238, 225, .16);
+  --v047-aqua: #73c8c2;
+  --v047-coral: #e2a374;
+  --v047-violet: #9185bb;
+  --v047-line: rgba(216, 238, 225, .22);
+}
+
+html, body { margin: 0; background: var(--v047-ground); }
+body.work-page[data-current="portrait"] { color: var(--v047-ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.v047-shell { min-height: 100vh; background: radial-gradient(circle at 18% 12%, rgba(115, 200, 194, .14), transparent 24rem), radial-gradient(circle at 82% 68%, rgba(226, 163, 116, .12), transparent 30rem), var(--v047-ground); }
+.v047-main { max-width: 1240px; margin: 0 auto; padding: 1.1rem 2.2rem 5rem; }
+.studio-header, .studio-footer, .studio-path { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.studio-header { border-bottom-color: var(--v047-line); }
+.studio-header p { color: var(--v047-dim); letter-spacing: .11em; }
+.studio-mark { color: var(--v047-coral); }
+.studio-nav a, .studio-path a, .studio-footer a { color: var(--v047-dim); }
+.studio-nav a:hover, .studio-path a:hover, .studio-footer a:hover { color: var(--v047-aqua); }
+.studio-path { margin: 2rem 0 .8rem; color: rgba(216, 238, 225, .45); }
+.studio-path span[aria-current="page"] { color: var(--v047-coral); }
+
+.v047-work { margin: 0; }
+.profile-stage { position: relative; height: min(78vh, 820px); min-height: 570px; overflow: hidden; border: 1px solid rgba(216, 238, 225, .3); background: var(--v047-ground-deep); box-shadow: 0 30px 90px rgba(0, 0, 0, .5), inset 0 0 0 1px rgba(255,255,255,.035); isolation: isolate; touch-action: none; cursor: crosshair; }
+.profile-stage:focus-visible { outline: 2px solid var(--v047-coral); outline-offset: 5px; }
+.field-canvas-host { position: absolute; inset: 0; z-index: 0; opacity: .72; }
+.field-canvas-host canvas { display: block; width: 100% !important; height: 100% !important; }
+.profile-svg { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; overflow: visible; }
+.profile-svg * { vector-effect: non-scaling-stroke; }
+.profile-shadow { fill: none; stroke: rgba(0,0,0,.65); stroke-width: 16; filter: blur(10px); transform: translate(11px, 15px); }
+.profile-spine { fill: none; stroke: rgba(216, 238, 225, .4); stroke-width: 1; stroke-dasharray: 1 13; }
+.profile-rib { fill: none; stroke: url(#profile-ink); stroke-linecap: round; filter: url(#profile-glow); transition: d .65s cubic-bezier(.2,.8,.2,1), opacity .4s, stroke-width .4s; }
+.profile-rib--quiet { stroke: rgba(216, 238, 225, .84); filter: none; }
+.profile-echo { fill: none; stroke: url(#profile-echo); stroke-linecap: round; opacity: .5; transition: d .65s cubic-bezier(.2,.8,.2,1); }
+.profile-slit { fill: none; stroke: rgba(226, 163, 116, .9); stroke-width: 1.5; stroke-dasharray: 2 9; opacity: .8; transition: d .65s cubic-bezier(.2,.8,.2,1), opacity .45s; }
+.profile-nucleus { fill: var(--v047-coral); filter: drop-shadow(0 0 8px rgba(226, 163, 116, .75)); transition: cx .65s, cy .65s, r .65s; }
+.profile-coordinate { position: absolute; left: 26px; top: 28px; z-index: 4; color: rgba(216, 238, 225, .52); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .16em; writing-mode: vertical-rl; transform: rotate(180deg); pointer-events: none; }
+.profile-readout { position: absolute; z-index: 4; top: 28px; right: 28px; display: grid; gap: .35rem; color: rgba(216, 238, 225, .72); font: 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .05em; text-align: right; pointer-events: none; }
+.profile-readout span:last-child { color: var(--v047-coral); }
+.profile-hint { position: absolute; z-index: 4; left: 28px; bottom: 28px; max-width: 23rem; margin: 0; color: rgba(216, 238, 225, .68); font: 11px/1.35 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .05em; pointer-events: none; }
+.counterpressure-controls { position: absolute; z-index: 5; right: 28px; bottom: 20px; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .45rem; max-width: 42rem; }
+.counterpressure-controls button { min-width: 44px; min-height: 44px; padding: 0 .85rem; border: 1px solid rgba(216, 238, 225, .55); border-radius: 0; background: rgba(5, 10, 11, .86); color: var(--v047-ink); font: 10px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .035em; cursor: pointer; transition: border-color .2s, background .2s, color .2s; }
+.counterpressure-controls button:hover, .counterpressure-controls button:focus-visible { border-color: var(--v047-coral); background: var(--v047-ink); color: var(--v047-ground); outline: none; }
+figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .8rem .2rem 0; color: rgba(216, 238, 225, .5); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .05em; }
+
+.v047-opening { max-width: 960px; padding: 4.8rem 0 3.2rem; }
+.eyebrow { margin: 0 0 .8rem; color: var(--v047-coral); font: 500 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .13em; }
+.v047-opening h1 { margin: 0; color: var(--v047-ink); font-size: clamp(2.9rem, 7vw, 6.7rem); font-weight: 500; letter-spacing: -.075em; line-height: .9; }
+.v047-opening h1 i { color: var(--v047-aqua); font-style: normal; }
+.v047-lede { max-width: 46rem; margin: 1.5rem 0 0; color: var(--v047-dim); font-size: clamp(1rem, 1.7vw, 1.25rem); line-height: 1.45; }
+.interaction-panel { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, .6fr); gap: 3rem; padding: 1.4rem 0; border-top: 1px solid var(--v047-line); border-bottom: 1px solid var(--v047-line); }
+.interaction-copy, .interaction-state { margin: 0; color: var(--v047-dim); line-height: 1.55; }
+.interaction-state { align-self: end; color: var(--v047-coral); font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.annotations { max-width: 940px; padding: 3.5rem 0 1rem; }
+.annotations dl { margin: 0; }
+.annotations dl > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 1.5rem; padding: 1rem 0; border-top: 1px solid var(--v047-line); }
+.annotations dt { color: var(--v047-coral); font: 11px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; }
+.annotations dd { margin: 0; color: var(--v047-dim); line-height: 1.55; }
+.studio-footer { border-top-color: var(--v047-line); }
+.preview-mode .v047-main { max-width: none; padding: 0; }
+.preview-mode .v047-work { min-height: 100vh; }
+.preview-mode .profile-stage { height: 100vh; min-height: 100vh; border: 0; }
+.preview-mode .studio-header, .preview-mode .studio-path, .preview-mode .v047-opening, .preview-mode .interaction-panel, .preview-mode .annotations, .preview-mode .studio-footer, .preview-mode figcaption { display: none; }
+.blind-mode .profile-readout, .blind-mode .profile-hint, .blind-mode .counterpressure-controls, .blind-mode .profile-coordinate { visibility: hidden; }
+
+@media (max-width: 760px) {
+  .v047-main { padding: .8rem 1rem 4rem; }
+  .studio-header p { max-width: 13rem; font-size: 9px; line-height: 1.45; }
+  .profile-stage { height: 74vh; min-height: 590px; }
+  .profile-coordinate { left: 15px; top: 20px; font-size: 9px; }
+  .profile-readout { top: 21px; right: 16px; font-size: 9px; }
+  .profile-hint { left: 16px; bottom: 153px; max-width: 15rem; }
+  .counterpressure-controls { right: 16px; bottom: 18px; left: 16px; display: grid; grid-template-columns: repeat(2, 1fr); gap: .45rem; max-width: none; }
+  .counterpressure-controls button { width: 100%; padding: 0 .2rem; }
+  figcaption { display: grid; gap: .25rem; }
+  .v047-opening { padding: 3.4rem 0 2.5rem; }
+  .v047-opening h1 { font-size: clamp(3rem, 15vw, 5.6rem); }
+  .interaction-panel { grid-template-columns: 1fr; gap: 1rem; }
+  .annotations dl > div { grid-template-columns: 1fr; gap: .5rem; }
+}
+
+@media (max-width: 390px) {
+  .counterpressure-controls { left: 12px; right: 12px; }
+  .counterpressure-controls button { font-size: 8px; }
+  .profile-readout { right: 13px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-rib, .profile-echo, .profile-slit, .profile-nucleus, .counterpressure-controls button { transition: none; }
+}
