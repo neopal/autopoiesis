@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111018">
+  <title>MUTINE — The alphabet grows a counterform.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const previewParams = new URLSearchParams(location.search);
+    if (previewParams.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (previewParams.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (previewParams.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (previewParams.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=046">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="typography-2026-11-10"></script>
+</head>
+<body class="work-page" data-current="handwriting">
+  <div class="counterform-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>HANDWRITING / v046 / COUNTERFORM REFLOW</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="counterform-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/handwriting/">handwriting</a><span aria-hidden="true">&gt;</span><span aria-current="page">v046</span></nav>
+
+      <figure class="counterform-work artwork-frame" aria-labelledby="work-title">
+        <div id="counterform-field" class="counterform-field" tabindex="0" role="application" aria-label="A typographic inventory. Drag across a contiguous span of letters, then cut the held pressure into the phrase." aria-describedby="interaction-state" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape">
+          <div class="counterform-grain" aria-hidden="true"></div>
+          <div class="counterform-notation" aria-hidden="true"><span>HANDWRITING / 046</span><span>PRESSURE MAKES A GAP</span></div>
+          <div class="counterform-readout" aria-live="polite"><span data-stage>quiet / letters under pressure</span><span data-memory>0 cuts · 24 letters</span></div>
+          <div class="counterform-void-layer" aria-hidden="true"></div>
+          <div class="counterform-token-layer" aria-label="Letter inventory"></div>
+          <div class="counterform-controls" aria-label="Counterform field controls">
+            <button type="button" data-action="cut" data-gesture="cut">cut held span</button>
+            <button type="button" data-action="lift" data-gesture="lift">lift latest</button>
+            <button type="button" data-action="release" data-gesture="release">release archive</button>
+          </div>
+          <p class="counterform-hint" data-gesture="select">drag across 3–6 letters · cut the held span</p>
+          <p id="interaction-state" class="sr-only" aria-live="polite">The inventory is quiet. Drag across a contiguous span of three to six letters, then cut it.</p>
+        </div>
+        <figcaption><span>seed | mutine-handwriting-v046-counterform-reflow</span><span>select &gt; cut &gt; reflow</span></figcaption>
+      </figure>
+
+      <section class="counterform-opening" aria-labelledby="work-title">
+        <p class="eyebrow">HANDWRITING / DOM TYPOGRAPHY / v046</p>
+        <h1 id="work-title">The alphabet<br><i>grows a counterform.</i></h1>
+        <p class="counterform-lede">Hold a span. The sentence makes a room around it.</p>
+      </section>
+
+      <section class="interaction-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">A SPAN BECOMES A MATERIAL VOID</p>
+          <p class="interaction-copy">Drag across a contiguous run of letters, then cut the held pressure. While pending, the inventory stays exact. When cut, the selected run becomes a vertical pressure fibre and an actual counterform; every other letter is re-packed around the new void. Pointer, touch, ArrowLeft / ArrowRight plus Enter, and the deterministic control share the same grammar. Delete lifts the latest cut.</p>
+        </div>
+        <p class="interaction-state" data-interaction-state>The inventory is quiet. Drag across a contiguous span of three to six letters, then cut it.</p>
+      </section>
+
+      <section class="annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v046</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Abandon the phrase-axis, carrier, and route grammars. A contiguous span is geometry-neutral while held; cutting it turns the span into a material fibre and re-produces every other letter around a real counterform.</dd></div>
+          <div><dt>visitor action</dt><dd>Drag or touch across 3–6 adjacent letters, then cut the held span. ArrowLeft / ArrowRight chooses a span and Enter commits. The deterministic control performs the same cut. Delete lifts the latest cut; Escape or R releases. Four counterforms compound.</dd></div>
+          <div><dt>falsifier</dt><dd>Delete if the cut only moves the selected letters, if the void is an overlay, if short or occupied spans commit, if later cuts reset the reflow, or if lifting is inexact.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v046 if caption-free viewing cannot distinguish a material counterform and DOM reflow from v041–v045's gaps, routes, carrier, or collective reading axis.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">gallery</a><a href="/works/typography-2026-11-09/">previous daily work</a><a href="/journal/#journal-typography-2026-11-10">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=046"></script>
+</body>
+</html>
