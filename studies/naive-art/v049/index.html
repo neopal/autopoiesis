@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15121d">
+  <title>MUTINE — The model kneads the missing answer.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=049">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-11-10"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="pressure-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v049 / PRESSURE TOPOLOGY</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="pressure-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v049</span></nav>
+
+      <section class="pressure-surface" aria-label="Naive pressure topology tableau">
+        <figure class="pressure-work artwork-frame">
+          <div class="pressure-field" id="pressure-field" tabindex="0" role="application" aria-label="An SVG topology made of twelve unread cells. Push against the field with a turning gesture, then release; the model will fold the whole topology according to the wrong answer." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R">
+            <div class="pressure-ambient" id="pressure-ambient" aria-hidden="true"></div>
+            <svg id="pressure-svg" viewBox="-1 -1 2 2" preserveAspectRatio="xMidYMid meet" aria-hidden="true"></svg>
+            <div class="pressure-readout" aria-live="polite"><span data-stage>fold 00 / 04</span><span data-memory>0 retained</span><span data-status>push against the field, then release</span></div>
+          </div>
+          <div class="pressure-controls" aria-label="Pressure topology actions">
+            <button type="button" data-action="fold">make a fold</button>
+            <button type="button" data-action="lift">lift last fold</button>
+            <button type="button" data-action="release">release the pressure</button>
+          </div>
+          <p class="pressure-hint">push, turn, push again · the model will choose the wrong seam</p>
+          <figcaption><span>seed | mutine-naive-v049</span><span>pressure &gt; topology</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Twelve unread cells are packed into an uneven SVG body. Their seams are quiet; no cell is a privileged answer.</p></div>
+          <div><span>critique</span><p>Pressure is not a mark. When resistance turns three times, the model spends the whole field on a seam it cannot justify.</p></div>
+          <div><span>progression</span><p>v049 abandons v048's reciprocal crowd and v047's proof strip. A pressure gesture now changes topology itself, not a remote target.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V049 / DAILY WORK</p><h1 id="work-title">The model kneads<br><i>the missing answer.</i></h1></div>
+        <p class="work-premise">It mistakes resistance for evidence, then folds the entire answer around a seam that was never there.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v049 translates material production into a topology error: an opposed, turning pressure gesture is geometry-neutral until release, then the model changes every SVG cell and chooses a wrong pair to fuse. Four folds compound as liftable memory.</p></section>
+      <p class="work-loop">push &rarr; turn against resistance &rarr; release &rarr; the wrong seam becomes the answer</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-11-09/">previous daily work</a><a href="/journal/#journal-naive-2026-11-10">journal [external]</a></footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>p5.disableFriendlyErrors = true;</script>
+  <script type="module" src="./sketch.js?v=049"></script>
+</body>
+</html>

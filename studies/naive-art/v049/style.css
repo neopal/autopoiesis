@@ -1,0 +1,141 @@
+:root {
+  --ground: #120d19;
+  --ground-deep: #07050d;
+  --paper: #f0e5c3;
+  --paper-light: #fff2c8;
+  --ink: #1a1320;
+  --muted: #ab9aaa;
+  --line: rgba(255, 242, 200, .2);
+  --signal: #f0a36b;
+  --acid: #d7cf82;
+  --violet: #8e6a9d;
+}
+
+html, body { min-width: 0; }
+body.work-page {
+  margin: 0;
+  color: var(--paper-light);
+  background:
+    radial-gradient(circle at 12% 16%, rgba(142, 106, 157, .2), transparent 28rem),
+    radial-gradient(circle at 84% 76%, rgba(240, 163, 107, .13), transparent 32rem),
+    repeating-linear-gradient(116deg, rgba(255, 242, 200, .02) 0 1px, transparent 1px 45px),
+    linear-gradient(145deg, var(--ground-deep), #271a2b 52%, #0b0712);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.pressure-shell { min-height: 100vh; padding: 0 3vw; }
+.pressure-main { max-width: 1540px; margin: 0 auto; padding: 0 0 4.5rem; }
+.studio-header, .studio-footer { color: var(--paper-light); }
+.studio-header a, .studio-footer a { color: inherit; }
+.studio-path { color: rgba(255, 242, 200, .62); }
+.studio-path a { color: var(--paper-light); }
+.pressure-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, .3fr);
+  gap: clamp(1rem, 3vw, 3.8rem);
+  align-items: start;
+  margin-top: clamp(1rem, 3vw, 2.7rem);
+}
+.pressure-work {
+  margin: 0;
+  padding: clamp(.45rem, 1.2vw, 1.15rem);
+  color: var(--ink);
+  background: rgba(240, 229, 195, .97);
+  box-shadow: 1.3rem 2rem 4.8rem rgba(0, 0, 0, .52);
+}
+.pressure-field {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  outline: none;
+  aspect-ratio: 1.33 / 1;
+  min-height: 420px;
+  overflow: hidden;
+  color: var(--paper-light);
+  background: #15121d;
+  cursor: crosshair;
+  touch-action: none;
+}
+.pressure-field:focus-visible { box-shadow: inset 0 0 0 2px var(--signal); }
+.pressure-field::before {
+  position: absolute;
+  inset: 6% 5%;
+  z-index: -1;
+  border: 1px solid rgba(255, 242, 200, .11);
+  content: '';
+  transform: skewY(-2deg) rotate(.8deg);
+  pointer-events: none;
+}
+.pressure-field::after {
+  position: absolute;
+  right: 8%;
+  bottom: 11%;
+  width: 36%;
+  height: 1px;
+  background: var(--signal);
+  box-shadow: -14rem -5rem 0 rgba(215, 207, 130, .28), -25rem 2.2rem 0 rgba(142, 106, 157, .38);
+  content: '';
+  transform: rotate(13deg);
+  pointer-events: none;
+}
+.pressure-ambient, .pressure-ambient canvas, #pressure-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.pressure-ambient { z-index: 0; pointer-events: none; opacity: .95; }
+#pressure-svg { z-index: 1; overflow: visible; }
+.pressure-shadow { filter: drop-shadow(.015rem .02rem .012rem rgba(15, 8, 18, .66)); }
+.pressure-cell { transform-origin: center; transition: filter .24s ease; }
+.pressure-cell[data-focused="true"] { filter: drop-shadow(0 0 .018rem rgba(255, 224, 160, .9)); }
+.pressure-cell.folded-cell { filter: drop-shadow(.018rem .02rem 0 rgba(240, 163, 107, .35)); }
+.pressure-aperture { mix-blend-mode: multiply; }
+.pressure-join { stroke-dasharray: .06 .032; }
+.pressure-trace { pointer-events: none; }
+.pressure-readout { position: absolute; z-index: 30; left: 1rem; top: .8rem; display: flex; flex-wrap: wrap; gap: .45rem 1rem; color: rgba(255, 242, 200, .88); font-size: .67rem; pointer-events: none; }
+.pressure-readout span::before { content: '— '; color: var(--signal); }
+.pressure-controls { position: relative; z-index: 40; display: flex; flex-wrap: wrap; gap: .45rem; padding: .75rem .15rem .05rem; }
+.pressure-controls button { min-width: 44px; min-height: 44px; border: 1px solid rgba(26, 19, 32, .74); border-radius: 0; padding: .6rem .8rem; color: var(--ink); background: transparent; font: 600 .7rem/1.1 ui-monospace, monospace; cursor: pointer; }
+.pressure-controls button:hover, .pressure-controls button:focus-visible { color: var(--paper); background: var(--ink); outline: none; }
+.pressure-hint { margin: .5rem 0 .1rem; color: rgba(26, 19, 32, .76); font-size: .63rem; line-height: 1.4; }
+.pressure-work figcaption { display: flex; justify-content: space-between; gap: 1rem; padding: .65rem .1rem 0; color: rgba(26, 19, 32, .68); font-size: .64rem; line-height: 1.3; }
+.work-annotations { display: grid; gap: 1.2rem; margin-top: .5rem; }
+.work-annotations > div { border-top: 1px solid var(--line); padding-top: .65rem; }
+.work-annotations span, .studio-kicker { color: var(--signal); font: 600 .66rem/1.2 ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.work-annotations p { margin: .5rem 0 0; color: rgba(255, 242, 200, .77); font: .92rem/1.55 system-ui, sans-serif; }
+.work-opening { border-top-color: var(--line); }
+.work-opening h1 { color: var(--paper-light); }
+.work-premise { color: rgba(255, 242, 200, .72); }
+.work-note { border-color: var(--line); color: rgba(255, 242, 200, .73); }
+.work-loop { color: var(--signal); }
+
+html.preview-mode .studio-header,
+html.preview-mode .studio-path,
+html.preview-mode .work-annotations,
+html.preview-mode .work-opening,
+html.preview-mode .work-note,
+html.preview-mode .studio-footer,
+html.preview-mode .pressure-work figcaption { display: none; }
+html.preview-mode .pressure-main { max-width: 100vw; padding: 0; }
+html.preview-mode .pressure-surface { display: block; margin: 0; }
+html.preview-mode .pressure-work { padding: 0; box-shadow: none; }
+html.blind-mode .pressure-readout,
+html.blind-mode .pressure-controls,
+html.blind-mode .pressure-hint { display: none; }
+html.blind-mode .pressure-field { cursor: default; }
+
+@media (max-width: 860px) {
+  .pressure-shell { padding: 0 1rem; }
+  .pressure-surface { grid-template-columns: 1fr; }
+  .work-annotations { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
+}
+@media (max-width: 680px) {
+  .pressure-shell { padding: 0 .55rem; }
+  .pressure-surface { margin-top: .5rem; }
+  .pressure-work { padding: .35rem; }
+  .pressure-field { min-height: 0; aspect-ratio: .82 / 1; }
+  .pressure-readout { left: .6rem; top: .55rem; font-size: .57rem; }
+  .pressure-controls { gap: .3rem; }
+  .pressure-controls > button { flex: 1 1 8rem; padding: .55rem .5rem; }
+  .pressure-hint { font-size: .57rem; }
+  .pressure-work figcaption { display: grid; gap: .25rem; }
+  .work-annotations { grid-template-columns: 1fr; gap: .8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pressure-cell, .pressure-controls button { transition: none; }
+}
