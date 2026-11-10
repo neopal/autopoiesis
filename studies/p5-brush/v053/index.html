@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17121d">
+  <title>MUTINE — The paint dries toward the pressure.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.get('interaction') === '1') document.documentElement.classList.add('interaction-mode');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=053">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-10"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="membrane-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v053 / TENSION MEMBRANE</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="membrane-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v053</span></nav>
+
+      <figure class="membrane-work artwork-frame" aria-labelledby="work-title">
+        <div id="membrane-field" class="membrane-field" tabindex="0" role="application" aria-label="A continuous paint membrane. Drag from one edge across the skin to another edge, then settle before release; the whole membrane dries toward the pressure. Same-edge, short, or unsettled passages are refused." aria-keyshortcuts="Enter Space Delete Escape R S ArrowLeft ArrowRight">
+          <div class="membrane-readout" aria-live="polite"><span data-membrane-stage>PASS 00 / 04</span><span data-membrane-memory>dry membrane · no pressure retained</span></div>
+          <div id="membrane-canvas" class="membrane-canvas" data-membrane-canvas></div>
+          <div class="membrane-selection" data-selection aria-live="polite">west → east / ready</div>
+          <div class="membrane-controls" aria-label="Material actions">
+            <button type="button" data-gesture="pass">make a pressure passage</button>
+            <button type="button" data-gesture="lift">lift last crossing</button>
+            <button type="button" data-gesture="release">dry the membrane</button>
+          </div>
+          <p class="membrane-hint">drag from one edge across the skin · settle · release</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v053-tension-membrane</span><span>cross &gt; settle &gt; dry</span></figcaption>
+      </figure>
+
+      <section class="membrane-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / TENSION MEMBRANE / v053</p>
+        <h1 id="work-title">The paint<br><i>dries toward the pressure.</i></h1>
+        <p class="membrane-lede">A passage across the skin is not a line to keep. Drag from an edge to another, let the pressure settle, and release: the whole membrane leans toward the crossing. The hand disappears; the drying remains.</p>
+      </section>
+
+      <section class="membrane-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">ONE CONTINUOUS SKIN</p>
+          <p class="membrane-copy">Pointer or touch: begin near one edge, cross the membrane, and release near another edge. A settled passage changes the entire continuous skin rather than leaving a local stroke. ArrowLeft or ArrowRight chooses a deterministic crossing; Enter or Space performs it. Delete lifts the latest crossing; Escape, R, or “dry the membrane” returns to the quiet skin. S downloads a PNG.</p>
+        </div>
+        <p class="membrane-state" data-interaction-state aria-live="polite">The membrane is quiet. Cross it, then let the pressure settle.</p>
+      </section>
+
+      <section class="membrane-annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v053</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Pressure is not a mark. A settled edge-to-edge passage re-produces the entire membrane along its direction and becomes part of the next drying state.</dd></div>
+          <div><dt>visitor action</dt><dd>Cross the continuous skin from one edge to another and settle before releasing. Four crossings compound in order and can be lifted exactly.</dd></div>
+          <div><dt>falsifier</dt><dd>If a passage leaves a local stripe, commits without crossing, or changes only colour and readout, the pressure has not become material agency.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v053 if the blind view reads as a decorated field, if crossing order is cosmetic, if pressure does not settle, or if lifting cannot restore the preceding skin.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-09/">previous daily work</a><a href="/journal/#journal-brush-2026-11-10">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=053"></script>
+</body>
+</html>
