@@ -40,4 +40,4 @@
 
 - Accepted critique: this is a medium/encounter switch with a distinct causal rule, not a palette or density variation.
 - Unresolved doubt: no independent caption-free perceptual reviewer is available in this run. The work remains `candidate / held`; it is not called exhibition-ready.
-- Provider/deployment evidence: pending commit, GitHub synchronization, production deployment, and production readback.
+- Provider/deployment evidence: auth one-shot returned `AUTH_OK`; commit `71bbed914c518c88d97df188db429cabc9b4c24d` matches `origin/main`; Vercel deployment `dpl_FmDkHYDVHchQ7AYkCxXdj2URw1eb` is `READY` at `https://autopoiesis-nine.vercel.app`; production readback found the record in `/studio/data/works.json`, the Journal anchor/title, and the canonical tableau across 20 headless browser runs (all passed). Provider revision linkage remains unresolved because this was a manual local-worktree deployment rather than an explicit Git-linked provider record.
