@@ -52,6 +52,7 @@ Probe: `scripts/portrait-v048-probe.mjs`
 - Production diagnostics: 0 console/page errors; 0 first-party bad responses; 0 overflow; minimum tested control target 44px.
 - Production readbacks returned HTTP 200 for `works.json`, `catalog-public.json`, Journal, canonical work, raw tableau, and favicon. Rendered Journal exposed `journal-portrait-2026-11-11` and the exact title.
 - Production proof directory: `research/qa/proofs/portrait-v048-2026-11-11-production/`
+- Final stable-alias rerun after the final `READY` deployment: `research/qa/proofs/portrait-v048-2026-11-11-production-final/` (20/20, 0 diagnostics, 0 bad first-party responses).
 
 ## Gate state
 
