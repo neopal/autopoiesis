@@ -51,7 +51,7 @@
         {"persona":"Cynic","argument":"Delete v050 if proximity is only a highlight, repeated attention commits, the false answer lands in an attended room, only a local word changes, order is cosmetic, memory resets, exact lifting fails, or the blind field reads as a generic grid/interface.","status":"gate"}
       ],
       "browserEvidence": {
-        "status": "20/20 local headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; raw/canonical tableau order, pointer, touch-equivalent pointer path, keyboard, lift, release, blind preview, readbacks, diagnostics, favicon, and responsive checks passed; production evidence pending",
+        "status": "20/20 local and 20/20 stable production headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; raw/canonical tableau order, pointer, touch-equivalent pointer path, keyboard, lift, release, blind preview, Journal/current/work readbacks, diagnostics, favicon, and responsive checks passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": ["320x568", "390x844", "768x1024", "1280x800", "1920x1080"],
@@ -73,7 +73,27 @@
         "localReadbacks": "Local works.json and catalog-public.json each contained exactly one naive-2026-11-11 record; rendered Journal anchor/title, Naive current title, canonical work, raw v050 tableau, and favicon returned 200.",
         "localProofPath": "research/qa/proofs/naive-v050-2026-11-11-local/",
         "localScreenshotCount": 22,
-        "unresolved": ["independent caption-free perceptual review", "production browser matrix and rendered production readbacks", "provider revision linkage between final Vercel deployment and GitHub SHA"]
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v050/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/naive-art/v050/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/naive-2026-11-11/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionBadResponses": 0,
+        "productionOverflow": 0,
+        "productionTargetWidthsValid": true,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable production reproduced pointer approach-and-release across three distinct words, repeated-room refusal, ArrowRight plus Enter keyboard attention, four deterministic attention trios, exact Delete lift, and release.",
+        "productionBlindPreviewEvidence": "Stable production reduced-motion static blind preview at 390x844 retained four misattributions and nine DOM word fragments while hiding readout, controls, hint, and editorial furniture; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable alias returned HTTP 200 for works.json, catalog-public.json, Journal, Naive current, canonical work, raw v050 tableau, and favicon; source/public JSON each contained exactly one naive-2026-11-11 record; rendered Journal/current/work contained the title.",
+        "productionProofPath": "research/qa/proofs/naive-v050-2026-11-11-production/",
+        "productionScreenshotCount": 22,
+        "deploymentId": "dpl_H6hLejzSLotSDTScgpGvTJ7frX55",
+        "deploymentUrl": "https://autopoiesis-9izszlzg6-lairpa-hotmailfrs-projects.vercel.app",
+        "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from GitHub SHA",
+        "unresolved": ["independent caption-free perceptual review", "provider revision linkage between final Vercel deployment and GitHub SHA"]
       }
     },
     {

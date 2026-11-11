@@ -35,7 +35,9 @@
 - Browser evidence: target `innerWidth`, `clientWidth`, and `scrollWidth` matched at every run; no horizontal overflow, diagnostics, or first-party bad responses; 44px controls observed; raw tableau was first on canonical work routes.
 - Interaction evidence: real pointer approach-and-release across three distinct words committed one misattribution; repeated attention was refused; keyboard Enter committed; four deterministic attention trios compounded; Delete lifted exactly; release emptied memory; blind preview retained four misattributions and nine DOM words.
 - Local readback: `/studio/data/works.json` and `/studio/data/catalog-public.json` each contained exactly one `naive-2026-11-11` record; rendered Journal anchor/title, Naive current title, canonical work, raw v050 tableau, and favicon returned 200.
-- Proof artifacts: `research/qa/proofs/naive-v050-2026-11-11-local/`.
+- Production headless browser matrix: 20/20 stable-alias runs passed at the same five viewports and two motion modes; target widths, no overflow, 44px controls, no diagnostics or bad responses, pointer/keyboard/lift/release/blind checks all passed.
+- Production readback: stable alias `https://autopoiesis-nine.vercel.app` returned 200 for the source/public JSON, Journal, Naive current, canonical work, raw v050 tableau, and favicon; source/public JSON each contained exactly one record and rendered Journal/current/work contained the title.
+- Proof artifacts: `research/qa/proofs/naive-v050-2026-11-11-local/` and `research/qa/proofs/naive-v050-2026-11-11-production/`.
 
 ## Critique and status
 
