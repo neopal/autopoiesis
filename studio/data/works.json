@@ -108,7 +108,7 @@
         }
       ],
       "browserEvidence": {
-        "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer relay, straight-gesture refusal, keyboard relay, touch relay, exact lift, four deterministic transfers, blind preview, Journal/current/work readbacks, diagnostics, favicon, and responsive checks passed; candidate remains held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 stable production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer relay, straight-gesture refusal, keyboard relay, touch relay, exact lift, four deterministic transfers, blind preview, Journal/current/work readbacks, diagnostics, favicon, and responsive checks passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -139,8 +139,24 @@
         "localReadbacks": "Local /studio/data/works.json and /studio/data/catalog-public.json each contained exactly one brush-2026-11-11 record; rendered Journal anchor/title, Brush current card/title, canonical work, raw v054 tableau, and favicon returned 200.",
         "localProofPath": "research/qa/proofs/brush-v054-2026-11-11-local/",
         "localScreenshotCount": 24,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeployment": "https://autopoiesis-4frb5bjp9-lairpa-hotmailfrs-projects.vercel.app",
+        "productionDeploymentId": "dpl_8RP8cbtqdm8CWERnwzsHsGrK9aEB",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionBadResponses": 0,
+        "productionOverflow": 0,
+        "productionTargetWidthsValid": true,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable-alias real pointer relay with a bend changed all nine deposits; straight west-to-east drag was refused; two deterministic button relays compounded; Delete restored the exact preceding signature; Escape released memory; ArrowRight plus Enter committed an equivalent keyboard relay; a touch button relay committed one transfer.",
+        "productionBlindPreviewEvidence": "Stable-alias reduced-motion static blind preview at 390x844 retained four relay memories, nine SVG deposits, and four produced relay curves while hiding readout, controls, selection, hint, caption, and editorial furniture; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable alias returned HTTP 200 for works.json, catalog-public.json, Journal, Brush current, canonical work, raw v054, and favicon; works.json and catalog-public.json each contained exactly one brush-2026-11-11 record; rendered Journal/current/work contained the title; no diagnostics or first-party response failures.",
+        "productionProofPath": "research/qa/proofs/brush-v054-2026-11-11-production/",
+        "productionScreenshotCount": 24,
+        "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from GitHub SHA",
         "unresolved": [
-          "production browser matrix and readbacks",
           "independent caption-free perceptual review",
           "provider revision linkage between final Vercel deployment and GitHub SHA"
         ]

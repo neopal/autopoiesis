@@ -56,6 +56,16 @@ The interaction and the visible consequence are coupled: one accepted relay chan
 - Readbacks: local source and public catalog each contained exactly one `brush-2026-11-11` record; rendered Journal, Brush current, canonical work, raw v054 tableau, and favicon returned HTTP 200.
 - Proofs: `research/qa/proofs/brush-v054-2026-11-11-local/`.
 
+## Production evidence
+
+- Deployment: **READY** at `https://autopoiesis-nine.vercel.app`.
+- Deployment URL: `https://autopoiesis-4frb5bjp9-lairpa-hotmailfrs-projects.vercel.app`.
+- Deployment ID: `dpl_8RP8cbtqdm8CWERnwzsHsGrK9aEB`.
+- Stable-alias browser matrix: **20/20 passed** across the same five viewports and two motion modes.
+- Production diagnostics: **0** console messages, page errors, failed requests, or HTTP 400+ responses; overflow failures: **0**.
+- Production readbacks: stable alias returned HTTP 200 for `works.json`, `catalog-public.json`, Journal, Brush current, canonical work, raw v054, and favicon; source/public registries each contained exactly one `brush-2026-11-11` record; rendered Journal/current/work contained the title.
+- Production proofs: `research/qa/proofs/brush-v054-2026-11-11-production/`.
+
 ## Gate status
 
-The artifact is recorded honestly as **candidate / held**. The executable, deterministic tableau and structural interaction gates passed locally. Independent caption-free perceptual review remains unavailable, and production evidence plus provider revision linkage must be verified before claiming more than a held candidate.
+The artifact is recorded honestly as **candidate / held**. The executable, deterministic tableau and local/production structural interaction gates passed. Independent caption-free perceptual review remains unavailable. Vercel deployment was verified independently from GitHub synchronization; provider revision linkage is not available, so the work is not called exhibition-ready.
