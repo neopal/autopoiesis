@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee9db">
+  <title>MUTINE — The gap is a third mark.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction') || location.hash === '#interaction') document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1' || location.hash === '#static') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="./style.css?v=049">
+  <link rel="stylesheet" href="/studio/work.css">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="svg-2026-11-11"></script>
+</head>
+<body class="work-page" data-current="svg">
+  <div class="studio-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>work / pure SVG / v049</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+    <main class="studio-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">→</span><a href="/currents/pure-svg/">pure SVG</a><span aria-hidden="true">→</span><span aria-current="page">v049</span></nav>
+      <section class="work-surface" aria-label="Pure SVG daily work">
+        <div class="field-wrap artwork-frame">
+          <svg id="field" viewBox="0 0 1200 760" role="img" aria-label="Eight paired marks make four narrow corridors; a passing relation can cut a third absence" preserveAspectRatio="xMidYMid meet" tabindex="0" aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R"></svg>
+          <div class="field-readout" aria-live="polite"><span data-stage>quiet field / 00</span><span data-memory>0 gaps · four corridors open</span></div>
+          <div class="field-controls" aria-label="Work gestures">
+            <button type="button" id="pass-control" data-gesture="pass">pass the next gap</button>
+            <button type="button" id="lift-control" data-gesture="lift">lift latest</button>
+            <button type="button" id="release-control" data-gesture="release">release field</button>
+          </div>
+        </div>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Eight separate SVG marks are arranged as four paired thresholds. The blank between them is not a panel or a target; it is the work's only shared space.</p></div>
+          <div><span>changed rule</span><p>A visitor must pass through a narrow corridor without touching either mark. The relation opens a real notch in both marks and produces a third absence.</p></div>
+          <div><span>progression</span><p>Move through a corridor, then leave the field. Arrow keys and Enter perform the same deterministic passage. Delete lifts one cut; Escape or R releases.</p></div>
+        </aside>
+      </section>
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">PURE SVG / V049 / DAILY WORK</p><h1 id="work-title">The gap is<br><i>a third mark.</i></h1></div>
+        <p class="work-premise">The visitor cannot choose a mark. Only a passage between two marks can make the empty relation become a new piece of the image.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for caption-free perceptual critique.</strong> The structural test passes: a corridor remains inert until a non-touching passage crosses it, same-side and collision paths refuse, paired masks open actual notches, four relation-cuts compound, and lifting replays the exact prior field. Promotion depends on whether the blind image reads as a strange economy of relations rather than a diagram of targets.</p></section>
+    </main>
+    <footer class="studio-footer"><a href="/currents/pure-svg/">pure SVG current</a><span>creation → critique → progression</span><a href="/journal/">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=049"></script>
+</body>
+</html>
