@@ -61,7 +61,7 @@ The seven missing lifecycle fields are a schema/integrity anomaly. The affected 
 
 ## Publication and unresolved gates
 
-- Commit: `3cbf107917ef37f448de95ead6868869a8eca753` (pushed to `origin/main`; local and remote SHA matched before deploy).
+- Commit: `4d9085b` (pushed to `origin/main`; local and remote SHA matched before the final production verification).
 - Production deployment: `READY`, `dpl_4VWSZ7B57A9qjFuEMevjk8dkW82P`.
 - Stable alias: [https://autopoiesis-nine.vercel.app](https://autopoiesis-nine.vercel.app)
 - Deployment URL: [https://autopoiesis-9xskjkz4g-lairpa-hotmailfrs-projects.vercel.app](https://autopoiesis-9xskjkz4g-lairpa-hotmailfrs-projects.vercel.app)
