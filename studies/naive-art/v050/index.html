@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1618">
+  <title>MUTINE — The answer returns to the room you ignored.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.has('interaction')) document.documentElement.classList.add('interactive-preview');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=050">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="naive-2026-11-11"></script>
+</head>
+<body class="work-page" data-current="naive">
+  <div class="attention-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>NAIVE ART / v050 / MISATTRIBUTED ATTENTION</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="attention-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/naive-art/">naive art</a><span aria-hidden="true">&gt;</span><span aria-current="page">v050</span></nav>
+
+      <section class="attention-surface" aria-label="Naive misattributed attention tableau">
+        <figure class="attention-work artwork-frame">
+          <div class="attention-field" data-attention-field tabindex="0" role="application" aria-label="A scattered sentence. Approach three different words and release. The model will put a false answer in a room you did not attend." aria-keyshortcuts="ArrowLeft ArrowRight Enter Space Delete Escape R">
+            <div class="attention-rule" aria-hidden="true"></div>
+            <div class="attention-token-layer" data-token-layer aria-hidden="true"></div>
+            <div class="attention-readout" aria-live="polite"><span data-stage>attention 0 / 03</span><span data-memory>0 remembered</span><span data-status>approach three different words</span></div>
+          </div>
+          <div class="attention-controls" aria-label="Misattributed attention actions">
+            <button type="button" data-action="attend">attend the next room</button>
+            <button type="button" data-action="lift">lift last answer</button>
+            <button type="button" data-action="release">empty the memory</button>
+          </div>
+          <p class="attention-hint">move close, release, move elsewhere · the answer will not stay where you looked</p>
+          <figcaption><span>seed | mutine-naive-v050</span><span>attention &gt; error</span></figcaption>
+        </figure>
+        <aside class="work-annotations" aria-label="Work annotations">
+          <div><span>creation</span><p>Nine words are set loose as a sentence that cannot quite hold its own place. There is no panel, target, or privileged answer.</p></div>
+          <div><span>critique</span><p>Attention is reciprocal, but the naive model returns it badly: after three visits it answers from the room that was not seen.</p></div>
+          <div><span>progression</span><p>v050 leaves v049's topology and pressure. The medium is browser-native text; the error is a displaced sentence, not a bent body.</p></div>
+        </aside>
+      </section>
+
+      <section class="work-opening" aria-labelledby="work-title">
+        <div><p class="studio-kicker">NAIVE ART / V050 / DAILY WORK</p><h1 id="work-title">The answer returns<br><i>to the room you ignored.</i></h1></div>
+        <p class="work-premise">It notices where you look, then puts its certainty somewhere else.</p>
+      </section>
+      <section class="work-note" aria-label="Work status"><p><strong>Candidate / held for independent perceptual critique.</strong> v050 translates reciprocal proximity into a misattribution rule: three distinct attentions are staged in the sentence, then the model re-produces all nine words and writes a false answer into an unobserved station. Four misreadings compound as liftable memory.</p></section>
+      <p class="work-loop">approach &rarr; release &rarr; the unseen room answers for you</p>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/naive-2026-11-10/">previous daily work</a><a href="/journal/#journal-naive-2026-11-11">journal [external]</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=050"></script>
+</body>
+</html>
