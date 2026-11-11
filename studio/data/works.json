@@ -137,7 +137,7 @@
         "lineage": "svg-2026-11-08"
       },
       "browserEvidence": {
-        "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer crossing, keyboard passage, collision refusal, four deterministic cuts, blind preview, Journal/current/work readbacks, diagnostics, favicon, and responsive checks passed; candidate remains held pending independent caption-free perceptual review, production verification, and provider revision linkage",
+        "status": "20/20 local and 20/20 stable production raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer crossing, keyboard passage, collision refusal, four deterministic cuts, blind preview, Journal/current/work readbacks, diagnostics, favicon, and responsive checks passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -168,9 +168,24 @@
         "localReadbacks": "Local /studio/data/works.json and /studio/data/catalog-public.json each contained exactly one svg-2026-11-11 record; rendered Journal anchor/title, Pure SVG current card/title, canonical work, raw v049 tableau, and favicon returned 200.",
         "localProofPath": "research/qa/proofs/svg-v049-2026-11-11-local/",
         "localScreenshotCount": 2,
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionDeployment": "https://autopoiesis-9xskjkz4g-lairpa-hotmailfrs-projects.vercel.app",
+        "productionDeploymentId": "dpl_4VWSZ7B57A9qjFuEMevjk8dkW82P",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionBadResponses": 0,
+        "productionOverflow": 0,
+        "productionTargetWidthsValid": true,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "Stable production reproduced pointer crossing, mark-collision refusal, exact lift, keyboard passage, four compounded relation-cuts, and release.",
+        "productionBlindPreviewEvidence": "Stable production blind preview at 390x844 retained four cuts and eight marks while hiding readout, controls, guides, annotations, opening, and key shortcuts; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "Stable production returned 200 for /journal/, /currents/pure-svg/, /works/svg-2026-11-11/, /studies/pure-svg/v049/, both JSON registers, and /studio/favicon.svg; the rendered Journal contained the v049 anchor/title and both source/public registers contained exactly one record.",
+        "productionProofPath": "research/qa/proofs/svg-v049-2026-11-11-production/",
+        "productionScreenshotCount": 2,
         "unresolved": [
           "independent caption-free perceptual review",
-          "stable production browser and readback verification",
           "provider revision linkage between final Vercel deployment and GitHub SHA"
         ]
       }

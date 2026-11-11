@@ -61,8 +61,16 @@ The seven missing lifecycle fields are a schema/integrity anomaly. The affected 
 
 ## Publication and unresolved gates
 
-Not yet committed, pushed, or deployed in this run. Production browser/readback verification, independent caption-free perceptual review, and provider revision linkage between the eventual Vercel deployment and GitHub SHA remain unresolved. Keep the candidate held and do not claim exhibition-ready status.
+- Commit: `3cbf107917ef37f448de95ead6868869a8eca753` (pushed to `origin/main`; local and remote SHA matched before deploy).
+- Production deployment: `READY`, `dpl_4VWSZ7B57A9qjFuEMevjk8dkW82P`.
+- Stable alias: [https://autopoiesis-nine.vercel.app](https://autopoiesis-nine.vercel.app)
+- Deployment URL: [https://autopoiesis-9xskjkz4g-lairpa-hotmailfrs-projects.vercel.app](https://autopoiesis-9xskjkz4g-lairpa-hotmailfrs-projects.vercel.app)
+- Stable production browser probe: **20/20** raw/canonical runs passed at all five required viewports in normal and reduced-motion modes; **0** matrix failures, overflow failures, diagnostics, and bad responses; pointer/keyboard/collision/four-cut/lift/release and blind checks passed.
+- Stable production readback: `/journal/`, `/currents/pure-svg/`, canonical work, raw tableau, source/public JSON, and favicon returned `200`; the rendered Journal contained `journal-svg-2026-11-11` and the title; source and public registers each contained exactly one work record.
+- Production screenshots: `research/qa/proofs/svg-v049-2026-11-11-production/`.
+
+The deployment was manual from the local worktree. GitHub synchronization and Vercel deployment are both observed, but an explicit provider revision record linking this deployment to the pushed Git SHA is still unresolved. Independent caption-free perceptual review is also unavailable; keep `candidate / held` and do not claim exhibition-ready status.
 
 The seven historical lifecycle anomalies remain untouched and should be repaired in a separate integrity task. The four non-target 2026-11-11 slots remain absent rather than fabricated.
 
-**Status: svg-2026-11-11 created and locally verified as candidate / held; production, independent perceptual, full-suite release, and provider-provenance gates remain open.**
+**Status: svg-2026-11-11 created, committed, pushed, and production-verified as candidate / held; independent perceptual and provider-provenance gates remain open.**

@@ -16,7 +16,10 @@ function diagnosticsFor(page) {
   const diagnostics = { console: [], pageErrors: [], failedRequests: [], badResponses: [] };
   page.on('console', (message) => { if (message.type() === 'error' && diagnostics.console.length < 12) diagnostics.console.push(message.text()); });
   page.on('pageerror', (error) => { if (diagnostics.pageErrors.length < 12) diagnostics.pageErrors.push(String(error)); });
-  page.on('requestfailed', (request) => { if (diagnostics.failedRequests.length < 12) diagnostics.failedRequests.push(`${request.method()} ${request.url()} ${request.failure()?.errorText ?? ''}`); });
+  page.on('requestfailed', (request) => {
+    const errorText = request.failure()?.errorText ?? '';
+    if (errorText !== 'net::ERR_ABORTED' && diagnostics.failedRequests.length < 12) diagnostics.failedRequests.push(`${request.method()} ${request.url()} ${errorText}`);
+  });
   page.on('response', (response) => { if (response.status() >= 400 && diagnostics.badResponses.length < 12) diagnostics.badResponses.push(`${response.status()} ${response.url()}`); });
   return diagnostics;
 }
