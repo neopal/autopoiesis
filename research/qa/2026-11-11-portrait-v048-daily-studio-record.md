@@ -40,6 +40,19 @@ Probe: `scripts/portrait-v048-probe.mjs`
 - Readbacks: local `works.json`, public catalog, Journal, canonical work, raw tableau, and favicon all returned HTTP 200; rendered Journal exposed `journal-portrait-2026-11-11` and the exact title.
 - Proof directory: `research/qa/proofs/portrait-v048-2026-11-11-local/`
 
+## Production verification
+
+- **Stable alias:** `https://autopoiesis-nine.vercel.app`
+- **Deployment:** `READY`
+- **Deployment ID:** `dpl_837BTSZDaZPwGCdaNVooEor4RZ6V`
+- **Deployment URL:** `https://autopoiesis-clx2nxzaf-lairpa-hotmailfrs-projects.vercel.app`
+- 20/20 production headless Chrome runs passed across the same five viewports and two motion modes.
+- Production interaction reproduced inert arrival, valid departure, whole-body change, witness reflow, exact lift, keyboard departure, release, and four compounded departures.
+- Production blind preview retained four departures at `390×844`; controls, readout, hint, and coordinate furniture were hidden; `innerWidth/clientWidth/scrollWidth = 390/390/390`.
+- Production diagnostics: 0 console/page errors; 0 first-party bad responses; 0 overflow; minimum tested control target 44px.
+- Production readbacks returned HTTP 200 for `works.json`, `catalog-public.json`, Journal, canonical work, raw tableau, and favicon. Rendered Journal exposed `journal-portrait-2026-11-11` and the exact title.
+- Production proof directory: `research/qa/proofs/portrait-v048-2026-11-11-production/`
+
 ## Gate state
 
-The executable tableau and structural tests are green. Candidate remains held pending the production browser matrix, independent caption-free perceptual review, and explicit provider revision linkage. A successful local probe does not prove deployment.
+The executable tableau, structural tests, local browser matrix, production browser matrix, and public readbacks are green. Candidate remains held pending independent caption-free perceptual review and explicit provider revision linkage. The Vercel deployment was manually performed from the local worktree; deployment readiness is verified separately from GitHub synchronization and does not prove a Git-linked provider revision.

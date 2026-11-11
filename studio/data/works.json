@@ -132,7 +132,7 @@
         "selectedBySlot": true
       },
       "browserEvidence": {
-        "status": "20/20 local headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, keyboard, lift, release, blind preview, canonical route, Journal, catalog, works, and favicon checks passed; candidate remains held pending production deployment, independent caption-free perceptual review, and provider revision linkage",
+        "status": "20/20 local and 20/20 stable-production headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer, keyboard, lift, release, blind preview, canonical route, Journal, catalog, works, and favicon checks passed; candidate remains held pending independent caption-free perceptual review and provider revision linkage",
         "productionReady": false,
         "runner": "headless system Chrome via Playwright",
         "viewports": [
@@ -164,10 +164,29 @@
         "localProofPath": "research/qa/proofs/portrait-v048-2026-11-11-local/",
         "localScreenshotCount": 3,
         "unresolved": [
-          "production deployment readback",
           "independent caption-free perceptual review",
           "provider revision linkage between final Vercel deployment and GitHub SHA"
-        ]
+        ],
+        "productionAlias": "https://autopoiesis-nine.vercel.app",
+        "productionRawPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v048/?preview=1&interaction=1",
+        "productionBlindPreview": "https://autopoiesis-nine.vercel.app/studies/self-portrait/v048/?preview=1&static=1&blind=1",
+        "productionCanonicalWork": "https://autopoiesis-nine.vercel.app/works/portrait-2026-11-11/",
+        "productionViewportRuns": 20,
+        "productionRawViewportRuns": 10,
+        "productionCanonicalViewportRuns": 10,
+        "productionDiagnostics": 0,
+        "productionBadResponses": 0,
+        "productionOverflow": 0,
+        "productionTargetWidthsValid": true,
+        "productionMinTouchTarget": 44,
+        "productionInteraction": "{\"firstNoticeHeld\":true,\"heldGeometryNeutral\":true,\"repeatedRefused\":true,\"threeNoticesHeld\":true,\"committed\":true,\"wholeBodyChanged\":true,\"allWitnessesReproduced\":true,\"liftRestored\":true,\"keyboardCommitted\":true,\"released\":true,\"fourCompounded\":true}",
+        "productionBlindPreviewEvidence": "Stable production reduced-motion static blind preview at 390x844 retained four cumulative departures, forty body points, and seven threshold witnesses while hiding readout, controls, hint, and coordinate furniture; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "productionReadbacks": "{\"works\":{\"status\":200,\"hasWork\":true,\"hasJournal\":true,\"hasTitle\":true},\"publicCatalog\":{\"status\":200,\"hasWork\":true,\"hasJournal\":true,\"hasTitle\":true},\"journal\":{\"status\":200,\"hasWork\":false,\"hasJournal\":true,\"hasTitle\":true,\"rendered\":true},\"canonical\":{\"status\":200,\"hasWork\":true,\"hasJournal\":true,\"hasTitle\":true},\"raw\":{\"status\":200,\"hasWork\":true,\"hasJournal\":true,\"hasTitle\":true},\"favicon\":{\"status\":200,\"hasWork\":false,\"hasJournal\":false,\"hasTitle\":false}}",
+        "productionProofPath": "research/qa/proofs/portrait-v048-2026-11-11-production/",
+        "productionScreenshotCount": 4,
+        "deploymentId": "dpl_837BTSZDaZPwGCdaNVooEor4RZ6V",
+        "deploymentUrl": "https://autopoiesis-clx2nxzaf-lairpa-hotmailfrs-projects.vercel.app",
+        "providerRevisionLinkage": "not available; manual Vercel deployment was verified independently from the GitHub SHA"
       },
       "decision": {
         "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v048 if arrival changes geometry, one station changes alone, departure is cosmetic, later departures reset, exact lifting fails, or the blind body reads as a profile or dashboard.",

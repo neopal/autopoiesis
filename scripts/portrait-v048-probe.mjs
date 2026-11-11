@@ -6,6 +6,7 @@ import { chromium } from 'playwright';
 
 const root = path.resolve('.');
 const proofDir = path.resolve(process.env.PORTRAIT_V048_PROOF_DIR ?? 'research/qa/proofs/portrait-v048-2026-11-11-local');
+const externalBaseUrl = process.env.PORTRAIT_V048_BASE_URL ?? null;
 const mime = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml',
@@ -40,9 +41,9 @@ const server = createServer(async (request, response) => {
   }
 });
 await mkdir(proofDir, { recursive: true });
-await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
+if (!externalBaseUrl) await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
 const address = server.address();
-const baseUrl = `http://127.0.0.1:${address.port}`;
+const baseUrl = externalBaseUrl ?? `http://127.0.0.1:${address.port}`;
 const browser = await chromium.launch({
   headless: true,
   ...(process.env.PORTRAIT_V048_CHROME ? { executablePath: process.env.PORTRAIT_V048_CHROME } : {})
@@ -245,4 +246,4 @@ if (!blind.canvasVisible || blind.state?.memory?.length !== 4 || blind.controls 
 if (Object.values(readbacks).some((entry) => entry.status !== 200)) process.exitCode = 1;
 if (!readbacks.works.hasWork || !readbacks.publicCatalog.hasWork || !readbacks.journal.hasJournal || !readbacks.journal.hasTitle || !readbacks.canonical.status || !readbacks.raw.hasTitle || readbacks.favicon.status !== 200) process.exitCode = 1;
 await browser.close();
-server.close();
+if (!externalBaseUrl) server.close();
