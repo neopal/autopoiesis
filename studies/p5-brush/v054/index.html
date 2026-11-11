@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#16111d">
+  <title>MUTINE — The pigment changes hands.</title>
+  <link rel="icon" href="/studio/favicon.svg" type="image/svg+xml">
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.has('preview')) document.documentElement.classList.add('preview-mode');
+    if (params.get('interaction') === '1') document.documentElement.classList.add('interaction-mode');
+    if (params.get('static') === '1') document.documentElement.classList.add('static-mode');
+    if (params.get('blind') === '1') document.documentElement.classList.add('blind-mode');
+  </script>
+  <link rel="stylesheet" href="/studio/wayfinding.css">
+  <link rel="stylesheet" href="/studio/work.css">
+  <link rel="stylesheet" href="./style.css?v=054">
+  <script type="module" src="/studio/raw-bridge.js" data-raw-work-id="brush-2026-11-11"></script>
+</head>
+<body class="work-page" data-current="brush">
+  <div class="relay-shell">
+    <header class="studio-header">
+      <a class="studio-mark" href="/" aria-label="Return to Mutine gallery">MUTINE</a>
+      <p>BRUSH / v054 / RELAY LEDGER</p>
+      <nav class="studio-nav" aria-label="Studio navigation"><a href="/">gallery</a><a href="/journal/">journal</a></nav>
+    </header>
+
+    <main class="relay-main">
+      <nav class="studio-path" aria-label="Studio path"><a href="/">gallery</a><span aria-hidden="true">&gt;</span><a href="/currents/brush/">brush</a><span aria-hidden="true">&gt;</span><span aria-current="page">v054</span></nav>
+
+      <figure class="relay-work artwork-frame" aria-labelledby="work-title">
+        <div id="relay-field" class="relay-field" tabindex="0" role="application" aria-label="A ledger of nine detached pigment deposits. Drag from one outer seam to another with a bend; a complete pressure relay remakes every deposit and stores the transfer. Same seam, weak, or straight gestures are refused." aria-keyshortcuts="Enter Space Delete Escape R S ArrowLeft ArrowRight">
+          <div class="relay-readout" aria-live="polite"><span data-relay-stage>RELAY 00 / 04</span><span data-relay-memory>quiet ledger · no transfer retained</span></div>
+          <div class="relay-selection" data-selection>west → east / ready</div>
+          <div class="relay-svg-wrap" data-relay-canvas>
+            <svg data-relay-svg viewBox="0 0 1000 700" role="img" aria-label="Nine detached pigment deposits in a broken field"></svg>
+          </div>
+          <div class="relay-controls" aria-label="Material actions">
+            <button type="button" data-gesture="relay">make a pressure relay</button>
+            <button type="button" data-gesture="lift">lift last relay</button>
+            <button type="button" data-gesture="release">dry the ledger</button>
+          </div>
+          <p class="relay-hint">drag seam → bend → another seam</p>
+        </div>
+        <figcaption><span>seed | mutine-brush-v054-relay-ledger</span><span>press &gt; transfer &gt; remember</span></figcaption>
+      </figure>
+
+      <section class="relay-opening" aria-labelledby="work-title">
+        <p class="eyebrow">BRUSH / RELAY LEDGER / v054</p>
+        <h1 id="work-title">The pigment<br><i>changes hands.</i></h1>
+        <p class="relay-lede">There is no surface to paint. Nine deposits wait apart. A bent pressure relay between two outer seams makes the whole ledger re-form; the hand disappears, but the transfer remains in every piece.</p>
+      </section>
+
+      <section class="relay-panel" aria-labelledby="interaction-title">
+        <div>
+          <p class="eyebrow" id="interaction-title">DETACHED MATERIAL</p>
+          <p class="relay-copy">Pointer or touch: begin near an outer seam, bend through the field, and release near a different seam. Enter or Space performs a deterministic relay; ArrowLeft and ArrowRight choose its direction. Delete lifts the latest transfer. Escape, R, or “dry the ledger” returns to the quiet field. S downloads the SVG.</p>
+        </div>
+        <p class="relay-state" data-interaction-state aria-live="polite">The ledger is quiet. Give the pressure somewhere else to go.</p>
+      </section>
+
+      <section class="relay-annotations" aria-labelledby="annotation-title">
+        <p class="eyebrow" id="annotation-title">ANNOTATIONS / v054</p>
+        <dl>
+          <div><dt>changed rule</dt><dd>Pressure is not a local mark or a continuous skin. A bent relay between two different seams transfers material through every detached deposit.</dd></div>
+          <div><dt>visitor action</dt><dd>Make a two-seam relay with a bend. Four transfers compound in order and can be lifted exactly.</dd></div>
+          <div><dt>falsifier</dt><dd>If a straight drag, a weak press, or a same-seam return commits—or if only a line and readout change—the material has not changed hands.</dd></div>
+          <div><dt>deletion</dt><dd>Delete v054 if the blind field reads as a target diagram, if all deposits do not move, if relay order is cosmetic, or if lifting cannot restore the preceding ledger.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="studio-footer"><a href="/">studio wall</a><a href="/works/brush-2026-11-10/">previous daily work</a><a href="/journal/#journal-brush-2026-11-11">journal ↗</a></footer>
+  </div>
+  <script type="module" src="./sketch.js?v=054"></script>
+</body>
+</html>

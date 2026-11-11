@@ -2,6 +2,151 @@
   "schema": "mutine-works/v1",
   "works": [
     {
+      "id": "brush-2026-11-11",
+      "currentId": "brush",
+      "date": "2026-11-11",
+      "title": "The pigment changes hands.",
+      "rawPath": "/studies/p5-brush/v054/",
+      "status": "candidate / held",
+      "lifecycle": "active",
+      "journal": {
+        "anchor": "journal-brush-2026-11-11",
+        "note": "v054 abandons v051's phase-locked ring, v052's vacancy register, and v053's continuous membrane. Nine detached SVG pigment deposits now share a bent pressure relay: a transfer between different outer seams re-forms every piece and leaves the hand path behind. Four transfers compound and lift exactly."
+      },
+      "decision": {
+        "nextMutation": "Run labels-off, readout-off, controls-off, hint-off, and prose-off comparison; delete v054 if the detached field reads as a target diagram or decorative scatter, if the relay line is the only evidence, if any deposit remains fixed, if order is cosmetic, or if lifting is inexact.",
+        "lineage": "brush-2026-11-10"
+      },
+      "source": {
+        "referenceId": "p5-brush",
+        "title": "p5.brush",
+        "url": "https://github.com/acamposuribe/p5.brush",
+        "observedMechanism": "A programmable material engine treats pressure, density, directional behaviour, fills, and vector fields as production rules that alter how geometry is generated rather than decorating a finished mark.",
+        "translatedRule": "Refuse brush presets, watercolor appearance, hatching vocabulary, grain treatment, source palette, source composition, source code, examples, and API surface. Translate material production into a bent two-seam pressure relay that re-produces every detached deposit; the relay changes the rule of manufacture rather than preserving a local stroke.",
+        "visibleConsequence": "The blind view is nine separate SVG pigment deposits in a broken field. A valid relay moves, tilts, and re-scales all nine pieces and adds a produced seam; four transfers compound without preserving the pointer path.",
+        "falsifier": "If a same-seam, weak, or straight gesture commits, if only the relay line or readout changes, if any deposit stays fixed, if relay order is cosmetic, or if lifting is inexact, the translation fails.",
+        "antiCopy": "No p5.brush preset, watercolor appearance, hatching vocabulary, grain treatment, source palette, source composition, source code, examples, API surface, or source imagery is reproduced.",
+        "directionConsequence": "Closes Brush's radial-body, vacancy-register, and continuous-skin sequence and opens detached material: matter can answer through pieces that never shared one surface.",
+        "selectedBySlot": true
+      },
+      "metrics": {
+        "id": "p5-brush-v054-relay-ledger",
+        "seed": "0x42523534",
+        "visitorInput": true,
+        "replay": true,
+        "renderer": "deterministic inline SVG detached relay ledger",
+        "grammar": "relay-ledger",
+        "depositCount": 9,
+        "stationCount": 4,
+        "memoryWindow": 4,
+        "commitThreshold": "bent pressure relay between two different outer seams; same-seam, weak, or straight paths refuse",
+        "primitiveBudget": "nine detached generated SVG deposits, four outer seams, one produced relay path per accepted transfer, and four liftable global remakes",
+        "memoryRule": "each accepted relay re-produces every deposit from ordered pressure, counterpressure, and shear; relay order changes the next ledger and lift restores the prior field",
+        "interactionRule": "pointer or touch starts near one outer seam, bends through the field, and releases near another; ArrowLeft/ArrowRight selects; Enter/Space relays; Delete lifts latest; Escape or R releases; S downloads",
+        "representationRupture": "radial ring, relief tablet, vacancy register, and continuous membrane -> nine detached inline SVG deposits with no enclosing surface",
+        "compositionRupture": "centred bodies and broad skin -> broken diagonal constellation with a large unoccupied middle and no cells or grid",
+        "encounterRupture": "phase timing, select-and-cut, edge-to-edge crossing, and settled membrane passage -> bent two-seam pressure relay",
+        "temporalRupture": "local, subtractive, vacancy, and drying memory -> ordered transfer memory that globally remakes detached pieces",
+        "mediumRupture": "p5.js Canvas 2D rings, reliefs, plates, and membranes -> generated inline SVG paths, gradients, masks-free geometry, and DOM pointer events",
+        "changedRule": "A bent relay between two different outer seams transfers the production rule through every detached deposit; a local stroke is never stored.",
+        "visibleConsequence": "The blind view is nine separate pigment deposits in a broken field. A valid relay moves, tilts, and re-scales all nine pieces and adds a produced seam; four relays compound and remain liftable.",
+        "falsifier": "Delete if a same-seam, weak, or straight gesture commits; if only the relay line or readout changes; if any deposit remains fixed; if order is cosmetic; or if lifting is inexact.",
+        "deletionCondition": "Delete v054 if caption-free viewing cannot distinguish detached relay material from v050-v053's bodies, registers, and membrane, or if the p5.brush translation is only explanatory prose.",
+        "promotion": "candidate / held pending local and production browser matrices, independent caption-free perceptual review, and provider revision linkage",
+        "referenceId": "p5-brush"
+      },
+      "critiques": [
+        {
+          "persona": "Detached-form critic",
+          "argument": "The nine unequal deposits and the empty middle must read as a composed material constellation before they read as an interface. No single body may carry the image.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Perceptual critic",
+          "argument": "With readout, controls, hint, labels, and prose hidden, the blind view must leave v050's relief, v052's vacancy register, and v053's membrane. It should read as pieces that share a production rule, not as a target diagram.",
+          "status": "unresolved"
+        },
+        {
+          "persona": "Encounter critic",
+          "argument": "The visitor must bend pressure from one seam to another. Pointer, touch, keyboard, and deterministic relay control must offer equivalent meaningful paths; no hover-only action may carry the work.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Causal critic",
+          "argument": "An accepted relay must move, tilt, or rescale every deposit. A line, colour shift, status, or selection cannot substitute for distributed geometry.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Resistance critic",
+          "argument": "Same-seam, weak, and straight gestures must remain geometry-neutral. The bend is a real pressure condition in the engine, not an annotation.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Memory critic",
+          "argument": "Four transfers must compound in one ledger. Lift must reconstruct the exact preceding constellation and release must return to the deterministic quiet field.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Medium critic",
+          "argument": "Generated inline SVG paths, gradients, produced relay curves, and DOM pointer events are the medium. No screenshot, external font, imported illustration, brush library, or Canvas 2D body carries the work.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Cultural critic",
+          "argument": "p5.brush is translated from material production rules into a detached pressure relay. Brush presets, watercolor, hatching, grain, source palette, composition, code, examples, and API surface are refused.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Radical progression critic",
+          "argument": "v054 changes representation, composition, encounter, memory, medium, and viewer task: a detached SVG constellation and bent two-seam relay replace the recent Canvas 2D bodies, registers, and continuous membrane.",
+          "status": "accepted"
+        },
+        {
+          "persona": "Cynic",
+          "argument": "Delete v054 if hiding witnesses leaves a generic scatter, if the relay line is the only evidence, if any deposit remains fixed, if order is cosmetic, or if exact lifting fails.",
+          "status": "gate"
+        }
+      ],
+      "browserEvidence": {
+        "status": "20/20 local raw/canonical headless browser runs passed across 320x568, 390x844, 768x1024, 1280x800, and 1920x1080 in normal and reduced-motion modes; pointer relay, straight-gesture refusal, keyboard relay, touch relay, exact lift, four deterministic transfers, blind preview, Journal/current/work readbacks, diagnostics, favicon, and responsive checks passed; candidate remains held pending production readback, independent caption-free perceptual review, and provider revision linkage",
+        "productionReady": false,
+        "runner": "headless system Chrome via Playwright",
+        "viewports": [
+          "320x568",
+          "390x844",
+          "768x1024",
+          "1280x800",
+          "1920x1080"
+        ],
+        "modes": [
+          "normal",
+          "reduced-motion"
+        ],
+        "localAlias": "http://127.0.0.1:41774",
+        "localRawPreview": "/studies/p5-brush/v054/?preview=1&interaction=1",
+        "localBlindPreview": "/studies/p5-brush/v054/?preview=1&static=1&blind=1",
+        "localCanonicalWork": "/works/brush-2026-11-11/",
+        "localViewportRuns": 20,
+        "localRawViewportRuns": 10,
+        "localCanonicalViewportRuns": 10,
+        "localDiagnostics": 0,
+        "localBadResponses": 0,
+        "localOverflow": 0,
+        "localTargetWidthsValid": true,
+        "localMinTouchTarget": 44,
+        "localInteraction": "A real pointer drag from the west seam through a bend to the east seam committed a relay and changed all nine deposits; a straight west-to-east drag was refused; two deterministic button relays compounded; Delete restored the exact preceding signature; Escape released memory; ArrowRight plus Enter committed an equivalent keyboard relay; a touch button relay committed one transfer.",
+        "localBlindPreviewEvidence": "Reduced-motion static blind preview at 390x844 retained four relay memories, nine SVG deposits, and four produced relay curves while hiding readout, controls, selection, hint, caption, and editorial furniture; innerWidth/clientWidth/scrollWidth remained 390/390/390.",
+        "localReadbacks": "Local /studio/data/works.json and /studio/data/catalog-public.json each contained exactly one brush-2026-11-11 record; rendered Journal anchor/title, Brush current card/title, canonical work, raw v054 tableau, and favicon returned 200.",
+        "localProofPath": "research/qa/proofs/brush-v054-2026-11-11-local/",
+        "localScreenshotCount": 24,
+        "unresolved": [
+          "production browser matrix and readbacks",
+          "independent caption-free perceptual review",
+          "provider revision linkage between final Vercel deployment and GitHub SHA"
+        ]
+      }
+    },
+    {
       "id": "svg-2026-11-11",
       "currentId": "svg",
       "date": "2026-11-11",

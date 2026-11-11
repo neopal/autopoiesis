@@ -1,0 +1,85 @@
+:root {
+  --relay-night: #16111d;
+  --relay-deep: #0a0710;
+  --relay-ink: #f2e9d8;
+  --relay-muted: #bdb0c0;
+  --relay-line: rgba(242, 233, 216, .18);
+  --relay-apricot: #ef9a69;
+  --relay-lime: #cbd77a;
+  --relay-blue: #7ab8c0;
+  --relay-violet: #8f74b9;
+  --relay-surface: #211829;
+}
+
+html, body { margin: 0; min-height: 100%; }
+body.work-page {
+  background: radial-gradient(ellipse at 52% 23%, #3b2845 0, var(--relay-night) 53%, var(--relay-deep) 100%);
+  color: var(--relay-ink);
+  font-family: var(--exh-ui, ui-monospace, monospace);
+}
+.relay-shell { width: min(1320px, 100%); min-height: 100vh; margin: 0 auto; padding: 0 clamp(18px, 4.5vw, 56px); box-sizing: border-box; }
+.studio-header { border-color: var(--relay-line); color: var(--relay-muted); }
+.studio-mark, .eyebrow, .studio-path [aria-current="page"] { color: var(--relay-apricot); }
+.studio-header p, .studio-nav a, .studio-path, .studio-path a, .studio-footer, .studio-footer a { color: var(--relay-muted); }
+.studio-nav a:hover, .studio-nav a:focus-visible, .studio-path a:hover, .studio-path a:focus-visible, .studio-footer a:hover, .studio-footer a:focus-visible { color: var(--relay-lime); }
+.relay-main { padding: 22px 0 66px; }
+.studio-path { margin: 0 0 22px; }
+.relay-work { margin: 0; background: var(--relay-surface); }
+.relay-field { position: relative; min-height: 520px; height: clamp(520px, 68vw, 780px); overflow: hidden; background: #16111d; outline: none; }
+.relay-field:focus-visible { box-shadow: inset 0 0 0 2px var(--relay-lime); }
+.relay-svg-wrap, .relay-svg-wrap svg { width: 100%; height: 100%; display: block; }
+.relay-readout { position: absolute; z-index: 3; top: 18px; left: 22px; right: 22px; display: flex; justify-content: space-between; gap: 18px; pointer-events: none; color: var(--relay-muted); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+.relay-selection { position: absolute; z-index: 3; top: 48px; left: 22px; color: rgba(242, 233, 216, .64); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; pointer-events: none; }
+.relay-controls { position: absolute; z-index: 4; left: 22px; right: 22px; bottom: 18px; display: flex; justify-content: center; gap: 8px; }
+.relay-controls button { min-height: 44px; padding: 10px 14px; border: 1px solid rgba(242, 233, 216, .28); background: rgba(22, 17, 29, .82); color: var(--relay-ink); font: 11px var(--exh-ui, monospace); cursor: pointer; }
+.relay-controls button:hover, .relay-controls button:focus-visible { border-color: var(--relay-apricot); color: var(--relay-lime); outline: 2px solid rgba(239, 154, 105, .25); outline-offset: 2px; }
+.relay-hint { position: absolute; z-index: 3; bottom: 78px; left: 22px; color: rgba(242, 233, 216, .58); font-size: 10px; letter-spacing: .09em; text-transform: uppercase; pointer-events: none; }
+.relay-work figcaption { display: flex; justify-content: space-between; gap: 14px; padding: 12px 14px; border-top: 1px solid var(--relay-line); color: var(--relay-muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.relay-opening { max-width: 890px; padding: clamp(44px, 7vw, 92px) 0 clamp(28px, 5vw, 62px); }
+.relay-opening h1 { margin: 14px 0 18px; color: var(--relay-ink); font-family: var(--exh-display, Georgia, serif); font-size: clamp(3rem, 7.8vw, 6.6rem); font-weight: 400; line-height: .92; letter-spacing: -.055em; }
+.relay-opening h1 i { color: var(--relay-apricot); font-weight: 400; }
+.relay-lede, .relay-copy, .relay-state { max-width: 720px; color: var(--relay-muted); font-size: 14px; line-height: 1.65; }
+.relay-panel { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr); gap: 28px; padding: 24px 0; border-top: 1px solid var(--relay-line); border-bottom: 1px solid var(--relay-line); }
+.relay-state { margin: 0; align-self: end; color: var(--relay-lime); }
+.relay-annotations { padding: 38px 0 0; }
+.relay-annotations dl { margin: 18px 0 0; border-top: 1px solid var(--relay-line); }
+.relay-annotations dl > div { display: grid; grid-template-columns: minmax(120px, .3fr) minmax(0, 1fr); gap: 18px; padding: 16px 0; border-bottom: 1px solid var(--relay-line); }
+.relay-annotations dt { color: var(--relay-apricot); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.relay-annotations dd { margin: 0; color: var(--relay-muted); font-size: 13px; line-height: 1.6; }
+.studio-footer { border-color: var(--relay-line); }
+
+[data-relay-svg] { touch-action: none; user-select: none; }
+[data-relay-svg] .deposit { transform-box: fill-box; transform-origin: center; transition: opacity .35s ease; }
+[data-relay-svg] .relay-line { fill: none; stroke-linecap: round; mix-blend-mode: screen; }
+[data-relay-svg] .field-glow { mix-blend-mode: screen; }
+
+html.preview-mode, html.preview-mode body { width: 100%; height: 100%; overflow: hidden; }
+html.preview-mode body { background: #16111d; }
+html.preview-mode .relay-shell { width: 100%; min-height: 100%; padding: 0; }
+html.preview-mode .studio-header, html.preview-mode .studio-path, html.preview-mode .relay-opening, html.preview-mode .relay-panel, html.preview-mode .relay-annotations, html.preview-mode .studio-footer, html.preview-mode figcaption { display: none; }
+html.preview-mode .relay-main { width: 100%; height: 100%; padding: 0; }
+html.preview-mode .relay-work { width: 100%; height: 100%; border: 0; box-shadow: none; }
+html.preview-mode .relay-field { width: 100%; height: 100vh; min-height: 0; }
+html.preview-mode .relay-readout, html.preview-mode .relay-controls, html.preview-mode .relay-selection, html.preview-mode .relay-hint { display: none; }
+html.preview-mode.interaction-mode .relay-readout, html.preview-mode.interaction-mode .relay-controls, html.preview-mode.interaction-mode .relay-selection, html.preview-mode.interaction-mode .relay-hint { display: flex; }
+html.preview-mode.interaction-mode .relay-hint, html.preview-mode.interaction-mode .relay-selection { display: block; }
+html.blind-mode .relay-readout, html.blind-mode .relay-controls, html.blind-mode .relay-selection, html.blind-mode .relay-hint { display: none; }
+html.blind-mode .relay-field { cursor: default; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-relay-svg] .deposit { transition: none; }
+}
+@media (max-width: 680px) {
+  .relay-shell { padding-inline: 14px; }
+  .relay-main { padding-top: 14px; }
+  .relay-field { height: min(650px, 154vw); min-height: 500px; }
+  .relay-readout { top: 13px; left: 13px; right: 13px; font-size: 9px; }
+  .relay-selection { top: 40px; left: 13px; }
+  .relay-controls { left: 13px; right: 13px; bottom: 12px; display: grid; grid-template-columns: 1fr; }
+  .relay-controls button { width: 100%; }
+  .relay-hint { left: 13px; bottom: 174px; max-width: 250px; line-height: 1.5; }
+  .relay-work figcaption { display: block; line-height: 1.7; }
+  .relay-work figcaption span { display: block; }
+  .relay-panel { grid-template-columns: 1fr; gap: 8px; }
+  .relay-annotations dl > div { grid-template-columns: 1fr; gap: 7px; }
+}
